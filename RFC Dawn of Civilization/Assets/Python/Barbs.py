@@ -277,8 +277,10 @@ class Barbs:
 			self.checkSpawn(iBarbarian, iHeavyGalley, 1, (84, 24), (106, 42), self.spawnPirates, iGameTurn, 10, 0)
 
 		# Leoreth: Barbarians in Anatolia (Hittites), replace Hattusas spawn
+		#if utils.isYearIn(-2000, -800):
+			#self.checkSpawn(iBarbarian, iHuluganni, 1 + iHandicap, (81, 51), (86, 55), self.spawnInvaders, iGameTurn, 16, 0, ["TXT_KEY_ADJECTIVE_HITTITE"])
 		if utils.isYearIn(-2000, -800):
-			self.checkSpawn(iBarbarian, iHuluganni, 1 + iHandicap, (81, 51), (86, 55), self.spawnInvaders, iGameTurn, 16, 0, ["TXT_KEY_ADJECTIVE_HITTITE"])
+			self.checkSpawn(iBarbarian, iChariot, 1 + iHandicap, (81, 51), (86, 55), self.spawnInvaders, iGameTurn, 16, 0)
 
 		#barbarians in europe
 		if utils.isYearIn(-210, 470):

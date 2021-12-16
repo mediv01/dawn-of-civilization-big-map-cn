@@ -587,6 +587,7 @@ dStartingLeaders = [
 	iNubia : iPiye,
 	iAssyria : iAshur,
 	iChina : iQinShiHuang,
+	iHittites : iSuppi,
 	iGreece : iPericles,
 	iOlmecs : iTezcatlipoca,
 	iPersia : iCyrus,
@@ -2126,6 +2127,10 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 				return "TXT_KEY_EMPIRE_OF"
 				
 			return "TXT_KEY_EMPIRE_ADJECTIVE"
+			
+	elif iPlayer == iHittites:
+		if bReborn:
+			return "TXT_KEY_KINGDOM_OF_PONTUS"
 			
 	elif iPlayer == iBabylonia:
 		if bCityStates and not bEmpire:

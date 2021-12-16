@@ -116,7 +116,7 @@ def triggerCollapse(iPlayer):
 
 def scheduleCollapse(iPlayer):
 	data.players[iPlayer].iTurnsToCollapse = 1
-	# wunshare : speed up
+	# wunshare: not allow to savegame when collapse
 	#epoch = "BC"
 	#if gc.getGame().getGameTurnYear() > 0: epoch = "AD"
 	#filePath = BugPath.join(BugPath.getRootDir(), 'Saves', 'single', 'collapses', '%s Collapse %d %s (turn %d) %s.CivBeyondSwordSave' % (gc.getPlayer(iPlayer).getCivilizationAdjective(0), abs(gc.getGame().getGameTurnYear()), epoch, gc.getGame().getGameTurn(), date.today()))
@@ -2003,7 +2003,7 @@ def getCorePopulationModifier(iEra):
 def getUnionPop(iPlayer, iCorePopulationModifier):
 	iUnionPop = 0
 	for city in utils.getCityList(iPlayer):
-		if plot.isCore(iPlayer):
+		if city.plot().isCore(iPlayer):
 			iUnionPop += iCorePopulationModifier * city.getPopulation() / 100
 
 	return iUnionPop

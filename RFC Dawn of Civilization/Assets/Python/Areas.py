@@ -58,8 +58,8 @@ def getNormalArea(iPlayer, bReborn=None):
 	return getArea(iPlayer, tNormalArea, dNormalAreaExceptions, bReborn, dChangedNormalArea, dChangedNormalAreaExceptions)			
 				
 def getBroaderArea(iPlayer, bReborn=None):				
-	return getArea(iPlayer, tBroaderArea, {}, dChangedBroaderArea)			
-				
+	return getArea(iPlayer, tBroaderArea, {}, bReborn, dChangedBroaderArea)
+    
 def getRespawnArea(iPlayer):				
 	if iPlayer in dRespawnArea: return getArea(iPlayer, dRespawnArea, {})			
 	return getNormalArea(iPlayer)			
@@ -107,6 +107,7 @@ tCapitals = (
 (78, 37), # Kerma				
 (88, 50), # Assyria				
 (124, 52), # Chang'an				
+(84, 53), # Hittites				
 (76, 51), # Athens
 (19, 41), # La Venta				
 (110, 44), # Pataliputra				
@@ -214,7 +215,8 @@ iManchuria : (125, 56),	# Beijing
 dRespawnCapitals = {				
 iEgypt : (79, 43),	# Cairo			
 iNubia : (81, 35),	# Dongola			
-iChina :  (124, 56),	# Beijing			
+iChina :  (124, 56),	# Beijing		
+iHittites : (84, 55),	# Hittites			
 iIndia : (105, 46),	# Delhi			
 iCarthage : (67, 48),	# Carthage			
 iPersia : (93, 48),	# Esfahan			
@@ -242,6 +244,7 @@ tBirthArea = (
 ((77, 36), 	(80, 38)), 	# Nubia		
 ((87, 49),	(89, 52)),	# Assyria		
 ((119, 49),	(129, 56)),	# China		
+((82, 51),	(86, 54)),	# Hittites		
 ((74, 48),	(80, 55)),	# Greece
 ((19, 35), 	(19, 41)), 	# Olmecs		
 ((101, 42),	(114, 48)),	# India		
@@ -320,7 +323,7 @@ tBirthArea = (
 				
 dChangedBirthArea = {				
 #iCarthage : ((63, 45), (69, 48)),				
-iPersia :	((80, 43), 	(98, 55)), 	# includes Assyria and Anatolia	
+iPersia :	((84, 43), 	(98, 55)), 	# includes Assyria and Anatolia	
 iArabia :	((74, 35),	(90, 50)),	# Arabia	
 iSpain : 	((54, 51), 	(61, 54)), 	# includes Catalonia
 iHungary :	((73, 56),	(77, 59)),	# includes Serbia	
@@ -364,6 +367,7 @@ tCoreArea = (
 ((77, 35),	(81, 37)),	# Nubia		
 ((86, 48),	(89, 52)),	# Assyria		
 ((120, 49),	(129, 56)),	# China		
+((82, 51),	(86, 54)),	# Hittites		
 ((74, 48),	(80, 55)),	# Greece
 ((17, 41), 	(19, 41)), 	# Olmecs		
 ((105, 42),	(113, 47)),	# India		
@@ -443,7 +447,8 @@ tCoreArea = (
 dChangedCoreArea = {			
 iNorteChico :	((26, 26),	(27, 32)),	# Chimu			
 iHarappa :	((103, 35),	(105, 40)),	# Chalukya				
-iChina : ((119, 47),	(129, 56)),			
+iChina : ((119, 47),	(129, 56)),				
+iHittites : ((82, 52),	(86, 55)),			
 iGreece :	((75, 49),	(79, 52)),		
 iIndia :	((103, 37),	(106, 41)),		
 iPhoenicia : ((62, 45),	(69, 48)),	
@@ -530,6 +535,7 @@ tNormalArea = (
 ((76, 31), 	(79, 37)), 	# Nubia		
 ((86, 48),	(89, 52)),	# Assyria		
 ((117, 43),	(130, 59)),	# China		
+((82, 53),	(86, 55)),	# Hittites		
 ((75, 49),	(79, 54)),	# Greece
 ((17, 41), 	(19, 41)), 	# Olmecs		
 ((104, 42),	(114, 48)),	# India		
@@ -608,7 +614,8 @@ tNormalArea = (
 				
 dChangedNormalArea = {	
 iNorteChico : 	((26, 26),	(27, 32)),	# Chimu		
-iHarappa :	((103, 35),	(105, 40)),	# Chalukya					
+iHarappa :	((103, 35),	(105, 40)),	# Chalukya			
+iHittites : ((82, 52),	(86, 55)),					
 iIndia : 	((96, 42),	(97, 42)),		
 iCarthage :	((63, 45),	(70, 48)),
 iYuezhi :	((98, 49),	(102, 56)),	# Kushan		
@@ -634,11 +641,12 @@ iEthiopia : [(81, 34), (81, 35), (81, 36), (88, 35), (88, 36), (89, 35), (90, 36
 iByzantium : [(83, 49), (75, 55), (76, 55), (75, 56), (76, 56), (77, 56), (78, 56)],				
 iJapan : [(133, 60), (134, 60), (133, 61), (134, 61), (133, 62), (134, 62)],				
 iVikings : [(75, 67), (77, 67), (78, 67), (77, 68), (78, 68), (79, 68)],				
-iArabia : [(84, 35), (84, 36), (84, 37), (85, 35), (88, 45), (88, 46), (89, 45), (89, 46), (90, 44), (90, 45), (90, 46), (91, 45), (91, 46), (92, 45), (92, 46), (93, 44), (93, 45), (94, 43), (94, 44), (94, 45), (94, 46), (95, 43), (95, 45), (95, 46), (96, 43), (96, 44), (96, 45), (96, 46)],iSpain : [(49, 44), (49, 43), (49, 42), (49, 41)],				
-iTibet : [(107, 47), (108, 47), (107, 53), (108, 53), (107, 54), (108, 54), (109, 54), (110, 54)],				
+iArabia : [(84, 35), (84, 36), (84, 37), (85, 35), (88, 45), (88, 46), (89, 45), (89, 46), (90, 44), (90, 45), (90, 46), (91, 45), (91, 46), (92, 45), (92, 46), (93, 44), (93, 45), (94, 43), (94, 44), (94, 45), (94, 46), (95, 43), (95, 45), (95, 46), (96, 43), (96, 44), (96, 45), (96, 46)],
+iSpain : [(49, 44), (49, 43), (49, 42), (49, 41)],	# bugs			
+iTibet : [(107, 47), (108, 47), (107, 53), (108, 53), (107, 54), (108, 54), (109, 54), (110, 54)],		
 iIndonesia : [(131, 33)],				
 iMoors : [(64, 51), (67, 51)],				
-iSpain : [(63, 48), (64, 48)],				
+iSpain : [(63, 48), (64, 48)],	# bugs			
 iFrance : [(65, 60), (65, 61)],				
 iKhmer:	[(121, 41), (122, 40), (123, 39)],			
 iHolyRome : [(65, 58), (65, 59), (73, 62)],				
@@ -675,6 +683,7 @@ tBroaderArea = (
 ((66, 27), 	(71, 31)), 	# Nubia		
 ((86, 48),	(89, 52)),	# Assyria		
 ((111, 41),	(130, 59)),	# China		
+((80, 50),	(88, 55)),	# Hittites		
 ((71, 46),	(90, 55)),	# Greece
 ((19, 35), 	(21, 35)), 	# Olmecs		
 ((99, 30),	(114, 51)),	# India		
@@ -766,7 +775,8 @@ iMughals :	((84, 37),	(94, 43)),
 				
 dRespawnArea = {				
 iEgypt :	((75, 37), 	(82, 45)),		
-iChina :	((117, 46),	(129, 57)),		
+iChina :	((117, 46),	(129, 57)),			
+iHittites : ((82, 52),	(86, 55)),		
 iIndia :	((103, 37),	(113, 47)),			
 iPhoenicia : ((62, 45),	(69, 48)),	
 iByzantium :	((75, 49),	(81, 57)),	

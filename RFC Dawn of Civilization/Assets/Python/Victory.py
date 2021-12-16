@@ -5318,7 +5318,7 @@ def getUHVHelp(iPlayer, iGoal):
 			bHinduShrine = (getNumBuildings(iIndia, iHinduShrine) > 0)
 			aHelp.append(getIcon(bHinduShrine) + localText.getText("TXT_KEY_VICTORY_HINDU_SHRINE", ()) + ' ' + getIcon(bBuddhistShrine) + localText.getText("TXT_KEY_VICTORY_BUDDHIST_SHRINE", ()))
 		elif iGoal == 1:
-			iTemple = iJewishTemple # wunshare: fixed
+			iTemple = iJewishTemple # wunshare: fixed                                        
 			lTemples = [iTemple + 4 * i for i in range(iNumReligions)]
 			iCounter = 0
 			for iGoalTemple in lTemples:
