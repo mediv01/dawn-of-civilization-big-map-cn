@@ -24,7 +24,7 @@
 #define RANDPLOT_NOT_CITY											(0x00000040)
 
 #ifdef _USRDLL
-#define MAX_CIV_PLAYERS												(84) //Rhye, Leoreth: +17 for Byzantium, Korea, Indonesia, Mughals, Thailand, Seljuks, Prussia/HRE, Italy, Tamils, Poland, Moors, Congo, Tibet, Brazil, Argentina, Canada, Polynesia, Harappa
+#define MAX_CIV_PLAYERS												(85) //Rhye, Leoreth: +17 for Byzantium, Korea, Indonesia, Mughals, Thailand, Seljuks, Prussia/HRE, Italy, Tamils, Poland, Moors, Congo, Tibet, Brazil, Argentina, Canada, Polynesia, Harappa
 #else
 #define MAX_CIV_PLAYERS												(CvGlobals::getInstance().getMaxCivPlayers())
 #endif
@@ -63,8 +63,13 @@
 #define Z_ORDER_LAYER													(-0.1f)
 #define Z_ORDER_LEVEL													(-0.3f)
 
+#ifdef CYBERFRONT // gamespy: lobby for jp
+#define CIV4_GUID															"civ4btsjp"
+#define CIV4_PRODUCT_ID												11276
+#else
 #define CIV4_GUID															"civ4bts"
 #define CIV4_PRODUCT_ID												11081
+#endif // CYBERFRONT	
 #define CIV4_NAMESPACE_ID											17
 #define CIV4_NAMESPACE_EXT										"-tk"
 

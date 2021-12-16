@@ -259,7 +259,7 @@ void CvXMLLoadUtility::MakeMaskFromString(unsigned int *puiMask, char* szMask)
 			*puiMask += 13;
 		}
 		// if the current character in the string is a E, 14
-		else if ((szMask[i] == 'd') || (szMask[i] == 'E'))
+		else if ((szMask[i] == 'e') || (szMask[i] == 'E'))
 		{
 			// shift the current value of the mask to the left by 4 bits
 			*puiMask <<= 4;

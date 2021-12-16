@@ -763,7 +763,14 @@ void CvInitCore::setMapScriptName(const CvWString & szMapScriptName)
 
 bool CvInitCore::getWBMapScript() const
 {
-	return (gDLL->isDescFileName( CvString(m_szMapScriptName).GetCString() ));
+#ifdef CYBERFRONT // text: map name
+	char name[MAX_PATH];
+	int length = WideCharToMultiByte(CP_ACP, 0, m_szMapScriptName, -1, NULL, 0, NULL, NULL);
+	WideCharToMultiByte(CP_ACP, 0, m_szMapScriptName, -1, name, length, NULL, NULL);
+	return (gDLL->isDescFileName(name));
+#else
+	return (gDLL->isDescFileName(CvString(m_szMapScriptName).GetCString()));
+#endif // CYBERFRONT
 }
 
 
@@ -1226,7 +1233,11 @@ const CvWString & CvInitCore::getLeaderName(PlayerTypes eID, uint uiForm) const
 	FASSERT_BOUNDS(0, MAX_PLAYERS, eID, "CvInitCore::getLeaderName");
 	if ( checkBounds(eID, 0, MAX_PLAYERS) )
 	{
+#ifdef CYBERFRONT // text: leader name
+		m_szTemp = gDLL->getObjectText(m_aszLeaderName[eID], uiForm, true);
+#else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszLeaderName[eID]).GetCString(), uiForm, true);
+#endif // CYBERFRONT	
 	}
 	else
 	{
@@ -1268,7 +1279,11 @@ const CvWString & CvInitCore::getCivDescription(PlayerTypes eID, uint uiForm) co
 
 	if ( checkBounds(eID, 0, MAX_PLAYERS) )
 	{
+#ifdef CYBERFRONT // text: civ description
+		m_szTemp = gDLL->getObjectText(m_aszCivDescription[eID], uiForm, true);
+#else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivDescription[eID]).GetCString(), uiForm, true);
+#endif // CYBERFRONT	
 	}
 	else
 	{
@@ -1310,7 +1325,11 @@ const CvWString & CvInitCore::getCivShortDesc(PlayerTypes eID, uint uiForm) cons
 	if ( checkBounds(eID, 0, MAX_PLAYERS) )
 	{
 		// Assume we have stored the key
+#ifdef CYBERFRONT // text: civ short desc
+		m_szTemp = gDLL->getObjectText(m_aszCivShortDesc[eID], uiForm, true);
+#else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivShortDesc[eID]).GetCString(), uiForm, true);
+#endif // CYBERFRONT	
 	}
 	else
 	{
@@ -1352,7 +1371,11 @@ const CvWString & CvInitCore::getCivAdjective(PlayerTypes eID, uint uiForm) cons
 	if ( checkBounds(eID, 0, MAX_PLAYERS) )
 	{
 		// Assume we have stored the key
+#ifdef CYBERFRONT // text: civ adjective
+		m_szTemp = gDLL->getObjectText(m_aszCivAdjective[eID], uiForm, true);
+#else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivAdjective[eID]).GetCString(), uiForm, true);
+#endif // CYBERFRONT	
 	}
 	else
 	{

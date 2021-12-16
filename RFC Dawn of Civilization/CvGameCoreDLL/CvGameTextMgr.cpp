@@ -210,7 +210,14 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 		}
 		else
 		{
+#ifdef CYBERFRONT // text: date
+			if (getCurrentLanguage() == 5) // japanese
+				szString = (szYearBuffer + CvString(", ") + GC.getSeasonInfo((SeasonTypes)(iGameTurn % GC.getNumSeasonInfos())).getDescription());
+			else
+				szString = (GC.getSeasonInfo((SeasonTypes)(iGameTurn % GC.getNumSeasonInfos())).getDescription() + CvString(", ") + szYearBuffer);
+#else
 			szString = (GC.getSeasonInfo((SeasonTypes)(iGameTurn % GC.getNumSeasonInfos())).getDescription() + CvString(", ") + szYearBuffer);
+#endif // CYBERFRONT	
 		}
 		break;
 
@@ -221,7 +228,14 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 		}
 		else
 		{
+#ifdef CYBERFRONT // text: date
+			if (getCurrentLanguage() == 5) // japanese
+				szString = (szYearBuffer + CvString(", ") + GC.getMonthInfo((MonthTypes)(iGameTurn % GC.getNumMonthInfos())).getDescription());
+			else
+				szString = (GC.getMonthInfo((MonthTypes)(iGameTurn % GC.getNumMonthInfos())).getDescription() + CvString(", ") + szYearBuffer);
+#else
 			szString = (GC.getMonthInfo((MonthTypes)(iGameTurn % GC.getNumMonthInfos())).getDescription() + CvString(", ") + szYearBuffer);
+#endif // CYBERFRONT	
 		}
 		break;
 
@@ -234,7 +248,14 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 		}
 		else
 		{
+#ifdef CYBERFRONT // text: date
+			if (getCurrentLanguage() == 5) // japanese
+				szString = (szYearBuffer + ", " + GC.getMonthInfo((MonthTypes)((iGameTurn / GC.getDefineINT("WEEKS_PER_MONTHS")) % GC.getNumMonthInfos())).getDescription() + ", " + szWeekBuffer);
+			else
+				szString = (szWeekBuffer + ", " + GC.getMonthInfo((MonthTypes)((iGameTurn / GC.getDefineINT("WEEKS_PER_MONTHS")) % GC.getNumMonthInfos())).getDescription() + ", " + szYearBuffer);
+#else
 			szString = (szWeekBuffer + ", " + GC.getMonthInfo((MonthTypes)((iGameTurn / GC.getDefineINT("WEEKS_PER_MONTHS")) % GC.getNumMonthInfos())).getDescription() + ", " + szYearBuffer);
+#endif // CYBERFRONT	
 		}
 		break;
 
@@ -3896,12 +3917,13 @@ It is fine for a human player mouse-over (which is what it is used for).
 void createTestFontString(CvWStringBuffer& szString)
 {
 	int iI;
-	szString.assign(L"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[×]^_`abcdefghijklmnopqrstuvwxyz\n");
-	szString.append(L"{}~\\ßÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ¿¡«»°©®£¢");
-	for (iI=0;iI<NUM_YIELD_TYPES;++iI)
-		szString.append(CvWString::format(L"%c", GC.getYieldInfo((YieldTypes) iI).getChar()));
-
-	szString.append(L"\n");
+	// >>> CYBERFRONT CHANGE
+	szString.assign(L"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\xd7]^_`abcdefghijklmnopqrstuvwxyz\n");
+	szString.append(L"{}~\\\xdf"
+		L"\xc0\xc1\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xcb\xcc\xcd\xce\xcf\xd0\xd1\xd2\xd3\xd4\xd5\xd6\xd8\xd9\xda\xdb\xdc\xdd\xde\x9f\xdf"
+		L"\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
+		L"\xbf\xa1\xab\xbb\xb0\x8a\x8c\x8e\x9a\x9c\x9e\x99\xa9\xae\x80\xa3\xa2\x94\x91\x93\x85\x92");
+	// <<< CYBERFRONT CHANGE
 	for (iI=0;iI<NUM_COMMERCE_TYPES;++iI)
 		szString.append(CvWString::format(L"%c", GC.getCommerceInfo((CommerceTypes) iI).getChar()));
 	szString.append(L"\n");

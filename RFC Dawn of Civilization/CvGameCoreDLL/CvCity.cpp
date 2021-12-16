@@ -331,9 +331,11 @@ void CvCity::init(int iID, PlayerTypes eOwner, int iX, int iY, bool bBumpUnits, 
 	{
 		int iGameSpeed = GC.getGameINLINE().getGameSpeedType();
 		int iCulture = 0;
-		if (iGameSpeed == 2) { iCulture = 10; }
-		else if (iGameSpeed == 1) { iCulture = 15; }
-		else if (iGameSpeed == 0) { iCulture = 30; }
+		switch (iGameSpeed) {
+		case 0: iCulture = 30; break;
+		case 1: iCulture = 15; break;
+		case 2: iCulture = 10; break;
+		}
 		changeCulture(CELTIA, iCulture, true, true);
 	}
 
@@ -10254,7 +10256,7 @@ void CvCity::setBaseYieldRate(YieldTypes eIndex, int iNewValue)
 		FAssertMsg(((iNewValue * 100) / 100) >= 0, "((iNewValue * 100) / 100) expected to be >= 0");
 
 		m_aiBaseYieldRate[eIndex] = iNewValue;
-		FAssert(getYieldRate(eIndex) >= 0);
+		//FAssert(getYieldRate(eIndex) >= 0);
 
 		updateCommerce();
 

@@ -12,9 +12,11 @@
 // WINDOWS
 //
 #pragma warning( disable: 4530 )	// C++ exception handler used, but unwind semantics are not enabled
-
+#ifndef _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS // for stdext::hash_map
+#endif
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
+#include <Windows.h>
 #include <MMSystem.h>
 #if defined _DEBUG && !defined USE_MEMMANAGER
 #define USE_MEMMANAGER
@@ -28,7 +30,11 @@
 #include <map>
 #include <hash_map>
 
+#ifdef _LIB
+#define DllExport   
+#else
 #define DllExport   __declspec( dllexport ) 
+#endif
 
 //
 // GameBryo
