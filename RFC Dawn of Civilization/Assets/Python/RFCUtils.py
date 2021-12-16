@@ -1985,6 +1985,7 @@ class RFCUtils:
 	def getGoalText(self, iPlayer, iGoal, bTitle = False):
 		iCiv = gc.getPlayer(iPlayer).getCivilizationType()
 		iGameSpeed = gc.getGame().getGameSpeedType()
+		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('gbk'), ()).encode('utf-8')
 		
 		baseKey = "TXT_KEY_UHV_" + gc.getCivilizationInfo(iCiv).getIdentifier() + str(iGoal+1)
 		
@@ -1993,7 +1994,8 @@ class RFCUtils:
 		if bTitle:
 			fullKey += "_TITLE"
 		elif iGameSpeed < 2:
-			fullKey += "_" + gc.getGameSpeedInfo(iGameSpeed).getText().upper()
+			#toScr(gc.getGameSpeedInfo(iGameSpeed).getText()) 史诗 -> EPIC
+			fullKey += "_" + speedText
 			
 		translation = localText.getText(str(fullKey), ())
 		
@@ -2003,6 +2005,8 @@ class RFCUtils:
 		
 	def getReligiousGoalText(self, iReligion, iGoal, bTitle = False):
 		iGameSpeed = gc.getGame().getGameSpeedType()
+		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('gbk'), ()).encode('utf-8')
+
 		religionKey = ''
 		if iReligion < iNumReligions:
 		# wunshare: start
@@ -2034,11 +2038,12 @@ class RFCUtils:
 		if bTitle:
 			fullKey += "_TITLE"
 		elif iGameSpeed < 2:
-			fullKey += "_" + gc.getGameSpeedInfo(iGameSpeed).getText().upper()
+			fullKey += "_" + speedText
 			
 		translation = localText.getText(str(fullKey), ())
 		
-		if translation != fullKey: return translation
+		if translation != fullKey: 
+			return translation
 		
 		return localText.getText(str(baseKey), ())
 	
