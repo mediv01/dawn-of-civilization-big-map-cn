@@ -34432,7 +34432,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=58
-	BonusType=BONUS_HORSEBonusType=BONUS_PIG
+	BonusType=BONUS_PIG
 	TerrainType=TERRAIN_STEPPE
 	PlotType=2
 EndPlot
