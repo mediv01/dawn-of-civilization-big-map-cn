@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_DESC</Tag>
+		<English>The Philippines</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_ADJECTIVE</Tag>
+		<English>Philippine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_TONDO</Tag>
+		<English>Tondo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托多(Tondo)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_SHORT_DESC</Tag>
+		<English>Philippines</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_PEOPLES</Tag>
+		<English>Tondo Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_THE</Tag>
+		<English>the Philippines</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_BUTUAN</Tag>
+		<English>Butuan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布屯(Butuan)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHILIPPINES_RAJAHNATE</Tag>
+		<English>Rajahante of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Rajahante of %s1</Chinese>
+	</TEXT>
+</Civ4GameText>

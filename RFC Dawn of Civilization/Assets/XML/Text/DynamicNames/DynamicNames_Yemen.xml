@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_ENGLAND</Tag>
+		<English>Aden Protectorate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚丁保护区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_STATE_PARTY</Tag>
+		<English>Yemen Arab Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿拉伯也门共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_SHORT_DESC</Tag>
+		<English>Yemen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>也门</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_PEOPLES</Tag>
+		<English>Arabian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿拉伯人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_THEOCRACY</Tag>
+		<English>Mutawakkilite Kingdom of Yemen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>也门穆塔瓦基利特王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_COMMUNIST</Tag>
+		<English>People's Democratic Republic of Yemen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>也门人民民主共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_DEFAULT</Tag>
+		<English>Ziyadid Emirate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>齐亚杜德酋长国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_DEAD_ARABIA</Tag>
+		<English>Sulayhid Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏莱希德苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_ARABIA</Tag>
+		<English>Tahirid Emirate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塔希里酋长国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_ELECTIVE</Tag>
+		<English>Tahirid Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塔希里苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_MECCA</Tag>
+		<English>Rasulid Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉苏利德苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_ADJECTIVE</Tag>
+		<English>Yemeni</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>也门</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_DESC</Tag>
+		<English>The Yemeni</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>也门文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YEMEN_FASCIST</Tag>
+		<English>Federation of South Arabia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南阿拉伯联邦</Chinese>
+	</TEXT>
+</Civ4GameText>

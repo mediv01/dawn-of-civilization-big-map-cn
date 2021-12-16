@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_KALMAR_UNION</Tag>
+		<English>Kalmar Union</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡尔马联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_DEFAULT</Tag>
+		<English>Kingdom of %s1s</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_SHORT_DESC</Tag>
+		<English>Sweden</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_PEOPLES</Tag>
+		<English>Swedish Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_DESC</Tag>
+		<English>The Swedish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SWEDEN_AND_NORWAY</Tag>
+		<English>Sweden-Norway</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典-挪威</Chinese>
+	</TEXT>
+</Civ4GameText>

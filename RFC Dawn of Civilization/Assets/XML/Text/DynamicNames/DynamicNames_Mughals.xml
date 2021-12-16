@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_FASCIST</Tag>
+		<English>%s2 Military Government</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PAKISTAN_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_DELHI</Tag>
+		<English>Delhi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>德里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_SHORT_DESC</Tag>
+		<English>Mughals</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧儿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_ADJECTIVE</Tag>
+		<English>Mughal</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧儿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PAKISTAN_SHORT_DESC</Tag>
+		<English>Pakistan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴基斯坦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_DEFAULT</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_PEOPLES</Tag>
+		<English>Ghorid Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>古尔人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHAL_INDIA</Tag>
+		<English>Deccan Sultanates</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>德干</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHALS_DESC</Tag>
+		<English>The Mughals</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧儿文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PAKISTAN_FASCIST</Tag>
+		<English>%s2 Military Government</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PAKISTAN_ADJECTIVE</Tag>
+		<English>Pakistani</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴基斯坦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUGHAL_VASSAL</Tag>
+		<English>Kewab of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1附属国</Chinese>
+	</TEXT>
+</Civ4GameText>

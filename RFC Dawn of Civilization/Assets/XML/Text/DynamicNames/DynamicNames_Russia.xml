@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_PEOPLES</Tag>
+		<English>Rus' Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斯拉夫人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_MUSCOVY</Tag>
+		<English>Muscovy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫斯科</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_GERMANY</Tag>
+		<English>%s4 Democratic Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃德国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
+		<English>Russian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_TURKS</Tag>
+		<English>%s4 Soviet Socialist Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃土耳其</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_RUS'</Tag>
+		<English>Ukrainian Soviet Socialist Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌克兰苏维埃社会主义共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SHORT_DESC</Tag>
+		<English>Russia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_DESC</Tag>
+		<English>The Russians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIAN_POLAND</Tag>
+		<English>Congress %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>议会%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_FASCIST</Tag>
+		<English>Panslavic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泛斯拉夫帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_COMMUNIST</Tag>
+		<English>Union of Soviet Socialist Republics</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;苏维埃社会主义共和国联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_JAPAN</Tag>
+		<English>Far Eastern Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃远东</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_OTTOMANS</Tag>
+		<English>Transcaucasian Socialist Federative Soviet Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃外高加索</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_TSARDOM_OF</Tag>
+		<English>Tsardom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;%s1沙皇</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_DEFAULT</Tag>
+		<English>Grand Duchy of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1大公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIAN_VASSAL</Tag>
+		<English>%s1 Krai</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1附属国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIAN_NAME_PERSIA</Tag>
+		<English>Gilan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃波斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET</Tag>
+		<English>Soviet %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏维埃%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_REPUBLIC</Tag>
+		<English>%s2 Federation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;%s2联邦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_REPUBLIC_ADJECTIVE</Tag>
+		<English>%s2 Soviet Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2苏维埃共和国</Chinese>
+	</TEXT>
+</Civ4GameText>

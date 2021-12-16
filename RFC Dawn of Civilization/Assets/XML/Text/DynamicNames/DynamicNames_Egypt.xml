@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_OLD_KINGDOM</Tag>
+		<English>Old Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1古王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_ADJECTIVE</Tag>
+		<English>Egyptian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPTIAN_ETHIOPIA</Tag>
+		<English>Kingdom of Punt</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朋特王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_FATIMID</Tag>
+		<English>Fatimid</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法蒂玛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_FASCIST</Tag>
+		<English>Officers' %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1军国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_DESC</Tag>
+		<English>The Egyptians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_PEOPLES</Tag>
+		<English>Peoples of the Nile</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼罗河人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_MAMLUK</Tag>
+		<English>Mamluk</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马穆鲁克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_COPTIC</Tag>
+		<English>Coptic Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>科普特王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_AYYUBID</Tag>
+		<English>Ayyubid</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿尤布</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_SHORT_DESC</Tag>
+		<English>Egypt</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_PTOLEMAIC</Tag>
+		<English>Ptolemaic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托勒密帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_MIDDLE_KINGDOM</Tag>
+		<English>Middle Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPTIAN_PHOENICIA</Tag>
+		<English>Province of Retjenu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>雷杰努省</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_NEW_KINGDOM</Tag>
+		<English>New Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1新王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_COMMUNIST</Tag>
+		<English>Liberation Rally of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1自由王国</Chinese>
+	</TEXT>
+</Civ4GameText>

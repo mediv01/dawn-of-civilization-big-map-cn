@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKIC_VASSAL</Tag>
+		<English>Atabeylik of %s3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s3附属国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_TIMURID</Tag>
+		<English>Timurid</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>帖木儿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_KHANATE_OF</Tag>
+		<English>Khanate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_RUM</Tag>
+		<English>Rum</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗姆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese></Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_UZBEKS_DESC</Tag>
+		<English>The Uzbeks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌兹别克文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_GREAT_EMPIRE</Tag>
+		<English>Great %s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_SHORT_DESC</Tag>
+		<English>Turkestan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_ADJECTIVE</Tag>
+		<English>Turkic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_KURULTAI</Tag>
+		<English>%s2 Kurultai</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2-忽里勒台</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_PEOPLES</Tag>
+		<English>突厥人</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_EASTERN_TURKIC</Tag>
+		<English>Eastern Turkic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东突厥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKESTAN_PEOPLES</Tag>
+		<English>Turkic Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_SELJUK</Tag>
+		<English>Seljuk</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塞尔柱</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_SHAYBANID</Tag>
+		<English>Shaybanid</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>昔班尼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_UZBEKS_SHORT_DESC</Tag>
+		<English>Uzbekistan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌兹别克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_KHAGANATE</Tag>
+		<English>%s2 Khaganate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_UZBEKISTAN</Tag>
+		<English>Uzbekistan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌兹别克斯坦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKESTAN_FASCIST</Tag>
+		<English>Pan-Turkic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泛突厥帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_UZBEKS_ADJECTIVE</Tag>
+		<English>Uzbek</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌兹别克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_WESTERN_TURKIC</Tag>
+		<English>Western Turkic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西突厥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKESTAN_DEFAULT</Tag>
+		<English>%s2 Khanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_DESC</Tag>
+		<English>The Turks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_UZBEK</Tag>
+		<English>Uzbek</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乌兹别克</Chinese>
+	</TEXT>
+</Civ4GameText>

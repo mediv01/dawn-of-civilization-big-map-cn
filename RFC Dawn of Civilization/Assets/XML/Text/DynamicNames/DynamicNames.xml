@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_COLONY_OF</Tag>
+		<English>Colony of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CONFEDERATION_ADJECTIVE</Tag>
+		<English>%s2 Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_SULTANATE_NAME</Tag>
+		<English>%s1 Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_REPUBLIC_OF</Tag>
+		<English>Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CITY_STATES_ADJECTIVE</Tag>
+		<English>%s2 City States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2城邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PEOPLES_REPUBLIC_OF</Tag>
+		<English>People's Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人民共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_KINGDOM_ADJECTIVE</Tag>
+		<English>%s2 Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_ISLAMIC_REPUBLIC_ADJECTIVE</Tag>
+		<English>%s2 Islamic Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2伊斯兰共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_EMPIRE_ADJECTIVE</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_SOCIALIST_REPUBLIC_OF</Tag>
+		<English>Socialist Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1社会主义共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_SULTANATE_ADJECTIVE</Tag>
+		<English>%s2 Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CITY_STATES_OF</Tag>
+		<English>City States of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1城邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_SULTANATE_OF</Tag>
+		<English>Sultanate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_SOCIALIST_REPUBLIC_ADJECTIVE</Tag>
+		<English>%s2 Socialist Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2社会主义共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNITED_STATES_OF</Tag>
+		<English>United States of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1合众国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_EMPIRE_OF</Tag>
+		<English>Empire of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNITED_STATES_ADJECTIVE</Tag>
+		<English>United %s2 States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2合众国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PEOPLES_ADJECTIVE</Tag>
+		<English>%s2 Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CALIPHATE_OF</Tag>
+		<English>Caliphate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1哈里发</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_REPUBLIC_ADJECTIVE</Tag>
+		<English>%s2 Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CONFEDERACY_ADJECTIVE</Tag>
+		<English>%s2 Confederacy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2邦联</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_ISLAMIC_REPUBLIC_OF</Tag>
+		<English>Islamic Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1伊斯兰共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PEOPLES_OF</Tag>
+		<English>Peoples of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_ADJECTIVE_TITLE</Tag>
+		<English>%s2 %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2属%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CONFEDERATION_OF</Tag>
+		<English>Confederation of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CALIPHATE_ADJECTIVE</Tag>
+		<English>%s2 Caliphate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2哈里发</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_KINGDOM_OF</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MANDATE_OF</Tag>
+		<English>%s2 Mandate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1的授权国%s2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PEOPLES_REPUBLIC_ADJECTIVE</Tag>
+		<English>%s2 People's Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2人民共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROTECTORATE_OF</Tag>
+		<English>Protectorate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1保护国</Chinese>
+	</TEXT>
+</Civ4GameText>

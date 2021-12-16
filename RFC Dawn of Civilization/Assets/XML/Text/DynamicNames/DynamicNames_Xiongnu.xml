@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_XIONGNU</Tag>
+		<English>[ICON_BULLET]%D1%%[ICON_PRODUCTION] for Light Cavalry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]轻骑兵+%D1%%[ICON_PRODUCTION] </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU1</Tag>
+		<English>Succesfully demand tribute from 5 different civilizations by 210 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元210年前成功勒索5个不同的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AREA_110</Tag>
+		<English>India</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_XIONGNU</Tag>
+		<English>It is the year 300 BC. The unification of the dispirate tribes of the Mongolian-Manchurian grasslands under Modu Chanyu affords the Xiongnu Confederation a great enough manpower to extend its influence into the neighboring regions and beyond.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元前300年。蒙古-满洲草原上游牧部落在冒顿单于统治下的统一，为匈奴联盟提供了足够的人力，可以将其影响扩大到周边地区和其他地区。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU1_TITLE</Tag>
+		<English>Heqin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>和亲</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU2</Tag>
+		<English>Be the largest civilization in the world in 210 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元210年前成为领土面积最大的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_XIANBEI</Tag>
+		<English>Xianbei  Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鲜卑部落联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_FASCIST</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_SHORT_DESC</Tag>
+		<English>Xiongnu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈奴</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_HUIHU</Tag>
+		<English>Huihu Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>回鹘部落联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_ROURAN</Tag>
+		<English>Rouran Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柔然部落联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MODU_CHANYU</Tag>
+		<English>Modu Chanyu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>冒顿单于</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LARGEST_CIV</Tag>
+		<English>Largest Civilization: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>领土最大的文明：%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_XGU_TITLE</Tag>
+		<English>The Power of Nomads:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>游牧传统：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_DEFAULT</Tag>
+		<English>Xiongnu Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈奴部落联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_PEOPLES</Tag>
+		<English>Xiongnu Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈奴人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_XIONGNU_GULI</Tag>
+		<English>Guli</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Guli</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_XIONGNU_GER_TEREG</Tag>
+		<English>Ger-Tereg</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>毡帐(Ger-Tereg)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_DESC</Tag>
+		<English>The Xiongnu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈奴文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DEMANDS</Tag>
+		<English>Demands</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>勒索</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU2_TITLE</Tag>
+		<English>The Great Nomadic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最大的游牧帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_XIONGNU_ADJECTIVE</Tag>
+		<English>Xiongnu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈奴</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU3_TITLE</Tag>
+		<English>Lost Hunnic Connection</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>失踪的匈奴人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_XGU3</Tag>
+		<English>Conquer a city in Europe and India by 560 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元560年前在欧洲和印度各征服一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_XGU</Tag>
+		<English>Cavalry units starts with the Mobility promotion, + 25% production for Light Cavalry units.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>游牧传统：</Chinese>
+	</TEXT>
+</Civ4GameText>

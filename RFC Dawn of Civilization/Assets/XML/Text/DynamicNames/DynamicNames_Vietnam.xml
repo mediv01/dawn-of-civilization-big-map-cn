@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_NAM_VIET</Tag>
+		<English>Nam Viet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南越</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_ADJECTIVE</Tag>
+		<English>Vietnamese</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_AU_LAC</Tag>
+		<English>Au Lac</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>交趾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_PEOPLES</Tag>
+		<English>Viet Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_DESC</Tag>
+		<English>The Vietnamese</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_COMMUNIST</Tag>
+		<English>Democratic Republic of Vietnam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南民主共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_SHORT_DESC</Tag>
+		<English>Vietnam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_DAI_VIET</Tag>
+		<English>Dai Viet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大越</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIETNAM_VIET_NAM</Tag>
+		<English>Viet Nam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越南</Chinese>
+	</TEXT>
+</Civ4GameText>

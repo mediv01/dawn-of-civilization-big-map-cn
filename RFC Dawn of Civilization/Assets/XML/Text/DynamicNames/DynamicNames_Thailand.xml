@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_PEOPLES</Tag>
+		<English>Thai Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰族</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAI_VASSAL</Tag>
+		<English>Mueang of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1孟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_FASCIST</Tag>
+		<English>%s2 Junta</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_SHORT_DESC</Tag>
+		<English>Thailand</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_SIAMESE</Tag>
+		<English>Siamese</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暹罗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_DESC</Tag>
+		<English>The Thais</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰国文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_ADJECTIVE</Tag>
+		<English>Thai</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_SIAM</Tag>
+		<English>Siam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暹罗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_THAILAND_AYUTTHAYA</Tag>
+		<English>Ayutthaya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大城</Chinese>
+	</TEXT>
+</Civ4GameText>

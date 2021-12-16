@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MARINE_RESERVE</Tag>
+		<English>Marine Reserve</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>海洋保护区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_HIGHWAY</Tag>
+		<English>Highway</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_OCEAN_FISHERY</Tag>
+		<English>Ocean Fishery</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>海洋渔场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SLAVE_PLANTATION</Tag>
+		<English>Slave Plantation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奴隶种植园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ORCHARD</Tag>
+		<English>Orchard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>果园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PADDY_FIELD</Tag>
+		<English>Paddy Field</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>水田</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NATURE_RESERVE</Tag>
+		<English>Nature Reserve</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自然保护区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SOLAR_COLLECTOR</Tag>
+		<English>Solar Collector</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>太阳能收集器</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TRIBAL_VILLAGE</Tag>
+		<English>Tribal Village</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>部落村庄</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_ROMAN_ROAD</Tag>
+		<English>Roman Road</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马大道</Chinese>
+	</TEXT>
+</Civ4GameText>

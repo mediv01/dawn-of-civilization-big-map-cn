@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_EMPIRE</Tag>
+		<English>Kanem</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆布</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_ADJECTIVE</Tag>
+		<English>Kanembu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆布</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_BORNU_DESC</Tag>
+		<English>The Bornu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>博尔努文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_MODERN_SHORT_DESC</Tag>
+		<English>Chad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乍得</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_BORNU</Tag>
+		<English>Bornu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>博尔努</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_DESC</Tag>
+		<English>The Kanembu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆布文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KANEM-BORNU_FASCIST</Tag>
+		<English>%s1 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KANEM-BORNU_PEOPLES</Tag>
+		<English>Kanembu Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆布人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_MODERN_DESC</Tag>
+		<English>The Chadians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乍得文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_SHORT_DESC</Tag>
+		<English>Kanem-Bornu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆布-博尔努</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_MODERN_ADJECTIVE</Tag>
+		<English>Chadian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乍得</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KANEM-BORNU_DEFAULT</Tag>
+		<English>%s1 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1帝国</Chinese>
+	</TEXT>
+</Civ4GameText>

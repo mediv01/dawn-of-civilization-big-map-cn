@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_DEFAULT</Tag>
+		<English>Three Kingdoms of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1三国时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_DESC</Tag>
+		<English>The Koreans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_COMMUNIST</Tag>
+		<English>Democratic People's Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人民共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_PEOPLES</Tag>
+		<English>Korean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_GOGURYEO</Tag>
+		<English>Goguryeo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高句丽</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_SHORT_DESC</Tag>
+		<English>Korea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_JOSEON</Tag>
+		<English>Greater Joseon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大朝鲜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_SAMHAN</Tag>
+		<English>Samhan Confederacies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_FASCIST</Tag>
+		<English>Supreme Council for National Reconstruction</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>朝鲜最高委员会</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_GORYEO</Tag>
+		<English>Goryeo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高丽</Chinese>
+	</TEXT>
+</Civ4GameText>

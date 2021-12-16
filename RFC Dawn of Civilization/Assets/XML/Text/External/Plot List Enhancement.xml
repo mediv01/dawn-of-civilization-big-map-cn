@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_RESET_FILTERS_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Reset Filters[COLOR_REVERT][NEWLINE]Show all units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Reset Filters[COLOR_REVERT][NEWLINE]Show all units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_DOM</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Hide civilian units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Hide civilian units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_GROUPS</Tag>
+		<English>Group units by selection group</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Group units by selection group</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_MODE_STACK_VERT</Tag>
+		<English>View unit buttons grouped into columns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>View unit buttons grouped into columns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTHY_COLOR_TEXT</Tag>
+		<English>Healthy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>健康</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_TEXT</Tag>
+		<English>Draw Method</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>绘制方法</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_INDICATOR_HOVER</Tag>
+		<English>Places a light blue border around units that can be promoted.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在可以提升的单位周围放置浅蓝色边框。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_RESET_FILTERS</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Reset Filters[COLOR_REVERT][NEWLINE]Show all units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Reset Filters[COLOR_REVERT][NEWLINE]Show all units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_BAR_TEXT</Tag>
+		<English>Movement Bar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>运动进度条</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_WOUNDED_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded and healthy units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded and healthy units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_HIGHLIGHTER_HOVER</Tag>
+		<English>Highlights the moves a unit can make when you hover the mouse over the unit's icon while holding [ALT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突出显示当您在按住[ALT]的同时将鼠标悬停在设备图标上时，设备可以进行的移动。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MISSION_INFO_TEXT</Tag>
+		<English>Mission Tag</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>任务标签</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTH_BAR_HOVER</Tag>
+		<English>Shows a bar above the unit icon displaying the unit's health and damage.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在单位图标上方显示一个条形图，显示单位的健康和损坏情况。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HORIZONTAL_SPACING_TEXT</Tag>
+		<English>Horizontal Spacing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>水平间距</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_COLOR_TEXT</Tag>
+		<English>Wounded</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>受伤的</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__VERTICAL_SPACING_HOVER</Tag>
+		<English>Specifies the vertical spacing between icons (default value is 42).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>指定图标之间的垂直间距（默认值为42）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_SPECIALTIES_COLOR_HOVER</Tag>
+		<English>Color of the specialties a unit has due to its promotions.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>一个单位由于促销而产生的特色菜的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_TEXT</Tag>
+		<English>Default Grouping</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>默认分组</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTHY_COLOR_HOVER</Tag>
+		<English>The color to use for the healthy portion of the bar.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>用于酒吧健康部分的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HIDE_HEALTH_FIGHTING_TEXT</Tag>
+		<English>Hide During Combat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在战斗中隐藏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_WOUNDED</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Hide wounded units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Hide wounded units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_PROMO_ICON_OFFSET_Y_HOVER</Tag>
+		<English>Specifies the vertical offset of the promotion icons on the Unit Info hover pane (default value is 0, positive is up). Use this to adjust the placement of the icons when using themes that change the font. For example, use 6 with BlueMarble.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>指定单位信息悬停窗格上提升图标的垂直偏移（默认值为0，正值为上）。使用此选项可在使用更改字体的主题时调整图标的位置。例如，将6与BlueMarble一起使用。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_X_TEXT</Tag>
+		<English>Horizontal Position</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>水平位置</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_LAND_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_AIR_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HAS_MOVED_COLOR_TEXT</Tag>
+		<English>Used</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>使用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_PROMO_ICON_OFFSET_Y_TEXT</Tag>
+		<English>Promotion Icon Offset</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>促销图标偏移</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_Y_HOVER</Tag>
+		<English>Specifies the vertical position of the Unit Info hover pane (default value is 160).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>指定单位信息悬停窗格的垂直位置（默认值为160）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_INDICATOR_HOVER</Tag>
+		<English>Darkens the dot in the upper-left corner of units that are wounded.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>使受伤单位左上角的点变暗。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_CANTMOVE_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that cannot move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that cannot move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_FOREIGN_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign and domestic units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign and domestic units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_POSSIBLE_COLOR_TEXT</Tag>
+		<English>Can Afford</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>负担得起</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__ENABLED_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>启用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__NO_MOVEMENT_COLOR_TEXT</Tag>
+		<English>Cannot Move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>无法移动</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_INDICATOR_TEXT</Tag>
+		<English>Wounded Dot</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>受伤点</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_HOVER</Tag>
+		<English>Sets how the filter buttons behave.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - Selected filters remove the units they match from view, and related filters operate independently from each other (you can select both wounded and healthy, resulting in an empty view)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - Selected filters remove non-matching units from view, and related filters are exclusive (selecting wounded deselects healthy, selecting air deselects both land and sea)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>设置筛选器按钮的行为。[换行][图标项目符号][颜色突出显示文本]PLE[颜色反转]-选定的筛选器从视图中删除它们匹配的单元，并且相关的筛选器彼此独立操作（您可以选择受伤和健康，导致空视图[换行符][图标符号][颜色突出显示文本]错误[颜色反转]-选定的过滤器从视图中移除不匹配的单位，并且相关的过滤器是独占的（选择受伤的取消健康，选择空气取消陆地和海洋的选择）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_AIR</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_WOUNDED</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show only wounded units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show only wounded units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_PROMO_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Promotion Mode[COLOR_REVERT][NEWLINE]Switch back to Standard Mode</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Promotion Mode[COLOR_REVERT][NEWLINE]Switch back to Standard Mode</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>启用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_INDICATOR_TEXT</Tag>
+		<English>Upgrade Available</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>升级可用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_CANTMOVE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Hide units that cannot move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Hide units that cannot move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_MODE_STANDARD</Tag>
+		<English>View unit buttons in a single row</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>View unit buttons in a single row</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_CANTMOVE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show only units that cannot move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show only units that cannot move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_HOVER</Tag>
+		<English>Sets the grouping mode used when you start Civ IV. It alters how units are grouped in the different view modes.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Unit Type[COLOR_REVERT] - Units are grouped by their type (Archer, Chariot, Tank, etc)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Selection Groups[COLOR_REVERT] - Units are grouped by the selection groups they are in</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>设置启动Civ IV时使用的分组模式。它改变了不同视图模式下单位的分组方式。[换行符][图标符号][颜色突出显示文本]单位类型[颜色反转]-单位按其类型分组（弓箭手、战车、坦克，etc）[换行符][图标项目符号][颜色突出显示文本]选择组[颜色反转]-单位按它们所在的选择组分组</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_MODE_MULTILINE</Tag>
+		<English>View unit buttons in multiple rows</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>View unit buttons in multiple rows</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_MODE_STACK_HORIZ</Tag>
+		<English>View unit buttons grouped into rows</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>View unit buttons grouped into rows</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_CANMOVE_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_WOUNDED_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_CANMOVE_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can and cannot move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can and cannot move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_STANDARD</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Switch to Standard Mode[COLOR_REVERT][NEWLINE]View normal unit icons and issue orders</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Switch to Standard Mode[COLOR_REVERT][NEWLINE]View normal unit icons and issue orders</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_BAR_HOVER</Tag>
+		<English>Shows a bar above the unit icon displaying the unit's movement points.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在显示单位移动点的单位图标上方显示一条。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_VIEW_MODE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Switch View Mode[COLOR_REVERT][NEWLINE]Choose how unit icons are displayed: single row, multiple rows, or stacked into separate rows or columns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Switch View Mode[COLOR_REVERT][NEWLINE]Choose how unit icons are displayed: single row, multiple rows, or stacked into separate rows or columns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_NOT_POSSIBLE_COLOR_HOVER</Tag>
+		<English>Color of the upgrade cost when you cannot afford to upgrade the unit.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当您无法升级设备时，升级成本的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_NAME_COLOR_TEXT</Tag>
+		<English>Unit Name</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单位名称</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_STANDARD_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Standard Mode[COLOR_REVERT][NEWLINE]Toggle how units are grouped: by unit type or selection group</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Standard Mode[COLOR_REVERT][NEWLINE]Toggle how units are grouped: by unit type or selection group</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_SEA_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_DOM</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show only civilian units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show only civilian units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_UPGRADE_HELP</Tag>
+		<English>(CTRL: units on this plot.[NEWLINE]ALT: all units)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>(CTRL: units on this plot.[NEWLINE]ALT: all units)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_DOM_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian and military units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian and military units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_AIR_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_INDICATOR_TEXT</Tag>
+		<English>Promotion Available</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>有促销活动</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_LAND</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only land units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only land units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_COLOR_HOVER</Tag>
+		<English>The color to use for the wounded portion of the bar.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>用于酒吧受伤部分的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PLE_STYLE_HOVER</Tag>
+		<English>Enables the Plot List Enhancements mod and the rest of the options on this tab.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>启用打印列表增强模式和此选项卡上的其他选项。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_LAND</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide land units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide land units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_HOVER</Tag>
+		<English>Replaces the default Unit Info displayed when you hover over a unit.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>替换将鼠标悬停在单位上时显示的默认单位信息。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_SEA_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show naval units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show naval units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTH_BAR_TEXT</Tag>
+		<English>Health Bar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>健康条</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__FULL_MOVEMENT_COLOR_HOVER</Tag>
+		<English>The color to use for the available movement portion of the bar.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>用于条的可用移动部分的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_OWN_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show domestic units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show domestic units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_LIST</Tag>
+		<English>Unit Type|Selection Group</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单元类型|选择组</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_FOREIGN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show only foreign units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show only foreign units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_NOT_POSSIBLE_COLOR_TEXT</Tag>
+		<English>Cannot Afford</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>负担不起</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_CANMOVE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Hide units that can move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Hide units that can move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__LEAD_BY_GG_INDICATOR_HOVER</Tag>
+		<English>Places a star on units that are lead by a Great General.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在由一个伟大的将军领导的单位上加一个星。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_INDICATOR_HOVER</Tag>
+		<English>Places an orange up arrow on the lower-right corner of units that can be upgraded, ignoring cost.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在可以升级的单元的右下角放置一个橙色向上箭头，忽略成本。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_TYPE_SPECIALTIES_COLOR_HOVER</Tag>
+		<English>Color of the specialties a unit has due to its type.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>一个单位的特色菜的颜色取决于它的类型。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_MIL_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show military units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show military units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_MIL</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Hide military units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Hide military units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_MIL</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show only military units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show only military units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_LAND_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show land, naval and air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__ENABLED_HOVER</Tag>
+		<English>Enables the Plot List Enhancements mod and the rest of the options on this tab.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>启用打印列表增强模式和此选项卡上的其他选项。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_UNITTYPE</Tag>
+		<English>Group units by unit type</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Group units by unit type</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_POSSIBLE_COLOR_HOVER</Tag>
+		<English>Color of the upgrade cost when you can afford to upgrade the unit.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当你有能力升级时，升级成本的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_AIR</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide air units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide air units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_FOREIGN_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_LIST</Tag>
+		<English>PLE|Vanilla|BUG</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>PLE|Vanilla|BUG</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_OWN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Hide domestic units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Hide domestic units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_HOVER</Tag>
+		<English>Sets the draw method.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla[COLOR_REVERT] - uses the 'draw' code that was in the original game (or close enough)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - uses the BUG team developed 'draw' code - newly developed so it might be a little unstable but does promise greatly enhanced performance (ie speed) when dealing with large stacks[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - uses the 'draw' code that was originally provided by the PLE enhancement</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>设置绘制方法。[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla[COLOR_REVERT]-使用原始游戏中的“绘制”代码（或足够接近）[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT]-使用BUG团队开发的“绘制”代码-新开发的，因此可能有点不稳定，但确实有很大的增强处理大堆栈时的性能（即速度）[换行符][图标项目符号][颜色突出显示文本]PLE[颜色还原]-使用最初由PLE增强提供的“绘制”代码</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__FULL_MOVEMENT_COLOR_TEXT</Tag>
+		<English>Available</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>可用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HORIZONTAL_SPACING_HOVER</Tag>
+		<English>Specifies the horizontal spacing between icons (default value is 34).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>指定图标之间的水平间距（默认值为34）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_SPECIALTIES_COLOR_TEXT</Tag>
+		<English>Promotion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>提升</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_SEA</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only naval units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Show only naval units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_HEALTHY_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show healthy units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show healthy units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_CANTMOVE_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can and cannot move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show units that can and cannot move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__SHOW_BUTTONS_TEXT</Tag>
+		<English>Show Mode/Filter Buttons</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>显示模式/筛选按钮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_LIST</Tag>
+		<English>Single Row|Multiple Rows|Vertical Groups|Horizontal Groups</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单行|多行|垂直组|水平组</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_HEALTHY</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show only healthy units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show only healthy units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_UPGRADE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Switch to Upgrade Mode[COLOR_REVERT][NEWLINE]View units available for upgrade along with the units they may become</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Switch to Upgrade Mode[COLOR_REVERT][NEWLINE]View units available for upgrade along with the units they may become</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_HOVER</Tag>
+		<English>Sets the view mode used when you start Civ IV.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Single Row[COLOR_REVERT] - Original Civ IV view[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Multiple Rows[COLOR_REVERT] - Standard Beyond the Sword view[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vertical Groups[COLOR_REVERT] - Units are grouped together in columns[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Horizontal Groups[COLOR_REVERT] - Units are grouped together in rows</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>设置启动Civ IV时使用的视图模式。[换行符][图标项目符号][彩色突出显示文本]单行[彩色突出显示还原]-原始Civ IV视图[换行符][图标项目符号][彩色突出显示文本]多行[彩色突出显示还原]-剑状视图之外的标准视图[换行符][图标项目符号][彩色突出显示文本]垂直组[彩色突出显示还原]-单元分组在一起列[换行符][图标项目符号][颜色突出显示文本]水平组[颜色反转]-单元按行分组</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MISSION_INFO_HOVER</Tag>
+		<English>Places a tag below units showing their current mission (action).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在单位下方放置一个标签，显示其当前任务（行动）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_X_HOVER</Tag>
+		<English>Specifies the horizontal position of the Unit Info hover pane (default value is 5).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>指定单位信息悬停窗格的水平位置（默认值为5）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_TEXT</Tag>
+		<English>Filter Behavior</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>过滤行为</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_TEXT</Tag>
+		<English>Default View</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>默认视图</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_MIL_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian and military units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian and military units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HIDE_HEALTH_FIGHTING_HOVER</Tag>
+		<English>Hides the Health Bar when a unit is in combat.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当一个单位在战斗时隐藏健康栏。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_CURRENT_MODE</Tag>
+		<English>This is the current mode</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>This is the current mode</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_DOM_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Military Filter[COLOR_REVERT][NEWLINE]Show civilian units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_LIST</Tag>
+		<English>PLE|BUG</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>PLE|BUG</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_Y_TEXT</Tag>
+		<English>Vertical Position</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>垂直位置</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_TYPE_SPECIALTIES_COLOR_TEXT</Tag>
+		<English>Unit Type</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单元类型</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_CANMOVE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show only units that can move</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Movement Filter[COLOR_REVERT][NEWLINE]Show only units that can move</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__VERTICAL_SPACING_TEXT</Tag>
+		<English>Vertical Spacing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>垂直间距</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__SHOW_BUTTONS_HOVER</Tag>
+		<English>When checked, the buttons for changing the view, grouping and filter modes are displayed above the action buttons.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>选中时，用于更改视图、分组和筛选模式的按钮将显示在操作按钮的上方。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_HEALTHY_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded and healthy units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Show wounded and healthy units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__LEAD_BY_GG_INDICATOR_TEXT</Tag>
+		<English>Great General</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大将军</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_FOREIGN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Hide foreign units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Hide foreign units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_HEALTHY</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Hide healthy units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Health Filter[COLOR_REVERT][NEWLINE]Hide healthy units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_NAME_COLOR_HOVER</Tag>
+		<English>Color of the unit's name.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单位名称的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_HIGHLIGHTER_TEXT</Tag>
+		<English>Move Highlighter</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>移动悬停</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_OWN_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign and domestic units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show foreign and domestic units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_UPGRADE_ON</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Upgrade Mode[COLOR_REVERT][NEWLINE]Switch back to Standard Mode</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Upgrade Mode[COLOR_REVERT][NEWLINE]Switch back to Standard Mode</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__PLE_STYLE_TEXT</Tag>
+		<English>PLE Style</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>PLE样式</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_GRP_PROMO</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Switch to Promotion Mode[COLOR_REVERT][NEWLINE]View units available for promotion along with the promotions they may receive</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Switch to Promotion Mode[COLOR_REVERT][NEWLINE]View units available for promotion along with the promotions they may receive</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__NO_MOVEMENT_COLOR_HOVER</Tag>
+		<English>The color to use for the whole bar when the unit cannot move anymore.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当设备不能再移动时，用于整个条形图的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_PLE__HAS_MOVED_COLOR_HOVER</Tag>
+		<English>The color to use for the used movement portion of the bar.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>用于条的已用移动部分的颜色。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_SEA</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide naval units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Domain Filter[COLOR_REVERT][NEWLINE]Hide naval units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PLE_FILTER_BUG_OWN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show only domestic units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Nationality Filter[COLOR_REVERT][NEWLINE]Show only domestic units</Chinese>
+	</TEXT>
+</Civ4GameText>

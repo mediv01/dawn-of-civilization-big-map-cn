@@ -1,0 +1,5140 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3_TITLE</Tag>
+		<English>The Tower of Babel</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴别塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT2_TITLE</Tag>
+		<English>Empire on three Continents</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>三大洲帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA2</Tag>
+		<English>Make Ayutthaya the most populous city in the world in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1700年时使Ayutthaya成为世界上人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NATIONAL_PARK_CAPITAL</Tag>
+		<English>National Park in capital</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>位于首都的国家公园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NILE_POPULATION</Tag>
+		<English>Population in cities on the Lower Nile: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼罗河下游城市人口: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EASTER_ISLAND</Tag>
+		<English>Easter Island</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>复活节岛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR3</Tag>
+		<English>Have a capital with developing culture by 900 AD, a different capital with refined culture by 1100 AD and another capital with influential culture by 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年首都文化为正在发展，公元1100年首都文化为精致优雅，公元1400年首都文化为影响深远</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP1_TITLE</Tag>
+		<English>Tranquility and Peace</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宁静与和平</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR2_TITLE</Tag>
+		<English>The Silk Road</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>丝绸之路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB3_TITLE</Tag>
+		<English>The Dalai Lamas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛教圣地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE3_TITLE</Tag>
+		<English>Concert of Europe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲协同体</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NORTH_AFRICA</Tag>
+		<English>North Africa: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北非： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUCLEAR_ARSENAL</Tag>
+		<English>ICBMs built: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>洲际弹道导弹建造: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NORTHWEST_INDIA</Tag>
+		<English>Northwest India</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度西北部</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL3</Tag>
+		<English>Secure or get by trade 7 spices resources by 1775 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1775年之前占据或通过贸易获得7处香料资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_STRONGEST_ARMY_AFRICA_HOLDINGS</Tag>
+		<English>Strongest army of any nation with holdings in Africa: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有非洲领土的国家中最强大的军队: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ISL1</Tag>
+		<English>Shahada: Spread Islam to 40%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Shahada: Spread Islam to 40%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HAPPINESS_TURNS</Tag>
+		<English>Turns with highest approval rating: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最高支持率的回合：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER3_MARATHON</Tag>
+		<English>Control 2 holy city shrines in 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（498回合）时控制2座宗教圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_RESEARCH_CITY</Tag>
+		<English>City with highest research: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最高科研值城市: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_WESTERN_NORTH_AMERICA_CITIES</Tag>
+		<English>Western North America: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北美洲西部： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO1_TITLE</Tag>
+		<English>Mesoamerican Metropolis</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中美洲大都市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR2</Tag>
+		<English>Be first to discover Printing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现印刷机技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_MAZDAISM</Tag>
+		<English>Acquire six incense resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire six incense resources</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MAINLAND_EUROPEAN_TERRITORY</Tag>
+		<English>Mainland European territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲大陆领土: %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK2</Tag>
+		<English>Found a city in America by 1100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1100年之前于美洲建立一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PLEASED_OR_FRIENDLY_EUROPEANS</Tag>
+		<English>Pleased or friendly relations with independent European civilisations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>与独立的欧洲文明建立愉快或友好的关系%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG1</Tag>
+		<English>Build three Islamic Grand Mosques by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1500年建造三座伊斯兰大清真寺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NAVY_SIZE</Tag>
+		<English>Total of frigates and man-o-wars: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>三桅战舰和主力战舰数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME1</Tag>
+		<English>Allow no European colonies in North and Central America and in the Caribbean and control or vassalize Mexico in 1900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保在公元1900年时的北美洲、中美洲和加勒比地区没有欧洲人的殖民地；控制墨西哥地区，或纳为附庸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_CITIES_INFLUENTIAL_CULTURE</Tag>
+		<English>Cities with influential culture: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>影响深远的城市： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM3</Tag>
+		<English>Have the highest total culture and research output in 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有公元1500年最高的文化和研究产出</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY3_MARATHON</Tag>
+		<English>Have more than 15000 Culture in 170 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元170年（462回合）时至少拥有15000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM2</Tag>
+		<English>Make Cairo the most populous city in the world and have at least 30 population on the Lower Nile in 1380 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>使开罗成为世界上人口最多的城市，公元1380年，尼罗河下游至少有30人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE2</Tag>
+		<English>Have three Catholic vassals in Europe by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1650年在欧洲有三个天主教附庸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM3</Tag>
+		<English>Ensure there are no European colonies in Subequatorial Africa in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保公元1700年在非洲赤道下地区没有欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER2_EPIC</Tag>
+		<English>Control 7 world wonders by 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（253回合）之前控制7座世界级奇观</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG3_TITLE</Tag>
+		<English>Nollywood and Oil Delta</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>石油三角</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS3_TITLE</Tag>
+		<English>The Iron Curtain</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>铁幕时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FRIENDLY_WITH_COMMUNISM</Tag>
+		<English>Friendly communist civilisations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>友好的共产主义文明%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRADE_OR_DIPLOMATIC_MISSIONS</Tag>
+		<English>Trade or Diplomatic Missions: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易或外交使团: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CATHOLIC_SAINTS</Tag>
+		<English>Catholic great prophets: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>天主教伟大先知：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_GRANARIES</Tag>
+		<English>Granaries: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>粮仓%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_EGYPT</Tag>
+		<English>Egypt: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_COLONIES_CARIBBEAN</Tag>
+		<English>No colonies in the Caribbean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加勒比海</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_KRAALS</Tag>
+		<English>Kraals: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>牧场: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE3</Tag>
+		<English>Have the highest approval rating in the world for 50 turns by 1970 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1970年拥有世界上最高的支持率50回合</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2_TITLE</Tag>
+		<English>Pax Romana</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马和平</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO1</Tag>
+		<English>Control three cities in the Maghreb and conquer two cities in Iberia and West Africa in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1200年控制马格里布的三个城市并征服伊比利亚和西非的两个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1_TITLE</Tag>
+		<English>Crossroads of the World</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界的十字路口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3_TITLE</Tag>
+		<English>Caravans of the Sahara</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>撒哈拉大篷车</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1</Tag>
+		<English>Build a Palace and the Great Cothon in Carthage by 300 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前300年（121回合）之前在Carthage建成宫殿及巨港</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER3_EPIC</Tag>
+		<English>Control 2 holy city shrines in 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（253回合）时控制2座宗教圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_TEOTL</Tag>
+		<English>Sacrifice ten slaves</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Sacrifice ten slaves</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS2</Tag>
+		<English>Gift 10 Digger, Marines or Mechanized Infantry to at least three different civilizations by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1950年，赠送10个澳新军团、海军陆战队或机械化步兵给至少三个不同的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LARGEST_EMPIRE_CIV</Tag>
+		<English>Largest empire: </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>疆域最广的帝国： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS3_TITLE</Tag>
+		<English>G'Day mate!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哥们儿！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_SHENDAO</Tag>
+		<English>Control 25% of the world's population</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Control 25% of the world's population</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HAWAII</Tag>
+		<English>Hawaii</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>夏威夷</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EUROPEAN_CORE</Tag>
+		<English>Controlling a European core</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制一个欧洲文明的核心区域</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER2_TITLE</Tag>
+		<English>Lebensraum</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>生存空间</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE3</Tag>
+		<English>Settle a total of ten great artists and statesmen in Vienna and have at least pleased relations with eight independent European civilisations by 1850 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1850年，在维也纳定居了十位伟大的艺术家和政治家，并与八个独立的欧洲文明建立了至少满意的关系</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY3_TITLE</Tag>
+		<English>The Stars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>星辰之子</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM2_TITLE</Tag>
+		<English>Thom Baray</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>汤姆巴里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR3_TITLE</Tag>
+		<English>By Stratagem You Wage War</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>计谋发战</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE2_TITLE</Tag>
+		<English>A monopoly is forever</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>垄断永恒</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB2</Tag>
+		<English>Spread Buddhism to 25% by 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1400年之前使佛教传播到全世界30%的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH2_EPIC</Tag>
+		<English>Convert to Orthodoxy eight turns after its foundation and have three settled Great Prophets and an Orthodox Cathedral by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在东正教建立8个回合后皈依东正教，在公元1200年时有三位大先知和一个东正教大教堂。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR1_TITLE</Tag>
+		<English>Cartaz</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡尔塔协定</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE2</Tag>
+		<English>Control or get by trade 7 fur resources by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1800年前控制或通过贸易获得7种毛皮资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FIRST_ENTER_INDUSTRIAL</Tag>
+		<English>First to enter the Industrial Era</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先进入工业时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1_TITLE</Tag>
+		<English>The Sun</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>太阳之子</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EXTRA_EUROPEAN_COLONIES</Tag>
+		<English>Colonies in Brazil, Africa and Asia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西、非洲和亚洲的殖民地: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN1</Tag>
+		<English>Connect your capital to an Atlantic and a Pacific port by railroad by 1920 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1920年，通过铁路把首都连接到大西洋和太平洋港口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ANDEAN_ROAD</Tag>
+		<English>Road along the Andean Coast in your territory</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>领土内的安第斯大道：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ2</Tag>
+		<English>Make Constantinople the world's largest and most cultured city in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年时使君士坦丁堡成为世界上人口规模最大、文化程度最高的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_SOUTH_AMERICA</Tag>
+		<English>South America</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美洲</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY2_MARATHON</Tag>
+		<English>Build the Pyramids, the Great Library, and the Great Lighthouse by 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（408回合）之前完成建造大金字塔，大图书馆和大灯塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1_EPIC</Tag>
+		<English>Build a Palace and the Great Cothon in Carthage by 300 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前300年（188回合）之前在Carthage建成宫殿及巨港</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE3_EPIC</Tag>
+		<English>Build the Parthenon, the Colossus, the Statue of Zeus and the Temple of Artemis by 250 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前250年（193回合）之前完成建造奥林匹亚宙斯像、帕特农神庙、青铜巨像和阿尔忒弥斯神庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MECCA</Tag>
+		<English>Mecca</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>麦加</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_SOUTH_AMERICAN_COLONIES</Tag>
+		<English>No European colonies in South America (except Brazil)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美洲（巴西除外）没有欧洲人的定居点</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH2_MARATHON</Tag>
+		<English>Convert to Orthodoxy fifteen turns after its foundation and have three settled Great Prophets and an Orthodox Cathedral by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在东正教建立15个回合后皈依东正教，在公元1200年时有三位大先知和一个东正教大教堂。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR3</Tag>
+		<English>Control all of Indochina in 1580 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1580年控制了整个印度支那</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY2_TITLE</Tag>
+		<English>Monuments on the Nile</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼罗河纪念碑</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_PRODUCTION_CIV</Tag>
+		<English>Highest production output: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最高工业产出: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_JUD1</Tag>
+		<English>Chosen People: Have a total of 15 Great Prophets, Scientists and Statesmen in your cities</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Chosen People: Have a total of 15 Great Prophets, Scientists and Statesmen in your cities</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB1_TITLE</Tag>
+		<English>The Nubian Dynasty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>努比亚王朝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL2_TITLE</Tag>
+		<English>United States of South America</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美共和</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_COMMUNISM</Tag>
+		<English>Communism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>共产主义</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1_TITLE</Tag>
+		<English>Bread and Circuses</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>面包和马戏团</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_STEP_PYRAMIDS</Tag>
+		<English>Step Pyramids: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阶梯金字塔：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_CONTROL_OCEANIA</Tag>
+		<English>Australia and Oceania: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>澳洲和大洋洲： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PIRACY</Tag>
+		<English>Gold from piracy: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>来自海盗的黄金%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DIPLOMATIC_MISSIONS</Tag>
+		<English>Diplomatic Missions: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>外交使团: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ3</Tag>
+		<English>Control three cities in the Balkans, Northern Africa and the Near East in 1450 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1450年时控制巴尔干地区、北非以及近东地区的三座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EUROPEAN_COLONIES_CONQUERED</Tag>
+		<English>European colonies conquered: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>攻克欧洲的殖民地： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOTAL_POPULATION</Tag>
+		<English>Total population: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>总人口：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND3</Tag>
+		<English>Control 20% of the world's population in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年时人口数量排名第控制世界上20%的人口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_CITIES_RAZED</Tag>
+		<English>Cities razed: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摧毁城市： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG3</Tag>
+		<English>Experience six golden ages by 2000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元2000年时经历6次黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_AQUEDUCTS</Tag>
+		<English>Aqueducts: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>引水渠： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CULTURE_FROM_ARTISANS</Tag>
+		<English>Culture produced with artisans: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>工匠产生的文化: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK3_EPIC</Tag>
+		<English>Acquire 4500 gold by pillaging, conquering cities and sinking ships by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前通过劫掠、占领城市和击沉敌舰获得4500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SECULAR_SCIENTISTS</Tag>
+		<English>Great Scientists in secular civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世俗文明中的伟大科学家：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI2_TITLE</Tag>
+		<English>More traders than warriors</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>商人多于勇士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RUSSIA_CONTROL_SIBERIA_COMPLETE</Tag>
+		<English>Colonize Siberia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>殖民西伯利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROTESTANT_CIVS</Tag>
+		<English>Protestant or secular civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新教或世俗文明%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH3</Tag>
+		<English>Ensure there are more Orthodox than Muslim cities in Africa in 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保在公元1500年非洲东正教有比穆斯林更多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_SPIES</Tag>
+		<English>Great Spies created: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大间谍创建: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL1</Tag>
+		<English>Conduct a trade mission to your holy city by 1350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1350年之前进行一次朝圣贸易</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1_MARATHON</Tag>
+		<English>Build a Palace and the Great Cothon in Carthage by 300 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前300年（368回合）之前在Carthage建成宫殿及巨港</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM3</Tag>
+		<English>Be the first to discover Architecture, Politics, Scholarship, Machinery and Civil Service</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现建筑、政治、学术、机械和公务员制度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR1_TITLE</Tag>
+		<English>Palman Daejanggyeong and Gukjagam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛儒圣地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_NOTYET</Tag>
+		<English>Not yet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>待完成</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG2_TITLE</Tag>
+		<English>Tango and Poetry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>探戈与诗歌</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY3</Tag>
+		<English>Make contact with a European civilization before any European civilization discovers America</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在任何欧洲文明发现美洲之前与欧洲文明接触</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL1_TITLE</Tag>
+		<English>The Folwark System</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>福尔沃克系统</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BAGHDAD</Tag>
+		<English>Baghdad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴格达</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PHILIPPINES</Tag>
+		<English>Philippines</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>菲律宾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3</Tag>
+		<English>Have 7500 gold in 1500 AD and 15000 gold in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年时积累5000金币，在公元1700年时积累15000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG3</Tag>
+		<English>Have more than 50000 culture in 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年有超过50000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN1</Tag>
+		<English>Control 20% of Europe in 1301 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1301年控制了欧洲20%的领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD2</Tag>
+		<English>Nirvana: Have the highest approval rating in the world for 100 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Nirvana: Have the highest approval rating in the world for 100 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROLLED_FOREST_AND_MARSH_TILES</Tag>
+		<English>Controlled unimproved Forest and Marsh tiles: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制的未改良森林和沼泽地砖%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROTESTANT_MERCHANTS</Tag>
+		<English>Protestant great merchants: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新教大商人%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_WONDERS_CAPITAL</Tag>
+		<English>Wonders in capital: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>首都拥有的奇迹： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON2_TITLE</Tag>
+		<English>The Middle Passage</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奴隶贸易</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC3_TITLE</Tag>
+		<English>Eight Incan Regions</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印加八地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE3</Tag>
+		<English>Build the Parthenon, the Colossus, the Statue of Zeus and the Temple of Artemis by 250 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前250年（124回合）之前完成建造奥林匹亚宙斯像、帕特农神庙、青铜巨像和阿尔忒弥斯神庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVERAGE_CULTURE</Tag>
+		<English>Average Culture: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>平均区域性：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HINDU_SHRINE</Tag>
+		<English>Hindu Shrine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度教神殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP1_MARATHON</Tag>
+		<English>Have an average city culture of 18000 by 1600 AD without ever losing a city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1600年，平均城市文化达到18000年，而且从未失去过一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERCENTAGE_WORLD_TERRITORY</Tag>
+		<English>Percentage of the world: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>领土占全世界的比例： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TECHS_FIRST_DISCOVERED</Tag>
+		<English>First to discover technologies in the %s1 era: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>第一个发现%s1时代的技术的人：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA2_TITLE</Tag>
+		<English>The Napoleonic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拿破仑帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OIL_SECURED</Tag>
+		<English>Oil resources secured: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>石油资源： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAPITAL_CULTURE</Tag>
+		<English>Culture in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中的区域性：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE3_NOTURN</Tag>
+		<English>Build the Parthenon, the Colossus, the Statue of Zeus and the Temple of Artemis by 250 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前250年（378回合）之前完成建造奥林匹亚宙斯像、帕特农神庙、青铜巨像和阿尔忒弥斯神庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO3_TITLE</Tag>
+		<English>National Awakening</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>民族觉醒</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON1</Tag>
+		<English>Acquire 15% of the votes in the Apostolic Palace by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1650年在教皇宫获得15%的选票</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_JUD3</Tag>
+		<English>Diaspora: Have friendly relations with six civilizations with a Jewish minority</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Diaspora: Have friendly relations with six civilizations with a Jewish minority</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOLDEN_AGES</Tag>
+		<English>Golden Ages: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金时代： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ISL2</Tag>
+		<English>Hajj: Settle seven great people in the Muslim holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Hajj: Settle seven great people in the Muslim holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE1_TITLE</Tag>
+		<English>Lion of the North</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北方之狮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA3_TITLE</Tag>
+		<English>Chain of the Earth</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地球产业链</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE2_TITLE</Tag>
+		<English>Habsburg Monarchy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈布斯堡君主政体</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_BAALISM</Tag>
+		<English>Make your capital the city with the highest trade income in the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Make your capital the city with the highest trade income in the world</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR2</Tag>
+		<English>Acquire 12 trading company resources by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1650年之前获得12个贸易资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA3</Tag>
+		<English>Build Notre Dame, Versailles, the Louvre, the Eiffel Tower and the Metropolitain by 1900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1900年建造圣母院、凡尔赛宫、卢浮宫、埃菲尔铁塔和大都会地铁</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_ACCOMPLISHED</Tag>
+		<English>Accomplished:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>完成情况:</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA3</Tag>
+		<English>Have a city of at least 20000 culture in 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年时拥有一座超过20000点文化值的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER2_NOTURN</Tag>
+		<English>Control 7 world wonders by 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年之前控制7座世界级奇观</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY3_EPIC</Tag>
+		<English>Have more than 7500 Culture in 170 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元170年（235回合）时至少拥有7500点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA2</Tag>
+		<English>Secure a total of 10 silver and gold resources by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1650年之前控制10个白银和黄金资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN2</Tag>
+		<English>Control or vassalize all cities and 90% of the territory in Canada without ever conquering a city by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制加拿大所有城市和90%的领土，在公元1950年以前从未征服过一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY2_EPIC</Tag>
+		<English>Build the Pyramids, the Great Library, and the Great Lighthouse by 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（208回合）之前完成建造大金字塔，大图书馆和大灯塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA3_TITLE</Tag>
+		<English>Mare Nostrum</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地中海文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM2_TITLE</Tag>
+		<English>Eye of the Sun</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>太阳之眼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_BUDDHIST_CATHEDRALS</Tag>
+		<English>Buddhist Chaityas: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛塔数量: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI3_TITLE</Tag>
+		<English>Ten Thousand Years</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>盛世中国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_TEOTIHUACAN</Tag>
+		<English>Percentage of Mesoamerica: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制中美洲百分比: %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA1</Tag>
+		<English>Conduct one Diplomatic Mission with the owner of an Egyptian city and 3 Trade Missions in your state religion's Holy City by 1259</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到1259年，与埃及一座城市的所有者进行一次外交使团，并在你国宗教的圣城举行3次贸易使团</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG1</Tag>
+		<English>Have the largest army of Africa in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有公元1600年非洲最大的军队</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AUSTRALIA_CONTROL_AUSTRALIA</Tag>
+		<English>Australia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>澳大利亚: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2_EPIC</Tag>
+		<English>Make Babylon the most populous city in the world in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年（133回合）时使巴比伦成为人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC1_TITLE</Tag>
+		<English>Andean Road System</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安第斯公路系统</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_PEOPLE_IN_CITY</Tag>
+		<English>Great people in %s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>入驻%s1_city的伟人数： %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEARS</Tag>
+		<English>Years: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>年份: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ITALY</Tag>
+		<English>Italy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_NUM_UNITS</Tag>
+		<English>Number of melee and gunpowder units: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>近战和火药单位的数量：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO3_MARATHON</Tag>
+		<English>Acquire 9000 gold through piracy by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年前通过海盗获得9000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1_EPIC</Tag>
+		<English>Build 6 Castras, 5 Aqueducts, 4 Arenas and 3 Forums by 100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元100年(228回合)之前建造6座兵营、5座引水渠、4座竞技场和3座中心花园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITIES_WITH_SILK_ROUTE</Tag>
+		<English>Silk Route: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>丝绸之路%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE2_MARATHON</Tag>
+		<English>Control Egypt, Phoenicia, Babylonia and Persia in 330 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前330年（362回合）时控制埃及、腓尼基、巴比伦和波斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA3</Tag>
+		<English>Control the largest army of any nation with holdings in Africa and control Libya, Nigeria, and Cameroon by 1603</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在非洲控制着所有国家中最大的军队，并在1603年控制利比亚、尼日利亚和喀麦隆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE3</Tag>
+		<English>Never lose a single city until 1950 AD and Allow no foreign powers in Southern Asia in 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1950年前不失去任何一座城市，公元1950年不允许外国势力进入南亚。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT2</Tag>
+		<English>Build 6 step pyramids and sacrificial altars by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1650年之前建成6所原始神庙和人牲祭坛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_VEDISM</Tag>
+		<English>Have 100 turns of cities celebrating "We Love the King" day</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Have 100 turns of cities celebrating "We Love the King" day</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA1</Tag>
+		<English>Build San Marco Basilica, the Sistine Chapel and Santa Maria del Fiore by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年前建造圣马可大教堂、西斯廷教堂和圣玛丽亚教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM1</Tag>
+		<English>Build four Buddhist Sanghas and Hindu Ashrams and Wat Preah Pisnulok and control them in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年建造四座佛教僧伽和印度教道场，并控制它们</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA3_MARATHON</Tag>
+		<English>Have a city of at least 60000 culture in 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年时拥有一座超过60000点文化值的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DANUBE_TO_ZAYSAN</Tag>
+		<English>Continuous empire from the Danube River to Lake Zaysan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从多瑙河到扎桑湖的连续帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA3_TITLE</Tag>
+		<English>City of Lights</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>光明之城</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL3</Tag>
+		<English>Build three Christian Cathedrals by 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1600年之前建造三座天主教大教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK1</Tag>
+		<English>Control the core of another European civilization in 1050 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1050年时控制其他欧洲文明的核心区域</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_FAILED_ANNOUNCE</Tag>
+		<English>You have failed goal %d1 of your historical victory!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>你的历史任务%d1失败了！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2</Tag>
+		<English>Control in 320 AD all the area historically known as the Roman Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元320年（162回合）时控制在真实历史中属于罗马帝国的所有领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO3</Tag>
+		<English>Control 9% of the world's population in 1940 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1940年控制了世界人口的9%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL1_TITLE</Tag>
+		<English>The Great Hajj</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伟大的朝觐</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MAGHREB</Tag>
+		<English>Maghreb</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马格里布</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI3_TITLE</Tag>
+		<English>Piloncitos</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金国度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_TEOTL_TEOTIHUACAN</Tag>
+		<English>Produce 200 culture with artisans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>与工匠一起生产200种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_CASTLES</Tag>
+		<English>Castles: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>城堡: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR3</Tag>
+		<English>Have a total population of 30 by 800 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前800年总人口达到30人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB2_TITLE</Tag>
+		<English>Tibetan Buddhism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>藏传佛教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITIES_ACQUIRED</Tag>
+		<English>Cities acquired: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>占领城市: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVERAGE_CITY_POPULATION</Tag>
+		<English>Average city population: %s1 / %s2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>城市平均人口值： %s1 / %s2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON3</Tag>
+		<English>Control 12% of the world by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前控制世界12%的土地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_TAOIST_PAGODAS</Tag>
+		<English>Taoist Gongs: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>道宫： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR1_TITLE</Tag>
+		<English>Indochinese Buddhism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度支那佛教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR1_TITLE</Tag>
+		<English>The Khaganate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈加纳特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BALKANS</Tag>
+		<English>Balkans: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴尔干： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN2</Tag>
+		<English>Have the highest food, production and commerce output in 1850 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1850年拥有最高的粮食、生产和商业产出</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM3_EPIC</Tag>
+		<English>Have 12000 culture by 1450 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1450年之前拥有12000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL3_EPIC</Tag>
+		<English>Acquire 4500 gold by selling resources by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1950年之前通过交易资源获得4500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_TAO1_MARATHON</Tag>
+		<English>Compassion: Have the highest life expectancy rating in the world for 300 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Compassion: Have the highest life expectancy rating in the world for 300 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROLS_CITY</Tag>
+		<English>Controls %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制 %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HISTORICAL</Tag>
+		<English>Historical</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>历史</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO3_EPIC</Tag>
+		<English>Acquire 4500 gold through piracy by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年前通过海盗获取4500黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ3_TITLE</Tag>
+		<English>The Eternal Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>永恒帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN3_TITLE</Tag>
+		<English>Ensured Autonomy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保自治</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_NEVER_LOST_A_CITY</Tag>
+		<English>Never lost a city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从未失去过一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREATEST_AFRICAN_CITY</Tag>
+		<English>Greatest African City: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>非洲最伟大的城市: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2_NOTURN</Tag>
+		<English>Control Italy and Iberia in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（134回合）时控制意大利和伊比利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_WE_LOVE_RULER_TURNS</Tag>
+		<English>Turns of "We Love the King" days: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>“我们爱国王”日的回合数：d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER2_TITLE</Tag>
+		<English>Seven Wonders of the World</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界七大奇迹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD1_MARATHON</Tag>
+		<English>Sila: Be at peace for 300 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Sila: Be at peace for 300 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2_TITLE</Tag>
+		<English>The Punic Wars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布匿战争</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN2</Tag>
+		<English>Be the first to adopt Tolerance and have Friendly Relations with 5 Catholic Civs in 1867 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1867年，率先采取宽容态度，与5个天主教公民建立友好关系</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2_NOTURN</Tag>
+		<English>Control in 320 AD all the area historically known as the Roman Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元320年时控制在真实历史中属于西罗马帝国的所有领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM3_TITLE</Tag>
+		<English>Zenith of culture and science</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化与科学的巅峰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ISL3</Tag>
+		<English>Jihad: Control five shrines</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Jihad: Control five shrines</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA3</Tag>
+		<English>Spread Catholicism to 30% of the world population and allow no Protestant civilizations in Europe in 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年，天主教传播到世界人口的30%，欧洲不允许新教文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS2</Tag>
+		<English>Be the first civilization to complete the Manhattan Project and a Lunar Landing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>成为第一个完成曼哈顿计划和登月的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CON2</Tag>
+		<English>Ritual: Have five wonders in the Confucian holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Ritual: Have five wonders in the Confucian holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM3_TITLE</Tag>
+		<English>Indian Ocean Trade</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度洋贸易</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA1</Tag>
+		<English>Conduct a Diplomatic mission in a European City controlled by a Muslim Civilization by 1031 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1031年前在一个由穆斯林文明控制的欧洲城市执行外交任务</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NEAR_EAST</Tag>
+		<English>Near East: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>近东： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL1_TITLE</Tag>
+		<English>The Bolivar Doctrine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玻利瓦尔主义</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SILK_ROUTE_CONNECTION</Tag>
+		<English>City in China connected to a Mediterranean port</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中国与地中海港口相连的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER2</Tag>
+		<English>Control 7 world wonders by 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（164回合）之前控制7座世界级奇观</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK1_TITLE</Tag>
+		<English>Norman Conquests</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>诺曼征服</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM1_EPIC</Tag>
+		<English>Have 4500 gold and 3000 culture in 800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元800年时拥有4500金币并积累3000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_PRO3</Tag>
+		<English>Religious Freedom: Make sure at least half of all civilizations are Protestant or secular</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Religious Freedom: Make sure at least half of all civilizations are Protestant or secular</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL3_TITLE</Tag>
+		<English>The Commonwealth</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO1_EPIC</Tag>
+		<English>Have more than 750 culture in 550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元550年有超过750种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA1_TITLE</Tag>
+		<English>European Embassies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲大使馆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL3_MARATHON</Tag>
+		<English>Acquire 9000 gold by selling resources by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1950年之前通过交易资源获得9000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3_EPIC</Tag>
+		<English>Make Babylon the most culturally advanced city in the world in 700 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前700年时（148回合）使巴比伦成为世界上文化程度最高的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME3_TITLE</Tag>
+		<English>Pax Americana</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美式和平</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN3</Tag>
+		<English>Be the first to complete all Industrial technologies and eight Global technologies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先完成所有工业技术和八项全球技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2_NOTURN</Tag>
+		<English>Make Babylon the most populous city in the world in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年时使巴比伦成为世界上人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME2_TITLE</Tag>
+		<English>Shining City on a Hill</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>人类灯塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_CATHOLICS</Tag>
+		<English>No Catholic civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>没有天主教文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA2</Tag>
+		<English>Have three cities with influential culture by 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1600年之前拥有3座文化级别为影响深远的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3_NOTURN</Tag>
+		<English>Make Babylon the most culturally advanced city in the world by 700 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前700年之前使巴比伦成为世界上文化最发达的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP3_TITLE</Tag>
+		<English>Flying Geese Paradigm</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东亚复苏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE1</Tag>
+		<English>Allow no European Colonies in Southern Africa by 1920 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1920年，不允许在南部非洲建立欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG2_MARATHON</Tag>
+		<English>Acquire 6000 gold by selling resources by 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年通过出售资源获得6000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA3</Tag>
+		<English>Allow no foreign powers in Southern Asia in 1900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1900年时确保南亚没有非南亚文明的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOLDEN_AGE_TURNS</Tag>
+		<English>Golden age turns: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金时代回合数：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_IBERIA_CARTHAGE</Tag>
+		<English>Iberia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊比利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2_EPIC</Tag>
+		<English>Control in 320 AD all the area historically known as the Roman Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元320年（250回合）时控制在真实历史中属于罗马帝国的所有领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_SOUTH_AFRICAN_COLONIES</Tag>
+		<English>No European colonies in South Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南非没有欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_FULFILLED</Tag>
+		<English>Fulfilled:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>完成了：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND1_EPIC</Tag>
+		<English>Control the shrines of Hinduism and Buddhism in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（208回合）时控制印度教和佛教的圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE2</Tag>
+		<English>Secure or get by trade 5 gems resources by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1950年，通过交易获得5种宝石资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA2_TITLE</Tag>
+		<English>Jihad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吉哈德圣战</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO1</Tag>
+		<English>Have more than 500 culture in 550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元550年有超过500种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM1_TITLE</Tag>
+		<English>Angkor Wat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吴哥窟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY2_TITLE</Tag>
+		<English>The Gods</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>众神之子</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA2</Tag>
+		<English>Have 10 Religious Happiness and a larger Jewish population than any other nation in 1031 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1031年，拥有10个宗教上的幸福和比任何其他国家都多的犹太人口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN1_TITLE</Tag>
+		<English>A Mari Usque Ad Mare</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>跨越两大洋</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FOOD_FROM_COMBAT</Tag>
+		<English>Food acquired from combat: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从战斗中获得的食物：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORT1</Tag>
+		<English>Patriarchates: Build four Orthodox Cathedrals</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Patriarchates: Build four Orthodox Cathedrals</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HEJAZ</Tag>
+		<English>Hejaz</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>赫贾兹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE2_TITLE</Tag>
+		<English>Alexander's Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚历山大帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAPE_TO_CAIRO_RAILWAY</Tag>
+		<English>Railroad from Cape Town to an Egyptian Mediterranean port</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>开普敦到埃及地中海港口的铁路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MAGHREB_MOORS</Tag>
+		<English>Maghreb: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马格里布: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_STRATEGIC_BONUSES_BOUGHT</Tag>
+		<English>Strategic Resources Purchased: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>战略资源购置: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX3</Tag>
+		<English>Make Mexico City the largest city in the world in 1960 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1960时确保墨西哥城是全世界人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM3</Tag>
+		<English>Acquire 4000 gold by trade (trade routes, diplomacy, trade missions) by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年之前通过贸易(商路、外交手段、贸易访问)获得4000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL3</Tag>
+		<English>Don't allow more than half of your cities to have a religion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Don't allow more than half of your cities to have a religion</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL3_TITLE</Tag>
+		<English>Auge del Caf&#233;</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易中枢</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY3</Tag>
+		<English>Have more than 5000 Culture in 170 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元170年（152回合）时候拥有超过5000文化点</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE2</Tag>
+		<English>Create three great generals by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年创造三位大将军</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_CONTROL_SOUTH_AMERICA</Tag>
+		<English>South America, Central America and the Caribbean: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美洲、中美洲以及加勒比地区： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB3_TITLE</Tag>
+		<English>The Blue Sultanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蓝色苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_GENERALS</Tag>
+		<English>Great Generals created: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大军事家：%d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_FOOD_CIV</Tag>
+		<English>Highest food output: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>粮食产量最高: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC3</Tag>
+		<English>Allow no foreign cities in South America in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年不允许外国城市进入南美</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITY_GREAT_PEOPLE</Tag>
+		<English>Great people in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中的伟人：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_ARTISTS_AND_STATESMEN_SETTLED</Tag>
+		<English>Great artists and statesmen settled in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伟大的艺术家和政治家定居在%s1%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM1</Tag>
+		<English>Control Northern Africa, Hejaz, the Levant and Mesopotamia by 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1300年控制北非、赫贾兹、黎凡特和美索不达米亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA1_TITLE</Tag>
+		<English>The King and I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>国王和我</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_POWERFUL_CIV</Tag>
+		<English>Most powerful civilization: </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>军事实力最强的文明： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE2_EPIC</Tag>
+		<English>Control Egypt, Phoenicia, Babylonia and Persia in 330 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前330年（185回合）时控制埃及、腓尼基、巴比伦和波斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_AFRICAN_COLONIES_1500</Tag>
+		<English>No European colonies in East and Subequatorial Africa in 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年在东非近赤道地区没有欧洲人的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI1</Tag>
+		<English>Build 3 Confucian Guozijians and 3 Taoist Gongs and 2 Buddhist Chaityas by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年之前造有2座学宫和2座道宫</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR2</Tag>
+		<English>Create an overland trade route from any city in China to one of your Mediterranean ports and spread the Silk Route to 10 of your cities by 1100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>创建一条从中国任何城市到地中海港口的陆路贸易路线，并在公元1100年前将丝绸之路延伸到10个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER1_TITLE</Tag>
+		<English>The First Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波斯第一帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA1</Tag>
+		<English>Acquire 4000 gold by trade (trade routes, diplomacy, trade missions, dhows) by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1500年，通过贸易（贸易路线、外交、贸易使团、独桅帆船）获得4000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO2</Tag>
+		<English>Experience a golden age by 550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元550年经历黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CAT2</Tag>
+		<English>Holy Land: Control the Catholic shrine and make sure that at least 12 great prophets are settled in Catholic civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Holy Land: Control the Catholic shrine and make sure that at least 12 great prophets are settled in Catholic civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC1</Tag>
+		<English>Build five Tambos and a road along the Andean Coast by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前建造5所土堡驿站，并修建一条安第斯大道（沿着安第斯海岸）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_NORTH_AMERICAN_COLONIES</Tag>
+		<English>No European colonies in North and Central America and the Caribbean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北美洲、中美洲和加勒比地区没有欧洲人的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG3_TITLE</Tag>
+		<English>The Sun Never Sets</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>工业革命</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_PESEDJET</Tag>
+		<English>Be first to create three different types of great person</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Be first to create three different types of great person</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_POLYTHEISM_NEVER_RELIGION</Tag>
+		<English>Never more than half of all cities with a religion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>有宗教信仰的城市不超过一半</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO2</Tag>
+		<English>Acquire 10 different happiness resources by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前获得10种不同的快乐资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR2_TITLE</Tag>
+		<English>The Five Temples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>五公祠</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA3_TITLE</Tag>
+		<English>Pindorama</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>平多拉玛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY2</Tag>
+		<English>Build the Temple of Kukulkan by 900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年建造库库尔坎神庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_FOREIGN_CITIES_SOUTH_AMERICA</Tag>
+		<English>No foreign cities in South America</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美洲没有外国城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SLAVES_SOLD</Tag>
+		<English>Slaves sold: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奴隶贸易: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA3</Tag>
+		<English>Acquire 4000 gold from trade deals</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从交易中获得4000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT2</Tag>
+		<English>Control the Eastern Mediterranean, the Black Sea, Cairo, Mecca, Baghdad and Vienna by 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年控制东地中海、黑海、开罗、麦加、巴格达和维也纳</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAUTIOUS_OR_BETTER_RELATIONS</Tag>
+		<English>Cautious or better relations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>谨慎或更好的关系：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOLD_SILVER_RESOURCES</Tag>
+		<English>Gold and silver resources secured: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金和白银资源： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CON1</Tag>
+		<English>Harmony: Have friendly relations with five civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Harmony: Have friendly relations with five civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA1_EPIC</Tag>
+		<English>Acquire 6000 gold by trade (trade routes, diplomacy, trade missions, dhows) by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1500年，通过贸易（贸易路线、外交、贸易使团、独桅帆船）获得6000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE3_MARATHON</Tag>
+		<English>Build the Parthenon, the Colossus, the Statue of Zeus and the Temple of Artemis by 250 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前250年（378回合）之前完成建造奥林匹亚宙斯像、帕特农神庙、青铜巨像和阿尔忒弥斯神庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM1_MARATHON</Tag>
+		<English>Have 9000 gold and 6000 culture in 800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元800年时拥有9000金币并积累6000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HINDU_LARGEST_CITIES</Tag>
+		<English>Top five Hindu cities: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度前五大城市：d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SOUTH_AMERICAN_TERRITORY</Tag>
+		<English>South American territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南美洲领土： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN1</Tag>
+		<English>Have 20% of the world population in 1850 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1850年占世界人口的20%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NORTH_AFRICA_MAM</Tag>
+		<English>North Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北非</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE1_EPIC</Tag>
+		<English>Have 12000 culture in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1200年有12000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE3</Tag>
+		<English>Build an ICBM by 1980 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1980年建造洲际弹道导弹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_COLONIES_GUAYANAS</Tag>
+		<English>No colonies in the Guayanas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>圭亚那</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME2</Tag>
+		<English>Build the Statue of Liberty, the Brooklyn Bridge, the Empire State Building, the Golden Gate Bridge, the Pentagon and the United Nations by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1950年之前建成自由女神像、帝国大厦、五角大楼以及联合国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON3_TITLE</Tag>
+		<English>Industrial Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>工业非洲</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI1_TITLE</Tag>
+		<English>Mandate of Heaven</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>儒道天命</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FRIENDLY_CATHOLICS</Tag>
+		<English>Friendly catholic civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>友好的天主教文明: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2</Tag>
+		<English>Make Babylon the most populous city in the world in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年（84回合）时使巴比伦成为人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GIVEN_UNITS</Tag>
+		<English>Units given: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>赠与单位: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_HIN2</Tag>
+		<English>Artha: Experience 24 turns of golden age</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Artha: Experience 24 turns of golden age</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_RESEARCH_OUTPUT_CIV</Tag>
+		<English>Civilization with highest research output: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>研究成果最高的文明:  %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_ENGLAND</Tag>
+		<English>Britain: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>英格兰： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR1</Tag>
+		<English>Establish a trade connection with another civilization by 1600 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前1600年与其他文明建立贸易联系</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA2</Tag>
+		<English>Build Wembley, Cristo Redentor and the Itaipu Dam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>建造温布利球场、救世基督像和1座世界级大水坝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE1_TITLE</Tag>
+		<English>The School of Hellas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊学派</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA2_TITLE</Tag>
+		<English>The Jewish Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>犹太王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE3_TITLE</Tag>
+		<English>Vietcong</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>越共</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD1</Tag>
+		<English>Sila: Be at peace for 100 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Sila: Be at peace for 100 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM1</Tag>
+		<English>Have 3000 gold and 2000 culture in 800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元800年时拥有3000金币并积累2000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG3</Tag>
+		<English>Colonize every continent by 1860 AD and build the Cape to Cairo Railway by 1920 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先进入工业时代和信息时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_ACCOMPLISHED_DATE_TURN</Tag>
+		<English>Goal accomplished! (%s1 - Turn %d2)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>目标完成了！（%s1-回合%d2）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA2</Tag>
+		<English>Build an Islamic Grand Mosque by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年前修建一座伊斯兰大清真寺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERCENTAGE_WORLD_POPULATION</Tag>
+		<English>Percentage of world population: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>占世界人口的百分比： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAM1_TITLE</Tag>
+		<English>Furusiyya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊斯兰荣光</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI3_MARATHON</Tag>
+		<English>Have 15000 gold in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1600年有15000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR2_TITLE</Tag>
+		<English>Age of Discovery</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地理大发现</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_RODNOVERY</Tag>
+		<English>Acquire seven fur resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire seven fur resources</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON2</Tag>
+		<English>Gain 1000 gold through slave trade by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1800年通过奴隶贸易获得1000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR3_TITLE</Tag>
+		<English>Treaty of Tordesilhas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托德西哈斯条约</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_UNITS_OF_LEVEL</Tag>
+		<English>Units of level %d1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>级别%d1的单位：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BLACK_SEA</Tag>
+		<English>Black Sea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黑海</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRANSOXANIA</Tag>
+		<English>Transoxania</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>河中地区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA3_TITLE</Tag>
+		<English>Dawah</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊斯兰天命</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CENTRAL_AMERICAN_CITIES</Tag>
+		<English>Central America: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中美洲： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_SEC3</Tag>
+		<English>Modernity: Make sure that the five most advanced independent civilizations are secular</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Modernity: Make sure that the five most advanced independent civilizations are secular</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM3_TITLE</Tag>
+		<English>Late Antiquity</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>近古时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE3_TITLE</Tag>
+		<English>Wonders of the Aegean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>爱琴海奇观</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE2_TITLE</Tag>
+		<English>Swedish India Company</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瑞典印度公司</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOTAL_GOLD</Tag>
+		<English>Gold in treasury: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>金币储量： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL2_TITLE</Tag>
+		<English>Golden Liberty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金自由</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR3_TITLE</Tag>
+		<English>Yi Sun-sin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>李舜臣大元帅</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP3</Tag>
+		<English>Be the first to discover eight Global and eight Digital technologies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现8项全球和8项数字技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS3</Tag>
+		<English>Conduct two trade or diplomatic missions with the most prominent (top scoring) European civilization by 1327 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1327年，主导在欧洲文明最突出（得分最高）的两个贸易或外交使团</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE3_TITLE</Tag>
+		<English>Social democracy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>社会民主</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK3_TITLE</Tag>
+		<English>Danegeld</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>达内格尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM3_MARATHON</Tag>
+		<English>Acquire 12000 gold by trade (trade routes, diplomacy, trade missions) by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年之前通过贸易(商路、外交手段、贸易访问)获得12000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS1</Tag>
+		<English>Found 7 colonies in Siberia by 1700 AD and build the Trans-Siberian Railway by 1920 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年在西伯利亚建立了7个殖民地，1920年修建了横贯西伯利亚的铁路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM3_TITLE</Tag>
+		<English>The accidental crusade</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南非荣光</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY2</Tag>
+		<English>Settle Hawaii, New Zealand, Marquesas and Easter Island by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年前定居夏威夷、新西兰、马奎萨和复活节岛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1_NOTURN</Tag>
+		<English>Discover Calendar by 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元600年之前发现历法</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_POPE_TURNS</Tag>
+		<English>Turns as Pope: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>以教皇身份轮值：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3</Tag>
+		<English>Make Babylon the most culturally advanced city in the world in 700 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元700前年时（94回合）使巴比伦成为世界上文化程度最高的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PLEASED_OR_FRIENDLY_CHRISTIANS</Tag>
+		<English>Pleased or friendly relations with Christian civilisations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>与基督教文明保持愉快或友好的关系: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_ALTARS</Tag>
+		<English>Sacrificial Altars: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>人牲祭坛: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM2</Tag>
+		<English>Control or vassalize the Deccan and Srivijaya in 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年对德干和斯里维贾亚的控制或封育</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCANDINAVIA</Tag>
+		<English>Scandinavia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斯堪的纳维亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY2</Tag>
+		<English>Build the Pyramids, the Great Library, and the Great Lighthouse by 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年(134回合)之前完成建造大金字塔，大图书馆和大灯塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_ARENAS</Tag>
+		<English>Arenas: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>竞技场：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PILLAGED_IMPROVEMENTS</Tag>
+		<English>Improvements pillaged: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>被掠夺的改进%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER3_TITLE</Tag>
+		<English>Land of Religions</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教之地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI2</Tag>
+		<English>Acquire 8 different happiness resources by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年获得8种不同的幸福资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALLIED_COMMERCE_PERCENT</Tag>
+		<English>Global allied commerce: %s1 / %s2%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>全球联盟商务%s1/%s2%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON2_MARATHON</Tag>
+		<English>Gain 3000 gold through slave trade by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1800年通过奴隶贸易获得3000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY2_TITLE</Tag>
+		<English>The Polynesian Triangle</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波利尼西亚三角</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CATHOLIC_WORLD_TERRITORY</Tag>
+		<English>Territory controlled by Catholic civilizations: %s1 / %s2%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>天主教文明控制的领土：1/%2%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_CANADA_CITIES</Tag>
+		<English>Controls all cities in Canada</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制加拿大所有城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA3</Tag>
+		<English>Spread Islam to 30% of the cities in the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>使伊斯兰教传播到全世界30%的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORT3</Tag>
+		<English>Communion: Make sure there are no Catholic civilizations in the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Communion: Make sure there are no Catholic civilizations in the world</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_VASSALS</Tag>
+		<English>Number of vassals: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>附庸数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI3</Tag>
+		<English>Have 5000 gold in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1600年有5000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND1_TITLE</Tag>
+		<English>The Dharmic Religions</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>达摩宗教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CAT1</Tag>
+		<English>Holy See: Be Pope for 100 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Holy See: Be Pope for 100 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ORTHODOX_CITIES_WITH_GREAT_PROPHETS</Tag>
+		<English>Orthodox cities with Great Prophets: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>有伟大先知的东正教城市：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI2</Tag>
+		<English>Be first to discover Compass, Paper, Gunpowder and Printing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现罗盘、造纸、火药、印刷机</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE2</Tag>
+		<English>Control Egypt, Phoenicia, Babylonia and Persia in 330 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前330年（119回合）时控制埃及、腓尼基、巴比伦和波斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO3_TITLE</Tag>
+		<English>Barbary Corsairs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>芭芭拉海盗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR1</Tag>
+		<English>Have open borders agreement with 14 other civs by 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500之前与14个国家开放边界</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_PRO1</Tag>
+		<English>Enlightenment: Be first to discover Civil Liberties, Social Contract and Economics</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enlightenment: Be first to discover Civil Liberties, Social Contract and Economics</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG3</Tag>
+		<English>Control a Hit Movie and spread Oil Industry to a city by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制一部热门电影并在公元1950年前将石油工业传播到一个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_HIN3</Tag>
+		<English>Kama: Make sure the five largest cities in the world are Hindu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Kama: Make sure the five largest cities in the world are Hindu</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_ATUA</Tag>
+		<English>Acquire four pearl resources and control 50 ocean tiles</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire four pearl resources and control 50 ocean tiles</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_AFRICAN_COLONIES_1910</Tag>
+		<English>No European colonies in East and Subequatorial Africa in 1910 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1910年在东非近赤道地区没有欧洲人的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LIBYA</Tag>
+		<English>Libya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>利比亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_AFRICAN_COMMERCE_CIV</Tag>
+		<English>Highest commerces output in Africa: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>非洲最高的商业产出: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROLLED_OCEAN_TILES</Tag>
+		<English>Controlled Ocean tiles: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制的海洋格子%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS3</Tag>
+		<English>As a communist civilisation, have friendly relations with five other communist civilisations by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>作为一个共产主义文明，到公元1950年与其他五个共产主义文明建立友好关系</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN1_TITLE</Tag>
+		<English>Kalandoz&#225;sok</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡兰多萨索克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ORTHODOX_CATHEDRALS</Tag>
+		<English>Orthodox cathedrals: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Orthdox cathedrals：%D1/%D2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA1</Tag>
+		<English>Never lose a city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>永远不要失去一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND2_TITLE</Tag>
+		<English>Land of Temples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>寺庙之地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE2_HELP</Tag>
+		<English>Controlled fur resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制毛皮资源: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT3_TITLE</Tag>
+		<English>The Tulip Period</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>郁金香时期</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_RESERVOIRS</Tag>
+		<English>Reservoirs: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>存储库：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV__TITLE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese> </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1_EPIC</Tag>
+		<English>Have 7500 gold in 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年时拥有7500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERCENTAGE_WORLD_POPULATION_AREA</Tag>
+		<English>Percentage of world population %s3: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>占世界人口比例 %s3: %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1</Tag>
+		<English>Have more than 500 Culture in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年(84回合)时拥有超过500文化点</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOSQUES_BUILT</Tag>
+		<English>Grand Mosques built: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>清真寺： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_TAMBOS</Tag>
+		<English>Tambos: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>土堡驿站： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AUSTRALIA_CONTROL_NEW_ZEALAND</Tag>
+		<English>New Zealand: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新西兰: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER1</Tag>
+		<English>Have 7 great people in Berlin in 1900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1900年时在柏林入驻7位历史伟人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CAT3</Tag>
+		<English>Holy Mission: Make sure at least 50% of the world is controlled by Catholic civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Holy Mission: Make sure at least 50% of the world is controlled by Catholic civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_FAILED</Tag>
+		<English>Goal failed!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>任务失败！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN1_TITLE</Tag>
+		<English>The Malthusian Limit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>生生不息</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1_TITLE</Tag>
+		<English>New Tyre</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新胎</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENSLAVED_UNITS</Tag>
+		<English>Enslaved units: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俘获单位： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR2_TITLE</Tag>
+		<English>Choe Yun-ui</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>崔允仪</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT1_TITLE</Tag>
+		<English>Floating Gardens</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>漂浮花园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY3</Tag>
+		<English>Build the Moai Statues by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1200年建造摩埃雕像</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_CONTROL_NORTH_AMERICA</Tag>
+		<English>North America: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北美洲： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI1_TITLE</Tag>
+		<English>Embassies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大使馆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS1</Tag>
+		<English>Build the St. Sophia Cathedral and an Orthodox Cathedral by 1327 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在AD1327年前建造圣索菲亚大教堂以及东正教大教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA2_TITLE</Tag>
+		<English>Colonized to Colonizer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR1</Tag>
+		<English>Control 6% of the world and pillage 20 improvements by 900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元900年控制6%的世界，掠夺20个改进</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM3</Tag>
+		<English>Have 8000 culture by 1450 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1450年之前拥有8000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER1_TITLE</Tag>
+		<English>Dichter und Denker</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>诗人和思想家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese> </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA3</Tag>
+		<English>Control 20 Forest Preserves and have a National Park in your capital by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1950年时控制20座森林保护区，并且在首都拥有一所国家公园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR3_TITLE</Tag>
+		<English>Urban Planning</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>城市规划</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_PROTESTANTS</Tag>
+		<English>No Protestant civilizations in Europe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲不存在信仰新教的国家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_PAGAN_TEMPLES_WORLD</Tag>
+		<English>Pagan temples in the world: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界上的异教徒寺庙%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRADE_MISSIONS</Tag>
+		<English>Trade Missions: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>外交任务: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC2_TITLE</Tag>
+		<English>Sierra de la Plata</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉普拉塔山脉</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR2</Tag>
+		<English>Control the city with the highest research for 10 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制研究最高的城市10回合</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA1</Tag>
+		<English>Have open borders with 6 European civilizations in 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年与6个欧洲文明有着开放的边界</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR3_EPIC</Tag>
+		<English>Have 7500 gold in 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元200年（238回合）时积累7500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT1</Tag>
+		<English>Have four non-obsolete wonders in your capital in 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年在你的首都有四个不过时的奇迹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD3</Tag>
+		<English>Middle Way: Have cautious or better relations with all civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Middle Way: Have cautious or better relations with all civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY1</Tag>
+		<English>Settle two of the following island groups by 800 AD: Hawaii, New Zealand, Marquesas and Easter Island</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元800年前定居下列2个岛群：夏威夷、新西兰、马奎萨岛和复活节岛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_SMOKEHOUSES</Tag>
+		<English>Smokehouses: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吸烟室%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG3_TITLE</Tag>
+		<English>Shah Jahan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沙贾汗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PACIFIC_RAILROAD</Tag>
+		<English>Railroad to a Pacific port</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>通往太平洋港口的铁路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_CONTROL_AFRICA</Tag>
+		<English>Africa: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>非洲： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB2</Tag>
+		<English>Control 2 Orthodox Cathedrals and have Pleased or better relations with 5 other Christian Civilizations in 1365</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在1365年控制了2个东正教大教堂，并与其他5个基督教文明有着愉快或更好的关系</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI3</Tag>
+		<English>Experience five golden ages by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年之前开创4个黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_PRO2</Tag>
+		<English>Work Ethic: Make sure five great merchants and five great engineers are settled in Protestant civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Work Ethic: Make sure five great merchants and five great engineers are settled in Protestant civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB2_TITLE</Tag>
+		<English>The Makurian Crusades</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马库里亚东征</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CITIES_CONQUERED</Tag>
+		<English>Cities conquered: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>征服的城市: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NIGERIA</Tag>
+		<English>Nigeria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼日利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EASTERN_MEDITERRANEAN</Tag>
+		<English>Eastern Mediterranean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地中海东岸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA2_TITLE</Tag>
+		<English>Venice of the East</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东方威尼斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ZOR3</Tag>
+		<English>Shahnameh: Have legendary culture in the Zoroastrian holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Shahnameh: Have legendary culture in the Zoroastrian holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER1_MARATHON</Tag>
+		<English>Control 7% of the world by 140 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元140年控制世界7%的土地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN2_TITLE</Tag>
+		<English>Great White North</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大白北</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH1_TITLE</Tag>
+		<English>Incense Road</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>熏香王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN2_TITLE</Tag>
+		<English>Celestial Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>康乾盛世</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE1</Tag>
+		<English>Control the Baltic Coast, the Kattegat and the Skagerak by 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年前控制波罗的海沿岸、卡特加特河和斯卡格拉克河</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MEDITERRANEAN_TERRITORY</Tag>
+		<English>Mediterranean territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地中海领土： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS1_TITLE</Tag>
+		<English>Christianization of the Slavs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斯拉夫人的基督教化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL2</Tag>
+		<English>Conquer 4 European colonies by 1745 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1745年之前攻克4座欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD2_MARATHON</Tag>
+		<English>Nirvana: Have the highest approval rating in the world for 300 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Nirvana: Have the highest approval rating in the world for 300 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE1_TITLE</Tag>
+		<English>Translatio Imperii and Reformation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>帝国与改革</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB1_TITLE</Tag>
+		<English>Hammurabi's Code</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>汉谟拉比法典</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_INTI</Tag>
+		<English>Have more gold in your treasury than the rest of the world combined</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Have more gold in your treasury than the rest of the world combined</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_TENGRI</Tag>
+		<English>Acquire eight horse resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire eight horse resources</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_CULTURED_CITY_VALUE</Tag>
+		<English>Most cultured city: %s1_city (%d2 / %d3)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化程度最高的城市： %s1_city (%d2 / %d1)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG2_TITLE</Tag>
+		<English>The Industrial Revolution</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>海上霸主</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL2</Tag>
+		<English>Control South America in 1920 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1920年时控制南美洲</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR1_TITLE</Tag>
+		<English>The Samson Option</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>萨姆逊方案</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG3_TITLE</Tag>
+		<English>Peronism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>庇隆主义</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ2_TITLE</Tag>
+		<English>City of the World's Desire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欲望之城</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_POPULATION_CIV</Tag>
+		<English>Civilization with the largest population: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界上人口最多的文明： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT2_TITLE</Tag>
+		<English>Human Sacrifice</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教人祭</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON1_TITLE</Tag>
+		<English>The Yuan Dynasty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中国元朝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA1_TITLE</Tag>
+		<English>Ijtihad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊智提哈德</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_OLYMPIANISM</Tag>
+		<English>Control ten wonders that require no state religion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Control ten wonders that require no state religion</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER3_TITLE</Tag>
+		<English>Vorsprung durch Technik</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>技术进步</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ACCOMPLISHED</Tag>
+		<English>Historical goals accomplished:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已完成历史目标:</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_BUDDHIST_MONASTERIES</Tag>
+		<English>Buddhist Sanghas: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛院： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH3_TITLE</Tag>
+		<English>Prester John</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>祭司王约翰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3_EPIC</Tag>
+		<English>Have 11250 gold in 1500 AD and 22500 gold in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年时积累7500金币，在公元1700年时积累22500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_COMMERCE_CIV</Tag>
+		<English>Highest commerces output: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最高商业产出: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ORTHODOX_CITIES</Tag>
+		<English>Orthodox Cities: %d1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东正教城市%d1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA1_MARATHON</Tag>
+		<English>Acquire 12000 gold by trade (trade routes, diplomacy, trade missions, dhows) by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1500年，通过贸易（贸易路线、外交、贸易使团、独桅帆船）获得12000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONVERTED_TO_ORTHODOXY</Tag>
+		<English>Converted to Orthodoxy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>皈依东正教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_GENERALS_CAPITAL</Tag>
+		<English>Great Generals in capital: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>入驻首都的大军事家：%d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA1</Tag>
+		<English>Have legendary culture in Paris in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1700年时使巴黎拥有传奇文化（25000点文化值）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG1</Tag>
+		<English>Experience two golden ages by 1930 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1930年时经历2次黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG2_TITLE</Tag>
+		<English>&#210;kp&#242;h&#242;</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金海湾</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1_MARATHON</Tag>
+		<English>Have 15000 gold in 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年时拥有15000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_SHINTO</Tag>
+		<English>Settle three great spies in your capital</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Settle three great spies in your capital</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA1_TITLE</Tag>
+		<English>Plus Ultra</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日不落帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RICHEST_CIVILIZATION</Tag>
+		<English>Richest civilization: </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最富有的文明： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SPREAD_RELIGION_PERCENT</Tag>
+		<English>%s1_religion spread to: %s2 / %s3%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1_religion已传播了： %s2 / %s3%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_POPULOUS_CITY</Tag>
+		<English>Most populous city: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>人口最多的城市： %s1_city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL3_TITLE</Tag>
+		<English>The Dutch East India Company</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰东印度公司</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA1</Tag>
+		<English>Be the first to found a colony in America</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先在美洲建立城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LARGEST_RELIGION_CIV</Tag>
+		<English>Civilization with the largest Catholic population: </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>全世界天主教人口最多的文明： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE1_TITLE</Tag>
+		<English>The Boer Wars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布尔战争</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM2_MARATHON</Tag>
+		<English>Control in 320 AD all the area historically known as the Roman Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元320年（492回合）时控制在真实历史中属于罗马帝国的所有领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR1_TITLE</Tag>
+		<English>Trade Networks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易网络</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR2</Tag>
+		<English>Have five Great Priests, Great Scientists, or Great Artists and one of each settled in your cities in 1211 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>有五位大先知，伟大的科学家，或伟大的艺术家，每一位都在公元1211年前定居在你的城市里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM3_EPIC</Tag>
+		<English>Acquire 6000 gold by trade (trade routes, diplomacy, trade missions) by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1200年之前通过贸易(商路、外交手段、贸易访问)获得6000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_IBERIA</Tag>
+		<English>Iberia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊比利亚: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC2</Tag>
+		<English>Have 2500 gold in 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年拥有2500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON3</Tag>
+		<English>Enter the Industrial Era before anyone enters the Global Era</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在任何人进入全球时代之前进入工业时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EMBASSIES_CIVS</Tag>
+		<English>Civs with embassy: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>有大使馆文明: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL2</Tag>
+		<English>Be first to discover Civil Liberties</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现自由主义</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GOALS</Tag>
+		<English>Historical Victory goals</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>历史胜利目标</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB1_TITLE</Tag>
+		<English>The Tibetan Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吐蕃帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA2_TITLE</Tag>
+		<English>Msikiti Mkubwa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大清真寺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DIFFERENT_CATHEDRALS</Tag>
+		<English>Cathedrals of different religions: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>不同宗教的大教堂%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MUSLIM_CITIES</Tag>
+		<English>Muslim Cities: %d1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆斯林城市%d1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY3_TITLE</Tag>
+		<English>The Ptolemaic Dynasty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托勒密王朝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVAILABLE_DYE_RESOURCES</Tag>
+		<English>Available dye resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>染料资源：%d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2_EPIC</Tag>
+		<English>Control Italy and Iberia in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（208回合）时控制意大利和伊比利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX2_TITLE</Tag>
+		<English>Revolutionary Leaders</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>革命领袖</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1_MARATHON</Tag>
+		<English>Discover Calendar by 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元600年（549回合）之前发现历法</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA1</Tag>
+		<English>Have open borders with 10 civilizations by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1650年与10个文明有开放的边界</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO1_TITLE</Tag>
+		<English>Prosperous Excellence</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>繁荣昌盛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GRE1</Tag>
+		<English>Be the first to discover Mathematics, Literature, Aesthetics, Philosophy and Medicine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先获得数学、文献、美学、哲学和传统医学</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MARQUESAS</Tag>
+		<English>Marquesas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马奎萨</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT3</Tag>
+		<English>Have more culture than all European civilizations combined in 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化比公元1800年欧洲所有文明的总和还要多</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM3_TITLE</Tag>
+		<English>Arabs and Turks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿拉伯人和土耳其人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ORTHODOX_CULTURE_CITIES</Tag>
+		<English>Top five Orthodox cities: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>前五大东正教城市：d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM1_TITLE</Tag>
+		<English>The Sangam Period</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>桑加姆时期</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR1_NOTURN</Tag>
+		<English>Build a Palace and the Great Cothon in Carthage by 300 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前300年（369回合）之前在Carthage建成宫殿及巨港</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK3_MARATHON</Tag>
+		<English>Acquire 9000 gold by pillaging, conquering cities and sinking ships by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前通过劫掠、占领城市和击沉敌舰获得9000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_APOSTOLIC_VOTE_PERCENT</Tag>
+		<English>Votes in the Apostolic Palace: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>教皇宫中的选票： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OTT1_TITLE</Tag>
+		<English>The Golden Apple</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>金苹果</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_INTERMEDIATE</Tag>
+		<English>We have accomplished our second Historical Goal. A Golden Age has begun for our civilization!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>我们完成了3个历史目标中的2个。一座凯旋门已在我们首都建成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_NEW_CAPITAL</Tag>
+		<English>No new capital</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>没有新资本</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL3</Tag>
+		<English>Acquire 3000 gold by selling resources by 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1950年之前通过交易资源获得3000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM3_TITLE</Tag>
+		<English>Preah Srei</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柏斯雷</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX2</Tag>
+		<English>Create three great generals by 1940 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1940年之前产生3位大军事家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1_EPIC</Tag>
+		<English>Have more than 750 Culture in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年（133回合）时至少拥有750点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH2</Tag>
+		<English>Convert to Orthodoxy five turns after its foundation and have three settled Great Prophets and an Orthodox Cathedral by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在东正教建立5个回合后皈依东正教，在公元1200年时有三位大先知和一个东正教大教堂。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_ARTISTS_SETTLED</Tag>
+		<English>Great artists settled in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>入驻%s1的大艺术家：%d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ACQUIRED_GOLD</Tag>
+		<English>Acquired gold: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>劫掠金币： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG1_TITLE</Tag>
+		<English>Ifianyako</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊凡亚科</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SECULAR_STATESMEN</Tag>
+		<English>Great Statesmen in secular civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世俗文明中的伟大政治家：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3_MARATHON</Tag>
+		<English>Make Babylon the most culturally advanced city in the world in 700 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前700年时288回合）使巴比伦成为世界上文化程度最高的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAM2_TITLE</Tag>
+		<English>The Chola Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>The Chola Empire</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL1_TITLE</Tag>
+		<English>Financial Center of the World</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界金融中心</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_HIN2_EPIC</Tag>
+		<English>Artha: Experience 36 turns of golden age</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Artha: Experience 36 turns of golden age</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_COLONIES_PERU</Tag>
+		<English>No colonies in Peru</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>秘鲁</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH1</Tag>
+		<English>Acquire 3 incense resources by 400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元400年获得3种香资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_CAPITAL_CULTURE_BUILDINGS_CIV</Tag>
+		<English>Civilization with the most culture producing buildings in their Capital: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>首都最具文化产出的建筑: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAMEROON</Tag>
+		<English>Cameroon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>喀麦隆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS1_TITLE</Tag>
+		<English>Eastward Expansion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄国东扩</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS3</Tag>
+		<English>Have the highest approval rating in the world for 25 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有全球最高支持率达25回合</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR3</Tag>
+		<English>Have 5000 gold in 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元200年（154回合）时积累5000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG3_MARATHON</Tag>
+		<English>Have more than 150000 culture in 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年有超过150000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR2_TITLE</Tag>
+		<English>Start-up Nation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>创业国度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BLACK_TO_BARENTS</Tag>
+		<English>Continuous empire from the Barents Sea to the Mediterranean Sea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从巴伦支海到地中海的连续帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRADE_GOLD_RESOURCES</Tag>
+		<English>Gold from trading resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>交易资源所得金币： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PEACE_TURNS</Tag>
+		<English>Turns spent at peace: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在和平中花费的回合数：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITY_SIZE</Tag>
+		<English>%s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1_城市：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM1_TITLE</Tag>
+		<English>The Land of Dreams</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>梦想之乡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA1_TITLE</Tag>
+		<English>Swahili Coast Trade</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斯瓦希里海岸贸易</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE1_SKAGERRAK_HELP</Tag>
+		<English>Skagerrak and Kattegat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斯卡格拉克和凯特加特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA1_TITLE</Tag>
+		<English>Khazar Correspondence</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈扎尔通信</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_ADVANCED_CIV</Tag>
+		<English>Most advanced civilization: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最先进的文明： %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI1</Tag>
+		<English>Control 7 Embassies in 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1400年控制7个大使馆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_EMBASSIES</Tag>
+		<English>Embassies: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大使馆: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR1</Tag>
+		<English>Build an ICBM by 1980 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1980年建造洲际弹道导弹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_FRANCE</Tag>
+		<English>Gaul: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITY_WITH_MOST_WONDERS</Tag>
+		<English>City with the most wonders: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最神奇的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_JEWISH_POPULATION</Tag>
+		<English>Civilization with the largest Jewish Population: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有最多犹太人的文明: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR1</Tag>
+		<English>Build a Buddhist Chaitya and a Confucian Guozijian by 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在1200年之前建成一座佛寺和一座学宫</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LARGEST_MAP</Tag>
+		<English>Largest map: </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最完整地图的拥有者： </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT1</Tag>
+		<English>Make Tenochtitlan the largest city in the world in 1520 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1520年时确保Tenochtitlan是全世界人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_NONRELIGIOUS_WONDERS</Tag>
+		<English>Controlled nonreligious wonders: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>受控制的非宗教奇观%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND3_TITLE</Tag>
+		<English>Sacred Rivers</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>神圣河流</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG1_TITLE</Tag>
+		<English>The Argentinian Paradox</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷悖论</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP2_TITLE</Tag>
+		<English>All the World Under One Roof</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东亚共荣</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA2_TITLE</Tag>
+		<English>Mai of Chad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乍得的迈伊</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA2_TITLE</Tag>
+		<English>The Treasure Fleet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宝藏舰队</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG2</Tag>
+		<English>Be the first to discover ten Industrial technologies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年时控制25艘三桅战舰和主力战舰并且击沉50艘敌舰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2</Tag>
+		<English>Control Italy and Iberia in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（134回合）时控制意大利和伊比利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP1_EPIC</Tag>
+		<English>Have an average city culture of 9000 by 1600 AD without ever losing a city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1600年，平均有9000个城市文化，而且从未失去过一个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KOR3</Tag>
+		<English>Sink 20 enemy ships</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>击沉20艘敌舰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVAILABLE_INCENSE_RESOURCES</Tag>
+		<English>Available incense resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>熏香资源： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS2</Tag>
+		<English>Control a continuous empire from a port on the Barents Sea to a port on the Mediterranean Sea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从巴伦支海的一个港口到地中海的一个港口，控制着一个连续的帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB1</Tag>
+		<English>Acquire 5 cities by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年之前拥有5座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TAOIST_CIVS</Tag>
+		<English>Other Taoist civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>其他道教文明：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_UHV_END_TURN</Tag>
+		<English>(Turn %d1)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>（回合%d1）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME1_TITLE</Tag>
+		<English>Manifest Destiny</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西进运动</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_STATE_RELIGION_CATHEDRALS</Tag>
+		<English>%s1 Cathedrals built: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1大教堂数量： %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1_NOTURN</Tag>
+		<English>Build 6 Castras, 5 Aqueducts, 4 Arenas and 3 Forums by 100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元200年之前建造6座兵营、5座引水渠4座竞技场以及3座中心花园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_BYZANTIUM</Tag>
+		<English>Greece and Anatolia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊和安纳托利亚： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MEDITERRANEAN_CITIES</Tag>
+		<English>Mediterranean cities: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>地中海城市： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO2</Tag>
+		<English>Build La Mezquita and settle a total of four great prophets, scientists or engineers in Cordoba by 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1300年，在科尔多瓦建造拉梅兹基塔并安置四位伟大的先知、科学家或工程师</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA2</Tag>
+		<English>Conquer 4 cities from civs that have declared war on you</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>征服4个向你宣战的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON1</Tag>
+		<English>Control China by 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1300年控制中国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_COLONIAL_RESOURCES</Tag>
+		<English>Available colonial resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>可用的殖民地资源：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL2</Tag>
+		<English>Build the University of Sankore and settle a great prophet in its city by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年前建立桑科尔大学并在其城市安置一位伟大的先知</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FRIENDLY_CIVS</Tag>
+		<English>Friendly civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>友好文明：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ZOR2</Tag>
+		<English>Mathra: Spread Zoroastrianism to 10%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Mathra: Spread Zoroastrianism to 10%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_TAO1_EPIC</Tag>
+		<English>Compassion: Have the highest life expectancy rating in the world for 150 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Compassion: Have the highest life expectancy rating in the world for 150 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA3</Tag>
+		<English>Found a city in Australia by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年在澳大利亚建立了一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ETH2_TITLE</Tag>
+		<English>Nine Saints</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>九圣之地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_FORUMS</Tag>
+		<English>Forums: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中心花园: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR3_TITLE</Tag>
+		<English>Patronage</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>艺术赞助</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL1</Tag>
+		<English>Make sure there are 15 pagan temples in the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Make sure there are 15 pagan temples in the world</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_HIN2_MARATHON</Tag>
+		<English>Artha: Experience 72 turns of golden age</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Artha: Experience 72 turns of golden age</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO2_TITLE</Tag>
+		<English>Birthplace of the Gods</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>众神诞生地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON3_TITLE</Tag>
+		<English>Pax Mongolica</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒙古和平</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_ACCOMPLISHED</Tag>
+		<English>Goal accomplished!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>目标完成了！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_INDOCHINA</Tag>
+		<English>Indochina</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中南半岛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER1_EPIC</Tag>
+		<English>Control 7% of the world by 140 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元140年控制世界7%的土地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BEST_COMMERCE_CITY</Tag>
+		<English>Most commerce in: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界贸易中心: %s1_city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE2_TITLE</Tag>
+		<English>The Tale of Le Loi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>勒洛伊的故事</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM2</Tag>
+		<English>Control Mecca in 1265</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>1265年控制麦加</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_JEWISH_SPECIALISTS</Tag>
+		<English>Great Prophets, Scientists and Statesmen in Jewish cities: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>犹太城市的伟大先知、科学家和政治家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_SHRINES</Tag>
+		<English>Shrines: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>圣城数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_TAO3</Tag>
+		<English>Humility: Have legendary culture in the Taoist holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Humility: Have legendary culture in the Taoist holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AUSTRALIA_CONTROL_PACIFIC</Tag>
+		<English>Pacific Islands: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>太平洋岛屿: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_CULTURE_OUTPUT_CIV</Tag>
+		<English>Civilization with highest culture output: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化产出最高的文明: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MANCHURIA</Tag>
+		<English>Manchuria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中国东北</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_HAPPINESS_RESOURCES</Tag>
+		<English>Owned happiness resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>获得快乐资源数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AME3</Tag>
+		<English>Control 75% of the world's commerce and military power between you, your vassals and allies by 1990 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1990年时和你的附庸国、同盟国控制世界上 75%的商业活动和军事力量</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ATLANTIC_RAILROAD</Tag>
+		<English>Railroad to an Atlantic port</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>通往大西洋港口的铁路</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE1_MARATHON</Tag>
+		<English>Have 24000 culture in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1200年有24000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROPHETS_SCIENTISTS_ARTISTS</Tag>
+		<English>Great Prophets, Scientists, and Artists: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伟大的先知、科学家和艺术家: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ZOR1</Tag>
+		<English>Adar: Acquire six incense resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Adar: Acquire six incense resources</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER3</Tag>
+		<English>Control 2 holy city shrines in 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（164回合）时控制2座宗教圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_ASATRU</Tag>
+		<English>Have five units of level five</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Have five units of level five</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_TAO1</Tag>
+		<English>Compassion: Have the highest life expectancy rating in the world for 100 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Compassion: Have the highest life expectancy rating in the world for 100 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_CANADA</Tag>
+		<English>Canadian territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大领土：%s1/%s2%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON1_TITLE</Tag>
+		<English>Catholic Congo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>天主教刚果</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG2</Tag>
+		<English>Build the Red Fort, Shalimar Gardens and the Taj Mahal by 1660 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1660年前建造红堡、沙利玛花园和泰姬陵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR1</Tag>
+		<English>Build the Shwedagon Paya, 2 Buddhist Temples, and 2 Buddhist Monasteries by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年前修建大金寺、2座佛教寺庙和2座佛教寺院</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CON2_EPIC</Tag>
+		<English>Gain 1500 gold through slave trade by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1800年通过奴隶贸易获得1500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POR3</Tag>
+		<English>Control 15 colonies in Brazil, Africa and Asia in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1700年时于巴西、非洲和亚洲控制15处殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CAT1_EPIC</Tag>
+		<English>Holy See: Be Pope for 150 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Holy See: Be Pope for 150 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA1</Tag>
+		<English>Control 8 Slave Plantations and 4 Pastures in 1880 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1880年时控制8座奴隶种植园以及4座牧场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1</Tag>
+		<English>Build 6 Castras, 5 Aqueducts, 4 Arenas and 3 Forums by 100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元100年(147回合)之前建造6座兵营、5座引水渠、4座竞技场和3座中心花园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NORTH_AMERICAN_TERRITORY</Tag>
+		<English>North American territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北美洲领土： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM3</Tag>
+		<English>Do not allow any Persian or Turkic nation to conquer a city in the Arabian Peninsula prior to the Collapse of the Ottomans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>不要让任何波斯或突厥民族在奥斯曼帝国崩溃之前征服阿拉伯半岛的一座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA1_TITLE</Tag>
+		<English>King of Kanem</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡尼姆之王</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG1</Tag>
+		<English>Control a total of 25 frigates or man-o-wars and sink 50 enemy ships by 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1730年之前殖民所有大陆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MONOPOLY_OWN</Tag>
+		<English>Control %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制 %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG2</Tag>
+		<English>Acquire 2000 gold by selling resources by 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年通过出售资源获得2000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWA3_TITLE</Tag>
+		<English>Marchinbar Island Coins</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马尔金巴尔岛货币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ISR3</Tag>
+		<English>Create two Great Spies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>创造两个伟大的间谍</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_POL1</Tag>
+		<English>Have three cities of at least size 12 by 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1400年时拥有三座人口规模超过12城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS2_TITLE</Tag>
+		<English>The Wise Prince</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>聪明的王子</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_RESEARCH_TURNS</Tag>
+		<English>Turns with highest research city: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>最高科研值城市回合数: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1_TITLE</Tag>
+		<English>Valley of Kings</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>国王谷</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO2_TITLE</Tag>
+		<English>Emerald of the Equator</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>赤道绿宝石</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA3_TITLE</Tag>
+		<English>Rex Cumaniae</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>雷克斯库曼尼亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LARGEST_ARMY_AFRICA</Tag>
+		<English>Largest army in Africa: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>非洲最大的军队: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM2</Tag>
+		<English>Monopolize Gold, Silver, Gems and Ivory in Sub-Saharan Africa in 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年垄断了撒哈拉以南非洲的黄金、白银、宝石和象牙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_PROPHETS</Tag>
+		<English>Great Prophets: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伟大的先知：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_ORT2</Tag>
+		<English>Iconography: Make sure the five most cultured cities in the world are Orthodox</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Iconography: Make sure the five most cultured cities in the world are Orthodox</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_IMPROVEMENTS</Tag>
+		<English>%s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1:%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG2_TITLE</Tag>
+		<English>Shah Akbar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沙阿阿克巴</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_HIN1</Tag>
+		<English>Varna: Settle five different great people in the Hindu holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Varna: Settle five different great people in the Hindu holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN3_TITLE</Tag>
+		<English>Peacekeeping</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>和平使者</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER1</Tag>
+		<English>Control 7% of the world by 140 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元140年控制世界7%的土地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM3_MARATHON</Tag>
+		<English>Have 24000 culture by 1450 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1450年之前拥有24000点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA3_EPIC</Tag>
+		<English>Have a city of at least 30000 culture in 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年时拥有一座超过30000点文化值的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA2_TITLE</Tag>
+		<English>Nader Shah</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>纳德沙阿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SLAVES_TRADED</Tag>
+		<English>Gold from slave trade: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贩卖奴隶所获金币： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_DRUIDISM</Tag>
+		<English>Control 20 unimproved forest or marsh tiles</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Control 20 unimproved forest or marsh tiles</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL1</Tag>
+		<English>Settle 3 great merchants in Amsterdam by 1745 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1745年之前有三个大商业家进驻阿姆斯特丹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BOE3_TITLE</Tag>
+		<English>The Incident</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>导弹大事件</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_TEOTL_MAYA</Tag>
+		<English>Acquire 50 food from combat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire 50 food from combat</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAIRO</Tag>
+		<English>Cairo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>开罗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2_MARATHON</Tag>
+		<English>Make Babylon the most populous city in the world in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年（258回合）时使巴比伦成为人口最多的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DECCAN</Tag>
+		<English>Deccan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>德干</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LEVANT</Tag>
+		<English>Levant</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黎凡特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HRE1</Tag>
+		<English>Control Saint Peter's Basilica in 1000 AD, the Church of the Anastasis in 1200 AD and All Saint's Church in 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年控制圣彼得大教堂，公元1200年控制阿纳斯塔西教堂，公元1550年控制新教圣坛（诸圣大教堂)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR2_TITLE</Tag>
+		<English>Architecture</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>建筑技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITY_CULTURE</Tag>
+		<English>Culture in %s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1_city的文化值： %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CAT1_MARATHON</Tag>
+		<English>Holy See: Be Pope for 300 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Holy See: Be Pope for 300 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_OMA1_TITLE</Tag>
+		<English>The Impenetrable Forts</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>不可逾越的堡垒</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA1_TITLE</Tag>
+		<English>Renaissance Architecture</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文艺复兴建筑</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER2_MARATHON</Tag>
+		<English>Control 7 world wonders by 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年（498回合）之前控制7座世界级奇观</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_SEC1</Tag>
+		<English>Tolerance: Control the Cathedrals of all religions</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Tolerance: Control the Cathedrals of all religions</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FIRST_ENTER_MODERN</Tag>
+		<English>First to enter the Modern Era</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先进入信息时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_ANUNNAKI</Tag>
+		<English>Have more wonders in your capital than any other city in the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Have more wonders in your capital than any other city in the world</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SWE1_BALTIC_SEA_HELP</Tag>
+		<English>Baltic Coast</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波罗的海海岸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB3</Tag>
+		<English>Have the highest commerce output among Islamic civilizations and make Sennar the greatest city in all Africa by 1821</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有伊斯兰文明中最高的商业产出，到1821年使森纳尔成为全非洲最大的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY3_TITLE</Tag>
+		<English>Rano Raraku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉鲁早安</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN3</Tag>
+		<English>Win and attend the congress for two world wars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>赢得并参加两次世界大战大会</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALL_ERA_TECHS</Tag>
+		<English>All %s1 technologies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>所有 %s1 技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_PEOPLE_IN_CITY_MOORS</Tag>
+		<English>Great prophets, scientists and engineers in %s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>入驻%s1_city的预言家、科学家和工程师 %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARG2</Tag>
+		<English>Have legendary culture in Buenos Aires by 1960 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1960年时布宜诺斯艾利斯获得传奇的文化成就</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT3</Tag>
+		<English>Enslave 20 Old World units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俘获20个欧洲人的单位</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CITY_DIFFERENT_GREAT_PEOPLE</Tag>
+		<English>Different great people in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中不同的伟人：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP1</Tag>
+		<English>Have an average city culture of 6000 by 1600 AD without ever losing a city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1600年，平均有6000个城市文化，而且从未失去过一个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX3_TITLE</Tag>
+		<English>The City of Palaces</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宫殿之城</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_NO</Tag>
+		<English>NO</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>否</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA1_TITLE</Tag>
+		<English>The Golden Law</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>黄金法则</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_CARTHAGE</Tag>
+		<English>Africa: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>迦太基： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_PROPHETS_SETTLED</Tag>
+		<English>Great prophets settled in %s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>入驻%s1_city的伟人数: %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRANSSIBERIAN_RAILWAY</Tag>
+		<English>Railroad from Moscow to a Siberian port</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西伯利亚大铁路（莫斯科至――西伯利亚港口）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAN3_TITLE</Tag>
+		<English>Westernization Movement</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>洋务运动</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO2_TITLE</Tag>
+		<English>Jewel of the World</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界宝石</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HEALTH_TURNS</Tag>
+		<English>Turns with highest life expectancy rating: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>预期寿命等级最高的匝数：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_TAO2</Tag>
+		<English>Moderation: Control the Confucian and Taoist shrines and combine their income to 40 gold</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Moderation: Control the Confucian and Taoist shrines and combine their income to 40 gold</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD2_EPIC</Tag>
+		<English>Nirvana: Have the highest approval rating in the world for 150 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Nirvana: Have the highest approval rating in the world for 150 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG1_TITLE</Tag>
+		<English>Britannia Rule the Waves</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日不落帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX1_TITLE</Tag>
+		<English>Church and State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>教会国家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIB3</Tag>
+		<English>Settle 5 great prophets in Lhasa by 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1700年之前使5位大预言家入驻拉萨市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER2</Tag>
+		<English>Control Italy, France, Scandinavia, England and Russia in 1940 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1940年时控制意大利、法兰西、斯堪的纳维亚、英格兰和俄罗斯地区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA3_TITLE</Tag>
+		<English>Lord of Bornu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>博尔努之王</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CHINESE_SHRINE_INCOME</Tag>
+		<English>Combined shrine income: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>神龛总收入%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NUB1</Tag>
+		<English>Build the Pyramids in Kerma by 656 BC and Control Egypt for 1000 years</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前656年在克尔玛建造金字塔并控制埃及1000年</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL2_TITLE</Tag>
+		<English>Colonial Rivalry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>殖民竞争</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_AFRICAN_COLONIES_CURRENT_ZIMBABWE</Tag>
+		<English>Currently no European colonies in Subequatorial Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>目前在近赤道非洲没有欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_TRADE_CITY</Tag>
+		<English>City with the highest trade income: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易收入最高的城市：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SACRIFICED_SLAVES</Tag>
+		<English>Slaves sacrificed: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已牺牲的奴隶：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KRS3_TITLE</Tag>
+		<English>The Varangian Way</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦兰吉人的方式</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM1_TITLE</Tag>
+		<English>Homestead of Stone</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>石头家园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FIRST_GREAT_PEOPLE</Tag>
+		<English>First great people born: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>出生的第一批伟人：d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO3</Tag>
+		<English>Acquire 3000 gold through piracy by 1650 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1650年前通过海盗获得3000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1_MARATHON</Tag>
+		<English>Have more than 1500 Culture in 850 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前850年（258回合）时至少拥有1500点文化值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVAILABLE_GEMS_RESOURCES</Tag>
+		<English>Available gems resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>可用的珠宝资源: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CHRISTIAN_CATHEDRALS</Tag>
+		<English>Christian Cathedrals built: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>天主大教堂： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PROTESTANT_ENGINEERS</Tag>
+		<English>Protestant great engineers: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新教伟大的工程师%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_HINDU_MONASTERIES</Tag>
+		<English>Hindu Ashrams: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度教静修院： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO3</Tag>
+		<English>Control all tiles in Mesoamerica in 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年控制中美洲的所有地块</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA3_TITLE</Tag>
+		<English>Half of the World</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>半个世界</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK3</Tag>
+		<English>Acquire 3000 gold by pillaging, conquering cities and sinking ships by 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年之前通过劫掠区域设施、占领城市和击沉敌舰获得3000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR2_MARATHON</Tag>
+		<English>Control Italy and Iberia in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（408回合）时控制意大利和伊比利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_COMMERCE_CIV</Tag>
+		<English>Highest commerce per city: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>每座城市商业产值最高: %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOTAL_CULTURE</Tag>
+		<English>Total culture: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>总文化值： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_BUDDHIST_TEMPLES</Tag>
+		<English>Buddhist Stupa: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛塔: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA2</Tag>
+		<English>Control Egypt, the Maghreb, Spain, Mesopotamia and Persia directly or by vassal in 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1300年时征服埃及、马格里布、西班牙、美索不达米亚和波斯，或纳为附庸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MOO1_TITLE</Tag>
+		<English>Caliphate of Al-Andalus</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安达卢斯哈里发</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ROM1_MARATHON</Tag>
+		<English>Build 6 Castras, 5 Aqueducts, 4 Arenas and 3 Forums by 100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元100年(448回合)之前建造6座兵营、5座引水渠、4座竞技场和3座中心花园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_AFRICAN_COLONIES_CURRENT</Tag>
+		<English>Currently no European colonies in East and Subequatorial Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保东非及其近赤道地区没有欧洲人的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS1</Tag>
+		<English>Control Australia, New Zealand, New Guinea and 3 Pacific island in 1950 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1950年控制澳大利亚、新西兰、新几内亚和3个太平洋岛屿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SPA3_TITLE</Tag>
+		<English>Soldiers of God</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>神之战士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR3_MARATHON</Tag>
+		<English>Have 15000 gold in 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元200年（468回合）时积累7500金币时积累15000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI2_TITLE</Tag>
+		<English>The Four Great Inventions</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>四大发明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHA3</Tag>
+		<English>Control a continuous empire from the Danube River to Lake Zaysan in 1241 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1241年控制了一个从多瑙河到扎伊桑湖的连续帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BRA2_TITLE</Tag>
+		<English>Maracana, Cristo Redentor, Itaipu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奇观王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALLIED_POWER_PERCENT</Tag>
+		<English>Global allied power: %s1 / %s2%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>全球盟军力量%s1/%s2%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CHECKF8</Tag>
+		<English>Check the Victory Conditions (F8) for details</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>查看胜利条件界面(F8)了解详情</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_FRIENDLY_RELIGION</Tag>
+		<English>Friendly civilizations with %s1 minority: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>与%s1少数民族的友好文明%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER3_NOTURN</Tag>
+		<English>Control 2 holy city shrines in 350 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元350年时控制2座圣城神殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_EUROPEAN_TERRITORY</Tag>
+		<English>European territory: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲领土： %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND1_MARATHON</Tag>
+		<English>Control the shrines of Hinduism and Buddhism in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（408回合）时控制印度教和佛教的圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OPEN_BORDERS</Tag>
+		<English>Open border agreements: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>开放边界数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GLOBAL_WARS</Tag>
+		<English>World Wars: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世界大战: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MEX1</Tag>
+		<English>Build three cathedrals of your state religion by 1880 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1880年之前建造完成3所官方宗教的大教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM2_TITLE</Tag>
+		<English>The Rasulid Dynasty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉苏利德王朝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_SOUTH_ASIAN_COLONIES</Tag>
+		<English>No foreign colonies in South Asia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南亚没有外国的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MONOPOLY_OTHERS_NOT_OWN</Tag>
+		<English>No other civ controlling improved %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>没有其他文明控制 %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PLY1_TITLE</Tag>
+		<English>Oceanic Navigators</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>海洋领航员</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_YES</Tag>
+		<English>YES</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>是</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YEM1</Tag>
+		<English>Control more culture producing buildings in your capital than any other nation in 1229</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>1229年，在你的首都控制比任何其他国家都多的文化生产建筑</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_BARRACKS</Tag>
+		<English>Castras: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>兵营： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_THA3_TITLE</Tag>
+		<English>The Circle of Power</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>权力圈</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHM2</Tag>
+		<English>Have an average city size of 12 or more in 1450 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1450年之前城市人口的平均值达到12以上</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SANKORE_PROPHETS</Tag>
+		<English>Great prophets settled in the Sankore city: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在桑科雷大学内入驻的大预言家: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1</Tag>
+		<English>Discover Calendar by 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元600年（181回合）之前发现历法</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BUR3_TITLE</Tag>
+		<English>The Toungoo Dynasty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东郭王朝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HOLY_CITY_WONDERS</Tag>
+		<English>Wonders in %s1: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中的奇观：%d2/%d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NEW_ZEALAND</Tag>
+		<English>New Zealand</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新西兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GOAL_ACCOMPLISHED_DATE</Tag>
+		<English>Goal accomplished! (%s1)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>目标完成了！（%s1）</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA3</Tag>
+		<English>Control 65% of the Mediterranean by 1930 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元1930年控制了地中海的65%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONTROL_HOLY_CITY</Tag>
+		<English>Control %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控件%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_WONDERS</Tag>
+		<English>Wonders: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奇观数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_SEC2</Tag>
+		<English>Humanism: Make sure there are 25 Universities, 10 Great Scientists and 10 Great Statesmen in secular civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Humanism: Make sure there are 25 Universities, 10 Great Scientists and 10 Great Statesmen in secular civilizations</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PER1_NOTURN</Tag>
+		<English>Control 8% of the world by 140 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元140年控制世界8%的土地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_CONFUCIAN_ACADEMIES</Tag>
+		<English>Confucian Guozijians: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>学宫： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TEMPLES_BUILT</Tag>
+		<English>Temples built: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已建造寺庙： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE1_TITLE</Tag>
+		<English>Water Puppetry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>水上木偶戏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS_VICTORY</Tag>
+		<English>Religious Victory:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教胜利：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVAILABLE_RESOURCES</Tag>
+		<English>Available %s1 resources: %d2 / %d3d</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有 %s1资源：%d2/%d3d</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SRIVIJAYA</Tag>
+		<English>Srivijaya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>室利佛逝</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_WALLS</Tag>
+		<English>Walls: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>墙：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_CENTRAL_AMERICAN_COLONIES</Tag>
+		<English>No European colonies in Central America, Southern USA and the Caribbean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中美洲、美国南部和加勒比地区没有欧洲人的殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAR3_TITLE</Tag>
+		<English>Traders in Purple</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>紫衣商人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC2_EPIC</Tag>
+		<English>Have 3750 gold in 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年拥有3750金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARA1</Tag>
+		<English>Be the most advanced civilization in 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1300年时成为最先进的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_LEGENDARY_CULTURE_CITY</Tag>
+		<English>Legendary culture in %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1中的传奇文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ROME_CONTROL_SPAIN</Tag>
+		<English>Iberia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊比利亚: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIK2_TITLE</Tag>
+		<English>Vinland Saga</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>海盗战记</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_GER3</Tag>
+		<English>Be the first to discover eight Industrial and eight Global era technologies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现八项工业和八项全球时代的技术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND1</Tag>
+		<English>Control the shrines of Hinduism and Buddhism in 100 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元前100年（134回合）时控制印度教和佛教的圣殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON2</Tag>
+		<English>Raze at least 7 cities</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>把至少7个城市夷为平地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_VIENNA</Tag>
+		<English>Vienna</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>维也纳</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS1_TITLE</Tag>
+		<English>Commonwealth of Oceania</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大洋洲联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CAN3</Tag>
+		<English>End twelve wars through diplomacy by 2000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元2000年通过外交手段结束十二次战争</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_UNIT_RECEIVERS</Tag>
+		<English>Unit receiving civs: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>接受单位: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AVAILABLE_SPICE_RESOURCES</Tag>
+		<English>Available spice resources: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>香料资源： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_AUSTRALIA_CONTROL_GUINEA</Tag>
+		<English>New Guinea: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新几内亚: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA2</Tag>
+		<English>Control or vassalize 40% of Europe and North America in 1800 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1800年时控制欧洲和北美洲40%的地域或纳为附庸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_JUD2</Tag>
+		<English>Promised Land: Have legendary culture in the Jewish holy city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Promised Land: Have legendary culture in the Jewish holy city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHA2</Tag>
+		<English>Sell 5 Slaves and buy 5 Strategic Resources by 1380</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到1380年，卖掉5个奴隶，购买5个战略资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CATHOLIC_EUROPEAN_VASSALS</Tag>
+		<English>Catholic vassals in Europe: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲天主教的封臣</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_VIE1</Tag>
+		<English>Have 8000 culture in 1200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1200年有8000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AZT3_TITLE</Tag>
+		<English>European Flower Wars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲花卉战争</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO3_TITLE</Tag>
+		<English>Percentage of Mesoamerica: %s1 / %s2%%</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制中美洲百分比: %s1 / %s2%%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_WEST_AFRICA</Tag>
+		<English>West Africa: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西非: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_JAP2</Tag>
+		<English>Control or vassalize Korea, Manchuria, China, Indochina, Indonesia and Philippines in 1940 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1940年对朝鲜、中国东北、中国中原地区、东南亚地区、印度尼西亚和菲律宾的控制</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_CON3</Tag>
+		<English>Loyalty: Control an army of 200 non-obsolete melee or gunpowder units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Loyalty: Control an army of 200 non-obsolete melee or gunpowder units</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IND2</Tag>
+		<English>Build 20 temples by 700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元700年建造20座寺庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IRA2</Tag>
+		<English>Control Mesopotamia, Transoxania and Northwestern India in 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1750年时控制美索不达米亚、中亚河中地区（阿姆河流域）和印度西北部</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RUSSIA_CONTROL_SIBERIA</Tag>
+		<English>Cities in Siberia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西伯利亚的7座城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_NIG2_EPIC</Tag>
+		<English>Acquire 4000 gold by selling resources by 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年通过出售资源获得4000黄金</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HAR2</Tag>
+		<English>Build three Reservoirs, two Granaries and two Smokehouses by 1500 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>到公元前1500年建造三座水库，两座粮仓和两座烟馆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON2_TITLE</Tag>
+		<English>The Scourge of God</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>上帝之鞭</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_COLONIES_GRAN_COLOMBIA</Tag>
+		<English>No colonies in Gran Colombia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哥伦比亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG1_TITLE</Tag>
+		<English>Muhammad ibn Tughluq</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆罕默德·伊本·图格卢克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_BUD1_EPIC</Tag>
+		<English>Sila: Be at peace for 150 turns</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Sila: Be at peace for 150 turns</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_CULTURED_CITY</Tag>
+		<English>Most cultured city: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化程度最高的城市： %s1_city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUG3_EPIC</Tag>
+		<English>Have more than 75000 culture in 1750 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1750年有超过75000种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese> </Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGION_HAPPINESS</Tag>
+		<English>Happiness from Religions: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教带来的快乐: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ITA2_TITLE</Tag>
+		<English>Renaissance Art</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文艺复兴艺术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM2_TITLE</Tag>
+		<English>xxx</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>南非黄金国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ZIM1</Tag>
+		<English>Build four castles and kraals and Great Zimbabwe and control them in 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1400年，建造四座城堡和牧场，以及大津巴布韦，并控制它们</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_BUDDHIST_SHRINE</Tag>
+		<English>Buddhist Shrine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>佛教神殿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SECULAR_UNIVERSITIES</Tag>
+		<English>Universities in secular civilizations: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>世俗文明中的大学%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL2_TITLE</Tag>
+		<English>The Madrassah of Timbuktu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>廷巴克图的宗教学校</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB1</Tag>
+		<English>Be the first to discover Construction, Arithmetics, Writing, Calendar and Contract</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>率先发现建筑学、算术、文字、日历和契约精神</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INC2_MARATHON</Tag>
+		<English>Have 7500 gold in 1550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年有7500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TEO1_MARATHON</Tag>
+		<English>Have more than 1500 culture in 550 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元550年有超过1500种文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_YORUBA</Tag>
+		<English>Acquire eight ivory resources and six gem resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Acquire eight ivory resources and six gem resources</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENEMY_SHIPS_SUNK</Tag>
+		<English>Enemy ships sunk: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>击沉敌舰数： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRADE_GOLD</Tag>
+		<English>Gold from trade: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易收益： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_MERCHANTS_IN_CITY</Tag>
+		<English>Great merchants in %s1_city: %d2 / %d3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1_city进驻的大商人： %d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HUN2_TITLE</Tag>
+		<English>The Shield of Christianity</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基督教的盾牌</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_RUS2_TITLE</Tag>
+		<English>The Cold War</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>冷战争锋</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_CONTROL_ASIA</Tag>
+		<English>Asia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚洲： %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CANADIAN_PEACE_DEALS</Tag>
+		<English>Peace deals arranged: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已安排的和平交易数：%d1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MESOPOTAMIA</Tag>
+		<English>Mesopotamia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美索不达米亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3_MARATHON</Tag>
+		<English>Have 22500 gold in 1500 AD and 45000 gold in 1700 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1500年时积累15000金币，在公元1700年时积累45000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHI3_EPIC</Tag>
+		<English>Have 7500 gold in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1600年有7500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_COMMERCE_PER_CAPITA</Tag>
+		<English>Highest commerce per capita: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>人均商业值最高的城市：%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAPITAL_GREAT_SPIES</Tag>
+		<English>Great Spies in capital: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>首都的大间谍：1/%d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1_EPIC</Tag>
+		<English>Discover Calendar by 200 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元600年（278回合）之前发现历法</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ENGLAND_SUNSET_COMPLETE</Tag>
+		<English>Colonize the world</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>开拓世界</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AUS2_TITLE</Tag>
+		<English>ANZAC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>澳新军团</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_CITIES</Tag>
+		<English>No cities founded yet!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尚未建立城市！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_FRA1_TITLE</Tag>
+		<English>Ancien Regime</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>帝国制度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BYZ1</Tag>
+		<English>Have 5000 gold in 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1000年时拥有5000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_COL1</Tag>
+		<English>Allow no European colonies in Peru, Gran Colombia, the Guayanas and the Caribbean in 1870 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1870年时确保秘鲁、大哥伦比亚、圭亚那和加勒比海地区没有欧洲殖民地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INO1</Tag>
+		<English>Have the largest population in the world in 1300 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在公元1300年时拥有世界最多的人口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2_TITLE</Tag>
+		<English>The Fertile Crescent</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新月沃土</Chinese>
+	</TEXT>
+</Civ4GameText>

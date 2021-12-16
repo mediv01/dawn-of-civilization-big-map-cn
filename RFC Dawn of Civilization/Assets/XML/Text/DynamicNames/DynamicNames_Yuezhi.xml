@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_FASCIST</Tag>
+		<English>Indo-Greek Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度-希腊帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_SHORT_DESC</Tag>
+		<English>Kushan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贵霜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_DESC</Tag>
+		<English>The Yuezhi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>月氏文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_YUE</Tag>
+		<English>Extra Culture, Gold, and Happiness from Religions. Halved instability from Religious Disunity.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教提供额外的文化，商业和快乐；宗教不团结造成的不稳定减半。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANISHKA_PEDIA</Tag>
+		<English>[H1]Kanishka I[\H1][NEWLINE][BOLD]Emperor of the Kushan Empire[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]100s AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Most of what is known about Kaniska derives from Chinese sources, particularly Buddhist writings. When Kaniska came to the throne is uncertain. His accession has been estimated as occurring between 78 and 144 CE; his reign is believed to have lasted 23 years. The year 78 marks the beginning of the Shaka era, a system of dating that Kaniska might have initiated.[PARAGRAPH:2]Through inheritance and conquest, Kaniska's kingdom covered an area extending from Bukhara (now in Uzbekistan) in the west to Patna in the Ganges (Ganga) River valley in the east and from the Pamirs (now in Tajikistan) in the north to central India in the south. His capital probably was Purusapura (Peshawar, now in Pakistan). He may have crossed the Pamirs and subjugated the kings of the city-states of Khotan (Hotan), Kashgar, and Yarkand (now in the Xinjiang region of China), who had previously been tributaries of the Han emperors of China. Contact between Kaniska and the Chinese in Central Asia may have inspired the transmission of Indian ideas, particularly Buddhism, to China. Buddhism first appeared in China in the 2nd century CE.[PARAGRAPH:2]As a patron of Buddhism, Kaniska is chiefly noted for having convened the fourth great Buddhist council in Kashmir, which marked the beginnings of Mahayana Buddhism. At the council, according to Chinese sources, authorized commentaries on the Buddhist canon were prepared and engraved on copper plates. These texts have survived only in Chinese translations and adaptations.[PARAGRAPH:2]Kaniska was a tolerant king, and his coins show that he honoured the Zoroastrian, Greek, and Brahmanic deities as well as the Buddha. During his reign, contacts with the Roman Empire via the Silk Road led to a significant increase in trade and the exchange of ideas; perhaps the most remarkable example of the fusion of Eastern and Western influences in his reign was the Gandhara school of art, in which Classical Greco-Roman lines are seen in images of the Buddha.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]迦腻色迦一世[\H1][NEWLINE][BOLD]贵霜帝国的皇帝[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]公元100年左右[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][PARAGRAPH:1]关于迦腻色迦所知的大部分都来自中国，尤其是佛教著作。迦腻色迦何时登基还不确定。据估计，他的登基发生在公元前78年至144年之间；据信他的统治持续了23年。78年标志着夏卡时代的开始，这是迦腻色迦所开创的一种年代测定系统[PARAGRAPH:2]通过继承和征服，迦腻色迦王国所覆盖的地区从西部的布哈拉（现在在乌兹别克斯坦）到东部恒河流域的巴特纳，从北部的帕米尔（现在在塔吉克斯坦）到南部的印度中部。他的首都可能是Purusapura（白沙瓦，现在在巴基斯坦）。他可能越过帕米尔，征服了和阗（和田）、喀什和叶尔羌（现在在中国新疆地区）城邦的国王，这些城邦曾是中国汉朝皇帝的朝贡。迦腻色迦和中亚中国人的接触可能激发了印度思想，特别是佛教，向中国的传播。佛教最早出现在公元前2世纪的中国[PARAGRAPH:2]作为佛教的赞助人，迦腻色迦以在克什米尔召开了第四届佛教大会议而闻名，这标志着大乘佛教的开端。据中国消息来源称，在会议上，已准备好了经授权的佛经评注，并刻在铜版上。这些文本只有在中文翻译和改编中幸存下来[PARAGRAPH:2]迦腻色迦是一个宽容的国王，他的硬币表明他尊敬琐罗亚斯德教、希腊和婆罗门教的神以及佛陀。在他统治期间，通过丝绸之路与罗马帝国的接触导致了贸易和思想交流的显著增加；也许他统治时期东西方影响融合的最显著的例子是甘达拉艺术学校，在那里，古典的希腊-罗马线条出现在佛像中。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_PEDIA</Tag>
+		<English>[TAB]The term Tocharian or Tokharian has a complex history. It is based on the ethnonym Tokharoi used by Greek historians. The first Greek mention of the Tocharians appeared in the 1st century BC, when Strabo presented them as a Scythian tribe, and explained that the Tocharians together with the Assianis, Passianis and Sakaraulis took part in the destruction of the Greco-Bactrian kingdom in the second half of the 2nd century BC. These Tocharians have frequently been identified with the Yuezhi and the later (and probably related) Kushan peoples. Many scholars believe the Yuezhi originally spoke a Tocharian language. However, the debate about the origins and original language(s) of the Yuezhi and the Kushan continues, and there is no general consensus. Regardless, it is generally accepted that the Tocharians were inhabitants of the Tarim Basin who spoke Tocharian, an Indo-European language, making them the easternmost speakers of Indo-European languages in antiquity.[PARAGRAPH:2]The Tarim mummies suggest that precursors of these easternmost speakers of an Indo-European language may have lived in the region of the Tarim Basin from around 1800 BC until finally being assimilated by Uyghur Turks in the 9th century AD. This is evidenced by both the mummies and Chinese writings.[PARAGRAPH:2]The Tocharians, living along the Silk Road, had contacts with the Chinese, Persians, Indian and Turkic tribes.[PARAGRAPH:2]The Tocharians who remained in the Tarim Basin adopted Buddhism, which, like their alphabet, came from northern India in the first century of the 1st millennium, through the proselytism of Kushan monks. The Kushans and the Tocharians seem to have played a part in the Silk Road transmission of Buddhism to China. Many apparently also practised some variant of Manichaeanism.[PARAGRAPH:2]Protected by the Taklamakan Desert from steppe nomads, the Tocharian culture survived past the 7th century. It was then, during the rise of the Islamic and Turkic Empires, that the Tocharians finally vanished from history and were assimilated into various other Central Asian peoples.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Tocharian或Tokharian这个词有着复杂的历史。它是基于希腊历史学家使用的人志。希腊第一次提到托卡里亚人是在公元前1世纪，当时斯特拉波将他们描述成一个斯基西亚部落，并解释说，托克人与阿西亚尼人、帕西亚斯人和萨卡鲁利斯人在公元前2世纪后半叶参与了对格雷科-巴克特里亚王国的破坏。这些托卡里亚人经常被认为是月氏人和后来的（可能是相关的）贵霜人。许多学者认为，月氏最初说的是一种托克语。然而，关于月氏和贵霜的起源和原始语言的争论仍在继续，并没有达成共识。古时候讲印度教语的塔里木盆地的居民普遍接受他们说的是欧洲语[PARAGRAPH:2]塔里木木乃伊表明，这些最东边讲印欧语的人可能生活在这里从公元前1800年左右到公元9世纪被维吾尔土耳其人同化的塔里木盆地地区。木乃伊和中国文字都证明了这一点[PARAGRAPH:2]住在丝绸之路上的托克人与中国人、波斯人有过接触，印第安和突厥部落[PARAGRAPH:2]留在塔里木盆地的托迦利亚人接受了佛教，佛教和他们的字母一样，是在1千年的第一个世纪，通过贵霜僧侣的传教来自印度北部。贵霜人和托迦利亚人似乎在佛教传入中国的丝绸之路中扮演了一个角色。许多人显然也实行摩尼教的一些变体[PARAGRAPH:2]受塔克拉玛干沙漠的保护，不受草原游牧人的影响，托克文化延续了7世纪。在其他伊斯兰帝国崛起的过程中，最终被其他伊斯兰帝国同化。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE1_TITLE</Tag>
+		<English>The Kushan Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贵霜帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL_HELP</Tag>
+		<English>[ICON_BULLET]+25% Production of religious buildings</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]宗教建筑+25%建造速度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_ADJECTIVE</Tag>
+		<English>Yuezhi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>月氏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_PEOPLES</Tag>
+		<English>Yuezhi Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>月氏人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE2_TITLE</Tag>
+		<English>The Centerpoint of Civilization</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文明中心</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_DEFAULT</Tag>
+		<English>%s1 Nomads</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1游牧</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_YUE_TITLE</Tag>
+		<English>The Power of Syncretism:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>宗教融合：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_ADJECTIVE</Tag>
+		<English>Kuashana</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贵霜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_YUEZHI</Tag>
+		<English>Kushan Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贵霜帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_DEFAULT</Tag>
+		<English>%s1 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_KUSHAN</Tag>
+		<English>Kushan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贵霜</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE2</Tag>
+		<English>Have trade routes with four different civilizations by 200 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元200年前与四个不同文明通商</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KUSHAN_HEPHT</Tag>
+		<English>Hephthalite Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>嚈哒帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL</Tag>
+		<English>Gandhara School</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>犍陀罗派学校</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE3</Tag>
+		<English>Build the Salsal Buddha and eight temples by 400 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元400年前建成萨尔萨佛和8座寺庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_SHORT_DESC</Tag>
+		<English>Yuezhi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>月氏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TEMPLES</Tag>
+		<English>Temples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>寺庙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KANISHKA</Tag>
+		<English>Kanishka</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>月氏-迦腻色伽一世</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE1</Tag>
+		<English>Control a city in the Hindu Kush region with a developing culture in 100 CE</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元100年在兴都库什地区控制一座正在发展(developing)文化的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_YUE3_TITLE</Tag>
+		<English>Greco-Buddhist tradition</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊佛教传统</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_YUEZHI_FASCIST</Tag>
+		<English>Indo-Greek Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度-希腊帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_YUEZHI</Tag>
+		<English>It is the year 650 BC. As the interchange between Indian and Greek cultures grows, the nomadic Yuezhi begin gathering power from within their homelands of the arid Gansu Grasslands. Syncretizing faiths both near and far, the Yuezhi culture seems set to spread unlike that of any nomads' before it.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元前650年。随着印度和希腊文化交流的发展，游牧人月氏开始从家乡干旱的甘肃草原积蓄力量。融合了远近两种信仰，月氏文化似乎要传播开来，不像之前的任何游牧人。</Chinese>
+	</TEXT>
+</Civ4GameText>

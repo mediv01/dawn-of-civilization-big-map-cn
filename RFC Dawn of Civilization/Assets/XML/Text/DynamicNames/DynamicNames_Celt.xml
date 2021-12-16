@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_ITALIA</Tag>
+		<English>Italia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Italia: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCOTLAND_SHELTRON</Tag>
+		<English>Sheltron</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>sheltron</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_GERMANIA</Tag>
+		<English>Germania: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Germania: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SCOTLAND_ADJECTIVE</Tag>
+		<English>Scottish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_SCOTLAND_DESC</Tag>
+		<English>The Scottish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_CEL</Tag>
+		<English>Cities start with extra [ICON_CULTURE]. +2 [ICON_PRODUCTION] on unimproved forests.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>城市开始时提供额外[ICON_CULTURE]，未开发的森林地块+2[ICON_PRODUCTION]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCOTTISH_SHIELING</Tag>
+		<English>Shieling</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Shieling</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_SCOTLAND_ADJECTIVE</Tag>
+		<English>Scottish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ROBERT_I_PEDIA</Tag>
+		<English>[H1]Robert I[\H1][NEWLINE][BOLD]King of Scots[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] 1274 - 1329 AD [NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Robert I, or as he is more commonly known as Robert the Bruce, was the first child of Robert de Brus, 6th Lord of Annandale and Marjorie, Countess of Carrick, daughter of Niall, Earl of Carrick.  According to legend, Robert's mother kept his father captive until he agreed to marriage.  Little is known about his youth, although it is possible he was sent to be fostered with a local family, which was a custom in those times.  Bruce was most likely raised speaking the languages Gaelic, Norman French, and Latin.  It is also believed that he knew English.  Robert saw the events of the 'Great Cause' unjust, in which the Crown of Scotland was given to his distant relative, John Balliol.  Robert thought it prevented his branch of the family from their accession to the throne of Scotland.  Soon later, Robert's grandfather resigned lordship to Robert's father.  Thus, Robert the Bruce was the Earl of Carrick.  Both Robert and his father sided with King Edward I of England against Balliol.  In 1295, Robert married his first wife, Isabella of Mar.  Some sources claim that there is lineage between Isabella and King John of England.  [PARAGRAPH: 1] In August of 1296, Bruce and his father swore allegiance to Edward I of England.  In the following year, Bruce joined the Scottish revolt against King Edward.  Letters were sent to Robert urging him to support the English.  He responded by laying waste to the lands owned by Edward.  Bruce eventually made terms with a treaty and he was pardoned in return for swearing loyalty to King Edward.  After William Wallace resigned as Guardian of Scotland after the Battle of Falkirk, Robert the Bruce and John Comyn succeeded him as joint rulers.  The following year, Bruce resigned from his position.  Later, Comyn and his joint ruler, Sir Gilbert, were replaced by Sir John de Soules. [PARAGRAPH: 1] In July, King Edward launched his sixth campaign into Scotland and captured two castles.  Robert the Bruce along with other nobles then submitted to King Edward.  In 1303, Edward invaded again.  John Comyn, who was now the Guardian of Scotland, didn't fight against the King because he had no hope to win.  By 1304, all the leading Scots, except for William Wallace, surrendered to King Edward.  Later that year, Robert made a secret pact with William Lamberton committing to patriotism toward Scotland.  The next year, William Wallace was executed and King Edward took control of Scotland. [PARAGRAPH: 1] In June of 1306, Bruce was defeated at the Battle of Methven and fled to an island of the northern coast of Ireland.  King Edward I marched north the next spring and granted all the Scottish estates of Bruce to his own followers.  On July 7 however, King Edward I died.  Robert the Bruce's only opposition was the new weak ruler, Edward II.  Bruce then returned to Scotland and won a small victory at the Battle of Glen Trool and capturing two castles.  He also burned Inverness Castle and Nairn to the ground.  Bruce continued his successful campaigns throughout the year 1308.  In 1309, he held his first Parliament at St. Andrew and the clergy of Scotland recognized Bruce as King at a general council.  During the next few years, Bruce oversaw the capture and destruction of several English castles.  In May, Bruce raided England and restrained the Isle of Man.  Bruce secured Scottish independence from England through powerful military might at the Battle of Bannockburn. [PARAGRAPH: 1] Now on a military high, Bruce invaded Ireland in 1315, supposedly to free the country from English rule.  Most likely, Bruce wanted to open a second front in the continuing wars with England.  The Irish even crowned Bruce's brother Edward as High King of Ireland in 1316.  The campaigns into Ireland made some successes, but none were significant enough to make any major changes.  With the support of only the Ulster chiefs, victory was unlikely.  Bruce died on June 7, 1329 at the Manor of Cardross in Cardross Parish, Dumbarton.  He suffered some years of disease, and it is sometimes believed that he died of leprosy just as his father did.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]罗伯特一世[\H1][NEWLINE][BOLD]苏格兰国王[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]1274-1329年[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]罗伯特一世，或者更通俗地说是罗伯特布鲁斯，是罗伯特·德布鲁斯的第一个孩子，罗伯特·德布鲁斯是安南代尔的第六任领主，马乔里是尼亚尔的女儿卡里克伯爵夫人，卡里克伯爵。根据传说，罗伯特的母亲把他的父亲囚禁起来，直到他同意结婚。关于他的年轻，人们知之甚少，尽管他有可能被送到当地一个家庭抚养，这在当时是一种习俗。布鲁斯长大后很可能会说盖尔语、诺曼法语和拉丁语。人们还认为他懂英语。罗伯特目睹了“伟大事业”的不公正事件，苏格兰的王冠被授予他的远亲约翰·巴利奥尔。罗伯特认为这阻止了他的家族成员登上苏格兰王位。不久之后，罗伯特的祖父把爵位让给了罗伯特的父亲。因此，罗伯特布鲁斯就是卡里克伯爵。罗伯特和他的父亲都站在英格兰国王爱德华一世对巴利奥尔的比赛中。1295年，罗伯特娶了他的第一任妻子，玛尔的伊莎贝拉。有消息称伊莎贝拉和英国国王约翰之间有血统。[PARAGRAPH:1]1296年8月，布鲁斯和他的父亲宣誓效忠英国爱德华一世。第二年，布鲁斯加入了苏格兰反抗爱德华国王的运动。有人写信给罗伯特，敦促他支持英国人。他以荒废爱德华的土地作为回应。布鲁斯最终与条约达成了协议，作为对爱德华国王宣誓效忠的回报，他被赦免了。威廉·华莱士在福克战役后辞去了苏格兰卫士的职务，罗伯特·布鲁斯和约翰·科明接替他成为联合统治者。第二年，布鲁斯辞去了他的职务。后来，科蒙和他的联合统治者吉尔伯特爵士被约翰·德苏尔斯爵士取代。[PARAGRAPH:1]7月，爱德华国王第六次进军苏格兰，占领了两座城堡。罗伯特布鲁斯和其他贵族一起向爱德华国王投降。1303年，爱德华再次入侵。现在是苏格兰卫士的约翰·科明没有和国王抗争，因为他没有获胜的希望。到了1304年，除威廉·华莱士外，所有主要的苏格兰人都向爱德华国王投降。同年晚些时候，罗伯特与威廉·兰伯顿签订了一项秘密协议，致力于对苏格兰的爱国主义。第二年，威廉·华莱士被处死，爱德华国王控制了苏格兰。[PARAGRAPH:1]1306年6月，布鲁斯在马斯文战役中战败，逃到爱尔兰北部海岸的一个岛屿上。第二年春天，爱德华一世向北进军，将布鲁斯的所有苏格兰庄园授予他的追随者。然而，爱德华一世于7月7日去世。罗伯特布鲁斯唯一的反对者是新的软弱的统治者爱德华二世。布鲁斯随后回到苏格兰，在格伦特罗尔战役中取得了一个小小的胜利，并占领了两座城堡。他还把因弗内斯城堡和奈恩烧掉。布鲁斯在1308年继续他的成功战役。1309年，他在圣安德鲁召开了第一届议会，苏格兰的神职人员在一次总议会上承认布鲁斯为国王。在接下来的几年里，布鲁斯监督了几个英国城堡的捕获和破坏。5月，布鲁斯突袭英格兰并控制了马恩岛。布鲁斯在班诺克本战役中通过强大的军事力量使苏格兰从英格兰独立出来。[PARAGRAPH:1]布鲁斯在1315年入侵爱尔兰，当时正值军事高峰，据说是为了让爱尔兰摆脱英国的统治。很有可能，布鲁斯想在与英格兰的持续战争中开辟第二条战线。爱尔兰人甚至在1316年加冕布鲁斯的弟弟爱德华为爱尔兰的最高国王。进入爱尔兰的竞选活动取得了一些成功，但都没有取得重大进展。只有阿尔斯特酋长的支持，胜利是不可能的。布鲁斯于1329年6月7日在邓巴顿卡德罗斯教区的卡德罗斯庄园去世。他患了好几年的病，有时人们认为他和他父亲一样死于麻风病。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_ADJECTIVE</Tag>
+		<English>Celtic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>凯尔特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SCOTLAND_PEDIA</Tag>
+		<English>[TAB]The Kingdom of the Picts (based in Fortriu by the 6th century) was the state that eventually became known as "Alba" or "Scotland". The development of "Pictland", according to the historical model developed by Peter Heather, was a natural response to Roman imperialism. Another view places emphasis on the Battle of Dun Nechtain, and the reign of Bridei m. Beli (671-693), with another period of consolidation in the reign of 瑙榥gus mac Fergusa (732-761).[PARAGRAPH:2]The Kingdom of the Picts as it was in the early 8th century, when Bede was writing, was largely the same as the kingdom of the Scots in the reign of Alexander I (1107-1124). However, by the tenth century, the Pictish kingdom was dominated by what we can recognise as Gaelic culture, and had developed a traditional story of an Irish conquest around the ancestor of the contemporary royal dynasty, Cin閱梔 mac Ailp闊� (Kenneth MacAlpin).[PARAGRAPH:2]From a base of territory in eastern Scotland north of the River Forth and south of the River Oykel, the kingdom acquired control of the lands lying to the north and south. By the 12th century, the kings of Alba had added to their territories the English-speaking land in the south-east and attained overlordship of Gaelic-speaking Galloway and Norse-speaking Caithness; by the end of the 13th century, the kingdom had assumed approximately its modern borders. However, processes of cultural and economic change beginning in the 12th century ensured Scotland looked very different in the later Middle Ages.[PARAGRAPH:2]The push for this change was the reign of David I and the Davidian Revolution. Feudalism, government reorganisation and the first legally recognised towns (called burghs) began in this period. These institutions and the immigration of French and Anglo-French knights and churchmen facilitated cultural osmosis, whereby the culture and language of the low-lying and coastal parts of the kingdom's original territory in the east became, like the newly acquired south-east, English-speaking, while the rest of the country retained the Gaelic language, apart from the Northern Isles of Orkney and Shetland, which remained under Norse rule until 1468. The Scottish state entered a largely successful and stable period between the 12th and 14th centuries, there was relative peace with England, trade and educational links were well developed with the Continent and at the height of this cultural flowering John Duns Scotus was one of Europe's most important and influential philosophers.[PARAGRAPH:2]The death of Alexander III in March 1286, followed by that of his granddaughter Margaret, Maid of Norway, broke the centuries-old succession line of Scotland's kings and shattered the 200-year golden age that began with David I. Edward I of England was asked to arbitrate between claimants for the Scottish crown, and he organised a process known as the Great Cause to identify the most legitimate claimant. John Balliol was pronounced king in the Great Hall of Berwick Castle on 17 November 1292 and inaugurated at Scone on 30 November, St. Andrew's Day. Edward I, who had coerced recognition as Lord Paramount of Scotland, the feudal superior of the realm, steadily undermined John's authority. In 1294, Balliol and other Scottish lords refused Edward's demands to serve in his army against the French. Instead the Scottish parliament sent envoys to France to negotiate an alliance. Scotland and France sealed a treaty on 23 October 1295, known as the Auld Alliance (1295-1560). War ensued and King John was deposed by Edward who took personal control of Scotland. Andrew Moray and William Wallace initially emerged as the principal leaders of the resistance to English rule in what became known as the Wars of Scottish Independence (1296-1328).[PARAGRAPH:2]The nature of the struggle changed significantly when Robert the Bruce, Earl of Carrick, killed his rival John Comyn on 10 February 1306 at Greyfriars Kirk in Dumfries. He was crowned king (as Robert I) less than seven weeks later. Robert I battled to restore Scottish Independence as King for over 20 years, beginning by winning Scotland back from the Norman English invaders piece by piece. Victory at the Battle of Bannockburn in 1314 proved the Scots had regained control of their kingdom. In 1315, Edward Bruce, brother of the King, was briefly appointed High King of Ireland during an ultimately unsuccessful Scottish invasion of Ireland aimed at strengthening Scotland's position in its wars against England. In 1320 the world's first documented declaration of independence, the Declaration of Arbroath, won the support of Pope John XXII, leading to the legal recognition of Scottish sovereignty by the English Crown.[PARAGRAPH:2]However, war with England continued for several decades after the death of Bruce. A civil war between the Bruce dynasty and their long-term Comyn-Balliol rivals lasted until the middle of the 14th century. Although the Bruce dynasty was successful, David II's lack of an heir allowed his half-nephew Robert II to come to the throne and establish the Stewart Dynasty. The Stewarts ruled Scotland for the remainder of the Middle Ages. The country they ruled experienced greater prosperity from the end of the 14th century through the Scottish Renaissance to the Reformation. This was despite continual warfare with England, the increasing division between Highlands and Lowlands, and a large number of royal minorities.[PARAGRAPH:2]This period was the height of the Franco-Scottish alliance. The Scots Guard - la Garde 钂玱ssaise - was founded in 1418 by Charles VII of France. The Scots soldiers of the Garde 钂玱ssaise fought alongside Joan of Arc against England during the Hundred Years War. In March 1421, a Franco-Scots force under John Stewart, 2nd Earl of Buchan, and Gilbert de Lafayette, defeated a larger English army at the Battle of Baug? Three years later, at the Battle of Verneuil, the French and Scots lost around 7000 men. The Scottish intervention contributed to France's victory in the war.[PARAGRAPH:2]In 1502, James IV of Scotland signed the Treaty of Perpetual Peace with Henry VII of England. He also married Henry's daughter, Margaret Tudor, setting the stage for the Union of the Crowns. For Henry, the marriage into one of Europe's most established monarchies gave legitimacy to the new Tudor royal line. A decade later, James made the fateful decision to invade England in support of France under the terms of the Auld Alliance. He was the last British monarch to die in battle, at the Battle of Flodden. Within a generation the Auld Alliance was ended by the Treaty of Edinburgh. France agreed to withdraw all land and naval forces. In the same year, 1560, John Knox realised his goal of seeing Scotland become a Protestant nation and the Scottish parliament revoke papal authority in Scotland. Mary, Queen of Scots, a Catholic and former queen of France, was forced to abdicate in 1567.[PARAGRAPH:2]In 1603, James VI, King of Scots inherited the thrones of the Kingdom of England and the Kingdom of Ireland, and became King James I of England and Ireland, and left Edinburgh for London. With the exception of a short period under the Protectorate, Scotland remained a separate state, but there was considerable conflict between the crown and the Covenanters over the form of church government. The Glorious Revolution of 1688-89 saw the overthrow of the King James VII of Scotland and II of England by the English Parliament in favour of William and Mary. As late as the 1690s, Scotland experienced famine, which reduced the population of parts of the country by at least 20 per cent.[PARAGRAPH:2]In 1698, the Scots attempted an ambitious project to secure a trading colony on the Isthmus of Panama. Almost every Scottish landowner who had money to spare is said to have invested in the Darien scheme. Its failure bankrupted these landowners, but not the burghs. Nevertheless, the nobles' bankruptcy, along with the threat of an English invasion, played a leading role in convincing the Scots elite to back a union with England.[PARAGRAPH:2]On 22 July 1706, the Treaty of Union was agreed between representatives of the Scots Parliament and the Parliament of England and the following year twin Acts of Union were passed by both parliaments to create the united Kingdom of Great Britain with effect from 1 May 1707.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]The Kingdom of the Picts (based in Fortriu by the 6th century) was the state that eventually became known as "Alba" or "Scotland". The development of "Pictland", according to the historical model developed by Peter Heather, was a natural response to Roman imperialism. Another view places emphasis on the Battle of Dun Nechtain, and the reign of Bridei m. Beli (671-693), with another period of consolidation in the reign of 觘ngus mac Fergusa (732-761).[PARAGRAPH:2]The Kingdom of the Picts as it was in the early 8th century, when Bede was writing, was largely the same as the kingdom of the Scots in the reign of Alexander I (1107-1124). However, by the tenth century, the Pictish kingdom was dominated by what we can recognise as Gaelic culture, and had developed a traditional story of an Irish conquest around the ancestor of the contemporary royal dynasty, Cin醗d mac Ailp韓 (Kenneth MacAlpin).[PARAGRAPH:2]From a base of territory in eastern Scotland north of the River Forth and south of the River Oykel, the kingdom acquired control of the lands lying to the north and south. By the 12th century, the kings of Alba had added to their territories the English-speaking land in the south-east and attained overlordship of Gaelic-speaking Galloway and Norse-speaking Caithness; by the end of the 13th century, the kingdom had assumed approximately its modern borders. However, processes of cultural and economic change beginning in the 12th century ensured Scotland looked very different in the later Middle Ages.[PARAGRAPH:2]The push for this change was the reign of David I and the Davidian Revolution. Feudalism, government reorganisation and the first legally recognised towns (called burghs) began in this period. These institutions and the immigration of French and Anglo-French knights and churchmen facilitated cultural osmosis, whereby the culture and language of the low-lying and coastal parts of the kingdom's original territory in the east became, like the newly acquired south-east, English-speaking, while the rest of the country retained the Gaelic language, apart from the Northern Isles of Orkney and Shetland, which remained under Norse rule until 1468. The Scottish state entered a largely successful and stable period between the 12th and 14th centuries, there was relative peace with England, trade and educational links were well developed with the Continent and at the height of this cultural flowering John Duns Scotus was one of Europe's most important and influential philosophers.[PARAGRAPH:2]The death of Alexander III in March 1286, followed by that of his granddaughter Margaret, Maid of Norway, broke the centuries-old succession line of Scotland's kings and shattered the 200-year golden age that began with David I. Edward I of England was asked to arbitrate between claimants for the Scottish crown, and he organised a process known as the Great Cause to identify the most legitimate claimant. John Balliol was pronounced king in the Great Hall of Berwick Castle on 17 November 1292 and inaugurated at Scone on 30 November, St. Andrew's Day. Edward I, who had coerced recognition as Lord Paramount of Scotland, the feudal superior of the realm, steadily undermined John's authority. In 1294, Balliol and other Scottish lords refused Edward's demands to serve in his army against the French. Instead the Scottish parliament sent envoys to France to negotiate an alliance. Scotland and France sealed a treaty on 23 October 1295, known as the Auld Alliance (1295-1560). War ensued and King John was deposed by Edward who took personal control of Scotland. Andrew Moray and William Wallace initially emerged as the principal leaders of the resistance to English rule in what became known as the Wars of Scottish Independence (1296-1328).[PARAGRAPH:2]The nature of the struggle changed significantly when Robert the Bruce, Earl of Carrick, killed his rival John Comyn on 10 February 1306 at Greyfriars Kirk in Dumfries. He was crowned king (as Robert I) less than seven weeks later. Robert I battled to restore Scottish Independence as King for over 20 years, beginning by winning Scotland back from the Norman English invaders piece by piece. Victory at the Battle of Bannockburn in 1314 proved the Scots had regained control of their kingdom. In 1315, Edward Bruce, brother of the King, was briefly appointed High King of Ireland during an ultimately unsuccessful Scottish invasion of Ireland aimed at strengthening Scotland's position in its wars against England. In 1320 the world's first documented declaration of independence, the Declaration of Arbroath, won the support of Pope John XXII, leading to the legal recognition of Scottish sovereignty by the English Crown.[PARAGRAPH:2]However, war with England continued for several decades after the death of Bruce. A civil war between the Bruce dynasty and their long-term Comyn-Balliol rivals lasted until the middle of the 14th century. Although the Bruce dynasty was successful, David II's lack of an heir allowed his half-nephew Robert II to come to the throne and establish the Stewart Dynasty. The Stewarts ruled Scotland for the remainder of the Middle Ages. The country they ruled experienced greater prosperity from the end of the 14th century through the Scottish Renaissance to the Reformation. This was despite continual warfare with England, the increasing division between Highlands and Lowlands, and a large number of royal minorities.[PARAGRAPH:2]This period was the height of the Franco-Scottish alliance. The Scots Guard - la Garde 蒫ossaise - was founded in 1418 by Charles VII of France. The Scots soldiers of the Garde 蒫ossaise fought alongside Joan of Arc against England during the Hundred Years War. In March 1421, a Franco-Scots force under John Stewart, 2nd Earl of Buchan, and Gilbert de Lafayette, defeated a larger English army at the Battle of Baug? Three years later, at the Battle of Verneuil, the French and Scots lost around 7000 men. The Scottish intervention contributed to France's victory in the war.[PARAGRAPH:2]In 1502, James IV of Scotland signed the Treaty of Perpetual Peace with Henry VII of England. He also married Henry's daughter, Margaret Tudor, setting the stage for the Union of the Crowns. For Henry, the marriage into one of Europe's most established monarchies gave legitimacy to the new Tudor royal line. A decade later, James made the fateful decision to invade England in support of France under the terms of the Auld Alliance. He was the last British monarch to die in battle, at the Battle of Flodden. Within a generation the Auld Alliance was ended by the Treaty of Edinburgh. France agreed to withdraw all land and naval forces. In the same year, 1560, John Knox realised his goal of seeing Scotland become a Protestant nation and the Scottish parliament revoke papal authority in Scotland. Mary, Queen of Scots, a Catholic and former queen of France, was forced to abdicate in 1567.[PARAGRAPH:2]In 1603, James VI, King of Scots inherited the thrones of the Kingdom of England and the Kingdom of Ireland, and became King James I of England and Ireland, and left Edinburgh for London. With the exception of a short period under the Protectorate, Scotland remained a separate state, but there was considerable conflict between the crown and the Covenanters over the form of church government. The Glorious Revolution of 1688-89 saw the overthrow of the King James VII of Scotland and II of England by the English Parliament in favour of William and Mary. As late as the 1690s, Scotland experienced famine, which reduced the population of parts of the country by at least 20 per cent.[PARAGRAPH:2]In 1698, the Scots attempted an ambitious project to secure a trading colony on the Isthmus of Panama. Almost every Scottish landowner who had money to spare is said to have invested in the Darien scheme. Its failure bankrupted these landowners, but not the burghs. Nevertheless, the nobles' bankruptcy, along with the threat of an English invasion, played a leading role in convincing the Scots elite to back a union with England.[PARAGRAPH:2]On 22 July 1706, the Treaty of Union was agreed between representatives of the Scots Parliament and the Parliament of England and the following year twin Acts of Union were passed by both parliaments to create the united Kingdom of Great Britain with effect from 1 May 1707.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCOTLAND_SHELTRON_PEDIA</Tag>
+		<English>[TAB]A sheltron (also sceld-trome, schiltrom or shiltron) is a compact body of troops forming a battle array, shield wall or phalanx. The term is most often associated with Scottish pike formations during the Wars of Scottish Independence in the late 13th and early 14th centuries.[PARAGRAPH:2]The term dates from at least 1000 AD and derives from Old English roots expressing the idea of a "shield-troop". Some researchers have also posited this etymological relation may show the schiltron is directly descended from the Anglo-Saxon shield wall, and still others give evidence "schiltron" is a name derived from a Viking circular formation (generally no less than a thousand fighters) in extremely close formation, intended to present an enemy's cavalry charge with an "infinite" obstacle (that is, a perimeter horses refuse to breach). Matters are confused by the fact that the term in Middle English could clearly refer to a body of soldiers without reference to formation, including cavalry and archers. The first mention of the schiltron as a specific formation of spearmen appears to be at the Battle of Falkirk in 1297. There is, however, no reason to believe this is the first time such a formation was used and, indeed, may have had a long previous history in Scotland, as the Picts used to employ spears in block formation as the backbone of their armies.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]谢尔特隆（也叫塞尔德特罗姆、席尔特罗姆或希特隆）是一个紧密的部队组成的战斗阵列，盾牌墙或方阵。这个词最常与13世纪末和14世纪初苏格兰独立战争期间的苏格兰梭子鱼编队联系在一起[PARAGRAPH:2]这个词至少可以追溯到公元1000年，源于古英语词根，表达“盾牌部队”的意思。一些研究人员还推测，这种词源关系可能表明，希特勒是直接从盎格鲁-撒克逊盾墙的后裔，还有一些人提供证据“希特龙”是一个名称，源自维京人的圆形队形（一般不少于一千名战士），队形极为接近，意在呈现敌人的骑兵用一个“无限”的障碍物冲锋（也就是说，一个边界马拒绝突破）。事实上，在中古英语中，这个词可以清楚地指代士兵，而不涉及队形，包括骑兵和弓箭手。第一次提到希特伦作为一个特殊的矛兵编队似乎是在1297年的福尔柯克战役。然而，没有理由相信这是第一次使用这种队形，而且，事实上，这在苏格兰可能有很长的历史，因为皮克特人过去用长矛在块状队形中作为他们军队的中坚力量。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_PEOPLES</Tag>
+		<English>Urnfield Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>恩菲尔德人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL2_TITLE</Tag>
+		<English>Europa Celtica</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>欧洲之祖</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_FASCIST</Tag>
+		<English>Resurrectionist %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1复兴党</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_BRITANNIA</Tag>
+		<English>Britannia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Britannia: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_SCOTLAND_SHORT_DESC</Tag>
+		<English>Scotland</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_GALLIA</Tag>
+		<English>Gallia: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Gallia: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL3_TITLE</Tag>
+		<English>Ensured Legacy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化永存</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_IRELAND_ADJECTIVE</Tag>
+		<English>Irish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>爱尔兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_SCO_TITLE</Tag>
+		<English>The Power of Ceilidh:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰舞：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_SHORT_DESC</Tag>
+		<English>Celtia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SCOTLAND_DESC</Tag>
+		<English>The Scottish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_COLLINS_PEDIA</Tag>
+		<English>[H1]Michael Collins[\H1][NEWLINE][BOLD]Irish revolutionary leader[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] 1890 - 1922 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Michael John ("Mick") Collins was an Irish revolutionary leader, Minister for Finance in the First D脙隆il of 1919, Director of Intelligence for the IRA, and member of the Irish delegation during the Anglo-Irish Treaty negotiations, both as Chairman of the Provisional Government and Commander-in-Chief of the National Army. In April 1922, a group of 200 anti-Treaty IRA men occupied the Four Courts in Dublin in defiance of the Provisional government. Collins, who wanted to avoid civil war at all costs, did not attack them until June 1922, needing to know the result of the general election which proved favourable to his party. British pressure also forced his hand. On 22 June 1922, Sir Henry Wilson, a retired British Army field marshal now serving as Military Advisor to the Craig Administration, was shot dead by two IRA men in Belgravia, London. At the time, it was presumed that the anti-Treaty faction of the IRA were responsible and Winston Churchill told Collins that unless he moved against the Four Courts garrison, he (Churchill) would use British troops to do so.[PARAGRAPH:1]In fact, it has since been proved that Collins himself ordered the killing of Wilson in reprisal for failing to prevent the attacks on Roman Catholics in Northern Ireland. Joe Dolan - a member of Collins' "Squad" or assassination unit in the War of Independence and in 1922 a captain in the National Army - revealed this in the 1950s, along with the revelation that Collins had ordered him to try to rescue the two gunmen before they were executed. In any event, this forced Collins to take action against the Four Courts men and the final provocation came when they kidnapped J.J. O'Connell, a provisional government general. After a final attempt to persuade the men to leave, Collins borrowed two 18 pounder artillery pieces from the British and bombarded the Four Courts until its garrison surrendered.[PARAGRAPH:1]He was shot and killed in August 1922, during the Irish Civil War. Although most Irish political parties recognise his contribution to the foundation of the modern Irish state, members and supporters of the Fine Gael political party hold his memory in particular esteem, regarding him as their movement's founding father (even though his link to them was through their precursor Cumann na nGaedhael, a name adopted in 1923 by the pro-Treaty wing of Sinn Fein).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]迈克尔·柯林斯[\H1][NEWLINE][BOLD]爱尔兰革命领袖[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]1890-1922年[NEWLINE][PARAGRAPH:2][粗体]背景：[\BOLD][NEWLINE][TAB]迈克尔·约翰（“米克”）柯林斯是爱尔兰革命领袖，1919年第一届议会财政部长，爱尔兰共和军情报总监，以及在英爱条约谈判期间爱尔兰代表团成员，兼任临时政府主席和国民军总司令。1922年4月，200名反条约爱尔兰共和军的人无视临时政府占领了都柏林的四个法院。柯林斯想不惜一切代价避免内战，直到1922年6月才攻击他们，他需要知道大选的结果，而大选结果证明对他的政党有利。英国的压力也迫使他出手。1922年6月22日，现任克雷格政府军事顾问的退休英国陆军元帅亨利·威尔逊爵士在伦敦贝尔格拉维亚被两名爱尔兰共和军士兵枪杀。当时，据推测，爱尔兰共和军的反条约派系对此负有责任，温斯顿·丘吉尔告诉柯林斯，除非他采取行动反对四法庭驻军，否则他（丘吉尔）将动用英国军队这样做[PARAGRAPH:1]事实上，事实证明，柯林斯本人下令杀害威尔逊是为了报复未能这样做防止北爱尔兰对罗马天主教徒的袭击。乔·多兰（Joe Dolan）——独立战争中柯林斯的“小队”或暗杀小组成员，1922年是国民军的一名上尉——在20世纪50年代披露了这一点，并透露柯林斯曾命令他在两名枪手被处决前试图营救他们。无论如何，这迫使柯林斯对四名法庭人员采取行动，最后的挑衅发生在他们绑架了临时政府将军J.J.O'Connell时。在最后一次劝说士兵离开后，柯林斯向英国借了两枚18磅的大炮，轰炸了四个法庭，直到驻军投降[PARAGRAPH:1]1922年8月，爱尔兰内战期间，他被枪杀。虽然大多数爱尔兰政党承认他对建立现代爱尔兰国家的贡献，但杰出的盖尔政党的成员和支持者对他的运动尤其是尊敬，认为他是他们运动的创始父亲（尽管他与他们的联系是通过他们的先驱Cumann na nGaedhael，1923年新芬党亲条约派采用的名称）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CELTIA</Tag>
+		<English>It is the year 1200 BC. As the social structure of the Germanic Celtic culture grows in its complexity, an elite class of chieftains and warriors begin taking the first steps towards consolidating power. With an advanced knowledge of Metal Working and abundant fertile land, the Celtic culture is set to spread far and wide.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元前1200年。随着日耳曼凯尔特文化的社会结构日益复杂，一个精英阶层的酋长和战士开始迈出巩固权力的第一步。凭借先进的金属加工知识和肥沃的土地，凯尔特人的文化将被广泛传播。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_ROME_GERMANIA</Tag>
+		<English>Magna Germania</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日耳曼尼亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_IRELAND_DESC</Tag>
+		<English>The Irish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>爱尔兰文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_IRELAND_SHORT_DESC</Tag>
+		<English>Ireland</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>爱尔兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL3</Tag>
+		<English>Be the most cultured Civilization in the world in 200 BC, 1 BC, and 60 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前200年，公元前1年，公元60年成为世界上文化最高的文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CAPITALS_RAZED</Tag>
+		<English>Capitals Razed: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已夷平的首都：%d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_DESC</Tag>
+		<English>The Celts</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>凯尔特文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL1</Tag>
+		<English>Raze 2 Capitals by 200 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前200年前夷平2个首都</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCOTTISH_SHIELING_PEDIA</Tag>
+		<English>[TAB]A Shieling is a hut or collection of huts once common in a wild or lonely place in the hills and mountains of Scotland and northern England. The word also refers to a mountain pasture used for the grazing of cattle in summer.[PARAGRAPH:2]During summer, farmers along with their families lived in shieling to have their livestock graze common land. Shielings were therefore associated with the transhumance system of agriculture, that being the seasonal movement of people along their livestock between fixed summer and winter pastures. The mountain huts generally fell out of use by the end of the 17th century, although in remote areas this system continued into the 18th.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Shieling是苏格兰和英格兰北部山区荒野或偏僻的地方曾经常见的小屋或小屋集合。这个词也指的是夏季放牧的山地牧场[PARAGRAPH:2]夏天，农民和他们的家人住在石岭，让他们的牲畜在共同的土地上吃草。因此，Shielings与跨人类农业系统联系在一起，即人们沿着牲畜在夏季和冬季固定牧场之间的季节性移动。虽然到了18世纪末，这一制度仍在偏远地区继续使用。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_CEL_TITLE</Tag>
+		<English>The Power of Ceilidh:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰舞：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_SCO</Tag>
+		<English>Cities start with extra Culture.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>城市开始时提供额外文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL2</Tag>
+		<English>Control 3 cities in Gallia and Germania and 1 in Italia, Iberia, and Britannia in 1 BC</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前1年时在Gallia和Germania控制各3个城市，在Italia、Iberia和Britannia控制各1个城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL1_TITLE</Tag>
+		<English>Brennus' Legacy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布伦纳斯的辉煌</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_ROME_GALLIA</Tag>
+		<English>Magna Gallia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CELTIC_GALLIC_WARRIOR</Tag>
+		<English>Gaesatae</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Gaesatae</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_SCOTLAND</Tag>
+		<English>It is the year 960 AD. While you are the sole ruler over some loyal subjects, most Scottish men still remember the shadows of the past. Your goal is to unite all the tribes and clans of Scotland and establish the "last free kingdom".[NEWLINE][NEWLINE]You can choose to pass the old walls of Hadrian or stay behind it, but it would be wise to gather some mighty allies on the Continent. Whatever path you choose, it is clear to you: your nation is destined to survive the storms of centuries to come, and be bright forever. Make the Highlanders proud and show the world: Scotland, be foe or ally, solid as a rock!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元960年，虽然你是一些忠诚臣民的唯一统治者，但大多数苏格兰人仍然记得过去的阴影。你的目标是团结苏格兰所有的部落和部族，建立“最后的自由王国”。[NEWLINE][NEWLINE]你可以选择越过哈德良的旧墙，也可以留在它后面，但是在欧洲大陆上召集一些强大的盟友是明智的。无论你选择什么样的道路，你都很清楚：你的国家注定要在未来几个世纪的风暴中幸存下来，永远光辉灿烂。让高地人骄傲，向全世界展示：苏格兰，是敌人还是盟友，坚如磐石！</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_ROME_BRITANNIA</Tag>
+		<English>Magna Britannia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>不列颠</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_COMMUNIST</Tag>
+		<English>%s1 People's Union</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人民联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_CULTURED_CIVILIZATION</Tag>
+		<English>Most cultured civilizacion: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化最高的文明：%s1_city</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELTIA_DEFAULT</Tag>
+		<English>%s2 Culture</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2文化</Chinese>
+	</TEXT>
+</Civ4GameText>

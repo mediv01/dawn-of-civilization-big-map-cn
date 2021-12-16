@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_FASCIST</Tag>
+		<English>Tacuara Nationalist Movement</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷塔库拉人主义</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_CONFEDERATION</Tag>
+		<English>%s2 Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_ADJECTIVE</Tag>
+		<English>Argentine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_SHORT_DESC</Tag>
+		<English>Argentina</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_DEFAULT</Tag>
+		<English>United Provinces of the River Plate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>普拉特河联合省</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_DESC</Tag>
+		<English>The Argentinians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARGENTINA_PEOPLES</Tag>
+		<English>Argentine Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷人</Chinese>
+	</TEXT>
+</Civ4GameText>

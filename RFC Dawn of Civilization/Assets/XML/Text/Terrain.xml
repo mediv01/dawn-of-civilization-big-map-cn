@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_ATOLL</Tag>
+		<English>Atoll</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>环礁</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SEMIDESERT</Tag>
+		<English>Semidesert</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>半沙漠</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_MARSH</Tag>
+		<English>Marsh</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沼泽地</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_SAVANNA</Tag>
+		<English>Savanna</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>热带草原</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_STEPPE</Tag>
+		<English>Steppe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>草原</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_LAGOON</Tag>
+		<English>Lagoon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泻湖</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SAVANNA</Tag>
+		<English>Savanna</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>热带草原</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_ARCTIC_COAST</Tag>
+		<English>Arctic Coast</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北极海岸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SALTFLAT</Tag>
+		<English>Salt Flat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>盐场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_MOORLAND</Tag>
+		<English>Moorland</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荒原</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SALTLAKE</Tag>
+		<English>Salt Lake</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>盐湖</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_TAIGA</Tag>
+		<English>Taiga</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>针叶林</Chinese>
+	</TEXT>
+</Civ4GameText>

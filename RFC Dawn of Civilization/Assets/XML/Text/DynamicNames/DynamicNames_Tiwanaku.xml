@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_FASCIST</Tag>
+		<English>Revolutionary Union of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2革命联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIWANAKU_SISQENO_HELP</Tag>
+		<English>[ICON_BULLET]+1 [COLOR_UNIT_TEXT]Great Prophet Points[COLOR_REVERT] per turn in the capital when stationed in a foreign city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当驻扎在外国城市时首都每回合[ICON_BULLET]+1[COLOR_UNIT_TEXT]大预言家点[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_DEFAULT</Tag>
+		<English>Kingdom of Tiwanaku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒂瓦纳库王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW1</Tag>
+		<English>Build the Gate of Sun and settle a Great Prophet in your capital by 900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年前建成Gate of Sun并在首都入驻一位大预言家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW2</Tag>
+		<English>Have two cities with refined culture by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年前拥有2座城市with refined culture</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MALKU_HUYUSTUS</Tag>
+		<English>Malku Huyustus</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒂瓦纳库-马库胡尤斯图斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_DESC</Tag>
+		<English>The Tiwanaku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒂瓦纳库文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_SHORT_DESC</Tag>
+		<English>Tiwanaku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒂瓦纳库</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW3_TITLE</Tag>
+		<English>The Splendor of Tiwanaku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>提瓦纳库的辉煌</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TIWANAKU_KALASASAYA</Tag>
+		<English>Kalasasaya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Kalasasaya</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW2_TITLE</Tag>
+		<English>The Multi-Cultural Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>多文化帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_ADJECTIVE</Tag>
+		<English>Tiwanaku</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒂瓦纳库</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIW_TITLE</Tag>
+		<English>The Power of Hospitality:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>热情好客：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TIWANAKU</Tag>
+		<English>It is the year 110 AD. As the invention of ceramics strengthens existing trade routes, the pilgrimige site of Tiwanaku begins growing into a true city and the first great regional power since the fall of the Norte Chican Civilization. With an economy built on the seasonal swelling of visitors from far and wide, the city of Tiwanaku is primed to grow into an empire of great fame and glory.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元110年。随着陶瓷的发明加强了现有的贸易路线，蒂瓦纳库朝圣地开始成长为一个真正的城市和自北契卡文明衰落以来第一个强大的地区力量。随着来自四面八方的游客的季节性增长，蒂瓦纳库市的经济将发展成为一个享有盛名和荣耀的帝国。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_COMMUNIST</Tag>
+		<English>%s2 Revolutionary Movement</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2革命政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW1_TITLE</Tag>
+		<English>The Great Andine Theocracy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>The Great Andine Theocracy</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TIW3</Tag>
+		<English>Experiece two golden ages by 1100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1100年前经历2次黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIWANAKU_SISQENO</Tag>
+		<English>Sisqeno</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希斯基诺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TIWANAKU_600</Tag>
+		<English>It is the year 600 AD. The Tiwanaku Empire is in the middle of a cold war with their northern neighbors...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元600年。提瓦纳库帝国正处于与北方邻国的冷战中。。。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_TIW</Tag>
+		<English>Extra Production in the Capital. +1 Priest Slot from Pagan Temples.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>首都提供额外产能；原始神庙+1神学家槽</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TIWANAKU_PEOPLES</Tag>
+		<English>Andean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安第斯人</Chinese>
+	</TEXT>
+</Civ4GameText>

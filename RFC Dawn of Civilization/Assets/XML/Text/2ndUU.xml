@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KHMER_PHAKAK_PEDIA</Tag>
+		<English>[TAB]The early 11th to 13th centuries AD marked the zenith of the Khmer Empire. During this period, the country was involved in constant wars against the Cham, Thai and Burmese.[PARAGRAPH:1]Footsoldiers with long blade-weapons, the Phak'ak, similar to European pikes, were the main force of many east-Asian armies. They were generally used by the peasant soldiers who could not afford more expensive weapons. In the jungles of the Khmer Empire, these weapons were called Phak'ak and the long wooden part of the weapon was ideal for defending against elephants.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元11至13世纪初是高棉帝国的鼎盛时期。在这期间，该国卷入了不断的战争，反对查姆人、泰国人和缅甸人[段落：1]像欧洲长矛一样，手持长刃武器的法克族步兵是许多东亚军队的主力军。他们通常是农民士兵使用，他们买不起更昂贵的武器。在高棉帝国的丛林中，这些武器被称为Phak'ak，这种武器的木质长部分是抵御大象的理想武器。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN_PEDIA</Tag>
+		<English>[TAB]Naffatun were Arabian infantry corps armed with naphtha grenades. They are noted for the successful defense during the Seljuk Siege of Baghdad in 1157, when they managed to destroy several catapults.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Naffatun是装备石脑油手榴弹的阿拉伯步兵团。他们以在1157年塞尔柱人围攻巴格达期间的成功防御而闻名，当时他们成功摧毁了几架弹射器。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCA_SLINGER_PEDIA</Tag>
+		<English>[TAB]The sling was known throughout the Americas. In the ancient Andean civilizations such as Inca Empire slings were made from llama wool. These slings typically have a cradle that is long and thin and features a relatively long slit. Andean slings were constructed from contrasting colours of wool; complex braids and fine workmanship result in beautiful patterns. Ceremonial slings were also made; these were large, non-functional and generally lacked a slit. To this day, ceremonial slings are used in parts of the Andes as accessories in dances and in mock battles. They are also used by llama herders; the animals will move away from the thump of a stone. The stones are not slung to hit the animals, but to persuade them to move in the desired direction.[PARAGRAPH:1]The sling was used for hunting and warfare. One notable use was in Incan resistance against the conquistadors. These slings were apparently very powerful; in 1491: New Revelations of the Americas Before Columbus, historian Charles C. Mann quoted a conquistador, who said that an Incan sling "could break a sword in two pieces" and "kill a horse." Some slings could hurl massive stones and its span could be as much as 86 inches (2.18 m) and could weigh an impressive 14.4 ounces (408g).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]这种吊带在美洲很有名。在古代安第斯文明，如印加帝国的吊索是由美洲驼羊毛制成的。这些吊索通常有一个长而薄的摇篮，具有相对较长的狭缝。安第斯吊带是用对比色的羊毛制成的；复杂的编织和精细的工艺造就了美丽的图案。仪式上的吊带也做了；这些吊带很大，没有功能，通常没有一个裂缝。直到今天，在安第斯山脉的部分地区，仪式用吊索作为舞蹈和模拟战斗的配件。它们也被美洲驼牧民所使用；动物们会远离石头的撞击。扔石头不是为了打动物，而是为了说服它们朝着想要的方向移动[段落：1]吊带是用来打猎和打仗的。一个显著的用途是印加抵抗征服者。这些弹弓显然非常强大；1491年：哥伦布之前美洲的新发现，历史学家查尔斯曼恩引用了一位征服者的话，谁说印加吊带“可以把剑劈成两半”和“杀了一匹马”。有些吊索可以投掷巨大的石头，其跨度可达86英寸（2.18米），重14.4盎司（408克）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAPAN_ASHIGARU_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Ashigaru[COLOR_REVERT], the Japanese replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Leadership[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Ashigaru[COLOR_REVERT]是日本取代[COLOR_UNIT_TEXT]长矛[COLOR_REVERT]的产品，首先是[COLOR_HIGHLIGHT_TEXT]领导层[COLOR_REVERT]的提升。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDONESIA_BAMBOO_RUNCING_PEDIA</Tag>
+		<English>[TAB]Pointy bamboo is a weapon made of bamboo. This weapon supposedly first used by the Indonesian people as a means of resistance against the occupation of the Dutch colonialists. At this time sharpened bamboo symbol was used by various regions in Indonesia to symbolize courage and sacrifice in winning independence. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尖头竹是用竹子做成的武器。这种武器据说最早被印尼人民用来抵抗荷兰殖民者的占领。在这个时候，锐利的竹子被印尼各个地区用来象征赢得独立的勇气和牺牲。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOORS_BERBER_CAVALRY</Tag>
+		<English>Berber Cavalry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柏柏尔骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_ATLAS_ELEPHANT</Tag>
+		<English>Atlas Elephant</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>迦太基战象</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_BALLISTA_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Ballista[COLOR_REVERT], the Roman replacement for the the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Barrage I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotions.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Ballista[COLOR_REVERT]是[COLOR_UNIT_TEXT]投石车[COLOR_REVERT]的罗马式替代品，从[COLOR_HIGHLIGHT_TEXT]Barrage I[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT]促销开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARGENTINA_PATRICIOS_PEDIA</Tag>
+		<English>[TAB]The 1st Infantry Regiment "Patricios" (Regimiento de Infanter韆 1 "Patricios") is oldest and one of the most prestigious regiments of the Argentine Army. The title is often shortened to the Patricians' Regiment (Regimiento de Patricios). Since the 1990s the regiment has been designated as air assault infantry. It is also the custodian of the Buenos Aires Cabildo, the welcoming party for visiting foreign dignitaries to Argentina and the escort and honor guard battalion for the City Government of Buenos Aires. By September 22, 2010, the Regiment's headquarters building has been declared as a National Historical Monument by the Argentine government, on the occasion of the country's bicentennial year.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]第一步兵团“帕特里西奥斯”（Regimiento de Infantería 1“帕特里西奥斯”）是阿根廷军队中最古老、最有声望的团之一。这个头衔通常简称为贵族团（Regimiento de Patricios）。自1990年代以来，该团被指定为空中突击步兵。它还是布宜诺斯艾利斯卡比尔多的守护者，是来访的外国政要到阿根廷的欢迎党，也是布宜诺斯艾利斯市政府的护卫队和仪仗队。到2010年9月22日，阿根廷政府宣布该团总部大楼为国家历史纪念碑，以纪念该国200周年。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARGENTINA_PATRICIOS_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Patricios[COLOR_REVERT], the Argentinian replacement for the the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Patricios[COLOR_REVERT]是阿根廷取代[COLOR_UNIT_TEXT]步兵[COLOR_REVERT]的产品，从[COLOR_HIGHLIGHT_TEXT]训练I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_BALLISTA</Tag>
+		<English>Ballista</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马弩炮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BABYLON_RAM</Tag>
+		<English>Battering Ram</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴比伦投石车</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONGO_NGOLO_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Embamba Ngolo[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Longbowman[COLOR_REVERT], has more first strikes.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Embamba Ngolo[COLOR_REVERT]是刚果人取代[COLOR_UNIT_TEXT]长弓人[COLOR_REVERT]的先发制人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIKING_LONGSHIP</Tag>
+		<English>Longship</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>维京战舰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Tercio[COLOR_REVERT], the Spanish replacement for the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Light Cavalry Units[COLOR_REVERT] and [COLOR_UNIT_TEXT]Heavy Cavalry Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Tercio[COLOR_UNIT_TEXT]Tercio[COLOR_UNIT_TEXT]火箭手[COLOR_REVERT]的西班牙替代品，对[COLOR_UNIT_TEXT]轻骑兵单位[COLOR_REVERT]和[COLOR_UNIT_TEXT]重骑兵单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALIAN_BERSAGLIERE</Tag>
+		<English>Bersagliere</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利步兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KHMER_PHAKAK_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Phak'ak[COLOR_REVERT], the Khmer replacement for the the [COLOR_UNIT_TEXT]Heavy Spearman[COLOR_REVERT], can enter [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Phak'ak[COLOR_REVERT]是高棉人[COLOR_UNIT_TEXT]重型矛兵[COLOR_REVERT]的替代品，可以进入[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]，并从[COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR</Tag>
+		<English>Man-O-War</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>英国主力战舰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLAND_TABOR</Tag>
+		<English>Tabor</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波兰射石炮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BABYLON_RAM_PEDIA</Tag>
+		<English>[TAB]Fortified towns arrive with civilization, and sieges are as old as organized warfare. But siege implements are simple until the Babylons. They pay special attention to the battering ram. Soldiers in early sieges swing a heavy timber ram against a town gate. They are vulnerable to missiles or heated oil from above. Under the Babylons the ram becomes an engine. It is suspended from the roof of a timber structure, which in turn is mounted on wheels so that it can be pushed into position. Protected within this contraption, soldiers can swing the ram relentlessly against the gate. Archers, in protected turrets on top of the engine, exchange shots on almost equal terms with the defenders on the walls.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]设防的城镇伴随着文明而来，围攻和有组织的战争一样古老。但围城工具在巴比伦以前都很简单。他们特别注意撞锤。在早期的围攻中，士兵们挥舞着沉重的木槌撞击着一座城镇的大门。它们很容易受到来自高空的导弹或热油的攻击。巴比伦之下，公羊成了引擎。它悬挂在木结构的屋顶上，然后安装在轮子上，这样就可以把它推到合适的位置。在这个装置的保护下，士兵们可以毫不留情地将公羊甩向大门。弓箭手，在引擎顶部的防护炮塔里，与城墙上的防御者进行几乎平等的射击。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHINA_FIRELANCE_PEDIA</Tag>
+		<English>[TAB]The Pen Huo Qi is a double-piston pump naphtha flamethrower used in 919 AD in China, during the Five Dynasties and Ten Kingdoms period. The flamethrower was carefully documented and illustrated in the Chinese military manual known as the Wujing Zongyao, compiled in the year 1044 AD during the Song Dynasty. Among various descriptions of equipment and components of the device, the book also provided instructions for how to keep up maintenance and repair of double-piston flamethrowers.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]笔火气是中国公元919年使用的一种双活塞泵式石脑油喷火器，时代为五代十国时期。喷火器在中国军事手册《武靖宗尧》中有详细记载和说明，该手册于公元1044年在宋朝编纂。在对该装置的设备和部件的各种描述中，该书还提供了如何保持双活塞火焰喷射器的维护和维修说明。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MEXICO_EJERCITO</Tag>
+		<English>Ejercito Constitucionalista</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>墨西哥步兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET_STRATEGY</Tag>
+		<English>This Egyptian replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT] gets a bonus against other [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], making it the strongest classical melee unit.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>这个埃及版的[COLOR_UNIT_TEXT]斧兵[COLOR_REVERT]在与其他[COLOR_UNIT_TEXT]Axeman[COLOR_REVERT]的比赛中获得额外奖励，使其成为最强的经典近战单位。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAPAN_ASHIGARU</Tag>
+		<English>Ashigaru</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日本长矛武士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO</Tag>
+		<English>Tercio</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西班牙滑膛枪兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL</Tag>
+		<English>Guarda Nacional</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西国民警卫队</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_KHOPESH</Tag>
+		<English>Khopesh</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及剑客</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOORISH_CAMEL_GUNNER_PEDIA</Tag>
+		<English>[TAB]Probably developed by Egyptian warriors who originally mounted large crossbows on the camels, the Camel Gunner was rapidly adopted by Arab, Afghan, Indian and especially Persian Safavid armies. Camel Gunners were one of the royal guard units in the 19th-century Persian army. A Persian Camel Gunner regiment would be accompanied by musicians with huge camel-mounted drums, in order to create even more noise and impress the enemy. Camel Gunners were used against the invading British in the Anglo-Afghan Wars and in the Anglo-Sikh Wars.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]骆驼枪手可能是由最初在骆驼身上安装大弩的埃及战士开发的，很快被阿拉伯、阿富汗、印度，尤其是波斯萨非军队所采用。骆驼炮手是19世纪波斯军队的皇家卫队部队之一。一个波斯骆驼炮手团将由音乐家伴随着巨大的骆驼鼓，以便制造更多的噪音和打动敌人。在英阿战争和盎格鲁锡克战争中，骆驼炮手被用来对付入侵的英国人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PRUSSIA_HOWITZER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Heavy Howitzer[COLOR_REVERT], the Prussian replacement for the the [COLOR_UNIT_TEXT]Howitzer[COLOR_REVERT], is stronger.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]重型榴弹炮[COLOR_REVERT]是普鲁士取代[COLOR_UNIT_TEXT]榴弹炮[COLOR_REVERT]的更强大。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLAND_TABOR_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Tabor[COLOR_REVERT], the Polish replacement for the the [COLOR_UNIT_TEXT]Bombard[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Medic I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Tabor[COLOR_REVERT]是[COLOR_UNIT_TEXT]射石炮[COLOR_REVERT]的波兰替代品，从[COLOR_HIGHLIGHT_TEXT]Medic I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAPAN_ASHIGARU_PEDIA</Tag>
+		<English>[TAB]Ashigaru (lightfeet) were foot-soldiers who were employed by the samurai class of feudal Japan. The first known reference to ashigaru was in the 1300s, but it was during the Ashikaga Shogunate-Muromachi period that the use of ashigaru became prevalent by various warring factions.[PARAGRAPH:1]Attempts were made in Japan by the Emperor Tenmu (673-86) to have a conscripted national army, but this did not come about and by the 10th century Japan instead relied on individual land owners to provide men for conflicts and wars. These horse owning land owners were the beginnings of the samurai class and the men who worked the land for the land owners became the common foot soldiers during times of war. These foot soldiers could have long ties and loyalty to the land owners which went back many generations.[PARAGRAPH:1]The land owning samurai and peasant foot soldier combination fought in many wars and conflicts including the Mongol invasions of Japan in 1274 and 1281. Constant warfare between the 1300s and the 1500s made the hiring and use of foot soldiers with no loyalty to a particular land owner necessary at times and these mercenaries or adventurers who were paid only in loot but were hard to control and not well trained and they could not always be counted on during a fight. It was these wandering mercenary farmer, foot soldiers for hire who eventually became what we call ashigaru.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Ashigaru是封建日本武士阶级雇佣的步兵。第一次提到阿诗伽鲁是在13世纪，但正是在阿诗卡加幕府幕府-室町时期，阿诗伽鲁的使用成为各个交战派系的普遍使用[段落：1]天皇天皇（公元673-676年）曾试图组建一支征召的国民军队，但直到10世纪，日本才实现了这一目标相反，依靠个人土地所有者为冲突和战争提供人手。这些拥有马匹的地主是武士阶级的开端，在战争时期，为土地所有者耕种土地的人成为了普通的步兵。这些步兵可以有很长的关系和忠诚的土地所有者，可以追溯到许多代[段落：1]拥有土地的武士和农民步兵的组合曾参加过许多战争和冲突，包括1274年和1281年蒙古入侵日本。13世纪至1500年代之间的持续战争使得雇佣和使用步兵有时不需要忠于某个土地所有者，而这些雇佣兵或冒险家只能以掠夺的形式获得报酬，但很难控制，也没有受过良好的训练，在战斗中也不能总是指望他们。正是这些游荡的雇佣农民，雇佣的步兵，最终成为了我们所说的阿什伽鲁。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOREA_KOBUKSON</Tag>
+		<English>Kobukson</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高丽龟船</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL_PEDIA</Tag>
+		<English>[TAB]The National Guard of Brazil was a paramilitary force organized by law in Brazil during the Regency period in August 1831 to serve as "sentinel judge constitution" and disbanded in September 1922. At the time of its creation it read: "With the creation of the National Guard were extinct ancient bodies of militia, ordinances and municipal guards. In 1850, the National Guard was reorganized and held its powers subordinate to the Minister of Justice and the provincial presidents. New reforms in 1873 reduced the importance of the institution in relation to the Brazilian Army. With the advent of the Republic National Guard was transferred in 1892 to the Ministry of Justice and Internal Affairs. In 1918, the National Guard passed to be subordinate to the Ministry of War by organizing the National Army of 2nd Line, which was somehow their absorption by the Army.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]巴西国民警卫队是1831年8月摄政时期在巴西依法组建的准军事部队，担任“哨兵法官宪法”，1922年9月解散。在其创建时，它写道：“随着国民警卫队的建立，古代民兵、法令和市政卫队的尸体已经灭绝。1850年，国民警卫队改组，其权力隶属于司法部长和省总统。1873年的新改革降低了该机构对巴西军队的重要性。随着共和国的成立，国民警卫队于1892年移交给司法和内务部。1918年，国民警卫队通过组建二线国民军，转隶属于兵部，不知何故被军队吸收。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA_PEDIA</Tag>
+		<English>[TAB]The tagma is a term for a military unit of battalion size. The best-known use of the term however refers to the elite regiments comprising the central imperial army of the middle and late Byzantine Empire.
+[TAB]In Byzantine usage, the term came to refer exclusively to the professional, standing troops, garrisoned in and around the capital of Constantinople. Most of them traced their origins to the Imperial guard units of the later Roman Empire. By the 7th century, these had declined to little more than parade troops, meaning that the emperors were hard put to face the frequent revolts of the new and powerful thematic formations, especially the Opsician theme, the Asian theme closest to the capital. Within the first sixty years since its creation, it was involved in five revolts, culminating in the rebellion and usurpation of the throne by its commander, the Count Artabasdos, in 741 - 743.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]塔格玛是一个营规模的军事单位的术语。然而，这个词最著名的用法是指由拜占庭帝国中后期的中央帝国军队组成的精英团。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHINA_FIRELANCE_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Pen Huo Qi[COLOR_REVERT], the Chinese replacement for the [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Engineering[COLOR_REVERT] technology and doesn't require the [COLOR_TECH_TEXT]Fortification[COLOR_REVERT] technology.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Pen hou Qi[COLOR_REVERT]是[COLOR_UNIT_TEXT]投石机[COLOR_REVERT]的中文替代品，需要[COLOR_TECH_TEXT]工程[COLOR_REVERT]技术，不需要[COLOR_TECH_TEXT]强化[COLOR_REVERT]技术。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Doppels鰈dner[COLOR_REVERT], the Holy Roman replacement for the the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Formation[COLOR_REVERT] promotions.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Doppels&#246;ldner[COLOR_REVERT]是神圣罗马帝国对[COLOR_UNIT_TEXT]重型剑客[COLOR_REVERT]的替代品，首先是[COLOR_HIGHLIGHT_TEXT]冲击[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]阵型[COLOR_REVERT]促销活动。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER_PEDIA</Tag>
+		<English>[TAB]The Paladins (often called Chevaliers) were Medieval knights who followed the code of chivalry or knightly conduct, which emphasized courage, honour and service. The Paladin was adept at the art of war, trained in fighting in armour on horses with lances, swords and shields. They were expected to show courage, be gallant to women, defend the Church and swear off cowardice and baseness. Their origins lie with the first mounted infantry in the armies of the Emperor Charlemange as some elite warriors who wore armour and fought on horseback were rewarded with grants of land called "benefices" and became powerful captains with feudal fiefs that soon became hereditary and powerful, both in political influence and economic wealth.[PARAGRAPH:1]These knights became the mainstay of governing power under the King, raising their own armies in time of war and often rivalled the Church in wealth and influence. But chivalry and the Church remained closely entwined and the Crusades helped to reinforce the moral code of chivalry as it related to religion. Thus Christian armies were encouraged to devote their efforts to sacred purposes and the Paladins were expected to use their weapons for the protection of the weak and defenceless, to women and children, and above all to the defence of churches and pilgrims, giving rise to the religious military orders like the Templars, the Hospitallers and the Teutonic Knights. Some knightly orders, like the English "Order of the Bath" or the "Order of the Garter" remain day as honorary associations whose membership is granted by the Monarch for meritorious achievement.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]圣骑士（通常称为骑士）是中世纪的骑士，他们遵循骑士精神或骑士行为准则，强调勇气、荣誉和服务。这位圣骑士精通战争艺术，训练有素，身穿盔甲，手持长矛、剑和盾牌骑马作战。他们被要求表现出勇气，对妇女表现出勇敢，捍卫教会，发誓不再懦弱和卑鄙。他们起源于查理曼国王军队中的第一批骑兵，当时一些身穿盔甲、骑马作战的精英战士获得了被称为“恩赐”的土地，并成为拥有封建封地的强大首领，很快就成为了世袭和强大的封建封地，在政治影响力和经济财富方面[段落：1]这些骑士在国王统治下成为统治权力的中流砥柱，在战争时期建立自己的军队，在财富和影响力上常常与教会抗衡。但是骑士精神和教会仍然紧密联系在一起，十字军东征有助于加强骑士精神的道德准则，因为它与宗教有关。因此，基督教军队被鼓励致力于神圣的目的，而圣骑士则被期望使用他们的武器来保护弱者和无助者，保护妇女和儿童，尤其是保护教堂和朝圣者，从而产生了圣殿骑士团这样的宗教军事秩序，医院骑士和条顿骑士。一些骑士勋章，如英国的“浴池勋章”或“吊袜带勋章”仍然是一种荣誉协会，其成员资格由君主授予，以表彰功勋。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SELJUK_GHULAM_WARRIOR_STRATEGY</Tag>
+		<English>[COLOR_UNIT_TEXT]Ghulam Warrior[COLOR_REVERT], the Seljuk replacement for the [COLOR_UNIT_TEXT]Lancer[COLOR_REVERT], doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resource, can withdraw from combat, has a combat bonus against the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT] and [COLOR_UNIT_TEXT]Lancer[COLOR_REVERT] units and cannot be upgraded.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Ghulam Warrior[COLOR_REVERT]，[COLOR_UNIT_TEXT]长矛[COLOR_REVERT]的塞尔柱替代品，不需要[COLOR_HIGHLIGHT_TEXT]铁[COLOR_REVERT]资源，可以退出战斗，对[COLOR_UNIT_TEXT]长矛兵[COLOR_REVERT]和[COLOR_UNIT_TEXT]Lancer[COLOR_REVERT]单位有战斗加成，且不能升级。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST</Tag>
+		<English>Gardist</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰掷弹兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AMERICAN_NAVY_SEAL_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Navy SEAL[COLOR_REVERT], the American replacement for the the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], is extra first strikes and begins with the [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>这种强大的现代陆战单位（美国用以取代[COLOR_UNIT_TEXT]海军陆战队[COLOR_REVERT]）在对抗[COLOR_UNIT_TEXT]火炮[COLOR_REVERT]和[COLOR_UNIT_TEXT]重机枪[COLOR_REVERT]时可获得加成奖励。它天生具有[COLOR_HIGHLIGHT_TEXT]两栖作战[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]长途行军[COLOR_REVERT]晋升。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONGO_NGOLO_PEDIA</Tag>
+		<English>[TAB]No pedia yet.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIBET_DOB_DOB</Tag>
+		<English>Dob Dob</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吐蕃矛兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO_PEDIA</Tag>
+		<English>[TAB]The Tercio ("one third"), also known as Tercio Espa駉l, was a Renaissance era military formation similar to and derivative of the Swiss pike square and was a term used to describe a mixed infantry formation of about 3,000 pikemen, swordsmen and arquebusiers in a mutually supportive formation; it was also sometimes referred to by other nations as a Spanish Square after its introduction by the Spanish army, and was widely adopted across international lines and dominated formalized field warfare for more than a century.[PARAGRAPH:1]The Tercio Espa駉l was the product of the Italian Wars in which the Spanish general, Gonzalo Fern醤dez de C髍doba, would reorganize the Spanish army throughout a series of conflicts at the end of the 15th and early 16th centuries, into a tactically unique combination of modern and medieval combined arms centered around armored infantry. This emphasis on the infantry was the result of Spain's great dependence on mules in daily life, which in turn resulted in an inability to raise large cavalry forces. It marked the transformation of medieval military institutions into the early modern combined-arms army. Gonzalo Fern醤dez, developed the Tercio to further increase the effectiveness of Spanish infantry against every manner of opposing infantry while remaining impervious to the dangers of a cavalry charge.[PARAGRAPH:1]At first the army consisted of units of around 6000 men, called coronelias, which by 1534 had been reduced into the Tercios of 3000 for increased mobility on the offensive.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Tercio（“三分之一”）也被称为Tercio Espa&#241;ol，是文艺复兴时期的军事编队，类似于瑞士派克广场并衍生而来，是一个术语，用于描述由大约3000名枪兵、剑客和弓箭手组成的混合步兵编队，形成一个相互支持的编队；它有时也被其他国家称为西班牙广场后，西班牙军队引进，并被广泛采用的国际路线和主导正规的野战超过一个世纪[段落：1]泰尔西奥·埃斯帕尼奥尔是意大利战争的产物，在这场战争中，西班牙将军冈萨罗·费尔南德斯·德科尔多瓦将在15世纪末和16世纪初的一系列冲突中重组西班牙军队，使之成为以装甲步兵为中心的现代和中世纪联合兵种在战术上的独特组合。这种对步兵的重视是由于西班牙在日常生活中对骡子的极大依赖，这反过来又导致西班牙无力组建大型骑兵部队。它标志着中世纪军队向现代军队的转变。冈萨罗·费尔南德斯（gonzalofernández）开发了Tercio，以进一步提高西班牙步兵对抗各种敌对步兵的效力，同时又不受骑兵冲锋的危险影响[段落：1]一开始军队由大约6000人组成，叫做科罗内利亚斯，到了1534年，为了增加进攻的机动性，它已经减少到3000人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MONGOL_SIEGE_ENGINEER</Tag>
+		<English>Siege Engineer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒙古攻城技师</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SELJUK_GHULAM_WARRIOR</Tag>
+		<English>Ghulam Warrior</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塞尔柱战士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MONGOL_SIEGE_ENGINEER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Siege Engineer[COLOR_REVERT], the Mongol replacement for the [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT], is faster.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒙古攻城技师，是蒙古的投石机的替代品，投石机速度更快。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Ghazi[COLOR_REVERT], the Arabian replacement for the the [COLOR_UNIT_TEXT]Heavy Sworsman[COLOR_REVERT], is immune to first strikes and can withdraw from combat.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Ghazi[COLOR_REVERT]是阿拉伯的[COLOR_UNIT_TEXT]重型剑士[COLOR_REVERT]的替代品，不受第一次攻击，可以退出战斗。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COLOMBIA_LLANERO</Tag>
+		<English>Llanero</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哥伦比亚骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALY_CONDOTTIERI_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Condottiero[COLOR_REVERT], the Italian replacement for the the [COLOR_UNIT_TEXT]Cuirassier[COLOR_REVERT], doesn't have a penalty in cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Condottiero[COLOR_REVERT]是意大利的[COLOR_UNIT_TEXT]铁甲[COLOR_REVERT]的替代品，在城市中不会受到处罚。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOORS_BERBER_CAVALRY_PEDIA</Tag>
+		<English>[TAB]Following the Muslim conquest of North Africa in the 7th century, the Berber peoples of the Maghreb and Morocco largely adopted Islam and became the mainstay of Arab armies in the West. Skilled with bow and javelin and mounted on camels, they soon mastered the horse and became adept as scouting and raiding light cavalry. The Arab conquest of Iberia initiated by the Berber general, Tarik ibn-Zihad consisted of about 300 elite Arabian cavalry and a mixed Berber army of about 1800-2000 bowmen, spearmen and light cavalry. Later Andalusian armies were largely comprised of a core of Arabian noble horsemen and a majority of Berber voluteers and mercenaries who fought both on foot and on horseback.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]继7世纪穆斯林征服北非之后，马格里布和摩洛哥的柏柏尔人基本上接受了伊斯兰教，成为西方阿拉伯军队的中流砥柱。他们擅长弓箭和标枪，骑上骆驼，很快就掌握了马，成为侦察和袭击轻骑兵的行家。阿拉伯对伊比利亚的征服是由柏柏尔将军塔里克·伊本·齐哈德发起的，由大约300名阿拉伯精锐骑兵和大约1800-2000名弓箭手、矛兵和轻骑兵组成的柏柏尔混合军队。后来，安达卢西亚的军队主要由阿拉伯贵族骑兵和大多数步行和骑马作战的柏柏尔人和雇佣兵组成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOORS_BERBER_CAVALRY_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Berber Cavalry[COLOR_REVERT], the Moorish replacement for the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT], is immune to first strikes and has a bigger withdraw chance.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]柏柏尔骑兵[COLOR_REVERT]，摩尔人替代[COLOR_UNIT_TEXT]马弓箭手[COLOR_REVERT]，不受第一次攻击，并且有更大的撤退机会。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PRUSSIA_HOWITZER_PEDIA</Tag>
+		<English>[TAB]Big Bertha (German: Dicke Bertha) - literal translation "Thick (or fat) Bertha" - is the name of a type of super-heavy howitzer developed by the famous armaments manufacturer Krupp in Germany on the eve of World War I. Its official designation was the L/12, i.e., the barrel was 12 calibre in length, 42-cm (16.5 inch) Type M-Ger鋞 14 (M-Equipment 1914) Kurze Marine-Kanone ("short naval gun", a name intended to camouflage the weapon's real purpose).[PARAGRAPH:1]Only two examples of the howitzer were available at the beginning of World War I, and they were used to destroy the Belgian forts at Li鑗e, Namur, and Antwerp, and the French fort at Maubeuge, as well as other forts in northern France. Bertha proved very effective against older constructions such as the Belgian forts designed in the 1880s by Brialmont, destroying several in a few days. The most spectacular success was the Belgian Fort Loncin which exploded after taking a direct hit to its ammunition magazine. The concrete used in the Belgian forts was of poor quality, however, and consisted of layers of concrete only, with no steel reinforcement.[PARAGRAPH:1]Big Bertha gained a strong reputation on both sides of the lines due to its early impressive successes in smashing the forts at Liege. The German press went wild with enthusiasm and declared the Bertha a Wunderwaffe. When used later during the German assault upon Verdun in February, 1916, however, it proved less effective, as the newer construction of this fort, consisting of concrete reinforced with steel, could mostly withstand the large semi-armour-piercing shells of the Berthas. Only Fort Vaux was severely damaged during this event, destroying the water storage and leading to the surrender of the fort.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Big Bertha（德语：Dicke Bertha）——直译为“厚（或肥）伯莎”（Thick（或fat）Bertha）——是德国著名武器制造商克虏伯（Krupp）在第一次世界大战前夕研制的一种超重型榴弹炮的名称，其官方名称为L/12，即枪管长度为12口径，42厘米（16.5英寸）M-Ger&#228;t14型（M-Equipment 1914）Kurze Marine Kanone（“短海军炮”，一个用来伪装武器真实用途的名字）[段落：1]第一次世界大战开始时，只有两种榴弹炮可供使用，它们被用来摧毁比利时在列日、纳穆尔和安特卫普的堡垒，以及法国在莫贝格的要塞，以及法国北部的其他要塞。伯莎被证明是非常有效的对抗老建筑，如19世纪80年代由布里尔蒙特设计的比利时堡垒，几天之内就摧毁了几座。最引人注目的成功是比利时隆辛堡，它在直接击中弹药库后爆炸。然而，比利时堡垒使用的混凝土质量很差，仅由混凝土层组成，没有钢筋[段落：1]大伯莎在攻破列日要塞方面取得了令人瞩目的成功，因此在双方的战线上都赢得了很高的声誉。德国新闻界热情高涨，宣称伯莎号是一个无名小卒。然而，后来在1916年2月德军进攻凡尔登时使用，效果却不太理想，因为这座由钢筋混凝土加固而成的新建筑，基本上可以抵挡伯塔斯号的大型半穿甲炮弹。在这次事件中，只有沃克斯堡遭到严重破坏，摧毁了蓄水库，导致堡垒投降。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SELJUK_GHULAM_WARRIOR_PEDIA</Tag>
+		<English>[TAB]The Ghulam warriors were slave-soldiers in service of kings and generals throughout the Turkish and Persian Empires of the Medieval and Early Modern eras. Since the break-up of the Abbasid Caliphate, the Ghulam were grouped into whole armies. They were usually Turkic in origin and fought as cavalrymen. The Ghulam seem to have lived celibate lives. The absence of family life and offspring was one of the reasons why Ghulam, even when attaining power, generally failed to start dynasties or proclaim their independence. The only exception to this was the Ghaznavid dynasty of Afghanistan, which originated amongst the Ghulam of the Samanid dynasty.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]古兰武士是中世纪和现代早期土耳其和波斯帝国国王和将军的奴隶兵。自从阿巴斯哈里发解体后，古兰人被分成了整个军队。他们通常起源于突厥语，作为骑兵作战。古兰人似乎过着独身生活。家族生活和后代的缺失是古兰即使在掌权后，也普遍未能建立王朝或宣布独立的原因之一。唯一的例外是阿富汗的伽色尼王朝，它起源于萨曼底王朝的古兰人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALIAN_BERSAGLIERE_PEDIA</Tag>
+		<English>[TAB]The Bersaglieri (Marksmen in English) are a corps of the Italian Army originally created by General Alessandro La Marmora on 18 June 1836 to serve in the Piedmontese Army, later to become the Royal Italian Army. They have always been a high-mobility light infantry unit, and can still be recognized by the distinctive wide brimmed hat that they wear (only in dress uniform in modern times), decorated with black capercaillie feathers. The feathers are usually applied to their combat helmets. Another distinctive trait of the Bersaglieri is the fast jog pace they keep on parades, instead of marching.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]The Bersaglieri (Marksmen in English) are a corps of the Italian Army originally created by General Alessandro La Marmora on 18 June 1836 to serve in the Piedmontese Army, later to become the Royal Italian Army. They have always been a high-mobility light infantry unit, and can still be recognized by the distinctive wide brimmed hat that they wear (only in dress uniform in modern times), decorated with black capercaillie feathers. The feathers are usually applied to their combat helmets. Another distinctive trait of the Bersaglieri is the fast jog pace they keep on parades, instead of marching.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHINA_FIRELANCE</Tag>
+		<English>Pen Huo Qi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中国喷火器</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Mahout[COLOR_REVERT], the Indian replacement for the the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT], does receive a defensive bonus and begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Mahout[COLOR_REVERT]马霍特[COLOR_REVERT]是印度替代[COLOR_UNIT_TEXT]战象[COLOR_UNIT_TEXT]的一个防御加成，并从[COLOR_HIGHLIGHT_TEXT]城市卫戍区I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT</Tag>
+		<English>Mahout</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度战象</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURKEY_GREAT_BOMBARD_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Great Bombard[COLOR_REVERT], the Turkish replacement for the the [COLOR_UNIT_TEXT]Bombard[COLOR_REVERT], is stronger and has a higher bombard rate.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Great Bomband[COLOR_REVERT]是土耳其替代[COLOR_UNIT_TEXT]轰击[COLOR_REVERT]的产品，它的威力更强，轰击率更高。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_HEAVY_CANNON_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Culverin[COLOR_REVERT], the French replacement for the [COLOR_UNIT_TEXT]Cannon[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Siege Weapons[COLOR_REVERT] and [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR UNIT TEXT]Culverin是[COLOR UNIT TEXT]大炮[COLOR UNIT REVERT]的法国替代品，对[COLOR UNIT TEXT]攻城武器[COLOR UNIT REVERT]和[COLOR UNIT TEXT]火药单元[COLOR UNIT REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIKING_LONGSHIP_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Longship[COLOR_REVERT], the Viking replacement for the the [COLOR_UNIT_TEXT]Galley[COLOR_REVERT], is faster and begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]长舰[COLOR_REVERT]，海盗取代[COLOR_UNIT_TEXT]的重型战舰[COLOR_REVERT]有两个额外的移动点，可以轰炸城市防御，有两个货舱，并以[COLOR_HIGHLIGHT_TEXT]DISGAGE I[COLOR_REVERT]提升。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARGENTINA_PATRICIOS</Tag>
+		<English>Patricios</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷帕特里西奥斯兵团</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_BALLISTA_PEDIA</Tag>
+		<English>[TAB]The ballista (Latin, from Greek ballistra and that from ballo, "throw"), plural ballistae, was an ancient missile weapon which launched a large projectile at a distant target.[PARAGRAPH:1]Developed from earlier Greek weapons, it relied upon different mechanics, using two levers with torsion springs instead of a prod, the springs consisting of several loops of twisted skeins. Early versions ejected heavy darts or spherical stone projectiles of various sizes for siege warfare. It developed into a smaller sniper weapon, the Scorpio, and possibly the polybolos.[PARAGRAPH:2]After the absorption of the Ancient Greek city-states into the Roman Republic in 146 BC, the highly advanced Greek technology began to spread across many areas of Roman influence. This included the hugely advantageous military advances the Greeks had made (most notably by Dionysus of Syracuse), as well as all the scientific, mathematical, political and artistic developments.[PARAGRAPH:1]The Romans 'inherited' the torsion powered Ballista, which had by now spread to several cities around the Mediterranean, all of which became Roman spoils of war in time, including one from Pergamum, which was depicted among a pile of 'trophy' weapons in relief on a balustrade.[PARAGRAPH:1]The torsion ballista, developed by Alexander, was a far more complicated weapon than its predecessor and the Romans developed it even further, especially into much smaller versions, that could easily be carried.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]ballista（拉丁语，来自希腊ballistra，来自ballo，“throw”）是一种古老的导弹武器，可以向远处的目标发射大型炮弹[段落：1]从早期的希腊武器发展而来，它依靠不同的机械装置，使用两个带有扭转弹簧的杠杆，而不是一个由弹簧组成的弹簧几圈扭曲的骨架。早期的版本射出各种尺寸的重型飞镖或球状石射弹，用于围攻战。它发展成一种更小的狙击手武器，天蝎座，可能还有聚合体[段落：2]公元前146年，古希腊城邦并入罗马共和国后，高度先进的希腊技术开始传播到罗马影响的许多地区。这包括希腊人在军事上取得的巨大优势（尤其是锡拉丘兹的狄俄尼索斯），以及所有科学、数学、政治和艺术的发展[段落：1]罗马人“继承”了扭力式的弩炮，现在已经传播到地中海周边的几个城市，所有这些都成了罗马战争的战利品，其中一件来自佩加姆，被描绘在栏杆上浮雕的一堆战利品中[段落：1]亚历山大发明的扭力弩远比它的前身复杂得多，罗马人对它的发展更进一步，尤其是小得多的版本，这很容易携带。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_ATLAS_ELEPHANT_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Atlas Elephant[COLOR_REVERT], the Phoenician replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Atlas Elephant[COLOR_REVERT]是腓尼基人对[COLOR_UNIT_TEXT]战象[COLOR_REVERT]的替代品，从[COLOR_HIGHLIGHT_TEXT]震撼[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI_PEDIA</Tag>
+		<English>[TAB]Ghazi warriors were fierce Arabic light/medium cavalry armed with sword and lance, who raided deep into enemy territory to make war on unbelievers. Depending largely on plunder for their livelihood they were organized in bands similiar to mercenary companies which attracted religious zealots and adventurers of every kind. Within the context of Islamic jihad warfare, they struck fast and hard inside enemy borders to destroy war materials and morale, then withdrawing with all the loot they could carry. As flexible and highly mobile border defenders and raiders they often preceeded the deployment of much larger armies during the early Arab invasions of Persia, Egypt and North Africa.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]加齐战士是凶猛的阿拉伯轻/中型骑兵，他们手持长剑和长矛突袭敌方领土，向不信教者发动战争。他们主要依靠掠夺为生，组织成类似于雇佣兵公司的乐队，吸引了各种宗教狂热者和冒险家。在伊斯兰圣战的背景下，他们在敌方边界内迅速猛烈地打击，摧毁战争物资和士气，然后带着所有能携带的战利品撤离。在早期阿拉伯入侵波斯、埃及和北非期间，作为灵活机动的边境保卫者和突袭者，他们常常先于部署规模更大的军队。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAYAN_BLOWGUNNER</Tag>
+		<English>Blowgunner</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅游击军</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN</Tag>
+		<English>Naffatun</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊朗榴弹车</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUSSIA_STRELETS_STRELETS</Tag>
+		<English>The [COLOR_UNIT_TEXT]Strelets[COLOR_REVERT], the Russian replacement for the the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], is immune to first strikes and begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Strelets[COLOR_REVERT]是俄罗斯替代[COLOR_UNIT_TEXT]滑膛手[COLOR_REVERT]的产品，不受先发制人的攻击，并从[COLOR_HIGHLIGHT_TEXT]城市卫戍区I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMIL_KALLARANI_PEDIA</Tag>
+		<English>[TAB]Technically, the Kallarani weren't employed by either the sovereign or the state. Rather, they were pirates who received the Royal Pardon on the pledge of their support of the Chola Empire. They were used in more than a few instances to deal with the Arab piracy in the western water. They were also used as Coast Guard.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>从技术上讲，卡拉尼人不是被君主或国家雇佣的。相反，他们是海盗，他们得到了皇家赦免，保证他们支持乔拉帝国。他们被用于处理阿拉伯海盗在西部水域不止几个例子。他们也被用作海岸警卫队。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Tagmata[COLOR_REVERT], the Byzantine replacement for the the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], receives a bonus when defending cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Tagmata[COLOR_REVERT]是拜占庭人[COLOR_UNIT_TEXT]长矛[COLOR_REVERT]的替代品，在防御城市时会获得奖励。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHIOPIAN_ASKARI_PEDIA</Tag>
+		<English>[TAB]An Askari was a local soldier serving in the armies of the European colonial powers in Africa, particularly in East Africa, Northeast Africa, and Central Africa. Not only was the word used in that sense in English, but also in French, German, Italian, Urdu and Portuguese. The designation is still in use today to describe police, gendarmerie and security guards.[PARAGRAPH:1]During the period of the European colonial empires in Africa, locally recruited soldiers were employed by Italian, British, Portuguese, German and Belgian colonial armies. They played a crucial role in the conquest of the various colonial possessions, and subsequently served as garrison and internal security forces. During both World Wars askari units served outside their colonies of origin, in various parts of Africa, the Middle East and Asia.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]阿斯卡里是一名在非洲，特别是在东非、东北非和中非的欧洲殖民国家军队中服役的当地士兵。这个词不仅在英语中使用，而且在法语、德语、意大利语、乌尔都语和葡萄牙语中也有使用。这个名称至今仍被用来形容警察、宪兵和保安[段落：1]在欧洲殖民帝国时期，意大利、英国、葡萄牙、德国和比利时的殖民地军队雇佣了当地招募的士兵。他们在征服各个殖民地的过程中起到了至关重要的作用，后来又充当了驻军和国内安全部队。在两次世界大战期间，阿斯卡里部队在非洲、中东和亚洲各地区的原籍地以外服役。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD</Tag>
+		<English>City Guard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈拉帕城市卫兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT_PEDIA</Tag>
+		<English>[TAB]There is uncertainty as to when elephant warfare first began. The earliest Indian Vedic hymns, the Rigveda, dating from the late 2nd and early 1st millennia BC, make reference to the use of elephants for transport - especially Indra and his divine white elephant, Airavata - but make no reference to the use of elephants in war, focusing instead on Indra's role in leading horse cavalry.[5] The later stories of the Mahabharata and the Ramayana, dating from around the 4th century BC,[6] do however mention elephant warfare, suggesting its introduction during the intervening period.[7] The ancient Indian kings certainly valued the elephant in war, some stating that an army without elephants is as despicable as a forest without a lion, a kingdom without a king or as valour unaided by weapons.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]大象战争何时开始还存在不确定性。最早的印度吠陀赞美诗《梨俱吠陀》，可以追溯到公元前2千年晚期和1千年早期，提到了使用大象作为运输工具——尤其是因陀罗和他的神圣白象——艾拉瓦塔，但没有提到在战争中使用大象，而是着重于因陀罗在领导骑兵中的作用然而，从公元前4世纪开始的《摩诃婆罗多》和《罗摩衍那》中确实提到了大象战争，这表明大象战争是在这一时期引入的。[7]古代印度国王肯定很重视大象在战争中的地位，有些人认为没有大象的军队就像没有狮子的森林一样卑鄙，一个没有国王的王国或没有武器支持的英勇的王国。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_HEAVY_CANNON</Tag>
+		<English>Heavy Cannon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法国重型加农炮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST_PEDIA</Tag>
+		<English>[TAB]A grenadier (from the word "grenade") was originally a specialized soldier who threw explosive grenades and sometimes took part in assault operations on the field of battle. From the 17thC. grenadiers were chosen from the largest and strongest soldiers and often led the storming of breaches in seige warfare, a role later performed by sappers and pioneers. Grenades were small iron spheres, the size of a baseball or cricket ball, filled with gunpowder and fused by a slow match. The wide hats worn by grenadiers were gradually replaced by tall caps shaped like a bishop's mitre which permitted the grenadier greater ease in throwing the grenade overhand.[PARAGRAPH:1]Grenade usage declined in the late 18thC. although the need for elite assault troops remained and grenadiers were retained for this purpose and specially selected for their strength, experience and steadiness under fire. All the major European armies continued to employ elite grenadier companies until the early 19thC.. Their use was particularly marked in the battles of the Dutch Republic from 1648 to the 1790s as Dutch grenadiers wearing their distinctive guilded "bishop's mitres" saw action in numerous battles during the Anglo-Dutch wars. Grenadiers remained prominent on the battlefield until the invasion and occupation of the Netherlands by Revolutionary France in 1795.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]手榴弹兵（来自“手榴弹”一词）最初是一名投掷爆炸性手榴弹的专业士兵，有时参加战场上的突击行动。从第17届。掷弹兵是从最大和最强壮的士兵中挑选出来的，经常在围攻战中领导突围，这个角色后来由工兵和拓荒者扮演。手榴弹是一个棒球或板球大小的小铁球，装满火药，用慢火把它熔化。掷弹兵戴的宽大的帽子逐渐被类似主教帽的高帽所取代，这使得掷弹兵能够更容易地将手榴弹抛向上方[段落：1]手榴弹的使用在18世纪末下降。尽管仍然需要精锐的突击部队，为此目的保留了掷弹兵，并特别挑选了他们的力量、经验和在火力下的稳定性。直到19世纪初，所有主要的欧洲军队都继续雇佣精锐的掷弹兵连。。在1648年至1790年代荷兰共和国的战役中，它们的使用尤为显著，因为在英荷战争期间，荷兰掷弹兵戴着他们独特的“主教帽”参加了多次战斗。在1795年法国革命军入侵和占领荷兰之前，掷弹兵在战场上一直很突出。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUGHAL_SEPOY</Tag>
+		<English>Sepoy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧儿步兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Chevalier[COLOR_REVERT], the French replacement for the [COLOR_UNIT_TEXT]Lancer[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Heavy Cavalry Units[COLOR_REVERT] and [COLOR_UNIT_TEXT]Light Cavalry Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]骑士[COLOR_REVERT]骑士[COLOR_UNIT_TEXT]兰瑟[COLOR_REVERT]的法国替代品，对[COLOR_UNIT_TEXT]重骑兵单位[COLOR_REVERT]和[COLOR_UNIT_TEXT]轻骑兵单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COLOMBIA_LLANERO_PEDIA</Tag>
+		<English>[TAB]A llanero (plainsman) is a Venezuelan or Colombian herder. The name is taken from the Llanos grasslands occupying western Venezuela and eastern Colombia. The Llanero were originally part Spanish and Indian and have a strong culture including a distinctive form of music.[PARAGRAPH:1]During the wars of independence, Llaneros served in both armies and provided the bulk of the cavalry during the war. In 1819, an army of Llaneros, led by Sim髇 Bol韛ar and Jos?Antonio P醗z, defeated the Spanish with a surprise attack when they crossed over the Orinoco plains and the Andes mountains.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]llanero（平原人）是委内瑞拉或哥伦比亚的牧民。这个名字取自占据委内瑞拉西部和哥伦比亚东部的拉诺斯草原。拉内罗最初是西班牙和印度的一部分，有着强大的文化，包括独特的音乐形式[段落：1]独立战争期间，莱纳罗斯在两军服役，并在战争期间提供大部分骑兵。1819年，一支由西蒙玻利瓦尔和乔斯领导的拉纳罗斯军队？当西班牙人越过奥里诺科平原和安第斯山脉时，安东尼奥·帕斯用一次突然袭击击败了西班牙人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER_PEDIA</Tag>
+		<English>[TAB]Doppels鰈dner (Double mercenary) were Landsknechts in 16th-century Germany who were prepared to fight in the front line, taking an extra risk, in exchange for double payment. The stated ratio was that one Landsknecht in four would be a Doppels鰈dner. A small number of the Doppels鰈dner of each company were usually issued with firearms.[PARAGRAPH:1]Likewise, Landsknechts schooled in the use of the Zweih鋘der (two-hander), a massive two-handed sword, were entitled to double pay and thus qualified as Doppels鰈dner. The fencing guild of the Brotherhood of St. Mark had the monopoly on the use of the Zweih鋘der after Frederick III, Holy Roman Emperor granted it to them in 1487.[PARAGRAPH:1]The Zweih鋘der was allegedly used by the Doppels鰈dner to break through formations of pikemen, especially Swiss pikemen, by either being swung to break the ends of the pikes themselves or to knock them aside and attack the pikemen directly. The factuality of this tradition is disputed, but at least as a legend, it appears to date to at least the 17th century.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Doppels&#246;ldner（双重雇佣兵）是16世纪德国的Landsknecht人，他们准备在前线战斗，冒着额外的风险，换取双倍报酬。所说的比例是，四分之一的兰斯克内克特就是多普尔斯。每一个公司的少数多佩尔斯纳尔人通常都会得到枪支[段落：1]同样地，在学习如何使用Zweih&#228;nder（双手剑）的Landsknechts（双手剑）有权获得双倍报酬，因此有资格成为Doppels&#246;ldner。1487年，神圣罗马皇帝腓特烈三世（Frederick III）将Zwei&#228;邦的使用权授予圣马克兄弟会的击剑行会[段落：1]据称，兹维恩州曾被多佩尔斯奥尔德纳人用来突破长矛兵的阵型，尤其是瑞士长矛兵，要么被挥舞来折断长矛的末端，要么把它们撞到一边直接攻击长矛兵。这个传统的真实性是有争议的，但至少作为一个传说，它至少可以追溯到17世纪。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHIOPIA_SAVANNA_HUNTER</Tag>
+		<English>Savanna Hunter</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃塞尔比亚手枪骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_HEAVY_CANNON_PEDIA</Tag>
+		<English>[TAB]A culverin was a relatively simple ancestor of the musket, and later a medieval cannon, adapted for use by the French in the 15th century, and later adapted for naval use by the English in the late 16th century. The culverin was used to bombard targets from a distance. The weapon had a relatively long barrel and a light construction. The culverin fired solid round shot projectiles with a high muzzle velocity, producing a relatively long range and flat trajectory. Round shot refers to the classic solid spherical cannonball.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]卡尔弗林步枪是步枪的一个相对简单的祖先，后来成为中世纪的大炮，在15世纪被法国人使用，后来在16世纪后期被英国人用于海军。卡弗林被用来从远处轰炸目标。这种武器有一个相对较长的枪管和轻型结构。卡尔弗林发射的固体圆弹具有较高的初速，产生相对较长的射程和平坦的弹道。圆形射击是指经典的实心球形炮弹。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_PEDIA</Tag>
+		<English>[TAB]Eagle warriors were a special class of infantry soldier of the Aztec army. Along with the Jaguar warriors, Eagle warriors were the only Aztec warrior society for which access was not restricted to the nobility, but to which even commoners could be admitted for special merit.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]鹰战士是阿兹台克军队的一个特殊的步兵阶级。与美洲虎战士一样，鹰战士是唯一的阿兹特克战士社会，在那里，人们不仅可以进入贵族，而且可以因为特殊的功绩而被接纳。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MEXICO_EJERCITO_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Ejercito Constitucionalista[COLOR_REVERT], the Mexican replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Ejercito compustcionalista[COLOR_REVERT]是墨西哥替代[COLOR_UNIT_TEXT]步兵[COLOR_REVERT]的战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PORTUGAL_BANDEIRANTES</Tag>
+		<English>Bandeirantes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>葡萄牙火绳枪兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BABYLON_RAM_STRATEGY</Tag>
+		<English>This Babylonian replacement for the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT] is earlier available than its vanilla counterpart. So conquering cities is easy early on.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>这种巴比伦式的投石车替代品比它的同类产品更早上市。所以早期征服城市很容易。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_ATLAS_ELEPHANT_PEDIA</Tag>
+		<English>[TAB]Carthage maintained a stable of 300 elephants, both the larger central African species and the slightly smaller elephant from Barbary. Slaves and enemies were used to train elephants in the art of stomping people to death, at least according to the Roman propaganda of the time. Elephants were used against the Romans in Sicily, against Regulus, and later in the conquest of Spain. Then came Hannibal's fantastic feat of marching his troops and 40 elephants over the Pyrenees and the Alps into northern Italy. Elephants are difficult to get across swift rivers; do not do well on narrow, rocky trails; and are not accustomed to the cold. Still, Hannibal got them across, only to lose most of them in northern Italy, in Piedmont. One survived and was used by Hannibal himself to enhance his presence. The native Celts of northern Italy and the Italian peasants further south were duly impressed. But the Romans eventually found a way to cope with the dangerous elephant charges. In Hannibal's last battle (Zama, 202 BC), his elephant charge was ineffective because the Roman maniples simply made way for them to pass. After the Carthaginians were defeated, the treaty signed at Zama with the Romans specified that they were to give up their elephants and train no more. Thus ended about 60 years where the elephant was a central part of the Carthaginian attack force.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>迦太基维持着300头大象的稳定，既有较大的中非物种，也有来自巴巴里的稍小的大象。奴隶和敌人被用来训练大象学会用脚踩死人，至少根据当时的罗马宣传。大象在西西里岛被用来对抗罗马人，反对雷格斯，后来又被用于征服西班牙。接着，汉尼拔将他的军队和40头大象穿过比利牛斯山和阿尔卑斯山进入意大利北部。大象很难穿过湍急的河流；在狭窄的岩石小道上跑得不好；而且不习惯寒冷。尽管如此，汉尼拔还是让他们渡过难关，但在意大利北部的皮埃蒙特，他们中的大多数人都失去了。其中一个幸存下来，并被汉尼拔本人用来加强他的存在。意大利北部的本地凯尔特人和更南部的意大利农民对此印象深刻。但罗马人最终找到了应对大象危险指控的方法。在汉尼拔的最后一次战斗（扎马，公元前202年），他的大象冲锋是无效的，因为罗马人只是让路让他们通过。迦太基人被击败后，在萨马与罗马人签订的条约规定，他们将放弃大象，不再训练。因此结束了大约60年，大象是迦太基进攻部队的中心部分。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_BIREME</Tag>
+		<English>Bireme</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>双层桨战船</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MEXICO_EJERCITO_PEDIA</Tag>
+		<English>[TAB]The Constitutional Army (also known as the Constitutionalist Army) was the army that fought against Huerta's Federal Army, and later, against the Villistas and Zapatistas during the Mexican Revolution. It was formed in March 1913 by Venustiano Carranza, so-called "First-Chief" of the army, as a response to the murder of President Francisco I. Madero and Vice President Jos?Mar韆 Pino Su醨ez by Victoriano Huerta during La decena tragica (Ten Tragic Days) of 1913, and the resulting usurption of presidential power by Huerta.[PARAGRAPH:1]Carranza had few military forces on which he could rely for loyalty. He had the theoretical support of Pancho Villa and Emiliano Zapata, but they soon turned against the Constitutionalists after Huerta's defeat in 1914.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>制宪军（又称立宪军）是在墨西哥革命期间与惠尔塔的联邦军作战，后来又与维利斯塔斯和萨帕蒂斯塔人作战。它是1913年3月由文努西亚诺·卡兰扎（Venustiano Carranza）组建的，他被称为军队的“第一任首领”，作为对总统弗朗西斯科·马德罗（Francisco I.Madero）和副总统乔斯（Jos）遇害的回应？1913年《悲惨的十天》（La Decea tragica）（十天悲剧）中的维多利亚·胡尔塔（Victoriano Suárez），以及由此产生的胡尔塔对总统权力的篡夺[段落：1]卡兰扎几乎没有什么军事力量可供他效忠。他得到了潘乔·维拉和埃米利亚诺·萨帕塔的理论支持，但1914年胡尔塔失败后，他们很快转而反对立宪派。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLYNESIA_KOA</Tag>
+		<English>Koa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波利尼西亚民兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE</Tag>
+		<English>Eagle</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿兹特克雄鹰战士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIBET_DOB_DOB_PEDIA</Tag>
+		<English>[TAB]The dob dobs (refered to as both "warrior monks" and "police monks") were primarily tasked with mantaining law and order in the various monastries that dotted the country. Dob dobs were more often than not, men from the north and north eastern region of Tibet (Kham). The men of Kham had distinct physical characterstics - essentially, tall and sturdy well-built men. Mostly on account of their diet owing to the geography of the area they came from. They were also noted for their ferocity. Tibet was full of monasteries - the larger ones often housed thousands of monks. The Sera monastery was famous for it's fighting monks.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]出生地僧侣（也称为“武僧”和“警察僧侣”）的主要任务是维护遍布全国的各个修道院的法律和秩序。Dob-dobs通常是来自西藏北部和东北部地区（Kham）的男性。卡姆人有着明显的身体特征——本质上，高大强壮，体格健壮。主要是由于他们来自的地理位置，他们的饮食习惯。他们也以凶残著称。西藏到处都是寺院，规模较大的寺院往往住着成千上万的僧侣。色拉寺是著名的战斗僧侣。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMIL_KALLARANI</Tag>
+		<English>Kallarani</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰米尔重骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIKING_LONGSHIP_PEDIA</Tag>
+		<English>[TAB]Longships (aka longboats) were sea vessels made and used by the Vikings from the Nordic countries for trade, commerce, exploration, and warfare during the Viking Age although scientific analysis of the oak timber shows at least one well known ship was built in Dublin, Ireland. The longship's design evolved over many years, beginning in the Stone Age with the invention of the umiak and continuing up to the 9th century with the Nydam and Kvalsund ships. The longship appeared in its complete form between the 9th and 13th centuries. The character and appearance of these ships have been reflected in Scandinavian boat-building traditions until today. The particular skills and methods employed in making longships are still used world wide, often with modern adaptations. They were all made out of wood, with cloth flags and had lots of details and carvings on the hull.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[表]长船（又称长船）是北欧国家的北欧海盗在北欧海盗时代制造和使用的用于贸易、商业、勘探和战争的海船，尽管对橡树木材的科学分析表明，至少有一艘著名的船只是在爱尔兰的都柏林建造的。龙船的设计经过了多年的发展，从石器时代乌米亚克的发明开始，一直延续到9世纪的Nydam和Kvalsund船。长船在9世纪到13世纪之间以完整的形式出现。这些船只的特征和外观一直反映在斯堪的纳维亚造船传统中，直到今天。在制作长腿时使用的特殊技巧和方法仍然在世界范围内使用，通常是随着现代的适应。它们都是木头做的，有布旗，船体上有很多细节和雕刻。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCA_SLINGER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Huaraca[COLOR_REVERT], the Incan replacement for the [COLOR_UNIT_TEXT]Longbowman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Feudalism[COLOR_REVERT] technology and doesn't require the [COLOR_TECH_TEXT]Commune[COLOR_REVERT] technology.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Huaraca[COLOR_REVERT]是印加语对[COLOR_UNIT_TEXT]长弓人[COLOR_REVERT]的替代品，需要[COLOR_TECH_TEXT]封建主义[COLOR_REVERT]技术，不需要[COLOR_TECH_TEXT]公社[COLOR_REVERT]技术。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUSSIA_STRELETS_PEDIA</Tag>
+		<English>[TAB]Streltsy were the units of Russian guardsmen in the 16th - early 18th centuries, armed with firearms. They are also collectively known as Marksman Troops.[PARAGRAPH:1]The first streltsy units were created by Ivan the Terrible sometime between 1545 and 1550 and armed with the arquebus. They first saw combat at the Siege of Kazan in 1552. Initially, the streltsy were recruited from among the free tradespeople and rural population. Subsequently, military service in this unit became lifelong and hereditary. Thus, while initially an elite force in the sixteenth century, their effectiveness was reduced by poor training and lack of volunteerism in recruiting.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在18世纪早期，斯特雷斯曼的卫兵装备有武器。他们统称为神枪手[段落：1]第一支streltsy部队是在1545年至1550年间由伊万恐怖分子创建的，装备有阿奎布斯。他们第一次看到战斗是在1552年的喀山围攻。起初，街头艺人是从自由贸易者和农村人口中招募的。后来，在这个单位服兵役变成了终身制和世袭制。因此，虽然最初在16世纪是一支精英部队，但由于缺乏训练和缺乏志愿服务，他们的效力降低了。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT], the Greek replacement for the the [COLOR_UNIT_TEXT]Horseman[COLOR_REVERT], is immune to first strikes and doesn't have a penalty in cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT]是希腊语中[COLOR_UNIT_TEXT]骑手[COLOR_REVERT]的替代品，不受先发制人的攻击，在城市中不会受到惩罚。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCA_SLINGER</Tag>
+		<English>Huaraca</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印加长弓手</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI</Tag>
+		<English>Hetairoi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Eagle[COLOR_REVERT], the Aztec replacement for the the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], requires no resources, can enter [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and has a first strike.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]阿兹特克雄鹰战士[COLOR_REVERT]是阿兹特克替代[COLOR_UNIT_TEXT]Spearman[COLOR_REVERT]，不需要任何资源，可以进入[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]，并具有第一次攻击。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALY_CONDOTTIERI_PEDIA</Tag>
+		<English>[TAB]Condottieri (singular condottiero and condottiere) were the mercenary soldier leaders (or warlords) of the professional, military free companies contracted by the Italian city-states and the Papacy, from the late Middle Ages until the mid-16th century. In contemporary Italian, condottiero means "contractor", and is synonymous with the modern English title Mercenary Captain, which, historiographically, does not connote the hired soldier's nationality.[PARAGRAPH:1]These Italian words were standard usage in English writing of the Napoleonic times that remained current in the histories until the late 20th century; because formally-employed, standing, professional armies were uncommon until late in the Napoleonic Wars (1800-1815) thus, the word Condottiere in the English language has come to denote any hired soldier.[PARAGRAPH:1]In the thirteenth and fourteenth centuries, the Italian city-states of Venice, Florence, and Genoa were very rich from their trade with the Levant, yet possessed woefully small national armies. In the event that foreign powers and envious neighbours attacked, the ruling nobles hired foreign mercenaries to fight for them. The military-service terms and conditions were stipulated in a condotta (contract) between the City-State and the Soldier (officer and enlisted man), thus, the contracted leader, the Mercenary Captain commanding, was titled the Condottiere.[PARAGRAPH:1]From the eleventh to the thirteenth century, European soldiers led by professional officers, fought against the Muslims in the Crusades (1095-1291). These officers provided large-scale warfare combat experience in the foreign Holy Land of the Asian Middle East. On the Crusades' conclusion, the first masnada (bands of roving soldiers) appeared; they were not Italian, but (mostly) German, from the Duchy of Brabant (hence, Brabanzoni), and from Catalonia and Aragon. The latter were Spanish soldiers who had followed King Peter III of Aragon to the Holy Land in October 1282, and, post-war, remained there, seeking military employment. In Italy, in 1333, other mercenaries arrived with John of Bohemia to fight, as the Compagnia della Colomba (Dove Company), Perugia's war against Arezzo. Given the profession, some masnade were less mercenaries than bandits and desperate men.[PARAGRAPH:1]The first organised mercenaries were the Ventura Companies of Duke Werner of Urslingen and Count Konrad von Landau. Werner's company differed from other mercenary companies because its code of military justice imposed discipline and an equal division of the contract's income. The Ventura Company increased in number until becoming the fearsome "Great Company" of some 3,000 barbute (each barbuta comprised a knight and a sergeant). To this, the Italian nobleman Lodrisio Visconti countered with the "Company of St. George"-featuring cavalrymen as the key fighting men, and not infantrymen. In Italy, the first mercenary army was led by Alberico da Barbiano, the Count of Conio, who later taught military science to condottieri such as Braccio da Montone and Giacomuzzo Attendolo Sforza.[PARAGRAPH:1]Once aware of their military power monopoly in Italy, the condottieri bands became notorious for their capriciousness, and soon dictated terms to their ostensible employers. In turn, many condottieri, such as Braccio da Montone and Muzio Sforza, became powerful politicians. As most were educated men acquainted with Roman military-science manuals (e.g. Vegetius's Epitoma rei militarii), they began viewing warfare from the perspective of military science, rather than that of guts (physical courage)-a great, consequential departure from chivalry, the traditional medieval model of soldiering. Consequently, the condottieri fought by out-manoeuvring the opponent and fighting his ability to wage war, rather than risk uncertain fortune-defeat, capture, death-in battlefield combat.[PARAGRAPH:1]The medieval condottieri developed the art of war (strategy and tactics) into military science more than any of their historical military predecessors-fighting indirectly, not directly-thus, only reluctantly endangering themselves and their enlisted men, avoiding battle when possible. As a political scientist, Niccolo Machiavelli mis-interpreted that condottieri fought each other in grandiose, but often pointless and near-bloodless battles. Militarily, the condottieri line of battle still deployed the grand armoured knight and medieval weapons and tactics after most European powers had begun employing professional standing armies of pikemen and musketeers.[PARAGRAPH:1]In 1347, Cola di Rienzo (Tribune and effective dictator of the city) had Werner of Urslingen executed in Rome, and Konrad von Landau assumed command of the Great Company. In 1362, Count von Landau was betrayed by his Hungarian soldiers, and defeated in combat, by the White Company's more advanced tactics under commanders Albert Sterz and John Hawkwood. Stategically, the barbuta was replaced with the three-soldier, mounted lancia (a capo-lancia, a groom, and a boy); five lance composed a posta, five poste composed a bandiera (flag). By that time, the campaigning condottieri companies were as much Italian as foreign: the Astorre I Manfredi's Compagnia della Stella (Star Company); a new Company of St. George under Ambrogio Visconti; Niccolo da Montefeltro's Compagnia del Cappelletto (Little Hat Company); and the Compagnia della Rosa, commanded by Giovanni da Buscareto and Bartolomeo Gonzaga.[PARAGRAPH:1]From the fifteenth century hence, most condottieri were landless Italian nobles who had chosen the profession of arms as livelihood; the most famous of such mercenary captains was the son of Caterina Sforza, Giovanni dalle Bande Nere, from Forl? known as The Last Condottiere; his son was Cosimo I de' Medici, Grand Duke of Tuscany; besides noblemen, princes also fought as condottieri, given the sizable income to their estates, notably Sigismondo Malatesta, Lord of Rimini, and Federico da Montefeltro, Duke of Urbino.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Condottieri（单数condottiero和condottiere）是从中世纪晚期到16世纪中叶，由意大利城邦和教廷承包的专业、无军事公司的雇佣兵领袖（或军阀）。在当代意大利语中，condottiero是“承包商”的意思，是现代英语“雇佣兵队长”的同义词，从历史角度来看，不代表被雇佣士兵的国籍[段落：1]这些意大利语单词是拿破仑时代英语写作中的标准用法，直到20世纪末，在历史上仍然是最新的；因为正式使用的、常备的、专业的军队直到拿破仑战争后期（1800-1815年）才很少见，因此，英语中的Condottiere一词已经用来表示任何受雇的士兵[段落：1]在十三和十四世纪，意大利的城邦威尼斯、佛罗伦萨和热那亚与黎凡特的贸易非常富有，但却拥有少得可怜的国家军队。一旦外国列强和嫉妒的邻国进攻，统治贵族雇佣外国雇佣军为他们而战。兵役条款和条件是在城邦和士兵（军官和士兵）之间签订的契约（契约）中规定的，因此，契约领袖，雇佣兵指挥官，被称为契约契约契约[段落：1]从十一世纪到十三世纪，由专业军官领导的欧洲士兵，在十字军东征（1095-1291）中与穆斯林作战。这些外国军官提供了在中东进行大规模战争的经验。十字军东征结束后，第一批流亡士兵出现了；他们不是意大利人，而是（大部分）德国人，来自布拉班特公国（因此，布拉班佐尼），以及加泰罗尼亚和阿拉贡。后者是1282年10月跟随阿拉贡国王彼得三世来到圣地的西班牙士兵，战后，他们留在那里寻求军事工作。1333年，在意大利，其他雇佣兵和波希米亚的约翰一起来到意大利，参加佩鲁贾对阿雷佐的战争。考虑到这个职业，有些马斯纳德的雇佣兵不如强盗和绝望的人[段落：1]第一批有组织的雇佣兵是乌斯林根公爵沃纳和康拉德·冯·兰道伯爵的文图拉公司。沃纳的公司不同于其他雇佣兵公司，因为它的军事司法准则规定了纪律和合同收入的平等分配。文图拉连队的数量不断增加，直到成为约3000名巴布特人的可怕的“伟大的连队”（每个巴布塔由一名骑士和一名中士组成）。对此，意大利贵族Lodrisio Visconti用“圣乔治连队”进行反击——骑兵是主要的战斗人员，而不是步兵。在意大利，第一支雇佣军由科尼奥伯爵阿尔贝里科·达·巴比亚诺领导，他后来向康多特里教授军事科学，如布拉西奥·达·蒙托内和贾科穆佐·阿滕多洛·斯福尔扎[段落：1]一旦意识到他们在意大利的军事力量垄断，康多蒂里乐队就因为他们的反复无常而臭名昭著，很快就向他们表面上的雇主口授条件。反过来，许多康多蒂里人，如布拉西奥·达·蒙托内和穆齐奥·斯福尔扎，成为了有权势的政治家。由于大多数受过教育的人都熟悉罗马军事科学手册（例如，维盖提乌斯的《军事缩影》，他们开始从军事科学的角度来看待战争，而不是从勇气（体力）的角度来看待战争，这是对骑士精神（中世纪传统军人模式）的一种重大的、间接的背离。因此，康多提利的战斗方式是击败对手，与自己发动战争的能力抗衡，而不是冒着命运不确定的失败、俘虏的风险，战场上的死亡[段落：1]中世纪的康多提利把战争艺术（战略和战术）发展成军事科学，比他们历史上任何一位军事前辈都更为间接地，而不是直接地这样作战，只是不情愿地危及他们自己和他们的士兵，尽可能避免战斗。作为一名政治科学家，尼科洛·马基雅维利错误地解释了康多蒂里在宏大的、但往往是毫无意义和近乎无血的战斗中彼此战斗。在军事上，在大多数欧洲强国开始使用由长矛兵和火枪手组成的专业常备军之后，康多蒂里防线仍然部署了大装甲骑士和中世纪的武器和战术[段落：1]1347年，Cola di Rienzo（论坛报和城市的有效独裁者）在罗马处决了乌尔斯林根的沃纳，康拉德·冯·兰道接手了这个伟大的连队。1362年，冯·兰道伯爵被他的匈牙利士兵出卖，并在战斗中被白军连在指挥官阿尔伯特·斯特尔茨和约翰·霍克伍德领导下的更先进的战术打败。堂而皇之地，巴布塔被三个士兵所取代，他们是兰西亚骑兵（卡波·兰西亚，一个新郎，一个男孩）；五个长矛组成一个邮差，五个哨所组成一个旗帜。那时，竞选中的康多蒂里公司和外国公司一样都是意大利公司：阿斯托雷一世曼弗雷迪公司的Compagnia della Stella（明星公司）；Ambrogio Visconti领导下的圣乔治新公司；Niccolo da Montefeltro的Compagnia del Cappelletto（小帽子公司）；以及Compagnia della Rosa，由乔瓦尼·达布斯卡雷托和巴托洛梅奥·冈萨加指挥[段落：1]从十五世纪起，大多数康多蒂里人都是没有土地的意大利贵族，他们选择以武器为生；这种唯利是图的船长中最著名的是来自福尔的卡特琳娜·斯福尔扎的儿子乔瓦尼·达勒·班德·内尔？他的儿子是托斯卡纳大公科西莫·德梅迪奇（Cosimo I de'Medici）；除了贵族之外，王子们也以康多蒂耶里（condottieri）的身份作战，因为他们的地产收入可观，特别是里米尼的国王西吉斯蒙多·马拉泰斯塔（Sigismondo Malatesta）和乌尔比诺公爵费德里科·达蒙特费尔特罗（Federico da Montefeltro）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUGHAL_SEPOY_PEDIA</Tag>
+		<English>[TAB]In its most common application Sepoy was the term used in the British Indian Army, and earlier in that of the British East India Company, for an infantry private (a cavalry trooper was a Sowar). It is still so used in the modern Indian Army, Pakistan Army and Bangladesh Army. Close to 300,000 sepoys were crucial in securing the subcontinent for the British East India Company. There was widespread mutiny amongst the sepoys of the Bengal Army in the Indian Rebellion of 1857 after it was alleged that the new rifles being issued to them used animal fat to grease the casing.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在最常见的应用中，Sepoy一词在英属印度军队中使用，在更早的时候在英国东印度公司中是一个私人步兵（骑兵是Sowar）。在现代印度军队、巴基斯坦军队和孟加拉国军队中仍然使用。近30万塞波人对英国东印度公司保卫印度次大陆至关重要。在1857年的印度叛乱中，孟加拉军队的塞波伊人发生了广泛的叛乱，因为据说发给他们的新步枪是用动物脂肪来润滑弹壳的。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLAND_TABOR_PEDIA</Tag>
+		<English>[TAB]A tabor is a convoy or a camp formed by horse-drawn wagons. For example, nomadic Gypsies used to wander and camp in tabor formations. Tabors supported the armies in Europe between the 13th and 20th centuries. Tabors usually followed the armies and carried all the necessary supplies and rear units, such as field kitchens, armourers or shoemakers.[PARAGRAPH:1]The tactics were later copied by various armies of Central Europe, including the army of the Polish-Lithuanian Commonwealth. In the 16th and 17th centuries, these tactics were also mastered by the Cossacks, who used their tabors for the protection of marching troops as well.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塔博尔是由马车组成的车队或营地。例如，游牧吉普赛人过去常在塔博尔阵营游荡。13世纪至20世纪，塔博斯在欧洲支持军队。塔博尔通常跟随军队，携带所有必要的补给和后方部队，如野战厨房、军械库或鞋匠[段落：1]这些战术后来被中欧的各种军队仿效，包括波兰-立陶宛联邦的军队。在16世纪和17世纪，哥萨克人也掌握了这些战术，他们也用他们的盾牌来保护行军的军队。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERSIA_SCYTHED_CHARIOT</Tag>
+		<English>Scythed Chariot</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波斯镰刀战车</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]City Guard[COLOR_REVERT], the Harappan replacement for the [COLOR_UNIT_TEXT]Militia[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]City Guard[COLOR_REVERT]，哈拉帕人取代[COLOR_UNIT_TEXT]民兵[COLOR_REVERT]，从[COLOR_HIGHLIGHT_TEXT]城市卫戍区I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_BIREME_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Bireme[COLOR_REVERT], the Phoenician replacement for the [COLOR_UNIT_TEXT]Galley[COLOR_REVERT], has one more cargo space and has a defense bonus against [COLOR_UNIT_TEXT]War Galleys[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Bireme[COLOR_REVERT]是腓尼基人对[COLOR_UNIT_TEXT]战舰[COLOR_REVERT]的替代品，它有一个货舱，并且对[COLOR_UNIT_TEXT]战舰[COLOR_REVERT]有防御加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THAI_MAHARDLEK_PEDIA</Tag>
+		<English>[TAB]During the reign of Mongkut Siam began a massive modernization initiative, as Mongkut actively recruited Western Experts and technologies and adapting them to Siamese culture.  The rifle regiments formed were under the command of the King and his appointed western military officers, and soon the King had a powerful modern force.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在蒙固暹罗统治期间，蒙固开始了大规模的现代化计划，因为蒙固积极招募西方专家和技术，并使其适应暹罗文化。组成的步枪团由国王和他任命的西方军官指挥，很快国王就拥有了强大的现代化力量。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOORISH_CAMEL_GUNNER</Tag>
+		<English>Berber Camel Gunner</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柏柏尔骆驼炮手</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PORTUGAL_BANDEIRANTES_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Bandeirantes[COLOR_REVERT], the Portuguese replacement for the the [COLOR_UNIT_TEXT]Arquebusier[COLOR_REVERT], is faster, ignores terrain movement costs, can enter [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Jungles[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT] and gains only positive bonuses from Tribal villages.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Bandeirantes[COLOR_REVERT]是葡萄牙语替代[COLOR_UNIT_TEXT]Arquebusier[COLOR_REVERT]的速度更快，忽略了地形移动成本，可以进入[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]，[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]沼泽[COLOR_REVERT]只从部落村庄获得正加值。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANADA_ARROW</Tag>
+		<English>Avro Arrow</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大战机</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANADA_ARROW_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Avro Arrow[COLOR_REVERT], the Canadian replacement for the the [COLOR_UNIT_TEXT]Jet Fighter[COLOR_REVERT], is cheaper and has a bigger range.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Avro Arrow[COLOR_REVERT]是加拿大替代[COLOR_UNIT_TEXT]喷气式战斗机[COLOR_REVERT]的产品，价格便宜，射程更大。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PORTUGAL_BANDEIRANTES_PEDIA</Tag>
+		<English>[TAB]The bandeirantes (Portuguese: "Followers of the banner") were composed of Indians (slaves and allies), caboclos (people of Indian mixed with white), and whites who were the captains of the Bandeiras. Members of the 16th-18th century South American slave-hunting expeditions called bandeiras (Portuguese for "flags"). Though their original purpose was to capture and force amerindians into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver and diamond mines. They ventured into unmapped regions in search of profit and adventure. From 1580-1670 the Bandeirantes focused on slave hunting, then from 1670-1750 they focused on mineral wealth. Through these expeditions, the Bandeirantes also expanded Portuguese America from the small limits of the Tordesilhas Line to roughly the same territory as current Brazil. This expansion discovered mineral wealth that made the fortune of Portugal during the 17th and 18th centuries.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]班代兰人（葡萄牙语：“旗帜的追随者”）由印第安人（奴隶和盟友）、卡波克罗斯（印第安人与白人混合的人）和白人组成，他们是班代拉斯的首领。16-18世纪南美洲狩猎奴隶探险队的成员称为bandeiras（葡萄牙语中的“旗帜”）。尽管他们最初的目的是俘虏美洲印第安人并强迫他们成为奴隶，但后来班代兰特人开始集中精力寻找金矿、银矿和钻石矿。他们冒险进入未经测绘的地区，以寻求利润和冒险。从1580年到1670年，班代兰人专注于奴隶狩猎，然后从1670年到1750年，他们专注于矿产资源。通过这些探险，班代兰特人还将葡萄牙美洲从托德西哈斯线的小范围扩大到了与现在的巴西大致相同的领土。这一扩张发现了矿产资源，使葡萄牙在17世纪和18世纪发家致富。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAYAN_HOLKAN_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Holkan[COLOR_REVERT], the Mayan replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT], doesn't require any resources and is cheaper.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅人取代[COLOR_UNIT_TEXT]玛雅战士[COLOR_REVERT]的[COLOR_UNIT_TEXT]霍尔坎[COLOR_REVERT]，能够进入[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]，在赢得战斗时向最近的城市提供食物，并且有更高的机会退出战斗。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_KHOPESH_PEDIA</Tag>
+		<English>[TAB]The khopesh is a characteristic type of ancient Egyptian sword, known for its oddly curved blade, which evolved from pre-existing Egyptian battleaxes. The khopesh could be used to hook, to bludgeon, and to slash using the sharpened portion on the outside of the curved blade. Khopesh became an iconic weapon in Egyptian art, were often used as grave goods, and were frequently made with decorative features or for ceremonial purposes.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]khopesh是古埃及的一种特色剑，以其奇怪的弯曲刀片而闻名，这种剑是由埃及战斧演变而来的。khopesh可以用来钩住，棍棒，并使用弯曲刀片外部的锋利部分进行切割。Khopesh成为埃及艺术中的标志性武器，经常被用作坟墓用品，并且经常被制作成带有装饰性特征或用于仪式目的。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COLOMBIA_LLANERO_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Llanero[COLOR_REVERT], the Colombian replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], is cheaper and receives a defensive bonus.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哥伦比亚的[COLOR_UNIT_TEXT]骑兵[COLOR_UNIT_TEXT]的替代品[COLOR_UNIT_TEXT]Llanero[COLOR_REVERT]更便宜，并获得防御加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_KHOPESH_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Khopesh[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Light Swordsman[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Khopesh[COLOR_REVERT]是埃及替代[COLOR_UNIT_TEXT]轻剑客[COLOR_REVERT]，对[COLOR_UNIT_TEXT]近战单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALY_CONDOTTIERI</Tag>
+		<English>Condottiero</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利骑兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURKEY_GREAT_BOMBARD_PEDIA</Tag>
+		<English>[TAB]Although gunpowder weapons were used in China in the early 10thC., the Arabs first acquired gunpwder about 1240AD and it is believed that the first cannon in history was used by the Mamluks against the Mongols in 1260. The Ottoman Empire became the first in Europe to put gunpowder into widespread use in both hand weaponry and seige cannons. The army of Mehmet I which conquered Constantinople in 1453 included foot soldiers armed with matchlock muskets and bombard artillery of various sizes. The barrage of Ottoman cannon fire, from 69 guns firing over 19,000 times, is said to have lasted for at least 40 days.[PARAGRAPH:1]Amongst these were a number of extremely large and powerful seige bombards. Bombards had been deployed by many European armies since the late 1300's but the Ottoman siege guns were especially massive and powerful "superguns", like the "Dardanelles Gun" or Great Turkish Bombard, weighing over 18 tons and firing huge stone or iron projectiles of over 2 feet in diameter. This famous gun along with many others, remained in use by the Ottomans until the early 19thC.,even causing serious damage to British naval operations against the Ottomans in 1807.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]虽然中国在公元前10世纪早期就使用了火药武器，但阿拉伯人在公元1240年左右首次获得了火药，据信历史上第一门大炮是马穆鲁克人在1260年对蒙古人使用的。奥斯曼帝国成为欧洲第一个将火药广泛应用于手武器和围攻炮的国家。1453年征服君士坦丁堡的迈赫梅特一世军队包括手持火柴枪和各种规模炮火的步兵。奥斯曼帝国的炮火从69门大炮射出，超过19000次，据说持续了至少40天[段落：1]其中有一些极其巨大和强大的围攻炮击。自13世纪末以来，许多欧洲军队都部署了轰炸机，但奥斯曼帝国的攻城炮是特别巨大和强大的“超级大炮”，如“达达尼尔斯炮”或土耳其的大型轰炸机，重达18吨，发射直径超过2英尺的巨石或铁射弹。这把著名的大炮和其他许多枪一直被奥斯曼人使用直到19世纪初，甚至在1807年对奥斯曼人的英国海军行动中造成了严重的破坏。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Gardist[COLOR_REVERT], the Dutch replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]加德斯特[COLOR_REVERT]，荷兰替代[COLOR_UNIT_TEXT]掷弹兵[COLOR_REVERT]，对[COLOR_UNIT_TEXT]火药单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALI_CARAVAN</Tag>
+		<English>Trade Caravan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马里商队</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PHOENICIAN_BIREME_PEDIA</Tag>
+		<English>[TAB]Galleys travelled the Mediterranean from perhaps 3000 BC. The Greeks and Phoenicians built and operated the first known ships to navigate the Mediterranean: merchant vessels with square-rigged sails. The first military vessels, as described in the works of Homer and represented in paintings, had a single row of oarsmen along each side (in addition to the sail) to provide speed and manoeuvrability.  Around the 7th or 6th century BC the design of galleys changed. Shipbuilders, probably first in Phoenicia, added a second row of oars above the first, creating the biere or bireme.  This was driven in part by the development of the ram in naval warfare.  Now a more maneuverable ship could render a slower ship useless by staving in its sides rather than boarding an enemy to engage in hand to hand fighting.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]大约从公元前3000年起，帆船就在地中海航行。腓尼基人和第一艘商船在地中海航行。第一艘军舰，如荷马作品中所描述的和绘画中所描绘的那样，每边都有一排桨匠（除了帆），以提供速度和机动性。大约在公元前7或6世纪，厨房的设计发生了变化。造船者，可能是第一个在腓尼基，增加了第二排桨以上的第一个，创造了棺材或比勒姆。这在一定程度上是由ram在海战中的发展所推动的。现在，一艘机动性更强的战舰可以让一艘速度较慢的战舰束手就擒，而不是登上敌人进行肉搏战。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MONGOL_SIEGE_ENGINEER_PEDIA</Tag>
+		<English>[TAB]Technology was one of the important facets of Mongolian warfare. For instance, siege machines were an important part of Genghis Khan's warfare, especially in attacking fortified cities. The siege engines were not disassembled and carried by horses to be rebuilt at the site of the battle like European armies. Instead the Mongol horde would travel with skilled engineers who would build siege engines from materials on site.[PARAGRAPH:1]The engineers building the machines were recruited among captives, mostly from China and Persia. When Mongols slaughtered whole populations, they often spared the engineers and technicians, swiftly assimilating them into the Mongol armies.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>技术是蒙古战争的一个重要方面。例如，攻城机器是成吉思汗战争的一个重要组成部分，尤其是在攻打设防城市时。攻城引擎并没有像欧洲军队一样被拆开，由马匹载着在战斗现场重建。相反，蒙古部落将与熟练的工程师同行，他们将用现场的材料建造攻城引擎[段落：1]制造这些机器的工程师是从俘虏中招募的，大部分来自中国和波斯。当蒙古人屠杀所有的人口时，他们往往会放过工程师和技术人员，很快将他们同化为蒙古军队。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUSSIA_STRELETS</Tag>
+		<English>Strelets</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯滑膛枪兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERSIA_SCYTHED_CHARIOT_PEDIA</Tag>
+		<English>[TAB]The scythed chariot was a war chariot with scythe-like blades mounted on each side, employed in ancient times.[PARAGRAPH:1]The scythed chariot was a modified war chariot. The blades extended horizontally for about 1 meter (3 ft) to each side of the wheels. The Greek general Xenophon (430-354 BC), an eyewitness at the battle of Cunaxa, tells of them: "These had thin scythes extending at an angle from the axles and also under the driver's seat, turned toward the ground".[PARAGRAPH:1]Dismissing completely 17th to 19th century ideas of a Canaanite, Assyrian, Indian or Macedonian origin, Nefiodkin also challenges Xenophon's attribution of scythed chariots to the first Persian king Cyrus, pointing to their notable absence in the invasion of Greece (480-479 BC) by one of his successors, Xerxes I. Instead, he argues that the Persians introduced scythed chariots sometime later during the Greco-Persian Wars, between 467 BC and 458 BC, as a response to their experience fighting against Greek heavy infantry.[PARAGRAPH:2]The scythed chariot was pulled by a team of four horses and manned by a crew of up to three men, one driver and two warriors. Theoretically the scythed chariot would plow through infantry lines, cutting combatants in half or at least opening gaps in the line which could be exploited. It was difficult to get horses to charge into the tight phalanx formation of the Greek/Macedonian hoplites (infantry). The scythed chariot avoided this inherent problem for cavalry, by the scythe cutting into the formation, even when the horses avoided the men. A disciplined army could diverge as the chariot approached, and then re-form quickly behind it, allowing the chariot to pass without causing many casualties. War chariots had limited military capabilities. They were strictly an offensive weapon and were best suited against infantry in open flat country where the charioteers had room to maneuver. At a time when cavalry were without stirrups, and probably had neither spurs nor an effective saddle, though they certainly had saddle blankets, scythed chariots added weight to a cavalry attack on infantry. Historical sources come from the infantry side of such engagements i.e. the Greek and Roman side. Here is one recorded encounter where scythed chariots were on the winning side:
+The soldiers had got into the habit of collecting their supplies carelessly and without taking precautions. There was one occasion when Pharnabazus, with 2 scythed chariots and about 400 cavalry, came on them when they were scattered all over the plain. When the Greeks saw him bearing down on them, they ran to join up with each other, about 700 altogether; but Pharnabazus did not waste time. Putting the chariots in front, and following behind them himself with the cavalry, he ordered a charge. The chariots dashing into the Greek ranks, broke up their close formation, and the cavalry soon cut down about a hundred men. The rest fled and took refuge with Agesilaus, who happened to be close at hand with the hoplites.[PARAGRAPH:1]The only other example of their successful use seems to be when units of Mithradates VI of Pontus defeated a Bithynian force on the River Amnias in 89BC. (Appian)[PARAGRAPH:1]One of the most notable defeats to the Persian scythed chariot was in combat against the Macedonian phalanx led by Alexander the Great. Realizing that the chariots were already a cumbersome element of the Persian army (as shock units are prone to be) led by Darius III, the phalangites were instructed to increase this disadvantage. At the last seconds before the chariots would close with infantry, the phalangites would quickly fold into an enveloping formation in the shape of an E, where the middle tab would be the chariot. By doing this, the chariots would be trapped by the bodies of soldiers it killed, and the long Greek sarissa. This particular tactic was most successful at the Battle of Gaugamela, where Darius fled.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]镰刀战车是一种战车，两侧都装有镰刀状的刀片，古代使用[段落：1]镰刀战车是经过改装的战车。叶片水平延伸至车轮两侧约1米（3英尺）。希腊将军色诺芬（公元前430-354年）是库纳萨战役的目击者，他告诉他们：“这些人有细镰刀，从车轴和驾驶座下成一定角度延伸，转向地面。”[段落：1]完全否定17世纪至19世纪迦南人、亚述人、印第安人或马其顿人的思想，尼菲奥金还质疑色诺芬将镰刀战车归于第一位波斯国王赛勒斯，指出他们在其继任者薛西斯一世入侵希腊（公元前480-479年）时明显缺席。相反，他认为波斯人在公元前467年至458年的希腊-波斯战争期间引进了镰刀战车，作为对他们与希腊重步兵作战经验的回应[段落：2]这辆镰刀战车由四匹马组成的车队牵引，由最多三个人、一名司机和两名战士组成。从理论上讲，镰刀战车可以穿过步兵防线，将战斗人员切成两半，或者至少在战线上开辟出可以利用的空隙。很难让马匹冲进希腊/马其顿步兵的密集方阵编队。镰刀战车避免了骑兵固有的问题，镰刀切入队形，即使马避开了人。一支训练有素的军队可以随着战车的接近而分道扬镳，然后在后面迅速重组，让战车通过而不会造成多人伤亡。战车的军事能力有限。它们是一种严格意义上的进攻性武器，最适合在开阔的平地上对抗步兵，因为战车兵有足够的机动空间。当时骑兵没有马镫，可能既没有马刺，也没有有效的马鞍，尽管他们确实有马鞍毯子，镰刀战车增加了骑兵对步兵的攻击的重量。历史资料来源于这种交战的步兵方面，即希腊和罗马方面。以下是一次记录在案的遭遇战，镰刀战车是胜利者：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR_PEDIA</Tag>
+		<English>[TAB]A man of war is an armed naval vessel. The term often refers to ship armed with cannon and propelled primarily by sails as opposed to a galley propelled primarily by oars. The man of war was developed in the Mediterranean in the 15th century from earlier roundships with the addition of a second mast to form the carrack. The 16th century saw the carrack evolve into the galleon and then the ship of the line.[PARAGRAPH:1]A first-rate man of war, such as the HMS Victory was armed with 100 or more guns (as many as 120). The 90-gun HMS Coronation was a second-rate man of war. A seventy-four, a common ship carrying 74 guns, was a third-rate man of war. A sixth-rate man of war carried only 20 guns. First and second-rate men of war had three gun decks. It took over 2,000 oak and elm trees to build a second-rate man of war.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]战士是一艘武装的海军舰艇。这个词通常指的是装备大炮、主要靠帆推动的船，而不是主要靠桨推动的帆船。15世纪，战神在地中海地区由早期的圆船发展而来，并增加了第二根桅杆，形成了后桅。16世纪，卡拉克号演变成了大帆船，后来又演变成了航线上的船只[段落：1]一个一流的战士，比如英国皇家海军的胜利号（HMS Victory）就装备了100支或更多的枪（多达120支）。90枪皇家海军加冕典礼是一个二流的战士。一艘七十四，一艘普通的载有74支枪的船，是一个三流的战士。一个六流的战士只带了20支枪。一等兵和二流兵有三个炮台。它用了2000多棵橡树和榆树建造了一个二流的战士。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Guarda Nacional[COLOR_REVERT], the Brazilian replacement for the the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], receives a bonus when defending cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Guarda Nacional[COLOR_REVERT]是巴西取代[COLOR_UNIT_TEXT]海军陆战队[COLOR_REVERT]的巴西单位，在防守城市时会获得奖励。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PRUSSIA_HOWITZER</Tag>
+		<English>Heavy Howitzer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>普鲁士重型榴弹炮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDONESIA_BAMBOO_RUNCING</Tag>
+		<English>Bamboo Runcing</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印尼长枪兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANADA_ARROW_PEDIA</Tag>
+		<English>[TAB]The Avro CF-105 Arrow was a delta-wing interceptor aircraft, designed and built by Avro Aircraft Limited as the culmination of a design study that began in 1953. Considered to be both an advanced technical and aerodynamic achievement for the Canadian aviation industry, the CF-105 held the promise of Mach 2 speeds at 50,000 ft+ altitude, intended to serve as the Royal Canadian Air Force's interceptor for the 1960s and beyond.[PARAGRAPH:1]Following the start of its flight test program in 1958, the Arrow, and its accompanying Iroquois jet engine program, were abruptly cancelled in 1959, sparking a long and bitter political debate. The Arrow is still the subject of controversy, over forty years after it was cancelled.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Avro CF-105箭是一种三角翼拦截飞机，由Avro aircraft Limited设计和制造，作为1953年开始的设计研究的高潮。CF-105被认为是加拿大航空工业的先进技术和空气动力学成就，有望在50000英尺以上的高度上实现马赫数2的速度，打算在20世纪60年代及以后作为加拿大皇家空军的拦截弹[段落：1]在1958年开始飞行试验后，箭头和其配套的易洛魁人喷气发动机项目，于1959年突然取消，引发了一场漫长而激烈的政治辩论。这支箭在被取消40多年后仍然是争议的焦点。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIBET_DOB_DOB_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Dob Dob[COLOR_REVERT], the Tibetan replacement for the the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Medic I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Dob Dob[COLOR_REVERT]是藏语对[COLOR_UNIT_TEXT]长矛[COLOR_REVERT]的替代品，从[COLOR_HIGHLIGHT_TEXT]Medic I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOREA_KOBUKSON_PEDIA</Tag>
+		<English>[TAB]The Turtle ship, also known as Geobukseon or Kobukson, was a type of large warship belonging to the Panokseon class in Korea that was used intermittently by the Royal Korean Navy during the Joseon Dynasty from the early 15th century up until the 19th century.[PARAGRAPH:1]The first references to older, first generation turtle ships, known as Gwiseon, come from 1413 and 1415 records in the Annals of the Joseon Dynasty, which mention a mock battle between a gwiseon and a Japanese warship. However, these early turtle ships soon fell out of use as Korea's naval preparedness decreased during a long period of relative peace.[PARAGRAPH:1]Turtle ships participated in numerous victories against Japanese naval forces that supported Toyotomi Hideyoshi's attempts to conquer Korea from 1592-1598, inflicting heavy losses. However, their historical role may have been exaggerated since "the entire Korean fleet probably did not have more than half a dozen turtleboats in action at any one time". Korean admiral Yi Sun-sin is credited with designing the ship while one of his lieutenants, Na Dae Yong, was in charge of building it. His turtle ships were equipped with at least five different types of cannon. Their most distinguishable feature was a fully covered deck that was shielded to deflect cannon fire, and with iron spikes to discourage enemy men from attempting to board the ship.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]海龟船，也被称为Geobukseon或Kobukson，是韩国Panokseon级的一种大型战舰，从15世纪初到19世纪，朝鲜皇家海军在朝鲜王朝期间断断续续地使用[段落：1]第一次提到老的第一代海龟船，被称为瓜森，来自1413年和1415年的记录，在朝鲜王朝的编年史，其中提到了一个Gwiseon和日本军舰之间的模拟战斗。然而，这些早期的海龟船很快就不再使用了，因为在长期的相对和平时期，韩国海军的准备能力下降了[段落：1]在1592-1598年间，海龟船参加了无数次对日本海军的胜利，日本海军支持丰臣秀树试图征服朝鲜，造成了重大损失。然而，他们的历史作用可能被夸大了，因为“整个韩国舰队在任何时候都可能没有半打以上的高跷艇在行动”。韩国海军上将孙正义（音译）被认为是设计这艘船的功臣，而他的一名副官南大勇（Na Dae Yong）负责建造。他的海龟船至少装备了五种不同类型的大炮。他们最显著的特点是全覆盖的甲板，被屏蔽以转移炮火，并用铁钉阻止敌人试图登船。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TURKEY_GREAT_BOMBARD</Tag>
+		<English>Great Bombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>土耳其巨炮</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Man-O-War[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Ship of the Line[COLOR_REVERT], is stronger.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Man-O-War[COLOR_REVERT]是[COLOR_-REVERT]英国的主力战舰替代品。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KHMER_PHAKAK</Tag>
+		<English>Phak'ak</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉矛兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUGHAL_SEPOY_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Sepoy[COLOR_REVERT], the Mughal replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], starts with 1-2 first strikes.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Sepoy[COLOR_REVERT]，莫卧儿帝国的[COLOR_UNIT_TEXT]步兵[COLOR_REVERT]的替代品，从1-2次先发制人开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_AXEMAN_PEDIA</Tag>
+		<English>[TAB]Axes were probably used very early in Egyptian warfare, though at first they were perhaps no different than the tool used for peaceful purposes, such as cutting would. As a practical weapon, it was the battle axe that eventually replaced the mace as one of the Egyptian military's primary close combat weapons.[PARAGRAPH:1]Infantry armed with battle axes were typically deployed after the enemy had been weakened by archers. The axe was more effective in cutting wounded or fleeing enemies to pieces than it was in breaching an intact battle line. The Hyksos, Asiatics themselves, are credited with having introduced scale body armor into Egypt and brought about changes in the form of the battle axe there by the middle of the 2nd millennium.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]斧头可能很早就在埃及战争中使用过，尽管一开始它们可能与用于和平目的的工具没有什么不同，比如切割工具。作为一种实用武器，战斧最终取代狼牙棒成为埃及军方最主要的近战武器之一[段落：1]装备战斧的步兵通常是在敌人被弓箭手削弱后部署的。斧头在切断伤员或逃离敌人时比在突破完整的战线时更有效。希克索斯人，亚洲人，被认为是在公元二千年中期将大规模的防弹衣引入埃及，并在那里带来战斧形式的变化。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLYNESIA_KOA_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Koa[COLOR_REVERT], the Polynesian replacement for the the [COLOR_UNIT_TEXT]Militia[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Koa[COLOR_REVERT]是波利尼西亚人对[COLOR_UNIT_TEXT]民兵[COLOR_REVERT]的替代品，从[COLOR_HIGHLIGHT_TEXT]两栖[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALI_CARAVAN_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Trade Caravan[COLOR_REVERT], the Malinese replacement for the [COLOR_UNIT_TEXT]Explorer[COLOR_REVERT], can conduct trade missions.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]贸易大篷车[COLOR_REVERT]，替代[COLOR_UNIT_TEXT]Explorer[COLOR_REVERT]的马里人可以执行贸易任务。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THAI_MAHARDLEK</Tag>
+		<English>Mahardlek</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰国步兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA</Tag>
+		<English>Tagmata</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拜占庭矛兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOREA_KOBUKSON_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Kobukson[COLOR_REVERT], the Korean replacement for the [COLOR_UNIT_TEXT]Ironclad[COLOR_REVERT], is cheaper, doesn't require any resources, requires the [COLOR_TECH_TEXT]Physics[COLOR_REVERT] technology and doesn't require the [COLOR_TECH_TEXT]Thermodynamics[COLOR_REVERT] technology.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Kobukson[COLOR_REVERT]是韩国替代[COLOR_UNIT_TEXT]铁壳[COLOR_REVERT]的产品，更便宜，不需要任何资源，需要[COLOR_TECH_TEXT]物理[COLOR_REVERT]技术，不需要[COLOR_TECH_TEXT]热力学[COLOR_REVERT]技术。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAYAN_BLOWGUNNER_PEDIA</Tag>
+		<English>[TAB]A blowgun is a narrow pipe. A fletched dart is loaded into the breech of the blowgun, and the user blows into the pipe, propelling the dart out the muzzle in much the same way that a bullet is propelled out of a gun. The blowgun is an extremely quiet and unobtrusive way to launch a ranged attack, making it desirable for hunting. It comes with the major drawback that the human lungs cannot power a large or high-velocity dart. Therefore, the blowgun is limited to short-range attacks, and the small size of the darts makes them relatively harmless to a man-sized opponent. The typical solution is to tip the darts with poison, making them ferociously lethal and turning the blowgun into a devastating ambush weapon.[NEWLINE][NEWLINE]The blowgun was used by many peoples, especially in southeast Asia and by the Native Americans.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>吹风枪是一种狭窄的管道。一个带斑点的飞镖被装进喷枪的后膛，使用者向管子里吹气，把飞镖从枪口推出，就像子弹从枪里推出一样。吹风枪是一种非常安静和不引人注目的远程攻击方式，使它成为狩猎的理想选择。它的主要缺点是人的肺不能为大型或高速飞镖提供动力。因此，喷枪仅限于短程攻击，而飞镖的小尺寸使其对一个人大小的对手相对无害。典型的解决方法是在飞镖上涂上毒药，使其致命，并将喷枪变成毁灭性的伏击武器。[新线][新线]许多民族都使用喷枪，特别是在东南亚和美洲原住民。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER</Tag>
+		<English>Doppels鰈dner</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>德意志剑客</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ITALIAN_BERSAGLIERE_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Bersagliere[COLOR_REVERT], the Italian replacement for the the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], has an additional movement point.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Bersagliere[COLOR_REVERT]，意大利语中的[COLOR_UNIT_TEXT]步兵[COLOR_REVERT]有一个额外的移动点。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDONESIA_BAMBOO_RUNCING_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Bamboo Runcing[COLOR_REVERT], the Indonesian replacement for the the [COLOR_UNIT_TEXT]Heavy Spearman[COLOR_REVERT], can enter [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], has a first strike and begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Bamboo Runcing[COLOR_REVERT]是印尼替代[COLOR_UNIT_TEXT]Heavy Spearman[COLOR_REVERT]，可以进入[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]，第一次出击，从[COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERSIA_SCYTHED_CHARIOT_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Scythed Chariot[COLOR_REVERT], the Persian replacement for the [COLOR_UNIT_TEXT]Chariot[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]镰刀战车[COLOR_REVERT]，波斯语替代[COLOR_UNIT_TEXT]战车[COLOR_REVERT]，对[COLOR_UNIT_TEXT]近战单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI</Tag>
+		<English>Ghazi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿拉伯加齐战士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHIOPIA_SAVANNA_HUNTER_PEDIA</Tag>
+		<English>[TAB]A safari, from a Swahili word meaning a long journey, is an overland journey (especially in Africa).[PARAGRAPH:1]Safari as a distinctive way of hunting was popularized by US author Ernest Hemingway and president Theodore Roosevelt. A safari may consist of several days or even weeks-long journey and camping in the bush or jungle, while pursuing big game. Nowadays, it's often used to describe tours through African national parks to watch or hunt wildlife.
+[TAB]Hunters are usually tourists, accompanied by (licensed and highly regulated) professional hunters, local guides, skinners and porters in more difficult terrains. A special safari type is the solo-safari where all the license acquiring, stalking, preparation and outfitting is done by the hunter himself.
+</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]safari来自斯瓦希里语，意思是长途旅行，是一种陆路旅行（尤其是在非洲）[段落：1]狩猎作为一种独特的狩猎方式，被美国作家欧内斯特·海明威和西奥多·罗斯福总统所推广。一次狩猎可能包括几天甚至几周的长途旅行，在丛林或丛林中露营，同时追求大型猎物。现在，它经常被用来描述通过非洲国家公园观看或狩猎野生动物的旅行。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THAI_MAHARDLEK_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Mahardlek[COLOR_REVERT], the Thai replacement for the the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] promotion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Mahardlek[COLOR_REVERT]是泰国替代[COLOR_UNIT_TEXT]步枪兵[COLOR_REVERT]的泰语版本，从[COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT]开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHIOPIA_SAVANNA_HUNTER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Savanna Hunter[COLOR_REVERT], the Ethiopian replacement for the the [COLOR_UNIT_TEXT]Pistolier[COLOR_REVERT], can enter [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Mobility[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT] promotions.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Savanna Hunter[COLOR_REVERT]，埃塞俄比亚替代[COLOR_UNIT_TEXT]手枪式骑兵[COLOR_REVERT]，可以进入[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]并从[COLOR_HIGHLIGHT_TEXT]移动性[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT]促销活动开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER</Tag>
+		<English>Chevalier</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西圣骑士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALI_CARAVAN_PEDIA</Tag>
+		<English>[TAB]The Mali Empire flourished because of trade above all else. It contained three immense gold mines within its borders unlike the Ghana Empire, which was only a transit point for gold. The empire taxed every ounce of gold or salt that entered its borders. By the beginning of the 14th century, Mali was the source of almost half the Old World's gold exported from mines in Bambuk, Boure and Galam. There was no standard currency throughout the realm, but several forms were prominent by region. The Sahelian and Saharan towns of the Mali Empire were organized as both staging posts in the long-distance caravan trade and trading centers for the various West African products. At Taghaza, for example, salt was exchanged; at Takedda, copper. Ibn Battuta observed the employment of slave labor in both towns. During most of his journey, Ibn Battuta traveled with a retinue that included slaves, most of whom carried goods for trade but would also be traded as slaves. On the return from Takedda to Morocco, his caravan transported 600 female slaves, suggesting that slavery was a substantial part of the commercial activity of the empire.
+</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]马里帝国的繁荣是因为贸易高于一切。它境内有三座巨大的金矿，与加纳帝国不同，加纳帝国只是黄金的中转站。帝国对进入国境的每一盎司黄金或盐都征税。到14世纪初，马里几乎是旧世界一半黄金出口的来源地，这些黄金来自班布克、布尔和加拉姆的矿山。整个王国都没有标准货币，但各地区的货币形式却很突出。马里帝国的萨赫勒和撒哈拉城镇被组织成长途大篷车贸易的中转站和各种西非产品的贸易中心。例如，在塔哈扎，交换盐；在塔克达，交换铜。伊本·巴图塔观察了这两个城镇雇佣奴隶的情况。在他的大部分旅程中，伊本·巴图塔和包括奴隶在内的随从一起旅行，他们大多数携带货物进行贸易，但也会作为奴隶进行交易。从塔克达返回摩洛哥后，他的商队运送了600名女奴，这表明奴隶制度是帝国商业活动的重要组成部分。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAYAN_BLOWGUNNER_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Blowgunner[COLOR_REVERT], the Mayan replacement for the [COLOR_UNIT_TEXT]Skirmisher[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT], provides food to the nearest city when it wins a fight and has a higher chance to withdraw from combat.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Blowgunner[COLOR_REVERT]是玛雅人对[COLOR_UNIT_TEXT]游击兵[COLOR_REVERT]的替代品，能够进入[COLOR_HIGHLIGHT_TEXT]丛林[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]雨林[COLOR_REVERT]，在最近的城市赢得战斗时为其提供食物，并有更高的机会退出战斗。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONGO_NGOLO</Tag>
+		<English>Ebamba Ngolo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>刚果长弓手</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD_PEDIA</Tag>
+		<English>[TAB]No pedia yet.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLYNESIA_KOA_PEDIA</Tag>
+		<English>No pedia yet.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Naffatun[COLOR_REVERT], the Iranian replacement for the the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], does more collateral damage.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Naffatun[COLOR_REVERT]，伊朗替代[COLOR_UNIT_TEXT]榴弹兵[COLOR_REVERT]造成更多的附带伤害。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMIL_KALLARANI_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Kallarani[COLOR_REVERT], the Tamil replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Light Cavalry Units[COLOR_REVERT] and [COLOR_UNIT_TEXT]Heavy Cavalry Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_UNIT_TEXT]Kallarani[COLOR_REVERT]是泰米尔人对[COLOR_UNIT_TEXT]重骑兵[COLOR_REVERT]的替代品，对[COLOR_UNIT_TEXT]轻骑兵单位[COLOR_REVERT]和[COLOR_UNIT_TEXT]重骑兵单位[COLOR_REVERT]有战斗加成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI_PEDIA</Tag>
+		<English>[TAB]The "Hetairoi" (Companions) were Alexander's elite cavalry and the primary offensive arm of his army. A master of cavalry tactics, Alexander would hold them back during the opening part of the battle, committing them at the decisive point to charge the shaken foe, often leading the attack himself. [PARAGRAPH:2:1]Alexander's father, Philip of Macedon, created the Companions, who were originally his closest retainers, picked from the Macedonian nobility. As their numbers rose, additional young noblemen were recruited from Thessaly and other parts of the Greek world. [PARAGRAPH:2:1]The Companions were organized into "ilai" (wings) of about 200 men, under the command of close personal friends of the king. They generally wore the usual Boeotian helmet with plumes out the top, a dyed cloak and cuirass. Underneath, they wore linen or leather corslets reinforced with metal scales. They carried long thrusting spears and a short sword; few carried shields unless afoot. Occasionally, Alexander armed them with javelins for specific battles. Their mounts were the best that Greece had to offer - short, sturdy animals trained for war. The horses were partially armored, likely with leather skirts over their flanks and rumps. [PARAGRAPH:2:1]The legends of Alexander's Companions have grown with the telling over the centuries. Though their prowess has undoubtedly been exaggerated, it cannot be denied that they played a significant role in victorious battles such as Issus and Chaeronea. And their loyalty was never questioned. For the next several centuries, elite cavalry of many ancient kingdoms would take the Companions as their ideal model.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]“Hetairoi”（同伴）是亚历山大的精锐骑兵，也是他军队的主要进攻武器。作为骑兵战术的大师，亚历山大会在战斗的开始阶段阻止他们，让他们在决定性的时刻冲向受惊的敌人，通常自己领导进攻。[段落：2：1]亚历山大的父亲，马其顿的菲利浦，创造了同伴，他们最初是他最亲密的随从，从马其顿贵族中挑选出来的。随着人数的增加，更多的年轻贵族从塞萨利和希腊世界的其他地方被招募。[段落：2：1]同伴们被组织成大约200人的“伊拉”（翅膀），在国王亲密的私人朋友的指挥下。他们一般都戴着通常的博奥人头盔，上面有羽毛，披着染色的斗篷和胸甲。在下面，他们穿着亚麻或皮革紧身胸衣，上面有金属鳞片。他们带着长矛和短剑，很少有人携带盾牌，除非是步行的。偶尔，亚历山大用标枪武装他们进行特定的战斗。他们的坐骑是希腊所能提供的最好的——短而结实的动物，受过战争训练。这些马身上有部分盔甲，很可能侧面和臀部都有皮裙。[段落：2：1]几个世纪以来，亚历山大的同伴们的传奇故事随着讲述而不断发展。尽管他们的实力无疑被夸大了，但不可否认的是，他们在诸如伊苏斯（Issus）和查罗娜（Chaerona）这样的胜利战役中发挥了重要作用。他们的忠诚从未受到质疑。在接下来的几个世纪里，许多古代王国的精锐骑兵都将同伴视为理想的典范。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET</Tag>
+		<English>Heqa Khasewet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及斧兵</Chinese>
+	</TEXT>
+</Civ4GameText>

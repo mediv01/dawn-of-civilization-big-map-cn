@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_COMMUNIST</Tag>
+		<English>%s2 Free State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自由%s2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_SHORT_DESC</Tag>
+		<English>Maya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_DESC</Tag>
+		<English>The Maya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_FASCIST</Tag>
+		<English>%s2 Junta</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_DEFAULT</Tag>
+		<English>%s2 City-States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2城邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_YUCATAN</Tag>
+		<English>Yucat&#225;n</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尤卡坦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_REPUBLIC</Tag>
+		<English>%s2 Federal Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2联邦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_PEOPLES</Tag>
+		<English>Maya Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MAYA_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅</Chinese>
+	</TEXT>
+</Civ4GameText>

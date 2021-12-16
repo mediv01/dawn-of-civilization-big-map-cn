@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_SHORT_DESC</Tag>
+		<English>高棉</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_NANZHAO</Tag>
+		<English>Nanzhao</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;南诏</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_KAMPUCHEAN</Tag>
+		<English>Kampuchean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柬埔寨</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_COMMUNIST</Tag>
+		<English>Democratic %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>红色%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_CAMBODIAN</Tag>
+		<English>Cambodian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柬埔寨</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_PEOPLES</Tag>
+		<English>Khmer Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_DESC</Tag>
+		<English>The Khmer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_CAMBODIA</Tag>
+		<English>Cambodia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柬埔寨</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_FASCIST</Tag>
+		<English>Nationalist %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;%s1军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHMER_KAMPUCHEA</Tag>
+		<English>Kampuchea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>柬埔寨</Chinese>
+	</TEXT>
+</Civ4GameText>

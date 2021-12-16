@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DESERT_ADAPTATION</Tag>
+		<English>Desert Adaptation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沙漠适应</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING3</Tag>
+		<English>Flanking III</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>迂回三级III</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISENGAGE2</Tag>
+		<English>Disengage II</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>逃脱二级</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISENGAGE1</Tag>
+		<English>Disengage I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>逃脱一级</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKIRMISH</Tag>
+		<English>Skirmish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>小冲突</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MERCENARY</Tag>
+		<English>Mercenary</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>雇佣战士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION2</Tag>
+		<English>Self Preservation II</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自保二级</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION3</Tag>
+		<English>Self Preservation III</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自保三级</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION1</Tag>
+		<English>Self Preservation I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自保一级</Chinese>
+	</TEXT>
+</Civ4GameText>

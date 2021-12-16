@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_COMMUNIST</Tag>
+		<English>%s2 Worker's Commonwealth</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2工人联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_ADJECTIVE</Tag>
+		<English>Canadian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_FASCIST</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_SHORT_DESC</Tag>
+		<English>Canada</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_REPUBLIC</Tag>
+		<English>%s2 Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_DEFAULT</Tag>
+		<English>Dominion of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_PEOPLES</Tag>
+		<English>Canadian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CANADA_DESC</Tag>
+		<English>The Canadians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大文明</Chinese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_HELICOPTER_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'HELICOPTER'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'HELICOPTER'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__DEFAULT_TEXT</Tag>
+		<English>Naming Convention: DEFAULT</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: DEFAULT</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__ENABLED_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enabled</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_UNIT_NAMING_DOMAIN_SEA</Tag>
+		<English>Naval</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naval</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_SIEGE_TEXT</Tag>
+		<English>Naming Convention: Combat[SIEGE]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[SIEGE]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_ARMOR_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'ARMOR'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'ARMOR'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_NAVAL_TEXT</Tag>
+		<English>Naming Convention: Combat[NAVAL]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[NAVAL]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_ARCHER_TEXT</Tag>
+		<English>Naming Convention: Combat[ARCHER]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[ARCHER]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_NONE_TEXT</Tag>
+		<English>Naming Convention: Combat[None]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[None]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_MOUNTED_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'MOUNTED'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'MOUNTED'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_NONE_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'None'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'None'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_AIR_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'AIR'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'AIR'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_HELICOPTER_TEXT</Tag>
+		<English>Naming Convention: Combat[HELICOPTER]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[HELICOPTER]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_AIR_TEXT</Tag>
+		<English>Naming Convention: Combat[AIR]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[AIR]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_MELEE_TEXT</Tag>
+		<English>Naming Convention: Combat[MELEE]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[MELEE]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_UNIT_NAMING_DOMAIN_AIR</Tag>
+		<English>Air</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Air</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_NAVAL_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'NAVAL'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'NAVAL'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_UNIT_NAMING_DOMAIN_LAND</Tag>
+		<English>Land</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Land</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_GUN_TEXT</Tag>
+		<English>Naming Convention: Combat[GUN]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[GUN]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_ARCHER_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'ARCHER'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'ARCHER'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_MOUNTED_TEXT</Tag>
+		<English>Naming Convention: Combat[MOUNTED]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[MOUNTED]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_GUN_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'GUN'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'GUN'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_ARMOR_TEXT</Tag>
+		<English>Naming Convention: Combat[ARMOR]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[ARMOR]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_RECON_TEXT</Tag>
+		<English>Naming Convention: Combat[RECON]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Naming Convention: Combat[RECON]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_UNIT_NAMING_DOMAIN_IMMOBILE</Tag>
+		<English>Stationary</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Stationary</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_MELEE_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'MELEE'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'MELEE'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__USEADVANCED_TEXT</Tag>
+		<English>Use Advanced Methods</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Use Advanced Methods</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_RECON_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'RECON'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'RECON'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__DEFAULT_HOVER</Tag>
+		<English>Enter the user defined naming convention (see help file for further information). Names can be built from plain text and format codes that appear between matching carets (^).[NEWLINE][ICON_BULLET]e.g. "^cv^ ^ut^ from ^ct^" --> "American Archer from Boston"[NEWLINE][BOLD]General Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]civ4[COLOR_REVERT] - Use built-in Civ4 names[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]rd[COLOR_REVERT] - Random name[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]rc[COLOR_REVERT] - Random civ-related name[NEWLINE][BOLD]Unit Info Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ct[COLOR_REVERT] - City where unit was built (e.g. Boston)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cv[COLOR_REVERT] - Civilization that built the unit in adjective form (e.g. American)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ut[COLOR_REVERT] - Unit type (e.g. Archer)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cb[COLOR_REVERT] - Combat type (e.g. Melee)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]dm[COLOR_REVERT] - Domain type (e.g. Water)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ld[COLOR_REVERT] - Leader that built the unit (e.g. Roosevelt)[NEWLINE][BOLD]Counting Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][a][COLOR_REVERT] - Count across all units[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][u][COLOR_REVERT] - Count per unit type[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][c][COLOR_REVERT] - Count per city[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][t][COLOR_REVERT] - Count per unit/city combination[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][b][COLOR_REVERT] - Count per combat type[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][d][COLOR_REVERT] - Count per domain[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]tt1[f][x:y][COLOR_REVERT] - Count up to a number chosen between x and y[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]tt1[f][x][COLOR_REVERT] - Count from x, incrementing each time tt1 code is reset[NEWLINE][NEWLINE]* f in [f] is one of s, A, a, p, g, n, o, r (see help file)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention (see help file for further information). Names can be built from plain text and format codes that appear between matching carets (^).[NEWLINE][ICON_BULLET]e.g. "^cv^ ^ut^ from ^ct^" --> "American Archer from Boston"[NEWLINE][BOLD]General Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]civ4[COLOR_REVERT] - Use built-in Civ4 names[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]rd[COLOR_REVERT] - Random name[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]rc[COLOR_REVERT] - Random civ-related name[NEWLINE][BOLD]Unit Info Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ct[COLOR_REVERT] - City where unit was built (e.g. Boston)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cv[COLOR_REVERT] - Civilization that built the unit in adjective form (e.g. American)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ut[COLOR_REVERT] - Unit type (e.g. Archer)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cb[COLOR_REVERT] - Combat type (e.g. Melee)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]dm[COLOR_REVERT] - Domain type (e.g. Water)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]ld[COLOR_REVERT] - Leader that built the unit (e.g. Roosevelt)[NEWLINE][BOLD]Counting Codes[\BOLD][NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][a][COLOR_REVERT] - Count across all units[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][u][COLOR_REVERT] - Count per unit type[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][c][COLOR_REVERT] - Count per city[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][t][COLOR_REVERT] - Count per unit/city combination[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][b][COLOR_REVERT] - Count per combat type[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]cnt[f][d][COLOR_REVERT] - Count per domain[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]tt1[f][x:y][COLOR_REVERT] - Count up to a number chosen between x and y[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]tt1[f][x][COLOR_REVERT] - Count from x, incrementing each time tt1 code is reset[NEWLINE][NEWLINE]* f in [f] is one of s, A, a, p, g, n, o, r (see help file)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__USEADVANCED_HOVER</Tag>
+		<English>When checked, the advanced naming conventions in 'Adv Unit Naming.ini' file will be used  (see ini file for Era_UnitClass options).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, the advanced naming conventions in 'Adv Unit Naming.ini' file will be used  (see ini file for Era_UnitClass options).</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_SIEGE_HOVER</Tag>
+		<English>Enter the user defined naming convention for combat units 'SIEGE'.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the user defined naming convention for combat units 'SIEGE'.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__ENABLED_HOVER</Tag>
+		<English>When checked, uses the formats on this tab and in the INI file to name the player's units.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, uses the formats on this tab and in the INI file to name the player's units.</Chinese>
+	</TEXT>
+</Civ4GameText>

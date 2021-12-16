@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_STOP_EDITING</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Exit Edit Mode[COLOR_REVERT][NEWLINE]Hide the editing controls to be able to see the list of cities. Don't forget to save your changes before exiting the game</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Exit Edit Mode[COLOR_REVERT][NEWLINE]Hide the editing controls to be able to see the list of cities. Don't forget to save your changes before exiting the game</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_ADD_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Add Page[COLOR_REVERT][NEWLINE]Insert a new page in the list after the current page</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Add Page[COLOR_REVERT][NEWLINE]Insert a new page in the list after the current page</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_BASE_XP</Tag>
+		<English>(%d1 XP)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>(%d1 XP)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_REMOVE_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Remove Page[COLOR_REVERT][NEWLINE]Remove the current page from the list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Remove Page[COLOR_REVERT][NEWLINE]Remove the current page from the list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_SHRINK_COLUMN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Shrink Column[COLOR_REVERT][NEWLINE]Make the selected column(s) narrower</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Shrink Column[COLOR_REVERT][NEWLINE]Make the selected column(s) narrower</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_HOVER</Tag>
+		<English>Select the amount of space to leave above the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Enough space to show the turn indicator and treasury.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Enough space to show the advisor buttons.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Select the amount of space to leave above the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Enough space to show the turn indicator and treasury.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Enough space to show the advisor buttons.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_HOVER</Tag>
+		<English>Select the amount of space to leave to the sides of the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Same amount of space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Twice the space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders on the left and same amount of space on the right.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large Left[COLOR_REVERT] - Enough space to show all the culture sliders to the left but just a small amount of space on the right.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Select the amount of space to leave to the sides of the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Same amount of space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Twice the space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders on the left and same amount of space on the right.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large Left[COLOR_REVERT] - Enough space to show all the culture sliders to the left but just a small amount of space on the right.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__PRODUCTIONGROUPING_LIST</Tag>
+		<English>None|Icons|Colors|Both</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>None|Icons|Colors|Both</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_REMOVE_COLUMN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Remove Column[COLOR_REVERT][NEWLINE]Remove the selected column(s) from the left list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Remove Column[COLOR_REVERT][NEWLINE]Remove the selected column(s) from the left list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_MOVE_PAGE_DOWN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Move Page Down[COLOR_REVERT][NEWLINE]Move the current page down in the list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Move Page Down[COLOR_REVERT][NEWLINE]Move the current page down in the list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__PRODUCTIONGROUPING_HOVER</Tag>
+		<English>Select grouping options for the production list on the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No special grouping.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Icons[COLOR_REVERT] - Production items prefaced by icons denoting the type of item which keeps them grouped together when sorting.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Colors[COLOR_REVERT] - Production items colored based on the type of item.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Both[COLOR_REVERT] - Production items prefaced by icons and colored based on the type of item.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Select grouping options for the production list on the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No special grouping.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Icons[COLOR_REVERT] - Production items prefaced by icons denoting the type of item which keeps them grouped together when sorting.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Colors[COLOR_REVERT] - Production items colored based on the type of item.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Both[COLOR_REVERT] - Production items prefaced by icons and colored based on the type of item.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__PRODUCTIONGROUPING_TEXT</Tag>
+		<English>Production Grouping</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Production Grouping</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__ENABLED_TEXT</Tag>
+		<English>Customizable</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Customizable</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_RELOAD</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Reload[COLOR_REVERT][NEWLINE]Load the pages from disk to revert any chanes you have made</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Reload[COLOR_REVERT][NEWLINE]Load the pages from disk to revert any chanes you have made</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__ENABLED_HOVER</Tag>
+		<English>When checked, uses the Customizable Domestic Advisor (requires restart).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, uses the Customizable Domestic Advisor (requires restart).</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_TEXT</Tag>
+		<English>Space Above</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Space Above</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_PREV_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Previous Page[COLOR_REVERT][NEWLINE]Switch to the previous page in the list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Previous Page[COLOR_REVERT][NEWLINE]Switch to the previous page in the list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_SAVE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Save[COLOR_REVERT][NEWLINE]Save any changes you have made to disk (CustDomAdv.txt)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Save[COLOR_REVERT][NEWLINE]Save any changes you have made to disk (CustDomAdv.txt)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_MOVE_PAGE_UP</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Move Page Up[COLOR_REVERT][NEWLINE]Move the current page up in the list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Move Page Up[COLOR_REVERT][NEWLINE]Move the current page up in the list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_TOGGLE_SPECIALISTS</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Toggle Specialist[COLOR_REVERT][NEWLINE]Toggle whether or not the selected city's specialists are displayed along with buttons to add/remove them</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Toggle Specialist[COLOR_REVERT][NEWLINE]Toggle whether or not the selected city's specialists are displayed along with buttons to add/remove them</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_MOVE_COLUMN_UP</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Move Column Up[COLOR_REVERT][NEWLINE]Move the selected column(s) up in the left list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Move Column Up[COLOR_REVERT][NEWLINE]Move the selected column(s) up in the left list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_SETTLED_SPECIALISTS</Tag>
+		<English>Settled Specialists</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Settled Specialists</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_LIST</Tag>
+		<English>None|Small|Medium|Large</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>None|Small|Medium|Large</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_ADD_COLUMN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Add Column[COLOR_REVERT][NEWLINE]Insert the selected column(s) from the right list into the left list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Add Column[COLOR_REVERT][NEWLINE]Insert the selected column(s) from the right list into the left list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_EXPAND_COLUMN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Expand Column[COLOR_REVERT][NEWLINE]Make the selected column(s) wider</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Expand Column[COLOR_REVERT][NEWLINE]Make the selected column(s) wider</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_RENAME_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Rename Page[COLOR_REVERT][NEWLINE]Enter a new name for the current page</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Rename Page[COLOR_REVERT][NEWLINE]Enter a new name for the current page</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_MOVE_COLUMN_DOWN</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Move Column Down[COLOR_REVERT][NEWLINE]Move the selected column(s) down in the left list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Move Column Down[COLOR_REVERT][NEWLINE]Move the selected column(s) down in the left list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_LIST</Tag>
+		<English>None|Small|Medium|Large|Large Left</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>None|Small|Medium|Large|Large Left</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_START_EDITING</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Enter Edit Mode[COLOR_REVERT][NEWLINE]Show the editing controls to be able to add/remove/reorder pages and columns or change whether or not the specialist buttons are displayed</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Enter Edit Mode[COLOR_REVERT][NEWLINE]Show the editing controls to be able to add/remove/reorder pages and columns or change whether or not the specialist buttons are displayed</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_NEXT_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Next Page[COLOR_REVERT][NEWLINE]Switch to the next page in the list</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Next Page[COLOR_REVERT][NEWLINE]Switch to the next page in the list</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CDA_SELECT_PAGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Switch Page[COLOR_REVERT][NEWLINE]Select any page in the list to switch to it</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Switch Page[COLOR_REVERT][NEWLINE]Select any page in the list to switch to it</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_TEXT</Tag>
+		<English>Space to Sides</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Space to Sides</Chinese>
+	</TEXT>
+</Civ4GameText>

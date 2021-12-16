@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_PEOPLES</Tag>
+		<English>Dutch Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_CONGO</Tag>
+		<English>Congo Free State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属刚果自由邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_BRAZIL</Tag>
+		<English>New Holland</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属新荷兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_BELGIUM</Tag>
+		<English>Belgium</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>比利时</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_ETHIOPIA</Tag>
+		<English>%s2 East Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属东非</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_FASCIST</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_INDONESIA</Tag>
+		<English>%s2 East Indies</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属东印度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_COMMUNIST</Tag>
+		<English>Democratic Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1联邦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_AMERICA</Tag>
+		<English>New Netherlands</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属新尼德兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DUTCH_MALI</Tag>
+		<English>%s2 Gold Coast</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷属黄金海岸</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_DESC</Tag>
+		<English>The Dutch</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_REPUBLIC</Tag>
+		<English>Republic of the Seven United %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1联省共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_BELGIAN</Tag>
+		<English>Belgian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>比利时</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1联省共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_EXILE</Tag>
+		<English>%s2 Government in Exile</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2流亡政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_UNITED_KINGDOM_OF</Tag>
+		<English>United Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>英荷联合王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NETHERLANDS_ARTICLE</Tag>
+		<English>the Netherlands</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰</Chinese>
+	</TEXT>
+</Civ4GameText>

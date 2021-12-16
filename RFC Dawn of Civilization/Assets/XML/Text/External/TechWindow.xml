@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__CIVILOPEDIATEXT_HOVER</Tag>
+		<English>When checked, includes the Civilopedia text after the quote for the discovered technology.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, includes the Civilopedia text after the quote for the discovered technology.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_LIST</Tag>
+		<English>Original|Detailed|Wide</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Original|Detailed|Wide</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_TEXT</Tag>
+		<English>View</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>View</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_HOVER</Tag>
+		<English>Determines the view to display when you discover a technology.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Original[COLOR_REVERT] - Default minimal Civ4 view.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Detailed[COLOR_REVERT] - Adds more detailed information.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Wide[COLOR_REVERT] - Wider version of the Detailed view.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Determines the view to display when you discover a technology.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Original[COLOR_REVERT] - Default minimal Civ4 view.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Detailed[COLOR_REVERT] - Adds more detailed information.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Wide[COLOR_REVERT] - Wider version of the Detailed view.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__CIVILOPEDIATEXT_TEXT</Tag>
+		<English>Show Civilopedia Text</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Show Civilopedia Text</Chinese>
+	</TEXT>
+</Civ4GameText>

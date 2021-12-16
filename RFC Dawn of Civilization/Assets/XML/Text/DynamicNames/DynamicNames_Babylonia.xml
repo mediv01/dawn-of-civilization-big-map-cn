@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_ASSYRIAN</Tag>
+		<English>Assyrian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PHOENICIA_BABYLONIAN_VASSAL</Tag>
+		<English>Babylonian Phoenicia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴比伦-腓尼基</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_MESOPOTAMIAN</Tag>
+		<English>Mesopotamian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美索不达米亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴比伦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_SHORT_DESC</Tag>
+		<English>Babylonia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴比伦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_ASSYRIA</Tag>
+		<English>Assyria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_FASCIST</Tag>
+		<English>Baathist %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>叙利亚-%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_COMMUNIST</Tag>
+		<English>%s2 Golden Square</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2黄金时代</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_NEO_EMPIRE</Tag>
+		<English>Neo-%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_DESC</Tag>
+		<English>The Babylonians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴比伦文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_DEFAULT</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_ASSYRIA_ADJECTIVE</Tag>
+		<English>Assyrian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BABYLONIA_PEOPLES</Tag>
+		<English>Mesopotamian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美索不达米亚人</Chinese>
+	</TEXT>
+</Civ4GameText>

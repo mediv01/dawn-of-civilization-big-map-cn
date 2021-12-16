@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_DESC</Tag>
+		<English>The Tatars</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_DEFAULT</Tag>
+		<English>Golden Horde</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>金帐汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT2_MARATHON</Tag>
+		<English>Have 15000 gold by 1550AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年前拥有15000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_PEDIA</Tag>
+		<English>[TAB]An orda (also orda, ordu, ordo, ordon) or horde was an historical sociopolitical and military structure found on the Eurasian Steppe, usually associated with the Turkic raiders and Mongols. This entity can be seen as regional equivalent of a clan or a tribe. Some successful ordas gave rise to khanates. Ordu or Ordo also means the Mongolian court. In Mongolian language, the Government Palace (Mongolia) is literally called Zasgiin gazriin ordon.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]奥达（orda，ordu，ordo，ordon）或部落是欧亚大草原上的一种历史社会政治和军事结构，通常与突厥突袭者和蒙古人联系在一起。这个实体可以被看作是一个部落或一个部落的区域等价物。一些成功的奥达造就了汗国。Ordu或Ordo也指蒙古法庭。在蒙古语中，政府宫殿（蒙古）的字面意思是Zasgiin gazriin ordon。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UZBEG</Tag>
+		<English>Uzbeg Khan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼-乌兹别克·汗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT2_TITLE</Tag>
+		<English>Endless Wealth</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>无尽的财富</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MONGOLIA_TATAR_VASSAL</Tag>
+		<English>Khanate of Borjigin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>博尔吉金汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_FASCIST</Tag>
+		<English>Idel-Ural State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>理想国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TATAR_NOYAN</Tag>
+		<English>Noyan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>诺颜(noyan)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TATAR_NOYAN_PEDIA</Tag>
+		<English>Noyan, noyonwas a title of authority in the Mongol Empire and later periods. The Golden Horde's elites were descended from four Mongol clans, Qiyat, Manghut, Sicivut and Qonqirat. Initially, it was a term for a military commander in the army of Genghis Khan: the term noyon applied to commanders of tumens and mingghans, military units of 10,000 soldiers and 1000 soldiers respectively. During conquests, noyons used to receive territories for administration and they effectively became Mongolian aristocracy, which existed until the 20th century. Noyans were above the ordinary Mongols in social rank but below the descendants of Genghis and his brothers. They were sometimes called emir or bey in the Ulus of Jochi, the Ilkhanate and the Chagatai Khanate while the Yuan records gave the equivalent as guanren since their main task was waging warfare.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>诺颜(noyan)、诺雍(noyon)是蒙古帝国及以后时期的权威称号。金帐汗国的精英是由四个蒙古族家族的后裔，即齐亚特(Qiyat)、芒胡特(Manghut)、西西里特(Sicivut)和昆其拉(Qonqirat)。最初，它是成吉思汗军队中的军事指挥官的一个术语：noyon一词适用于图们和明干的指挥官，分别是一万人的军队和一千人的军队。在征服的过程中，noyan接受领土进行管理，他们实际上成为蒙古贵族，一直存在到20世纪。noyan的社会地位高于普通蒙古人，但低于成吉思汗及其兄弟的后代。他们有时被称为埃米尔或贝伊在乌鲁木齐，伊尔汗国和察合台汗国，而元朝给予的地位相当于关仁，因为他们的主要任务是进行战争。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_ADJECTIVE</Tag>
+		<English>Tatar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT1_TITLE</Tag>
+		<English>Fine Food</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美味的食物</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_SOVIET_VASSAL</Tag>
+		<English>Tatar ASSR</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼ASSR</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_SIBIR</Tag>
+		<English>Khanate of Sibir</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>锡比尔汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT1</Tag>
+		<English>Acquire 15 Tatar cuisine materials in 1455AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1455年时拥有15个鞑靼料理(Tatar cuisine materials)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT2</Tag>
+		<English>Have 5000 gold by 1550AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年前拥有5000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT3_TITLE</Tag>
+		<English>Turkification</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>突厥化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_EMPIRE</Tag>
+		<English>Tatar Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_TAT</Tag>
+		<English>Victorious Tatars and Mongols horseman can demand tribute</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>获胜的鞑靼人和蒙古骑兵可以要求贡品</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_ASTRAKHAN</Tag>
+		<English>Khanate of Astrakhan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿斯特拉罕汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_RUSSIAN_VASSAL</Tag>
+		<English>Kazan Governorate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>喀山省</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_TAT_TITLE</Tag>
+		<English>The Power of the Yoke:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奴役之力：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA</Tag>
+		<English>Orda</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥达(Orda)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TATAR</Tag>
+		<English>It is the year 1210AD. Batu, the eldest grandson of Genghis Khan, and his army has just conqued Volga Bulgaria. Moving on to southern steppes of the Ukraine and Crimean Peninsula, the conquered Kipchaks, Cumans, Volga Bulgars, Khwarezmians along with the Mongolian elites will form a new nation. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元1210年。成吉思汗长孙巴图和他的军队刚刚征服了保加利亚伏尔加。大军继续向乌克兰南部草原和克里米亚半岛进发。被征服的基普切克人、库曼人、伏尔加保加利亚人、克瓦雷兹米昂人以及蒙古精英将组成一个新的国家。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_PEDIA</Tag>
+		<English>The Tatars is an umbrella term for Turkic peoplesin the territory of the former Russian Empire (and as such generally includes all Northwestern Turkic speaking peoples). The Tatars were the Turkic-speaking population of Tartary, the lands ruled by Turco-Mongol elites from the 14th century until the conquests of the Russian Empire in the 18th to 19th centuries. During the early modern period, a distinction was made between the European and Asian Tatar territories, by referring to Lesser Tartary and Greater Tartary, respectively. The largest group by far that has been called "Tatars" by the Russians are the Volga Tatars, native to the Volga region (Tatarstan and Bashkortostan), who for this reason are often also simply known as "Tatars", and their language as the Tatar language. Their number is estimated as close to 6 million (as of 2002). Besides the Volga Tatars, there are smaller groups of Turkic-speaking Muslims also still referred to as "Tatars", the largest group of these being the Crimean Tatars, numbering close to half a million, whose Crimean Tatar language is no longer intelligible to the Volga Tatars.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼人是前俄罗斯帝国领土上突厥人的总称（因此通常包括所有西北部讲突厥语的人）。鞑靼人是鞑靼语中的突厥语人口，从14世纪到18至19世纪征服俄罗斯帝国，鞑靼人一直统治着这片土地。鞑靼在早期分别指的是欧洲和鞑靼在亚洲和鞑靼之间的区别。到目前为止，被俄罗斯人称为“鞑靼人”的最大群体是伏尔加鞑靼人，他们土生土长地生活在伏尔加地区（鞑靼斯坦和巴什科尔托斯坦），由于这个原因，他们通常也被简单地称为“鞑靼人”，他们的语言就是鞑靼语。他们的人数估计接近600万（截至2002年）。除了伏尔加鞑靼人之外，还有一些讲突厥语的穆斯林，也被称为“鞑靼人”，其中最大的一个群体是克里米亚鞑靼人，人数接近50万人，他们的克里米亚鞑靼语对伏尔加鞑靼人来说已经听不懂了。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_COMMUNIST</Tag>
+		<English>Tatar Union of the Godless</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼无神联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_NAZI_VASSAL</Tag>
+		<English>Popular Revolutionary Government of Tatarstan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼斯坦人民革命政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TATAR_NOYAN_STRATEGY</Tag>
+		<English>Early cuirassier, can ignore terrain cost.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>早期的重甲骑兵，可以无视地形消耗。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_SHORT_DESC</Tag>
+		<English>Tatar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_STRATEGY</Tag>
+		<English>Orda</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥达(Orda)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_KAZAN</Tag>
+		<English>Khanate of Kazan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>喀山汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TATAR_YOKE_UP</Tag>
+		<English>You have received %d1 [ICON_GOLD] from %s2 yoke.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>您已收到来自%s2奴隶的%d1[ICON_GOLD]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_MONGOL_VASSAL</Tag>
+		<English>Kipchak Khanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基普恰克汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT2_EPIC</Tag>
+		<English>Have 7500 gold by 1550AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1550年前拥有7500金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TAT3</Tag>
+		<English>Make sure at least 30% of world territory is controlled by Islamic civilizations</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>确保伊斯兰文明控制世界至少30%领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_DEMOCRATIC</Tag>
+		<English>Republic of Tatarstan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼斯坦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_UZBEG_PEDIA</Tag>
+		<English>[H1]Uzbeg Khan[\H1][NEWLINE][BOLD]Sultan of the Golden Horde[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]1282?341[NEWLINE][PARAGRAPH:2]Sultan Mohammed 璎� Beg, better known as Uzbeg or 璎焍eg was the longest-reigning khan of the Golden Horde, under whose rule the state reached its zenith. He urged the Mongol elite to convert to Islam, but at the same time, he preserved the lives of Christians and pagans such as Russians, Circassians, Alans, Finno-Ugric people, and Crimean Greeks as long as they continued to pay the jizyah in subjection to Islamic rule. From 璎� Beg onwards, the khans of the Golden Horde were all Muslim.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]乌兹别克·汗[\H1][NEWLINE][BOLD]金帐汗国苏丹[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]1282-1341年[NEWLINE][PARAGRAPH:2]苏丹穆罕默德·贝格（Sultan Mohammed Uzbeg，又名乌兹别格·汗）是金帐汗国统治时间最长的苏丹，在他的统治下，国家达到了顶峰。他敦促蒙古精英皈依伊斯兰教，但同时，他还保护了基督徒和异教徒的生命，如俄罗斯人、切尔克斯人、阿拉斯人、芬诺-乌戈尔人和克里米亚希腊人，只要他们继续向吉萨人支付服从伊斯兰统治的报酬。从乌兹别克·汗开始，金帐汗国的苏丹都是穆斯林。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_TURKISH_VASSAL</Tag>
+		<English>Crimean Khanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>克里米亚汗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_PEOPLES</Tag>
+		<English>Turco-Mongol People</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_TATAR_VASSAL</Tag>
+		<English>Russian principalities</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯公国</Chinese>
+	</TEXT>
+</Civ4GameText>

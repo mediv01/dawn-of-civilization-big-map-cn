@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOYALTY_TEXT_SPY</Tag>
+		<English>[ICON_BULLET]Never Reveals Nationality</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]Never Reveals Nationality</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ESCAPE_TEXT_SPY</Tag>
+		<English>[ICON_BULLET]%d1_percent%% Bonus Escape Chance</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]%d1_percent%% Bonus Escape Chance</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_TARGET_SOMETHING_BRIBED_NEAR_CITY</Tag>
+		<English>A %s1_ThingName was bribed by enemy infiltrators near %s2_CityName!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>A %s1_ThingName was bribed by enemy infiltrators near %s2_CityName!</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMPROVISE1</Tag>
+		<English>Improviser I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Improviser I</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INTERCEPT_TEXT_SPY</Tag>
+		<English>[ICON_BULLET]%d1_percent%% Enemy Spy Detection Bonus</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]%d1_percent%% Enemy Spy Detection Bonus</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALCHEMIST3</Tag>
+		<English>Alchemist III</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Alchemist III</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SECURITY1</Tag>
+		<English>Informant I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Informant I</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_SPY</Tag>
+		<English>Espionage Units</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Espionage Units</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_TARGET_SOMETHING_BRIBED</Tag>
+		<English>A %s1_ThingName was bribed by enemy infiltrators!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>A %s1_ThingName was bribed by enemy infiltrators!</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_USED_RADIATION</Tag>
+		<English>A dirty bomb was used! Radioactive fallout has covered the area!</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>A dirty bomb was used! Radioactive fallout has covered the area!</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_ACTION_ASSASSIN_MISSION</Tag>
+		<English>Eliminate %s1_unit for %d2[ICON_ESPIONAGE] %d3_percent%% chance of success.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Eliminate %s1_unit for %d2[ICON_ESPIONAGE] %d3_percent%% chance of success.</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EVASION_TEXT_SPY</Tag>
+		<English>[ICON_BULLET]%d1_percent%% Detection Evasion Bonus</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]%d1_percent%% Detection Evasion Bonus</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALCHEMIST2</Tag>
+		<English>Alchemist II</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Alchemist II</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_HELP_DESTROY_IMPROVEMENT_RADIATION</Tag>
+		<English>Will create fallout on the tile.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Will create fallout on the tile.</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_MISSION_BRIBE</Tag>
+		<English>Bribe Worker</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Bribe Worker</Chinese>
+	</Text>	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SECURITY3</Tag>
+		<English>Informant III</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Informant III</Chinese>
+	</Text>

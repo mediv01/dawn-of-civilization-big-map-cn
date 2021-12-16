@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_TULA</Tag>
+		<English>Tula</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>图拉</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_PEOPLES</Tag>
+		<English>Mexico Valley Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>墨西哥谷人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DESC</Tag>
+		<English>The Teotihuacanos</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>特奥蒂瓦卡诺文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_ADJECTIVE</Tag>
+		<English>Teotihuacan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>特奥蒂瓦卡诺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DEFAULT</Tag>
+		<English>Altepetl of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Altepetl of %s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_ALTEPETL</Tag>
+		<English>%s2 Altepemeh</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2 Altepemeh</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_SHORT_DESC</Tag>
+		<English>Teotihuacan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>特奥蒂瓦卡诺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TEOTIHUACAN_TOLTEC</Tag>
+		<English>Toltec</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托尔特克</Chinese>
+	</TEXT>
+</Civ4GameText>

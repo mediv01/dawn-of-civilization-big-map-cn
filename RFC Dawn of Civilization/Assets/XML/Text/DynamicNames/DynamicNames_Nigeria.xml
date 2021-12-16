@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_BENIN</Tag>
+		<English>Benin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贝宁</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_NIGERIA</Tag>
+		<English>Nigeria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼日利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_DEFAULT</Tag>
+		<English>Igodomigodo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Igodomigodo</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_KWARARAFA</Tag>
+		<English>Kwararafa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Kwararafa</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_NRI</Tag>
+		<English>Nri</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Nri</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_KANEM</Tag>
+		<English>Kanem</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>卡内姆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_OYO</Tag>
+		<English>Oyo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥约</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_PEOPLES</Tag>
+		<English>Yoruba Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>约鲁巴人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_IFE</Tag>
+		<English>Ife</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_SHORT_DESC</Tag>
+		<English>Nigeria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼日利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_ADJECTIVE</Tag>
+		<English>Nigerian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼日利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NIGERIA_DESC</Tag>
+		<English>The Nigerians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尼日利亚文明</Chinese>
+	</TEXT>
+</Civ4GameText>
