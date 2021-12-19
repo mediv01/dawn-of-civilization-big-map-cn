@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOPEWELL_ADJECTIVE</Tag>
+		<English>Mississippian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>霍普韦尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MISSISSIPPI_DEFAULT</Tag>
+		<English>%s1 City States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1城邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOPEWELL_PEOPLES</Tag>
+		<English>%s1 Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS1</Tag>
+		<English>Control all tiles along the Mississippi River, Ohio River, and Great Lakes by 500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元500年前控制所有密西西比河(Mississippi River)，俄亥俄河(Ohio River)，五大湖(Great Lakes)的所有地块</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS1_TITLE</Tag>
+		<English>Hopewell Exchange</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>霍普韦尔交易所</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MISSISSIPPI_RIVER</Tag>
+		<English>Mississippi River</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Mississippi River</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_OHIO_RIVER</Tag>
+		<English>Ohio River</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Ohio River</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS2_TITLE</Tag>
+		<English>Fort Ancient Culture</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>古堡文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_MIS</Tag>
+		<English>Extra Commerce along Rivers.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沿河地块提供额外商业</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RED_HORN</Tag>
+		<English>Red Horn</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Red Horn</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MISSISSIPPI_SHORT_DESC</Tag>
+		<English>Hopewell</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>密西西比</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MISSISSIPPI_ADJECTIVE</Tag>
+		<English>Hopewell</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>密西西比</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MIDEWIWIN_MIDEWIGAAN</Tag>
+		<English>Midewigaan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Midewigaan</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOPEWELL_SHORT_DESC</Tag>
+		<English>Mississippi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>霍普韦尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GREAT_LAKES</Tag>
+		<English>Great Lakes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Great Lakes</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS3_TITLE</Tag>
+		<English>Northern Metropolis</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北方大都市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOPEWELL_DEFAULT</Tag>
+		<English>%s1 City States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1城邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_HOPEWELL</Tag>
+		<English>It is the year 100 BC. The consolidation of the Ohio Hopewell tradition marks the first major step towards the development of complex civilization north of the Mexican Altiplano...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元前100年。俄亥俄州霍普韦尔传统的巩固标志着墨西哥高原北部复杂文明发展的第一大步。。。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS2</Tag>
+		<English>Build the Serpent Mound and 7 Effigy Mounds by 1070 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1070年前建成蛇丘(Serpent Mound)和7个Effigy Mounds</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND_HELP</Tag>
+		<English>[ICON_BULLET]+1 [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] slot from Parks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]公园+1[COLOR_HIGHLIGHT_TEXT]商业家[COLOR_REVERT]槽</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOPEWELL_DESC</Tag>
+		<English>The Mississippi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>密西西比文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MISSISSIPPI_DESC</Tag>
+		<English>The Hopewell</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>霍普韦尔文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MISSISSIPPI_FALCON_DANCER</Tag>
+		<English>Falcon Dancer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Falcon Dancer</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISSISSIPPI_EFFIGY_MOUND</Tag>
+		<English>Effigy Mound</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Effigy Mound</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIS3</Tag>
+		<English>Build a palace and settle 2 great merchants in Cahokia by 1400 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1400年前在Cahokia建成宫殿并入驻2个大商业家</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_MIS_TITLE</Tag>
+		<English>The Power of Mshi-Ziibi:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>The Power of Mshi-Ziibi:</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND</Tag>
+		<English>Serpent Mound</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蛇丘(Serpent Mound)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_MIDEWIWIN</Tag>
+		<English>Acquire 4 Corn Resources and construct 20 Farms</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有4个Corn资源并建成20个农场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MISSISSIPPI_PEOPLES</Tag>
+		<English>%s1 Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1人</Chinese>
+	</TEXT>
+</Civ4GameText>

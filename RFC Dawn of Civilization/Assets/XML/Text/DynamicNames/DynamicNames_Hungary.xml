@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_DESC</Tag>
+		<English>The Hungarians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈牙利文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_PEOPLES</Tag>
+		<English>Magyar Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马扎儿人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_FASCIST</Tag>
+		<English>Regency of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_SHORT_DESC</Tag>
+		<English>Hungary</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈牙利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARU_AUSTRO_HUNGARIAN</Tag>
+		<English>Austro-Hungarian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥匈帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_ADJECTIVE</Tag>
+		<English>Hungarian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>匈牙利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HUNGARY_DEFAULT</Tag>
+		<English>Grand Principality of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1大公国</Chinese>
+	</TEXT>
+</Civ4GameText>

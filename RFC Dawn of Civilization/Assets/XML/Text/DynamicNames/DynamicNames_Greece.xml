@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_COMMUNIST</Tag>
+		<English>Democratic Army of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1民主共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_MACEDONIAN</Tag>
+		<English>Macedonian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马其顿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREEK_NAME_TURKS</Tag>
+		<English>Transoxiana</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>河中</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_MACEDONIA</Tag>
+		<English>Macedonia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马其顿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREEK_EGYPT</Tag>
+		<English>Ptolemaic Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托勒密王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_ADJECTIVE</Tag>
+		<English>Greek</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREEK_INDIA</Tag>
+		<English>Greco-Bactrian Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊-巴克特里亚王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_REPUBLIC</Tag>
+		<English>Hellenic Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_DESC</Tag>
+		<English>The Greeks</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_PEOPLES</Tag>
+		<English>Mycenean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>迈锡尼人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_LEAGUE</Tag>
+		<English>%s2 League</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_SHORT_DESC</Tag>
+		<English>Greece</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREEK_ROME</Tag>
+		<English>Magna Graecia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大希腊</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREEK_PERSIA</Tag>
+		<English>Seleucid Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塞琉西帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_FASCIST</Tag>
+		<English>Patriotic Alliance of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1爱国联盟</Chinese>
+	</TEXT>
+</Civ4GameText>

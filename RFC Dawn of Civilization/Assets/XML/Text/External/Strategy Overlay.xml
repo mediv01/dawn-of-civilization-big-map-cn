@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_TITLE</Tag>
+		<English>Strategy Overlay</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Strategy Overlay</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPDRAWDOTS_HOVER</Tag>
+		<English>When checked, an icon is drawn in the center of the borders of planned cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, an icon is drawn in the center of the borders of planned cities.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPHIGHLIGHTBRIGHTNESS_TEXT</Tag>
+		<English>Highlight Brightness</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Highlight Brightness</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_EDITBOX_HELP</Tag>
+		<English>Enter the text to be displayed on the sign</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enter the text to be displayed on the sign</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPDRAWDOTS_TEXT</Tag>
+		<English>Draw City Dots</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Draw City Dots</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_DOTMAPPER</Tag>
+		<English>Dot Mapper</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Dot Mapper</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__ENABLED_HOVER</Tag>
+		<English>When checked, the shortcut keys and features of the Strategy Layer are activated.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, the shortcut keys and features of the Strategy Layer are activated.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPBRIGHTNESS_TEXT</Tag>
+		<English>Brightness</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Brightness</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_ADDSIGN</Tag>
+		<English>Add Sign</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Add Sign</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPDOTICON_HOVER</Tag>
+		<English>The index number of the icon to be placed in the center of the borders of planned cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>The index number of the icon to be placed in the center of the borders of planned cities.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_SIGNS</Tag>
+		<English>Signs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Signs</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_COLORSELECT</Tag>
+		<English>Color Selection</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Color Selection</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPHIGHLIGHTBRIGHTNESS_HOVER</Tag>
+		<English>Determines the brightness of the highlighted city being placed.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Determines the brightness of the highlighted city being placed.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__SHOWDOTMAP_HOVER</Tag>
+		<English>When checked, the city-planning dot map layer is shown overlaying the terrain.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, the city-planning dot map layer is shown overlaying the terrain.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPBRIGHTNESS_HOVER</Tag>
+		<English>Determines the brightness of planned cities.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Determines the brightness of planned cities.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__ENABLED_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enabled</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_REMOVECITY</Tag>
+		<English>Remove City</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Remove City</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__SHOWDOTMAP_TEXT</Tag>
+		<English>Show Dot Map</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Show Dot Map</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__DOTMAPDOTICON_TEXT</Tag>
+		<English>City Dot Icon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>City Dot Icon</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_PLACECITY</Tag>
+		<English>Place City</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Place City</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_REMOVESIGN</Tag>
+		<English>Remove Sign</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Remove Sign</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_BODY</Tag>
+		<English>Caption for the sign</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Caption for the sign</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_STRATOVERLAY_ADDSIGN_TITLE</Tag>
+		<English>Add Overlay Sign</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Add Overlay Sign</Chinese>
+	</TEXT>
+</Civ4GameText>

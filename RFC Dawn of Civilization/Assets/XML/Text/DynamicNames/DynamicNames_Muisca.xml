@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAGUAR</Tag>
+		<English>Jaguar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美洲豹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TRADE_GOLD_SPENT</Tag>
+		<English>Gold spent</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已花费金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_MUI_TITLE</Tag>
+		<English>The Power of Salt:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>食盐之利：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_FASCIST</Tag>
+		<English>Muisca Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERCENT_STRING</Tag>
+		<English>%s1: %s2 / %s3</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1: %s2 / %s3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUISCA_GUECHA_WARRIOR</Tag>
+		<English>Guecha Warrior</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>格查尔（Guecha）勇士</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI2_MARATHON</Tag>
+		<English>Spend 6000 Gold in diplomacy by 1540 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1540年前在外交中花费6000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_STRING_SINGLE</Tag>
+		<English>%s1: %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1: %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_DEFAULT</Tag>
+		<English>Muisca Confederation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI3_TITLE</Tag>
+		<English>El Dorado</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃尔多拉多</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_DESC</Tag>
+		<English>The Muisca</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI3</Tag>
+		<English>Ensure no Old World civilization controls a silver or gold resource in South or Central America in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1600年时确保没有旧世界文明控制南美洲或中美洲的金银资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISCA_GOLDSMITH_HELP</Tag>
+		<English>[ICON_BULLET]+1 Gold per Gold Resource</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]每个黄金资源+1金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HYENA</Tag>
+		<English>Hyena</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鬣狗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_PERCENT_NEW_WORLD_POPULATION</Tag>
+		<English>Percentage of new world population</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新世界的人口百分比</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUISCA_GOLDSMITH</Tag>
+		<English>Goldsmith</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>金匠铺</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI1</Tag>
+		<English>Have the highest average population in the New World at the time of Old World contact</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当接触旧世界文明时拥有新世界最高的平均人口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_SHORT_DESC</Tag>
+		<English>Muisca</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_PEOPLES</Tag>
+		<English>Andean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安第斯人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_POLAR_BEAR</Tag>
+		<English>Polar Bear</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北极熊</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI2_TITLE</Tag>
+		<English>Tejuelo Gold Coins</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>特胡埃洛(Tejuelo)金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_MUI</Tag>
+		<English>+1 Food from Mines.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>矿山+1食物</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI1_TITLE</Tag>
+		<English>The Altiplano Cundiboyacense</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>孔迪波亚山脉</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIGER</Tag>
+		<English>Tiger</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>老虎</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SAGUAMANCHICA</Tag>
+		<English>Saguamanchica</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡-萨古曼奇卡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI2_EPIC</Tag>
+		<English>Spend 3000 Gold in diplomacy by 1540 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1540年前在外交中花费3000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MUI2</Tag>
+		<English>Spend 2000 Gold in diplomacy by 1540 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1540年前在外交中花费2000金币</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MUISCA_ADJECTIVE</Tag>
+		<English>Muisca</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆伊斯卡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_MUISCA</Tag>
+		<English>It is the year 800 AD. The formation end of the Hererra period heralds in a new age for the peopel of the Altiplano Cundiboyacense. The rise of the Muisca Confederation marks the start in a new golden age of American trade.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元800年，赫雷拉时期的形成结束，预示着高原坎迪博亚人进入了一个新时代。穆伊斯卡联盟的崛起标志着美洲贸易新黄金时代的开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_HIGHEST_AVERAGE_POPULATION_NEW_WORLD</Tag>
+		<English>New world civilization with the highest average population: %s1_city</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>新世界平均人口最高：%s1_city</Chinese>
+	</TEXT>
+</Civ4GameText>

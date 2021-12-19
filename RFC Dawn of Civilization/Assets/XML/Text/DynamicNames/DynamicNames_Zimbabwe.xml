@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_MAPUNGUBWE</Tag>
+		<English>Mapungubwe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马蓬古布韦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_ROZWI</Tag>
+		<English>Rozwi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗兹维</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_SHORT_DESC</Tag>
+		<English>Zimbabwe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>津巴布韦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_BUTUA</Tag>
+		<English>Butua</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布图阿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_PEOPLES</Tag>
+		<English>Zimbabwean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>津巴布韦人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_GREAT</Tag>
+		<English>Great Zimbabwe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>大津巴布韦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_DESC</Tag>
+		<English>The Zimbabweans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>津巴布韦文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_MUTAPA</Tag>
+		<English>Mutapa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>穆塔帕</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_ADJECTIVE</Tag>
+		<English>Zimbabwean</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>津巴布韦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZIMBABWE_ZIMBABWE</Tag>
+		<English>Zimbabwe</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>津巴布韦</Chinese>
+	</TEXT>
+</Civ4GameText>

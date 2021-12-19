@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_COMMUNIST</Tag>
+		<English>Grand Duchy of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1大公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_SHORT_DESC</Tag>
+		<English>Lithuania</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>立陶宛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_FASCIST</Tag>
+		<English>Iron Wolf %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AREA_111</Tag>
+		<English>Prussia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Prussia</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_LIT_TITLE</Tag>
+		<English>The Power of the Pagans:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>异教徒之力：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_LIT</Tag>
+		<English>All cities are pagan and no religious disunity from the most popular religion while running a Pagan State Religion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>所有的城市都是异教徒，在管理一个异教徒的国家宗教时，没有与最流行的宗教不团结的宗教。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_ADJECTIVE</Tag>
+		<English>Lithuanian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>立陶宛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIVV_LITHUANIA_GRAND_DUCHY_OF</Tag>
+		<English>Grand Duchy of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1大公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINDAUGAS_PEDIA</Tag>
+		<English>[H1]Mindaugas[\H1][NEWLINE][BOLD]First Grand Duke of Lithuania, Only King of Lithuania[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] c. 1200 - September 12, 1263 AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Mindaugas was the first known Grand Duke of Lithuania and the only King of Lithuania. Little is known of his origins, early life, or rise to power; he is mentioned in a 1219 treaty as an elder duke, and in 1236 as the leader of all the Lithuanians. The contemporary and modern sources discussing his ascent mention strategic marriages along with banishment or murder of his rivals.[PARAGRAPH:2]He extended his domain into regions southeast of Lithuania proper during the 1230s and 1240s. In 1250 or 1251, during the course of internal power struggles, he was baptised as a Roman Catholic; this action enabled him to establish an alliance with the Livonian Order, a long-standing antagonist of the Lithuanians. During the summer of 1253 he was crowned King of Lithuania, ruling between 300,000 and 400,000 subjects.[PARAGRAPH:2]While his ten-year reign was marked by various state-building accomplishments, his conflicts with relatives and other dukes continued, and western Lithuania strongly resisted the alliance's rule. His gains in the southeast were challenged by the Tatars.[PARAGRAPH:2]He broke with the Livonian Order in 1261, possibly renouncing Christianity, and was assassinated in 1263 by his nephew Treniota and another rival, Duke Daumantas. His three immediate successors were assassinated as well. The disorder was not resolved until Traidenis gained the title of Grand Duke ca. 1270.[PARAGRAPH:2]Although his reputation was unsettled during the following centuries and his descendants were not notable, he gained standing during the 19th and 20th centuries. Mindaugas was the only King of Lithuania; while most of the Lithuanian Grand Dukes from Jogaila onward also reigned as Kings of Poland, the titles remained separate.[PARAGRAPH:2]In modern Lithuania Mindaugas is generally considered to be the founder of the Lithuanian state. He is also now credited with stopping the advance of the Tatars towards the Baltic Sea, establishing international recognition of Lithuania, and turning it towards Western civilization. In the 1990s the historian Edvardas Gudavicius published research supporting an exact coronation date - July 6, 1253. This day is now an official national holiday, Statehood Day.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]Mindaugas[\H1][NEWLINE][BOLD]立陶宛第一大公，立陶宛唯一的国王[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]公元1200年至1263年9月12日[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]Mindaugas是已知的第一位立陶宛大公，也是立陶宛唯一的国王。关于他的出身、早年生活或掌权，人们知之甚少；1219年的一份条约中提到他是一位年长的公爵，1236年，他是所有立陶宛人的领袖。讨论他升迁的当代和现代消息来源提到了战略婚姻以及对他的对手的驱逐或谋杀[PARAGRAPH:2]他在12世纪30年代和12世纪40年代将他的领土扩展到立陶宛东南部地区；这一行动使他得以与立陶宛人的长期对手利沃尼亚教团建立联盟。1253年夏天，他加冕为立陶宛国王，统治着30万至40万臣民[PARAGRAPH:2]虽然他的十年统治期间取得了各种国家建设成就，但他与亲属和其他公爵的冲突仍在继续，立陶宛西部强烈反对联盟的统治。他在东南部取得的成就受到鞑靼人的挑战[PARAGRAPH:2]1261年，他打破了利沃尼亚秩序，可能放弃了基督教，并在1263年被他的侄子特伦尼奥塔和另一个竞争对手达曼塔斯公爵暗杀。他的三个继任者也被暗杀。直到1270年特拉丹尼斯获得大公的头衔，混乱才得以解决[PARAGRAPH:2]虽然在接下来的几个世纪里他的名声并不稳定，他的后代也不引人注目，但他在19世纪和20世纪获得了声望。Mindaugas是立陶宛唯一的国王；虽然从Jogaila开始的立陶宛大公也都是波兰的国王，但头衔仍然是分开的[PARAGRAPH:2]在现代立陶宛，Mindaugas通常被认为是立陶宛国家的创始人。他现在也被认为是阻止鞑靼人向波罗的海前进，建立了立陶宛的国际承认，并使其转向西方文明。20世纪90年代，历史学家埃德瓦尔达斯·古达维修斯发表了一项研究，支持确切的加冕日期——1253年7月6日。这一天现在是国家法定假日，建国日。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROMUVA_SACRED_GROVE</Tag>
+		<English>Sacred Grove</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>神圣树林(Sacred Grove)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT2</Tag>
+		<English>Gift 7 units to Poland and have friendly relations with them in 1600 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1600年时与波兰是友善(friendly)关系并赠送7个单位给波兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LITHUANIAN_VYTIS_HELP</Tag>
+		<English>[ICON_BULLET]+25% vs Civilizations of other faiths until the end of the Middle Ages</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]中古时代之前与异教徒作战+25%</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT1_TITLE</Tag>
+		<English>Yagaylo's Legacy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>雅加洛的辉煌</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_LATVIA</Tag>
+		<English>Latvia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉脱维亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_ROMUVA</Tag>
+		<English>Control Saint Peter's Basilica</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>控制圣彼得大教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT2_TITLE</Tag>
+		<English>Act of Kreva</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>克里瓦法案</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT3_TITLE</Tag>
+		<English>Defiance of the Three</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>平独镇露</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_LITHUANIA</Tag>
+		<English>It is the year 1180 AD. As the Lithuan raids on their neighboring Slavic provinces begin to increase in frequency and success, the region begins to see a level of wealth and organization it has never seen before. The imminent formation of a Lithuanian State will surely and radically change the political landscape of Eastern Europe for centuries to come.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元1180年。随着立陶宛对其邻近的斯拉夫省份的袭击开始频繁和成功，该地区开始看到前所未有的财富和组织。立陶宛国家即将成立，这必将从根本上改变东欧未来几个世纪的政治格局。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MINDAUGAS</Tag>
+		<English>Mindaugas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>立陶宛-Mindaugas</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_AREA_112</Tag>
+		<English>Austria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Austria</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT3</Tag>
+		<English>Control or Vassalize Austria, Prussia, and Russia in 1918 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1918年时控制或附庸奥地利、普鲁士和俄罗斯</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_LIT1</Tag>
+		<English>Control more territory than any European civ in 1500 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1500年时比其他欧洲文明控制更多的领土</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LITHUANIAN_SEIMELIS_PEDIA</Tag>
+		<English>[TAB]A voivodeship, also spelled voivodship, voivodina or vojvodina, is the area administrated by a voivode or governor in several countries of central and east Europe. Voivodeships have existed since medieval times in Poland, Hungary, Lithuania, Latvia, Ukraine, Russia, Wallachia and Serbia. The administrative level of a voivodeship resembles a western duchy, much as the title of voivode was equivalent to that of a duke. The voivode (literally, "leader of warriors") was originally the military commander next to the ruler.[PARAGRAPH:2]Contemporary, the term is used for the "provinces" (wojew楠磟twa) of Poland, of which there are currently 16. There is also an autonomous province of Vojvodina in Serbia (historic part of Medieval Hungary up to the end of WW1, today with a mixed Hungarian-Serbian population)[PARAGRAPH:2]Also, the word "voivodeship" appears in some of the larger English dictionaries, such as the OED and Webster's Third New International Dictionary, though it is not in common usage. Depending on the context, historic voivodeships may also be referred to as "duchies," "provinces," "palatinates," "administrative districts" or "regions".</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]voivodeship，也拼写为voivodship，voivodina或vojvodina，是中欧和东欧一些国家由voivode或州长管理的地区。自中世纪以来，波兰、匈牙利、立陶宛、拉脱维亚、乌克兰、俄罗斯、瓦拉基亚和塞尔维亚就有宗教信仰。总督的行政级别类似于西方的公国，就像总督的头衔等同于公爵一样。沃瓦德（字面意思是“战士领袖”）最初是统治者旁边的军事指挥官[PARAGRAPH:2]当代，这个词被用来指波兰的“省”（wojew骴ztwa），目前有16个省。塞尔维亚还有一个自治省伏伊伏丁纳（Vojvodina，中世纪匈牙利的历史部分，直到第一次世界大战结束，今天是匈牙利和塞尔维亚混合的人口）[PARAGRAPH:2]此外，单词“voivodeship”出现在一些较大的英语词典中，例如《牛津英语词典》和《韦伯斯特第三部新国际词典》，虽然它不是常用的。根据具体情况，历史上的属地也可以被称为“公爵领地”、“各省”、“帕拉蒂纳”、“行政区”或“地区”。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_LITHUANIA_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% from different State Religion</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]不同的信仰额外提供%D1_Bonus</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LITHUANIAN_SEIMELIS</Tag>
+		<English>Seimelis</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>塞米利斯(Seimelis)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_COMMONWEALTH</Tag>
+		<English>Polish-Lithuanian Commonwealth</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波兰立陶宛联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ROMUVA</Tag>
+		<English>Romuva</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Romuva</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LITHUANIAN_VYTIS</Tag>
+		<English>Vytis</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Vytis</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_ESTONIA</Tag>
+		<English>Estonia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>爱沙尼亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MINDAUGAS_1</Tag>
+		<English>I, [OUR_NAME], offer the [CT_EMPIRE] friendship. A person who gives is a person who has. Will you receive this gift, [CT_NAME]?</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>我，[OUR_NAME]，献上[CT_EMPIRE]的友谊。赠人玫瑰手有余香。你会接收这份礼物吗，[CT_NAME]？</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_PEDIA</Tag>
+		<English>[TAB]The history of Lithuania between 1219 and 1295 deals with the establishment and early history of the first Lithuanian state, the Grand Duchy of Lithuania. The beginning of the 13th century marks the end of the prehistory of Lithuania. From this point on the history of Lithuania is recorded in chronicles, treaties, and other written documents. In 1219, twenty-one Lithuanian dukes signed a peace treaty with Halych-Volhynia. This event is widely accepted as the first proof that the Baltic tribes were uniting and consolidating.[PARAGRAPH:2]Mindaugas, the duke who governed southern Lithuania between the Neman and Neris Rivers, eventually became the founder of the state. Mindaugas is referred to as the ruler of all Lithuania in the Livonian Rhymed Chronicle in 1236. The means by which he managed to acquire this title are not well-known. In 1251, Mindaugas agreed to receive baptism and relinquish control over some lands in western Lithuania, for which he was to receive a crown in return. As promised, Mindaugas was crowned at some time during the summer of 1253 (The exact date and location of the coronation is not known), and the Kingdom of Lithuania, proclaimed by the pope in 1251, was soundly established. Pope Innocent IV supported Mindaugas, hoping that a new Christian state could stem the inroads being made by the Golden Horde, a state of Mongol Empire. On July 17, 1251, the pope signed two crucial papal bulls. One of them ordered the Bishop of Chelm to crown Mindaugas as King of Lithuania, appoint a bishop for Lithuania, and to build a cathedral.[PARAGRAPH:2]Immediately after his coronation, Mindaugas transferred some western lands to the Livonian Order - portions of Samogitia, Nadruva, and Dainava. There is some discussion as to whether in later years Mindaugas gave even more lands to the Order. Relative peace and stability was established for about eight more years. Mindaugas used this opportunity to concentrate on expansion to the east. The Livonian Order used this period to consolidate their control over Samogitian lands. The Samogitians responded by electing Algminas as their war leader. In 1259, the Livonian Order lost the Battle of Skuodas, and in 1260, it lost the Battle of Durbe. The first loss encouraged a rebellion by the Semigalians, and the later loss spurred the Prussians into an uprising against the Order. Encouraged by Treniota, his nephew, Mindaugas broke peace with the Order. Some chronicles hint that he also relapsed into his former pagan beliefs. All the diplomatic achievements made since his coronation were lost. As a result of the war, Mindaugas was assassinated by the Order and Lithuania lapsed into political chaos.[PARAGRAPH:2]In 1295, a new dynasty rose: the Gediminids. The Gediminids were to rule Lithuania for the next several centuries. Vytenis, the first Gediminid ruler, was able to recapture lands lost after the death of Mindaugus, and established a defensive network along his border with the Teutonic Order. Lithuanian expansion reached its height under Gediminas, who annexed or vassalized most of Kieven Rus, and parts of the Golden Horde. Lithuania reached its peak under Vytautas the Great, who backed economic development of his state and introduced many reforms. Under his rule the Grand Duchy of Lithuania slowly became more centralized, as the governors loyal to Vytautas replaced local princes with dynastic ties to the throne. Under Vytautas, Lithuanian and Polish forces defeated the Teutonic Order.[PARAGRAPH:2]However, in the 16th century, Moscow began making aggressive expansion west, and Lithuania developed closer ties with Poland, eventually unifying under the Treaty of Lublin. However, after the partitions of Poland, Lithuania was annexed by Russia. During the Napoleonic Wars, French forces proclaimed a new Grand Duchy, which never materialized, as shorty afterwards Napoleon's forces were pushed west by the Russians, who again annexed Lithuania. Lithuania remained part of Russia until after World War I, where it was formed as a new Republic. During World War II, however, Soviet forces annexed Lithuania. Following a brief occupation by Nazi forces shortly afterwards, Lithuania was absorbed into the USSR. In the early 1990s, Lithuania restored its sovereignty and now continues to grow into an economically strong country.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]立陶宛1219年至1295年间的历史涉及立陶宛第一个国家立陶宛大公国的建立和早期历史。13世纪初标志着立陶宛史前史的结束。从这一点上讲，立陶宛的历史就记录在编年史、条约和其他书面文件中。1219年，21位立陶宛公爵与哈利奇·伏尔希尼亚签订了和平条约。这一事件被广泛认为是波罗的海部落团结和巩固的第一个证据[PARAGRAPH:2]在内曼河和尼利斯河之间统治着立陶宛南部的明多加斯公爵最终成为了这个国家的缔造者。在1236年的《利沃尼亚编年史》中，Mindaugas被称为立陶宛的统治者。他获得这个头衔的手段并不为人所知。1251年，Mindaugas同意接受洗礼并放弃对立陶宛西部一些土地的控制权，作为回报，他将获得一个王冠。正如承诺的那样，Mindaugas在1253年夏天的某个时候加冕（加冕礼的确切日期和地点不得而知），1251年教皇宣布的立陶宛王国已经完全建立。教皇英诺森四世支持民铎教，希望一个新的基督教国家能够阻止蒙古帝国的金帐汗国的入侵。1251年7月17日，教皇签署了两份至关重要的教皇公牛。其中一个命令切尔姆主教加冕明杜加斯为立陶宛国王，为立陶宛任命一名主教，并建造一座大教堂[PARAGRAPH:2]加冕后，Mindaugas立即将一些西部土地转让给利沃尼亚阶——萨莫吉亚、纳德鲁瓦和达尼瓦的一部分。关于在后来的几年中，明陀加是否给了罗马教团更多的土地，还有一些讨论。相对和平与稳定又持续了大约八年。Mindaugas利用这个机会集中精力向东方扩张。利沃尼亚教团利用这一时期巩固了他们对萨莫吉特土地的控制。萨摩吉人的回应是选举阿尔格米纳斯为他们的战争领袖。1259年，利沃尼亚骑士团输掉了斯库达斯战役，1260年，它又输了杜尔贝战役。第一次失利鼓励了塞米加利人的叛乱，后来的损失促使普鲁士人发动了一次反抗秩序的起义。在他的侄子特伦尼奥塔的鼓励下，明多加斯打破了与秩序的和平。一些编年史暗示他也重新回到他以前的异教徒信仰。他加冕以来所取得的所有外交成就都付诸东流了。战争的结果是，明杜加斯被骑士团暗杀，立陶宛陷入政治混乱[PARAGRAPH:2]1295年，一个新的王朝崛起：盖迪米尼王朝。在接下来的几个世纪里，盖迪米尼家族将统治立陶宛。维特尼斯，第一个盖迪米尼王朝的统治者，能够夺回明达古斯死后失去的土地，并在他与条顿教团的边界建立了一个防御网络。立陶宛的扩张在盖迪米纳斯（Gediminas）的领导下达到了顶峰，他吞并了基文罗斯的大部分地区，以及黄金部落的部分地区。立陶宛在维托塔斯大帝的领导下达到了顶峰，他支持国家的经济发展，并推行了许多改革。在他的统治下，立陶宛大公国逐渐变得更加集权化，忠于维托塔斯的总督们用与王位的王朝联系取代了当地的王子。在维托塔斯的领导下，立陶宛和波兰军队击败了条顿教团[PARAGRAPH:2]然而，在16世纪，莫斯科开始积极向西方扩张，立陶宛与波兰发展了更密切的关系，最终在《卢布林条约》下统一。然而，波兰分治后，立陶宛被俄罗斯吞并。拿破仑战争期间，法国军队宣布建立一个新的大公国，但这一点从未实现，因为不久之后，拿破仑的军队又被俄国人推向西部，俄国又吞并了立陶宛。立陶宛一直是俄罗斯的一部分，直到第一次世界大战后，立陶宛作为一个新的共和国成立。然而，在第二次世界大战期间，苏联军队吞并了立陶宛。在纳粹军队短暂占领后不久，立陶宛被并入苏联。1990年代初，立陶宛恢复了主权，现在继续发展成为一个经济强国。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_PEOPLES</Tag>
+		<English>Lithuanian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>立陶宛人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LITHUANIA_DESC</Tag>
+		<English>The Lithuanians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>立陶宛文明</Chinese>
+	</TEXT>
+</Civ4GameText>

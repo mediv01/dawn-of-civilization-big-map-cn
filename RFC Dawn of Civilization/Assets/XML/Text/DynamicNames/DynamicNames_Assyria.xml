@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARDIA_DESC</Tag>
+		<English>The Lombardia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ASHUR</Tag>
+		<English>Ashurbanipal</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述-阿什鲁米帕尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AISTULF</Tag>
+		<English>Aistulf</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第-Aistulf</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_SHORT_DESC</Tag>
+		<English>Assyria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_DESC</Tag>
+		<English>The Assyrians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ASSYRIA_EKAL_PEDIA</Tag>
+		<English>[TAB]The armies of Assyria had permanent bases called ekal masharti, which literally means "palace of the place for marshalling forces", in effect, "barracks". These were buildings with large courtyards for army purposes. They stored weapons, food and stationed men in these barracks.[PARAGRAPH:1]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]亚述的军队有一个永久性的基地，叫做埃卡尔·马沙蒂，字面意思是“集结军队的宫殿”，实际上是“兵营”。这些都是军队用的带有大庭院的建筑。他们在这些兵营里储存武器、食物和驻扎人员[PARAGRAPH:1]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_ADJECTIVE</Tag>
+		<English>Assyria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_ASS</Tag>
+		<English>Reduced Unit keep cost</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>减少军事单位维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_PEOPLES</Tag>
+		<English>Assyria Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚述人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARD_DEFAULT</Tag>
+		<English>Kingdom of Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARD</Tag>
+		<English>Kingdom of Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_ASS_TITLE</Tag>
+		<English>The Power of Militarism:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>战斗民族：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ASSYRIA_PEDIA</Tag>
+		<English>[TAB]Assyria was an ancient empire of W Asia. It developed around the city of Ashur, or Assur, on the upper Tigris River and south of the later capital, Nineveh.[PARAGRAPH:1]The nucleus of a Semitic state was forming by the beginning of the 3d millennium B.C., but it was overshadowed by the greatness of Sumer and Akkad. Ashur was Assyria's chief god, but the gods of the Babylonians and Hittites were also honored. In the 17th cent. B.C., Assyria expanded briefly, but it soon relapsed into weakness. The 13th cent. B.C. saw Assyria threatening the surrounding states, and under Tiglathpileser I Assyrian soldiers entered the kingdom centered about Urartu, took Babylonia, and crossed N Syria to reach the Mediterranean. This empire was, however, only ephemeral.[PARAGRAPH:1]Assyrian greatness was to wait until the 9th cent., when Ashurnasirpal II came into power. He was not only a vigorous and barbarously cruel conqueror who pushed his conquests N to Urartu and W to Lebanon and the Mediterranean, but he was also a shrewd administrator. Instead of merely making conquered kings pay tribute, he installed Assyrian governors so that he could have more control over the empire.[PARAGRAPH:1]Shalmaneser III attempted to continue this policy, but, although he exacted heavy tribute from Jehu of Israel and claimed many victories, he failed to establish hegemony over the Hebrews and their Aramaic-speaking allies. The basalt obelisk, called the Black Obelisk (British Mus.), describes the expeditions and conquests of Shalmaneser III. Raids from Urartu were resumed and grew more destructive after the death of Shalmaneser. Calah, the capital of Assyria during the reigns of Ashurnasirpal II and Shalmaneser III, has been excavated.[PARAGRAPH:1]In the 8th cent. B.C. conquest was pursued by Tiglathpileser III. He subdued Babylonia, defeated the king of Urartu, attacked the Medes, and established control over Syria. As an ally of Ahaz of Judah (who became his vassal), he defeated his Aramaic-speaking enemies centering at Damascus. His successor, Shalmaneser V, besieged Samaria, the capital of Israel, in 722-721 B.C., but it was Sargon, his son, who completed the task of capturing Israel. Sargon's victory at Raphia (720 B.C.) and his invasions of Armenia, Arabia, and other lands made Assyria indisputably one of the greatest of ancient empires.[PARAGRAPH:1]Sargon's son Sennacherib devoted himself to retaining the gains his father had made. He is particularly remembered for his warfare against his rebellious vassal, Hezekiah of Judah. Sennacherib's successor, Esar-Haddon, defeated the Chaldaeans, who threatened Assyria and carried his conquests (673-670) to Egypt, where he deposed Taharka and established Necho in power. Under Assurbanipal, Assyria reached its zenith and approached its fall. When Assurbanipal was fighting against the Chaldaeans and Elamites, an Egyptian revolt under Psamtik I was successful.[PARAGRAPH:1]Assurbanipal's reign saw the Assyrian capital of Nineveh reach the height of its splendor. The library of cuneiform tablets he collected ultimately proved to be one of the most important historical sources of antiquity. The magnificent Assyrian bas-reliefs reached their peak. The royal court was luxurious. Assyrian culture owed much to earlier Babylonian civilization, and in religion Assyria seems to have taken much from its southern neighbor and subject.[PARAGRAPH:1]Despite the magnificence of Assurbanipal's court, Assyria began a rapid decline during his reign. The military aspect of the empire was its most prominent feature, for Assyria was prepared for conflict from beginning to end. Because of the ever-present need for men to fight the incessant battles, agriculture suffered, and ultimately the Assyrians had to import food. The division of society into a fairly rigid three-class system was not unlike that of other early western Asian peoples (e.g., Babylonia), but it did not supply a solid base for the overgrown Assyrian state.[PARAGRAPH:1]The lavish expenditures of Assurbanipal on warfare and building drained the resources of the empire and contributed to its weakness. The king of the Medes, Cyaxares, and the Babylonian ruler Nabopolassar, joined forces and took Nineveh in 612 B.C. Under the son of Nabopolassar, Nebuchadnezzar, Babylonia was renewed in power, and the great-grandson of Cyaxares, Cyrus the Great, was to establish the Persian Empire, which owed much to the earlier Assyrian state.[PARAGRAPH:1]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]亚述是西亚的一个古老帝国。它是在底格里斯河上游和后来的首都尼尼微以南的亚舒尔市或阿舒尔市周围发展起来的[PARAGRAPH:1]一个闪米特国家的核心在公元前3千年开始形成，但它被苏美尔和阿卡德的伟大所掩盖。亚述的主神是亚述，但巴比伦人和赫人的神也受尊崇。公元前17世纪，亚述曾短暂扩张，但很快又陷入衰弱。公元前13世纪，看到亚述威胁着周围的国家，在提格拉特皮莱塞一世的领导下，亚述士兵进入以乌拉尔图为中心的王国，占领巴比伦尼亚，越过叙利亚北部到达地中海。然而，这个帝国只是昙花一现[PARAGRAPH:1]亚述人的伟大是要等到第九分钱，那时亚述人亚述人掌权。他不仅是一个充满活力和野蛮残忍的征服者，把他的征服北推到乌拉尔图，西到黎巴嫩和地中海，而且他还是一个精明的管理者。他不仅让被征服的国王进贡，还任命了亚述总督，以便对帝国有更多的控制权[PARAGRAPH:1]沙勒曼以色三世试图继续这一政策，但是，尽管他向以色列的耶户索取了大量的贡品，并取得了许多胜利，他没有建立起对希伯来人和他们的亚拉姆语盟友的霸权。玄武岩方尖碑，被称为黑方尖碑（不列颠穆斯），描述了沙勒曼内瑟三世的探险和征服。从乌拉尔图发动的突袭在沙勒曼内泽死后恢复，破坏力越来越大。阿拉，亚述首都亚述在亚述的首都亚述在亚述的亚述在亚述的首都亚述在亚述的首都亚述在亚述亚述的首都亚述在亚述亚述亚述亚述亚述在亚述亚述亚述亚述亚述在亚述亚述亚述亚述亚述亚述亚述首都卡拉[PARAGRAPH:1]公元前8世纪，征服被提格拉特皮莱塞三世追求。他征服了巴比伦尼亚，打败了乌拉尔图国王，攻击了米代人，并建立了对叙利亚的控制。作为犹大亚哈斯的盟友（亚哈斯成了他的附庸），他打败了以大马士革为中心说亚兰语的敌人。他的继任者沙勒曼内瑟五世在公元前722-721年包围了以色列首都撒马利亚，但完成占领以色列任务的是他的儿子萨尔贡。萨尔贡在拉斐亚（公元前720年）的胜利和他对亚美尼亚、阿拉伯和其他国家的入侵，使亚述成为最伟大的古代帝国之一[PARAGRAPH:1]萨尔贡的儿子塞纳切里布致力于保留他父亲所取得的成就。他因与他的叛逆附庸，犹大的希西家争战而被人记念。西拿基立的继任者以撒哈顿击败了威胁亚述的迦勒底人，并将他的征服（673-670年）带到埃及，在那里他废黜了塔哈卡，建立了尼科掌权。在阿舒巴尼帕尔的统治下，亚述达到了顶峰，并接近衰落。当阿舒巴尼帕尔与迦勒底人和埃兰人作战时，在《诗篇》一世统治下的埃及起义是成功的[PARAGRAPH:1]阿舒巴尼帕尔统治期间，亚述首都尼尼微达到了辉煌的顶峰。他所收集的楔形石板图书馆最终被证明是古代最重要的历史来源之一。宏伟的亚述浅浮雕达到了顶峰。皇家宫廷很豪华。亚述文化在很大程度上要归功于早期的巴比伦文明，在宗教上，亚述似乎从它的南部邻国和臣民那里得到了很多东西[PARAGRAPH:1]尽管阿舒巴尼帕尔的宫廷富丽堂皇，亚述在他的统治期间开始迅速衰落。帝国的军事方面是其最突出的特点，因为亚述自始至终都在为冲突做好准备。因为一直以来都需要人去打不断的战争，农业遭受了损失，最终亚述人不得不进口粮食。社会被划分为一个相当严格的三阶级制度，这与其他早期西亚人（如巴比伦尼亚）的社会划分没有什么不同，但它并没有为这个过度发展的亚述国家提供坚实的基础[PARAGRAPH:1]阿舒巴尼帕尔在战争和建筑上的巨额开支耗尽了帝国的资源，也导致了帝国的衰弱。公元前612年，玛代国王亚克萨雷斯和巴比伦统治者纳波帕拉萨尔联手攻占尼尼微。在纳波拉萨的儿子尼布甲尼撒的领导下，巴比伦尼亚重新掌权，而古萨雷斯的曾孙居鲁士大帝要建立波斯帝国，这在很大程度上要归功于早期的亚述国家[PARAGRAPH:1]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ASHUR_PEDIA</Tag>
+		<English>[H1]Ashurbanipal[\H1][NEWLINE][BOLD]King of Assyria[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.685 - 627 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ashurbanipal was the ruler of ancient Assyria at the height of Assyrian military and cultural accomplishments and is considered to be the last great king of Assyria. He is known in Greek writings as Sardanapalus and as Asnappeer or Osnapper in the Bible.[PARAGRAPH:1]Through military conquests Ashurbanipal also expanded Assyrian territory and its number of vassal states. However, of far greater importance to posterity was Ashurbanipal's establishment of a great library in the city of Nineveh. The military and territorial gains made by this ruler barely outlived him but the Library he established has survived partially intact. A collection of 20,000 to 30,000 cuneiform tablets containing approximately 1,200 distinct texts remains for scholars to study today.[PARAGRAPH:1]Ashurbanipal's library was not the first library of its kind but it was one of the largest and one of the ones to survive to the present day. Most of it is now in the possession of the British Museum or the Iraq Department of Antiquities.[PARAGRAPH:1]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]阿什鲁米帕尔[\H1][NEWLINE][BOLD]亚述国王[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]公元前685-627年[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][PARAGRAPH:1]阿什鲁米尼帕尔国王是古代亚述的统治者，在亚述军事和文化成就的鼎盛时期，他被认为是亚述最后一位伟大的国王。他在希腊著作中被称为撒旦那帕勒斯，在圣经中被称为Asnappeer或Osnapper[PARAGRAPH:1]通过军事征服，阿什鲁米尼帕尔还扩大了亚述领土及其附庸国的数量。然而，对后人来说更为重要的是阿什鲁米帕尔在尼尼微城建立了一个大图书馆。这位统治者在军事和领土上所取得的成就几乎没有超过他，但他建立的图书馆却保存完好。一个收集了20000到30000楔形文字板，包含大约1200个不同的文本，今天留给学者们研究[PARAGRAPH:1]阿什曼尼帕尔的图书馆并不是第一个这样的图书馆，但它是最大的图书馆之一，也是现存至今的图书馆之一。它现在是英国博物馆的大部分藏品[PARAGRAPH:1]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LOMBARDIA_SHORT_DESC</Tag>
+		<English>Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ASSYRIA_EKAL</Tag>
+		<English>Ekal Masharti</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Ekal Masharti</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LOMBARDIA_ADJECTIVE</Tag>
+		<English>Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第</Chinese>
+	</TEXT>
+</Civ4GameText>

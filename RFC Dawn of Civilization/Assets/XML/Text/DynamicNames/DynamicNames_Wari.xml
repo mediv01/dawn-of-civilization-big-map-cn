@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN_HELP</Tag>
+		<English>[ICON_BULLET]Great Person births require 50% less [COLOR_HIGHLIGHT_TEXT]Great Person Points[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]伟人诞生只需50%[COLOR_HIGHLIGHT_TEXT]伟人点[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR2</Tag>
+		<English>Build 3 barracks and colcas and connect your cities by road by 1000 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1000年前建成3个兵营和colcas，并用道路连接所有的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_REFINED_7POP_CITIES</Tag>
+		<English>Cities with Developing Culture and 5 Population: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>不低于5人口with developing culture的城市：%d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_WAR</Tag>
+		<English>+1 Food on tiles adjacent to Mountains.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>山峰邻近的地块+1食物</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_DEFAULT</Tag>
+		<English>Kingdom of Wari</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_WARI_600AD</Tag>
+		<English>It is the year 600 AD. The Wari Empire is in the middle of a cold war with their southern neighbors...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元600年。瓦里帝国正处于与南方邻国的冷战中。。。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUM_COLCAS</Tag>
+		<English>Colcas: %d1 / %d2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Colcas: %d1 / %d2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR2_TITLE</Tag>
+		<English>The First Andine Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>第一个安第斯帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_WARI</Tag>
+		<English>It is the year 400 AD. North of the flourishing Tiwanaku, the rist of the Wari Empire heralds what will soon become the first major Andean power struggle...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元400年。在繁荣的提瓦纳库北部，瓦里帝国的统治预示着不久将成为安第斯第一次主要的权力斗争。。。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_PEOPLES</Tag>
+		<English>Andean Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安第斯人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_FASCIST</Tag>
+		<English>Revolutionary Union of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1 革命联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONNECTED</Tag>
+		<English>All Cities Connected by Routes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>用道路连接所有的城市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR1</Tag>
+		<English>Acquire gold, dyes, cotton, and sheep and have at least 500 Culture by 900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年前拥有黄金，染料，棉花和绵羊资源并至少拥有500点文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_COMMUNIST</Tag>
+		<English>%s2 Revolutionary Movement</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2 革命政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_WAR_TITLE</Tag>
+		<English>The Power of Terraces:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>梯田耕作：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_DESC</Tag>
+		<English>The Wari</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_ADJECTIVE</Tag>
+		<English>Wari</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR3_TITLE</Tag>
+		<English>The Great Centers</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伟大的中心</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN</Tag>
+		<English>Gate of the Sun</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Gate of the Sun</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR3</Tag>
+		<English>Have four cities with developing culture and 5 population by 1100 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1100年前拥有4座不低于5人口城市with developing culture</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_WARI_SHORT_DESC</Tag>
+		<English>Wari</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WARI_CAPAC</Tag>
+		<English>Wari Capac</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里-瓦里·卡帕克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARI_PICTA_AUCAC</Tag>
+		<English>Picta Aucac</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Picta Aucac</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_WAR1_TITLE</Tag>
+		<English>Wari Arts</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>瓦里艺术</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WARI_COLCAS</Tag>
+		<English>Colcas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Colcas</Chinese>
+	</TEXT>
+</Civ4GameText>

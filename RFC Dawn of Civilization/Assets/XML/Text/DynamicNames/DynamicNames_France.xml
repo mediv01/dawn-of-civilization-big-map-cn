@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_POLAND</Tag>
+		<English>Duchy of Warsaw</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属华沙公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_SHORT_DESC</Tag>
+		<English>France</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_SPAIN</Tag>
+		<English>Spanish March</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属西班牙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_BABYLONIA</Tag>
+		<English>French Mandate of Mesopotamia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属美索不达米亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_AZTECS</Tag>
+		<English>Mesoamerican France</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属墨西哥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_INCA</Tag>
+		<English>Andean France</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属安第斯公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_DEPARTEMENTS_OF</Tag>
+		<English>D&#233;partements of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_CONGO</Tag>
+		<English>%s2 Equatorial Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属赤道王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_DESC</Tag>
+		<English>The French</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_NETHERLANDS</Tag>
+		<English>Batavian Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属巴达维亚共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_AMERICA</Tag>
+		<English>New France</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属新法兰西</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_ETHIOPIA</Tag>
+		<English>%s2 East Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属东非</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_QUEBEC</Tag>
+		<English>Qu&#233;bec</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>魁北克王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_HOLY_ROME</Tag>
+		<English>Confederation of the Rhine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属莱茵联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_NIGERIA</Tag>
+		<English>%s2 Dahomy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属尼日利亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_COMMUNIST</Tag>
+		<English>%s2 Commune</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1公社</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_NAME_MUGHALS</Tag>
+		<English>West India</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西印度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_EXILE</Tag>
+		<English>Free %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自由法国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_PEOPLES</Tag>
+		<English>Frankish Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰克人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_NAME_KHMER</Tag>
+		<English>Indochina</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属中南半岛</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_NAME_VIETNAM</Tag>
+		<English>Cochinchina</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属越南</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_MALI</Tag>
+		<English>%s2 West Africa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属西非</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_FRANKISH</Tag>
+		<English>Frankish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_PHOENICIA</Tag>
+		<English>French Mandate of Lebanon</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属中东</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_ADJECTIVE</Tag>
+		<English>French</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_FASCIST</Tag>
+		<English>%s2 State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_BYZANTIUM</Tag>
+		<English>Latin Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属拉丁王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_ENGLAND</Tag>
+		<English>Duchy of Normandy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属诺曼底</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_LOUISIANA</Tag>
+		<English>Louisiana</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>路易斯安那</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRENCH_ITALY</Tag>
+		<English>Cisalpine Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法属罗马</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_FRANCIA</Tag>
+		<English>Francia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法兰西</Chinese>
+	</TEXT>
+</Civ4GameText>

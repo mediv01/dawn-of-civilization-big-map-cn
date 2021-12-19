@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_FASCIST</Tag>
+		<English>%s2 State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_TAIFAS</Tag>
+		<English>Andalusian Taifas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安达卢西亚塔伊夫</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_MOROCCAN</Tag>
+		<English>Moroccan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩洛哥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_ALMOHAD</Tag>
+		<English>Almohad</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿尔蒙哈德</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_MOROCCO</Tag>
+		<English>Morocco</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩洛哥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORISH_MALI</Tag>
+		<English>Pashalik of Timbuktu</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>廷巴图克沙巴克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_FASCIST</Tag>
+		<English>%s2 State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2军政府</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORISH_ARABIA</Tag>
+		<English>East Umayyad Caliphate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东倭玛亚哈里发</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_DESC</Tag>
+		<English>The Moors</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩尔文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_DESC</Tag>
+		<English>The Moroccans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese></Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_EMIRATE_OF</Tag>
+		<English>Emirate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1酋长国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_SHORT_DESC</Tag>
+		<English>Moors</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARABIAN_NAME_ARABIA</Tag>
+		<English>Hejaz</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>汉志</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_PEOPLES</Tag>
+		<English>摩洛哥人</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩洛哥人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_ADJECTIVE</Tag>
+		<English>Moroccan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩洛哥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_ADJECTIVE</Tag>
+		<English>Moorish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOROCCO_SHORT_DESC</Tag>
+		<English>Morocco</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩洛哥</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MOORS_PEOPLES</Tag>
+		<English>Andalusian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩尔人</Chinese>
+	</TEXT>
+</Civ4GameText>

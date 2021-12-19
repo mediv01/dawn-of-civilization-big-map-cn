@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_SHORT_DESC</Tag>
+		<English>Italy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_LEAGUE</Tag>
+		<English>%s2 League</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2同盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_FASCIST</Tag>
+		<English>National Fascist %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法西斯%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_LOMBARD</Tag>
+		<English>Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_PAPAL_STATES</Tag>
+		<English>Papal States</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>教宗国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_MARITIME_REPUBLICS</Tag>
+		<English>%s2 Maritime Republics</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2海上共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_TUSCANY</Tag>
+		<English>Tuscany</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>托斯卡纳</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_ADJECTIVE</Tag>
+		<English>Italian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_DESC</Tag>
+		<English>The Italians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_PEOPLES</Tag>
+		<English>Lombard Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ITALY_DUCHY_OF</Tag>
+		<English>Duchy of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1公国</Chinese>
+	</TEXT>
+</Civ4GameText>

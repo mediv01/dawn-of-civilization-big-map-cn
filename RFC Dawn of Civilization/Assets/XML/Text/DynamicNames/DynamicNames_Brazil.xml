@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_DESC</Tag>
+		<English>The Brazilians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_SHORT_DESC</Tag>
+		<English>Brazil</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZILIAN_ARGENTINA</Tag>
+		<English>Transplatine Province</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拉丁联省</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_PEOPLES</Tag>
+		<English>Brazilian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_ADJECTIVE</Tag>
+		<English>Brazilian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_REPUBLIC</Tag>
+		<English>Federative Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1联邦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BRAZIL_FASCIST</Tag>
+		<English>United States of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1合众国</Chinese>
+	</TEXT>
+</Civ4GameText>

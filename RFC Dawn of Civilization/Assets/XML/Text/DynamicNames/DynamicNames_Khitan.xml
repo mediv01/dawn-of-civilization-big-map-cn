@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI3</Tag>
+		<English>Control or Vassalize Korea, Song, and Jurchen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>征服或附庸朝鲜，宋，女真</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI3_TITLE</Tag>
+		<English>Control or Vassalize Korea, Song, and Jurchen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>天下归一</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_ADJECTIVE</Tag>
+		<English>Kitanyes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRON_PAGODA</Tag>
+		<English>Ironpagoda</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>铁浮屠(Ironpagoda)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_JURCHEN</Tag>
+		<English>Empire of Jin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>金帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRON_PAGODA_PEDIA</Tag>
+		<English>[TAB] "Iron Pagoda Horsemen" were an elite unit of the Jurchen Jin dynasty that was instrumental in the 30 year supremacy of the Jin State. Though they only served for no more than two decades, they were pivotal in no less than a dozen crucial battles and hundreds of skirmishes that secured the Jin realm. According to Prince Wuzhu's doctrine, the Iron Pagoda Cavalry would be a dedicated and concentrated vanguard that would maximize the already deadly thrust of the Jin cavalry charges, acting both as his best shock cavalry as well as specialized heavy dragoons that also frequently fought as dismounted heavy infantry.
+		
+		The Iron Pagodas were completely armored from head to toes in heavy lamellar armor - with only their eyes and hands exposed. Their horses were also completely encased in armor as well, covered on all sides with thick barding of lamellar plates and padded cotton. In fact, each armored rider would be given two horses to ensure mobility throughout the ranks and in all situations. They were also given a versatile array of weapons, aside from their customary lance, commonly featuring a black pennon, they were also equipped with a bow and full quiver, as well as a large two handed sword. For their dual roles (see below) they were also equipped with many sapping tools, including picks, rope ladders, and shovels. - Dragon's Armory</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>“铁浮屠”是女真金朝的一支精锐部队，在金国30年的统治中发挥了重要作用。他们虽然只服役了不到二十年，但在保卫金国的十几次关键战役和数百次小规模战斗中发挥了关键作用。根据五铢太子的学说，铁浮屠将是一个专注和集中的先头部队，最大限度地发挥金骑兵的致命推力，作为他最好的突击骑兵和专业的重型龙骑兵，也经常作为徒步的重步兵作战[PARAGRAPH:2]这些铁塔从头到脚都穿着厚厚的片状盔甲，只露出眼睛和手。他们的马也完全被盔甲包裹，四周覆盖着厚厚的板状板和棉絮。事实上，每个装甲骑手都会得到两匹马，以确保在整个队伍和所有情况下的机动性。他们还得到了一系列多功能的武器，除了他们惯用的长矛，通常是一个黑色的便士旗，他们还配备了弓和充分的箭袋，以及一个大型双手剑。作为他们的双重角色（见下文），他们还配备了许多工具，包括镐、绳梯和铲子。-龙的军械库</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHI_TITLE</Tag>
+		<English>The Power of Two Administrations:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蕃汉分治：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_SHORT_DESC</Tag>
+		<English>Khitan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_KHI</Tag>
+		<English>Reduced city distance maintenance and city maintenance.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>减少城市距离维护费和城市维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI1</Tag>
+		<English>Establish trade with 3 Silk Road countries</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>与丝绸之路上的3个文明进行贸易</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AKUTA</Tag>
+		<English>Akuta</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿骨打</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI2</Tag>
+		<English>Have 3 Wats, 1 Mosque, and 1 Fire Temple in 1150 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1150年时拥有3个Wats, 1个Mosque和1个Fire Temple</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ABAOJI</Tag>
+		<English>Yelu abaoji</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>耶律阿保机</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_KHITAN</Tag>
+		<English>It's the year 901 AD. Abaoji has risen as head of the Yila tribe, the most powerful of all the Khitans to extablish the Liao Dynasty! The land of the steppes and northern forests is vast, but the aging dynasty of China has opened up new opprotunities as well. You must choose where to expand knowing that far flung vassals may one day rise against you.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元901年。耶律阿保机成为了契丹部落的首领，并建立了辽国。草原和北方森林的土地辽阔，但中国衰落的王朝也给我们带来了新的机遇。你必须选择扩张的地方，因为你知道远方的附庸有一天会起来反对你。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI2_TITLE</Tag>
+		<English>Have 3 Wats, 1 Mosque, and 1 Fire Temple in 1150 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_DESC</Tag>
+		<English>The Kitanyes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_DEFAULT</Tag>
+		<English>Khitan Federation</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹部落联盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KHITAN_PEOPLES</Tag>
+		<English>Khitan People</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>契丹人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_EMPIRE_OF_KHITAN</Tag>
+		<English>Empire of Liao</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>辽帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_KHI1_TITLE</Tag>
+		<English>Establish trade with 3 Silk Road countries</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>重建丝路</Chinese>
+	</TEXT>
+</Civ4GameText>

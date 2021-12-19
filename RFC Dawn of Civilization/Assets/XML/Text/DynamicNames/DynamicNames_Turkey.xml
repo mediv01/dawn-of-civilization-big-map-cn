@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_INDONESIA</Tag>
+		<English>Eyalet of Aceh</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚齐州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_OTTOMAN</Tag>
+		<English>Ottoman</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_BYZANTIUM</Tag>
+		<English>Eyalet of R&#251;m</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗姆州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_ARABIA</Tag>
+		<English>Sharifate of Mekke</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>麦加州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_RUSSIA</Tag>
+		<English>Eyalet of Yedisan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>耶迪桑州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_PHOENICIA</Tag>
+		<English>Eyalet of Syria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>叙利亚州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_PERSIA</Tag>
+		<English>Eyalet of Sharazor</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>沙拉佐州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_ETHIOPIA</Tag>
+		<English>Eyalet of Habes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈贝斯州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_EGYPT</Tag>
+		<English>Khedivate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_BABYLONIA</Tag>
+		<English>Eyalet of Mesopotamia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美索不达米亚州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_VASSAL</Tag>
+		<English>Eyalet of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1州</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKISH_GREECE</Tag>
+		<English>Eyalet of Rumelia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马尼亚州</Chinese>
+	</TEXT>
+</Civ4GameText>

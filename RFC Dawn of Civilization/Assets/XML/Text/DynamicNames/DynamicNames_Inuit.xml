@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_REPUBLIC</Tag>
+		<English>%s2 Circumpolar Council</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2环极议会</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED_HELP</Tag>
+		<English>[ICON_BULLET]Can settle on Ice (along Coast)</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]可以在沿岸冰块上定居</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_INU</Tag>
+		<English>Trade routes do not require roads. Extra Commerce on coastal city tiles.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>贸易路线不需要道路，沿海城市获得额外商业</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED</Tag>
+		<English>Inuit Dog Sled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特狗雪橇</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_KIVALLIQ</Tag>
+		<English>Kivalliq</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Kivalliq</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_WATER_OWN_CIV</Tag>
+		<English>Civilization with the most Coast, Ocean, and Lakes: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有最多的海洋、海滨和湖地块的文明：%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_FASCIST</Tag>
+		<English>%s2 Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO_HELP</Tag>
+		<English>[ICON_BULLET]+1 Food and Production from Ice and Tundra</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[ICON_BULLET]冰原和冻土+1食物和产能</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_COMMUNIST</Tag>
+		<English>Inuit's Circumpolar Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2环极共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_COUNCIL</Tag>
+		<English>%s2 Circumpolar Council</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2环极议会</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_DESC</Tag>
+		<English>The Inuit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU2_TITLE</Tag>
+		<English>Bounty of the North</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>北方的慷慨</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANGAKKUQ_QARGI</Tag>
+		<English>Qargi</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Qargi</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_ADJECTIVE</Tag>
+		<English>Inuit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因努伊特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_SHORT_DESC</Tag>
+		<English>Inuit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO</Tag>
+		<English>Igloo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>冰屋(Igloo)</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NUNAVIK</Tag>
+		<English>Nunavik</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Nunavik</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AUA</Tag>
+		<English>Aua</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特-Aua</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU1</Tag>
+		<English>Settle Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, and Nunavik by 900 AD</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年前定居Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, 和Nunavik</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU3_TITLE</Tag>
+		<English>Bladder Festival</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>膀胱节</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU2</Tag>
+		<English>Acquire 25 Resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有25个资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_BERING_SEA</Tag>
+		<English>Bering Sea</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>白令海峡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU1_TITLE</Tag>
+		<English>The Dorset</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>多赛特号</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RESOURCES</Tag>
+		<English>Resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_DORSET</Tag>
+		<English>Dorset</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>多塞特</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_INUIT</Tag>
+		<English>It is the year 200 BC. The Inuit's arrival to the Bering Strait marks the beginning of what will become one of the longest lasting cultures of the arctic.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>现在是公元前200年。因纽特人抵达白令海峡标志着北极地区最悠久文化之一的开始。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_INU_TITLE</Tag>
+		<English>The Power of Inuksuk:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特石堆：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_DEFAULT</Tag>
+		<English>%s1 %s2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1 %s2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_KALAALLIT_NUNAAT</Tag>
+		<English>Kalaallit Nunaat</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Kalaallit Nunaat</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_WORKED_RESOURCES</Tag>
+		<English>Worked %s1 resources: %d2 / %d3d</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>已开发的%s1资源：%d2 / %d3</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_INU3</Tag>
+		<English>Control and work more Ocean, Coast, and Lake tiles than any other civilization</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>拥有和开发比其他文明更多的海洋、海滨和湖工作地块</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_MOST_WATER_WORK_CIV</Tag>
+		<English>Civilization working the most Coast, Ocean, and Lakes: %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在海洋、海滨和湖地块上工作最多的文明：%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_URV_POL2_ANGAKKUQ</Tag>
+		<English>Acquire and work 3 Crab, Whale, and Fish Resources</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>开发3个螃蟹、鲸鱼和鱼类资源</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QIKIQTAALUK</Tag>
+		<English>Qikiqtaaluk</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Qikiqtaaluk</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_THULE</Tag>
+		<English>Thule</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>图尔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INUIT_PEOPLES</Tag>
+		<English>The Inuit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>因纽特人</Chinese>
+	</TEXT>
+</Civ4GameText>

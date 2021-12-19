@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_FASCIST</Tag>
+		<English>Empire of the %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SUDAN_DESC</Tag>
+		<English>The Sudanese</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏丹文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_KUSH</Tag>
+		<English>Kush</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>库什</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_COMMUNIST</Tag>
+		<English>Democratic Republic of the %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1民主共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_DESC</Tag>
+		<English>The Nubians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>努比亚文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SUDAN_SHORT_DESC</Tag>
+		<English>Sudan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏丹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SUDAN_ADJECTIVE</Tag>
+		<English>Sudanese</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏丹</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_REPUBLIC</Tag>
+		<English>Republic of the %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_DEFAULT</Tag>
+		<English>%s1 Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_ADJECTIVE</Tag>
+		<English>Nubian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>努比亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_SHORT_DESC</Tag>
+		<English>Nubia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>努比亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_MAKURIA</Tag>
+		<English>Makuria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马库里亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_NUBIA_PEOPLES</Tag>
+		<English>Nubian Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>努比亚人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FUNJ</Tag>
+		<English>Funj</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>丰吉</Chinese>
+	</TEXT>
+</Civ4GameText>

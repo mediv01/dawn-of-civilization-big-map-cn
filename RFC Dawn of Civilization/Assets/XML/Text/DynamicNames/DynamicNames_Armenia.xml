@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM</Tag>
+		<English>Double Production Speed of State [ICON_RELIGION] Buildings</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>所有[ICON_RELIGION]建筑建造速度加倍</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY</Tag>
+		<English>Vishap Infantry</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>“龙”步兵</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UP_ARM_TITLE</Tag>
+		<English>The Power of Piety:</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>虔诚之力：</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR</Tag>
+		<English>Khachkar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>纹刻石碑</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ASHOT</Tag>
+		<English>Ashot I</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚-阿修特一世</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_PEOPLES</Tag>
+		<English>Armenia Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_SHORT_DESC</Tag>
+		<English>Armenia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR_PEDIA</Tag>
+		<English>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Khachkar是一种雕刻着十字架、以玫瑰和植物纹理为装饰的纪念碑，它是亚美尼亚艺术的代表。建立纹刻石碑的最常见理由是为了祈福--为了拯救一名在世或者不在世的人的灵魂。它们有时也因为其他理由被建立，例如纪念一场军事胜利，纪念一所教堂落成，或者为了驱除瘟疫。[PARAGRAPH:1]第一个真正意义上的纹刻石碑诞生于9世纪，当时亚美尼亚人刚刚从阿拉伯人手里复国。已知年代最早的纹刻石碑被完成于879年，位于Garni，目的是献给阿修特一世的王妃。纹刻石碑艺术的创作高峰在12世纪到14世纪之间，蒙古人的入侵使这种艺术逐渐衰落，14世纪末时已销声匿迹。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ASHOT_PEDIA</Tag>
+		<English>[H1]Ashot I Bagratuni[\H1][NEWLINE][BOLD]King of Armenia[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] 862 - 890[PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Ashot I Bagratuni was an Armenian prince who, with Ashot II, oversaw Armenia's second golden age (862-977). He was born to Smbat the Confessor. His family, the Bagratunis, was one of the most powerful in the kingdom along with the Artsruni. Both families were struggling for power through warfare against Arab invaders. He was recognized by the Abbasid Caliph as Prince of Princes of Armenia in 862. His later crowning as King of Armenia was consented to by Abbasid Caliph al-Mu'tamid in 885, a move to prevent intrusion into the Armenian territory by Basil I Byzantine emperor, an Armenian. [PARAGRAPH:1]Thus, Ashot restored the Armenian monarchy and became Armenia's first king since 428. He secured the favor of both the Byzantines and Arabs but ultimately showed loyalty to Basil and chose to conclude an alliance with the Byzantines in 885. Ashot was not the sole Armenian prince of the region (other principalities existed in Syunik, Vaspurakan, and Taron) yet he commanded the full support of the other princes who recognized his authority in his becoming of king. With his status of king, his authority also carried over to the neighboring states of Georgia, Caucasian Albania and several of the Arab emirates. Ashot's reign was brief and upon his death in 890, he was succeeded by his son Smbat I.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[H1]阿修特一世[\H1][NEWLINE][BOLD]亚美尼亚国王[\BOLD][NEWLINE][BOLD]统治时间：[\BOLD]862-890[PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]阿修特一世是一位亚美尼亚王子，他和阿修特二世一起开创了亚美尼亚的第二个黄金时代（862-977）。他出生于Smbat the Confessor。他的家族，巴格拉图尼斯，和阿尔茨鲁尼家族一样，是王国中最强大的家族之一。两个家族都在通过与阿拉伯侵略者的战争争夺权力。公元862年，阿巴斯哈里发承认他为亚美尼亚王子。885年，阿巴斯哈里发穆塔米德（al-Mu'tamid）同意加冕为亚美尼亚国王，此举旨在防止亚美尼亚人巴兹尔一世（Basil I Byzantine）皇帝入侵亚美尼亚领土。[PARAGRAPH:1]因此，阿肖特恢复了亚美尼亚的君主制，成为亚美尼亚自428年以来的第一位国王。他获得了拜占庭人和阿拉伯人的青睐，但最终表现出对巴兹尔的忠诚，并选择在885年与拜占庭人结成联盟。阿肖特并不是该地区唯一的亚美尼亚王子（锡尼克、瓦斯帕拉坎和塔隆也有其他君主国），但他得到了其他王子的全力支持，这些王子承认了他成为国王的权威。随着他的国王地位，他的权力也传到了邻国格鲁吉亚、高加索阿尔巴尼亚和几个阿拉伯酋长国。阿修特的统治时间很短，890年去世后，他的儿子斯巴特一世接替了他。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY_PEDIA</Tag>
+		<English>[TAB]Vishaps ("Dragons") are medium infantry of the Armenian Highlands.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Vishaps ("龙")是亚美尼亚高地的常规步兵。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_DESC</Tag>
+		<English>The Arrmenians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_PEDIA</Tag>
+		<English>[TAB]Armenia has been populated since prehistoric times, and has been proposed as the site of the Biblical Garden of Eden. Armenia lies in the highlands surrounding the Biblical mountains of Ararat, upon which, as tradition states, Noah's Ark came to rest after the flood. [PARAGRAPH:1]Around 600 BC, the Kingdom of Armenia was established under the Orontid Dynasty, which existed under several local dynasties till AD 428. The kingdom reached its height between 95 - 66 BC under Tigranes the Great, becoming one of the most powerful kingdoms of its time. Throughout its history, the kingdom of Armenia enjoyed periods of independence intermitted with periods of autonomy subject to contemporary empires. Armenia's strategic location between two continents has subjected it to invasions by many peoples, including the Assyrians, Greeks, Romans, Byzantines, Arabs, Mongols, Persians, Ottoman Turks and Russians.[PARAGRAPH:1]In 301, Armenia became the first country in the world to adopt Christianity as its official state religion, while a number of Christian communities have been established in Armenia since 40 AD There had been various pagan communities before Christianity, but they were converted by an influx of Christian missionaries.[PARAGRAPH:1]After the fall of the Armenian kingdom in 428, most of Armenia was incorporated as a marzpanate within the Sassanid Empire. After the marzpanate period, Armenia emerged as an autonomous principality within the Arabic Empire, reuniting Armenian lands previously taken by the Byzantine Empire as well. The principality was ruled by the Prince of Armenia, recognized by the Caliph and the Byzantine Emperor. The Principality of Armenia lasted till 884, when it regained its independence from the weakened Arabic Empire.[PARAGRAPH:1]The reemerged Armenian kingdom was ruled by the Bagratuni dynasty, and lasted till 1045. In time, several areas of the Bagratid Armenia separated as independent kingdoms and principalities such as the Kingdom of Vaspurakan ruled by the House of Artsruni, while still recognizing the supremacy of the Bagratid kings.[PARAGRAPH:1]In 1045, the Byzantine Empire conquered Bagratid Armenia. Soon, the other Armenian states fell under Byzantine control as well. The Byzantine rule was short lived, as in 1071 Seljuk Turks defeated the Byzantines and conquered Armenia at the Battle of Manzikert, establishing the Seljuk Empire. To escape death or servitude at the hands of those who had assassinated his relative, Gagik II, King of Ani, an Armenian named Roupen with some of his countrymen went into the gorges of the Taurus Mountains and then into Tarsus of Cilicia. Here the Byzantine governor of the place gave them shelter where the Armenian Kingdom of Cilicia was eventually established.[PARAGRAPH:1]In 1230s Mongol Ilkhanate conquered the Zakaryan Principality, as well as the rest of Armenia. The Mongolian invasions were soon followed by those of other Central Asian tribes, which continued from 1200s till 1400s. After incessant invasions, each bringing destruction to the country, Armenia in time became weakened. In 1500s, the Ottoman Empire and Safavid Persia divided Armenia among themselves.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]亚美尼亚自史前时代就有人居住，并被提议作为圣经中伊甸园的所在地。亚美尼亚位于圣经中的阿拉拉特山脉周围的高地上，按照传统说法，诺亚方舟在洪水过后安息。[PARAGRAPH:1]大约在公元前600年，亚美尼亚王国建立在奥朗蒂德王朝之下，在几个地方王朝统治下一直存在到公元428年。这个王国在公元前95-66年间在提格拉尼大帝的统治下达到顶峰，成为当时最强大的王国之一。在其历史上，亚美尼亚王国享有独立时期，其间有服从于当代帝国的自治时期。亚美尼亚位于两大洲之间，地理位置优越，受到许多人的侵略，包括亚述人、希腊人、罗马人、拜占庭人、阿拉伯人、蒙古人、波斯人、奥斯曼土耳其人和俄罗斯人[PARAGRAPH:1]公元301年，亚美尼亚成为世界上第一个将基督教作为官方国教的国家，虽然自公元40年以来，亚美尼亚已经建立了许多基督教社区，但在基督教之前就有各种异教徒社区，但他们被基督教传教士的涌入所改变[PARAGRAPH:1]公元428年亚美尼亚王国垮台后，亚美尼亚大部分地区被并入萨珊帝国。在马尔茨帕纳特时期之后，亚美尼亚成为阿拉伯帝国内的一个自治公国，统一了以前被拜占庭帝国占领的亚美尼亚土地。这个公国由亚美尼亚王子统治，得到哈里发和拜占庭皇帝的承认。亚美尼亚公国持续到884年，从衰弱的阿拉伯帝国中恢复独立[PARAGRAPH:1]重新合并的亚美尼亚王国由巴格拉图尼王朝统治，持续到1045年。随着时间的推移，巴格拉德亚美尼亚的几个地区作为独立的王国和公国分离开来，比如由阿尔茨鲁尼家族统治的瓦斯帕拉坎王国，同时仍然承认巴格拉德国王的至高无上地位[PARAGRAPH:1]1045年，拜占庭帝国征服了巴格拉迪亚美尼亚。很快，其他亚美尼亚州也落入拜占庭的控制之下。拜占庭的统治是短暂的，因为1071年塞尔柱土耳其人打败了拜占庭人，在曼齐克特战役中征服了亚美尼亚，建立了塞尔柱帝国。为了逃避那些暗杀他亲戚的人的死亡或奴役，阿尼国王加吉克二世，一个名叫鲁本的亚美尼亚人和他的一些同胞进入了金牛座山脉的峡谷，然后进入了西里西亚的塔苏斯。在这里，拜占庭统治者为他们提供庇护，亚美尼亚的西里西亚王国最终在这里建立[PARAGRAPH:1]1230年，蒙古伊尔汗国征服了扎卡良公国，以及亚美尼亚的其他地区。蒙古的入侵很快就被中亚其他部落的侵略所取代，从1200年代一直持续到14世纪，在不断的入侵，每次都给国家带来破坏之后，亚美尼亚最终变得虚弱起来。在15世纪，奥斯曼帝国和萨非王朝波斯将亚美尼亚瓜分。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_ADJECTIVE</Tag>
+		<English>Armenia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚</Chinese>
+	</TEXT>
+</Civ4GameText>

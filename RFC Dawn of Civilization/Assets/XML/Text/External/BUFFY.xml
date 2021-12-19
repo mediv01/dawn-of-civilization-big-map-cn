@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_REQUIRED</Tag>
+		<English>[COLOR_WARNING_TEXT](Required)[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT](Required)[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSSETTINGS_HOVER</Tag>
+		<English>When checked, BUFFY warnings are shown on the Settings tab of the Victory Screen.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, BUFFY warnings are shown on the Settings tab of the Victory Screen.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFY_INVALID_HOF</Tag>
+		<English>[COLOR_WARNING_TEXT]HOF Warning:[COLOR_REVERT] This game is not valid for HOF use. See the Settings page of the Victory screen for details.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]HOF Warning:[COLOR_REVERT] This game is not valid for HOF use. See the Settings page of the Victory screen for details.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_BALANCED_RESOUCES_NOT_ALLOWED</Tag>
+		<English>[COLOR_WARNING_TEXT]Balanced resources not allowed[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Balanced resources not allowed[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_MAC</Tag>
+		<English>[COLOR_WARNING_TEXT]Mac Players cannot submit HoF Entries[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Mac Players cannot submit HoF Entries[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSDAWNOFMAN_TEXT</Tag>
+		<English>Warnings on Dawn of Man</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Warnings on Dawn of Man</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_MULTI_PLAYER_NOT_ALLOWED</Tag>
+		<English>[COLOR_WARNING_TEXT]Multi-player games not allowed[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Multi-player games not allowed[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_TOO_FEW_OPPONENTS</Tag>
+		<English>[COLOR_WARNING_TEXT]%d1 or more opponents are required for a %s2[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]%d1 or more opponents are required for a %s2[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_CHECKSUM_FAILED</Tag>
+		<English>[COLOR_WARNING_TEXT]Failed to check CRCs.[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Failed to check CRCs.[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_NOT_VALID</Tag>
+		<English>This game is not valid for HOF use. See the [COLOR_WARNING_TEXT]highlighted[COLOR_REVERT] in the boxes below for the specific invalid settings.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>This game is not valid for HOF use. See the [COLOR_WARNING_TEXT]highlighted[COLOR_REVERT] in the boxes below for the specific invalid settings.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSDAWNOFMAN_HOVER</Tag>
+		<English>When checked, BUFFY warnings are shown on the Dawn of Man screen.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, BUFFY warnings are shown on the Dawn of Man screen.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSSETTINGS_TEXT</Tag>
+		<English>Warnings on Settings tab</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Warnings on Settings tab</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING</Tag>
+		<English>HOF Warning</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>HOF Warning</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_MULT_LEADERS</Tag>
+		<English>[COLOR_WARNING_TEXT]%s1 has been chosen %d2 times[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]%s1 has been chosen %d2 times[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_DLL_MISSING</Tag>
+		<English>[COLOR_WARNING_TEXT]The BUFFY DLL is missing.[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]The BUFFY DLL is missing.[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_INSTALL_LOCATION</Tag>
+		<English>[COLOR_WARNING_TEXT]BUFFY must be installed to:[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]BUFFY must be installed to:[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_NOT_ALLOWED</Tag>
+		<English>[COLOR_WARNING_TEXT](Not allowed)[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT](Not allowed)[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_VICTORY_CONDITIONS</Tag>
+		<English>[COLOR_WARNING_TEXT]All Victory Conditions must be enabled. The following are missing:[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]All Victory Conditions must be enabled. The following are missing:[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__ENABLED_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Enabled</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_CHECKSUM_DIFFERENT</Tag>
+		<English>[COLOR_WARNING_TEXT]The assets are different from a standard install. Contact the HOF staff.[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]The assets are different from a standard install. Contact the HOF staff.[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_BUFFY__ENABLED_HOVER</Tag>
+		<English>When checked, BUFFY is in operation.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>When checked, BUFFY is in operation.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_NO_TEAMS</Tag>
+		<English>[COLOR_WARNING_TEXT]Team play is not allowed[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Team play is not allowed[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_CHECKSUM_SKIPPED</Tag>
+		<English>[COLOR_WARNING_TEXT]Skipped Checksum.[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Skipped Checksum.[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_TOO_MANY_OPPONENTS</Tag>
+		<English>[COLOR_WARNING_TEXT]%d1 or less opponents are required for a %s2[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]%d1 or less opponents are required for a %s2[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFY_INVALID_HOF_GOTM</Tag>
+		<English>[COLOR_WARNING_TEXT]Warning:[COLOR_REVERT] This game is not valid for HOF or GOTM use.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]Warning:[COLOR_REVERT] This game is not valid for HOF or GOTM use.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUFFYWARNING_CHECKSUM_MISSING</Tag>
+		<English>[COLOR_WARNING_TEXT]CRCs are missing. This game can't be used. Check Locked Modified Assets if unchecked.[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]CRCs are missing. This game can't be used. Check Locked Modified Assets if unchecked.[COLOR_REVERT]</Chinese>
+	</TEXT>
+</Civ4GameText>

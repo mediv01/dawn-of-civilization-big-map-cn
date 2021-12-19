@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_PHOENICIA</Tag>
+		<English>Eyalet of Syria</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属叙利亚自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_ARABIA</Tag>
+		<English>Sharifate of Mekke</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属麦加自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_ISRAEL</Tag>
+		<English>Mutasarrifate of Jerusalem</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属耶路撒冷保护区</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMANS_OTTOMAN</Tag>
+		<English>Ottoman</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_BABYLONIA</Tag>
+		<English>Eyalet of Mesopotamia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>&gt;奥斯曼属美索不达米亚自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_RUS'</Tag>
+		<English>Cossack Hetmanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属哥萨克自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_VASSAL</Tag>
+		<English>Eyalet of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属%s1自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_COMMUNIST</Tag>
+		<English>National Democratic Popular %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1民主社会主义联邦</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_ETHIOPIA</Tag>
+		<English>Eyalet of Habes</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属哈贝斯自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_FASCIST</Tag>
+		<English>Pan-Turkic Empire</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泛突厥帝国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_INDONESIA</Tag>
+		<English>Eyalet of Aceh</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属亚齐自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_BYZANTIUM</Tag>
+		<English>Eyalet of R&#251;m</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属伊斯坦布尔自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_SHORT_DESC</Tag>
+		<English>Turkey</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>土耳其</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_EGYPT</Tag>
+		<English>Khedivate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属%s1自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_RUSSIA</Tag>
+		<English>Eyalet of Yedisan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属耶迪桑自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_DEFAULT</Tag>
+		<English>Sublime %s2 State</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2苏丹国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_ADJECTIVE</Tag>
+		<English></English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_ISLAMIC_REPUBLIC</Tag>
+		<English>Islamic %s2 Democracy</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2伊斯兰民主共和国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_PERSIA</Tag>
+		<English>Eyalet of Sharazor</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属沙拉佐自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_DESC</Tag>
+		<English>The Ottomans</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_GREECE</Tag>
+		<English>Eyalet of Rumelia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼属罗马利亚自治领</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_HUNGARY</Tag>
+		<English>Eastern Hungarian Kingdom</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东匈牙利王国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKEY_PEOPLES</Tag>
+		<English>Ottoman Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼人</Chinese>
+	</TEXT>
+</Civ4GameText>

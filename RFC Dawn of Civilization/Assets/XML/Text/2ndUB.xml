@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONGO_WENE_PEDIA</Tag>
+		<English>[TAB]In Kongo, villages were grouped in wene, small states, led by awene (plural of mwene) or mani to the Portuguese. The vata (village), referred to as libata in Kongo documents and by the Portuguese in the sixteenth century, served as Kongo's basic social unit after the family. Nkuluntu, or mocolunto to the Portuguese, chiefs headed the villages. The one to two hundred citizens per village migrated about every ten years to accommodate soil exhaustion. Communal land-ownership and collective farms produced harvests divided by families according to the number of people per household. The nkuluntu received special premium from the harvest before the division.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在Kongo，小州wene的村庄被分组，由awene（mwene的复数形式）或mani（葡萄牙人）领导。瓦塔（村庄）在孔戈文献中被称为libata，在十六世纪被葡萄牙人称为libata，是Kongo继家庭之后的基本社会单位。恩库伦图，即葡萄牙人的莫克伦托，酋长们领导着这些村庄。每个村庄大约每十年迁移一到两百名居民以适应土壤枯竭。集体土地所有权和集体农场产生的收成是按照每户人口的多少按家庭划分的。恩库伦图在分队前从收割中获得了特别的溢价。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA_PEDIA</Tag>
+		<English>[TAB]The typical form of company was the so-called Collegantia. Within its frame a silent partner introduced about three quarters of the capital investment, the active partner, who conducted the trade, introduced the rest. Aims, responsibility assignment and shares were fixed before the journey being started, but the active partner could also reinvest his gains during the same journey. In a way silent and active partner were only roles that were fixed before each adventure, in which several silent partners could dare their luck. This way the risks diminished and the opportunities to accumulate capital increased. Close relationships and dependencies were developed and as a consequence family partnerships were largely preferred.[PARAGRAPH:1]Not before the Late Middle Ages - and thus very late in comparison to Tuscany - veritable societates prevailed, companies conceived for longer periods. In addition double-entry bookkeeping enhanced the possibilities to stretch initiatives into rather far away countries by founding outposts or factories, and by enhancing controlling. Directing activities and intensification of local contacts were facilitated this way, too.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公司的典型形式是所谓的合群。在它的框架内，一个沉默的合伙人引入了大约四分之三的资本投资，而负责交易的积极合伙人则引入了其余的部分。在旅程开始之前，目标、责任分配和份额都是固定的，但积极的合伙人也可以在同一旅程中将其收益进行再投资。在某种程度上，沉默和积极的伙伴是唯一的角色，在每一次冒险之前，几个沉默的伙伴可以敢于碰碰运气。这样一来，风险就降低了，积累资本的机会就增加了。建立了密切的关系和依赖关系，因此，家庭伙伴关系在很大程度上是首选[段落：1]在中世纪晚期之前，也就是说，与托斯卡纳相比，真正意义上的社会已经盛行，公司的构想期更长。此外，复式簿记通过建立前哨站或工厂，并通过加强控制，增强了将倡议扩展到遥远国家的可能性。这种方式也促进了指导活动和加强当地联系。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN</Tag>
+		<English>Kremlin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>俄罗斯内城</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_AGORA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Agora[COLOR_REVERT], the Greek replacement for the [COLOR_BUILDING_TEXT]Market[COLOR_REVERT], increases the science output and allows you to hire one [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialist.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]希腊集市[COLOR_REVERT]是希腊[COLOR_BUILDING_TEXT]市场的替代品[COLOR_BUILDING_TEXT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_YAM</Tag>
+		<English>Yam</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>蒙古邮驿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS</Tag>
+		<English>Mountain Fortress</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高丽堡垒</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROME_CASTRA</Tag>
+		<English>Castrum</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马兵营</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIKING_MEADHALL_PEDIA</Tag>
+		<English>[TAB]In ancient Scandinavia and Germanic Europe a mead hall or feasting hall was initially simply a large building with a single room. From the fifth century to early medieval times such a building was the residence of a lord and his retainers. The mead hall was generally the great hall of the king.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在古代斯堪的纳维亚半岛和日耳曼的欧洲，米德厅或宴会厅最初只是一个有一个房间的大型建筑。从五世纪到中世纪早期，这样的建筑是一位君主和他的侍从的住所。米德大厅通常是国王的大殿。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_AGORA_PEDIA</Tag>
+		<English>[TAB]In Greek, "agora" means "place of gathering." Agoras appeared in all of the Greek city-states ("polis") of the classical period, serving as marketplaces where merchants and artisans congregated to put their wares on sale. Agoras were much more than mere places of business, however. Everybody came to the agoras, and here much of the business of the city-state was concluded. Here politicians met the citizenry to debate policy. Here teachers congregated with their students. Socrates could often be found in the Athenian agora, teaching his philosophy in the streets to anyone who would listen. In short, agoras were the heart and soul of the city-state.[PARAGRAPH:1]The best surviving example of an agora can be found in Athens. Located near the high ground of the Acropolis, the agora contains the ruins of several great temples, most notably the Temple of Hephestus (Thesion). The original Athenian agora was destroyed during the Persian invasion of 480 BC; it was entirely rebuilt during the Athenian golden age that took place in the decades that followed. Today the agora is one of the most popular destinations for tourists visiting Athens.[PARAGRAPH:1]In this scenario the agoras perform the same function as marketplaces in the main game.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在希腊语中，“agora”是指“聚集地”。在古典时期，所有希腊城邦（polis）都出现了广场，作为商人和工匠聚集在一起出售商品的市场。然而，广场不仅仅是商业场所。每个人都来到广场，城邦的大部分事务都在这里结束了。在这里，政客们与市民会面，讨论政策。在这里，老师们和学生们聚集在一起。苏格拉底经常出现在雅典的广场上，在街上向任何愿意倾听的人传授他的哲学。简言之，广场是城邦的核心和灵魂[段落：1]雅典是现存最好的广场。广场位于卫城高地附近，有几座大型寺庙的遗迹，最著名的是赫菲斯托斯神庙（Thesion）。最初的雅典广场在公元前480年波斯人入侵期间被摧毁；它在随后几十年里的雅典黄金时代被完全重建。今天，广场是雅典游客最受欢迎的目的地之一[段落：1]在这个场景中，广场与主游戏中的市场具有相同的功能。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_OPERA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], increase a city's cultural output. They also increase the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Dye[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Hit Singles[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Marble[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]罗马剧场[COLOR_REVERT]罗马剧场[COLOR_REVERT]取代了[COLOR_BUILDING_TEXT]剧院[COLOR_REVERT]，增加了城市的文化产出。他们还可以使用[COLOR_HIGHLIGHT_TEXT]染料[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]点击单曲[COLOR_REVERT]或[COLOR_HIGHLIGHT_TEXT]大理石[COLOR_REVERT]来增加城市的幸福感。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Qila[COLOR_REVERT], the Mughal replacement for the [COLOR_BUILDING_TEXT]Star Fort[COLOR_REVERT], provides experience for gunpowder units.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Qila[COLOR_REVERT]是莫卧儿帝国[COLOR_BUILDING_TEXT]星堡的替代品，为火药部队提供经验。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDONESIA_PENDOPO</Tag>
+		<English>Pendopo</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印尼公民广场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDIA_SHRENI_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Shreni[COLOR_REVERT], the Indian replacement for the [COLOR_BUILDING_TEXT]Trading Post[COLOR_REVERT], provides health.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]印度贸易站[COLOR_REVERT]是印度对[COLOR_BUILDING_TEXT]交易站[COLOR_REVERT]的替代品，提供健康。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOORS_KASBAH</Tag>
+		<English>Kasbah</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>摩尔城墙</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TURKS_BAZAAR_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Bazaar[COLOR_REVERT], the Turkish replacement for the [COLOR_BUILDING_TEXT]Market[COLOR_REVERT], provides five commerce.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]突厥巴扎[COLOR_REVERT]是土库曼市场[COLOR_BUILDING_TEXT]市场的替代品，提供五种商业。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARAPPAN_SEWER_PEDIA</Tag>
+		<English>[TAB]The Indus Valley Civilization in Asia shows early evidence of public water supply and sanitation. The system the Indus developed and managed included a number of advanced features. A typical example is the Indus city of Lothal (c. 2350 BCE). In Lothal all houses had their own private toilet which was connected to a covered sewer network constructed of brickwork held together with a gypsum-based mortar that emptied either into the surrounding water bodies or alternatively into cesspits, the latter of which were regularly emptied and cleaned.[PARAGRAPH:2]The urban areas of the Indus Valley civilization included public and private baths. Sewage was disposed through underground drains built with precisely laid bricks, and a sophisticated water management system with numerous reservoirs was established. In the drainage systems, drains from houses were connected to wider public drains.[PARAGRAPH:2]The earliest evidence of urban sanitation was seen in Harappa, Mohenjo-daro, and the recently discovered Rakhigarhi of Indus Valley civilization. This urban plan included the world's first urban sanitation systems. Within the city, individual homes or groups of homes obtained water from wells. From a room that appears to have been set aside for bathing, waste water was directed to covered drains, which lined the major streets.[PARAGRAPH:2]Devices such as shadoofs and sakias were used to lift water to ground level. Ruins from the Indus Valley Civilization like Mohenjo-daro in Pakistan and Dholavira in Gujarat in India had settlements with some of the ancient world's most sophisticated sewage systems. They included drainage channels, rainwater harvesting, and street ducts.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚洲的印度河流域文明显示了公共供水和卫生设施的早期证据。印度开发和管理的系统包括许多先进的功能。一个典型的例子是洛萨的印度城（约公元前2350年）。在洛萨，所有的房子都有自己的私人厕所，厕所连接到一个有盖的下水道网，这个下水道网是用砖砌成的，用石膏基的灰浆固定在一起，然后排入周围的水体或污水坑，后者定期清空和清理[段落：2]印度河流域文明的城市地区包括公共和私人浴室。污水通过用精确铺设的砖砌成的地下排水沟进行处理，并建立了一个拥有众多水库的复杂水管理系统。在排水系统中，房屋的排水管与更宽的公共排水管相连[段落：2]城市卫生最早的证据出现在哈拉帕、莫亨乔·达罗和最近发现的印度河流域文明的拉基加希。这个城市计划包括世界上第一个城市卫生系统。在城市里，个别家庭或家庭团体从水井取水。从一个似乎是专门用来洗澡的房间里，废水被引导到街道两旁的有盖排水沟[段落：2]诸如shadoofs和sakias等设备被用来将水提升到地面。印度河流域文明的遗迹，如巴基斯坦的莫亨乔·达罗（Mohenjo daro）和印度古吉拉特邦（Gujarat）的多拉维拉（Dholavira）等，都有一些古代世界上最复杂的污水处理系统。它们包括排水渠、雨水收集和街道管道。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARGENTINA_ESTANCIA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Estancia[COLOR_REVERT], the Argentian replacement for the [COLOR_BUILDING_TEXT]Stable[COLOR_REVERT], provides a free specialist for every [COLOR_HIGHLIGHT_TEXT]Pasture[COLOR_REVERT] in its city radius.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]阿根廷牧场[COLOR_REVERT]是[COLOR_BUILDING_TEXT]马厩[COLOR_REVERT]的阿根廷替代品，为其城市半径内的每个[COLOR_HIGHLIGHT_TEXT]牧场[COLOR_REVERT]提供免费专家。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROME_CASTRA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Castrum[COLOR_REVERT], the Roman replacement for the [COLOR_BUILDING_TEXT]Barracks[COLOR_REVERT] provides experience for [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT] and [COLOR_UNIT_TEXT]Siege Units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Castrum[COLOR_REVERT]是罗马帝国对[COLOR_BUILDING_TEXT]军营[COLOR_REVERT]和[COLOR_UNIT_TEXT]近战部队[COLOR_REVERT]的罗马替代品。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_AGORA</Tag>
+		<English>Agora</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊集市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUGHAL_FORT</Tag>
+		<English>Qila</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧尔星堡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLAND_FOLWARK</Tag>
+		<English>Folwark</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波兰庄园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEXICO_MENDICANT_ORDER_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Mendicant Order[COLOR_REVERT], the Mexican replacement for the [COLOR_BUILDING_TEXT]Hospital[COLOR_REVERT], increases health and provides a food bonus.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Mendicant Order[COLOR_REVERT]是墨西哥对[COLOR_BUILDING_TEXT]医院的替代品，可以增加健康并提供食物奖励。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TURKS_BAZAAR</Tag>
+		<English>Bazaar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴扎市场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TURKS_BAZAAR_PEDIA</Tag>
+		<English>[TAB]Ottoman bazaars are lively and crowded places with hundreds of stalls, and the air is filled with the cries of merchants trying to entice wary customers to purchase their goods. Virtually anything imaginable can be found in markets, from food to clothing, DVDs, rugs, perfume, furniture, and so forth. Such places can be perilous for the uninitiated, for the merchants will seek to wring out the largest sum possible for their wares, and a customer who is not versed in the fine art of haggling is very likely to get taken for every penny he or she has. Bazaars have existed virtually unchanged in Arabian cities for centuries. The Grand Bazaar in Istanbul, Turkey, covers some 60 streets and contains around 400 shops. The Grand Bazaar in Tehran, Iran, has been around in one form or another for over a thousand years: with over 10 km of corridors, it is the largest covered neighborhood in the world.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥斯曼集市是一个热闹而拥挤的地方，有数百个摊位，空气中弥漫着商人的叫声，试图吸引谨慎的顾客购买他们的商品。几乎所有能想象得到的东西都能在市场上找到，从食物到衣服，DVD，地毯，香水，家具等等。这样的地方对不熟悉的人来说是危险的，因为商人会想方设法为他们的商品榨取尽可能大的金额，而一个不精通讨价还价艺术的顾客很可能会因为他或她所拥有的每一分钱而被欺骗。几个世纪以来，阿拉伯城市中的集市几乎没有变化。土耳其伊斯坦布尔的大集市覆盖约60条街道，约有400家商店。伊朗德黑兰的大集市已经以一种或另一种形式存在了一千多年：它有超过10公里的走廊，是世界上最大的有盖社区。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLAND_FOLWARK_PEDIA</Tag>
+		<English>[TAB]Folwarks are giant Polish farms that were operated in the Polish-Lithuanian Commonwealth from the 14th century into the 20th. They were used to produce a surplus of food. The first folwarks were created on church and monastery owned grounds, but were later adopted by nobility and rich peasants. The creation of folwarks was boosted by a growing demand for grain and its high profit. Folwark-based grain export was an important part of the economy of the Polish-Lithuanian commonwealth.[PARAGRAPH:1]The fall of agriculture goods prices in the end of the 17th century marked the start of a crisis for the folwark related economy. The noble's attempt to increase use of folwarks only hurt the economic crisis more. Until the 18th century, folwarks remained the basis for Polish noble's economic and political power. After the abolition of serfdom in Poland, folwarks used paid labor. Folwarks were abolished by the People's Republic of Poland with the PKWN decree of 6 September 1944 about agricultural reform.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Folwarks是波兰的大型农场，从14世纪到20世纪在波兰-立陶宛联邦经营。它们被用来生产过剩的食物。第一批民间文学是在教会和修道院拥有的土地上创作的，但后来被贵族和富农所采用。对粮食需求的增长和粮食的高利润推动了民间文学的产生。以Folwark为基础的粮食出口是波兰-立陶宛联邦经济的重要组成部分[段落：1]17世纪末农产品价格的下跌标志着与福瓦克相关的经济危机的开始。贵族试图增加民间文学的使用只会对经济危机造成更大的伤害。直到18世纪，民俗仍然是波兰贵族经济和政治权力的基础。波兰废除农奴制后，福尔瓦克人使用有偿劳动。波兰人民共和国根据1944年9月6日关于农业改革的PKWN法令废除了Folwarks。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INCA_STONECUTTER_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Stone Cutter[COLOR_REVERT], the Incan replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], doesn't increase the city's unhealth, it increases the happiness with access to [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT] and it can be build very quickly if [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT] is available.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]印加锻造厂[COLOR_REVERT]，[COLOR_BUILDING_TEXT]Forge[COLOR_REVERT]的印加替代品不会增加城市的不健康，它可以通过使用[COLOR_HIGHLIGHT_TEXT]石头[COLOR_REVERT]来增加幸福感，如果有[COLOR_HIGHLIGHT_TEXT]石头[COLOR_REVERT]，它可以非常快速地建造。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THAI_FLOATING_MARKET_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Floating Market[COLOR_REVERT], the Thai replacement for the [COLOR_BUILDING_TEXT]Levee[COLOR_REVERT], increases commerce yield on riverside tiles.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]泰国浮动市场[COLOR_REVERT]，泰国替代[COLOR_BUILDING_TEXT]堤坝[COLOR_REVERT]，增加了河边瓷砖的商业收益。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRAZIL_SAMBADROME_PEDIA</Tag>
+		<English>[TAB]Samba is a Brazilian dance and musical genre originating in Bahia, Brazil, and with its roots in Rio de Janeiro and Africa via the West African slave trade and African religious traditions. It is recognized around the world as a symbol of Brazil and the Brazilian Carnival. Considered one of the most popular Brazilian cultural expressions, samba has become an icon of Brazilian national identity. The Bahian Samba de Roda (dance circle), which became a UNESCO Heritage of Humanity in 2005, is the main root of the samba carioca, the samba that is played and danced in Rio de Janeiro.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]桑巴舞是一种巴西舞蹈和音乐流派，起源于巴西巴伊亚，通过西非奴隶贸易和非洲宗教传统在里约热内卢和非洲扎根。它是全世界公认的巴西和巴西狂欢节的象征。桑巴被认为是最受欢迎的巴西文化表达方式之一，已成为巴西民族认同的象征。巴伊安桑巴舞（舞蹈圈）于2005年成为联合国教科文组织人类遗产，是里约热内卢桑巴舞的主要根源。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDONESIA_PENDOPO_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Pendopo[COLOR_REVERT], the Indonesian replacement for the [COLOR_BUILDING_TEXT]Civic Square[COLOR_REVERT], allows you to hire one [COLOR_HIGHLIGHT_TEXT]Engineer[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]印尼公民广场[COLOR_REVERT]是印度尼西亚的[COLOR_BUILDING_TEXT]公民广场[COLOR_REVERT]的替代品，允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]工程师[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLYNESIA_FISHERY_PEDIA</Tag>
+		<English>[TAB]Fisheries have been important parts of human life and food production throughout history. Fish acts as one main food in people's everyday life as well as food security of the nation. Fisheries have become a part of human cultures and mythologies, providing a community identity and a subject for artists throughout the ages. Partially, this is because fisheries are irretrievably wrapped up in humanity抯 perpetual fascination with the sea, and partially, because they have been a major source of food and income for many communities throughout the ages.[PARAGRAPH:2]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]渔业在历史上一直是人类生活和粮食生产的重要组成部分。鱼是人们日常生活中的主要食物之一，也是国家粮食安全的重要组成部分。渔业已成为人类文化和神话的一部分，为历代艺术家提供了一种社区身份和主题。部分原因是渔业不可避免地被人类对海洋的永恒迷恋所包围，部分原因是它们一直是许多社区的主要食物和收入来源[段落：2]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAPAN_TEAHOUSE_PEDIA</Tag>
+		<English>[TAB]In Japanese tradition a tea house can refer to a structure designed for holding Japanese tea ceremonies. This structure and specifically the room in it where the tea ceremony takes place is called chashitsu. The architectural space called chashitsu was created for aesthetic and intellectual fulfillment.[PARAGRAPH:2]In Japan a tea house can also refer to a place of entertainment with geisha. These kinds of tea houses, called ochaya, are typically very exclusive establishments. The most notable ochaya is the Ichiriki Ochaya.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>在日本传统中，茶馆是指为举行日本茶道而设计的建筑。这种结构，特别是其中举行茶道的房间被称为茶道。建筑空间被称为chashitsu是为审美和智力的满足而创造的[段落：2]在日本，茶馆也可以指艺妓娱乐场所。这类茶馆被称为ochaya，通常是非常排外的设施。最著名的奥恰亚是伊里基·奥恰亚。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TIBET_STATUE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Statue[COLOR_REVERT], the Tibetan replacement for the [COLOR_BUILDING_TEXT]Monument[COLOR_REVERT], allows you to hire one [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]西藏浮雕[COLOR_HIGHLIGHT_TEXT]雕像[COLOR_REVERT]是藏语对[COLOR_BUILDING_TEXT]纪念碑[COLOR_REVERT]的替代品，允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]艺术家[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]牧师[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID</Tag>
+		<English>Kushite Pyramid</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃及库什特金字塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KHMER_PAGODA</Tag>
+		<English>Pagoda</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高棉佛塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MALI_SALT_MINE_PEDIA</Tag>
+		<English>[TAB]After gold, salt was the next great unit of exchange in the Mali Empire. Salt was as valuable, if not more valuable than gold in Sub-Saharan Africa. It was cut into pieces and spent on goods with close to equal buying power throughout the empire. While it was as good as gold in the north, it was even better in the south. The people of the south needed salt for their diet, but it was extremely rare. The northern region on the other hand had no shortage of salt. Every year merchants entered Mali via Oualata with camel loads of salt to sell in Niani. According to Ibn Battuta who visited Mali in the mid-14th century, one camel load of salt sold at Walata for 8-10 mithkals of gold, but in Mali proper it realized 20-30 ducats and sometimes even 40.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]继黄金之后，盐是马里帝国下一个伟大的交换单位。在撒哈拉以南非洲，盐即使不比黄金更值钱，也同样值钱。它被切成碎片，花在了整个帝国购买力几乎相等的商品上。虽然在北方它和黄金一样好，但在南部则更好。南方人的饮食需要盐，但盐极为罕见。另一方面，北部地区并不缺盐。每年，商人们都带着骆驼驮着盐经由瓦拉塔进入马里，在尼尼出售。据14世纪中叶访问马里的伊本·巴图塔（Ibn Battuta）说，在瓦拉塔，一辆骆驼装的盐可以卖到8-10米特卡尔的黄金，但在马里本土，它卖到了20-30达卡，有时甚至达到40金币。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERSIA_SATRAP_COURT</Tag>
+		<English>Satrap Court</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波斯萨特拉普法院</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Ch&#226;teau[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Estate[COLOR_REVERT], allows you to hire one additional [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]法国庄园[COLOR_REVERT]是[COLOR_BUILDING_TEXT]庄园[COLOR_REVERT]的法国替代品，允许您另外雇佣一名[COLOR_HIGHLIGHT_TEXT]艺术家[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KHMER_PAGODA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Pagoda[COLOR_REVERT], the Khmer replacement for the [COLOR_BUILDING_TEXT]Coffee House[COLOR_REVERT], allows you to hire two [COLOR_HIGHLIGHT_TEXT]Priests[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]宝塔[COLOR_REVERT]是高棉人对[COLOR_BUILDING_TEXT]咖啡馆的替代品[COLOR_HIGHLIGHT_TEXT]神父[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUTCH_MILL_PEDIA</Tag>
+		<English>[TAB]The Netherlands is so closely associated with windmills, that it's often the first fact people recall about the country. The Dutch built windmills for many centuries (and to some extent, the windmills built the country itself, since without them much of the land drainage could not have occured). In that time the mills were developed for corn milling, land drainage, saw milling, and in fact all manner of industrial purposes. Despite this widespread use, Dutch mills are in many ways quite primitive - using canvas sails, and turned to wind by hand (as distinct from the automated mechanisms that were developed for English windmills, including the fantail, and shuttered sails).[PARAGRAPH:1]There are a very pleasing number of remaining windmills in the Netherlands - the number is about 1150 and rising, in that the Dutch only count complete workable mills, and in the past 10 years especially, many extensive rebuilds have occured to add to this number.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[制表符]荷兰与风车的联系如此紧密，以至于人们回忆起这个国家的第一个事实往往是这个国家。荷兰人造风车已经有好几个世纪了（在某种程度上，风车是自己造的，因为没有风车，大部分陆地排水就不可能发生）。在那个时候，碾磨厂被开发用于玉米碾磨、土地排水、锯木厂，事实上还有各种各样的工业用途。尽管这种广泛的使用，荷兰的磨坊在很多方面都是相当原始的-使用帆布帆，并用手转动风力（与为英国风车开发的自动机械不同，包括扇尾式风车，和百叶窗）[段落：1]在荷兰，有一个非常令人满意的数量剩余的风车-这个数字大约是1150个，而且还在不断增加，因为荷兰只计算完全可行的风力机，特别是在过去的10年里，为了增加这个数量，进行了大量的翻修。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIA_NIZAMIYYA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Nizamiyya[COLOR_REVERT], the Arabian replacement for the [COLOR_BUILDING_TEXT]University[COLOR_REVERT], allows you to hire one [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] and one [COLOR_HIGHLIGHT_TEXT]Scientist[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]尼札米亚[COLOR_REVERT]尼扎米耶[COLOR_HIGHLIGHT_TEXT]大学[COLOR_REVERT]的阿拉伯替代品，允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]牧师[COLOR_REVERT]和一名[COLOR_HIGHLIGHT_TEXT]科学家[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARGENTINA_ESTANCIA</Tag>
+		<English>Estancia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿根廷牧场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_PEDIA</Tag>
+		<English>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200-300 km per day. It was used to speed up the process of information and intelligence.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Yam是成吉思汗使用并广泛使用和扩展的补给点路线信使系统，包括帖木儿王朝。[段落：1]中继站被用来为蒙古军队的信使提供食物、住所和备用马。成吉思汗对山药给予了特别的关注，因为蒙古军队的速度非常快，所以他们的信使必须更快，每天要走200-300公里。它被用来加速信息和情报的进程。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONGO_WENE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Wene[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Civic Square[COLOR_REVERT], provides a free [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]刚果广场[COLOR_REVERT]，刚果人对[COLOR_BUILDING_TEXT]公民广场的替代品，提供了一个免费的[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_PEDIA</Tag>
+		<English>[TAB]When the Egyptians pulled out of the lower Nile, they left a legacy that merged with indigenous customs forming the kingdom of Kush. Kush adopted many Egyptian practices such as their religion and the practice of building pyramids. Approximately 220 pyramids were eventually constructed at three sites in Nubia to serve as tombs for the kings and queens of Napata and Mero�. The first of these were built at the site of el-Kurru.[PARAGRAPH:1]The physical proportions of Nubian pyramids differ markedly from the Egyptian edifices that influenced them: they are built of stepped courses of horizontally positioned stone blocks, and range from approximately six to thirty metres in height, but rise from fairly small foundation footprints that rarely exceed eight metres in width, resulting in tall, narrow structures inclined at around seventy degrees. Most also have small Egyptian-inspired offering temple structures abutting their base. The oldest and largest pyramid at Nuri is that of the Napatan king and twenty-fifth dynasty pharaoh Taharqa.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>当埃及人撤出尼罗河下游时，他们留下的遗产与当地的风俗习惯融为一体，形成了库什王国。库什采纳了许多埃及人的做法，比如他们的宗教和建造金字塔的做法。大约220座金字塔最终在努比亚的三个地点建造，作为纳帕塔和梅罗国王和王后的陵墓。其中第一个是在埃尔库鲁遗址建造的[段落：1努比亚金字塔的物理比例与埃及建筑的影响明显不同：它们是由水平排列的石块的阶梯形建造的，高度约为六至三十米，但从相当小的地基上升起。脚印宽度很少超过8米，导致高而窄的结构倾斜约70度。大多数教堂都有小的埃及风格的供奉庙宇结构，与基地相邻。努里最古老、最大的金字塔是纳帕坦国王和第二十五王朝法老塔哈卡的金字塔。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Mountain Fortress[COLOR_REVERT], the Korean replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], increases culture output of a city and it allows you to hire one [COLOR_HIGHLIGHT_TEXT]Engineer[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]高丽堡垒[COLOR_REVERT]是韩国对[COLOR_BUILDING_TEXT]城堡的替代品[COLOR_REVERT]，增加了一个城市的文化输出，并允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]工程师[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAMIL_TRADE_GUILD_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Trade Guild[COLOR_REVERT], the Tamil replacement for the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT], increases wealth.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Trade Guild[COLOR_REVERT]，泰米尔人取代了[COLOR_BUILDING_TEXT]海关大楼[COLOR_REVERT]，增加了财富。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLYNESIA_FISHERY_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Fishery[COLOR_REVERT], the Polynesian replacement for the [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT], provides commerce for improved sea resources.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]渔业[COLOR_REVERT]是波利尼西亚人对[COLOR_BUILDING_TEXT]港口的替代品，为改善海洋资源提供了商业机会。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDIA_SHRENI</Tag>
+		<English>Shreni</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度贸易站</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE</Tag>
+		<English>Microwave Station</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加拿大微波站</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INCA_STONECUTTER</Tag>
+		<English>Stone Cutter</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印加锻造厂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONGO_WENE</Tag>
+		<English>Wene</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>刚果广场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAYA_KATUN_PEDIA</Tag>
+		<English>[TAB]Maya stelae (singular stela) are monuments that were fashioned by the Maya civilization of ancient Mesoamerica. They consist of tall sculpted stone shafts and are often associated with low circular stones referred to as altars, although their actual function is uncertain. Many stelae were sculpted in low relief, although plain monuments are found throughout the Maya region. The sculpting of these monuments spread throughout the Maya area during the Classic Period (250-900 AD), and these pairings of sculpted stelae and circular altars are considered a hallmark of Classic Maya civilization. The earliest dated stela to have been found in situ in the Maya lowlands was recovered from the great city of Tikal in Guatemala. During the Classic Period almost every Maya kingdom in the southern lowlands raised stelae in its ceremonial centre.[PARAGRAPH:1]Stelae became closely associated with the concept of divine kingship and declined at the same time as this institution. The production of stelae by the Maya had its origin around 400 BC and continued through to the end of the Classic Period, around 900, although some monuments were reused in the Postclassic (c. 900-1521). The major city of Calakmul in Mexico raised the greatest number of stelae known from any Maya city, at least 166, although they are very poorly preserved.[PARAGRAPH:1]Hundreds of stelae have been recorded in the Maya region, displaying a wide stylistic variation. Many are upright slabs of limestone sculpted on one or more faces, with available surfaces sculpted with figures carved in relief and with hieroglyphic text. Stelae in a few sites display a much more three dimensional appearance where locally available stone permits, such as at Cop醤 and Tonin�. Plain stelae do not appear to have been painted nor overlaid with stucco decoration, but most Maya stelae were probably brightly painted in red, yellow, black, blue and other colours.[PARAGRAPH:1]Stelae were essentially stone banners raised to glorify the king and record his deeds, although the earliest examples depict mythological scenes. Imagery developed throughout the Classic Period, with Early Classic stelae (c. 250-600) displaying non-Maya characteristics from the 4th century onwards, with the introduction of imagery linked to the central Mexican metropolis of Teotihuacan. This influence receded in the 5th century although some minor Teotihuacan references continued to be used. In the late 5th century, Maya kings began to use stelae to mark the end of calendrical cycles. In the Late Classic (c. 600-900), imagery linked to the Mesoamerican ballgame was introduced, once again displaying influence from central Mexico. By the Terminal Classic, the institution of divine kingship declined, and Maya kings began to be depicted with their subordinate lords. As the Classic Period came to an end, stelae ceased to be erected, with the last known examples being raised in 909-910.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]玛雅石碑是古代中美洲玛雅文明建造的纪念碑。它们由高雕刻的石柱组成，通常与被称为祭坛的低圆形石头联系在一起，尽管它们的实际功能还不确定。许多石碑都是用低浮雕雕刻的，尽管在整个玛雅地区都发现了平原纪念碑。在古典时期（公元250-900年），这些纪念碑的雕刻遍布整个玛雅地区，这些雕刻的石碑和圆形祭坛被认为是经典玛雅文明的标志。在玛雅低地发现的最早的石碑是从危地马拉的大城市提卡尔发现的。在古典时期，几乎每一个玛雅王国在南部低地的仪式中心都有石碑[段落：1]石碑与神圣王权的概念密切相关，并在这个机构的同时衰落。玛雅人的石碑制作起源于公元前400年左右，一直持续到古典时期的末期，大约900年，尽管有些纪念碑在后古典时期（约900-1521年）被重新利用。墨西哥的主要城市卡拉克穆尔（Calakmul）是玛雅城市中已知数量最多的石碑，至少有166座，尽管它们保存得很差[段落：1]在玛雅地区已经记录了数百块石碑，显示出广泛的风格变化。许多是在一个或多个面上雕刻的直立石灰岩板，可用的表面雕刻有浮雕和象形文字。一些地方的石碑显示出更加立体的外观，在当地可用的石头允许的地方，例如在科潘和托尼纳。普通的石碑似乎没有被油漆或覆盖灰泥装饰，但大多数玛雅石碑可能是明亮的红色，黄色，黑色，蓝色和其他颜色[段落：1]石碑基本上是为了颂扬国王和记录他的事迹而竖起的石板，尽管最早的例子描绘的是神话场景。在整个古典时期发展的图像，早期经典石碑（约250-600年）显示了从4世纪开始的非玛雅特征，并引入了与墨西哥中部城市特奥蒂瓦坎相关的图像。这种影响在5世纪消退，尽管一些次要的提奥提瓦坎参考文献继续被使用。5世纪末，玛雅国王开始使用石碑来标志历法周期的结束。在古典晚期（约600-900年），与中美洲球赛有关的图像被引入，再次显示了来自墨西哥中部的影响。到了末世经典，神圣的王权制度衰落了，玛雅国王开始描绘他们的下属领主。随着古典时期的结束，石碑停止了竖立，最后一个已知的例子出现在909-910年。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRAN_AB_ANBAR_PEDIA</Tag>
+		<English>[TAB]An Ab Anbar is a traditional reservoir or cistern of drinking water in Persian antiquity. The Persian phrase literally translates as "water reservoir".[PARAGRAPH:1]In order to access the water, one would go through the entrance (sar-dar) which would always be open, traverse a stairway and reach the bottom where there would be faucets to access the water in the storage. Next to the faucet would be a built-in seat or platform, a water drain for disposing water from the faucet, and ventilation shafts. Depending on where (i.e. what depth) the faucets would be, the water would be colder or warmer. Some storages would have multiple faucets located at intervals along the stairway. Thus nobody had access to the body of water itself, hence minimizing possible contamination. The storage is completely isolated from the outside except for ventilation shafts or windcatchers. To further minimize contamination, the storage tank's interior was scattered with a salty compound that would form a surface on top of the water. The storage tank would then be monitored year round to ensure that the surface had not been disturbed. The water of course would be drawn from the bottom using the pasheer.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Ab Anbar是波斯古代传统的饮用水蓄水池或蓄水池。波斯语的字面意思是“水库”[段落：1]为了获得水，人们会通过入口（sar-dar），这个入口总是敞开的，穿过一个楼梯，到达底部，那里会有水龙头来进入储藏室的水。靠近水龙头的是一个内置的座椅或平台，一个用来处理水龙头中的水的排水管和通风井。根据水龙头的位置（即深度），水会变冷或变热。有些仓库会在楼梯间每隔一段时间安装多个水龙头。因此，没有人能够接触到水体本身，从而将可能的污染降到最低。仓库与外界完全隔离，通风井或挡风板除外。为了进一步减少污染，储罐内部撒上了一种含盐化合物，这种化合物会在水面上形成一个表面。然后，将对储罐进行全年监测，以确保表面不受干扰。当然，水是用帕希尔从底部抽出来的。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PRUSSIA_PILLBOX_PEDIA</Tag>
+		<English>[TAB]Dug-in guard posts (with loopholes through which to fire weapons) made from concrete are also known as "pillboxes". The originally jocular name arose from their perceived similarity to the cylindrical boxes in which medical pills were once sold. They are in effect a trench firing step hardened to protect against small-arms fire and grenades and raised to improve the field of fire.[PARAGRAPH:1]Pillboxes are often camouflaged in order to conceal their location and to maximize the element of surprise. They may be part of a trench system, form an interlocking line of defence with other pillboxes by providing covering fire to each other (defence in depth), or they may be placed to guard strategic structures such as bridges and jetties.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]用混凝土制成的埋入式岗哨（有发射武器的漏洞）也被称为“碉堡”。最初滑稽的名字源于它们与曾经销售过的药丸的圆柱形盒子相似。实际上，他们是一个战壕射击步骤硬化，以防止小武器和手榴弹，并提高，以改善火场[段落：1]碉堡通常被伪装起来，以隐藏其位置，并最大限度地增加惊喜。它们可能被放置在相互交错的纵深防御系统中，或与其他防波堤或防波堤组成的纵深防御系统。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA_PEDIA</Tag>
+		<English>[TAB]The Latin word basilica was originally used to describe a Roman public building (as in Greece, mainly a tribunal), usually located in the forum of a Roman town. In Hellenistic cities, public basilicas appeared in the 2nd century BC.[PARAGRAPH:1]After the Roman Empire became officially Christian, the term came by extension to refer to a large and important church that has been given special ceremonial rites by the Pope. Thus the word retains two senses today, one architectural and the other ecclesiastical.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]拉丁词basilica最初用于描述罗马公共建筑（如希腊，主要指法庭），通常位于罗马城镇的广场上。在希腊化的城市，公共大教堂出现在公元前2世纪[段落：1]在罗马帝国正式成为基督徒之后，这个词又被引申到指一个由教皇举行特殊仪式的大而重要的教堂。因此，这个词在今天保留了两种意义，一种是建筑，另一种是教会。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_PEDIA</Tag>
+		<English>[TAB]Goguryeo, the largest of the Three Kingdoms of Korea, is renowned for its mountain fortresses built horizontally and vertically along the incline of slopes. One of the well-preserved Goguryeo fortresses is Baekam fortress constructed before 6th century in present-day South-West Manchuria. A Chinese historian noted, "The Koguryo people like to build their palaces well." Patterned tiles and ornate bracket systems were already in use in many palaces in P'yongyang, the capital, and other town-fortresses in what now is Manchuria.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高句丽是朝鲜三国中最大的一个，以其沿斜坡水平和垂直方向建造的山寨而闻名。保存完好的高句丽要塞之一是建于6世纪以前的今天的西南满洲的白甘要塞。一位中国历史学家指出：“高句丽人喜欢把他们的宫殿建得很好。”有图案的瓷砖和华丽的支架系统已经在首都永阳的许多宫殿和现在满洲的其他城镇要塞中使用。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIKING_MEADHALL</Tag>
+		<English>Meadhall</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>维京咖啡馆</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHINESE_PAVILLION_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Pavilion[COLOR_REVERT], the Chinese replacement for the [COLOR_BUILDING_TEXT]Coffee House[COLOR_REVERT], allows you to hire one [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]展览馆[COLOR_REVERT]是[COLOR_BUILDING_TEXT]中国文明的咖啡馆的替代品[COLOR_HIGHLIGHT_TEXT]允许增加1名艺术家[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICA_PUBLIC_UNIVERSITY_PEDIA</Tag>
+		<English>[TAB]In the United States, the term "state school" is colloquial for state university, a college or university in a state university system. The term "public school" is used for elementary and high schools which are funded and/or run by a governmental entity. The term "public school" is used in the United States to mean what other countries call "state school". "State school" is sometimes used in reference to state universities but is almost never used in reference to elementary and high schools. "Private school" generally refers to primary, secondary and tertiary educational institutions that are not government-owned. Elementary and high schools that are operated by a religious organization are commonly called "parochial schools."[PARAGRAPH:1]The United States Department of Education supervises the role of the federal government in education. Direct regulation of public, private and parochial schools in the United States is done by state and territorial governments (in Washington, DC, by the District Government). Broad regulation of public schools is typically accomplished through a state board of education and a state department of education. There is usually a state superintendent of schools, who is appointed or elected to coordinate the state department of education, the state board of education, and the state legislature itself. Statewide education policies are disseminated to school "districts" or their equivalents. These are associated with counties, or with groups of counties; but their boundaries are not necessarily coterminous with county boundaries. These intermediate school districts encompass many local school districts. The local school districts operate with their own local boards, which oversee operations of the individual schools within their jurisdiction.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在美国，“州立学校”是州立大学的俗语，是州立大学系统中的学院或大学。“公立学校”一词用于指由政府实体资助或管理的小学和高中。“公立学校”一词在美国被用来指其他国家所称的“公立学校”“国立学校”有时用于指州立大学，但几乎从未用于指小学和高中“私立学校”一般指非国有的小学、中学和高等教育机构。由宗教组织经营的小学和高中通常被称为“教区学校”[段落：1]美国教育部监督联邦政府在教育中的作用。美国公立、私立和教区学校的直接管理是由州和地区政府（在华盛顿特区，由地区政府）进行的。对公立学校的广泛管理通常通过州教育委员会和州教育部来完成。通常有一名州督学，由其任命或选举产生，负责协调州教育部、州教育委员会和州立法机构。全州的教育政策被传播到学校“学区”或同等学区。它们与县或县组相关；但它们的边界不一定与县边界同时存在。这些中学学区包括许多当地学区。地方学区设有自己的地方委员会，负责监督其管辖范围内各个学校的运作。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THAI_FLOATING_MARKET</Tag>
+		<English>Floating Market</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰国水上市场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICA_PUBLIC_UNIVERSITY_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Public University[COLOR_REVERT], the American replacement for the [COLOR_BUILDING_TEXT]University[COLOR_REVERT], increases the wealth output of a city.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]美国公立大学[COLOR_REVERT]是美国取代[COLOR_BUILDING_TEXT]大学[COLOR_REVERT]的大学，它增加了一个城市的财富产出。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INCA_STONECUTTER_PEDIA</Tag>
+		<English>[TAB]Architecture was by far the most important of the Inca arts, with textiles reflecting motifs that were at their height in architecture. The main example is the capital city of Cusco. The site of Machu Picchu was constructed by Inca engineers. The stone temples constructed by the Inca used a mortarless construction that fit together so well that a knife could not be fitted through the stonework.[PARAGRAPH:1]This was a process first used on a large scale by the Pucara (ca. 300 BC-AD 300) peoples to the south in Lake Titicaca, and later in the great city of Tiwanaku (ca. AD 400-1100) in present day Bolivia. The rocks used in construction were sculpted to fit together exactly by repeatedly lowering a rock onto another and carving away any sections on the lower rock where the dust was compressed. The tight fit and the concavity on the lower rocks made them extraordinarily stable.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]到目前为止，建筑是印加艺术中最重要的，纺织品反映了建筑中最重要的主题。主要的例子是库斯科的首都。马丘遗址是由印加的工程师建造的。印加人建造的石质庙宇采用了无砂浆的结构，这种结构很好地结合在一起，使得刀无法穿过石雕[段落：1]这是提提卡卡湖南部的普卡拉人（约公元前300年至公元300年）首次大规模使用的工艺，后来在今天玻利维亚的大城市提瓦纳库（约公元400-1100年）。建筑中使用的岩石是通过反复地将一块岩石放在另一块岩石上，并在下部岩石上的灰尘被压缩的地方刻掉任何部分，从而精确地组合在一起。下部岩石的紧密配合和凹凸不平使它们非常稳定。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIA_NIZAMIYYA_PEDIA</Tag>
+		<English>[TAB]A nizamiyya is one of the medieval institutions of higher education established by Khwaja Nizam al-Mulk in the eleventh century in Iran. The name nizamiyyah derives from his name. Founded at the beginning of the Seljuk empire, they are considered to be the model of madrassas, or Islamic religious schools.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]尼扎米耶是赫瓦贾·尼扎姆·穆尔克11世纪在伊朗建立的中世纪高等教育机构之一。尼扎米耶的名字来自他的名字。建立于塞尔柱帝国初期，被认为是宗教学校的典范。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRAZIL_SAMBADROME_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Sambadrome[COLOR_REVERT], the Brazilian replacement for the [COLOR_BUILDING_TEXT]Civic Square[COLOR_REVERT], increases happiness.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]巴西桑巴广场[COLOR_REVERT]是巴西的[COLOR_BUILDING_TEXT]公民广场[COLOR_REVERT]的替代品，增加了幸福感。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORTUGAL_COLONY_ADMINISTRATION_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Colonial Administration[COLOR_REVERT], the Portuguese replacement for the [COLOR_BUILDING_TEXT]Estate[COLOR_REVERT], provides a free specialist for every [COLOR_HIGHLIGHT_TEXT]Plantation[COLOR_REVERT] its radius.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]殖民管理局[COLOR_REVERT]是葡萄牙对[COLOR_BUILDING_TEXT]庄园[COLOR_REVERT]的替代品，为其半径的每个[COLOR_HIGHLIGHT_TEXT]种植园提供免费专家。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHIOPIA_XEER</Tag>
+		<English>Xeer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>埃塞尔比亚法院</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPAIN_BULLRING</Tag>
+		<English>Bullring</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西班牙斗牛场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRAZIL_SAMBADROME</Tag>
+		<English>Sambadrome</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴西桑巴广场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENGLAND_PUBLIC_HOUSE_PEDIA</Tag>
+		<English>[TAB]A pub, or public house, is an establishment licensed to sell alcoholic drinks, which traditionally include beer (such as ale) and cider. It is a relaxed, social drinking establishment and a prominent part of British, Irish, Breton, New Zealand, Canadian, South African and Australian cultures. In many places, especially in villages, a pub is the focal point of the community. In his 17th-century diary Samuel Pepys described the pub as "the heart of England".[PARAGRAPH:2]Pubs can be traced back to Roman taverns, through the Anglo-Saxon alehouse to the development of the tied house system in the 19th century. In 1393, King Richard II of England introduced legislation that pubs had to display a sign outdoors to make them easily visible for passing ale tasters, who would assess the quality of ale sold. Most pubs focus on offering beers, ales and similar drinks. As well, pubs often sell wines, spirits, and soft drinks, meals and snacks. The owner, tenant or manager (licensee) is known as the pub landlord or publican. Referred to as their "local" by regulars, pubs are typically chosen for their proximity to home or work, the availability of a particular beer or ale or a good selection, good food, a social atmosphere, the presence of friends and acquaintances, and the availability of recreational activities such as a darts team, a skittles team, and a pool or snooker table. The pub quiz was established in the UK in the 1970s</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]酒吧或公共场所是一个被许可出售酒精饮料的场所，传统上包括啤酒（如麦芽酒）和苹果酒。这是一个放松的社交场所，也是英国、爱尔兰、布雷顿、新西兰、加拿大、南非和澳大利亚文化的重要组成部分。在许多地方，尤其是在乡村，酒吧是社区的焦点。塞缪尔·佩皮斯在17世纪的日记中将这家酒吧形容为“英格兰的心脏”[段落：2]酒吧可以追溯到罗马酒馆，通过盎格鲁-撒克逊人的酒馆制度发展到19世纪。1393年，英国国王理查德二世（King Richard II）颁布了一项立法，规定酒吧必须在户外设置标牌，以便路过的品酒师能够轻易地看到这些招牌，品酒师将评估所售啤酒的质量。大多数酒吧都专注于提供啤酒、啤酒和类似的饮料。此外，酒吧经常出售葡萄酒、烈酒、软饮料、饭菜和零食。业主、租户或经理（持牌人）被称为酒吧房东或酒馆老板。酒吧被常客称为“本地”酒吧，通常是因为它们靠近家或工作场所，有特定的啤酒或麦芽酒，或是好的选择，好的食物，社交氛围，有朋友和熟人在场，还有娱乐活动，如飞镖队，滑雪队，还有游泳池或台球桌。酒吧测验于20世纪70年代在英国建立</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AZTEC_CHINAMPA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Chinampa[COLOR_REVERT], the Aztec replacement for the [COLOR_BUILDING_TEXT]Aqueduct[COLOR_REVERT], provides health. It increases the food and commerce yield of improved [COLOR_HIGHLIGHT_TEXT]Corn[COLOR_REVERT] tiles and the commerce yield of improved [COLOR_HIGHLIGHT_TEXT]Spice[COLOR_REVERT] tiles.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]阿兹特克引水渠[COLOR_REVERT]，阿兹特克替代[COLOR_BUILDING_TEXT]引水渠[COLOR_REVERT]提供健康。它提高了改良的[COLOR_HIGHLIGHT_TEXT]玉米[COLOR_REVERT]地块的食品和商业产量，以及改进的[COLOR_HIGHLIGHT_TEXT]香料[COLOR_REVERT]瓷砖的商业产量。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOMBIA_RESORT_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Resort[COLOR_REVERT], the Colombian replacement for the [COLOR_BUILDING_TEXT]Hotel[COLOR_REVERT], increases trade route yield even more and even more for each level of culture.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]哥伦比亚度假村[COLOR_REVERT]是哥伦比亚取代[COLOR_BUILDING_TEXT]酒店的酒店[COLOR_REVERT]，为不同文化层次的贸易路线收益率提供了越来越高的收益率。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDIA_SHRENI_PEDIA</Tag>
+		<English>[TAB]Shreni, in the context of Ancient India, was an association of traders, merchants, and artisans. Generally, a separate shreni existed for a particular group of persons engaged in the same vocation or activity. Shrenis have sometimes been compared with the guilds. However, persons engaged in life destroying activities like hunting and fishing did not form any shreni.[PARAGRAPH:1]Well documents references to the existing of shreni have been found from 5th century BC, and texts pertaining to Buddhism and Jainism mention existence of shrenis and conversion of entire members of some shrenis to Buddhism or Jainism. Over a period of time, some shrenis became very wealthy with surplus resources, and acted as custodians and bankers of religious and other endowments. One of the widely referred shreni was of ivory carvers of Vidisha (located in the modern Indian state of Madhya Pradesh). This shreni is accredited with sponsoring and financially supporting the construction of the southern gateway of the Stupa at Sanchi, which is currently a World Heritage Site.[PARAGRAPH:1]Some scholars have opined that as the each economic activity and craft was having its specific traditions and trade secrets, shrenis were formed to protect the same, and fathers used to pass on the same to their sons, and so it continued from one generation to the next generation. Daughters were excluded from becoming the members of the shreni, as once married they went to their husbands' homes, and were prone to divulge the trade secrets to the families of their husbands.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在古印度的背景下，什里尼是一个商人、商人和工匠的协会。一般来说，对于从事同一职业或活动的特定群体，存在着一个单独的什里尼。史莱尼有时被比作行会。然而，从事打猎、捕鱼等破坏生命活动的人并没有形成任何什里尼人[段落：1]关于什里尼存在的文献是在公元前5世纪发现的，与佛教和耆那教有关的文献提到了什里尼的存在以及一些什里尼教的全体成员皈依佛教或耆那教。在一段时间内，一些什里尼人变得非常富有，拥有剩余的资源，并担任宗教和其他捐赠的保管人和银行家。其中一个被广泛提及的什里尼是维迪沙（位于现代印度中央邦）的象牙雕刻师。这个什里尼被认可赞助和资助在三池建造佛塔南大门，这是目前的世界遗产[段落：1]有学者认为，由于每一项经济活动和工艺都有其特定的传统和商业秘密，什里尼人是为了保护他们，而父亲们过去常常把同样的东西传给他们的儿子们，因此这一习俗从一代延续到下一代。女儿们被排除在外成为什里尼的成员，因为一旦结婚，她们就去丈夫家里，而且很容易把商业秘密泄露给丈夫的家人。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERSIA_SATRAP_COURT_PEDIA</Tag>
+		<English>[TAB]Satrap was the name given to the governors of the provinces of the ancient Median and Achaemenid (Persian) Empires and in several of their successors, such as the Sassanid Empire and the Hellenistic empires. The word satrap is also often used in modern literature to refer to world leaders or governors who are heavily influenced by larger world superpowers or hegemonies and act as their surrogates.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Satrap是古代中位数帝国和阿契美尼德（波斯）帝国及其继承者，如萨珊帝国和希腊帝国的省长的名字。satrap一词在现代文学中也经常被用来指那些深受更大的世界超级大国或霸权主义影响并充当其代理人的世界领导人或统治者。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THAI_FLOATING_MARKET_PEDIA</Tag>
+		<English>[TAB]Floating markets have a long standing tradition within countries of the Mekong River Delta (Burma, Thailand, Laos, Cambodia and Vietnam). Though the floating market's recent resurgence has led many to associate the practice mainly with Thailand, numerous can be found within Vietnam as well.[PARAGRAPH:1]Can Tho, Vietnam is the main city of the Mekong Delta. It is the transportation center for the region, as it is connected to the other towns of the Delta by an extensive system of rivers and canals. The Mekong River is particularly wide there, and must be crossed by ferry, but it is along the smaller canals that most of the rural population lives. One of the most interesting sights in the delta are the floating markets and associated river life. Near Can Tho there are three different floating markets. Although they are well-known, the level of "commercialization" is still considerably less than the floating markets of Thailand. Often you won't see other travelers on the water at all.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]湄公河三角洲国家（缅甸、泰国、老挝、柬埔寨和越南）有着悠久的传统。尽管浮动市场最近的复苏使许多人将这种做法主要与泰国联系在一起，但在越南国内也可以找到许多这种做法[段落：1]越南的芹菜是湄公河三角洲的主要城市。它是该地区的交通中心，因为它通过广泛的河流和运河系统与三角洲的其他城镇相连。湄公河在那里特别宽，必须通过渡船穿过，但大部分农村人口居住的是较小的运河。三角洲最有趣的景观之一是浮动市场和相关的河流生物。在Can Tho附近有三个不同的浮动市场。虽然他们是众所周知的，但“商业化”的水平仍然远远低于泰国的浮动市场。通常你在水上根本看不到其他游客。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU</Tag>
+		<English>Ch&#226;teau</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法国庄园</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHIOPIA_XEER_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Xeer[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], is much cheaper.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]埃塞尔比亚法院[COLOR_REVERT]是埃塞俄比亚替代[COLOR_BUILDING_TEXT]法院大楼[COLOR_REVERT]的便宜得多。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIA_NIZAMIYYA</Tag>
+		<English>Nizamiyya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿拉伯尼札米亚学校</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TIBET_STATUE</Tag>
+		<English>Statue</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>西藏浮雕</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENGLAND_PUBLIC_HOUSE</Tag>
+		<English>Public House</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>英国酒吧</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAMIL_TRADE_GUILD_PEDIA</Tag>
+		<English>[TAB]Towards the end of the 9th century, southern India had developed extensive maritime and commercial activity, especially with the Chinese and Arabs. The Cholas, being in possession of parts of both the west and the east coasts of peninsular India, were at the forefront of these ventures. The Tang dynasty of China, the Srivijaya empire in the Malayan archipelago under the Sailendras, and the Abbasid Kalifat at Bagdad were the main trading partners. The trade with the Chinese was a very lucrative enterprise, and Trade guilds needed the king's approval and the license from the customs force/department to embark on overseas voyages for trade.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>尤其是到了9世纪末，中国人和阿拉伯人的海上贸易活动非常广泛。乔拉人拥有印度半岛西海岸和东海岸的部分地区，是这些冒险活动的最前线。中国的唐朝，位于马来亚群岛的塞伦德拉斯帝国，以及巴格达的阿巴斯·卡利法特是主要的贸易伙伴。与中国的贸易是一个非常有利可图的企业，贸易行会需要国王的批准和海关部门的许可证才能进行海外贸易。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDONESIA_PENDOPO_PEDIA</Tag>
+		<English>[TAB]A Pendopo or Pendapa is a fundamental element of Javanese architecture; a large pavilion-like structure built on columns. Either square or rectangular in plan, it is open on all sides and provides shelter from the sun and rain, but allows breeze and indirect light. The word pendopo is a variant on the Sanskrit word mandapa ('hall'). The Dutch writer Multatuli in his colonial reformist novel Max Havelaar described the pendopo as "next to a broad-rimmed hat, an umbrella or a hollow tree, a pendopo is undoubtedly the simplest representation there is of the concept of 'roof'".[PARAGRAPH:1]Derived from ancient Javanese architectural elements, pendopo are common ritual spaces primarily intended for ceremony, and also for a variety of purposes such as receiving guests in the compounds of wealthy Javanese, and even as cottage industry work spaces. Pendopo can be constructed as a stand alone structure or attached to walled inner structure called dalem, it formed the front part of Joglo, Javanese traditional house.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Pendopo或Pendapa是爪哇建筑的基本元素；一种建在柱子上的类似亭子的大型结构。无论是方形还是长方形，四面八方都是开放的，可以遮挡阳光和雨水，但也允许微风和间接光线。pendopo是梵语单词mandapa（'hall'）的变体。荷兰作家穆尔塔图利在其殖民地改革派小说《马克斯·哈维拉尔》中把潘多波描述为“紧挨着宽边帽、伞或中空的树，潘多波无疑是‘屋顶’概念最简单的表现形式。”[段落：1]源自古代爪哇建筑元素，pendopo是常见的仪式空间，主要用于仪式，也用于各种目的，例如在爪哇富人的大院里接待客人，甚至作为家庭手工业的工作场所。Pendopo可以作为一个独立的结构或附着在一个称为dalem的围墙内部结构上，它形成了爪哇传统住宅Joglo的前部。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU_PEDIA</Tag>
+		<English>[TAB]A ch鈚eau is a manor house or residence of the lord of the manor or a country house of nobility or gentry, with or without fortifications, originally-and still most frequently-in French-speaking regions. Where clarification is needed, a fortified ch鈚eau (that is, a castle) is called a ch鈚eau fort, such as Ch鈚eau fort de Roquetaillade. Care should be taken when translating the word ch鈚eau into English. It is not used in the same way as "castle", and most ch鈚eaux are described in English as "palaces" or "country houses" rather than "castles". For example, the Ch鈚eau de Versailles is so called because it was located in the countryside when it was built, but it does not bear any resemblance to a castle, so it is usually known in English as the Palace of Versailles.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]庄园是庄园主的庄园或住所，或贵族或贵族的乡间别墅，有或没有防御工事，最初和现在在法语地区最常见。在需要澄清的地方，设防的城堡（即城堡）被称为城堡，例如罗克泰莱德城堡（chateau fort de Roquetaillade）。把“cha”这个词翻译成英语时要小心。它与“城堡”的用法不同，大多数城堡在英语中被描述为“宫殿”或“乡间别墅”，而不是“城堡”。例如，凡尔赛宫之所以这么叫，是因为它建成时位于乡间，但它与城堡没有任何相似之处，所以在英语中通常被称为凡尔赛宫。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MALI_SALT_MINE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Salt Mine[COLOR_REVERT], the Mali replacement for the [COLOR_BUILDING_TEXT]Bank[COLOR_REVERT], allows you to hire one additional [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] and one [COLOR_HIGHLIGHT_TEXT]Engineer[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]马里盐矿[COLOR_HIGHLIGHT_TEXT]银行[COLOR_REVERT]的马里替代品[COLOR_HIGHLIGHT_TEXT]商店[COLOR_REVERT]和一名[COLOR_HIGHLIGHT_TEXT]工程师[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARGENTINA_ESTANCIA_PEDIA</Tag>
+		<English>[TAB]Estancia is a Spanish and Brazilian Portuguese term describing a large rural estate with similarities to the English term ranch. The term is used in Argentina, Uruguay, southern Chile and southern Brazil.[PARAGRAPH:1]Unlike a hacienda, which could be any type of agricultural venture, producing grain, coffee, vegetable, beef, etc., an estancia, most typically located in the southern South American grasslands, the pampas, has historically always been a livestock (cattle or sheep) estate.[PARAGRAPH:1]During the first centuries of Spanish colonial rule, cattle introduced by the Spanish roamed free and man undertook raids to catch and slaughter them.[PARAGRAPH:1]In the 19th century stationary ranching ventures started to form in the pampas, with permanent buildings and marked livestock with clearly defined ownership. They were called estancias, the term indicating the stationary, permanent character.[PARAGRAPH:1]The estancia's ranch worker on horseback, the gaucho, is of similar importance to national folklore and identity to the cowboy in North America.[PARAGRAPH:1]In recent decades agriculture has intensified and often shifted from livestock to crop farming in the pampas of Argentina and Uruguay, due to the region's high soil fertility.[PARAGRAPH:1]A small number of estancias, particularly those with historic architecture have been converted into guest ranches, paradores, in Argentina and Uruguay as well as in Paraguay or Chile.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]阿根廷牧场是西班牙语和巴西葡萄牙语中的一个术语，用于描述一个与英语术语“牧场”相似的大型乡村庄园。这个词在阿根廷、乌拉圭、智利南部和巴西南部使用[段落：1]与庄园不同，庄园可以是任何类型的农业企业，生产谷物、咖啡、蔬菜、牛肉等，而庄园最典型的是位于南美洲南部草原潘帕斯，历史上一直是牲畜（牛或羊）的领地[段落：1]在西班牙殖民统治的最初几个世纪里，西班牙人引进的牛自由地游荡，人类发动突袭来捕捉和屠杀它们[段落：1]19世纪，在潘帕斯，固定式牧场开始形成，有永久性建筑物和有明确所有权的牲畜。他们被称为estancias，这个词表示固定的，永久的特征[段落：1]埃斯坦西亚的牧场工人马背上的高乔人与北美的牛仔具有相似的民族民间传说和身份认同[段落：1]近几十年来，农业得到了加强，并经常从畜牧业转向农作物种植业在阿根廷和乌拉圭的潘帕斯，由于该地区土壤肥力高[段落：1]阿根廷和乌拉圭以及巴拉圭或智利的少数庄园，特别是那些具有历史建筑的庄园，已经被改造成游客牧场、天堂。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAMIL_TRADE_GUILD</Tag>
+		<English>Trade Guild</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>泰米尔行会</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA</Tag>
+		<English>Basilica</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>东罗马大教堂</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARAPPAN_SEWER_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Early Sewer[COLOR_REVERT], the Harappan replacement for the [COLOR_BUILDING_TEXT]Sewer[COLOR_REVERT], is cheaper and doesn't require the [COLOR_TECH_TEXT]Urban Planning[COLOR_REVERT] technology, does require the [COLOR_TECH_TEXT]Cement[COLOR_REVERT] technology.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]哈拉帕城市排水系统[COLOR_REVERT]，哈拉帕替代[COLOR_BUILDING_TEXT]下水道[COLOR_REVERT]，更便宜，不需要[COLOR_TECH_TEXT]城市规划[COLOR_REVERT]技术，但需要[COLOR_TECH_TEXT]水泥[COLOR_REVERT]技术。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLYNESIA_FISHERY</Tag>
+		<English>Fishery</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波利尼西亚港口</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAPAN_TEAHOUSE</Tag>
+		<English>Teahouse</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日本茶室</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PRUSSIA_PILLBOX_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Pillbox[COLOR_REVERT], the Prussian replacement for the [COLOR_BUILDING_TEXT]Bunker[COLOR_REVERT], lowers damage done by enemy bombers and lowers war weariness.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]碉堡[COLOR_REVERT]是普鲁士人对[COLOR_BUILDING_TEXT]掩体的替代品，它降低了敌方轰炸机的伤害并降低了战争疲劳。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICA_PUBLIC_UNIVERSITY</Tag>
+		<English>Public University</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>美国公立大学</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAPAN_TEAHOUSE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Teahouse[COLOR_REVERT], the Japanese replacement for the [COLOR_BUILDING_TEXT]Coffeehouse[COLOR_REVERT], increases commerce and espionage output with access to [COLOR_HIGHLIGHT_TEXT]Tea[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]茶馆[COLOR_REVERT]茶馆[COLOR_BUILDING_TEXT]咖啡厅[COLOR_REVERT]的日文替代品，通过访问[COLOR_HIGHLIGHT_TEXT]Tea[COLOR_REVERT]，增加商业和间谍活动输出。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRAN_AB_ANBAR_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Ab Anbar[COLOR_REVERT], the Iranian replacement for the [COLOR_BUILDING_TEXT]Aqueduct[COLOR_REVERT], provides a culture boost.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Ab Anbar[COLOR_REVERT]是伊朗对[COLOR_BUILDING_TEXT]引水渠[COLOR_REVERT]的替代品，提供了一种文化促进。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOORS_KASBAH_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Kasbah[COLOR_REVERT], the Moorish replacement for the [COLOR_BUILDING_TEXT]Walls[COLOR_REVERT], provides extra food.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Kasbah[COLOR_REVERT]是摩尔人对[COLOR_BUILDING_TEXT]墙的替代品[COLOR_ruit_TEXT]，提供额外的食物。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPAIN_BULLRING_PEDIA</Tag>
+		<English>[TAB]Bullfighting (also known as tauromachy or as corrida de toros in Spanish) is a traditional spectacle of Spain, Portugal, some cities in southern France and in several Latin American countries, in which one or more bulls are ritually killed in a bullring as a public spectacle. It can be considered a blood sport. In Portugal it is illegal to kill a bull in the arena. A nonlethal variant stemming from Portuguese influence is also practiced on the Tanzanian island of Pemba.[PARAGRAPH:1]The tradition, as it is practiced today, involves professional toreros (toureiros in Portuguese; also referred to as toreadors in English), who execute various formal moves in order to subdue the bull. Such maneuvers are performed at close range, and have in some cases resulted in injury or death of the bullfighter. The bullfight usually concludes with the killing of the bull by a sword thrust. In Portugal the finale consists of a tradition called the pega, where men (forcados) try to grab and hold the bull by its horns when it runs at them. Forcados are dressed in a traditional costume of damask or velvet, with long knit hats as worn by the campinos (bull headers) from Ribatejo. Bullfighting has generated controversy in many parts of the world, including Spain, Portugal, Peru, Mexico, and Ecuador. Supporters of bullfighting argue that it is a culturally important tradition, while animal rights advocates hold that it is a blood sport resulting in the suffering of bulls and horses.[PARAGRAPH:1]There are many historic fighting venues in the Iberian Peninsula and Latin America. The largest venue of its kind is the Plaza de toros M閤ico in central Mexico City, which seats 48,000 people, and the oldest is the Plaza de Toros de Acho in Lima, Peru, which was built in 1766.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>斗牛是西班牙、葡萄牙、法国南部的一些城市以及一些拉丁美洲国家的传统节日，在斗牛场里，一头或多头公牛被仪式性地杀死。它可以被认为是一种血腥的运动。在葡萄牙，在竞技场杀死公牛是违法的。一种源于葡萄牙影响的非致命变种也在坦桑尼亚彭巴岛上使用[段落：1]这一传统，正如今天所实行的，包括专业的探路者（葡萄牙语中的toureiros；英语中也称为斗牛士），他们执行各种正式的动作来制服公牛。这种机动是在近距离进行的，有时会导致斗牛士受伤或死亡。斗牛通常以用剑刺死公牛而结束。在葡萄牙，大结局有一个传统，叫做佩加（pega），在那里，人们（forcados）试图抓住并抓住公牛的角，当它向他们跑来。Forcados穿着锦缎或天鹅绒的传统服装，头戴长针织帽，就像Ribatejo的campinos（公牛头）戴的一样。斗牛在世界许多地方引起了争议，包括西班牙、葡萄牙、秘鲁、墨西哥和厄瓜多尔。斗牛的支持者认为斗牛是一种文化上重要的传统，而动物权利倡导者则认为斗牛是一种导致公牛和马受苦的血腥运动[段落：1]伊比利亚半岛和拉丁美洲有许多历史悠久的战斗场所。这类场馆中最大的是位于墨西哥城中部的梅西科广场（Plaza de toros Mexico），可容纳4.8万人；历史最悠久的是秘鲁利马的托洛斯德阿乔广场（Plaza de toros de Acho），建于1766年。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MOORS_KASBAH_PEDIA</Tag>
+		<English>[TAB]A Kasbah is a kind of medina, islamic city or citadel. It was a place for the local leader to live and a defense when a city was under attack. A kasbah has high walls, usually without windows. Sometimes, they were built on hilltops so that they could be more easily defended. Some were placed near the entrance to harbors.[PARAGRAPH:2]The ownership of a Kashab was a sign of wealth. When colonisation started in 1830, in northern Algeria, there were numerous kashabs that lasted over a century.[PARAGRAPH:2]Another use for the word is to describe the old part of a city, in which case its equivalent to a Medina. A Medina is a district of many north African cities that is typically walled, with narrow and maze-like streets. Many historical fountains, palaces and mosques tend to be here.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[标签]卡斯巴是麦地那、伊斯兰城市或城堡的一种。当一个城市遭到攻击时，它是当地领导人居住和防御的地方。卡斯巴有高墙，通常没有窗户。有时，它们建在山顶上，以便更容易防御。一些被安置在港口入口附近[段落：2]拥有一个卡沙布是财富的象征。1830年在阿尔及利亚北部开始殖民时，有无数的喀沙布，持续了一个多世纪[段落：2]这个词的另一个用法是描述一个城市的老城区，在这种情况下，它相当于麦地那。麦地那是许多北非城市的一个地区，通常都有围墙，街道狭窄，像迷宫一样。许多历史悠久的喷泉、宫殿和清真寺都在这里。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAYA_KATUN</Tag>
+		<English>K'atun Stele</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>玛雅纪念碑</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIKING_MEADHALL_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Meadhall[COLOR_REVERT], the Viking replacement for the [COLOR_BUILDING_TEXT]Coffee House[COLOR_REVERT], increases happiness.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Meadhall[COLOR_REVERT]是维京人取代[COLOR_BUILDING_TEXT]咖啡屋[COLOR_REVERT]的产品，增加了幸福感。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Yam[COLOR_REVERT], the Mongolian replacement for the [COLOR_BUILDING_TEXT]Post Office[COLOR_REVERT], gives the [COLOR_HIGHLIGHT_TEXT]Mobility I[COLOR_REVERT] promotion to [COLOR_UNIT_TEXT]TMounted units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Yam[COLOR_REVERT]是蒙古语对[COLOR_BUILDING_TEXT]邮局[COLOR_REVERT]的替代品，它将[COLOR_HIGHLIGHT_TEXT]移动性I[COLOR_REVERT]提升为[COLOR_UNIT_TEXT]t装载单位[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Observatory[COLOR_REVERT], is cheaper and doesn't require the [COLOR_TECH_TEXT]Physics[COLOR_REVERT] technology, does require the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] technology and it requires a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT] present.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]库什特金字塔[COLOR_REVERT]是埃及替代[COLOR_BUILDING_TEXT]天文台[COLOR_REVERT]的替代品，更便宜，不需要[COLOR_TECH_TEXT]物理[COLOR_REVERT]技术，需要[COLOR_TECH_TEXT]数学[COLOR_REVERT]技术，并且需要[COLOR_BUILDING_TEXT]库[COLOR_REVERT]存在。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAYA_KATUN_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]K'atun Stele[COLOR_REVERT], the Mayan replacement for the [COLOR_BUILDING_TEXT]Observatory[COLOR_REVERT], increases the science output of a city. It can be build very quickly if [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT] is available.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]K'atun[COLOR_REVERT]是玛雅人对[COLOR_BUILDING_TEXT]天文台的替代品，它增加了城市的科学产出。如果[COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT]可用，则可以非常快速地构建它。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORTUGAL_COLONY_ADMINISTRATION_PEDIA</Tag>
+		<English>[TAB]During the 15th and 16th centuries, Portugal was a major European power, ranking with England, France and Spain in terms of economic, political, and cultural influence. Though not predominant in European affairs, Portugal did have an extensive colonial trading empire throughout the world backed by a powerful thalassocracy.
+[TAB]In 1448, on a small island known as Arguim off the coast of Mauritania, an important castle was built, working as a feitoria, a trading post, for commerce with inland Africa. Some years before the first African gold was brought to Portugal, circumventing the Arab caravans that crossed the Sahara. Some time later, the caravels explored the Gulf of Guinea which lead to the discovery of several uninhabited islands: Cape Verde, Fern鉶 P髈, S鉶 Tom�, Pr韓cipe and Annob髇. On November 13, 1460, Prince Henry the Navigator died. He had been the leading patron of all maritime exploration by Portugal up to that time. Immediately following Henry's death, there was a lapse of further exploration. However, Henry's patronage of explorations had shown that profits could be made in trade which followed the exploration of new lands. Accordingly when exploration was commenced again private merchants led the way in attempting to stretch trade routes further down the African coast. In the 1470's, Portuguese trading ships reached the Gold Coast. Finally, in 1471, the Portuguese captured Tangier, after years of attempts. Eleven years later in 1482, the fortress of S鉶 Jorge da Mina in the town of Elmina on the Gold Coast in the Gulf of Guinea was built. (Setting sail aboard the fleet of ships taking the materials and building crews to Elmina on this trip in December of 1481 was Christopher Columbus.) In 1483, Diogo C鉶 reached and explored the Congo River.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在15和16世纪，葡萄牙是欧洲的一个主要强国，在经济、政治和文化影响力方面与英国、法国和西班牙并列。尽管在欧洲事务中并不占主导地位，但葡萄牙在全世界拥有一个庞大的殖民贸易帝国，并得到强大的地中海国家的支持。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEXICO_MENDICANT_ORDER</Tag>
+		<English>Mendicant Order</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>墨西哥医院</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENGLAND_PUBLIC_HOUSE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Public House[COLOR_REVERT], the English replacement for the [COLOR_BUILDING_TEXT]Coffee House[COLOR_REVERT], increases trade route yield.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]英国酒吧[COLOR_REVERT]是[COLOR_BUILDING_TEXT]咖啡厅[COLOR_REVERT]的英文替代品，增加了贸易路线收益。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPAIN_BULLRING_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Bullring[COLOR_REVERT], the Spanish replacement for the [COLOR_BUILDING_TEXT]Stable[COLOR_REVERT], increases the commerce yield of improved [COLOR_HIGHLIGHT_TEXT]Horse[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Cow[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]西班牙斗牛场[COLOR_HIGHLIGHT_TEXT]，替代马厩，增加马匹和牛的商业产出</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Microwave Station[COLOR_REVERT], the Canadian replacement for the [COLOR_BUILDING_TEXT]Broadcast Tower[COLOR_REVERT], increases the culture output with access to power even more.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]加拿大微波站[COLOR_REVERT]是加拿大替代[COLOR_BUILDING_TEXT]广播塔[COLOR_REVERT]的设备，它能更大程度地提高文化输出。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT], the Italian replacement for the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT], doesn't require a [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT] or coast.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT]是意大利替代[COLOR_BUILDING_TEXT]海关大楼[COLOR_REVERT]，不需要[COLOR_BUILDING_TEXT]港口[COLOR_REVERT]或海岸。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARTHAGE_COTHON_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Cothon[COLOR_REVERT], the Phoenician replacement for the [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT], provides an extra trade route.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]科顿[COLOR_REVERT]是腓尼基人对[COLOR_BUILDING_TEXT]港口的替代品，提供了一条额外的贸易路线。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA</Tag>
+		<English>Collegantia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利海关</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PORTUGAL_COLONY_ADMINISTRATION</Tag>
+		<English>Colonial Administration</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>葡萄牙殖民管理局</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRAN_AB_ANBAR</Tag>
+		<English>Ab Anbar</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伊朗引水渠</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARAPPAN_SEWER</Tag>
+		<English>Early Sewer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哈拉帕城市排水系统</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEXICO_MENDICANT_ORDER_PEDIA</Tag>
+		<English>[TAB]Mendicant orders are religious orders which depend directly on charity for their livelihood. Christian mendicant orders, in principle, do not own property, either individually or collectively, believing that they are thereby copying the way of life followed by Jesus, and able to spend all their time and energy on religious work. The mendicant orders are marked by two characteristics: poverty, practised in common; and a way of life that combined praying together in community with the work of the public ministry of the Church.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Mendicant Order是直接依靠慈善为生的宗教团体。基督教的乞讨者，原则上，不拥有财产，无论是个人的还是集体的，他们相信他们是复制耶稣所遵循的生活方式，能够把所有的时间和精力花在宗教工作上。乞讨会的特点有两个：贫穷，共同实践；以及一种生活方式，把在社区一起祈祷与教会公共部门的工作结合起来。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_POLAND_FOLWARK_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Folwark[COLOR_REVERT], the Polish replacement for the [COLOR_BUILDING_TEXT]Estate[COLOR_REVERT], stores food after growth.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Folwark[COLOR_REVERT]是[COLOR_BUILDING_TEXT]庄园[COLOR_REVERT]的波兰替代品，在生长后储存食物。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AZTEC_CHINAMPA</Tag>
+		<English>Chinampa</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿兹特克引水渠</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], the Russian replacement for the [COLOR_BUILDING_TEXT]Star Fort[COLOR_REVERT], increases the espionage outpunt and help thwart rival spies and provides experience to [COLOR_UNIT_TEXT]Spy units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese> [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], 是俄罗斯取代[COLOR_BUILDING_TEXT]星堡[COLOR_REVERT]的，它增加了间谍活动的数量，帮助挫败对手的间谍，并为[COLOR_UNIT_TEXT]间谍单位[COLOR_REVERT]提供经验。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_OPERA_PEDIA</Tag>
+		<English>[TAB]An opera house is a theater building used for opera performances that consists of a stage, an orchestra pit, audience seating, and backstage facilities for costumes and set building. While some venues are constructed specifically for operas, other opera houses are part of larger performing arts centers.[PARAGRAPH:1]Because many operas call for large-scale productions, opera houses are usually large - generally more than 1,000 seats and often several thousand seats. Traditionally, Europe's major opera houses built in the 19th century contained between about 1,500 to 3,000 seats. Since the latter part of the nineteenth century, opera houses generally have an orchestra pit, where a large number of orchestra players may be seated at a level below the audience, so that they can play without overwhelming the singing voices.[PARAGRAPH:1]The Vienna Opera House (Staatsoper) has a world-wide reputation for its first-class opera performances and is also known because of the Vienna Philharmonic Orchestra. A night at the State Opera is one of the most impressive events any visitor to Vienna can experience.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>歌剧院是用于歌剧演出的剧院建筑，包括舞台、乐池、观众席和后台服装和布景设施。虽然有些场馆是专门为歌剧而建的，但其他歌剧院是大型表演艺术中心的一部分[段落：1]因为许多歌剧需要大规模的演出，歌剧院通常都是大型的——一般超过1000个座位，通常有几千个座位。传统上，建于19世纪的欧洲主要歌剧院大约有1500到3000个座位。从十九世纪后半叶起，歌剧院一般都有一个乐池，在那里，大量的乐手可能坐在观众的下面，这样他们就可以在不压倒歌喉的情况下演奏[段落：1]维也纳歌剧院（statesoper）以其一流的歌剧表演而闻名于世，也因为维也纳爱乐乐团而闻名。国家歌剧院之夜是任何到维也纳的游客都能体验到的最令人印象深刻的活动之一。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHIOPIA_XEER_PEDIA</Tag>
+		<English>[TAB]Xeer is the polycentric legal system of Somalia. Under this system, elders serve as judges and help mediate cases using precedents. It is a good example of how customary law works within a stateless society and is a fair approximation of what is thought of as natural law. Several scholars have noted that even though Xeer may be centuries old, it has the potential to serve as the legal system of a modern, well-functioning economy.[PARAGRAPH:1]According to one report, the Somali nation did not begin with the common use of the Somali language by the clans, but rather with the collective observance of Xeer. Xeer is thus referred to as being both the father and child of the Somali nation. An analogous phenomenon is said to have occurred among the neighbouring Oromo nation, which is now under Ethiopian rule.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Xeer是索马里的多中心法律体系。在这一制度下，长老担任法官，并利用判例帮助调解案件。这是一个很好的例子，说明了习惯法在无国籍社会中是如何运作的，并且是对自然法的一种合理的近似。一些学者指出，尽管xer可能已有数百年的历史，但它有潜力成为现代、运转良好的经济体的法律体系[段落：1]根据一份报告，索马里民族并不是从部族共同使用索马里语开始的，而是从集体遵守谢尔语开始的。因此，谢尔被称为索马里民族的父亲和孩子。据说，邻近的奥罗莫民族也发生了类似的现象，该国现在处于埃塞俄比亚的统治之下。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOMBIA_RESORT_PEDIA</Tag>
+		<English>[TAB]A resort is a place used for relaxation or recreation, attracting visitors for vacations and/or tourism. Resorts are places, towns or sometimes commercial establishment operated by a single company.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]度假村是一个用来放松或娱乐的地方，吸引游客来度假和/或旅游。度假村是指由一家公司经营的地方、城镇或商业机构。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOMBIA_RESORT</Tag>
+		<English>Resort</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>哥伦比亚度假村</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Basilica[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], it doesn't increase the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Hit Football Event[COLOR_REVERT], it does increas the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Incense[COLOR_REVERT] and it gives one free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]东罗马大教堂[COLOR_REVERT]，[COLOR_BUILDING_TEXT]圆形剧场的替代品[COLOR_HIGHLIGHT_TEXT]热门足球赛事[COLOR_REVERT]并不会增加城市的幸福感，它确实增加了城市的幸福感，它提供了一个免费的[COLOR_HIGHLIGHT_TEXT]香[COLOR_HIGHLIGHT_TEXT]神父[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE_PEDIA</Tag>
+		<English>[TAB]During World War II, microwaves had proven themselves for communications but never on a scale demanded for a trans-Canada network. In a project marked by significant electrical engineering as well as extremely difficult feats of construction, the Trans-Canada Microwave system was officially completed on 1 July 1958. It was the largest microwave transmission network in the world, placing Canada at the forefront of communications technology.[PARAGRAPH:1]After the completion of the Trans-Canada Microwave System, Canadian engineers went on to build the Panaftel network linking the 5 African countries of Benin, Niger, Upper Volta, Mali and Senegal. The experience gained by Canadian engineering firms has been a major factor in their ability to gain contracts abroad, and to develop telecommunications infrastructure across the world.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在第二次世界大战期间，微波已经证明了自己的通信能力，但从未达到跨加拿大网络所需的规模。1958年7月1日，横贯加拿大的微波系统正式竣工，这是一个以重大的电气工程和极其困难的施工壮举为标志的工程。它是世界上最大的微波传输网络，使加拿大处于通信技术的前沿[段落：1]跨加拿大微波系统建成后，加拿大工程师继续建造连接贝宁、尼日尔、上伏尔塔、马里和塞内加尔5个非洲国家的Panaftel网络。加拿大工程公司获得的经验是他们获得海外合同和在世界各地发展电信基础设施的主要因素。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUTCH_MILL</Tag>
+		<English>Molen</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>荷兰风车</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PRUSSIA_PILLBOX</Tag>
+		<English>Pillbox</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>普鲁士碉堡</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_OPERA</Tag>
+		<English>Opera House</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗马剧场</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TIBET_STATUE_PEDIA</Tag>
+		<English>[TAB]The Statues (sometimes called "Buddharupa") of India, Tibet, and the other Buddhist cultures usually depict a well proportioned figure, but sometimes he is shown emaciated, in recollection of the Buddha 's years of ascetic practices. Japanese ones are often very square and stolid, while Indian and Southeast Asian ones often have thinner figures.[PARAGRAPH:1]Many people may be familiar with the "Happy" or "Laughing" statues, a different historical figure, who should not be confused with the images of Gautama Buddha. Hotei or Budai, a Chinese Buddhist monk, is depicted as fat and happy, often travelling or bearing wealth. Images of Buddha sometimes shown him reclining, recalling the Buddha Shakyamuni's departure into final nirvana. Other times he is holding various symbolic objects, or making symbolic mudras (gestures). The clothing also varies; in China and Japan, where it is considered socially improper for monks and nuns to expose the upper arm, the statue has a tunic and long sleeves, much like the traditional monks and nuns, while in India they are often topless.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度、西藏和其他佛教文化中的塑像（有时称为“佛陀罗巴”）通常描绘的是一个比例匀称的人物，但有时他却显得憔悴，这是对佛陀多年苦行的回忆。日本人的身材通常很方，很呆板，而印度和东南亚的人往往身材瘦削[段落：1]很多人可能熟悉“喜”或“笑”的塑像，是不同的历史人物，不应将其与释迦牟尼佛的形象混为一谈。和尚或布岱，一个中国佛教僧侣，被描述为肥胖和快乐，经常旅行或携带财富。佛像有时显示他躺着，回忆释迦牟尼佛离开进入最后的涅盘。另一些时候，他拿着各种象征性的东西，或者做一些象征性的手势。服装也各不相同；在中国和日本，僧侣和尼姑暴露上臂被认为是不合适的，这尊雕像有束腰外衣和长袖，很像传统的僧侣和尼姑，而在印度，他们通常赤裸上身。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERSIA_SATRAP_COURT_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Satrap Court[COLOR_REVERT], the Persian replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], increases happiness.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Satrap Court[COLOR_REVERT]，波斯语替代了[COLOR_BUILDING_TEXT]法院[COLOR_REVERT]，增加了幸福感。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MUGHAL_FORT_PEDIA</Tag>
+		<English>[TAB]The Mughals were an Islamic empire that invaded India in the 15th century, and ruled most of the subcontinent until the mid-19th. During their rule they constructed elaborate forts across the countryside which served as administrative centers and living quarters for the occupiers. These forts were beautiful structures, fitting palaces for the rulers of a vast empire. Several - including the magnificent "Lahore Fort" and Red Fort of Agra - survive today and remain as some of the largest tourist attractions to India, monuments to the Mughals' power and style.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>莫卧儿人是一个伊斯兰帝国，15世纪入侵印度，一直统治着次大陆的大部分地区，直到19世纪中叶。在他们的统治期间，他们在整个乡村建造了精致的堡垒，作为占领者的行政中心和生活区。这些堡垒是美丽的建筑，是一个庞大帝国统治者的宫殿。包括宏伟的“拉合尔堡”和红色的阿格拉堡在内的几座城市至今仍保留下来，成为印度最大的旅游景点，是莫卧儿王朝权力和风格的纪念碑。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROME_CASTRA_PEDIA</Tag>
+		<English>[TAB]The Latin word castra, with its singular castrum, was used by the ancient Romans to mean buildings or plots of land reserved to or constructed for use as a military defensive position. As the word appears in both Oscan and Umbrian (dialects of Italic) as well as in Latin, it probably descended from Indo-European to Italic. In classical Latin the word castra always means great legionary encampment, both marching, temporary ones and the fortified permanent ones, while the diminutive form castellum was used for the smaller forts, which were usually, but not always, occupied by the auxiliary units and used as logistic bases for the legions, as explained by Vegetius. A generic term is praesidium ("guard post or garrison"). The terms stratopedon ("army camp") and phrourion ("fort") were used by Greek language authors, in order to designate the Roman castra and the Roman castellum respectively. In English, the terms Roman Fortress, Roman Fort and Roman Camp are commonly used for the castra. However the scholars' convention always wants the use of the word Camp, Marching Camp and Fortress as a translation of castra and the use of the word Fort as a translation of castellum and this type of convention is usually followed and found in all the scholarly works.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]拉丁词castra，其单数castrum，被古罗马人用来指保留或建造用作军事防御阵地的建筑物或地块。由于这个词出现在奥斯坎语和翁布里亚语（斜体方言）以及拉丁语中，它可能是从印欧语系发展到斜体的。在古典拉丁语中，“卡斯特拉”一词通常意味着巨大的军团营地，包括行军营地、临时营地和坚固的永久营地，而小型城堡则用于较小的堡垒，如维盖提乌斯（Vegetius）所解释的那样，这些堡垒通常（但不总是）被辅助部队占领，并用作军团的后勤基地。一个通用的术语是praesidium（“哨所或卫戍区”）。希腊文作者使用了stratopedon（“军营”）和phrourion（“堡垒”）两个词，分别用来指代罗马卡斯特拉和罗马城堡。在英语中，卡斯特拉通常使用“罗马要塞”、“罗马堡垒”和“罗马营”等术语。然而，学者们的惯例总是希望用Camp，Marching Camp和fortle这个词来翻译卡斯特拉，而Fort这个词翻译成castellum，这种惯例在所有的学术著作中都是遵循和发现的。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KHMER_PAGODA_PEDIA</Tag>
+		<English>[TAB]A pagoda is the general term in the English language for a tiered tower with multiple eaves common in India, China, Japan, Korea, Burma, Vietnam, Nepal and other parts of Asia. Some pagodas are used as Taoist houses of worship. Most pagodas were built to have a religious function, most commonly Buddhist, and were often located in or near temples. This term may refer to other religious structures in some countries. In Vietnam, pagoda is a more generic term referring to a place of worship, although pagoda is not an accurate word to describe a Buddhist temple. The modern pagoda is an evolution of the Ancient Indian stupa, a tomb-like structure where sacred relics could be kept safe and venerated. The architectural structure of the stupa has spread across Asia, taking on many diverse forms as details specific to different regions are incorporated into the overall design.[PARAGRAPH:1]Pagodas attract lightning strikes because of their height. This tendency may have played a role in their perception as spiritually charged places. Many pagodas have a decorated finial at the top of the structure. The finial is designed in such a way as to have symbolic meaning within Buddhism; for example, it may include designs representing a lotus. The finial also functions as a lightning rod, and thus helps to both attract lightning and protect the pagoda from lightning damage. Early pagodas were constructed out of wood, but steadily progressed to sturdier materials, which helped protect against fires and rot.[PARAGRAPH:1]Pagodas traditionally have an odd number of levels, a notable exception being the eighteenth century pagoda "folly" designed by Sir William Chambers at Kew Gardens in London.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]宝塔在英语中是一个通称，在印度、中国、日本、韩国、缅甸、越南、尼泊尔和亚洲其他地区，有多层屋檐的塔楼。有些宝塔被用作道教的礼拜堂。大多数佛塔都是为了具有宗教功能而建造的，最常见的是佛教，通常位于寺庙内或寺庙附近。这个词可能指一些国家的其他宗教结构。在越南，宝塔是一个更通用的术语，指的是一个礼拜场所，虽然宝塔不是一个准确的词来形容佛教寺庙。现代宝塔是古印度佛塔的一个演变，它是一个像坟墓一样的结构，在那里，神圣的文物可以得到安全的保护和崇敬。佛塔的建筑结构遍布亚洲，呈现出许多不同的形式，因为不同地区的细节被融入到整体设计中[段落：1]宝塔因其高度而吸引雷击。这种倾向可能在他们认为精神上充满活力的地方起了作用。许多宝塔的顶部都有装饰性的装饰。尾端的设计方式在佛教中具有象征意义；例如，它可能包括代表莲花的图案。塔身也起到避雷针的作用，因此既能吸引闪电，又能保护宝塔不受雷击损坏。早期的宝塔是用木头建造的，但逐渐发展成更坚固的材料，有助于防止火灾和腐烂[段落：1]宝塔传统上有奇数个层次，一个显著的例外是18世纪的宝塔“愚蠢”，由威廉·钱伯斯爵士在伦敦的丘花园设计。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MALI_SALT_MINE</Tag>
+		<English>Salt Mine</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马里盐矿</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DUTCH_MILL_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Molen[COLOR_REVERT], the Dutch replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], increases the building speed of naval units and it allows you to hire one [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]荷兰风车[COLOR_REVERT]是荷兰对[COLOR_BUILDING_TEXT]锻造厂[COLOR_REVERT]的替代品，它提高了海军部队的建造速度，并允许你雇佣一名[COLOR_HIGHLIGHT_TEXT]商人[COLOR_REVERT]。</Chinese>
+	</TEXT>
+</Civ4GameText>

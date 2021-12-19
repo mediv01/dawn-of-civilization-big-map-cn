@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_6</Tag>
+		<English>Free health</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>自由健康</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_11</Tag>
+		<English>GP threshold</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>GP阈值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_4</Tag>
+		<English>Cities maintenance</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>数量维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_10</Tag>
+		<English>Inflation rate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>通货膨胀率</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_0</Tag>
+		<English>Culture</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>文化</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_1</Tag>
+		<English>Unit upkeep</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单位维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS</Tag>
+		<English>Modifiers</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>修正</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_3</Tag>
+		<English>Distance maintenance</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>距离维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_7</Tag>
+		<English>Unit production costs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>单位生产成本</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_2</Tag>
+		<English>Research cost</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>研究费用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_9</Tag>
+		<English>Building costs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>建筑成本</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_5</Tag>
+		<English>Civic upkeep</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>政体维护费</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_12</Tag>
+		<English>Growth threshold</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>生长阈值</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MODIFIERS_8</Tag>
+		<English>Wonder costs</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奇迹成本</Chinese>
+	</TEXT>
+</Civ4GameText>

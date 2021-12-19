@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_STOP_SHORTCUT</Tag>
+		<English>ALT + CTRL + SHIFT + G to Stop</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>ALT + CTRL + SHIFT + G to Stop</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_INVALID_SAVE_PATH</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]MapFinder save file path is invalid: %s1[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_NEGATIVE_TEXT]MapFinder save file path is invalid: %s1[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_NOT_RUNNING</Tag>
+		<English>[COLOR_WARNING_TEXT]MapFinder is not running[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]MapFinder is not running[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__ENABLED_HOVER</Tag>
+		<English>When checked, the shortcut keys for regenerating the map (ALT + G) and starting/stopping MapFinder (ALT + CTRL + G) are active.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>选中时，用于重新生成地图的快捷键（ALT+G）和启动/停止地图查找器的快捷键（ALT+CTRL+G）处于活动状态。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_TOTAL_SAVES</Tag>
+		<English>Saves</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Saves</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SKIPDELAY_HOVER</Tag>
+		<English>Enter the number of seconds to pause before starting the next MapFinder cycle when a map fails to pass the rules and is skipped (default value is 0.25).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入当地图未能通过规则并被跳过（默认值为0.25）时，在开始下一个MapFinder循环之前要暂停的秒数。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_REGENERATE_FAILED</Tag>
+		<English>[COLOR_WARNING_TEXT]MapFinder failed to regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]MapFinder failed to regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_INVALID_SYSTEM_FILE</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]MapFinder system file not found: %s1[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_NEGATIVE_TEXT]MapFinder system file not found: %s1[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_INVALID_PATH</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]MapFinder path is invalid: %s1[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_NEGATIVE_TEXT]MapFinder path is invalid: %s1[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEDELAY_HOVER</Tag>
+		<English>Enter the number of seconds to pause before taking the screenshot and saving the map when it passes the rules. Note that there may be an enforced minimum to allow time for the fog of war to recover previously-revealed tiles before taking the screenshot (default value is 2.0).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入截图前要暂停的秒数，并在地图通过规则时保存地图。请注意，可能有一个强制的最小值，以允许战争之雾在拍摄屏幕快照之前恢复先前显示的平铺（默认值为2.0）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__PATH_HOVER</Tag>
+		<English>Enter the full path to the MapFinder directory. It must contain the "Rules" folder.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入MapFinder目录的完整路径。它必须包含“规则”文件夹。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_REGNERATING</Tag>
+		<English>Regenerating Map...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Regenerating Map...</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_ALREADY_RUNNING</Tag>
+		<English>[COLOR_WARNING_TEXT]MapFinder is already running[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]MapFinder is already running[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVELIMIT_HOVER</Tag>
+		<English>Enter the maximum number of times MapFinder will save the map before stopping automatically (default value is 1000).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入MapFinder在自动停止之前保存地图的最大次数（默认值为1000）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__RULEFILE_HOVER</Tag>
+		<English>Enter the name of the rule file to use for checking maps for save-worthiness, e.g. "Precious Metals.rul".</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入用于检查地图是否值得保存的规则文件的名称，例如“贵金属.rul”。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONLIMIT_HOVER</Tag>
+		<English>Enter the maximum number of times MapFinder will regenerate the map before stopping automatically (default value is 1000).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入MapFinder在自动停止之前重新生成地图的最大次数（默认值为1000）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_REQUIRES_BULL</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]MapFinder requires BULL to function[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_NEGATIVE_TEXT]MapFinder requires BULL to function[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEPATH_TEXT</Tag>
+		<English>Save Path</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>保存路径</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONDELAY_TEXT</Tag>
+		<English>Regenerate Delay</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>重新生成延迟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_SCREEN_TITLE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]MapFinder[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]MapFinder[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_SAVING</Tag>
+		<English>Saving Game...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Saving Game...</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__ENABLED_TEXT</Tag>
+		<English>Enabled</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>启用</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONDELAY_HOVER</Tag>
+		<English>Enter the number of seconds to delay before the map is regenerated each time through the MapFinder cycle (default value is 0.0).</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入每次通过MapFinder循环重新生成映射之前要延迟的秒数（默认值为0.0）。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONLIMIT_TEXT</Tag>
+		<English>Regenerate Limit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>再生极限</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SKIPDELAY_TEXT</Tag>
+		<English>Skip Delay</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>跳过延迟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_STOPPED</Tag>
+		<English>MapFinder stopped</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>MapFinder stopped</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__RULEFILE_TEXT</Tag>
+		<English>Rule File</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>规则文件</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEDELAY_TEXT</Tag>
+		<English>Save Delay</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>保存延迟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_CANNOT_REGENERATE</Tag>
+		<English>[COLOR_WARNING_TEXT]MapFinder cannot regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_WARNING_TEXT]MapFinder cannot regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVELIMIT_TEXT</Tag>
+		<English>Save Limit</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>保存限制</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__PATH_TEXT</Tag>
+		<English>Path</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>路径</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_TOTAL_MAPS</Tag>
+		<English>Maps</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Maps</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MAPFINDER_INVALID_RULE_FILE</Tag>
+		<English>[COLOR_NEGATIVE_TEXT]MapFinder rule file not found: %s1[COLOR_REVERT]</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_NEGATIVE_TEXT]MapFinder rule file not found: %s1[COLOR_REVERT]</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEPATH_HOVER</Tag>
+		<English>Enter the full path where maps matching your rules should be saved.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>输入与规则匹配的地图应保存的完整路径。</Chinese>
+	</TEXT>
+</Civ4GameText>

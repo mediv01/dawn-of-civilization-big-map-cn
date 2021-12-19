@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='GBK'?>
+<Civ4GameText>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_DEFAULT</Tag>
+		<English>Maharajate of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1公国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_VIJAYANAGARA</Tag>
+		<English>Vijayanagara</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>毗奢耶那伽罗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_MARATHA</Tag>
+		<English>Maratha</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马拉塔</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_MAHAJANAPADAS</Tag>
+		<English>%s2 Mahajanapadas</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s2土邦同盟</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_GUPTA</Tag>
+		<English>Gupta</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>笈多</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIAN_VASSAL</Tag>
+		<English>Janapada of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1附属国</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_PALA</Tag>
+		<English>Pala</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>波罗</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_DESC</Tag>
+		<English>The Indians</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_PEOPLES</Tag>
+		<English>Indo-Aryan Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度雅利安人</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIAN_AZTECS</Tag>
+		<English>Aztec Janapada</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印第安-阿兹特克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_ADJECTIVE</Tag>
+		<English>Indian</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_FASCIST</Tag>
+		<English>Undivided %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>法西斯%s1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_MAURYA</Tag>
+		<English>Maurya</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>孔雀</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_SHORT_DESC</Tag>
+		<English>India</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>印度</Chinese>
+	</TEXT>
+</Civ4GameText>
