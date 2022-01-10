@@ -503,7 +503,7 @@
 		<Tag>TXT_KEY_UHV_BUR3</Tag>
 		<English>Control all of Indochina in 1580 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1580年控制了整个印度支那</Chinese>
+		<Chinese>公元1580年控制了整个中南半岛</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY2_TITLE</Tag>
@@ -1205,7 +1205,7 @@
 		<Tag>TXT_KEY_UHV_BUR1_TITLE</Tag>
 		<English>Indochinese Buddhism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>印度支那佛教</Chinese>
+		<Chinese>小乘佛教</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TUR1_TITLE</Tag>
@@ -3059,7 +3059,7 @@
 		<Tag>TXT_KEY_UHV_BUR2</Tag>
 		<English>Have five Great Priests, Great Scientists, or Great Artists and one of each settled in your cities in 1211 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>有五位大先知，伟大的科学家，或伟大的艺术家，每一位都在公元1211年前定居在你的城市里</Chinese>
+		<Chinese>公元1211年前在城市至少定居1个大预言家，1个大艺术家，和大科学家，三个种类的伟人合计5个</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAM3_EPIC</Tag>
@@ -3851,7 +3851,7 @@
 		<Tag>TXT_KEY_UHV_BUR1</Tag>
 		<English>Build the Shwedagon Paya, 2 Buddhist Temples, and 2 Buddhist Monasteries by 1000 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>在公元1000年前修建大金寺、2座佛教寺庙和2座佛教寺院</Chinese>
+		<Chinese>在公元1000年前修建瑞金大金寺、2座佛寺和2座佛院</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CON2_EPIC</Tag>
@@ -4625,7 +4625,7 @@
 		<Tag>TXT_KEY_UHV_BUR3_TITLE</Tag>
 		<English>The Toungoo Dynasty</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>东郭王朝</Chinese>
+		<Chinese>东吁王朝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_HOLY_CITY_WONDERS</Tag>
