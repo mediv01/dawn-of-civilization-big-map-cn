@@ -1,0 +1,2 @@
+1.调整CvPlotGroup API接口
+2.优化CvPlotGroup的核心数据结构（链表替换为set）

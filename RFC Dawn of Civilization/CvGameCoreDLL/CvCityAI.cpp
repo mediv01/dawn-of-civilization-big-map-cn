@@ -5454,9 +5454,7 @@ CvCity* CvCityAI::AI_getRouteToCity() const
 	return getCity(m_routeToCity);
 }
 
-/*
- * 计算下一个将要连通的城市（价值最高）
- */
+
 void CvCityAI::AI_updateRouteToCity()
 {
 	CvCity* pLoopCity;
@@ -9933,8 +9931,8 @@ void CvCityAI::AI_updateSpecialYieldMultiplier()
 		int iIncome = 1 + kPlayer.getCommerceRate(COMMERCE_GOLD) + kPlayer.getCommerceRate(COMMERCE_RESEARCH) + std::max(0, kPlayer.getGoldPerTurn());
 		int iExpenses = 1 + kPlayer.calculateInflatedCosts() - std::min(0, kPlayer.getGoldPerTurn());
 		FAssert(iIncome > 0);
-
-		int iRatio = (100 * iExpenses) / std::max(iIncome, 1); // fix crash bug: iIcome can not be zero
+		
+		int iRatio = (100 * iExpenses) / (iIncome == 0 ? 1: iIncome); // bugfix -- wunshare devided by zero
 		//Gold -> Production Reduced To
 		// 40- -> 100%
 		// 60 -> 83%
@@ -10479,146 +10477,130 @@ int CvCityAI::AI_buildingWeight(BuildingTypes eBuilding) const
 	int iWeight = kBuilding.getAIWeight();
 	int iPreference = kPlayer.getBuildingPreference(eBuilding);
 
-	switch (eBuilding) {
-		case HANGING_GARDENS:
+	if (eBuilding == HANGING_GARDENS)
+	{
+		int iFloodPlainsCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
 		{
-			int iFloodPlainsCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			if (getCityIndexPlot(iI)->getFeatureType() == FEATURE_FLOOD_PLAINS)
 			{
-				if (getCityIndexPlot(iI)->getFeatureType() == FEATURE_FLOOD_PLAINS)
-				{
-					iFloodPlainsCount += 1;
-				}
+				iFloodPlainsCount += 1;
 			}
+		}
 
-			if (iFloodPlainsCount < 2)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case TEMPLE_OF_KUKULKAN:
+		if (iFloodPlainsCount < 2)
 		{
-			int iRainforestCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == TEMPLE_OF_KUKULKAN)
+	{
+		int iRainforestCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+		{
+			if (getCityIndexPlot(iI)->getFeatureType() == FEATURE_RAINFOREST)
 			{
-				if (getCityIndexPlot(iI)->getFeatureType() == FEATURE_RAINFOREST)
-				{
-					iRainforestCount += 1;
-				}
+				iRainforestCount += 1;
 			}
+		}
 
-			if (iRainforestCount < 4)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case MACHU_PICCHU: 
-		case MOLE_ANTONELLIANA:
+		if (iRainforestCount < 4)
 		{
-			int iPeakCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == MACHU_PICCHU || eBuilding == MOLE_ANTONELLIANA)
+	{
+		int iPeakCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+		{
+			if (getCityIndexPlot(iI)->isPeak())
 			{
-				if (getCityIndexPlot(iI)->isPeak())
-				{
-					iPeakCount += 1;
-				}
+				iPeakCount += 1;
 			}
+		}
 
-			if (iPeakCount < 5)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case UNIVERSITY_OF_SANKORE:
-		case BURJ_KHALIFA:
+		if (iPeakCount < 5)
 		{
-			int iDesertCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == UNIVERSITY_OF_SANKORE || eBuilding == BURJ_KHALIFA)
+	{
+		int iDesertCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+		{
+			if (getCityIndexPlot(iI)->getTerrainType() == TERRAIN_DESERT)
 			{
-				if (getCityIndexPlot(iI)->getTerrainType() == TERRAIN_DESERT)
-				{
-					iDesertCount += 1;
-				}
+				iDesertCount += 1;
 			}
+		}
 
-			if (iDesertCount < 5)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case POTALA_PALACE:
+		if (iDesertCount < 5)
 		{
-			int iHillCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == POTALA_PALACE)
+	{
+		int iHillCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+		{
+			if (getCityIndexPlot(iI)->isHills())
 			{
-				if (getCityIndexPlot(iI)->isHills())
-				{
-					iHillCount += 1;
-				}
+				iHillCount += 1;
 			}
+		}
 
-			if (iHillCount < 8)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case ITSUKUSHIMA_SHRINE:
+		if (iHillCount < 8)
 		{
-			int iWaterCount = 0;
-			for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == ITSUKUSHIMA_SHRINE)
+	{
+		int iWaterCount = 0;
+		for (int iI = 0; iI < NUM_CITY_PLOTS; iI++)
+		{
+			if (getCityIndexPlot(iI)->isWater())
 			{
-				if (getCityIndexPlot(iI)->isWater())
-				{
-					iWaterCount += 1;
-				}
+				iWaterCount += 1;
 			}
+		}
 
-			if (iWaterCount < 8)
-			{
-				return -MAX_INT;
-			}
-			break;
-		}
-		case IMAGE_OF_THE_WORLD_SQUARE:
-		case HERMITAGE:
-		case CHAPULTEPEC_CASTLE:
+		if (iWaterCount < 8)
 		{
-			if (getCultureLevel() < 3)
-			{
-				return -MAX_INT;
-			}
-			break;
+			return -MAX_INT;
 		}
-		case SHALIMAR_GARDENS: 
-		case GARDENS_BY_THE_BAY:
+	}
+	else if (eBuilding == IMAGE_OF_THE_WORLD_SQUARE || eBuilding == HERMITAGE || eBuilding == CHAPULTEPEC_CASTLE)
+	{
+		if (getCultureLevel() < 3)
 		{
-			if (goodHealth() - badHealth() < 4)
-			{
-				return -MAX_INT;
-			}
-			break;
+			return -MAX_INT;
 		}
-		case CHANNEL_TUNNEL:
+	}
+	else if (eBuilding == SHALIMAR_GARDENS || eBuilding == GARDENS_BY_THE_BAY)
+	{
+		if (goodHealth() - badHealth() < 4)
 		{
-			int iFriendlyRelationCount = 0;
-			for (int iI = 0; iI < MAX_PLAYERS; iI++)
+			return -MAX_INT;
+		}
+	}
+	else if (eBuilding == CHANNEL_TUNNEL)
+	{
+		int iFriendlyRelationCount = 0;
+		for (int iI = 0; iI < MAX_PLAYERS; iI++)
+		{
+			if (GET_PLAYER((PlayerTypes)iI).AI_getAttitude(getOwnerINLINE()) == ATTITUDE_FRIENDLY)
 			{
-				if (GET_PLAYER((PlayerTypes)iI).AI_getAttitude(getOwnerINLINE()) == ATTITUDE_FRIENDLY)
-				{
-					iFriendlyRelationCount += 1;
-				}
+				iFriendlyRelationCount += 1;
 			}
+		}
 
-			if (iFriendlyRelationCount < 1)
-			{
-				return -MAX_INT;
-			}
-			break;
+		if (iFriendlyRelationCount < 1)
+		{
+			return -MAX_INT;
 		}
 	}
 

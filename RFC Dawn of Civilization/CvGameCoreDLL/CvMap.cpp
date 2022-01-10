@@ -558,10 +558,8 @@ void CvMap::verifyUnitValidPlot()
 
 void CvMap::combinePlotGroups(PlayerTypes ePlayer, CvPlotGroup* pPlotGroup1, CvPlotGroup* pPlotGroup2)
 {
-	CLLNode<XYCoords>* pPlotNode;
 	CvPlotGroup* pNewPlotGroup;
 	CvPlotGroup* pOldPlotGroup;
-	CvPlot* pPlot;
 
 	FAssertMsg(pPlotGroup1 != NULL, "pPlotGroup is not assigned to a valid value");
 	FAssertMsg(pPlotGroup2 != NULL, "pPlotGroup is not assigned to a valid value");
@@ -582,13 +580,7 @@ void CvMap::combinePlotGroups(PlayerTypes ePlayer, CvPlotGroup* pPlotGroup1, CvP
 		pOldPlotGroup = pPlotGroup1;
 	}
 
-	pPlotNode = pOldPlotGroup->headPlotsNode();
-	while (pPlotNode != NULL)
-	{
-		pPlot = plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY);
-		pNewPlotGroup->addPlot(pPlot);
-		pPlotNode = pOldPlotGroup->deletePlotsNode(pPlotNode);
-	}
+	pNewPlotGroup->combine(pOldPlotGroup);
 
 	// Leoreth
 	if (ePlayer != NO_PLAYER)

@@ -12,6 +12,7 @@
 #include "CvDLLEntityIFaceBase.h"
 #include "CvDLLUtilityIFaceBase.h"
 #include "CvGlobals.h"	// for gDLL
+#include "CvPerformance.h"
 
 #ifndef FINAL_RELEASE
 #ifndef FP_PROFILE_ENABLE 
@@ -83,13 +84,17 @@ private:
 
 #define PROFILE_FUNC()\
 	static ProfileSample sample(__FUNCTION__);\
-	CProfileScope ProfileScope(&sample);		
+	CProfileScope ProfileScope(&sample);
 
 #else
-#define PROFILE(name)				// Remove profiling code
-#define PROFILE_BEGIN(name)
+//#define PROFILE(name)
+//#define PROFILE_BEGIN(name)
+//#define PROFILE_END()
+//#define PROFILE_FUNC()
+#define PROFILE(name) CvStopWatch watch(name);
+#define PROFILE_BEGIN(name) CvStopWatch watch(name);
 #define PROFILE_END()
-#define PROFILE_FUNC()
+#define PROFILE_FUNC() CvStopWatch watch(__FUNCTION__);
 #endif
 
 

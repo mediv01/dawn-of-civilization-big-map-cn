@@ -1,0 +1,2 @@
+1.修复CvPlotGroup了没初始化导致读档跳出的bug
+2.调整了CvPerformance的代码

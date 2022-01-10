@@ -8137,7 +8137,6 @@ bool CvUnitAI::AI_guardBonus(int iMinValue)
 						iValue = GET_PLAYER(getOwnerINLINE()).AI_bonusVal(eNonObsoleteBonus);
 
 						iValue += std::max(0, 200 * GC.getBonusInfo(eNonObsoleteBonus).getAIObjective());
-
 						if (pLoopPlot->getPlotGroupConnectedBonus(getOwnerINLINE(), eNonObsoleteBonus) == 1)
 						{
 							iValue *= 2;
@@ -17414,7 +17413,7 @@ int CvUnitAI::AI_pillageValue(CvPlot* pPlot, int iBonusValueThreshold)
 			if (GC.getImprovementInfo(eImprovement).isImprovementBonusTrade(eNonObsoleteBonus))
 			{
 				iTempValue = iBonusValue * 4;
-
+				
 				if (pPlot->isConnectedToCapital() && (pPlot->getPlotGroupConnectedBonus(pPlot->getOwnerINLINE(), eNonObsoleteBonus) == 1))
 				{
 					iTempValue *= 2;

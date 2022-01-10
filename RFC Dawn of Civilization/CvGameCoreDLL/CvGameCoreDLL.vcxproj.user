@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommand>C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments>mod="RFC Dawn of Civilization"</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword</LocalDebuggerWorkingDirectory>
-    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
-    <LocalDebuggerCommand>C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
-    <LocalDebuggerCommandArguments>mod="RFC Dawn of Civilization"</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerCommand>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
-    <LocalDebuggerCommandArguments>-mod="RFC Dawn of Civilization"</LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\.</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>mod="RFC Dawn of Civilization"</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">
+    <LocalDebuggerCommand>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>mod="RFC Dawn of Civilization"</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 </Project>

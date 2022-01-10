@@ -599,8 +599,6 @@ protected:
 	short /*TerrainTypes*/ m_eTerrainType;
 	short /*FeatureTypes*/ m_eFeatureType;
 	short /*BonusTypes*/ m_eBonusType;
-	// Performance UP
-	TechTypes m_eBonusVisableTechs;
 	short /*BonusTypes*/ m_eBonusVarietyType;
 	short /*ImprovementTypes*/ m_eImprovementType;
 	short /*RouteTypes*/ m_eRouteType;

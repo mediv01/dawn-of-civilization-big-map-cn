@@ -4,10 +4,18 @@
 
 ####  Revised by zahlen  ####
 
+
+#### Modified By wunshare ####
 #### Paths ####
-INSTALLDIR=$(CIV4DLL_COMPILER_PORTABLE_DIR)
-TOOLKIT=$(INSTALLDIR)\Microsoft Visual C++ Toolkit 2003
-PSDK = $(INSTALLDIR)\Microsoft Platform SDK
+TOOLKIT=C:\civ4dll compiler(portable)\Microsoft Visual C++ Toolkit 2003
+PSDK=C:\civ4dll compiler(portable)\Microsoft Platform SDK
+CIVINSTALL=D:\Games\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword
+## Uncomment to have newly compiled dlls copied to your mod's Assets directory
+YOURMOD=$(CIVINSTALL)\Mods\RFC Dawn of Civilization
+GLOBALBOOST = $(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
+GLOBALPYTHON = $(CIVINSTALL)\CvGameCoreDLL\Python24
+
+
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -29,14 +37,12 @@ EXCLUDE=CvTextScreens
 
 #### Civ4 ####
 #CIVINSTALL=C:\Program Files\Firaxis Games\Sid Meier's Civilization 4\Beyond the Sword
-#GLOBALBOOST = $(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
-#GLOBALPYTHON = $(CIVINSTALL)\CvGameCoreDLL\Python24
-GLOBALBOOST = $(INSTALLDIR)\CvGameCoreDLL\Boost-1.32.0
-GLOBALPYTHON = $(INSTALLDIR)\CvGameCoreDLL\Python24
+#GLOBALBOOST = $(INSTALLDIR)\CvGameCoreDLL\Boost-1.32.0
+#GLOBALPYTHON = $(INSTALLDIR)\CvGameCoreDLL\Python24
 
 #### MOD Info ####
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-OUTPUT = $(INSTALLDIR)\dll
+OUTPUT = $(YOURMOD)\Assets
 Debug_MOD_CFLAGS =
 Release_MOD_CFLAGS =
 Final_Release_MOD_CFLAGS =
@@ -46,7 +52,7 @@ MOD_LIBS =
 
 #### Civilization 4 (Japanese Version) ####
 ## Uncomment to define the macros for Japanese version
-#CYBERFRONT = 1
+CYBERFRONT = 1
 
 #### Rise of Mankind - A new dawn ####
 ## Uncomment to define the macros for ROM-AND
@@ -123,7 +129,9 @@ PROJECT_CFLAGS = $(PROJECT_CFLAGS) /DCYBERFRONT
 !ENDIF
 #Debug_SAFE_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MDd /Od /RTC1 /D_DEBUG /Fp"$(Debug_PCH)" /Fd"$(Debug_PDB)" $(Debug_MOD_CFLAGS)
 Debug_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /Zi /MDd /Od /RTC1 /D_DEBUG /Fp"$(Debug_PCH)" /Fd"$(Debug_PDB)" $(Debug_MOD_CFLAGS)
-Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Release_PCH)" /Fd"$(Release_PDB)" $(Release_MOD_CFLAGS)
+## Modified by wunshare /O2 -> /Od  add /Zi ##
+Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /Zi /MD /Od /DNDEBUG /DFINAL_RELEASE /Fp"$(Release_PCH)" /Fd"$(Release_PDB)" $(Release_MOD_CFLAGS)
+##########################
 Final_Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"$(Final_Release_PDB)" $(Final_Release_MOD_CFLAGS)
 
 #### LDFLAGS ####
@@ -209,6 +217,7 @@ Debug: Debug_DIR Debug_unfinished $(Debug_PCH) $(Debug_BIN)
 Release: Release_DIR Release_unfinished $(Release_PCH) $(Release_BIN)
 !IFDEF OUTPUT
 	-COPY "$(Release_BIN)" "$(OUTPUT)\."
+	-COPY "$(Release_PDB)" "$(OUTPUT)\."
 !ENDIF
 
 Final_Release: Final_Release_DIR Final_Release_unfinished $(Final_Release_PCH) $(Final_Release_BIN)

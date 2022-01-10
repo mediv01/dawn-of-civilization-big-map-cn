@@ -164,7 +164,11 @@ public:
 
 	virtual void setScreenDying(int iPythonFileID, bool bDying) = 0;
 	virtual bool isExitingToMainMenu() = 0;
-	virtual void exitingToMainMenu(const char* szLoadFile=NULL) = 0;
+#ifdef CYBERFRONT // load: wb exit
+	virtual void exitingToMainMenu(const wchar* szLoadFile = NULL) = 0;
+#else
+	virtual void exitingToMainMenu(const char* szLoadFile = NULL) = 0;
+#endif // CYBERFRONT
 	virtual void setWorldBuilder(bool bTurnOn) = 0;
 	
 	virtual int getFontLeftJustify() = 0;

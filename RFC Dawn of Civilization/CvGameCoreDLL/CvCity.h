@@ -13,7 +13,6 @@ class CvPlotGroup;
 class CvArea;
 class CvGenericBuilding;
 class CvArtInfoBuilding;
-class FDataStreamBase;
 
 // BUG - start
 void addGoodOrBad(int iValue, int& iGood, int& iBad);

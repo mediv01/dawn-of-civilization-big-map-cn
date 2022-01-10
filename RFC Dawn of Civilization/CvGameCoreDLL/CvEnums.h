@@ -969,10 +969,8 @@ enum BonusTypes						// Exposed to Python
 	BONUS_ALUMINUM,
 	BONUS_AMBER,
 	BONUS_CAMEL,
-	BONUS_CITRUS,	// wunshare: Bug fixed
 	BONUS_COAL,
 	BONUS_COPPER,
-	BONUS_DATES,	// wunshare: Bug fixed
 	BONUS_HORSE,
 	BONUS_IRON,
 	BONUS_MARBLE,
@@ -1318,6 +1316,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	KANISHKA,
 	MODU_CHANYU,
 	MINDAUGAS,
+	SUPPI,
 	NUM_LEADERHEADS
 };
 
@@ -1399,6 +1398,7 @@ enum PlayerTypes				// Exposed to Python
 	NUBIA,
 	ASSYRIA,
 	CHINA,
+	HITTITES,
 	GREECE,
 	OLMECS,
 	INDIA,

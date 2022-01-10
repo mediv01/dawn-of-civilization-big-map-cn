@@ -1,16 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="DebugStaticLib|Win32">
-      <Configuration>DebugStaticLib</Configuration>
+    <ProjectConfiguration Include="Assert|Win32">
+      <Configuration>Assert</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final_Release|Win32">
+      <Configuration>Final_Release</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
@@ -23,10 +31,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -35,66 +49,104 @@
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'" Label="PropertySheets">
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(Configuration)\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(Configuration)\</IntDir>
     <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /NOLOGO /K Release</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">set TARGET=Assert
+nmake source_list
+nmake fastdep
+nmake precompile
+bin\jom build</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">set TARGET=Profile
+nmake source_list
+nmake fastdep
+nmake dll</NMakeBuildCommandLine>
     <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /NOLOGO /K Debug</NMakeBuildCommandLine>
-    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">nmake /NOLOGO /K DebugStatic</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /NOLOGO Release_clean</NMakeReBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /NOLOGO Debug_clean</NMakeReBuildCommandLine>
-    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">nmake /NOLOGO Debug_clean</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /NOLOGO Release_clean
+nmake /NOLOGO /K Release
+</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">nmake /NOLOGO Final_Release_clean
+nmake /NOLOGO /K Final_Release</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">set TARGET=Assert
+nmake clean
+nmake source_list
+nmake fastdep
+nmake precompile
+bin\jom build</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">set TARGET=Profile
+nmake clean
+nmake source_list
+nmake fastdep
+nmake dll</NMakeReBuildCommandLine>
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /NOLOGO Debug_clean
+nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nmake /NOLOGO Release_clean</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">set TARGET=Assert
+nmake clean</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">set TARGET=Profile
+nmake clean</NMakeCleanCommandLine>
     <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nmake /NOLOGO Debug_clean</NMakeCleanCommandLine>
-    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">nmake /NOLOGO Debug_clean</NMakeCleanCommandLine>
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">nmake /NOLOGO Final_Release_clean</NMakeCleanCommandLine>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CvGameCoreDLL.dll</NMakeOutput>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">CvGameCoreDLL.dll</NMakeOutput>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">CvGameCoreDLL.dll</NMakeOutput>
     <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CvGameCoreDLL.dll</NMakeOutput>
-    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">CvGameCoreDLL.dll</NMakeOutput>
-    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32;NDEBUG;_USRDLL;_WINDOWS;CVGAMECOREDLL_EXPORTS;FINAL_RELEASE;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">CvGameCoreDLL.dll</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">WIN32;NDEBUG;_USRDLL;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
-    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
-    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
-    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
     <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
-    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Mods\RFC Dawn of Civilization\CvGameCoreDLL\Boost-1.32.0\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticLib|Win32'">
-    <IncludePath>C:\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Mods\RFC Dawn of Civilization\CvGameCoreDLL\Boost-1.32.0\include;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\civ4dll compiler%28portable%29\Microsoft Platform SDK\Include\mfc;C:\civ4dll compiler%28portable%29\Microsoft Visual C++ Toolkit 2003\include;C:\civ4dll compiler%28portable%29\Microsoft Platform SDK\Include;C:\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Mods\RFC Dawn of Civilization\CvGameCoreDLL\Python24\include;C:\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Mods\RFC Dawn of Civilization\CvGameCoreDLL\Boost-1.32.0\include;C:\GOG Games\Civilization IV Complete\Civ4\Beyond the Sword\Mods\RFC Dawn of Civilization\DownOfCivilization</IncludePath>
-    <ReferencePath />
-    <LibraryPath />
-    <SourcePath />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">
+    <NMakeBuildCommandLine>nmake /NOLOGO /K Final_Release</NMakeBuildCommandLine>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CvAreaUtils.cpp" />
-    <ClCompile Include="CvStability.cpp" />
     <ClCompile Include="CvUtils.cpp" />
     <ClCompile Include="_precompile.cpp" />
     <ClCompile Include="CvArea.cpp" />
@@ -208,7 +260,6 @@
     <ClInclude Include="CvBugMod.h" />
     <ClInclude Include="CvCity.h" />
     <ClInclude Include="CvCityAI.h" />
-    <ClInclude Include="CvData.h" />
     <ClInclude Include="CvDeal.h" />
     <ClInclude Include="CvDefines.h" />
     <ClInclude Include="CvDiploParameters.h" />
@@ -249,7 +300,7 @@
     <ClInclude Include="CvMapGenerator.h" />
     <ClInclude Include="CvMessageControl.h" />
     <ClInclude Include="CvMessageData.h" />
-    <ClInclude Include="CvPerf.h" />
+    <ClInclude Include="CvPerformance.h" />
     <ClInclude Include="CvPlayer.h" />
     <ClInclude Include="CvPlayerAI.h" />
     <ClInclude Include="CvPlot.h" />
@@ -260,10 +311,8 @@
     <ClInclude Include="CvReplayInfo.h" />
     <ClInclude Include="CvReplayMessage.h" />
     <ClInclude Include="CvRhyes.h" />
-    <ClInclude Include="CvRiseAndFall.h" />
     <ClInclude Include="CvSelectionGroup.h" />
     <ClInclude Include="CvSelectionGroupAI.h" />
-    <ClInclude Include="CvStability.h" />
     <ClInclude Include="CvStatistics.h" />
     <ClInclude Include="CvString.h" />
     <ClInclude Include="CvStructs.h" />
@@ -294,7 +343,6 @@
     <ClInclude Include="CyTeam.h" />
     <ClInclude Include="CyUnit.h" />
     <ClInclude Include="FAssert.h" />
-    <ClInclude Include="FAStar.h" />
     <ClInclude Include="FAStarNode.h" />
     <ClInclude Include="FDataStreamBase.h" />
     <ClInclude Include="FDialogTemplate.h" />
@@ -308,53 +356,9 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Assets\Python\BUG\AttitudeUtil.py" />
-    <None Include="..\Assets\Python\BUG\BugConfig.py" />
-    <None Include="..\Assets\Python\BUG\BugConfigTracker.py" />
-    <None Include="..\Assets\Python\BUG\BugCore.py" />
-    <None Include="..\Assets\Python\BUG\BugData.py" />
-    <None Include="..\Assets\Python\BUG\BugDll.py" />
-    <None Include="..\Assets\Python\BUG\BugEventManager.py" />
-    <None Include="..\Assets\Python\BUG\BugGameUtils.py" />
-    <None Include="..\Assets\Python\BUG\BugHelp.py" />
-    <None Include="..\Assets\Python\BUG\BugInit.py" />
-    <None Include="..\Assets\Python\BUG\BugOptions.py" />
-    <None Include="..\Assets\Python\BUG\BugOptionsScreen.py" />
-    <None Include="..\Assets\Python\BUG\BugOptionsTab.py" />
-    <None Include="..\Assets\Python\BUG\BugPath.py" />
-    <None Include="..\Assets\Python\BUG\BugScreen.py" />
-    <None Include="..\Assets\Python\BUG\BugTypes.py" />
-    <None Include="..\Assets\Python\BUG\BugUnitPlot.py" />
-    <None Include="..\Assets\Python\BUG\BugUpdateChecker.py" />
-    <None Include="..\Assets\Python\BUG\BugUtil.py" />
-    <None Include="..\Assets\Python\BUG\CityUtil.py" />
-    <None Include="..\Assets\Python\BUG\ColorUtil.py" />
-    <None Include="..\Assets\Python\BUG\configobj.py" />
-    <None Include="..\Assets\Python\BUG\DealUtil.py" />
-    <None Include="..\Assets\Python\BUG\DiplomacyUtil.py" />
-    <None Include="..\Assets\Python\BUG\FontUtil.py" />
-    <None Include="..\Assets\Python\BUG\GameUtil.py" />
-    <None Include="..\Assets\Python\BUG\GGUtil.py" />
-    <None Include="..\Assets\Python\BUG\GPUtil.py" />
-    <None Include="..\Assets\Python\BUG\GSpyUtil.py" />
-    <None Include="..\Assets\Python\BUG\InputUtil.py" />
-    <None Include="..\Assets\Python\BUG\PlayerUtil.py" />
-    <None Include="..\Assets\Python\BUG\ProgressBarUtil.py" />
-    <None Include="..\Assets\Python\BUG\RawYields.py" />
-    <None Include="..\Assets\Python\BUG\ReligionUtil.py" />
-    <None Include="..\Assets\Python\BUG\Scoreboard.py" />
-    <None Include="..\Assets\Python\BUG\SpyUtil.py" />
-    <None Include="..\Assets\Python\BUG\SvnUtil.py" />
-    <None Include="..\Assets\Python\BUG\TechPrefs.py" />
-    <None Include="..\Assets\Python\BUG\TechUtil.py" />
-    <None Include="..\Assets\Python\BUG\TradeUtil.py" />
-    <None Include="..\Assets\Python\BUG\TraitUtil.py" />
-    <None Include="..\Assets\Python\BUG\UnitGrouper.py" />
-    <None Include="..\Assets\Python\BUG\UnitPlotListUtil.py" />
-    <None Include="..\Assets\Python\BUG\UnitUtil.py" />
-    <None Include="..\Assets\Python\BUG\WidgetUtil.py" />
     <None Include="FVariableSystem.inl" />
     <None Include="interfaceDirtyBits.inl" />
+    <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CvGameCoreDLL.rc" />

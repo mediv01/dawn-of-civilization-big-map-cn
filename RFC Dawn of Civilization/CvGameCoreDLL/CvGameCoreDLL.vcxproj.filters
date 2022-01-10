@@ -13,15 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
-    <Filter Include="Python">
-      <UniqueIdentifier>{c2550d47-7a7f-4807-aa8e-b18d130d997a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Bug">
-      <UniqueIdentifier>{bcf58402-6776-452d-870e-3bb484fe4c0d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Refactor">
-      <UniqueIdentifier>{b748ac05-ff9f-4dd3-aff6-7b632c227023}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="_precompile.cpp">
@@ -336,12 +327,6 @@
     <ClCompile Include="CyCityInterface2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CvAreaUtils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CvStability.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CvUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -641,22 +626,10 @@
     <ClInclude Include="CvDLLEngineIFaceBase.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="CvStability.h">
+    <ClInclude Include="CvPerformance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CvUtils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CvData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CvRiseAndFall.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FAStar.h">
-      <Filter>Refactor</Filter>
-    </ClInclude>
-    <ClInclude Include="CvPerf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -667,140 +640,8 @@
     <None Include="interfaceDirtyBits.inl">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\Assets\Python\BUG\AttitudeUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugConfig.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugConfigTracker.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugCore.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugData.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugDll.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugEventManager.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugGameUtils.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugHelp.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugInit.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugOptions.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugOptionsScreen.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugOptionsTab.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugPath.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugScreen.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugTypes.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugUnitPlot.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugUpdateChecker.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\BugUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\CityUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\ColorUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\configobj.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\DealUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\DiplomacyUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\FontUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\GameUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\GGUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\GPUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\GSpyUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\InputUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\PlayerUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\ProgressBarUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\RawYields.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\ReligionUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\Scoreboard.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\SpyUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\SvnUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\TechPrefs.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\TechUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\TradeUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\TraitUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\UnitGrouper.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\UnitPlotListUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\UnitUtil.py">
-      <Filter>Python</Filter>
-    </None>
-    <None Include="..\Assets\Python\BUG\WidgetUtil.py">
-      <Filter>Python</Filter>
+    <None Include="Makefile">
+      <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

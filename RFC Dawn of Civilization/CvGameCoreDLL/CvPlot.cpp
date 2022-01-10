@@ -1398,13 +1398,12 @@ void CvPlot::nukeExplosion(int iRange, CvUnit* pNukeUnit)
 	CvEventReporter::getInstance().nukeExplosion(this, pNukeUnit);
 }
 
-
 bool CvPlot::isConnectedTo(const CvCity* pCity) const
 {
 	FAssert(isOwned());
+
 	return ((getPlotGroup(getOwnerINLINE()) == pCity->plotGroup(getOwnerINLINE())) || (getPlotGroup(pCity->getOwnerINLINE()) == pCity->plotGroup(pCity->getOwnerINLINE())));
 }
-
 
 bool CvPlot::isConnectedToCapital(PlayerTypes ePlayer) const
 {
@@ -1428,14 +1427,10 @@ bool CvPlot::isConnectedToCapital(PlayerTypes ePlayer) const
 	return false;
 }
 
-
 int CvPlot::getPlotGroupConnectedBonus(PlayerTypes ePlayer, BonusTypes eBonus) const
 {
 	CvPlotGroup* pPlotGroup;
-
-	FAssertMsg(ePlayer != NO_PLAYER, "Player is not assigned a valid value");
-	FAssertMsg(eBonus != NO_BONUS, "Bonus is not assigned a valid value");
-
+	
 	pPlotGroup = getPlotGroup(ePlayer);
 
 	if (pPlotGroup != NULL)
@@ -1448,12 +1443,10 @@ int CvPlot::getPlotGroupConnectedBonus(PlayerTypes ePlayer, BonusTypes eBonus) c
 	}
 }
 
-
 bool CvPlot::isPlotGroupConnectedBonus(PlayerTypes ePlayer, BonusTypes eBonus) const
 {
 	return (getPlotGroupConnectedBonus(ePlayer, eBonus) > 0);
 }
-
 
 bool CvPlot::isAdjacentPlotGroupConnectedBonus(PlayerTypes ePlayer, BonusTypes eBonus) const
 {
@@ -1475,7 +1468,6 @@ bool CvPlot::isAdjacentPlotGroupConnectedBonus(PlayerTypes ePlayer, BonusTypes e
 
 	return false;
 }
-
 
 void CvPlot::updatePlotGroupBonus(bool bAdd)
 {
@@ -6597,7 +6589,6 @@ CvCity* CvPlot::getPlotCity() const
 	return getCity(m_plotCity);
 }
 
-
 void CvPlot::setPlotCity(CvCity* pNewValue)
 {
 	CvPlotGroup* pPlotGroup;
@@ -6634,6 +6625,7 @@ void CvPlot::setPlotCity(CvCity* pNewValue)
 				}
 			}
 		}
+
 		if (pNewValue != NULL)
 		{
 			m_plotCity = pNewValue->getIDInfo();
@@ -6642,6 +6634,7 @@ void CvPlot::setPlotCity(CvCity* pNewValue)
 		{
 			m_plotCity.reset();
 		}
+
 		if (isCity())
 		{
 			pPlotGroup = getPlotGroup(getOwnerINLINE());
@@ -7983,7 +7976,6 @@ CvPlotGroup* CvPlot::getOwnerPlotGroup() const
 
 	return getPlotGroup(getOwnerINLINE());
 }
-
 
 void CvPlot::setPlotGroup(PlayerTypes ePlayer, CvPlotGroup* pNewValue)
 {
@@ -10767,7 +10759,7 @@ void CvPlot::getVisibleBonusState(BonusTypes& eType, bool& bImproved, bool& bWor
 	eType = NO_BONUS;
 	bImproved = false;
 	bWorked = false;
-	BonusTypes eVarietyType = NO_BONUS; // wunshare:Bug fixed
+	BonusTypes eVarietyType;
 
 	if (GC.getGameINLINE().getActiveTeam() == NO_TEAM)
 	{

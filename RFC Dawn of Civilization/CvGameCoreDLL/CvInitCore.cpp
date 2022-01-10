@@ -1237,7 +1237,7 @@ const CvWString & CvInitCore::getLeaderName(PlayerTypes eID, uint uiForm) const
 		m_szTemp = gDLL->getObjectText(m_aszLeaderName[eID], uiForm, true);
 #else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszLeaderName[eID]).GetCString(), uiForm, true);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 	}
 	else
 	{
@@ -1283,7 +1283,7 @@ const CvWString & CvInitCore::getCivDescription(PlayerTypes eID, uint uiForm) co
 		m_szTemp = gDLL->getObjectText(m_aszCivDescription[eID], uiForm, true);
 #else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivDescription[eID]).GetCString(), uiForm, true);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 	}
 	else
 	{
@@ -1329,7 +1329,7 @@ const CvWString & CvInitCore::getCivShortDesc(PlayerTypes eID, uint uiForm) cons
 		m_szTemp = gDLL->getObjectText(m_aszCivShortDesc[eID], uiForm, true);
 #else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivShortDesc[eID]).GetCString(), uiForm, true);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 	}
 	else
 	{
@@ -1375,7 +1375,7 @@ const CvWString & CvInitCore::getCivAdjective(PlayerTypes eID, uint uiForm) cons
 		m_szTemp = gDLL->getObjectText(m_aszCivAdjective[eID], uiForm, true);
 #else
 		m_szTemp = gDLL->getObjectText(CvString(m_aszCivAdjective[eID]).GetCString(), uiForm, true);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 	}
 	else
 	{

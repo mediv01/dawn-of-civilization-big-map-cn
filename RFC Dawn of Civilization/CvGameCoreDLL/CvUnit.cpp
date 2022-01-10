@@ -14636,6 +14636,10 @@ bool CvUnit::persecute(ReligionTypes eReligion)
 	else
 	{
 		CvCity* pCity = plot()->getPlotCity();
+		// pCity maybe NULL
+		if (pCity == NULL) {
+			return false;
+		}
 		int iChance = 65;
 
 		if (GET_PLAYER(getOwner()).isStateReligion())

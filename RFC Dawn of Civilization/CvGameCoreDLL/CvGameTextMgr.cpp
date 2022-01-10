@@ -217,7 +217,7 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 				szString = (GC.getSeasonInfo((SeasonTypes)(iGameTurn % GC.getNumSeasonInfos())).getDescription() + CvString(", ") + szYearBuffer);
 #else
 			szString = (GC.getSeasonInfo((SeasonTypes)(iGameTurn % GC.getNumSeasonInfos())).getDescription() + CvString(", ") + szYearBuffer);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 		}
 		break;
 
@@ -235,7 +235,7 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 				szString = (GC.getMonthInfo((MonthTypes)(iGameTurn % GC.getNumMonthInfos())).getDescription() + CvString(", ") + szYearBuffer);
 #else
 			szString = (GC.getMonthInfo((MonthTypes)(iGameTurn % GC.getNumMonthInfos())).getDescription() + CvString(", ") + szYearBuffer);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 		}
 		break;
 
@@ -255,7 +255,7 @@ void CvGameTextMgr::setDateStr(CvWString& szString, int iGameTurn, bool bSave, C
 				szString = (szWeekBuffer + ", " + GC.getMonthInfo((MonthTypes)((iGameTurn / GC.getDefineINT("WEEKS_PER_MONTHS")) % GC.getNumMonthInfos())).getDescription() + ", " + szYearBuffer);
 #else
 			szString = (szWeekBuffer + ", " + GC.getMonthInfo((MonthTypes)((iGameTurn / GC.getDefineINT("WEEKS_PER_MONTHS")) % GC.getNumMonthInfos())).getDescription() + ", " + szYearBuffer);
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 		}
 		break;
 
@@ -3924,6 +3924,10 @@ void createTestFontString(CvWStringBuffer& szString)
 		L"\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
 		L"\xbf\xa1\xab\xbb\xb0\x8a\x8c\x8e\x9a\x9c\x9e\x99\xa9\xae\x80\xa3\xa2\x94\x91\x93\x85\x92");
 	// <<< CYBERFRONT CHANGE
+	for (iI=0;iI<NUM_YIELD_TYPES;++iI)
+		szString.append(CvWString::format(L"%c", GC.getYieldInfo((YieldTypes) iI).getChar()));
+
+	szString.append(L"\n");
 	for (iI=0;iI<NUM_COMMERCE_TYPES;++iI)
 		szString.append(CvWString::format(L"%c", GC.getCommerceInfo((CommerceTypes) iI).getChar()));
 	szString.append(L"\n");
@@ -17587,11 +17591,16 @@ void CvGameTextMgr::setProductionHelp(CvWStringBuffer &szBuffer, CvCity& city)
 		// 1SDAN: display Nubian UP
 		if (city.getOwnerINLINE() == NUBIA)
 		{
-			if (city.hasBonus(BONUS_STONE) && GC.getTechInfo((TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech()).getEra() <= ERA_ANCIENT)
+			// GC.getTechInfo((TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech()).getEra() will crash
+			// wunshare: fix a NULL bug 2021.12.31
+			if (city.hasBonus(BONUS_STONE)) // && GC.getTechInfo((TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech()).getEra() <= ERA_ANCIENT)
 			{
-				szBuffer.append(gDLL->getText("TXT_KEY_MISC_HELP_PROD_NUBIA", 50));
-				szBuffer.append(NEWLINE);
-				iBaseModifier += 50;
+				TechTypes types = (TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech();
+				if (types == NO_TECH || GC.getTechInfo(types).getEra() <= ERA_ANCIENT) {
+					szBuffer.append(gDLL->getText("TXT_KEY_MISC_HELP_PROD_NUBIA", 50));
+					szBuffer.append(NEWLINE);
+					iBaseModifier += 50;
+				}
 			}
 		}
 	}

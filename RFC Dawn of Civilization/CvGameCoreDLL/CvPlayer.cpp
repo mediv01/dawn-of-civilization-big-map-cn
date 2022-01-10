@@ -3227,7 +3227,7 @@ void CvPlayer::updatePlotGroups()
 	{
 		GC.getMapINLINE().plotByIndexINLINE(iI)->updatePlotGroup(getID(), false);
 	}
-
+	
 	updateTradeRoutes();
 }
 
@@ -4822,12 +4822,12 @@ bool CvPlayer::canTradeNetworkWith(PlayerTypes ePlayer) const
 
 int CvPlayer::getNumAvailableBonuses(BonusTypes eBonus) const
 {
+	CvPlotGroup* pPlotGroup;
+
 	if (eBonus == NO_BONUS)
 	{
 		return 0;
 	}
-
-	CvPlotGroup* pPlotGroup;
 
 	pPlotGroup = ((getCapitalCity() != NULL) ? getCapitalCity()->plot()->getOwnerPlotGroup() : NULL);
 
@@ -8905,7 +8905,7 @@ int CvPlayer::unitsGoldenAgeReady() const
 	return iCount;
 }
 
-
+// fix bugs
 void CvPlayer::killGoldenAgeUnits(CvUnit* pUnitAlive)
 {
 	CvUnit* pLoopUnit;
@@ -8918,6 +8918,11 @@ void CvPlayer::killGoldenAgeUnits(CvUnit* pUnitAlive)
 	int iBestValue;
 	int iLoop;
 	int iI;
+
+	// fix NULL pointer bug
+	if (pUnitAlive == NULL) {
+		return;
+	}
 
 	/*pabUnitUsed = new bool[GC.getNumUnitInfos()];
 
@@ -8955,8 +8960,12 @@ void CvPlayer::killGoldenAgeUnits(CvUnit* pUnitAlive)
 				if (pLoopUnit->getSettledSpecialist() != NO_SPECIALIST && !pabSpecialistUsed[pLoopUnit->getSettledSpecialist()])
 				{
 					iValue = 10000;
-
-					iValue /= (plotDistance(pLoopUnit->getX_INLINE(), pLoopUnit->getY_INLINE(), pUnitAlive->getX_INLINE(), pUnitAlive->getY_INLINE()) + 1);
+					// fix divide zero bug
+					int dis = (plotDistance(pLoopUnit->getX_INLINE(), pLoopUnit->getY_INLINE(), pUnitAlive->getX_INLINE(), pUnitAlive->getY_INLINE()) + 1);
+					if (dis == 0) {
+						continue;
+					}
+					iValue /= dis;
 
 					if (iValue > iBestValue)
 					{

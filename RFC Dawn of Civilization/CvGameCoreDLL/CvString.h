@@ -3,9 +3,7 @@
 #ifndef CvString_h
 #define CvString_h
 
-#include <Windows.h>
 #include <string>
-#include <vector> 
 #pragma warning( disable: 4251 )		// needs to have dll-interface to be used by clients of class
 
 //
@@ -17,13 +15,6 @@
 // Firaxis Games, copyright 2005
 //
 
-#define stricmp		_stricmp
-#define strnicmp	_strnicmp
-typedef wchar_t		wchar;
-
-#ifndef SAFE_DELETE_ARRAY
-#define SAFE_DELETE_ARRAY(p) { if(p) { delete[] (p);   (p)=NULL; } }
-#endif
 // wide string
 class CvWString : public std::wstring
 {
@@ -53,7 +44,7 @@ public:
 			int iLen = MultiByteToWideChar(CP_ACP, MB_PRECOMPOSED, s.c_str(), -1, NULL, 0);
 			if (iLen)
 			{
-				wchar *w = new wchar[iLen];
+				wchar* w = new wchar[iLen];
 				MultiByteToWideChar(CP_ACP, MB_PRECOMPOSED, s.c_str(), -1, w, iLen);
 				assign(w);
 				delete[] w;
@@ -61,6 +52,7 @@ public:
 		}
 	}
 #endif // CYBERFRONT
+
 	void Copy(const char* s)
 	{ 
 		if (s)
@@ -69,7 +61,7 @@ public:
 			if (iLen)
 			{
 				wchar *w = new wchar[iLen+1];
-				swprintf(w, iLen+1, L"%S", s);	
+				swprintf(w, L"%S", s);	// convert
 				assign(w);
 				delete [] w;
 			}
@@ -240,7 +232,7 @@ public:
 	CvString(const std::string& s) { assign(s.c_str()); }
 	explicit CvString(const std::wstring& s) { Copy(s.c_str()); }		// don't want accidental conversions down to narrow strings
 	~CvString() {}
-	
+
 #ifdef CYBERFRONT // character code: CvString
 	void Convert(const std::wstring& w)
 	{
@@ -249,7 +241,7 @@ public:
 			int iLen = WideCharToMultiByte(CP_ACP, 0, w.c_str(), -1, NULL, 0, NULL, NULL);
 			if (iLen)
 			{
-				char *s = new char[iLen];
+				char* s = new char[iLen];
 				WideCharToMultiByte(CP_ACP, 0, w.c_str(), -1, s, iLen, NULL, NULL);
 				assign(s);
 				delete[] s;

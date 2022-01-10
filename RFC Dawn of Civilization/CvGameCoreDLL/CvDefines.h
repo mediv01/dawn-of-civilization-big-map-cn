@@ -69,9 +69,10 @@
 #else
 #define CIV4_GUID															"civ4bts"
 #define CIV4_PRODUCT_ID												11081
-#endif // CYBERFRONT	
+#endif // CYBERFRONT
 #define CIV4_NAMESPACE_ID											17
 #define CIV4_NAMESPACE_EXT										"-tk"
+
 
 #define MAP_TRANSFER_EXT											"_t"
 

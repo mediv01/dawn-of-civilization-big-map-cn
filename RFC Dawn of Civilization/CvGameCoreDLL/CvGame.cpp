@@ -6133,6 +6133,13 @@ void CvGame::doTurn()
 {
 	PROFILE_BEGIN("CvGame::doTurn()");
 
+	{
+		// GC.getTechInfo((TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech()) == NULL when eBuiding == 1
+		BuildingTypes eBuilding = (BuildingTypes)1;
+		int techTypes = GC.getBuildingInfo(eBuilding).getPrereqAndTech();
+		CvTechInfo& techInfo = GC.getTechInfo((TechTypes)techTypes);
+	}
+
 	int aiShuffle[MAX_PLAYERS];
 	int iLoopPlayer;
 	int iI;
@@ -6534,7 +6541,7 @@ void CvGame::doGlobalWarming()
 		if (getSorenRandNum(100, "Nuclear Fallout") + iGlobalWarmingDefense < GC.getDefineINT("NUCLEAR_WINTER_PROB"))
 		{
 			CvPlot* pPlot = GC.getMapINLINE().syncRandPlot(RANDPLOT_LAND | RANDPLOT_NOT_CITY);
-			FeatureTypes eFeature = pPlot->getFeatureType();
+			//FeatureTypes eFeature = pPlot->getFeatureType(); bug: no used
 
 			if (pPlot != NULL)
 			{

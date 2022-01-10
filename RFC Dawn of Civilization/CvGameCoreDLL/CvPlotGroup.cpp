@@ -10,6 +10,8 @@
 #include "CvDLLFAStarIFaceBase.h"
 #include "FProfiler.h"
 #include "CvRhyes.h"
+#include <vector>
+using std::vector;
 
 // Public Functions...
 
@@ -39,6 +41,7 @@ void CvPlotGroup::init(int iID, PlayerTypes eOwner, CvPlot* pPlot)
 	//--------------------------------
 	// Init other game data
 	addPlot(pPlot);
+	begin();
 }
 
 
@@ -46,6 +49,7 @@ void CvPlotGroup::uninit()
 {
 	SAFE_DELETE_ARRAY(m_paiNumBonuses);
 
+	m_splot.clear();
 	m_plots.clear();
 }
 
@@ -71,17 +75,39 @@ void CvPlotGroup::reset(int iID, PlayerTypes eOwner, bool bConstructorCall)
 			m_paiNumBonuses[iI] = 0;
 		}
 	}
+
+	itor = m_splot.end();
 }
 
+inline XYCoords plotToCoords(CvPlot* plot)
+{
+	XYCoords xy;
+	xy.iX = plot->getX_INLINE();
+	xy.iY = plot->getY_INLINE();
+	return xy;
+}
+
+inline XYCoords itorToCoords(set<XYCoords>::iterator itor)
+{
+	XYCoords xy;
+	xy.iX = (*itor).iX;
+	xy.iY = (*itor).iY;
+	return xy;
+}
+
+inline CvPlot* coordsToPlot(XYCoords xy)
+{
+	return GC.getMapINLINE().plotSorenINLINE(xy.iX, xy.iY);
+}
+
+inline CvPlot* itorToPlot(set<XYCoords>::iterator itor)
+{
+	return coordsToPlot(itorToCoords(itor));
+}
 
 void CvPlotGroup::addPlot(CvPlot* pPlot)
 {
-	XYCoords xy;
-
-	xy.iX = pPlot->getX_INLINE();
-	xy.iY = pPlot->getY_INLINE();
-
-	insertAtEndPlots(xy);
+	insert(plotToCoords(pPlot));
 
 	pPlot->setPlotGroup(getOwnerINLINE(), this);
 }
@@ -89,88 +115,71 @@ void CvPlotGroup::addPlot(CvPlot* pPlot)
 
 void CvPlotGroup::removePlot(CvPlot* pPlot)
 {
-	CLLNode<XYCoords>* pPlotNode;
-
-	pPlotNode = headPlotsNode();
-
-	while (pPlotNode != NULL)
-	{
-		if (GC.getMapINLINE().plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY) == pPlot)
-		{
-			pPlot->setPlotGroup(getOwnerINLINE(), NULL);
-
-			pPlotNode = deletePlotsNode(pPlotNode); // can delete this PlotGroup...
-			break;
-		}
-		else
-		{
-			pPlotNode = nextPlotsNode(pPlotNode);
-		}
-	}
+	pPlot->setPlotGroup(getOwnerINLINE(), NULL);
+	erase(pPlot);
 }
 
+void CvPlotGroup::printPlotGroups() {
+	std::vector< XYCoords > vec;
+	CvPlot* pPlot; 
+	for (pPlot = begin(); pPlot != NULL; pPlot = next()) {
+		vec.push_back(plotToCoords(pPlot));
+	}
+	/*printf("gameturn: %d, owner: %d, len: %d, ", GC.getGame().getGameTurn(), getOwner(), vec.size());
+	for (int i = 0; i < vec.size(); i++) {
+		printf("(%d, %d), ", vec[i].iX, vec[i].iY);
+	}
+	printf("\n");*/
+}
+
+void CvPlotGroup::combine(CvPlotGroup* plotgroup) 
+{
+	CvPlot* pPlot;
+	for (pPlot = plotgroup->begin(); pPlot != NULL; pPlot = plotgroup->erase(pPlot))
+	{
+		addPlot(pPlot);
+	}
+}
 
 void CvPlotGroup::recalculatePlots()
 {
 	PROFILE_FUNC();
 
-	CLLNode<XYCoords>* pPlotNode;
 	CvPlot* pPlot;
-	CLinkList<XYCoords> oldPlotGroup;
-	XYCoords xy;
+	vector<CvPlot*> oldPlotGroup;
 	PlayerTypes eOwner;
 	int iCount;
 
 	eOwner = getOwnerINLINE();
 
-	pPlotNode = headPlotsNode();
+	pPlot = begin();
 
-	if (pPlotNode != NULL)
+	if (pPlot != NULL)
 	{
-		pPlot = GC.getMapINLINE().plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY);
-
 		iCount = 0;
-
-		gDLL->getFAStarIFace()->SetData(&GC.getPlotGroupFinder(), &iCount);
-		gDLL->getFAStarIFace()->GeneratePath(&GC.getPlotGroupFinder(), pPlot->getX_INLINE(), pPlot->getY_INLINE(), -1, -1, false, eOwner);
-
+		{
+			PROFILE("CvPlotGroup::recalculatePlots::FAStar");
+			gDLL->getFAStarIFace()->SetData(&GC.getPlotGroupFinder(), &iCount);
+			gDLL->getFAStarIFace()->GeneratePath(&GC.getPlotGroupFinder(), pPlot->getX_INLINE(), pPlot->getY_INLINE(), -1, -1, false, eOwner);
+		}
 		if (iCount == getLengthPlots())
 		{
 			return;
 		}
 	}
-
-	oldPlotGroup.clear();
-
-	pPlotNode = headPlotsNode();
-
-	while (pPlotNode != NULL)
 	{
-		pPlot = GC.getMapINLINE().plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY);
+		PROFILE("CvPlotGroup::recalculatePlots::Others");
+		for (pPlot = begin(); pPlot != NULL; pPlot = erase(pPlot))
+		{
+			oldPlotGroup.push_back(pPlot);
 
-		FAssertMsg(pPlot != NULL, "Plot is not assigned a valid value");
+			pPlot->setPlotGroup(eOwner, NULL);
+		}
 
-		xy.iX = pPlot->getX_INLINE();
-		xy.iY = pPlot->getY_INLINE();
-
-		oldPlotGroup.insertAtEnd(xy);
-
-		pPlot->setPlotGroup(eOwner, NULL);
-
-		pPlotNode = deletePlotsNode(pPlotNode); // will delete this PlotGroup...
-	}
-
-	pPlotNode = oldPlotGroup.head();
-
-	while (pPlotNode != NULL)
-	{
-		pPlot = GC.getMapINLINE().plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY);
-
-		FAssertMsg(pPlot != NULL, "Plot is not assigned a valid value");
-
-		pPlot->updatePlotGroup(eOwner, true);
-
-		pPlotNode = oldPlotGroup.deleteNode(pPlotNode);
+		for (size_t i = 0; i < oldPlotGroup.size(); i++)
+		{
+			oldPlotGroup[i]->updatePlotGroup(eOwner, true);
+		}
 	}
 }
 
@@ -209,7 +218,7 @@ bool CvPlotGroup::hasBonus(BonusTypes eBonus)
 
 void CvPlotGroup::changeNumBonuses(BonusTypes eBonus, int iChange)
 {
-	CLLNode<XYCoords>* pPlotNode;
+	CvPlot* pPlot;
 	CvCity* pCity;
 	int iOldNumBonuses;
 
@@ -224,11 +233,9 @@ void CvPlotGroup::changeNumBonuses(BonusTypes eBonus, int iChange)
 
 		//FAssertMsg(m_paiNumBonuses[eBonus] >= 0, "m_paiNumBonuses[eBonus] is expected to be non-negative (invalid Index)"); XXX
 
-		pPlotNode = headPlotsNode();
-
-		while (pPlotNode != NULL)
+		for (pPlot = begin(); pPlot != NULL; pPlot = next())
 		{
-			pCity = GC.getMapINLINE().plotSorenINLINE(pPlotNode->m_data.iX, pPlotNode->m_data.iY)->getPlotCity();
+			pCity = pPlot->getPlotCity();
 
 			if (pCity != NULL)
 			{
@@ -236,9 +243,7 @@ void CvPlotGroup::changeNumBonuses(BonusTypes eBonus, int iChange)
 				{
 					pCity->changeNumBonuses(eBonus, iChange);
 				}
-			}
-
-			pPlotNode = nextPlotsNode(pPlotNode);
+			}	
 		}
 
 		// Leoreth: Global Seed Vault
@@ -275,45 +280,50 @@ void CvPlotGroup::changeNumBonuses(BonusTypes eBonus, int iChange)
 	}
 }
 
-
-void CvPlotGroup::insertAtEndPlots(XYCoords xy)
+void CvPlotGroup::insert(XYCoords xy)
 {
-	m_plots.insertAtEnd(xy);
+	m_splot.insert(xy);
 }
 
-
-CLLNode<XYCoords>* CvPlotGroup::deletePlotsNode(CLLNode<XYCoords>* pNode)
+CvPlot* CvPlotGroup::begin()
 {
-	CLLNode<XYCoords>* pPlotNode;
+	itor = m_splot.begin();
+	return itorToPlot(itor);
+}
 
-	pPlotNode = m_plots.deleteNode(pNode);
+CvPlot* CvPlotGroup::next()
+{
+	++itor;
+	if (itor != m_splot.end()) {
+		return itorToPlot(itor);
+	}
+	return NULL;
+}
 
+CvPlot* CvPlotGroup::erase(CvPlot* pPlot)
+{
+	XYCoords xy = plotToCoords(pPlot);
+	if (itor == m_splot.end() || itorToCoords(itor) != xy)
+	{
+		itor = m_splot.find(xy);
+	}
+
+	itor = m_splot.erase(itor);
+	
 	if (getLengthPlots() == 0)
 	{
 		GET_PLAYER(getOwnerINLINE()).deletePlotGroup(getID());
+		return NULL;
 	}
 
-  return pPlotNode;
+	--itor;
+	return next();
 }
-
-
-CLLNode<XYCoords>* CvPlotGroup::nextPlotsNode(CLLNode<XYCoords>* pNode)
-{
-	return m_plots.next(pNode);
-}
-
 
 int CvPlotGroup::getLengthPlots()
 {
-	return m_plots.getLength();
+	return m_splot.size();
 }
-
-
-CLLNode<XYCoords>* CvPlotGroup::headPlotsNode()
-{
-	return m_plots.head();
-}
-
 
 void CvPlotGroup::read(FDataStreamBase* pStream)
 {
@@ -330,7 +340,20 @@ void CvPlotGroup::read(FDataStreamBase* pStream)
 	FAssertMsg((0 < GC.getNumBonusInfos()), "GC.getNumBonusInfos() is not greater than zero but an array is being allocated in CvPlotGroup::read");
 	pStream->Read(GC.getNumBonusInfos(), m_paiNumBonuses);
 
-	m_plots.Read(pStream);
+	{ // m_splot read
+		int iLength;
+ 		XYCoords xy;
+
+     	pStream->Read(&iLength);
+		m_splot.clear();
+		
+		for (int i = 0; i < iLength; i++)
+		{
+			pStream->Read(&xy.iX);
+			pStream->Read(&xy.iY);
+			insert(xy);
+		}
+	}
 }
 
 
@@ -346,5 +369,12 @@ void CvPlotGroup::write(FDataStreamBase* pStream)
 	FAssertMsg((0 < GC.getNumBonusInfos()), "GC.getNumBonusInfos() is not greater than zero but an array is being allocated in CvPlotGroup::write");
 	pStream->Write(GC.getNumBonusInfos(), m_paiNumBonuses);
 
-	m_plots.Write(pStream);
+	{ // m_splot write
+ 		pStream->Write(getLengthPlots());
+		for (CvPlot* plot = begin(); plot != NULL; plot = next()) {
+			XYCoords xy = plotToCoords(plot);
+			pStream->Write(xy.iX);
+			pStream->Write(xy.iY);
+		}
+	}
 }
