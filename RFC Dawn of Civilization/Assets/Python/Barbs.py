@@ -192,11 +192,19 @@ class Barbs:
 		elif utils.isYearIn(-210, 400):
 			self.checkSpawn(iBarbarian, iHorseArcher, 1 + iHandicap, (114, 60), (125, 65), self.spawnNomads, iGameTurn, 7-iHandicap, 0, ["TXT_KEY_ADJECTIVE_XIONGNU"])
 		elif utils.isYearIn(400, 900):
-			iNumUnits = 3 + iHandicap
-			self.checkSpawn(iBarbarian, iHorseArcher, iNumUnits, (110, 58), (129, 65), self.spawnNomads, iGameTurn, 6-iHandicap, 0, ["TXT_KEY_ADJECTIVE_GOKTURK", "TXT_KEY_ADJECTIVE_UIGHUR"])
+			if pKhitan.isAlive(): # balanced fixed
+				self.checkSpawn(iBarbarian, iHorseArcher, 3 + iHandicap, (110, 58), (124, 65), self.spawnNomads, iGameTurn, 6-iHandicap, 0, ["TXT_KEY_ADJECTIVE_GOKTURK", "TXT_KEY_ADJECTIVE_UIGHUR"])	
+			else:
+				self.checkSpawn(iBarbarian, iHorseArcher, 3 + iHandicap, (110, 58), (129, 65), self.spawnNomads, iGameTurn, 6-iHandicap, 0, ["TXT_KEY_ADJECTIVE_GOKTURK", "TXT_KEY_ADJECTIVE_UIGHUR"])	
 		elif utils.isYearIn(900, 1100):
-			iNumUnits = 3 + iHandicap
-			self.checkSpawn(iBarbarian, iKeshik, iNumUnits, (110, 58), (129, 65), self.spawnInvaders, iGameTurn, 6, 0, ["TXT_KEY_ADJECTIVE_JURCHEN", "TXT_KEY_ADJECTIVE_KHITAN"])
+			if pKhitan.isAlive(): # balanced fixed
+				self.checkSpawn(iBarbarian, iKeshik, 5 + iHandicap, (110, 58), (124, 65), self.spawnInvaders, iGameTurn, 6, 0, ["TXT_KEY_ADJECTIVE_JURCHEN", "TXT_KEY_ADJECTIVE_KHITAN"])		
+				if gc.getGame().getGameTurn() % 3 == 0 and gc.getGame().getSorenRandNum(3, 'iIronpagoda') > 2:
+					pPlot = pKhitan.getCapitalCity().plot()
+					tPlot = (pPlot.getX(), pPlot.getY())
+					utils.makeUnit(iIronpagoda, iKhitan, tPlot, 4 - iHandicap)
+			else:
+				self.checkSpawn(iBarbarian, iKeshik, 3 + iHandicap, (110, 58), (129, 65), self.spawnInvaders, iGameTurn, 6, 0, ["TXT_KEY_ADJECTIVE_JURCHEN", "TXT_KEY_ADJECTIVE_KHITAN"])
 			
 		#tibet
 		if utils.isYearIn(-350, 200):

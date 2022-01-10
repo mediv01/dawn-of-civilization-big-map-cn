@@ -3010,9 +3010,9 @@ class RiseAndFall:
 		elif iCiv == iKhitan:
 			utils.createSettlers(iCiv, 3)
 			utils.makeUnit(iArcher, iCiv, tPlot, 4)
-			utils.makeUnit(iIronpagoda, iCiv, tPlot, 2)
+			utils.makeUnit(iIronpagoda, iCiv, tPlot, 5) # balanced fixed
 			if utils.getHumanID() != iKhitan:
-			                utils.makeUnit(iIronpagoda, iCiv, tPlot, 3)
+				utils.makeUnit(iIronpagoda, iCiv, tPlot, 3)
 		elif iCiv == iKhmer:
 			utils.createSettlers(iCiv, 2)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 3)

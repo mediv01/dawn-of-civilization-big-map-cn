@@ -36,6 +36,9 @@ import CvPlatyBuilderScreen
 import WBStoredDataScreen
 ## Ultrapack ##
 
+# wunshare
+import wunshare as ws
+
 gc = CyGlobalContext()
 localText = CyTranslator()
 PyPlayer = PyHelpers.PyPlayer
@@ -358,6 +361,7 @@ class CvEventManager(object):
 	
 	def onSaveGame(self, argsList):
 		"return the string to be saved - Must be a string"
+		ws.onSaveGame() # wunshare
 		return ""
 
 	def onLoadGame(self, argsList):
@@ -398,6 +402,7 @@ class CvEventManager(object):
 	def onBeginGameTurn(self, argsList):
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
+		ws.onGameTurn(iGameTurn) # wunshare
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
 
 	def onEndGameTurn(self, argsList):
