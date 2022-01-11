@@ -14,7 +14,9 @@ change log:
 '''
 
 from CvPythonExtensions import *
-from Consts import iNumPlayers#, relics # wunshare
+from Consts import iNumPlayers, iManchuria # wunshare
+from RFCUtils import utils
+from pp import *
 
 import time # 时间统计
 

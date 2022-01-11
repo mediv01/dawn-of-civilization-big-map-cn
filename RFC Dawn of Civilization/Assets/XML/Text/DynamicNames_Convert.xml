@@ -8,6 +8,12 @@
 		<Chinese>TXT_KEY_CIV_MANCHURIA</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_女真</Tag>
+		<English>TXT_KEY_DOM_MANCHURIA</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_MANCHURIA</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_DOM_罗马</Tag>
 		<English>TXT_KEY_DOM_ROME</English>
 		<L1/><L2/><L3/><L4/>
@@ -152,6 +158,12 @@
 		<Chinese>TXT_KEY_CIV_MISSISSIPPI</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_密西西比</Tag>
+		<English>TXT_KEY_DOM_MISSISSIPPI</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_MISSISSIPPI</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_CIV_伊朗</Tag>
 		<English>TXT_KEY_CIV_IRAN</English>
 		<L1/><L2/><L3/><L4/>
@@ -171,9 +183,15 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_哈扎尔</Tag>
-		<English>TXT_KEY_CIV_KHAZARS </English>
+		<English>TXT_KEY_CIV_KHAZARS</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>TXT_KEY_CIV_KHAZARS </Chinese>
+		<Chinese>TXT_KEY_CIV_KHAZARS</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_哈扎尔</Tag>
+		<English>TXT_KEY_DOM_KHAZARS</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_KHAZARS</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_印度</Tag>
@@ -608,6 +626,12 @@
 		<Chinese>TXT_KEY_CIV_ASSYRIA</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_亚述</Tag>
+		<English>TXT_KEY_DOM_ASSYRIA</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_ASSYRIA</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_DOM_埃及</Tag>
 		<English>TXT_KEY_DOM_EGYPT</English>
 		<L1/><L2/><L3/><L4/>
@@ -770,6 +794,12 @@
 		<Chinese>TXT_KEY_CIV_KANEM-BORNU</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_卡内姆布-博尔努</Tag>
+		<English>TXT_KEY_DOM_KANEM-BORNU</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_KANEM-BORNU</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_DOM_蒙古</Tag>
 		<English>TXT_KEY_DOM_MONGOLIA</English>
 		<L1/><L2/><L3/><L4/>
@@ -842,6 +872,12 @@
 		<Chinese>TXT_KEY_CIV_ARMENIA</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_亚美尼亚</Tag>
+		<English>TXT_KEY_DOM_ARMENIA</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_ARMENIA</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_DOM_桑海</Tag>
 		<English>TXT_KEY_DOM_SONGHAI</English>
 		<L1/><L2/><L3/><L4/>
@@ -882,7 +918,13 @@
 		<English>TXT_KEY_CIV_YUEZHI</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>TXT_KEY_CIV_YUEZHI</Chinese>
-	</TEXT>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOM_月氏</Tag>
+		<English>TXT_KEY_DOM_YUEZHI</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_YUEZHI</Chinese>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_墨西哥</Tag>
 		<English>TXT_KEY_CIV_MEXICO</English>
@@ -1232,10 +1274,10 @@
 		<Chinese>TXT_KEY_CIV_TEOTIHUACAN</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_满洲</Tag>
-		<English>TXT_KEY_DOM_MANCHURIA</English>
+		<Tag>TXT_KEY_DOM_特奥蒂瓦卡诺</Tag>
+		<English>TXT_KEY_DOM_TEOTIHUACAN</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>TXT_KEY_DOM_MANCHURIA</Chinese>
+		<Chinese>TXT_KEY_DOM_TEOTIHUACAN</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_卡涅姆-博尔努</Tag>
@@ -1266,6 +1308,12 @@
 		<English>TXT_KEY_CIV_BOER</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>TXT_KEY_CIV_BOER</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_布尔</Tag>
+		<English>TXT_KEY_DOM_BOER</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>TXT_KEY_DOM_BOER</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_匈奴</Tag>

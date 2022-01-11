@@ -11,6 +11,7 @@
 #include "FProfiler.h"
 #include "CvRhyes.h"
 #include <vector>
+#include <sstream>
 using std::vector;
 
 // Public Functions...
@@ -120,16 +121,39 @@ void CvPlotGroup::removePlot(CvPlot* pPlot)
 }
 
 void CvPlotGroup::printPlotGroups() {
-	std::vector< XYCoords > vec;
-	CvPlot* pPlot; 
-	for (pPlot = begin(); pPlot != NULL; pPlot = next()) {
-		vec.push_back(plotToCoords(pPlot));
+	static const int WIDTH = 150;
+	static const int HEIGHT = 80;
+	int plotGroupID[WIDTH][HEIGHT] = { 0 };
+
+	CvPlayer& player = GET_PLAYER(getOwner());
+	CvPlotGroup* plotGroup = NULL;
+	int index = 0;
+	set<int> ctx;
+
+	for (plotGroup = player.firstPlotGroup(&index); plotGroup != NULL; plotGroup = player.nextPlotGroup(&index))
+	{
+		const int id = plotGroup->getID();
+		for (CvPlot* plot = plotGroup->begin(); plot != NULL; plot = plotGroup->next())
+		{
+			const int x = plot->getX_INLINE();
+			const int y = plot->getY_INLINE();
+			plotGroupID[x][y] = id;
+			ctx.insert(y);
+		}
 	}
-	/*printf("gameturn: %d, owner: %d, len: %d, ", GC.getGame().getGameTurn(), getOwner(), vec.size());
-	for (int i = 0; i < vec.size(); i++) {
-		printf("(%d, %d), ", vec[i].iX, vec[i].iY);
+
+	GC.getGameINLINE().logMsg("Player:%d, Turn:%d, Year:%d\n", getOwner(), GC.getGameINLINE().getGameTurn(), GC.getGameINLINE().getGameTurnYear());
+	stringstream buf;
+	set<int>::reverse_iterator iter = ctx.rbegin();
+	for (; iter != ctx.rend(); iter++) {
+		buf << *iter << " [";
+		for (int iX = 0; iX < WIDTH; iX++) {
+			buf << plotGroupID[iX][*iter] << ",";
+		}
+		buf << "]\n";
 	}
-	printf("\n");*/
+	buf << "\n";
+	gDLL->logMsg("sdkDbg.log", buf.str().c_str());
 }
 
 void CvPlotGroup::combine(CvPlotGroup* plotgroup) 
@@ -158,7 +182,8 @@ void CvPlotGroup::recalculatePlots()
 	{
 		iCount = 0;
 		{
-			PROFILE("CvPlotGroup::recalculatePlots::FAStar");
+			// 次要影响
+			//PROFILE("CvPlotGroup::recalculatePlots::FAStar");
 			gDLL->getFAStarIFace()->SetData(&GC.getPlotGroupFinder(), &iCount);
 			gDLL->getFAStarIFace()->GeneratePath(&GC.getPlotGroupFinder(), pPlot->getX_INLINE(), pPlot->getY_INLINE(), -1, -1, false, eOwner);
 		}
@@ -167,7 +192,14 @@ void CvPlotGroup::recalculatePlots()
 			return;
 		}
 	}
+
+	//if (getOwner() == GC.getGameINLINE().getActivePlayer()) 
+	//{
+	//	printPlotGroups();
+	//}
+
 	{
+		// 主要影响，重点优化目标
 		PROFILE("CvPlotGroup::recalculatePlots::Others");
 		for (pPlot = begin(); pPlot != NULL; pPlot = erase(pPlot))
 		{

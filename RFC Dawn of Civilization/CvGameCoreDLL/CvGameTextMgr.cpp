@@ -1287,6 +1287,13 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
             szString.append(szTempBuffer);
         }
 	}
+
+	// wunshare
+	if (pUnit->getOwner() == BARBARIAN) 
+	{
+		szTempBuffer.Format(L"\nUnitAI Type = %s.", GC.getUnitAIInfo(pUnit->AI_getUnitAIType()).getDescription());
+		szString.append(szTempBuffer);
+	}
 }
 
 
@@ -1538,6 +1545,19 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 		return;
 	}
 
+	{ // wunshare
+		TeamTypes tHuman = GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getTeam();
+		bool bTradeNetwork = pPlot->isTradeNetwork(tHuman);
+		if (bTradeNetwork)
+		{
+			szString.append("bTradeNetwork:True\n");
+		}
+		else
+		{
+			szString.append("bTradeNetwork:False\n");
+		}
+	}
+	
 
 	CvUnit* pLoopUnit;
 	static const uint iMaxNumUnits = 15;

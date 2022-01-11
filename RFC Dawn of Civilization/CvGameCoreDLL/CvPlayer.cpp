@@ -5813,11 +5813,13 @@ bool CvPlayer::canFound(int iX, int iY, bool bTestVisible) const
 		}
 	}
 
+	// wunshare : bugfixed 2022.01.09
+	const int canada_border = 61;
 	// Leoreth: America/France don't care about Canada until the Canadians spawn
 	if (getID() != GC.getGame().getActivePlayer() && GC.getGameINLINE().getGameTurn() < GET_PLAYER(CANADA).getBirthTurn() + getTurns(5))
 	{
-		if (getID() == AMERICA && iY >= 51) return false;
-		if (getID() == FRANCE && iX <= 24 && iY >= 51) return false;
+		if (getID() == AMERICA && iY >= canada_border) return false;
+		if (getID() == FRANCE && iX <= 24 && iY >= canada_border) return false;
 	}
 
 	return true;

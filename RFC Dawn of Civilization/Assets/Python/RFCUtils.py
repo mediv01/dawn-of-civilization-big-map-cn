@@ -2049,7 +2049,7 @@ class RFCUtils:
 	
 	# wunshare: start
 	def isValidKey(self, key):
-		vaildChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_1234567890 '
+		vaildChar = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_-1234567890 '
 		for word in key:
 			if word not in vaildChar:
 				return False
@@ -2070,7 +2070,7 @@ class RFCUtils:
 
 		if not isValidKey(baseKey):
 			file = open("wunshareDbg.log", "a+")
-			toFile("getDawnOfManText:lost key:%s\n"%baseKey.encode('utf-8'), file)
+			toFile(u"getDawnOfManText:lost key:TXT_KEY_DOM_%s\n"%converted, file)
 			file.close()
 
 		fullKey = baseKey

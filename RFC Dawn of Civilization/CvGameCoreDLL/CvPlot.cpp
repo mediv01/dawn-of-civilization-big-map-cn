@@ -4289,9 +4289,24 @@ bool CvPlot::isTradeNetwork(TeamTypes eTeam) const
 {
 	FAssertMsg(eTeam != NO_TEAM, "eTeam is not assigned a valid value");
 
-	if (atWar(eTeam, getTeam()) && !GET_PLAYER(GET_TEAM(eTeam).getLeaderID()).isHasBuildingEffect((BuildingTypes)SALSAL_BUDDHA) && (getOwner() == NO_PLAYER || !GET_PLAYER(getOwner()).isHasBuildingEffect((BuildingTypes)SALSAL_BUDDHA)))
+	if (atWar(eTeam, getTeam()) && 
+		!GET_PLAYER(GET_TEAM(eTeam).getLeaderID()).isHasBuildingEffect((BuildingTypes)SALSAL_BUDDHA) && 
+		(getOwner() == NO_PLAYER || !GET_PLAYER(getOwner()).isHasBuildingEffect((BuildingTypes)SALSAL_BUDDHA)))
 	{
 		return false;
+	}
+
+	if (!isRevealed(eTeam, false)) // wunshare
+	{
+		return false;
+	}
+
+	if (isOwned()) // wunshare
+	{
+		if (getTeam() != eTeam && !GET_TEAM(getTeam()).isOpenBorders(eTeam) && !GET_TEAM(getTeam()).isVassal(eTeam))
+		{
+			return false;
+		}
 	}
 
 	if (getBlockadedCount(eTeam) > 0)

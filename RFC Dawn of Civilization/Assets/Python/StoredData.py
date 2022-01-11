@@ -316,9 +316,9 @@ class GameData:
 		return self.lPlayerEnabled[lSecondaryCivs.index(iPlayer)]
 		
 	def resetStability(self, iPlayer):
-		players[iPlayer].resetStability()
+		self.players[iPlayer].resetStability()
 		
-		for i, player in enumerate(players):
+		for i, player in enumerate(self.players):
 			if iPlayer != i:
 				player.resetWarTrend(iPlayer)
 				
