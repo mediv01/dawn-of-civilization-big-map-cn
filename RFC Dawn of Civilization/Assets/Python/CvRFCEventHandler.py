@@ -754,6 +754,9 @@ class CvRFCEventHandler:
 		
 		sta.checkTurn(iGameTurn)
 		cong.checkTurn(iGameTurn)
+
+		import  Mediv01_Log
+		Mediv01_Log.checkturn(iGameTurn)
 		
 		if iGameTurn % 10 == 0:
 			dc.checkTurn(iGameTurn)
