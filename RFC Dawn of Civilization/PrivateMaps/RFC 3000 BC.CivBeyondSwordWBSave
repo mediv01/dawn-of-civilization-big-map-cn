@@ -13740,12 +13740,6 @@ BeginPlot
 	x=28,y=24
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
-	BeginUnit
-		UnitType=UNIT_NORTE_CHICO_AYLLU, UnitOwner=3, (Norte Chico)
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_SETTLER, UnitOwner=3, (Norte Chico)
-	EndUnit
 EndPlot
 BeginPlot
 	x=28,y=25
@@ -36784,12 +36778,6 @@ BeginPlot
 	x=79,y=43
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
-	BeginUnit
-		UnitType=UNIT_MILITIA, UnitOwner=0, (Egypt)
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_SETTLER, UnitOwner=0, (Egypt)
-	EndUnit
 	PlotType=2
 EndPlot
 BeginPlot
@@ -41436,12 +41424,6 @@ BeginPlot
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
-	BeginUnit
-		UnitType=UNIT_MILITIA, UnitOwner=1, (Babylonia)
-	EndUnit
-	BeginUnit
-		UnitType=UNIT_SETTLER, UnitOwner=1, (Babylonia)
-	EndUnit
 EndPlot
 BeginPlot
 	x=89,y=48
