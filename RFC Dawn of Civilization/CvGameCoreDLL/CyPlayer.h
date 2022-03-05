@@ -15,6 +15,7 @@ class CyCity;
 class CyArea;
 class CyPlot;
 class CySelectionGroup;
+class CyPlotGroup;
 class CyPlayer
 {
 public:
@@ -485,6 +486,11 @@ public:
 	python::tuple nextSelectionGroup(int iterIn, bool bRev);	// returns tuple of (CySelectionGroup, iterOut)
 	int getNumSelectionGroups();
 	CySelectionGroup* getSelectionGroup(int iID);
+	// wunshare - start
+	python::tuple fristPlotGroup(bool bRev); // returns tuple of (CyPlotGroup, iterOut)
+	python::tuple nextPlotGroup(int iterIn, bool bRev); // returns tuple of (CyPlotGroup, iterOut)
+	int getNumPlotGroups();
+	// wunshare - end
 
 	void trigger(/*EventTriggerTypes*/int eEventTrigger);
 	const EventTriggeredData* getEventOccured(int /*EventTypes*/ eEvent) const;

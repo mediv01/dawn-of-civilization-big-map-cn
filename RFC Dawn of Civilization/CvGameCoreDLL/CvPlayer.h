@@ -12,6 +12,7 @@
 #include "LinkedList.h"
 #include "CvTalkingHeadMessage.h"
 #include "time.h"
+#include "CvLCT.h" // wunshare
 
 class CvDiploParameters;
 class CvPopupInfo;
@@ -1039,6 +1040,9 @@ public:
 	CvPlotGroup* addPlotGroup();
 	void deletePlotGroup(int iID);
 
+	// wunshare
+	CvLCT& getLCT() { return m_sLCT; }
+
 	// city iteration
 	DllExport CvCity* firstCity(int *pIterIdx, bool bRev=false) const;																// Exposed to Python
 	DllExport CvCity* nextCity(int *pIterIdx, bool bRev=false) const;																	// Exposed to Python
@@ -1396,6 +1400,8 @@ public:
 
 protected:
 
+	CvLCT m_sLCT; // wunshare
+
 	int m_iStartingX;
 	int m_iStartingY;
 	int m_iTotalPopulation;
@@ -1520,17 +1526,7 @@ protected:
 
 	uint m_uiStartTime;  // XXX save these?
 
-	bool m_bAlive;
-	bool m_bEverAlive;
-	bool m_bTurnActive;
-	bool m_bAutoMoves;
-	bool m_bEndTurn;
-	bool m_bPbemNewTurn;
-	bool m_bExtendedGame;
-	bool m_bFoundedFirstCity;
-	bool m_bStrike;
-	bool m_bHuman;
-	bool m_bAllowStateReligionCommerceModifiers; // 1SDAN
+	
 
 
 /************************************************************************************************/
@@ -1553,7 +1549,6 @@ protected:
 	//Rhye (jdog) -  end -----------------------
 
 	// Leoreth
-	bool m_bReborn;
 	int m_iLatestRebellionTurn;
 	int m_iPersecutionCountdown;
 	int m_iNoAnarchyTurns;
@@ -1693,6 +1688,20 @@ protected:
 
 	CvTurnScoreMap m_mapTechHistory;
 
+	bool m_bAlive;
+	bool m_bEverAlive;
+	bool m_bTurnActive;
+	bool m_bAutoMoves;
+	bool m_bEndTurn;
+	bool m_bPbemNewTurn;
+	bool m_bExtendedGame;
+	bool m_bFoundedFirstCity;
+	bool m_bStrike;
+	bool m_bHuman;
+	bool m_bAllowStateReligionCommerceModifiers; // 1SDAN
+	bool m_bReborn; // leoreth
+
+protected:
 	void doGold();
 	void doResearch();
 	void doEspionagePoints();

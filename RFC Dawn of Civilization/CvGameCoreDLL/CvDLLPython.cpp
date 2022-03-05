@@ -34,9 +34,10 @@ void CyGameTextMgrInterface();
 void CyHallOfFameInterface();
 void CyGameCoreUtilsPythonInterface();
 void CyMessageControlInterface();
+void CyPlotGroupInterface();
 
 //
-//
+// wunshare
 //
 DllExport void DLLPublishToPython()
 {
@@ -57,6 +58,8 @@ DllExport void DLLPublishToPython()
 	CyHallOfFameInterface();
 	CyGameCoreUtilsPythonInterface();
 	CyMessageControlInterface();
+
+	CyPlotGroupInterface(); // wunshare
 
 	//
 	// large interfaces which can be split across files if need be

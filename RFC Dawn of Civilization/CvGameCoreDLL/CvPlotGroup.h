@@ -40,6 +40,8 @@ public:
 
 	void printPlotGroups();
 
+	int getNumCities() const;
+
 	int getID() const;
 	void setID(int iID);
 
@@ -80,6 +82,8 @@ protected:
 
 	set<XYCoords> m_splot;
 	set<XYCoords>::iterator itor;
+
+	set<CvCity*> m_sCities;
 };
 
 /*

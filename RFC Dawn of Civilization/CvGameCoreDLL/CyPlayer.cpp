@@ -14,6 +14,7 @@
 #include "CvMap.h"
 #include "CvPlot.h"
 #include "CySelectionGroup.h"
+#include "CyPlotGroup.h"
 #include "CvDLLPythonIFaceBase.h"
 #include "CvGlobals.h"
 
@@ -2147,6 +2148,32 @@ int CyPlayer::getNumSelectionGroups()
 CySelectionGroup* CyPlayer::getSelectionGroup(int iID)
 {
 	return m_pPlayer ? new CySelectionGroup(m_pPlayer->getSelectionGroup(iID)) : NULL;
+}
+
+// returns tuple of (CyPlotGroup, iterOut)
+python::tuple CyPlayer::fristPlotGroup(bool bRev)
+{
+	int iterIn = 0;
+	CvPlotGroup* pvObj = m_pPlayer ? m_pPlayer->firstPlotGroup(&iterIn, bRev) : NULL;
+	CyPlotGroup* pyObj = pvObj ? new CyPlotGroup(pvObj) : NULL;
+	python::tuple tup = python::make_tuple(pyObj, iterIn);
+	delete pyObj;
+	return tup;
+}
+
+// returns tuple of (CyPlotGroup, iterOut)
+python::tuple CyPlayer::nextPlotGroup(int iterIn, bool bRev)
+{
+	CvPlotGroup* pvObj = m_pPlayer ? m_pPlayer->nextPlotGroup(&iterIn, bRev) : NULL;
+	CyPlotGroup* pyObj = pvObj ? new CyPlotGroup(pvObj) : NULL;
+	python::tuple tup = python::make_tuple(pyObj, iterIn);
+	delete pyObj;
+	return tup;
+}
+
+int CyPlayer::getNumPlotGroups()
+{
+	return m_pPlayer ? m_pPlayer->getNumPlotGroups() : -1;
 }
 
 void CyPlayer::trigger(/*EventTriggerTypes*/int eEventTrigger)

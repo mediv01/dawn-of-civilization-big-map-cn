@@ -616,16 +616,6 @@ protected:
 
 	unsigned int m_uiInitialTime;
 
-	bool m_bScoreDirty;
-	bool m_bCircumnavigated;
-	bool m_bDebugMode;
-	bool m_bDebugModeCache;
-	bool m_bFinalInitialized;
-	bool m_bPbemTurnSent;
-	bool m_bHotPbemBetweenTurns;
-	bool m_bPlayerOptionsSent;
-	bool m_bNukesValid;
-
 	HandicapTypes m_eHandicap;
 	PlayerTypes m_ePausePlayer;
 	UnitTypes m_eBestLandUnit;
@@ -688,7 +678,7 @@ protected:
 	int m_iLastLookatY;
 	int m_iXResolution;
 	int m_iYResolution;
-	bool m_bWasGraphicsPagingEnabled;
+	
 
 	std::vector<PlotExtraYield> m_aPlotExtraYields;
 	std::vector<PlotExtraCost> m_aPlotExtraCosts;
@@ -702,6 +692,20 @@ protected:
 
 	int		m_iNumCultureVictoryCities;
 	int		m_eCultureVictoryCultureLevel;
+
+	bool m_bScoreDirty;
+	bool m_bCircumnavigated;
+	bool m_bDebugMode;
+	bool m_bDebugModeCache;
+	bool m_bFinalInitialized;
+	bool m_bPbemTurnSent;
+	bool m_bHotPbemBetweenTurns;
+	bool m_bPlayerOptionsSent;
+	bool m_bNukesValid;
+
+	bool m_bWasGraphicsPagingEnabled; // Leoreth
+
+protected:
 
 	void doTurn();
 	void doDeals();

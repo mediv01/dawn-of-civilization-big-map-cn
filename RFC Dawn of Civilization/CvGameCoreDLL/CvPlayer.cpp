@@ -3607,7 +3607,7 @@ int CvPlayer::getBonusAffectedCities(BonusTypes eBonus) const
 		{
 			iTechBonusAffectedCities += 1;
 		}
-		if (pTeam.isHasTech((TechTypes)REFRIGERATION)) // refrigeration +1
+		if (pTeam.isHasTech((TechTypes)BIOLOGY)) // biology +1
 		{
 			iTechBonusAffectedCities += 1;
 		}
@@ -3624,7 +3624,7 @@ int CvPlayer::getBonusAffectedCities(BonusTypes eBonus) const
 		{
 			iTechBonusAffectedCities += 1;
 		}
-		if (pTeam.isHasTech((TechTypes)BIOLOGY)) // biology +1
+		if (pTeam.isHasTech((TechTypes)REFRIGERATION)) // refrigeration +1
 		{
 			iTechBonusAffectedCities += 1;
 		}

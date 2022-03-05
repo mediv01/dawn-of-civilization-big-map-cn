@@ -17,7 +17,7 @@ GLOBALPYTHON = $(CIVINSTALL)\CvGameCoreDLL\Python24
 
 #### Civilization 4 (Japanese Version) ####
 ## Uncomment to define the macros for Japanese version
-#CYBERFRONT = 1
+CYBERFRONT = 1
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -121,7 +121,7 @@ Final_Release_PCH = $(FINAL_RELEASE_DIR)\$(PCH:h=pch)
 # /W3     warning level 3
 # /Zi     generates complete debugging information
 
-PROJECT_CFLAGS = /EHsc /Gd /GR /G7 /W3 /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /Yu"$(PCH)"
+PROJECT_CFLAGS = /EHsc /Gd /GR /G7 /W3 /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /DTIXML_USE_STL /Yu"$(PCH)"
 !IFDEF CYBERFRONT
 PROJECT_CFLAGS = $(PROJECT_CFLAGS) /DCYBERFRONT
 !ENDIF

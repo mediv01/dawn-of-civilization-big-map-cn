@@ -330,6 +330,24 @@
     <ClCompile Include="CvUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CyPlotGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CyPlotGroupInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CvArea.h">
@@ -617,9 +635,6 @@
     <ClInclude Include="CvBugMod.cpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="CvBugMod.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CvRhyes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -633,6 +648,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CvGamebryo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CyPlotGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CvLCT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

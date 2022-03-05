@@ -562,87 +562,50 @@ public:
 
 protected:
 
-	short m_iX;
-	short m_iY;
-	int m_iArea;
-	mutable CvArea *m_pPlotArea;
-	short m_iFeatureVariety;
-	short m_iOwnershipDuration;
-	short m_iImprovementDuration;
-	short m_iUpgradeProgress;
-	short m_iForceUnownedTimer;
-	short m_iCityRadiusCount;
-	int m_iRiverID;
-	short m_iMinOriginalStartDist;
-	short m_iReconCount;
-	short m_iRiverCrossingCount;
+	CLinkList<IDInfo> m_units;
 
-	// Leoreth
-	int m_iContinentArea;
-	short m_iCultureConversionRate;
-	int m_iTotalCulture;
+	std::vector<CvSymbol*> m_symbols;
 
-	bool m_bStartingPlot:1;
-	bool m_bHills:1;
-	bool m_bNOfRiver:1;
-	bool m_bWOfRiver:1;
-	bool m_bIrrigated:1;
-	bool m_bPotentialCityWork:1;
-	bool m_bShowCitySymbols:1;
-	bool m_bFlagDirty:1;
-	bool m_bPlotLayoutDirty:1;
-	bool m_bLayoutStateWorked:1;
-
-	char /*PlayerTypes*/ m_eOwner;
 	PlayerTypes m_eCultureConversionPlayer;
-	short /*PlotTypes*/ m_ePlotType;
-	short /*TerrainTypes*/ m_eTerrainType;
-	short /*FeatureTypes*/ m_eFeatureType;
-	short /*BonusTypes*/ m_eBonusType;
-	short /*BonusTypes*/ m_eBonusVarietyType;
-	short /*ImprovementTypes*/ m_eImprovementType;
-	short /*RouteTypes*/ m_eRouteType;
-	char /*CardinalDirectionTypes*/ m_eRiverNSDirection;
-	char /*CardinalDirectionTypes*/ m_eRiverWEDirection;
-
 	IDInfo m_plotCity;
 	IDInfo m_workingCity;
 	IDInfo m_workingCityOverride;
 
+	int m_iArea;
+	int m_iRiverID;
+	// Leoreth
+	int m_iContinentArea;
+	int m_iTotalCulture;
+
+	mutable CvArea* m_pPlotArea;
+
 	short* m_aiYield;
-	int* m_aiCulture;
 	short* m_aiFoundValue;
-	char* m_aiPlayerCityRadiusCount;
-	int* m_aiPlotGroup;			// IDs - keep as int
 	short* m_aiVisibilityCount;
 	short* m_aiStolenVisibilityCount;
 	short* m_aiBlockadedCount;
-	char* m_aiRevealedOwner;
 
 	bool* m_abRiverCrossing;	// bit vector
 	bool* m_abRevealed;
-
 	// Leoreth: initialized by Python at the beginning of the game
 	bool* m_abCore;
+
+	int* m_aiPlotGroup;			// IDs - keep as int
 	int* m_aiSettlerValue;
 	int* m_aiWarValue;
 	int* m_aiReligionSpreadFactor;
 	int m_iRegionID;
-
-	// Leoreth
-	bool m_bWithinGreatWall;
-
 	int* m_aiReligionInfluence;
-
-	// Leoreth: graphics paging
-	short m_iGraphicsPageIndex;
+	int* m_aiCulture;
 
 	short* /*ImprovementTypes*/ m_aeRevealedImprovementType;
 	short* /*RouteTypes*/ m_aeRevealedRouteType;
+	short* m_paiBuildProgress;
 
 	char* m_szScriptData;
+	char* m_aiRevealedOwner;
+	char* m_aiPlayerCityRadiusCount;
 
-	short* m_paiBuildProgress;
 
 	CvFeature* m_pFeatureSymbol;
 	CvRoute* m_pRouteSymbol;
@@ -656,14 +619,52 @@ protected:
 	char** m_apaiCultureRangeCities;
 	short** m_apaiInvisibleVisibilityCount;
 
-	CLinkList<IDInfo> m_units;
-
-	std::vector<CvSymbol*> m_symbols;
-
 	// Sanguo Mod Performance, start, added by poyuzhe 08.13.09
 	short** m_apaiPlayerDangerCache;
 	// Sanguo Mod Performance, end
 
+	short m_iX;
+	short m_iY;
+	short m_iFeatureVariety;
+	short m_iOwnershipDuration;
+	short m_iImprovementDuration;
+	short m_iUpgradeProgress;
+	short m_iForceUnownedTimer;
+	short m_iCityRadiusCount;
+	short m_iMinOriginalStartDist;
+	short m_iReconCount;
+	short m_iRiverCrossingCount;
+	// Leoreth
+	short m_iCultureConversionRate;
+	short m_iGraphicsPageIndex;
+
+	short /*PlotTypes*/ m_ePlotType;
+	short /*TerrainTypes*/ m_eTerrainType;
+	short /*FeatureTypes*/ m_eFeatureType;
+	short /*BonusTypes*/ m_eBonusType;
+	short /*BonusTypes*/ m_eBonusVarietyType;
+	short /*ImprovementTypes*/ m_eImprovementType;
+	short /*RouteTypes*/ m_eRouteType;
+
+	char /*PlayerTypes*/ m_eOwner;
+	char /*CardinalDirectionTypes*/ m_eRiverNSDirection;
+	char /*CardinalDirectionTypes*/ m_eRiverWEDirection;
+
+	bool m_bStartingPlot : 1;
+	bool m_bHills : 1;
+	bool m_bNOfRiver : 1;
+	bool m_bWOfRiver : 1;
+	bool m_bIrrigated : 1;
+	bool m_bPotentialCityWork : 1;
+	bool m_bShowCitySymbols : 1;
+	bool m_bFlagDirty : 1;
+	bool m_bPlotLayoutDirty : 1;
+	bool m_bLayoutStateWorked : 1;
+	// Leoreth
+	bool m_bWithinGreatWall : 1;
+
+
+protected:
 	void doFeature();
 	void doCulture();
 

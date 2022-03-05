@@ -7,6 +7,7 @@
 #include "CyPlot.h"
 #include "CyArea.h"
 #include "CyUnit.h"
+#include "CyPlotGroup.h"
 #include "CvDLLPythonIFaceBase.h"
 #include "CvGlobals.h"
 
@@ -981,6 +982,12 @@ void CyCity::changeEspionageHappinessCounter(int iChange)
 {
 	if (m_pCity)
 		m_pCity->changeEspionageHappinessCounter(iChange);
+}
+
+// wunshare
+CyPlotGroup* CyCity::plotGroup(int /*PlayerTypes*/ ePlayer)
+{
+	return m_pCity ? new CyPlotGroup(m_pCity->plotGroup((PlayerTypes)ePlayer)) : NULL;
 }
 
 void CyCity::changeHealRate(int iChange)

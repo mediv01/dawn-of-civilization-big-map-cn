@@ -6879,7 +6879,7 @@ int CvPlot::getYield(YieldTypes eIndex) const
 	return m_aiYield[eIndex];
 }
 
-
+// 地块面包，锤子，铜钱产出
 int CvPlot::calculateNatureYield(YieldTypes eYield, TeamTypes eTeam, bool bIgnoreFeature) const
 {
 	BonusTypes eBonus;
@@ -8129,6 +8129,10 @@ void CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate)
 				bEmpty = (pPlotGroup->getLengthPlots() == 1);
 				FAssertMsg(pPlotGroup->getLengthPlots() > 0, "pPlotGroup should have more than 0 plots");
 
+				/* wunshare - start */
+				//GET_PLAYER(ePlayer).getLCT().Cut(this, GET_PLAYER(ePlayer).getTeam());
+				/* wunshare - end */
+
 				pPlotGroup->removePlot(this);
 
 				if (!bEmpty)
@@ -8155,6 +8159,10 @@ void CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate)
 				{
 					if (isTradeNetworkConnected(pAdjacentPlot, GET_PLAYER(ePlayer).getTeam()))
 					{
+						/* wunshare - start */
+						//GET_PLAYER(ePlayer).getLCT().Link(pAdjacentPlot, this);
+						/* wunshare - end */
+
 						if (pPlotGroup == NULL)
 						{
 							pAdjacentPlotGroup->addPlot(this);
@@ -10174,7 +10182,9 @@ void CvPlot::read(FDataStreamBase* pStream)
 	// m_bFlagDirty not saved
 	// m_bPlotLayoutDirty not saved
 	// m_bLayoutStateWorked not saved
-	pStream->Read(&m_bWithinGreatWall); // Leoreth
+	bool bTemp; // wunshare
+	pStream->Read(&bTemp); // Leoreth
+	m_bWithinGreatWall = bTemp; // wunshare
 
 	pStream->Read(&m_eOwner);
 	if (uiFlag >= 1) pStream->Read((int*)&m_eCultureConversionPlayer); // Leoreth

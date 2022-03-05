@@ -849,6 +849,12 @@ public:
 
 protected:
 
+	CvWString m_szName;
+	CvString m_szScriptData;
+
+	IDInfo m_combatUnit;
+	IDInfo m_transportUnit;
+
 	int m_iID;
 	int m_iGroupID;
 	int m_iHotKeyNumber;
@@ -912,15 +918,6 @@ protected:
 	int m_iImmobileTimer;
 	int m_iExtraUpkeep; // Leoreth
 
-	bool m_bMadeAttack;
-	bool m_bMadeInterception;
-	bool m_bPromotionReady;
-	bool m_bDeathDelay;
-	bool m_bCombatFocus;
-	bool m_bInfoBarDirty;
-	bool m_bBlockading;
-	bool m_bAirCombat;
-
 	PlayerTypes m_eOwner;
 	PlayerTypes m_eCapturingPlayer;
 	UnitTypes m_eUnitType;
@@ -930,13 +927,7 @@ protected:
 	//Leoreth
 	UnitArtStyleTypes m_originalArtStyle;
 
-	IDInfo m_combatUnit;
-	IDInfo m_transportUnit;
-
 	int* m_aiExtraDomainModifier;
-
-	CvWString m_szName;
-	CvString m_szScriptData;
 
 	bool* m_pabHasPromotion;
 
@@ -947,6 +938,15 @@ protected:
 	int* m_paiExtraFeatureAttackPercent;
 	int* m_paiExtraFeatureDefensePercent;
 	int* m_paiExtraUnitCombatModifier;
+
+	bool m_bMadeAttack;
+	bool m_bMadeInterception;
+	bool m_bPromotionReady;
+	bool m_bDeathDelay;
+	bool m_bCombatFocus;
+	bool m_bInfoBarDirty;
+	bool m_bBlockading;
+	bool m_bAirCombat;
 
 	bool canAdvance(const CvPlot* pPlot, int iThreshold) const;
 	void collateralCombat(const CvPlot* pPlot, CvUnit* pSkipUnit = NULL);

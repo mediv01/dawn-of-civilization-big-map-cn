@@ -1596,6 +1596,28 @@ public:
 /********************************************************************************/
 protected:
 
+	CvWString m_szName;
+	CvString m_szScriptData;
+
+	mutable CLinkList<OrderData> m_orderQueue;
+
+	std::vector< std::pair < float, float> > m_kWallOverridePoints;
+
+	std::vector<EventTypes> m_aEventsOccured;
+	std::vector<BuildingYieldChange> m_aBuildingYieldChange;
+	std::vector<BuildingCommerceChange> m_aBuildingCommerceChange;
+	BuildingChangeArray m_aBuildingHappyChange;
+	BuildingChangeArray m_aBuildingHealthChange;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	BuildingChangeArray m_aBuildingGreatPeopleRateChange;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
+
 	int m_iID;
 	int m_iX;
 	int m_iY;
@@ -1735,37 +1757,6 @@ protected:
 /* 	Leoreth							END							*/
 /********************************************************************************/
 
-	bool m_bNeverLost;
-	bool m_bBombarded;
-	bool m_bDrafted;
-	bool m_bAirliftTargeted;
-	bool m_bWeLoveTheKingDay;
-	bool m_bCitizensAutomated;
-	bool m_bProductionAutomated;
-	bool m_bWallOverride;
-	bool m_bInfoDirty;
-	bool m_bLayoutDirty;
-	bool m_bPlundered;
-/********************************************************************************/
-/* 	Leoreth					xx/xx/xx				Leoreth	    */
-/* 																			    */
-/* 																			    */
-/********************************************************************************/
-	bool m_bMongolUP;
-/********************************************************************************/
-/* 	Leoreth							END							*/
-/********************************************************************************/
-
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       12/07/09                         denev & jdog5000     */
-/*                                                                                              */
-/* Bugfix                                                                                       */
-/************************************************************************************************/
-	bool m_bPopProductionProcess;
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
-
 	PlayerTypes m_eOwner;
 	PlayerTypes m_ePreviousOwner;
 	PlayerTypes m_eOriginalOwner;
@@ -1845,9 +1836,6 @@ protected:
 	bool* m_abRevealed;
 	bool* m_abEspionageVisibility;
 
-	CvWString m_szName;
-	CvString m_szScriptData;
-
 	int* m_paiNoBonus;
 	int* m_paiFreeBonus;
 	int* m_paiNumBonuses;
@@ -1908,34 +1896,47 @@ protected:
 /********************************************************************************/
 	IDInfo* m_paTradeCities;
 
-	mutable CLinkList<OrderData> m_orderQueue;
-
-	std::vector< std::pair < float, float> > m_kWallOverridePoints;
-
-	std::vector<EventTypes> m_aEventsOccured;
-	std::vector<BuildingYieldChange> m_aBuildingYieldChange;
-	std::vector<BuildingCommerceChange> m_aBuildingCommerceChange;
-	BuildingChangeArray m_aBuildingHappyChange;
-	BuildingChangeArray m_aBuildingHealthChange;
-/********************************************************************************/
-/* 	Leoreth					xx/xx/xx				Leoreth	    */
-/* 																			    */
-/* 																			    */
-/********************************************************************************/
-	BuildingChangeArray m_aBuildingGreatPeopleRateChange;
-/********************************************************************************/
-/* 	Leoreth							END							*/
-/********************************************************************************/
-
-	// CACHE: cache frequently used values
-	mutable int	m_iPopulationRank;
-	mutable bool m_bPopulationRankValid;
 	int*	m_aiBaseYieldRank;
 	bool*	m_abBaseYieldRankValid;
 	int*	m_aiYieldRank;
 	bool*	m_abYieldRankValid;
 	int*	m_aiCommerceRank;
 	bool*	m_abCommerceRankValid;
+
+	// CACHE: cache frequently used values
+	mutable int	m_iPopulationRank;
+	mutable bool m_bPopulationRankValid;
+
+	bool m_bNeverLost;
+	bool m_bBombarded;
+	bool m_bDrafted;
+	bool m_bAirliftTargeted;
+	bool m_bWeLoveTheKingDay;
+	bool m_bCitizensAutomated;
+	bool m_bProductionAutomated;
+	bool m_bWallOverride;
+	bool m_bInfoDirty;
+	bool m_bLayoutDirty;
+	bool m_bPlundered;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	bool m_bMongolUP;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
+
+/************************************************************************************************/
+/* UNOFFICIAL_PATCH                       12/07/09                         denev & jdog5000     */
+/*                                                                                              */
+/* Bugfix                                                                                       */
+/************************************************************************************************/
+	bool m_bPopProductionProcess;
+/************************************************************************************************/
+/* UNOFFICIAL_PATCH                        END                                                  */
+/************************************************************************************************/
 	
 	void doGrowth();
 	void doCulture();

@@ -5,6 +5,7 @@
 #include "CyPlot.h"
 #include "CyArea.h"
 #include "CvInfos.h"
+#include "CyPlotGroup.h" // wunshare
 
 //# include <boost/python/manage_new_object.hpp>
 //# include <boost/python/return_value_policy.hpp>
@@ -51,6 +52,9 @@ void CyCityPythonInterface2(python::class_<CyCity>& x)
 		.def("changeImprovementFreeSpecialists", &CyCity::changeImprovementFreeSpecialists, "void (ImprovementID, iChange) - adjust ImprovementID free specialists by iChange")
 		.def("getReligionInfluence", &CyCity::getReligionInfluence, "int (ReligionID) - value of influence from ReligionID")
 		.def("changeReligionInfluence", &CyCity::changeReligionInfluence, "void (ReligionID, iChange) - adjust ReligionID influence by iChange")
+		
+		// wunshare
+		.def("plotGroup", &CyCity::plotGroup, python::return_value_policy<python::manage_new_object>(), "int (int /*PlayerTypes*/ ePlayer) - ")
 
 		.def("getCurrentStateReligionHappiness", &CyCity::getCurrentStateReligionHappiness, "int ()")
 		.def("getStateReligionHappiness", &CyCity::getStateReligionHappiness, "int (int /*ReligionTypes*/ ReligionID)")

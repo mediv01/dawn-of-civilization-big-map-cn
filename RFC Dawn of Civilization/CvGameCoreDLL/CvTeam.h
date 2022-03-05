@@ -407,6 +407,11 @@ public:
 
 protected:
 
+	std::vector<BonusTypes> m_aeRevealedBonuses;
+	// Sanguo Mod Performance, start, added by poyuzhe 07.26.09
+	std::vector<PlayerTypes> m_aePlayerMembers;
+	// Sanguo Mod Performance, end
+
 	int m_iNumMembers;
 	int m_iAliveCount;
 	int m_iEverAliveCount;
@@ -435,9 +440,6 @@ protected:
 	int m_iTotalTechValue; // Leoreth
 	int m_iSatelliteInterceptCount; // Leoreth
 	int m_iSatelliteAttackCount; // Leoreth
-
-	bool m_bMapCentering;
-	bool m_bCapitulated;
 
 	TeamTypes m_eID;
 
@@ -480,10 +482,10 @@ protected:
 
 	int** m_ppaaiImprovementYieldChange;
 
-	std::vector<BonusTypes> m_aeRevealedBonuses;
-	// Sanguo Mod Performance, start, added by poyuzhe 07.26.09
-	std::vector<PlayerTypes> m_aePlayerMembers;
-	// Sanguo Mod Performance, end
+	bool m_bMapCentering : 1;
+	bool m_bCapitulated : 1;
+
+protected:
 
 	void doWarWeariness();
 

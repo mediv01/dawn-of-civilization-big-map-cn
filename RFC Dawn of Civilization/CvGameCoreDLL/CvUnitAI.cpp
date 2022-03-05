@@ -1155,10 +1155,105 @@ void CvUnitAI::AI_animalMove()
 }
 
 
+class CvSettleAI : public CvUnit
+{
+public:
+	CvSettleAI(CvUnitAI* pUnit);
+	~CvSettleAI();
+
+public:
+	void Move();
+
+private:
+	bool foundCapital();
+	bool rebuildCityBuilding();
+
+	bool rebuildMoveWithMinimumCost(int iMinimumCost);
+};
+
+void CvSettleAI::Move()
+{
+	PROFILE_FUNC();
+
+	if (foundCapital())
+	{
+		return;
+	}
+
+	if (rebuildCityBuilding())
+	{
+		return;
+	}
+}
+
+bool CvSettleAI::foundCapital()
+{
+	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
+	{
+		if (canFound(plot()))
+		{
+			getGroup()->pushMission(MISSION_FOUND);
+			return true;
+		}
+	}
+	return false;
+}
+
+bool CvSettleAI::rebuildCityBuilding()
+{
+	if (GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites() == 0)
+	{
+		if (rebuildMoveWithMinimumCost(2 * GET_PLAYER(getOwnerINLINE()).getProductionNeeded(getUnitType())))
+		{
+			return true;
+		}
+	}
+	return false;
+}
+
+bool CvSettleAI::rebuildMoveWithMinimumCost(int iMinimumCost)
+{
+	if (plot()->isCity())
+	{
+		if (plot()->getPlotCity()->getRebuildProduction() >= iMinimumCost)
+		{
+			getGroup()->pushMission(MISSION_REBUILD);
+			return true;
+		}
+	}
+
+	CvCity* pBestCity = NULL;
+	int iBestProduction = 0;
+
+	int iLoop, iCurrentProduction;
+	for (CvCity* pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+	{
+		if (!atPlot(pLoopCity->plot()))
+		{
+			iCurrentProduction = pLoopCity->getRebuildProduction();
+
+			if (iCurrentProduction >= iMinimumCost && iCurrentProduction > iBestProduction)
+			{
+				pBestCity = pLoopCity;
+				iBestProduction = iCurrentProduction;
+			}
+		}
+	}
+
+	if (pBestCity != NULL)
+	{
+		getGroup()->pushMission(MISSION_MOVE_TO, pBestCity->getX(), pBestCity->getY());
+		return true;
+	}
+
+	return false;
+}
+
 void CvUnitAI::AI_settleMove()
 {
 	PROFILE_FUNC();
 
+	// MISSION_FOUND - capital
 	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
 	{
 		if (canFound(plot()))
@@ -1188,6 +1283,7 @@ void CvUnitAI::AI_settleMove()
 		}
 	}*/
 
+	// REBUILDING
 	// Leoreth: use for rebuilding if no settlement targets
 	if (GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites() == 0)
 	{

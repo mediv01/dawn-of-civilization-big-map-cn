@@ -14,6 +14,8 @@
 #include "FVariableSystem.h"
 #include "CvGameCoreUtils.h"
 
+#include "tinyxml.h" // wunshare
+
 // Macro for Setting Global Art Defines
 #define INIT_XML_GLOBAL_LOAD(xmlInfoPath, infoArray, numInfos)  SetGlobalClassInfo(infoArray, xmlInfoPath, numInfos);
 
@@ -518,6 +520,80 @@ bool CvXMLLoadUtility::SetGlobalArtDefines()
 //------------------------------------------------------------------------------------------------------
 bool CvXMLLoadUtility::LoadGlobalText()
 {
+#ifdef TIXML_USE_STL
+	std::vector<CvString> aszFiles;
+	std::vector<CvString> aszModfiles;
+
+	const int iCurrentLanguage = CvGameTextMgr::GetInstance().getCurrentLanguage();
+
+	gDLL->enumerateFiles(aszFiles, "xml\\text\\*.xml");
+
+	if (gDLL->isModularXMLLoading())
+	{
+		gDLL->enumerateFiles(aszModfiles, "modules\\*_CIV4GameText.xml");
+		aszFiles.insert(aszFiles.end(), aszModfiles.begin(), aszModfiles.end());
+	}
+
+	for (std::vector<CvString>::iterator it = aszFiles.begin(); it != aszFiles.end(); ++it)
+	{
+		CvString path(gDLL->getModName());
+		path += "Assets\\";
+		path += it->GetCString();
+
+		TiXmlDocument doc(path.GetCString());
+		bool bLoaded = doc.LoadFile();
+
+		if (!bLoaded)
+		{
+			char buf[MAX_PATH] = { 0 };
+			sprintf(buf, "Can not read file:%s, reason:%s, row:%d col:%d\n", 
+				path.GetCString(), doc.ErrorDesc(), doc.ErrorRow(), doc.ErrorCol());
+			
+			MessageBox(NULL, buf, "XML Load Error", MB_OK);
+		}
+		else 
+		{
+			TiXmlNode* root = NULL;
+			TiXmlElement* node = NULL;
+			TiXmlElement* element = NULL;
+
+			root = doc.FirstChild("Civ4GameText");
+			node = root->ToElement();
+			
+			for (node = node->FirstChildElement();
+				node;
+				node = node->NextSiblingElement())
+			{
+				element = node->ToElement();
+				int iIndex = -1; // -1:TAG, 0:ENGLISH 5:CHINESE
+				CvString tag;
+				CvWString text;
+				for (element = element->FirstChildElement();
+					element;
+					element = element->NextSiblingElement())
+				{
+					if (element->GetText()) {
+						if (iIndex == -1)
+						{
+							tag = element->GetText();
+						}
+						else if (iIndex == iCurrentLanguage)
+						{
+							int iLen = MultiByteToWideChar(CP_UTF8, 0, element->GetText(), -1, 0, 0);
+							wchar_t* buf = new wchar_t[iLen + 1];
+							MultiByteToWideChar(CP_UTF8, 0, element->GetText(), -1, buf, iLen);
+							text = buf;
+							delete[] buf;
+						}
+					}
+					iIndex++;
+				}
+				gDLL->addText(tag.GetCString(), text.GetCString());
+				//MessageBoxW(NULL, text.GetCString(), tag.GetCString(), MB_OK);
+			}
+		}
+	}
+#else
 	CvCacheObject* cache = gDLL->createGlobalTextCacheObject("GlobalText.dat");	// cache file name
 	if (!gDLL->cacheRead(cache))
 	{
@@ -579,7 +655,7 @@ bool CvXMLLoadUtility::LoadGlobalText()
 	}
 
 	gDLL->destroyCache(cache);
-
+#endif
 	return true;
 }
 

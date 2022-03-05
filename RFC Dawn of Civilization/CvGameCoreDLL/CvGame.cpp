@@ -6496,7 +6496,15 @@ void CvGame::doTurn()
 	PROFILE_BEGIN("CvGame::doTurn()");
 
 	{ // write testing code here
-
+		PlayerTypes iHuman = getActivePlayer();
+		CvPlayer& pPlayer = GET_PLAYER(iHuman);
+		int iI;
+		for (CvPlotGroup* pGroup = pPlayer.firstPlotGroup(&iI); pGroup != NULL; pGroup = pPlayer.nextPlotGroup(&iI))
+		{
+			int iTx = pGroup->getLengthPlots();
+			int iTy = pPlayer.getLCT().GetLength(pGroup->begin());
+			int z = 1;
+		}
 	}
 
 	int aiShuffle[MAX_PLAYERS];
@@ -7323,7 +7331,7 @@ void CvGame::createBarbarianCities()
 {
 	CvPlot* pLoopPlot;
 	CvPlot* pBestPlot;
-	long lResult;
+	//long lResult;
 	int iTargetCities;
 	int iValue;
 	int iBestValue;
@@ -7464,7 +7472,7 @@ void CvGame::createBarbarianUnits()
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
 	bool bAnimals;
-	long lResult;
+	//long lResult;
 	int iNeededBarbs;
 	int iDivisor;
 	int iValue;

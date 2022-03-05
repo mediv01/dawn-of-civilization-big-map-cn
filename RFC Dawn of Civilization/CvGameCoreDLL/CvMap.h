@@ -293,14 +293,15 @@ protected:
 	int m_iPrimeMeridian;
 	int m_iEquator;
 
-	bool m_bWrapX;
-	bool m_bWrapY;
-
 	int* m_paiNumBonus;
 	int* m_paiNumBonusOnLand;
 
 	CvPlot* m_pMapPlots;
 
+	bool m_bWrapX;
+	bool m_bWrapY;
+
+protected:
 	FFreeListTrashArray<CvArea> m_areas;
 
 	void calculateAreas();

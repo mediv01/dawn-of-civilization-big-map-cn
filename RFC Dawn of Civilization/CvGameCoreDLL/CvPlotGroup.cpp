@@ -98,7 +98,7 @@ inline XYCoords itorToCoords(set<XYCoords>::iterator itor)
 
 inline CvPlot* coordsToPlot(XYCoords xy)
 {
-	return GC.getMapINLINE().plotSorenINLINE(xy.iX, xy.iY);
+	return GC.getMapINLINE().plotINLINE(xy.iX, xy.iY);
 }
 
 inline CvPlot* itorToPlot(set<XYCoords>::iterator itor)
@@ -110,6 +110,15 @@ void CvPlotGroup::addPlot(CvPlot* pPlot)
 {
 	insert(plotToCoords(pPlot));
 
+	if (pPlot->isCity())
+	{
+		CvCity* pCity = pPlot->getPlotCity();
+		if (pCity->getOwnerINLINE() == getOwnerINLINE())
+		{
+			m_sCities.insert(pCity);
+		}
+	}
+
 	pPlot->setPlotGroup(getOwnerINLINE(), this);
 }
 
@@ -117,6 +126,16 @@ void CvPlotGroup::addPlot(CvPlot* pPlot)
 void CvPlotGroup::removePlot(CvPlot* pPlot)
 {
 	pPlot->setPlotGroup(getOwnerINLINE(), NULL);
+
+	if (pPlot->isCity())
+	{
+		CvCity* pCity = pPlot->getPlotCity();
+		if (pCity->getOwnerINLINE() == getOwnerINLINE())
+		{
+			m_sCities.erase(pCity);
+		}
+	}
+
 	erase(pPlot);
 }
 
@@ -154,6 +173,11 @@ void CvPlotGroup::printPlotGroups() {
 	}
 	buf << "\n";
 	gDLL->logMsg("sdkDbg.log", buf.str().c_str());
+}
+
+int CvPlotGroup::getNumCities() const
+{
+	return m_sCities.size();
 }
 
 void CvPlotGroup::combine(CvPlotGroup* plotgroup) 

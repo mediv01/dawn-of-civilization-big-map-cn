@@ -6894,8 +6894,11 @@ void CvTeam::read(FDataStreamBase* pStream)
 	if (uiFlag >= 1) pStream->Read(&m_iSatelliteInterceptCount); // Leoreth
 	if (uiFlag >= 1) pStream->Read(&m_iSatelliteAttackCount); // Leoreth
 
-	pStream->Read(&m_bMapCentering);
-	pStream->Read(&m_bCapitulated);
+	bool bTemp; // wunshare
+	pStream->Read(&bTemp);
+	m_bMapCentering = bTemp;
+	pStream->Read(&bTemp);
+	m_bCapitulated = bTemp;
 
 	pStream->Read((int*)&m_eID);
 

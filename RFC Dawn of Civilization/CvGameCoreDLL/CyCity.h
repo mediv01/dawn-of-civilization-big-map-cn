@@ -16,6 +16,7 @@ class CvCity;
 class CyPlot;
 class CyArea;
 class CyUnit;
+class CyPlotGroup;
 class CyCity
 {
 public:
@@ -232,6 +233,9 @@ public:
 	void changeEspionageHealthCounter(int iChange);
 	int getEspionageHappinessCounter();
 	void changeEspionageHappinessCounter(int iChange);
+
+	// wunshare
+	CyPlotGroup* plotGroup(int /*PlayerTypes*/ ePlayer);
 
 	int getFreshWaterGoodHealth();
 	int getFreshWaterBadHealth();
