@@ -1,148 +1,148 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORWAY_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORWAY_ADJECTIVE</Tag>
 		<English>Norwegian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å²Íþ</Chinese>
+		<Chinese>æŒªå¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_DENMARK_NORWAY</Tag>
 		<English>Denmark-Norway</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¤Âó-Å²Íþ</Chinese>
+		<Chinese>ä¸¹éº¦-æŒªå¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_PEOPLES</Tag>
 		<English>Norse Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å²ÍþÈË</Chinese>
+		<Chinese>æŒªå¨äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_ALTHINGS</Tag>
 		<English>%s2 Althings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2Ï½Çø</Chinese>
+		<Chinese>%s2è¾–åŒº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_DENMARK_ADJECTIVE</Tag>
 		<English>Danish</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¤Âó</Chinese>
+		<Chinese>ä¸¹éº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_NORSE_KINGDOMS</Tag>
 		<English>Norse Kingdoms</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å²ÍþÍõ¹ú</Chinese>
+		<Chinese>æŒªå¨çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_SHORT_DESC</Tag>
 		<English>Vikings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î¬¾©</Chinese>
+		<Chinese>ç»´äº¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORWAY_SHORT_DESC</Tag>
 		<English>Norway</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å²Íþ</Chinese>
+		<Chinese>æŒªå¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_DENMARK_SHORT_DESC</Tag>
 		<English>Denmark</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¤Âó</Chinese>
+		<Chinese>ä¸¹éº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_ENGLAND</Tag>
 		<English>Danelaw</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¢¸ñÀ¼</Chinese>
+		<Chinese>è‹±æ ¼å…°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_RUSSIA</Tag>
 		<English>Varangian Principalities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞË¹</Chinese>
+		<Chinese>ç½—æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_DENMARK</Tag>
 		<English>Denmark</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¤Âó</Chinese>
+		<Chinese>ä¸¹éº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_SCANDINAVIA</Tag>
 		<English>Scandinavia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿°µÄÄÉÎ¬ÑÇ</Chinese>
+		<Chinese>æ–¯å ªçš„çº³ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_SCANDINAVIAN</Tag>
 		<English>Scandinavian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿°µÄÄÉÎ¬ÑÇ</Chinese>
+		<Chinese>æ–¯å ªçš„çº³ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_KALMAR_UNION</Tag>
 		<English>Kalmar Union</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¨¶ûÂíÍ¬ÃË</Chinese>
+		<Chinese>å¡å°”é©¬åŒç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_COMMUNIST</Tag>
 		<English>Democratic Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÃñÖ÷¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1æ°‘ä¸»å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_NORTH_SEA_EMPIRE</Tag>
 		<English>North Sea Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±º£µÛ¹ú</Chinese>
+		<Chinese>åŒ—æµ·å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_ADJECTIVE</Tag>
 		<English>Viking</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î¬¾©</Chinese>
+		<Chinese>ç»´äº¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_DENMARK_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_NORWAY</Tag>
 		<English>Norway</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å²Íþ</Chinese>
+		<Chinese>æŒªå¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_FASCIST</Tag>
 		<English>National Gathering of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1µÛ¹ú</Chinese>
+		<Chinese>%s1å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_DESC</Tag>
 		<English>The Vikings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î¬¾©ÎÄÃ÷</Chinese>
+		<Chinese>ç»´äº¬æ–‡æ˜Ž</Chinese>
 	</TEXT>
 </Civ4GameText>

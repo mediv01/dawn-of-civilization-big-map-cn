@@ -1,316 +1,316 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_MILLET</Tag>
 		<English>Millet</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËÚ×Ó</Chinese>
+		<Chinese>ç²Ÿå­</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_RUBBER_PEDIA</Tag>
-		<English>[TAB]In its native Central America and South America, rubber has been collected for a long time. The Mesoamerican civilizations used rubber mostly from Castilla elastica. The Ancient Mesoamericans had a ball game using rubber balls, and a few Pre-Columbian rubber balls have been found (always in sites that were flooded under fresh water), the earliest dating to about 1600 BC. According to Bernal DÃ­az del Castillo, the Spanish Conquistadores were so astounded by the vigorous bouncing of the rubber balls of the Aztecs that they wondered if the balls were enchanted by evil spirits. The Maya also made a type of temporary rubber shoe by dipping their feet into a latex mixture. Rubber was used in various other contexts, such as strips to hold stone and metal tools to wooden handles, and padding for the tool handles. While the ancient Mesoamericans did not have vulcanization, they developed organic methods of processing the rubber with similar results, mixing the raw latex with various saps and juices of other vines, particularly Ipomoea alba, a species of Morning glory. In Brazil, the natives understood the use of rubber to make water-resistant cloth. A story says that the first European to return to Portugal from Brazil with samples of such water-repellent rubberised cloth so shocked people that he was brought to court on the charge of witchcraft.[PARAGRAPH:1]When samples of rubber first arrived in England, it was observed by Joseph Priestley, in 1770, that a piece of the material was extremely good for rubbing out pencil marks on paper.[PARAGRAPH:1]The para rubber tree initially grew in South America, where it was the main source of what limited amount of latex rubber was consumed during much of the 19th century. About 100 years ago, the Congo Free State in Africa was a significant source of natural rubber latex, mostly gathered by forced labor. The Congo Free State was forged and ruled as a personal colony by the Belgian King Leopold II where millions of Africans died as a result of lust for rubber and rubber profits. After repeated efforts rubber was successfully cultivated in Southeast Asia, where it is now widely grown.</English>
+		<English>[TAB]In its native Central America and South America, rubber has been collected for a long time. The Mesoamerican civilizations used rubber mostly from Castilla elastica. The Ancient Mesoamericans had a ball game using rubber balls, and a few Pre-Columbian rubber balls have been found (always in sites that were flooded under fresh water), the earliest dating to about 1600 BC. According to Bernal Dé“†az del Castillo, the Spanish Conquistadores were so astounded by the vigorous bouncing of the rubber balls of the Aztecs that they wondered if the balls were enchanted by evil spirits. The Maya also made a type of temporary rubber shoe by dipping their feet into a latex mixture. Rubber was used in various other contexts, such as strips to hold stone and metal tools to wooden handles, and padding for the tool handles. While the ancient Mesoamericans did not have vulcanization, they developed organic methods of processing the rubber with similar results, mixing the raw latex with various saps and juices of other vines, particularly Ipomoea alba, a species of Morning glory. In Brazil, the natives understood the use of rubber to make water-resistant cloth. A story says that the first European to return to Portugal from Brazil with samples of such water-repellent rubberised cloth so shocked people that he was brought to court on the charge of witchcraft.[PARAGRAPH:1]When samples of rubber first arrived in England, it was observed by Joseph Priestley, in 1770, that a piece of the material was extremely good for rubbing out pencil marks on paper.[PARAGRAPH:1]The para rubber tree initially grew in South America, where it was the main source of what limited amount of latex rubber was consumed during much of the 19th century. About 100 years ago, the Congo Free State in Africa was a significant source of natural rubber latex, mostly gathered by forced labor. The Congo Free State was forged and ruled as a personal colony by the Belgian King Leopold II where millions of Africans died as a result of lust for rubber and rubber profits. After repeated efforts rubber was successfully cultivated in Southeast Asia, where it is now widely grown.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ÔÚÆäÔ­²úµÄÖĞÃÀÖŞºÍÄÏÃÀÖŞ£¬Ïğ½ºÒÑ¾­±»ÊÕ¼¯ÁËºÜ³¤Ê±¼ä¡£ÖĞÃÀÖŞÎÄÃ÷Ê¹ÓÃµÄÏğ½ºÖ÷ÒªÀ´×Ô¿¨Ë¹µÙÀûÑÇµ¯ĞÔÌå¡£¹Å´úµÄÖĞÃÀÖŞÈËÓĞÒ»ÖÖÊ¹ÓÃÏğÆ¤ÇòµÄÇòÀàÓÎÏ·£¬²¢ÇÒ·¢ÏÖÁËÒ»Ğ©Ç°¸çÂ×²¼Ê±´úµÄÏğ½ºÇò£¨×ÜÊÇÔÚ±»µ­Ë®ÑÍÃ»µÄµØ·½£©£¬×îÔçµÄ¿ÉÒÔ×·Ëİµ½¹«ÔªÇ°1600Äê¡£¸ù¾İ±´¶ûÄÉµÂ¶û¿¨Ë¹µÙÂÔµÄËµ·¨£¬Î÷°àÑÀÕ÷·şÕß¶Ô°¢×ÈÌ¨¿ËÈËµÄÏğÆ¤ÇòµÄ¾çÁÒµ¯Ìø¸Ğµ½·Ç³£Õğ¾ª£¬ÒÔÖÁÓÚËûÃÇ»³ÒÉÕâĞ©ÇòÊÇ·ñ±»¶ñÄ§¸½Éí¡£ÂêÑÅÈË»¹½«½Å½şÈëÈé½º»ìºÏÎïÖĞ£¬ÖÆ³ÉÁËÒ»ÖÖÁÙÊ±½ºĞ¬¡£Ïğ½ºÒ²±»ÓÃÓÚÆäËû¸÷ÖÖ³¡ºÏ£¬±ÈÈç°ÑÊ¯Í·ºÍ½ğÊô¹¤¾ß¹Ì¶¨ÔÚÄ¾°ÑÊÖÉÏµÄÌõ´ø£¬ÒÔ¼°¹¤¾ßÊÖ±úµÄ³Äµæ¡£ËäÈ»¹Å´úÖĞÃÀÖŞÈËÃ»ÓĞÁò»¯£¬µ«ËûÃÇ·¢Õ¹³öÓĞ»ú·½·¨¼Ó¹¤Ïğ½º£¬½á¹ûÏàËÆ£¬½«Éú½ºÈéÓëÆäËûÌÙ±¾Ö²ÎïµÄ¸÷ÖÖÖ­ÒººÍÖ­Òº»ìºÏ£¬ÌØ±ğÊÇÇ£Å£»¨µÄÒ»ÖÖ¡£ÔÚ°ÍÎ÷£¬µ±µØÈË¶®µÃÓÃÏğ½ºÖÆ×÷·ÀË®²¼¡£ÓĞ¸ö¹ÊÊÂËµ£¬µÚÒ»¸ö´Ó°ÍÎ÷´ø×ÅÕâÖÖ·ÀË®Ïğ½º²¼ÑùÆ··µ»ØÆÏÌÑÑÀµÄÅ·ÖŞÈËÕğ¾ªÁËÈËÃÇ£¬Ëû±»ÒÔÎ×Êõ×ïÃû¸æÉÏ·¨Í¥[¶ÎÂä£º1]1770Äê£¬Ô¼Éª·ò¡¤ÆÕÀïË¹ÌØÀû£¨Joseph Priestley£©Ê×´Î·¢ÏÖÏğ½ºÑùÆ·Ê±£¬Ò»¿é²ÄÁÏ·Ç³£ÊÊºÏÔÚÖ½ÉÏ²ÁÈ¥Ç¦±ÊµÄºÛ¼£[¶ÎÂä£º1]×¼Ïğ½ºÊ÷×î³õÉú³¤ÔÚÄÏÃÀÖŞ£¬ÔÚ19ÊÀ¼ÍµÄ´ó²¿·ÖÊ±¼äÀï£¬ËüÊÇÏûºÄÓĞÏŞÁ¿Èé½ºµÄÖ÷ÒªÀ´Ô´¡£´óÔ¼100ÄêÇ°£¬·ÇÖŞµÄ¸Õ¹û×ÔÓÉ°îÊÇÌìÈ»½ºÈéµÄÖØÒªÀ´Ô´£¬´ó²¿·ÖÊÇÍ¨¹ıÇ¿ÆÈÀÍ¶¯ÊÕ¼¯µÄ¡£¸Õ¹û×ÔÓÉ¹ú¼ÒÊÇÓÉ±ÈÀûÊ±¹úÍõÀû°Â²¨µÂ¶şÊÀ£¨Leopold II£©´òÔìºÍÍ³ÖÎµÄ¸öÈËÖ³ÃñµØ£¬ÄÇÀïÊı°ÙÍò·ÇÖŞÈËËÀÓÚ¶ÔÏğ½ººÍÏğ½ºÀûÈóµÄÌ°Óû¡£¾­¹ı·´¸´µÄÅ¬Á¦£¬Ïğ½ºÔÚ¶«ÄÏÑÇµØÇøµÃµ½ÁË³É¹¦µÄÖÖÖ²£¬ÏÖÔÚÔÚÄÇÀï¹ã·ºÖÖÖ²¡£</Chinese>
+		<Chinese>[TAB]åœ¨å…¶åŸäº§çš„ä¸­ç¾æ´²å’Œå—ç¾æ´²ï¼Œæ©¡èƒ¶å·²ç»è¢«æ”¶é›†äº†å¾ˆé•¿æ—¶é—´ã€‚ä¸­ç¾æ´²æ–‡æ˜ä½¿ç”¨çš„æ©¡èƒ¶ä¸»è¦æ¥è‡ªå¡æ–¯è’‚åˆ©äºšå¼¹æ€§ä½“ã€‚å¤ä»£çš„ä¸­ç¾æ´²äººæœ‰ä¸€ç§ä½¿ç”¨æ©¡çš®çƒçš„çƒç±»æ¸¸æˆï¼Œå¹¶ä¸”å‘ç°äº†ä¸€äº›å‰å“¥ä¼¦å¸ƒæ—¶ä»£çš„æ©¡èƒ¶çƒï¼ˆæ€»æ˜¯åœ¨è¢«æ·¡æ°´æ·¹æ²¡çš„åœ°æ–¹ï¼‰ï¼Œæœ€æ—©çš„å¯ä»¥è¿½æº¯åˆ°å…¬å…ƒå‰1600å¹´ã€‚æ ¹æ®è´å°”çº³å¾·å°”å¡æ–¯è’‚ç•¥çš„è¯´æ³•ï¼Œè¥¿ç­ç‰™å¾æœè€…å¯¹é˜¿å…¹å°å…‹äººçš„æ©¡çš®çƒçš„å‰§çƒˆå¼¹è·³æ„Ÿåˆ°éå¸¸éœ‡æƒŠï¼Œä»¥è‡³äºä»–ä»¬æ€€ç–‘è¿™äº›çƒæ˜¯å¦è¢«æ¶é­”é™„èº«ã€‚ç›é›…äººè¿˜å°†è„šæµ¸å…¥ä¹³èƒ¶æ··åˆç‰©ä¸­ï¼Œåˆ¶æˆäº†ä¸€ç§ä¸´æ—¶èƒ¶é‹ã€‚æ©¡èƒ¶ä¹Ÿè¢«ç”¨äºå…¶ä»–å„ç§åœºåˆï¼Œæ¯”å¦‚æŠŠçŸ³å¤´å’Œé‡‘å±å·¥å…·å›ºå®šåœ¨æœ¨æŠŠæ‰‹ä¸Šçš„æ¡å¸¦ï¼Œä»¥åŠå·¥å…·æ‰‹æŸ„çš„è¡¬å«ã€‚è™½ç„¶å¤ä»£ä¸­ç¾æ´²äººæ²¡æœ‰ç¡«åŒ–ï¼Œä½†ä»–ä»¬å‘å±•å‡ºæœ‰æœºæ–¹æ³•åŠ å·¥æ©¡èƒ¶ï¼Œç»“æœç›¸ä¼¼ï¼Œå°†ç”Ÿèƒ¶ä¹³ä¸å…¶ä»–è—¤æœ¬æ¤ç‰©çš„å„ç§æ±æ¶²å’Œæ±æ¶²æ··åˆï¼Œç‰¹åˆ«æ˜¯ç‰µç‰›èŠ±çš„ä¸€ç§ã€‚åœ¨å·´è¥¿ï¼Œå½“åœ°äººæ‡‚å¾—ç”¨æ©¡èƒ¶åˆ¶ä½œé˜²æ°´å¸ƒã€‚æœ‰ä¸ªæ•…äº‹è¯´ï¼Œç¬¬ä¸€ä¸ªä»å·´è¥¿å¸¦ç€è¿™ç§é˜²æ°´æ©¡èƒ¶å¸ƒæ ·å“è¿”å›è‘¡è„ç‰™çš„æ¬§æ´²äººéœ‡æƒŠäº†äººä»¬ï¼Œä»–è¢«ä»¥å·«æœ¯ç½ªåå‘Šä¸Šæ³•åº­[æ®µè½ï¼š1]1770å¹´ï¼Œçº¦ç‘Ÿå¤«Â·æ™®é‡Œæ–¯ç‰¹åˆ©ï¼ˆJoseph Priestleyï¼‰é¦–æ¬¡å‘ç°æ©¡èƒ¶æ ·å“æ—¶ï¼Œä¸€å—ææ–™éå¸¸é€‚åˆåœ¨çº¸ä¸Šæ“¦å»é“…ç¬”çš„ç—•è¿¹[æ®µè½ï¼š1]å‡†æ©¡èƒ¶æ ‘æœ€åˆç”Ÿé•¿åœ¨å—ç¾æ´²ï¼Œåœ¨19ä¸–çºªçš„å¤§éƒ¨åˆ†æ—¶é—´é‡Œï¼Œå®ƒæ˜¯æ¶ˆè€—æœ‰é™é‡ä¹³èƒ¶çš„ä¸»è¦æ¥æºã€‚å¤§çº¦100å¹´å‰ï¼Œéæ´²çš„åˆšæœè‡ªç”±é‚¦æ˜¯å¤©ç„¶èƒ¶ä¹³çš„é‡è¦æ¥æºï¼Œå¤§éƒ¨åˆ†æ˜¯é€šè¿‡å¼ºè¿«åŠ³åŠ¨æ”¶é›†çš„ã€‚åˆšæœè‡ªç”±å›½å®¶æ˜¯ç”±æ¯”åˆ©æ—¶å›½ç‹åˆ©å¥¥æ³¢å¾·äºŒä¸–ï¼ˆLeopold IIï¼‰æ‰“é€ å’Œç»Ÿæ²»çš„ä¸ªäººæ®–æ°‘åœ°ï¼Œé‚£é‡Œæ•°ç™¾ä¸‡éæ´²äººæ­»äºå¯¹æ©¡èƒ¶å’Œæ©¡èƒ¶åˆ©æ¶¦çš„è´ªæ¬²ã€‚ç»è¿‡åå¤çš„åŠªåŠ›ï¼Œæ©¡èƒ¶åœ¨ä¸œå—äºšåœ°åŒºå¾—åˆ°äº†æˆåŠŸçš„ç§æ¤ï¼Œç°åœ¨åœ¨é‚£é‡Œå¹¿æ³›ç§æ¤ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_JADE</Tag>
 		<English>Jade</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ôä´ä</Chinese>
+		<Chinese>ç¿¡ç¿ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_COTTON</Tag>
 		<English>Cotton</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃŞ»¨</Chinese>
+		<Chinese>æ£‰èŠ±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_MILLET_PEDIA</Tag>
 		<English>[TAB]The cultivation of common millet as the earliest dry crop in East Asia has been attributed to its resistance to drought, and this has been suggested to have aided its spread. Asian varieties of millet made their way from China to the Black Sea region of Europe by 5000 BCE.[PARAGRAPH:2]Millet was growing wild in Greece as early as 3000 BCE, and bulk storage containers for millet have been found from the Late Bronze Age in Macedonia and northern Greece. Hesiod describes that "the beards grow round the millet, which men sow in summer."[25][26] And millet is listed along with wheat in the third century BCE by Theophrastus in his "Enquiry into Plants".[PARAGRAPH:2]Pearl millet is one of the two major crops in the semiarid, impoverished, less fertile agriculture regions of Africa and southeast Asia.[28] Millets are not only adapted to poor, droughty, and infertile soils, but they are also more reliable under these conditions than most other grain crops. This has, in part, made millet production popular, particularly in countries surrounding the Sahara in western Africa.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×÷Îª¶«ÑÇ×îÔçµÄºµ×÷×÷Îï£¬ÆÕÍ¨¹È×ÓµÄÖÖÖ²±»ÈÏÎªÊÇÆä¿¹ºµĞÔµÄÔ­Òò£¬ÕâÓĞÖúÓÚÆäÍÆ¹ã¡£ÑÇÖŞµÄ¹È×ÓÆ·ÖÖÔÚ¹«ÔªÇ°5000Äê´ÓÖĞ¹ú´«ÈëÅ·ÖŞµÄºÚº£µØÇø[¶ÎÂä£º2]ÔçÔÚ¹«ÔªÇ°3000Äê£¬¹È×Ó¾ÍÔÚÏ£À°Ò°ÉúÉú³¤£¬ÔÚÂíÆä¶ÙºÍÏ£À°±±²¿·¢ÏÖÁË´óÁ¿´¢´æĞ¡Ã×µÄÈİÆ÷£¬ÕâĞ©ÈİÆ÷ÊÇÇàÍ­Ê±´úÍíÆÚµÄ¡£ºÕÎ÷°ÂµÂÃèÊöµÀ£º¡°ºúĞë³¤ÔÚ¹È×ÓÖÜÎ§£¬ÈËÃÇÔÚÏÄÌì²¥ÖÖ¡£¡±[25][26]¶øÔÚ¹«ÔªÇ°ÈıÊÀ¼Í£¬Ğ¡Ã×ºÍĞ¡ÂóÒ»Æğ±»Ìá°Â¸¥À­Ë¹ÍĞË¹£¨Theophrastus£©ÔÚËûµÄ¡¶Ö²ÎïÌ½¾¿¡·ÖĞÁĞ³ö[¶ÎÂä£º2]ÕäÖéËÚÊÇ°ë¸Éºµ¡¢Æ¶À§µØÇøµÄÁ½´óÅ©×÷ÎïÖ®Ò»£¬·ÇÖŞºÍ¶«ÄÏÑÇ½ÏÆ¶ñ¤µÄÅ©ÒµÇø¡£[28]¹È×Ó²»½öÊÊÓ¦Æ¶ñ¤¡¢¸ÉºµºÍÆ¶ñ¤µÄÍÁÈÀ£¬¶øÇÒÔÚÕâĞ©Ìõ¼şÏÂ±ÈÆäËû´ó¶àÊıÁ¸Ê³×÷Îï¸ü¿É¿¿¡£ÕâÔÚÒ»¶¨³Ì¶ÈÉÏÊ¹Ğ¡Ã×Éú²úÊÜµ½»¶Ó­£¬ÌØ±ğÊÇÔÚÎ÷·ÇÈö¹şÀ­É³Ä®ÖÜ±ß¹ú¼Ò¡£</Chinese>
+		<Chinese>ä½œä¸ºä¸œäºšæœ€æ—©çš„æ—±ä½œä½œç‰©ï¼Œæ™®é€šè°·å­çš„ç§æ¤è¢«è®¤ä¸ºæ˜¯å…¶æŠ—æ—±æ€§çš„åŸå› ï¼Œè¿™æœ‰åŠ©äºå…¶æ¨å¹¿ã€‚äºšæ´²çš„è°·å­å“ç§åœ¨å…¬å…ƒå‰5000å¹´ä»ä¸­å›½ä¼ å…¥æ¬§æ´²çš„é»‘æµ·åœ°åŒº[æ®µè½ï¼š2]æ—©åœ¨å…¬å…ƒå‰3000å¹´ï¼Œè°·å­å°±åœ¨å¸Œè…Šé‡ç”Ÿç”Ÿé•¿ï¼Œåœ¨é©¬å…¶é¡¿å’Œå¸Œè…ŠåŒ—éƒ¨å‘ç°äº†å¤§é‡å‚¨å­˜å°ç±³çš„å®¹å™¨ï¼Œè¿™äº›å®¹å™¨æ˜¯é’é“œæ—¶ä»£æ™šæœŸçš„ã€‚èµ«è¥¿å¥¥å¾·æè¿°é“ï¼šâ€œèƒ¡é¡»é•¿åœ¨è°·å­å‘¨å›´ï¼Œäººä»¬åœ¨å¤å¤©æ’­ç§ã€‚â€[25][26]è€Œåœ¨å…¬å…ƒå‰ä¸‰ä¸–çºªï¼Œå°ç±³å’Œå°éº¦ä¸€èµ·è¢«æå¥¥å¼—æ‹‰æ–¯æ‰˜æ–¯ï¼ˆTheophrastusï¼‰åœ¨ä»–çš„ã€Šæ¤ç‰©æ¢ç©¶ã€‹ä¸­åˆ—å‡º[æ®µè½ï¼š2]çç ç²Ÿæ˜¯åŠå¹²æ—±ã€è´«å›°åœ°åŒºçš„ä¸¤å¤§å†œä½œç‰©ä¹‹ä¸€ï¼Œéæ´²å’Œä¸œå—äºšè¾ƒè´«ç˜ çš„å†œä¸šåŒºã€‚[28]è°·å­ä¸ä»…é€‚åº”è´«ç˜ ã€å¹²æ—±å’Œè´«ç˜ çš„åœŸå£¤ï¼Œè€Œä¸”åœ¨è¿™äº›æ¡ä»¶ä¸‹æ¯”å…¶ä»–å¤§å¤šæ•°ç²®é£Ÿä½œç‰©æ›´å¯é ã€‚è¿™åœ¨ä¸€å®šç¨‹åº¦ä¸Šä½¿å°ç±³ç”Ÿäº§å—åˆ°æ¬¢è¿ï¼Œç‰¹åˆ«æ˜¯åœ¨è¥¿éæ’’å“ˆæ‹‰æ²™æ¼ å‘¨è¾¹å›½å®¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_HIT_SINGLES</Tag>
 		<English>Hit Singles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÈÃÅµ¥Çú</Chinese>
+		<Chinese>çƒ­é—¨å•æ›²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_RARE_EARTHS_PEDIA</Tag>
 		<English>Needs to be written.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔİÈ±</Chinese>
+		<Chinese>æš‚ç¼º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_RUBBER</Tag>
 		<English>Rubber</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ïğ½º</Chinese>
+		<Chinese>æ©¡èƒ¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_DYE_HENNA</Tag>
 		<English>Dye (Henna)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>È¾ÁÏ£¨É¢Ä­»¨£©</Chinese>
+		<Chinese>æŸ“æ–™ï¼ˆæ•£æ²«èŠ±ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_GEMS_SAPPHIRES</Tag>
 		<English>Gems (Sapphires)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±¦Ê¯£¨À¶±¦Ê¯£©</Chinese>
+		<Chinese>å®çŸ³ï¼ˆè“å®çŸ³ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_AMBER</Tag>
 		<English>Amber</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>çúçê</Chinese>
+		<Chinese>ç¥ç€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_TOBACCO</Tag>
 		<English>Tobacco</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÌ²İ</Chinese>
+		<Chinese>çƒŸè‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_OBSIDIAN</Tag>
 		<English>Obsidian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÚê×Ê¯</Chinese>
+		<Chinese>é»‘æ›œçŸ³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_DATES</Tag>
 		<English>Dates</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò¬Ôæ</Chinese>
+		<Chinese>æ¤°æ£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SPICES_CINNAMON</Tag>
 		<English>Spices (Cinnamon)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏãÁÏ£¨Èâ¹ğ£©</Chinese>
+		<Chinese>é¦™æ–™ï¼ˆè‚‰æ¡‚ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_CITRUS</Tag>
 		<English>Citrus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ÌéÙ</Chinese>
+		<Chinese>æŸ‘æ©˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SWAMP_PEDIA</Tag>
 		<English>Swamp</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÓÔó</Chinese>
+		<Chinese>æ²¼æ³½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SPICES_SAFFRON</Tag>
 		<English>Spices (Saffron)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏãÁÏ£¨²Øºì£©</Chinese>
+		<Chinese>é¦™æ–™ï¼ˆè—çº¢ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_OPIUM</Tag>
 		<English>Opium</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ñ»Æ¬</Chinese>
+		<Chinese>é¸¦ç‰‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_COFFEE</Tag>
 		<English>Coffee</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿§·È</Chinese>
+		<Chinese>å’–å•¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_PEARL</Tag>
 		<English>Pearls</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕäÖé</Chinese>
+		<Chinese>çç </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_HIT_MOVIES</Tag>
 		<English>Hit Movies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÈÃÅµçÓ°</Chinese>
+		<Chinese>çƒ­é—¨ç”µå½±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_DATES_PEDIA</Tag>
 		<English>[TAB]The date palm (Phoenix dactylifera) is a palm in the genus Phoenix, cultivated for its edible sweet fruit. Although its place of origin is unknown because of long cultivation, it probably originated from lands around the Persian Gulf. It is a medium-sized plant, 15 - 25 m tall, growing singly or forming a clump with several stems from a single root system. The leaves are 3 - 5 m long, with spines on the petiole, and pinnate, with about 150 leaflets; the leaflets are 30 cm long and 2 cm wide. The full span of the crown ranges from 6 to 10 m.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔæÒ¬£¨Phoenix dactylifera£©ÊÇ·ïÀæÊôµÄÒ»ÖÖ×Øéµ£¬ÒòÆä¿ÉÊ³ÓÃµÄÌğ¹û¶øÖÖÖ²¡£ËäÈ»ÓÉÓÚ³¤ÆÚµÄÔÔÅà£¬ËüµÄÆğÔ´µØ²»µÃ¶øÖª£¬µ«Ëü¿ÉÄÜÆğÔ´ÓÚ²¨Ë¹ÍåÖÜÎ§µÄÍÁµØ¡£ËüÊÇÒ»ÖÖÖĞµÈ´óĞ¡µÄÖ²Îï£¬15-25Ã×¸ß£¬µ¥ÖêÉú³¤»òĞÎ³ÉÓÉÒ»¸öµ¥Ò»¸ùÏµµÄ¶à¸ö¾¥×é³ÉµÄ´Ô¡£Ò¶³¤3-5Ã×£¬Ò¶±úÉÏÓĞ´Ì£¬Óğ×´£¬Ô¼150¸öĞ¡Ò¶£»Ğ¡Ò¶³¤30ÀåÃ×£¬¿í2ÀåÃ×¡£Ê÷¹ÚµÄÈ«¿ç¶ÈÎª6µ½10Ã×¡£</Chinese>
+		<Chinese>æ£æ¤°ï¼ˆPhoenix dactyliferaï¼‰æ˜¯å‡¤æ¢¨å±çš„ä¸€ç§æ£•æ¦ˆï¼Œå› å…¶å¯é£Ÿç”¨çš„ç”œæœè€Œç§æ¤ã€‚è™½ç„¶ç”±äºé•¿æœŸçš„æ ½åŸ¹ï¼Œå®ƒçš„èµ·æºåœ°ä¸å¾—è€ŒçŸ¥ï¼Œä½†å®ƒå¯èƒ½èµ·æºäºæ³¢æ–¯æ¹¾å‘¨å›´çš„åœŸåœ°ã€‚å®ƒæ˜¯ä¸€ç§ä¸­ç­‰å¤§å°çš„æ¤ç‰©ï¼Œ15-25ç±³é«˜ï¼Œå•æ ªç”Ÿé•¿æˆ–å½¢æˆç”±ä¸€ä¸ªå•ä¸€æ ¹ç³»çš„å¤šä¸ªèŒç»„æˆçš„ä¸›ã€‚å¶é•¿3-5ç±³ï¼Œå¶æŸ„ä¸Šæœ‰åˆºï¼Œç¾½çŠ¶ï¼Œçº¦150ä¸ªå°å¶ï¼›å°å¶é•¿30å˜ç±³ï¼Œå®½2å˜ç±³ã€‚æ ‘å† çš„å…¨è·¨åº¦ä¸º6åˆ°10ç±³ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_GEMS_DIAMONDS</Tag>
 		<English>Gems (Diamonds)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±¦Ê¯£¨×êÊ¯£©</Chinese>
+		<Chinese>å®çŸ³ï¼ˆé’»çŸ³ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SALT_PEDIA</Tag>
 		<English>[TAB]Edible salt is a mineral, one of the few rocks humans eat. Salt is necessary for the survival of all living creatures, including humans. Salt is involved in regulating the water content (fluid balance) of the body. Salt flavor is one of the basic tastes. In the past, salt was difficult to obtain, but had a great importance in food preservation and as a vital food additive. Therefore, it was a highly valued trade item throughout history. Wars were fought over it; states were formed and destroyed because of it. Roman soldiers were partially paid with salt, and this is still evident in the English language as the word salary derives from the Latin word salarium that means payment in salt (Latin sal), as well as the phrase "worth one's salt". It was also of high value to the Hebrews, Greeks and other peoples of antiquity. During the late Roman Empire and throughout the Middle Ages salt was a precious commodity carried along the salt roads into the heartland of the Germanic tribes. Cities, states and dukedoms along the salt roads exacted heavy duties and taxes for the salt passing through their territories. This practice caused wars, it even caused the formation of cities such as the city of Munich in 1158 when the then Duke of Bavaria Henry XII, called The Lion, decided that the bishops of Freising no longer needed their salt revenue.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê³ÓÃÑÎÊÇÒ»ÖÖ¿óÎï£¬ÊÇÈËÀàÊ³ÓÃµÄÉÙÊı¼¸ÖÖÑÒÊ¯Ö®Ò»¡£ÑÎÊÇ°üÀ¨ÈËÀàÔÚÄÚµÄËùÓĞÉúÎïÉú´æËù±ØĞèµÄ¡£ÑÎ²ÎÓëµ÷½ÚÉíÌåµÄº¬Ë®Á¿£¨ÌåÒºÆ½ºâ£©¡£ÑÎÎ¶ÊÇ×î»ù±¾µÄ¿ÚÎ¶Ö®Ò»¡£ÔÚ¹ıÈ¥£¬ÑÎºÜÄÑ»ñµÃ£¬µ«ÔÚÊ³Æ·±£´æºÍ×÷ÎªÒ»ÖÖÖØÒªµÄÊ³Æ·Ìí¼Ó¼ÁÓĞ×ÅÖØÒªµÄÒâÒå¡£Òò´Ë£¬ËüÔÚÀúÊ·ÉÏÊÇÒ»¸öºÜÓĞ¼ÛÖµµÄÃ³Ò×ÏîÄ¿¡£Õ½ÕùÎªÖ®¶øÕ½£¬¹ú¼ÒÒ²Òò´Ë¶øĞÎ³ÉºÍ»ÙÃğ¡£ÂŞÂíÊ¿±øµÄ¹¤×ÊÖĞÓĞÒ»²¿·ÖÊÇÓÃÑÎÖ§¸¶µÄ£¬ÕâÒ»µãÔÚÓ¢ÓïÖĞÈÔÈ»ºÜÃ÷ÏÔ£¬ÒòÎªsalariumÕâ¸ö´ÊÀ´Ô´ÓÚÀ­¶¡Óïsalarium£¬ÒâË¼ÊÇÓÃÑÎÖ§¸¶£¨À­¶¡Óïsal£©£¬ÒÔ¼°¶ÌÓï¡°ÖµÒ»¸öÈËµÄÑÎ¡±¡£Ëü¶ÔÏ£²®À´ÈË¡¢Ï£À°ÈËºÍÆäËû¹Å´úÃñ×åÒ²ÓĞºÜ¸ßµÄ¼ÛÖµ¡£ÔÚÂŞÂíµÛ¹úÍíÆÚºÍÕû¸öÖĞÊÀ¼Í£¬ÑÎÊÇÒ»ÖÖÕä¹óµÄÉÌÆ·£¬ÑØ×ÅÑÎÂ·ÔËµ½ÈÕ¶úÂü²¿ÂäµÄÖĞĞÄµØ´ø¡£ÑÎÂ·ÑØÏßµÄ³ÇÊĞ¡¢ÖİºÍ¹«¹ú¶ÔÍ¨¹ıÆäÁìÍÁµÄÑÎÕ÷ÊÕ³ÁÖØµÄ¹ØË°ºÍË°ÊÕ¡£ÕâÖÖ×ö·¨Òı·¢ÁËÕ½Õù£¬ÉõÖÁµ¼ÖÂÁËÒ»Ğ©³ÇÊĞµÄĞÎ³É£¬±ÈÈç1158Äê£¬µ±Ê±µÄ°Í·¥ÀûÑÇ¹«¾ôºàÀûÊ®¶şÊÀ£¨Duke of Bavaria Henry XII£¬ÓÖ³ÆÊ¨×Ó£©¾ö¶¨¸¥À×ĞÁµÄÖ÷½ÌÃÇ²»ÔÙĞèÒªËûÃÇµÄÊ³ÑÎÊÕÈë¡£</Chinese>
+		<Chinese>é£Ÿç”¨ç›æ˜¯ä¸€ç§çŸ¿ç‰©ï¼Œæ˜¯äººç±»é£Ÿç”¨çš„å°‘æ•°å‡ ç§å²©çŸ³ä¹‹ä¸€ã€‚ç›æ˜¯åŒ…æ‹¬äººç±»åœ¨å†…çš„æ‰€æœ‰ç”Ÿç‰©ç”Ÿå­˜æ‰€å¿…éœ€çš„ã€‚ç›å‚ä¸è°ƒèŠ‚èº«ä½“çš„å«æ°´é‡ï¼ˆä½“æ¶²å¹³è¡¡ï¼‰ã€‚ç›å‘³æ˜¯æœ€åŸºæœ¬çš„å£å‘³ä¹‹ä¸€ã€‚åœ¨è¿‡å»ï¼Œç›å¾ˆéš¾è·å¾—ï¼Œä½†åœ¨é£Ÿå“ä¿å­˜å’Œä½œä¸ºä¸€ç§é‡è¦çš„é£Ÿå“æ·»åŠ å‰‚æœ‰ç€é‡è¦çš„æ„ä¹‰ã€‚å› æ­¤ï¼Œå®ƒåœ¨å†å²ä¸Šæ˜¯ä¸€ä¸ªå¾ˆæœ‰ä»·å€¼çš„è´¸æ˜“é¡¹ç›®ã€‚æˆ˜äº‰ä¸ºä¹‹è€Œæˆ˜ï¼Œå›½å®¶ä¹Ÿå› æ­¤è€Œå½¢æˆå’Œæ¯ç­ã€‚ç½—é©¬å£«å…µçš„å·¥èµ„ä¸­æœ‰ä¸€éƒ¨åˆ†æ˜¯ç”¨ç›æ”¯ä»˜çš„ï¼Œè¿™ä¸€ç‚¹åœ¨è‹±è¯­ä¸­ä»ç„¶å¾ˆæ˜æ˜¾ï¼Œå› ä¸ºsalariumè¿™ä¸ªè¯æ¥æºäºæ‹‰ä¸è¯­salariumï¼Œæ„æ€æ˜¯ç”¨ç›æ”¯ä»˜ï¼ˆæ‹‰ä¸è¯­salï¼‰ï¼Œä»¥åŠçŸ­è¯­â€œå€¼ä¸€ä¸ªäººçš„ç›â€ã€‚å®ƒå¯¹å¸Œä¼¯æ¥äººã€å¸Œè…Šäººå’Œå…¶ä»–å¤ä»£æ°‘æ—ä¹Ÿæœ‰å¾ˆé«˜çš„ä»·å€¼ã€‚åœ¨ç½—é©¬å¸å›½æ™šæœŸå’Œæ•´ä¸ªä¸­ä¸–çºªï¼Œç›æ˜¯ä¸€ç§çè´µçš„å•†å“ï¼Œæ²¿ç€ç›è·¯è¿åˆ°æ—¥è€³æ›¼éƒ¨è½çš„ä¸­å¿ƒåœ°å¸¦ã€‚ç›è·¯æ²¿çº¿çš„åŸå¸‚ã€å·å’Œå…¬å›½å¯¹é€šè¿‡å…¶é¢†åœŸçš„ç›å¾æ”¶æ²‰é‡çš„å…³ç¨å’Œç¨æ”¶ã€‚è¿™ç§åšæ³•å¼•å‘äº†æˆ˜äº‰ï¼Œç”šè‡³å¯¼è‡´äº†ä¸€äº›åŸå¸‚çš„å½¢æˆï¼Œæ¯”å¦‚1158å¹´ï¼Œå½“æ—¶çš„å·´ä¼åˆ©äºšå…¬çˆµäº¨åˆ©åäºŒä¸–ï¼ˆDuke of Bavaria Henry XIIï¼Œåˆç§°ç‹®å­ï¼‰å†³å®šå¼—é›·è¾›çš„ä¸»æ•™ä»¬ä¸å†éœ€è¦ä»–ä»¬çš„é£Ÿç›æ”¶å…¥ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_OBSIDIAN_PEDIA</Tag>
-		<English>[TAB]Obsidian is a naturally occurring glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity and polymerisation degree of the lava. The inhibition of atomic diffusion through this highly viscous and polymerized lava explains the lack of crystal growth. Because of the lack of crystal structure, obsidian blade edges can reach almost molecular thinness, leading to its ancient use as projectile points, and its modern use as surgical scalpel blades.[PARAGRAPH:2]Obsidian is mineral-like, but not a true mineral because as a glass it is not crystalline; in addition, its composition is too complex to comprise a single mineral. It is sometimes classified as a mineraloid. Though obsidian is dark in color similar to mafic rocks such as basalt, obsidian's composition is extremely felsic. [PARAGRAPH:2]Pure obsidian is usually dark in appearance, though the color varies depending on the presence of impurities. Iron and magnesium typically give the obsidian a dark green to brown to black color. A very few samples are nearly colorless. In some stones, the inclusion of small, white, radially clustered crystals of cristobalite in the black glass produce a blotchy or snowflake pattern (snowflake obsidian). It may contain patterns of gas bubbles remaining from the lava flow, aligned along layers created as the molten rock was flowing before being cooled. These bubbles can produce interesting effects such as a golden sheen (sheen obsidian) or a rainbow sheen (rainbow obsidian). [PARAGRAPH:2]Obsidian was valued in Stone Age cultures because, like flint, it could be fractured to produce sharp blades or arrowheads. Like all glass and some other types of naturally occurring rocks, obsidian breaks with a characteristic conchoidal fracture. It was also polished to create early mirrors. Pre-Columbian Mesoamericans' use of obsidian was extensive and sophisticated, including carved and worked obsidian for tools and decorative objects. Mesoamericans also made a type of sword with obsidian blades mounted in a wooden body. Called a macuahuitl, the weapon was capable of inflicting terrible injuries, combining the sharp cutting edge of an obsidian blade with the ragged cut of a serrated weapon. Lithic analysis can be instrumental in understanding prehispanic groups in Mesoamerica. A careful analysis of obsidian in a culture or place can be of use to reconstruct commerce, production, distribution and thereby understand economic, social and political aspects of a civilization. This is the case in YaxchilÃ¡n, a maya city where even warfare implications have been studied linked with obsidian use and its debris. [PARAGRAPH:2]Obsidian is used in cardiac surgery, as well-crafted obsidian blades have a cutting edge many times sharper than high-quality steel surgical scalpels, with the edge of the blade being only about 3 nanometres wide. Even the sharpest metal knife has a jagged, irregular blade when viewed under a strong enough microscope. When examined under an electron microscope an obsidian blade is still smooth and even. One study found that obsidian produced narrower scars, fewer inflammatory cells, and less granulation tissue in a group of rats. [PARAGRAPH:2]Obsidian is also used for ornamental purposes and as a gemstone. It possesses the property of presenting a different appearance according to the manner in which it is cut. When cut in one direction it is a beautiful jet black; when cut across another direction it is glistening gray. "Apache tears" are small rounded obsidian nuggets embedded within a grayish-white perlite matrix.</English>
+		<English>[TAB]Obsidian is a naturally occurring glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity and polymerisation degree of the lava. The inhibition of atomic diffusion through this highly viscous and polymerized lava explains the lack of crystal growth. Because of the lack of crystal structure, obsidian blade edges can reach almost molecular thinness, leading to its ancient use as projectile points, and its modern use as surgical scalpel blades.[PARAGRAPH:2]Obsidian is mineral-like, but not a true mineral because as a glass it is not crystalline; in addition, its composition is too complex to comprise a single mineral. It is sometimes classified as a mineraloid. Though obsidian is dark in color similar to mafic rocks such as basalt, obsidian's composition is extremely felsic. [PARAGRAPH:2]Pure obsidian is usually dark in appearance, though the color varies depending on the presence of impurities. Iron and magnesium typically give the obsidian a dark green to brown to black color. A very few samples are nearly colorless. In some stones, the inclusion of small, white, radially clustered crystals of cristobalite in the black glass produce a blotchy or snowflake pattern (snowflake obsidian). It may contain patterns of gas bubbles remaining from the lava flow, aligned along layers created as the molten rock was flowing before being cooled. These bubbles can produce interesting effects such as a golden sheen (sheen obsidian) or a rainbow sheen (rainbow obsidian). [PARAGRAPH:2]Obsidian was valued in Stone Age cultures because, like flint, it could be fractured to produce sharp blades or arrowheads. Like all glass and some other types of naturally occurring rocks, obsidian breaks with a characteristic conchoidal fracture. It was also polished to create early mirrors. Pre-Columbian Mesoamericans' use of obsidian was extensive and sophisticated, including carved and worked obsidian for tools and decorative objects. Mesoamericans also made a type of sword with obsidian blades mounted in a wooden body. Called a macuahuitl, the weapon was capable of inflicting terrible injuries, combining the sharp cutting edge of an obsidian blade with the ragged cut of a serrated weapon. Lithic analysis can be instrumental in understanding prehispanic groups in Mesoamerica. A careful analysis of obsidian in a culture or place can be of use to reconstruct commerce, production, distribution and thereby understand economic, social and political aspects of a civilization. This is the case in Yaxchilè°©n, a maya city where even warfare implications have been studied linked with obsidian use and its debris. [PARAGRAPH:2]Obsidian is used in cardiac surgery, as well-crafted obsidian blades have a cutting edge many times sharper than high-quality steel surgical scalpels, with the edge of the blade being only about 3 nanometres wide. Even the sharpest metal knife has a jagged, irregular blade when viewed under a strong enough microscope. When examined under an electron microscope an obsidian blade is still smooth and even. One study found that obsidian produced narrower scars, fewer inflammatory cells, and less granulation tissue in a group of rats. [PARAGRAPH:2]Obsidian is also used for ornamental purposes and as a gemstone. It possesses the property of presenting a different appearance according to the manner in which it is cut. When cut in one direction it is a beautiful jet black; when cut across another direction it is glistening gray. "Apache tears" are small rounded obsidian nuggets embedded within a grayish-white perlite matrix.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÚê×Ê¯ÊÇÒ»ÖÖ×ÔÈ»ĞÎ³ÉµÄ²£Á§£¬ĞÎ³ÉÓÚÅç³öµÄ»ğ³ÉÑÒÖĞ¡£ËüÊÇÓÉ»ğÉ½Åç³öµÄ³¤Ó¢ÖÊÈÛÑÒÀäÈ´¶øÃ»ÓĞ¾§ÌåÉú³¤Ê±²úÉúµÄ¡£ºÚê×ÑÒÍ¨³£´æÔÚÓÚÁ÷ÎÆÑÒÈÛÑÒÁ÷µÄ±ßÔµ£¬¼´ºÚê×ÑÒÁ÷£¬Æä»¯Ñ§³É·Ö£¨¸ß¹èº¬Á¿£©µ¼ÖÂÈÛÑÒ¾ßÓĞ¸ßÕ³¶ÈºÍ¸ß¾ÛºÏ¶È¡£Í¨¹ıÕâÖÖ¸ßÕ³ĞÔºÍ¾ÛºÏÈÛÑÒÔ­×ÓÀ©É¢µÄÒÖÖÆ½âÊÍÁË¾§ÌåÉú³¤µÄÈ±·¦¡£ÓÉÓÚÈ±·¦¾§Ìå½á¹¹£¬ºÚê×Ê¯µ¶Æ¬µÄ±ßÔµ¼¸ºõ¿ÉÒÔ´ïµ½·Ö×ÓµÄºñ¶È£¬Õâ¾Íµ¼ÖÂÁËËüÔÚ¹Å´ú±»ÓÃ×÷·¢Éäµã£¬¶øÔÚÏÖ´ú±»ÓÃ×÷Íâ¿ÆÊÖÊõµ¶µ¶Æ¬[¶ÎÂä£º2]ºÚê×Ê¯ÊÇÀàËÆ¿óÎïµÄ£¬µ«²»ÊÇÕæÕıµÄ¿óÎï£¬ÒòÎª×÷Îª²£Á§£¬Ëü²»ÊÇ¾§Ìå£»´ËÍâ£¬ËüµÄ³É·ÖÌ«¸´ÔÓ£¬²»×ãÒÔ×é³ÉÒ»ÖÖ¿óÎï¡£ËüÓĞÊ±±»¹éÀàÎªÀà¿óÎï¡£ËäÈ»ºÚê×Ê¯µÄÑÕÉ«ÓëĞşÎäÑÒµÈÃ¾ÌúÖÊÑÒÊ¯ÏàËÆ£¬µ«ºÚê×ÑÒµÄ³É·ÖÈ´¼«Æä³¤Ó¢ÖÊ¡£[¶ÎÂä£º2]´¿ºÚê×Ê¯µÄÍâ¹ÛÍ¨³£ÊÇÉîÉ«µÄ£¬µ«ÑÕÉ«ÒòÔÓÖÊµÄ´æÔÚ¶ø±ä»¯¡£ÌúºÍÃ¾Í¨³£»áÊ¹ºÚê×Ê¯³ÊÏÖÉîÂÌÉ«¡¢×ØÉ«µ½ºÚÉ«¡£¼«ÉÙÊıÑùÆ·¼¸ºõÎŞÉ«¡£ÔÚÒ»Ğ©Ê¯Í·ÖĞ£¬ºÚÉ«²£Á§ÖĞ¼ĞÔÓ×Å°×É«µÄ·ÅÉä×´·½Ê¯Ó¢¾§Ìå£¬»á²úÉú°ßµã×´»òÑ©»¨×´Í¼°¸£¨Ñ©»¨ºÚê×Ê¯£©¡£Ëü¿ÉÄÜ°üº¬ÈÛÑÒÁ÷ÖĞ²ĞÁôµÄÆøÅİÍ¼°¸£¬ÑØ×ÅÈÛÈÚÑÒÊ¯ÔÚÀäÈ´Ç°Á÷¶¯Ê±ĞÎ³ÉµÄ²ãÅÅÁĞ¡£ÕâĞ©ÆøÅİ¿ÉÒÔ²úÉúÓĞÈ¤µÄĞ§¹û£¬Èç½ğÉ«¹âÔó£¨ºÚê×Ê¯¹âÔó£©»ò²Êºç¹âÔó£¨²ÊºçºÚê×Ê¯£©¡£[¶ÎÂä£º2]ºÚê×Ê¯ÔÚÊ¯Æ÷Ê±´úµÄÎÄ»¯ÖĞºÜÊÜÖØÊÓ£¬ÒòÎªËüÏñìİÊ¯Ò»Ñù£¬¿ÉÒÔ±»ÕÛ¶Ï£¬²úÉú·æÀûµÄµ¶Æ¬»ò¼ıÍ·¡£ÏñËùÓĞµÄ²£Á§ºÍÆäËûÀàĞÍµÄÌìÈ»ÑÒÊ¯Ò»Ñù£¬ºÚê×Ê¯µÄÆÆÁÑ¾ßÓĞµäĞÍµÄ±´¿Ç×´ÆÆÁÑ¡£ËüÒ²±»Å×¹â£¬ÒÔ´´ÔìÔçÆÚµÄ¾µ×Ó¡£Ç°¸çÂ×²¼Ê±´úµÄÖĞÃÀÖŞÈË¶ÔºÚê×Ê¯µÄÊ¹ÓÃÊÇ¹ã·º¶ø¸´ÔÓµÄ£¬°üÀ¨µñ¿ÌºÍ¼Ó¹¤ºÚê×Ê¯×÷Îª¹¤¾ßºÍ×°ÊÎÎï¡£ÖĞÃÀÖŞÈË»¹ÖÆÔìÁËÒ»ÖÖ½££¬½£ÉíÏâÓĞºÚê×Ê¯µÄµ¶ÈĞ¡£ÕâÖÖÎäÆ÷±»³ÆÎªmacuahuitl£¬ÄÜ¹»Ôì³É¿ÉÅÂµÄÉËº¦£¬½«ºÚê×Ê¯µ¶Æ¬µÄ·æÀûÈĞ¿ÚÓë¾â³İ×´ÎäÆ÷µÄ´Ö²ÚÇĞ¿Ú½áºÏÔÚÒ»Æğ¡£ÑÒĞ¼·ÖÎöÓĞÖúÓÚÁË½âÖĞÃÀÖŞµÄÇ°ÊÏ×åÈº¡£×ĞÏ¸·ÖÎöºÚê×Ê¯ÔÚÒ»ÖÖÎÄ»¯»òÒ»¸öµØ·½£¬¿ÉÒÔÓÃÀ´ÖØ½¨ÉÌÒµ¡¢Éú²ú¡¢·ÖÅä£¬´Ó¶øÁË½âÒ»¸öÎÄÃ÷µÄ¾­¼Ã¡¢Éç»áºÍÕşÖÎ·½Ãæ¡£ÑÅ¿ËÆæÀ¼¾ÍÊÇÕâÑù£¬Ò»¸öÂêÑÅ³ÇÊĞ£¬ÔÚÄÇÀï£¬ÉõÖÁÕ½ÕùµÄÓ°Ïì¶¼±»ÑĞ¾¿ÓëºÚê×Ê¯µÄÊ¹ÓÃ¼°ÆäËéÆ¬ÓĞ¹Ø¡£[¶ÎÂä£º2]ºÚê×Ê¯ÓÃÓÚĞÄÔàÊÖÊõ£¬ÒòÎª¾«ĞÄÖÆ×÷µÄºÚê×Ê¯µ¶Æ¬µÄÈĞ¿Ú·æÀû¶ÈÊÇÓÅÖÊ¸ÖÊÖÊõµ¶µÄÊı±¶£¬ÈĞ¿Ú¿í¶ÈÖ»ÓĞ3ÄÉÃ××óÓÒ¡£¼´Ê¹ÊÇ×î·æÀûµÄ½ğÊôµ¶£¬ÔÚ×ã¹»Ç¿µÄÏÔÎ¢¾µÏÂÒ²ÓĞ¾â³İ×´µÄ²»¹æÔòµ¶Æ¬¡£µ±ÔÚµç×ÓÏÔÎ¢¾µÏÂ¼ì²éÊ±£¬ºÚê×Ê¯µÄµ¶Æ¬ÈÔÈ»¹â»¬¶ø¾ùÔÈ¡£Ò»ÏîÑĞ¾¿·¢ÏÖºÚê×Ê¯ÔÚÒ»×é´óÊóÌåÄÚ²úÉúÁË¸üÕ­µÄ°ÌºÛ¡¢¸üÉÙµÄÑ×ĞÔÏ¸°ûºÍ¸üÉÙµÄÈâÑ¿×éÖ¯¡£[¶ÎÂä£º2]ºÚê×Ê¯Ò²ÓÃÓÚ×°ÊÎÄ¿µÄºÍ±¦Ê¯¡£Ëü¾ßÓĞ¸ù¾İÇĞ¸î·½Ê½³ÊÏÖ²»Í¬Íâ¹ÛµÄÌØĞÔ¡£µ±³¯Ò»¸ö·½ÏòÇĞÊ±£¬ËüÊÇÒ»ÖÖÃÀÀöµÄÉîºÚÉ«£»µ±Ëüºá´©ÁíÒ»¸ö·½ÏòÊ±£¬ËüÊÇÉÁÁÁµÄ»ÒÉ«¡£¡±¡°°¢ÅÁÆæÖ®Àá¡±ÊÇÇ¶ÔÚ»Ò°×É«ÕäÖéÑÒ»ùÖÊÖĞµÄĞ¡ĞÍÔ²ĞÎºÚê×Ê¯¿é¡£</Chinese>
+		<Chinese>é»‘æ›œçŸ³æ˜¯ä¸€ç§è‡ªç„¶å½¢æˆçš„ç»ç’ƒï¼Œå½¢æˆäºå–·å‡ºçš„ç«æˆå²©ä¸­ã€‚å®ƒæ˜¯ç”±ç«å±±å–·å‡ºçš„é•¿è‹±è´¨ç†”å²©å†·å´è€Œæ²¡æœ‰æ™¶ä½“ç”Ÿé•¿æ—¶äº§ç”Ÿçš„ã€‚é»‘æ›œå²©é€šå¸¸å­˜åœ¨äºæµçº¹å²©ç†”å²©æµçš„è¾¹ç¼˜ï¼Œå³é»‘æ›œå²©æµï¼Œå…¶åŒ–å­¦æˆåˆ†ï¼ˆé«˜ç¡…å«é‡ï¼‰å¯¼è‡´ç†”å²©å…·æœ‰é«˜ç²˜åº¦å’Œé«˜èšåˆåº¦ã€‚é€šè¿‡è¿™ç§é«˜ç²˜æ€§å’Œèšåˆç†”å²©åŸå­æ‰©æ•£çš„æŠ‘åˆ¶è§£é‡Šäº†æ™¶ä½“ç”Ÿé•¿çš„ç¼ºä¹ã€‚ç”±äºç¼ºä¹æ™¶ä½“ç»“æ„ï¼Œé»‘æ›œçŸ³åˆ€ç‰‡çš„è¾¹ç¼˜å‡ ä¹å¯ä»¥è¾¾åˆ°åˆ†å­çš„åšåº¦ï¼Œè¿™å°±å¯¼è‡´äº†å®ƒåœ¨å¤ä»£è¢«ç”¨ä½œå‘å°„ç‚¹ï¼Œè€Œåœ¨ç°ä»£è¢«ç”¨ä½œå¤–ç§‘æ‰‹æœ¯åˆ€åˆ€ç‰‡[æ®µè½ï¼š2]é»‘æ›œçŸ³æ˜¯ç±»ä¼¼çŸ¿ç‰©çš„ï¼Œä½†ä¸æ˜¯çœŸæ­£çš„çŸ¿ç‰©ï¼Œå› ä¸ºä½œä¸ºç»ç’ƒï¼Œå®ƒä¸æ˜¯æ™¶ä½“ï¼›æ­¤å¤–ï¼Œå®ƒçš„æˆåˆ†å¤ªå¤æ‚ï¼Œä¸è¶³ä»¥ç»„æˆä¸€ç§çŸ¿ç‰©ã€‚å®ƒæœ‰æ—¶è¢«å½’ç±»ä¸ºç±»çŸ¿ç‰©ã€‚è™½ç„¶é»‘æ›œçŸ³çš„é¢œè‰²ä¸ç„æ­¦å²©ç­‰é•é“è´¨å²©çŸ³ç›¸ä¼¼ï¼Œä½†é»‘æ›œå²©çš„æˆåˆ†å´æå…¶é•¿è‹±è´¨ã€‚[æ®µè½ï¼š2]çº¯é»‘æ›œçŸ³çš„å¤–è§‚é€šå¸¸æ˜¯æ·±è‰²çš„ï¼Œä½†é¢œè‰²å› æ‚è´¨çš„å­˜åœ¨è€Œå˜åŒ–ã€‚é“å’Œé•é€šå¸¸ä¼šä½¿é»‘æ›œçŸ³å‘ˆç°æ·±ç»¿è‰²ã€æ£•è‰²åˆ°é»‘è‰²ã€‚æå°‘æ•°æ ·å“å‡ ä¹æ— è‰²ã€‚åœ¨ä¸€äº›çŸ³å¤´ä¸­ï¼Œé»‘è‰²ç»ç’ƒä¸­å¤¹æ‚ç€ç™½è‰²çš„æ”¾å°„çŠ¶æ–¹çŸ³è‹±æ™¶ä½“ï¼Œä¼šäº§ç”Ÿæ–‘ç‚¹çŠ¶æˆ–é›ªèŠ±çŠ¶å›¾æ¡ˆï¼ˆé›ªèŠ±é»‘æ›œçŸ³ï¼‰ã€‚å®ƒå¯èƒ½åŒ…å«ç†”å²©æµä¸­æ®‹ç•™çš„æ°”æ³¡å›¾æ¡ˆï¼Œæ²¿ç€ç†”èå²©çŸ³åœ¨å†·å´å‰æµåŠ¨æ—¶å½¢æˆçš„å±‚æ’åˆ—ã€‚è¿™äº›æ°”æ³¡å¯ä»¥äº§ç”Ÿæœ‰è¶£çš„æ•ˆæœï¼Œå¦‚é‡‘è‰²å…‰æ³½ï¼ˆé»‘æ›œçŸ³å…‰æ³½ï¼‰æˆ–å½©è™¹å…‰æ³½ï¼ˆå½©è™¹é»‘æ›œçŸ³ï¼‰ã€‚[æ®µè½ï¼š2]é»‘æ›œçŸ³åœ¨çŸ³å™¨æ—¶ä»£çš„æ–‡åŒ–ä¸­å¾ˆå—é‡è§†ï¼Œå› ä¸ºå®ƒåƒç‡§çŸ³ä¸€æ ·ï¼Œå¯ä»¥è¢«æŠ˜æ–­ï¼Œäº§ç”Ÿé”‹åˆ©çš„åˆ€ç‰‡æˆ–ç®­å¤´ã€‚åƒæ‰€æœ‰çš„ç»ç’ƒå’Œå…¶ä»–ç±»å‹çš„å¤©ç„¶å²©çŸ³ä¸€æ ·ï¼Œé»‘æ›œçŸ³çš„ç ´è£‚å…·æœ‰å…¸å‹çš„è´å£³çŠ¶ç ´è£‚ã€‚å®ƒä¹Ÿè¢«æŠ›å…‰ï¼Œä»¥åˆ›é€ æ—©æœŸçš„é•œå­ã€‚å‰å“¥ä¼¦å¸ƒæ—¶ä»£çš„ä¸­ç¾æ´²äººå¯¹é»‘æ›œçŸ³çš„ä½¿ç”¨æ˜¯å¹¿æ³›è€Œå¤æ‚çš„ï¼ŒåŒ…æ‹¬é›•åˆ»å’ŒåŠ å·¥é»‘æ›œçŸ³ä½œä¸ºå·¥å…·å’Œè£…é¥°ç‰©ã€‚ä¸­ç¾æ´²äººè¿˜åˆ¶é€ äº†ä¸€ç§å‰‘ï¼Œå‰‘èº«é•¶æœ‰é»‘æ›œçŸ³çš„åˆ€åˆƒã€‚è¿™ç§æ­¦å™¨è¢«ç§°ä¸ºmacuahuitlï¼Œèƒ½å¤Ÿé€ æˆå¯æ€•çš„ä¼¤å®³ï¼Œå°†é»‘æ›œçŸ³åˆ€ç‰‡çš„é”‹åˆ©åˆƒå£ä¸é”¯é½¿çŠ¶æ­¦å™¨çš„ç²—ç³™åˆ‡å£ç»“åˆåœ¨ä¸€èµ·ã€‚å²©å±‘åˆ†ææœ‰åŠ©äºäº†è§£ä¸­ç¾æ´²çš„å‰æ°æ—ç¾¤ã€‚ä»”ç»†åˆ†æé»‘æ›œçŸ³åœ¨ä¸€ç§æ–‡åŒ–æˆ–ä¸€ä¸ªåœ°æ–¹ï¼Œå¯ä»¥ç”¨æ¥é‡å»ºå•†ä¸šã€ç”Ÿäº§ã€åˆ†é…ï¼Œä»è€Œäº†è§£ä¸€ä¸ªæ–‡æ˜çš„ç»æµã€ç¤¾ä¼šå’Œæ”¿æ²»æ–¹é¢ã€‚é›…å…‹å¥‡å…°å°±æ˜¯è¿™æ ·ï¼Œä¸€ä¸ªç›é›…åŸå¸‚ï¼Œåœ¨é‚£é‡Œï¼Œç”šè‡³æˆ˜äº‰çš„å½±å“éƒ½è¢«ç ”ç©¶ä¸é»‘æ›œçŸ³çš„ä½¿ç”¨åŠå…¶ç¢ç‰‡æœ‰å…³ã€‚[æ®µè½ï¼š2]é»‘æ›œçŸ³ç”¨äºå¿ƒè„æ‰‹æœ¯ï¼Œå› ä¸ºç²¾å¿ƒåˆ¶ä½œçš„é»‘æ›œçŸ³åˆ€ç‰‡çš„åˆƒå£é”‹åˆ©åº¦æ˜¯ä¼˜è´¨é’¢æ‰‹æœ¯åˆ€çš„æ•°å€ï¼Œåˆƒå£å®½åº¦åªæœ‰3çº³ç±³å·¦å³ã€‚å³ä½¿æ˜¯æœ€é”‹åˆ©çš„é‡‘å±åˆ€ï¼Œåœ¨è¶³å¤Ÿå¼ºçš„æ˜¾å¾®é•œä¸‹ä¹Ÿæœ‰é”¯é½¿çŠ¶çš„ä¸è§„åˆ™åˆ€ç‰‡ã€‚å½“åœ¨ç”µå­æ˜¾å¾®é•œä¸‹æ£€æŸ¥æ—¶ï¼Œé»‘æ›œçŸ³çš„åˆ€ç‰‡ä»ç„¶å…‰æ»‘è€Œå‡åŒ€ã€‚ä¸€é¡¹ç ”ç©¶å‘ç°é»‘æ›œçŸ³åœ¨ä¸€ç»„å¤§é¼ ä½“å†…äº§ç”Ÿäº†æ›´çª„çš„ç–¤ç—•ã€æ›´å°‘çš„ç‚æ€§ç»†èƒå’Œæ›´å°‘çš„è‚‰èŠ½ç»„ç»‡ã€‚[æ®µè½ï¼š2]é»‘æ›œçŸ³ä¹Ÿç”¨äºè£…é¥°ç›®çš„å’Œå®çŸ³ã€‚å®ƒå…·æœ‰æ ¹æ®åˆ‡å‰²æ–¹å¼å‘ˆç°ä¸åŒå¤–è§‚çš„ç‰¹æ€§ã€‚å½“æœä¸€ä¸ªæ–¹å‘åˆ‡æ—¶ï¼Œå®ƒæ˜¯ä¸€ç§ç¾ä¸½çš„æ·±é»‘è‰²ï¼›å½“å®ƒæ¨ªç©¿å¦ä¸€ä¸ªæ–¹å‘æ—¶ï¼Œå®ƒæ˜¯é—ªäº®çš„ç°è‰²ã€‚â€â€œé˜¿å¸•å¥‡ä¹‹æ³ªâ€æ˜¯åµŒåœ¨ç°ç™½è‰²çç å²©åŸºè´¨ä¸­çš„å°å‹åœ†å½¢é»‘æ›œçŸ³å—ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_GEMS_TURQUOISE</Tag>
 		<English>Gems (Turquoise)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±¦Ê¯£¨ÂÌËÉÊ¯£©</Chinese>
+		<Chinese>å®çŸ³ï¼ˆç»¿æ¾çŸ³ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_CAMEL</Tag>
 		<English>Camel</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂæÍÕ</Chinese>
+		<Chinese>éª†é©¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_CITRUS_PEDIA</Tag>
-		<English>[TAB]Citrus is a genus of flowering trees and shrubs in the rue family, Rutaceae. Plants in the genus produce citrus fruits, including important crops such as oranges, lemons, grapefruits, pomelos, and limes. The genus Citrus is native to South Asia, East Asia, Southeast Asia, Melanesia, and Australia. Various citrus species have been utilized and domesticated by indigenous cultures in these areas since ancient times. From there its cultivation spread into Micronesia and Polynesia by the Austronesian expansion (c. 3000â€?1?71500 BCE); and to the Middle East and the Mediterranean (c. 1200 BCE) via the incense trade route, and onwards to Europe.</English>
+		<English>[TAB]Citrus is a genus of flowering trees and shrubs in the rue family, Rutaceae. Plants in the genus produce citrus fruits, including important crops such as oranges, lemons, grapefruits, pomelos, and limes. The genus Citrus is native to South Asia, East Asia, Southeast Asia, Melanesia, and Australia. Various citrus species have been utilized and domesticated by indigenous cultures in these areas since ancient times. From there its cultivation spread into Micronesia and Polynesia by the Austronesian expansion (c. 3000éˆ¥?1?71500 BCE); and to the Middle East and the Mediterranean (c. 1200 BCE) via the incense trade route, and onwards to Europe.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ÌéÙÊÇÜ¿Ïã¿ÆÜ¿Ïã¿Æ¿ª»¨ÇÇÄ¾ºÍ¹àÄ¾µÄÒ»¸öÊô¡£¸ÃÊôÖ²ÎïÉú²ú¸ÌéÙÀàË®¹û£¬°üÀ¨ÖØÒªµÄ×÷Îï£¬ÈçéÙ×Ó¡¢ÄûÃÊ¡¢èÖ×Ó¡¢èÖ×ÓºÍËá³È¡£¸ÌéÙÊôÔ­²úÓÚÄÏÑÇ¡¢¶«ÑÇ¡¢¶«ÄÏÑÇ¡¢ÃÀÀ­ÄáÎ÷ÑÇºÍ°Ä´óÀûÑÇ¡£×Ô¹ÅÒÔÀ´£¬ÕâĞ©µØÇøµÄÍÁÖøÎÄ»¯¾ÍÀûÓÃºÍÑ±»¯ÁË¸÷ÖÖ¸ÌéÙÆ·ÖÖ¡£´ÓÄÇÀï¿ªÊ¼£¬ËüµÄÖÖÖ²Í¨¹ıÄÏµºµÄÀ©ÕÅ£¨Ô¼¹«ÔªÇ°3000-1500Äê£©À©Õ¹µ½ÃÜ¿ËÂŞÄáÎ÷ÑÇºÍ²¨ÀûÄáÎ÷ÑÇ£»Í¨¹ıÑ¬ÏãÃ³Ò×Â·Ïß´«²¥µ½ÖĞ¶«ºÍµØÖĞº££¨Ô¼¹«ÔªÇ°1200Äê£©£¬²¢Ò»Ö±ÑÓÉìµ½Å·ÖŞ¡£</Chinese>
+		<Chinese>æŸ‘æ©˜æ˜¯èŠ¸é¦™ç§‘èŠ¸é¦™ç§‘å¼€èŠ±ä¹”æœ¨å’ŒçŒæœ¨çš„ä¸€ä¸ªå±ã€‚è¯¥å±æ¤ç‰©ç”Ÿäº§æŸ‘æ©˜ç±»æ°´æœï¼ŒåŒ…æ‹¬é‡è¦çš„ä½œç‰©ï¼Œå¦‚æ©˜å­ã€æŸ æª¬ã€æŸšå­ã€æŸšå­å’Œé…¸æ©™ã€‚æŸ‘æ©˜å±åŸäº§äºå—äºšã€ä¸œäºšã€ä¸œå—äºšã€ç¾æ‹‰å°¼è¥¿äºšå’Œæ¾³å¤§åˆ©äºšã€‚è‡ªå¤ä»¥æ¥ï¼Œè¿™äº›åœ°åŒºçš„åœŸè‘—æ–‡åŒ–å°±åˆ©ç”¨å’Œé©¯åŒ–äº†å„ç§æŸ‘æ©˜å“ç§ã€‚ä»é‚£é‡Œå¼€å§‹ï¼Œå®ƒçš„ç§æ¤é€šè¿‡å—å²›çš„æ‰©å¼ ï¼ˆçº¦å…¬å…ƒå‰3000-1500å¹´ï¼‰æ‰©å±•åˆ°å¯†å…‹ç½—å°¼è¥¿äºšå’Œæ³¢åˆ©å°¼è¥¿äºšï¼›é€šè¿‡ç†é¦™è´¸æ˜“è·¯çº¿ä¼ æ’­åˆ°ä¸­ä¸œå’Œåœ°ä¸­æµ·ï¼ˆçº¦å…¬å…ƒå‰1200å¹´ï¼‰ï¼Œå¹¶ä¸€ç›´å»¶ä¼¸åˆ°æ¬§æ´²ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_CITRUS_ORANGES</Tag>
 		<English>Citrus (Oranges)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ÌéÙ£¨³È×Ó£©</Chinese>
+		<Chinese>æŸ‘æ©˜ï¼ˆæ©™å­ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_COCOA</Tag>
 		<English>Cocoa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿É¿É·Û</Chinese>
+		<Chinese>å¯å¯ç²‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SHEEP_LLAMA</Tag>
 		<English>Sheep (Llama)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃàÑò£¨ÃÀÖŞÍÒ£©</Chinese>
+		<Chinese>ç»µç¾Šï¼ˆç¾æ´²é¸µï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SALT</Tag>
 		<English>Salt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÎ¿ó</Chinese>
+		<Chinese>ç›çŸ¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_COW_BROWN</Tag>
 		<English>Cow (Brown)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÌÅ££¨×ØÉ«£©</Chinese>
+		<Chinese>å¥¶ç‰›ï¼ˆæ£•è‰²ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_RARE_EARTHS</Tag>
 		<English>Rare Earths</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ï¡ÍÁ</Chinese>
+		<Chinese>ç¨€åœŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_PIG_FURRY</Tag>
 		<English>Pig (Furry)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Öí£¨Ã«Öí£©</Chinese>
+		<Chinese>çŒªï¼ˆæ¯›çŒªï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_GEMS_RUBIES</Tag>
 		<English>Gems (Rubies)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±¦Ê¯£¨ºì±¦Ê¯£©</Chinese>
+		<Chinese>å®çŸ³ï¼ˆçº¢å®çŸ³ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_TERRAIN_ARCTIC_COAST_PEDIA</Tag>
 		<English>Needs to be written.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔİÈ±</Chinese>
+		<Chinese>æš‚ç¼º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_OPIUM_PEDIA</Tag>
 		<English>[TAB]The opium poppy (Papaver somniferum) is the type of poppy from which opium and all other refined opiates such as morphine can be extracted. The opium poppy probably originated in the eastern Mediterranean area and was subsequently spread to its modern range which covers much of southern Asia and beyond. Opium was used in the ancient Mediterranean for its medicinal qualities and as recreational narcotic. The use of the opium poppy most likely predates written history, but the first known historical occurrences of opium poppies are images found in ancient Sumerian artefacts dating to approximately 4000 B.C. Use of the opium poppy spread and by the 5th century B.C. was also known to the Greeks, who gave opium its current name.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ó¿ËÚ£¨Papaver somniferum£©ÊÇÒ»ÖÖó¿ËÚ£¬¿ÉÒÔ´ÓÖĞÌáÈ¡Ñ»Æ¬ºÍËùÓĞÆäËû¾«ÖÆÑ»Æ¬¼Á£¬ÈçÂğ·È¡£ó¿ËÚºÜ¿ÉÄÜÆğÔ´ÓÚµØÖĞº£¶«²¿µØÇø£¬ºóÀ´´«²¥µ½ÆäÏÖ´ú·¶Î§£¬°üÀ¨ÄÏÑÇºÍÆäËûµØÇøµÄ´ó²¿·ÖµØÇø¡£Ñ»Æ¬ÔÚ¹ÅµØÖĞº£µØÇøÒòÆäÒ©ÓÃ¼ÛÖµºÍ×÷ÎªÓéÀÖĞÔÂé×í¼Á¶ø±»Ê¹ÓÃ¡£ó¿ËÚµÄÊ¹ÓÃºÜ¿ÉÄÜÔçÓÚÓĞÎÄ×Ö¼ÇÔØµÄÀúÊ·Ê±ÆÚ£¬µ«ÒÑÖªµÄ×îÔçµÄó¿ËÚÀúÊ·ÊÂ¼şÊÇÔÚ¹Å´úËÕÃÀ¶ûÊÖ¹¤ÒÕÆ·ÖĞ·¢ÏÖµÄÍ¼Ïñ£¬¿É×·Ëİµ½¹«ÔªÇ°4000Äê¡£Ê¹ÓÃó¿ËÚ´«²¥£¬µ½¹«ÔªÇ°5ÊÀ¼Í£¬Ï£À°ÈËÒ²ÖªµÀÁËó¿ËÚ£¬ËûÃÇ¸øÑ»Æ¬ÆğÁËÏÖÔÚµÄÃû×Ö¡£</Chinese>
+		<Chinese>ç½‚ç²Ÿï¼ˆPapaver somniferumï¼‰æ˜¯ä¸€ç§ç½‚ç²Ÿï¼Œå¯ä»¥ä»ä¸­æå–é¸¦ç‰‡å’Œæ‰€æœ‰å…¶ä»–ç²¾åˆ¶é¸¦ç‰‡å‰‚ï¼Œå¦‚å—å•¡ã€‚ç½‚ç²Ÿå¾ˆå¯èƒ½èµ·æºäºåœ°ä¸­æµ·ä¸œéƒ¨åœ°åŒºï¼Œåæ¥ä¼ æ’­åˆ°å…¶ç°ä»£èŒƒå›´ï¼ŒåŒ…æ‹¬å—äºšå’Œå…¶ä»–åœ°åŒºçš„å¤§éƒ¨åˆ†åœ°åŒºã€‚é¸¦ç‰‡åœ¨å¤åœ°ä¸­æµ·åœ°åŒºå› å…¶è¯ç”¨ä»·å€¼å’Œä½œä¸ºå¨±ä¹æ€§éº»é†‰å‰‚è€Œè¢«ä½¿ç”¨ã€‚ç½‚ç²Ÿçš„ä½¿ç”¨å¾ˆå¯èƒ½æ—©äºæœ‰æ–‡å­—è®°è½½çš„å†å²æ—¶æœŸï¼Œä½†å·²çŸ¥çš„æœ€æ—©çš„ç½‚ç²Ÿå†å²äº‹ä»¶æ˜¯åœ¨å¤ä»£è‹ç¾å°”æ‰‹å·¥è‰ºå“ä¸­å‘ç°çš„å›¾åƒï¼Œå¯è¿½æº¯åˆ°å…¬å…ƒå‰4000å¹´ã€‚ä½¿ç”¨ç½‚ç²Ÿä¼ æ’­ï¼Œåˆ°å…¬å…ƒå‰5ä¸–çºªï¼Œå¸Œè…Šäººä¹ŸçŸ¥é“äº†ç½‚ç²Ÿï¼Œä»–ä»¬ç»™é¸¦ç‰‡èµ·äº†ç°åœ¨çš„åå­—ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SHEEP_BLACK</Tag>
 		<English>Sheep (Black)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ñò£¨ºÚÑò£©</Chinese>
+		<Chinese>ç¾Šï¼ˆé»‘ç¾Šï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SPICES_NUTMEG</Tag>
 		<English>Spices (Nutmeg)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏãÁÏ£¨¶¹Ş¢£©</Chinese>
+		<Chinese>é¦™æ–™ï¼ˆè±†è”»ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_JADE_PEDIA</Tag>
 		<English>[TAB]A greenish mineral, Jade is extremely hard and robust, and has been in use for many thousands of years. Jade was originally used in tools and weapons, but as other more effective substances (like bronze and iron) were discovered, jade would become used largely for ornamental purposes. Jade was first widely used in China during the Neolithic period. Over time as the most accessible sources were depleted, it became more valuable than gold. Today jade is still used in jewellery and in a variety of trinkets, though it no longer carries the prestige or value it once did.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ôä´äÊÇÒ»ÖÖÂÌÉ«¿óÎï£¬·Ç³£¼áÓ²ºÍ¼á¹Ì£¬ÒÑ¾­Ê¹ÓÃÁËÊıÇ§Äê¡£ÓñÊ¯×î³õÓÃÓÚ¹¤¾ßºÍÎäÆ÷£¬µ«Ëæ×ÅÆäËû¸üÓĞĞ§µÄÎïÖÊ£¨ÈçÇàÍ­ºÍÌú£©µÄ·¢ÏÖ£¬Óñ½«Ö÷ÒªÓÃÓÚ×°ÊÎÄ¿µÄ¡£ÓñÆ÷×îÔçÔÚĞÂÊ¯Æ÷Ê±´úÔÚÖĞ¹ú±»¹ã·ºÊ¹ÓÃ¡£Ëæ×ÅÊ±¼äµÄÍÆÒÆ£¬×îÈİÒ×»ñµÃµÄ×ÊÔ´¿İ½ß£¬»Æ½ğ±äµÃ±È»Æ½ğ¸üÓĞ¼ÛÖµ¡£½ñÌì£¬ôä´äÈÔÈ»±»ÓÃÓÚÖé±¦ºÍ¸÷ÖÖĞ¡ÊÎÎïÖĞ£¬¾¡¹ÜËü²»ÔÙ¾ßÓĞËüÔø¾­µÄÍşÍûºÍ¼ÛÖµ¡£</Chinese>
+		<Chinese>ç¿¡ç¿ æ˜¯ä¸€ç§ç»¿è‰²çŸ¿ç‰©ï¼Œéå¸¸åšç¡¬å’Œåšå›ºï¼Œå·²ç»ä½¿ç”¨äº†æ•°åƒå¹´ã€‚ç‰çŸ³æœ€åˆç”¨äºå·¥å…·å’Œæ­¦å™¨ï¼Œä½†éšç€å…¶ä»–æ›´æœ‰æ•ˆçš„ç‰©è´¨ï¼ˆå¦‚é’é“œå’Œé“ï¼‰çš„å‘ç°ï¼Œç‰å°†ä¸»è¦ç”¨äºè£…é¥°ç›®çš„ã€‚ç‰å™¨æœ€æ—©åœ¨æ–°çŸ³å™¨æ—¶ä»£åœ¨ä¸­å›½è¢«å¹¿æ³›ä½¿ç”¨ã€‚éšç€æ—¶é—´çš„æ¨ç§»ï¼Œæœ€å®¹æ˜“è·å¾—çš„èµ„æºæ¯ç«­ï¼Œé»„é‡‘å˜å¾—æ¯”é»„é‡‘æ›´æœ‰ä»·å€¼ã€‚ä»Šå¤©ï¼Œç¿¡ç¿ ä»ç„¶è¢«ç”¨äºç å®å’Œå„ç§å°é¥°ç‰©ä¸­ï¼Œå°½ç®¡å®ƒä¸å†å…·æœ‰å®ƒæ›¾ç»çš„å¨æœ›å’Œä»·å€¼ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_DYE_MUREX</Tag>
 		<English>Dye (Murex)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>È¾ÁÏ£¨¹ÇÂİ£©</Chinese>
+		<Chinese>æŸ“æ–™ï¼ˆéª¨èºï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_AMBER_PEDIA</Tag>
 		<English>[TAB]Amber is the petrified remnant of ancient tree resins, mostly dating back to the Cretaceous period or later; before that time, evergreen trees did not exist. Amber is rare and prized for its distinctive translucent, typically yellow color, and also for the relative ease with which it can be carved and worked compared to other gem and gem-like materials. It is in effect a semi-precious stone.[PARAGRAPH:2]Amber is found in a variety of sources, although large deposits of this semi-precious stone are rare. Trade in amber flourished in the Baltic sea, chiefly in what is currently the Kaliningrad Oblast of Russia (which still contains 90% of known amber reserves). Certain other deposits exist elsewhere in the world, such as the exotic blue amber of the Dominican Republic.[PARAGRAPH:2]One interesting scientific feature of amber is that, being the fossilized remnant of a sticky organic resin, it can entrap things. There were many cases in the prehistoric past of insects and plant material becoming stuck and "included" inside the resin as it petrified into amber. This has resulted in very well-preserved specimens of flies, mosquitos, and other biological remnants, trapped inside the translucent amber.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>çúçêÊÇ¹Å´úÊ÷Ä¾Ê÷Ö¬µÄÊ¯»¯²ĞÓàÎï£¬´ó¶à¿ÉÒÔ×·Ëİµ½°×ÛÑ¼Í»ò¸üÍíµÄÊ±ÆÚ£»ÔÚ´ËÖ®Ç°£¬³£ÂÌÊ÷Ä¾²¢²»´æÔÚ¡£çúçêÊÇÏ¡ÓĞºÍÕä¹óµÄ£¬ÒòÎªËü¶ÀÌØµÄ°ëÍ¸Ã÷£¬µäĞÍµÄ»ÆÉ«£¬¶øÇÒÓëÆäËû±¦Ê¯ºÍÀàËÆ±¦Ê¯µÄ²ÄÁÏÏà±È£¬Ëü¿ÉÒÔÏà¶ÔÈİÒ×µØµñ¿ÌºÍ¼Ó¹¤¡£ËüÊµ¼ÊÉÏÊÇÒ»ÖÖ°ë±¦Ê¯[¶ÎÂä£º2]çúçêµÄÀ´Ô´¶àÖÖ¶àÑù£¬¾¡¹ÜÕâÖÖ°ë±¦Ê¯µÄ´óÁ¿³Á»ı·Ç³£º±¼û¡£ÔÚ²¨ÂŞµÄº££¬çúçêÃ³Ò×Åî²ª·¢Õ¹£¬Ö÷ÒªÊÇÔÚÄ¿Ç°¶íÂŞË¹¼ÓÀïÄş¸ñÀÕÖİ£¨¸ÃÖİÈÔÓĞ90%µÄÒÑÖªçúçê´¢Á¿£©¡£ÊÀ½çÆäËûµØ·½Ò²ÓĞÒ»Ğ©ÆäËûµÄ¿ó²Ø£¬±ÈÈç¶àÃ×Äá¼Ó¹²ºÍ¹úµÄÆæÒìÀ¶çúçê[¶ÎÂä£º2]çúçêµÄÒ»¸öÓĞÈ¤µÄ¿ÆÑ§ÌØÕ÷ÊÇ£¬ËüÊÇÒ»ÖÖÕ³ĞÔÓĞ»úÊ÷Ö¬µÄ»¯Ê¯²ĞÁôÎï£¬Ëü¿ÉÒÔ¼Ğ×¡¶«Î÷¡£ÔÚÊ·Ç°µÄÀúÊ·ÉÏ£¬ÓĞºÜ¶àÀ¥³æºÍÖ²Îï²ÄÁÏÔÚÊ÷Ö¬Ê¯»¯³ÉçúçêÊ±±»Õ³×¡²¢¡°°üº¬¡±ÔÚÊ÷Ö¬ÖĞ¡£ÕâÊ¹µÃ²ÔÓ¬¡¢ÎÃ×ÓºÍÆäËûÉúÎï²ĞÁôÎï±£´æµÃ·Ç³£ÍêºÃ£¬±»À§ÔÚ°ëÍ¸Ã÷µÄçúçêÀï¡£</Chinese>
+		<Chinese>ç¥ç€æ˜¯å¤ä»£æ ‘æœ¨æ ‘è„‚çš„çŸ³åŒ–æ®‹ä½™ç‰©ï¼Œå¤§å¤šå¯ä»¥è¿½æº¯åˆ°ç™½å©çºªæˆ–æ›´æ™šçš„æ—¶æœŸï¼›åœ¨æ­¤ä¹‹å‰ï¼Œå¸¸ç»¿æ ‘æœ¨å¹¶ä¸å­˜åœ¨ã€‚ç¥ç€æ˜¯ç¨€æœ‰å’Œçè´µçš„ï¼Œå› ä¸ºå®ƒç‹¬ç‰¹çš„åŠé€æ˜ï¼Œå…¸å‹çš„é»„è‰²ï¼Œè€Œä¸”ä¸å…¶ä»–å®çŸ³å’Œç±»ä¼¼å®çŸ³çš„ææ–™ç›¸æ¯”ï¼Œå®ƒå¯ä»¥ç›¸å¯¹å®¹æ˜“åœ°é›•åˆ»å’ŒåŠ å·¥ã€‚å®ƒå®é™…ä¸Šæ˜¯ä¸€ç§åŠå®çŸ³[æ®µè½ï¼š2]ç¥ç€çš„æ¥æºå¤šç§å¤šæ ·ï¼Œå°½ç®¡è¿™ç§åŠå®çŸ³çš„å¤§é‡æ²‰ç§¯éå¸¸ç½•è§ã€‚åœ¨æ³¢ç½—çš„æµ·ï¼Œç¥ç€è´¸æ˜“è“¬å‹ƒå‘å±•ï¼Œä¸»è¦æ˜¯åœ¨ç›®å‰ä¿„ç½—æ–¯åŠ é‡Œå®æ ¼å‹’å·ï¼ˆè¯¥å·ä»æœ‰90%çš„å·²çŸ¥ç¥ç€å‚¨é‡ï¼‰ã€‚ä¸–ç•Œå…¶ä»–åœ°æ–¹ä¹Ÿæœ‰ä¸€äº›å…¶ä»–çš„çŸ¿è—ï¼Œæ¯”å¦‚å¤šç±³å°¼åŠ å…±å’Œå›½çš„å¥‡å¼‚è“ç¥ç€[æ®µè½ï¼š2]ç¥ç€çš„ä¸€ä¸ªæœ‰è¶£çš„ç§‘å­¦ç‰¹å¾æ˜¯ï¼Œå®ƒæ˜¯ä¸€ç§ç²˜æ€§æœ‰æœºæ ‘è„‚çš„åŒ–çŸ³æ®‹ç•™ç‰©ï¼Œå®ƒå¯ä»¥å¤¹ä½ä¸œè¥¿ã€‚åœ¨å²å‰çš„å†å²ä¸Šï¼Œæœ‰å¾ˆå¤šæ˜†è™«å’Œæ¤ç‰©ææ–™åœ¨æ ‘è„‚çŸ³åŒ–æˆç¥ç€æ—¶è¢«ç²˜ä½å¹¶â€œåŒ…å«â€åœ¨æ ‘è„‚ä¸­ã€‚è¿™ä½¿å¾—è‹è‡ã€èšŠå­å’Œå…¶ä»–ç”Ÿç‰©æ®‹ç•™ç‰©ä¿å­˜å¾—éå¸¸å®Œå¥½ï¼Œè¢«å›°åœ¨åŠé€æ˜çš„ç¥ç€é‡Œã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_POTATO</Tag>
 		<English>Potatoes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍÁ¶¹</Chinese>
+		<Chinese>åœŸè±†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_SPICES_VANILLA</Tag>
 		<English>Spices (Vanilla)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏãÁÏ£¨Ïã²İ£©</Chinese>
+		<Chinese>é¦™æ–™ï¼ˆé¦™è‰ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_CRAB_SHRIMP</Tag>
 		<English>Crab (Shrimps)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ğ·£¨Ïº£©</Chinese>
+		<Chinese>èŸ¹ï¼ˆè™¾ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_IVORY_AFRICAN</Tag>
 		<English>Ivory (African)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏóÑÀ£¨·ÇÖŞ£©</Chinese>
+		<Chinese>è±¡ç‰™ï¼ˆéæ´²ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_TEA</Tag>
 		<English>Tea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²èÒ¶</Chinese>
+		<Chinese>èŒ¶å¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_HIT_FOOTBALL_EVENT</Tag>
 		<English>Hit Football Event</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÈÃÅ×ãÇòÈüÊÂ</Chinese>
+		<Chinese>çƒ­é—¨è¶³çƒèµ›äº‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_GEMS_EMERALDS</Tag>
 		<English>Gems (Emeralds)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±¦Ê¯£¨ÂÌ±¦Ê¯£©</Chinese>
+		<Chinese>å®çŸ³ï¼ˆç»¿å®çŸ³ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_TERRAIN_LAGOON_PEDIA</Tag>
 		<English>Needs to be written.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔİÈ±</Chinese>
+		<Chinese>æš‚ç¼º</Chinese>
 	</TEXT>
 </Civ4GameText>

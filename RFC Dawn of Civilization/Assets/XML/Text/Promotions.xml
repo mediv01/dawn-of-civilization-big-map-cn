@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DESERT_ADAPTATION</Tag>
 		<English>Desert Adaptation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>иЁд╝ййс╕</Chinese>
+		<Chinese>Ф╡≥Ф╪═И─┌Е╨■</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_FLANKING3</Tag>
 		<English>Flanking III</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>сь╩ьхЩ╪╤</Chinese>
+		<Chinese>Х©┌Е⌡·Д╦┴Г╨╖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DISENGAGE2</Tag>
 		<English>Disengage II</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>лсмя╤Ч╪╤</Chinese>
+		<Chinese>И─┐Х└╠Д╨▄Г╨╖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DISENGAGE1</Tag>
 		<English>Disengage I</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>лсмяр╩╪╤</Chinese>
+		<Chinese>И─┐Х└╠Д╦─Г╨╖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SKIRMISH</Tag>
 		<English>Skirmish</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>п║ЁЕм╩</Chinese>
+		<Chinese>Е╟▐Е├╡Г╙│</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MERCENARY</Tag>
 		<English>Mercenary</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╧мс╤у╫й©</Chinese>
+		<Chinese>И⌡┤Д╫ёФ┬≤Её╚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION2</Tag>
 		<English>Self Preservation II</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>вт╠ё╤Ч╪╤</Chinese>
+		<Chinese>Х┤╙Д©²Д╨▄Г╨╖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION3</Tag>
 		<English>Self Preservation III</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>вт╠ёхЩ╪╤</Chinese>
+		<Chinese>Х┤╙Д©²Д╦┴Г╨╖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SELFPRESERVATION1</Tag>
 		<English>Self Preservation I</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>вт╠ёр╩╪╤</Chinese>
+		<Chinese>Х┤╙Д©²Д╦─Г╨╖</Chinese>
 	</TEXT>
 </Civ4GameText>

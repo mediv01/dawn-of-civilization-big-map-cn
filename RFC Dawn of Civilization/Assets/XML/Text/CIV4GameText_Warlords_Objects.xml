@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand leo-->
+<!-- Game Text Cities -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TREBUCHET</Tag>
+		<English>Trebuchet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抛石机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OTTOMAN_JANISSARY</Tag>
+		<English>Janissary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>苏丹亲兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIKING_BESERKER</Tag>
+		<English>Berserker</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>狂暴战士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOREAN_HWACHA</Tag>
+		<English>Hwacha</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火厢车</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ZULU_IMPI</Tag>
+		<English>Impi</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祖鲁矛兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARTHAGE_NUMIDIAN_CAVALRY</Tag>
+		<English>Numidian Cavalry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>努米底亚骑兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CELTIC_GALLIC_WARRIOR</Tag>
+		<English>Gallic Warrior</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>高卢战士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHURCHILL</Tag>
+		<English>Churchill</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>丘吉尔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AUGUSTUS</Tag>
+		<English>Augustus Caesar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奥古斯都·恺撒</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SHAKA</Tag>
+		<English>Shaka</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>沙卡</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HANNIBAL</Tag>
+		<English>Hannibal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>汉尼拔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BRENNUS</Tag>
+		<English>Brennus</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>布雷努斯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_STALIN</Tag>
+		<English>Stalin</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>斯大林</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAMESSES</Tag>
+		<English>Ramesses II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拉美西斯二世</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RAGNAR</Tag>
+		<English>Ragnar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>雷格那</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WANGKON</Tag>
+		<English>Wang Kon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>王建</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MEHMED</Tag>
+		<English>Mehmed II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>穆罕默德二世</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELT_DESC</Tag>
+		<English>Celtic Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凯尔特文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELT_SHORT_DESC</Tag>
+		<English>Celtia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凯尔特</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CELT_ADJECTIVE</Tag>
+		<English>
+			<Text>Celtic:Celts</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凯尔特</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_DESC</Tag>
+		<English>Ottoman Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奥斯曼文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_SHORT_DESC</Tag>
+		<English>Ottomans</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奥斯曼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_OTTOMAN_ADJECTIVE</Tag>
+		<English>
+			<Text>Ottoman:Ottomans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奥斯曼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_DESC</Tag>
+		<English>Viking Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_SHORT_DESC</Tag>
+		<English>Vikings</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_DESC</Tag>
+		<English>Korean Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>高丽文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_SHORT_DESC</Tag>
+		<English>Korea</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>高丽</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KOREA_ADJECTIVE</Tag>
+		<English>
+			<Text>Korean:Koreans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>高丽</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZULU_DESC</Tag>
+		<English>Zulu Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祖鲁文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZULU_SHORT_DESC</Tag>
+		<English>Zululand</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祖鲁</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ZULU_ADJECTIVE</Tag>
+		<English>
+			<Text>Zulu:Zulu</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祖鲁</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CARTHAGE_DESC</Tag>
+		<English>Carthaginian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迦太基文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CARTHAGE_SHORT_DESC</Tag>
+		<English>Carthage</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迦太基</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CARTHAGE_ADJECTIVE</Tag>
+		<English>
+			<Text>Carthaginian:Carthaginians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迦太基</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_GENERAL</Tag>
+		<English>Great General</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大军事家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_GENERAL</Tag>
+		<English>Great Military Instructor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军事理论家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MILITARY_ACADEMY</Tag>
+		<English>Military Academy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军事学院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_VASSAL_STRING</Tag>
+		<English>Vassal State</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>附庸国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STABLE</Tag>
+		<English>Stable</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马厩</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OTTOMAN_WALLS</Tag>
+		<English>Ottoman Walls</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奥斯曼城墙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FRENCH_CASTLE</Tag>
+		<English>French Chateau</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法国城堡</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ZULU_BARRACKS</Tag>
+		<English>Zulu Barracks</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祖鲁兵营</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_STABLES</Tag>
+		<English>Mongol Stable</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古马厩</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INDIAN_GRANARY</Tag>
+		<English>Indian Granary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度粮仓</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROMAN_AQUEDUCT</Tag>
+		<English>Roman Aqueduct</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗马引水渠</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARTHAGE_LIGHTHOUSE</Tag>
+		<English>Carthaginean Lighthouse</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迦太基灯塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIKING_HARBOR</Tag>
+		<English>Viking Harbor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京港口</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MALI_FORGE</Tag>
+		<English>Mali Mint</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马里铸币厂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GERMAN_FACTORY</Tag>
+		<English>German Factory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>德国工厂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EGYPTIAN_OBELISK</Tag>
+		<English>Egyptian Monument</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃及方尖碑</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAPAN_LIBRARY</Tag>
+		<English>Japanese Academy of Bushido</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日本武道馆</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_UNIVERSITY</Tag>
+		<English>Korean University</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>高丽大学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CELTIC_OBSERVATORY</Tag>
+		<English>Celtic Observatory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凯尔特天文台</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RUSSIAN_LABORATORY</Tag>
+		<English>Russian Laboratory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>俄国实验室</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_THEATRE</Tag>
+		<English>Greek Theatre</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希腊剧场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INCAN_AQUEDUCT</Tag>
+		<English>Incan Ceremonial Baths</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印加祭礼浴场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AMERICAN_BROADCAST_TOWER</Tag>
+		<English>American Broadcast Tower</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美国广播塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARABIAN_MARKET</Tag>
+		<English>Arabian Bazaar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿拉伯市场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERSIAN_GROCER</Tag>
+		<English>Persian Apothecary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>波斯药剂店</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ENGLISH_BANK</Tag>
+		<English>English Stock Exchange</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英国证券交易所</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AZTEC_COURTHOUSE</Tag>
+		<English>Aztec Sacrificial Altar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿兹特克人牲祭坛</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHINESE_COURTHOUSE</Tag>
+		<English>Chinese Governor's Palace</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中国官衙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPANISH_JAIL</Tag>
+		<English>Spanish Dungeon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西班牙地牢</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECYCLING_CENTER</Tag>
+		<English>Recycling Center</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>回收中心</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARTEMIS</Tag>
+		<English>The Temple of Artemis</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿尔忒弥斯神庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_WALL</Tag>
+		<English>The Great Wall</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>长城</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SANKORE</Tag>
+		<English>University of Sankore</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>桑科雷大学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CHARISMATIC</Tag>
+		<English>Charismatic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>魅力超群</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE</Tag>
+		<English>Protective</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>御敌保国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUERILLA3</Tag>
+		<English>Guerilla III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>游击三级</Chinese>
+	</TEXT>
+</Civ4GameText>

@@ -1,64 +1,64 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_ADJECTIVE</Tag>
 		<English>Indonesian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÄáÎ÷ÑÇ</Chinese>
+		<Chinese>å°åº¦å°¼è¥¿äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_MATARAM</Tag>
 		<English>Mataram</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíËþÀ¼</Chinese>
+		<Chinese>é©¬å¡”å…°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_PEOPLES</Tag>
 		<English>Malay Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÀ´ÈË</Chinese>
+		<Chinese>é©¬æ¥äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_DESC</Tag>
 		<English>The Indonesians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÄáÎ÷ÑÇÎÄÃ÷</Chinese>
+		<Chinese>å°åº¦å°¼è¥¿äºšæ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_SRIVIJAYA</Tag>
 		<English>Srivijaya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÒÀû·ðÊÅ</Chinese>
+		<Chinese>å®¤åˆ©ä½›é€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_SHORT_DESC</Tag>
 		<English>Indonesia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÄáÎ÷ÑÇ</Chinese>
+		<Chinese>å°åº¦å°¼è¥¿äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIAN_VASSAL</Tag>
 		<English>Kedatuan of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¸½Êô¹ú</Chinese>
+		<Chinese>%s1é™„å±žå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_FASCIST</Tag>
 		<English>%s2 New Order</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2¾üÕþ¸®</Chinese>
+		<Chinese>%s2å†›æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_MAJAPAHIT</Tag>
 		<English>Majapahit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂúÕß²®ÒÄ</Chinese>
+		<Chinese>æ»¡è€…ä¼¯å¤·</Chinese>
 	</TEXT>
 </Civ4GameText>

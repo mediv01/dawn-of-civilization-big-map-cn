@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_DESC</Tag>
 		<English>The Hungarians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÙÑÀÀûÎÄÃ÷</Chinese>
+		<Chinese>åŒˆç‰™åˆ©æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_PEOPLES</Tag>
 		<English>Magyar Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÔú¶ùÈË</Chinese>
+		<Chinese>é©¬æ‰å„¿äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_FASCIST</Tag>
 		<English>Regency of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾üÕş¸®</Chinese>
+		<Chinese>%s1å†›æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_SHORT_DESC</Tag>
 		<English>Hungary</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÙÑÀÀû</Chinese>
+		<Chinese>åŒˆç‰™åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARU_AUSTRO_HUNGARIAN</Tag>
 		<English>Austro-Hungarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂĞÙµÛ¹ú</Chinese>
+		<Chinese>å¥¥åŒˆå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_ADJECTIVE</Tag>
 		<English>Hungarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÙÑÀÀû</Chinese>
+		<Chinese>åŒˆç‰™åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_DEFAULT</Tag>
 		<English>Grand Principality of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1´ó¹«¹ú</Chinese>
+		<Chinese>%s1å¤§å…¬å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

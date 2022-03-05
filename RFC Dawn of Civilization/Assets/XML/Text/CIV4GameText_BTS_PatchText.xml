@@ -1,0 +1,328 @@
+<!--  edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games)  -->
+<!--  freesand leo  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ARITITY</Tag>
+<English>Aridity Level</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>水域比例</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_EARTH_70</Tag>
+<English>Earthlike (70%% water)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>类似地球 (70%% 水域)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_EARTH_60</Tag>
+<English>60%% water</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>60%% 水域</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_PANGAEA</Tag>
+<English>Pangaea</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>泛古陆</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_LAKES</Tag>
+<English>Lakes (30%% water)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>大湖 (30%% 水域)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_MEDITERRANEAN</Tag>
+<English>Mediterranean</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>地中海</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_NO_ICE</Tag>
+<English>No ice</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无冰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_WET</Tag>
+<English>Wet</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>湿润</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ELECTION_CANCELLED</Tag>
+<English>The election has been cancelled</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选项已被取消</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_CREATION_METHOD</Tag>
+<English>Creation Method</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>生成方式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_AI_START</Tag>
+<English>AI's Start</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>电脑玩家初始</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_PLAYER_START</Tag>
+<English>Players' Start</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>人类玩家初始</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_EXCLUDE_METHOD</Tag>
+<English>Exclude Method</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>排除方式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_NO_CONDITIONS</Tag>
+<English>No Conditions</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无条件</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_DEFAULT</Tag>
+<English>Script Default</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>脚本默认</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ALL_IN_OLD_WORLD</Tag>
+<English>All In Old World</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>全部位于旧大陆</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_SAME_AS_AI</Tag>
+<English>Same Rules As AI</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>与电脑玩家相同规则</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_NEAR_COAST</Tag>
+<English>Near Coast</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>临近海岸</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_LARGEST_CONTINENT</Tag>
+<English>Largest Continent</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>最大陆地</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_COASTAL_LARGEST_CONTINENT</Tag>
+<English>Coastal or Largest Continent</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>临近海岸或最大陆地</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_LEFT_VS_RIGHT_BRIDGE</Tag>
+<English>Left vs Right with Desert Bridge</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>沙漠相连的左右陆地</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ROUND</Tag>
+<English>Round</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>圆形</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_DONUT</Tag>
+<English>Donut</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>环形</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_TERRA</Tag>
+<English>Randomized Actual Earth</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>随机生成真实地球</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_TERRA_OLD_WORLD_START</Tag>
+<English>Randomized Actual Earth (Old World Start)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>随机生成真实地球（初始位置在旧大陆）</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_EARTH2_DESCR</Tag>
+<English>An Earth randomizer: it provides continents, islands, and most seas, in actual Earth locations. Apart from that, anything goes. The result is a map in which you may recognize your general starting location, but you won't have a clue about anything around you. Because of Earth's innate tactical opportunities (land and sea chokepoints, secluded islands, etc) this map type offers interesting tactical situations. "Rocky" climate and normal sea levels are recommended if you want a more "earthy" map.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>第二地球——生成随机地球：大陆、岛屿和海洋位置相当于真实地球，除此之外则完全随机。你可以对初始位置有所了解，但不能确知周遭形势。你可以体验真实地球中战略要地的有趣影响（关隘、海峡、岛链等等）。为了更接近真实地球，建议选择“严酷”气候和“标准”海平面。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_TECTONICS_DESCR</Tag>
+<English>Produces mountain ranges, and simulates plate tectonics, giving more realistic/earthlike terrain (mountain ranges, mountains near coasts like the Andes, or between subcontinents like the Himalaia).</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>地质构造——模拟板块构造理论以更接近真实地球的地形（生成数条大型山脉，或是象安第斯山脉那样靠近海岸，或是象喜马拉雅山脉那样位于内陆并分隔出次大陆）。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_ESPIONAGE</Tag>
+<English>No Espionage</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>禁止间谍</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_ESPIONAGE_HELP</Tag>
+<English>Spies are not available, and Espionage Points are converted into Culture</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>禁止使用间谍，谍报点数将转换为文化点数</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HELP_COMMERCE_TO_COMMERCE_FLOAT</Tag>
+<English>[ICON_BULLET]%s1 %F2 from %F3</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1 %F2 来自 %F3</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HELP_COMMERCE_TO_COMMERCE</Tag>
+<English>[ICON_BULLET]%D1%F2 from %F3</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1%F2 来自 %F3</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_LEADER_JOSEF_STALIN_PEDIA</Tag>
+<English>[H1]Stalin [\H1][NEWLINE][BOLD]General Secretary of the Communist Party of the Soviet Union [\BOLD][NEWLINE][BOLD]Lived: [\BOLD] 1878 - 1953[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]His birth name was Joseph Vissarionovich Dzhugashvili, but to the world he will always be known simply as Stalin ("man of steel" in Russian). Stalin was born in 1878 to a poor Georgian family. His father was a cobbler who often beat his wife and young son. At the age of eight, Stalin began his education in the Gori Church School, where instruction was conducted in Russian and he was mocked for his Georgian accent. Stalin graduated first in his class at the age of fourteen and began attending school next at the Tiflis Theological Seminary. Stalin had no interest in becoming a priest, but the seminary was one of the few institutions of higher learning permitted in Georgia by the repressive tsarist government. [PARAGRAPH:2]It was here that Stalin became involved in the revolutionary socialist movement of Russia; in 1899 he was kicked out of the school for his participation in the radical cause. For the next decade Stalin worked in the political underground of the Caucasus region, for which he was arrested and sent to temporary exile in Siberia several times. Over the years Stalin rose through the ranks of the socialist organizations, and in 1912 he gained a position on the central committee of the Bolshevik Party. He later was appointed as an editor of "Pravda," (meaning, "Truth") the main communist newspaper, which was a position with a great deal of influence. [PARAGRAPH:2]Stalin played little role in the events of the 1917 Bolshevik Revolution. He and the other editors of Pravda initially supported Keresnsky's Provisional Government, and even refused to publish Lenin's articles calling for it to be overthrown. (Later, Stalin would falsely claim that he had been part of a "Party Center" which directed the October Revolution.) During the Russian Civil War, Stalin served as a military commissar on various different fronts, but he seems to have been an indifferent military man at best. It was when that conflict ended that his star began to rise. [PARAGRAPH:2]In 1922 Stalin secured the position of General Secretary of the Communist Party, a post that no one else particularly wanted. Stalin recognized the potential power of this job, however, as it gave him control over appointments within the Party. Over time, Stalin built up a group of fiercely loyal followers, eventually becoming one of the most powerful men in the Party. [PARAGRAPH:2]After the death of Lenin in 1924, Stalin formed a centrist ruling coalition along with Kamenev and Zinoviev. In doing so Stalin successfully outmaneuvered his enemy Trotsky, another strong contender for leadership of the USSR. In 1928 Trotsky went into exile and he was assassinated some time thereafter (it is assumed at Stalin's orders). Then Stalin turned on his former allies Kamenev and Zinoviev, driving them from power as well. By the beginning of the 1930s, Stalin had secured undisputed power over both the Communist Party and all of the Soviet Union. [PARAGRAPH:2]With his enemies out of the way, Stalin could begin a thorough transformation of Russia. Up until the First World War Russia had been primarily an agrarian society, but Stalin was determined to change it into an industrial powerhouse. In 1928 he implemented the Five Year Plans, designed to force rapid industrialization upon the country at any cost. To curb the power of the prosperous independent farmers (known as "kulaks") Stalin also nationalized individual farms, replacing them with larger collective farms. Stalin's collectivization of agriculture proved to be a disaster: output actually fell, and there was a great deal of peasant resistance (which was ruthlessly crushed by the Red Army). Despite the crop shortfalls Stalin sold off the agricultural produce of the USSR to get foreign currency to pay for further industrialization, deliberately engineering a mass famine which may have killed as many as 10 million people. [PARAGRAPH:2]Fearing an army plot against him, in 1936 Stalin embarked on the Great Purge, which quickly degenerated into a terrible witch hunt. Many of the old communist leaders were executed after bizarre show trials during which they confessed to outlandish crimes. At the same time the Red Army was gutted of its officer corps. Millions of innocent people died or were exiled to Siberia for no offense whatsoever. Stalin's paranoia claimed an untold number of lives before it had run its course. [PARAGRAPH:2]Stalin's Soviet Union was ruthlessly authoritarian, but it had achieved its goal of industrialization. Advances were made in science, and the free provision of certain state services - including education and housing - did provide new opportunities for many millions of former peasants (although the standard of living remained extremely low compared to Western countries). Freedom of expression was nonexistent, however, and the practice of any kind of religion was made illegal. [PARAGRAPH:2]During the 1930s, Stalin was convinced that Hitler's Nazi Germany was a terrible threat to the Soviet Union. He sought defensive pacts and alliances with England and France, but was soundly rebuffed by both countries. Hoping to stave off what he saw as the USSR's inevitable conflict with Germany until his country had a chance to arm itself, Stalin signed a Faustian bargain with Hitler to divide Eastern Europe between the two powers. In September of 1939 Nazi Germany invaded Poland and three weeks later the Soviet Union jumped into the conflict to claim the eastern half of the country. [PARAGRAPH:2] By doing so Stalin believed that he had earned Hitler's gratitude (if not friendship), and that a German attack on the USSR did not lay in the imminent future. However, like so many other leaders Stalin totally misread Hitler, and despite increasingly frantic warnings of German soldiers massing on the borders, he was totally caught off guard when in June of 1941 Hitler launched a massive invasion. In fact, for the first days of the invasion Stalin remained convinced that it was some kind of mistake and refused to let his troops counterattack for fear of provoking Hitler! Because of Stalin's blunders the Soviets suffered enormous losses in the first few weeks. [PARAGRAPH:2]With Stalin stunned into bewildered inaction by his miscalculations, it was only the sheer size of Russia that prevented the Germans from winning a quick victory. In December of 1941 winter - Russia's oldest and best ally - saved Moscow from capture. Regaining his composure, Stalin then led the Soviet Union in a bitter and gruesome struggle to the death against Nazi Germany, with countless atrocities on both sides. Stalin's transfer of heavy industry east into the Urals, combined with the unbelievable size and manpower of the Soviet Union - supported by heavy British and American fighting in the West - ultimately led to victory in 1945, when Soviet troops marched triumphantly into Berlin. The cost, however, was staggering: an estimated 10 million Russian soldiers and 20 million civilians died in the conflict. [PARAGRAPH:2]By the end of the war the Red Army had overrun Eastern Europe, and once there Stalin had no intention of leaving. Despite promising to allow free elections during wartime conferences with the Americans and British, Stalin had no intention of doing anything of the sort and he set up puppet communist regimes across the region. While Tito's government in Yugoslavia successfully broke away from Stalin's bloc, the rest of the countries in Eastern Europe would spend the next three decades under the oppressive rule of the Soviet Union. [PARAGRAPH:2]Despite their uneasy alliance during the recent war, the USSR remained on hostile terms with its erstwhile Western Allies. Stalin's support of the Communist Chinese and his blockade of West Berlin in 1948 helped led to the outbreak of the Cold War, a bitter period of proxy warfare and ever-growing nuclear arsenals that would drag on for fifty bleak years. [PARAGRAPH:2]During his reign Stalin encouraged the development of a sycophantic cult of personality where he was worshipped as little less than a god. When he finally died in 1953 there was an enormous outpouring of genuine grief across the Soviet Union. Later, after Khrushchev revealed the extent of Stalin's crimes in his secret speech of 1956, public opinion would become less favorable. Overall, it must be said that Stalin was successful in changing the backwards agricultural state of the tsars into a modern global superpower. No country deserves more credit for defeating Nazi Germany than the Soviet Union. However the truly appalling and barbaric methods used to achieve these successes must always be kept in mind, and Stalin will always remain a controversial character in history. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]斯大林[\H1][NEWLINE][BOLD]苏联共产党总书记[\BOLD][NEWLINE][BOLD]生卒年份: [\BOLD]1878-1953[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]原名约瑟夫·维萨里奥诺维奇·朱加施维里，但以斯大林的名字闻名于世（斯大林在俄文中是“钢铁一样的人”的意思），斯大林在1878年诞生于一个贫寒的格鲁吉亚家庭。他的父亲是个经常虐待妻儿的鞋匠。在八岁那年，斯大林开始在高里教会学校接受教育。在那里，教学使用俄语，斯大林的格鲁吉亚口音备受嘲弄。斯大林十四岁的时候以头名毕业，紧接着进入了第比利斯神学院。斯大林无意成为牧师，但神学院是在帝俄统治下的少数被允许的格鲁吉亚高等学府。[PARAGRAPH:2]斯大林在这里投身革命。1899年，斯大林因为参加激进运动而被开除。之后的十年斯大林在高加索地区从事地下活动，期间他被逮捕并流放至西伯利亚很多次。斯大林在组织中的地位不断提升，到了1912年他成为了布尔什维克中央委员会的一员。之后他成为了真理报的编辑，这是一个很有影响力的职位。[PARAGRAPH:2]斯大林在1917年十月革命中并没有起多大作用。他和其它编辑最开始支持克伦斯基临时政府，他们甚至拒绝刊载列宁号召推翻临时政府的文章（后来斯大林伪称自己是十月革命的领导核心之一）。在俄国内战期间斯大林作为政委出现在各个前线，但是他的作用无关紧要。从那时起，他时来运转了。[PARAGRAPH:2]1922年，斯大林坐稳了中央委员会书记的位子，这个位子并没有人想争。斯大林看到了这个职位的潜力，他利用这个职位在中央迅速取得权力。他开始培植羽翼，并成为党内最有权势的人。[PARAGRAPH:2]1924年列宁死后，斯大林、卡米涅夫以及奇诺维也夫组成了领导核心。由此斯大林成功排挤他的死敌托洛斯基。1928年托洛斯基遭到流放，并在国外被暗杀。在三十年代初，斯大林整肃了几乎所有的对手，在党内取得空前的权力。[PARAGRAPH:2]肃清了政敌之后，斯大林开始改造他的国家。直到一战的时候俄国仍然处于农业社会，但斯大林决定实行全面工业化。在1928年，斯大林实行了第一个五年计划，不惜一切代价进行工业化。为了削弱自耕农的势力，斯大林国有化了私人农场。斯大林的农业政策被证明是一场灾难：粮食减产引起许多农民的反抗（都被红军无情镇压），尽管农业产量降低，斯大林仍然出售农产品换取外汇以支持工业化。由此引起的饥荒据估计造成了一千万人死亡。[PARAGRAPH:2]1936年斯大林为了粉碎军队内反对他的阴谋而发动“大清洗”，最终形成横扫全国的红色恐怖。许多资深领导人在严刑逼供后承认罪行。大清洗也对军官阶层造大巨大破坏，数以百万计的人被处决或被流放。[PARAGRAPH:2]斯大林在苏联实行冷酷无情的统治，但是他达到了工业化的目标。科学技术获得不断进步，教育和住房成为国家福利，上百万农民成为工人（尽管他们的生活条件跟西方相比仍然十分恶劣）。言论自由不复存在，任何宗教活动都被禁止。[PARAGRAPH:2]自30年代开始，斯大林相信纳粹德国将成为巨大威胁。于是他想跟英法结盟，但遭到冷遇。为了争取时间，斯大林和希特勒达成了瓜分东欧的协议。1939年9月，德国进攻波兰，三个星期后苏联介入战争并吞并波兰东部领土。[PARAGRAPH:2]斯大林相信通过这些举动能换来希特勒的善意而使德国的进攻不会很快发生。然而，跟许多其他领袖一样，斯大林没能读懂希特勒。尽管事先在边界地区收到大量警报，斯大林没有采取防御措施。实际上，在进攻的第一天，斯大林还相信这只不过是误会，而不让他的部队进行反击而触怒希特勒。由于斯大林的失误，苏联红军蒙受了巨大损失。[PARAGRAPH:2]在斯大林被弄懵了的时候，苏联辽阔的版图阻止了德国人赢得速胜。1941年12月，俄国古老的盟友“寒冬”保卫了莫斯科。恢复常态后，斯大林带领苏联人民同纳粹德国展开殊死抗争。斯大林把重工业东移乌拉尔山区，结合苏联巨大的幅员和人力资源，加上西方盟国的支援，苏联红军最终攻陷柏林赢得了战争的胜利。然而，苏联也付出了一千万军人和两千万平民生命的巨大代价。[PARAGRAPH:2]战争结束时，红军已经占据整个了东欧，斯大林也无意撤回他们。尽管在战时斯大林对英美许诺过自由选举，但他无意实行，并在那里广泛地扶植傀儡政权。尽管铁托的南斯拉夫摆脱了苏联的控制，其他的东欧国家却在未来的三十年里饱受苏联的压迫。[PARAGRAPH:2]战时的松散联盟并未缓解苏联对西方的敌意。斯大林对中国共产党的支持以及1948年对西柏林的封锁逐渐引发了冷战。世界在代理人战争与核军备竞赛中度过了五十年。[PARAGRAPH:2]斯大林在统治期间大搞个人崇拜，当他于1953年去世的时候，苏联上下流露出真挚而巨大的悲痛。但到1956年，赫鲁晓夫通过秘密报告披露了斯大林的罪行，公众对他的态度也开始转变。总的来说，斯大林成功地把一个沙皇时代的农业国家变成一个世界级的工业强权。对于战胜德国纳粹，也没有任何其他国家比苏联更有功劳。然而实现这些成就的野蛮做法应该被铭记于心，斯大林也将永远作为一个争议人物名留史册。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_NUKES_PEDIA</Tag>
+<English>[H1]Nukes[\H1][PARAGRAPH:2]"Nukes," also known as "[LINK=UNIT_ICBM]ICBMs[\LINK]" (intercontinental ballistic missiles), can ruin a leader's whole day. These are the ultimate weapons available in Civilization IV, and they are extremely potent.[PARAGRAPH:2] [H2]Acquiring Nukes[\H2][PARAGRAPH:2]To build nuclear weapons, you need the following: [PARAGRAPH:2][BOLD]The Manhattan Project Wonder[\BOLD][PARAGRAPH:2]Someone in the game must have built the [LINK=PROJECT_MANHATTAN_PROJECT]Manhattan Project[\LINK] wonder. It needn't be you; once anybody has built the Manhattan Project, everyone can build nukes (if they meet the other requirements).[PARAGRAPH:2][BOLD]Rocketry and Fission[\BOLD][PARAGRAPH:2]You need to know the [LINK=TECH_ROCKETRY]Rocketry[\LINK] and [LINK=TECH_FISSION]Fission[\LINK] technologies before you can construct nukes.[PARAGRAPH:2][BOLD]Uranium[\BOLD][PARAGRAPH:2]You need access to the [LINK=BONUS_URANIUM]Uranium[\LINK] resource to build nukes. Uranium is uncovered by the [LINK=TECH_PHYSICS]Physics[\LINK] tech.[PARAGRAPH:2][H2]Constructing Nukes[\H2][PARAGRAPH:2]You build nukes in a city, just like any other unit.[PARAGRAPH:2][H2]Launching a Nuke[\H2][PARAGRAPH:2]Nukes have unlimited range: they can reach any [LINK=CONCEPT_EXPLORATION]Explored[\LINK] space on the map. Once launched, nukes reach their target space and detonate immediately.[PARAGRAPH:2][H2]Area of Effect[\H2][PARAGRAPH:2]Nukes are "area of effect" weapons; when detonated they cause damage in their target square, but they also cause damage to the eight squares that are adjacent to the target square. In fact, the eight adjacent squares get hit just as hard as the target square.[PARAGRAPH:2][H2]Damage Effects[\H2][PARAGRAPH:2][BOLD]Buildings[\BOLD][PARAGRAPH:2]If a nuke detonates in or adjacent to a city, the computer makes a "kill check" against each building; if the building passes the check, it emerges unharmed. If the target building fails, it is destroyed (but see "bomb shelters," below). Wonders cannot be destroyed by nukes![PARAGRAPH:2][BOLD]Units[\BOLD][PARAGRAPH:2]The computer makes a "kill check" against each unit; if the unit fails, the check it is destroyed. If the unit passes the check, it may emerge damaged or unscathed. [PARAGRAPH:2][BOLD]Improvements[\BOLD][PARAGRAPH:2]If a nuke detonates on top of or adjacent to an improvement, that improvement too must go through a "kill check." (Exception: nukes never damage roads or rails.)[PARAGRAPH:2][BOLD]Fallout[\BOLD][PARAGRAPH:2]A nuclear detonation may produce "fallout" - radioactive debris - in any of the target squares. Fallout makes the space totally unworkable; in other words, a nearby city cannot draw food, commerce, production, or resources from a square damaged by fallout.[PARAGRAPH:2][H2]Scrubbing Fallout[\H2][PARAGRAPH:2]Once you have discovered the [LINK=TECH_ECOLOGY]Ecology[\LINK] technology, your workers can "scrub" (or clean) fallout. Scrubbing fallout is like any other worker action; multiple workers can scrub a space simultaneously to speed the job up; certain [LINK=CONCEPT_CIVICS]Civics[\LINK] and [LINK=CONCEPT_WONDERS]Wonders[\LINK] may cause workers to scrub fallout faster, and so forth. [PARAGRAPH:2][H2]SDI and Nukes[\H2][PARAGRAPH:2]The [LINK=PROJECT_SDI]SDI[\LINK] project has an excellent chance of intercepting any nukes targeted at your territory.[PARAGRAPH:2][H2]Bomb Shelters and Nukes[\H2][PARAGRAPH:2] A bomb shelter in a city reduces damage by 75%%.[PARAGRAPH:2][H2]Diplomatic Penalties[\H2][PARAGRAPH:2]There are serious diplomatic penalties attached to using nukes. Relations with other civilizations are almost certain to drop precipitously, and you may find yourself at the recieving end of someone else's nuclear arsenal. You have been warned![PARAGRAPH:2][H2]Global Warming[\H2][PARAGRAPH:2]Use of nuclear weapons will cause Global Warming to begin, turning previously fertile tiles into useless desert. Prolonged nuclear exchanges will transform the world into an uninhabitable wasteland.[PARAGRAPH:2]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]核弹[\H1][PARAGRAPH:2]“核弹”，即“[LINK=UNIT_ICBM]战略导弹[\LINK]”（洲际弹道导弹），具有毁灭性的破坏力。这是文明IV中的终极武器，杀伤效果相当之强。[PARAGRAPH:2][H2]制造核弹[\H2][PARAGRAPH:2]要制造核武器，你需要以下条件:[PARAGRAPH:2][BOLD]曼哈顿工程[\BOLD][PARAGRAPH:2]游戏中的文明完成[LINK=PROJECT_MANHATTAN_PROJECT]曼哈顿工程[\LINK]将启用核弹，而不必由你亲自完成；一旦某个文明完成曼哈顿工程，所有文明即可制造核弹（在满足其他前提的情况下）。[PARAGRAPH:2][BOLD]火箭与核裂变科技[\BOLD][PARAGRAPH:2]你需要掌握[LINK=TECH_ROCKETRY]火箭[\LINK]与[LINK=TECH_FISSION]核裂变[\LINK]科技才能制造核弹。[PARAGRAPH:2][BOLD]铀[\BOLD][PARAGRAPH:2]你需要拥有[LINK=BONUS_URANIUM]铀[\LINK]资源才能制造核弹。铀资源在发现[LINK=TECH_PHYSICS]物理学[\LINK]科技之后启用。[PARAGRAPH:2][H2]制造核弹[\H2][PARAGRAPH:2]核弹像其他单位一样在城市中制造。[PARAGRAPH:2][H2]发射核弹[\H2][PARAGRAPH:2]核弹具有无限的射程：能够打击任何[LINK=CONCEPT_EXPLORATION]已探明[\LINK]的区域。发射之后，核弹即命中目标并立即引爆。[PARAGRAPH:2][H2]影响范围[\H2][PARAGRAPH:2]核弹是具有“影响范围”的武器；核爆炸除了对目标方格造成破坏，也会对相邻的八个方格造成破坏。实际上，相邻方格与目标方格遭受的打击将同样巨大。[PARAGRAPH:2][H2]破坏效果[\H2][PARAGRAPH:2][BOLD]建筑[\BOLD][PARAGRAPH:2]核爆炸的影响范围如果包括城市所在方格，电脑将对每座建筑进行“死亡筛选”；如果某种建筑能经受筛选则将幸存。如果不能经受则将被摧毁（例外情况见下文“防空洞”）。但奇观不能被核弹摧毁![PARAGRAPH:2][BOLD]单位[\BOLD][PARAGRAPH:2]电脑将对每个单位进行“死亡筛选”；如果不能经受筛选将被摧毁。如果能经受则将幸存。[PARAGRAPH:2][BOLD]区域设施[\BOLD][PARAGRAPH:2]核爆炸的影响范围如果包括区域设施所在方格，该设施也将经受“死亡筛选”。（例外：核弹不能摧毁道路或铁路.）[PARAGRAPH:2][BOLD]辐射[\BOLD][PARAGRAPH:2]核爆炸将在影响范围内造成“辐射”——放射性尘埃。辐射区域完全不能利用；也就是说，城市无法从辐射区获得食物、商业和工业产出，也不能利用当地的资源。[PARAGRAPH:2][H2]清除辐射[\H2][PARAGRAPH:2]一旦你获得[LINK=TECH_ECOLOGY]生态学[\LINK]科技，你的工人将可以“清除”（净化）辐射区域。清除辐射类似工人的其他行动；多个工人可同时清除同一区域以加快进度；某些[LINK=CONCEPT_CIVICS]内政法令[\LINK]和[LINK=CONCEPT_WONDERS]奇观[\LINK]也可以加速工人清除辐射的速度。[PARAGRAPH:2][H2]战略导弹防御系统与核弹[\H2][PARAGRAPH:2][LINK=PROJECT_SDI]战略导弹防御系统[\LINK]工程有很大几率拦截来袭的核弹。[PARAGRAPH:2][H2]防空洞与核弹[\H2][PARAGRAPH:2]城市中的防空洞能减少核爆炸造成的破坏。[PARAGRAPH:2][H2]外交惩罚[\H2][PARAGRAPH:2]使用核弹有极大的外交惩罚。将造成与所有文明的关系急剧恶化，你也将成为其他文明的核弹所瞄准的目标。警惕这一点![PARAGRAPH:2][H2]全球变暖[\H2][PARAGRAPH:2]使用核武器将引发全球变暖进程，使原先丰饶的土地变为荒漠。长期的核战争将使整个世界成为不适宜人类居住的荒凉星球。[PARAGRAPH:2]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_PER_LEVEL</Tag>
+<English>[ICON_BULLET]+1%F1_HappyOrUn per %d2_Percent%% %F3_CommIcon Rate</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]+1%F1_HappyOrUn每增加%d2_Percent%%的%F3_CommIcon比率</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_DEFENSE_MOD</Tag>
+<English>[ICON_BULLET]%d1_Mod%% Defense (Except vs. Gunpowder-based Units)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]防御能力增加%d1_Mod%% (仅对冷兵器类单位有效)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_23</Tag>
+<English>Never bring a sword to a gunfight.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>绝不要在拿火枪的对手面前耍刀。</Chinese>
+</TEXT>
+</Civ4GameText>

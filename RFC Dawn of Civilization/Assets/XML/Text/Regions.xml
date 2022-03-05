@@ -1,779 +1,779 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_17</Tag>
 		<English>Indochina</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÄÏ°ëµº</Chinese>
+		<Chinese>ä¸­å—åŠå²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_72</Tag>
 		<English>Skagerrak and Kattegat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿¨¸ñÀ­¿ËºÍ¿­ÌØ¼ÓÌØ</Chinese>
+		<Chinese>æ–¯å¡æ ¼æ‹‰å…‹å’Œå‡¯ç‰¹åŠ ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_75</Tag>
 		<English>New Guinea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Ä´óÀûÑÇ</Chinese>
+		<Chinese>æ¾³å¤§åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_13</Tag>
 		<English>India</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶È</Chinese>
+		<Chinese>å°åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_27</Tag>
 		<English>West Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷·Ç</Chinese>
+		<Chinese>è¥¿é</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_16</Tag>
 		<English>China</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú</Chinese>
+		<Chinese>ä¸­å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_53</Tag>
 		<English>South Asia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏÑÇ</Chinese>
+		<Chinese>å—äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_48</Tag>
 		<English>Black Sea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÚº£µØÇø</Chinese>
+		<Chinese>é»‘æµ·åœ°åŒº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_106</Tag>
 		<English>Nunavik</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å¬ÄÇÎ¬¿Ë</Chinese>
+		<Chinese>åŠªé‚£ç»´å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_0</Tag>
 		<English>Egypt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_14</Tag>
 		<English>Korea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º«¹ú</Chinese>
+		<Chinese>éŸ©å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_58</Tag>
 		<English>Maghreb</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí¸ñÀï²¼</Chinese>
+		<Chinese>é©¬æ ¼é‡Œå¸ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_7</Tag>
 		<English>Mediterranean</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µØÖĞº£µØÇø</Chinese>
+		<Chinese>åœ°ä¸­æµ·åœ°åŒº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_14</Tag>
 		<English>Deccan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂ¸É</Chinese>
+		<Chinese>å¾·å¹²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_0</Tag>
 		<English>Britain</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÁĞµß</Chinese>
+		<Chinese>ä¸åˆ—é¢ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_88</Tag>
 		<English>Lake Zaysan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ«É£²´</Chinese>
+		<Chinese>æ–‹æ¡‘æ³Š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_35</Tag>
 		<English>Argentina</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢¸ùÍ¢</Chinese>
+		<Chinese>é˜¿æ ¹å»·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_27</Tag>
 		<English>Persia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¨Ë¹</Chinese>
+		<Chinese>æ³¢æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_59</Tag>
 		<English>West Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷·Ç</Chinese>
+		<Chinese>è¥¿é</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_93</Tag>
 		<English>Nubia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å¬±ÈÑÇ</Chinese>
+		<Chinese>åŠªæ¯”äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_32</Tag>
 		<English>South and Central America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÄÏÃÀÖŞ</Chinese>
+		<Chinese>ä¸­å—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_3</Tag>
 		<English>Balkans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Í¶û¸É</Chinese>
+		<Chinese>å·´å°”å¹²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_36</Tag>
 		<English>France</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¨À¼Î÷</Chinese>
+		<Chinese>æ³•å…°è¥¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_68</Tag>
 		<English>Easter Island</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸´»î½Úµº</Chinese>
+		<Chinese>å¤æ´»èŠ‚å²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_45</Tag>
 		<English>Guayanas, South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹çÑÇÄÇ£¬ÄÏÃÀÖŞ</Chinese>
+		<Chinese>åœ­äºšé‚£ï¼Œå—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_92</Tag>
 		<English>Britannia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ó²»ÁĞµß</Chinese>
+		<Chinese>å¤§ä¸åˆ—é¢ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_71</Tag>
 		<English>China</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú</Chinese>
+		<Chinese>ä¸­å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_25</Tag>
 		<English>Maghreb</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí¸ñÀï²¼</Chinese>
+		<Chinese>é©¬æ ¼é‡Œå¸ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_18</Tag>
 		<English>Korea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³¯ÏÊ°ëµº</Chinese>
+		<Chinese>æœé²œåŠå²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_42</Tag>
 		<English>Andean Coast, South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹º£°¶,ÄÏÃÀÖŞ</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯æµ·å²¸,å—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_29</Tag>
 		<English>Canada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÄÃ´ó</Chinese>
+		<Chinese>åŠ æ‹¿å¤§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_98</Tag>
 		<English>Mississippi and Ohio Rivers</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±ÈºÓºÍ¶íº¥¶íºÓ</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”æ²³å’Œä¿„äº¥ä¿„æ²³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_66</Tag>
 		<English>New Zealand</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂÎ÷À¼</Chinese>
+		<Chinese>æ–°è¥¿å…°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_32</Tag>
 		<English>Caribbean</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÀÕ±È</Chinese>
+		<Chinese>åŠ å‹’æ¯”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_63</Tag>
 		<English>Atlantic Coast, Canada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÄÃ´ó´óÎ÷Ñóº£°¶</Chinese>
+		<Chinese>åŠ æ‹¿å¤§å¤§è¥¿æ´‹æµ·å²¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_21</Tag>
 		<English>Balkans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Í¶û¸É</Chinese>
+		<Chinese>å·´å°”å¹²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_30</Tag>
 		<English>Alaska</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­Ë¹¼Ó</Chinese>
+		<Chinese>é˜¿æ‹‰æ–¯åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_26</Tag>
 		<English>Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀË÷²»´ïÃ×ÑÇ</Chinese>
+		<Chinese>ç¾ç´¢ä¸è¾¾ç±³äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_15</Tag>
 		<English>Manchuria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú¶«±±</Chinese>
+		<Chinese>ä¸­å›½ä¸œåŒ—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_22</Tag>
 		<English>Central Asia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÑÇ</Chinese>
+		<Chinese>ä¸­äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_77</Tag>
 		<English>Hejaz</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕ¼Ö×È</Chinese>
+		<Chinese>èµ«è´¾å…¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_5</Tag>
 		<English>Transoxania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÓÖĞµØÇø</Chinese>
+		<Chinese>æ²³ä¸­åœ°åŒº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_2</Tag>
 		<English>Italy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Òâ´óÀû</Chinese>
+		<Chinese>æ„å¤§åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_6</Tag>
 		<English>Russia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶íÂŞË¹</Chinese>
+		<Chinese>ä¿„ç½—æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_76</Tag>
 		<English>Pacific Islands</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì«Æ½ÑóµºÓì</Chinese>
+		<Chinese>å¤ªå¹³æ´‹å²›å±¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_28</Tag>
 		<English>Spain</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀ</Chinese>
+		<Chinese>è¥¿ç­ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_55</Tag>
 		<English>Deccan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂ¸É</Chinese>
+		<Chinese>å¾·å¹²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_104</Tag>
 		<English>Libya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Àû±ÈÑÇ</Chinese>
+		<Chinese>åˆ©æ¯”äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_17</Tag>
 		<English>China</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú</Chinese>
+		<Chinese>ä¸­å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_67</Tag>
 		<English>Marquesas</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí¿ËÈøË¹Èºµº</Chinese>
+		<Chinese>é©¬å…‹è¨æ–¯ç¾¤å²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_50</Tag>
 		<English>Mecca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âó¼Ó</Chinese>
+		<Chinese>éº¦åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_31</Tag>
 		<English>North America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±ÃÀÖŞ</Chinese>
+		<Chinese>åŒ—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_25</Tag>
 		<English>Oceania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÑóÖŞ</Chinese>
+		<Chinese>å¤§æ´‹æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_5</Tag>
 		<English>Scandinavia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿°µÄÄÉÎ¬ÑÇ</Chinese>
+		<Chinese>æ–¯å ªçš„çº³ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_40</Tag>
 		<English>Scandinavia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿°µÄÄÉÎ¬ÑÇ</Chinese>
+		<Chinese>æ–¯å ªçš„çº³ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_20</Tag>
 		<English>Manchuria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú¶«±±</Chinese>
+		<Chinese>ä¸­å›½ä¸œåŒ—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_83</Tag>
 		<English>Subequatorial Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇ³àµÀ·ÇÖŞ</Chinese>
+		<Chinese>äºšèµ¤é“éæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_44</Tag>
 		<English>Gran Colombia, South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ó¸çÂ×±ÈÑÇ£¬ÄÏÃÀÖŞ</Chinese>
+		<Chinese>å¤§å“¥ä¼¦æ¯”äºšï¼Œå—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_43</Tag>
 		<English>Peru, South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃØÂ³£¬ÄÏÃÀÖŞ</Chinese>
+		<Chinese>ç§˜é²ï¼Œå—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_16</Tag>
 		<English>Indonesia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÄáÎ÷ÑÇ</Chinese>
+		<Chinese>å°åº¦å°¼è¥¿äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_52</Tag>
 		<English>Vienna</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î¬Ò²ÄÉ</Chinese>
+		<Chinese>ç»´ä¹Ÿçº³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_57</Tag>
 		<English>Iberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÁ±ÈÀûÑÇ</Chinese>
+		<Chinese>ä¼Šæ¯”åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_41</Tag>
 		<English>Siberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷²®ÀûÑÇ</Chinese>
+		<Chinese>è¥¿ä¼¯åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_36</Tag>
 		<English>Peru</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃØÂ³</Chinese>
+		<Chinese>ç§˜é²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_9</Tag>
 		<English>Gaul</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ßÂ¬</Chinese>
+		<Chinese>é«˜å¢</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_99</Tag>
 		<English>Ohio River</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶íº¥¶íºÓ</Chinese>
+		<Chinese>ä¿„äº¥ä¿„æ²³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_105</Tag>
 		<English>Kivalliq</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆäÍßÀï¿Ë</Chinese>
+		<Chinese>å…¶ç“¦é‡Œå…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_60</Tag>
 		<English>Brazil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷</Chinese>
+		<Chinese>å·´è¥¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_22</Tag>
 		<English>North Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±·Ç</Chinese>
+		<Chinese>åŒ—é</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_80</Tag>
 		<English>Lower Nile, North Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÂÄáÂŞºÓ£¬±±·Ç</Chinese>
+		<Chinese>ä¸‹å°¼ç½—æ²³ï¼ŒåŒ—é</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_87</Tag>
 		<English>Danube River</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àè§ºÓ</Chinese>
+		<Chinese>å¤šç‘™æ²³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_1</Tag>
 		<English>Phoenicia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_89</Tag>
 		<English>Gallia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÀûÑÇ</Chinese>
+		<Chinese>åŠ åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_23</Tag>
 		<English>Siberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷²®ÀûÑÇ</Chinese>
+		<Chinese>è¥¿ä¼¯åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_86</Tag>
 		<English>Mesoamerica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÃÀÖŞ</Chinese>
+		<Chinese>ä¸­ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_15</Tag>
 		<English>Indochina</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÄÏ°ëµº</Chinese>
+		<Chinese>ä¸­å—åŠå²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_31</Tag>
 		<English>United States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀ¹ú</Chinese>
+		<Chinese>ç¾å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_6</Tag>
 		<English>Northwest India</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÎ÷±±²¿</Chinese>
+		<Chinese>å°åº¦è¥¿åŒ—éƒ¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_30</Tag>
 		<English>North America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±ÃÀÖŞ</Chinese>
+		<Chinese>åŒ—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_85</Tag>
 		<English>Barents</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÂ×Ö§</Chinese>
+		<Chinese>å·´ä¼¦æ”¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_46</Tag>
 		<English>Caribbean</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÀÕ±Èº£</Chinese>
+		<Chinese>åŠ å‹’æ¯”æµ·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_37</Tag>
 		<English>Colombia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸çÂ×±ÈÑÇ</Chinese>
+		<Chinese>å“¥ä¼¦æ¯”äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_103</Tag>
 		<English>Nigeria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄáÈÕÀûÑÇ</Chinese>
+		<Chinese>å°¼æ—¥åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_35</Tag>
 		<English>Australia and Oceania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÄÖŞºÍ´óÑóÖŞ</Chinese>
+		<Chinese>æ¾³æ´²å’Œå¤§æ´‹æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_96</Tag>
 		<English>Northwestern South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏÃÀÖŞÎ÷±±²¿</Chinese>
+		<Chinese>å—ç¾æ´²è¥¿åŒ—éƒ¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_3</Tag>
 		<English>Persia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¨Ë¹</Chinese>
+		<Chinese>æ³¢æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_81</Tag>
 		<English>China and Manchuria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹úÖĞÔ­ÓëÖĞ¹ú¶«±±</Chinese>
+		<Chinese>ä¸­å›½ä¸­åŸä¸ä¸­å›½ä¸œåŒ—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_4</Tag>
 		<English>Europe</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å·ÖŞ</Chinese>
+		<Chinese>æ¬§æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_70</Tag>
 		<English>Mediterranean Coast</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µØÖĞº£º£°¶</Chinese>
+		<Chinese>åœ°ä¸­æµ·æµ·å²¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_91</Tag>
 		<English>Italia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Òâ´óÀû</Chinese>
+		<Chinese>æ„å¤§åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_65</Tag>
 		<English>Hawaii</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÄÍşÒÄ</Chinese>
+		<Chinese>å¤å¨å¤·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_21</Tag>
 		<English>Tibet</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷²Ø</Chinese>
+		<Chinese>è¥¿è—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_37</Tag>
 		<English>Italy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Òâ´óÀû</Chinese>
+		<Chinese>æ„å¤§åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_2</Tag>
 		<English>Babylonia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Í±ÈÂ×</Chinese>
+		<Chinese>å·´æ¯”ä¼¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_101</Tag>
 		<English>Mississippi River and Great Lakes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±ÈºÓºÍÎå´óºş</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”æ²³å’Œäº”å¤§æ¹–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_33</Tag>
 		<English>Mesoamerica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÃÀÖŞ</Chinese>
+		<Chinese>ä¸­ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_26</Tag>
 		<English>Ethiopia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£Èû¶í±ÈÑÇ</Chinese>
+		<Chinese>åŸƒå¡ä¿„æ¯”äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_39</Tag>
 		<English>England</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¢¸ñÀ¼</Chinese>
+		<Chinese>è‹±æ ¼å…°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_7</Tag>
 		<English>Anatolia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²ÄÉÍĞÀûÑÇ</Chinese>
+		<Chinese>å®‰çº³æ‰˜åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_102</Tag>
 		<English>Cameroon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¦ÂóÂ¡</Chinese>
+		<Chinese>å–€éº¦éš†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_1</Tag>
 		<English>Iberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÁ±ÈÀûÑÇ</Chinese>
+		<Chinese>ä¼Šæ¯”åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_47</Tag>
 		<English>Eastern Mediterranean</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µØÖĞº£¶«²¿</Chinese>
+		<Chinese>åœ°ä¸­æµ·ä¸œéƒ¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_10</Tag>
 		<English>Egypt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_38</Tag>
 		<English>Russia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶íÂŞË¹</Chinese>
+		<Chinese>ä¿„ç½—æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_11</Tag>
 		<English>Maghreb</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí¸ñÀï²¼</Chinese>
+		<Chinese>é©¬æ ¼é‡Œå¸ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_12</Tag>
 		<English>Greece and Anatolia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ï£À°ºÍ°²ÄÉÍĞÀûÑÇ</Chinese>
+		<Chinese>å¸Œè…Šå’Œå®‰çº³æ‰˜åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_13</Tag>
 		<English>Egypt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_61</Tag>
 		<English>South America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏÃÀÖŞ</Chinese>
+		<Chinese>å—ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_69</Tag>
 		<English>China</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞ¹ú</Chinese>
+		<Chinese>ä¸­å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_9</Tag>
 		<English>Arabia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­²®</Chinese>
+		<Chinese>é˜¿æ‹‰ä¼¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_24</Tag>
 		<English>Australia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Ä´óÀûÑÇ</Chinese>
+		<Chinese>æ¾³å¤§åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_108</Tag>
 		<English>Kalaallit Nunaat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¨À­ÀûÌØÅ¬ÄÉÌØ</Chinese>
+		<Chinese>å¡æ‹‰åˆ©ç‰¹åŠªçº³ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_34</Tag>
 		<English>Brazil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷</Chinese>
+		<Chinese>å·´è¥¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_10</Tag>
 		<English>Britain</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÁĞµß</Chinese>
+		<Chinese>ä¸åˆ—é¢ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_100</Tag>
 		<English>Great Lakes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Îå´óºş</Chinese>
+		<Chinese>äº”å¤§æ¹–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_82</Tag>
 		<English>Southern Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ²¿·ÇÖŞ</Chinese>
+		<Chinese>å—éƒ¨éæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_49</Tag>
 		<English>Cairo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ªÂŞ</Chinese>
+		<Chinese>å¼€ç½—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_19</Tag>
 		<English>Japan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÕ±¾</Chinese>
+		<Chinese>æ—¥æœ¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_33</Tag>
 		<English>Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÇÖŞ</Chinese>
+		<Chinese>éæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_51</Tag>
 		<English>Baghdad</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Í¸ñ´ï</Chinese>
+		<Chinese>å·´æ ¼è¾¾</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_95</Tag>
 		<English>Inca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¼Ó</Chinese>
+		<Chinese>å°åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_90</Tag>
 		<English>Germania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÕ¶úÂü</Chinese>
+		<Chinese>æ—¥è€³æ›¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_62</Tag>
 		<English>Canada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÄÃ´ó</Chinese>
+		<Chinese>åŠ æ‹¿å¤§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_8</Tag>
 		<English>Iberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÁ±ÈÀûÑÇ</Chinese>
+		<Chinese>ä¼Šæ¯”åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_84</Tag>
 		<English>Sub Saharan Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èö¹şÀ­ÒÔÄÏ·ÇÖŞ</Chinese>
+		<Chinese>æ’’å“ˆæ‹‰ä»¥å—éæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_97</Tag>
 		<English>Mississippi River</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±ÈºÓÁ÷Óò</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”æ²³æµåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_28</Tag>
 		<English>South Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ·Ç</Chinese>
+		<Chinese>å—é</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_24</Tag>
 		<English>Egypt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_29</Tag>
 		<English>Europe</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å·ÖŞ</Chinese>
+		<Chinese>æ¬§æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_</Tag>
@@ -785,85 +785,85 @@
 		<Tag>TXT_KEY_UHV_AREA_64</Tag>
 		<English>Pacific Coast, Canada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÓÄÃ´óÌ«Æ½Ñóº£°¶</Chinese>
+		<Chinese>åŠ æ‹¿å¤§å¤ªå¹³æ´‹æµ·å²¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_23</Tag>
 		<English>Near East</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ü¶«</Chinese>
+		<Chinese>è¿‘ä¸œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_18</Tag>
 		<English>Indonesia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÄáÎ÷ÑÇ</Chinese>
+		<Chinese>å°åº¦å°¼è¥¿äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_94</Tag>
 		<English>South Levant</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏÀè·²ÌØ</Chinese>
+		<Chinese>å—é»å‡¡ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_20</Tag>
 		<English>Ethiopia and Subequatorial Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£Èû¶í±ÈÑÇºÍ³àµÀ·ÇÖŞ</Chinese>
+		<Chinese>åŸƒå¡ä¿„æ¯”äºšå’Œèµ¤é“éæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_78</Tag>
 		<English>Levant</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Àè·²ÌØ</Chinese>
+		<Chinese>é»å‡¡ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_11</Tag>
 		<English>Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>åÈÌ«»ù</Chinese>
+		<Chinese>è¿¦å¤ªåŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_19</Tag>
 		<English>Philippines</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÆÂÉ±ö</Chinese>
+		<Chinese>è²å¾‹å®¾</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_54</Tag>
 		<English>North and Central America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÃÀÖŞ</Chinese>
+		<Chinese>ä¸­ç¾æ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_8</Tag>
 		<English>Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀË÷²»´ïÃ×ÑÇ</Chinese>
+		<Chinese>ç¾ç´¢ä¸è¾¾ç±³äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_73</Tag>
 		<English>Baltic Coast</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¨ÂŞµÄº£º£°¶</Chinese>
+		<Chinese>æ³¢ç½—çš„æµ·æµ·å²¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_79</Tag>
 		<English>Lower Nile</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄáÂŞºÓÏÂÓÎ</Chinese>
+		<Chinese>å°¼ç½—æ²³ä¸‹æ¸¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_74</Tag>
 		<English>Australia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Ä´óÀûÑÇ</Chinese>
+		<Chinese>æ¾³å¤§åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_34</Tag>
 		<English>Asia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÖŞ</Chinese>
+		<Chinese>äºšæ´²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_</Tag>
@@ -875,24 +875,24 @@
 		<Tag>TXT_KEY_UHV_AREA_107</Tag>
 		<English>Qikiqtaaluk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Í·Òµº</Chinese>
+		<Chinese>å·´èŠ¬å²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_REGION_12</Tag>
 		<English>Persia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¨Ë¹</Chinese>
+		<Chinese>æ³¢æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_4</Tag>
 		<English>Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀË÷²»´ïÃ×ÑÇ</Chinese>
+		<Chinese>ç¾ç´¢ä¸è¾¾ç±³äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_56</Tag>
 		<English>Srivijaya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÒÀû·ğÊÅ</Chinese>
+		<Chinese>å®¤åˆ©ä½›é€</Chinese>
 	</TEXT>
 </Civ4GameText>

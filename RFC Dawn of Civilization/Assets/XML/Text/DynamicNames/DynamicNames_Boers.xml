@@ -1,100 +1,100 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_ORANGE_FREE_STATE</Tag>
 		<English>Orange Free State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÀ¼ÖÎ×ÔÓÉ°î</Chinese>
+		<Chinese>å¥¥å…°æ²»è‡ªç”±é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_UNION</Tag>
 		<English>Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Áª°î</Chinese>
+		<Chinese>%s1è”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_REPUBLIC</Tag>
 		<English>Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_SHORT_DESC</Tag>
 		<English>Boer</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼¶û</Chinese>
+		<Chinese>å¸ƒå°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_SOUTH_AFRICA</Tag>
 		<English>South Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ·Ç</Chinese>
+		<Chinese>å—éž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_ADJECTIVE</Tag>
 		<English>Boer</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼¶û</Chinese>
+		<Chinese>å¸ƒå°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_TRANSVAAL</Tag>
 		<English>Republic of Transvaal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌØÀ¼Ë¹Íß¹²ºÍ¹ú</Chinese>
+		<Chinese>ç‰¹å…°æ–¯ç“¦å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_NATALIA</Tag>
 		<English>Natalia Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÈËþÀòÑÇ¹²ºÍ¹ú</Chinese>
+		<Chinese>å¨œå¡”èŽ‰äºšå…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_NETHERLANDS</Tag>
 		<English>Orange states</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÀ¼ÖÎÖÝ</Chinese>
+		<Chinese>å¥¥å…°æ²»å·ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_EMPIRE</Tag>
 		<English>Union of South Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ·ÇÁª°î</Chinese>
+		<Chinese>å—éžè”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_COMMUNIST</Tag>
 		<English>South African Socialist Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ·ÇÉç»áÖ÷Òå¹²ºÍ¹ú</Chinese>
+		<Chinese>å—éžç¤¾ä¼šä¸»ä¹‰å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_DEFAULT</Tag>
 		<English>Boer Republics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼¶û¹²ºÍ¹ú</Chinese>
+		<Chinese>å¸ƒå°”å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_DESC</Tag>
 		<English>The Boers</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ·ÇÎÄÃ÷</Chinese>
+		<Chinese>å—éžæ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_ENGLAND</Tag>
 		<English>Kaap de Goede Hoop</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÃÍû½Ç</Chinese>
+		<Chinese>å¥½æœ›è§’</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_PEOPLES</Tag>
 		<English>Boer Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼¶ûÈË</Chinese>
+		<Chinese>å¸ƒå°”äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_FASCIST</Tag>
 		<English>Afrikaner Volksstaat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÇÖÞÈËÃñ¹ú</Chinese>
+		<Chinese>éžæ´²äººæ°‘å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

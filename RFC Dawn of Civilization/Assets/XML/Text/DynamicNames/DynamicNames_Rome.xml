@@ -1,202 +1,202 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_PORTUGAL</Tag>
 		<English>Lusitania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â¬Î÷ËþÄáÑÇ</Chinese>
+		<Chinese>å¢è¥¿å¡”å°¼äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_WESTERN</Tag>
 		<English>Western Roman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÂÞÂí</Chinese>
+		<Chinese>è¥¿ç½—é©¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_NETHERLANDS</Tag>
 		<English>Belgica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±ÈÀûÊ±</Chinese>
+		<Chinese>æ¯”åˆ©æ—¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_HOLY_ROME</Tag>
 		<English>Germania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÕ¶úÂü</Chinese>
+		<Chinese>æ—¥è€³æ›¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_COMMUNIST</Tag>
 		<English>Plebeian Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÂíÉç»áÖ÷Òå¹²ºÍ¹ú</Chinese>
+		<Chinese>ç½—é©¬ç¤¾ä¼šä¸»ä¹‰å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_BABYLONIA</Tag>
 		<English>Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀË÷²»´ïÃ×ÑÇ</Chinese>
+		<Chinese>ç¾Žç´¢ä¸è¾¾ç±³äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_VASSAL</Tag>
 		<English>Province of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÐÐÊ¡</Chinese>
+		<Chinese>%s1è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_KHMER</Tag>
 		<English>Aurea Chersonesus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ßÃÞ</Chinese>
+		<Chinese>é«˜æ£‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_ENGLAND</Tag>
 		<English>Britannia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÁÐµß</Chinese>
+		<Chinese>ä¸åˆ—é¢ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_GERMANY</Tag>
 		<English>Borussia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÕ¶úÂü</Chinese>
+		<Chinese>æ—¥è€³æ›¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_CARTHAGE</Tag>
 		<English>Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±·Ç</Chinese>
+		<Chinese>åŒ—éž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_SPAIN</Tag>
 		<English>Hispania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀ</Chinese>
+		<Chinese>è¥¿ç­ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_FRANCE</Tag>
 		<English>Gaul</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ßÂ¬</Chinese>
+		<Chinese>é«˜å¢</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_FASCIST</Tag>
 		<English>New Roman Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐÂÂÞÂíµÛ¹ú</Chinese>
+		<Chinese>æ–°ç½—é©¬å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_ETHIOPIA</Tag>
 		<English>Aethiopia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶«·Ç</Chinese>
+		<Chinese>ä¸œéž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_MALI</Tag>
 		<English>Gaetulia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÀï</Chinese>
+		<Chinese>é©¬é‡Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_TURKS</Tag>
 		<English>Transoxiana</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍÁ¶úÆä</Chinese>
+		<Chinese>åœŸè€³å…¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_BYZANTIUM</Tag>
 		<English>Thracia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>É«À×Ë¹</Chinese>
+		<Chinese>è‰²é›·æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_MONGOLIA</Tag>
 		<English>Serica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÉ¹Å</Chinese>
+		<Chinese>è’™å¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_GREECE</Tag>
 		<English>Magna Graecia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÏ£À°</Chinese>
+		<Chinese>å¤§å¸Œè…Š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_THAILAND</Tag>
 		<English>Siam</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>åßÂÞ</Chinese>
+		<Chinese>æš¹ç½—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_SHORT_DESC</Tag>
 		<English>Rome</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÂí</Chinese>
+		<Chinese>ç½—é©¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_RUSSIA</Tag>
 		<English>Sarmatia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞË¹</Chinese>
+		<Chinese>ç½—æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_PERSIA</Tag>
 		<English>Parthia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÅÁÌáÑÇ</Chinese>
+		<Chinese>å¸•æäºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_OTTOMANS</Tag>
 		<English>Asia Minor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ð¡ÑÇÏ¸ÑÇ</Chinese>
+		<Chinese>å°äºšç»†äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_PEOPLES</Tag>
 		<English>Italic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­¶¡ÈË</Chinese>
+		<Chinese>æ‹‰ä¸äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_ADJECTIVE</Tag>
 		<English>Roman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÂí</Chinese>
+		<Chinese>ç½—é©¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_VIKINGS</Tag>
 		<English>Scandia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¹¿°µÄÄÉÎ¬ÑÇ</Chinese>
+		<Chinese>æ–¯å ªçš„çº³ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_CHINA</Tag>
 		<English>Sinae</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖÐ¹ú</Chinese>
+		<Chinese>ä¸­å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_PHOENICIA</Tag>
 		<English>Syria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐðÀûÑÇ</Chinese>
+		<Chinese>å™åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_EGYPT</Tag>
 		<English>Aegyptus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_DEFAULT</Tag>
 		<English>%s2 Kingdom</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2Íõ¹ú</Chinese>
+		<Chinese>%s2çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_DESC</Tag>
 		<English>The Romans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÂíÎÄÃ÷</Chinese>
+		<Chinese>ç½—é©¬æ–‡æ˜Ž</Chinese>
 	</TEXT>
 </Civ4GameText>

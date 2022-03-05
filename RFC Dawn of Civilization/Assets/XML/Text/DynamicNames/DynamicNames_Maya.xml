@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_COMMUNIST</Tag>
 		<English>%s2 Free State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>втси%s2</Chinese>
+		<Chinese>Х┤╙Г■╠%s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_SHORT_DESC</Tag>
 		<English>Maya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>бЙяе</Chinese>
+		<Chinese>Г▌⌡И⌡┘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_DESC</Tag>
 		<English>The Maya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>бЙяендцВ</Chinese>
+		<Chinese>Г▌⌡И⌡┘Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_FASCIST</Tag>
 		<English>%s2 Junta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2╬ЭуЧ╦╝</Chinese>
+		<Chinese>%s2Е├⌡Ф■©Е╨°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_DEFAULT</Tag>
 		<English>%s2 City-States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2Ёг╟Н</Chinese>
+		<Chinese>%s2Е÷▌И┌╕</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_YUCATAN</Tag>
 		<English>Yucat&#225;n</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>сх©╗л╧</Chinese>
+		<Chinese>Е╟╓Е█║Е²╕</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_REPUBLIC</Tag>
 		<English>%s2 Federal Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2а╙╟Н╧╡╨м╧З</Chinese>
+		<Chinese>%s2Х│■И┌╕Е┘╠Е▓▄Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_PEOPLES</Tag>
 		<English>Maya Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>бЙяехк</Chinese>
+		<Chinese>Г▌⌡И⌡┘Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>бЙяе</Chinese>
+		<Chinese>Г▌⌡И⌡┘</Chinese>
 	</TEXT>
 </Civ4GameText>

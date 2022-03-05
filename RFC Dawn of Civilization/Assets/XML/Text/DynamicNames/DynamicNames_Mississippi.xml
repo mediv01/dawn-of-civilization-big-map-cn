@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOPEWELL_ADJECTIVE</Tag>
 		<English>Mississippian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ôÆÕÎ¤¶û</Chinese>
+		<Chinese>éœæ™®éŸ¦å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_DEFAULT</Tag>
 		<English>%s1 City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1³Ç°î</Chinese>
+		<Chinese>%s1åŸé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOPEWELL_PEOPLES</Tag>
 		<English>%s1 Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÈË</Chinese>
+		<Chinese>%s1äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS1</Tag>
 		<English>Control all tiles along the Mississippi River, Ohio River, and Great Lakes by 500 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª500ÄêÇ°¿ØÖÆËùÓĞÃÜÎ÷Î÷±ÈºÓ(Mississippi River)£¬¶íº¥¶íºÓ(Ohio River)£¬Îå´óºş(Great Lakes)µÄËùÓĞµØ¿é</Chinese>
+		<Chinese>å…¬å…ƒ500å¹´å‰æ§åˆ¶æ‰€æœ‰å¯†è¥¿è¥¿æ¯”æ²³(Mississippi River)ï¼Œä¿„äº¥ä¿„æ²³(Ohio River)ï¼Œäº”å¤§æ¹–(Great Lakes)çš„æ‰€æœ‰åœ°å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS1_TITLE</Tag>
 		<English>Hopewell Exchange</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ôÆÕÎ¤¶û½»Ò×Ëù</Chinese>
+		<Chinese>éœæ™®éŸ¦å°”äº¤æ˜“æ‰€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MISSISSIPPI_RIVER</Tag>
@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_UHV_MIS2_TITLE</Tag>
 		<English>Fort Ancient Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹Å±¤ÎÄ»¯</Chinese>
+		<Chinese>å¤å ¡æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MIS</Tag>
 		<English>Extra Commerce along Rivers.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑØºÓµØ¿éÌá¹©¶îÍâÉÌÒµ</Chinese>
+		<Chinese>æ²¿æ²³åœ°å—æä¾›é¢å¤–å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_RED_HORN</Tag>
@@ -65,13 +65,13 @@
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_SHORT_DESC</Tag>
 		<English>Hopewell</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±È</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_ADJECTIVE</Tag>
 		<English>Hopewell</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±È</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MIDEWIWIN_MIDEWIGAAN</Tag>
@@ -83,7 +83,7 @@
 		<Tag>TXT_KEY_CIV_HOPEWELL_SHORT_DESC</Tag>
 		<English>Mississippi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ôÆÕÎ¤¶û</Chinese>
+		<Chinese>éœæ™®éŸ¦å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_GREAT_LAKES</Tag>
@@ -95,43 +95,43 @@
 		<Tag>TXT_KEY_UHV_MIS3_TITLE</Tag>
 		<English>Northern Metropolis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±·½´ó¶¼ÊĞ</Chinese>
+		<Chinese>åŒ—æ–¹å¤§éƒ½å¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOPEWELL_DEFAULT</Tag>
 		<English>%s1 City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1³Ç°î</Chinese>
+		<Chinese>%s1åŸé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_HOPEWELL</Tag>
 		<English>It is the year 100 BC. The consolidation of the Ohio Hopewell tradition marks the first major step towards the development of complex civilization north of the Mexican Altiplano...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«ÔªÇ°100Äê¡£¶íº¥¶íÖİ»ôÆÕÎ¤¶û´«Í³µÄ¹®¹Ì±êÖ¾×ÅÄ«Î÷¸ç¸ßÔ­±±²¿¸´ÔÓÎÄÃ÷·¢Õ¹µÄµÚÒ»´ó²½¡£¡£¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒå‰100å¹´ã€‚ä¿„äº¥ä¿„å·éœæ™®éŸ¦å°”ä¼ ç»Ÿçš„å·©å›ºæ ‡å¿—ç€å¢¨è¥¿å“¥é«˜åŸåŒ—éƒ¨å¤æ‚æ–‡æ˜å‘å±•çš„ç¬¬ä¸€å¤§æ­¥ã€‚ã€‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS2</Tag>
 		<English>Build the Serpent Mound and 7 Effigy Mounds by 1070 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1070ÄêÇ°½¨³ÉÉßÇğ(Serpent Mound)ºÍ7¸öEffigy Mounds</Chinese>
+		<Chinese>å…¬å…ƒ1070å¹´å‰å»ºæˆè›‡ä¸˜(Serpent Mound)å’Œ7ä¸ªEffigy Mounds</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND_HELP</Tag>
 		<English>[ICON_BULLET]+1 [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] slot from Parks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]¹«Ô°+1[COLOR_HIGHLIGHT_TEXT]ÉÌÒµ¼Ò[COLOR_REVERT]²Û</Chinese>
+		<Chinese>[ICON_BULLET]å…¬å›­+1[COLOR_HIGHLIGHT_TEXT]å•†ä¸šå®¶[COLOR_REVERT]æ§½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOPEWELL_DESC</Tag>
 		<English>The Mississippi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÜÎ÷Î÷±ÈÎÄÃ÷</Chinese>
+		<Chinese>å¯†è¥¿è¥¿æ¯”æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_DESC</Tag>
 		<English>The Hopewell</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ôÆÕÎ¤¶ûÎÄÃ÷</Chinese>
+		<Chinese>éœæ™®éŸ¦å°”æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MISSISSIPPI_FALCON_DANCER</Tag>
@@ -149,7 +149,7 @@
 		<Tag>TXT_KEY_UHV_MIS3</Tag>
 		<English>Build a palace and settle 2 great merchants in Cahokia by 1400 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1400ÄêÇ°ÔÚCahokia½¨³É¹¬µî²¢Èë×¤2¸ö´óÉÌÒµ¼Ò</Chinese>
+		<Chinese>å…¬å…ƒ1400å¹´å‰åœ¨Cahokiaå»ºæˆå®«æ®¿å¹¶å…¥é©»2ä¸ªå¤§å•†ä¸šå®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MIS_TITLE</Tag>
@@ -161,18 +161,18 @@
 		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND</Tag>
 		<English>Serpent Mound</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉßÇğ(Serpent Mound)</Chinese>
+		<Chinese>è›‡ä¸˜(Serpent Mound)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_URV_POL2_MIDEWIWIN</Tag>
 		<English>Acquire 4 Corn Resources and construct 20 Farms</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓµÓĞ4¸öCorn×ÊÔ´²¢½¨³É20¸öÅ©³¡</Chinese>
+		<Chinese>æ‹¥æœ‰4ä¸ªCornèµ„æºå¹¶å»ºæˆ20ä¸ªå†œåœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_PEOPLES</Tag>
 		<English>%s1 Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÈË</Chinese>
+		<Chinese>%s1äºº</Chinese>
 	</TEXT>
 </Civ4GameText>

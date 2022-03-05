@@ -1,124 +1,124 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_PEOPLES</Tag>
 		<English>Rus' Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>к╧ю╜╥Рхк</Chinese>
+		<Chinese>Ф√╞Ф▀┴Е╓╚Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_MUSCOVY</Tag>
 		<English>Muscovy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>д╙к╧©ф</Chinese>
+		<Chinese>Х▌╚Ф√╞Г╖▒</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_GERMANY</Tag>
 		<English>%s4 Democratic Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ё╣б╧З</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐Е╬╥Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
 		<English>Russian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╤Мбчк╧</Chinese>
+		<Chinese>Д©└Г╫≈Ф√╞</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_TURKS</Tag>
 		<English>%s4 Soviet Socialist Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ёма╤ЗфД</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐Е°÷Х─ЁЕ┘╤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_RUS'</Tag>
 		<English>Ukrainian Soviet Socialist Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>нз©кю╪кун╛╟ёиГ╩АжВрЕ╧╡╨м╧З</Chinese>
+		<Chinese>Д╧▄Е┘▀Е┘╟Х▀▐Г╩╢Е÷┐Г╓╬Д╪ Д╦╩Д╧┴Е┘╠Е▓▄Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SHORT_DESC</Tag>
 		<English>Russia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╤Мбчк╧</Chinese>
+		<Chinese>Д©└Г╫≈Ф√╞</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_DESC</Tag>
 		<English>The Russians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╤Мбчк╧ндцВ</Chinese>
+		<Chinese>Д©└Г╫≈Ф√╞Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIAN_POLAND</Tag>
 		<English>Congress %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>рИ╩А%s1</Chinese>
+		<Chinese>Х╝╝Д╪ %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_FASCIST</Tag>
 		<English>Panslavic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥╨к╧ю╜╥Р╣ш╧З</Chinese>
+		<Chinese>ФЁ⌡Ф√╞Ф▀┴Е╓╚Е╦²Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_COMMUNIST</Tag>
 		<English>Union of Soviet Socialist Republics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;кун╛╟ёиГ╩АжВрЕ╧╡╨м╧За╙цк</Chinese>
+		<Chinese>&gt;Х▀▐Г╩╢Е÷┐Г╓╬Д╪ Д╦╩Д╧┴Е┘╠Е▓▄Е⌡╫Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_JAPAN</Tag>
 		<English>Far Eastern Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ёт╤╤╚</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐Х©°Д╦°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_OTTOMANS</Tag>
 		<English>Transcaucasian Socialist Federative Soviet Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ёмБ╦ъ╪скВ</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐Е╓√И╚≤Е┼═Г╢╒</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_TSARDOM_OF</Tag>
 		<English>Tsardom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;%s1иЁ╩й</Chinese>
+		<Chinese>&gt;%s1Ф╡≥Г ┤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_DEFAULT</Tag>
 		<English>Grand Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╢С╧╚╧З</Chinese>
+		<Chinese>%s1Е╓╖Е┘╛Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIAN_VASSAL</Tag>
 		<English>%s1 Krai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╦╫йТ╧З</Chinese>
+		<Chinese>%s1И≥└Е╠·Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIAN_NAME_PERSIA</Tag>
 		<English>Gilan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ё╡╗к╧</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐ФЁ╒Ф√╞</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET</Tag>
 		<English>Soviet %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>кун╛╟ё%s1</Chinese>
+		<Chinese>Х▀▐Г╩╢Е÷┐%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_REPUBLIC</Tag>
 		<English>%s2 Federation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;%s2а╙╟Н╧╡╨м╧З</Chinese>
+		<Chinese>&gt;%s2Х│■И┌╕Е┘╠Е▓▄Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_REPUBLIC_ADJECTIVE</Tag>
 		<English>%s2 Soviet Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2кун╛╟ё╧╡╨м╧З</Chinese>
+		<Chinese>%s2Х▀▐Г╩╢Е÷┐Е┘╠Е▓▄Е⌡╫</Chinese>
 	</TEXT>
 </Civ4GameText>

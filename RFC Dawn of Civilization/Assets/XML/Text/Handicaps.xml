@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_HEIR_HELP</Tag>
 		<English>The Heir difficulty is the right level for beginners. Your cities receive additional happiness and your research, unit production and upkeep costs are lower than those of your AI opponents.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íõ´¢ÄÑ¶ÈÊÊºÏ³õÑ§Õß¡£ÄãÃÇµÄ³ÇÊĞ»ñµÃÁË¶îÍâµÄ¿ìÀÖ£¬ÄãÃÇµÄÑĞ¾¿¡¢µ¥Î»Éú²úºÍÎ¬»¤³É±¾±ÈÄãÃÇµÄÈË¹¤ÖÇÄÜ¶ÔÊÖÒªµÍ¡£</Chinese>
+		<Chinese>ç‹å‚¨éš¾åº¦é€‚åˆåˆå­¦è€…ã€‚ä½ ä»¬çš„åŸå¸‚è·å¾—äº†é¢å¤–çš„å¿«ä¹ï¼Œä½ ä»¬çš„ç ”ç©¶ã€å•ä½ç”Ÿäº§å’Œç»´æŠ¤æˆæœ¬æ¯”ä½ ä»¬çš„äººå·¥æ™ºèƒ½å¯¹æ‰‹è¦ä½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_PARAGON</Tag>
 		<English>Paragon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éñ¼¶£¨Paragon£©</Chinese>
+		<Chinese>ç¥çº§ï¼ˆParagonï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_PARAGON_HELP</Tag>
 		<English>Can you beat this game on this level and prove that you are truly a Paragon? Compared to Emperor, your AI adversaries will receive even more unit production and research advantages.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãÄÜÔÚÕâ¸öË®Æ½ÉÏ»÷°ÜÕâ³¡±ÈÈü²¢Ö¤Ã÷ÄãÕæµÄÊÇÒ»¸öÉñ¼¶Ñ¡ÊÖÂğ£¿Óë»ÊµÛÏà±È£¬ÄãµÄÈË¹¤ÖÇÄÜ¶ÔÊÖ½«»ñµÃ¸ü¶àµÄµ¥Î»Éú²úºÍÑĞ¾¿ÓÅÊÆ¡£</Chinese>
+		<Chinese>ä½ èƒ½åœ¨è¿™ä¸ªæ°´å¹³ä¸Šå‡»è´¥è¿™åœºæ¯”èµ›å¹¶è¯æ˜ä½ çœŸçš„æ˜¯ä¸€ä¸ªç¥çº§é€‰æ‰‹å—ï¼Ÿä¸çš‡å¸ç›¸æ¯”ï¼Œä½ çš„äººå·¥æ™ºèƒ½å¯¹æ‰‹å°†è·å¾—æ›´å¤šçš„å•ä½ç”Ÿäº§å’Œç ”ç©¶ä¼˜åŠ¿ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_REGENT_HELP</Tag>
 		<English>As a Regent, you are facing a fairly balanced challenge and are evenly matched in terms of modifiers with your AI adversaries.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×÷ÎªÉãÕşÕß£¬ÄãÃæÁÙ×ÅÒ»¸öÏàµ±Æ½ºâµÄÌôÕ½£¬²¢ÇÒÔÚĞŞ¸ÄÆ÷·½ÃæÓëÄãµÄÈË¹¤ÖÇÄÜ¶ÔÊÖÊÇÆ½ºâµÄ¡£</Chinese>
+		<Chinese>ä½œä¸ºæ‘„æ”¿è€…ï¼Œä½ é¢ä¸´ç€ä¸€ä¸ªç›¸å½“å¹³è¡¡çš„æŒ‘æˆ˜ï¼Œå¹¶ä¸”åœ¨ä¿®æ”¹å™¨æ–¹é¢ä¸ä½ çš„äººå·¥æ™ºèƒ½å¯¹æ‰‹æ˜¯å¹³è¡¡çš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_VICEROY</Tag>
 		<English>Viceroy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ü¶½(Viceroy)</Chinese>
+		<Chinese>æ€»ç£(Viceroy)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_MONARCH_HELP</Tag>
 		<English>Monarch players play under the same conditions as Regents, but will face more formidable AI opponents.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹úÍõ¼¶£¨Monarch£©£¬ÌôÕ½ÄÑ¶È´Ó´Ë¿ªÊ¼¼±¾çÔö¼ÓÁË¡£Î¬ĞŞ·Ñ¸ü¸ßÁË£¬ÑĞ·¢Ò²¸üÂıÁË£¬ÄãµÄÈËÃñÒ²¸üÄÑÈ¡ÔÃ£¬ÄãµÄµçÄÔ¶ÔÊÖÃÇÏÔÈ»¸ü¼Ó´ÏÃ÷ÁË¡£</Chinese>
+		<Chinese>å›½ç‹çº§ï¼ˆMonarchï¼‰ï¼ŒæŒ‘æˆ˜éš¾åº¦ä»æ­¤å¼€å§‹æ€¥å‰§å¢åŠ äº†ã€‚ç»´ä¿®è´¹æ›´é«˜äº†ï¼Œç ”å‘ä¹Ÿæ›´æ…¢äº†ï¼Œä½ çš„äººæ°‘ä¹Ÿæ›´éš¾å–æ‚¦ï¼Œä½ çš„ç”µè„‘å¯¹æ‰‹ä»¬æ˜¾ç„¶æ›´åŠ èªæ˜äº†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_EMPEROR_HELP</Tag>
 		<English>The Emperor level is for experienced players. You will play under significant research, unit production, upkeep and happiness penalties, while the AI receives even more advantages in these areas.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äã×¼±¸ºÃ×ö¸ö»ÊµÛÁË£¿Èç¹ûÊÇÕâÑùµÄ»°£¬ÄãĞèÒªÕ½Ê¤·¢Õ¹±ÈÄã¿ì¶øÇÒ¸ü¾ßÇÖÂÔĞÔµÄ¶ÔÊÖ£¬Í¬Ê±»¹ÒªÃæ¶ÔÄÑÒÔÈ¡ÔÃºÍÂú×ãµÄÃñÖÚ¡£Õâ¸ö¼¶±ğÕæµÄÊÇ¶ÔÎÄÃ÷×¨¼Ò¼¶Íæ¼ÒÃÇµÄ¿¼Ñé¡£</Chinese>
+		<Chinese>ä½ å‡†å¤‡å¥½åšä¸ªçš‡å¸äº†ï¼Ÿå¦‚æœæ˜¯è¿™æ ·çš„è¯ï¼Œä½ éœ€è¦æˆ˜èƒœå‘å±•æ¯”ä½ å¿«è€Œä¸”æ›´å…·ä¾µç•¥æ€§çš„å¯¹æ‰‹ï¼ŒåŒæ—¶è¿˜è¦é¢å¯¹éš¾ä»¥å–æ‚¦å’Œæ»¡è¶³çš„æ°‘ä¼—ã€‚è¿™ä¸ªçº§åˆ«çœŸçš„æ˜¯å¯¹æ–‡æ˜ä¸“å®¶çº§ç©å®¶ä»¬çš„è€ƒéªŒã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_REGENT</Tag>
 		<English>Regent</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉãÕş(Regent)</Chinese>
+		<Chinese>æ‘„æ”¿(Regent)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_HEIR</Tag>
 		<English>Heir</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íõ´¢£¨Heir£©</Chinese>
+		<Chinese>ç‹å‚¨ï¼ˆHeirï¼‰</Chinese>
 	</TEXT>
 </Civ4GameText>

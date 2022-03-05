@@ -1,88 +1,88 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_6</Tag>
 		<English>Free health</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×ÔÓÉ½¡¿µ</Chinese>
+		<Chinese>è‡ªç”±å¥åº·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_11</Tag>
 		<English>GP threshold</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>GPãĞÖµ</Chinese>
+		<Chinese>GPé˜ˆå€¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_4</Tag>
 		<English>Cities maintenance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊıÁ¿Î¬»¤·Ñ</Chinese>
+		<Chinese>æ•°é‡ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_10</Tag>
 		<English>Inflation rate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í¨»õÅòÕÍÂÊ</Chinese>
+		<Chinese>é€šè´§è†¨èƒ€ç‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_0</Tag>
 		<English>Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄ»¯</Chinese>
+		<Chinese>æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_1</Tag>
 		<English>Unit upkeep</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¥Î»Î¬»¤·Ñ</Chinese>
+		<Chinese>å•ä½ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS</Tag>
 		<English>Modifiers</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞŞÕı</Chinese>
+		<Chinese>ä¿®æ­£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_3</Tag>
 		<English>Distance maintenance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾àÀëÎ¬»¤·Ñ</Chinese>
+		<Chinese>è·ç¦»ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_7</Tag>
 		<English>Unit production costs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¥Î»Éú²ú³É±¾</Chinese>
+		<Chinese>å•ä½ç”Ÿäº§æˆæœ¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_2</Tag>
 		<English>Research cost</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑĞ¾¿·ÑÓÃ</Chinese>
+		<Chinese>ç ”ç©¶è´¹ç”¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_9</Tag>
 		<English>Building costs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½¨Öş³É±¾</Chinese>
+		<Chinese>å»ºç­‘æˆæœ¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_5</Tag>
 		<English>Civic upkeep</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕşÌåÎ¬»¤·Ñ</Chinese>
+		<Chinese>æ”¿ä½“ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_12</Tag>
 		<English>Growth threshold</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éú³¤ãĞÖµ</Chinese>
+		<Chinese>ç”Ÿé•¿é˜ˆå€¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_MODIFIERS_8</Tag>
 		<English>Wonder costs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ææ¼£³É±¾</Chinese>
+		<Chinese>å¥‡è¿¹æˆæœ¬</Chinese>
 	</TEXT>
 </Civ4GameText>

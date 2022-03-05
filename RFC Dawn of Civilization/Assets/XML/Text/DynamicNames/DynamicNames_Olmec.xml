@@ -1,101 +1,101 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_OLM2</Tag>
 		<English>Discover two of Arithmetics, Writing and Calendar by 400 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«ÔªÇ°400ÄêÇ°·¢ÏÖËãÊı£¬ÎÄ×Ö£¬Àú·¨ÖĞµÄ2Ïî</Chinese>
+		<Chinese>å…¬å…ƒå‰400å¹´å‰å‘ç°ç®—æ•°ï¼Œæ–‡å­—ï¼Œå†æ³•ä¸­çš„2é¡¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_OLM1_TITLE</Tag>
 		<English>Mother Culture of Mesoamerica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÃÀÖŞÎÄ»¯ÆğÔ´</Chinese>
+		<Chinese>ä¸­ç¾æ´²æ–‡åŒ–èµ·æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OLM</Tag>
 		<English>Excess Food provides extra Commerce.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àÓàµÄÊ³ÎïÌá¹©¶îÍâµÄÉÌÒµ</Chinese>
+		<Chinese>å¤šä½™çš„é£Ÿç‰©æä¾›é¢å¤–çš„å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_PEDIA</Tag>
-		<English>[TAB]The Olmec were an ancient Pre-Columbian people living in the tropical lowlands of south-central Mexico, roughly in what are the modern-day states of Veracruz and Tabasco on the Isthmus of Tehuantepec. Their immediate cultural influence, however, extends far beyond this region. The Olmec flourished during the Formative (or Preclassic) period, dating from 1200 BC to about 400 BC, and are believed to have been the progenitor civilization of later Mesoamerican civilizations.[PARAGRAPH:2]Olmec history originated at its base within San Lorenzo Tenochtitlï¿½n, where distinctively Olmec features begin to emerge before 1200 BC. The rise of civilization here was probably assisted by the local ecology of well-watered rich alluvial soil, encouraging high maize production. This ecology may be compared to that of other ancient centers of civilization: the Nile, Indus, and Yellow River valleys, and Mesopotamia. It is thought that the dense population concentration at San Lorenzo encouraged the rise of an elite class that eventually ensured Olmec dominance and provided the social basis for the production of the symbolic and sophisticated luxury artifacts that define Olmec culture. Many of these luxury artifacts, such as jade, obsidian and magnetite, came from distant locations and suggest that early Olmec elites had access to an extensive trading network in Mesoamerica. The source of the most valued jade, for example, is found in the Motagua River valley in eastern Guatemala, and their obsidian is mainly from sources also in the Guatemala highlands, such as El Chayal and San Martï¿½n Jilotepeque.[PARAGRAPH:2]The first Olmec center, San Lorenzo, was all but abandoned around 900 BC at about the same time that La Venta rose to prominence. Environmental changes may have been responsible for this move, with certain important rivers changing course. A wholesale destruction of many San Lorenzo monuments also occurred around this time, circa 950 BC, which may point to an internal uprising or, less likely, an invasion. Following the decline of San Lorenzo, La Venta became the most prominent Olmec center, lasting from 900 BC until its abandonment around 400 BC. During this period, the Great Pyramid and various other ceremonial complexes were built at La Venta.[PARAGRAPH:2]It is not known with any clarity what caused the eventual extinction of the Olmec culture. It is known that between 400 and 350 BC, population in the eastern half of the Olmec heartland dropped precipitously, and the area would remain sparsely inhabited until the 19th century. This depopulation was likely the result of environmental changes: perhaps the result of important rivers changing course or silting up due to agricultural practices. What ever the cause, within a few hundred years of the abandonment of the last Olmec cities, successor cultures had become firmly established. The Tres Zapotes site, on the western edge of the Olmec heartland, continued to be occupied well past 400 BC, but without the hallmarks of the Olmec culture. This post-Olmec culture, often labeled Epi-Olmec, has features similar to those found at Izapa, some 330 miles (550 km) to the southeast.</English>
+		<English>[TAB]The Olmec were an ancient Pre-Columbian people living in the tropical lowlands of south-central Mexico, roughly in what are the modern-day states of Veracruz and Tabasco on the Isthmus of Tehuantepec. Their immediate cultural influence, however, extends far beyond this region. The Olmec flourished during the Formative (or Preclassic) period, dating from 1200 BC to about 400 BC, and are believed to have been the progenitor civilization of later Mesoamerican civilizations.[PARAGRAPH:2]Olmec history originated at its base within San Lorenzo Tenochtitlé”Ÿçµ¥, where distinctively Olmec features begin to emerge before 1200 BC. The rise of civilization here was probably assisted by the local ecology of well-watered rich alluvial soil, encouraging high maize production. This ecology may be compared to that of other ancient centers of civilization: the Nile, Indus, and Yellow River valleys, and Mesopotamia. It is thought that the dense population concentration at San Lorenzo encouraged the rise of an elite class that eventually ensured Olmec dominance and provided the social basis for the production of the symbolic and sophisticated luxury artifacts that define Olmec culture. Many of these luxury artifacts, such as jade, obsidian and magnetite, came from distant locations and suggest that early Olmec elites had access to an extensive trading network in Mesoamerica. The source of the most valued jade, for example, is found in the Motagua River valley in eastern Guatemala, and their obsidian is mainly from sources also in the Guatemala highlands, such as El Chayal and San Marté”Ÿçµ¥ Jilotepeque.[PARAGRAPH:2]The first Olmec center, San Lorenzo, was all but abandoned around 900 BC at about the same time that La Venta rose to prominence. Environmental changes may have been responsible for this move, with certain important rivers changing course. A wholesale destruction of many San Lorenzo monuments also occurred around this time, circa 950 BC, which may point to an internal uprising or, less likely, an invasion. Following the decline of San Lorenzo, La Venta became the most prominent Olmec center, lasting from 900 BC until its abandonment around 400 BC. During this period, the Great Pyramid and various other ceremonial complexes were built at La Venta.[PARAGRAPH:2]It is not known with any clarity what caused the eventual extinction of the Olmec culture. It is known that between 400 and 350 BC, population in the eastern half of the Olmec heartland dropped precipitously, and the area would remain sparsely inhabited until the 19th century. This depopulation was likely the result of environmental changes: perhaps the result of important rivers changing course or silting up due to agricultural practices. What ever the cause, within a few hundred years of the abandonment of the last Olmec cities, successor cultures had become firmly established. The Tres Zapotes site, on the western edge of the Olmec heartland, continued to be occupied well past 400 BC, but without the hallmarks of the Olmec culture. This post-Olmec culture, often labeled Epi-Olmec, has features similar to those found at Izapa, some 330 miles (550 km) to the southeast.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ŠWÃ×¿ËÈËÊÇÒ»¸öÉú»îÔÚÄ«Î÷¸çÖĞÄÏ²¿ÈÈ´øµÍµØµÄÇ°¸çÂ×²¼Ê±´úµÄÈË£¬´óÖÂÉú»îÔÚ½ñÌìµÄÌØÍòÌØÅå¿ËµØÏ¿µÄÎ¤À­¿ËÂ³Ë¹ÖİºÍËş°ÍË¹¿ÆÖİ¡£È»¶ø£¬ËûÃÇµÄÖ±½ÓÎÄ»¯Ó°ÏìÔ¶Ô¶³¬³öÁËÕâ¸öµØÇø¡£ŠWÃ×¿ËÎÄÃ÷ÔÚĞÎ³ÉÆÚ£¨»òÇ°¾­µäÊ±ÆÚ£©Åî²ª·¢Õ¹£¬¿É×·Ëİµ½¹«ÔªÇ°1200ÄêÖÁ¹«ÔªÇ°400Äê£¬±»ÈÏÎªÊÇºóÀ´ÖĞÃÀÖŞÎÄÃ÷µÄ×æÏÈÎÄÃ÷[PARAGRAPH:2]ŠWÃ×¿ËµÄÀúÊ·ÆğÔ´ÓÚËüÔÚÊ¥ÂåÂ××ôÌØÅµÆæµÙ¶ûµÄ»ùµØ£¬ÔÚÄÇÀï¶ÀÌØµÄŠWÃ×¿ËÌØÕ÷ÔÚ¹«ÔªÇ°1200ÄêÇ°¿ªÊ¼³öÏÖ¡£ÕâÀïÎÄÃ÷µÄĞËÆğ¿ÉÄÜµÃÒæÓÚµ±µØµÄÉúÌ¬»·¾³£¬ÄÇÀïÓĞ³ä×ãµÄË®£¬·ÊÎÖµÄ³å»ıÍÁ£¬¹ÄÀøÁËÓñÃ×µÄ¸ß²ú¡£ÕâÖÖÉúÌ¬¿ÉÒÔÓëÆäËû¹Å´úÎÄÃ÷ÖĞĞÄÏà±È½Ï£ºÄáÂŞºÓ¡¢Ó¡¶ÈºÓ¡¢»ÆºÓÁ÷ÓòºÍÃÀË÷²»´ïÃ×ÑÇ¡£ÈËÃÇÈÏÎª£¬Ê¥ÂåÂ××ôµÄÈË¿ÚÃÜ¼¯´ÙÊ¹ÁË¾«Ó¢½×²ãµÄáÈÆğ£¬ÕâÒ»½×²ã×îÖÕÈ·±£ÁËŠWÃ×¿ËµÄÍ³ÖÎµØÎ»£¬²¢ÎªŠWÃ×¿ËÎÄ»¯µÄÏóÕ÷ĞÔºÍ¸´ÔÓµÄÉİ³ŞÆ·µÄÉú²úÌá¹©ÁËÉç»á»ù´¡¡£Ğí¶àÕâĞ©Éİ³ŞµÄÎÄÎï£¬ÈçÓñÊ¯¡¢ºÚê×Ê¯ºÍ´ÅÌú¿ó£¬¶¼À´×ÔÒ£Ô¶µÄµØ·½£¬±íÃ÷ÔçÆÚŠWÃ×¿Ë¾«Ó¢ÓĞ»ú»á½øÈëÖĞÃÀÖŞ¹ã·ºµÄÃ³Ò×ÍøÂç¡£ÀıÈç£¬×îÓĞ¼ÛÖµµÄÓñÊ¯À´Ô´ÓÚÎ£µØÂíÀ­¶«²¿µÄÄªËş¹ÏºÓÁ÷Óò£¬ËüÃÇµÄºÚê×Ê¯Ö÷ÒªÀ´Ô´ÓÚÎ£µØÂíÀ­¸ßµØ£¬ÈçEl ChayalºÍSan Martin Jilotepeque[PARAGRAPH:2]µÚÒ»ŠWÃ×¿ËÖĞĞÄ£¬Ê¥ÂåÂ××ô£¬´óÔ¼ÔÚ¹«ÔªÇ°900Äê×óÓÒ£¬ÔÚÀ­ÎÄËşáÈÆğµÄÍ¬Ò»Ê±ÆÚ£¬¼¸ºõ±»ÒÅÆú¡£»·¾³±ä»¯¿ÉÄÜÊÇÔì³ÉÕâÒ»±ä»¯µÄÔ­Òò£¬Ò»Ğ©ÖØÒªºÓÁ÷¸Ä±äÁËº½µÀ¡£´óÔ¼ÔÚ¹«ÔªÇ°950Äê×óÓÒ£¬Ê¥ÂåÂ××ôµÄĞí¶à¼ÍÄî±®Ò²·¢ÉúÁË´ó¹æÄ£µÄÆÆ»µ£¬Õâ¿ÉÄÜÒâÎ¶×ÅÒ»³¡ÄÚ²¿ÆğÒå£¬»òÕß²»Ì«¿ÉÄÜÊÇÈëÇÖ¡£ÔÚÊ¥ÂåÂ××ôË¥ÂäÖ®ºó£¬À­ÎÄËş³ÉÎª×îÖøÃûµÄ°Â¶ûÃ·¿ËÖĞĞÄ£¬´Ó¹«ÔªÇ°900ÄêÒ»Ö±³ÖĞøµ½¹«ÔªÇ°400Äê×óÓÒ±»ÒÅÆú¡£ÔÚ´ËÆÚ¼ä£¬´ó½ğ×ÖËşºÍÆäËû¸÷ÖÖÒÇÊ½½¨Öş¶¼ÔÚÀ­ÎÄËş½¨Ôì[PARAGRAPH:2]Ä¿Ç°»¹²»Çå³şÊÇÊ²Ã´µ¼ÖÂÁËŠWÃ×¿ËÎÄ»¯µÄ×îÖÕÃğ¾ø¡£ÖÚËùÖÜÖª£¬ÔÚ¹«ÔªÇ°400ÄêÖÁ350Äê¼ä£¬ŠWÃ×¿ËÖĞĞÄµØ´ø¶«°ë²¿µÄÈË¿Ú¼±¾çÏÂ½µ£¬Ö±µ½19ÊÀ¼Í£¬¸ÃµØÇøµÄÈË¿ÚÈÔÈ»Ï¡ÉÙ¡£ÕâÖÖÈË¿Ú¼õÉÙºÜ¿ÉÄÜÊÇ»·¾³±ä»¯µÄ½á¹û£ºÒ²ĞíÊÇÖØÒªºÓÁ÷¸ÄµÀ»òÓÉÓÚÅ©Òµ»î¶¯¶øÓÙ»ıµÄ½á¹û¡£²»¹ÜÊÇÊ²Ã´Ô­Òò£¬ÔÚ×îºó¼¸×ùŠWÃ×¿Ë³ÇÊĞ±»ÒÅÆúºóµÄ¼¸°ÙÄêÀï£¬ºó¼ÌÕßµÄÎÄ»¯ÒÑ¾­ÀÎ¹ÌµØ½¨Á¢ÆğÀ´¡£ÌØÀ×Ë¹Èø²¨ÌØË¹ÒÅÖ·£¬Î»ÓÚŠWÃ×¿ËÖĞĞÄµØ´øµÄÎ÷±ß£¬ÔÚ¹«ÔªÇ°400ÄêÒÔºóÒ»Ö±±»Õ¼Áì£¬µ«Ã»ÓĞŠWÃ×¿ËÎÄ»¯µÄÌØÕ÷¡£ÕâÖÖºóŠWÃ×¿ËÎÄ»¯£¬Í¨³£±»±ê¼ÇÎªEpi Olmec£¬ÆäÌØÕ÷ÓëÔÚ¶«ÄÏÔ¼330Ó¢Àï£¨550¹«Àï£©µÄÒÁÔúÅÁ·¢ÏÖµÄÀàËÆ¡£</Chinese>
+		<Chinese>[TAB]å¥§ç±³å…‹äººæ˜¯ä¸€ä¸ªç”Ÿæ´»åœ¨å¢¨è¥¿å“¥ä¸­å—éƒ¨çƒ­å¸¦ä½åœ°çš„å‰å“¥ä¼¦å¸ƒæ—¶ä»£çš„äººï¼Œå¤§è‡´ç”Ÿæ´»åœ¨ä»Šå¤©çš„ç‰¹ä¸‡ç‰¹ä½©å…‹åœ°å³¡çš„éŸ¦æ‹‰å…‹é²æ–¯å·å’Œå¡”å·´æ–¯ç§‘å·ã€‚ç„¶è€Œï¼Œä»–ä»¬çš„ç›´æ¥æ–‡åŒ–å½±å“è¿œè¿œè¶…å‡ºäº†è¿™ä¸ªåœ°åŒºã€‚å¥§ç±³å…‹æ–‡æ˜åœ¨å½¢æˆæœŸï¼ˆæˆ–å‰ç»å…¸æ—¶æœŸï¼‰è“¬å‹ƒå‘å±•ï¼Œå¯è¿½æº¯åˆ°å…¬å…ƒå‰1200å¹´è‡³å…¬å…ƒå‰400å¹´ï¼Œè¢«è®¤ä¸ºæ˜¯åæ¥ä¸­ç¾æ´²æ–‡æ˜çš„ç¥–å…ˆæ–‡æ˜[PARAGRAPH:2]å¥§ç±³å…‹çš„å†å²èµ·æºäºå®ƒåœ¨åœ£æ´›ä¼¦ä½ç‰¹è¯ºå¥‡è’‚å°”çš„åŸºåœ°ï¼Œåœ¨é‚£é‡Œç‹¬ç‰¹çš„å¥§ç±³å…‹ç‰¹å¾åœ¨å…¬å…ƒå‰1200å¹´å‰å¼€å§‹å‡ºç°ã€‚è¿™é‡Œæ–‡æ˜çš„å…´èµ·å¯èƒ½å¾—ç›Šäºå½“åœ°çš„ç”Ÿæ€ç¯å¢ƒï¼Œé‚£é‡Œæœ‰å……è¶³çš„æ°´ï¼Œè‚¥æ²ƒçš„å†²ç§¯åœŸï¼Œé¼“åŠ±äº†ç‰ç±³çš„é«˜äº§ã€‚è¿™ç§ç”Ÿæ€å¯ä»¥ä¸å…¶ä»–å¤ä»£æ–‡æ˜ä¸­å¿ƒç›¸æ¯”è¾ƒï¼šå°¼ç½—æ²³ã€å°åº¦æ²³ã€é»„æ²³æµåŸŸå’Œç¾ç´¢ä¸è¾¾ç±³äºšã€‚äººä»¬è®¤ä¸ºï¼Œåœ£æ´›ä¼¦ä½çš„äººå£å¯†é›†ä¿ƒä½¿äº†ç²¾è‹±é˜¶å±‚çš„å´›èµ·ï¼Œè¿™ä¸€é˜¶å±‚æœ€ç»ˆç¡®ä¿äº†å¥§ç±³å…‹çš„ç»Ÿæ²»åœ°ä½ï¼Œå¹¶ä¸ºå¥§ç±³å…‹æ–‡åŒ–çš„è±¡å¾æ€§å’Œå¤æ‚çš„å¥¢ä¾ˆå“çš„ç”Ÿäº§æä¾›äº†ç¤¾ä¼šåŸºç¡€ã€‚è®¸å¤šè¿™äº›å¥¢ä¾ˆçš„æ–‡ç‰©ï¼Œå¦‚ç‰çŸ³ã€é»‘æ›œçŸ³å’Œç£é“çŸ¿ï¼Œéƒ½æ¥è‡ªé¥è¿œçš„åœ°æ–¹ï¼Œè¡¨æ˜æ—©æœŸå¥§ç±³å…‹ç²¾è‹±æœ‰æœºä¼šè¿›å…¥ä¸­ç¾æ´²å¹¿æ³›çš„è´¸æ˜“ç½‘ç»œã€‚ä¾‹å¦‚ï¼Œæœ€æœ‰ä»·å€¼çš„ç‰çŸ³æ¥æºäºå±åœ°é©¬æ‹‰ä¸œéƒ¨çš„è«å¡”ç“œæ²³æµåŸŸï¼Œå®ƒä»¬çš„é»‘æ›œçŸ³ä¸»è¦æ¥æºäºå±åœ°é©¬æ‹‰é«˜åœ°ï¼Œå¦‚El Chayalå’ŒSan Martin Jilotepeque[PARAGRAPH:2]ç¬¬ä¸€å¥§ç±³å…‹ä¸­å¿ƒï¼Œåœ£æ´›ä¼¦ä½ï¼Œå¤§çº¦åœ¨å…¬å…ƒå‰900å¹´å·¦å³ï¼Œåœ¨æ‹‰æ–‡å¡”å´›èµ·çš„åŒä¸€æ—¶æœŸï¼Œå‡ ä¹è¢«é—å¼ƒã€‚ç¯å¢ƒå˜åŒ–å¯èƒ½æ˜¯é€ æˆè¿™ä¸€å˜åŒ–çš„åŸå› ï¼Œä¸€äº›é‡è¦æ²³æµæ”¹å˜äº†èˆªé“ã€‚å¤§çº¦åœ¨å…¬å…ƒå‰950å¹´å·¦å³ï¼Œåœ£æ´›ä¼¦ä½çš„è®¸å¤šçºªå¿µç¢‘ä¹Ÿå‘ç”Ÿäº†å¤§è§„æ¨¡çš„ç ´åï¼Œè¿™å¯èƒ½æ„å‘³ç€ä¸€åœºå†…éƒ¨èµ·ä¹‰ï¼Œæˆ–è€…ä¸å¤ªå¯èƒ½æ˜¯å…¥ä¾µã€‚åœ¨åœ£æ´›ä¼¦ä½è¡°è½ä¹‹åï¼Œæ‹‰æ–‡å¡”æˆä¸ºæœ€è‘—åçš„å¥¥å°”æ¢…å…‹ä¸­å¿ƒï¼Œä»å…¬å…ƒå‰900å¹´ä¸€ç›´æŒç»­åˆ°å…¬å…ƒå‰400å¹´å·¦å³è¢«é—å¼ƒã€‚åœ¨æ­¤æœŸé—´ï¼Œå¤§é‡‘å­—å¡”å’Œå…¶ä»–å„ç§ä»ªå¼å»ºç­‘éƒ½åœ¨æ‹‰æ–‡å¡”å»ºé€ [PARAGRAPH:2]ç›®å‰è¿˜ä¸æ¸…æ¥šæ˜¯ä»€ä¹ˆå¯¼è‡´äº†å¥§ç±³å…‹æ–‡åŒ–çš„æœ€ç»ˆç­ç»ã€‚ä¼—æ‰€å‘¨çŸ¥ï¼Œåœ¨å…¬å…ƒå‰400å¹´è‡³350å¹´é—´ï¼Œå¥§ç±³å…‹ä¸­å¿ƒåœ°å¸¦ä¸œåŠéƒ¨çš„äººå£æ€¥å‰§ä¸‹é™ï¼Œç›´åˆ°19ä¸–çºªï¼Œè¯¥åœ°åŒºçš„äººå£ä»ç„¶ç¨€å°‘ã€‚è¿™ç§äººå£å‡å°‘å¾ˆå¯èƒ½æ˜¯ç¯å¢ƒå˜åŒ–çš„ç»“æœï¼šä¹Ÿè®¸æ˜¯é‡è¦æ²³æµæ”¹é“æˆ–ç”±äºå†œä¸šæ´»åŠ¨è€Œæ·¤ç§¯çš„ç»“æœã€‚ä¸ç®¡æ˜¯ä»€ä¹ˆåŸå› ï¼Œåœ¨æœ€åå‡ åº§å¥§ç±³å…‹åŸå¸‚è¢«é—å¼ƒåçš„å‡ ç™¾å¹´é‡Œï¼Œåç»§è€…çš„æ–‡åŒ–å·²ç»ç‰¢å›ºåœ°å»ºç«‹èµ·æ¥ã€‚ç‰¹é›·æ–¯è¨æ³¢ç‰¹æ–¯é—å€ï¼Œä½äºå¥§ç±³å…‹ä¸­å¿ƒåœ°å¸¦çš„è¥¿è¾¹ï¼Œåœ¨å…¬å…ƒå‰400å¹´ä»¥åä¸€ç›´è¢«å é¢†ï¼Œä½†æ²¡æœ‰å¥§ç±³å…‹æ–‡åŒ–çš„ç‰¹å¾ã€‚è¿™ç§åå¥§ç±³å…‹æ–‡åŒ–ï¼Œé€šå¸¸è¢«æ ‡è®°ä¸ºEpi Olmecï¼Œå…¶ç‰¹å¾ä¸åœ¨ä¸œå—çº¦330è‹±é‡Œï¼ˆ550å…¬é‡Œï¼‰çš„ä¼Šæ‰å¸•å‘ç°çš„ç±»ä¼¼ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_TEZCATLIPOCA</Tag>
 		<English>Tezcatlipoca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ŠWÃ×¿Ë-Ì©Ë¹¿¨ËşÀû²¨¿¨</Chinese>
+		<Chinese>å¥§ç±³å…‹-æ³°æ–¯å¡å¡”åˆ©æ³¢å¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_OLM1</Tag>
 		<English>Build 4 culture-producing buildings by 400 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«ÔªÇ°400ÄêÇ°½¨³É4¸öÎÄ»¯½¨Öş</Chinese>
+		<Chinese>å…¬å…ƒå‰400å¹´å‰å»ºæˆ4ä¸ªæ–‡åŒ–å»ºç­‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_ADJECTIVE</Tag>
 		<English>Olmec</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ŠWÃ×¿Ë</Chinese>
+		<Chinese>å¥§ç±³å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_OLMECS</Tag>
 		<English>It is the year 1600 BC. In the tropical lowlands near the Gulf of Mexico, population reaches the critical threshold for the formation of complex societies. This sixth cradle of civilization will see the rise of the Olmecs, forerunners to all Mesoamerican cultures.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«ÔªÇ°1600Äê¡£ÔÚÄ«Î÷¸çÍå¸½½üµÄÈÈ´øµÍµØ£¬ÈË¿Ú´ïµ½ÁËĞÎ³É¸´ÔÓÉç»áµÄ¹Ø¼üÃÅ¼÷¡£Õâ¸öÎÄÃ÷µÄµÚÁù¸öÒ¡Àº½«¼ûÖ¤ŠWÃ×¿ËÈËµÄáÈÆğ£¬ËûÃÇÊÇËùÓĞÖĞÃÀÖŞÎÄ»¯µÄÏÈÇı¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒå‰1600å¹´ã€‚åœ¨å¢¨è¥¿å“¥æ¹¾é™„è¿‘çš„çƒ­å¸¦ä½åœ°ï¼Œäººå£è¾¾åˆ°äº†å½¢æˆå¤æ‚ç¤¾ä¼šçš„å…³é”®é—¨æ§›ã€‚è¿™ä¸ªæ–‡æ˜çš„ç¬¬å…­ä¸ªæ‘‡ç¯®å°†è§è¯å¥§ç±³å…‹äººçš„å´›èµ·ï¼Œä»–ä»¬æ˜¯æ‰€æœ‰ä¸­ç¾æ´²æ–‡åŒ–çš„å…ˆé©±ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITAL_GREAT_ARTISTS</Tag>
 		<English>Great Artists in capital: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê×¶¼ÒÑÈë×¤µÄ´óÒÕÊõ¼Ò£º%d1 / %d2</Chinese>
+		<Chinese>é¦–éƒ½å·²å…¥é©»çš„å¤§è‰ºæœ¯å®¶ï¼š%d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CULTURE_BUILDINGS_BUILT</Tag>
 		<English>Culture buildings built: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÑ½¨³ÉµÄÎÄ»¯½¨Öş£º%d1 / %d2</Chinese>
+		<Chinese>å·²å»ºæˆçš„æ–‡åŒ–å»ºç­‘ï¼š%d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TEZCATLIPOCA_1</Tag>
 		<English>Welcome to the Olmec heartland, [CT_NAME]. I am Tezcatlipoca, god-ruler of these lands. Shall I order my men to carve your likeness in stone?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»¶Ó­À´µ½ŠWÃ×¿ËÖĞĞÄµØ´ø£¬[CT_NAME]¡£ÎÒÊÇÌ©Ë¹¿¨ËşÀû²¨¿¨£¬ÕâÆ¬ÍÁµØµÄÍ³ÖÎÕß¡£ÎÒ¿ÉÒÔÃüÁîÎÒµÄÈË°ÑÄãµÄĞ¤Ïñ¿ÌÔÚÊ¯Í·ÉÏÂğ£¿</Chinese>
+		<Chinese>æ¬¢è¿æ¥åˆ°å¥§ç±³å…‹ä¸­å¿ƒåœ°å¸¦ï¼Œ[CT_NAME]ã€‚æˆ‘æ˜¯æ³°æ–¯å¡å¡”åˆ©æ³¢å¡ï¼Œè¿™ç‰‡åœŸåœ°çš„ç»Ÿæ²»è€…ã€‚æˆ‘å¯ä»¥å‘½ä»¤æˆ‘çš„äººæŠŠä½ çš„è‚–åƒåˆ»åœ¨çŸ³å¤´ä¸Šå—ï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_OLMEC_COLOSSAL_HEAD_PEDIA</Tag>
 		<English>[TAB]The best-recognized aspect of the Olmec civilzation are the enormous helmeted heads. As no known pre-Columbian text explains these, these impressive monuments have been the subject of much speculation. Once theorized to be ballplayers, it is now generally accepted that these heads are portraits of rulers. According to archaeologist David Grove, the unique elements in the headgear can also be recognized in headdresses of human figures on other Gulf Coast monuments, suggesting that these are personal or group symbols. The heads range in size from the Rancho La Cobata head, at 3.4 m high, to the pair at Tres Zapotes, at 1.47 m. It has been calculated that the largest heads weigh more than 20 tons.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ŠWÃ×¿ËÎÄÃ÷×îÎªÈËËùÖªµÄ·½ÃæÊÇ¾ŞÉñÍ·Ïñ¡£ÓÉÓÚÃ»ÓĞÒÑÖªµÄÇ°¸çÂ×²¼Ê±´úµÄÊ·ÁÏ¼ÇÔØ£¬ÕâĞ©ÁîÈËÓ¡ÏóÉî¿ÌµÄ¼ÍÄî±®Ò»Ö±ÊÇĞí¶à²Â²âµÄÖ÷Ìâ¡£ÕâĞ©Í·ÏñÔø¾­±»ÀíÂÛ»¯Îª°ôÇòÔË¶¯Ô±£¬ÏÖÔÚÈËÃÇÆÕ±éÈÏÎªÕâĞ©Í·ÏñÊÇÍ³ÖÎÕßµÄĞ¤Ïñ¡£¸ù¾İ¿¼¹ÅÑ§¼Ò´óÎÀ¡¤¸ñÂŞ·òµÄËµ·¨£¬ÔÚÆäËûÄ«Î÷¸çÍåº£°¶¼ÍÄî±®ÉÏµÄÈËÎïÍ·ÊÎÖĞÒ²ÄÜÊ¶±ğ³öÍ·ÊÎÖĞµÄ¶ÀÌØÔªËØ£¬Õâ±íÃ÷ÕâĞ©Í·ÊÎÊÇ¸öÈË»òÈºÌåµÄÏóÕ÷¡£´Ó1Ã×µ½4Ã×µÄÍ·²¿£¬Õâ¶ÔÁÔÍ·µÄÖØÁ¿³¬¹ıÁË4Ã×¡£</Chinese>
+		<Chinese>[TAB]å¥§ç±³å…‹æ–‡æ˜æœ€ä¸ºäººæ‰€çŸ¥çš„æ–¹é¢æ˜¯å·¨ç¥å¤´åƒã€‚ç”±äºæ²¡æœ‰å·²çŸ¥çš„å‰å“¥ä¼¦å¸ƒæ—¶ä»£çš„å²æ–™è®°è½½ï¼Œè¿™äº›ä»¤äººå°è±¡æ·±åˆ»çš„çºªå¿µç¢‘ä¸€ç›´æ˜¯è®¸å¤šçŒœæµ‹çš„ä¸»é¢˜ã€‚è¿™äº›å¤´åƒæ›¾ç»è¢«ç†è®ºåŒ–ä¸ºæ£’çƒè¿åŠ¨å‘˜ï¼Œç°åœ¨äººä»¬æ™®éè®¤ä¸ºè¿™äº›å¤´åƒæ˜¯ç»Ÿæ²»è€…çš„è‚–åƒã€‚æ ¹æ®è€ƒå¤å­¦å®¶å¤§å«Â·æ ¼ç½—å¤«çš„è¯´æ³•ï¼Œåœ¨å…¶ä»–å¢¨è¥¿å“¥æ¹¾æµ·å²¸çºªå¿µç¢‘ä¸Šçš„äººç‰©å¤´é¥°ä¸­ä¹Ÿèƒ½è¯†åˆ«å‡ºå¤´é¥°ä¸­çš„ç‹¬ç‰¹å…ƒç´ ï¼Œè¿™è¡¨æ˜è¿™äº›å¤´é¥°æ˜¯ä¸ªäººæˆ–ç¾¤ä½“çš„è±¡å¾ã€‚ä»1ç±³åˆ°4ç±³çš„å¤´éƒ¨ï¼Œè¿™å¯¹çŒå¤´çš„é‡é‡è¶…è¿‡äº†4ç±³ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_URV_POL2_TEOTL_OLMECS</Tag>
 		<English>Settle three Great Artists in your capital</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÄãµÄÊ×¶¼Èë×¤3¸ö´óÒÕÊõ¼Ò</Chinese>
+		<Chinese>åœ¨ä½ çš„é¦–éƒ½å…¥é©»3ä¸ªå¤§è‰ºæœ¯å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_OLM3</Tag>
 		<English>Be the first to discover Compass</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÊÏÈ·¢ÏÖÂŞÅÌ</Chinese>
+		<Chinese>ç‡å…ˆå‘ç°ç½—ç›˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_DESC</Tag>
 		<English>The Olmecs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ŠWÃ×¿ËÎÄÃ÷</Chinese>
+		<Chinese>å¥§ç±³å…‹æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_SHORT_DESC</Tag>
 		<English>Olmecs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ŠWÃ×¿Ë</Chinese>
+		<Chinese>å¥§ç±³å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OLM_TITLE</Tag>
@@ -107,30 +107,30 @@
 		<Tag>TXT_KEY_UHV_OLM3_TITLE</Tag>
 		<English>A Magnetite Artifact</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ÅÌú·ÉĞĞÆ÷</Chinese>
+		<Chinese>ç£é“é£è¡Œå™¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_OLMEC_COLOSSAL_HEAD</Tag>
 		<English>Colossal Head</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ŞÉñÍ·Ïñ(Colossal Head)</Chinese>
+		<Chinese>å·¨ç¥å¤´åƒ(Colossal Head)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_DEFAULT</Tag>
 		<English>%s2 City-States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2³Ç°î</Chinese>
+		<Chinese>%s2åŸé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_OLM2_TITLE</Tag>
 		<English>The Long Count Begins</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³¤Àú¼ÍÄê</Chinese>
+		<Chinese>é•¿å†çºªå¹´</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OLMECS_PEOPLES</Tag>
 		<English>Peoples of the Gulf lowlands</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£ÍåµÍµØÈË</Chinese>
+		<Chinese>æµ·æ¹¾ä½åœ°äºº</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,70 +1,70 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_REPUBLIC</Tag>
 		<English>Federal Democratic Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Áª°îÃñÖ÷¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1è”é‚¦æ°‘ä¸»å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_COMMUNIST</Tag>
 		<English>People's Democratic Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÈËÃñÃñÖ÷¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1äººæ°‘æ°‘ä¸»å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_PEOPLES</Tag>
 		<English>Abyssinian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢±ÈÎ÷ÄáÑÇÈË</Chinese>
+		<Chinese>é˜¿æ¯”è¥¿å°¼äºšäºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_DESC</Tag>
 		<English>The Ethiopians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£Èû¶í±ÈÑÇÎÄÃ÷</Chinese>
+		<Chinese>åŸƒå¡žä¿„æ¯”äºšæ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_AKSUM</Tag>
 		<English>Aksum</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢¿ËËÕÄ·</Chinese>
+		<Chinese>é˜¿å…‹è‹å§†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_AKSUMITE</Tag>
 		<English>Aksumite</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢¿ËËÕÄ·</Chinese>
+		<Chinese>é˜¿å…‹è‹å§†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_SHORT_DESC</Tag>
 		<English>Ethiopia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£Èû¶í±ÈÑÇ</Chinese>
+		<Chinese>åŸƒå¡žä¿„æ¯”äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_FASCIST</Tag>
 		<English>%s2 Junta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2¾üÕþ¸®</Chinese>
+		<Chinese>%s2å†›æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_ADAL</Tag>
 		<English>Adal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢´ï¶û</Chinese>
+		<Chinese>é˜¿è¾¾å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£Èû¶í±ÈÑÇ</Chinese>
+		<Chinese>åŸƒå¡žä¿„æ¯”äºš</Chinese>
 	</TEXT>
 </Civ4GameText>

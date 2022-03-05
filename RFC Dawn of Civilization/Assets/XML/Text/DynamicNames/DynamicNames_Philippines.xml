@@ -1,53 +1,53 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_DESC</Tag>
 		<English>The Philippines</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥фби╠ЖндцВ</Chinese>
+		<Chinese>Х▐╡Е╬▀Е╝╬Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_ADJECTIVE</Tag>
 		<English>Philippine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥фби╠Ж</Chinese>
+		<Chinese>Х▐╡Е╬▀Е╝╬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_TONDO</Tag>
 		<English>Tondo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>мп╤Ю(Tondo)</Chinese>
+		<Chinese>Ф┴≤Е╓ (Tondo)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1мУ╧З</Chinese>
+		<Chinese>%s1Г▌▀Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_SHORT_DESC</Tag>
 		<English>Philippines</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥фби╠Ж</Chinese>
+		<Chinese>Х▐╡Е╬▀Е╝╬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_PEOPLES</Tag>
 		<English>Tondo Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥фби╠Жхк</Chinese>
+		<Chinese>Х▐╡Е╬▀Е╝╬Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_THE</Tag>
 		<English>the Philippines</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╥фби╠Ж</Chinese>
+		<Chinese>Х▐╡Е╬▀Е╝╬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_BUTUAN</Tag>
 		<English>Butuan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╡╪мм(Butuan)</Chinese>
+		<Chinese>Е╦┐Е╠╞(Butuan)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_RAJAHNATE</Tag>

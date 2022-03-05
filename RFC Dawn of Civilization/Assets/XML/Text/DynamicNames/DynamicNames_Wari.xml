@@ -1,41 +1,41 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN_HELP</Tag>
 		<English>[ICON_BULLET]Great Person births require 50% less [COLOR_HIGHLIGHT_TEXT]Great Person Points[COLOR_REVERT]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]Î°ÈËµ®ÉúÖ»Ğè50%[COLOR_HIGHLIGHT_TEXT]Î°ÈËµã[COLOR_REVERT]</Chinese>
+		<Chinese>[ICON_BULLET]ä¼Ÿäººè¯ç”Ÿåªéœ€50%[COLOR_HIGHLIGHT_TEXT]ä¼Ÿäººç‚¹[COLOR_REVERT]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR2</Tag>
 		<English>Build 3 barracks and colcas and connect your cities by road by 1000 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1000ÄêÇ°½¨³É3¸ö±øÓªºÍcolcas£¬²¢ÓÃµÀÂ·Á¬½ÓËùÓĞµÄ³ÇÊĞ</Chinese>
+		<Chinese>å…¬å…ƒ1000å¹´å‰å»ºæˆ3ä¸ªå…µè¥å’Œcolcasï¼Œå¹¶ç”¨é“è·¯è¿æ¥æ‰€æœ‰çš„åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_REFINED_7POP_CITIES</Tag>
 		<English>Cities with Developing Culture and 5 Population: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»µÍÓÚ5ÈË¿Úwith developing cultureµÄ³ÇÊĞ£º%d1 / %d2</Chinese>
+		<Chinese>ä¸ä½äº5äººå£with developing cultureçš„åŸå¸‚ï¼š%d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_WAR</Tag>
 		<English>+1 Food on tiles adjacent to Mountains.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>É½·åÁÚ½üµÄµØ¿é+1Ê³Îï</Chinese>
+		<Chinese>å±±å³°é‚»è¿‘çš„åœ°å—+1é£Ÿç‰©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_DEFAULT</Tag>
 		<English>Kingdom of Wari</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀïÍõ¹ú</Chinese>
+		<Chinese>ç“¦é‡Œç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_WARI_600AD</Tag>
 		<English>It is the year 600 AD. The Wari Empire is in the middle of a cold war with their southern neighbors...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª600Äê¡£ÍßÀïµÛ¹úÕı´¦ÓÚÓëÄÏ·½ÁÚ¹úµÄÀäÕ½ÖĞ¡£¡£¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ600å¹´ã€‚ç“¦é‡Œå¸å›½æ­£å¤„äºä¸å—æ–¹é‚»å›½çš„å†·æˆ˜ä¸­ã€‚ã€‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_COLCAS</Tag>
@@ -47,91 +47,91 @@
 		<Tag>TXT_KEY_UHV_WAR2_TITLE</Tag>
 		<English>The First Andine Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÚÒ»¸ö°²µÚË¹µÛ¹ú</Chinese>
+		<Chinese>ç¬¬ä¸€ä¸ªå®‰ç¬¬æ–¯å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_WARI</Tag>
 		<English>It is the year 400 AD. North of the flourishing Tiwanaku, the rist of the Wari Empire heralds what will soon become the first major Andean power struggle...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª400Äê¡£ÔÚ·±ÈÙµÄÌáÍßÄÉ¿â±±²¿£¬ÍßÀïµÛ¹úµÄÍ³ÖÎÔ¤Ê¾×Å²»¾Ã½«³ÉÎª°²µÚË¹µÚÒ»´ÎÖ÷ÒªµÄÈ¨Á¦¶·Õù¡£¡£¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ400å¹´ã€‚åœ¨ç¹è£çš„æç“¦çº³åº“åŒ—éƒ¨ï¼Œç“¦é‡Œå¸å›½çš„ç»Ÿæ²»é¢„ç¤ºç€ä¸ä¹…å°†æˆä¸ºå®‰ç¬¬æ–¯ç¬¬ä¸€æ¬¡ä¸»è¦çš„æƒåŠ›æ–—äº‰ã€‚ã€‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹ÈË</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ¸ïÃüÁª°î</Chinese>
+		<Chinese>%s1 é©å‘½è”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CONNECTED</Tag>
 		<English>All Cities Connected by Routes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÃµÀÂ·Á¬½ÓËùÓĞµÄ³ÇÊĞ</Chinese>
+		<Chinese>ç”¨é“è·¯è¿æ¥æ‰€æœ‰çš„åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR1</Tag>
 		<English>Acquire gold, dyes, cotton, and sheep and have at least 500 Culture by 900 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª900ÄêÇ°ÓµÓĞ»Æ½ğ£¬È¾ÁÏ£¬ÃŞ»¨ºÍÃàÑò×ÊÔ´²¢ÖÁÉÙÓµÓĞ500µãÎÄ»¯</Chinese>
+		<Chinese>å…¬å…ƒ900å¹´å‰æ‹¥æœ‰é»„é‡‘ï¼ŒæŸ“æ–™ï¼Œæ£‰èŠ±å’Œç»µç¾Šèµ„æºå¹¶è‡³å°‘æ‹¥æœ‰500ç‚¹æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2 ¸ïÃüÕş¸®</Chinese>
+		<Chinese>%s2 é©å‘½æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_WAR_TITLE</Tag>
 		<English>The Power of Terraces:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌİÌï¸û×÷£º</Chinese>
+		<Chinese>æ¢¯ç”°è€•ä½œï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_DESC</Tag>
 		<English>The Wari</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀïÎÄÃ÷</Chinese>
+		<Chinese>ç“¦é‡Œæ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_ADJECTIVE</Tag>
 		<English>Wari</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀï</Chinese>
+		<Chinese>ç“¦é‡Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR3_TITLE</Tag>
 		<English>The Great Centers</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î°´óµÄÖĞĞÄ</Chinese>
+		<Chinese>ä¼Ÿå¤§çš„ä¸­å¿ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN</Tag>
 		<English>Gate of the Sun</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì«ÑôÖ®ÃÅ</Chinese>
+		<Chinese>å¤ªé˜³ä¹‹é—¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR3</Tag>
 		<English>Have four cities with developing culture and 5 population by 1100 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1100ÄêÇ°ÓµÓĞ4×ù²»µÍÓÚ5ÈË¿Ú³ÇÊĞwith developing culture</Chinese>
+		<Chinese>å…¬å…ƒ1100å¹´å‰æ‹¥æœ‰4åº§ä¸ä½äº5äººå£åŸå¸‚with developing culture</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_SHORT_DESC</Tag>
 		<English>Wari</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀï</Chinese>
+		<Chinese>ç“¦é‡Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_WARI_CAPAC</Tag>
 		<English>Wari Capac</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀï-ÍßÀï¡¤¿¨ÅÁ¿Ë</Chinese>
+		<Chinese>ç“¦é‡Œ-ç“¦é‡ŒÂ·å¡å¸•å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_WARI_PICTA_AUCAC</Tag>
@@ -143,7 +143,7 @@
 		<Tag>TXT_KEY_UHV_WAR1_TITLE</Tag>
 		<English>Wari Arts</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍßÀïÒÕÊõ</Chinese>
+		<Chinese>ç“¦é‡Œè‰ºæœ¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WARI_COLCAS</Tag>

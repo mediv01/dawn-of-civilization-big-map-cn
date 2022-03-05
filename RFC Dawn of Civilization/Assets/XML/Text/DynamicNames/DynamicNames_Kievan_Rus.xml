@@ -1,94 +1,94 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_ADJECTIVE</Tag>
 		<English>Rus'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹</Chinese>
+		<Chinese>罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_DEFAULT</Tag>
 		<English>Ukraine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڿ���</Chinese>
+		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_FASCIST</Tag>
 		<English>Panslavic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹����۹�</Chinese>
+		<Chinese>泛斯拉夫帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_OF</Tag>
 		<English>Rus of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹%s1</Chinese>
+		<Chinese>罗斯%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_DESC</Tag>
 		<English>The Rus'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹����</Chinese>
+		<Chinese>罗斯文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_ADJECTIVE</Tag>
 		<English>Ukrainian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڿ���</Chinese>
+		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_DESC</Tag>
 		<English>Ukraine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڿ���</Chinese>
+		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_FASCIST</Tag>
 		<English>Panslavic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹����۹�</Chinese>
+		<Chinese>泛斯拉夫帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_DEFAULT</Tag>
 		<English>Kievan Rus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������˹</Chinese>
+		<Chinese>基辅罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_REPUBLIC</Tag>
 		<English>%s1 Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1���͹�</Chinese>
+		<Chinese>%s1共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_PEOPLES</Tag>
 		<English>Rus' Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹��</Chinese>
+		<Chinese>罗斯人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_SHORT_DESC</Tag>
 		<English>Rus'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˹</Chinese>
+		<Chinese>罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_SHORT_DESC</Tag>
 		<English>Ukraine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڿ���</Chinese>
+		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_REPUBLIC</Tag>
 		<English>Ukraine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڿ���</Chinese>
+		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS'_VASSAL</Tag>
 		<English>%s1 Krai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1��ӹ��</Chinese>
+		<Chinese>%s1附庸国</Chinese>
 	</TEXT>
 </Civ4GameText>

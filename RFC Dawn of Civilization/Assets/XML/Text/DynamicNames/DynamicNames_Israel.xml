@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_FASCIST</Tag>
 		<English>Land of Greater %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╢С%s1</Chinese>
+		<Chinese>Е╓╖%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_PEOPLES</Tag>
 		<English>Zionist Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>слл╚хк</Chinese>
+		<Chinese>Г┼╧Е╓╙Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_REPUBLIC</Tag>
 		<English>State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╧З</Chinese>
+		<Chinese>%s1Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_PALESTINE</Tag>
 		<English>Palestine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╟м╩Ык╧л╧</Chinese>
+		<Chinese>Е╥╢Е÷╨Ф√╞Е²╕</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_COMMUNIST</Tag>
 		<English>Labor Zionist State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╧╓хк╧З</Chinese>
+		<Chinese>%s1Е╥╔Д╨╨Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_DESC</Tag>
 		<English>The Israelis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>рти╚апндцВ</Chinese>
+		<Chinese>Д╩╔Х┴╡Е┬≈Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_SHORT_DESC</Tag>
 		<English>Israel</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>рти╚ап</Chinese>
+		<Chinese>Д╩╔Х┴╡Е┬≈</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_DEFAULT</Tag>
 		<English>State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╧З</Chinese>
+		<Chinese>%s1Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_ADJECTIVE</Tag>
 		<English>Israeli</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>рти╚ап</Chinese>
+		<Chinese>Д╩╔Х┴╡Е┬≈</Chinese>
 	</TEXT>
 </Civ4GameText>

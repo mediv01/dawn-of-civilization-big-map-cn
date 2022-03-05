@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- GameText Civilopedia Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- UNIT INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SETTLER_PEDIA</Tag>
+		<English>When cities grew to a size where the resources were insufficient to adequately insure a decent standard of living for the populace, adventurous groups of citizens set out on their own in search of a place to build a new city. Once a suitable site was found, the settlers would build their new homes, and develop the land surrounding the city. Eventually the whole process repeated, and the new city would send out settlers of its own. This process allowed civilizations to grow throughout history, from the empires of the ancient world to the discovery and settlement of the New World.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当一个城市发展到其资源不再能够充分满足其居民对生活水准的需求时，其中富有冒险精神的那批人就会开始寻找适合建造新城市的地点。一旦找到合适的地方，这些移民将开辟新的家园并开发城市周围的土地。最终，新的城市又将派出新的一批移民，如此周而复始。这种过程使得各文明也在历史长河中保持延续和发展，从远古时代大帝国的扩张直到到对新大陆的探险和殖民。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKER_PEDIA</Tag>
+		<English>The majority of people in all civilizations throughout time have been workers. Whether engaged in farming, commerce, or industry, their actions form the economic infrastructure without which no nation can succeed. Over time, the endless activity of workers has reshaped the very suface of the land by mining hills, cutting down huge stretches of forest, and irrigating hostile terrain into fertile farmland. By the late 20th century it had become apparent that excessive deforestation and pollution from heavy industry posed a threat to the world's environment. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在任何文明社会中，工人（劳动者）都是数量最庞大的群体。无论是从事农业，商业还是工业，他们的劳动支持着整个经济体系的运行，对于一个国家的繁荣昌盛是不可或缺的。工人们成年累月的努力改变了整个世界的风貌，他们在山中开矿，在森林中伐木，将贫瘠的土地改造成肥沃的农田。但到了20世纪末，森林的过度砍伐和重工业的污染对全球环境构成了极为严重的威胁。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDIAN_FAST_WORKER_PEDIA</Tag>
+		<English>The Indian people are remarkably sturdy and hard-working. Their compact, wiry frames can stand up to the most difficult labor in some of the world's most difficult climates - of which there is a remarkable abundance in the Indian subcontinent, including desert, jungle, and perilously high mountains. Yet across all of this terrain can be found temples, shrines, and fortresses - monuments to the strength and determination of the hardy Indian people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度人民以身体强健、吃苦耐劳而闻名于世。他们通常身形不算高大但是却结实有力，可以在世上最恶劣的气候下完成最困难的劳动工作——印度次大陆具有荒漠、丛林、高原以及山脉等多种严酷的地形。遍布这块土地上的寺庙、神龛、要塞以及堡垒——都记录着这些身体强健、吃苦耐劳的印度工人的巨大贡献。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCOUT_PEDIA</Tag>
+		<English>Smart application of a nation's military resources often means identifying the points that would benefit from it the most.The use of lightly armed but fleet of foot scouts to survey the situation can permit this effective application of might.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>合理利用国家的军事资源，需要确定把它用在最能发挥效果的地方。使用武装简单而行动迅速的侦察兵来察探查周围的形势，能为有效使用力量提供帮助。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXPLORER_PEDIA</Tag>
+		<English>Throughout history there are those whose thirst for adventure led them from the safe confines of civilized lands. These explorers, frequently funded by government stipends, would then journey into the unknown, charting their progress all the way. These expeditions, and the maps they helped create, became blueprints for the conquest and domestication of the once uncharted regions of the world.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>历史上，总有那么一些人，对冒险的渴望驱使着他们离开平静的地方去探险，他们就是探险家。探险家经常在政府的资助下去未知的地方探索，并画出他们走过的路。这些探险，以及他们协助绘制的地图，将成为征服并占领未知世界的基础。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARRIOR_PEDIA</Tag>
+		<English>The earliest military forces were simply the citizens of the city, armed with whatever implements they could use as weapons. Although a militia made up of warriors was inexpensive, they were no match for organized armies. Warriors were usually used as stopgap measures while waiting for superior units to be trained, or to defend a city that had been temporarily cut off from military support. In a crisis situation, an assembly of warriors is better than no defense at all.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城市最初的武装力量就是普通居民，他们用随便什么能当武器用的东西来武装自己。尽管征募勇士组成民兵不用支出太多的军费，但无法与组织严密的正规军队相比。这样的部队通常只是权宜之计，以等待更高级的部队组建完成，或是用来临时保卫一座防御空虚的城市。在紧要关头，有一队民兵总比什么也没有要好些。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCAN_QUECHUA_PEDIA</Tag>
+		<English>The Incan Quechua were fierce South American warriors who in the period between 1440 and 1530 conquered much of the Andes and coastal regions of what is now Peru and Ecuador. These lightly-armed and fast-moving infantry were equipped with a variety of clubs, including light throwing clubs and heavy crushing weapons similar in design to maces. The Quechua were also quite proficient with the "bola," two balls attached by twine, which they used with great effect to bring down birds and small game.[PARAGRAPH:1]The Inca were overwhelmed and destroyed in the mid-16th Century by the Spanish Conquistadors. Though an extremely small force, the Spaniards were equipped with muskets, horsemen and cannon, fearsome weapons that the Incans had never encountered before. Unlike many other Native American nations, the Incans resisted the Spanish; but once again the Conquistadors made great use of its enemy's internal divisions, encouraging many subject tribes to rise up and turn on their Incan masters.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印加的“盖丘亚”是南美山区最悍勇的战士，他们在1440-1530年期间征服了安第斯山脉以及沿海地区的大部分，即今秘鲁和厄瓜多尔。这些拿着轻型武装并且移动迅速的步兵，装备各种棍棒，包括较轻的用来投掷的木棒和通常设计成钉锤形状的重型打击武器。“盖丘亚”能熟练使用一种类似“套牛绳”的武器，两只石球被一根麻绳栓在一起。他们也用这个来打鸟或者玩小游戏。[PARAGRAPH:1]印加民族在16世纪中期被西班牙征服者消灭殆尽。虽然人数不多，但装备着火枪、战马、大炮等可怕武器的西班牙征服者仍是印加人从未遇到过的强大对手。不像其他南美土著国家，印加人奋勇地抗击西班牙人的入侵，但征服者利用了对手内部的分歧，鼓动大批附属部族起来造反以推翻他们的印加领主的统治。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SWORDSMAN_PEDIA</Tag>
+		<English>The advantages of a long, sharp blade in battle had to await advanced smelting and casting technologies before they could be realized. By about 1500 BC the war ax had evolved into the sickle sword, a bronze sword with a curved, concave blade and a straight, thickened handle. Bronze swords with straight blades more than three feet long have been found in Greek grave sites; however, because this length exceeded the tensile strength of bronze, these swords were not practical. As a serious military weapon, the sword had to await the development of ironworking, and the first true swords date from about 1200 BC. Swords in antiquity and classical times tended to be relatively short, at first because they were made of bronze and later because they were rarely called upon to penetrate armor. The blade of the classic Roman stabbing sword, the gladius, was only some two feet long, though in the twilight years of the empire the gladius gave way to the spatha, the long slashing sword of the barbarians and forerunner of the great broadswords of medieval Europe.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>锋利的长剑在战斗中的优势，要等到更高级的熔炼和锻造技术出现之后，才能实现。大约在公元前1500年，原始战斧发展成为镰嘴剑，这种青铜短剑有着凹曲的刀刃和厚硬的直柄。在古希腊的墓葬中也发现过三英尺长的青铜直剑，不过由于这个长度已经超过了铜所能承受的张力，这种直剑是不实用的。剑作为一种有效的武器是从铁器煅造技术的出现而开始的，第一把真正的剑出现在公元前1200年左右，远古时期的剑往往是比较短的，开始是因为要用铜锻造，后来则是因为它们很少用来刺穿敌人的厚甲。传统的古罗马穿刺剑只有两英尺长，但到了罗马帝国末期，短剑被蛮族所用的锋利长剑（中世纪欧洲阔刃剑的前身）所取代。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZTEC_JAGUAR_PEDIA</Tag>
+		<English>The most feared predator of their Mexican empire, the Aztecs embraced the wild jaguar as a totem for their warrior elite. These soldiers were ferocious fighters, often emerging victorious even when badly outnumbered. The Jaguar Warriors carried obsidian swords and wooden shields for weaponry, and wore jaguar skins with their faces peering out of the animal's head to frighten their opponents. Only the greatest of Aztec warriors were granted the honor of becoming Jaguar Warriors, which usually required the capture of four or five enemies in battle. These savage fighters were universally feared throughout Mesoamerica but proved to be no match for the superior technology of the Spanish Conquistadors. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美洲虎，作为中美洲地区最可怕的食肉动物，是阿兹特克人信奉的图腾，并用以命名他们的精锐战士，他们是非常凶猛的斗士，即便在人数处于极端劣势的情况下也常能获得胜利。美洲虎战士装备黑矅石磨制的短剑和木质盾牌，身披虎皮、头顶虎头以恐吓敌人。只有那些最骁勇的阿兹特克人才有资格成为美洲虎战士，具体的条件通常是在战斗中捕获四至五名敌人。中美洲各民族都对这些强悍的战士心怀恐惧，但他们还是没有能力对抗拥有极大技术优势的西班牙征服者。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_PRAETORIAN_PEDIA</Tag>
+		<English>The Roman Legions, created during the early wars of the Republic and tested during the three Punic Wars against Carthage, were the fighting force that conquered and held the Roman Empire together for five centuries. Each legion was composed of 6000 men, divided into 60 smaller groups known as centuries. Nearly unstoppable on the attack, the legion was relatively weak on defense. The legion's demise as a military unit was accelerated by the destruction of Emperor Valens' army by gothic knights in the fourth century[PARAGRAPH:1]The term "Praetorian" came from the tent of the legatus of a legion in the field-the praetorium. It was a habit of many Roman generals to choose a private force of soldiers from the ranks to act as bodyguards of the tent or the person. These elite troops consisted of both infantry and cavalry. In time, this cohort came to be known as the cohors praetoria; various notable figures possessed one, including Julius Caesar, Mark Antony and Augustus Caesar (Octavianus). As Julius Caesar discovered with the Legio X Equestris, a powerful unit more dangerous than its fellow legions was desirable in the field. When Augustus became the first ruler of the Roman Empire in 27 BC, he decided such a formation was useful not only in war but in politics. Thus, from the ranks of the legions throughout the provinces, Augustus recruited the Praetorian Guard.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>古罗马军团建立于共和国前期的战争中，在与迦太基的三次布匿战争中均作为罗马军队的中坚。为罗马帝国征战四方，守护其安全达五个世纪之久。每个罗马军团由6000人组成，分为60个较小的单位（百人队）。罗马军团在进攻上无坚不摧，但在防御上则相对薄弱。公元四世纪时，瓦林斯皇帝的大军被哥特骑士所消灭，加速了罗马军团的消亡。[PARAGRAPH:1]禁卫军（“Praetorian”）一词来源于罗马军团主将所居的帐幕（“praetorium”）。罗马将军们习惯选出一些亲信的士兵做他们的护卫队。这些精锐部队包括步兵和骑兵，当时称为“近卫队”；许多声名显赫的人都拥有自己的近卫队，包括朱利乌斯·恺撒，马可·安东尼以及奥古斯都·恺撒（屋大维）。朱利乌斯·恺撒的第十军团是其中最著名的例子，表明拥有一支比其他军团更加强悍的武装具有何种重要意义。当奥古斯都在公元前27年成为罗马帝国第一任执政官时，他决定组建这样一只不仅在战争中，也能在政治上发挥作用的武装。因此，奥古斯都从各个行省的军团中选拔精锐，组成专门负责保卫皇帝的罗马禁卫军。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AXEMAN_PEDIA</Tag>
+		<English>The original axes were constructed of stone many thousands of years ago. They were hand-held tools and lacked a handle, which began appearing some time around 6000 BC. The original use of the axe was to chop wood, but axe-wielders no doubt quickly realized its potential as a weapon. [PARAGRAPH:1]An axe is a device that concentrates energy at the edge of a sharp blade, which can then chop into a tree - or skull. The axe is an edged weapon and is most effective when the user swings it in a wide arc, preferably with both hands. [PARAGRAPH:1]The first bronze axes begin to appear around 3000 BC. Most early cultures used some form of this fearsome weapon, which is far superior to clubs and other primitive melee weapons.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最早的石斧在史前时代即已出现。这种石斧只不过是经过加工的石块，到公元前6000年左右又产生了装有手柄的石斧。斧子最初是砍树的工具，但人们很快就发现了它作为武器使用的潜力。[PARAGRAPH:1]斧子能把力量集中在锋刃之上，易于砍斫树干——或是头颅。大角度挥动斧子能产生强大的威力，特别是双手一齐用力时。[PARAGRAPH:1]最早的青铜斧出现于公元前3000年左右。大多数古代民族都使用过这种可怕的武器，它比棍棒等原始肉搏兵器要优越得多。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACEMAN_PEDIA</Tag>
+		<English>A maceman is a medieval infantryman armed with a heavy club called a "mace." The mace is usually constructed of wood and metal; the head of the mace is faced with spikes, spines or knobs, allowing the weapon to more easily penetrate armor. [PARAGRAPH:1]The mace was a weapon of the feudal ages. The weapon is brutally powerful but also heavy and unweildy, making it perfect for taking on slow-moving, heavily-armored targets such as knights and armored infantry. [PARAGRAPH:1]Like so many other medieval warriors, the maceman was made obsolete by the advent of gunpowder. The armor of the day was unable to stop musket balls from penetrating; it simply slowed the wearers down, making them easier targets. Once soldiers began removing their armor, the mace was replaced by lighter melee weapons or the macemen were retrained as musketmen themselves.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>钉锤手是使用沉重“钉锤”作为武器的中世纪步兵。钉锤通常用硬木和金属材料制成；其顶端装有突起的尖钉，使这种武器能更容易地穿透铠甲。[PARAGRAPH:1]钉锤属于中世纪武器。其威力非常巨大，但使用不够灵便，适于对付移动缓慢的重装甲兵种，例如骑士和重步兵。同许多其他中世纪兵种一样，钉锤手也因火器的发明而开始过时。沉重的铠甲并不能阻挡火枪弹丸，反而使穿着者失去机动性，更易成为火枪的目标。于是原来的钉锤手脱掉了铠甲，改用更轻便的肉搏兵器，或者直接转为火枪手。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAPAN_SAMURAI_PEDIA</Tag>
+		<English>Similar to the European knights, Japanese samurai were landowners who volunteered military service in exchange for a larger warlord's protection. Their handsome lacquer armor gave them durable protection on the battlefield. The warrior code of "Bushido" placed exacting restrictions on their behavior, both on the field of battle and off. One such tenet was that samurai of opposing forces must seek each other out and battle one on one. While their armor provided some safety from early gunpowder weapons, soon more advanced weaponry and skilled marksmen relegated them to administrative and leadership roles. The samurai caste was abolished in 1868.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和欧洲的骑士差不多，日本的武士也是自愿效力军队的下级地主，以此换取更高级别领主的保护。武士们美观的涂漆护甲在战场上能起到很好的防护作用。日本武士在战时和平时的任何举动都要受“武士道”严格约束。敌对的两个武士必须通过一对一的单挑来分出胜负。虽然武士的盔甲可在一定程度上防御早期火器的威胁，但到后来，更为精良的火器以及更为精锐的射手让好勇斗狠的武士们不得不面对现实，转而把精力放在领导层面上。武士制度最终在1868年被废除。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPEARMAN_PEDIA</Tag>
+		<English>Though early man probably employed spears of fire-hardened wood, spearheads of knapped stone were used long before the emergence of any distinction between hunting and military weapons. Bronze spearheads closely followed the development of alloys hard enough to keep a cutting edge and represented, with the war ax, the earliest significant military application of bronze. Spearheads were also among the earliest militarily significant applications of iron, no doubt because existing patterns could be directly extrapolated from bronze to iron. Though the hafting is quite different, bronze Sumerian spearheads of the 3rd millennium BC differ only marginally in shape from the leaf-shaped spearheads of classical Greece. The spears of antiquity were relatively short, commonly less than the height of the warrior, and typically were wielded with one hand. As defensive armor and other weapons of shock combat (notably the sword and mounted troops) improved, spear shafts were made longer and the use of spearmen became increasingly specialized. The Greek hoplite's spear was about nine feet long; the Macedonian sarissa was twice that length in the period of Alexander's conquests. The Middle Ages would see the evolution of the spear into the pike and halberd.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在很久以前，无论是打猎或是作战，人们用的矛可能都是用硬木棒和绑上打碎的石块做成的。但是随着冶金工艺的发展，有着锋利的刃的坚硬的青铜矛尖出现了，这是铜在军事中最早的有重大意义的应用。而且铁应用在军事中也是从矛尖开始的，这一点不容置疑，从现有的发现中就可以直接被推知了。公元前3世纪闪族人所使用的矛尖和古希腊人用的叶状矛尖只是在边缘处略有不同，尽管他们用的矛柄根本不一样。古代的矛相对较短，长度一般都小于持矛者的身高，矛兵们可以用一只手挥矛。但随着盔甲以及近身格斗兵种的发展（特别是剑士和骑乘部队），矛的柄加长了，矛兵的使用也变成了专门的战术。希腊重装步兵的矛大约有九英尺长，而在亚历山大时代，马其顿的萨瑞沙长矛更是长达十八英尺。到了中世纪，矛逐渐演变成为长枪和戟。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEK_PHALANX_PEDIA</Tag>
+		<English>Phalanxes were well-trained citizen-soldiers of ancient Greece. Armed with spears and durable armor, they fulfilled the heavy infantry role in most engagements. Phalanxes are tightly packed groupings of eight or sixteen rows of soldiers, who move and attack in unison, scattering less densely organized enemy forces. Phalanxes worked well against the forces of the day, but broke down when facing more mobile and well-trained professional soldiers. The Roman legions victory over the Macedonian phalanx at Pydna in 168 BC effectively ended the phalanx's battlefield usefulness.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>组成希腊方阵的战士是由训练有素的古希腊公民担任的，他们的武装是矛和坚固的护甲，这种重装步兵在大多数情况下都是作战的主力。希腊方阵由八人或十六人密集排成纵列协同作战，那些阵型疏散的军队在步调高度一致的希腊方阵面前可谓是不堪一击。在当时这个阵形非常有效，但是它无法对抗拥有更强机动力的职业化精锐部队。公元前168年，罗马军团在佩德那战胜希腊方阵，也宣告了希腊方阵战术的消亡。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIKEMAN_PEDIA</Tag>
+		<English>The growing deployment of knights on the battlefield demanded that foot soldiers develop new means of fighting that would lessen their vulnerability to mounted opponents. One of the best ways to do this was to lengthen the reach of the infantrymen by arming them with long, sturdy spears known as pikes. Massed infantry armed with pikes -- particularly in conjunction with archers -- managed to even the battlefield odds. Armies equipped in this manner were able to hold their own until the invention of gunpowder made archers, pikemen, and knights a thing of the past.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑士在战场上更普遍的使用迫使步兵部队努力寻找出新的战术，以减少骑兵部队对他们的杀伤。最好的办法之一就是装备长柄武器来增加步兵们的攻击范围，即所谓的长枪。密集的长枪兵军团——特别是在射手部队的协助下，可以大大增加在战斗中获胜的几率。这种部队的编成方式能使他们在战斗中有效的保存自己。直到火药出现后,射手，长枪兵以及骑士才成为了历史。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUSKETMAN_PEDIA</Tag>
+		<English>One of the most important developments in the history of warfare was the invention of firearms. Originally developed in the 14th century, firearms evolved quickly, and by the late 17th century flintlock muskets had become commonplace in battle. Musketmen, who were relatively inexpensive to equip and train, proved a deadly foe for the knights who had dominated the battlefield for so many years. Armies were often comprised of a combination of musketmen, cannon, and knights, each complementing the strengths and weaknesses of the others. Large forces of musketmen within a fortress or behind city walls proved an exceedingly difficult obstacle to an attacking army. Muskets were the primary firearms in use until they were replaced by repeating rifles in the mid-19th century.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火器的发明是战争史上最重要的进步之一。火器发展的非常快，最早出现于14世纪,到17世纪时，燧发火枪已经是战斗中常见的武器了。装备和训练相对便宜的火枪手被证实是曾经风光无限的骑士的克星。此时的军队通常由火枪手，大炮和骑士混编而成，这样每个兵种的弱点都可以被其他兵种的优势弥补。躲在堡垒或城墙后的火枪手对于攻击部队来说是非常难以对付的。火枪在很长一段时期都是用于作战的主要火器，直到19世纪中叶，它们才被来复枪所取代。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER_PEDIA</Tag>
+		<English>Although often used to designate the flintlock-armed formations of a number of European countries, the term "Musketeer" generally refers to the King's Guard under Louis XIII and Louis XIV of France, immortalized in Dumas' famous novel. As such, the Musketeers served as a training ground for the young nobility, intended to be the elite of the army. Training not only included mastery of all weapons, from epee to musket, but instruction in social skills and military etiquette as well. In peacetime, the Musketeers served as the King's personal escort.[PARAGRAPH:2]Monsieur Treville, one of the Louis XIII's advisors and ardent sponsor of the Musketeers, and Cardinal Richelieu, who maintained his own company of guards, were political adversaries until the banishment of Treville following a 1642 plot to assassinate the Cardinal. Following that, the prestige of the Musketeers declined. In the military reforms that followed the death of Louis XIV, the Musketeers were disbanded and absorbed into the ranks of the French army.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>尽管很多欧洲国家都习惯使用燧发火枪部队，但在法语中，“火枪手”这个词则是专指法王路易十三和路易十四时期的火枪队成员。大仲马的著名小说使法国火枪手名垂青史。法国火枪手是由年轻的贵族训练而成，预期成为军队中的精锐。这些训练不单单包括掌握从剑到火枪等各种武器的使用方法，还有社交和军事礼仪教育。在和平年代，火枪队就是国王的私人卫队。路易十三的大臣特瑞维尔是火枪队的创建者，他和拥有私人卫队的红衣主教黎塞留一直是政敌，他最终因在1642年谋刺黎塞留失败而被流放。自此以后，火枪队的声望也衰落了。在路易十四死后法军进行的改革中，火枪队被裁撤，所有成员并入法国陆军。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIFLEMAN_PEDIA</Tag>
+		<English>Two developments in the 19th century made early firearms (such as the musket) obsolete. The first was the invention of a spiral groove, or "rifling," inside the barrel of a gun. Second was the development of the repeating rifle, which could fire multiple shots before it required reloading. The rifle was a better weapon than its ancestors, with much more accuracy over a greater range than the musket and a much higher rate of fire.[PARAGRAPH:2]Riflemen were first employed in large numbers during the American Civil War. The rifle gave a strong defensive advantage, since riflemen could fire several times while the attackers advanced to within hand-to-hand distance. This was normally enough to hold any position. Riflemen dominated the battlefield until the appearance of armored attack vehicles.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>19世纪的两项军事技术导致了早期火器（例如火枪）的淘汰。第一是枪膛内的螺旋形膛线（“来复线”）的发明，第二就是能重复装弹的来复枪，这种枪装填一次可以多次进行射击。来复枪比他的前辈性能更优越，其远距离的射击精度和射击速度都大大优于旧式火枪。[PARAGRAPH:2]来复枪兵第一次大量投入战场是在美国南北战争期间。来复枪兵在防御上表现出了明显的优势，因为当进攻者前进到能进行肉搏战的距离时，来复枪兵已经能开火好几次了。这足以使他们守住任何阵地。来复枪兵在战场上的主宰地位一直持续到装甲战车的出现才告结束。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GRENADIER_PEDIA</Tag>
+		<English>The original grenadier was a specialized assault soldier designed to attack enemy fortifications. The grenadier was equipped with grenades, small metal balls filled with gunpowder. The grenadiers would approach the enemy's works, light and throw their grenades, and then rush the works in the resulting confusion and panic. [PARAGRAPH:1]As time progressed, the early grenades were abandoned, primarily because improvements in musketry and massed fire techniques made it highly likely that the grenadier would get shot while in the act of throwing the grenade. The term "grenadier" remained, however, and it was used to denote elite troops until the First World War.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最初的掷弹兵是一种特殊的攻击型步兵，用来打击躲藏在掩体后的敌人。掷弹兵的主要装备是手榴弹，一种填装满炸药的小金属球。他们会接近敌人的阵地，打开保险并扔出手榴弹，然后在爆炸造成的混乱和恐慌中冲进敌人的阵地。[PARAGRAPH:1]随着时间的流逝，早期的手榴弹被逐渐淘汰。主要原因是步枪和密集火力覆盖武器的改进让士兵在投掷手榴弹的时候被子弹击中的危险性越来越大。但“掷弹兵”一词仍然保留了下来，直到第一次世界大战时仍被作为精英部队的称号。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ENGLISH_REDCOAT_PEDIA</Tag>
+		<English>A soldier of the British Army. The usual uniform of British soldiers during the 18th and 19th centuries (prior to the introduction of khaki) was a red (or scarlet) coat and white breeches. The epithet "Redcoats" was used throughout the world, but is particularly associated with the American colonists. The term is still used in Ireland to refer to the British Army, and sometimes to all British people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英国皇家来复枪兵俗称“红衣兵”。因为18到19世纪英国士兵的统一制服（在换用卡其布军装之前）都是由红色（或者是猩红色）的外套和白色的马裤所组成。“红衣兵”的足迹遍及全世界，但往往又用以特指美国独立战争时期的英国士兵。这一名称也在爱尔兰地区被用来称呼英国军队，有时还泛指所有的英国人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INFANTRY_PEDIA</Tag>
+		<English>Modern infantry is given the challenging task of taking and holding terrain, which often involves dangerous,close range fighting. Organized into small squads, their strength lies in their training and equipment (rifle, grenades, helmet, and other critical gear). Often individuals in the squad are trained to be specialists, allowing them access to anti-tank weapons or light machine guns. Experienced in concealment and patrolling close to the enemy, these hard-fighting men play an important and versatile role in modern military conflict.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现代步兵常被指派担负攻占和保卫某阵地的任务，这使得他们常陷入危险的近距离战斗中。步兵部队通常以班组为基本单位，他们的战斗力来自于良好的训练和装备（新式步枪、手榴弹、头盔和其他重要装具）。通常班组中的每个人都会接受某方面的特殊训练，以使他们能使用反坦克武器或轻机枪。这些擅长隐蔽和索敌的步兵战士在现代战争中一直扮演着重要而灵活的角色。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAM_INFANTRY_PEDIA</Tag>
+		<English>With the invention of the aircraft it quickly became apparent that mobile infantry units would need some kind of Anti-Aircraft weapons to defend against the new menace from the air. However, when flight was invented the idea that a single person could carry a rocket-based missile to destroy aircraft was unthinkable, and it took years before any were put into service. Throughout World War II, both sides in the conflict used rocket launcher devices in various forms. One form was the M1A1, an American made anti-tank rocket launcher that could be carried by infantry. By the late 1960s, several surface-to-air missile, shoulder fired single operator weapons were available. Many of these could hit an aircraft at over 10,000 feet off the ground. Even today these weapons are not as reliable as their designers had hoped, but when they do hit their target, it almost always results in devastating destruction.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞机发明之后，面对来自空中的新威胁，机动步兵部队对防空武器的需求日益迫切。然而，飞机刚发明时，人们觉得靠单人用火箭发射器来摧毁一个飞行器是不可思议的，直到多年以后这类武器才开始服役。贯穿整个二战，交战的双方都把火箭发射装置用在很多不同的方面。如美国研制的步兵用反坦克火箭发射器M1A1。20世纪60年代后期，多种地对空导弹发射器开始投入实战，可以由单兵扛在肩上使用。许多此类武器可以击落一万英尺以上高空的飞机。尽管时至今日这些武器并不像设计者希望的那样可靠，但当它们击中目标，仍能将其一举摧毁。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARINE_PEDIA</Tag>
+		<English>The Marines Corps is a branch of the military service whose training prepares them to carry out integrated land, sea, and air operations. The first marines were commissioned during the American Revolution, only to be inactivated after the war. Congress permanently reestablished the Marine Corps in July, 1798. Legendary for their toughness, rigid codes of behavior, and adaptability, they have played an important role in almost every major war and conflict of the 19th and 20th centuries.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海军陆战队是一个特殊的兵种，他们接受训练以应对海陆空各方面的任务。第一支海军陆战队在美国独立战争时期组建，但出乎意料的是战后即遭解散。美国国会于1798年7月决定恢复组建海军陆战队。因其传奇般的强壮体魄，不屈精神和适应力，他们在19世纪和20世纪的几乎所有的重大战争和冲突中扮演了重要的角色。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AMERICAN_NAVY_SEAL_PEDIA</Tag>
+		<English>Navy SEALs are elite counter-terrorism and covert operations forces trained to operate in small groups deep behind enemy lines. Their missions include reconnaissance, counter-terrorism and unconventional and counter-guerilla warfare. The SEALs are deployed by sea, air and land; hence their title. SEALs are trained to reach their destination by parachutes and paragliders, by marching through miles of difficult terrain, or by small boat or scuba gear. [PARAGRAPH:1]SEALs are equipped with the most sophisticated combat gear in the world, including night goggles, global positioning systems, satellite radios, laser sights, plastic explosives, and so on. Further, SEALs are trained in many forms of hand-to-hand combat, and an unarmed SEAL may be more dangerous than a handful of  regular soldiers armed with assault rifles.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海豹突击队（海军三栖部队）是以行动小组为单位深入敌后，专门执行反恐或机密任务的精锐部队。他们的的任务包括侦察、反恐及反游击等特种战争。海豹突击队能通过海、陆、空等各种方式投入战场；所有海豹突击队员都要接受降落伞和滑翔伞空投、长途越野、驾驶快艇或使用潜水装备等特殊训练，并随时准备投入战斗。[PARAGRAPH:1]海豹突击队拥有世界上最精良的作战装备，包括夜视仪、全球定位系统、卫星通讯、激光瞄准器、塑胶炸药等。除此之外，海豹突击队员还要掌握徒手格斗技能，一位赤手空拳的海豹突击队员往往要比一队装备突击步枪的正规士兵更难以对付。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MECHANIZED_INFANTRY_PEDIA</Tag>
+		<English>The introduction of armored tanks meant that armies could quickly break through enemy defensive positions and move aggressively forward on the battlefield. Such a quick advance, however, left the ground won in the advance largely undefended. Mechanized infantry, which was first used during World War II, was designed to move in quickly and defend the conquered area behind the tanks. Infantry were mounted in armored vehicles, such as half-tracks and Armored Personnel Carriers (APCs), to carry them quickly and safely along with the rapidly-advancing armored divisions.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>坦克的出现意味着进攻方可以迅速突破敌方防线并在战场上快速移动。但是这种快速突击使得突击后占领的大片地域缺乏防御力量。在第二次世界大战中首次投入实战的机械化步兵便是可以快速移动并被用于防守坦克后方的占领区的部队。步兵搭乘机械化车辆，诸如半履带车或装甲运兵车（APC），快速并安全的跟随迅猛推进的装甲部队。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARCHER_PEDIA</Tag>
+		<English>The bow and arrow, invented in prehistoric times, greatly improved the hunting skills of early man, allowing him to kill his targets from a distance. The bow was eventually adapted for use in battle, and was first used by Egyptian, Persian, and Assyrian armies as early as 5000 BC. The range provided by the bow allowed small forces of archers to rout armies of superior number armed only with hand-to-hand weapons. Archers were often used to soften enemy resistance prior to sending in mounted and skirmishing forces. Refinements in design and construction allowed the bow to remain an effective weapon until firearms finally replaced it in the 1500s.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在史前即已发明的弓箭极大的提升了人类的狩猎技能，使他们可以在远距离杀死猎物。后来弓箭被应用于战争，公元前5000年左右，埃及人、波斯人以及亚述人首先在战斗中使用了弓箭。弓箭的射程优势可以使得一小股弓箭手击退数量占优而只装备肉搏兵器的敌军。在派遣骑兵和肉搏力量投入战斗前，弓箭手常常首先被用来削弱敌人的抵抗力。完善的设计和制造技术使弓箭一直是非常有效的武器，直到16世纪才被火器所取代。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALI_SKIRMISHER_PEDIA</Tag>
+		<English>At its height, the Mali Empire stretched half-way across Africa, and included many subordinate tribes. To keep order, the Mali employed a huge standing army. During war, the Mali often fought as "skirmishers" - soldiers who fan out in loose formation to protect the main force's flanks or front. The Mali skirmishers were lightly-armed archers in that force, famed for their courage and their marksmanship. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在全盛时期，马里帝国占据着西非的半数土地，并有许多小部族向其臣服。为了维持帝国的秩序，马里人征召了一支庞大的常备军。在战斗中，马里人通常担任“突击手”——采用疏散阵形，负责保护主力部队的侧翼或前沿的战士。马里突击手是使用投射武器的轻装步兵，以其过人的勇气和精准的投射而闻名于世。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LONGBOWMAN_PEDIA</Tag>
+		<English>Longbowmen were highly skilled archers capable of firing up to six arrows a minute over long distances into massed enemy formations. Using bows constructed from a type of wood called Yew, they used arrows specifically designed to penetrate chainmail armor -- even plate if close enough. Frequently they would comprise approximately four-fifths of an army, and their devastating attacks helped to reverse the dominance of knights in warfare. Only lightly-armored, they enjoyed a great mobility advantage should their opponents survive their barrages.[PARAGRAPH:2]Once gunpowder began to find applications in the military, their use began to wane. Guns allowed foot soldiers the same effectiveness against knights, but without the decades of training required to be proficient with the longbow.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>长弓手是非常训练有素的射手，他们每分钟能发射六支箭，在很远的距离攻击敌人的密集军阵。长弓是用紫杉木制作的，箭也是特制的，可以穿透链甲，如果距离足够近，甚至还能穿透片甲。在中世纪军队中，长弓手的比例往往占到五分之四，他们毁灭性的攻击力抵销了骑士在战争中的优势。由于身穿轻便护甲，长弓手部队相当机动灵活，能够及时与侥幸冲过箭雨的敌人脱离接触。[PARAGRAPH:2]但是当火药开始应用于军事时，长弓手开始退出历史的舞台。火器使得步兵能象长弓手一样有效地对抗骑士，而且不用再象长弓手那样长年苦练了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CROSSBOWMAN_PEDIA</Tag>
+		<English>Crossbows were actively being used in European warfare from 800 to 1500 A.D. They supplanted bows in many European armies for a number of reasons. While an expertly handled longbow had greater range, better accuracy, and a much faster rate of fire than an average crossbow, the value of the crossbow came in its simplicity: a crossbow could be used effectively after a week of training, while a comparable single-shot skill with a longbow could take years. The use of winches allowed soldiers to use and fire weapons with a draw weight far in excess of what they could have handled with a bow. In the later years of its use, the crossbow had enough power to penetrate the armor of a knight with ease. Moreover, crossbows could be kept cocked and ready to shoot for some time with little effort, allowing crossbowmen to aim better and to "cover" a target area, while archers could not keep their powerful bows pulled for long periods of time.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弩（或称十字弓）在800至1500年的欧洲战场上得到了广泛的使用。在许多欧洲国家的军队中取代了弓的地位。虽然长弓通常比弩射程更远，精度更高，射速更快，但弩的使用却要更为简便：普通人只要经过一星期的训练就能有效地使用弩，长弓手要达到相应水准则需要多年的训练。弩可以用绞盘上弦，需要的力量比拉开同样强度的弓小得多。后来不断改良的弩已经足够射穿骑士的重甲。此外，弩还可以长时间保持准备射击的状态，使弩手能够从容地瞄准目标，弓则无法做到这一点。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHINA_CHOKONU_PEDIA</Tag>
+		<English>Repeating crossbows have a long history, with the oldest accurate written record dating to the Han dynasty (ca. 20-220 A.D.) in China. The Chinese repeating crossbow, the Chu-ko-nu, is an extremely simple piece of equipment. It is claimed to have been invented by Chinese strategist Zhuge Liang (181-234 A.D.), which is arguable since the earliest drawings of the weapon have been found from the buried library of Chu, dating all the way back to 250 B.C. The Chinese repeating crossbow saw its last serious action in the Sino-Japanese War of 1894-1895, where photographs show repeating crossbows as common weapons among Manchurian troops. The basic construction of this weapon has remained mostly unchanged since its invention, making it one of the longest-lived mechanical weapons.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>连发弩的历史很久远，最早的确切记载则始于中国东汉时期（20-220）。中国式的连发弩又名诸葛弩，是一种极为简便易用的武器。其发明者据称是杰出的战略家诸葛亮（181-234）。但也有人声称曾在被焚毁于公元前250年的楚国图书馆废墟中发现过类似武器的图样。中国连弩迟至1894-1895年的中日甲午战争中还在大量使用，当时的照片显示连弩仍是满洲八旗兵的常备武器。这类武器的基本构造从发明至今基本没有改变，这也使得连弩成了最为长寿的机械武器。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHARIOT_PEDIA</Tag>
+		<English>The chariot was the first true fighting vehicle. Ancient armies used it to transport archers and other troops to the battlefield, where they would disembark and fight. The Assyrians, whose archers and spearmen fought from inside the chariot itself, turned the vehicle into a fearsome offensive weapon. Few enemies were able to withstand an onslaught of Assyrian chariots. This devastating form of attack was soon adopted by many of the Assyrians' enemies, who used the chariot against them with good effect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马拉战车是最早的用于战斗的车辆。开始时军队只用车辆来把弓箭手或者其他军队运往前线。后来亚述人用战车载着弓箭手和矛兵同敌人作战，使得战车变成了一种可怕的攻击性武器。很少有敌人能挡住亚述战车的冲击。这种毁灭性的攻击形式很快也被亚述人的敌人们所采用，同样取得了良好的战果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_WARCHARIOT_PEDIA</Tag>
+		<English>The chariot was the earliest means of transportation in combat other than man's own powers of locomotion. The earliest known chariots, shown in Sumerian depictions from about 2500 BC, were not true chariots but four-wheeled carts with solid wooden wheels, heavy and cumbersome and lacking a pivoting front axle. The Hyksos apparently introduced the Assyrian chariot into Egypt shortly thereafter, where it was perfected for transportation and warfare. Within 500 years, Egyptian, Hittite and Palestinian chariots were extraordinarily light and maneuverable vehicles, the wheels and tires in particular exhibiting great sophistication in design and fabrication. Egyptian war chariots were drawn by either two or three horses, which were harnessed by means of chest girths secured by a pole and a yoke.[PARAGRAPH:2]The decline of the war chariot by the end of the 2nd millennium BC was probably related to the spread of iron weaponry, but it was surely related also to the breeding of horses with sufficient strength and stamina to carry an armed man into battle. Armed horsemen replaced the chariot in most Mediterranean civilizations. The use of chariots in war lingered in areas of slower technological advance, but in classical Egypt they were retained mainly for ceremonial functions.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战车最早是作为军事运输工具以代替人力搬运。现在已知的最早的战车是公元前2500年左右苏美尔人所使用的，但那种战车只是使用实心木轮的四轮大车，这些车太笨重，而且前车轴无法转向。不久，埃及的希克索斯王朝从亚述人那里引进了旧式战车，埃及人把它改造成了完善的运输工具和作战武器，在此后的500年时间里，埃及人、赫梯人以及巴勒斯坦人使用的战车都是非常轻便和易操纵的，在图画里，战车车轮及轮环上的花纹都清晰可辨。埃及战车用二至三匹马牵引，这些马装备全套马具并以肚带和车轭与车辆相连。[PARAGRAPH:2]战车的没落大概是在公元前二世纪末，这时铁制武器开始普及，另外骑术的成熟和马种的改良使骑马的部队开始出现，在地中海沿岸的大部分国家中，战车都被马兵所取代。只有一些技术较落后的地区还在继续使用。不过在古埃及，战车仍被保留作为仪仗使用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERIA_IMMORTAL_PEDIA</Tag>
+		<English>The Immortals were a strong corps deployed by the Persian Empire in the fifth century BC. Gifted soldiers, they drew their moniker from the fact that regardless of the casualties sustained in battle, the unit was restored to full strength, no matter the cost. Equipped with bow and spear, the front rank would advance upon the enemy while rear ranks rained arrows to ease the assault.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在公元前五世纪的波斯帝国中，国王挑选最精锐的战士充当禁卫军，称为“长生军”。这个名字是对这些战士的恰当褒奖，因为他们作战勇猛，奋不顾身，波斯长生军部队在任何时候都必须保持满员状态，不论这将付出多少代价。他们的装备是弓箭和矛，在战斗中，前排的战士负责冲击阵线，后排的战士则用箭雨瓦解敌军。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHER_PEDIA</Tag>
+		<English>A horse archer (or horsed archer or mounted archer) is a cavalryman armed with a bow. Because using a bow requires a horseman to let go of the reins with both hands, horse archers need superb equestrian skills. Horse archery is typically associated with steppe nomads. [PARAGRAPH:1]The weapon of choice for horse archers was the recurve bow, because it was compact enough to shoot from a horse and retained sufficient range and penetrating power. The most serious threat to horse archers was arrows, and they could wheel away out of bowshot after every attack. Mounted archers therefore needed little or no armor and could ride light, fast mounts such as ponies. This made them cheap to equip and increased their strategic mobility. [PARAGRAPH:1]A drawback of horse archers was that the movements of a running horse disturbed the accuracy of the shot. After the invention of the stirrup, horse archers would stand up in their stirrups to absorb the motion of the horse. Another method to facilitate accurate shooting was to time shots between the strides of the horse. [PARAGRAPH:1]Horse archers were eventually made obsolete by the development of modern firearms.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑射手以弓箭作为主要武器。由于拉弓放箭需要双手同时使用，因此骑射手需要非常好的骑术。骑射手兵种往往都和草原游牧民族联系在一起。[PARAGRAPH:1]骑射手通常装备反曲弓，这种弓比较短小轻便，适于在马上使用，而且具有足够的射程和穿透力。能对骑射手构成最大威胁的武器也是弓箭，所以他们在结束一轮攻击后往往立即后撤到弓箭射程之外。这样的战术要求骑射手的护甲要轻，坐骑要快（例如矮种马）。因此骑射手部队组建费用较低而机动性极高。[PARAGRAPH:1]骑射手的缺点是在马上射箭会影响准确度。马镫的发明使得骑射手在可以站在马镫上以缓冲马的动作。另一种提高准确度的技巧则是在马跳跃的中途进行射击。[PARAGRAPH:1]随着近代火器技术的发展，骑射手最终被淘汰出了战场。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MONGOL_KESHIK_PEDIA</Tag>
+		<English>The equestrian skill of a Mongol was notoriously keen.  Having been taught to ride on horseback from the age of three, and by five given bow and arrows to use from horseback for hunting and war, it was a natural way for the Mongols to conduct war.  The Mongol's harsh, nomadic lifestyle prepared them well for the rigors of war; they often thrived in conditions that would be considered intolerable by any other troops of its time. When the need arose, Mongol horsemen could go up to ten days at a time without cooking food, during which they would sustain themselves by drinking the blood and milk of their horses.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古人是马背上的民族。蒙古小孩三岁就开始骑马，五岁就要拿起弓箭去狩猎。蒙古人可以说是天生的骑射手。蒙古人习惯于艰苦的游牧生活，非常适应严酷的战争环境；他们往往能够在同时期的其他军队感到无法忍受的条件下保持高昂的斗志。必要时蒙古骑手可以连续十天不生火做饭，而只靠饮用马血和马奶维生。[PARAGRAPH:2](译注：该兵种原名“怯薛”，为蒙古语的音译，本意为“宿卫亲兵”，为蒙元禁卫军的称谓。早期蒙古各部落首领均有怯薛。成吉思汗于1204年为迎击乃蛮部太阳汗开始组建自己的怯薛部队，初仅80人，后扩编至上万人。作为由大汗亲自掌握的武装力量而受到格外重视，成吉思汗曾告诫自己的子孙要特别尊重怯薛，使其乐于为“黄金家族”效力。元朝建立后，仍保留怯薛制，重要官员多由怯薛出身的人充任。怯薛任官直接由怯薛长向皇帝荐举，而不必经中书省奏议.)</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_PEDIA</Tag>
+		<English>Knights were heavily armored, mounted men-at-arms found primarily in medieval Europe. Like the samurai of ancient Japan, knights followed a strict code that covered their behavior both in battle and in their personal pursuits. Fighting astride powerful horses, armored knights had a distinct advantage over enemies on foot and remained the dominant force on the battlefield when battles were fought primarily hand-to-hand. Occasionally, brilliant infantry tactics allowed knights to be outmaneuvered, but it wasn't until the development of gunpowder that knights were rendered obsolete.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑士是身披重甲的骑马武士，最早出现在中世纪的欧洲。和古代日本武士一样，骑士也被严格的规条约束着，不论在战斗中还是个人生活里。跨着强壮战马的重甲骑士在白刃战时对步兵有压倒性的优势。但偶尔，步兵凭借高超的战术和策略也能够战胜骑士。但是，直到火药的发展使骑士渐渐失去了光彩之前，这种情况并不多见。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_CAMELARCHER_PEDIA</Tag>
+		<English>In the Arabian Peninsula, cavalrymen ride on either horse or camel. While horses are somewhat easier to train than camels, camels are the obvious choice for forces operating in the deep desert. Arab tribesmen such as the Bedouin have always been fearsome warriors, and their prowess with bow and arrow (and later, rifle) from atop a mount has become the stuff of legend.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在阿拉伯半岛，马和骆驼都可以作为骑兵的坐骑。虽说马可能比骆驼容易训练，但在沙漠深处作战时，骆驼显然是更好的选择。阿拉伯的部落民族比如贝都因人，一向是令人畏惧的勇士，他们骑马射箭（以及后来的来复枪）的高超技艺成了很多民间传奇的素材。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPANISH_CONQUISTADOR_PEDIA</Tag>
+		<English>Following Columbus, a Spanish military group known as Los Conquistadores, 'The Conquerors', were directed by Hernan Cortes to the New World with the sole purpose of seeking out new frontiers and riches in the unknown. The Conquistadors undertook their expeditions in the vast landmasses of the Americas at their own expense, risking their lives without aid from the Spanish royalty.  Horses adorned with many bells enabled the Conquistadors to launch successful offenses against the American Indian natives, who had never seen a horse before the arrival of the Conquistadors.  Spanish-Conquistador conquests include campaigns in Mexico, Guatemala, Peru, Cuzco, Columbia, Chile, the Bay of Honduras, and the Pacific Coastal regions.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在哥伦布远航之后，一支名为“征服者”的西班牙武装集团在赫尔南多·科尔特斯率领下到达新大陆，前往遥远内陆寻找未知的财富。这些征服者并没有西班牙政府提供资助，而是自愿前往广阔的美洲大陆进行探险，他们的战马装饰有许多铃铛，此前从未见过马的美洲印第安原住民完全无法抵挡这些骑士的进攻。西班牙征服者的铁蹄在很短的时间里就踏遍了危地马拉、秘鲁、库斯科、哥伦比亚、智利、洪都拉斯湾以及太平洋沿岸各地区。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAVALRY_PEDIA</Tag>
+		<English>Cavalry is composed of soldiers trained to fight on horseback. Because of their speed, cavalry units were often used for reconnaissance missions and hit-and-run raids on enemy installations and troops. Although warriors fighting from horseback with a variety of weapons date back to ancient Egypt, horse-mounted cavalry as we generally think of it today actually began in the late 1700s. Under Napoleon, the cavalry became an elite force, frequently deployed simultaneously with foot soldiers to mask the movements of the main battle force.[PARAGRAPH:2]Cavalry were used extensively in the American Civil War, and in other conflicts throughout the mid to late 19th century. When the repeating rifle replaced earlier single-shot firearms, horse-mounted troops became easy targets for infantrymen. The South African War, from 1899 to 1902, was the last major conflict where cavalry played an important role. Today, the roles once performed by horse-mounted cavalry have been assumed by troops utilizing armored assault vehicles and aircraft.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑兵部队由经过严格训练，骑马作战的职业士兵所组成。由于他们的速度优势，骑兵经常用于执行侦察任务，以及对敌方据点和部队进行袭扰。虽然使用各种冷兵器的的骑马战士早在在古埃及就已经出现，但装备有马枪和马刀的，真正意义上的骑兵部队直到18世纪以后才开始组建。在拿破仑的军队中，骑兵是最精锐的力量，通常与步兵协同作战，充当主力部队的前锋和掩护。[PARAGRAPH:2]在美国南北战争以及19世纪中后期的大部分战事中，骑兵都得到普遍使用。但当可重复装弹的来复枪取代了老式单发火器之后，目标明显的骑兵就变成了步兵的活动靶子。骑兵最后一次在战斗中作为主力是在南非战争中（1899-1902）。现在，骑兵曾经扮演过的角色已经被装甲战车和飞机所取代。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUSSIA_COSSACK_PEDIA</Tag>
+		<English>Skilled horsemen dwelling in the northern steppes of the Black and Caspian Sea regions, the Cossack hosts had a tradition of fierce independence and, after decades of conflict, finally received privileges from the Russian government in return for military services. In the 16th century there were six major Cossack hosts: the Don, the Greben (in Caucasia), the Yaik (along the Ural River), the Volga, the Dnieper and the Zaporozhian (west of the Dnieper). Under the Russian umbrella, the Cossacks expanded eastward from their settlements in the Don and were early colonizers of Siberia. From the 18th through the 20th centuries, the Czars used Cossacks extensively to suppress revolutionary activities and conduct foreign wars.[PARAGRAPH:2]During the Russian Civil War (1918-20), the Cossacks in southern Russia formed the core of the White armies there and suffered extensively. Under Soviet rule, the Cossack communities ceased to function as distinctive entities.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>精于骑术的哥萨克人世代居住在黑海与里海北部的大草原，强烈的独立意识是他们的传统之一，经过长期的斗争与反抗，哥萨克人从俄罗斯统治者手中取得了自治权，作为回报，他们给与俄罗斯人强大的军事支持。在16世纪，有六个哥萨克人主要聚居地：顿河流域，格莱本（高加索地区），雅克地区（乌拉尔河沿岸），伏尔加河流域，第聂伯河流域，查波罗什地区（第聂伯河以西）。在俄国的保护伞下，哥萨克人从顿河地区的殖民地向东扩张，并对西伯利亚进行了早期开发。从18世纪到20世纪初，俄国沙皇大规模利用哥萨克骑兵镇压国内的革命运动，并干涉别国战争。[PARAGRAPH:2]在俄国内战时期（1918-1920），俄国南部的哥萨克骑兵构成了白军主力，遭受了极大损失。在苏联统治时期，作为独立实体存在的哥萨克走到了终点。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_ELEPHANT_PEDIA</Tag>
+		<English>The war elephant was first used in India and was known to the Persians by the 4th Century BC. Using war elephants, Candra Gupta defeated Alexander's successor Seleucus and established the Mauryan Empire. Though Carthage's African war elephants accomplished little subsequently, their presence in Hannibal's army during his transit of the Alps into the heart of Rome in 218 BC established their reputation as a fearsome weapon. The elephant's tactical importance apparently stemmed in large part from its willingness to charge both foot soldiers and cavalry and from the panic that it inspired. Although used in Indian military forces until the 20th Century, as with so many traditional weapons, the utility of elephants in war ended with the widespread use of gunpowder.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战象首先运用于印度，在公元前4世纪，波斯人也学会了使用它们。凭借战象的力量，旃陀罗笈多战胜了亚历山大的继承者塞琉古斯，并建立了孔雀王朝。不久，伽太基人也训练了他们的非洲战象，直到公元前218年，战象加入汉尼拔的大军翻越阿尔卑斯山脉攻入罗马帝国的心脏地带时，才真正被看作一种可怕的武器。它们很愿意驮载步兵，或作为骑兵的坐骑作战，这是战象最大的战术价值，它们的这种行为只能用天生的灵性来解释。直到20世纪，印度军队还在使用战象，尽管如此，战象在战争中的作用还是被广泛使用的火器取代了，这点和其他传统兵种没什么区别。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TANK_PEDIA</Tag>
+		<English>The rise in the use of semi-automatic and automatic firearms in the late 19th and early 20th century led to the demise of horse-mounted cavalry. As a result, attackers lost a significant advantage in both scouting and deployment. It was only with the development of tanks, armored mobile attack vehicles equipped with high caliber-guns, that a weapon was found which could once more punch a hole through enemy field forces. First appearing in World War I, armored attack vehicles move quickly and strike with power, while still possessing an effective defensive strength. Tanks are powerful weapon against any ground unit.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>19世纪末20世纪初，半自动和自动火器的出现导致了骑兵的消亡。结果，进攻方在侦查和部署上的优势荡然无存。坦克（装备大口径火炮的履带式装甲战车）的出现扭转了这种局面，它可以有效突破重兵防御的阵地。坦克首次使用是在第一次世界大战期间，以坦克作为主要武器的装甲兵部队攻守兼备，具有极高的机动力和战斗力。装甲兵部队对于任何其他地面部队来说都极具威胁性。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GERMAN_PANZER_PEDIA</Tag>
+		<English>The word "Panzer" is short for the German word Panzerkampfwagen, which translates to Armored Fighting Vehicle (or Tank) in English. The first Panzers were developed during the 1930s and used by German forces fighting in the Spanish Civil War, but they are most famous for their use during World War II as part of the German Blitzkrieg. Early Panzer models were technologically inferior to those used by Allied forces (especially the Soviet T-34 tank), and many German victories were won more due to the skill of their commanders than to the weaponry the Panzers carried. The Panzer V (known as the Panther) and the Panzer VI (or Tiger) developed during the war made significant improvements to the earlier designs and were a match for any Allied tanks. In the end, heavy bombing of German factories disrupted production and prevented large numbers of these weapons from being produced. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>装甲战车（坦克）的德语是“Panzerkampfwagen”（常简写为“Panzer”）。德国最早的一批装甲战车制造于20世纪30年代，并被参加武装干涉西班牙内战的德军所使用，不过真正使得德国装甲战车闻名遐迩的，则是在第二次世界大战期间作为执行德国闪击战术的主力。实际早期德国战车的性能并不及与盟军的同类武器（特别是与苏制T-34坦克相比），德国人之所以能够取得大量胜利，主要还是在于他们出色的战术指挥，而不是由于其战车的出色性能。在战争期间设计制造的五号战车（即豹式）和六号战车（即虎式）则对早期设计进行了重大改进，在性能上可以和任何盟军坦克相媲美。但是，对德国工厂的猛烈轰炸遏制了这些新式武器的大批量生产。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MODERN_ARMOR_PEDIA</Tag>
+		<English>Modern armor's goal is to provide versatile firepower that can operate in any battlefield condition, while at the same time ensuring the safety of its crew. Sophisticated electronics allows modern tanks to operate in any weather, day or night, with no significant performance degradation. Capable of nearly 50 mph in rugged terrain, these fighting vehicles are often in the 50-60 ton range. Though their firepower varies, most of these advanced tracked vehicles are equipped with 100mm+ cannons, in addition to other smaller caliber machine guns. Depending on the assignment, some versions include "reactive" armor, which helps to thwart the advanced armor-penetrating munitions seen on today's battlefields. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在任何战况下，现代装甲战斗车辆都可以提供强大的火力并确保自身的安全。精密电子设备使当今的主战坦克可以在任何天候下执行战斗任务，无论白天还是黑夜，都不会受到影响。这些五六十吨重的铁家伙们可以在崎岖不平的地形上以50英里每小时的速度行进。各种现代化履带式装甲战车的火力配备各不相同，但一般的都装有100毫米以上口径的火炮和数挺较小口径的机关枪。根据执行任务的不同，某些型号还配备有主动式反应装甲，以防御新式穿甲弹的攻击。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GUNSHIP_PEDIA</Tag>
+		<English>A gunship is an armed helicopter. They are the cavalry of the modern army, designed to reconnoiter enemy positions, deploy special forces deep behind enemy lines, and so forth. However, modern gunships are armed with armor-piercing missiles and heavy, quick-firing machine guns; with these, a gunship can wreck havoc on enemy tanks and troops.[PARAGRAPH:1:1]Gunships first saw extensive service in the Vietnam War. The Soviet Union employed gunships in Afghanistan, and the US has used them to great effect in all its recent conflicts.[PARAGRAPH:1:1]Ground troops defend themselves from gunships with SAMs (surface-to-air missiles). When the CIA supplied Afghan guerillas with such weapons during the Afghanistan war; the Afghans used the SAMs with such devastating effect that they virtually crippled the Soviet war effort.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>顾名思义，这是一种武装了的攻击型直升机。作为现代化军队的“空中骑兵”，可应用于执行侦察敌军位置，在敌方纵深地带投放特种部队等任务。现代武装直升机配备装有穿甲弹头的导弹和高射速的重机枪；能够给敌军坦克和其他部队以毁灭性的打击。[PARAGRAPH:1:1]武装直升机第一次大规模应用是在越南战场上。后来苏联人也将其应用于阿富汗战场，在此之后，美军参加的每次局部战事都能见到武装直升机的身影，并发挥了巨大作用。[PARAGRAPH:1:1]地面部队可使用轻型地空导弹来对付武装直升机。美国中央情报局曾在阿富汗战争中向反苏游击队提供此种武器；阿富汗人用地空导弹获得了巨大的战果，几乎使苏联的强大战争机器完全失灵。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CATAPULT_PEDIA</Tag>
+		<English>The catapult was one of the earliest forms of artillery, with records indicating that they were in use by the Greeks as far back as 400 BC. It was a large mechanical arm that propelled heavy stones and other missiles from a great distance, battering down walls and inflicting damage on buildings and defenders. Catapults could easily launch projectiles 500 to 1000 feet with a surprising amount of force behind them. Though cumbersome and nearly useless on the battlefield, the catapult was an effective weapon for siege operations.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>投石车是大炮的前身，最早于公元前400年出现于希腊。通过巨大的机械臂把石块或其他重物抛出很远的距离，砸烂城墙并对敌人部队和建筑物造成伤害。投石车威力强大，射程可达500至1000英尺，是很有效的攻城武器，虽然这些笨重的家伙在野战中几乎不起作用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNON_PEDIA</Tag>
+		<English>Closely following the invention of gunpowder, the development of the cannon caused a revolution in siege warfare. Invented by a German monk in the 14th century, early cannons used gunpowder charges to fire rocks or metal balls. The cannon forced a redesign of most fortifications because the straight, high walls surrounding most cities could be easily destroyed by direct fire. This was the fate of the walls of Constantinople, which had held against countless sieges for over a thousand years. The cannon quickly assumed an important role on the battlefield.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火药发明后不久，加农炮（前装直射的滑膛炮）也开始出现，并给攻城战带来了巨大的变革。欧洲最早的加农炮是一位日耳曼修道士在14世纪发明的，当时的加农炮以黑火药为动力发射石质或金属弹丸。加农炮的出现迫使大多数防御工事需要重新设计，因为原来那种高大平直的城墙可以被加农炮轻易摧毁。这也就是曾经在千余年战火中屹立不倒的君士坦丁堡城墙的最终命运。加农炮因其威力强大，在发明之后不久就全面主宰了战场。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACHINE_GUN_PEDIA</Tag>
+		<English>Many WWII-era divisions had a heavy weapons unit composed of a number of heavy machine guns, and perhaps a battery of 8cm field mortars. While such units were sometimes attached on the company level to a battalion, there were also entire battalions of machineguns attached at the division or corps level. The defensive ability of massed machineguns was first illustrated with deadly earnest during WWI by windrows of dead. By WWII the typical machinegun's rate of fire and increased and its bulk decreased, thus making it even deadlier and more mobile.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很多二战时期的师级部队都配有一个装备大量重机枪，或者是数门八厘米口径迫击炮的重型武器单位。营级单位也往往会配属一个重机枪连，有时一个师或军还会拥有多个重机枪营。一战时成片倒下的步兵第一次体现了大量重机枪火力极端致命的防御能力。到二战时期，机枪的射速进一步增加，体积则不断减小，使其更具杀伤力和机动力。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARTILLERY_PEDIA</Tag>
+		<English>Artillery is a general term covering several varieties of large-caliber weapons including mortars and field guns. Mortars fire an explosive projectile in a high arc, and are particularly effective against small, concealed targets. Field guns, long-range weapons that fire their projectiles in a flat arc, are used primarily for their ability to penetrate hard targets. Powerful enough to batter opposing forces even behind the strongest fortifications, artillery is also able to move quickly from one firing position to another. This is an important capability when fighting a moving battle or when avoiding enemy fire.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火炮是几种大口径炮的总称，包括迫击炮和野战炮等。迫击炮以高抛物线发射爆破弹丸，对付隐蔽的小型目标非常有效。野战炮射程更远，弹道较低平，主要用来轰击更难穿透的目标。野战炮的威力足够杀伤藏身坚固要塞的敌方部队。火炮也拥有良好的机动能力，可以迅速从一个火力点重新部署到另一个火力点。这一点对于运动战或避免敌方的报复性火力是十分重要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORK_BOAT_PEDIA</Tag>
+		<English>A work boat is a vessel designed to perform useful tasks at sea. Work boats come in a variety of forms, depending upon their particular employment - from simple fishing boats designed to deploy nets and lobster pots to small but powerful tugboats to mighty icebreakers to massive vessels capable of moving an entire oil platform.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工船是一种被设计用于海上作业的船。工船有很多不同的形态，这取决于它们的具体功用——简单的渔船、拖网渔船、专门的捕龙虾船、小吨位大功率的拖轮、无坚不摧的的破冰船，直到足以移动整个石油钻井平台的的大型工程船等。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEY_PEDIA</Tag>
+		<English>The galley was the first ship designed for war. Introduced by the Greeks, galleys were powered by banks of oars on each side, manned by well-trained oarsmen. These oarsmen were highly paid professionals or patriotic citizens, not slaves and prisoners as depicted in fiction. A huge, bronze "beak" mounted at the bow of the ship was used to ram and sink enemy ships. Because of its long, narrow hull, the galley was very unstable in all but the calmest waters, and as a consequence its crew rarely ventured out of sight of land for long periods of time, lest the ship be caught in a storm and sunk.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>桨帆船是第一种为战争而设计的船。最初由希腊人发明，其推进力主要来自于船体两侧由训练有素的划桨手操作的划桨，只有在顺风时才能扬帆航行。这些桨手都是报酬丰厚的专业人员或富有爱国精神的市民，而不是小说里描写的囚犯和奴隶。这种船的船头装有巨大的青铜喙，用来冲击并撞击敌船。长而窄的船身使得桨帆船只适于在平静的水域航行，所以在很长一个时期里，桨帆船极少航行到离开陆地较远的海域，以免它在风暴中沉没。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARAVEL_PEDIA</Tag>
+		<English>The caravel was a small sailing ship with three or four masts, a broad bow, and a high, narrow stern. Though often used as a warship, the caravel could also carry just over 100 metric tons of cargo. The Spanish and the Portuguese used caravels for both commerce and exploration. Christopher Columbus' three ships, the "Nina," "Pinta," and "Santa Maria," were caravels that risked the hazards of an ocean crossing.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>轻帆船是一种小型海船，拥有三到四根桅杆、宽阔的船头以及高而窄的船尾。尽管轻帆船经常用于海战，其实它还可以承载上百吨的货物。西班牙人和葡萄牙人使用轻帆船从事商业和探险活动。克里斯托弗·哥伦布就是指挥三条轻帆船：尼娜号、平塔号和圣玛利亚号冒着沉没的危险穿越了大西洋。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEON_PEDIA</Tag>
+		<English>By the late 15th century, oar-powered vessels had all but disappeared from the world's oceans, to be replaced by sailing vessels of various types. The galleon was one such vessel. Galleons were three- or four-masted ships, built high in both the forecastle and the stern. Developed in the 15th and 16th century, these versatile ships were mainly used as cargo vessels, although they were sometimes outfitted as light warships as well. Ships of this type served European nations well into the 1700s.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>到15世纪晚期，各个大洋上已经没有了划桨船的踪影，取而代之是各种其它类型的海船，大帆船就是其中之一。大帆船有三到四根桅杆，船头和船尾很高。在15至16世纪，这种通用型海船主要是作为海上货船，但有时也作为轻型战船使用。直到18世纪，欧洲各国仍在使用这种船型。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRIGATE_PEDIA</Tag>
+		<English>The frigate was a fast and powerful warship that evolved to fill several important roles, but one of its primary roles was to raid enemy shipping. These three masted ships were lighter and faster than the European great ship or man-of-war, and usually carried 36 or fewer guns. The frigate was powerful enough to overcome most of its prospective opponents and fast enough to escape those it could not outgun. Because of their speed and strength, frigates were often employed as escorts for merchant vessels during times of war. The frigate remained the most useful and dominant naval vessel until the development of the ironclad.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>三桅战舰（或称“风帆护卫舰”，现代护卫舰的前身）是一种快速而强大的战船，它可以执行多种重要任务，其中最基本的就是攻击敌方舰船。这种装有三桅的战船较欧洲的重型战船或主力战舰更快速灵活，它通常装备36门或更少的大炮。三桅战舰的火力足以击败绝大部分敌手；万一战况不利，它的速度也足以逃避更强大的敌人。由于它们的速度和战斗力，三桅战舰经常被用来保护商船，三桅战船在铁甲舰问世之前一直是主要的海军舰只。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRONCLAD_PEDIA</Tag>
+		<English>Ironclads were the forerunners of future generations of armored naval vessels. Instead of the simple wooden hulls found on the other ships at the time, ironclads were covered with strong metal plating. This plating made them nearly impervious to large-caliber explosive shells that would easily penetrate and destroy wooden vessels. Ironclads made their first appearance during the American Civil War, and quickly gained dominance over other ships of that era. Perhaps the most famous naval battle of the Civil War was the battle between the Confederate ironclad "Merrimack", and the Union ironclad "Monitor", which lasted for several hours before the "Merrimack" was forced to withdraw.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁甲舰是之后海军装甲舰只的前身。当同期别的战船都还仅仅拥有木质船体时，铁甲舰的船体覆盖了坚固的金属层。这层金属使得铁甲舰几乎不会受到大口径爆炸弹药的伤害——通常这种弹药能轻易击穿并摧毁脆弱的木质战船。铁甲舰首次现身是在美国南北战争中，并很快成为该时期成为海上霸主。或许南北战争中最著名的海战就是南部邦联的“梅里马克”号铁甲舰与北方的“莫尼特”号铁甲舰间的战斗。这场海战斗持续了数小时，最终“梅里马克”号被迫撤退。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRANSPORT_PEDIA</Tag>
+		<English>The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means used by modern powers to move large quantities of military equipment and personnel over long distances. Because transports lack offensive weaponry, they require armed vessels as escorts during times of war. A properly escorted transport can move large military forces to a new area quickly to act as reinforcements or as an attacking force.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军用运输船在和平时期主要用于货运和客运，其数量和吨位是现代国家远距离大规模部署部队装备和人员能力的衡量标准。因为运输舰配备的武器攻击力有限，在战时它们需要武装舰船的保护。一支有足够保护的运输舰队可以迅速的运送大量部队作为增援或是发动攻击。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DESTROYER_PEDIA</Tag>
+		<English>Destroyers are small escort ships that serve a variety of useful functions. These light, fast vessels were used extensively in World War II to provide air and sea cover for carrier groups. One of the primary functions of the destroyer is to locate and destroy enemy submarines. Using their sonar equipment to locate the subs, and their batteries of depth charges and torpedoes to destroy them, the destroyer forces of World War II were the key to the success of many crucial naval operations. Modern destroyers are still used in much the same role, as escorts for larger vessels and as submarine hunters. In addition to five-inch guns, the arsenal of today's destroyer includes anti-submarine helicopters, anti-ship cruise missiles, and the Phalanx system for defense against anti-ship missiles.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>驱逐舰是一种小型的，用途广泛的护航舰艇。在二战中，这种灵活快速的战舰被大量运用于保护航母编队免受来自空中和海上的攻击。驱逐舰的重要功能之一是搜索和攻击敌人的潜艇，它们借助声纳探测出潜艇的位置，再用深水炸弹和鱼雷将其摧毁。在二战的许多重大海战中，驱逐舰都扮演了关键的角色。现代的驱逐舰的作用仍然与过去类似，主要用来保护大型舰船和猎杀敌方潜艇。现代驱逐舰除了装备传统的五英寸舰炮，还配有反潜直升机、反舰巡航导弹和专门用来对付反舰导弹的“密集方阵”系统（雷达操控的高速多管机关炮)。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BATTLESHIP_PEDIA</Tag>
+		<English>The battleship was once the most powerful vessel on the seas. Heavily armored and difficult to destroy, its massive guns could accurately fire heavy projectiles at targets miles away. The battleship had two primary functions: clearing the seas of enemy ships and bombarding enemy coastal targets, usually in preparation for an invasion. The battleship's importance began to decline in World War II when the increasing use of fighters and bombers launched from aircraft carriers greatly extended the range of naval conflicts. Ship-to-ship combat became less frequent than long-range air attacks against enemy battle groups. The last of the U.S. Navy's battleships was decommissioned shortly after the Vietnam War, but the four battleships of the Iowa class were remodeled and re-commissioned in the 1980s.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战列舰一度是海上最强大的力量。厚重的装甲使它很难被击沉，船上的重炮可以在几英里外准确命中目标。战列舰的主要用途有两个：清除海上的敌舰，或在发动登陆战前轰击敌方沿海目标。二战中，航空母舰搭载的舰载轰炸机的大规模投入运用对海军造成了极大威胁，战列舰的重要性开始下滑。战斗机对海上舰队的空袭逐渐取代了传统意义上船与船之间的战斗。美国海军的最后一艘战列舰也在越南战争结束后不久退役，不过到20世纪80年代，四艘依阿华级战列舰经过现代化改装，又重新投入了使用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBMARINE_PEDIA</Tag>
+		<English>A submarine is a submersible warship, designed to attack enemy vessels while remaining hidden underwater. Although defensively weak, submarines are feared because of their ability to make a stealthy approach and attack without warning. Often, the presence of a submarine is not detected until the first of the sub's torpedoes strikes its target. The Germans first used submarine warfare extensively during World War I.[PARAGRAPH:2]Developments after the war, such as sonar, made the submarine even more effective. During World War II, submarines were used extensively by all the world's naval powers. Today's submarines, in addition to their role as fast attack vessels, also carry nuclear weapons that can be fired from underwater positions just off the coast of an enemy country.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>潜艇是一种可以潜入水下的舰船，可以在隐蔽于水下的同时对敌舰发动攻击。虽然潜艇的防御很薄弱，但仍然是令人生畏的力量，它们可以悄悄靠近敌人，发动攻击前也毫无征兆。通常情况下，潜艇对目标发动第一次鱼雷攻击前，敌人是无法侦测到它的位置的。一战中，德国人首先大规模使用潜艇作战。经过战后的发展和改良，声纳等仪器的发明使得潜艇更具威胁。在二战时，潜艇已经被交战各国的海军力量广泛使用了。今天的潜艇已经不仅仅是一种快速攻击单位，它们还可以携载核弹头从敌国海岸的海底发动攻击。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRIER_PEDIA</Tag>
+		<English>The aircraft carrier first came into widespread use during World War II. Carriers act as floating airfields, carrying fighters far from friendly territory to be launched against enemy targets. This allows an air strike against targets on both land and sea that would otherwise be far out of range.[PARAGRAPH:2]The range of the aircraft launched from carriers forever changed the methodology of naval battles. Opposing fleets could now engage in battle without either fleet ever entering the other's visual range, ending the dominance of the battleship as the strongest vessel on the sea.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>航空母舰的首次广泛应用是在二战中。它是一个漂浮在海上的飞机场，负载的战斗机和轰炸机可以在远离国土的地方对敌国目标进行攻击。这使得对目标的打击可以从海上或陆上进行，而不会有航程限制。舰载机的出现彻底改变了海军的作战方式，敌对的双方在作战时可能根本看不到对方舰队，同时终结了战列舰的海上霸主时代。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FIGHTER_PEDIA</Tag>
+		<English>The earliest military aircraft were used primarily in a reconnaissance role. In 1915, during World War I, aircraft designer Anthony Fokker developed a gear system that allowed a plane-mounted machine gun to fire through the propeller, giving birth to the first fighter aircraft. The fighter's mission was to shoot down enemy reconnaissance and fighter planes. Later, as the use of bombers became more widespread, fighters were called upon to act as interceptors against enemy bombing runs and escorts for friendly bombers. The best way to ensure the safe passage of friendly bombers to their selected targets is the destruction of enemy fighters.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>早期的军用飞机都是用于侦察的。一战期间，1915年，飞机设计师安东尼·福克尔改进了飞机的传动系统，使得机身上架设的机枪在开火时不会击中前面的螺旋桨叶，第一架战斗机就此诞生。战斗机的任务是击落敌人的侦察机和战斗机。不久，随着轰炸机的广泛应用，战斗机被用于拦截敌方轰炸机和为本方轰炸机护航。确保本方轰炸机安全前往指定目标执行任务的最好办法就是击落沿途敌方的战斗机。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JET_FIGHTER_PEDIA</Tag>
+		<English>The introduction of jet engines to fighter aircraft changed the way man wages war in the skies. The primary impact was that of speed, since even early jet engines were able to outperform their rotary peers by three to one. While this improvement was certainly appreciated by their pilots (speed advantages often translate to more options in air combat), it was some time before the nature of this change was fully understood. Dogfighting became a significantly more difficult task, since the window to 'take a shot' was reduced to an instant. The introduction of guided missiles helped address this, as well as increase engagement ranges to beyond what the pilot could visually see. Though missiles dramatically changed air combat, cannons still remained a staple of the vehicles' arsenal. Missiles could be jammed, and early attempts were fraught with unreliability. Without a backup weapon, pilots were often at the mercy of inferior planes, but ones where the pilot wasn't relying on shaky, emerging technologies.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战斗机加装喷气式引擎之后，空战的方式就改变了。其主要原因是速度，一个早期的喷气式引擎可以胜过三个螺旋桨引擎。飞行员当然喜欢这种变化，速度优势令他们在空战中有更多的选择。这种改进被迅速推广之后，原本意义重大的空中缠斗变得越来越难，因为从瞄准到射击的“时间窗”已缩短到以秒计。制导飞弹的出现又把缠斗战术向下推了一把，空战现在已经是在飞行员的视距之外进行了。不过尽管导弹戏剧性地改变了空战的方式，火炮仍然作为主要武器之一被保留下来。导弹的可携带数量有限，而且早期的飞弹可靠性不足。如果没有火炮作为备用武器，就会完全失去攻击能力，除了要运用最新式的武器装备，飞行员仍然需要依靠熟练掌握各种基本技能。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOMBER_PEDIA</Tag>
+		<English>The bombing of strategic targets from the air dates back to the beginning of World War I, when the Germans used zeppelins to bomb Paris and London. Because zeppelins proved to be extremely vulnerable, they were withdrawn from war in favor of airplanes. By the end of World War I planes were being designed specifically as bombers.[PARAGRAPH:2]The bomber's job is to carry bombs into enemy territory, normally beyond the range of artillery, and destroy targets of military and economic value. Bombers were often designed for specific missions, such as attacking ships, bombing vehicles and railroads, daylight precision bombing, and carpet-bombing.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>从空中轰炸敌方战略目标开始于第一次世界大战，德军用齐伯林飞艇轰炸了巴黎和伦敦。但飞艇的防御力极差，因此快就被飞机淘汰出战场。在一战末期，专门用于轰炸的飞机出现了。它们的任务是携带炸弹进入超过炮兵射程的敌方领域，摧毁敌人的军事或经济目标。还有专门设计的机型用于执行特定任务，如轰炸敌舰船、车辆和铁路等，轰炸的方式也分为精确定点轰炸和地毯式轰炸等。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEALTH_BOMBER_PEDIA</Tag>
+		<English>Concurrent with the development of a stealth fighter, aeronautical engineers began to apply stealth technology to a full-scale bomber. The B-1B bomber, which went into service in 1986 as a replacement for the B-52, incorporated some of these innovations. The radar signature of the B-1B was reduced to a mere one percent that of the B-52 due to its low cross-section and its minimal use of radar-reflective, hard-edged surfaces.[PARAGRAPH:2]Soon after the B-1B entered service, the U.S. Air Force commissioned Northrop to develop a true stealth bomber as an eventual replacement. First revealed to the public in 1988, the B-2 stealth bomber uses a flying wing design similar in shape to the F-117A stealth fighter. The flying wing design reduces the profile of the B-2 by incorporating its engines into the body of the plane. The engine exhausts and intakes are shielded to prevent infrared tracking. The B-2 also makes use of curved surfaces and radar-absorbing materials to enhance its "invisibility", and make it far less detectable than the B-1B. As of the late 1980s, it was announced that 132 B-2's would be constructed, and would enter service sometime in the 1990s.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在发展隐形战斗机的同时，航空工程师们也在研究如何把隐形技术应用于轰炸机。在1986年服役并取代了B-52的B-1B型轰炸机就初步应用了隐形技术。更小反射截面积，流线型的机身，和粗糙的边缘使其雷达反射面积仅有B-52的百分之一。在B-1B投入现役后不久，美国空军委任诺斯罗普公司负责研制真正的隐形轰炸机。第一种真正的隐形轰炸机B-2于1988年首次亮相，它使用和F-117A相似的外形，将发动机嵌入了机身内。发动机排气口和喷嘴采用防追踪设计。并采用全曲面机身设计和能吸收雷达波的材料来提高其隐身性能。它们比B-1B更加的难以被发现。20世纪80年代末，132架B-2轰炸机宣布投入计划生产，并在90年代开始服役。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICBM_PEDIA</Tag>
+		<English>The use of atomic bombs at Nagasaki and Hiroshima at the end of World War II changed the world's standards for measuring military power. Nuclear weapons can eradicate ground forces and armored divisions, and flatten cities with their awesome explosive power. In the years following World War II, arsenals of nuclear weapons were rapidly built by opposing nations, each fearing the capabilities of the other. This massive arms buildup has acted as a deterrent to full-scale war, since all the governments involved are aware of the consequences should such a war take place. The threat imposed by the huge nuclear arsenals of the world powers may one day be eradicated by the development of the Strategic Defense Initiative, or SDI, a system designed to destroy enemy missiles in flight before they can reach their targets.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>二战末期在广岛和长崎投下的两颗原子弹从此改变了世界军事实力的衡量标准。核武器爆炸能够瞬间清除成批的步兵和装甲部队，或轻而易举地夷平一座城市。二战以后，相互对峙的各大强国都迅速建立了自己的核武库，以维持彼此间军事实力的平衡。同时这种核军备竞赛也遏制了全面战争的爆发，因为各国都明白全面战争可能带来的后果。国家间核威慑构成的恐怖平衡状态将来可能因战略导弹防御系统的建立而被打破，此种系统可以在敌方战略导弹命中目标之前就在空中将其摧毁。</Chinese>
+	</TEXT>
+</Civ4GameText>

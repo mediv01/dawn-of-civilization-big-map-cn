@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_BENIN</Tag>
 		<English>Benin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>贝宁</Chinese>
+		<Chinese>璐濆畞</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_NIGERIA</Tag>
 		<English>Nigeria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼日利亚</Chinese>
+		<Chinese>灏兼棩鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_DEFAULT</Tag>
@@ -35,42 +35,42 @@
 		<Tag>TXT_KEY_CIV_NIGERIA_KANEM</Tag>
 		<English>Kanem</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆</Chinese>
+		<Chinese>鍗″唴濮�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_OYO</Tag>
 		<English>Oyo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥约</Chinese>
+		<Chinese>濂ョ害</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_PEOPLES</Tag>
 		<English>Yoruba Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>约鲁巴人</Chinese>
+		<Chinese>绾﹂瞾宸翠汉</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_IFE</Tag>
 		<English>Ife</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伊费</Chinese>
+		<Chinese>浼婅垂</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_SHORT_DESC</Tag>
 		<English>Nigeria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼日利亚</Chinese>
+		<Chinese>灏兼棩鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_ADJECTIVE</Tag>
 		<English>Nigerian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼日利亚</Chinese>
+		<Chinese>灏兼棩鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NIGERIA_DESC</Tag>
 		<English>The Nigerians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼日利亚文明</Chinese>
+		<Chinese>灏兼棩鍒╀簹鏂囨槑</Chinese>
 	</TEXT>
 </Civ4GameText>

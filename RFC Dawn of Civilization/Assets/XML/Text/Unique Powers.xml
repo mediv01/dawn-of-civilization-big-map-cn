@@ -1,964 +1,964 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UP_GRE_TITLE</Tag>
 		<English>The Power of Philosophy:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÜÈËÖ®Ë¼£º</Chinese>
+		<Chinese>å“²äººä¹‹æ€ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HAR</Tag>
 		<English>Positive health contributes to city growth during the Ancient era</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕıµÄ½¡¿µÓĞÖúÓÚÉÏ¹ÅÊ±´ú³ÇÊĞµÄ·¢Õ¹</Chinese>
+		<Chinese>æ­£çš„å¥åº·æœ‰åŠ©äºä¸Šå¤æ—¶ä»£åŸå¸‚çš„å‘å±•</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_ACTION_BYZANTINE_UP</Tag>
 		<English>[COLOR_HIGHLIGHT_TEXT]Bribe Barbarians[COLOR_REVERT][NEWLINE]Allows your spy to offer gold to bribe one barbarian unit on this plot to join your army.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_HIGHLIGHT_TEXT]»ßÂ¸Ò°ÂùÈË[COLOR_REVERT][NEWLINE]ÔÊĞíÄãµÄ¼äµıÌá¹©»Æ½ğ»ßÂ¸Õâ¸öÒõÄ±ÉÏµÄÒ»¸öÒ°ÂùÈËµ¥Î»¼ÓÈëÄãµÄ¾ü¶Ó¡£</Chinese>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]è´¿èµ‚é‡è›®äºº[COLOR_REVERT][NEWLINE]å…è®¸ä½ çš„é—´è°æä¾›é»„é‡‘è´¿èµ‚è¿™ä¸ªé˜´è°‹ä¸Šçš„ä¸€ä¸ªé‡è›®äººå•ä½åŠ å…¥ä½ çš„å†›é˜Ÿã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MONGOL_TERROR_US</Tag>
 		<English>Frightened by the approaching Mongol armies, the citizens of %s1 have abandoned their defenses!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÉÓÚÊÜµ½¼´½«µ½À´µÄÃÉ¹Å¾ü¶ÓµÄ¾ªÏÅ£¬%s1µÄÊĞÃñ·ÅÆúÁËËûÃÇµÄ·ÀÓù£¡</Chinese>
+		<Chinese>ç”±äºå—åˆ°å³å°†åˆ°æ¥çš„è’™å¤å†›é˜Ÿçš„æƒŠå“ï¼Œ%s1çš„å¸‚æ°‘æ”¾å¼ƒäº†ä»–ä»¬çš„é˜²å¾¡ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MONGOL_TERROR</Tag>
 		<English>The citizens of %s1 tremble in fear before our approaching armies!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÒÃÇ¼´½«µ½À´µÄ¾ü¶ÓÃæÇ°£¬%s1µÄÊĞÃñÔÚ¿Ö¾åÖĞ²ü¶¶£¡</Chinese>
+		<Chinese>åœ¨æˆ‘ä»¬å³å°†åˆ°æ¥çš„å†›é˜Ÿé¢å‰ï¼Œ%s1çš„å¸‚æ°‘åœ¨ææƒ§ä¸­é¢¤æŠ–ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BAB</Tag>
 		<English>Receives a free technology for the first five technologies discovered</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ñµÃ·¢ÏÖµÄÇ°ÎåÏî¼¼ÊõµÄÃâ·Ñ¼¼Êõ</Chinese>
+		<Chinese>è·å¾—å‘ç°çš„å‰äº”é¡¹æŠ€æœ¯çš„å…è´¹æŠ€æœ¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HUN_TITLE</Tag>
 		<English>The Power of Horsemanship</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÊõµÄÁ¦Á¿</Chinese>
+		<Chinese>é©¬æœ¯çš„åŠ›é‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CHI</Tag>
 		<English>Cities keep an additional 25% [ICON_FOOD] after growing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞÔÚÔö³¤ºó»¹±£ÁôÁË25%µÄ[ICON_FOOD] </Chinese>
+		<Chinese>åŸå¸‚åœ¨å¢é•¿åè¿˜ä¿ç•™äº†25%çš„[ICON_FOOD] </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OTT_TITLE</Tag>
 		<English>The Power of Devshirme:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×³¶¡Õ÷ÕÙ£º</Chinese>
+		<Chinese>å£®ä¸å¾å¬ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_EGY_TITLE</Tag>
 		<English>The Power of the Pharaoh:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¨ÀÏÖÆ¶È£º</Chinese>
+		<Chinese>æ³•è€åˆ¶åº¦ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BYZ_TITLE</Tag>
 		<English>The Power of Bribery:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾«ÂŞ¿ñÏ²£º</Chinese>
+		<Chinese>ç²¾ç½—ç‹‚å–œï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AME_TITLE</Tag>
 		<English>The Power of the American Dream:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀ¹úÃÎ£º</Chinese>
+		<Chinese>ç¾å›½æ¢¦ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAN_TITLE</Tag>
 		<English>The Power of Multiculturalism:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àÔªÎÄ»¯£º</Chinese>
+		<Chinese>å¤šå…ƒæ–‡åŒ–ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TUR_TITLE</Tag>
 		<English>The Power of Orda:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Â´ïÖ®Á¦£º</Chinese>
+		<Chinese>å¥¥è¾¾ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PHI</Tag>
 		<English>Naval units can establish embassies. Embassies provide 2 [ICON_GOLD] in your capital</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£¾ü²¿¶Ó¿ÉÒÔ½¨Á¢´óÊ¹¹İ¡£´óÊ¹¹İÔÚÄúµÄÊ×¶¼Ìá¹©2¸ö [ICON_GOLD]</Chinese>
+		<Chinese>æµ·å†›éƒ¨é˜Ÿå¯ä»¥å»ºç«‹å¤§ä½¿é¦†ã€‚å¤§ä½¿é¦†åœ¨æ‚¨çš„é¦–éƒ½æä¾›2ä¸ª [ICON_GOLD]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ROMAN_CONQUESTS_TARGET</Tag>
 		<English>The Romans have fielded an army to conquer our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂŞÂíÈËÒÑ¾­ÅÉ³ö¾ü¶ÓÀ´Õ÷·şÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>ç½—é©¬äººå·²ç»æ´¾å‡ºå†›é˜Ÿæ¥å¾æœæˆ‘ä»¬çš„æ–‡æ˜ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PER_TITLE</Tag>
 		<English>The Power of Satrapy:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ü¶½Ï½µØ£º</Chinese>
+		<Chinese>æ€»ç£è¾–åœ°ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HAR_TITLE</Tag>
 		<English>The Power of Sanitation:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖØÊÓÎÀÉú£º</Chinese>
+		<Chinese>é‡è§†å«ç”Ÿï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_AMERICAN_UP_HAPPINESS</Tag>
 		<English>[ICON_BULLET]%D1_Change%F2_HappyOrUn In All Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]%D1_Change%F2_HappyOrUnÔÚËùÓĞ³ÇÊĞ</Chinese>
+		<Chinese>[ICON_BULLET]%D1_Change%F2_HappyOrUnåœ¨æ‰€æœ‰åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_POR</Tag>
 		<English>Ocean Trade allowed with Cartography, reduced instability for overseas colonies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ñµÃÖÆÍ¼Ñ§ºóÔÊĞíº£ÑóÃ³Ò×£¬¼õÉÙÁËº£ÍâÖ³ÃñµØµÄ²»ÎÈ¶¨ĞÔ</Chinese>
+		<Chinese>è·å¾—åˆ¶å›¾å­¦åå…è®¸æµ·æ´‹è´¸æ˜“ï¼Œå‡å°‘äº†æµ·å¤–æ®–æ°‘åœ°çš„ä¸ç¨³å®šæ€§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SWE_TITLE</Tag>
 		<English>The Power of Nobel Prizes:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Åµ±´¶û½±µÄÁ¦Á¿£º</Chinese>
+		<Chinese>è¯ºè´å°”å¥–çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHM_TITLE</Tag>
 		<English>The Power of Monsoons:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼¾·çÍõ¹ú£º</Chinese>
+		<Chinese>å­£é£ç‹å›½ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAR</Tag>
 		<English>Can always hurry units with gold and pays half the cost and no extra upkeep for hurried units</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ÉÒÔËæÊ±ÓÃ»Æ½ğ´ß´Ùµ¥Î»£¬²¢Ö»ĞèÖ§¸¶Ïà±ÈÔ­À´Ò»°ëµÄ·ÑÓÃ£¬ÇÒ¶ÔÓÚ±»´ß´ÙµÄµ¥Î»Ã»ÓĞ¶îÍâµÄÎ¬»¤·Ñ</Chinese>
+		<Chinese>å¯ä»¥éšæ—¶ç”¨é»„é‡‘å‚¬ä¿ƒå•ä½ï¼Œå¹¶åªéœ€æ”¯ä»˜ç›¸æ¯”åŸæ¥ä¸€åŠçš„è´¹ç”¨ï¼Œä¸”å¯¹äºè¢«å‚¬ä¿ƒçš„å•ä½æ²¡æœ‰é¢å¤–çš„ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INC_TITLE</Tag>
 		<English>The Power of Terraces:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌİÌï¸û×÷£º</Chinese>
+		<Chinese>æ¢¯ç”°è€•ä½œï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KOR_TITLE</Tag>
 		<English>The Power of Education:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ÌÓıÖ®Á¦£º</Chinese>
+		<Chinese>æ•™è‚²ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_ACTION_ESTABLISH_EMBASSY</Tag>
 		<English>[COLOR_HIGHLIGHT_TEXT]Establish Embassy[COLOR_REVERT][NEWLINE]Provides 2[ICON_GOLD] in your capital. Cannot lose contact with this civ.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_HIGHLIGHT_TEXT]ÔÚÄúµÄÊ×¶¼½¨Á¢´óÊ¹¹İ[COLOR_REVERT][NEWLINE]Ìá¹©2¸ö[ICON_GOLD]¡£²»ÄÜÊ§È¥ÓëÕâ¸öÎÄÃ÷µÄÁªÏµ¡£</Chinese>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]åœ¨æ‚¨çš„é¦–éƒ½å»ºç«‹å¤§ä½¿é¦†[COLOR_REVERT][NEWLINE]æä¾›2ä¸ª[ICON_GOLD]ã€‚ä¸èƒ½å¤±å»ä¸è¿™ä¸ªæ–‡æ˜çš„è”ç³»ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IMMIGRATION_JEWISH_KINGDOM</Tag>
 		<English>Our population in %s1 is growing due to Jewish immigrants from less tolerant nations!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÔÚ %s1 µÄÈË¿ÚÕıÔÚÔö³¤£¬ÕâÊÇÒòÎªÓÌÌ«ÒÆÃñÀ´×Ô²»Ì«¿íÈİµÄ¹ú¼Ò£¡</Chinese>
+		<Chinese>æˆ‘ä»¬åœ¨ %s1 çš„äººå£æ­£åœ¨å¢é•¿ï¼Œè¿™æ˜¯å› ä¸ºçŠ¹å¤ªç§»æ°‘æ¥è‡ªä¸å¤ªå®½å®¹çš„å›½å®¶ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HRE</Tag>
 		<English>Double construction speed of state religion buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú½Ì½¨Öş½¨ÔìËÙÂÊ¼Ó±¶</Chinese>
+		<Chinese>å›½æ•™å»ºç­‘å»ºé€ é€Ÿç‡åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TEO</Tag>
 		<English>Melee units do not require strategic resources</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½üÕ½µ¥Î»²»ĞèÒªÕ½ÂÔ×ÊÔ´</Chinese>
+		<Chinese>è¿‘æˆ˜å•ä½ä¸éœ€è¦æˆ˜ç•¥èµ„æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AZT_TITLE</Tag>
 		<English>The Power of Flower Wars:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»¨»Ü´óÕ½£º</Chinese>
+		<Chinese>èŠ±å‰å¤§æˆ˜ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ITA</Tag>
 		<English>Free specialist in all of your cities until the Industrial Age</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÄãÃÇËùÓĞµÄ³ÇÊĞ¶¼ÓĞÃâ·ÑµÄ×¨¼Ò£¬Ö±µ½¹¤ÒµÊ±´ú</Chinese>
+		<Chinese>åœ¨ä½ ä»¬æ‰€æœ‰çš„åŸå¸‚éƒ½æœ‰å…è´¹çš„ä¸“å®¶ï¼Œç›´åˆ°å·¥ä¸šæ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KOR</Tag>
 		<English>Double specialist slots in capital</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê×¶¼×¨¼Ò²ÛÎ»¼Ó±¶</Chinese>
+		<Chinese>é¦–éƒ½ä¸“å®¶æ§½ä½åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHA</Tag>
 		<English>Tolerance is enabled at the start. Immigration from Jewish cities. Victories against Barbarians contribute to Great General births.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÎÏ·¿ªÊ¼ÆôÓÃ×Ú½Ì¿íÈİ£¬´ÓÓÌÌ«³ÇÊĞ»ñµÃÒÆÃñ£¬ÓëÒ°ÂùÈËµÄÕ½¶·¼ÆÈë´ó½«¾üµãÊı¡£ ¡¯</Chinese>
+		<Chinese>æ¸¸æˆå¼€å§‹å¯ç”¨å®—æ•™å®½å®¹ï¼Œä»çŠ¹å¤ªåŸå¸‚è·å¾—ç§»æ°‘ï¼Œä¸é‡è›®äººçš„æˆ˜æ–—è®¡å…¥å¤§å°†å†›ç‚¹æ•°ã€‚ â€™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TAMIL_CONQUESTS_TARGET</Tag>
 		<English>The Tamils have fielded an army to conquer our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì©Ã×¶ûÈËÅÉ³öÁËÒ»Ö§¾ü¶ÓÀ´Õ÷·şÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>æ³°ç±³å°”äººæ´¾å‡ºäº†ä¸€æ”¯å†›é˜Ÿæ¥å¾æœæˆ‘ä»¬çš„æ–‡æ˜ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OTT</Tag>
 		<English>Can Conscript two extra Units in Cities with Non-State Religions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÓĞ·Ç¹ú¼Ò×Ú½ÌĞÅÑöµÄ³ÇÊĞÄÜ¶àÕ÷Ä¼Á½¸öµ¥Î»</Chinese>
+		<Chinese>åœ¨æœ‰éå›½å®¶å®—æ•™ä¿¡ä»°çš„åŸå¸‚èƒ½å¤šå¾å‹Ÿä¸¤ä¸ªå•ä½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_YEM</Tag>
 		<English>25% of [ICON_COMMERCE] from trade routes is converted to [ICON_FOOD]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À´×ÔÃ³Ò×Â·ÏßµÄ[ICON_COMMERCE]µÄ25%×ª»¯Îª[ICON_FOOD]</Chinese>
+		<Chinese>æ¥è‡ªè´¸æ˜“è·¯çº¿çš„[ICON_COMMERCE]çš„25%è½¬åŒ–ä¸º[ICON_FOOD]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_GREEK_CONQUESTS_TARGET</Tag>
 		<English>The Greeks have fielded an army to conquer our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ï£À°ÈËÅÉ³öÁËÒ»Ö§¾ü¶ÓÀ´Õ÷·şÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>å¸Œè…Šäººæ´¾å‡ºäº†ä¸€æ”¯å†›é˜Ÿæ¥å¾æœæˆ‘ä»¬çš„æ–‡æ˜ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BYZANTINE_UP_BUTTON</Tag>
 		<English>%s1 (%d2 gold)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 (%d2 »Æ½ğ)</Chinese>
+		<Chinese>%s1 (%d2 é»„é‡‘)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HOL</Tag>
 		<English>Doubled yield and commerce from the trading company corporation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³É±¶µÄÊÕÒæºÍÃ³Ò×¹«Ë¾µÄÃ³Ò×</Chinese>
+		<Chinese>æˆå€çš„æ”¶ç›Šå’Œè´¸æ˜“å…¬å¸çš„è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ISR</Tag>
 		<English>Extra food, production and commerce in your capital from Jewish cities with open borders; immigration from Jewish cities at war</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´Ó±ß½ç¿ª·ÅµÄÓÌÌ«³ÇÊĞµ½ÄãÃÇÊ×¶¼µÄ¶îÍâÊ³Æ·¡¢Éú²úºÍÃ³Ò×£»´ÓÕ½ÕùÖĞµÄÓÌÌ«³ÇÊĞÒÆÃñ</Chinese>
+		<Chinese>ä»è¾¹ç•Œå¼€æ”¾çš„çŠ¹å¤ªåŸå¸‚åˆ°ä½ ä»¬é¦–éƒ½çš„é¢å¤–é£Ÿå“ã€ç”Ÿäº§å’Œè´¸æ˜“ï¼›ä»æˆ˜äº‰ä¸­çš„çŠ¹å¤ªåŸå¸‚ç§»æ°‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ZIM_TITLE</Tag>
 		<English>The Power of Stone Cities:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê¯Í·³ÇÊĞµÄÁ¦Á¿£º</Chinese>
+		<Chinese>çŸ³å¤´åŸå¸‚çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BRA</Tag>
 		<English>Sugar counts as oil for Oil Industry</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌÇ¿ÉÒÔ×÷ÎªÊ¯ÓÍ¹¤ÒµµÄÔ­ÁÏ</Chinese>
+		<Chinese>ç³–å¯ä»¥ä½œä¸ºçŸ³æ²¹å·¥ä¸šçš„åŸæ–™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_VIE</Tag>
 		<English>Units in cities, wooded plots and on hills have 2 first extra strikes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞ¡¢Ê÷ÁÖºÍÉ½ÇğÉÏµÄµ¥Î»ÓĞ2´Î¶îÍâµÄ¹¥»÷</Chinese>
+		<Chinese>åŸå¸‚ã€æ ‘æ—å’Œå±±ä¸˜ä¸Šçš„å•ä½æœ‰2æ¬¡é¢å¤–çš„æ”»å‡»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAM_TITLE</Tag>
 		<English>The Power of Madaris:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí´ïÀûË¹µÄÁ¦Á¿£º</Chinese>
+		<Chinese>é©¬è¾¾åˆ©æ–¯çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IND_TITLE</Tag>
 		<English>The Power of Purity:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´¿½àĞÅÑö£º</Chinese>
+		<Chinese>çº¯æ´ä¿¡ä»°ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MOO</Tag>
 		<English>Improvements that yield food give one extra food on plains tiles until the Renaissance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÒÕ¸´ĞËÖ®Ç°£¬ÔÚÆ½Ô­µØ¿éÉÏÔö¼ÓÒ»µãÊ³Îï²ú³ö</Chinese>
+		<Chinese>åœ¨æ–‡è‰ºå¤å…´ä¹‹å‰ï¼Œåœ¨å¹³åŸåœ°å—ä¸Šå¢åŠ ä¸€ç‚¹é£Ÿç‰©äº§å‡º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BAB_TITLE</Tag>
 		<English>The Power of the Cradle of Civilization:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÃ÷Ò¡Àº£º</Chinese>
+		<Chinese>æ–‡æ˜æ‘‡ç¯®ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHM</Tag>
 		<English>All land units can move through jungles and rainforests, can build farms on rainforest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞµÄÂ½µØµ¥Î»¶¼¿ÉÒÔ´©¹ı´ÔÁÖºÍÓêÁÖ£¬¿ÉÒÔÔÚÓêÁÖÉÏ½¨Å©³¡</Chinese>
+		<Chinese>æ‰€æœ‰çš„é™†åœ°å•ä½éƒ½å¯ä»¥ç©¿è¿‡ä¸›æ—å’Œé›¨æ—ï¼Œå¯ä»¥åœ¨é›¨æ—ä¸Šå»ºå†œåœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAL_TITLE</Tag>
 		<English>The Power of Wealth:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ó¸»ºÀ£º</Chinese>
+		<Chinese>å¤§å¯Œè±ªï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BYZ</Tag>
 		<English>Double gold value in trades, spies can bribe barbarian units</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½»Ò×ÖĞµÄË«±¶»Æ½ğ¼ÛÖµ£¬¼äµı¿ÉÒÔ»ßÂ¸Ò°ÂùÈËµ¥Î»</Chinese>
+		<Chinese>äº¤æ˜“ä¸­çš„åŒå€é»„é‡‘ä»·å€¼ï¼Œé—´è°å¯ä»¥è´¿èµ‚é‡è›®äººå•ä½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ROMAN_CONQUESTS</Tag>
 		<English>An army has been fielded to attack %s1_civ_adjective!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»Ö§¾ü¶Ó±»ÅÉÈ¥¹¥»÷%s1_civ_adjective£¡</Chinese>
+		<Chinese>ä¸€æ”¯å†›é˜Ÿè¢«æ´¾å»æ”»å‡»%s1_civ_adjectiveï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_THA</Tag>
 		<English>+1 Commerce per Excess Happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã¿¶àÒ»¸ö¿ìÀÖ+1ÉÌÒµ</Chinese>
+		<Chinese>æ¯å¤šä¸€ä¸ªå¿«ä¹+1å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BOE_TITLE</Tag>
 		<English>The Power of Voortrekkers:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÆÃñÏÈÇıÖ®Á¦</Chinese>
+		<Chinese>ç§»æ°‘å…ˆé©±ä¹‹åŠ›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARG_TITLE</Tag>
 		<English>The Power of Juntas:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÈË´ÓÕş£º</Chinese>
+		<Chinese>å†›äººä»æ”¿ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CHA</Tag>
 		<English>Core Cities also yield a Farm's base yields.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºËĞÄ³ÇÊĞÒ²²úÉúÁËÅ©³¡µÄ»ù±¾²úÁ¿¡£</Chinese>
+		<Chinese>æ ¸å¿ƒåŸå¸‚ä¹Ÿäº§ç”Ÿäº†å†œåœºçš„åŸºæœ¬äº§é‡ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PHI_TITLE</Tag>
 		<English>The Power of Embassies:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÊ¹¹İµÄÈ¨Á¦£º</Chinese>
+		<Chinese>å¤§ä½¿é¦†çš„æƒåŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ISR_TITLE</Tag>
 		<English>The Power of Aliyah:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢ÀïÑÇµÄÁ¦Á¿£º</Chinese>
+		<Chinese>é˜¿é‡Œäºšçš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SWE</Tag>
 		<English>Settled Great People create two extra [ICON_HAPPY] and one extra [ICON_GOLD]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶¨¾ÓµÄÎ°ÈË´´ÔìÁËÁ½¸ö¶îÍâµÄ[ICON_HAPPY]ºÍÒ»¸ö¶îÍâµÄ[ICON_GOLD]</Chinese>
+		<Chinese>å®šå±…çš„ä¼Ÿäººåˆ›é€ äº†ä¸¤ä¸ªé¢å¤–çš„[ICON_HAPPY]å’Œä¸€ä¸ªé¢å¤–çš„[ICON_GOLD]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_POR_TITLE</Tag>
 		<English>The Power of Exploration:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µØÀí´ó·¢ÏÖ£º</Chinese>
+		<Chinese>åœ°ç†å¤§å‘ç°ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INO</Tag>
 		<English>Additional gold from the spread of the spice route.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ÓÍâ¹ú´¬Ö»Í¨¹ıÄãºËĞÄµÄ¶îÍâ»Æ½ğ</Chinese>
+		<Chinese>ä»å¤–å›½èˆ¹åªé€šè¿‡ä½ æ ¸å¿ƒçš„é¢å¤–é»„é‡‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CONQUESTS_TARGET</Tag>
 		<English>%s1 has fielded an army to conquer our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÅÉÁËÒ»Ö§¾ü¶ÓÈ¥Õ÷·şÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>%s1æ´¾äº†ä¸€æ”¯å†›é˜Ÿå»å¾æœæˆ‘ä»¬çš„æ–‡æ˜ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TAM_TITLE</Tag>
 		<English>The Power of Thalassocracy:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£È¨¿ØÖÆ£º</Chinese>
+		<Chinese>æµ·æƒæ§åˆ¶ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ENG_TITLE</Tag>
 		<English>The Power of Indirect Rule:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ä½Ó¹æÔò£º</Chinese>
+		<Chinese>é—´æ¥è§„åˆ™ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IRA</Tag>
 		<English>Religious buildings produce +2 [ICON_CULTURE] and +2 [ICON_RESEARCH]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½Ì½¨ÖşÌá¹©  +2 [ICON_CULTURE] ºÍ +2 [ICON_RESEARCH]</Chinese>
+		<Chinese>å®—æ•™å»ºç­‘æä¾›  +2 [ICON_CULTURE] å’Œ +2 [ICON_RESEARCH]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CON_TITLE</Tag>
 		<English>The Power of the Tropics:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÈ´øÍõ¹ú£º</Chinese>
+		<Chinese>çƒ­å¸¦ç‹å›½ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BYZANTINE_UP_BODY</Tag>
 		<English>Choose the barbarian unit you wish to bribe:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ñ¡ÔñÄãÏë»ßÂ¸µÄÒ°ÂùÈËµ¥Î»£º</Chinese>
+		<Chinese>é€‰æ‹©ä½ æƒ³è´¿èµ‚çš„é‡è›®äººå•ä½ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TUR</Tag>
 		<English>Barbarians cannot enter your territory during peacetime and mounted barbarians will join your armies if attacked during wartime</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò°ÂùÈËÔÚºÍÆ½Ê±ÆÚ²»ÄÜ½øÈëÄãµÄÁìÍÁ£¬Èç¹ûÔÚÕ½ÕùÆÚ¼äÊÜµ½¹¥»÷£¬ÆïÔÚÂíÉÏµÄÒ°ÂùÈË½«¼ÓÈëÄãµÄ¾ü¶Ó</Chinese>
+		<Chinese>é‡è›®äººåœ¨å’Œå¹³æ—¶æœŸä¸èƒ½è¿›å…¥ä½ çš„é¢†åœŸï¼Œå¦‚æœåœ¨æˆ˜äº‰æœŸé—´å—åˆ°æ”»å‡»ï¼Œéª‘åœ¨é©¬ä¸Šçš„é‡è›®äººå°†åŠ å…¥ä½ çš„å†›é˜Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CHI_TITLE</Tag>
 		<English>The Power of Myriads:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞ¾¡Ö®Á¦£º</Chinese>
+		<Chinese>æ— å°½ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ETH</Tag>
 		<English>Cities have a trade connection to all other cities with your state religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞÓëÄã¹ú×Ú½ÌµÄËùÓĞÆäËû³ÇÊĞ¶¼ÓĞÃ³Ò×ÁªÏµ</Chinese>
+		<Chinese>åŸå¸‚ä¸ä½ å›½å®—æ•™çš„æ‰€æœ‰å…¶ä»–åŸå¸‚éƒ½æœ‰è´¸æ˜“è”ç³»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ZIM</Tag>
 		<English>Extra production and commerce on city tiles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞµØ¿éµÄ¶îÍâÉú²úºÍÉÌÒµ</Chinese>
+		<Chinese>åŸå¸‚åœ°å—çš„é¢å¤–ç”Ÿäº§å’Œå•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_POL_TITLE</Tag>
 		<English>The Power of Golden Liberty:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æ½¶ÀÕòÂ¶£º</Chinese>
+		<Chinese>å¹³ç‹¬é•‡éœ²ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ROM</Tag>
 		<English>Buildings that already exist in your capital receive +30% construction speed.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÄãµÄÊ×¶¼ÒÑ¾­´æÔÚµÄ½¨Öş½«»ñµÃ+30%µÄ½¨ÔìËÙ¶È¡£</Chinese>
+		<Chinese>åœ¨ä½ çš„é¦–éƒ½å·²ç»å­˜åœ¨çš„å»ºç­‘å°†è·å¾—+30%çš„å»ºé€ é€Ÿåº¦ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KRS_TITLE</Tag>
 		<English>The Power of Chernozem Soil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÚ¸ÆÍÁµÄÍşÁ¦</Chinese>
+		<Chinese>é»‘é’™åœŸçš„å¨åŠ›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BUR</Tag>
 		<English>Religious buildings provide +1 [ICON_GREATPEOPLE]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½Ì½¨ÖşÌá¹©+1[ICON_GREATPEOPLE]</Chinese>
+		<Chinese>å®—æ•™å»ºç­‘æä¾›+1[ICON_GREATPEOPLE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PLY_TITLE</Tag>
 		<English>The Power of Navigation:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º½º£ÏÈÇı£º</Chinese>
+		<Chinese>èˆªæµ·å…ˆé©±ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TEO_TITLE</Tag>
 		<English>The Power of Obsidian:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÚê×Ê¯µÄÁ¦Á¿£º</Chinese>
+		<Chinese>é»‘æ›œçŸ³çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_RUS</Tag>
 		<English>Enemy units in Russia take damage every turn</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚ¶íÂŞË¹µÄµĞ¾üÃ¿»ØºÏ¶¼ÊÜµ½ÉËº¦</Chinese>
+		<Chinese>åœ¨ä¿„ç½—æ–¯çš„æ•Œå†›æ¯å›åˆéƒ½å—åˆ°ä¼¤å®³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PER</Tag>
 		<English>Additional stability for recently conquered cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂÕ÷·ş³ÇÊĞµÄ¶îÍâÎÈ¶¨ĞÔ</Chinese>
+		<Chinese>æ–°å¾æœåŸå¸‚çš„é¢å¤–ç¨³å®šæ€§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HUN</Tag>
 		<English>Mounted units recieve defensive bonuses</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æï±øµ¥Î»»ñµÃ·ÀÓù¼Ó³É</Chinese>
+		<Chinese>éª‘å…µå•ä½è·å¾—é˜²å¾¡åŠ æˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ROMAN_TRIUMPH</Tag>
 		<English>Your triumphant victories have enabled you to field another legion!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãµÄÊ¤ÀûÊ¹ÄãÄÜ·¢¶¯ÁíÒ»¸ö¾üÍÅ£¡</Chinese>
+		<Chinese>ä½ çš„èƒœåˆ©ä½¿ä½ èƒ½å‘åŠ¨å¦ä¸€ä¸ªå†›å›¢ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_EMIGRATION_ALIYAH</Tag>
 		<English>The Jewish population of %s1 is fleeing to Israel!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 µÄÓÌÌ«ÈËÕıÔÚÌÓÍùÒÔÉ«ÁĞ£¡</Chinese>
+		<Chinese>%s1 çš„çŠ¹å¤ªäººæ­£åœ¨é€ƒå¾€ä»¥è‰²åˆ—ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_EMIGRATION_JEWISH_KINGDOM</Tag>
 		<English>The Jewish population of %s1 is emigrating to the Jewish Kingdom!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 µÄÓÌÌ«ÈËÕıÔÚÒÆÃñµ½ÓÌÌ«Íõ¹ú£¡</Chinese>
+		<Chinese>%s1 çš„çŠ¹å¤ªäººæ­£åœ¨ç§»æ°‘åˆ°çŠ¹å¤ªç‹å›½ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_POL</Tag>
 		<English>Additional food and commerce during Golden Ages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ğÊ±ÆÚµÄ¶îÍâÊ³Æ·ºÍÉÌÒµ</Chinese>
+		<Chinese>é»„é‡‘æ—¶æœŸçš„é¢å¤–é£Ÿå“å’Œå•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_RUS_TITLE</Tag>
 		<English>The Power of General Winter:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Áİ¶¬½«ÖÁ£º</Chinese>
+		<Chinese>å‡›å†¬å°†è‡³ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_VIK</Tag>
 		<English>Additional gold from pillaging, sacking cities and sinking ships during the Middle Ages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÊÀ¼ÍÂÓ¶á¡¢Ï´½Ù³ÇÊĞºÍ»÷³Á´¬Ö»´øÀ´¶îÍâ»Æ½ğ</Chinese>
+		<Chinese>ä¸­ä¸–çºªæ å¤ºã€æ´—åŠ«åŸå¸‚å’Œå‡»æ²‰èˆ¹åªå¸¦æ¥é¢å¤–é»„é‡‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MUG</Tag>
 		<English>Cities receive half the construction cost as culture after a building is completed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»×ù½¨ÖşÍê³ÉÖ®ºó£¬½¨ÔìËüµÄÒ»°ë²úÄÜ½«»á×ªÎªÎÄ»¯¡£</Chinese>
+		<Chinese>ä¸€åº§å»ºç­‘å®Œæˆä¹‹åï¼Œå»ºé€ å®ƒçš„ä¸€åŠäº§èƒ½å°†ä¼šè½¬ä¸ºæ–‡åŒ–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AME</Tag>
 		<English>Additional happiness from running Democracy, Constitution, Individualism and Free Enterprise</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃñÖ÷ÖÆ¶È¡¢ÏÜ·¨ÖÆ¶È¡¢¸öÈËÖ÷ÒåºÍ×ÔÓÉÊĞ³¡ÕşÌå´øÀ´¶îÍâĞÒ¸£</Chinese>
+		<Chinese>æ°‘ä¸»åˆ¶åº¦ã€å®ªæ³•åˆ¶åº¦ã€ä¸ªäººä¸»ä¹‰å’Œè‡ªç”±å¸‚åœºæ”¿ä½“å¸¦æ¥é¢å¤–å¹¸ç¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_GER</Tag>
 		<English>Units retain all their experience when upgraded</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¥Î»Éı¼¶ºó±£ÁôËùÓĞ¾­Ñé</Chinese>
+		<Chinese>å•ä½å‡çº§åä¿ç•™æ‰€æœ‰ç»éªŒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAR_TITLE</Tag>
 		<English>The Power of Mercenaries:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ÍÓ¶Õ½Ê¿£º</Chinese>
+		<Chinese>é›‡ä½£æˆ˜å£«ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NIG_TITLE</Tag>
 		<English>The Power of the Shield of the Warrior King:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎäÍõ¶ÜµÄÁ¦Á¿£º</Chinese>
+		<Chinese>æ­¦ç‹ç›¾çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IRA_TITLE</Tag>
 		<English>The Power of Safaviyya:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èø·Æ½ÌÅÉ£º</Chinese>
+		<Chinese>è¨è²æ•™æ´¾ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SPA</Tag>
 		<English>Naval units receive +2 movement points</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£¾üµ¥Î»»ñµÃ+2ÒÆ¶¯µã</Chinese>
+		<Chinese>æµ·å†›å•ä½è·å¾—+2ç§»åŠ¨ç‚¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NUB_TITLE</Tag>
 		<English>The Power of Vaults:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ğ¿âµÄÁ¦Á¿£º</Chinese>
+		<Chinese>é‡‘åº“çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HRE_TITLE</Tag>
 		<English>The Power of Investiture:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ıÈ¨ÉñÊÚ£º</Chinese>
+		<Chinese>å›æƒç¥æˆï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_YEM_TITLE</Tag>
 		<English>The Power of Spices:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏãÁÏµÄÁ¦Á¿£º</Chinese>
+		<Chinese>é¦™æ–™çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BOE</Tag>
 		<English>Additional infrastructure in new and acquired cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂ³ÇÊĞµÄ¶îÍâ»ù´¡ÉèÊ©</Chinese>
+		<Chinese>æ–°åŸå¸‚çš„é¢å¤–åŸºç¡€è®¾æ–½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TIB_TITLE</Tag>
 		<English>The Power of Missionaries:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÅÑö´«²¥Õß£º</Chinese>
+		<Chinese>ä¿¡ä»°ä¼ æ’­è€…ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ROM_TITLE</Tag>
 		<English>The Power of Infrastructure:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù½¨¿ñÄ§£º</Chinese>
+		<Chinese>åŸºå»ºç‹‚é­”ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SWA_TITLE</Tag>
 		<English>The Power of Sea Trade:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£ÉÏÃ³Ò×µÄÁ¦Á¿£º</Chinese>
+		<Chinese>æµ·ä¸Šè´¸æ˜“çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BUR_TITLE</Tag>
 		<English>The Power of Monks Kings:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>É®ÂÂ¹úÍõµÄÁ¦Á¿£º</Chinese>
+		<Chinese>åƒ§ä¾£å›½ç‹çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BYZANTINE_UP_BUTTON_NONE</Tag>
 		<English>None</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞ</Chinese>
+		<Chinese>æ— </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAM</Tag>
 		<English>+2 [ICON_RESEARCH] to science buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>+2[ICON_RESEARCH]µ½¿ÆÑ§½¨Öş</Chinese>
+		<Chinese>+2[ICON_RESEARCH]åˆ°ç§‘å­¦å»ºç­‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAY</Tag>
 		<English>Cities receive additional food whenever a technology is discovered before the Middle Ages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÖĞÊÀ¼ÍÒÔÇ°£¬Ö»ÒªÒ»Ïî¿Æ¼¼±»·¢ÏÖ£¬³ÇÊĞ¾Í»áµÃµ½¶îÍâµÄÊ³Îï</Chinese>
+		<Chinese>åœ¨ä¸­ä¸–çºªä»¥å‰ï¼Œåªè¦ä¸€é¡¹ç§‘æŠ€è¢«å‘ç°ï¼ŒåŸå¸‚å°±ä¼šå¾—åˆ°é¢å¤–çš„é£Ÿç‰©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARA</Tag>
 		<English>State religion spreads with temples to conquered cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±»Õ÷·şµÄ³ÇÊĞ×Ô¶¯´«²¥¹ú½Ì²¢½¨Á¢ËÂÃí</Chinese>
+		<Chinese>è¢«å¾æœçš„åŸå¸‚è‡ªåŠ¨ä¼ æ’­å›½æ•™å¹¶å»ºç«‹å¯ºåº™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAN</Tag>
 		<English>Immigrants bring [ICON_GREATPEOPLE] to your cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÆÃñ°Ñ [ICON_GREATPEOPLE] ´øµ½ÄãµÄ³ÇÊĞ</Chinese>
+		<Chinese>ç§»æ°‘æŠŠ [ICON_GREATPEOPLE] å¸¦åˆ°ä½ çš„åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_BRA_TITLE</Tag>
 		<English>The Power of Ethanol:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÒ´¼¹¤Òµ£º</Chinese>
+		<Chinese>ä¹™é†‡å·¥ä¸šï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_JAP</Tag>
 		<English>After discovering all medieval techs, every tech three other civilizations are willing to trade costs -50% [ICON_RESEARCH]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚ·¢ÏÖÁËËùÓĞÖĞÊÀ¼ÍµÄ¼¼ÊõÖ®ºó£¬ÆäËûÈı¸öÎÄÃ÷µÄÃ¿Ò»Ïî¼¼Êõ¶¼Ô¸ÒâÒÔ50%µÄ³É±¾½øĞĞ½»Ò×[ICON_RESEARCH]</Chinese>
+		<Chinese>åœ¨å‘ç°äº†æ‰€æœ‰ä¸­ä¸–çºªçš„æŠ€æœ¯ä¹‹åï¼Œå…¶ä»–ä¸‰ä¸ªæ–‡æ˜çš„æ¯ä¸€é¡¹æŠ€æœ¯éƒ½æ„¿æ„ä»¥50%çš„æˆæœ¬è¿›è¡Œäº¤æ˜“[ICON_RESEARCH]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ENG</Tag>
 		<English>Faraway Cities incur no extra Maintenance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò£Ô¶µÄ³ÇÊĞ²»ĞèÒª¶îÍâµÄÎ¬»¤</Chinese>
+		<Chinese>é¥è¿œçš„åŸå¸‚ä¸éœ€è¦é¢å¤–çš„ç»´æŠ¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OMA</Tag>
 		<English>Extra [ICON_PRODUCTION], [ICON_COMMERCE], and can build farms on desert</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶îÍâ[ICON_PRODUCTION], [ICON_COMMERCE], ¿ÉÒÔÔÚÉ³Ä®ÉÏÖÖÌï</Chinese>
+		<Chinese>é¢å¤–[ICON_PRODUCTION], [ICON_COMMERCE], å¯ä»¥åœ¨æ²™æ¼ ä¸Šç§ç”°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IMMIGRATION_ALIYAH</Tag>
 		<English>The Jewish population of %s1 is fleeing %s2 and performing their Aliyah to %s3!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 µÄÓÌÌ«ÈËÕıÔÚÌÓÀë %s2 ²¢Ïò %s3 ±íÑİËûÃÇµÄ°¢ÀïÑÇ£¡</Chinese>
+		<Chinese>%s1 çš„çŠ¹å¤ªäººæ­£åœ¨é€ƒç¦» %s2 å¹¶å‘ %s3 è¡¨æ¼”ä»–ä»¬çš„é˜¿é‡Œäºšï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CHA_TITLE</Tag>
 		<English>The Power of Aquifiers:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë®µÄÁ¦Á¿£º</Chinese>
+		<Chinese>æ°´çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_OMA_TITLE</Tag>
 		<English>The Power of Aflaj:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢·¨À­ÒÁµÄÁ¦Á¿£º</Chinese>
+		<Chinese>é˜¿æ³•æ‹‰ä¼Šçš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_VIE_TITLE</Tag>
 		<English>The Power of Guerilla Warfare:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÎ»÷Õ½µÄÁ¦Á¿£º</Chinese>
+		<Chinese>æ¸¸å‡»æˆ˜çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TERROR1</Tag>
 		<English>Citizens of</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ãñ</Chinese>
+		<Chinese>å…¬æ°‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_FRA</Tag>
 		<English>Diplomatic penalties expire faster, more likely to be voted for in congresses</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»³Í·£µ½ÆÚ¸ü¿ì£¬¸üÓĞ¿ÉÄÜÔÚ¹ú¼Ê»áÒé±»Í¶Æ±Ö§³Ö</Chinese>
+		<Chinese>å¤–äº¤æƒ©ç½šåˆ°æœŸæ›´å¿«ï¼Œæ›´æœ‰å¯èƒ½åœ¨å›½é™…ä¼šè®®è¢«æŠ•ç¥¨æ”¯æŒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_EGY</Tag>
 		<English>Monarchy, Redistribution and Deification are enabled at start</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ıÖ÷ÖÆ¡¢ÔÙ·ÖÅäºÍÉñ»¯ÔÚÒ»¿ªÊ¼¾Í±»ÆôÓÃÁË</Chinese>
+		<Chinese>å›ä¸»åˆ¶ã€å†åˆ†é…å’Œç¥åŒ–åœ¨ä¸€å¼€å§‹å°±è¢«å¯ç”¨äº†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SPA_TITLE</Tag>
 		<English>The Power of Discovery:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞµĞ½¢¶Ó£º</Chinese>
+		<Chinese>æ— æ•Œèˆ°é˜Ÿï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MEX_TITLE</Tag>
 		<English>The Power of Arid Agriculture:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºµ×÷Å©Òµ£º</Chinese>
+		<Chinese>æ—±ä½œå†œä¸šï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_THA_TITLE</Tag>
 		<English>The Power of Father Governs Children:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ı¸¸Ë¼Ïë£º</Chinese>
+		<Chinese>å›çˆ¶æ€æƒ³ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AUS_TITLE</Tag>
 		<English>The Power of Mining Industry:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿óÒµµÄÁ¦Á¿£º</Chinese>
+		<Chinese>çŸ¿ä¸šçš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NUB</Tag>
 		<English>+50% [ICON_PRODUCTION] of ancient era buildings in cities with Stone</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>+50% [ICON_PRODUCTION] Èç¹û³ÇÊĞÓĞÔ¶¹ÅÊ¯Í·½¨Öş</Chinese>
+		<Chinese>+50% [ICON_PRODUCTION] å¦‚æœåŸå¸‚æœ‰è¿œå¤çŸ³å¤´å»ºç­‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAN</Tag>
 		<English>Improved resources adjacent to cities provide additional food and production</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞ¸½½ü×ÊÔ´µÄ¸ÄÉÆÌá¹©ÁË¶îÍâµÄÊ³ÎïºÍÉú²ú</Chinese>
+		<Chinese>åŸå¸‚é™„è¿‘èµ„æºçš„æ”¹å–„æä¾›äº†é¢å¤–çš„é£Ÿç‰©å’Œç”Ÿäº§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAN_TITLE</Tag>
 		<English>The Power of Prosperity:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·±ÈÙµÄÁ¦Á¿£º</Chinese>
+		<Chinese>ç¹è£çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_GRE</Tag>
 		<English>+150% Great People birth rate until the end of the Classical Era</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>+150%µÄÎ°ÈË³öÉúÂÊÖ±µ½¹ÅµäÊ±´ú½áÊø</Chinese>
+		<Chinese>+150%çš„ä¼Ÿäººå‡ºç”Ÿç‡ç›´åˆ°å¤å…¸æ—¶ä»£ç»“æŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MEX</Tag>
 		<English>Can build farms on hills</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ÉÒÔÔÚÇğÁêÉÏ½¨Å©³¡</Chinese>
+		<Chinese>å¯ä»¥åœ¨ä¸˜é™µä¸Šå»ºå†œåœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHA_TITLE</Tag>
 		<English>The Power of Tolerance:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿íÈİµÄÁ¦Á¿£º</Chinese>
+		<Chinese>å®½å®¹çš„åŠ›é‡ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INO_TITLE</Tag>
 		<English>The Power of Straits:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£Ï¿Ö÷ÈË£º</Chinese>
+		<Chinese>æµ·å³¡ä¸»äººï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MONGOL_HORDE</Tag>
 		<English>Your successful conquests have made your horde grow!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äã³É¹¦µÄÕ÷·şÊ¹ÄãµÄ²¿Âä×³´óÁË£¡</Chinese>
+		<Chinese>ä½ æˆåŠŸçš„å¾æœä½¿ä½ çš„éƒ¨è½å£®å¤§äº†ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IND</Tag>
 		<English>One extra [ICON_HEALTHY] for every three excess [ICON_HAPPY]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ôö¼ÓÒ»¸ö [ICON_HEALTHY] Ã¿¶àÈı¸ö [ICON_HAPPY]</Chinese>
+		<Chinese>å¢åŠ ä¸€ä¸ª [ICON_HEALTHY] æ¯å¤šä¸‰ä¸ª [ICON_HAPPY]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAL</Tag>
 		<English>+1 commerce in every land plot</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>+1ÉÌÒµÔÚÃ¿¸öµØ¿é</Chinese>
+		<Chinese>+1å•†ä¸šåœ¨æ¯ä¸ªåœ°å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARA_TITLE</Tag>
 		<English>The Power of Faith:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÅÑöÖ¸»ÓÕß£º</Chinese>
+		<Chinese>ä¿¡ä»°æŒ‡æŒ¥è€…ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AUS</Tag>
 		<English>Mines on the mining resources provide doubled [ICON_PRODUCTION] and [ICON_COMMERCE] increment.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²É¿ó×ÊÔ´ÉÏµÄ¿óÉ½Ìá¹©ÁËÁ½±¶µÄ[ICON_PRODUCTION]ºÍ[ICON_COMMERCE]ÔöÁ¿¡£</Chinese>
+		<Chinese>é‡‡çŸ¿èµ„æºä¸Šçš„çŸ¿å±±æä¾›äº†ä¸¤å€çš„[ICON_PRODUCTION]å’Œ[ICON_COMMERCE]å¢é‡ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MON_TITLE</Tag>
 		<English>The Power of Terror:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉÏµÛÖ®±Ş£º</Chinese>
+		<Chinese>ä¸Šå¸ä¹‹é­ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_HOL_TITLE</Tag>
 		<English>The Power of Trading Companies:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã³Ò×¹«Ë¾£º</Chinese>
+		<Chinese>è´¸æ˜“å…¬å¸ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INC</Tag>
 		<English>Mountains produce 2 food and 1 hammer</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>É½·åÌá¹©2Ê³ÎïºÍ1´¸×Ó²ú³ö</Chinese>
+		<Chinese>å±±å³°æä¾›2é£Ÿç‰©å’Œ1é”¤å­äº§å‡º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ITA_TITLE</Tag>
 		<English>The Power of Renaissance:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÒÕ¸´ĞË£º</Chinese>
+		<Chinese>æ–‡è‰ºå¤å…´ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_COL_TITLE</Tag>
 		<English>The Power of the Liberator:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½â·ÅÕß£º</Chinese>
+		<Chinese>è§£æ”¾è€…ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BYZANTINE_UP_TITLE</Tag>
 		<English>Bribing Barbarians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ßÂ¸Ò°ÂùÈË</Chinese>
+		<Chinese>è´¿èµ‚é‡è›®äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MULTICULTURALISM</Tag>
 		<English>Immigrants coming to our city of %s1 have brought it %d3 points closer to generating a %s2.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À´µ½ÎÒÃÇµÄ%s1³ÇÊĞµÄÒÆÃñÊ¹ËüµÄ%d3µã¸ü½Ó½üÉú³É%s2</Chinese>
+		<Chinese>æ¥åˆ°æˆ‘ä»¬çš„%s1åŸå¸‚çš„ç§»æ°‘ä½¿å®ƒçš„%d3ç‚¹æ›´æ¥è¿‘ç”Ÿæˆ%s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MOO_TITLE</Tag>
 		<English>The Power of Irrigation:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹à¸ÈÖ®Á¦£º</Chinese>
+		<Chinese>çŒæº‰ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_VIK_TITLE</Tag>
 		<English>The Power of Raids:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»Ï®Ö®Á¦£º</Chinese>
+		<Chinese>çªè¢­ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MUG_TITLE</Tag>
 		<English>The Power of Architecture:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½¨Öş´óÊ¦£º</Chinese>
+		<Chinese>å»ºç­‘å¤§å¸ˆï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_FRA_TITLE</Tag>
 		<English>The Power of Diplomacy:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³¤ĞäÉÆÎè£º</Chinese>
+		<Chinese>é•¿è¢–å–„èˆï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ETH_TITLE</Tag>
 		<English>The Power of Communion:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½»Á÷Ö®Á¦£º</Chinese>
+		<Chinese>äº¤æµä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SWA</Tag>
 		<English>Foreign trade route yields increased by 100%</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍâÃ³º½ÏßÊÕÒæÂÊÔö³¤100%</Chinese>
+		<Chinese>å¤–è´¸èˆªçº¿æ”¶ç›Šç‡å¢é•¿100%</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CON</Tag>
 		<English>Jungles, rainforests and marshes yield extra food and production and cause no unhealthiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ÔÁÖ¡¢ÓêÁÖºÍÕÓÔó²úÉú¶îÍâµÄÊ³ÎïºÍ²úÄÜ£¬ÇÒ²»»áÔì³É²»½¡¿µ</Chinese>
+		<Chinese>ä¸›æ—ã€é›¨æ—å’Œæ²¼æ³½äº§ç”Ÿé¢å¤–çš„é£Ÿç‰©å’Œäº§èƒ½ï¼Œä¸”ä¸ä¼šé€ æˆä¸å¥åº·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_IMMIGRATION</Tag>
 		<English>Our population in %s1 is growing due to immigrants from the Old World!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÉÓÚÀ´×Ô¾É´óÂ½µÄÒÆÃñ£¬ÎÒÃÇÔÚ%s1µÄÈË¿ÚÕıÔÚÔö³¤£¡</Chinese>
+		<Chinese>ç”±äºæ¥è‡ªæ—§å¤§é™†çš„ç§»æ°‘ï¼Œæˆ‘ä»¬åœ¨%s1çš„äººå£æ­£åœ¨å¢é•¿ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MAY_TITLE</Tag>
 		<English>The Power of the Long Count:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂêÑÅÀú·¨£º</Chinese>
+		<Chinese>ç›é›…å†æ³•ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MON</Tag>
 		<English>Cities threatened by your armies descend into unrest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÜÄã¾ü¶ÓÍşĞ²µÄ³ÇÊĞÏİÈë¶¯ÂÒ</Chinese>
+		<Chinese>å—ä½ å†›é˜Ÿå¨èƒçš„åŸå¸‚é™·å…¥åŠ¨ä¹±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NIG</Tag>
 		<English>Fortified units can get up to 50% defense bonus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ç¿»¯µ¥Î»¿ÉÒÔ»ñµÃ50%µÄ·ÀÓù¼Ó³É</Chinese>
+		<Chinese>å¼ºåŒ–å•ä½å¯ä»¥è·å¾—50%çš„é˜²å¾¡åŠ æˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KRS</Tag>
 		<English>Cities partially continue to grow when using Food for Production</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÀûÓÃÁ¸Ê³Éú²úµÄÇé¿öÏÂ£¬³ÇÊĞÔÚÒ»¶¨³Ì¶ÈÉÏ¼ÌĞøÔö³¤</Chinese>
+		<Chinese>åœ¨åˆ©ç”¨ç²®é£Ÿç”Ÿäº§çš„æƒ…å†µä¸‹ï¼ŒåŸå¸‚åœ¨ä¸€å®šç¨‹åº¦ä¸Šç»§ç»­å¢é•¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TIB</Tag>
 		<English>Can train unlimited missionaries; Missionaries can enter foreign territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ÉÒÔÑµÁ·ÎŞÏŞµÄ´«½ÌÊ¿£»´«½ÌÊ¿¿ÉÒÔ½øÈëÍâ¹úÁìÍÁ</Chinese>
+		<Chinese>å¯ä»¥è®­ç»ƒæ— é™çš„ä¼ æ•™å£«ï¼›ä¼ æ•™å£«å¯ä»¥è¿›å…¥å¤–å›½é¢†åœŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_AZT</Tag>
 		<English>Military units can enslave defeated enemy units, can sacrifice slaves to increase city happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ü¶Ó¿ÉÒÔÅ«ÒÛÕ½°ÜµÄµĞ¾ü£¬¿ÉÒÔÎşÉüÅ«Á¥À´Ôö¼Ó³ÇÊĞµÄĞÒ¸£¸Ğ</Chinese>
+		<Chinese>å†›é˜Ÿå¯ä»¥å¥´å½¹æˆ˜è´¥çš„æ•Œå†›ï¼Œå¯ä»¥ç‰ºç‰²å¥´éš¶æ¥å¢åŠ åŸå¸‚çš„å¹¸ç¦æ„Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_PLY</Tag>
 		<English>No penalties for cultural expansion over Ocean tiles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º£ÑóµØ¿éÉÏÎÄ»¯À©ÕÅ¸üÈİÒ×</Chinese>
+		<Chinese>æµ·æ´‹åœ°å—ä¸Šæ–‡åŒ–æ‰©å¼ æ›´å®¹æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_GER_TITLE</Tag>
 		<English>The Power of Doctrine:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñÊ¥ÂŞÂí£º</Chinese>
+		<Chinese>ç¥åœ£ç½—é©¬ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TERROR2</Tag>
 		<English>fear the same fate of their neighbour inhabitants and surrender!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>º¦ÅÂÔâÊÜµ½ºÍÁÚ¾ÓÒ»ÑùµÄÃüÔË£¬Í¶½µ°É£¡</Chinese>
+		<Chinese>å®³æ€•é­å—åˆ°å’Œé‚»å±…ä¸€æ ·çš„å‘½è¿ï¼ŒæŠ•é™å§ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TAM</Tag>
 		<English>Extra commerce on coast and ocean tiles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑØº£ºÍº£ÑóµØ¿é´øÀ´¶îÍâÃ³Ò×</Chinese>
+		<Chinese>æ²¿æµ·å’Œæµ·æ´‹åœ°å—å¸¦æ¥é¢å¤–è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARG</Tag>
 		<English>Great Generals can start Golden Ages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î°´óµÄ½«¾ü¿ÉÒÔ¿ªÆô»Æ½ğÊ±´ú</Chinese>
+		<Chinese>ä¼Ÿå¤§çš„å°†å†›å¯ä»¥å¼€å¯é»„é‡‘æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_COL</Tag>
 		<English>No City Resistance on Conquest in Latin America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­¶¡ÃÀÖŞÃ»ÓĞ³ÇÊĞ·´¿¹ÄãµÄÕ÷·ş</Chinese>
+		<Chinese>æ‹‰ä¸ç¾æ´²æ²¡æœ‰åŸå¸‚åæŠ—ä½ çš„å¾æœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_JAP_TITLE</Tag>
 		<English>The Power of Modernization:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾É°îĞÂÔì£º</Chinese>
+		<Chinese>æ—§é‚¦æ–°é€ ï¼š</Chinese>
 	</TEXT>
 </Civ4GameText>

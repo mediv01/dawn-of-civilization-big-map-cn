@@ -1,100 +1,100 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_CSA</Tag>
 		<English>Confederate States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Áª°î</Chinese>
+		<Chinese>%s1è”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_MAYA</Tag>
 		<English>%s2 Yucat&#225;n</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2ÓÈ¿¨Ì¹</Chinese>
+		<Chinese>%s2å°¤å¡å¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_GERMANY</Tag>
 		<English>US-Occupied %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÕ¼%s1</Chinese>
+		<Chinese>ç¾Žå %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_ADJECTIVE</Tag>
 		<English>American</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÀû¼á</Chinese>
+		<Chinese>ç¾Žåˆ©åš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_GOLDEN_CIRCLE</Tag>
 		<English>Golden Circle</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀ¹ú»Æ½ðÈ¦</Chinese>
+		<Chinese>ç¾Žå›½é»„é‡‘åœˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_DEFAULT</Tag>
 		<English>United Principalities of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÀû¼áÎÄÃ÷</Chinese>
+		<Chinese>ç¾Žåˆ©åšæ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_KOREA</Tag>
 		<English>Commander Naval Forces %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÕ¼%s1</Chinese>
+		<Chinese>ç¾Žå %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_COMMUNIST</Tag>
 		<English>United Socialist States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Éç»áÖ÷ÒåºÏÖÚ¹ú</Chinese>
+		<Chinese>%s1ç¤¾ä¼šä¸»ä¹‰åˆä¼—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_JAPAN</Tag>
 		<English>Allied Council for %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀ¹úÃË¹ú¹ÜÖÆÀíÊÂ»á %s1</Chinese>
+		<Chinese>ç¾Žå›½ç›Ÿå›½ç®¡åˆ¶ç†äº‹ä¼š %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_PEOPLES</Tag>
 		<English>American Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÀû¼áÈË</Chinese>
+		<Chinese>ç¾Žåˆ©åšäºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_FASCIST</Tag>
 		<English>New World Order</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¨Î÷Ë¹ÃÀ¹ú</Chinese>
+		<Chinese>æ³•è¥¿æ–¯ç¾Žå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_ENGLAND</Tag>
 		<English>Airstrip One</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÕ¼Ó¢¹ú</Chinese>
+		<Chinese>ç¾Žå è‹±å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_MEXICO</Tag>
 		<English>New Mexico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÕ¼Ä«Î÷¸ç</Chinese>
+		<Chinese>ç¾Žå å¢¨è¥¿å“¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_SHORT_DESC</Tag>
 		<English>America</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÀû¼á</Chinese>
+		<Chinese>ç¾Žåˆ©åš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_REPUBLIC</Tag>
 		<English>United States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ºÏÖÚ¹ú</Chinese>
+		<Chinese>%s1åˆä¼—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_DESC</Tag>
 		<English>The Americans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÀû¼áÎÄÃ÷</Chinese>
+		<Chinese>ç¾Žåˆ©åšæ–‡æ˜Ž</Chinese>
 	</TEXT>
 </Civ4GameText>

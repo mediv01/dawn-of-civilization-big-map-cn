@@ -1,323 +1,323 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_CLAIM_FAILURE</Tag>
 		<English>%s1 has rejected our clumsy attempts to influence their decision! They have voted against our claim, and our relations have soured in consequence.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾Ü¾øÁËÎÒÃÇÓ°ÏìËûÃÇ¾ö¶¨µÄ±¿×¾³¢ÊÔ£¡ËûÃÇÍ¶Æ±·´¶ÔÎÒÃÇµÄÒªÇó£¬ÎÒÃÇµÄ¹ØÏµÒò´Ë¶ñ»¯¡£</Chinese>
+		<Chinese>%s1æ‹’ç»äº†æˆ‘ä»¬å½±å“ä»–ä»¬å†³å®šçš„ç¬¨æ‹™å°è¯•ï¼ä»–ä»¬æŠ•ç¥¨åå¯¹æˆ‘ä»¬çš„è¦æ±‚ï¼Œæˆ‘ä»¬çš„å…³ç³»å› æ­¤æ¶åŒ–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INVITATION</Tag>
 		<English>An international Congress is being held in 2 turns. You have been invited to participate. Will you accept the invitation?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Á½»ØºÏºó½«ÕÙ¿ªÒ»´Î¹ú¼Ê»áÒé¡£ÎÒÃÇÒÑÊÕµ½ÑûÇëº¯¡£ÄãÍ¬Òâ²Î¼ÓÂğ£¿</Chinese>
+		<Chinese>ä¸¤å›åˆåå°†å¬å¼€ä¸€æ¬¡å›½é™…ä¼šè®®ã€‚æˆ‘ä»¬å·²æ”¶åˆ°é‚€è¯·å‡½ã€‚ä½ åŒæ„å‚åŠ å—ï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_GOLD</Tag>
 		<English>Attempt to bribe their representatives (%s2: %d1 [ICON_GOLD])</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÔÍ¼»ßÂ¸ËûÃÇµÄ´ú±í£¨%s2:%d1[ICON_GOLD]£©</Chinese>
+		<Chinese>è¯•å›¾è´¿èµ‚ä»–ä»¬çš„ä»£è¡¨ï¼ˆ%s2:%d1[ICON_GOLD]ï¼‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_THEIR_CLAIM_FAILURE</Tag>
 		<English>%s1 has rejected our clumsy attempts to influence their decision! They will now support the claim against us, and our relations have soured in consequence.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾Ü¾øÁËÎÒÃÇÓ°ÏìËûÃÇ¾ö¶¨µÄ±¿×¾³¢ÊÔ£¡ËûÃÇÏÖÔÚ½«Ö§³Ö¶ÔÎÒÃÇµÄÒªÇó£¬ÎÒÃÇµÄ¹ØÏµÒò´Ë¶ñ»¯¡£</Chinese>
+		<Chinese>%s1æ‹’ç»äº†æˆ‘ä»¬å½±å“ä»–ä»¬å†³å®šçš„ç¬¨æ‹™å°è¯•ï¼ä»–ä»¬ç°åœ¨å°†æ”¯æŒå¯¹æˆ‘ä»¬çš„è¦æ±‚ï¼Œæˆ‘ä»¬çš„å…³ç³»å› æ­¤æ¶åŒ–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_TERRITORY</Tag>
 		<English>The congress is currently debating the %s2 request to colonize our territory near %s3, and it might be possible to influence the %s1 decision. What should we do?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒéÄ¿Ç°ÕıÔÚÌÖÂÛ%s2ÔÚ%s3¸½½üÖ³ÃñÎÒÃÇÁìÍÁµÄÇëÇó£¬¿ÉÄÜ»áÓ°Ïì%s1µÄ¾ö¶¨¡£ÎÒÃÇ¸ÃÔõÃ´°ì£¿</Chinese>
+		<Chinese>å›½é™…ä¼šè®®ç›®å‰æ­£åœ¨è®¨è®º%s2åœ¨%s3é™„è¿‘æ®–æ°‘æˆ‘ä»¬é¢†åœŸçš„è¯·æ±‚ï¼Œå¯èƒ½ä¼šå½±å“%s1çš„å†³å®šã€‚æˆ‘ä»¬è¯¥æ€ä¹ˆåŠï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_WAR</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A great international war has come to an end. The involved powers convene in a congress to discuss how to restore order to the world. We were not involved, but were still invited due to our international importance. Besides our civilization, the participants are:[NEWLINE]%s2[NEWLINE][NEWLINE]Every civilization on the winning side of the war is allowed to claim a city from the losing side, while the civilizations that have lost may reclaim cities conquered during the war. If enough civilizations approve, the request is granted. Refusal to comply with the decision of the congress may lead to war with the civilizations that supported it!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]%s1[\H1][NEWLINE]Ò»³¡Î°´óµÄ¹ú¼ÊÕ½ÕùÒÑ¾­½áÊø¡£ÓĞ¹ØÈ¨Á¦ÔÚ¹ú¼Ê»áÒé¿ª»áÌÖÂÛÈçºÎ»Ö¸´ÊÀ½çÖÈĞò¡£ÎÒÃÇÃ»ÓĞ²ÎÓëÕ½Õù£¬µ«ÓÉÓÚ¹ú¼ÊµØÎ»£¬ÎÒÃÇÈÔÈ»ÊÜµ½ÑûÇë¡£³ıÁËÎÒÃÇµÄÎÄÃ÷£¬²ÎÓëÕß»¹ÓĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE]Ã¿Ò»¸ö´¦ÓÚÕ½ÕùÊ¤ÀûÒ»·½µÄÎÄÃ÷¶¼¿ÉÒÔ´ÓÊ§°ÜµÄÒ»·½¶á»ØÒ»×ù³ÇÊĞ£¬¶øÄÇĞ©ÒÑ¾­Ê§°ÜµÄÎÄÃ÷¿ÉÄÜ»á¶á»ØÔÚÕ½ÕùÖĞ±»Õ÷·şµÄ³ÇÊĞ¡£Èç¹ûÓĞ×ã¹»¶àµÄÎÄÃ÷ÔŞ³É£¬ÇëÇó¾Í±»Åú×¼ÁË¡£¾Ü¾ø×ñÊØ¹ú¼Ê»áÒéµÄ¾ö¶¨¿ÉÄÜµ¼ÖÂÓëÖ§³ÖËüµÄÎÄÃ÷Ö®¼äµÄÕ½Õù£¡</Chinese>
+		<Chinese>[H1]%s1[\H1][NEWLINE]ä¸€åœºä¼Ÿå¤§çš„å›½é™…æˆ˜äº‰å·²ç»ç»“æŸã€‚æœ‰å…³æƒåŠ›åœ¨å›½é™…ä¼šè®®å¼€ä¼šè®¨è®ºå¦‚ä½•æ¢å¤ä¸–ç•Œç§©åºã€‚æˆ‘ä»¬æ²¡æœ‰å‚ä¸æˆ˜äº‰ï¼Œä½†ç”±äºå›½é™…åœ°ä½ï¼Œæˆ‘ä»¬ä»ç„¶å—åˆ°é‚€è¯·ã€‚é™¤äº†æˆ‘ä»¬çš„æ–‡æ˜ï¼Œå‚ä¸è€…è¿˜æœ‰ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE]æ¯ä¸€ä¸ªå¤„äºæˆ˜äº‰èƒœåˆ©ä¸€æ–¹çš„æ–‡æ˜éƒ½å¯ä»¥ä»å¤±è´¥çš„ä¸€æ–¹å¤ºå›ä¸€åº§åŸå¸‚ï¼Œè€Œé‚£äº›å·²ç»å¤±è´¥çš„æ–‡æ˜å¯èƒ½ä¼šå¤ºå›åœ¨æˆ˜äº‰ä¸­è¢«å¾æœçš„åŸå¸‚ã€‚å¦‚æœæœ‰è¶³å¤Ÿå¤šçš„æ–‡æ˜èµæˆï¼Œè¯·æ±‚å°±è¢«æ‰¹å‡†äº†ã€‚æ‹’ç»éµå®ˆå›½é™…ä¼šè®®çš„å†³å®šå¯èƒ½å¯¼è‡´ä¸æ”¯æŒå®ƒçš„æ–‡æ˜ä¹‹é—´çš„æˆ˜äº‰ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_AI_WAR_EXCLUDED</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A congress is being held while we are involved in a global war, so he haven't been invited. The fate of the world is now in the hands of the following civilizations:[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]Now we can only await their decisions and trust in their common sense.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]%s1[\H1][NEWLINE]¹ú¼Ê»áÒéÕıÔÚ¾ÙĞĞ£¬¶øÎÒÃÇÕı¾íÈëÒ»³¡È«ÇòÕ½Õù£¬ËùÒÔËûÃ»ÓĞ±»ÑûÇë¡£ÊÀ½çµÄÃüÔËÏÖÔÚÕÆÎÕÔÚÏÂÁĞÎÄÃ÷µÄÊÖÖĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]ÏÖÔÚÎÒÃÇÖ»ÄÜµÈ´ıËûÃÇµÄ¾ö¶¨£¬ÏàĞÅËûÃÇµÄ³£Ê¶¡£</Chinese>
+		<Chinese>[H1]%s1[\H1][NEWLINE]å›½é™…ä¼šè®®æ­£åœ¨ä¸¾è¡Œï¼Œè€Œæˆ‘ä»¬æ­£å·å…¥ä¸€åœºå…¨çƒæˆ˜äº‰ï¼Œæ‰€ä»¥ä»–æ²¡æœ‰è¢«é‚€è¯·ã€‚ä¸–ç•Œçš„å‘½è¿ç°åœ¨æŒæ¡åœ¨ä¸‹åˆ—æ–‡æ˜çš„æ‰‹ä¸­ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]ç°åœ¨æˆ‘ä»¬åªèƒ½ç­‰å¾…ä»–ä»¬çš„å†³å®šï¼Œç›¸ä¿¡ä»–ä»¬çš„å¸¸è¯†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NOTIFY_YES2</Tag>
 		<English>control</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í³ÖÎ</Chinese>
+		<Chinese>ç»Ÿæ²»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NO_AI_REQUEST</Tag>
 		<English>makes no requests</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞÒªÇó</Chinese>
+		<Chinese>æ— è¦æ±‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST1</Tag>
 		<English>The Congress has decided that</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒé¾ö¶¨</Chinese>
+		<Chinese>å›½é™…ä¼šè®®å†³å®š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST_SETTLE_FOREIGN</Tag>
 		<English>%s1 claims %s2 territory to found %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÉùÃ÷ÕÒµ½%s3µÄ%s2ÇøÓò</Chinese>
+		<Chinese>%s1å£°æ˜æ‰¾åˆ°%s3çš„%s2åŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_POPUP_NO_WINS</Tag>
 		<English>[NEWLINE]NO wins</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[NEWLINE]Î´»ñÍ¨¹ı</Chinese>
+		<Chinese>[NEWLINE]æœªè·é€šè¿‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NEW</Tag>
 		<English>New Congress</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂµÄ¹ú¼Ê»áÒé</Chinese>
+		<Chinese>æ–°çš„å›½é™…ä¼šè®®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_ACCEPT_DECISION</Tag>
 		<English>Accept the decision and leave the city</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í¬Òâ·ÅÆú¸Ã³Ç</Chinese>
+		<Chinese>åŒæ„æ”¾å¼ƒè¯¥åŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CHANCE_AVERAGE</Tag>
 		<English>Average</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æ½¾ù</Chinese>
+		<Chinese>å¹³å‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_RESULT_ASSIGNMENT</Tag>
 		<English>[NEWLINE][ICON_BULLET]%s2 %s1 falls under %s3 control.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2 %s1 ÊÜ %s3¿ØÖÆ¡£</Chinese>
+		<Chinese>%s2 %s1 å— %s3æ§åˆ¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CANNOT_AFFORD_BRIBE</Tag>
 		<English>Unfortunately, we lack the means to do anything.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ĞÒµÄÊÇ£¬ÎÒÃÇÃ»ÓĞÈÎºÎ¾Ù´ëÄÜ¹»¸Ä±ä¡£</Chinese>
+		<Chinese>ä¸å¹¸çš„æ˜¯ï¼Œæˆ‘ä»¬æ²¡æœ‰ä»»ä½•ä¸¾æªèƒ½å¤Ÿæ”¹å˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST3</Tag>
 		<English>control.[NEWLINE]Do you agree? (Our refusal may lead to a war)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í³ÖÎ¡£[NEWLINE]ÄãÍ¬ÒâÂğ£¿(¾Ü¾ø¿ÉÄÜµ¼ÖÂÕ½Õù)</Chinese>
+		<Chinese>ç»Ÿæ²»ã€‚[NEWLINE]ä½ åŒæ„å—ï¼Ÿ(æ‹’ç»å¯èƒ½å¯¼è‡´æˆ˜äº‰)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CORRUPTION_NO</Tag>
 		<English>They refused our proposal.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËûÃÇ¾Ü¾øÊÜ»ß¡£</Chinese>
+		<Chinese>ä»–ä»¬æ‹’ç»å—è´¿ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_OK</Tag>
 		<English>OK</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>È·¶¨</Chinese>
+		<Chinese>ç¡®å®š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NOTIFY_YES</Tag>
 		<English>is passing under %s1 control</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÑÒÆ½»¸ø%s1Í³ÖÎ</Chinese>
+		<Chinese>å·²ç§»äº¤ç»™%s1ç»Ÿæ²»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_CLAIM_CITY</Tag>
 		<English>%s1 opinion on our claim on the %s2 city of %s3 is divided. It might be possible to influence their decision. What should we do?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÎÒÃÇ¶Ô%s2³ÇÊĞ%s3µÄË÷ÅâÓĞ²»Í¬µÄÒâ¼û¡£¿ÉÄÜ»áÓ°ÏìËûÃÇµÄ¾ö¶¨¡£ÎÒÃÇ¸ÃÔõÃ´°ì£¿</Chinese>
+		<Chinese>%s1æˆ‘ä»¬å¯¹%s2åŸå¸‚%s3çš„ç´¢èµ”æœ‰ä¸åŒçš„æ„è§ã€‚å¯èƒ½ä¼šå½±å“ä»–ä»¬çš„å†³å®šã€‚æˆ‘ä»¬è¯¥æ€ä¹ˆåŠï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CLAIM_CITY</Tag>
 		<English>It is now our turn to make a demand.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÂÖµ½ÎÒÃÇÌá³öÒªÇóÁË¡£</Chinese>
+		<Chinese>ç°åœ¨è½®åˆ°æˆ‘ä»¬æå‡ºè¦æ±‚äº†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRO</Tag>
 		<English>A new international Congress is about to start.[NEWLINE]The leaders of some of the most important nations will meet there to discuss the balance of the world.[NEWLINE][NEWLINE]Each side will have its turn to ask a city; if the decision is approved the owner of the city that is being traded must accept it.[NEWLINE]If you refuse a decision, you are likely to face a war against some of the sides that voted YES.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»´Î¹ú¼Ê»áÒé¼´½«ÕÙ¿ª¡£[NEWLINE]¸÷Ö÷Òª¹ú¼ÒµÄÁìĞäÆë¾ÛÒ»ÌÃÌÖÂÛÈçºÎ±£³ÖÊÀ½çµÄÁ¦Á¿Æ½ºâ¡£[NEWLINE][NEWLINE]¸÷·½¾ùÓĞ»ú»áÒªÇóÒ»×ù³ÇÊĞµÄÍ³ÖÎÈ¨£¬ÈçÔÚ»áÒéÉÏ»ñµÃÍ¨¹ı£¬Ôò³ÇÊĞÏÖÔÚµÄËùÓĞÕß±ØĞë½ÓÊÜ¡£[NEWLINE]Èç¹ûÄã¾Ü¾ø½ÓÊÜ»áÌ¸½á¹û£¬¿ÉÄÜÓëÍ¶ÏÂÔŞ³ÉÆ±µÄ¹ú¼Ò¿ªÕ½¡£</Chinese>
+		<Chinese>ä¸€æ¬¡å›½é™…ä¼šè®®å³å°†å¬å¼€ã€‚[NEWLINE]å„ä¸»è¦å›½å®¶çš„é¢†è¢–é½èšä¸€å ‚è®¨è®ºå¦‚ä½•ä¿æŒä¸–ç•Œçš„åŠ›é‡å¹³è¡¡ã€‚[NEWLINE][NEWLINE]å„æ–¹å‡æœ‰æœºä¼šè¦æ±‚ä¸€åº§åŸå¸‚çš„ç»Ÿæ²»æƒï¼Œå¦‚åœ¨ä¼šè®®ä¸Šè·å¾—é€šè¿‡ï¼Œåˆ™åŸå¸‚ç°åœ¨çš„æ‰€æœ‰è€…å¿…é¡»æ¥å—ã€‚[NEWLINE]å¦‚æœä½ æ‹’ç»æ¥å—ä¼šè°ˆç»“æœï¼Œå¯èƒ½ä¸æŠ•ä¸‹èµæˆç¥¨çš„å›½å®¶å¼€æˆ˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NO_REQUEST</Tag>
 		<English>NO REQUEST</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞÒªÇó</Chinese>
+		<Chinese>æ— è¦æ±‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_RESULTS</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]After long negotiations, the voting members of the Congress have come to the following decision:[NEWLINE]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]×é³ÉµÄ¹ú¼Ê»áÒé¾­¹ı³¤Ê±¼äµÄÌ¸ÅĞ£¬ÓĞÍ¶Æ±È¨µÄ¹ú¼Ê»áÒé³ÉÔ±×ö³öÁËÈçÏÂ¾ö¶¨£º[NEWLINE]</Chinese>
+		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]ç»„æˆçš„å›½é™…ä¼šè®®ç»è¿‡é•¿æ—¶é—´çš„è°ˆåˆ¤ï¼Œæœ‰æŠ•ç¥¨æƒçš„å›½é™…ä¼šè®®æˆå‘˜åšå‡ºäº†å¦‚ä¸‹å†³å®šï¼š[NEWLINE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST_CITY</Tag>
 		<English>%s1 claims the %s2 city of %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÉùÃ÷%s3µÄ%s2³ÇÊĞ</Chinese>
+		<Chinese>%s1å£°æ˜%s3çš„%s2åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CORRUPTION_REQUEST</Tag>
 		<English>We can use some of our gold to try to bribe another civilization to vote for our interests. Do you want to attempt?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇ¿ÉÒÔÓÃ½ğÇ®»ßÂ¸ÆäËûÎÄÃ÷¸ù¾İÎÒÃÇµÄÀûÒæÍ¶Æ±¡£ÄãÔ¸Òâ½øĞĞÕâÖÖ³¢ÊÔÂğ£¿</Chinese>
+		<Chinese>æˆ‘ä»¬å¯ä»¥ç”¨é‡‘é’±è´¿èµ‚å…¶ä»–æ–‡æ˜æ ¹æ®æˆ‘ä»¬çš„åˆ©ç›ŠæŠ•ç¥¨ã€‚ä½ æ„¿æ„è¿›è¡Œè¿™ç§å°è¯•å—ï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_CITY</Tag>
 		<English>The congress is currently debating the %s2 claim on our city of %s3, and it might be possible to influence the %s1 decision. What should we do?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒéÄ¿Ç°ÕıÔÚ¾Í%s2ÔÚÎÒÃÇµÄ³ÇÊĞ%s3µÄÖ÷ÕÅ½øĞĞ±çÂÛ£¬¿ÉÄÜ»áÓ°Ïì%s1µÄ¾ö¶¨¡£ÎÒÃÇ¸ÃÔõÃ´°ì£¿</Chinese>
+		<Chinese>å›½é™…ä¼šè®®ç›®å‰æ­£åœ¨å°±%s2åœ¨æˆ‘ä»¬çš„åŸå¸‚%s3çš„ä¸»å¼ è¿›è¡Œè¾©è®ºï¼Œå¯èƒ½ä¼šå½±å“%s1çš„å†³å®šã€‚æˆ‘ä»¬è¯¥æ€ä¹ˆåŠï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A new international congress is being held. The leaders of the world's most important civilizations convene to discuss the balance of the world. Besides our civilization, the participants are:[NEWLINE]%s2[NEWLINE][NEWLINE]Every civilization is allowed to either claim a city or request to colonize unsettled territory. If enough civilizations approve, the request is granted. Refusal to comply with the decision of the congress may lead to war with the civilizations that supported it!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]½ì´ó»áĞÂµÄ¹ú¼Ê»áÒéÕıÔÚ¾ÙĞĞ¡£ÊÀ½çÉÏ×îÖØÒªÎÄÃ÷µÄÁìµ¼ÈË¿ª»áÌÖÂÛÊÀ½çµÄÆ½ºâ¡£³ıÁËÎÒÃÇµÄÎÄÃ÷£¬²ÎÓëÕß»¹ÓĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE]Ã¿¸öÎÄÃ÷¶¼±»ÔÊĞíĞû³ÆÓµÓĞÒ»×ù³ÇÊĞ»òÒªÇóÖ³ÃñÎ´¶¨¾ÓµÄÁìÍÁ¡£Èç¹ûÓĞ×ã¹»¶àµÄÎÄÃ÷ÔŞ³É£¬ÇëÇó¾Í±»Åú×¼ÁË¡£¾Ü¾ø×ñÊØ¹ú¼Ê»áÒéµÄ¾ö¶¨¿ÉÄÜµ¼ÖÂÓëÖ§³ÖËüµÄÎÄÃ÷Ö®¼äµÄÕ½Õù£¡</Chinese>
+		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]å±Šå¤§ä¼šæ–°çš„å›½é™…ä¼šè®®æ­£åœ¨ä¸¾è¡Œã€‚ä¸–ç•Œä¸Šæœ€é‡è¦æ–‡æ˜çš„é¢†å¯¼äººå¼€ä¼šè®¨è®ºä¸–ç•Œçš„å¹³è¡¡ã€‚é™¤äº†æˆ‘ä»¬çš„æ–‡æ˜ï¼Œå‚ä¸è€…è¿˜æœ‰ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE]æ¯ä¸ªæ–‡æ˜éƒ½è¢«å…è®¸å®£ç§°æ‹¥æœ‰ä¸€åº§åŸå¸‚æˆ–è¦æ±‚æ®–æ°‘æœªå®šå±…çš„é¢†åœŸã€‚å¦‚æœæœ‰è¶³å¤Ÿå¤šçš„æ–‡æ˜èµæˆï¼Œè¯·æ±‚å°±è¢«æ‰¹å‡†äº†ã€‚æ‹’ç»éµå®ˆå›½é™…ä¼šè®®çš„å†³å®šå¯èƒ½å¯¼è‡´ä¸æ”¯æŒå®ƒçš„æ–‡æ˜ä¹‹é—´çš„æˆ˜äº‰ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_AI</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A world congress is being held, but we haven't been invited. Apparently we are not important enough. The fate of the world is now in the hands of the following civilizations:[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]Now we can only await their decisions and trust in their common sense.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]Ò»¸ö¹ú¼Ê»áÒéÕıÔÚ¾ÙĞĞ£¬µ«ÊÇÎÒÃÇÃ»ÓĞ±»ÑûÇë¡£ÏÔÈ»ÎÒÃÇ²»¹»ÖØÒª¡£ÊÀ½çµÄÃüÔËÏÖÔÚÕÆÎÕÔÚÏÂÁĞÎÄÃ÷µÄÊÖÖĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]ÏÖÔÚÎÒÃÇÖ»ÄÜµÈ´ıËûÃÇµÄ¾ö¶¨£¬ÏàĞÅËûÃÇµÄ³£Ê¶¡£</Chinese>
+		<Chinese>[H1]Congress of %s1[\H1][NEWLINE]ä¸€ä¸ªå›½é™…ä¼šè®®æ­£åœ¨ä¸¾è¡Œï¼Œä½†æ˜¯æˆ‘ä»¬æ²¡æœ‰è¢«é‚€è¯·ã€‚æ˜¾ç„¶æˆ‘ä»¬ä¸å¤Ÿé‡è¦ã€‚ä¸–ç•Œçš„å‘½è¿ç°åœ¨æŒæ¡åœ¨ä¸‹åˆ—æ–‡æ˜çš„æ‰‹ä¸­ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE][NEWLINE]ç°åœ¨æˆ‘ä»¬åªèƒ½ç­‰å¾…ä»–ä»¬çš„å†³å®šï¼Œç›¸ä¿¡ä»–ä»¬çš„å¸¸è¯†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST</Tag>
 		<English>%s1 wants %s2 (%s3)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÒªÇó%s2(%s3)</Chinese>
+		<Chinese>%s1è¦æ±‚%s2(%s3)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_POPUP_ABSTAINS</Tag>
 		<English>abstains[NEWLINE]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆúÈ¨Æ±[NEWLINE]</Chinese>
+		<Chinese>å¼ƒæƒç¥¨[NEWLINE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_MANIPULATION</Tag>
 		<English>Infiltrate their delegation (%s2: %d1 [ICON_ESPIONAGE])</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉøÍ¸µ½ËûÃÇµÄ´ú±íÍÅÖĞ (%s2: %d1 [ICON_ESPIONAGE])</Chinese>
+		<Chinese>æ¸—é€åˆ°ä»–ä»¬çš„ä»£è¡¨å›¢ä¸­ (%s2: %d1 [ICON_ESPIONAGE])</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_OF</Tag>
 		<English>Congress of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒé:</Chinese>
+		<Chinese>å›½é™…ä¼šè®®:</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REFUSE_DECISION</Tag>
 		<English>Refuse leaving the city!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾Ü¾ø·ÅÆú¸Ã³Ç!</Chinese>
+		<Chinese>æ‹’ç»æ”¾å¼ƒè¯¥åŸ!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NOTIFY_YES1</Tag>
 		<English>is passing under</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÑ¾­ÒÆ½»¸ø</Chinese>
+		<Chinese>å·²ç»ç§»äº¤ç»™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_WAR_AI</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A great international war has come to an end. The belligerents convene in a congress to discuss how to restore order to the world, but we were neither involved nor important enough to influence the process:[NEWLINE]%s2[NEWLINE][NEWLINE]As a non-belligerent, nobody can claim our cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]%s1[\H1][NEWLINE]Ò»³¡Î°´óµÄ¹ú¼ÊÕ½ÕùÒÑ¾­½áÊø¡£½»Õ½¹úÔÚ¹ú¼Ê»áÒé¿ª»áÌÖÂÛÈçºÎ»Ö¸´ÊÀ½çÖÈĞò£¬µ«ÎÒÃÇ¼ÈÃ»ÓĞ²ÎÓë£¬Ò²Ã»ÓĞÖØÒªµ½×ãÒÔÓ°ÏìÕâÒ»½ø³Ì£º[NEWLINE]%s2[NEWLINE][NEWLINE]×÷ÎªÒ»¸ö·Ç½»Õ½¹ú£¬Ã»ÓĞÈË¿ÉÒÔĞû³ÆÎÒÃÇµÄ³ÇÊĞ¡£</Chinese>
+		<Chinese>[H1]%s1[\H1][NEWLINE]ä¸€åœºä¼Ÿå¤§çš„å›½é™…æˆ˜äº‰å·²ç»ç»“æŸã€‚äº¤æˆ˜å›½åœ¨å›½é™…ä¼šè®®å¼€ä¼šè®¨è®ºå¦‚ä½•æ¢å¤ä¸–ç•Œç§©åºï¼Œä½†æˆ‘ä»¬æ—¢æ²¡æœ‰å‚ä¸ï¼Œä¹Ÿæ²¡æœ‰é‡è¦åˆ°è¶³ä»¥å½±å“è¿™ä¸€è¿›ç¨‹ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE]ä½œä¸ºä¸€ä¸ªéäº¤æˆ˜å›½ï¼Œæ²¡æœ‰äººå¯ä»¥å®£ç§°æˆ‘ä»¬çš„åŸå¸‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CORRUPTION_GOLD</Tag>
 		<English>How much gold shall we use for this purpose?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇĞèÒªÎª´Ë»¨¶àÉÙÇ®£¿</Chinese>
+		<Chinese>æˆ‘ä»¬éœ€è¦ä¸ºæ­¤èŠ±å¤šå°‘é’±ï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_CLAIM_COLONY</Tag>
 		<English>%s1 opinion on our request to colonize the %s2 territory near %s3 is divided. It might be possible to influence their decision. What should we do?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¶ÔÎÒÃÇÔÚ%s3¸½½üÖ³Ãñ%s2ÁìÍÁµÄÒªÇó£¬s1Òâ¼û·ÖÆç¡£¿ÉÄÜ»áÓ°ÏìËûÃÇµÄ¾ö¶¨¡£ÎÒÃÇ¸ÃÔõÃ´°ì£¿</Chinese>
+		<Chinese>%s1å¯¹æˆ‘ä»¬åœ¨%s3é™„è¿‘æ®–æ°‘%s2é¢†åœŸçš„è¦æ±‚ï¼Œs1æ„è§åˆ†æ­§ã€‚å¯èƒ½ä¼šå½±å“ä»–ä»¬çš„å†³å®šã€‚æˆ‘ä»¬è¯¥æ€ä¹ˆåŠï¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST_SETTLE_OWN</Tag>
 		<English>%s1 requests to found %s2 on their own territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÇëÇóÔÚÆä×Ô¼ºµÄÁìÍÁÉÏÕÒµ½%s2</Chinese>
+		<Chinese>%s1è¯·æ±‚åœ¨å…¶è‡ªå·±çš„é¢†åœŸä¸Šæ‰¾åˆ°%s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_RESULT_COLONY</Tag>
 		<English>[NEWLINE][ICON_BULLET]%s2 may found %s1.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[NEWLINE][ICON_BULLET]%s2 ¿ÉÄÜÕÒµ½ %s1¡£</Chinese>
+		<Chinese>[NEWLINE][ICON_BULLET]%s2 å¯èƒ½æ‰¾åˆ° %s1ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_ACCEPT</Tag>
 		<English>Accept</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ÓÊÜ</Chinese>
+		<Chinese>æ¥å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_OWN_CLAIM_SUCCESS</Tag>
 		<English>The attempt was successful! %s1 will now support our claim.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³¢ÊÔ³É¹¦ÁË£¡%s1ÏÖÔÚ½«Ö§³ÖÎÒÃÇµÄË÷Åâ¡£</Chinese>
+		<Chinese>å°è¯•æˆåŠŸäº†ï¼%s1ç°åœ¨å°†æ”¯æŒæˆ‘ä»¬çš„ç´¢èµ”ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NO_CITY</Tag>
 		<English>There is no appropriate city to ask</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã»ÓĞ¿ÉÒªÇóµÄ³ÇÊĞ</Chinese>
+		<Chinese>æ²¡æœ‰å¯è¦æ±‚çš„åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_DEMAND_CITY</Tag>
 		<English>The congress has decided to hand over our city of %s2 to %s1. Shall we comply with their demand? Refusal may lead to war against the supporters of this decision. The following civilizations voted against us:[NEWLINE]%s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒé¾ö¶¨°ÑÎÒÃÇµÄ³ÇÊĞ´Ó%s2ÒÆ½»¸ø%s1¡£ÎÒÃÇÄÜÂú×ãËûÃÇµÄÒªÇóÂğ£¿¾Ü¾ø¿ÉÄÜµ¼ÖÂ¶ÔÕâ¸ö¾ö¶¨µÄÖ§³ÖÕßµÄÕ½Õù¡£ÒÔÏÂÎÄÃ÷Í¶Æ±·´¶ÔÎÒÃÇ£º[ĞÂÏß]%s3</Chinese>
+		<Chinese>å›½é™…ä¼šè®®å†³å®šæŠŠæˆ‘ä»¬çš„åŸå¸‚ä»%s2ç§»äº¤ç»™%s1ã€‚æˆ‘ä»¬èƒ½æ»¡è¶³ä»–ä»¬çš„è¦æ±‚å—ï¼Ÿæ‹’ç»å¯èƒ½å¯¼è‡´å¯¹è¿™ä¸ªå†³å®šçš„æ”¯æŒè€…çš„æˆ˜äº‰ã€‚ä»¥ä¸‹æ–‡æ˜æŠ•ç¥¨åå¯¹æˆ‘ä»¬ï¼š[æ–°çº¿]%s3</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_RESULT_COLONY_TERRITORY</Tag>
 		<English>[NEWLINE][ICON_BULLET]%s3 may found %s1 in %s2 territory.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[NEWLINE][ICON_BULLET]%s3 ¿ÉÄÜÔÚ%s2 ÇøÓòÖĞÕÒµ½%s1 ¡£</Chinese>
+		<Chinese>[NEWLINE][ICON_BULLET]%s3 å¯èƒ½åœ¨%s2 åŒºåŸŸä¸­æ‰¾åˆ°%s1 ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NO_BRIBE</Tag>
 		<English>Let them vote as they please.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÃËûÃÇËæÒâÍ¶Æ±</Chinese>
+		<Chinese>è®©ä»–ä»¬éšæ„æŠ•ç¥¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_POPUP_VOTES_YES</Tag>
 		<English>votes YES[NEWLINE]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔŞ³ÉÆ±[NEWLINE]</Chinese>
+		<Chinese>èµæˆç¥¨[NEWLINE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CHANCE_HIGH</Tag>
 		<English>High</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ß</Chinese>
+		<Chinese>é«˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_BRIBE_THEIR_CLAIM_SUCCESS</Tag>
 		<English>The attempt was successful! %s1 will now vote against the claim against us.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³¢ÊÔ³É¹¦ÁË£¡%s1ÏÖÔÚ½«Í¶Æ±·´¶Ô¶ÔÎÒÃÇµÄÁìÍÁÖ÷ÕÅ¡£</Chinese>
+		<Chinese>å°è¯•æˆåŠŸäº†ï¼%s1ç°åœ¨å°†æŠ•ç¥¨åå¯¹å¯¹æˆ‘ä»¬çš„é¢†åœŸä¸»å¼ ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REFUSE</Tag>
 		<English>Refuse</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾Ü¾ø</Chinese>
+		<Chinese>æ‹’ç»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRO_NOT_INVITED</Tag>
 		<English>A World Congress is being held, but we haven't been invited. Maybe we aren't important enough.[NEWLINE][NEWLINE]Now we can only await their decisions and trust in their common sense.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»´Î¹ú¼Ê»áÒéÕıÔÚÕÙ¿ª£¬µ«ÎÒÃÇÎ´»ñÑûÇë¡£Ò²ĞíÒòÎªÎÒÃÇ»¹²»¹»Ç¿´ó¡£[NEWLINE][NEWLINE]Ä¿Ç°ÎÒÃÇÖ»ÄÜÆÚ´ıËûÃÇµÄ»áÌ¸ÄÜÓĞºÏÀíµÄ½á¹û¡£</Chinese>
+		<Chinese>ä¸€æ¬¡å›½é™…ä¼šè®®æ­£åœ¨å¬å¼€ï¼Œä½†æˆ‘ä»¬æœªè·é‚€è¯·ã€‚ä¹Ÿè®¸å› ä¸ºæˆ‘ä»¬è¿˜ä¸å¤Ÿå¼ºå¤§ã€‚[NEWLINE][NEWLINE]ç›®å‰æˆ‘ä»¬åªèƒ½æœŸå¾…ä»–ä»¬çš„ä¼šè°ˆèƒ½æœ‰åˆç†çš„ç»“æœã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INVITE</Tag>
@@ -329,72 +329,72 @@
 		<Tag>TXT_KEY_CONGRESS_REQUEST2</Tag>
 		<English>should be assigned to</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¦¸ÃÒÆ½»¸ø</Chinese>
+		<Chinese>åº”è¯¥ç§»äº¤ç»™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_WAR_WON</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A great international war has come to an end. The involved powers convene in a congress to discuss how to restore order to the world. Besides our civilization, the participants are:[NEWLINE]%s2[NEWLINE][NEWLINE]Since we are on the winning side we can claim cities from the losers of the war, while they may attempt to reclaim cities conquered during the war. If enough civilizations approve, the request is granted. Refusal to comply with the decision of the congress may lead to war with the civilizations that supported it!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]%s1[\H1][NEWLINE]Ò»³¡Î°´óµÄ¹ú¼ÊÕ½ÕùÒÑ¾­½áÊø¡£ÓĞ¹ØÈ¨Á¦ÔÚ¹ú¼Ê»áÒé¿ª»áÌÖÂÛÈçºÎ»Ö¸´ÊÀ½çÖÈĞò¡£³ıÁËÎÒÃÇµÄÎÄÃ÷£¬²ÎÓëÕß»¹ÓĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE]ÒòÎªÎÒÃÇÕ¾ÔÚÊ¤ÀûµÄÒ»±ß£¬ÎÒÃÇ¿ÉÒÔ´ÓÕ½ÕùµÄÊ§°ÜÕßÊÖÖĞ¶á»Ø³ÇÊĞ£¬¶øËûÃÇ¿ÉÄÜÊÔÍ¼¶á»ØÕ½ÕùÆÚ¼äÕ÷·şµÄ³ÇÊĞ¡£Èç¹ûÓĞ×ã¹»¶àµÄÎÄÃ÷ÔŞ³É£¬ÇëÇó¾Í±»Åú×¼ÁË¡£¾Ü¾ø×ñÊØ¹ú¼Ê»áÒéµÄ¾ö¶¨¿ÉÄÜµ¼ÖÂÓëÖ§³ÖËüµÄÎÄÃ÷Ö®¼äµÄÕ½Õù£¡</Chinese>
+		<Chinese>[H1]%s1[\H1][NEWLINE]ä¸€åœºä¼Ÿå¤§çš„å›½é™…æˆ˜äº‰å·²ç»ç»“æŸã€‚æœ‰å…³æƒåŠ›åœ¨å›½é™…ä¼šè®®å¼€ä¼šè®¨è®ºå¦‚ä½•æ¢å¤ä¸–ç•Œç§©åºã€‚é™¤äº†æˆ‘ä»¬çš„æ–‡æ˜ï¼Œå‚ä¸è€…è¿˜æœ‰ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE]å› ä¸ºæˆ‘ä»¬ç«™åœ¨èƒœåˆ©çš„ä¸€è¾¹ï¼Œæˆ‘ä»¬å¯ä»¥ä»æˆ˜äº‰çš„å¤±è´¥è€…æ‰‹ä¸­å¤ºå›åŸå¸‚ï¼Œè€Œä»–ä»¬å¯èƒ½è¯•å›¾å¤ºå›æˆ˜äº‰æœŸé—´å¾æœçš„åŸå¸‚ã€‚å¦‚æœæœ‰è¶³å¤Ÿå¤šçš„æ–‡æ˜èµæˆï¼Œè¯·æ±‚å°±è¢«æ‰¹å‡†äº†ã€‚æ‹’ç»éµå®ˆå›½é™…ä¼šè®®çš„å†³å®šå¯èƒ½å¯¼è‡´ä¸æ”¯æŒå®ƒçš„æ–‡æ˜ä¹‹é—´çš„æˆ˜äº‰ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_REQUEST_SETTLE_EMPTY</Tag>
 		<English>%s1 claims unsettled territory to found %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÒªÇóÕÒµ½Î´½áËãÇøÓò%s2</Chinese>
+		<Chinese>%s1è¦æ±‚æ‰¾åˆ°æœªç»“ç®—åŒºåŸŸ%s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CORRUPTION_ENEMY</Tag>
 		<English>They refused our proposal with indignation. Now they might even vote against our interests!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËûÃÇÑÏ´Ê¾Ü¾øÁËÎÒÃÇµÄ»ßÂ¸¡£ÏÖÔÚËûÃÇµÄÍ¶Æ±ÉõÖÁ¿ÉÄÜ²»ÀûÓÚÎÒÃÇ£¡</Chinese>
+		<Chinese>ä»–ä»¬ä¸¥è¯æ‹’ç»äº†æˆ‘ä»¬çš„è´¿èµ‚ã€‚ç°åœ¨ä»–ä»¬çš„æŠ•ç¥¨ç”šè‡³å¯èƒ½ä¸åˆ©äºæˆ‘ä»¬ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CORRUPTION_YES</Tag>
 		<English>They accepted our proposal. They will vote for our interests.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËûÃÇ½ÓÊÜÁË»ßÂ¸¡£ËûÃÇ½«¸ù¾İÎÒÃÇµÄÀûÒæÍ¶Æ±¡£</Chinese>
+		<Chinese>ä»–ä»¬æ¥å—äº†è´¿èµ‚ã€‚ä»–ä»¬å°†æ ¹æ®æˆ‘ä»¬çš„åˆ©ç›ŠæŠ•ç¥¨ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_POPUP_VOTES_NO</Tag>
 		<English>votes NO[NEWLINE]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·´¶ÔÆ±[NEWLINE]</Chinese>
+		<Chinese>åå¯¹ç¥¨[NEWLINE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_POPUP_YES_WINS</Tag>
 		<English>[NEWLINE]YES wins</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[NEWLINE]»ñµÃÍ¨¹ı</Chinese>
+		<Chinese>[NEWLINE]è·å¾—é€šè¿‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_INTRODUCTION_WAR_LOST</Tag>
 		<English>[H1]Congress of %s1[\H1][NEWLINE]A great international war has come to an end. The involved powers convene in a congress to discuss how to restore order to the world. Besides our civilization, the participants are:[NEWLINE]%s2[NEWLINE][NEWLINE]As a loser of the war we can attempt to reclaim cities lost during the war, while the winners may make additional claims against us. If enough civilizations approve, the request is granted. Refusal to comply with the decision of the congress may lead to war with the civilizations that supported it!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]%s1[\H1][NEWLINE]Ò»³¡Î°´óµÄ¹ú¼ÊÕ½ÕùÒÑ¾­½áÊø¡£ÓĞ¹ØÈ¨Á¦ÔÚ¹ú¼Ê»áÒé¿ª»áÌÖÂÛÈçºÎ»Ö¸´ÊÀ½çÖÈĞò¡£³ıÁËÎÒÃÇµÄÎÄÃ÷£¬²ÎÓëÕß»¹ÓĞ£º[NEWLINE]%s2[NEWLINE][NEWLINE]×÷ÎªÕ½ÕùµÄÊ§°ÜÕß£¬ÎÒÃÇ¿ÉÒÔÊÔÍ¼ÊÕ»ØÔÚÕ½ÕùÖĞÊ§È¥µÄ³ÇÊĞ£¬¶øÊ¤ÀûÕß¿ÉÄÜ»á¶ÔÎÒÃÇÌá³ö¸ü¶àµÄÒªÇó¡£Èç¹ûÓĞ×ã¹»¶àµÄÎÄÃ÷ÔŞ³É£¬ÇëÇó¾Í±»Åú×¼ÁË¡£¾Ü¾ø×ñÊØ¹ú¼Ê»áÒéµÄ¾ö¶¨¿ÉÄÜµ¼ÖÂÓëÖ§³ÖËüµÄÎÄÃ÷Ö®¼äµÄÕ½Õù£¡</Chinese>
+		<Chinese>[H1]%s1[\H1][NEWLINE]ä¸€åœºä¼Ÿå¤§çš„å›½é™…æˆ˜äº‰å·²ç»ç»“æŸã€‚æœ‰å…³æƒåŠ›åœ¨å›½é™…ä¼šè®®å¼€ä¼šè®¨è®ºå¦‚ä½•æ¢å¤ä¸–ç•Œç§©åºã€‚é™¤äº†æˆ‘ä»¬çš„æ–‡æ˜ï¼Œå‚ä¸è€…è¿˜æœ‰ï¼š[NEWLINE]%s2[NEWLINE][NEWLINE]ä½œä¸ºæˆ˜äº‰çš„å¤±è´¥è€…ï¼Œæˆ‘ä»¬å¯ä»¥è¯•å›¾æ”¶å›åœ¨æˆ˜äº‰ä¸­å¤±å»çš„åŸå¸‚ï¼Œè€Œèƒœåˆ©è€…å¯èƒ½ä¼šå¯¹æˆ‘ä»¬æå‡ºæ›´å¤šçš„è¦æ±‚ã€‚å¦‚æœæœ‰è¶³å¤Ÿå¤šçš„æ–‡æ˜èµæˆï¼Œè¯·æ±‚å°±è¢«æ‰¹å‡†äº†ã€‚æ‹’ç»éµå®ˆå›½é™…ä¼šè®®çš„å†³å®šå¯èƒ½å¯¼è‡´ä¸æ”¯æŒå®ƒçš„æ–‡æ˜ä¹‹é—´çš„æˆ˜äº‰ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_CHANCE_VERY_HIGH</Tag>
 		<English>Very High</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·Ç³£¸ß</Chinese>
+		<Chinese>éå¸¸é«˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_NO_RESULTS</Tag>
 		<English>[NEWLINE]The members decided to uphold the status quo.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÉÔ±ÃÇ¾ö¶¨Î¬³ÖÏÖ×´¡£</Chinese>
+		<Chinese>æˆå‘˜ä»¬å†³å®šç»´æŒç°çŠ¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_DEMAND_TERRITORY</Tag>
 		<English>The congress has decided to allow %s1 to colonize our territory near %s2. Shall we comply with their demand? Refusal may lead to war against the supporters of this decision. The following civilizations voted against us:[NEWLINE]%s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒé¾ö¶¨ÔÊĞí%s1ÔÚ%s2¸½½üÖ³ÃñÎÒÃÇµÄÁìÍÁ¡£ÎÒÃÇÄÜÂú×ãËûÃÇµÄÒªÇóÂğ£¿¾Ü¾ø¿ÉÄÜµ¼ÖÂ¶ÔÕâ¸ö¾ö¶¨µÄÖ§³ÖÕßµÄÕ½Õù¡£ÒÔÏÂÎÄÃ÷Í¶Æ±·´¶ÔÎÒÃÇ£º[ĞÂÏß]%s3</Chinese>
+		<Chinese>å›½é™…ä¼šè®®å†³å®šå…è®¸%s1åœ¨%s2é™„è¿‘æ®–æ°‘æˆ‘ä»¬çš„é¢†åœŸã€‚æˆ‘ä»¬èƒ½æ»¡è¶³ä»–ä»¬çš„è¦æ±‚å—ï¼Ÿæ‹’ç»å¯èƒ½å¯¼è‡´å¯¹è¿™ä¸ªå†³å®šçš„æ”¯æŒè€…çš„æˆ˜äº‰ã€‚ä»¥ä¸‹æ–‡æ˜æŠ•ç¥¨åå¯¹æˆ‘ä»¬ï¼š[æ–°çº¿]%s3</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONGRESS_HUMAN_REQUEST</Tag>
 		<English>What city shall we ask for?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÓ¦¸ÃÒªÇóÄÄ×ù³ÇÊĞ?</Chinese>
+		<Chinese>æˆ‘ä»¬åº”è¯¥è¦æ±‚å“ªåº§åŸå¸‚?</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,70 +1,70 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_WHITE</Tag>
 		<English>White</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╟ви╚</Chinese>
+		<Chinese>Г≥╫Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_CYAN</Tag>
 		<English>Cyan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>гЮи╚</Chinese>
+		<Chinese>И²▓Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_BLUE</Tag>
 		<English>Blue</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ю╤и╚</Chinese>
+		<Chinese>Х⌠²Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_DARK_GREY</Tag>
 		<English>Dark Grey</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>иН╩ри╚</Chinese>
+		<Chinese>Ф╥╠Г│╟Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_RED</Tag>
 		<English>Red</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╨Ли╚</Chinese>
+		<Chinese>Г╨╒Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_GREEN</Tag>
 		<English>Green</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>бли╚</Chinese>
+		<Chinese>Г╩©Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_YELLOW</Tag>
 		<English>Yellow</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╩фи╚</Chinese>
+		<Chinese>И╩└Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_LIGHT_GREY</Tag>
 		<English>Light Grey</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>гЁ╩ри╚</Chinese>
+		<Chinese>Ф╣┘Г│╟Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_BLACK</Tag>
 		<English>Black</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╨зи╚</Chinese>
+		<Chinese>И╩▒Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_MAGENTA</Tag>
 		<English>Magenta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>яС╨Ли╚</Chinese>
+		<Chinese>Ф╢▀Г╨╒Х┴╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_COLOR_GREY</Tag>
 		<English>Grey</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╩ри╚</Chinese>
+		<Chinese>Г│╟Х┴╡</Chinese>
 	</TEXT>
 </Civ4GameText>

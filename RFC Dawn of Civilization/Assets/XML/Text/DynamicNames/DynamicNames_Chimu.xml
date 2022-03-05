@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_DESC</Tag>
 		<English>The Chimu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂÎÄÃ÷</Chinese>
+		<Chinese>å¥‡ç©†æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CHIMU_KANCHA</Tag>
 		<English>Kancha</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿²²é(Kancha)</Chinese>
+		<Chinese>åæŸ¥(Kancha)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU2</Tag>
 		<English>Conquer or vassalize the Inca by 1475 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1475ÄêÇ°Õ÷·ş»ò¸½Ó¹Ó¡¼Ó</Chinese>
+		<Chinese>å…¬å…ƒ1475å¹´å‰å¾æœæˆ–é™„åº¸å°åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU1_TITLE</Tag>
 		<English>The Mighty Paramonga</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ç¿´óµÄÅÁÀ­ÃÉ¼Ó</Chinese>
+		<Chinese>å¼ºå¤§çš„å¸•æ‹‰è’™åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_STRING</Tag>
@@ -41,72 +41,72 @@
 		<Tag>TXT_KEY_UHV_CMU1</Tag>
 		<English>Build two Kanchas by 1300 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1300ÄêÇ°½¨³É2¸ö¿²²é(Kancha)</Chinese>
+		<Chinese>å…¬å…ƒ1300å¹´å‰å»ºæˆ2ä¸ªåæŸ¥(Kancha)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CMU_TITLE</Tag>
 		<English>The Power of the Mochica Heritage:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄªÆæ¿¨ÒÅ²ú£º</Chinese>
+		<Chinese>è«å¥‡å¡é—äº§ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU3_TITLE</Tag>
 		<English>The Lambayeque-Sipan Conection</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À¼°ÍÒ®¿Ë(Lambayeque-Sipan)ÎÄ»¯</Chinese>
+		<Chinese>å…°å·´è€¶å…‹(Lambayeque-Sipan)æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹ÈË</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_TACAYNAMO</Tag>
 		<English>Tacaynamo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂ-Tacaynamo</Chinese>
+		<Chinese>å¥‡ç©†-Tacaynamo</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_SHORT_DESC</Tag>
 		<English>Chimu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂ</Chinese>
+		<Chinese>å¥‡ç©†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_ADJECTIVE</Tag>
 		<English>Chimu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂ</Chinese>
+		<Chinese>å¥‡ç©†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CMU</Tag>
 		<English>Recieves a Free Artist in the capital for every other improved resource in Northwestern South American.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÄÏÃÀÖŞÎ÷±±²¿£¬Ã¿¿ª·¢Ò»¸ö×ÊÔ´£¬¾Í¿ÉÒÔÔÚÊ×¶¼Ãâ·Ñ»ñµÃÒ»ÃûÒÕÊõ¼Ò¡£</Chinese>
+		<Chinese>åœ¨å—ç¾æ´²è¥¿åŒ—éƒ¨ï¼Œæ¯å¼€å‘ä¸€ä¸ªèµ„æºï¼Œå°±å¯ä»¥åœ¨é¦–éƒ½å…è´¹è·å¾—ä¸€åè‰ºæœ¯å®¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_DEFAULT</Tag>
 		<English>Chimu Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂµÛ¹ú</Chinese>
+		<Chinese>å¥‡ç©†å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU3</Tag>
 		<English>Settle three great artists in your capital by 1500 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1500ÄêÇ°Ê×¶¼Èë×¤3Î»´óÒÕÊõ¼Ò</Chinese>
+		<Chinese>å…¬å…ƒ1500å¹´å‰é¦–éƒ½å…¥é©»3ä½å¤§è‰ºæœ¯å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU2_TITLE</Tag>
 		<English>Minchancaman Revenge</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã÷²é¿¨ÂüµÄ¸´³ğ</Chinese>
+		<Chinese>æ˜æŸ¥å¡æ›¼çš„å¤ä»‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_EMPIRE</Tag>
 		<English>Kingdom of Chimu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆæÄÂÍõ¹ú</Chinese>
+		<Chinese>å¥‡ç©†ç‹å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

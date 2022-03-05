@@ -1,52 +1,52 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_PEOPLES</Tag>
 		<English>Congolese Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果人</Chinese>
+		<Chinese>鍒氭灉浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_REPUBLIC</Tag>
 		<English>Democratic Republic of the Congo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>民主刚果</Chinese>
+		<Chinese>姘戜富鍒氭灉</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_ARTICLE</Tag>
 		<English>the Congo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果</Chinese>
+		<Chinese>鍒氭灉</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_DESC</Tag>
 		<English>The Congolese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果文明</Chinese>
+		<Chinese>鍒氭灉鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_DEFAULT</Tag>
 		<English>Kingdom of Kongo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果王国</Chinese>
+		<Chinese>鍒氭灉鐜嬪浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_SHORT_DESC</Tag>
 		<English>Congo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果</Chinese>
+		<Chinese>鍒氭灉</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_FASCIST</Tag>
 		<English>Republic of Zaire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>扎伊尔共和国</Chinese>
+		<Chinese>鎵庝紛灏斿叡鍜屽浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CONGO_ADJECTIVE</Tag>
 		<English>Congolese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果</Chinese>
+		<Chinese>鍒氭灉</Chinese>
 	</TEXT>
 </Civ4GameText>

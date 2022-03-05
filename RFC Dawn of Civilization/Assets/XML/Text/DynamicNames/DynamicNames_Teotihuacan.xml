@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_TULA</Tag>
 		<English>Tula</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>图拉</Chinese>
+		<Chinese>鍥炬媺</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_PEOPLES</Tag>
 		<English>Mexico Valley Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>墨西哥谷人</Chinese>
+		<Chinese>澧ㄨタ鍝ヨ胺浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DESC</Tag>
 		<English>The Teotihuacanos</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺文明</Chinese>
+		<Chinese>鐗瑰ゥ钂傜摝鍗¤鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_ADJECTIVE</Tag>
 		<English>Teotihuacan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺</Chinese>
+		<Chinese>鐗瑰ゥ钂傜摝鍗¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DEFAULT</Tag>
@@ -41,12 +41,12 @@
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_SHORT_DESC</Tag>
 		<English>Teotihuacan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺</Chinese>
+		<Chinese>鐗瑰ゥ钂傜摝鍗¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_TOLTEC</Tag>
 		<English>Toltec</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>托尔特克</Chinese>
+		<Chinese>鎵樺皵鐗瑰厠</Chinese>
 	</TEXT>
 </Civ4GameText>

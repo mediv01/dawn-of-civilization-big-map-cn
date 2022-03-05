@@ -1,34 +1,34 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRALIA_ADJECTIVE</Tag>
 		<English>Australian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>澳大利亚</Chinese>
+		<Chinese>婢冲ぇ鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRALIA_DEFAULT</Tag>
 		<English>Australia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>澳大利亚</Chinese>
+		<Chinese>婢冲ぇ鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRALIA_DESC</Tag>
 		<English>The Australians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>澳大利亚文明</Chinese>
+		<Chinese>婢冲ぇ鍒╀簹鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRALIA_SHORT_DESC</Tag>
 		<English>Australia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>澳大利亚</Chinese>
+		<Chinese>婢冲ぇ鍒╀簹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRALIA_PEOPLES</Tag>
 		<English>Australian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>澳大利亚人</Chinese>
+		<Chinese>婢冲ぇ鍒╀簹浜�</Chinese>
 	</TEXT>
 </Civ4GameText>

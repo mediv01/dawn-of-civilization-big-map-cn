@@ -1,34 +1,34 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_FEATURE_MARSH</Tag>
 		<English>Marsh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>沼泽</Chinese>
+		<Chinese>娌兼辰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_FEATURE_CAPE</Tag>
 		<English>Cape</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>海岬</Chinese>
+		<Chinese>娴峰铂</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_FEATURE_RAINFOREST</Tag>
 		<English>Rainforest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>雨林</Chinese>
+		<Chinese>闆ㄦ灄</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_FEATURE_ISLANDS</Tag>
 		<English>Islands</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>岛屿</Chinese>
+		<Chinese>宀涘笨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_FEATURE_NO_IMPROVEMENT</Tag>
 		<English>[NEWLINE][ICON_BULLET]Cannot build any improvements on this feature</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[NEWLINE][ICON_BULLET]此地形无法修建任何设施</Chinese>
+		<Chinese>[NEWLINE][ICON_BULLET]姝ゅ湴褰㈡棤娉曚慨寤轰换浣曡鏂�</Chinese>
 	</TEXT>
 </Civ4GameText>

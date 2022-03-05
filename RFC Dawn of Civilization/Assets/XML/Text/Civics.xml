@@ -1,317 +1,317 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MERITOCRACY_STRATEGY</Tag>
 		<English>Less experience needed for unit promotions; extra food from Paddy Fields; extra commerce from Windmills and Watermills; extra commerce from specialists</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¥Î»½úÉıĞèÒª¾­Ñé¼õÉÙ£»µ¾ÌïÌá¹©¶îÍâÊ³Îï£»·çÁ¦Ä¥·»ºÍË®Á¦Ä¥·»Ìá¹©¶îÍâÉÌÒµ£»×¨¼ÒÌá¹©¶îÍâÉÌÒµ</Chinese>
+		<Chinese>å•ä½æ™‹å‡éœ€è¦ç»éªŒå‡å°‘ï¼›ç¨»ç”°æä¾›é¢å¤–é£Ÿç‰©ï¼›é£åŠ›ç£¨åŠå’Œæ°´åŠ›ç£¨åŠæä¾›é¢å¤–å•†ä¸šï¼›ä¸“å®¶æä¾›é¢å¤–å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CITIZENSHIP_STRATEGY</Tag>
 		<English>Double production speed for Libraries, Aqueducts, Theatres and Markets; can spend gold to finish unit production</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í¼Êé¹İ¡¢Ë®Çş¡¢¾çÔººÍÊĞ³¡µÄË«ÖØÉú²úËÙ¶È£»¿ÉÒÔÓÃ»Æ½ğÍê³Éµ¥Î»Éú²ú</Chinese>
+		<Chinese>å›¾ä¹¦é¦†ã€æ°´æ¸ ã€å‰§é™¢å’Œå¸‚åœºçš„åŒé‡ç”Ÿäº§é€Ÿåº¦ï¼›å¯ä»¥ç”¨é»„é‡‘å®Œæˆå•ä½ç”Ÿäº§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ANIMISM_STRATEGY</Tag>
 		<English>The most primitive Religion civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄ×Ú½ÌÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„å®—æ•™æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CENTRALISM</Tag>
 		<English>Centralism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÑëÖ÷Òå</Chinese>
+		<Chinese>ä¸­å¤®ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TOLERANCE</Tag>
 		<English>Tolerance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÇóÍ¬´æÒì</Chinese>
+		<Chinese>æ±‚åŒå­˜å¼‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REGULATED_TRADE_STRATEGY</Tag>
 		<English>Increased commerce in capital; extra commerce from Workshops, Plantations and Slave Plantations; double production speed for Customs House</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê×¶¼ÉÌÒµÔö³¤£»¹¤³§¡¢ÖÖÖ²Ô°ºÍÅ«Á¥ÖÖÖ²Ô°Ìá¹©¶îÍâÉÌÒµ£»º£¹Ø½¨ÔìËÙ¶È¼Ó±¶</Chinese>
+		<Chinese>é¦–éƒ½å•†ä¸šå¢é•¿ï¼›å·¥å‚ã€ç§æ¤å›­å’Œå¥´éš¶ç§æ¤å›­æä¾›é¢å¤–å•†ä¸šï¼›æµ·å…³å»ºé€ é€Ÿåº¦åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_INDIVIDUALISM_STRATEGY</Tag>
 		<English>Increased growth rate for Cottages, Hamlets and Villages; extra commerce from Villages and Towns</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´åÉá¡¢Ğ¡´å×¯ºÍ´å×¯µÄÔö³¤ËÙ¶È¼Ó¿ì£»Ğ¡ÕòÌá¹©¶îÍâÉÌÒµ</Chinese>
+		<Chinese>æ‘èˆã€å°æ‘åº„å’Œæ‘åº„çš„å¢é•¿é€Ÿåº¦åŠ å¿«ï¼›å°é•‡æä¾›é¢å¤–å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CONQUEST_STRATEGY</Tag>
 		<English>Extra experience for land units; reduced growth rate for Cottages, Hamlets and Villages; extra gold on city conquest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â½µØµ¥Î»Ìá¹©¶îÍâ¾­Ñé£»´åÉá¡¢Ğ¡´å×¯ºÍ´å×¯µÄÔö³¤ËÙ¶È½µµÍ£»³ÇÊĞÕ÷·ş´øÀ´¶îÍâ»Æ½ğ</Chinese>
+		<Chinese>é™†åœ°å•ä½æä¾›é¢å¤–ç»éªŒï¼›æ‘èˆã€å°æ‘åº„å’Œæ‘åº„çš„å¢é•¿é€Ÿåº¦é™ä½ï¼›åŸå¸‚å¾æœå¸¦æ¥é¢å¤–é»„é‡‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_FREE_ENTERPRISE</Tag>
 		<English>Free Enterprise</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×ÔÓÉÊĞ³¡</Chinese>
+		<Chinese>è‡ªç”±å¸‚åœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CLERGY_STRATEGY</Tag>
 		<English>Increased building production in cities with state religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÅÑö¹ú½ÌµÄ³ÇÊĞ½¨Öş²úÄÜÔö¼Ó</Chinese>
+		<Chinese>ä¿¡ä»°å›½æ•™çš„åŸå¸‚å»ºç­‘äº§èƒ½å¢åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MERCHANT_TRADE_STRATEGY</Tag>
 		<English>Extra trade route in all cities; extra happiness from Oasis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞ³ÇÊĞ´æÔÚ¶îÍâÃ³Ò×Â·Ïß£»ÂÌÖŞÌá¹©¶îÍâ¿ìÀÖ</Chinese>
+		<Chinese>æ‰€æœ‰åŸå¸‚å­˜åœ¨é¢å¤–è´¸æ˜“è·¯çº¿ï¼›ç»¿æ´²æä¾›é¢å¤–å¿«ä¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_HALVED_STATE_RELIGION_DIPLO</Tag>
 		<English>[ICON_BULLET]Halved diplomatic penalties from differing State [ICON_RELIGION]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]²»Í¬×Ú½ÌµÄÍâ½»´¦·£¼õ°ë [ICON_RELIGION]</Chinese>
+		<Chinese>[ICON_BULLET]ä¸åŒå®—æ•™çš„å¤–äº¤å¤„ç½šå‡åŠ [ICON_RELIGION]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVICOPTION_SOCIETY</Tag>
 		<English>Society</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éç»áÖÆ¶È</Chinese>
+		<Chinese>ç¤¾ä¼šåˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MONASTICISM</Tag>
 		<English>Monasticism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾²ĞŞÖ÷Òå</Chinese>
+		<Chinese>é™ä¿®ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ISOLATIONISM_STRATEGY</Tag>
 		<English>Extra free specialist in all cities; no foreign trade routes; increased espionage in capital</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞ³ÇÊĞ¶¼ÓĞ¶îÍâµÄÃâ·Ñ×¨¼Ò£»Ã»ÓĞÍâÃ³Â·Ïß£»Ê×¶¼¼äµıµãÊıÔö¼Ó</Chinese>
+		<Chinese>æ‰€æœ‰åŸå¸‚éƒ½æœ‰é¢å¤–çš„å…è´¹ä¸“å®¶ï¼›æ²¡æœ‰å¤–è´¸è·¯çº¿ï¼›é¦–éƒ½é—´è°ç‚¹æ•°å¢åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRADITIONALISM</Tag>
 		<English>Traditionalism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´«Í³Ö÷Òå</Chinese>
+		<Chinese>ä¼ ç»Ÿä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REDISTRIBUTION</Tag>
 		<English>Redistribution</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖØĞÂ·ÖÅä</Chinese>
+		<Chinese>é‡æ–°åˆ†é…</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SLAVERY_STRATEGY</Tag>
 		<English>Can capture Workers; extra production from Quarries; extra commerce from Mines and Plantations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÜ²¶»ñ¹¤ÈË£»²ÉÊ¯³¡Ìá¹©¶îÍâÉú²ú£»¿óÉ½ºÍÖÖÖ²Ô°Ìá¹©¶îÍâÉÌÒµ</Chinese>
+		<Chinese>èƒ½æ•è·å·¥äººï¼›é‡‡çŸ³åœºæä¾›é¢å¤–ç”Ÿäº§ï¼›çŸ¿å±±å’Œç§æ¤å›­æä¾›é¢å¤–å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MONARCHY_STRATEGY</Tag>
 		<English>Extra happiness from military units; reduced maintenance from distance to Palace; double production speed for Jails</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ü¶Ó´øÀ´µÄ¶îÍâ¿ìÀÖ£»¾àÀëÎ¬»¤·Ñ£»¼àÓüµÄÉú²úËÙ¶È¼Ó±¶</Chinese>
+		<Chinese>å†›é˜Ÿå¸¦æ¥çš„é¢å¤–å¿«ä¹ï¼›è·ç¦»ç»´æŠ¤è´¹ï¼›ç›‘ç‹±çš„ç”Ÿäº§é€Ÿåº¦åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
 		<English>Cities with state religion give extra experience; no spread of non-state religions; Increased unit production in cities with state religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ìá¹©Á½¸öÄÁÊ¦¿ÕÎ»£»ÓĞ¹ú¼Ò×Ú½ÌµÄ³ÇÊĞÌá¹©¶îÍâµÄ¾­Ñé£»Ã»ÓĞ·Ç¹ú½Ì×Ú½ÌµÄ´«²¥</Chinese>
+		<Chinese>æä¾›ä¸¤ä¸ªç‰§å¸ˆç©ºä½ï¼›æœ‰å›½å®¶å®—æ•™çš„åŸå¸‚æä¾›é¢å¤–çš„ç»éªŒï¼›æ²¡æœ‰éå›½æ•™å®—æ•™çš„ä¼ æ’­</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVICOPTION_LEGITIMACY</Tag>
 		<English>Legitimacy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕşÈ¨À´Ô´</Chinese>
+		<Chinese>æ”¿æƒæ¥æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CONSTITUTION</Tag>
 		<English>Constitution</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÜ·¨ÕşÖÎ</Chinese>
+		<Chinese>å®ªæ³•æ”¿æ²»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SECULARISM</Tag>
 		<English>Secularism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÀË×Ö÷Òå</Chinese>
+		<Chinese>ä¸–ä¿—ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CASTE_SYSTEM_STRATEGY</Tag>
 		<English>Faster improvement construction; extra food from Plantations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼Ó¿ì¸ÄÉÆ½¨Éè£»ÖÖÖ²Ô°µÄ¶îÍâÊ³Îï</Chinese>
+		<Chinese>åŠ å¿«æ”¹å–„å»ºè®¾ï¼›ç§æ¤å›­çš„é¢å¤–é£Ÿç‰©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_COLONIALISM</Tag>
 		<English>Colonialism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ö³ÃñÖ÷Òå</Chinese>
+		<Chinese>æ®–æ°‘ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CITIZENSHIP</Tag>
 		<English>Citizenship</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«ÃñÉí·İ</Chinese>
+		<Chinese>å…¬æ°‘èº«ä»½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CLERGY</Tag>
 		<English>Clergy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÀË¾ÖÆ¶È</Chinese>
+		<Chinese>ç¥­å¸åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_STATE_PARTY</Tag>
 		<English>State Party</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ³¹úÒ»Ìå</Chinese>
+		<Chinese>å…šå›½ä¸€ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ANIMISM</Tag>
 		<English>Animism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ºÁéÂÛ</Chinese>
+		<Chinese>æ³›çµè®º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ELECTIVE_STRATEGY</Tag>
 		<English>Extra commerce from tiles without improvement; extra commerce from camps and pastures; double production speed for Palace</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×©Íß¼Ó¼Û£¬²»¸Ä½ø£»ÓªµØºÍÄÁ³¡¼Ó¼Û£»¹¬µî¼Ó±¶Éú²úËÙ¶È</Chinese>
+		<Chinese>ç –ç“¦åŠ ä»·ï¼Œä¸æ”¹è¿›ï¼›è¥åœ°å’Œç‰§åœºåŠ ä»·ï¼›å®«æ®¿åŠ å€ç”Ÿäº§é€Ÿåº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DEMOCRACY_STRATEGY</Tag>
 		<English>Increased great people birth rate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î°ÈË³öÉúÂÊÌá¸ß</Chinese>
+		<Chinese>ä¼Ÿäººå‡ºç”Ÿç‡æé«˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_EGALITARIANISM</Tag>
 		<English>Egalitarianism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æ½µÈÖ÷Òå</Chinese>
+		<Chinese>å¹³ç­‰ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SOVEREIGNTY</Tag>
 		<English>Sovereignty</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼ÒÖ÷È¨</Chinese>
+		<Chinese>å›½å®¶ä¸»æƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_INDIVIDUALISM</Tag>
 		<English>Individualism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸öÈËÖ÷Òå</Chinese>
+		<Chinese>ä¸ªäººä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MERCHANT_TRADE</Tag>
 		<English>Merchant Trade</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Åú·¢Ã³Ò×</Chinese>
+		<Chinese>æ‰¹å‘è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_PUBLIC_WELFARE_STRATEGY</Tag>
 		<English>Reduced unhappiness from corporations; extra commerce from excess happiness; extra commerce from Windmills, Nature Preserves and Marine Preserves; can spend gold to finish building production</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼õÉÙÀ´×Ô¹«Ë¾µÄ²»¿ì£»¶îÍâµÄÉÌÒµÀ´×Ô¶îÍâµÄ¿ìÀÖ£»¶îÍâµÄÉÌÒµÀ´×Ô·ç³µ¡¢×ÔÈ»±£»¤ÇøºÍº£Ñó±£»¤Çø£»¿ÉÒÔ»¨·Ñ»Æ½ğÍê³É½¨ÖşÉú²ú</Chinese>
+		<Chinese>å‡å°‘æ¥è‡ªå…¬å¸çš„ä¸å¿«ï¼›é¢å¤–çš„å•†ä¸šæ¥è‡ªé¢å¤–çš„å¿«ä¹ï¼›é¢å¤–çš„å•†ä¸šæ¥è‡ªé£è½¦ã€è‡ªç„¶ä¿æŠ¤åŒºå’Œæµ·æ´‹ä¿æŠ¤åŒºï¼›å¯ä»¥èŠ±è´¹é»„é‡‘å®Œæˆå»ºç­‘ç”Ÿäº§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CHIEFDOM_STRATEGY</Tag>
 		<English>The most primitve Government civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄÕş¸®ÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„æ”¿åºœæ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_NATIONHOOD</Tag>
 		<English>Nationhood</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ãñ×å¹ú¼Ò</Chinese>
+		<Chinese>æ°‘æ—å›½å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_VASSALAGE_STRATEGY</Tag>
 		<English>Additional units without upkeep; extra happiness in largest cities; extra production from Farms</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞĞèÎ¬»¤·ÑµÄ¶îÍâµ¥Î»£»´ó³ÇÊĞ´æÔÚ¶îÍâĞÒ¸££»Å©³¡Ìá¹©¶îÍâÉú²ú</Chinese>
+		<Chinese>æ— éœ€ç»´æŠ¤è´¹çš„é¢å¤–å•ä½ï¼›å¤§åŸå¸‚å­˜åœ¨é¢å¤–å¹¸ç¦ï¼›å†œåœºæä¾›é¢å¤–ç”Ÿäº§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SECULARISM_STRATEGY</Tag>
 		<English>No state religion; increased science in all cities; extra happiness from non-state religions; double production speed for Hospitals, Universities, Observatories, Laboratories and Supercomputers; can build wonders that require a state religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã»ÓĞ¹ú½Ì£»ËùÓĞ³ÇÊĞ¶¼Ôö¼ÓÁË¿ÆÑĞ£»·Ç¹ú½Ì×Ú½Ì´øÀ´ÁË¶îÍâµÄ¿ìÀÖ£»Ò½Ôº¡¢´óÑ§¡¢ÌìÎÄÌ¨¡¢ÊµÑéÊÒºÍ³¬¼¶¼ÆËã»úµÄ½¨ÔìËÙ¶È¼Ó±¶£»¿ÉÒÔ½¨ÔìĞèÒª¹ú½ÌµÄÆæ¹Û</Chinese>
+		<Chinese>æ²¡æœ‰å›½æ•™ï¼›æ‰€æœ‰åŸå¸‚éƒ½å¢åŠ äº†ç§‘ç ”ï¼›éå›½æ•™å®—æ•™å¸¦æ¥äº†é¢å¤–çš„å¿«ä¹ï¼›åŒ»é™¢ã€å¤§å­¦ã€å¤©æ–‡å°ã€å®éªŒå®¤å’Œè¶…çº§è®¡ç®—æœºçš„å»ºé€ é€Ÿåº¦åŠ å€ï¼›å¯ä»¥å»ºé€ éœ€è¦å›½æ•™çš„å¥‡è§‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CHIEFDOM</Tag>
 		<English>Chiefdom</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Çõ°îÖÆ¶È</Chinese>
+		<Chinese>é…‹é‚¦åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REPUBLIC</Tag>
 		<English>Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹²ºÍÖÆ¶È</Chinese>
+		<Chinese>å…±å’Œåˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SOVEREIGNTY_STRATEGY</Tag>
 		<English>The most primitive Territory civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄ¹úÍÁÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„å›½åœŸæ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_AUTHORITY_STRATEGY</Tag>
 		<English>The most primitve Legitimacy civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄºÏ·¨ĞÔÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„åˆæ³•æ€§æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRADITIONALISM_STRATEGY</Tag>
 		<English>The most primitve Society civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄÉç»áÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„ç¤¾ä¼šæ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_AUTHORITY</Tag>
 		<English>Authority</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÍşÈ¨¿ØÖÆ</Chinese>
+		<Chinese>å¨æƒæ§åˆ¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRIBUTARIES_STRATEGY</Tag>
 		<English>Extra commerce in capital from vassal cities; military units are produced with food; extra commerce from trade routes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸½Ó¹³ÇÊĞÔÚÊ×¶¼´æÔÚ¶îÍâÃ³Ò×£»Éú²ú¾ü¶ÓÊ±Ê³ÎïÌá¹©²úÄÜ£»Ã³Ò×Â·Ïß´øÀ´¶îÍâÃ³Ò×</Chinese>
+		<Chinese>é™„åº¸åŸå¸‚åœ¨é¦–éƒ½å­˜åœ¨é¢å¤–è´¸æ˜“ï¼›ç”Ÿäº§å†›é˜Ÿæ—¶é£Ÿç‰©æä¾›äº§èƒ½ï¼›è´¸æ˜“è·¯çº¿å¸¦æ¥é¢å¤–è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRIBUTARIES</Tag>
 		<English>Tributaries</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸½Ó¹ÄÉ¹±</Chinese>
+		<Chinese>é™„åº¸çº³è´¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MANORIALISM</Tag>
 		<English>Manorialism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×¯Ô°Ö÷Òå</Chinese>
+		<Chinese>åº„å›­ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TOTALITARIANISM_STRATEGY</Tag>
 		<English>Faster military unit production; no war weariness; extra production from unhappy population; no unrest on city conquest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÊÂµ¥Î»Éú²ú¸ü¿ì£»Ã»ÓĞÕ½Õù´øÀ´µÄ²»Óä¿ì£»²»Óä¿ìÈË¿Ú´øÀ´¶îÍâÉú²ú£»³ÇÊĞÕ÷·şÃ»ÓĞ¶¯ÂÒ</Chinese>
+		<Chinese>å†›äº‹å•ä½ç”Ÿäº§æ›´å¿«ï¼›æ²¡æœ‰æˆ˜äº‰å¸¦æ¥çš„ä¸æ„‰å¿«ï¼›ä¸æ„‰å¿«äººå£å¸¦æ¥é¢å¤–ç”Ÿäº§ï¼›åŸå¸‚å¾æœæ²¡æœ‰åŠ¨ä¹±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MONASTICISM_STRATEGY</Tag>
 		<English>Increased great people birth rate in cities with state religion; Double available slots for priests; at least one slot for priests</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÅÑö¹ú½ÌµÄ³ÇÊĞÎ°ÈË³öÉúÂÊÔö¼Ó</Chinese>
+		<Chinese>ä¿¡ä»°å›½æ•™çš„åŸå¸‚ä¼Ÿäººå‡ºç”Ÿç‡å¢åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_EGALITARIANISM_STRATEGY</Tag>
 		<English>Double available slots for artists, scientists and engineers; extra research from specialists; cannot use slaves</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎªÒÕÊõ¼Ò¡¢¿ÆÑ§¼ÒºÍ¹¤³ÌÊ¦Ìá¹©Á½¸ö¿ÕÎ»£»×¨¼ÒÌá¹©¶îÍâÑĞ¾¿£»²»ÄÜÊ¹ÓÃÅ«Á¥</Chinese>
+		<Chinese>ä¸ºè‰ºæœ¯å®¶ã€ç§‘å­¦å®¶å’Œå·¥ç¨‹å¸ˆæä¾›ä¸¤ä¸ªç©ºä½ï¼›ä¸“å®¶æä¾›é¢å¤–ç ”ç©¶ï¼›ä¸èƒ½ä½¿ç”¨å¥´éš¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_</Tag>
@@ -323,204 +323,204 @@
 		<Tag>TXT_KEY_CIVIC_CENTRAL_PLANNING</Tag>
 		<English>Central Planning</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖĞÑë¼Æ»®</Chinese>
+		<Chinese>ä¸­å¤®è®¡åˆ’</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_RECIPROCITY</Tag>
 		<English>Reciprocity</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»¥»İÖÆ¶È</Chinese>
+		<Chinese>äº’æƒ åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REVOLUTIONISM_STRATEGY</Tag>
 		<English>Increased great general birth rate; no temporary unhappiness; extra production from Workshops and Lumbermills; extra happiness from News Press and Broadcasting Tower</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ìá¸ß´ó¾üÊÂ¼ÒµÄ³öÉúÂÊ£»Ïû³ıÔİÊ±µÄ²»Óä¿ì£»¹¤·»ºÍ·¥Ä¾³¡Ìá¹©¶îÍâÉú²ú£»ĞÂÎÅÃ½ÌåºÍ¹ã²¥ËşÌá¹©¶îÍâ¿ìÀÖ</Chinese>
+		<Chinese>æé«˜å¤§å†›äº‹å®¶çš„å‡ºç”Ÿç‡ï¼›æ¶ˆé™¤æš‚æ—¶çš„ä¸æ„‰å¿«ï¼›å·¥åŠå’Œä¼æœ¨åœºæä¾›é¢å¤–ç”Ÿäº§ï¼›æ–°é—»åª’ä½“å’Œå¹¿æ’­å¡”æä¾›é¢å¤–å¿«ä¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_NATIONHOOD_STRATEGY</Tag>
 		<English>Can draft units; extra production from Towns</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÜÕ÷ÕÙµ¥Î»£»Ğ¡Õò´æÔÚ¶îÍâ²úÄÜ</Chinese>
+		<Chinese>èƒ½å¾å¬å•ä½ï¼›å°é•‡å­˜åœ¨é¢å¤–äº§èƒ½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DEMOCRACY</Tag>
 		<English>Democracy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃñÖ÷ÖÆ¶È</Chinese>
+		<Chinese>æ°‘ä¸»åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CENTRAL_PLANNING_STRATEGY</Tag>
 		<English>Extra production from specialists; extra food from Workshops and Watermills; extra commerce from Mines and Watermills; double production speed for Factories, Coal Plants, Hydro Plants, Electrical Grids and Automated Factories</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×¨¼ÒµÄ¶îÍâÉú²ú£»À´×Ô¹¤·»ºÍË®Á¦Ä¥·»µÄ¶îÍâÊ³Îï£»À´×Ô¿óÉ½ºÍË®Á¦Ä¥·»µÄ¶îÍâÉÌÒµ£»¹¤³§¡¢Ãºµç³§¡¢Ë®µç³§¡¢µçÍøºÍ×Ô¶¯»¯¹¤³§µÄ½¨ÔìËÙ¶È¼Ó±¶</Chinese>
+		<Chinese>ä¸“å®¶çš„é¢å¤–ç”Ÿäº§ï¼›æ¥è‡ªå·¥åŠå’Œæ°´åŠ›ç£¨åŠçš„é¢å¤–é£Ÿç‰©ï¼›æ¥è‡ªçŸ¿å±±å’Œæ°´åŠ›ç£¨åŠçš„é¢å¤–å•†ä¸šï¼›å·¥å‚ã€ç…¤ç”µå‚ã€æ°´ç”µå‚ã€ç”µç½‘å’Œè‡ªåŠ¨åŒ–å·¥å‚çš„å»ºé€ é€Ÿåº¦åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REGULATED_TRADE</Tag>
 		<English>Regulated Trade</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ÜÖÆÃ³Ò×</Chinese>
+		<Chinese>ç®¡åˆ¶è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVICOPTION_TERRITORY</Tag>
 		<English>Territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹úÍÁÕş²ß</Chinese>
+		<Chinese>å›½åœŸæ”¿ç­–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_PUBLIC_WELFARE</Tag>
 		<English>Public Welfare</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éç»á¸£Àû</Chinese>
+		<Chinese>ç¤¾ä¼šç¦åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ELECTIVE</Tag>
 		<English>Elective</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´úÒéÖÆ¶È</Chinese>
+		<Chinese>ä»£è®®åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ISOLATIONISM</Tag>
 		<English>Isolationism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ÂÁ¢Ö÷Òå</Chinese>
+		<Chinese>å­¤ç«‹ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REPUBLIC_STRATEGY</Tag>
 		<English>Extra food from specialists; reduced food from farms, plantations, cottages, hamlets, villages and towns; at least one slot for artists, scientists, merchants and statesmen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×¨¼ÒÌá¹©¶îÍâÊ³Îï£»Å©³¡¡¢ÖÖÖ²Ô°¡¢Å©Éá¡¢Ğ¡´å×¯¡¢´å×¯ºÍ³ÇÕò¼õÉÙµÄÊ³Îï£»ÖÁÉÙÎªÒÕÊõ¼Ò¡¢¿ÆÑ§¼Ò¡¢ÉÌÈËºÍÕşÖÎ¼ÒÌá¹©Ò»¸öÎ»ÖÃ</Chinese>
+		<Chinese>ä¸“å®¶æä¾›é¢å¤–é£Ÿç‰©ï¼›å†œåœºã€ç§æ¤å›­ã€å†œèˆã€å°æ‘åº„ã€æ‘åº„å’ŒåŸé•‡å‡å°‘çš„é£Ÿç‰©ï¼›è‡³å°‘ä¸ºè‰ºæœ¯å®¶ã€ç§‘å­¦å®¶ã€å•†äººå’Œæ”¿æ²»å®¶æä¾›ä¸€ä¸ªä½ç½®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DEIFICATION</Tag>
 		<English>Deification</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éñ»¯ÁìĞä</Chinese>
+		<Chinese>ç¥åŒ–é¢†è¢–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MULTILATERALISM</Tag>
 		<English>Multilateralism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶à±ßÖ÷Òå</Chinese>
+		<Chinese>å¤šè¾¹ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MULTILATERALISM_STRATEGY</Tag>
 		<English>Extra experience for air units; extra yield from trade routes with defensive pact partners; trade routes yield production; extra war weariness; cannot use slaves</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿Õ¾üµÄ¶îÍâ¾­Ñé£»Óë·ÀÓùĞ­¶¨»ï°éµÄÃ³Ò×Â·Ïß²úÉúµÄ¶îÍâÊÕÒæ£»Ã³Ò×Â·Ïß²úÉúµÄÉú²ú£»¶îÍâµÄÑáÕ½£»²»ÄÜÊ¹ÓÃÅ«Á¥</Chinese>
+		<Chinese>ç©ºå†›çš„é¢å¤–ç»éªŒï¼›ä¸é˜²å¾¡åå®šä¼™ä¼´çš„è´¸æ˜“è·¯çº¿äº§ç”Ÿçš„é¢å¤–æ”¶ç›Šï¼›è´¸æ˜“è·¯çº¿äº§ç”Ÿçš„ç”Ÿäº§ï¼›é¢å¤–çš„åŒæˆ˜ï¼›ä¸èƒ½ä½¿ç”¨å¥´éš¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MONARCHY</Tag>
 		<English>Monarchy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾ıÖ÷ÖÆ¶È</Chinese>
+		<Chinese>å›ä¸»åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_COLONIALISM_STRATEGY</Tag>
 		<English>Extra commerce in capital from colonies; extra production and commerce for Slave Plantations; extra experience for water units; can capture slaves</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ö³ÃñµØÊ×¶¼´æÔÚ¶îÍâÃ³Ò×£»Å«Á¥ÖÖÖ²´øÀ´¶îÍâ²úÄÜºÍÃ³Ò×£»Ë®Ãæµ¥Î»´øÀ´¶îÍâ¾­Ñé£»¿ÉÒÔ²¶»ñÅ«Á¥</Chinese>
+		<Chinese>æ®–æ°‘åœ°é¦–éƒ½å­˜åœ¨é¢å¤–è´¸æ˜“ï¼›å¥´éš¶ç§æ¤å¸¦æ¥é¢å¤–äº§èƒ½å’Œè´¸æ˜“ï¼›æ°´é¢å•ä½å¸¦æ¥é¢å¤–ç»éªŒï¼›å¯ä»¥æ•è·å¥´éš¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DESPOTISM_STRATEGY</Tag>
 		<English>Can hurry unit production by sacrificing population</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎşÉüÈË¿Ú¾ÍÄÜ¼Ó¿ìµ¥Î»Éú²ú</Chinese>
+		<Chinese>ç‰ºç‰²äººå£å°±èƒ½åŠ å¿«å•ä½ç”Ÿäº§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TOTALITARIANISM</Tag>
 		<English>Totalitarianism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼«È¨Ö÷Òå</Chinese>
+		<Chinese>ææƒä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CONQUEST</Tag>
 		<English>Conquest</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±©Á¦Õ÷·ş</Chinese>
+		<Chinese>æš´åŠ›å¾æœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REDISTRIBUTION_STRATEGY</Tag>
 		<English>Increased food in capital; reduced commerce from trade routes; increased production speed for Granaries</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê×¶¼Á¸Ê³Ôö¼Ó£»Ã³Ò×Â·ÏßÉÏµÄÃ³Ò×¼õÉÙ£»Á¸²Ö½¨ÔìËÙ¶È¼Ó¿ì</Chinese>
+		<Chinese>é¦–éƒ½ç²®é£Ÿå¢åŠ ï¼›è´¸æ˜“è·¯çº¿ä¸Šçš„è´¸æ˜“å‡å°‘ï¼›ç²®ä»“å»ºé€ é€Ÿåº¦åŠ å¿«</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_FREE_ENTERPRISE_STRATEGY</Tag>
 		<English>Double available slots for merchants; increased commerce from trade routes; increased commerce from corporations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎªÉÌÈËÌá¹©Á½¸ö¿ÕÎ»£»Í¨¹ıÃ³Ò×Â·ÏßÔö¼ÓÃ³Ò×£»Í¨¹ı¹«Ë¾Ôö¼ÓÃ³Ò×</Chinese>
+		<Chinese>ä¸ºå•†äººæä¾›ä¸¤ä¸ªç©ºä½ï¼›é€šè¿‡è´¸æ˜“è·¯çº¿å¢åŠ è´¸æ˜“ï¼›é€šè¿‡å…¬å¸å¢åŠ è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_IGNORE_STATE_RELIGION</Tag>
 		<English>[ICON_BULLET]Can build wonders regardless of State [ICON_RELIGION] requirements</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]¿ÉÒÔ½¨ÔìÆæ¹Û£¬ÎŞÊÓ¹ú½Ì [ICON_RELIGION]ÒªÇó</Chinese>
+		<Chinese>[ICON_BULLET]å¯ä»¥å»ºé€ å¥‡è§‚ï¼Œæ— è§†å›½æ•™ [ICON_RELIGION]è¦æ±‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRIBALISM_STRATEGY</Tag>
 		<English>The most primitive Society civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄÉç»áÖÆ¶È</Chinese>
+		<Chinese>æœ€åŸå§‹çš„ç¤¾ä¼šåˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CENTRALISM_STRATEGY</Tag>
 		<English>Increased production and gold in capital</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÊ×¶¼Ìá¸ßÊÕÈëºÍ²úÄÜ</Chinese>
+		<Chinese>åœ¨é¦–éƒ½æé«˜æ”¶å…¥å’Œäº§èƒ½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CONSTITUTION_STRATEGY</Tag>
 		<English>Extra free specialist in all cities; double available slots for statesmen; double production speed for Courthouses</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞ³ÇÊĞ¶¼ÓĞ¶îÍâµÄÃâ·Ñ×¨¼Ò£»ÎªÕşÖÎ¼ÒÌá¹©Á½¸öÃû¶î£»·¨Ôº½¨ÔìËÙ¶È¼Ó±¶</Chinese>
+		<Chinese>æ‰€æœ‰åŸå¸‚éƒ½æœ‰é¢å¤–çš„å…è´¹ä¸“å®¶ï¼›ä¸ºæ”¿æ²»å®¶æä¾›ä¸¤ä¸ªåé¢ï¼›æ³•é™¢å»ºé€ é€Ÿåº¦åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TOLERANCE_STRATEGY</Tag>
 		<English>Extra happiness from non-state religions; increased culture in capital; can train missionaries without monasteries; halved diplomatic penalties from state religion differences</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À´×Ô·Ç¹ú¼Ò×Ú½ÌµÄ¶îÍâĞÒ¸££»Ê×¶¼ÎÄ»¯µÄÔö³¤£»¿ÉÒÔÅàÑµÃ»ÓĞĞŞµÀÔºµÄ´«½ÌÊ¿</Chinese>
+		<Chinese>æ¥è‡ªéå›½å®¶å®—æ•™çš„é¢å¤–å¹¸ç¦ï¼›é¦–éƒ½æ–‡åŒ–çš„å¢é•¿ï¼›å¯ä»¥åŸ¹è®­æ²¡æœ‰ä¿®é“é™¢çš„ä¼ æ•™å£«</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_STATE_PARTY_STRATEGY</Tag>
 		<English>No maintenance costs from number of cities; extra espionage from specialists</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã»ÓĞ³ÇÊĞÊıÁ¿Î¬»¤·Ñ£»×¨¼ÒÌá¹©¶îÍâ¼äµıµãÊı</Chinese>
+		<Chinese>æ²¡æœ‰åŸå¸‚æ•°é‡ç»´æŠ¤è´¹ï¼›ä¸“å®¶æä¾›é¢å¤–é—´è°ç‚¹æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_REVOLUTIONISM</Tag>
 		<English>Revolutionism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ïÃüÖ÷Òå</Chinese>
+		<Chinese>é©å‘½ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_BUILDING_FOOD</Tag>
 		<English>[ICON_BULLET]Buildings Produced with [ICON_FOOD]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]½¨Öş¿ÉÒÔÊ¹ÓÃ [ICON_FOOD]¼ÓËÙ</Chinese>
+		<Chinese>[ICON_BULLET]å»ºç­‘å¯ä»¥ä½¿ç”¨ [ICON_FOOD]åŠ é€Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MERITOCRACY</Tag>
 		<English>Meritocracy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾«Ó¢Í³ÖÎ</Chinese>
+		<Chinese>ç²¾è‹±ç»Ÿæ²»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_RECIPROCITY_STRATEGY</Tag>
 		<English>The most primitive Economy civic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îÔ­Ê¼µÄ¾­¼ÃÕşÌå</Chinese>
+		<Chinese>æœ€åŸå§‹çš„ç»æµæ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MANORIALISM_STRATEGY</Tag>
 		<English>Reduced worker cost; extra production from Pastures; extra commerce from Farms and Orchards</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½µµÍ¹¤ÈË³É±¾£»ÄÁ³¡Ìá¹©¶îÍâÉú²ú£»Å©³¡ºÍ¹ûÔ°Ìá¹©¶îÍâÃ³Ò×</Chinese>
+		<Chinese>é™ä½å·¥äººæˆæœ¬ï¼›ç‰§åœºæä¾›é¢å¤–ç”Ÿäº§ï¼›å†œåœºå’Œæœå›­æä¾›é¢å¤–è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DEIFICATION_STRATEGY</Tag>
 		<English>Increased wonder production speed; extra unhappiness from state religion; extra happiness from Pagan Temples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ææ¼£Éú²úËÙ¶È¼Ó¿ì£»¹ú½Ì´øÀ´¶îÍâ²»¿ì£»Òì½ÌËÂÃí´øÀ´¶îÍâĞÒ¸£</Chinese>
+		<Chinese>å¥‡è¿¹ç”Ÿäº§é€Ÿåº¦åŠ å¿«ï¼›å›½æ•™å¸¦æ¥é¢å¤–ä¸å¿«ï¼›å¼‚æ•™å¯ºåº™å¸¦æ¥é¢å¤–å¹¸ç¦</Chinese>
 	</TEXT>
 </Civ4GameText>

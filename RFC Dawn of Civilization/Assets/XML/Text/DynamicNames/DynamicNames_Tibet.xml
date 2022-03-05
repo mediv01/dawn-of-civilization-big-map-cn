@@ -1,70 +1,70 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_SHORT_DESC</Tag>
 		<English>Tibet</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_PEOPLES</Tag>
 		<English>Tibetan Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃人</Chinese>
+		<Chinese>鍚愯晝浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>%s1甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_INDIA</Tag>
 		<English>Gyakar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_ADJECTIVE</Tag>
 		<English>Tibetan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_TURKS</Tag>
 		<English>Liyul</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>%s1鐜嬪浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_MONGOLIA</Tag>
 		<English>Me Hor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_VASSAL</Tag>
 		<English>Khrom of %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s3附属国</Chinese>
+		<Chinese>%s3闄勫睘鍥�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_DESC</Tag>
 		<English>The Tibetans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃文明</Chinese>
+		<Chinese>鍚愯晝鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_CHINA</Tag>
 		<English>Gyanak</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>鍚愯晝</Chinese>
 	</TEXT>
 </Civ4GameText>

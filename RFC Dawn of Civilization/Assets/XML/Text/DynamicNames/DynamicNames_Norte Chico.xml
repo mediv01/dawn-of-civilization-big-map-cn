@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_ADJECTIVE</Tag>
 		<English>Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���Ͷ�</Chinese>
+		<Chinese>卡劳尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2��������</Chinese>
+		<Chinese>%s2革命政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_SHORT_DESC</Tag>
 		<English>Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���Ͷ�</Chinese>
+		<Chinese>卡劳尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR2_TITLE</Tag>
 		<English>Quipu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>结绳</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR1</Tag>
 		<English>Have a capital with developing culture in 1800 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��Ԫǰ1800��ʱ�׶��Ļ��ﵽ���ڷ�չ(developing)</Chinese>
+		<Chinese>公元前1800年时首都文化达到正在发展(developing)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NORTE_CHICO_SHICRA</Tag>
@@ -47,19 +47,19 @@
 		<Tag>TXT_KEY_UHV_NOR3</Tag>
 		<English>Have a capital with 5 populations and 6 buildings in 1500 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��Ԫǰ1500�����׶�ӵ��5���˿ں�6������</Chinese>
+		<Chinese>公元前1500年是首都拥有5个人口和6个建筑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITAL_POPULATION</Tag>
 		<English>Population of %s1: %d2 / %d3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1���˿�: %d2 / %d3</Chinese>
+		<Chinese>%s1的人口: %d2 / %d3</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NORTE_CHICO_AYLLU_HELP</Tag>
 		<English>[ICON_BULLET]Creates 10 [ICON_CULTURE] in the capital when it constructs an improvement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]�������һ����ʩʱ�׶�+10[ICON_CULTURE]</Chinese>
+		<Chinese>[ICON_BULLET]当你完成一项设施时首都+10[ICON_CULTURE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NOR</Tag>
@@ -71,43 +71,43 @@
 		<Tag>TXT_KEY_UHV_NOR1_TITLE</Tag>
 		<English>The Andean Progenitor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����˹֮��</Chinese>
+		<Chinese>安第斯之祖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_WIRACOCHA</Tag>
 		<English>Wiracocha</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���Ͷ�-ά���Ʋ�</Chinese>
+		<Chinese>卡劳尔-维拉科查</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2������</Chinese>
+		<Chinese>%s2军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITAL_BUILDINGS</Tag>
 		<English>Buildings in %s1: %d2 / %d3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1�Ľ���: %d2 / %d3</Chinese>
+		<Chinese>%s1的建筑: %d2 / %d3</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_NORTE_CHICO</Tag>
 		<English>It is the year 3000 BC. Settling along the river beds of the Fortaleza, Pativilca, and Supe rivers, the Andean peoples form the first civilizations in the Americas...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����ǹ�Ԫǰ3000�ꡣ����˹�˶����ڸ��������ӡ�����ά���Ӻ�����ӵĺӴ��ϣ��γ����������������������</Chinese>
+		<Chinese>现在是公元前3000年。安第斯人定居在福塔莱萨河、帕蒂维卡河和苏佩河的河床上，形成了美洲最早的文明。。。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_DEFAULT</Tag>
 		<English>Norte Chico City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���Ͷ��ǰ�</Chinese>
+		<Chinese>卡劳尔城邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����˹��</Chinese>
+		<Chinese>安第斯人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NOR_TITLE</Tag>
@@ -119,18 +119,18 @@
 		<Tag>TXT_KEY_UHV_NOR3_TITLE</Tag>
 		<English>Andean Metropolis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����˹����</Chinese>
+		<Chinese>安第斯大都市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR2</Tag>
 		<English>Be the first to discover Writing and Calendar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���ȷ������ֺ�����</Chinese>
+		<Chinese>率先发现文字和历法</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_DESC</Tag>
 		<English>The Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���Ͷ�����</Chinese>
+		<Chinese>卡劳尔文明</Chinese>
 	</TEXT>
 </Civ4GameText>

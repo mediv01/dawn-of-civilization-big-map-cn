@@ -1,154 +1,154 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_BYZANTIUM</Tag>
 		<English>Khanate of Anatolia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╟╡димпюШяг╨╧╧З</Chinese>
+		<Chinese>Е╝┴Г╨ЁФ┴≤Е┬╘Д╨ Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_PHOENICIA</Tag>
 		<English>Ilkhanate of Syria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пПюШягра╤Ш╨╧╧З</Chinese>
+		<Chinese>Е▐≥Е┬╘Д╨ Д╪┼Е╟■Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_KHANATE</Tag>
 		<English>%s2 Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2╨╧╧З</Chinese>
+		<Chinese>%s2Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_KHAMAG</Tag>
 		<English>Khamag Mongol</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е╨╧╧З</Chinese>
+		<Chinese>Х▓≥Е▐╓Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_ILKHANATE</Tag>
 		<English>Ilkhanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ра╤Ш╨╧╧З</Chinese>
+		<Chinese>Д╪┼Е╟■Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_ADJECTIVE</Tag>
 		<English>Mongolian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е</Chinese>
+		<Chinese>Х▓≥Е▐╓</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_VASSAL</Tag>
 		<English>Khanate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╨╧╧З</Chinese>
+		<Chinese>%s1Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_DESC</Tag>
 		<English>The Mongols</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧ендцВ</Chinese>
+		<Chinese>Х▓≥Е▐╓Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_SHORT_DESC</Tag>
 		<English>Mongolia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е</Chinese>
+		<Chinese>Х▓≥Е▐╓</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_MONGOL</Tag>
 		<English>Mongol</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е</Chinese>
+		<Chinese>Х▓≥Е▐╓</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_CHAGATAI</Tag>
 		<English>Chagatai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╡Л╨ол╗</Chinese>
+		<Chinese>Е╞÷Е░┬Е▐╟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_HULAGU</Tag>
 		<English>Hulagu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пЯарьё</Chinese>
+		<Chinese>Ф≈╜Г┐┬Е┘─</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_OTTOMANS</Tag>
 		<English>Khanate of Turkestan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ма╤ЗфДк╧л╧╨╧╧З</Chinese>
+		<Chinese>Е°÷Х─ЁЕ┘╤Ф√╞Е²╕Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_YUAN</Tag>
 		<English>Yuan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>т╙</Chinese>
+		<Chinese>Е┘┐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_FASCIST</Tag>
 		<English>Nationalist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╬ЭуЧ╦╝</Chinese>
+		<Chinese>%s1Е├⌡Ф■©Е╨°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_RUSSIA</Tag>
 		<English>Khanate of the Golden Horde</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╫Пуй╨╧╧З</Chinese>
+		<Chinese>И┤▒Е╦░Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_TIMURID</Tag>
 		<English>Timurid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>лШд╬╤Ы</Chinese>
+		<Chinese>Е╦√Ф°╗Е└©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_BABYLONIA</Tag>
 		<English>Ilkhanate of Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╟м╠хбвра╤Ш╨╧╧З</Chinese>
+		<Chinese>Е╥╢Ф╞■Д╪╕Д╪┼Е╟■Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_REPUBLIC</Tag>
 		<English>United %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1а╙цк</Chinese>
+		<Chinese>%s1Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_DEFAULT</Tag>
 		<English>%s2 State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2╧З</Chinese>
+		<Chinese>%s2Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_CHINA</Tag>
 		<English>Yuan Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>т╙</Chinese>
+		<Chinese>Е┘┐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_MUGHALS</Tag>
 		<English>Khanate of Delhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е</Chinese>
+		<Chinese>Х▓≥Е▐╓</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_ILKHANATE</Tag>
 		<English>Ilkhanate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1-ра╤Ш╨╧╧З</Chinese>
+		<Chinese>%s1-Д╪┼Е╟■Ф╠≈Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_PEOPLES</Tag>
 		<English>Mongolian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧ехк</Chinese>
+		<Chinese>Х▓≥Е▐╓Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_NAME_TURKS</Tag>
 		<English>Moghulistan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ци╧е</Chinese>
+		<Chinese>Х▓≥Е▐╓</Chinese>
 	</TEXT>
 </Civ4GameText>

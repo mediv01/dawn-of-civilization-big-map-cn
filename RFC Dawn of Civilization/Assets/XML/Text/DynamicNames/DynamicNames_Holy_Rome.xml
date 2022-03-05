@@ -1,148 +1,148 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_AUSTRO_HUNGARIAN</Tag>
 		<English>Austro-Hungarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÐÙ</Chinese>
+		<Chinese>å¥¥åŒˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_ARCHDUCHY_OF</Tag>
 		<English>Archduchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1´ó¹«¹ú</Chinese>
+		<Chinese>%s1å¤§å…¬å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_GERMANY</Tag>
 		<English>Germany</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂÒâÖ¾</Chinese>
+		<Chinese>å¾·æ„å¿—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_FASCIST</Tag>
 		<English>Greater %s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2µÛ¹ú</Chinese>
+		<Chinese>%s2å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_POLAND</Tag>
 		<English>Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1´ó¹«¹ú</Chinese>
+		<Chinese>%s1å¤§å…¬å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_BYZANTIUM</Tag>
 		<English>Latin Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­¶¡Íõ¹ú</Chinese>
+		<Chinese>æ‹‰ä¸çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_HABSBURG</Tag>
 		<English>Habsburg</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þ²¼Ë¹±¤</Chinese>
+		<Chinese>å“ˆå¸ƒæ–¯å ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_SHORT_DESC</Tag>
-		<English>ÉñÊ¥ÂÞÂí</English>
+		<English>ç¥žåœ£ç½—é©¬</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñÊ¥ÂÞÂí</Chinese>
+		<Chinese>ç¥žåœ£ç½—é©¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_SHORT_DESC</Tag>
 		<English>Austria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂµØÀû</Chinese>
+		<Chinese>å¥¥åœ°åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_DESC</Tag>
 		<English>The Germans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñÊ¥ÂÞÂíÎÄÃ÷</Chinese>
+		<Chinese>ç¥žåœ£ç½—é©¬æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_FRANCE</Tag>
 		<English>West Francia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷·¨À¼¿Ë</Chinese>
+		<Chinese>è¥¿æ³•å…°å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_PEOPLES</Tag>
 		<English>Germanic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÕ¶úÂüÈË</Chinese>
+		<Chinese>æ—¥è€³æ›¼äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_DEFAULT</Tag>
 		<English>Archduchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1´ó¹«¹ú</Chinese>
+		<Chinese>%s1å¤§å…¬å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_DESC</Tag>
 		<English>The Austrians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂµØÀûÎÄÃ÷</Chinese>
+		<Chinese>å¥¥åœ°åˆ©æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_NETHERLANDS</Tag>
 		<English>Duchy of Brabant</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼À­°àÌØ¹«¹ú</Chinese>
+		<Chinese>å¸ƒæ‹‰ç­ç‰¹å…¬å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_HUNGARIAN</Tag>
 		<English>Hungarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐÙÑÀÀû</Chinese>
+		<Chinese>åŒˆç‰™åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIAN_POLAND</Tag>
 		<English>Kingdom of Galicia and Lodomeria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÊô¼ÓÀûÎ÷ÑÇºÍÂå¶àÃ·ÀûÑÇÍõ¹ú</Chinese>
+		<Chinese>å¥¥å±žåŠ åˆ©è¥¿äºšå’Œæ´›å¤šæ¢…åˆ©äºšçŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_FASCIST</Tag>
 		<English>Federal State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Áª°î</Chinese>
+		<Chinese>%s1è”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_ADJECTIVE</Tag>
 		<English>Austrian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂµØÀû</Chinese>
+		<Chinese>å¥¥åœ°åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIAN_ITALY</Tag>
 		<English>Grand Duchy of Tuscany</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÊôÍÐË¹¿¨ÄÉ´ó¹«¹ú</Chinese>
+		<Chinese>å¥¥å±žæ‰˜æ–¯å¡çº³å¤§å…¬å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_HUNGARY</Tag>
 		<English>Hungary</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐÙÑÀÀû</Chinese>
+		<Chinese>åŒˆç‰™åˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_ITALY</Tag>
 		<English>Crown of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_GERMAN</Tag>
 		<English>German</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂÒâÖ¾</Chinese>
+		<Chinese>å¾·æ„å¿—</Chinese>
 	</TEXT>
 </Civ4GameText>

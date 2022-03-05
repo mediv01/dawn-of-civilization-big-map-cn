@@ -1,244 +1,244 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_DESC</Tag>
 		<English>The Tatars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°ÎÄÃ÷</Chinese>
+		<Chinese>é‘é¼æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_DEFAULT</Tag>
 		<English>Golden Horde</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ğÕÊº¹¹ú</Chinese>
+		<Chinese>é‡‘å¸æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2_MARATHON</Tag>
 		<English>Have 15000 gold by 1550AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1550ÄêÇ°ÓµÓĞ15000½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1550å¹´å‰æ‹¥æœ‰15000é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_PEDIA</Tag>
 		<English>[TAB]An orda (also orda, ordu, ordo, ordon) or horde was an historical sociopolitical and military structure found on the Eurasian Steppe, usually associated with the Turkic raiders and Mongols. This entity can be seen as regional equivalent of a clan or a tribe. Some successful ordas gave rise to khanates. Ordu or Ordo also means the Mongolian court. In Mongolian language, the Government Palace (Mongolia) is literally called Zasgiin gazriin ordon.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]°Â´ï£¨orda£¬ordu£¬ordo£¬ordon£©»ò²¿ÂäÊÇÅ·ÑÇ´ó²İÔ­ÉÏµÄÒ»ÖÖÀúÊ·Éç»áÕşÖÎºÍ¾üÊÂ½á¹¹£¬Í¨³£ÓëÍ»ØÊÍ»Ï®ÕßºÍÃÉ¹ÅÈËÁªÏµÔÚÒ»Æğ¡£Õâ¸öÊµÌå¿ÉÒÔ±»¿´×÷ÊÇÒ»¸ö²¿Âä»òÒ»¸ö²¿ÂäµÄÇøÓòµÈ¼ÛÎï¡£Ò»Ğ©³É¹¦µÄ°Â´ïÔì¾ÍÁËº¹¹ú¡£Ordu»òOrdoÒ²Ö¸ÃÉ¹Å·¨Í¥¡£ÔÚÃÉ¹ÅÓïÖĞ£¬Õş¸®¹¬µî£¨ÃÉ¹Å£©µÄ×ÖÃæÒâË¼ÊÇZasgiin gazriin ordon¡£</Chinese>
+		<Chinese>[TAB]å¥¥è¾¾ï¼ˆordaï¼Œorduï¼Œordoï¼Œordonï¼‰æˆ–éƒ¨è½æ˜¯æ¬§äºšå¤§è‰åŸä¸Šçš„ä¸€ç§å†å²ç¤¾ä¼šæ”¿æ²»å’Œå†›äº‹ç»“æ„ï¼Œé€šå¸¸ä¸çªå¥çªè¢­è€…å’Œè’™å¤äººè”ç³»åœ¨ä¸€èµ·ã€‚è¿™ä¸ªå®ä½“å¯ä»¥è¢«çœ‹ä½œæ˜¯ä¸€ä¸ªéƒ¨è½æˆ–ä¸€ä¸ªéƒ¨è½çš„åŒºåŸŸç­‰ä»·ç‰©ã€‚ä¸€äº›æˆåŠŸçš„å¥¥è¾¾é€ å°±äº†æ±—å›½ã€‚Orduæˆ–Ordoä¹ŸæŒ‡è’™å¤æ³•åº­ã€‚åœ¨è’™å¤è¯­ä¸­ï¼Œæ”¿åºœå®«æ®¿ï¼ˆè’™å¤ï¼‰çš„å­—é¢æ„æ€æ˜¯Zasgiin gazriin ordonã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_UZBEG</Tag>
 		<English>Uzbeg Khan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°-ÎÚ×È±ğ¿Ë¡¤º¹</Chinese>
+		<Chinese>é‘é¼-ä¹Œå…¹åˆ«å…‹Â·æ±—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2_TITLE</Tag>
 		<English>Endless Wealth</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎŞ¾¡µÄ²Æ¸»</Chinese>
+		<Chinese>æ— å°½çš„è´¢å¯Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_TATAR_VASSAL</Tag>
 		<English>Khanate of Borjigin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²©¶û¼ª½ğº¹¹ú</Chinese>
+		<Chinese>åšå°”å‰é‡‘æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_FASCIST</Tag>
 		<English>Idel-Ural State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÀíÏë¹ú</Chinese>
+		<Chinese>ç†æƒ³å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TATAR_NOYAN</Tag>
 		<English>Noyan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÅµÑÕ(noyan)</Chinese>
+		<Chinese>è¯ºé¢œ(noyan)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TATAR_NOYAN_PEDIA</Tag>
 		<English>Noyan, noyonwas a title of authority in the Mongol Empire and later periods. The Golden Horde's elites were descended from four Mongol clans, Qiyat, Manghut, Sicivut and Qonqirat. Initially, it was a term for a military commander in the army of Genghis Khan: the term noyon applied to commanders of tumens and mingghans, military units of 10,000 soldiers and 1000 soldiers respectively. During conquests, noyons used to receive territories for administration and they effectively became Mongolian aristocracy, which existed until the 20th century. Noyans were above the ordinary Mongols in social rank but below the descendants of Genghis and his brothers. They were sometimes called emir or bey in the Ulus of Jochi, the Ilkhanate and the Chagatai Khanate while the Yuan records gave the equivalent as guanren since their main task was waging warfare.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÅµÑÕ(noyan)¡¢ÅµÓº(noyon)ÊÇÃÉ¹ÅµÛ¹ú¼°ÒÔºóÊ±ÆÚµÄÈ¨Íş³ÆºÅ¡£½ğÕÊº¹¹úµÄ¾«Ó¢ÊÇÓÉËÄ¸öÃÉ¹Å×å¼Ò×åµÄºóÒá£¬¼´ÆëÑÇÌØ(Qiyat)¡¢Ã¢ºúÌØ(Manghut)¡¢Î÷Î÷ÀïÌØ(Sicivut)ºÍÀ¥ÆäÀ­(Qonqirat)¡£×î³õ£¬ËüÊÇ³É¼ªË¼º¹¾ü¶ÓÖĞµÄ¾üÊÂÖ¸»Ó¹ÙµÄÒ»¸öÊõÓï£ºnoyonÒ»´ÊÊÊÓÃÓÚÍ¼ÃÇºÍÃ÷¸ÉµÄÖ¸»Ó¹Ù£¬·Ö±ğÊÇÒ»ÍòÈËµÄ¾ü¶ÓºÍÒ»Ç§ÈËµÄ¾ü¶Ó¡£ÔÚÕ÷·şµÄ¹ı³ÌÖĞ£¬noyan½ÓÊÜÁìÍÁ½øĞĞ¹ÜÀí£¬ËûÃÇÊµ¼ÊÉÏ³ÉÎªÃÉ¹Å¹ó×å£¬Ò»Ö±´æÔÚµ½20ÊÀ¼Í¡£noyanµÄÉç»áµØÎ»¸ßÓÚÆÕÍ¨ÃÉ¹ÅÈË£¬µ«µÍÓÚ³É¼ªË¼º¹¼°ÆäĞÖµÜµÄºó´ú¡£ËûÃÇÓĞÊ±±»³ÆÎª°£Ã×¶û»ò±´ÒÁÔÚÎÚÂ³Ä¾Æë£¬ÒÁ¶ûº¹¹úºÍ²ìºÏÌ¨º¹¹ú£¬¶øÔª³¯¸øÓèµÄµØÎ»Ïàµ±ÓÚ¹ØÈÊ£¬ÒòÎªËûÃÇµÄÖ÷ÒªÈÎÎñÊÇ½øĞĞÕ½Õù¡£</Chinese>
+		<Chinese>è¯ºé¢œ(noyan)ã€è¯ºé›(noyon)æ˜¯è’™å¤å¸å›½åŠä»¥åæ—¶æœŸçš„æƒå¨ç§°å·ã€‚é‡‘å¸æ±—å›½çš„ç²¾è‹±æ˜¯ç”±å››ä¸ªè’™å¤æ—å®¶æ—çš„åè£”ï¼Œå³é½äºšç‰¹(Qiyat)ã€èŠ’èƒ¡ç‰¹(Manghut)ã€è¥¿è¥¿é‡Œç‰¹(Sicivut)å’Œæ˜†å…¶æ‹‰(Qonqirat)ã€‚æœ€åˆï¼Œå®ƒæ˜¯æˆå‰æ€æ±—å†›é˜Ÿä¸­çš„å†›äº‹æŒ‡æŒ¥å®˜çš„ä¸€ä¸ªæœ¯è¯­ï¼šnoyonä¸€è¯é€‚ç”¨äºå›¾ä»¬å’Œæ˜å¹²çš„æŒ‡æŒ¥å®˜ï¼Œåˆ†åˆ«æ˜¯ä¸€ä¸‡äººçš„å†›é˜Ÿå’Œä¸€åƒäººçš„å†›é˜Ÿã€‚åœ¨å¾æœçš„è¿‡ç¨‹ä¸­ï¼Œnoyanæ¥å—é¢†åœŸè¿›è¡Œç®¡ç†ï¼Œä»–ä»¬å®é™…ä¸Šæˆä¸ºè’™å¤è´µæ—ï¼Œä¸€ç›´å­˜åœ¨åˆ°20ä¸–çºªã€‚noyançš„ç¤¾ä¼šåœ°ä½é«˜äºæ™®é€šè’™å¤äººï¼Œä½†ä½äºæˆå‰æ€æ±—åŠå…¶å…„å¼Ÿçš„åä»£ã€‚ä»–ä»¬æœ‰æ—¶è¢«ç§°ä¸ºåŸƒç±³å°”æˆ–è´ä¼Šåœ¨ä¹Œé²æœ¨é½ï¼Œä¼Šå°”æ±—å›½å’Œå¯Ÿåˆå°æ±—å›½ï¼Œè€Œå…ƒæœç»™äºˆçš„åœ°ä½ç›¸å½“äºå…³ä»ï¼Œå› ä¸ºä»–ä»¬çš„ä¸»è¦ä»»åŠ¡æ˜¯è¿›è¡Œæˆ˜äº‰ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_ADJECTIVE</Tag>
 		<English>Tatar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°</Chinese>
+		<Chinese>é‘é¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT1_TITLE</Tag>
 		<English>Fine Food</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÎ¶µÄÊ³Îï</Chinese>
+		<Chinese>ç¾å‘³çš„é£Ÿç‰©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_SOVIET_VASSAL</Tag>
 		<English>Tatar ASSR</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°ASSR</Chinese>
+		<Chinese>é‘é¼ASSR</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_SIBIR</Tag>
 		<English>Khanate of Sibir</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Îı±È¶ûº¹¹ú</Chinese>
+		<Chinese>é”¡æ¯”å°”æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT1</Tag>
 		<English>Acquire 15 Tatar cuisine materials in 1455AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1455ÄêÊ±ÓµÓĞ15¸ö÷²÷°ÁÏÀí(Tatar cuisine materials)</Chinese>
+		<Chinese>å…¬å…ƒ1455å¹´æ—¶æ‹¥æœ‰15ä¸ªé‘é¼æ–™ç†(Tatar cuisine materials)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2</Tag>
 		<English>Have 5000 gold by 1550AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1550ÄêÇ°ÓµÓĞ5000½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1550å¹´å‰æ‹¥æœ‰5000é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT3_TITLE</Tag>
 		<English>Turkification</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊ»¯</Chinese>
+		<Chinese>çªå¥åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_EMPIRE</Tag>
 		<English>Tatar Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°µÛ¹ú</Chinese>
+		<Chinese>é‘é¼å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TAT</Tag>
 		<English>Victorious Tatars and Mongols horseman can demand tribute</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ñÊ¤µÄ÷²÷°ÈËºÍÃÉ¹ÅÆï±ø¿ÉÒÔÒªÇó¹±Æ·</Chinese>
+		<Chinese>è·èƒœçš„é‘é¼äººå’Œè’™å¤éª‘å…µå¯ä»¥è¦æ±‚è´¡å“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_ASTRAKHAN</Tag>
 		<English>Khanate of Astrakhan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢Ë¹ÌØÀ­º±º¹¹ú</Chinese>
+		<Chinese>é˜¿æ–¯ç‰¹æ‹‰ç½•æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_RUSSIAN_VASSAL</Tag>
 		<English>Kazan Governorate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¦É½Ê¡</Chinese>
+		<Chinese>å–€å±±çœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TAT_TITLE</Tag>
 		<English>The Power of the Yoke:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å«ÒÛÖ®Á¦£º</Chinese>
+		<Chinese>å¥´å½¹ä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TATAR_ORDA</Tag>
 		<English>Orda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Â´ï(Orda)</Chinese>
+		<Chinese>å¥¥è¾¾(Orda)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TATAR</Tag>
 		<English>It is the year 1210AD. Batu, the eldest grandson of Genghis Khan, and his army has just conqued Volga Bulgaria. Moving on to southern steppes of the Ukraine and Crimean Peninsula, the conquered Kipchaks, Cumans, Volga Bulgars, Khwarezmians along with the Mongolian elites will form a new nation. </English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª1210Äê¡£³É¼ªË¼º¹³¤Ëï°ÍÍ¼ºÍËûµÄ¾ü¶Ó¸Õ¸ÕÕ÷·şÁË±£¼ÓÀûÑÇ·ü¶û¼Ó¡£´ó¾ü¼ÌĞøÏòÎÚ¿ËÀ¼ÄÏ²¿²İÔ­ºÍ¿ËÀïÃ×ÑÇ°ëµº½ø·¢¡£±»Õ÷·şµÄ»ùÆÕÇĞ¿ËÈË¡¢¿âÂüÈË¡¢·ü¶û¼Ó±£¼ÓÀûÑÇÈË¡¢¿ËÍßÀ××ÈÃ×°ºÈËÒÔ¼°ÃÉ¹Å¾«Ó¢½«×é³ÉÒ»¸öĞÂµÄ¹ú¼Ò¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ1210å¹´ã€‚æˆå‰æ€æ±—é•¿å­™å·´å›¾å’Œä»–çš„å†›é˜Ÿåˆšåˆšå¾æœäº†ä¿åŠ åˆ©äºšä¼å°”åŠ ã€‚å¤§å†›ç»§ç»­å‘ä¹Œå…‹å…°å—éƒ¨è‰åŸå’Œå…‹é‡Œç±³äºšåŠå²›è¿›å‘ã€‚è¢«å¾æœçš„åŸºæ™®åˆ‡å…‹äººã€åº“æ›¼äººã€ä¼å°”åŠ ä¿åŠ åˆ©äºšäººã€å…‹ç“¦é›·å…¹ç±³æ˜‚äººä»¥åŠè’™å¤ç²¾è‹±å°†ç»„æˆä¸€ä¸ªæ–°çš„å›½å®¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_PEDIA</Tag>
 		<English>The Tatars is an umbrella term for Turkic peoplesin the territory of the former Russian Empire (and as such generally includes all Northwestern Turkic speaking peoples). The Tatars were the Turkic-speaking population of Tartary, the lands ruled by Turco-Mongol elites from the 14th century until the conquests of the Russian Empire in the 18th to 19th centuries. During the early modern period, a distinction was made between the European and Asian Tatar territories, by referring to Lesser Tartary and Greater Tartary, respectively. The largest group by far that has been called "Tatars" by the Russians are the Volga Tatars, native to the Volga region (Tatarstan and Bashkortostan), who for this reason are often also simply known as "Tatars", and their language as the Tatar language. Their number is estimated as close to 6 million (as of 2002). Besides the Volga Tatars, there are smaller groups of Turkic-speaking Muslims also still referred to as "Tatars", the largest group of these being the Crimean Tatars, numbering close to half a million, whose Crimean Tatar language is no longer intelligible to the Volga Tatars.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°ÈËÊÇÇ°¶íÂŞË¹µÛ¹úÁìÍÁÉÏÍ»ØÊÈËµÄ×Ü³Æ£¨Òò´ËÍ¨³£°üÀ¨ËùÓĞÎ÷±±²¿½²Í»ØÊÓïµÄÈË£©¡£÷²÷°ÈËÊÇ÷²÷°ÓïÖĞµÄÍ»ØÊÓïÈË¿Ú£¬´Ó14ÊÀ¼Íµ½18ÖÁ19ÊÀ¼ÍÕ÷·ş¶íÂŞË¹µÛ¹ú£¬÷²÷°ÈËÒ»Ö±Í³ÖÎ×ÅÕâÆ¬ÍÁµØ¡£÷²÷°ÔÚÔçÆÚ·Ö±ğÖ¸µÄÊÇÅ·ÖŞºÍ÷²÷°ÔÚÑÇÖŞºÍ÷²÷°Ö®¼äµÄÇø±ğ¡£µ½Ä¿Ç°ÎªÖ¹£¬±»¶íÂŞË¹ÈË³ÆÎª¡°÷²÷°ÈË¡±µÄ×î´óÈºÌåÊÇ·ü¶û¼Ó÷²÷°ÈË£¬ËûÃÇÍÁÉúÍÁ³¤µØÉú»îÔÚ·ü¶û¼ÓµØÇø£¨÷²÷°Ë¹Ì¹ºÍ°ÍÊ²¿Æ¶ûÍĞË¹Ì¹£©£¬ÓÉÓÚÕâ¸öÔ­Òò£¬ËûÃÇÍ¨³£Ò²±»¼òµ¥µØ³ÆÎª¡°÷²÷°ÈË¡±£¬ËûÃÇµÄÓïÑÔ¾ÍÊÇ÷²÷°Óï¡£ËûÃÇµÄÈËÊı¹À¼Æ½Ó½ü600Íò£¨½ØÖÁ2002Äê£©¡£³ıÁË·ü¶û¼Ó÷²÷°ÈËÖ®Íâ£¬»¹ÓĞÒ»Ğ©½²Í»ØÊÓïµÄÄÂË¹ÁÖ£¬Ò²±»³ÆÎª¡°÷²÷°ÈË¡±£¬ÆäÖĞ×î´óµÄÒ»¸öÈºÌåÊÇ¿ËÀïÃ×ÑÇ÷²÷°ÈË£¬ÈËÊı½Ó½ü50ÍòÈË£¬ËûÃÇµÄ¿ËÀïÃ×ÑÇ÷²÷°Óï¶Ô·ü¶û¼Ó÷²÷°ÈËÀ´ËµÒÑ¾­Ìı²»¶®ÁË¡£</Chinese>
+		<Chinese>é‘é¼äººæ˜¯å‰ä¿„ç½—æ–¯å¸å›½é¢†åœŸä¸Šçªå¥äººçš„æ€»ç§°ï¼ˆå› æ­¤é€šå¸¸åŒ…æ‹¬æ‰€æœ‰è¥¿åŒ—éƒ¨è®²çªå¥è¯­çš„äººï¼‰ã€‚é‘é¼äººæ˜¯é‘é¼è¯­ä¸­çš„çªå¥è¯­äººå£ï¼Œä»14ä¸–çºªåˆ°18è‡³19ä¸–çºªå¾æœä¿„ç½—æ–¯å¸å›½ï¼Œé‘é¼äººä¸€ç›´ç»Ÿæ²»ç€è¿™ç‰‡åœŸåœ°ã€‚é‘é¼åœ¨æ—©æœŸåˆ†åˆ«æŒ‡çš„æ˜¯æ¬§æ´²å’Œé‘é¼åœ¨äºšæ´²å’Œé‘é¼ä¹‹é—´çš„åŒºåˆ«ã€‚åˆ°ç›®å‰ä¸ºæ­¢ï¼Œè¢«ä¿„ç½—æ–¯äººç§°ä¸ºâ€œé‘é¼äººâ€çš„æœ€å¤§ç¾¤ä½“æ˜¯ä¼å°”åŠ é‘é¼äººï¼Œä»–ä»¬åœŸç”ŸåœŸé•¿åœ°ç”Ÿæ´»åœ¨ä¼å°”åŠ åœ°åŒºï¼ˆé‘é¼æ–¯å¦å’Œå·´ä»€ç§‘å°”æ‰˜æ–¯å¦ï¼‰ï¼Œç”±äºè¿™ä¸ªåŸå› ï¼Œä»–ä»¬é€šå¸¸ä¹Ÿè¢«ç®€å•åœ°ç§°ä¸ºâ€œé‘é¼äººâ€ï¼Œä»–ä»¬çš„è¯­è¨€å°±æ˜¯é‘é¼è¯­ã€‚ä»–ä»¬çš„äººæ•°ä¼°è®¡æ¥è¿‘600ä¸‡ï¼ˆæˆªè‡³2002å¹´ï¼‰ã€‚é™¤äº†ä¼å°”åŠ é‘é¼äººä¹‹å¤–ï¼Œè¿˜æœ‰ä¸€äº›è®²çªå¥è¯­çš„ç©†æ–¯æ—ï¼Œä¹Ÿè¢«ç§°ä¸ºâ€œé‘é¼äººâ€ï¼Œå…¶ä¸­æœ€å¤§çš„ä¸€ä¸ªç¾¤ä½“æ˜¯å…‹é‡Œç±³äºšé‘é¼äººï¼Œäººæ•°æ¥è¿‘50ä¸‡äººï¼Œä»–ä»¬çš„å…‹é‡Œç±³äºšé‘é¼è¯­å¯¹ä¼å°”åŠ é‘é¼äººæ¥è¯´å·²ç»å¬ä¸æ‡‚äº†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_COMMUNIST</Tag>
 		<English>Tatar Union of the Godless</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°ÎŞÉñÁªÃË</Chinese>
+		<Chinese>é‘é¼æ— ç¥è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_NAZI_VASSAL</Tag>
 		<English>Popular Revolutionary Government of Tatarstan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°Ë¹Ì¹ÈËÃñ¸ïÃüÕş¸®</Chinese>
+		<Chinese>é‘é¼æ–¯å¦äººæ°‘é©å‘½æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TATAR_NOYAN_STRATEGY</Tag>
 		<English>Early cuirassier, can ignore terrain cost.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔçÆÚµÄÖØ¼×Æï±ø£¬¿ÉÒÔÎŞÊÓµØĞÎÏûºÄ¡£</Chinese>
+		<Chinese>æ—©æœŸçš„é‡ç”²éª‘å…µï¼Œå¯ä»¥æ— è§†åœ°å½¢æ¶ˆè€—ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_SHORT_DESC</Tag>
 		<English>Tatar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°</Chinese>
+		<Chinese>é‘é¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_STRATEGY</Tag>
 		<English>Orda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Â´ï(Orda)</Chinese>
+		<Chinese>å¥¥è¾¾(Orda)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_KAZAN</Tag>
 		<English>Khanate of Kazan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¦É½º¹¹ú</Chinese>
+		<Chinese>å–€å±±æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_TATAR_YOKE_UP</Tag>
 		<English>You have received %d1 [ICON_GOLD] from %s2 yoke.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄúÒÑÊÕµ½À´×Ô%s2Å«Á¥µÄ%d1[ICON_GOLD]</Chinese>
+		<Chinese>æ‚¨å·²æ”¶åˆ°æ¥è‡ª%s2å¥´éš¶çš„%d1[ICON_GOLD]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_MONGOL_VASSAL</Tag>
 		<English>Kipchak Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ùÆÕÇ¡¿Ëº¹¹ú</Chinese>
+		<Chinese>åŸºæ™®æ°å…‹æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2_EPIC</Tag>
 		<English>Have 7500 gold by 1550AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1550ÄêÇ°ÓµÓĞ7500½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1550å¹´å‰æ‹¥æœ‰7500é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT3</Tag>
 		<English>Make sure at least 30% of world territory is controlled by Islamic civilizations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>È·±£ÒÁË¹À¼ÎÄÃ÷¿ØÖÆÊÀ½çÖÁÉÙ30%ÁìÍÁ</Chinese>
+		<Chinese>ç¡®ä¿ä¼Šæ–¯å…°æ–‡æ˜æ§åˆ¶ä¸–ç•Œè‡³å°‘30%é¢†åœŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_DEMOCRATIC</Tag>
 		<English>Republic of Tatarstan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°Ë¹Ì¹¹²ºÍ¹ú</Chinese>
+		<Chinese>é‘é¼æ–¯å¦å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_UZBEG_PEDIA</Tag>
-		<English>[H1]Uzbeg Khan[\H1][NEWLINE][BOLD]Sultan of the Golden Horde[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]1282?341[NEWLINE][PARAGRAPH:2]Sultan Mohammed è¬„1¤7 Beg, better known as Uzbeg or è¬Ÿbeg was the longest-reigning khan of the Golden Horde, under whose rule the state reached its zenith. He urged the Mongol elite to convert to Islam, but at the same time, he preserved the lives of Christians and pagans such as Russians, Circassians, Alans, Finno-Ugric people, and Crimean Greeks as long as they continued to pay the jizyah in subjection to Islamic rule. From è¬„1¤7 Beg onwards, the khans of the Golden Horde were all Muslim.</English>
+		<English>[H1]Uzbeg Khan[\H1][NEWLINE][BOLD]Sultan of the Golden Horde[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]1282?341[NEWLINE][PARAGRAPH:2]Sultan Mohammed ç’?? Beg, better known as Uzbeg or ç’ç„eg was the longest-reigning khan of the Golden Horde, under whose rule the state reached its zenith. He urged the Mongol elite to convert to Islam, but at the same time, he preserved the lives of Christians and pagans such as Russians, Circassians, Alans, Finno-Ugric people, and Crimean Greeks as long as they continued to pay the jizyah in subjection to Islamic rule. From ç’?? Beg onwards, the khans of the Golden Horde were all Muslim.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]ÎÚ×È±ğ¿Ë¡¤º¹[\H1][NEWLINE][BOLD]½ğÕÊº¹¹úËÕµ¤[\BOLD][NEWLINE][BOLD]Éú×äÄê·İ£º[\BOLD]1282-1341Äê[NEWLINE][PARAGRAPH:2]ËÕµ¤ÄÂº±Ä¬µÂ¡¤±´¸ñ£¨Sultan Mohammed Uzbeg£¬ÓÖÃûÎÚ×È±ğ¸ñ¡¤º¹£©ÊÇ½ğÕÊº¹¹úÍ³ÖÎÊ±¼ä×î³¤µÄËÕµ¤£¬ÔÚËûµÄÍ³ÖÎÏÂ£¬¹ú¼Ò´ïµ½ÁË¶¥·å¡£Ëû¶Ø´ÙÃÉ¹Å¾«Ó¢ğ§ÒÀÒÁË¹À¼½Ì£¬µ«Í¬Ê±£¬Ëû»¹±£»¤ÁË»ù¶½Í½ºÍÒì½ÌÍ½µÄÉúÃü£¬Èç¶íÂŞË¹ÈË¡¢ÇĞ¶û¿ËË¹ÈË¡¢°¢À­Ë¹ÈË¡¢·ÒÅµ-ÎÚ¸ê¶ûÈËºÍ¿ËÀïÃ×ÑÇÏ£À°ÈË£¬Ö»ÒªËûÃÇ¼ÌĞøÏò¼ªÈøÈËÖ§¸¶·ş´ÓÒÁË¹À¼Í³ÖÎµÄ±¨³ê¡£´ÓÎÚ×È±ğ¿Ë¡¤º¹¿ªÊ¼£¬½ğÕÊº¹¹úµÄËÕµ¤¶¼ÊÇÄÂË¹ÁÖ¡£</Chinese>
+		<Chinese>[H1]ä¹Œå…¹åˆ«å…‹Â·æ±—[\H1][NEWLINE][BOLD]é‡‘å¸æ±—å›½è‹ä¸¹[\BOLD][NEWLINE][BOLD]ç”Ÿå’å¹´ä»½ï¼š[\BOLD]1282-1341å¹´[NEWLINE][PARAGRAPH:2]è‹ä¸¹ç©†ç½•é»˜å¾·Â·è´æ ¼ï¼ˆSultan Mohammed Uzbegï¼Œåˆåä¹Œå…¹åˆ«æ ¼Â·æ±—ï¼‰æ˜¯é‡‘å¸æ±—å›½ç»Ÿæ²»æ—¶é—´æœ€é•¿çš„è‹ä¸¹ï¼Œåœ¨ä»–çš„ç»Ÿæ²»ä¸‹ï¼Œå›½å®¶è¾¾åˆ°äº†é¡¶å³°ã€‚ä»–æ•¦ä¿ƒè’™å¤ç²¾è‹±çšˆä¾ä¼Šæ–¯å…°æ•™ï¼Œä½†åŒæ—¶ï¼Œä»–è¿˜ä¿æŠ¤äº†åŸºç£å¾’å’Œå¼‚æ•™å¾’çš„ç”Ÿå‘½ï¼Œå¦‚ä¿„ç½—æ–¯äººã€åˆ‡å°”å…‹æ–¯äººã€é˜¿æ‹‰æ–¯äººã€èŠ¬è¯º-ä¹Œæˆˆå°”äººå’Œå…‹é‡Œç±³äºšå¸Œè…Šäººï¼Œåªè¦ä»–ä»¬ç»§ç»­å‘å‰è¨äººæ”¯ä»˜æœä»ä¼Šæ–¯å…°ç»Ÿæ²»çš„æŠ¥é…¬ã€‚ä»ä¹Œå…¹åˆ«å…‹Â·æ±—å¼€å§‹ï¼Œé‡‘å¸æ±—å›½çš„è‹ä¸¹éƒ½æ˜¯ç©†æ–¯æ—ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_TURKISH_VASSAL</Tag>
 		<English>Crimean Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ËÀïÃ×ÑÇº¹¹ú</Chinese>
+		<Chinese>å…‹é‡Œç±³äºšæ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_PEOPLES</Tag>
 		<English>Turco-Mongol People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷²÷°ÈË</Chinese>
+		<Chinese>é‘é¼äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_TATAR_VASSAL</Tag>
 		<English>Russian principalities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶íÂŞË¹¹«¹ú</Chinese>
+		<Chinese>ä¿„ç½—æ–¯å…¬å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

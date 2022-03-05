@@ -1,0 +1,5380 @@
+<!--  edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games)  -->
+<!--  Sid Meier's Civilization 4  -->
+<!--  Copyright Firaxis Games 2005  -->
+<!--  freesand leo  -->
+<!--  Game Text - New  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<TEXT>
+<Tag>TXT_KEY_MAIN_MENU_WARLORS</Tag>
+<English>Beyond the Sword Scenarios</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上剧情</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ATTACK</Tag>
+<English>[ICON_BULLET]%D1_Change%% %s2_TerrOrFeat Attack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change%% %s2_TerrOrFeat 攻击</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_STRENGTH</Tag>
+<English>[ICON_BULLET]%D1_Change%% %s2_TerrOrFeat Strength</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change%% %s2_TerrOrFeat 战斗力</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_HILLS_ATTACK</Tag>
+<English>(Hills Attack: %D1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(丘陵攻击: %D1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_FEATURE_ATTACK</Tag>
+<English>(Feature Attack: %D1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(地貌攻击: %D1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROMOTION_ATTACK_TEXT</Tag>
+<English>[ICON_BULLET]%D1_Bonus%% %s2_TerrFeat Attack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Bonus%% %s2_TerrFeat 攻击</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROMOTION_AIR_RANGE_TEXT</Tag>
+<English>[ICON_BULLET]%D1_Change Operational Range</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change 航程范围</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROMOTION_INTERCEPT_TEXT</Tag>
+<English>[ICON_BULLET]%D1_Change%% Interception Chance</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change%% 拦截几率</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROMOTION_EVASION_TEXT</Tag>
+<English>[ICON_BULLET]%D1_Change%% Evasion Chance</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change%% 躲避几率</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_COMBAT_LIMIT</Tag>
+<English>[ICON_BULLET]Maximum %d1%% damage to enemy on attack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]对敌攻击的损伤上限 %d1%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_COLLATERAL_IMMUNE</Tag>
+<English>[ICON_BULLET]Immune to collateral damage from [LINK=literal]%s1_units[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]对[LINK=literal]%s1_units[\LINK]的附带伤害免疫</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_PROGRESS_TOWARDS_TECH</Tag>
+<English>You have come %d1[ICON_RESEARCH] closer to a breakthrough on [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>研究进展: %d1[ICON_RESEARCH], 目标科技: [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_GOOD</Tag>
+<English>%D1: "Past events have brought our people together."</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1: "过去发生的事件令我们的关系更密切."</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_ATTITUDE_EXTRA_BAD</Tag>
+<English>%D1: "Past events have drawn our people apart."</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1: "过去发生的事件令我们的关系更疏离."</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_REQUIRED_TO_BUILD</Tag>
+<English>[ICON_BULLET]Can be built by[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]建造需要:[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_FROM_PLAYER</Tag>
+<English>[ICON_BULLET]Receive %d1[ICON_GOLD] from %s2_playerName</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]收入 %d1[ICON_GOLD], 来自 %s2_playerName</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_TO_PLAYER</Tag>
+<English>[ICON_BULLET]Give %d1[ICON_GOLD] to %s2_playerName</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]支出 %d1[ICON_GOLD], 给予 %s2_playerName</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_GAINED</Tag>
+<English>[ICON_BULLET]Receive %d1[ICON_GOLD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]收入 %d1[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_LOST</Tag>
+<English>[ICON_BULLET]Subtract %d1[ICON_GOLD] from your treasury</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]国库支出 %d1[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_RANGE_FROM_PLAYER</Tag>
+<English>[ICON_BULLET]Receive between %d1[ICON_GOLD] and %d2[ICON_GOLD] from %s3_playerName</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]收入 %d1[ICON_GOLD] 至 %d2[ICON_GOLD], 来自 %s3_playerName</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_RANGE_TO_PLAYER</Tag>
+<English>[ICON_BULLET]Give between %d1[ICON_GOLD] and %d2[ICON_GOLD] to %s2_playerName</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]支出 %d1[ICON_GOLD] 至 %d2[ICON_GOLD], 给予 %s2_playerName</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_RANGE_GAINED</Tag>
+<English>[ICON_BULLET]Receive between %d1[ICON_GOLD] and %d2[ICON_GOLD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]收入 %d1[ICON_GOLD] 至 %d2[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLD_RANGE_LOST</Tag>
+<English>[ICON_BULLET]Subtract between %d1[ICON_GOLD] and %d2[ICON_GOLD] from your treasury</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]国库支出 %d1[ICON_GOLD] 至 %d2[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TECH_GAINED</Tag>
+<English>[ICON_BULLET]Gain knowledge of [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]获得 [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TECH_GAINED_PERCENT</Tag>
+<English>[ICON_BULLET]%D1_num[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]研究进展 %D1_num[ICON_RESEARCH], 目标科技: [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER</Tag>
+<English>[ICON_BULLET]Gain knowledge of [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] from %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]获得 [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT], 来自 %s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TECH_GAINED_FROM_PLAYER_PERCENT</Tag>
+<English>[ICON_BULLET]%D1[ICON_RESEARCH] towards [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] from %s3_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]研究进展 %D1[ICON_RESEARCH], 目标科技: [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT], 来自 %s3_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_POPULATION_CHANGE</Tag>
+<English>[ICON_BULLET]%D1 population in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市人口规模 %D1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_POPULATION_CHANGE_CITY</Tag>
+<English>[ICON_BULLET]%D1 population in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]人口规模 %D1 (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_CULTURE</Tag>
+<English>[ICON_BULLET]%D1 [ICON_CULTURE] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_CULTURE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_CULTURE_CITY</Tag>
+<English>[ICON_BULLET]%D1 [ICON_CULTURE] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1 [ICON_CULTURE] in %s2_city</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_REVOLT_TURNS</Tag>
+<English>[ICON_BULLET]%d1 [NUM1:turn:turns] of disorder in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]暴乱持续%d1回合(%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_PILLAGE_CITY</Tag>
+<English>[ICON_BULLET]%d1 terrain [NUM1:improvement:improvements] destroyed around %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]区域设施被毁%d1个, 所属城市: %s2_city</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_PILLAGE_RANGE_CITY</Tag>
+<English>[ICON_BULLET]Between %d1 and %d2 terrain improvements destroyed around %s3_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]区域设施被毁%d1至%d2个, 所属城市: %s3_city</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_PILLAGE</Tag>
+<English>[ICON_BULLET]%d1 terrain [NUM1:improvement:improvements] destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]区域设施被毁%d1个</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_PILLAGE_RANGE</Tag>
+<English>[ICON_BULLET]Between %d1 and %d2 terrain improvements destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]区域设施被毁%d1至%d2个</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_CITY_IMPROVEMENT_DESTROYED</Tag>
+<English>Your %s1_improvement has been destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>我国的%s1_improvement遭到摧毁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_NUM_CITY_IMPROVEMENTS_DESTROYED</Tag>
+<English>%d1 %s2_civ_adjective [NUM1:improvement has:improvements have] been destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1个%s2_civ_adjective的区域设施遭到摧毁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ESPIONAGE_POINTS</Tag>
+<English>[ICON_BULLET]%D1[ICON_ESPIONAGE] against %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_ESPIONAGE] 针对 %s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ESPIONAGE_COST</Tag>
+<English>[ICON_BULLET]Cost: %d1[ICON_ESPIONAGE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]花费: %d1[ICON_ESPIONAGE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HAPPY_FROM_PLAYER</Tag>
+<English>[ICON_BULLET]%D1[ICON_HAPPY] in all cities. %s3_playerName gets %D2[ICON_UNHAPPY]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_HAPPY]. %s3_playerName %D2[ICON_UNHAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HAPPY_TO_PLAYER</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHAPPY] in all cities. %s3_playerName gets %D2[ICON_HAPPY]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_UNHAPPY]. %s3_playerName %D2[ICON_HAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HAPPY</Tag>
+<English>[ICON_BULLET]%D1[ICON_HAPPY] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_HAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNHAPPY</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHAPPY] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_UNHAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HAPPY_CITY</Tag>
+<English>[ICON_BULLET]%D1[ICON_HAPPY] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_HAPPY] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNHAPPY_CITY</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHAPPY] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_UNHAPPY] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HEALTH_FROM_PLAYER</Tag>
+<English>[ICON_BULLET]%D1[ICON_HEALTHY] in all cities. %s3_playerName gets %D2[ICON_UNHEALTHY]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_HEALTHY]. %s3_playerName %D2[ICON_UNHEALTHY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HEALTH_TO_PLAYER</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHEALTHY] in all cities. %s3_playerName gets %D2[ICON_HAPPY]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市 %D1[ICON_UNHEALTHY]. %s3_playerName %D2[ICON_HAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HEALTH</Tag>
+<English>[ICON_BULLET]%D1[ICON_HEALTHY] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市%D1[ICON_HEALTHY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNHEALTH</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHEALTHY] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市%D1[ICON_UNHEALTHY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HEALTH_CITY</Tag>
+<English>[ICON_BULLET]%D1[ICON_HEALTHY] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_HEALTHY] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNHEALTH_CITY</Tag>
+<English>[ICON_BULLET]%D1[ICON_UNHEALTHY] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_UNHEALTHY] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_BONUS_UNIT</Tag>
+<English>[ICON_BULLET]Receive %d1 [COLOR_UNIT_TEXT]%s2_units[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]获得 %d1 [COLOR_UNIT_TEXT]%s2_units[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HURRY_ANGER_CITY</Tag>
+<English>[ICON_BULLET]%d1[ICON_UNHAPPY] temporarily in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]临时性%d1[ICON_UNHAPPY] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HURRY_ANGER</Tag>
+<English>[ICON_BULLET]%d1[ICON_UNHAPPY] temporarily in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市临时性%d1[ICON_UNHAPPY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FOOD_CITY</Tag>
+<English>[ICON_BULLET]%D1 stored [ICON_FOOD] in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_FOOD] (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FOOD</Tag>
+<English>[ICON_BULLET]Food stores in all cities: %D1[ICON_FOOD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市: %D1[ICON_FOOD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FOOD_PERCENT_CITY</Tag>
+<English>[ICON_BULLET]Food stores in %s2_city: %d1%%[ICON_FOOD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s2_city: %d1%%[ICON_FOOD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_SPACE_PRODUCTION_CITY</Tag>
+<English>[ICON_BULLET][ICON_BULLET]%D1_Mod%% Spaceship Production in %s2_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET][ICON_BULLET]%D1_Mod%% 太空飞船产能 (%s2_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FOOD_PERCENT</Tag>
+<English>[ICON_BULLET]%d1%% stored [ICON_FOOD] in all cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市: %d1%%[ICON_FOOD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FEATURE_GROWTH</Tag>
+<English>[ICON_BULLET]A [COLOR_HIGHLIGHT_TEXT]%s1_feature[COLOR_REVERT] grows</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]出现一处 [COLOR_HIGHLIGHT_TEXT]%s1_feature[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FEATURE_REMOVE</Tag>
+<English>[ICON_BULLET]The %s1_feature is cleared</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]清除一处 %s1_feature</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_IMPROVEMENT_GROWTH</Tag>
+<English>[ICON_BULLET]A [COLOR_HIGHLIGHT_TEXT]%s1_improvement[COLOR_REVERT] is built</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]建造 [COLOR_HIGHLIGHT_TEXT]%s1_improvement[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_IMPROVEMENT_REMOVE</Tag>
+<English>[ICON_BULLET]The %s1_improvement is destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1_improvement 被毁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_BONUS_GROWTH</Tag>
+<English>[ICON_BULLET]A source of [COLOR_HIGHLIGHT_TEXT]%s1_bonus[COLOR_REVERT] is discovered</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]发现 [COLOR_HIGHLIGHT_TEXT]%s1_bonus[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_BONUS_REMOVE</Tag>
+<English>[ICON_BULLET]The %s1_resource is lost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]失去 %s1_resource</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ROUTE_GROWTH</Tag>
+<English>[ICON_BULLET]A new [COLOR_HIGHLIGHT_TEXT]%s1_route[COLOR_REVERT] is built</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]建立 [COLOR_HIGHLIGHT_TEXT]%s1_route[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ROUTE_REMOVE</Tag>
+<English>[ICON_BULLET]The %s1_route is destroyed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1_route 被毁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_EXPERIENCE</Tag>
+<English>[ICON_BULLET]The %s2_unit receives %d1 XP</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s2_unit 获得 %d1经验</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_DISBAND</Tag>
+<English>[ICON_BULLET]The %s1_unit is lost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]损失 %s1_unit</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_PROMOTION</Tag>
+<English>[ICON_BULLET]The %s1_unit is promoted to [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1_unit 晋升 [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_COMBAT_PROMOTION</Tag>
+<English>[ICON_BULLET]All %s1_units are promoted to [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有 %s1_units 晋升 [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_CONVERT_OWN_CITIES</Tag>
+<English>[ICON_BULLET]Convert up to %d1 of your own cities to %s2_religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%d1座我国城市信仰%s2_religion</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_CONVERT_OTHER_CITIES</Tag>
+<English>[ICON_BULLET]Convert up to %d1 of their cities to %s2_religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%d1座对方城市信仰%s2_religion</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ATTITUDE_GOOD</Tag>
+<English>[ICON_BULLET]Gain a [COLOR_POSITIVE_TEXT]%D1[COLOR_REVERT] relations boost with %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]关系提升 [COLOR_POSITIVE_TEXT]%D1[COLOR_REVERT], 对方领袖: %s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ATTITUDE_BAD</Tag>
+<English>[ICON_BULLET]Suffer a [COLOR_NEGATIVE_TEXT]%D1[COLOR_REVERT] relations hit with %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]关系恶化 [COLOR_NEGATIVE_TEXT]%D1[COLOR_REVERT], 对方领袖: %s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_BONUS_BUILDING</Tag>
+<English>[ICON_BULLET]Receive a [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]获得一处 [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_REMOVE_BUILDING</Tag>
+<English>[ICON_BULLET]Lose the [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]失去一处 [COLOR_BUILDING_TEXT]%s1_building[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_BONUS_REVEALED</Tag>
+<English>[ICON_BULLET]Reveal all [COLOR_HIGHLIGHT_TEXT]%s1_bonus[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]发现所有 [COLOR_HIGHLIGHT_TEXT]%s1_bonus[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_IMMOBILE_UNIT</Tag>
+<English>[ICON_BULLET]The %s2_unit will be busy for %d1 [NUM1:turn:turns], unavailable for any other duty except self-defense.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s2_unit将连续%d1回合无法执行任务.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_UNHEALTH_EXTRA</Tag>
+<English>%D1_Change[ICON_UNHEALTHY] penalty</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1_Change[ICON_UNHEALTHY]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_COLONY_MAINT_FLOAT</Tag>
+<English>%s1_MaintNum [ICON_GOLD]: Colonial expenses</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_MaintNum[ICON_GOLD]: 殖民费用</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_ATTITUDE_FREEDOM</Tag>
+<English>%D1: "You have granted us our independence!"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1: "你允许我们独立建国!"</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FREE_COLONY</Tag>
+<English>Select the colonies to which you wish to grant independence</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选择将给予独立地位的殖民地</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_FOREIGN_TRADE_ROUTE_MOD</Tag>
+<English>[ICON_BULLET]%D1_Mod%% Foreign Trade Route Yield</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]外贸商路收益 %D1_Mod%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_SPACE_RACE_READY</Tag>
+<English>Are you ready to launch your spaceship?</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你准备发射太空飞船吗?</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_TEAM_HAS_LAUNCHED</Tag>
+<English>%s1_team_name has launched a spaceship!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_team_name 已发射太空飞船!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_YOU_HAVE_LAUNCHED</Tag>
+<English>You have launched your spaceship!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你已发射太空飞船!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESTIMATED_VICTORY_DATE</Tag>
+<English>Estimated date of victory: %s1_date</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>预期获胜时间: %s1_date</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WIDGET_LAUNCH_VICTORY</Tag>
+<English>Launch Spaceship</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>发射太空飞船</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_EMPIRE_SPLIT</Tag>
+<English>[COLOR_HIGHLIGHT_TEXT]%s1_leader has placed %s3_leader in charge of their overseas colonies of %s2_civ[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_HIGHLIGHT_TEXT]%s1_leader已授权%s3_leader管理%s2_civ殖民地[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN</Tag>
+<English>Espionage Screen</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>谍报界面</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_ESPIONAGE</Tag>
+<English>Espionage Mode</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>谍报模式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_IS_SPY</Tag>
+<English>[ICON_BULLET]Can perform Espionage Missions in an opponent's territory. The longer the unit is stationary the lower the cost to perform a Mission</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]能在别国领地执行谍报行动. 潜伏时间越长行动花费越低</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_VISIBILITY_MOVE_RANGE</Tag>
+<English>[ICON_BULLET]Unit may not reveal undiscovered terrain except inside a player's territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]单位不能探索未知地域</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CHOOSE_TARGET</Tag>
+<English>Choose Your Target</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选择目标</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CAN_SEE_DEMOGRAPHICS</Tag>
+<English>Can See Demographics</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>可查看统计报表</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CITY_VISIBILITY</Tag>
+<English>City Visibility</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>可查看城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_INVESTIGATE_CITY</Tag>
+<English>Investigate City</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>调查城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SEE_RESEARCH</Tag>
+<English>Can See Research</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>可查看科研状况</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DESTROY_IMPROVEMENT</Tag>
+<English>Sabotage Improvement</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏区域设施</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DESTROY_BUILDING</Tag>
+<English>Sabotage Building</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏城市建筑</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DESTROY_UNIT</Tag>
+<English>Destroy Unit</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>摧毁单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_BUY_UNIT</Tag>
+<English>Bribe Unit</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>贿赂单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_BUY_CITY</Tag>
+<English>Bribe City</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>贿赂城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_STEAL_TREASURY</Tag>
+<English>Steal Treasury</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>盗窃国库</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_NUM_GOLD</Tag>
+<English>Steal %d1_Num Gold</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>窃取%d1_Num金币</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CITY_INSERT_CULTURE</Tag>
+<English>Spread Culture</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>文化渗透</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CITY_POISON_WATER</Tag>
+<English>Poison Water</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>毒化水源</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CITY_UNHAPPINESS</Tag>
+<English>Foment Unhappiness</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>煽动不满</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CITY_REVOLT</Tag>
+<English>Support City Revolt</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>策动叛乱</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_BUY_TECH</Tag>
+<English>Steal Technology</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>窃取科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SWITCH_CIVIC</Tag>
+<English>Influence Civics</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>影响政策</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SWITCH_RELIGION</Tag>
+<English>Influence Religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>影响信仰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_PLAYER_ANARCHY</Tag>
+<English>Spread Anarchy</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>制造混乱</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_COUNTERESPIONAGE</Tag>
+<English>Perform Counterespionage</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>反间谍行动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TOO_EXPENSIVE</Tag>
+<English>That action costs %d1_CostNum Espionage Points. You have %d2_HaveNum.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>需花费%d1_CostNum谍报点数. 现有点数: %d2_HaveNum.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CANNOT_DO_MISSION</Tag>
+<English>That Mission cannot be used there right now.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>目前无法执行此项任务.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_SOMETHING_DESTROYED</Tag>
+<English>A %s1_ThingName was destroyed by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍摧毁了我们的%s1_ThingName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_SOMETHING_DESTROYED_IN</Tag>
+<English>A %s1_BldngName in %s2_CityName was destroyed by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍摧毁了我们的%s1_BldngName, 所在城市: %s2_CityName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_UNIT_BOUGHT</Tag>
+<English>The loyalty of a %s1_UnitName was bought by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍策反了我们的%s1_UnitName单位!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_CITY_BOUGHT</Tag>
+<English>The loyalty of the city of %s1_CityName was bought by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍策反了我们的%s1_CityName城!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_STEAL_TREASURY</Tag>
+<English>A portion of our state treasury was looted by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍盗窃了我们的国库!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_CITY_CULTURE_INSERTED</Tag>
+<English>Elements loyal to another empire have spread propaganda within the city of %s1_CityName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>来自别国的文化在我们的%s1_CityName城传播!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_CITY_POISONED</Tag>
+<English>The Water Supply of the city of %s1_CityName was poisoned by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍在%s1_CityName城的供水系统中投毒!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_CITY_UNHAPPY</Tag>
+<English>Enemy infiltrators have fomented unrest within the city of %s1_CityName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍在我们的%s1_CityName城煽动不满情绪!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_CITY_REVOLT</Tag>
+<English>Enemy infiltrators have assassinated the governor of the city of %s1_CityName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍阴谋刺杀了%s1_CityName城的市长!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_TECH_BOUGHT</Tag>
+<English>The secrets of %s1_TechName were stolen by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍窃取了机密的%s1_TechName相关资料!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_SWITCH_CIVIC</Tag>
+<English>Enemy infiltrators have taken control of the government and imposed %s1_CivicName upon our nation!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍暗中操纵我国政府机构实施%s1_CivicName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_SWITCH_RELIGION</Tag>
+<English>Enemy infiltrators have taken control of the clergy and imposed %s1_ReligionName upon our nation!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍暗中操纵我国宗教机构尊奉%s1_ReligionName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_PLAYER_ANARCHY</Tag>
+<English>Enemy infiltrators have supported a rebellion within our lands!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍在我国领土上策动了一场叛乱!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_COUNTERESPIONAGE</Tag>
+<English>Enemy spies appear to be extra vigilant to our espionage efforts in the near future.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方间谍机构组织了针对我国的反间谍行动.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HEALTH_FROM_ESPIONAGE</Tag>
+<English>%D1_Change[ICON_UNHEALTHY] from Poisoned Water</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1_Change[ICON_UNHEALTHY] 来自水源染毒</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_ESPIONAGE_DEFENSE_MOD</Tag>
+<English>[ICON_BULLET]%D1_Mod%% Defense against Espionage</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Mod%% 谍报活动防御</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ANGER_ESPIONAGE</Tag>
+<English>+%d1_Change[ICON_UNHAPPY]: "People are telling us of your villainy!"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>+%d1_Change[ICON_UNHAPPY]: "有人告诉我们你是个恶棍!"</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILD_FOREST_PRESERVE</Tag>
+<English>Preserve [LINK=IMPROVEMENT_FOREST_PRESERVE]Forest[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建立[LINK=IMPROVEMENT_FOREST_PRESERVE]森林[\LINK]保护区</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_IMPROVEMENT_FREE_SPECIALISTS</Tag>
+<English>[ICON_BULLET]%D1_Change Free [NUM1:Specialist:Specialists] per[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change 免费专业人员/[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_INFILTRATE_MISSION_FOREIGN</Tag>
+<English>[COLOR_WARNING_TEXT]Can only Conduct an Infiltrate Mission in a Foreign City.[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]只能在别国城市实施渗透行动.[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ESPIONAGE_MISSION</Tag>
+<English>[ICON_BULLET]Can Infiltrate another player's City (%D1_Change[ICON_ESPIONAGE])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]能在别国城市实施渗透行动 (%D1_Change[ICON_ESPIONAGE])</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_INFILTRATE</Tag>
+<English>Infiltrate Player's City</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>城市渗透行动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_INFILTRATE_HELP</Tag>
+<English>This order will have the Spy infiltrate a foreign city, providing you Espionage Points against the target player. It consumes the Spy.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令间谍在别国城市实施渗透行动，以增加针对该国的谍报点数。该间谍将被消耗掉。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_SPREAD</Tag>
+<English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has expanded into %s2_CityName.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT]的业务已扩展到%s2_CityName.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED</Tag>
+<English>%s1_CorpName has been incorporated in %s2_CityName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_CorpName在%s2_CityName创立!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_FOUNDED_UNKNOWN</Tag>
+<English>%s1_CorpName has been incorporated in a distant land!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_CorpName在一个遥远的国度创立!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_HEADQUARTERS</Tag>
+<English>Headquarters</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>总部</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_PER_RESOURCE</Tag>
+<English>per resource consumed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>每单位资源消耗</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_FOUNDED_FIRST</Tag>
+<English>[ICON_BULLET]Incorporated by First to Discover [COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]由率先获得[COLOR_TECH_TEXT][LINK=literal]%s1_TechName[\LINK][COLOR_REVERT]者创立</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_FIRST_DISCOVER_INCORPORATES</Tag>
+<English>[ICON_BULLET]First to Discover Incorporates[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]率先发现者可创立</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_BONUS_REQUIRED</Tag>
+<English>[ICON_BULLET]Consumes:[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]消耗:[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_BONUS_PRODUCED</Tag>
+<English>[ICON_BULLET]Generates: %F1_bonus</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]产出: %F1_bonus</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HELP_CORPORATION_COMMERCE</Tag>
+<English>[ICON_BULLET]%D1%F2 from Corporations</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1%F2 来自公司</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_HEADQUARTER_COMMERCE</Tag>
+<English>[ICON_BULLET]%D1%F2 from each city with [COLOR_HIGHLIGHT_TEXT][LINK=literal]%s3_corporation[\LINK][COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1%F2 来自每座拥有[COLOR_HIGHLIGHT_TEXT][LINK=literal]%s3_corporation[\LINK][COLOR_REVERT]的城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_NO_CORPORATIONS</Tag>
+<English>[ICON_BULLET]Corporations have no effect</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]禁止公司运作</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_NO_FOREIGN_CORPORATIONS</Tag>
+<English>[ICON_BULLET]Foreign Corporations have no effect</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]禁止外国公司运作</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_CAN_EXPAND</Tag>
+<English>[ICON_BULLET]Can Expand[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]能够扩展公司业务:[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_FAILED_TO_SPREAD</Tag>
+<English>Your %s1_UnitName has failed to expand %F2_RelIcon into %s3_CityName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName扩展%F2_RelIcon业务的努力遭到失败, 地点: %s3_CityName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION</Tag>
+<English>Expand Corporation</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>扩展公司业务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_SPREAD_CORPORATION_HELP</Tag>
+<English>This order will consume the [COLOR_UNIT_TEXT]Executive[COLOR_REVERT] unit but expand their corporation into the city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将消耗掉该[COLOR_UNIT_TEXT]经理[COLOR_REVERT]单位并将相应公司的业务扩展到该城市.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_RIVER_PLOTS</Tag>
+<English>River Tiles</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>沿河地块</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_ENEMY_WAR_WEAR</Tag>
+<English>[ICON_BULLET]Enemies suffer %D1_percent%% War Weariness</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]导致敌对文明厌战情绪%D1_percent%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DOUBLE_SPEED_TRAIT</Tag>
+<English>[ICON_BULLET]Double production speed for %s1_trait leaders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]建造速度加倍(具有%s1_trait特质的领袖)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PRODUCTION_MODIFIER_TRAIT</Tag>
+<English>[ICON_BULLET]%D1_change%% production speed for %s2_trait leaders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_change%%建造速度(具有%s2_trait特质的领袖)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_HAPPINESS_TRAIT</Tag>
+<English>[ICON_BULLET]%D1_change[ICON_HAPPY] for %s2_trait leaders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_change[ICON_HAPPY](具有%s2_trait特质的领袖)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_UNIT_ICONS</Tag>
+<English>Toggle enemy units display</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>切换敌方单位显示</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GLOBELAYER_UNITS_ENEMY_TERRITORY_MILITARY</Tag>
+<English>Enemies in Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>境内的敌方单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HIDDEN_NATIONALITY</Tag>
+<English>[ICON_BULLET]Hidden Nationality</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]隐藏国籍</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ALWAYS_HOSTILE</Tag>
+<English>[ICON_BULLET]Can Attack without Declaring War</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]无须宣战即可进行攻击</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_WILL_ELIMINATE_CORPORATION</Tag>
+<English>[ICON_BULLET]Buy out %s1_corporation in this city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]取缔该城市的%s1_corporation</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROJECT_ENABLES_NUKES</Tag>
+<English>[ICON_BULLET]Enables Nuclear Attacks (For all Players)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]启用核武器(所有玩家)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILD_TRADE_ROUTE</Tag>
+<English>Build a [LINK=CONCEPT_SEA_TRADE]Trade Route[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开辟[LINK=CONCEPT_SEA_TRADE]商路[\LINK]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TERRAIN_UNTIL_TECH</Tag>
+<English>[LINK=literal]%s1_terrain[\LINK] (until %s2_technology)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[LINK=literal]%s1_terrain[\LINK](前提科技: %s2_technology)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_REQUIRES_TECH_ANYONE</Tag>
+<English>[COLOR_WARNING_TEXT]Requires [COLOR_TECH_TEXT][LINK=literal]%s1_tech[\LINK][COLOR_REVERT] (any player)[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]前提科技: [COLOR_TECH_TEXT][LINK=literal]%s1_tech[\LINK][COLOR_REVERT](任意玩家)[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CAN_CONSTRUCT_BUILDING_ANYONE</Tag>
+<English>[ICON_BULLET]Any player can Construct [COLOR_BUILDING_TEXT][LINK=literal]%s1_BldgName[\LINK][COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]任意玩家均可建造[COLOR_BUILDING_TEXT][LINK=literal]%s1_BldgName[\LINK][COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOUNDS_CORPORATION</Tag>
+<English>[ICON_BULLET]Incorporates [LINK=literal]%s1_corporation[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]创立[LINK=literal]%s1_corporation[\LINK]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPECIAL_BUILDING_VALID</Tag>
+<English>You may now build %s1_building</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你现在将可建造%s1_building</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_FLANKING_STRIKES</Tag>
+<English>[ICON_BULLET][LINK=CONCEPT_FLANK_ATTACK]Flank attack[\LINK] against %s1_unitlist</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET][LINK=CONCEPT_FLANK_ATTACK]迂回打击[\LINK] %s1_unitlist</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOUR_UNIT_DIED_BY_FLANKING</Tag>
+<English>Your %s1_UnitName been killed from a %s3_civilization %s2_EnUName flank attack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName被%s3_civilization的%s2_EnUName通过迂回打击消灭</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_KILLED_UNIT_BY_FLANKING</Tag>
+<English>Your %s1_UnitName has killed a %s3_civilization %s2_EnUName by flank attack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName通过迂回打击消灭了%s3_civilization的%s2_EnUName</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILD_COST</Tag>
+<English>Cost: %d1_cost [ICON_GOLD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>花费: %d1_cost[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_IMPROVEMENT_TRADE_NETWORK</Tag>
+<English>Connects tile to the trade network</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将区域连入贸易网络</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_TITLE</Tag>
+<English>Spaceship</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>太空飞船</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_TRADE_NET_TO</Tag>
+<English>Trade Route To</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开辟商路模式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_TRADE_NET_TO_HELP</Tag>
+<English>This order causes the workboat to build a sea trade route to the location selected. The workboat will follow the shortest path to the location. The workboat wakes when it has completed the assignment.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>执行该命令的工船将建立通往选定区域的海上商路。工船将自动选择尽可能短的路径。任务完成后工船可继续执行其他命令。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_TRADE_NET_TO</Tag>
+<English>Trade Route To Mode</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开辟商路模式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_TRADE_NET_TO_HELP</Tag>
+<English>Order the unit to build a sea trade route to the selected tile</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令该单位建立通往选定区域的海上商路</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_TYPE_BUTTON</Tag>
+<English>Type</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>类型</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_ZOOM_BUTTON</Tag>
+<English>Zoom</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>缩放</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_ADD_BUTTON</Tag>
+<English>Add</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>添加</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_LAUNCH_BUTTON</Tag>
+<English>Launch</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>发射</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_TRAVEL_TIME_LABEL</Tag>
+<English>Estimated Travel Time: %d1 turns</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>预计航行时间: %d1回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_COMPLETED_LABEL</Tag>
+<English>Completed: %d1 of %d2</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>已经完成: %d1, 需要数量: %d2</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_REQUIRED_LABEL</Tag>
+<English>Required: %d1</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>前提: %d1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_IN_PRODUCTION_LABEL</Tag>
+<English>In Production: %d1</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>正在建造: %d1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_SEAPATROL</Tag>
+<English>Sea Patrol</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>海上巡逻</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_SEAPATROL_HELP</Tag>
+<English>This order will tell the unit to attack enemy ships attempting to pillage adjacent tiles</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令该单位攻击任何准备劫掠邻近区域的敌方舰船</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_RANGE_ATTACK</Tag>
+<English>Ranged Attack Mode</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>远程打击模式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_RANGE_ATTACK_HELP</Tag>
+<English>Order the unit to remotely attack the selected tile</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令该单位远程打击选定区域</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_ARRIVAL</Tag>
+<English>Estimated arrival</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>预计抵达时间</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_ADD_COMPONENT</Tag>
+<English>Please add it to your spaceship</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将组件加入你的太空飞船</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_SCREEN_WELCOME</Tag>
+<English>Welcome to your spaceship</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>欢迎检视你的太空船</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_CREATED_WORK_ON_NEXT_SPACESHIP</Tag>
+<English>%s2_CityName has added [COLOR_HIGHLIGHT_TEXT]%s1_PrjtName[COLOR_REVERT] to the spaceship. What would you like to work on next?</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s2_CityName已完成了太空船组件——[COLOR_HIGHLIGHT_TEXT]%s1_PrjtName[COLOR_REVERT]。下一个项目是什么？</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_PARADROP</Tag>
+<English>Paradrop Mode</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>空降模式</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_INTERFACEMODE_PARADROP_HELP</Tag>
+<English>Order the unit to jump to a specified location.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令该单位空降至指定位置.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_PARADROP</Tag>
+<English>Paradrop</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>空降</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_PARADROP_HELP</Tag>
+<English>Paradrops to a specified location. The mission is subject to interception.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>空降至指定位置。空降行动可能遭到拦截。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_PARADROP_RANGE</Tag>
+<English>[ICON_BULLET]Can perform paradrops (Range=%d1_range)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]能够执行空降(航程: %d1_range)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_ABORTED_ENEMY_AIR</Tag>
+<English>Your %s1_UnitName has forced a %s3_owner_adjective %s2_EnUName to abort its mission</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName迫使%s3_owner_adjective的%s2_EnUName放弃执行任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOUR_AIR_UNIT_ABORTED</Tag>
+<English>Your %s1_UnitName was forced to abort its mission by an enemy %s2_EnUName</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName在敌方%s2_EnUName的干扰下被迫放弃执行任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_DAMAGED_ENEMY_AIR</Tag>
+<English>Your %s1_UnitName has damaged a %s4_owner_adjective %s2_EnUName (%d3%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName将%s4_owner_adjective的%s2_EnUName击伤(%d3%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOUR_AIR_UNIT_DAMAGED</Tag>
+<English>Your %s1_UnitName was damaged by an enemy %s2_EnUName (%d3%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName被敌方的%s2_EnUName击伤(%d3%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_REPLACED_BY_UNIT</Tag>
+<English>Replaced by [LINK=literal]%s1_default_unit[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>被[LINK=literal]%s1_default_unit[\LINK]所替代</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_SINGLE_STACK</Tag>
+<English>Single Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>独个单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_STACK</Tag>
+<English>Stack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>堆叠单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_CITY_GARRISON</Tag>
+<English>City Garrison</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>防御城市的单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_HOME_TERRITORY</Tag>
+<English>Home Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>位于本国领土的单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_FRIENDLY_TERRITORY</Tag>
+<English>Friendly Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>位于友方领土的单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_NEUTRAL_TERRITORY</Tag>
+<English>Neutral Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>位于中立领土的单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_ENEMY_TERRITORY</Tag>
+<English>Enemy Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>位于敌方领土的单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_DOMESTIC_UNITS</Tag>
+<English>Domestic Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>非军事单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_SURPLUS_RESOURCES</Tag>
+<English>Surplus Resources</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>富余资源</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_TRADE_TABLE</Tag>
+<English>Foreign Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>国际贸易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_LEADER</Tag>
+<English>Leader</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>领袖</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_SURPLUS</Tag>
+<English>Surplus</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>富余</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_USED</Tag>
+<English>Used</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>使用</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_FOR_TRADE_2</Tag>
+<English>Will Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>愿意交易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_NOT_FOR_TRADE_2</Tag>
+<English>Won't Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不愿交易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_CAN_RESEARCH</Tag>
+<English>Can Research</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>能够研究</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_EXPORT</Tag>
+<English>Export</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>出口</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_IMPORT</Tag>
+<English>Import</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>进口</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_WANTS</Tag>
+<English>Wants</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>需要</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_NUM</Tag>
+<English>(%d1_Num)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(%d1_Num)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DOMESTIC_ADVISOR_VIEW</Tag>
+<English>View</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>查看</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DOMESTIC_ADVISOR_REDRAW</Tag>
+<English>Redraw</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>重绘</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DOMESTIC_ADVISOR_AUTOMATION</Tag>
+<English>Automation</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>自动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DOMESTIC_ADVISOR_TURNS_TIL_COMPLETION</Tag>
+<English>TTC</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>剩余回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_INFO</Tag>
+<English>Info</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>信息</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_GLANCE</Tag>
+<English>Glance</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>检视</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_NO_GOLD_TRADING</Tag>
+<English>Gold Trading Not Allowed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不允许金钱交易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HELP_IMMOBILE</Tag>
+<English>Cannot move (%d1)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无法移动(%d1)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_PERFORM_ESPIONAGE</Tag>
+<English>Perform Espionage Mission</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>执行谍报任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_KILL_SPY</Tag>
+<English>Kill Nearby Spy</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>消灭附近的间谍</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CHOOSE_ESPIONAGE_MISSION</Tag>
+<English>Choose Espionage Mission</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选择谍报任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_ESPIONAGE_MISSION</Tag>
+<English>Unit can perform Espionage Missions when in a valid location and if the player has sufficient Espionage Points to execute them.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>单位执行谍报任务需要位于合适的地点并拥有足够的谍报点数。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_MISSION_PERFORMED</Tag>
+<English>Espionage Mission undertaken successfully!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>谍报行动成功完成!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_4X_ADVANTAGE</Tag>
+<English>25%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>25%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_3X_ADVANTAGE</Tag>
+<English>33%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>33%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_2X_ADVANTAGE</Tag>
+<English>50%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>50%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_3_2X_ADVANTAGE</Tag>
+<English>67%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>67%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_5_4X_ADVANTAGE</Tag>
+<English>80%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>80%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_1X_ADVANTAGE</Tag>
+<English>100%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>100%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_4_5X_ADVANTAGE</Tag>
+<English>125%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>125%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_2_3X_ADVANTAGE</Tag>
+<English>150%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>150%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_1_2X_ADVANTAGE</Tag>
+<English>200%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>200%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_1_3X_ADVANTAGE</Tag>
+<English>300% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>300% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_1_4X_ADVANTAGE</Tag>
+<English>400%% Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>400%% 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_NUM_EPS</Tag>
+<English>%d1 EPs</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1 谍报点数(EP)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_NUM_EPS_PER_TURN</Tag>
+<English>+%d1 per Turn</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>+%d1/回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_KILL_SPY_HELP</Tag>
+<English>Kill adjacent Spy</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>消灭邻近间谍</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_PASSIVE_AUTOMATIC</Tag>
+<English>Active automatically when enough points have been accumulated</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>积累足够点数后自然生效</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_MISSIONS_SPY</Tag>
+<English>Must be enacted by Spy units in an opponent's city or other valid plot</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>需要由间谍单位在敌方城市或其他地点执行任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_POS_ESPIONAGE_PER_TURN</Tag>
+<English>[SPACE][SPACE][SPACE][ICON_ESPIONAGE] : %D1_Change</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[SPACE][SPACE][SPACE][ICON_ESPIONAGE] : %D1_Change</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_TERRITORY</Tag>
+<English>Territory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>领土</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_ADVANCED_START</Tag>
+<English>Advanced Start</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>高级开局</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_ADVANCED_START_HELP</Tag>
+<English>Allows players to 'purchase' their choice of starting cities, units, technologies, etc. when game begins.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>允许玩家在开始游戏前“购买”初始城市、单位、科技等选项。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_POINTS</Tag>
+<English>[ICON_GOLD]%d1_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_GOLD]%d1_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_UNITS</Tag>
+<English>Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_CITIES</Tag>
+<English>Cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_IMPROVEMENTS</Tag>
+<English>Improvements</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>区域设施</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_VISIBILITY</Tag>
+<English>Visibility</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>可见区域</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_ITEM_NAME_AND_COST</Tag>
+<English>%s1_ItemName: Cost %d2_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_ItemName: 花费 %d2_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_ITEM_NAME_AND_COST_PLUS</Tag>
+<English>[NEWLINE]Starting Cost: %d1_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]初始花费: %d1_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_ITEM_NAME_AND_COST_UNREMOVABLE</Tag>
+<English>[NEWLINE]Cost: %d1_Num (NOT REMOVABLE)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]花费: %d1_Num (不可取消)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_ITEM_NAME_AND_COST_PLUS_UNREMOVABLE</Tag>
+<English>[NEWLINE]Starting Cost: %d1_Num (NOT REMOVABLE)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]初始花费: %d1_Num (不可取消)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_COST_THIS_LOCATION</Tag>
+<English>Cost Here: [ICON_GOLD]%d1_Amount</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此处花费: [ICON_GOLD]%d1_Amount</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_POPULATION</Tag>
+<English>Population Point</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>人口规模</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_SELECTED_TECH</Tag>
+<English>Selected Tech: %s1_Name</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选定科技: %s1_Name</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_SELECTED_TECH_COST</Tag>
+<English>Cost: [ICON_GOLD]%d1_Num/%d2_num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>花费: [ICON_GOLD]%d1_Num/%d2_num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_ADD_TECH</Tag>
+<English>Add Tech</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>添加科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_REMOVE_TECH</Tag>
+<English>Remove Tech</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>移除科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_YIELD_CHANGE_PLOT</Tag>
+<English>[ICON_BULLET]%s1 in the plot</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所在区域 %s1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_YIELD_CHANGE_BUILDING</Tag>
+<English>[ICON_BULLET]%s1_building: %s2</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1_building: %s2</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_ADDITIONAL_CHANCE</Tag>
+<English>[NEWLINE][ICON_BULLET]In addition%s2_txt_key_event_delay_below, %d1%% chance for:</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE][ICON_BULLET]加上%s2_txt_key_event_delay_below, %d1%% 几率:</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_DELAY</Tag>
+<English>[NEWLINE][ICON_BULLET]In addition%s1_txt_key_event_delay_below:</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE][ICON_BULLET]加上%s1_txt_key_event_delay_below:</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_DELAY_TURNS</Tag>
+<English>, in %d1 [NUM1:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>, %d1回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FREE_SPECIALIST</Tag>
+<English>[ICON_BULLET]%D1 free %s2_specialist in %s3_city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1个免费%s2_specialist(%s3_city)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GOLDEN_AGE</Tag>
+<English>[ICON_BULLET]Start a Golden Age</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]开创黄金时代</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_FREE_UNIT_SUPPORT</Tag>
+<English>[ICON_BULLET]Free support for %d1 [NUM1:unit:units]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]免费维持%d1个单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_INFLATION_MODIFIER</Tag>
+<English>[ICON_BULLET]%D1%% inflation</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1%%通货膨胀</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_DECLARE_WAR</Tag>
+<English>[ICON_BULLET]Take the %s1_civ_adjective actions as a war declaration upon you</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]将%s1_civ_adjective的行为视作对你宣战</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HAPPY_TEMP</Tag>
+<English>%D1_Change[ICON_HAPPY]: "Past events went well!" (%d2 [NUM2:turn:turns])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1_Change[ICON_HAPPY]: "过去发生的好事件!" (%d2回合)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TEMP_HAPPY_CITY</Tag>
+<English>[ICON_BULLET]%D1[ICON_HAPPY] in %s3_city for %d2 [NUM2:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1[ICON_HAPPY](%s3_city), 持续%d2回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_TEMP_HAPPY</Tag>
+<English>[ICON_BULLET]%D1[ICON_HAPPY] in all cities for %d2 [NUM2:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市%D1[ICON_HAPPY], 持续%d2回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_HAPPY_BUILDING</Tag>
+<English>[ICON_BULLET]%s1_building: %D2%F3</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%s1_building: %D2%F3</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_GIFT_BONUS_TO_PLAYER</Tag>
+<English>[ICON_BULLET]Gift [COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT] to %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]提供[COLOR_HIGHLIGHT_TEXT]%s1_resource[COLOR_REVERT]给予%s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_POPULATION_REDUCED</Tag>
+<English>The population of %s1_city has been reduced</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>降低%s1_city的人口规模</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_GOLDENAGE_MOD</Tag>
+<English>[ICON_BULLET]%D1_Mod%% Golden Age Length</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]黄金时代持续时间%D1_Mod%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_IMPROVEMENT_MORE_GROWTH</Tag>
+<English>[ICON_BULLET]Gives terrain a higher chance to spread</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]提升地形扩散几率</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_IMMOBILE</Tag>
+<English>Your %s1_unit cannot move for %d2 [NUM2:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_unit持续%d2回合无法移动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DENIAL_PEACE_NOT_POSSIBLE_US</Tag>
+<English>Making peace with our enemies is out of the question</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不可能与我的敌人媾和</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DENIAL_PEACE_NOT_POSSIBLE_YOU</Tag>
+<English>Making peace with your enemies is not possible for you</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不可能与你的敌人媾和</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_REQUIRES_LIST</Tag>
+<English>[COLOR_WARNING_TEXT]Requires[SPACE][COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]需要[SPACE][COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_REQUIRES_STATE_RELIGION</Tag>
+<English>[COLOR_WARNING_TEXT]State Religion must be present in city[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]城市必须存在官方信仰[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_POPE_ELECTION</Tag>
+<English>As the resident of the Apostolic Palace, you can choose a Resolution to put forward for a vote.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>作为教皇监护者，你可以选择一项议案提交表决。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_PASSED</Tag>
+<English>[SPACE](PASSED)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[SPACE](通过)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_FORCE_PEACE</Tag>
+<English>Stop the fighting among our brothers in faith.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>停止与我们同信仰的兄弟国家之间的战争.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_FORCE_NO_TRADE</Tag>
+<English>Stop trading with the infidels.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>停止与异教国家进行贸易.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_FORCE_WAR</Tag>
+<English>Declare war on the infidels.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>对异教国家宣战.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_ASSIGN_CITY</Tag>
+<English>Return a city to their rightful owner.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将城市交还给合法所有者.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_FORCE_PEACE</Tag>
+<English>Stop the war against %s1_player (Requires %d2_ReqNum of %d3_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>停止对%s1_player的战争(需要%d2_ReqNum票，总计%d3_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_FORCE_NO_TRADE</Tag>
+<English>Stop trading with %s1_player (Requires %d2_ReqNum of %d3_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>停止与%s1_player的贸易(需要%d2_ReqNum票，总计%d3_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_FORCE_WAR</Tag>
+<English>Declare war on %s1_player (Requires %d2_ReqNum of %d3_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>对%s1_player宣战(需要%d2_ReqNum票，总计%d3_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_ASSIGN_CITY</Tag>
+<English>Assign the %s1_civ_adjective city of %s2_city to %s3_player (Requires %d4_ReqNum of %d5_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将现属%s1_civ_adjective的%s2_city移交给%s3_player(需要%d4_ReqNum，总计%d5_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ADVANCED_START_BEGIN_GAME</Tag>
+<English>Begin!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开始!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FINAL_FRONTIER_TITLE</Tag>
+<English>Final Frontier</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>终极边疆</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FINAL_FRONTIER_INTRO</Tag>
+<English>Communications with Earth have gone silent. Scheduled cargo ships have not arrived as expected, nor have any sent in the last two months returned. The People's Democracy of Earth (PDE) starships previously stationed in the vicinity returned to search for the cause, but they too have not been heard from since their departure. At this point we have no answers. Production levels of food and supplies in the Colony remain stable and should this be a prolonged situation we appear to be in no danger. However, the political impact may be more profound. Agitation with the PDE's firm grip over Colonial affairs has been on the rise. The current situation, coupled with increased local sentiment to break with the PDE, provides us the opportunity to free ourselves of their grasp. Further complicating the situation, the status of the other Colonies remains unknown due to the PDE monopoly over all communications and interstellar travel. We can only assume that something serious has occurred on Earth. It is up to you, commander, to determine how we should proceed.[NEWLINE][NEWLINE]- Colonial Congress Briefing Report, January 8th, 2302 AD</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>同地球的联系完全中断了，预定的货运飞船未能如期到达，发出的信息也已有两个月未收到任何答复。原停泊在附近的地球人民民主同盟（PDE）的数艘星舰已经紧急返航，希望找到发生目前状况的原因，但这支舰队也从此杳无音信。现在我们还在制订应急方案。殖民地的食物及补给品生产尚能维持稳定，即使目前状况长期延续下去我们并不至于面临危险。但是这种状况对于星际政治态势可能造成更深远的影响。星际移民们原本就对PDE对星际殖民地事务独断专行的作风存在不满。目前状况加上殖民地人民对PDE的离心倾向，使我们获得了摆脱PDE控制的最佳机遇。PDE对星际通讯及星际航行技术的垄断导致我们无法知晓其他殖民地的状况，这使得形势进一步复杂化了。我们只能假定地球上发生了某些非常严重的事件。指挥官，下一步该如何行动将由你决定。[NEWLINE][NEWLINE]——殖民地议会简报，公元2302年1月8日</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_NUM_GOLD</Tag>
+<English>[ICON_GOLD]: %d1_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_GOLD]: %d1_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_TRADE</Tag>
+<English>[ICON_TRADE]: %d1_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_TRADE]: %d1_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_RATHAUS_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Rathaus[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], greatly reduces maintenance in your cities.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]议会厅[COLOR_REVERT]为神圣罗马的特色建筑，替代[COLOR_BUILDING_TEXT]法庭[COLOR_REVERT]，可使城市维护费大幅减少。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HOLY_ROMAN_LANDSKNECHT_STRATEGY</Tag>
+<English>This powerful melee unit (the Holy Roman replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT]) receives bonuses against both mounted and melee units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种强力肉搏兵种是神圣罗马的特色单位，替代[COLOR_UNIT_TEXT]长枪兵[COLOR_REVERT]，对骑乘单位和肉搏单位均有战斗加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_LEVEE_STRATEGY</Tag>
+<English>Build the [COLOR_BUILDING_TEXT]Levee[COLOR_REVERT] to receive a bonus production from river tiles.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建造[COLOR_BUILDING_TEXT]防洪堤[COLOR_REVERT]可使沿河地块额外增加1单位产能。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_NETHERLANDS_DIKE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Dike[COLOR_REVERT], the Dutch replacement for the [COLOR_BUILDING_TEXT]Levee[COLOR_REVERT], provides a production bonus from all water tiles worked by a city, in addition to river tiles.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]海堤[COLOR_REVERT]为荷兰的特色建筑，替代[COLOR_BUILDING_TEXT]防洪堤[COLOR_REVERT]，除可提升沿河地块产能之外，还可使有市民工作的水域额外增加1单位产能。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_NETHERLANDS_OOSTINDIEVAARDER_STRATEGY</Tag>
+<English>This impressive naval unit (the Dutch replacement for the [COLOR_UNIT_TEXT]Galleon[COLOR_REVERT]) is the most powerful transport ship available until the introduction of the Transport.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种优良远洋舰船是荷兰的特色单位，替代[COLOR_UNIT_TEXT]大帆船[COLOR_REVERT]，是在运输舰出现之前最强的海上运载工具。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_MAYA_BALL_COURT_STRATEGY</Tag>
+<English>Build the [COLOR_BUILDING_TEXT]Ball Court[COLOR_REVERT], the Mayan replacement for the [COLOR_BUILDING_TEXT]Colosseum[COLOR_REVERT], to provide cities with three happiness instead of one.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]人祭球场[COLOR_REVERT]为玛雅的特色建筑，替代[COLOR_BUILDING_TEXT]竞技场[COLOR_REVERT]，可为所在城市提供3个快乐点数而非后者的1个。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HOLKAN_STRATEGY</Tag>
+<English>This early melee unit (the Mayan replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT]) is immune to first strikes and does not require iron or copper to build.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期肉搏兵种是玛雅的特色单位，替代[COLOR_UNIT_TEXT]矛兵[COLOR_REVERT]，对先发打击免疫，而且无需铁或铜资源即可组建。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_ETHIOPIAN_STELE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Stele[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Monument[COLOR_REVERT], provides a major bonus to Culture output in your city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]纪念石柱[COLOR_REVERT]为埃塞俄比亚的特色建筑，替代[COLOR_BUILDING_TEXT]纪念碑[COLOR_REVERT]，可使所在城市文化产出大幅增加。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ETHIOPIAN_OROMO_WARRIOR_STRATEGY</Tag>
+<English>This early gunpowder unit (the Ethiopian replacement for the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT]) is immune to first strikes, has 1 first strike of its own and begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Drill II[COLOR_REVERT] promotions.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期火器兵种是埃塞俄比亚的特色单位，替代[COLOR_UNIT_TEXT]火枪手[COLOR_REVERT]，对先发打击免疫，本身拥有1个先发打击点数并且自动获得[COLOR_HIGHLIGHT_TEXT]操练一级[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]操练二级[COLOR_REVERT]晋升。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_KHMER_BALLISTA_ELEPHANT_STRATEGY</Tag>
+<English>This powerful melee unit (the Khmer replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT]) will attack Mounted Units in a stack before other units, meaning its major bonus against mounted units will never go to waste.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种强力肉搏兵种是高棉的特色单位，替代[COLOR_UNIT_TEXT]战象[COLOR_REVERT]，可优先攻击敌军集群中的骑乘单位，充分发挥其克制骑兵的特长。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_BABYLON_BOWMAN_STRATEGY</Tag>
+<English>This early archery unit, the Babylonian replacement for the [COLOR_UNIT_TEXT]Archer[COLOR_REVERT], receives major bonuses against melee units and while defending a city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期投射兵种是巴比伦的特色单位，替代[COLOR_UNIT_TEXT]弓手[COLOR_REVERT]，擅长克制肉搏单位以及担任城市防御。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_BABYLON_GARDEN_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Garden[COLOR_REVERT], the Babylonian replacement for the [COLOR_BUILDING_TEXT]Colosseum[COLOR_REVERT], provides two bonus health in addition to the usual happiness bonus.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]花园[COLOR_REVERT]为巴比伦的特色建筑，替代[COLOR_BUILDING_TEXT]竞技场[COLOR_REVERT]，除快乐点数加成之外还额外提供2个健康点数。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_SUMERIAN_VULTURE_STRATEGY</Tag>
+<English>This early melee unit (the Sumerian replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT]) is as powerful as a [COLOR_UNIT_TEXT]Swordsman[COLOR_REVERT], but retains a bonus against melee units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期肉搏兵种是苏美尔的特色单位，替代[COLOR_UNIT_TEXT]斧兵[COLOR_REVERT]，战斗力相当于[COLOR_UNIT_TEXT]剑士[COLOR_REVERT]，并仍拥有针对肉搏单位的战斗加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_SUMERIAN_ZIGGURAT_STRATEGY</Tag>
+<English>Constructing the [COLOR_BUILDING_TEXT]Ziggurat[COLOR_REVERT], the Sumerian replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], requires fewer hammers than its generic counterpart.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]神塔[COLOR_REVERT]为苏美尔特色建筑，替代[COLOR_BUILDING_TEXT]法庭[COLOR_REVERT]，相比后者建造所需产能较少。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_NATIVE_AMERICA_TOTEM_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Totem Pole[COLOR_REVERT], the Native American replacement for the [COLOR_BUILDING_TEXT]Monument[COLOR_REVERT], grants archery units three bonus experience in addition to the usual culture bonus.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]图腾柱[COLOR_REVERT]为北美土著的特色建筑，替代[COLOR_BUILDING_TEXT]纪念碑[COLOR_REVERT]，除增加文化积累外，还可使所有投射单位增加3点经验值。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_NATIVE_AMERICA_DOG_SOLDIER_STRATEGY</Tag>
+<English>This skillful melee unit (the Native American replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT]), receives a massive bonus against melee units but has a lower strength.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种训练有素的肉搏兵种是北美土著的特色单位，替代[COLOR_UNIT_TEXT]斧兵[COLOR_REVERT]，相比后者更擅长克制肉搏单位，但基准战斗力要低一些。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_PORTUGAL_CARRACK_STRATEGY</Tag>
+<English>This early naval unit (the Portuguese replacement for the [COLOR_UNIT_TEXT]Caravel[COLOR_REVERT]) can transport both military and peaceful units, as well as explore enemy territory without penalty.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期海军舰船是葡萄牙的特色单位，替代[COLOR_UNIT_TEXT]轻帆船[COLOR_REVERT]，除民事单位外也可运送军事单位，还可直接进入别国海域。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_BYZANTINE_HIPPODROME_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Hippodrome[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], provides a bonus to happiness, an extra happiness for access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT] and an increased happiness bonus from money dedicated to your cultural slider.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]赛马场[COLOR_REVERT]为拜占庭的特色建筑，替代[COLOR_BUILDING_TEXT]剧场[COLOR_REVERT]，提供1单位快乐值，如有[COLOR_HIGHLIGHT_TEXT]马匹[COLOR_REVERT]可再增加1单位快乐，如财政预算中文化支出达到特定比例还可额外增加快乐值。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Cataphract[COLOR_REVERT], the Byzantine replacement for the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], has a higher strength but lacks immunity to first strikes.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]重甲骑兵[COLOR_REVERT]是拜占庭的特色单位，替代[COLOR_UNIT_TEXT]骑士[COLOR_REVERT]，战斗力更强，但是不对先发打击免疫。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_CUIRASSIER_STRATEGY</Tag>
+<English>This unit marks the transition from melee to gunpowder-based cavalry. The [COLOR_UNIT_TEXT]Cuirassier[COLOR_REVERT] is the strongest land unit until the entrance of the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]胸甲骑兵[COLOR_REVERT]标志着骑乘单位从冷兵器时代发展到火器时代，是[COLOR_UNIT_TEXT]近代骑兵[COLOR_REVERT]出现之前最强大的陆军兵种。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_AIRSHIP_STRATEGY</Tag>
+<English>This early flight unit can perform air strikes, see Submarines and inflict significant damage to Naval Units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种早期飞行器能执行空袭任务，发现潜艇的踪迹，并能对海军舰船造成有效损伤。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_SHIP_OF_THE_LINE_STRATEGY</Tag>
+<English>This is the ultimate wooden ship. While not as fast as the [COLOR_UNIT_TEXT]Frigate[COLOR_REVERT], the [COLOR_UNIT_TEXT]Ship of the Line[COLOR_REVERT] receives a significant bonus against its quicker rival, making it the top of the naval pecking order.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]主力战舰[COLOR_REVERT]是木质舰船发展的最高峰，虽然航速不及[COLOR_UNIT_TEXT]三桅战舰[COLOR_REVERT]，但却拥有强得多的攻击力。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_AT_INFANTRY_STRATEGY</Tag>
+<English>This late-game gunpowder unit is cheap, receives a major bonus against Armored units and enters play with the [COLOR_HIGHLIGHT_TEXT]Ambush[COLOR_REVERT] promotion.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种后期火器单位组建成本低廉，专用于克制装甲单位，并天然拥有[COLOR_HIGHLIGHT_TEXT]伏击能力[COLOR_REVERT]晋升。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_MOBILE_ARTILLERY_STRATEGY</Tag>
+<English>[COLOR_UNIT_TEXT]Mobile Artillery[COLOR_REVERT] is both the fastest and the most powerful siege weapon in the game. It also receives an impressive bonus against siege weapons.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]自行火炮[COLOR_REVERT]是最快速、最强大的压制武器，同时拥有对压制武器的额外战斗力加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_MOBILE_SAM_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Mobile SAM[COLOR_REVERT] is the most effective land-based anti-air unit in the game. Use it to intercept enemy planes or pluck those pesky [COLOR_UNIT_TEXT]Gunships[COLOR_REVERT] from the sky.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]防空导弹车[COLOR_REVERT]是最有效的陆基防空武器。专门用于拦截敌方固定翼飞机，或是对付[COLOR_UNIT_TEXT]武装直升机[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_CUSTOM_HOUSE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT] increases the commerce generated by a city's Foreign Trade Routes. Consider using it in conjunction with the [COLOR_HIGHLIGHT_TEXT]Free Market[COLOR_REVERT] Civic.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]海关[COLOR_REVERT]可提升外贸商路的收益。配合[COLOR_HIGHLIGHT_TEXT]自由市场[COLOR_REVERT]国策可充分发挥作用。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_INDUSTRIAL_PARK_STRATEGY</Tag>
+<English>An [COLOR_BUILDING_TEXT]Industrial Park[COLOR_REVERT] allows the addition of two Engineer specialists to your city, with an extra free Engineer thrown in for good measure. This comes at a significant cost to your city's health.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]工业园区[COLOR_REVERT]允许增加两位工程师，再免费供养一位工程师。其代价是增加城市的疾病值。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_GUIDED_MISSILE_STRATEGY</Tag>
+<English>Reach out and crush someone with the [COLOR_UNIT_TEXT]Guided Missile[COLOR_REVERT], which provides a high-powered punch to any single tile within its range.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]巡航导弹[COLOR_REVERT]是现代战争不可缺少的一员，这种武器可对在其射程之内的任何地块造成极大破坏。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ATTACK_SUBMARINE_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Attack Submarine[COLOR_REVERT] is the ultimate defense against [COLOR_UNIT_TEXT]Submarines[COLOR_REVERT]. While unable to carry missiles, it does receive a significant bonus against enemy [COLOR_UNIT_TEXT]Submarines[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]攻击型潜艇[COLOR_REVERT]是[COLOR_UNIT_TEXT]潜艇[COLOR_REVERT]的终极克星。虽然不能携带导弹，但在对付敌方[COLOR_UNIT_TEXT]潜艇[COLOR_REVERT]时可获得巨大的战斗力加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_NATIONAL_PARK_STRATEGY</Tag>
+<English>Build the [COLOR_BUILDING_TEXT]National Park[COLOR_REVERT] to eliminate all unhealthiness from population in your city. It also provides a free specialist for each [COLOR_HIGHLIGHT_TEXT]Forest Preserve[COLOR_REVERT] in its city radius and increases the chances that a [COLOR_UNIT_TEXT]Great Scientist[COLOR_REVERT] might appear in your city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]国家公园[COLOR_REVERT]可消除所在城市因人口规模导致的疾病点数。所在城市范围内的每块[COLOR_HIGHLIGHT_TEXT]森林保护区[COLOR_REVERT]可免费供养一位专业人员，并提升[COLOR_UNIT_TEXT]大科学家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY</Tag>
+<English>Build an [COLOR_BUILDING_TEXT]Intelligence Agency[COLOR_REVERT] to increase the espionage points created by your city. It also allows for the creation of two Spy specialists.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]情报局[COLOR_REVERT]可增加城市谍报点数。并允许增加两位间谍类专业人员。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_NATIONAL_SECURITY_STRATEGY</Tag>
+<English>Build a [COLOR_BUILDING_TEXT]Security Bureau[COLOR_REVERT] to increase the cost of enemy espionage missions in your city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]安全局[COLOR_REVERT]可提升敌方在你的城市实施间谍行动所需的花费。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_STEALTH_DESTROYER_STRATEGY</Tag>
+<English>Disappear from enemy radar with the [COLOR_UNIT_TEXT]Stealth Destroyer[COLOR_REVERT], a powerful late-game naval unit that is invisible to all units except other [COLOR_UNIT_TEXT]Stealth Destroyers[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]隐形驱逐舰[COLOR_REVERT]不会被任何其他单位发现，是一种强大的现代海军舰船，只有用另外一艘[COLOR_UNIT_TEXT]隐形驱逐舰[COLOR_REVERT]才能对付它。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_EXECUTIVE_STRATEGY</Tag>
+<English>Use [COLOR_UNIT_TEXT]Corporate Executives[COLOR_REVERT] to spread the Corporation of your choice throughout the world and increase the wealth its Corporate Headquarters provides.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]公司经理[COLOR_REVERT]可在世界各地扩展相应公司的业务，为公司总部增加财富积累。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_MOAI_STATUES_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Moai Statues[COLOR_REVERT] add a bonus production to every water tile in the city in which it's constructed. It also increases the chances of a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]摩艾石像群[COLOR_REVERT]使所在城市的每片水域额外增加1单位产能。并提升[COLOR_UNIT_TEXT]大预言家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_MAUSOLEUM_OF_MAUSSOLLOS_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Mausoleum of Maussollos[COLOR_REVERT] increases its builder's Golden Ages by fifty percent. It also increases the chances of a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]摩索拉斯陵墓[COLOR_REVERT]可使黄金时代持续时间延长百分之五十。并提升[COLOR_UNIT_TEXT]大艺术家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_STATUE_OF_ZEUS_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Statue of Zeus[COLOR_REVERT] increases war weariness in the cities of those who go to war against its builder. It also increases the chances of a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]宙斯神像[COLOR_REVERT]增加敌国家民众的厌战情绪。并提升[COLOR_UNIT_TEXT]大艺术家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY</Tag>
+<English>This late-game naval unit is the most deadly ship in the sea, with a high strength and the ability to carry four missiles.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种现代舰船是杀伤力最强的海上单位，可携带四枚导弹。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Shwedagon Paya[COLOR_REVERT] grants its builder access to all [COLOR_HIGHLIGHT_TEXT]Religious[COLOR_REVERT] Civics. It also increases the chances of a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]瑞光大金塔[COLOR_REVERT]可对所在文明启用所有[COLOR_HIGHLIGHT_TEXT]宗教信仰[COLOR_REVERT]类内政法令，还可提升[COLOR_UNIT_TEXT]大预言家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_TACTICAL_NUKE_STRATEGY</Tag>
+<English>These short-range Nukes can evade enemy [COLOR_PROJECT_TEXT]SDIs[COLOR_REVERT] more easily than longer range [COLOR_UNIT_TEXT]ICBMs[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>此种短程核武器躲避敌方[COLOR_PROJECT_TEXT]战略导弹防御系统[COLOR_REVERT]的能力远远超过[COLOR_UNIT_TEXT]战略导弹[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Advanced Flight[COLOR_REVERT] allows the construction of [COLOR_UNIT_TEXT]Gunships[COLOR_REVERT] and [COLOR_UNIT_TEXT]Jet Fighters[COLOR_REVERT], two units essential for controlling the skies.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]先进航空[COLOR_REVERT]允许建造[COLOR_UNIT_TEXT]武装直升机[COLOR_REVERT]和[COLOR_UNIT_TEXT]喷气式战斗机[COLOR_REVERT]，对于掌握现代战场制空权至关重要。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_STEALTH_STRATEGY</Tag>
+<English>Researching [COLOR_TECH_TEXT]Stealth[COLOR_REVERT] allows the construction of [COLOR_UNIT_TEXT]Stealth Bombers[COLOR_REVERT] and [COLOR_UNIT_TEXT]Stealth Destroyers[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]隐形[COLOR_REVERT]允许建造[COLOR_UNIT_TEXT]隐形轰炸机[COLOR_REVERT]和[COLOR_UNIT_TEXT]隐形驱逐舰[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_SUPERCONDUCTORS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Superconductors[COLOR_REVERT] allow the construction of the [COLOR_BUILDING_TEXT]Laboratory[COLOR_REVERT] and [COLOR_PROJECT_TEXT]SS Thrusters[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]超导[COLOR_REVERT]允许建造[COLOR_BUILDING_TEXT]实验室[COLOR_REVERT]和[COLOR_PROJECT_TEXT]飞船推进器[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_LASER_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Laser[COLOR_REVERT] allows the construction of the [COLOR_UNIT_TEXT]Mobile SAM[COLOR_REVERT], the ultimate land-based anti-air unit, the [COLOR_UNIT_TEXT]Mobile Artillery[COLOR_REVERT], the most powerful siege weapon in the game, and the [COLOR_PROJECT_TEXT]SDI[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]激光[COLOR_REVERT]允许建造最强的陆基防空武器——[COLOR_UNIT_TEXT]防空导弹车[COLOR_REVERT]，最强的压制武器——[COLOR_UNIT_TEXT]自行火炮[COLOR_REVERT]以及[COLOR_PROJECT_TEXT]战略导弹防御系统[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_AESTHETICS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Aesthetics[COLOR_REVERT] allows the construction of [COLOR_BUILDING_TEXT]The Parthenon[COLOR_REVERT], [COLOR_BUILDING_TEXT]The Statue of Zeus[COLOR_REVERT] and the [COLOR_BUILDING_TEXT]Shwedagon Paya[COLOR_REVERT] Wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]美学[COLOR_REVERT]允许建造[COLOR_BUILDING_TEXT]帕特农神庙[COLOR_REVERT]、[COLOR_BUILDING_TEXT]宙斯神像[COLOR_REVERT]和[COLOR_BUILDING_TEXT]瑞光大金塔[COLOR_REVERT]等世界级奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_PRIVATEER_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Privateer[COLOR_REVERT] is a mid-game naval unit that bears no marking of nationality. This allows you to harass your foes without the need to declare war.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]私掠舰[COLOR_REVERT]出现于游戏中期，最大特点是隐藏国籍，可在不宣战的情况下骚扰你的对手。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_PARATROOPER_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Paratrooper[COLOR_REVERT] is a late-game gunpowder unit that is able to [COLOR_HIGHLIGHT_TEXT]Paradrop[COLOR_REVERT] into any visible tile unoccupied by enemy units within its range. Watch for enemy aircraft, as Paratroopers on a Paradrop mission can be intercepted.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]伞兵[COLOR_REVERT]是出现于游戏后期的火器单位，能够在航程范围内[COLOR_HIGHLIGHT_TEXT]空降[COLOR_REVERT]至任何已探明的敌方地域。要注意敌方空军的动向，伞兵执行空降任务时可能遭到拦截。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_AIR_PROMOTIONS_PEDIA</Tag>
+<English>[H1]Air Unit Promotions[\H1][PARAGRAPH:2]Air Units now receive promotions in the same manner as other units. Building an Airport will provide your Air Units with Experience Points, so that they may access their promotions more rapidly. Air Units may acquire the Combat, Pinch and Ambush promotion lines available to other units, as well as several unique promotions.[PARAGRAPH:2][BOLD]Interception:[\BOLD] Increases the chances of intercepting enemy aircraft[PARAGRAPH:1][BOLD]Range:[\BOLD] Increases a unit's air range[PARAGRAPH:1][BOLD]Ace:[\BOLD] Increases the unit's evasion chance[PARAGRAPH:2]The [BOLD]Interception[\BOLD] promotion is also available to [LINK=UNIT_MOBILE_SAM]Mobile SAM[\LINK], [LINK=UNIT_SAM_INFANTRY]SAM Infantry[\LINK] and [LINK=UNIT_MECHANIZED_INFANTRY]Mechanized Infantry[\LINK] Units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]空军单位晋升[\H1][PARAGRAPH:2]空军单位的晋升方式类似其他单位。建造机场可为空军单位提供初始经验点数，以便更快获得晋升。空军单位除可获得格斗、突破和伏击等所有单位通用的晋升，还可获得一些特有的晋升。[PARAGRAPH:2][BOLD]拦截:[\BOLD]提升空军单位成功拦截敌机的几率[PARAGRAPH:1][BOLD]航程:[\BOLD]提升空军单位的航程范围[PARAGRAPH:1][BOLD]空战王牌:[\BOLD]提升空军单位成功躲避敌机拦截的几率[PARAGRAPH:2][BOLD]拦截[\BOLD]晋升也适用于[LINK=UNIT_MOBILE_SAM]防空导弹车[\LINK], [LINK=UNIT_SAM_INFANTRY]防空步兵[\LINK]和[LINK=UNIT_MECHANIZED_INFANTRY]机械化步兵[\LINK]等陆军单位。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_GREAT_SPY_PEDIA</Tag>
+<English>[H1]Great Spy and Spy Specialist[\H1][PARAGRAPH:2][BOLD]Spy Specialists[\BOLD][PARAGRAPH:1]Spy specialists give a bonus to Espionage output and increase the chance of a Great Spy appearing in a city. The [LINK=BUILDING_COURTHOUSE]Courthouse[\LINK], [LINK=BUILDING_JAIL]Jail[\LINK], [LINK=BUILDING_INTELLIGENCE_AGENCY]Intelligence Agency[\LINK], [LINK=BUILDING_NATIONAL_SECURITY]Security Bureau[\LINK], and [LINK=BUILDING_KREMLIN]Kremlin[\LINK] World Wonder allow the assignment of Spy specialists in a city.[PARAGRAPH:2][BOLD]Great Spies[\BOLD][PARAGRAPH:1]Great Spies may occasionally appear in your city through the use of Spy specialists or Espionage-related Wonders. Invisible to all other units, Great Spies can explore rival territory, and will give a massive bonus of Espionage Points against a specific civilization if you expend the unit in one of their cities. They may also join a city as a super specialist, increasing science and espionage output of a city; or they may construct a [LINK=BUILDING_SCOTLAND_YARD]Scotland Yard[\LINK] in a city, adding a significant bonus to Espionage production in that city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]大间谍/间谍类专业人员[\H1][PARAGRAPH:2][BOLD]间谍类专业人员[\BOLD][PARAGRAPH:1]间谍类专业人员提供额外的谍报点数奖励加成，并提升城市产生大间谍的几率。建造[LINK=BUILDING_COURTHOUSE]法庭[\LINK]、[LINK=BUILDING_JAIL]监狱[\LINK]、[LINK=BUILDING_INTELLIGENCE_AGENCY]情报局[\LINK]、[LINK=BUILDING_NATIONAL_SECURITY]安全局[\LINK]以及[LINK=BUILDING_KREMLIN]克里姆林宫[\LINK]的城市允许供养间谍类专业人员。[PARAGRAPH:2][BOLD]大间谍[\BOLD][PARAGRAPH:1]城市可通过供养间谍类专业人员以及建造谍报类奇观催生大间谍。大间谍对所有其他单位隐形，能够探查别国领土。你还可以在别国城市消耗掉大间谍，一次性获得针对该国的高额谍报点数奖励。大间谍也可以作为超级专业人员在某个城市定居，提升该城的科研及谍报点数产出。大间谍还可建造[LINK=BUILDING_SCOTLAND_YARD]苏格兰场[\LINK]，该小奇观所在城市将获得大量谍报点数加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_LATE_START_PEDIA</Tag>
+<English>[H1]Advanced Start[\H1][PARAGRAPH:2]The Advanced Start system allows players to begin a game of Civilization 4 in a later era, customizing their civilization as though they'd played the game up to their starting year. To play an Advanced Start game, go to the "Custom Game" option under the Single Player game menu. The Advanced Start checkbox is listed under "Game Options." This option is also available in the multiplayer game setup screen.[NEWLINE][NEWLINE][BOLD]Advanced Start Rules[\BOLD][PARAGRAPH:1]Players will receive a certain amount of Gold which may then be spent on Cities, Buildings, City Population, Culture, Units, Improvements, Technologies, and Plot Visibility. Certain items, once purchased cannot be removed, so be sure you really want them. These items are: Techs, Cities, Culture, and Visibility. Units and Buildings must be placed in cities. Buildings, Population, and Improvements may all be removed once placed by selecting the item from the Advanced Start menu and then right clicking on the plot where the item you want to remove is located. [PARAGRAPH:1]Leader Traits and Resources which would normally reduce the production time of select buildings or units now provide discounts to such items. For example, an Expansive leader may build [LINK=BUILDING_HARBOR]Harbors[\LINK] at a discount while a leader with access to the Stone resource may build [LINK=BUILDING_WALLS]Walls[\LINK] at half price. The amount of Gold a player receives depends upon the size of the map, the era in which the player begins their game, and their selected Difficulty Level. The later the era, the larger the map, and the lower the selected handicap, the more Gold the player receives. By starting a Custom Game in either Single or Multiplayer, players can adjust the number of Advanced Start points available for that game.[PARAGRAPH:1]The player may then place items on the map. Players may only place items for which they have the appropriate technologies and resources. By using gold to purchase new techs, more advanced units, buildings, etc. become available. Extended visibility may be purchased to expand a player's usable territory. Improvements can give access to necessary resources. Any gold that is not used during the Advanced Start phase is added to the player's treasury when the game starts. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]高级开局[\H1][PARAGRAPH:2]高级开局功能允许玩家直接从较晚时代开始游戏，并可自定义文明的初始发展状态。要使用高级开局功能，请在游戏主菜单中选择“单人游戏”，再选择“自定义游戏”，然后勾选“游戏选项”中的“高级开局”复选框。在多人游戏模式中同样可以使用高级开局功能。[NEWLINE][NEWLINE][BOLD]高级开局规则[\BOLD][PARAGRAPH:1]在高级开局模式下玩家将获得一笔“启动资金”，可用于购买城市、建筑、人口规模、文化等级、单位、科技及探明区域等。以下项目一旦确定购买将无法取消，因此需要谨慎选择：科技、城市、文化等级、探明区域。单位和建筑必须放置于城市。建筑、人口规模和区域设施在添加后允许移除——直接右键点击项目所在位置即可。[PARAGRAPH:1]领袖特质和奖励资源加速建筑或单位生产的效果同样适用于高级开局模式。例如拥有开拓进取特质者建造[LINK=BUILDING_HARBOR]港口[\LINK]的花费减半，拥有花岗石资源者建造[LINK=BUILDING_WALLS]城墙[\LINK]的花费减半。高级开局提供的启动资金额度由地图大小、初始时代和难度等级决定。地图越大、时代越晚、难度越低，启动资金就越多。玩家也可在自定义游戏界面中修改启动资金的额度。[PARAGRAPH:1]打开游戏主界面后，玩家可先在地图上放置所购买的项目。可放置项目需要满足相应的科技与资源前提，购买了更先进的科技才可以购买更先进的单位和建筑。要增加可用地块，就需要购买探明区域。要获取重要资源，就需要购买区域设施。未使用的初始资金会在游戏开始时加入玩家的国库储备。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_CORPORATIONS_PEDIA</Tag>
+<English>[H1]Corporations[\H1][PARAGRAPH:2][BOLD]Founding a Corporation[\BOLD][PARAGRAPH:1]There are a number of requirements that must be fulfilled before a player can found a Corporation. First they must have researched the Corporations Technology, in addition to another more specific technology required by each Corporation. This second technology varies by Corporation. Once players have researched the proper techs, they must then move a Great Person into a city that has one or more of the resources required by the Corporation they wish to create. By expending the proper type of Great Person, they may found the Corporate Headquarters in their city.[PARAGRAPH:1]Each Corporation requires a different type of Great Person:[PARAGRAPH:2][LINK=BUILDING_CORPORATION_6]Aluminum Co.[\LINK] and [LINK=BUILDING_CORPORATION_3]Standard Ethanol[\LINK] require a [LINK=UNIT_SCIENTIST]Great Scientist[\LINK].[PARAGRAPH:1][LINK=BUILDING_CORPORATION_4]Creative Constructions[\LINK] and [LINK=BUILDING_CORPORATION_5]Mining Inc.[\LINK] require a [LINK=UNIT_ENGINEER]Great Engineer[\LINK].[PARAGRAPH:1][LINK=BUILDING_CORPORATION_1]Cereal Mills[\LINK] and [LINK=BUILDING_CORPORATION_2]Sid's Sushi[\LINK] require a [LINK=UNIT_MERCHANT]Great Merchant[\LINK].[PARAGRAPH:1][LINK=BUILDING_CORPORATION_7]Civilized Jewelers[\LINK] requires a [LINK=UNIT_ARTIST]Great Artist[\LINK].[PARAGRAPH:2][BOLD]Corporate Benefits and Hindrances[\BOLD][PARAGRAPH:1]Each Corporation requires a resource or a group of resources be present in a city in order for the Corporation to be constructed there. Once a Corporation is constructed, it incurs a maintenance cost, but also provides the city with a resource or yield bonus. These bonuses can range from providing a significant boost to a city's culture to granting access to Oil to a player who could not otherwise acquire it. The owner of the Corporate Headquarters will also receive a gold bonus for each city in which their Corporation is present.[PARAGRAPH:2][BOLD]Spreading a Corporation[\BOLD][PARAGRAPH:1]Once a Corporation is constructed in a city, that city may produce Corporate Executives. The emissaries of economy and the missionaries of moolah, Corporate Executives spread Corporate presence outside the Headquarters city. By building a Corporate Executive and moving it to a city with the appropriate resources, a player may expand the influence of a Corporation and increase the income produced by his Corporate HQ.[PARAGRAPH:1]When a Corporate Executive spreads a Corporation to a new city, it removes a certain amount of Gold from the player's treasury. This amount is increased if the player is attempting to spread the Corporation to a foreign city. Two corporations that consume the same resource cannot coexist in the same city and it will cost extra to replace one Corporation that consumes a resource with another that consumes the same resource.[PARAGRAPH:1]You may block foreign Corporations from entering your cities by adopting the Mercantilism Civic and may block all Corporations from your cities by adopting the State Property Civic.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]商业公司[\H1][PARAGRAPH:2][BOLD]创办公司[\BOLD][PARAGRAPH:1]创办一家商业公司需要满足一系列前提条件。除了必须掌握公司制科技，每家公司还有一个对应的前提科技，不同公司对应的前提科技各不相同。玩家研究出正确的前提科技后，还要派一位历史伟人前往某座可获取公司对应的一种或几种资源的城市，历史伟人即可在该城市建立公司总部（同时将消耗掉历史伟人）。[PARAGRAPH:1]创办不同公司的所需的历史伟人类型也有所不同：[PARAGRAPH:2][LINK=BUILDING_CORPORATION_6]综合制铝公司[\LINK]和[LINK=BUILDING_CORPORATION_3]标准乙醇公司[\LINK]需要[LINK=UNIT_SCIENTIST]大科学家[\LINK]。[PARAGRAPH:1][LINK=BUILDING_CORPORATION_4]创新建筑公司[\LINK]和[LINK=BUILDING_CORPORATION_5]联合矿业公司[\LINK]需要[LINK=UNIT_ENGINEER]大工程师[\LINK]。[PARAGRAPH:1][LINK=BUILDING_CORPORATION_1]谷物研磨公司[\LINK]和[LINK=BUILDING_CORPORATION_2]席德寿司公司[\LINK]需要[LINK=UNIT_MERCHANT]大商业家[\LINK]。[PARAGRAPH:1][LINK=BUILDING_CORPORATION_7]文明珠宝公司[\LINK]需要[LINK=UNIT_ARTIST]大艺术家[\LINK]。[PARAGRAPH:2][BOLD]商业公司的好处和坏处[\BOLD][PARAGRAPH:1]建立商业公司需要所在城市拥有一种或几种对应资源。公司建立后城市需要额外支出一笔维护费，同时获得一种奖励资源或其他产出加成——例如文化点数或石油资源等等。公司业务每扩展到一座城市，公司总部的所有者均可额外获得一份金钱收益。[PARAGRAPH:2][BOLD]扩展公司业务[\BOLD][PARAGRAPH:1]建有公司的城市可以训练公司经理单位。公司经理就是经济活动的使节，“拜金教”的“传教士”，他们可以在公司总部之外的其他城市建立分公司。派遣公司经理前往拥有相应资源的城市即可将公司业务扩展至该城市，为公司总部所在城市带来额外收益。[PARAGRAPH:1]当派遣公司经理在一座城市建立分公司时，玩家需要支出一笔金钱，在外国城市建立分公司需要更高的成本。消耗相同资源的两家公司不能共存于同一座城市，在此情况下排挤对手建立分公司也需要更更高的成本。[PARAGRAPH:1]实行重商主义将禁止外国商业公司在你的城市扩展业务，实行国有经济将禁止所有商业公司在你的城市扩展业务。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_FLANK_ATTACK_PEDIA</Tag>
+<English>[H1]Improved Siege Combat[\H1][PARAGRAPH:2]Siege Units now have a "Maximum Damage" limit. When a siege unit attacks, they may cause damage up to their limit and will then withdraw. Additional siege units will be unable to attack that target again until its health has returned above the siege unit's "Maximum Damage" limit. Later siege units have a higher "Maximum Damage" limit, so be sure to upgrade your catapults to cannons and your cannons to artillery as fast as possible. A defending siege unit can still kill an attacker.[PARAGRAPH:1]In addition, mounted units may cause "Flank Attack" damage to all Siege Units in a stack. When attacking a stack with Siege Units, the Mounted Unit will inflict this Flank Attack damage so long as it survives combat, whether it retreats or wins. If it dies, no Flank Attack damage will be inflicted. So when you see the enemy approaching with strong siege weapon stacks, give your mounted units the "Flanking" promotion, so that they have a higher chance of withdrawal and thus a higher chance to inflict damage on the siege weapons.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]压制武器的改进[\H1][PARAGRAPH:2]压制武器现在有“最大损伤”限制。当使用压制武器发动攻击时，对防御方单位的损伤程度达到限制后就会撤退。在防御方单位战斗力恢复之前，压制武器将无法再次对其发动攻击。时代越晚的压制武器“最大损伤”数值越高，因此请尽快将你的投石车升级为加农炮，加农炮升级为火炮。压制武器在防御时没有最大损伤限制，可以一直战斗至进攻方被消灭。[PARAGRAPH:1]此外，骑乘单位可通过“迂回打击”对同一地块的所有压制武器造成损伤。当使用压制武器发动攻击时，防御方骑乘单位只要未在战斗中被消灭（无论是撤退还是获胜），都可对进攻方单位集群中的压制武器造成“迂回打击”损伤；但如果在战斗中被消灭，则不能造成迂回打击损伤。因此当你发现入侵的敌军大量配备压制武器，可以让你的骑乘单位采用“迂回”类晋升，提升其撤退几率，以便更有效地对付压制武器。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMORY_VOTED_AGAINST_US</Tag>
+<English>"You voted against us!"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你投票反对我们!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMORY_VOTED_FOR_US</Tag>
+<English>"You voted for us"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你投票支持我们.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMORY_EVENT_GOOD_TO_US</Tag>
+<English>"Past events have proved your good nature to us."</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>过去发生的事件证明了你的善良天性.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMORY_EVENT_BAD_TO_US</Tag>
+<English>"Past events have proved your bad nature to us."</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>过去发生的事件证明了你的邪恶天性.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_COMPETES</Tag>
+<English>[NEWLINE][ICON_BULLET]Competes with[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE][ICON_BULLET]竞争:[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PITBOSS_TURN_TIMER_NEW</Tag>
+<English>Enter new turn timer (hours)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>输入新的回合时间(小时)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP</Tag>
+<English>Players cannot trade technologies that they have not researched themselves</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>玩家只能转让通过自行研究而获得的科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_PLUNDER_HELP</Tag>
+<English>The unit disrupts the trade route so that no intercontinental trade can pass through the blockaded tile</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏商路使得洲际贸易无法通过被封锁区域进行</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROMOTION_CARGO_TEXT</Tag>
+<English>[ICON_BULLET]%D1_Change Cargo Space</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change运载能力</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_MAINT_FLOAT</Tag>
+<English>%s1_MaintNum [ICON_GOLD]: Corporation payments</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_MaintNum[ICON_GOLD]: 公司支付</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_HELP_BASE</Tag>
+<English>%s1 [ICON_COMMERCE]: Base profit</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1[ICON_COMMERCE]: 基准收益</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_BUILDING</Tag>
+<English>%D2%%: for %s1_building</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D2%%: 因%s1_building</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_POPULATION</Tag>
+<English>%D1%%: for Population</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 因人口规模</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_CAPITAL</Tag>
+<English>%D1%%: for connection to Capital</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 因连通首都</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_OVERSEAS</Tag>
+<English>%D1%%: for Overseas Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 因远洋贸易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_FOREIGN</Tag>
+<English>%D1%%: for Foreign Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 因对外贸易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_MOD_PEACE</Tag>
+<English>%D1%%: for sustained Peace</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 因保持和平</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_ROUTE_TOTAL</Tag>
+<English>%d1 [ICON_COMMERCE]: Total</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1[ICON_COMMERCE]: 总计</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BONUS_AVAILABLE_PLAYER</Tag>
+<English>[SPACE](%s2_player has %d1_num_bonus)[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[SPACE](%s2_player拥有%d1_num_bonus)[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_SHOW_CORPORATION_SCREEN_HELP</Tag>
+<English>Display the Corporation Screen</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>显示公司界面</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED_UNKNOWN</Tag>
+<English>While defending, your %s1_UnitName was destroyed by a %s2_EnUName!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_UnitName在执行防御任务时被敌方的%s2_EnUName消灭！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN_TOTAL_NUM_EPS</Tag>
+<English>Total EPs Made Per Turn: %D1_Num</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>每回合总谍报点数: %D1_Num</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOUNDED_RELIGION</Tag>
+<English>You have founded a new religion! What do you wish to call it?</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你将可创立一种新的信仰！你想为这种信仰起个什么名字？</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_RELIGION_FOUNDER_RECEIVES_NUM</Tag>
+<English>[ICON_BULLET]Founder Receives [COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] (%d2_num)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]创立者可获得[COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] (%d2_num)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION_HELP</Tag>
+<English>Players are prompted to pick a religion when they are about to found one.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>玩家可选择所要创立的宗教.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_UNIT_CLASS_PROMOTION</Tag>
+<English>[ICON_BULLET]Every [COLOR_UNIT_TEXT]%s1_unit[COLOR_REVERT] is promoted to [COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]每个[COLOR_UNIT_TEXT]%s1_unit[COLOR_REVERT]晋升[COLOR_HIGHLIGHT_TEXT]%s2_promotion[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_1_HELP</Tag>
+<English>Player Option for Modding use 1.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>用于模组制作的玩家选项1.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_2_HELP</Tag>
+<English>Player Option for Modding use 2.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>用于模组制作的玩家选项2.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_3_HELP</Tag>
+<English>Player Option for Modding use 3.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>用于模组制作的玩家选项3.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_GREAT_PERSON_DISCOVER</Tag>
+<English>[ICON_BULLET]Can be researched by a [COLOR_UNIT_TEXT]%s1_great_person[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]可由[COLOR_UNIT_TEXT]%s1_great_person[COLOR_REVERT]研究获得</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_NO_ENEMY_GLOW_HELP</Tag>
+<English>Enemy units in your territory are not highlighted on the map</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不高亮显示处在你领土之内的敌方单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_BIG_AND_SMALL_DESCR</Tag>
+<English>Realistic world with highly random landmasses big and small. Most civs starts on continents. Some may start in island chains.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>大小陆地——由随机面积的大小陆块构成的世界。多数文明初始位置在大陆上，有些可能在岛链上。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Apostolic Palace[COLOR_REVERT] triggers [COLOR_HIGHLIGHT_TEXT]Diplomatic[COLOR_REVERT] elections. It guarantees that you will be a candidate in those elections and increases the chances of a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]教皇宫[COLOR_REVERT]将触发[COLOR_HIGHLIGHT_TEXT]外交[COLOR_REVERT]投票选举，建造者将确定为候选人之一，教皇宫还能提升[COLOR_UNIT_TEXT]大预言家[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_GREAT_SPY_STRATEGY</Tag>
+<English>Use the [COLOR_UNIT_TEXT]Great Spy[COLOR_REVERT] to explore enemy territory, receive a massive Espionage point bonus against one opponent or build a [COLOR_BUILDING_TEXT]Scotland Yard[COLOR_REVERT] building for increased Espionage output.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]可用于探察敌方领地，大量增加针对特定文明的谍报点数，或是建造[COLOR_BUILDING_TEXT]苏格兰场[COLOR_REVERT]以提升谍报点数产出。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_LEAD_ANY_CIV_HELP</Tag>
+<English>Players may lead any Civilization with any Leader.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>玩家可控制任意领袖领导的任意文明。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_COST</Tag>
+<English>%d1%% [ICON_ESPIONAGE] Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1%% [ICON_ESPIONAGE] 花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_AIR_UNIT_CAPACITY</Tag>
+<English>[ICON_BULLET]%D1 [LINK=CONCEPT_AIR_UNITS]Air Unit[\LINK] Capacity</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1 [LINK=CONCEPT_AIR_UNITS]空中单位[\LINK] 容纳量</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CITY_BAR_AIR_UNIT_CAPACITY</Tag>
+<English>Air Unit Capacity: %d1/%d2</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>空中单位容纳量: %d1/%d2</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KET_ESPIONAGE_MISSION_COST</Tag>
+<English>%s1_espionage_mission (%d2[ICON_ESPIONAGE])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_espionage_mission (%d2[ICON_ESPIONAGE])</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_INTERFACE_67</Tag>
+<English>Press [CTRL + H] to select all wounded units in a tile.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>按下[CTRL+H]可选择某个区域的所有受伤单位。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_INTERFACE_68</Tag>
+<English>You may view your Spaceship by going to the "Victory Conditions" screen and selecting "View" under "Space Race." </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>要查看太空飞船，可打开“胜利条件”界面并选择“太空竞赛”项下的“查看”按钮。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_45</Tag>
+<English>If you are having trouble spreading a Corporation, make sure the city you are spreading it to has the appropriate resources and that your treasury has enough gold to fund the expansion. Keep in mind it costs significantly more to spread a Corporation to a foreign city than to your own. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>如果你无法在某个城市扩展公司业务，请确认该城市是否可获取对应的资源，国库中是否有足够的现金。在别国城市扩展公司业务要比在本国城市花费更多金钱。 </Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_46</Tag>
+<English>Events can be disabled by starting a "Custom Game" and selecting "No Random Events" from the Options list.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>如果不想启用随机事件，只需在“自定义游戏”界面中选择“禁止随机事件”。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_47</Tag>
+<English>Never attack a city with only siege weapons. They may be the best way to damage a large number of enemy units, but once they inflict their maximum amount of damage, they will be unable to attack enemy units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>绝不可仅靠压制武器攻打城市。虽然这是对敌方大批单位造成损伤的最好手段，然而一旦压制武器对敌方单位的损伤超过规定上限值，将不能再进行攻击。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_48</Tag>
+<English>Ever wanted to play the game as Emperor Gandhi of the Mongols? Start a "Custom Game" and select the "Unrestricted Leaders" Option to be able to use any Leader with any Civilization.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>想要让甘地领导蒙古人进行游戏？只需在“自定义游戏”界面中选择“领袖无国籍限制”，即可使用任意领袖及文明的组合。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_49</Tag>
+<English>Remember to assign your Espionage points on the Espionage Screen [CTRL + E]. Accumulate enough EPs against an opponent and you will be able to see what they are researching, what's happening in and around their cities and perform Espionage Missions against them.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>记得在谍报界面[CTRL+E]中分配你的谍报点数。针对特定对手积累足够的谍报点数，你将可以查看对方的研究计划、城市状态，并对其实施谍报任务。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_50</Tag>
+<English>The Courthouse, Jail, Palace and Castle increase the number of Espionage Points the player will receive each turn.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>法庭、监狱、宫殿和城堡可增加每回合积累的谍报点数。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_51</Tag>
+<English>Good things come to spies who wait. Leaving a spy on a tile will reduce the costs of all Espionage Missions performed against objects in that tile. So leaving a Spy in an enemy city will make your Missions in that city significantly cheaper.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>懂得等待的间谍才能发挥更大的作用。间谍在固定位置停留的时间越久，他在该处实施谍报行动所需的花费越少。所以让间谍长期在敌方城市潜伏是降低谍报活动成本的最佳方法。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_52</Tag>
+<English>If you spend more Espionage Points than an opponent, then your missions towards that opponent will be cheaper. Every point you spend throughout the game is added towards this total, so if you see a fierce rival outspending you in Espionage Points, it would be wise to increase your Espionage spending.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>如果你针对某国的累计谍报点数超过该国针对你的，则可减少你对该国谍报活动的成本。游戏过程中所消耗的谍报点数将悉数加入该累计值，如果你发现某个敌人在加大对你的谍报投入，立即采取对等行动是明智的做法。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_53</Tag>
+<English>When on the defense, be sure to set your Fighters and Jet Fighters to the "Intercept" mission when they're not running missions. They will defend the skies from opposing Air Units, earning them valuable experience points.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>在进行防御战时，请命令你的战斗机执行“拦截”任务，保卫你的领空不受敌方空军的侵犯，同时可以积累宝贵的经验点。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_54</Tag>
+<English>If you're looking to reduce your city maintenance, consider turning your cities on distant continents into Colonies. To form a colony, go to the Domestic Advisor screen and select the "Colony" button.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>如果你希望减少城市维护费支出，可以考虑允许位于遥远大陆的殖民地独立建国——即在内政顾问界面中点击“解放殖民地”按钮。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_56</Tag>
+<English>Intercontinental trade routes now yield more gold than normal trade routes. Build a Customs House to further cash in.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>洲际商路的收益高于普通商路。建造海关还可进一步提升洲际商路的收益。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_58</Tag>
+<English>The game is won when a Spaceship arrives on Alpha Centauri, not when it is launched. The more Engines and Thrusters you build, the faster the Spaceship will arrive.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>太空胜利的条件不是让飞船成功发射，而是让飞船成功抵达半人马座阿尔法星。发动机和推进器配备数量越多，你的太空飞船速度越快。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_59</Tag>
+<English>Be sure to check the "Beyond the Sword Concepts" page in the Civilopedia to read up on all the changes that have been made in this expansion.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>请注意在文明百科中查看“刀剑之上概念”，全面了解本资料片在游戏各个层面的改变。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_60</Tag>
+<English>A unit led by a Warlord can receive the Medic III promotion to give you an advantage when pushing into enemy territory.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>由军事统帅指挥的单位可以晋升“医疗三级”，使你的部队在敌方领土上作战时能够快速恢复战斗力。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_61</Tag>
+<English>Your Fighters can intercept multiple enemy planes per turn, but become less effective at it as they get damage, so take care to repair your defensive planes.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的战斗机能够在同一回合内多次拦截敌机，但战斗中的损伤会降低拦截效率，因此请注意让受损战斗机暂停执行任务以恢复战斗力。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_62</Tag>
+<English>Use the Submarine's stealth along with its ability to carry conventional and tactical nuclear missiles to launch a devastating opening attack on another landmass.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>注意运用好潜艇的隐蔽能力和携带常规导弹及战术核导弹的能力，对敌人的遥远的后方发动毁灭性的奇袭。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_63</Tag>
+<English>Keep some spies in your borders for counter-espionage. Enemy spies can wreak havoc!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>记得在本国领土上留一部分间谍执行反间谍任务，防备敌方间谍暗中破坏！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_64</Tag>
+<English>Short on gold? Send your spies to steal from your neighbors!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>现金出现短缺了？派间谍到你的邻居那里去偷一些回来吧！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_65</Tag>
+<English>Mounted units cause flanking damage to certain Siege weapons. For example, all Cannons in an enemy stack are damaged if an attacking Cavalry unit survives the battle!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>骑乘单位可通过迂回打击对相应时代的压制武器造成损伤。例如当你用近代骑兵发动攻击，且未在战斗中被消灭，则敌方受攻击集群中的所有加农炮都将受损！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_UNITS_UNDER_ATTACK_UNKNOWN</Tag>
+<English>Your forces are under attack!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的部队遭到攻击！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_BASE_COST</Tag>
+<English>%d1 [ICON_ESPIONAGE]: Base Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1 [ICON_ESPIONAGE]: 基准花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_POPULATION_MOD</Tag>
+<English>%D1%%: for City Size</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于城市规模</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TRADE_ROUTE_MOD</Tag>
+<English>%D1%%: for Trade Routes</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于商路</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_RELIGION_MOD</Tag>
+<English>%D1%%: for our State Religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于本国官方信仰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CULTURE_MOD</Tag>
+<English>%D1%%: for City Culture</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于城市文化</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DEFENSE_MOD</Tag>
+<English>%D1%%: for City Espionage Defense</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于城市间谍防御能力</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DISTANCE_MOD</Tag>
+<English>%D1%%: for Distance</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于城市防御能力</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SPY_STATIONARY_MOD</Tag>
+<English>%D1%%: for Stationary Spy</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于间谍潜伏</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_EP_RATIO_MOD</Tag>
+<English>%D1%%: for Espionage Point Spending</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于谍报点数消耗</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_COUNTERESPIONAGE_MOD</Tag>
+<English>%D1%%: for Counterespionage</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1%%: 由于反间谍行动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_COST_TOTAL</Tag>
+<English>%d1 [ICON_ESPIONAGE]: Total Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d1 [ICON_ESPIONAGE]: 总花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLOT_DAMAGE</Tag>
+<English>Damage per Turn: %d1_Amt%%</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>Damage per Turn: %d1_Amt%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_LIBERATE_CITY</Tag>
+<English>Liberate</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>解放城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_LIBERATE_CITY_HELP</Tag>
+<English>Gift the city of %s1_city to %s2_player</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将%s1_city转交给%s2_player</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMORY_LIBERATED_CITIES</Tag>
+<English>"You liberated our cities"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你解放了我们的城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_RELIGIOUS_VICTORY</Tag>
+<English>Religious Leader (Diplomatic Victory)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>最高宗教领袖(外交胜利)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_POPE</Tag>
+<English>Apostolic Palace Election (Winner Proposes Apostolic Palace Resolutions)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选举教皇监护(获胜者可提出教皇宫议案)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_INSTANCE_COST_MOD</Tag>
+<English>Each Unit in Play Increases Base Cost by %d1%%</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>每个现役单位基准花费增加%d1%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_NO_ACTIVE_MISSIONS</Tag>
+<English>Spies Cannot Enter Our Borders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>间谍无法进入我国领土</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HELP_NO_ESPIONAGE</Tag>
+<English>[COLOR_WARNING_TEXT]Cannot Perform Espionage[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]无法执行谍报任务[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HELP_NO_ESPIONAGE_REASON_MOVED</Tag>
+<English>[COLOR_WARNING_TEXT][SPACE](Moved)[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT][SPACE](已移动位置)[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_HELP_NO_ESPIONAGE_REASON_VISIBLE</Tag>
+<English>[COLOR_WARNING_TEXT][SPACE](Visible by %s1_player)[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT][SPACE](已被%s1_player发现)[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_SHOW_CORPORATION_SCREEN</Tag>
+<English>Corporation Advisor</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>商业公司顾问</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ADVANCED_START_POINTS</Tag>
+<English>Advanced Start Base Points:</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>高级开局初始点数:</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FORCE_ADVANCED_START</Tag>
+<English>Force Advanced Start</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>强制高级开局</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_LEGAL_LINE_1</Tag>
+<English>©2007 Take-Two Interactive Software and its subsidiaries. Developed by Firaxis Games. Sid Meier's Civilization IV: Warlords, Civ, Civilization, 2K Games, the 2K logo, Firaxis Games, the Firaxis Games logo and Take-Two Interactive Software are all trademarks and/or registered trademarks of Take-Two Interactive Software, Inc. in the USA and/or foreign countries. GameSpy and the "Powered by GameSpy" design are trademarks of GameSpy Industries, Inc. All other marks and trademarks are the property of their respective owners. Uses Bink Video (Copyright ©1997-2007 by RAD Game Tools, Inc.). Uses Miles Sound System ©1991-2007 by RAD Game Tools, Inc.). Portions of this software are included under license from Numerical Design, Ltd. (©2007) and Scaleform Corporation (©2007). Unauthorized copying,reverse engineering, transmission, public performance, rental, pay for play, or circumvention of copy protection is strictly prohibited. All rights reserved. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>©2007 Take-Two交互娱乐公司及其分支机构代理发行, Firaxis游戏公司开发. 文明IV, 战争之王, 2K游戏, 2K标志, Firaxis游戏, Firaxis标志以及Take-Two交互软件均为Take-Two交互软件公司在美国及/或其他国家的商标或注册商标. GameSpy和 "GameSpy动力" 为GameSpy实业公司的商标. 所有其他标志和商标均属于相应所有者. 本软件还使用了: Bink视频技术(©1997-2007 RAD游戏工具公司), Miles音频系统(©1991-2007 RAD游戏工具公司). 本软件的某些部分由Numerical设计公司(©2007)及Scaleform公司(©2007)提供许可证. 严格禁止任何未经授权的复制, 反向工程, 传输, 市场推广, 租借, 购买或破解行为. 保留所有相关权利. </Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_CANT_TRADE</Tag>
+<English>Can't Trade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无法交易</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_AS_UNREMOVABLE</Tag>
+<English>[NEWLINE][COLOR_WARNING_TEXT]Not removable[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE][COLOR_WARNING_TEXT]不可移动[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_AIR_COMBAT_PEDIA_SR</Tag>
+<English>[H1]Air Combat[\H1][PARAGRAPH:2]Air Units assigned to the "Intercept" Mission will now defend against attacks by other Air Units in a similar manner as land-based units. Upon being attacked, the two units will fight until one of the units is defeated or withdraws. Defending air units can also protect against multiple attacks in the same round. Fighters and Jet Fighters make particularly good defenders, as when they are at full health, they have a 100%% interception rate. Air units also gain experience - and [LINK=CONCEPT_AIR_PROMOTIONS]promotions[\LINK] - by surviving combat.[PARAGRAPH:1]There is now also a limit to the number of Air Units you may garrison in a city or Fort. With an Airport, that number can be increased.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]空战[\H1][PARAGRAPH:2]被指派执行“拦截”任务的空军单位将以类似陆地单位的战斗方式防御敌方空军单位的攻击。空战将持续至某一方单位被击败或撤退。防御方空军单位在同一回合内可多次出动进行拦截。战斗机和喷气式战斗机最适宜执行拦截任务，因其在未受损伤时拦截敌机的几率为100%%。空军单位也能通过战斗积累经验值并获得[LINK=CONCEPT_AIR_PROMOTIONS]晋升[\LINK]。[PARAGRAPH:1]此外一座城市或要塞可容纳的空军单位数量存在上限，建造机场则可提升数量上限。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_ESPIONAGE_PEDIA_SR</Tag>
+<English>[H1]Espionage[\H1][PARAGRAPH:2][BOLD]Espionage Points[\BOLD][PARAGRAPH:1]Using the Espionage Slider, players may assign a percentage of their trade income towards the production of Espionage Points. On the Espionage Screen, these points may be assigned to leaders that the player has met. These points may be used to perform various Active and Passive Espionage Missions. Active Missions require the player to spend Espionage Points and have a spy in the territory of the opponent they wish to perform the mission against. Passive Missions will take effect as the player accrues more points against a specific opponent. Having more espionage points accumulated will increase the cost of your opponents' missions towards you and reduce the cost of your missions towards them.[PARAGRAPH:1]The [LINK=BUILDING_COURTHOUSE]Courthouse[\LINK], [LINK=BUILDING_JAIL]Jail[\LINK], [LINK=BUILDING_PALACE]Palace[\LINK], [LINK=BUILDING_CASTLE]Castle[\LINK], [LINK=BUILDING_NATIONAL_SECURITY]Security Bureau[\LINK] and [LINK=BUILDING_INTELLIGENCE_AGENCY]Intelligence Agency[\LINK] all increase the production of Espionage points. The [LINK=CIVIC_NATIONHOOD]Nationhood[\LINK] Civic also provides an Espionage bonus and the Security Bureau Building increases the point cost of enemy missions in your cities.[PARAGRAPH:2][BOLD]Espionage Screen[\BOLD][PARAGRAPH:1]Espionage Points may be assigned to specific opponents on the Espionage Screen. If you do not assign points to specific leaders, they will be evenly divided between all known civs. By increasing the "Weight" item next to each opponent's portrait, you can assign the portion you would like each opponent to receive. Increasing the weight next to an opponent's name to "1" will assign all Espionage Points to that opponent. Increasing one opponent's weight to "2" while keeping two other opponents' weight at "1" and another's at "0" will give the first opponent twice as many points as the second and third, while the fourth will receive none. You may assign Weights in any fractions you like, up to 99. In this way, you can finely tune the portion of Espionage Points you would like assigned to each of your opponents.[PARAGRAPH:1]Below "Weight" is a number that shows the cost modifier for your Espionage Missions against this opponent. This number is based on the total number of Espionage Points you have spent throughout the game against this opponent. If the number is below 100%% that means you have spent more on Espionage than your opponent, and your missions may be performed at a discount. If the number is greater than 100%%, it means your opponent has spent more on Espionage than you. This will increase the cost of your Espionage Missions directed towards that opponent. The bottom item on the list states exactly how many Espionage Points you earn per turn towards that opponent. You can also see the Espionage Points you have against all players and the points they have against you by hovering the mouse over their score in the main interface.[PARAGRAPH:1]On the right half of the espionage screen is the list of all the Espionage Missions and their costs. You may click on an opponent's portrait to see a list of all their visible cities and the cost of missions in the selected city. Costs vary according to a number of factors, including the size of the city, its distance from your civilization, and religions present. If the cost of a Mission is blank, this means that the Mission requires more information to determine the exact cost, meaning you must move a spy into enemy territory before the mission cost can be determined. [PARAGRAPH:2][BOLD]Spies[\BOLD][PARAGRAPH:1]Spies may be built by a Civilization that has researched [LINK=TECH_ALPHABET]The Alphabet[\LINK]. Spies differ greatly from most units. Completely invisible to enemy Civilizations, Spies can enter enemy territory to perform one Espionage Mission per turn. Active missions are tile sensitive, meaning you will have to sneak your Spy onto the enemy improvement or city you wish to affect. Performing a mission costs a certain number of Espionage Points and will cause an indicator to pop-up for your opponent over the location of the mission, informing him of the act (but not necessarily of your Spy). If the mission succeeds, the Spy may survive to perform more Missions, or she may be caught and destroyed. If the mission fails, the Spy will be destroyed, but no Espionage Points will be consumed. The cost of these Espionage Missions decrease the longer a Spy remains stationary on a tile, but every turn a Spy remains in enemy territory, there is a chance that she will be caught and destroyed. The chances of being caught increase with your opponent's Espionage spending, with the presence of a Security Bureau and if your Spy has recently performed a mission against that tile. If the Spy is caught, there is also a chance that its owner will be revealed.[PARAGRAPH:1]In addition to performing Espionage Missions, Spies also make excellent intelligence gatherers. They can use enemy roads and enter the cities of opponents with whom the player is at war, allowing the player access to otherwise unreachable information. The downside is that spies have a chance to get caught when they end their turn in unwelcome territory, even if they perform no active missions. Unwelcome territory is any territory belonging to a rival with whom you do not have an open borders agreement.[PARAGRAPH:2][BOLD]Missions[\BOLD][PARAGRAPH:1]To perform an Espionage Mission, a player must move a Spy unit to the plot or city where they would like to perform the mission and select the Espionage Mission button.[PARAGRAPH:1]The Espionage Missions are:[NEWLINE][TAB][BOLD]Sabotage Improvement[\BOLD] - Destroy an enemy improvement or route[NEWLINE][TAB][BOLD]Sabotage Building[\BOLD] - Destroy a building within an enemy city[NEWLINE][TAB][BOLD]Steal Treasury[\BOLD] - Steal a portion of your opponent's treasury, between 10 and 100%%[NEWLINE][TAB][BOLD]Spread Culture[\BOLD] - Increase your cultural influence in a city[NEWLINE][TAB][BOLD]Poison Water[\BOLD] - Temporarily increase the amount of unhealthiness within an enemy city[NEWLINE][TAB][BOLD]Foment Unhappiness[\BOLD] - Temporarily increase unhappiness within an enemy city[NEWLINE][TAB][BOLD]Support City Revolt[\BOLD] - Send a city into revolt for one turn. This lowers enemy city defense, but does not remove cultural borders[NEWLINE][TAB][BOLD]Steal Technology[\BOLD] - Steal a technology from an opponent[NEWLINE][TAB][BOLD]Sabotage Production[\BOLD] - Destroys all hammers accumulated towards construction in a city[NEWLINE][TAB][BOLD]Sabotage Project[\BOLD] - Destroys an already completed Spaceship Part[NEWLINE][TAB][BOLD]Influence Civics[\BOLD] - Switch one opponent's civic to match a civic you have adopted[NEWLINE][TAB][BOLD]Influence Religion[\BOLD] - Switch an opponent's state religion to your state religion[NEWLINE][TAB][BOLD]Perform Counterespionage[\BOLD] - Temporarily doubles cost of enemy espionage missions[PARAGRAPH:2][BOLD]Passive Missions[\BOLD][PARAGRAPH:1]Passive Missions activate automatically as you accumulate certain levels of Espionage Points against an opponent. But as your opponent increases his own cache of Espionage Points, the Point costs of your Passive Missions increase in kind, requiring you to up your own Espionage spending to keep the effects. [PARAGRAPH:1]The Passive Missions are:[NEWLINE][TAB][BOLD]Can See Demographics[\BOLD] - Allows you to see enemy demographics on the Info Screen [F9][NEWLINE][TAB][BOLD]Can See Research[\BOLD] - Allows you to see what your opponent is researching and how many turns they have until completion[NEWLINE][TAB][BOLD]City Visibility[\BOLD] - Enemy cities are added to your visibility[NEWLINE][TAB][BOLD]Investigate City[\BOLD] - You may enter enemy city screens by double-clicking on them[PARAGRAPH:2][BOLD]Spy Specialists[\BOLD][PARAGRAPH:1]Spy specialists give a bonus to Espionage output and increase the chance of a Great Spy appearing in a city. The [LINK=BUILDING_COURTHOUSE]Courthouse[\LINK], [LINK=BUILDING_JAIL]Jail[\LINK], [LINK=BUILDING_INTELLIGENCE_AGENCY]Intelligence Agency[\LINK], [LINK=BUILDING_NATIONAL_SECURITY]Security Bureau[\LINK], and [LINK=BUILDING_KREMLIN]Kremlin[\LINK] World Wonder allow the assignment of Spy specialists in a city.[PARAGRAPH:2][BOLD]Great Spies[\BOLD][PARAGRAPH:1]Great Spies may occasionally appear in your city through the use of Spy specialists or Espionage-related Wonders. Invisible to all other units, Great Spies can explore rival territory, and will give a massive bonus of Espionage Points against a specific civilization if you expend the Spy in their city. They may also join a city as a super specialist, increasing science and espionage output of a city; or they may construct a [LINK=BUILDING_SCOTLAND_YARD]Scotland Yard[\LINK] in a city, adding a significant bonus to Espionage production in that city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]谍报[\H1][PARAGRAPH:2][BOLD]谍报点数[\BOLD][PARAGRAPH:1]玩家可以调整谍报滑动条将部分商业收入用于产出谍报点数。产出的谍报点数可以在谍报界面分配用于针对其他文明的谍报投入。投入谍报点数可以用于执行各种“主动型”和“被动型”谍报任务。主动型任务需要每次消耗一定谍报点数并由一名间谍在目标国境内实施。被动型任务指随着针对特定文明的谍报投入的增长自动获得的情报信息。如果你针对某国的累计谍报点数超过该国针对你的，则该国对你谍报活动的成本将升高，你对该国谍报活动的成本将降低。[PARAGRAPH:1][LINK=BUILDING_COURTHOUSE]法庭[\LINK]、[LINK=BUILDING_JAIL]监狱[\LINK]、[LINK=BUILDING_PALACE]宫殿[\LINK]、[LINK=BUILDING_CASTLE]城堡[\LINK]、[LINK=BUILDING_NATIONAL_SECURITY]安全局[\LINK]和[LINK=BUILDING_INTELLIGENCE_AGENCY]情报局[\LINK]均可增加谍报点数的产出。[LINK=CIVIC_NATIONHOOD]民族国家[\LINK]法令也可提供谍报点数加成，安全局还可增加别国在你的城市实施谍报任务所需的花费。[PARAGRAPH:2][BOLD]谍报界面[\BOLD][PARAGRAPH:1]谍报点数在谍报界面分配用于针对其他文明的谍报投入。如果你没有特别指定分配比例，则在所有已知文明间平均分配。通过设置各文明对应的“权重”值，你可以调整针对不同对手的谍报点数分配比例。只设置针对某国的权重值为“1”，即所有谍报点数均投向该国。设置针对某国的权重值为“2”，针对另两国的权重值为“1”，针对其余国家的权重值为“0”，则投向第一个国家的谍报点数分别为投向另两个国家的2倍，没有对其余国家的谍报点数投入。权重值最高可设为99，通过设置你将可以精确地分配针对其他文明的谍报点数投入。[PARAGRAPH:1]“权重”下方的数值表示你针对该国谍报任务的花费修正值。花费修正值由你针对该国的累计谍报点数决定。如果数值低于100%%，则意味着你针对该国的累计谍报点数超过该国针对你的，即你针对该国谍报行动的成本低于该国针对你的。如果数值高于100%%，则情况正好相反。谍报界面列表的最后一项显示你每回合针对该国的谍报点数投入的具体数值。当将光标放在游戏主界面的积分列表上时，你还可查看本国针对别国谍报点数投入汇总值以及别国针对本国的谍报点数投入。[PARAGRAPH:1]谍报界面右边显示所有可选谍报任务及相应花费列表。点击别国领袖头像可查看对方已知城市列表及在相应城市执行谍报任务所需的花费。谍报任务所需的花费受一系列因素影响，包括城市规模、城市与本国的距离及城市居民的宗教信仰状况等。如果某项谍报任务所需花费显示为空白，则意味着尚无法确定该项任务所需花费，你必须先派遣间谍前往进行实地调查。[PARAGRAPH:2][BOLD]间谍[\BOLD][PARAGRAPH:1]训练间谍的前提是获得[LINK=TECH_ALPHABET]字母表[\LINK]科技。间谍与其他单位大不相同。对其他文明来说完全不可见，能够进入敌方领土实施“主动型”谍报任务。主动型谍报任务是与特定地块相关联的，就是说必须派遣间谍前往敌方城市或区域设施所在地才能执行任务。执行任务需要消耗一定的谍报点数，对手将获得所在地有间谍活动的警告信息（但你的间谍不一定会暴露）。任务执行后，间谍可能成功逃脱，也可能被抓获并被消灭。如果任务失败，间谍必定被消灭，但谍报点数不会被消耗掉。间谍在特定位置潜伏时间越长，在该处执行谍报任务的花费越低，但潜伏在敌国的间谍每回合均有一定几率被抓获并被消灭。间谍被抓获的几率随着对方谍报点数的投入、安全局的建成和谍报行动的实施而增大。被抓获的间谍其身份国籍也可能会暴露出来。[PARAGRAPH:1]除了可以执行谍报任务，间谍还可以用来搜集各种情报信息。间谍可以使用敌国道路，潜入敌国城市，获得用其他方式无法获得的情报。使用间谍的坏处是他们在敌方领土上随时可能被抓获。在这里“敌方领土”是指任何未与你签订开放边界条约的国家的领土。[PARAGRAPH:2][BOLD]谍报任务[\BOLD][PARAGRAPH:1]要执行谍报任务，需派遣一个间谍单位前往敌方特定目标城市或区域，并点击谍报任务按钮。[PARAGRAPH:1]谍报任务列表：[NEWLINE][TAB][BOLD]破坏设施[\BOLD]——摧毁敌方区域设施或道路[NEWLINE][TAB][BOLD]破坏建筑[\BOLD]——摧毁敌方城市建筑[NEWLINE][TAB][BOLD]盗窃国库[\BOLD]——从敌方国库盗取部分现金（10%%至100%%）[NEWLINE][TAB][BOLD]文化渗透[\BOLD]——使你的文化在敌方城市中所占比重增加[NEWLINE][TAB][BOLD]毒化水源[\BOLD]——在一段时间内使敌方城市的疾病度增加[NEWLINE][TAB][BOLD]煽动不满[\BOLD]——在一段时间内使敌方城市的不满度增加[NEWLINE][TAB][BOLD]策动城市暴乱[\BOLD]——使敌方城市发生暴乱并持续一个回合。这将降低敌方城市防御等级，但不会影响文化边界[NEWLINE][TAB][BOLD]窃取科技[\BOLD]——从敌国窃取一项科技[NEWLINE][TAB][BOLD]破坏生产[\BOLD]——使敌方城市失去为当前建设项目所积累的产能[NEWLINE][TAB][BOLD]破坏工程[\BOLD]——摧毁敌方城市已建成的太空船组件[NEWLINE][TAB][BOLD]影响政策[\BOLD]——使敌国改行你选择的法令[NEWLINE][TAB][BOLD]影响信仰[\BOLD]——使敌国改奉你的官方信仰[NEWLINE][TAB][BOLD]反间谍行动[\BOLD]——在一段时间内使敌方针对你的谍报行动成本加倍[PARAGRAPH:2][BOLD]被动型任务[\BOLD][PARAGRAPH:1]被动型任务指随着针对特定文明的谍报投入的增长自动获得的情报信息。随着对手谍报投入的增加，你获得特定被动效果所需的谍报点数也将不断增加，必须持续投入谍报点数才能保持已获得的作用效果。[PARAGRAPH:1]被动型任务列表：[NEWLINE][TAB][BOLD]允许查看统计信息[\BOLD]——允许你可在信息界面（[F9]）查看对手的统计报表[NEWLINE][TAB][BOLD]允许查看科研信息[\BOLD]——允许你查看对手当前的科研目标及进展状态[NEWLINE][TAB][BOLD]允许查看城市[\BOLD]——对手的城市范围将成为你的可见区域[NEWLINE][TAB][BOLD]允许查看城市界面[\BOLD]——允许你双击对手的城市进入城市界面[PARAGRAPH:2][BOLD]间谍类专业人员[\BOLD][PARAGRAPH:1]间谍类专业人员提供额外的谍报点数奖励加成，并提升城市产生大间谍的几率。建造[LINK=BUILDING_COURTHOUSE]法庭[\LINK]、[LINK=BUILDING_JAIL]监狱[\LINK]、[LINK=BUILDING_INTELLIGENCE_AGENCY]情报局[\LINK]、[LINK=BUILDING_NATIONAL_SECURITY]安全局[\LINK]以及[LINK=BUILDING_KREMLIN]克里姆林宫[\LINK]的城市允许供养间谍类专业人员。[PARAGRAPH:2][BOLD]大间谍[\BOLD][PARAGRAPH:1]城市可通过供养间谍类专业人员以及建造谍报类奇观催生大间谍。大间谍对所有其他单位隐形，能够探查别国领土。你还可以在别国城市消耗掉大间谍，一次性获得针对该国的高额谍报点数奖励。大间谍也可以作为超级专业人员在某个城市定居，提升该城的科研及谍报点数产出。大间谍还可建造[LINK=BUILDING_SCOTLAND_YARD]苏格兰场[\LINK]，该小奇观所在城市将获得大量谍报点数加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WAR_WEAR_HELP</Tag>
+<English>War Weariness: %d1</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>厌战情绪: %d1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ADVANCED_START_POINTS_HELP</Tag>
+<English>Gold you receive at the start to purchase cities, units, and improvements.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>初始金钱可用于购买城市、单位及区域设施。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_VOTE_NEVER</Tag>
+<English>Never! (Defy resolution)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>绝不接受!(拒绝执行决议)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ANGER_DEFY_RESOLUTION</Tag>
+<English>+%d1_Change[ICON_UNHAPPY]: "The world considers you a villain!"</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>+%d1_Change[ICON_UNHAPPY]: "全世界都视你为恶魔!"</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_QUEST_MESSAGE_LOG</Tag>
+<English>Quests</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLOT_BLOCKADED</Tag>
+<English>Trade Blocked by Enemy Ship</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>商路遭敌方舰船封锁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_TRADE_ROUTE_PLUNDER</Tag>
+<English>%d3[ICON_GOLD] [NUM3:was:were] plundered by a %s1_unit outside %s2_city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%d3[ICON_GOLD]被敌方的%s1_unit所掠取，地点：%s2_city附近。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_TRADE_ROUTE_PLUNDERED</Tag>
+<English>Your %s1_unit has plundered %d3[ICON_GOLD] outside %s2_city!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_unit掠取了%d3[ICON_GOLD]，地点：%s2_city附近！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_THIRD_ROUND_BUILDING_MILITARY_ACADEMY_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Military Academy[COLOR_REVERT] increases a city's military unit production speed by half.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]军事学院[COLOR_REVERT]可使所在城市军事单位组建速度提升一半。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_DEFENSIVE_PACT</Tag>
+<English>Sign a Defensive Pact</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>签订共同防御条约</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_DEFENSIVE_PACT</Tag>
+<English>Sign defensive pact with all members (Requires %d1_ReqNum of %d2_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>与所有成员国签订共同防御条约(需要%d1_ReqNum票，总计%d2_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_OPEN_BORDERS</Tag>
+<English>Open Borders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开放边界</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_ELECTION_OPEN_BORDERS</Tag>
+<English>Sign open borders with all members (Requires %d1_ReqNum of %d2_TotNum Total Votes)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>与所有成员国签订开放边界条约(需要%d1_ReqNum票，总计%d2_TotNum票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_SOURCE_RELIGION</Tag>
+<English>Leaders of %s1_religion have a vision of uniting all %s2_religion_adjective faithful under the %s3_building.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_religion世界的领袖们期望所有%s2_religion_adjective信徒以%s3_building为他们的圣地。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_RESET</Tag>
+<English>[COLOR_HIGHLIGHT_TEXT]Mission Failed! All progress of %s1_player towards a %s2_victory has been lost![COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_HIGHLIGHT_TEXT]任务失败了！%s1_player争取%s2_victory胜利的所有努力付诸东流！[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_ICON_CHANGE_NEARBY_CITIES</Tag>
+<English>[ICON_BULLET]+%d1%F2 in nearby cities</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]+%d1%F2 在邻近城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_NO_MAINT_CORPORATION_MOD</Tag>
+<English>[ICON_BULLET]%D1_Mod%% Maintenance Costs from Corporations</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Mod%% 公司维护费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_NO_MAINT_CORPORATION</Tag>
+<English>[ICON_BULLET]No Maintenance Costs from Corporations</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]无公司维护费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_DISABLES</Tag>
+<English>[ICON_BULLET]Removes access to [LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT] (%F2_BonusIcon) from the city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]切断城市的 [LINK=literal]%s1_BonusName[\LINK][COLOR_REVERT](%F2_BonusIcon)供给。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_FOREST_PRESERVE_PEDIA</Tag>
+<English>[H1]Forest Preserve[\H1][PARAGRAPH:2]The Forest Preserve is a new late-game Improvement that can be used to help spread dwindling Forests and Jungles. You may build a Forest Preserve after researching the Scientific Method Technology. Building a Forest Preserve around a Forest or Jungle makes that tile more likely to spread to adjacent tiles. You may still work tiles that have been Preserved.[PARAGRAPH:1]There also are a number of additional bonuses provided by Forest Preserves. On its own, the Forest Preserve gives a happiness bonus to nearby cities. Combined with the Environmentalism Civic, Forest Preserves provide a bonus to commerce. And when built within the range of a city with a National Park, each Forest Preserve provides a free specialist within that city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]森林保护区[\H1][PARAGRAPH:2]森林保护区是新增的一种区域设施，可在游戏后期促使森林与丛林再生。当你研究出科学方法后将可建立森林保护区。在森林或丛林旁边建立森林保护区使森林有更大可能生长到邻近地块。建有森林保护区的地块仍可安排居民工作。[PARAGRAPH:1]森林保护区还能提供一些额外奖励加成。每块森林保护区可为邻近城市增加1单位快乐点数。配合绿色经济法令，每块森林保护区还可提供1单位商业收入。如果邻近城市建有国家公园，每块森林保护区还可免费供养一位专业人员。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CORPORATION_SPREAD_BONUS</Tag>
+<English>%s1_corporation has brought %s2_bonus to %s3_city. Increase this bonus by acquiring more %s4_bonus_list.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_corporation生产的%s2_bonus已输往%s3_city。获取更多的%s4_bonus_list资源将可增加其产出。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED</Tag>
+<English>A %s1_unit has been stumbled upon while operating near the %s2_civ_adjective city of %s3_city!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>某国的%s1_unit在%s2_civ_adjective的%s3_city的行动被挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED_REVEAL</Tag>
+<English>A %s1_civ_adjective %s2_unit has been stumbled upon while operating near the %s3_civ_adjective city of %s4_city!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_civ_adjective的%s2_unit在%s3_civ_adjective的%s4_city的行动被挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED_SPY</Tag>
+<English>A %s1_unit operating near %s3_city has been thwarted by %s2_civ_adjective counterintelligence agents!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>某国的%s1_unit在%s3_city的行动被%s2_civ_adjective的反间谍特工挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED_SPY_REVEAL</Tag>
+<English>A %s1_civ_adjective %s2_unit operating near %s4_city has been thwarted by %s3_civ_adjective counterintelligence agents!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_civ_adjective的%s2_unit在%s4_city的行动被%s3_civ_adjective的反间谍特工挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED_MISSION</Tag>
+<English>A %s1_unit operating near %s3_city has been caught due to elevated %s2_civ_adjective counterespionage efforts!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>某国的%s1_unit在%s3_city的行动被%s2_civ_adjective的反间谍机构挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPY_INTERCEPTED_MISSION_REVEAL</Tag>
+<English>A %s1_civ_adjective %s2_unit operating near %s4_city has been caught due to elevated %s3_civ_adjective counterespionage efforts!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_civ_adjective的%s2_unit在%s4_city附近的行动被%s3_civ_adjective的反间谍机构挫败！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_CHANCE_OF_SUCCESS</Tag>
+<English>Chance of Success: %d1%%</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>成功几率: %d1%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SPY_SUCCESS</Tag>
+<English>Upon completing the mission the %s1_unit has returned safely to %s2_city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_unit已完成任务并安全返回%s2_city.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_AUTOMATE_RELIGION</Tag>
+<English>Spread Automatically</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>自动传播</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_AUTOMATE_RELIGION_HELP</Tag>
+<English>Will order the unit to automatically spread its religion or corporation</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>命令该单位自动传播宗教信仰或扩展公司业务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MISSIONARIES_AUTOMATED</Tag>
+<English>Missionaries and Executives Start Automated</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>传教士和经理人自动工作</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MISSIONARIES_AUTOMATED_HELP</Tag>
+<English>All Religion Missionaries and Corporation Executives start the game automated</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>所有宗教传教士和公司经理人在出现后自动工作</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ERA_ADVANCE</Tag>
+<English>[ICON_BULLET]Advances to the [COLOR_HIGHLIGHT_TEXT]%s1_era[COLOR_REVERT] Era</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]进入[COLOR_HIGHLIGHT_TEXT]%s1_era[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CANT_NUKE_FRIENDS</Tag>
+<English>[COLOR_WARNING_TEXT]Cannot Nuke Friendly Territory or Units[COLOR_REVERT][NEWLINE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]不能对已方领土或单位进行核打击[COLOR_REVERT][NEWLINE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_APOSTOLIC_PALACE_RESIDENT</Tag>
+<English>Apostolic Palace Resident</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>教皇监护者</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTESOURCE_FULL_MEMBER</Tag>
+<English>Full Member</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>全权成员国</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTESOURCE_VOTING_MEMBER</Tag>
+<English>Voting Member</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>投票成员国</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MEMBERS_TITLE</Tag>
+<English>Members</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>成员国</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_CENTER_REGION</Tag>
+<English>Center Region</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>中心区域</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_PEAKS</Tag>
+<English>Peaks</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>山峰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_DESERT</Tag>
+<English>Desert</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>沙漠</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_OCEAN</Tag>
+<English>Ocean</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>大洋</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_ADVANCED_START_PEACE_REMAINING</Tag>
+<English>%d1 [NUM1:turn:turns] of Universal Peace Remaining</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>全面和平剩余%d1回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CROSSROADS_INI</Tag>
+<English>Carve your fortune from the Crossroads of the World!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>从世界的枢纽获取财富!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_55</Tag>
+<English>During wartime, your ships may sever all naval trade routes entering an enemy city by using the "Blockade" Mission within range of the opposing metropolis. Using a Privateer to blockade a city during peace time will even allow you to plunder gold from your enemy's treasury!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>在战争期间，你的舰船可以在敌方海滨城市附近执行“封锁”任务，阻断其海上商路。在和平时期则可以派遣私掠舰封锁别国城市，从对手的国库里抢钱！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_57</Tag>
+<English>Naval Units performing "Blockade" Missions prevent all enemy trade from passing within their blockading range. Making sure an enemy city is within that range is a sure-fire way to stop enemy trade routes.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>派遣海上单位执行“封锁”任务可以阻断商路，使敌方城市处于封锁区域内即无法从商业贸易中获得收益。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACE_SHIP_ALPHA_CENTAURI</Tag>
+<English>Welcome to Alpha Centauri!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>欢迎来到半人马座阿尔法星!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_DAMAGED_UNITS_BY_FLANKING</Tag>
+<English>Your %s1_unit has damaged %d2 units by flanking the enemy positions.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你的%s1_unit通过迂回打击对敌方%d2个单位造成损伤.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOUR_UNITS_DAMAGED_BY_FLANKING</Tag>
+<English>A %s1_unit has damaged %d2 of our units by flanking our defensive positions.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>敌方的%s1_unit通过迂回打击对我方%d2个单位造成损伤.</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPACESHIP_CHANCE_OF_SUCCESS</Tag>
+<English>Mission Success: %d1%%</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>任务完成度: %d1%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_AGAINST_PLAYER</Tag>
+<English>[ICON_ESPIONAGE] Ratio with %s1_player: %d2/%d3[NEWLINE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_ESPIONAGE] 针对%s1_player支出比率: %d2/%d3[NEWLINE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_CORPORATION_NOT_ACTIVE</Tag>
+<English>[COLOR_WARNING_TEXT]Cannot expand %s1_corporation within %s2_civ_adjective borders[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]%s1_corporation无法在%s2_civ_adjective境内扩展业务[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_CORPORATION_COMPETING_HEADQUARTERS</Tag>
+<English>[COLOR_WARNING_TEXT]Cannot expand %s1_corporation into %s2_corporation Headquarters[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]%s1_corporation无法在%s2_corporation总部所在地扩展业务[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_CORPORATION_NO_RESOURCES</Tag>
+<English>[COLOR_WARNING_TEXT]%s1_city has no access to %s2_bonus_list[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]无法在%s1_city获得%s2_bonus_list[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_UN_FORCE_PEACE</Tag>
+<English>U.N. Peacekeeping</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>联合国维护和平</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UN_VOTE_FORCE_NO_TRADE</Tag>
+<English>U.N. Trade Embargo</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>联合国贸易禁运</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UN_VOTE_FORCE_WAR</Tag>
+<English>U.N. War Resolution</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>联合国战争行动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_UN_ASSIGN_CITY</Tag>
+<English>U.N. Mandate for City Ownership</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>联合国主权认定</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_SCREEN_PLAYER_VOTES</Tag>
+<English>[SPACE](%d1 [NUM1:Vote:Votes])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[SPACE](%d1票)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CITY_LIBERATE</Tag>
+<English>Liberate %s1_city (Gift to %s2_player)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>解放城市: %s1_city (给予%s2_player)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_SPLIT_EMPIRE</Tag>
+<English>Grant Independence to %s1_citylist</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>允许独立: %s1_citylist</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_LIBERATION_DEMAND</Tag>
+<English>Sire, the citizens of %s1_CityName are rightfully asking to join the %s2_civ. Allowing them to do so would make %s3_player quite pleased with us.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>阁下，%s1_CityName的居民希望加入%s2_civ。同意他们的要求将使%s3_player对我们心存感激。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_COLONY_DEMAND</Tag>
+<English>Sire, the costs of maintaining our overseas possession of %s1_CityName are mounting. We should consider granting independence to all of our cities on that continent.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>阁下，继续维持我们的海外领地——%s1_CityName的代价过于高昂。我们应该考虑允许该大陆的城市独立建国。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_LIBERATION_PEDIA</Tag>
+<English>[H1]City Liberation[\H1][PARAGRAPH:2]There will be cases during the course of the game where the citizens of one or more of your cities will feel like they belong more to a civilization other than your own. This may be because their city has a significant amount of rival culture, or perhaps simply because of their proximity to rival territory. When this is the case, you have the option of "liberating" that city. You can see which cities would like to be liberated on the Domestic Advisor Screen [F1], and you can actually liberate them using the "Colony" button on that screen.[PARAGRAPH:1]You can also liberate them by gifting them through the trade screen, where they are specially marked as seeking liberation. Liberating a city is the only way for cities to change hands between a vassal and master civilization. It is also handy when you want to give your colonies cities that are not on their home landmass. Liberating a city will grant the gifting player an attitude bonus towards the player to whom they gift the city.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]解放城市[\H1][PARAGRAPH:2]在游戏中，你属下某些城市的居民可能会希望转而加入另一个文明。这可能是由于这些城市中对方文化族群人口的比例过大，或是由于其地理位置过于接近对方城市。在此情况下，你可以选择“解放”这些城市。你可以在内政顾问界面（F1）查看寻求解放的城市，并可使用“解放城市”按钮解放城市。[PARAGRAPH:1]你也可以在交易窗口解放城市，寻求解放的城市被特别标记。解放城市是宗主国向附庸国转让领土的唯一方式。你可以将不在本大陆的城市移交给附庸国管理。解放城市可以提升受益国与你的关系水平。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_TURNS_LEFT_TO_VICTORY</Tag>
+<English>%d1 [NUM1:Turn:Turns] to Victory!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>距离胜利还有%d1回合!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DESTROY_PROJECT</Tag>
+<English>Sabotage Project</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏工程</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_DESTROY_PRODUCTION</Tag>
+<English>Sabotage Production</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏生产</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HEALTH_EXTRA</Tag>
+<English>%D1_Change[ICON_HEALTHY] from Extra Health</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%D1_Change[ICON_HEALTHY]来自额外奖励</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_TARGET_PRODUCTION_DESTROYED_IN</Tag>
+<English>All %s1_buildName progress in %s2_CityName was destroyed by enemy infiltrators!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_buildName的建设遭敌方间谍破坏, 所在地: %s2_CityName!</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_MAX_UNITS_PER_CITY</Tag>
+<English>[COLOR_WARNING_TEXT]Maximum %d1 [NUM1:unit:units] per city[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]每座城市限%d1个单位[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVILOPEDIA_STRATEGY</Tag>
+<English>[BOLD]Strategy:[\BOLD][PARAGRAPH:1]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[BOLD]策略:[\BOLD][PARAGRAPH:1]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVILOPEDIA_BACKGROUND</Tag>
+<English>[BOLD]Background:[\BOLD][NEWLINE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[BOLD]背景:[\BOLD][NEWLINE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MESOAMERICA_WB_DESC</Tag>
+<English>Mesoamerica is on the brink of the most spectacular collision of culture the world has ever known. The Mayan and Aztec civilizations have gained unimaginable power and wealth; ruling their domain with powerful armies at the behest of bloodthirsty gods. Unbeknownst to them, a new shadow looms. The Spanish conquistadors, eyes sparkling with the promise of gold, sail just beyond the horizon.[NEWLINE][NEWLINE]Features:[NEWLINE][NEWLINE]Capturing:[NEWLINE]You can capture units in combat instead of killing them, leaving you plenty of people to sacrifice after the battle.[NEWLINE][NEWLINE]Sacrifice:[NEWLINE]You can take units back to your cities and sacrifice them for either a culture or happiness bonus.[NEWLINE][NEWLINE]The Spanish:[NEWLINE]Periodically, a wave of Spanish conquistadors will arrive on your shores. Be prepared![NEWLINE][NEWLINE]Disease:[NEWLINE]The Spanish conquistadors carry smallpox, which can infect nearby units. Infected units, although crippled, have significant advantage when attacking cities, and can be used to your advantage.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>中美洲地区发生过世界历史上最为激烈的文化冲突，那里的玛雅人和阿兹特克人曾拥有令人难以想像的力量和财富，在嗜血神灵的佑护下统治着广阔的土地。他们不会预料到一场黑暗厄运的降临——西班牙征服者跨越大洋而来，眼光中闪烁着对黄金的渴望。[NEWLINE][NEWLINE]特色：[NEWLINE][NEWLINE]俘获：[NEWLINE]赢得战斗胜利后，敌人不是被消灭而是被俘获，用作献祭神灵的人牲。[NEWLINE][NEWLINE]献祭：[NEWLINE]将俘获的敌人带回本国城市献祭，以换取文化和快乐点数奖励。[NEWLINE][NEWLINE]西班牙人：[NEWLINE]西班牙征服者将分批出现于海滨地区。要小心提防！[NEWLINE][NEWLINE]瘟疫：[NEWLINE]西班牙征服者带来的天花会传染给临近单位。感染天花的单位移动力下降，但在攻击城市时拥有巨大优势，请善加利用。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_CRISTO_REDENTOR_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Cristo Redentor[COLOR_REVERT] allows its builder to switch [COLOR_HIGHLIGHT_TEXT]Religions[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Civics[COLOR_REVERT] instantly once per turn, with no anarchy. It also increases the chances of a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT] appearing.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建成[COLOR_BUILDING_TEXT]耶稣巨像[COLOR_REVERT]允许每回合改变一次[COLOR_HIGHLIGHT_TEXT]官方信仰[COLOR_REVERT]或[COLOR_HIGHLIGHT_TEXT]内政法令[COLOR_REVERT]，并不会导致无政府状态，还可提升[COLOR_UNIT_TEXT]大工程师[COLOR_REVERT]的出现几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_INTERFACE_55</Tag>
+<English>Press [CTRL + C] to select all units of the same type on the same tile as the active unit.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>按 [CTRL + C] 选中同一区块同一类型的单位...</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_EGYPT_WARCHARIOT_STRATEGY</Tag>
+<English>This early mounted combat unit (the Egyptian replacement for the [COLOR_UNIT_TEXT]Chariot[COLOR_REVERT]) is immune to first strikes but gets no defensive bonuses.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种早期的骑乘单位（埃及用以取代[COLOR_UNIT_TEXT]战车[COLOR_REVERT]）可以无视敌人的先发打击，但无法获得防御加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_AMERICAN_NAVY_SEAL_STRATEGY</Tag>
+<English>This powerful modern infantry unit (the American replacement for the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT]) gets a bonus against [COLOR_UNIT_TEXT]Artillery[COLOR_REVERT] and [COLOR_UNIT_TEXT]Machine Guns[COLOR_REVERT]. It starts with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotions.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种强大的现代陆战单位（美国用以取代[COLOR_UNIT_TEXT]海军陆战队[COLOR_REVERT]）在对抗[COLOR_UNIT_TEXT]火炮[COLOR_REVERT]和[COLOR_UNIT_TEXT]重机枪[COLOR_REVERT]时可获得加成奖励。它天生具有[COLOR_HIGHLIGHT_TEXT]两栖作战[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]长途行军[COLOR_REVERT]晋升。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_ENGLISH_REDCOAT_STRATEGY</Tag>
+<English>This powerful gunpowder combat unit (the English replacement for the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT]) gets a bonus against mounted units and other gunpowder units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种强大的火器近战部队（英国用以取代[COLOR_UNIT_TEXT]来复枪兵[COLOR_REVERT]）在攻击骑乘单位及其他火器部队时可以得到一定加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER_STRATEGY</Tag>
+<English>This early gunpowder combat unit (the French replacement for the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT]) is faster than other non-mounted units at this stage of the game.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种早期的火器近战部队（法国用以取代[COLOR_UNIT_TEXT]火枪手[COLOR_REVERT]）比同时代其他非骑乘单位的移动能力要高一些。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_INFANTRY_STRATEGY</Tag>
+<English>This unit is the first modern era soldier. Use it to counter enemies with lots of gunpowder units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种部队是第一种现代军事单位，可以对抗大量火器部队。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_FORGE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT] allows a city to produce units and buildings faster, but also adds unhealthiness in cities. [COLOR_BUILDING_TEXT]Forges[COLOR_REVERT] are required to build the [COLOR_BUILDING_TEXT]Colossus[COLOR_REVERT], [COLOR_BUILDING_TEXT]Eiffel Tower[COLOR_REVERT], and [COLOR_BUILDING_TEXT]Statue of Liberty[COLOR_REVERT] world wonders, and the [COLOR_BUILDING_TEXT]Ironworks[COLOR_REVERT] national wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]煅造场[COLOR_REVERT]可提升城市的生产能力，但也会影响城市健康度。[COLOR_BUILDING_TEXT]煅造场[COLOR_REVERT]是建造[COLOR_BUILDING_TEXT]青铜巨像[COLOR_REVERT]、[COLOR_BUILDING_TEXT]埃菲尔铁塔[COLOR_REVERT]和[COLOR_BUILDING_TEXT]自由女神像[COLOR_REVERT]世界奇观，以及[COLOR_BUILDING_TEXT]大铁厂[COLOR_REVERT]国家奇观的前提。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_KOREAN_HWACHA_STRATEGY</Tag>
+<English>The [COLOR_UNIT_TEXT]Hwacha[COLOR_REVERT], the Korean replacement for the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT], provides all the crushing power of the classic siege weapon but also receives a major bonus against melee units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_UNIT_TEXT]火厢车[COLOR_REVERT]为高丽特色单位，替代[COLOR_UNIT_TEXT]投石车[COLOR_REVERT]，除了传统压制武器的威力，还拥有对肉搏单位的战斗加成。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_SCOTLAND_YARD_STRATEGY</Tag>
+<English>[COLOR_BUILDING_TEXT]Scotland Yard[COLOR_REVERT] provides a +100%% bonus to Espionage output.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]苏格兰场[COLOR_REVERT]可使谍报点数产出+100%%。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_APOSTOLIC_PALACE</Tag>
+<English>Apostolic Palace and UN</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>教皇宫与联合国</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_NEEDS_OUT_RIVAL_CULTURE_BORDER</Tag>
+<English>[COLOR_WARNING_TEXT]Must be outside rival Cultural Borders.[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]必须在敌方文化边界以外执行。[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ACTION_PLUNDER_IN_BORDERS</Tag>
+<English>[COLOR_WARNING_TEXT]Must be outside Cultural Borders.[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_WARNING_TEXT]必须在本方文化边界以外执行。[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PING_RECEIVED</Tag>
+<English>Ping received from %s1_player.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>收到来自%s1_player的信号。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_THE_CITY</Tag>
+<English>the city</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_THE_RELIGION</Tag>
+<English>the religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>信仰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_EVENT_THE_UNIT</Tag>
+<English>unit</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_INSERT_CULTURE</Tag>
+<English>Spread %d2[ICON_CULTURE] to %s1_city (%d3%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>将%d2[ICON_CULTURE]文化传播到%s1_city（%d3%%）</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_NO_ANARCHY</Tag>
+<English>[ICON_BULLET]No Anarchy[NEWLINE][ICON_BULLET]Minimal wait between Civics or State Religion changes</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]不经历无政府状态[NEWLINE][ICON_BULLET]减少改变内政法令或官方信仰间隔时间</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_ANARCHY_TIMER_MOD</Tag>
+<English>[ICON_BULLET]%D1%% wait between Civics or State Religion changes</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]改变内政法令或官方信仰间隔时间%D1%%</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_TERRAIN_ATTACK</Tag>
+<English>(Terrain Attack: %D1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(地形攻击: %D1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_START_GOLDENAGE_HELP</Tag>
+<English>This order will consume one or more Great People (of different types) and initiate a Golden Age (extra [ICON_PRODUCTION], [ICON_COMMERCE], [ICON_GREATPEOPLE], no Anarchy).</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这项命令将消耗掉一位或多位（不同类型的）伟人并使你进入黄金时代（增加[ICON_PRODUCTION]与[ICON_COMMERCE]，不经历无政府状态）。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAIN_MENU_NOT_UNIQUE_DESC</Tag>
+<English>%s1_leader has been chosen by more than one player. All players must choose a unique leader for anonymous play.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_leader已被多位玩家所选择。匿名模式下每位玩家选择的领袖不能重复。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_CIVS</Tag>
+<English>Beyond the Sword Civilizations</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增文明</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_BUILDINGS</Tag>
+<English>Beyond the Sword Buildings</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增建筑</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_UNITS</Tag>
+<English>Beyond the Sword Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_LEADERS</Tag>
+<English>Beyond the Sword Leaders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增领袖</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_WONDERS</Tag>
+<English>Beyond the Sword Wonders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增奇观</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_TECHS</Tag>
+<English>Beyond the Sword Technologies</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上新增科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BTS_RULES_CHANGES</Tag>
+<English>Beyond the Sword Rules Changes</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>刀剑之上规则修改</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_RIVERS</Tag>
+<English>Rivers</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>河流</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_EVENTS</Tag>
+<English>No Random Events</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>禁止随机事件</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_EVENTS_HELP</Tag>
+<English>Random Events do not occur</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不发生随机事件</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_NO_TECH_BROKERING</Tag>
+<English>No Technology Brokering</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>禁止倒卖科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISSION_PLUNDER</Tag>
+<English>Blockade</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>封锁</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_SCREEN_TITLE</Tag>
+<English>Corporation Advisor</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>商业公司顾问</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_SCREEN_HEADQUARTERS</Tag>
+<English>Headquarters:</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>总部:</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAIN_MENU_BTS_MOD</Tag>
+<English>Mod</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>模组</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAIN_MENU_BTS_SCENARIO</Tag>
+<English>Scenario</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>剧情</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_TECHS</Tag>
+<English>Techs</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FOREIGN_ADVISOR_NONE</Tag>
+<English>None</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_DONT_GROUP</Tag>
+<English>Don't Group Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>取消单位分组</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_GROUP_STACK</Tag>
+<English>Group by Stack</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>按单位堆叠分组</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_GROUP_COMBAT</Tag>
+<English>Group by Combat Type</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>按单位类型分组</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MILITARY_ADVISOR_GROUP_LOCATION</Tag>
+<English>Group by Location</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>按单位位置分组</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN_SPENDING_WEIGHT</Tag>
+<English>Weight</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>权重</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN_COST</Tag>
+<English>Cost</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>花费</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN_MISSIONS</Tag>
+<English>Missions</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>任务</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_SCREEN_PASSIVE_EFFECTS</Tag>
+<English>Passive Effects</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>被动效果</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_RELIGION_UNKNOWN</Tag>
+<English>a Religion</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>未知信仰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_PICK_RELIGION</Tag>
+<English>Choose Religions</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>选择信仰</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_1</Tag>
+<English>ModPlayerOption1</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>ModPlayerOption1</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_2</Tag>
+<English>ModPlayerOption2</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>ModPlayerOption2</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_MODDER_3</Tag>
+<English>ModPlayerOption3</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>ModPlayerOption3</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WB_AS_TECH</Tag>
+<English>Techs</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>科技</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_NO_ENEMY_GLOW</Tag>
+<English>No Enemy Glow</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不加亮显示敌人</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_CONTINENTS_SIZE</Tag>
+<English>Continents Size</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>大陆面积</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ISLANDS_SIZE</Tag>
+<English>Islands Size</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>岛屿面积</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ISLAND_OVERLAP</Tag>
+<English>Island Overlap</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>岛屿重叠</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ISLAND_REGION_SEPARATE</Tag>
+<English>Island Region Separate</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>岛屿分隔</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ISLANDS_MIXED_IN</Tag>
+<English>Islands Mixed In</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>岛屿混置</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GAME_OPTION_LEAD_ANY_CIV</Tag>
+<English>Unrestricted Leaders</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>领袖无国籍限制</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GRAPHICS_SETTINGS_MOVIE_QUALITY</Tag>
+<English>Movie Quality</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>视频质量</Chinese>
+</TEXT>
+</Civ4GameText>

@@ -1,196 +1,196 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_VASSAL</Tag>
 		<English>Viceroyalty of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1×Ü¶½</Chinese>
+		<Chinese>%s1æ€»ç£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_INDONESIA</Tag>
 		<English>%s2 East Indies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷Êô¶«Ó¡¶È</Chinese>
+		<Chinese>è¥¿å±žä¸œå°åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_ARAGONESE</Tag>
 		<English>Aragonese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­¹±</Chinese>
+		<Chinese>é˜¿æ‹‰è´¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_NAME_MUGHALS</Tag>
 		<English>West India</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÎ÷Ó¡¶È</Chinese>
+		<Chinese>è¥¿å±žè¥¿å°åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_COMMUNIST</Tag>
 		<English>Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_AMERICA</Tag>
 		<English>Province of New Mexico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÐÂÄ«Î÷¸ç</Chinese>
+		<Chinese>è¥¿å±žæ–°å¢¨è¥¿å“¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_IBERIA</Tag>
 		<English>Iberia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÁ±ÈÀûÑÇ</Chinese>
+		<Chinese>ä¼Šæ¯”åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_IBERIAN</Tag>
 		<English>Iberian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÁ±ÈÀûÑÇ</Chinese>
+		<Chinese>ä¼Šæ¯”åˆ©äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_MAYA</Tag>
 		<English>Diocesis of Yucat&#225;n</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÓÈ¿¨Ì¹</Chinese>
+		<Chinese>è¥¿å±žå°¤å¡å¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_CROWN_OF</Tag>
 		<English>Crown of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_PORTUGAL</Tag>
 		<English>Autonomous Community of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÆÏÌÑÑÀ</Chinese>
+		<Chinese>è¥¿å±žè‘¡è„ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_AL_ANDALUS</Tag>
 		<English>Al-Andalus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²´ïÂ¬Ë¹</Chinese>
+		<Chinese>å®‰è¾¾å¢æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_BYZANTIUM</Tag>
 		<English>Latin Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÀ­¶¡Íõ¹ú</Chinese>
+		<Chinese>è¥¿å±žæ‹‰ä¸çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_PEOPLES</Tag>
 		<English>Asturian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢Ë¹Í¼ÀïÑÇÈË</Chinese>
+		<Chinese>é˜¿æ–¯å›¾é‡Œäºšäºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_ADJECTIVE</Tag>
 		<English>Spanish</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀ</Chinese>
+		<Chinese>è¥¿ç­ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_CASTILE</Tag>
 		<English>Castile</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¨Ë¹µÙ¶û</Chinese>
+		<Chinese>å¡æ–¯è’‚å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_ARGENTINA</Tag>
 		<English>Viceroyalty of the Rio de la Plata</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÀ­ÆÕÀ­ËþºÓ</Chinese>
+		<Chinese>è¥¿å±žæ‹‰æ™®æ‹‰å¡”æ²³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_ETHIOPIA</Tag>
 		<English>%s2 East Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷Êô¶«·Ç</Chinese>
+		<Chinese>è¥¿å±žä¸œéž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_FRANCE</Tag>
 		<English>Autonomous Community of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷Êô·¨¹ú</Chinese>
+		<Chinese>è¥¿å±žæ³•å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_DESC</Tag>
 		<English>The Spanish</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀÎÄÃ÷</Chinese>
+		<Chinese>è¥¿ç­ç‰™æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_SHORT_DESC</Tag>
 		<English>Spain</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀ</Chinese>
+		<Chinese>è¥¿ç­ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_NAME_KHMER</Tag>
 		<English>Indochina</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÖÐÄÏ°ëµº</Chinese>
+		<Chinese>è¥¿å±žä¸­å—åŠå²›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_MOORS</Tag>
 		<English>%s2 Protectorate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1-%s2±£»¤¹ú</Chinese>
+		<Chinese>%s1-%s2ä¿æŠ¤å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_CARTHAGE</Tag>
 		<English>%s2 Lebanon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2-Àè°ÍÄÛ</Chinese>
+		<Chinese>%s2-é»Žå·´å«©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_CASTILIAN</Tag>
 		<English>Castilian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿¨Ë¹µÙ¶û</Chinese>
+		<Chinese>å¡æ–¯è’‚å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_FASCIST</Tag>
 		<English>%s2 State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾üÕþ¸®</Chinese>
+		<Chinese>%s1å†›æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_NAME_AZTECS</Tag>
 		<English>New Spain</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÐÂÎ÷°àÑÀ</Chinese>
+		<Chinese>è¥¿å±žæ–°è¥¿ç­ç‰™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_ARAGON</Tag>
 		<English>Aragon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­¹±</Chinese>
+		<Chinese>é˜¿æ‹‰è´¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_NETHERLANDS</Tag>
 		<English>%s2 %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÄáµÂÀ¼ÁªÊ¡</Chinese>
+		<Chinese>è¥¿å±žå°¼å¾·å…°è”çœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_MALI</Tag>
 		<English>%s2 West Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÎ÷·Ç</Chinese>
+		<Chinese>è¥¿å±žè¥¿éž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPANISH_COLOMBIA</Tag>
 		<English>Viceroyalty of New Granada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷ÊôÐÂ¸ñÀ­ÄÉ´ï</Chinese>
+		<Chinese>è¥¿å±žæ–°æ ¼æ‹‰çº³è¾¾</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SPAIN_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

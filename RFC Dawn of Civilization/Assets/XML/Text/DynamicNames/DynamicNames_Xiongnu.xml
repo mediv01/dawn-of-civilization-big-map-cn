@@ -1,101 +1,101 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_MISC_HELP_PROD_XIONGNU</Tag>
 		<English>[ICON_BULLET]%D1%%[ICON_PRODUCTION] for Light Cavalry</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]гАфО╠Ь+%D1%%[ICON_PRODUCTION] </Chinese>
+		<Chinese>[ICON_BULLET]Х╫╩И╙▒Е┘╣+%D1%%[ICON_PRODUCTION] </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU1</Tag>
 		<English>Succesfully demand tribute from 5 different civilizations by 210 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╧╚т╙210дЙг╟Ёи╧╕юукВ5╦Ж╡╩м╛╣дндцВ</Chinese>
+		<Chinese>Е┘╛Е┘┐210Е╧╢Е┴█Ф┬░Е┼÷Е▀▓Г╢╒5Д╦╙Д╦█Е░▄Г └Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_110</Tag>
 		<English>India</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>с║╤х</Chinese>
+		<Chinese>Е█╟Е╨╕</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_XIONGNU</Tag>
 		<English>It is the year 300 BC. The unification of the dispirate tribes of the Mongolian-Manchurian grasslands under Modu Chanyu affords the Xiongnu Confederation a great enough manpower to extend its influence into the neighboring regions and beyond.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ожтзйг╧╚т╙г╟300дЙ║ёци╧е-бЗжч╡щт╜иоснда╡©бДтзц╟╤ы╣╔сзмЁжноб╣дмЁр╩ё╛н╙пые╚а╙цклА╧╘аквЦ╧╩╣дхка╕ё╛©ирт╫╚фДс╟оЛю╘╢С╣╫жэ╠ъ╣ьгЬ╨мфДкШ╣ьгЬ║ё</Chinese>
+		<Chinese>Г▌╟Е°╗Ф≤╞Е┘╛Е┘┐Е┴█300Е╧╢Ц─┌Х▓≥Е▐╓-Ф╩║Ф╢╡Х█┴Е▌÷Д╦┼Ф╦╦Г┴╖И┐╗Х░╫Е°╗Е├▓И║©Е█∙Д╨▌Г╩÷Ф╡╩Д╦▀Г └Г╩÷Д╦─О╪▄Д╦╨Е▄┬Е╔╢Х│■Г⌡÷Ф▐░Д╬⌡Д╨├Х╤ЁЕ╓÷Г └Д╨╨Е┼⌡О╪▄Е▐╞Д╩╔Е╟├Е┘╤Е╫╠Е⌠█Ф┴╘Е╓╖Е┬╟Е▒╗Х╬╧Е°╟Е▄╨Е▓▄Е┘╤Д╩√Е°╟Е▄╨Ц─┌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU1_TITLE</Tag>
 		<English>Heqin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╨мгв</Chinese>
+		<Chinese>Е▓▄Д╨╡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU2</Tag>
 		<English>Be the largest civilization in the world in 210 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╧╚т╙210дЙг╟Ёин╙аЛмацФ╩ЩвН╢С╣дндцВ</Chinese>
+		<Chinese>Е┘╛Е┘┐210Е╧╢Е┴█Ф┬░Д╦╨И╒├Е°÷И²╒Г╖╞Ф°─Е╓╖Г └Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_XIANBEI</Tag>
 		<English>Xianbei  Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ой╠╟╡©бДа╙цк</Chinese>
+		<Chinese>И╡°Е█▒И┐╗Х░╫Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2╣ш╧З</Chinese>
+		<Chinese>%s2Е╦²Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_SHORT_DESC</Tag>
 		<English>Xiongnu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пые╚</Chinese>
+		<Chinese>Е▄┬Е╔╢</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_HUIHU</Tag>
 		<English>Huihu Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╩ьВ╫╡©бДа╙цк</Chinese>
+		<Chinese>Е⌡·И╧≤И┐╗Х░╫Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_ROURAN</Tag>
 		<English>Rouran Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>хАх╩╡©бДа╙цк</Chinese>
+		<Chinese>Ф÷■Г└╤И┐╗Х░╫Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MODU_CHANYU</Tag>
 		<English>Modu Chanyu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ц╟╤ы╣╔сз</Chinese>
+		<Chinese>Е├▓И║©Е█∙Д╨▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_LARGEST_CIV</Tag>
 		<English>Largest Civilization: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>аЛмавН╢С╣дндцВё╨%s1</Chinese>
+		<Chinese>И╒├Е°÷Ф°─Е╓╖Г └Ф√┤Ф≤▌О╪ %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_XGU_TITLE</Tag>
 		<English>The Power of Nomads:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>снда╢╚мЁё╨</Chinese>
+		<Chinese>Ф╦╦Г┴╖Д╪═Г╩÷О╪ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_DEFAULT</Tag>
 		<English>Xiongnu Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пые╚╡©бДа╙цк</Chinese>
+		<Chinese>Е▄┬Е╔╢И┐╗Х░╫Х│■Г⌡÷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_PEOPLES</Tag>
 		<English>Xiongnu Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пые╚хк</Chinese>
+		<Chinese>Е▄┬Е╔╢Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_XIONGNU_GULI</Tag>
@@ -107,48 +107,48 @@
 		<Tag>TXT_KEY_BUILDING_XIONGNU_GER_TEREG</Tag>
 		<English>Ger-Tereg</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>у╠уй(Ger-Tereg)</Chinese>
+		<Chinese>Ф╞║Е╦░(Ger-Tereg)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_DESC</Tag>
 		<English>The Xiongnu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пые╚ндцВ</Chinese>
+		<Chinese>Е▄┬Е╔╢Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_DEMANDS</Tag>
 		<English>Demands</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>юукВ</Chinese>
+		<Chinese>Е▀▓Г╢╒</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU2_TITLE</Tag>
 		<English>The Great Nomadic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>вН╢С╣дснда╣ш╧З</Chinese>
+		<Chinese>Ф°─Е╓╖Г └Ф╦╦Г┴╖Е╦²Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_ADJECTIVE</Tag>
 		<English>Xiongnu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>пые╚</Chinese>
+		<Chinese>Е▄┬Е╔╢</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU3_TITLE</Tag>
 		<English>Lost Hunnic Connection</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>й╖вы╣дпые╚хк</Chinese>
+		<Chinese>Е╓╠Х╦╙Г └Е▄┬Е╔╢Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU3</Tag>
 		<English>Conquer a city in Europe and India by 560 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╧╚т╙560дЙг╟тзе╥жч╨мс║╤х╦ВуВ╥Чр╩вЫЁгйп</Chinese>
+		<Chinese>Е┘╛Е┘┐560Е╧╢Е┴█Е°╗Ф╛╖Ф╢╡Е▓▄Е█╟Е╨╕Е░└Е╬│Ф°█Д╦─Е╨╖Е÷▌Е╦┌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_XGU</Tag>
 		<English>Cavalry units starts with the Mobility promotion, + 25% production for Light Cavalry units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>снда╢╚мЁё╨</Chinese>
+		<Chinese>Ф╦╦Г┴╖Д╪═Г╩÷О╪ </Chinese>
 	</TEXT>
 </Civ4GameText>

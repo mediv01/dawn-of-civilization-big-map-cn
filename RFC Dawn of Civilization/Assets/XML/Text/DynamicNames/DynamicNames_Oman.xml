@@ -1,40 +1,40 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2帝国</Chinese>
+		<Chinese>%s2甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_PEOPLES</Tag>
 		<English>Azd Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿兹(Azd)人</Chinese>
+		<Chinese>闃垮吂(Azd)浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_DEFAULT</Tag>
 		<English>Imamate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1酋长国</Chinese>
+		<Chinese>%s1閰嬮暱鍥�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_ADJECTIVE</Tag>
 		<English>Omani</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿曼</Chinese>
+		<Chinese>闃挎浖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_SHORT_DESC</Tag>
 		<English>Oman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿曼</Chinese>
+		<Chinese>闃挎浖</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_DESC</Tag>
 		<English>The Omani</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿曼文明</Chinese>
+		<Chinese>闃挎浖鏂囨槑</Chinese>
 	</TEXT>
 </Civ4GameText>

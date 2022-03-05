@@ -1,70 +1,70 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPANESE_KOREA</Tag>
 		<English>Governor-General of Chosen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日占朝鲜</Chinese>
+		<Chinese>鏃ュ崰鏈濋矞</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_FASCIST</Tag>
 		<English>Empire of Greater %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>%s1甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_SHORT_DESC</Tag>
 		<English>Japan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日本</Chinese>
+		<Chinese>鏃ユ湰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_PEOPLES</Tag>
 		<English>Yamato Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>大和人</Chinese>
+		<Chinese>澶у拰浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPANESE_CHINA</Tag>
 		<English>Reorganized National Government of China</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日占中国</Chinese>
+		<Chinese>鏃ュ崰涓浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPANESE_MONGOLIA</Tag>
 		<English>Mengjiang United Autonomous Government</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日占孟加拉</Chinese>
+		<Chinese>鏃ュ崰瀛熷姞鎷�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_ADJECTIVE</Tag>
 		<English>Japanese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日本</Chinese>
+		<Chinese>鏃ユ湰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_DESC</Tag>
 		<English>The Japanese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日本文明</Chinese>
+		<Chinese>鏃ユ湰鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPANESE_VASSAL</Tag>
 		<English>Co-Prosperity %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日占%s1</Chinese>
+		<Chinese>鏃ュ崰%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPAN_DEFAULT</Tag>
 		<English>%s2 Shogunate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2幕府</Chinese>
+		<Chinese>%s2骞曞簻</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_JAPANESE_INDIA</Tag>
 		<English>Azad Hind</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日占印度</Chinese>
+		<Chinese>鏃ュ崰鍗板害</Chinese>
 	</TEXT>
 </Civ4GameText>

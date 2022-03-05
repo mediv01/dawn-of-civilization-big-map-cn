@@ -1,94 +1,94 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_SHORT_DESC</Tag>
 		<English>Peru</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃØÂ³</Chinese>
+		<Chinese>ç§˜é²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2¸ïÃü¾ü</Chinese>
+		<Chinese>%s2é©å‘½å†›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_FASCIST</Tag>
 		<English>Government of the %s2 Armed Forces</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾üÕþ¸®</Chinese>
+		<Chinese>%s1å†›æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹ÈË</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_DESC</Tag>
 		<English>The Inca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¼ÓÎÄÃ÷</Chinese>
+		<Chinese>å°åŠ æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¸ïÃüÁªÃË</Chinese>
+		<Chinese>%s1é©å‘½è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_FOUR_REGIONS</Tag>
 		<English>Four %s2 Regions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2ÁªÃË</Chinese>
+		<Chinese>%s2è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¸ïÃü¾ü</Chinese>
+		<Chinese>%s1é©å‘½å†›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_BOLIVIA</Tag>
 		<English>Bolivia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²£ÀûÎ¬ÑÇ</Chinese>
+		<Chinese>çŽ»åˆ©ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_BOLIVIAN</Tag>
 		<English>Bolivian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²£ÀûÎ¬ÑÇ</Chinese>
+		<Chinese>çŽ»åˆ©ç»´äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_ADJECTIVE</Tag>
 		<English>Incan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¼Ó</Chinese>
+		<Chinese>å°åŠ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_ADJECTIVE</Tag>
 		<English>Peruvian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃØÂ³</Chinese>
+		<Chinese>ç§˜é²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_SHORT_DESC</Tag>
 		<English>Inca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¼Ó</Chinese>
+		<Chinese>å°åŠ </Chinese>
 	</TEXT>
 </Civ4GameText>

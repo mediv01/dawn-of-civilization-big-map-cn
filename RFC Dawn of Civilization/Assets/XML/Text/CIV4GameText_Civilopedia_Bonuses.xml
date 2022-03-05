@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Civilopedia Bonuses -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- BONUS INFOS -->
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ALUMINUM_PEDIA</Tag>
+		<English>A silvery-gray metal, aluminum has a staggering number of uses and applications in the modern age. Just a few benefits include the fact it never rusts, is lighter than copper (and almost as effective in electricity transmission), and is soft enough to easily mold for nearly any purpose. Though the dominant metal in the Earth's composition, aluminum wasn't discovered until 1825, thousands of years after copper and iron. The primary reason for this was the difficulty in extracting the metal from the ore (bauxite). Charles Hall, a 22-year-old American, created what was to become the most cost-effective method of separating aluminum in 1886. His process involved passing an electrical current through aluminum oxide, resulting in separate components of pure aluminum and oxygen.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铝是一种有着广泛用途的银灰色金属。铝具有一些优异的性能，比如从不生锈，比铜轻，却具有和铜差不多的电导率，质地柔软，加工容易。尽管铝是地壳中含量最多的金属，但直到1825年才被发现，是在铁和铜发现之后的几千年，主要原因是从铝矿石中提取金属铝相当困难（现在的铝多半来自铝土矿）。一位22岁的美国人，查尔斯·霍尔在1886年发现了提取铝物质的最有效的方法。他的方法是通过电解氧化铝，从而使纯铝与氧分离。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COAL_PEDIA</Tag>
+		<English>More than 300 million years ago, plant life growing in swamps began to decompose. Layers of sand and mud covered the decomposing plants, and the decaying plants were compressed by the combined weight of water and sediment. Over time, the plant matter hardened and became coal. Coal deposits are mined all over the world, and coal was one of the major fuel sources in the world through the 1970's. In many countries, concern over the environmental effects of the burning of coal has led to a decline in its use. The smoke produced by burning coal has a high acid content, and creates an environmental condition known as "acid rain", which is harmful to plant and animal life. Despite the environmental concerns, some of the largest coal mines in the U.S. each still produce more than 450,000 metric tons annually, making coal mining a very profitable industry.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>三亿多年以前，沼泽地区的植物腐烂后被层层的沙子和泥浆所覆盖。这些腐烂植物在水和沉积物的重压下，慢慢变硬而成为煤。煤层在世界各地被开采，煤也是二十世纪七十年代以来主要的燃料之一。在许多国家，因为燃烧煤所产生的对环境影响的担心而使得煤的使用有所下降。燃烧煤产生的烟雾中含有大量的酸性物质，产生了一种环境现象－酸雨，它对动植物都有害。尽管对环境有害，在美国，一些最大的大煤矿仍然以年产超过45万吨的产量生产，使采煤业成为一个非常赚钱的行业。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HORSE_PEDIA</Tag>
+		<English>Arguably the most useful domesticated animal in mankind's history, horses have existed for some 50 million years. While significant evolution has taken place (early ancestors were under a foot tall), the basic appearance of the horse has remained relatively unchanged. The earliest interaction between horses and men was that of game, with early man hunting them for food. Around 2500 BC, the first signs of domesticated breeds began appearing in Asia, but the idea took hold and spread rapidly. The contributions of the horse to man's conquest of his fellow man were immense, enabling the vast campaigns by Genghis Khan and Alexander the Great. The Spaniards introduced the modern breed to North America in the 16th Century, often turning their imported herds loose before returning to Europe (making valuable room for gold and other treasures). While the importance of horses has dwindled since the advent of the internal combustion engine, they remain a boon in the realms of entertainment and farming.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可以证明马是人类历史上驯化的最有用的动物。马在地球上已经存在了五千万年。始祖马只有一英尺高，虽然经过几次重大的演化，其基本的外观仍未改变。马和人之间的最早的关系是相互竟争，人们为了食物而猎杀它们。约公元前2500年，亚洲人最早驯化了马匹，这一行为迅速获得了传播。马在军事方面的作用是无与伦比的，它成就了成吉思汗和亚历山大的丰功伟绩。西班牙人在16世纪时把现代马的品种引进北美，他们经常在返回欧洲前将大批的马匹卸下，以便腾出宝贵的空间将金银财宝抢运回国。马的重要性直到内燃机的发明才宣布结束，但现在它仍在娱乐和农耕中发挥着作用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_IRON_PEDIA</Tag>
+		<English>When early civilizations began to use metal to construct tools and weapons, the most commonly used metal was bronze. Bronze had the advantage of being readily available and easy to work with. Unfortunately, it was too soft to hold an effective edge. In the mid-14th century BC in central Europe, iron replaced bronze as the metal of choice, and the Iron Age was begun. Since this time, iron has been a valuable commodity. Deposits of iron and iron ore found in mountains are mined and processed for use in their raw form, and in the production of steel.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最早用于制造金属工具和武器的材料是青铜。青铜的优点是获取容易，加工方便，它的缺点是质地太软，难以保持刀刃的锋利。公元前15世纪中期，铁器在欧洲取代了青铜，成为金属的第一选择。铁和铁矿一般蕴藏在山区，可用来炼钢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OIL_PEDIA</Tag>
+		<English>Humans have known oil since ancient times. Oil deposits found on the surface were used for centuries for waterproofing and fuel purposes. But it was not until the coming of the Industrial Revolution that civilizations began to have a dependence on petroleum products. The widespread use of oil for fuel, lubrication, and other purposes has led to a constant search for ever larger deposits. In the mid-1800s, the first oil wells were drilled in Pennsylvania, marking the beginning of a tremendously important and profitable industry. Today, with the world's oil supplies dwindling and the demand for oil constantly rising, oil is a more valuable resource than ever.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>石油自古以来就为人所知。在地表上发现的石油几个世纪以来都被用作防水剂及燃料。但直到工业革命后，文明才开始形成对石油产品的依赖。石油在燃料、润滑、及其它方面的广泛用途让人们开始研究如何大量生产石油。在19世纪中期，第一家油井开始开采，这标志着一项利润可观的基础工业的开始。今天，在世界石油供应萎缩和对石油的需求日益增长的情况下，石油相比以前更成为一种有价值的资源。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_URANIUM_PEDIA</Tag>
+		<English>One of the most valuable metals in the world, uranium's use has dramatically changed since its discovery in 1789. Originally used in the production of steel alloys, uranium improved the strength and elasticity of steel without making it brittle. Since 1939, however, it has rarely been used for anything besides atomic energy. This heavy, white metal's greatest contribution to civilization lies in the process of nuclear fission. Radioactive manipulation of uranium atoms can eject neutrons, which travel at speeds up to 12,000 miles per second. If such a neutron impacts the nucleus of a neighboring atom, the target atom can fragment. Not only is the resulting energy released immense, but the shattered atom can also potentially collide with additional atoms. This chain reaction is the phenomenon underlying all nuclear fission applications, including nuclear weapons and power.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>作为世界上最有价值金属之一的铀，于1789年被发现，其用途曾发生过戏剧性的变化。最初人们在炼钢时添加铀，以增加其韧性，但在1939年后，它几乎只用于原子能方面。这种白色的重金属的最大用处是核裂变。铀原子在受到轰击时释放出中子，而这个中子又以每秒12000英里的速度轰击其它铀原子，如此便形成链式反应，释放出巨大的能量。这种链式反应可用来制造核武器和核电站。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COPPER_PEDIA</Tag>
+		<English>Copper is a metal that has been used by humanity for over five millennia. Copper is a soft metal and in its natural state unsuited for lengthy use - copper swords and daggers become dull very quickly, for instance. It is attractive, however, and was commonly used for pendants, bracelets and other decorative artifacts. By around 3000 BC, it was discovered that melting a bit of zinc or tin with the copper produced a much harder and more useful product: bronze. Within a short period bronze weapons, armor, and tools were in widespread use, and thus the Bronze Age was born.[PARAGRAPH:1]Interestingly, bronze is actually a tougher metal than iron. The Bronze Age was succeeded by the Iron Age not because iron was a better metal, but because tin and zinc had become scarce.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铜被人类使用已经有超过五千年的历史。铜质地柔软，其自然状态也并不适合长时间的使用——铜制长剑和短剑会在短时间内变钝就是很好的例子。但那些用铜制作的坠饰，手镯等史前装饰物则十分漂亮。在公元前3000年左右，人类发现在铜里加入一些锌或者锡可以得到一种更加坚硬实用的物质：青铜。很快青铜制的武器，护甲，工具得到了广泛使用，青铜时代就此开始。[PARAGRAPH:1]有趣的是，青铜实际上比铁更具韧性。青铜时代被铁器时代所取代也并不是因为铁是更优良的金属，只是由于锌和锡的稀缺。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MARBLE_PEDIA</Tag>
+		<English>Marble is a kind of limestone, used by man for millennia. It is a useful material for construction, especially in dry climates. Marble is an excellent material from which to make statues, as well. Marble surfaces can be polished to a beautiful sheen, but the rock remains attractive even when the surface is left rough. [PARAGRAPH:1]The Egyptians used marble blocks to line the outside of the Pyramid of Cheops. The Greeks used blocks of marble to construct some of their buildings; they also used the material to sculpt some of the world's great artworks. The Romans were the first to use slabs of marble as wall coverings. Marble remains one of the most popular construction and artistic materials extant.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大理石是石灰石的一种，被人所利使用已有数千年之久。它主要用于建筑方面，在干燥地区更是如此。在制造雕像方面，大理石是极佳的材料。大理石的表面可以打磨出美丽的光辉，但即使是它粗糙的天然表面也相当有魅力。[PARAGRAPH:1]埃及人用大理石作为胡夫金字塔的外墙。希腊人用大理石块建造了许多建筑；同时还用大理石进行雕刻，创造出了若干世界级的艺术品。罗马人则首先使用大理石板作为墙面材料。大理石至今仍是最受人喜爱的建筑和艺术材料之一。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_STONE_PEDIA</Tag>
+		<English>Stone has always been and remains one of the most important human building materials. In fact, stone tools predate human history. It appears as if the first stone tools were used by Paranthropus, an ancestor of man who lived about two million years ago. [PARAGRAPH:1]Most stone tools are created by chipping or grinding. The former is used when working with crystalline materials such as flint, chert and obsidian. The worker taps the stone with a harder stone, carefully chipping off stone flakes until the stone has been properly shaped. Mesoamerican tribes used this method to make their sharp and deadly obsidian swords. [PARAGRAPH:1]The grinding method is used when working with harder and coarser materials such as basalt and granite. This is a long and tedious process in which the toolmaker repeatedly grinds away the stone with a harder material or with sand, sometimes using water as a lubricant. Many of the earliest European stone axes were made using this process.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>花岗石是用来代表各种常用的建筑石料。事实上，早期人类就开始使用石器。一切迹象表明，生活于两百万年前东非的傍人最先使用石器。[PARAGRAPH:1]许多石器是通过砸碎及打磨制造的。之前的人类使用的是晶体类的原料，例如燧石，黑硅石及黑曜石。工人们用更硬的石头击打这些石头，然后小心翼翼地切下石头碎片，直到原石成型为止。中美洲部落则使用独有的方法制造他们那锋利致命的黑曜石剑。[PARAGRAPH:1]磨制法适用于拥有更为坚硬及粗糙的石头的时候，例如玄武岩和花岗岩。但对于工具制造者来说，这却是一个长期而又单调的过程，他必须反复地用更坚硬的材料或是沙子打磨石头，有时还需要用水作润滑剂。许多欧洲早期的石斧都采用这一方法制成。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DYE_PEDIA</Tag>
+		<English>Dyeing is the process of applying colors to fabrics. A human practice for over three thousand years, it enabled the natural white color of silk, wool and cotton to be enhanced with a varied spectrum of color. Natural dyes are created from a myriad of sources, including shells, animals and plants, though these dyes were not always permanent and frequently expensive. Modern dyes are based on artificial or processed substances such as coal and other chemicals. One benefit for a nation with an extensive dye industry is that the processes involved in creating dye can be easily retooled to other purposes. Germany discovered this in World War I when it was determined that factories producing artificial dye could be easily modified to create explosives, poison gas and other tools of war.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>染料用于印染织物。3000年前就有人开始使用染料。它可以使丝绸、羊毛和棉花变换颜色。天然染料有多种来源，包括贝壳、动物和植物，其着色不能永久保留并且价格昂贵。现代染料是从煤和其它化工品中提炼出来的人工制品。染料工业很容易转产其它东西，第一次世界大战中，德国的染料厂就被用来生产炸药和各种军火。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FUR_PEDIA</Tag>
+		<English>Throughout history, animal furs have been valuable commodities for trade and sale. Many different types of animals including minks, rabbits, and beavers have been captured by trappers for the purpose of obtaining their pelts for use in the making of clothing and other items. The exploration and colonization of the New World caused the fur industry to boom by making a variety of furs readily available. By the late 1800's, farms were set up specifically to raise animals for the fur industry. Starting in the 1970's, environmentalists and animal rights groups have lobbied to change public opinion concerning the harvesting and sale of furs. Despite these vocal groups, the fur industry remains profitable, if not as widespread, in the world today.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>历史上，动物毛皮一直是重要的贸易品。包括貂、兔和海狸在内的多种动物都被猎捕，人们获取它们的毛皮来用于制造衣服和其它物品。新大陆的探索和开拓使毛皮更容易获得，这使毛皮工业繁荣起来。到十九世纪末，为毛皮工业而专门饲养动物建立的农场已经发展起来。从二十世纪七十年代开始，环境保护者和动物权利保护组织提议改变人们对于获取和出售毛皮的看法。尽管这些组织不断地进行呼吁，但在世界范围内，毛皮工业虽然已不常见，但仍然获利可观。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GEMS_PEDIA</Tag>
+		<English>Gemstones, treasured throughout time for their beauty and value, have always been a sought-after commodity. Most gemstones, such as diamonds, are mined in various areas throughout the world, most notably Africa. Some of the most notable gem deposits, however, have been found in archeological digs. The ruins of ancient civilizations in the jungles of Central and South America have sometimes been found to hide large quantities of precious and semi-precious gems, as well as gold and other items of value. The discovery of such a site can lead to an increase in trade in the areas surrounding the dig, as both professional and amateur treasure hunters swarm to the region to seek their fortune.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宝石由于其经久不变的美丽和价值，一直是广受欢迎的日用品。大部分的宝石，例如钻石，在世界各地都可以开采，其中又以南非最为著名。一些最著名的宝石宝库却是在考古活动中得以发现。中南美洲丛林中的古代文明遗迹中时常有大量的宝石，当然也少不了黄金及其它珍贵物品。一个遗址的发现常常会引来许多人，其中包括职业和业余的宝藏猎人，他们为了寻找好运便在这一地区进行挖掘。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GOLD_PEDIA</Tag>
+		<English>Gold has always been one of the most highly valued metals in the world. It is used in the manufacture of everything from jewelry to electronics, and has been established as the basis for monetary systems world wide. The factor that makes gold valuable is its rarity. Although gold can be found in many different areas, the most valuable deposits are large veins of gold ore running through mountains. When a large deposit is found, mining the deposit greatly boosts the economy in settlements and cities near the mine. An historical example of this phenomenon are the many towns that grew and prospered over a relatively short time during the California gold rush in America during the 1800's.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>一直以来黄金都是世界上最贵重的金属之一。它的应用包括从珠宝到电子制造等各个行业，也是全世界金融体系的基础。黄金如此贵重的原因在于它的稀有性。尽管黄金在许多不同的地方被发现，最有价值的蕴藏则是群山中大片连绵的金矿。当一个大矿藏被发现时，对矿藏的开采大大促进了矿场附近的定居点和城市的经济发展。这种现象历史上有一个很典型的例子，那就是在19世纪的美国因为加州的淘金热而使附近的许多城镇在短时间内发展繁荣起来。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_IVORY_PEDIA</Tag>
+		<English>Elephants are the largest living land mammals. At birth it is common for an elephant calf to weigh 225 pounds! In the wild, elephants exhibit complex social behavior and strong family bonds. Social hierarchy in calf-cow groups is based on size and age, with the largest and oldest at the top and the smallest and youngest last. Adolescent males determine their own ranking order through jousting contests using head and tusks. Elephants communicate with very low and long ranging subsonic tones. [PARAGRAPH:1]Elephant taming began in the Indus valley around 4000 years ago. The first military application of elephants dates from around 1100 BC and is mentioned in several Sanskrit hymns. From the east, war elephants migrated to the Persian Empire where they stood against Alexander the Great at the battle of Gaugamela. Though they did not play a significant role in the battle, Alexander saw their usefulness and began incorporating them into his army. Later the use spread throughout Europe and elephants were used in such famous campaigns as the Macedonian wars and by Hannibal during the Second Punic War.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>象牙是大象的长牙。大象是地球上最大的陆生哺乳动物。大象出生时的平均重量就高达225磅！野生大象的行动深具社会性及家庭意识。大象的社会等级以体型和年龄为基础，最大最老的大象处于最高层，而最小最年轻的则处于最底层。年轻的雄性大象通过用头和牙来争斗决定自己的等级。大象通过低长的次音速声音来进行交流。[PARAGRAPH:1]印度人在四千年前就开始驯养大象。第一支使用大象作战的军队出现在公元前1100年左右，并在许多梵语诗歌中被提及。波斯帝国从东方引入大象，并在同亚历山大大帝对抗的高加米拉战场上投入使用。尽管它们在战场上并不是决定性因素，亚历山大仍意识到它们的作用，并将其整合进自己的军队。这一做法不久后就在欧洲传开，战象也在马其顿战争及第二次迦太基战争中的许多著名战役中参加了战斗。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SILK_PEDIA</Tag>
+		<English>Silk has been a valuable commodity for textiles since its properties were discovered in the 27th century BC. Silk is obtained from the cocoon of the silkworm moth, which was originally native to the forests of China. The fine fibers of the cocoon are woven into cloth, which is used to make all types of clothing. Raw silk was obtained only from Asia until 550 AD, when two monks sent from the Roman Empire secretly stole silkworm eggs from China and brought them to Europe. Eventually, silkworms were found in many areas throughout the world. Less expensive synthetic fibers of the 20th century led to a decline in the silk market, but silk is still very popular in many types of clothing and other goods.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>自从它的特质在公元前27世纪被发现以后，丝绸一直以来都是一种贵重的日常纺织用品。丝绸是从蚕蛾的茧中获得的，这种蛾原产于中国的森林地区。蚕茧的精细钎维被用来织布，再用这些布来做成各种各样的衣服。在公元550年之前，生丝一直都只能在亚洲获得，直到两个东罗马帝国的修道士从中国偷走了蚕种并把它带到了欧洲。最后，在世界的许多地方都能找到蚕。在20世纪，便宜的合成纤维导致了丝绸市场的萎缩，但丝绸服装仍然十分流行。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SILVER_PEDIA</Tag>
+		<English>Silver is a chemical element in the periodic table that has the symbol "Ag" and the atomic number 47. A soft, white, lustrous transition metal, silver has the highest electrical and thermal conductivity of any metal and is found in mineral deposits and in free form. [PARAGRAPH:1]Slag heaps found in Asia Minor indicate that silver has been known about for a long time, and that it was being separated from lead as early as the fourth millennium BC. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>白银在元素周期表里的符号是“Ag”，序号47，是一种柔软，白色，有光泽的过渡金属。银是所有金属元素中导电性和导热性最好的。矿床里蕴藏的银多以单质的形态存在。[PARAGRAPH:1]小亚细亚发现的矿渣场表明人们很早以前就已发现白银，并且早在公元前4000年人们就已能够从铅银共生矿中分离白银。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SPICES_PEDIA</Tag>
+		<English>Certain types of plants have evolved in such a way that they produce mild toxins or repellents that make their odor or flavor distasteful to animals. Oddly enough, humans sought out many of these plants because of those smells and tastes. Merchants in the Middle East began a profitable spice trade before 2000 BC. Spices are used now, as they were in the ancient world, to preserve food and enhance its flavor. Although spices are now commercially cultivated and prepared, most types can still be found in abundance in nature. Many of the most popular spices, such as cloves and nutmeg, are extracted from plants that grow in tropical or swampy regions of the world.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>某些种类的植物在进化中发展出一项独特的功能，它们能够产生一些轻微的毒素或驱虫剂，这些物质的气味和味道能使动物远离它们。然而奇怪的是，人类却因为它们这种独特的芬芳和味道而不断寻找这样的植物。公元前2000年之前，中东的商人已经开始进行利润丰厚的香料贸易。当今香料和古代一样，被用于保存食物和增加风味。虽然当今香料大多是商业化种植和提炼的产物，但大部分品种在自然界中仍大量存在。许多最流行的香料，如丁香和肉豆蔻，就是从热带或沼泽地带生长的植物中萃取的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_INCENSE_PEDIA</Tag>
+		<English>Incense is a compound which, when burned, releases fragrant smoke. It is often used in religious ceremonies, and some believe that it has therapeutic benefits as well. Incense is typically composed of plant materials such as clove, cedar, frankincense, or nutmeg, but it can be created from essential oils or animal products - musk or ambergris, for example. Many early cultures employed incense, including the Chinese, Japanese, Egyptian, Babylonian, and Assyrian civilizations. Indians have used incense in religious ceremonies since at least 5,000 B.C.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>薰香在点燃后会散发出芬芳的烟雾，在各种宗教仪式中经常被使用，而且被认为对某些疾病也有治疗效果。能制作薰香的材料有丁香、雪松、乳香和肉豆蔻等植物，也可以从矿物油和动物体内提取——例如麝香和龙涎香等。许多古老文明都懂得制作薰香，包括中国、日本、埃及、巴比伦和亚述文明等。印度人早在公元前5,000年就在宗教仪式中使用薰香了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SUGAR_PEDIA</Tag>
+		<English>Sugarcane is a tropical grass, probably native to New Guinea. Sugar refining was developed in China, India, and the Middle East, where it became a staple of cooking and desserts. During the eighteenth century, Europeans developed a taste for jams, candy, tea, coffee, and other sweets in greater numbers. These demands made sugar enormously popular, and its production and marketing have gone through a series of booms. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>甘蔗是一种热带禾本科植物，原产地大概在新几内亚。食糖精炼技术则最早出现于中国、印度和中东，在那里食糖被广泛用于烹调和甜点制作。在18世纪，欧洲人开始大量食用果酱、糖果、茶、咖啡等许多甜食。这些需求使得食糖大为流行，其生产和贩卖皆繁盛不衰。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WINE_PEDIA</Tag>
+		<English>Wine, a beverage made from fermented grapes, was first produced as early as 6000 BC. Its use spread throughout the Middle East and Egypt, and it quickly became a popular beverage of the ancient world. The grapes used for the making of wine are grown in many different regions of the world. Most vineyards are located in hills and valleys of temperate regions. Wine making as an industry has been perfected over several centuries. Many regions such as the Rhine and Loire valleys of Europe are well known for their fine wines, and derive a significant portion of their economy from wine making.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>酒类主要是指由葡萄发酵酿制而成的葡萄酒，早在公元前6000年就已出现。葡萄酒在中东和埃及流行开来，并很快成为古代世界的流行饮品。酿酒用的葡萄在世界很多地方都有种植。大多数葡萄酒庄园坐落于气候温和地区的丘陵和山谷中。数个世纪以来，酿酒技艺被不断完善。在许多地方，如欧洲的莱茵河和卢瓦尔河流域（两者皆以酿造美酒著称），酿酒已成当地经济重要组成部分。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WHALE_PEDIA</Tag>
+		<English>Whaling, the hunting and killing of whales for oil and other byproducts, was practiced as an organized industry as early as 875 AD. By the 16th century, it had risen to be the principle industry in the coastal regions of Spain and France. The industry spread throughout the world, and became increasingly profitable in terms of trade and resources. Some regions of the world's oceans, along the animals' migration routes, had a particularly dense whale population, and became the targets for large concentrations of whaling ships, and the industry continued to grow well into the 20th century. The depletion of some whale species to near extinction led to the banning of whaling in many countries by 1969, and to a worldwide cessation of whaling as an industry in the late 1980's.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>捕猎鲸以获取鲸油和其它副产品早在公元875年就已成为一个有组织的行业。到了16世纪，捕鲸业已成为法国和西班牙沿海地区的主要产业。伴随不断增长的利润，这一行业在全世界范围内发展起来。在其洄游路线所经过的海区，鲸类往往会大量聚集。同时这些地方也成为捕鲸船的目标。捕鲸业的繁荣一直持续到20世纪。过度捕捞造成某些种类的鲸濒临绝种，到1969年时很多国家都已立法禁止捕鲸。80年代末期，世界范围内的商业性捕鲸活动被禁止。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BANANA_PEDIA</Tag>
+		<English>The banana is mentioned for the first time in history in Buddhist texts in 600 BC. Alexander the Great discovered the taste of the banana in the valleys of India in 327 BC. The existence of organized plantations that harvested bananas can be found in China in the year 200 AD. Arab merchants, after Islamic conquerors brought the banana to Palestine in 650 AD, eventually spread the bananas over much of Africa. In 1502, Portuguese colonists started the first banana plantations in the Caribbean and in Central America.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>历史上最早提到香蕉的是公元前600年的一部佛教文献。公元前327年，亚历山大大帝在印度的崇山峻岭中品尝了香蕉的味道。有组织的香蕉种植园存在于公元200年的中国。在伊斯兰征服狂潮后，公元650年，阿拉伯商人将香蕉带到巴勒斯坦，并最终传遍几乎整个非洲。1502年，葡萄牙殖民者在加勒比海诸岛和中美洲开始大规模种植香蕉。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CLAM_PEDIA</Tag>
+		<English>Clams are shelled marine or freshwater molluscs that live up to 150 years old. They can be eaten raw, steamed, boiled, baked or fried. In the shallow coral reefs of the South Pacific and Indian oceans, giant clams, traditionally called pa'ua, can grow to a weight of 440 pounds and measure as much as 1.5 meters across. These giant clams are the largest living bivalve mulluscs. [PARAGRAPH:1]Historically, the giant clam was also known as killer clam or man-eating clam and reputed to cause deaths. Today, it is generally acknowledged that the giant clam is neither aggressive nor particularly dangerous.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛤蜊是有壳的水生软体动物，它们可以存活150年之久。蛤蜊可以生吃，也能蒸、煮、烤或炸来吃。生活在印度洋和南太平洋的珊瑚礁附近，俗称“帕瓦”的巨蚌可长至400磅重，1.5米宽。这些巨蚌是现存最大的双壳类软体动物。[PARAGRAPH:1]过去巨蚌又被称为杀手蚌或食人蚌，并因其致人死亡而闻名于世。现在的研究表明，巨蚌并不具有进攻性，也不是特别的危险。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CORN_PEDIA</Tag>
+		<English>The term "corn" applies to any staple food grain or fruit of a plant in the grass family. It is also commonly called "maize." Maize is native to the valley of southern Mexico and cultivation of it is thought to have started from 7,500 to 12,000 years ago. Archaeological remains of the earliest maize cob, found at Guila Naquitz Cave in the Oaxaca Valley of Mexico, date back roughly 6,250 years.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英文中的“Corn”（谷子）一词是指任何一种主食或禾本科植物的果实，但在美国则专指玉米。玉米原生于墨西哥南部的山谷之中，并且大概于7500到12000年前被人类培育为庄稼。考古学家在墨西哥的瓦哈卡山谷的古伊拉·纳奎兹洞穴中发现了迄今为止最早的玉米棒子，其历史可以追溯到6250年前。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COW_PEDIA</Tag>
+		<English>Descendants of the buffalo and bison, cattle fulfilled many uses in man's past and present. Originally wild herds of these beasts roamed vast stretches of Asia, Africa and Europe. Their early contributions to mankind were those of labor, goods and food, though the horse soon replaced them as the preferred beast of burden. The Romans were the first people to attempt to breed cattle to promote specific traits over others. Their ability to survive in arid areas unsuitable for farming became a premier benefit of these new breeds. In 1521 Spaniards introduced them to Mexico and the New World, leading to extensive cattle ranching throughout Texas and other neighboring regions. Today there are over 100 million head of cattle in the United States alone.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>牛是原始水牛和野牛的后代，从古至今，牛满足了人类的种种需求。最初这些野生动物的栖居地横贯欧亚非洲。从很早时候起牛就成为人类的劳力以及食物、皮革的来源，虽然在后来它的重要作用有部分被马所取代。罗马人是最早驯服牛的民族，牛的使用加快了他们的发展。牛在不适于耕作的贫瘠土地上的生存能力是这个物种的首要优点。1521年西班牙人把这个物种传播到墨西哥和整个新大陆，很快，整个德克萨斯州和领近地区到处都是牛群。现在，美国大约有一亿头牛。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CRAB_PEDIA</Tag>
+		<English>Crabs have long been a significant provider of food to those living on the mid-Eastern coastline of the United States. Within the Chesapeake Bay, thousands of crabs are harvested every year. Other forms of crabs are also found in various places and include such species as the Alaskan king crab and the Dungeness crab. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>螃蟹是美国东海岸中部居民的重要食物来源。在切萨皮克湾，每年捞获数以千计的螃蟹。很多地区也出产不同种类的螃蟹，诸如阿拉斯加王蟹和邓杰内斯蟹。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DEER_PEDIA</Tag>
+		<English>These ruminant mammals are widely distributed, with representatives in all continents except Australia and Africa. Deer differ from other ruminants in that they have antlers instead of horns. The male deer are called stags, harts, bucks, or bulls, and females are called does, hinds, or cows. Young deer are often referred to as fawns or calves. [PARAGRAPH:1]It is thought that the New World species evolved about five million years ago in the forests of North America and Siberia.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>鹿是一种反刍类哺乳动物，广泛分布于除澳大利亚和非洲以外的各大陆。与其他反刍类动物不同的是，鹿没有角，取而代之的是鹿茸，一种可自行脱落的骨质角状物。鹿的品种繁多，有梅花鹿、水鹿、白唇鹿、马鹿、驼鹿、麋鹿等。[PARAGRAPH:1]一般认为鹿这一物种最早出现于500万年前的北美和西伯利亚丛林之中。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FISH_PEDIA</Tag>
+		<English>Prevailing winds, ocean currents, and deep water trenches can often combine to produce conditions that are optimum for fishing. In areas such as the Pacific coast of Central and South America, offshore winds push the warm surface waters out to deeper waters. Underwater currents push cold, nutrient-rich water from deep below the surface back toward the coast. The high concentration of nutrients in this colder water, caused by decomposition of organic matter at extreme depths, creates an ideal environment for fish and other sea life. Civilizations with access to areas such as this can significantly increase their food supply by establishing a thriving fishing industry.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>季风、洋流和深海沟的共同作用，为渔业带来了适宜的条件。如在中南美的太平洋沿岸，海风把海面的暖流推向海底，海底的洋流则把富含养分的寒流送向海岸。这些冷水含有海底有机质腐烂形成的丰富养分，为鱼类和其它的海洋生物创造了理想的生存环境。这些地区的文明，就可以通过建立繁荣的渔业而增加食物产量。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PIG_PEDIA</Tag>
+		<English>The pig has been domesticated for about 5,000 to 7,000 years and the animal is found across Europe, the Middle East, and extends in Asia as far as Indonesia and Japan. Pigs are one of the most intelligent animals, and some are even kept as pets. Pigs are reportedly more trainable than dogs and cats.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>早在5000-7000年前，欧洲和中东的人们就驯化了家猪，后来饲养家猪的范围向亚洲延伸，直到印度尼西亚和日本。猪是最聪明的动物之一，有些甚至被当成宠物饲养。据报道称，猪比猫狗更适于训练为人的助手。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_RICE_PEDIA</Tag>
+		<English>Rice is a dietary staple of more than half of the world's human population. Rice is often grown in paddies - shallow puddles carefully controlled to ensure appropriate water depth. It is believed that rice cultivation began simultaneously in many countries over 6500 years ago. Modern world production of rice has risen steadily from about 200 million tons in 1960 to 600 million tons in 2000. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>稻米是超过世界一半人口的主食。水稻通常种在稻田（即精心控制水深的小池塘）里。据信水稻的种植是在6500年前，同时在许多国家出现的。当今世界的稻米产量稳步上升，从1960年的2亿吨至2000年的6亿吨。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHEEP_PEDIA</Tag>
+		<English>For centuries, sheep have had associations with many Mediterranean cultures. Many religions, such as Judaism and Christianity, use sheep-related images and parables. Raising sheep provided a steady source of income to ancient farmers since the animal can give milk, wool, and meat. Even in the 21st Century, sheep can provide a return on investment of up to 400%% of their annual cost (including reproduction gains).</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在漫长的历史中，许多地中海地区的文明都将绵羊置于重要位置。许多宗教，例如犹太教和基督教，都提及绵羊相关的形象，并在圣典中讲述过与其相关的寓言。饲养绵羊，在古代是农民们相当好的收入来源，因为它能产出羊毛，羊奶和羊肉。即使是在21世纪，绵羊依然能够给出最高400%%的年回报率（包括其繁殖带来的附加收益）。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WHEAT_PEDIA</Tag>
+		<English>Wheat has been a staple crop for civilizations occupying temperate zones of the planet since pre-historic times. There is archeological evidence that bread wheat was cultivated in southern Turkestan as early as 6000 BC, though naturally occurring wheat was probably used for food purposes much earlier. Throughout the temperate zones, wheat has become the primary food crop. It is particularly well suited for growth in vast, open plains like those found in the central United States.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>从史前时代起，小麦就一直是全球各温度带的主要农作物之一。考古证据表明早在公元前6000年，土耳其南部地区就已在种植小麦并作为人们的食物，而在更早之前野生的小麦也可能已经被作为粮食。在各个温度带，小麦都是主要的粮食作物之一。它特别适宜于种植在广阔、平坦的平原地区，如美国中部的平原。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DRAMA_PEDIA</Tag>
+		<English>"Drama" is defined as a literary form in which the author writes parts for actors to play. Usually the actors are playing the parts of other people and the drama displays an event in which those people participate. Western drama as we know it was invented by the Greeks sometime in the fifth century BC. The very first dramas were probably lyric poems sung by a chorus; eventually actors were added to portray heroes and villains in the poems. Western drama has changed very little in form since then. [PARAGRAPH:1]The date of origin of Eastern drama is widely debated, primarily because scholars don't agree upon what elements are necessary to distinguish drama from other art forms such as pantomime, dancing, and certain religious rituals, some of which date back to over four thousand years ago. It is known that a Chinese theatre opened in around 700 BC. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>“戏剧”是一种艺术形式，其作者编写剧本，而由演员在舞台上表演其内容。一般说来，演员饰演他人而不是自己，而剧情则是围绕这些人展开。众所周知，西方戏剧是古希腊人在公元前5世纪发明的。最早的戏剧很可能是单纯由合唱团吟诵诗歌，后来逐步发展为由演员扮演诗歌中的主角与配角。从此以后，西方戏剧的形式便大致固定下来。[PARAGRAPH:1]东方戏剧的起源时间还有广泛的争议，其主要原因是学者们对“何谓戏剧的关键成分”意见不一，不能很好地分辨戏剧与哑剧，舞蹈与某些宗教仪式。有些可能有4000多年的历史了，不过人们通常认为，中国的戏剧在公元前700年前便已出现。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MUSIC_PEDIA</Tag>
+		<English>Music is an art form that involves audible sound. The sound may be created by human voices, percussion, by hitting or strumming strings under tension, by blowing air across a reed, and so forth. It is impossible to date the origins of music, but instruments made of stone and bone have been discovered dating back more than 45,000 years. Every culture known has developed its own forms of music. [PARAGRAPH:1]It is impossible to imagine what the earliest forms of music sounded like. It was impossible to record any kind of music until the invention of musical notation. It is believed that ancient Egypt had some form of musical notation dating to 3000 BC, while the Greeks were notating music in 200 BC. The current western style of musical notation is credited to Guido d'Arezzo around 1020 AD. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>音乐，是一门组织人类可听见声音的艺术。这些声音包括人声、演奏打击乐器和管弦乐器等。音乐的起源已不可考，但是已发现的石制与骨制的乐器，最早可以追溯到45,000年前。已知的每一种文化都有自己特有的音乐形式。[PARAGRAPH:1]最古老的音乐形式已经无法想象，而在音乐记号（音符）发明之前也没有音乐的记录。据信古埃及人在公元前3000年即有一些音乐记号，而希腊人在公元前200年才开始使用音符记号。现代西方式的五线谱记号，是由格维多·达雷索，一位吉多本笃会僧侣及音乐理论家在公元1020年左右发明的四线谱开始的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MOVIES_PEDIA</Tag>
+		<English>Throughout history, man has been fascinated by moving images. Before the movie, such images were created by magic lanterns, zoetropes, flip books, and the like. In the 1880s, photographic film was invented, and the new material's potential to create moving pictures was quickly seen. Within just several years motion picture cameras and projectors were created, and the "movie" - moving pictures - was born. [PARAGRAPH:1]Movies were silent for their first forty years, but by the late 1920s soundtracks were added and the "talkie" was born. By the mid-1950s color film was common. Excepting for improvements in picture and sound quality, movies have remained essentially the same since. [PARAGRAPH:1]In the early years of movies, the United States produced the majority of films, most made in Hollywood, California. Though the US remains an important producer, a number of other countries now have film industries that rival Hollywood. For instance, the Indian film industry produces more films per year than the US and sells more tickets. However, no other films can yet match Hollywood's international appeal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在漫长的历史中，人类对移动的影像怀有特殊的兴趣。在电影发明之前，这些移动影像只能靠灯影、万花筒、活动书页之类产生。在19世纪80年代出现了照像胶片，人们很快意识到活动影像可以记录在这种新材料上，于是很快又发明出摄影机和投影装置，于是电影——“活动影像”——就此诞生。[PARAGRAPH:1]在电影出现后的四十年间，电影是无声的。在20世纪20年代，人们开始在电影胶片中加入音轨，于是诞生了有声电影。在50年代中期，彩色电影开始进入大众视野。但是除了音质和画质的提升，电影的基本特征并无大的变化。[PARAGRAPH:1]在电影发展的早期阶段，美国统治了电影制造业，其中大部分位于加利福尼亚州的好莱坞。虽然美国仍然是电影的最重要生产地之一，但其他一些国家的电影制造业已经足以与好莱坞相匹敌。例如，印度的电影制造业每年拍片数和观众数都已经超过了美国，但是，至今没有一处地方的电影能与好莱坞电影的国际影响相媲美。</Chinese>
+	</TEXT>
+</Civ4GameText>

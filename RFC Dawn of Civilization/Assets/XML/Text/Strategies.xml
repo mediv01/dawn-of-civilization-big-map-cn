@@ -1,47 +1,47 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_DOC_ODDS</Tag>
 		<English>Odds and Ends in DoC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¡°ÎÄÃ÷µÄÊï¹â¡±ÖÐµÄÔÓÏî</Chinese>
+		<Chinese>â€œæ–‡æ˜Žçš„æ›™å…‰â€ä¸­çš„æ‚é¡¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_EMBASSIES</Tag>
 		<English>Embassies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê¹¹Ý</Chinese>
+		<Chinese>ä½¿é¦†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_CONGRESSES</Tag>
 		<English>Congresses</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê»áÒé</Chinese>
+		<Chinese>å›½é™…ä¼šè®®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_HISTORICALSTARTS</Tag>
 		<English>Historical Starts</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê·Êµ¿ª¾Ö</Chinese>
+		<Chinese>å²å®žå¼€å±€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_NEW_CORPORATIONS</Tag>
 		<English>Corporations in DoC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¡°ÎÄÃ÷µÄÊï¹â¡±ÖÐµÄ¹«Ë¾</Chinese>
+		<Chinese>â€œæ–‡æ˜Žçš„æ›™å…‰â€ä¸­çš„å…¬å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_DIPLOMATIC_INSTITUTIONS</Tag>
 		<English>Diplomatic Institutions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»»ú¹¹</Chinese>
+		<Chinese>å¤–äº¤æœºæž„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_TRADING_COMPANY_CONQUERORS</Tag>
 		<English>Trading Companies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã³Ò×¹«Ë¾</Chinese>
+		<Chinese>è´¸æ˜“å…¬å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_</Tag>
@@ -53,84 +53,84 @@
 		<Tag>TXT_KEY_CONCEPT_SLAVERY</Tag>
 		<English>Slavery</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Å«Á¥ÖÆ¶È</Chinese>
+		<Chinese>å¥´éš¶åˆ¶åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_STABILITY_INFLUENCES</Tag>
 		<English>Stability Influence Factors</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨ÐÔÓ°ÏìÒòËØ</Chinese>
+		<Chinese>ç¨³å®šæ€§å½±å“å› ç´ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_ODDS</Tag>
 		<English>Odds and Ends</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÓÏî</Chinese>
+		<Chinese>æ‚é¡¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_STABILITY_TOOLTIP</Tag>
 		<English>Tile Stability Display</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µØ¿éÎÈ¶¨¶ÈÏÔÊ¾</Chinese>
+		<Chinese>åœ°å—ç¨³å®šåº¦æ˜¾ç¤º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_CONDITIONAL_SPAWNS</Tag>
 		<English>Conditional Spawns</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÃ÷µÄÔÐÓý</Chinese>
+		<Chinese>æ–‡æ˜Žçš„å­•è‚²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_RESPAWNS</Tag>
 		<English>Respawns in DoC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¡°ÎÄÃ÷µÄÊï¹â¡±ÖÐµÄÖØÉú</Chinese>
+		<Chinese>â€œæ–‡æ˜Žçš„æ›™å…‰â€ä¸­çš„é‡ç”Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_MERCENARIES</Tag>
 		<English>Mercenaries</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ÍÓ¶¾ü</Chinese>
+		<Chinese>é›‡ä½£å†›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_SCHISM</Tag>
 		<English>Great Christian Schism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶«Î÷½Ì»á´ó·ÖÁÑ</Chinese>
+		<Chinese>ä¸œè¥¿æ•™ä¼šå¤§åˆ†è£‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_REFORMATION</Tag>
 		<English>Reformation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸Ä¸ï</Chinese>
+		<Chinese>æ”¹é©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_PLAGUE</Tag>
 		<English>Plague</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÁÒß</Chinese>
+		<Chinese>ç˜Ÿç–«</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_CONTINENTS</Tag>
 		<English>Continents, Countries and Unique Historical Victories</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÖÞ¡¢¹ú¼ÒÓëÌØÉ«ÀúÊ·Ê¤Àû</Chinese>
+		<Chinese>å¤§æ´²ã€å›½å®¶ä¸Žç‰¹è‰²åŽ†å²èƒœåˆ©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_RFCINTRO</Tag>
 		<English>Welcome to Rhye's and Fall of Civilization</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»¶Ó­½øÈë¡°ÎÄÃ÷µÄÐËË¥¡±</Chinese>
+		<Chinese>æ¬¢è¿Žè¿›å…¥â€œæ–‡æ˜Žçš„å…´è¡°â€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_STABILITY</Tag>
 		<English>Stability</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨¶È</Chinese>
+		<Chinese>ç¨³å®šåº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_UP_UHV</Tag>
 		<English>Unique Powers and Historical Victories</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌØÉ«×¨³¤ÓëÀúÊ·Ê¤ÀûÌõ¼þ</Chinese>
+		<Chinese>ç‰¹è‰²ä¸“é•¿ä¸ŽåŽ†å²èƒœåˆ©æ¡ä»¶</Chinese>
 	</TEXT>
 </Civ4GameText>

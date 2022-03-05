@@ -1,0 +1,4429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text Objects -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LAND_WORKED</Tag>
+		<English>Land Worked</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工作地块</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WATER_WORKED</Tag>
+		<English>Water Worked</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工作水域</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITY_RUINS</Tag>
+		<English>City Ruins</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城市废墟</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GOODY_HUT</Tag>
+		<English>Tribal Village</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>部落村庄</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FARM</Tag>
+		<English>Farm</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>农场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FISHING_BOATS</Tag>
+		<English>Fishing Boats</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>渔船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WHALING_BOATS</Tag>
+		<English>Whaling Boats</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>捕鲸船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MINE</Tag>
+		<English>Mine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>矿井</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WORKSHOP</Tag>
+		<English>Workshop</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUMBERMILL</Tag>
+		<English>Lumbermill</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>锯木场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINDMILL</Tag>
+		<English>Windmill</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>风力磨坊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WATERMILL</Tag>
+		<English>Watermill</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>水力磨坊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PLANTATION</Tag>
+		<English>Plantation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>种植园</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_QUARRY</Tag>
+		<English>Quarry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>采石场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PASTURE</Tag>
+		<English>Pasture</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>牧场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CAMP</Tag>
+		<English>Camp</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>猎场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WELL</Tag>
+		<English>Well</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>油井</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_OFFSHORE_PLATFORM</Tag>
+		<English>Offshore Platform</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海上平台</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINERY</Tag>
+		<English>Winery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>酿酒坊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_COTTAGE</Tag>
+		<English>Cottage</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>农舍</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAMLET</Tag>
+		<English>Hamlet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小村</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_VILLAGE</Tag>
+		<English>Village</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大村</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOWN</Tag>
+		<English>Town</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小镇</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FORT</Tag>
+		<English>Fort</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>要塞</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_CITIZEN</Tag>
+		<English>Citizen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>市民</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_PRIEST</Tag>
+		<English>Priest</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神学家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_ARTIST</Tag>
+		<English>Artist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>艺术家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_SCIENTIST</Tag>
+		<English>Scientist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科学家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_MERCHANT</Tag>
+		<English>Merchant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>商业家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_ENGINEER</Tag>
+		<English>Engineer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工程师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PRIEST</Tag>
+		<English>Great Prophet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大预言家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_ARTIST</Tag>
+		<English>Great Artist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大艺术家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_SCIENTIST</Tag>
+		<English>Great Scientist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大科学家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_MERCHANT</Tag>
+		<English>Great Merchant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大商业家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_ENGINEER</Tag>
+		<English>Great Engineer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大工程师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_BIRTH_RATE</Tag>
+		<English>[ICON_BULLET]%D1_ChangeRate[ICON_GREATPEOPLE] Birth Rate</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[ICON_BULLET]%D1_ChangeRate[ICON_GREATPEOPLE] 出现几率</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOMAIN_SEA</Tag>
+		<English>Water Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>水上单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOMAIN_AIR</Tag>
+		<English>Air Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>空中单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOMAIN_LAND</Tag>
+		<English>Land Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>陆地单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DOMAIN_IMMOBILE</Tag>
+		<English>Immobile Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>固定单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT1</Tag>
+		<English>Combat I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>格斗一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT2</Tag>
+		<English>Combat II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>格斗二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT3</Tag>
+		<English>Combat III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>格斗三级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT4</Tag>
+		<English>Combat IV</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>格斗四级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT5</Tag>
+		<English>Combat V</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>格斗五级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COVER</Tag>
+		<English>Cover</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>隐蔽能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOCK</Tag>
+		<English>Shock</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冲击能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PINCH</Tag>
+		<English>Pinch</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>突破能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORMATION</Tag>
+		<English>Formation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>严密阵形</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARGE</Tag>
+		<English>Charge</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>猛烈冲锋</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMBUSH</Tag>
+		<English>Ambush</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伏击能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMPHIBIOUS</Tag>
+		<English>Amphibious</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>两栖作战</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARCH</Tag>
+		<English>March</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>长途行军</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLITZ</Tag>
+		<English>Blitz</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>闪击作战</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMANDO</Tag>
+		<English>Commando</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>特种战术</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDIC1</Tag>
+		<English>Medic I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>医疗一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDIC2</Tag>
+		<English>Medic II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>医疗二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUERILLA1</Tag>
+		<English>Guerilla I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>游击一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUERILLA2</Tag>
+		<English>Guerilla II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>游击二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WOODSMAN1</Tag>
+		<English>Woodsman I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>林地一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WOODSMAN2</Tag>
+		<English>Woodsman II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>林地二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER1</Tag>
+		<English>City Raider I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>攻城一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER2</Tag>
+		<English>City Raider II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>攻城二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER3</Tag>
+		<English>City Raider III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>攻城三级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GARRISON1</Tag>
+		<English>City Garrison I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城防一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GARRISON2</Tag>
+		<English>City Garrison II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城防二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GARRISON3</Tag>
+		<English>City Garrison III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城防三级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRILL1</Tag>
+		<English>Drill I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>操练一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRILL2</Tag>
+		<English>Drill II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>操练二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRILL3</Tag>
+		<English>Drill III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>操练三级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRILL4</Tag>
+		<English>Drill IV</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>操练四级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARRAGE1</Tag>
+		<English>Barrage I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弹幕一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARRAGE2</Tag>
+		<English>Barrage II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弹幕二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARRAGE3</Tag>
+		<English>Barrage III</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弹幕三级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ACCURACY</Tag>
+		<English>Accuracy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>精确打击</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING1</Tag>
+		<English>Flanking I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迂回一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING2</Tag>
+		<English>Flanking II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>迂回二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SENTRY</Tag>
+		<English>Sentry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>巡哨能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY</Tag>
+		<English>Mobility</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>机动能力</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAVIGATION1</Tag>
+		<English>Navigation I</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>导航一级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NAVIGATION2</Tag>
+		<English>Navigation II</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>导航二级</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALUNIT_NUKE</Tag>
+		<English>Nukes</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>核武器</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALUNIT_FIGHTER</Tag>
+		<English>Fighters</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战斗机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALUNIT_PEOPLE</Tag>
+		<English>Scouts, Explorers, Missionaries, Spies, Great People</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>侦察兵, 探险家, 传教士, 间谍, 历史伟人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_RECON</Tag>
+		<English>Recon Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>侦察单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ARCHER</Tag>
+		<English>Archery Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>投射单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_MOUNTED</Tag>
+		<English>Mounted Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑乘单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_MELEE</Tag>
+		<English>Melee Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>肉搏单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_SIEGE</Tag>
+		<English>Siege Weapons</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>压制武器</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_GUN</Tag>
+		<English>Gunpowder Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火器单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ARMOR</Tag>
+		<English>Armored Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>装甲单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_HELICOPTER</Tag>
+		<English>Helicopter Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>旋翼飞机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_NAVAL</Tag>
+		<English>Naval Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海军单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LION</Tag>
+		<English>Lion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>狮子</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEAR</Tag>
+		<English>Bear</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>熊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PANTHER</Tag>
+		<English>Panther</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>豹子</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WOLF</Tag>
+		<English>Wolf</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>狼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SETTLER</Tag>
+		<English>Settler</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>移民</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKER</Tag>
+		<English>Worker</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INDIAN_FAST_WORKER</Tag>
+		<English>Fast Worker</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度工人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCOUT</Tag>
+		<English>Scout</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>侦察兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXPLORER</Tag>
+		<English>Explorer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>探险家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPY</Tag>
+		<English>Spy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>间谍</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JEWISH_MISSIONARY</Tag>
+		<English>Jewish Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>犹太教拉比</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHRISTIAN_MISSIONARY</Tag>
+		<English>Christian Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基督教牧师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Tag>
+		<English>Islamic Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>穆斯林阿訇</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HINDU_MISSIONARY</Tag>
+		<English>Hindu Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教宗师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUDDHIST_MISSIONARY</Tag>
+		<English>Buddhist Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>佛教僧人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONFUCIAN_MISSIONARY</Tag>
+		<English>Confucian Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>儒士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAOIST_MISSIONARY</Tag>
+		<English>Taoist Missionary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARRIOR</Tag>
+		<English>Warrior</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>勇士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCAN_QUECHUA</Tag>
+		<English>Quechua</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>山地勇士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SWORDSMAN</Tag>
+		<English>Swordsman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>剑士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AZTEC_JAGUAR</Tag>
+		<English>Jaguar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美洲虎战士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_PRAETORIAN</Tag>
+		<English>Praetorian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗马禁卫军</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AXEMAN</Tag>
+		<English>Axeman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>斧兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACEMAN</Tag>
+		<English>Maceman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>钉锤手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JAPAN_SAMURAI</Tag>
+		<English>Samurai</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日本武士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPEARMAN</Tag>
+		<English>Spearman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>矛兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREEK_PHALANX</Tag>
+		<English>Phalanx</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希腊方阵兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIKEMAN</Tag>
+		<English>Pikeman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>长枪兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MUSKETMAN</Tag>
+		<English>Musketman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火枪手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRENCH_MUSKETEER</Tag>
+		<English>Musketeer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法国火枪手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIFLEMAN</Tag>
+		<English>Rifleman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>来复枪兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GRENADIER</Tag>
+		<English>Grenadier</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>掷弹兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ENGLISH_REDCOAT</Tag>
+		<English>Redcoat</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>皇家来复枪兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INFANTRY</Tag>
+		<English>Infantry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现代步兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAM_INFANTRY</Tag>
+		<English>SAM Infantry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>防空步兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARINE</Tag>
+		<English>Marine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海军陆战队</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AMERICAN_NAVY_SEAL</Tag>
+		<English>Navy SEAL</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海豹突击队</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MECHANIZED_INFANTRY</Tag>
+		<English>Mechanized Infantry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>机械化步兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARCHER</Tag>
+		<English>Archer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弓手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALI_SKIRMISHER</Tag>
+		<English>Skirmisher</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马里突击手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LONGBOWMAN</Tag>
+		<English>Longbowman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>长弓手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CROSSBOWMAN</Tag>
+		<English>Crossbowman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弩手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHINA_CHOKONU</Tag>
+		<English>Cho-Ko-Nu</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>诸葛弩</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHARIOT</Tag>
+		<English>Chariot</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战车</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_WARCHARIOT</Tag>
+		<English>War Chariot</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃及战车</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERIA_IMMORTAL</Tag>
+		<English>Immortal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>波斯长生军</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHER</Tag>
+		<English>Horse Archer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑射手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MONGOL_KESHIK</Tag>
+		<English>Keshik</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古骑射手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT</Tag>
+		<English>Knight</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARABIA_CAMELARCHER</Tag>
+		<English>Camel Archer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骆驼骑射手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPANISH_CONQUISTADOR</Tag>
+		<English>Conquistador</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西班牙征服者</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAVALRY</Tag>
+		<English>Cavalry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>近代骑兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUSSIA_COSSACK</Tag>
+		<English>Cossack</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>哥萨克骑兵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_ELEPHANT</Tag>
+		<English>War Elephant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战象</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TANK</Tag>
+		<English>Tank</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>坦克</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GERMAN_PANZER</Tag>
+		<English>Panzer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>德国坦克</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MODERN_ARMOR</Tag>
+		<English>Modern Armor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>主战坦克</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GUNSHIP</Tag>
+		<English>Gunship</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>武装直升机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CATAPULT</Tag>
+		<English>Catapult</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>投石车</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNON</Tag>
+		<English>Cannon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>加农炮</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MACHINE_GUN</Tag>
+		<English>Machine Gun</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>重机枪</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARTILLERY</Tag>
+		<English>Artillery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火炮</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORK_BOAT</Tag>
+		<English>Work Boat</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEY</Tag>
+		<English>Galley</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>桨帆船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARAVEL</Tag>
+		<English>Caravel</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>轻帆船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEON</Tag>
+		<English>Galleon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大帆船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRIGATE</Tag>
+		<English>Frigate</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>三桅战舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IRONCLAD</Tag>
+		<English>Ironclad</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁甲舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRANSPORT</Tag>
+		<English>Transport</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>运输舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DESTROYER</Tag>
+		<English>Destroyer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>驱逐舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BATTLESHIP</Tag>
+		<English>Battleship</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战列舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBMARINE</Tag>
+		<English>Submarine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>潜艇</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRIER</Tag>
+		<English>Carrier</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>航空母舰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FIGHTER</Tag>
+		<English>Fighter</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战斗机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JET_FIGHTER</Tag>
+		<English>Jet Fighter</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>喷气式战斗机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOMBER</Tag>
+		<English>Bomber</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>轰炸机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEALTH_BOMBER</Tag>
+		<English>Stealth Bomber</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>隐形轰炸机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICBM</Tag>
+		<English>ICBM</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战略导弹</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_PROPHET</Tag>
+		<English>Great Prophet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大预言家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_ARTIST</Tag>
+		<English>Great Artist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大艺术家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST</Tag>
+		<English>Great Scientist</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大科学家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_MERCHANT</Tag>
+		<English>Great Merchant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大商业家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_ENGINEER</Tag>
+		<English>Great Engineer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大工程师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ALUMINUM</Tag>
+		<English>Aluminum</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铝</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COAL</Tag>
+		<English>Coal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>煤炭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COPPER</Tag>
+		<English>Copper</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铜</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HORSE</Tag>
+		<English>Horse</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马匹</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_IRON</Tag>
+		<English>Iron</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MARBLE</Tag>
+		<English>Marble</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大理石</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OIL</Tag>
+		<English>Oil</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>石油</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_STONE</Tag>
+		<English>Stone</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>花岗石</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_URANIUM</Tag>
+		<English>Uranium</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铀</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DYE</Tag>
+		<English>Dye</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>染料</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FUR</Tag>
+		<English>Fur</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>毛皮</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GEMS</Tag>
+		<English>Gems</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宝石</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GOLD</Tag>
+		<English>Gold</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>黄金</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_INCENSE</Tag>
+		<English>Incense</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>薰香</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_IVORY</Tag>
+		<English>Ivory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>象牙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SILK</Tag>
+		<English>Silk</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>丝绸</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SILVER</Tag>
+		<English>Silver</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>白银</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SPICES</Tag>
+		<English>Spices</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>香料</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SUGAR</Tag>
+		<English>Sugar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>食糖</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WINE</Tag>
+		<English>Wine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>酒类</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WHALE</Tag>
+		<English>Whale</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>鲸鱼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BANANA</Tag>
+		<English>Banana</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>香蕉</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CLAM</Tag>
+		<English>Clam</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛤蜊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CORN</Tag>
+		<English>Corn</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>玉米</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COW</Tag>
+		<English>Cow</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>牛群</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CRAB</Tag>
+		<English>Crab</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>螃蟹</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DEER</Tag>
+		<English>Deer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>野鹿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FISH</Tag>
+		<English>Fish</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>鱼群</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PIG</Tag>
+		<English>Pig</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>家猪</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_RICE</Tag>
+		<English>Rice</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>稻米</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHEEP</Tag>
+		<English>Sheep</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绵羊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_WHEAT</Tag>
+		<English>Wheat</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小麦</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DRAMA</Tag>
+		<English>Hit Musicals</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>热门音乐剧</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MUSIC</Tag>
+		<English>Hit Singles</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>热门单曲</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MOVIES</Tag>
+		<English>Hit Movies</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>卖座电影</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SPORTS</Tag>
+		<English>Sports</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>体育运动</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_ICE</Tag>
+		<English>Ice</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冰原</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_JUNGLE</Tag>
+		<English>Jungle</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>丛林</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_OASIS</Tag>
+		<English>Oasis</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绿洲</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FLOOD_PLAINS</Tag>
+		<English>Flood Plains</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冲积平原</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FOREST</Tag>
+		<English>Forest</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>森林</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FALLOUT</Tag>
+		<English>Fallout</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>辐射</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_ROAD</Tag>
+		<English>Road</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道路</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_RAILROAD</Tag>
+		<English>Railroad</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁路</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_GRASS</Tag>
+		<English>Grassland</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>草原</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_PLAINS</Tag>
+		<English>Plains</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>平原</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_DESERT</Tag>
+		<English>Desert</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>沙漠</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_TUNDRA</Tag>
+		<English>Tundra</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冻土</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_HILL</Tag>
+		<English>Hill</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>丘陵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_PEAK</Tag>
+		<English>Peak</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>山峰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_ICE</Tag>
+		<English>Ice</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冰原</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_COAST</Tag>
+		<English>Coast</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海滨</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_OCEAN</Tag>
+		<English>Ocean</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大洋</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_YIELD_FOOD</Tag>
+		<English>Food</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>食物</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_YIELD_PRODUCTION</Tag>
+		<English>Production</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>产能</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_YIELD_COMMERCE</Tag>
+		<English>Commerce</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>商业</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MYSTICISM</Tag>
+		<English>Mysticism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神秘论</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDITATION</Tag>
+		<English>Meditation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冥想学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POLYTHEISM</Tag>
+		<English>Polytheism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>多神论</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRIESTHOOD</Tag>
+		<English>Priesthood</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祭司制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MONOTHEISM</Tag>
+		<English>Monotheism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>一神论</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MONARCHY</Tag>
+		<English>Monarchy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>君主制</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LITERATURE</Tag>
+		<English>Literature</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文献</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CODE_OF_LAWS</Tag>
+		<English>Code of Laws</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法典</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DRAMA</Tag>
+		<English>Drama</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>戏剧</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FEUDALISM</Tag>
+		<English>Feudalism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>封建制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY</Tag>
+		<English>Theology</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUSIC</Tag>
+		<English>Music</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>音乐</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUILDS</Tag>
+		<English>Guilds</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>行会</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CIVIL_SERVICE</Tag>
+		<English>Civil Service</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文官制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINE_RIGHT</Tag>
+		<English>Divine Right</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>君权神授论</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NATIONALISM</Tag>
+		<English>Nationalism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>民族主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_TRADITION</Tag>
+		<English>Military Tradition</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军事制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CONSTITUTION</Tag>
+		<English>Constitution</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宪法</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LIBERALISM</Tag>
+		<English>Liberalism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>自由主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DEMOCRACY</Tag>
+		<English>Democracy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>民主主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FASCISM</Tag>
+		<English>Fascism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法西斯主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CORPORATION</Tag>
+		<English>Corporation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>公司制</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_UTOPIA</Tag>
+		<English>Communism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>共产主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MASS_MEDIA</Tag>
+		<English>Mass Media</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大众传媒</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ECOLOGY</Tag>
+		<English>Ecology</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生态学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FISHING</Tag>
+		<English>Fishing</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>渔业</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THE_WHEEL</Tag>
+		<English>The Wheel</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>轮子</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AGRICULTURE</Tag>
+		<English>Agriculture</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>农业</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POTTERY</Tag>
+		<English>Pottery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>制陶</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAILING</Tag>
+		<English>Sailing</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>航行术</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WRITING</Tag>
+		<English>Writing</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文字</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MATHEMATICS</Tag>
+		<English>Mathematics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>数学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALPHABET</Tag>
+		<English>Alphabet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>字母表</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CALENDAR</Tag>
+		<English>Calendar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>历法</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CURRENCY</Tag>
+		<English>Currency</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>货币制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTRONOMY</Tag>
+		<English>Astronomy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>天文学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PHILOSOPHY</Tag>
+		<English>Philosophy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>哲学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PAPER</Tag>
+		<English>Paper</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>造纸</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BANKING</Tag>
+		<English>Banking</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>银行业</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EDUCATION</Tag>
+		<English>Education</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>教育学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRINTING_PRESS</Tag>
+		<English>Printing Press</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印刷机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ECONOMICS</Tag>
+		<English>Economics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>经济学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SCIENTIFIC_METHOD</Tag>
+		<English>Scientific Method</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科学方法</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CHEMISTRY</Tag>
+		<English>Chemistry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>化学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PHYSICS</Tag>
+		<English>Physics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>物理学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BIOLOGY</Tag>
+		<English>Biology</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生物学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDICINE</Tag>
+		<English>Medicine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>医学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ELECTRICITY</Tag>
+		<English>Electricity</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>电学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMBUSTION</Tag>
+		<English>Combustion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>内燃机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FISSION</Tag>
+		<English>Fission</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>核裂变</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FLIGHT</Tag>
+		<English>Flight</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>航空</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PLASTICS</Tag>
+		<English>Plastics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>塑料</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMPOSITES</Tag>
+		<English>Composites</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>复合材料</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GENETICS</Tag>
+		<English>Genetics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>遗传学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FIBER_OPTICS</Tag>
+		<English>Fiber Optics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>光纤</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUSION</Tag>
+		<English>Fusion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>核聚变</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HUNTING</Tag>
+		<English>Hunting</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>捕猎</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MINING</Tag>
+		<English>Mining</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>采矿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHERY</Tag>
+		<English>Archery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弓箭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MASONRY</Tag>
+		<English>Masonry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>石工术</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BRONZE_WORKING</Tag>
+		<English>Bronze Working</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>青铜器</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HUSBANDRY</Tag>
+		<English>Animal Husbandry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>家畜驯养</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_IRON_WORKING</Tag>
+		<English>Iron Working</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁器</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_METAL_CASTING</Tag>
+		<English>Metal Casting</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>金属铸造</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CONSTRUCTION</Tag>
+		<English>Construction</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>建筑构造学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEBACK_RIDING</Tag>
+		<English>Horseback Riding</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>骑术</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMPASS</Tag>
+		<English>Compass</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗盘</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MACHINERY</Tag>
+		<English>Machinery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>机械</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ENGINEERING</Tag>
+		<English>Engineering</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工程学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_OPTICS</Tag>
+		<English>Optics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>光学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUNPOWDER</Tag>
+		<English>Gunpowder</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火药</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_REPLACEABLE_PARTS</Tag>
+		<English>Replaceable Parts</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可更换部件</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RIFLING</Tag>
+		<English>Rifling</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>膛线</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STEAM_POWER</Tag>
+		<English>Steam Power</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒸汽机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STEEL</Tag>
+		<English>Steel</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>炼钢</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RAILROAD</Tag>
+		<English>Railroad</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁路</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARTILLERY</Tag>
+		<English>Artillery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火炮</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASSEMBLY_LINE</Tag>
+		<English>Assembly Line</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生产流水线</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INDUSTRIALISM</Tag>
+		<English>Industrialism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>产业主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RADIO</Tag>
+		<English>Radio</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>无线电</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_REFRIGERATION</Tag>
+		<English>Refrigeration</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>制冷</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMPUTERS</Tag>
+		<English>Computers</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>电子计算机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ROCKETRY</Tag>
+		<English>Rocketry</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火箭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SATELLITES</Tag>
+		<English>Satellites</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>人造卫星</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ROBOTICS</Tag>
+		<English>Robotics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>机器人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUTURE_TECH</Tag>
+		<English>Future Tech</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>未来科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_ANCIENT</Tag>
+		<English>Ancient</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>远古时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_CLASSICAL</Tag>
+		<English>Classical</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>古典时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_MEDIEVAL</Tag>
+		<English>Medieval</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中古时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_RENAISSANCE</Tag>
+		<English>Renaissance</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>启蒙时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_INDUSTRIAL</Tag>
+		<English>Industrial</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工业时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_MODERN</Tag>
+		<English>Modern</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>信息时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ERA_FUTURE</Tag>
+		<English>Future</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>未来</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DESPOTISM</Tag>
+		<English>Despotism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>专制制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_HEREDITARY_RULE</Tag>
+		<English>Hereditary Rule</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>世袭制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPRESENTATION</Tag>
+		<English>Representation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>代议制度 </Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_POLICE_STATE</Tag>
+		<English>Police State</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强化监控</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_UNIVERSAL_SUFFRAGE</Tag>
+		<English>Universal Suffrage</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>普选制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_BARBARISM</Tag>
+		<English>Barbarism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>原始法律</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VASSALAGE</Tag>
+		<English>Vassalage</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>分封制度 </Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_BUREAUCRACY</Tag>
+		<English>Bureaucracy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>官僚制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NATIONHOOD</Tag>
+		<English>Nationhood</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>民族国家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_SPEECH</Tag>
+		<English>Free Speech</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>言论自由 </Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBALISM</Tag>
+		<English>Tribalism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>部落分工</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SLAVERY</Tag>
+		<English>Slavery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奴隶制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SERFDOM</Tag>
+		<English>Serfdom</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>农奴制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CASTE_SYSTEM</Tag>
+		<English>Caste System</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>等级社会</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_EMANCIPATION</Tag>
+		<English>Emancipation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>人身自由</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DECENTRALIZATION</Tag>
+		<English>Decentralization</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>分散经济 </Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MERCANTILISM</Tag>
+		<English>Mercantilism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>重商主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_MARKET</Tag>
+		<English>Free Market</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>自由市场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_STATE_PROPERTY</Tag>
+		<English>State Property</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国营经济</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ENVIRONMENTALISM</Tag>
+		<English>Environmentalism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绿色经济</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PAGANISM</Tag>
+		<English>Paganism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>原始信仰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ORGANIZED_RELIGION</Tag>
+		<English>Organized Religion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>信仰控制</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY</Tag>
+		<English>Theocracy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神权政治</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PACIFISM</Tag>
+		<English>Pacifism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和平主义</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_RELIGION</Tag>
+		<English>Free Religion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>信仰自由</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_GOVERNMENT</Tag>
+		<English>Government</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>政府体制</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_LEGAL</Tag>
+		<English>Legal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法律制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_LABOR</Tag>
+		<English>Labor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>劳工制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_ECONOMY</Tag>
+		<English>Economy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>经济制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_RELIGION</Tag>
+		<English>Religion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宗教制度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMERCE_GOLD</Tag>
+		<English>Gold</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>金钱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMERCE_RESEARCH</Tag>
+		<English>Research</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科研</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMERCE_CULTURE</Tag>
+		<English>Culture</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文化</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_MARATHON</Tag>
+		<English>Marathon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马拉松</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_EPIC</Tag>
+		<English>Epic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>史诗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_NORMAL</Tag>
+		<English>Normal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>正常</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_QUICK</Tag>
+		<English>Quick</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快速</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TURNTIMER_SLOW</Tag>
+		<English>Slow</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>缓慢</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TURNTIMER_MEDIUM</Tag>
+		<English>Medium</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中等</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TURNTIMER_FAST</Tag>
+		<English>Fast</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快速</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_SETTLER</Tag>
+		<English>Settler</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>平民</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_CHIEFTAIN</Tag>
+		<English>Chieftain</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>酋长</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_WARLORD</Tag>
+		<English>Warlord</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军阀</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_NOBLE</Tag>
+		<English>Noble</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>贵族</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_PRINCE</Tag>
+		<English>Prince</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>亲王</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_MONARCH</Tag>
+		<English>Monarch</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国王</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_EMPEROR</Tag>
+		<English>Emperor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>皇帝</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_IMMORTAL</Tag>
+		<English>Immortal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>圣人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_DEITY</Tag>
+		<English>Deity</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神祗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_WEALTH</Tag>
+		<English>Wealth</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>财富</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_RESEARCH</Tag>
+		<English>Research</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科研</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_CULTURE</Tag>
+		<English>Culture</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文化</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MANHATTAN_PROJECT</Tag>
+		<English>The Manhattan Project</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>曼哈顿工程</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_INTERNET</Tag>
+		<English>The Internet</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>因特网</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SDI</Tag>
+		<English>SDI</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战略导弹防御系统</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_APOLLO_PROGRAM</Tag>
+		<English>Apollo Program</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿波罗计划</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_CASING</Tag>
+		<English>SS Casing</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船外壳</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_THRUSTERS</Tag>
+		<English>SS Thrusters</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船推进器</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_ENGINE</Tag>
+		<English>SS Engine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船发动机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_DOCKING_BAY</Tag>
+		<English>SS Docking Bay</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船对接舱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_COCKPIT</Tag>
+		<English>SS Cockpit</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船驾驶舱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_LIFE_SUPPORT</Tag>
+		<English>SS Life Support</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船服务舱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SS_STASIS_CHAMBER</Tag>
+		<English>SS Stasis Chamber</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>飞船休眠舱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_JUDAISM</Tag>
+		<English>Judaism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>犹太教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHRISTIANITY</Tag>
+		<English>Christianity</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基督教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ISLAM</Tag>
+		<English>Islam</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伊斯兰教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_HINDUISM</Tag>
+		<English>Hinduism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_BUDDHISM</Tag>
+		<English>Buddhism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>佛教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CONFUCIANISM</Tag>
+		<English>Confucianism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>儒学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TAOISM</Tag>
+		<English>Taoism</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCORE</Tag>
+		<English>Score</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>积分</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TIME</Tag>
+		<English>Time</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>时间</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CONQUEST</Tag>
+		<English>Conquest</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>征服</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DOMINATION</Tag>
+		<English>Domination</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>支配</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_CULTURAL</Tag>
+		<English>Cultural</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文化</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SPACE_RACE</Tag>
+		<English>Space Race</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太空</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_DIPLOMATIC</Tag>
+		<English>Diplomatic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>外交</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_DUEL</Tag>
+		<English>Duel</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>擂台</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_TINY</Tag>
+		<English>Tiny</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>极小</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_SMALL</Tag>
+		<English>Small</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>较小</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_STANDARD</Tag>
+		<English>Standard</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>标准</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_LARGE</Tag>
+		<English>Large</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>较大</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_HUGE</Tag>
+		<English>Huge</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>极大</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AMERICA_DESC</Tag>
+		<English>
+			<Text>American Empire</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>美利坚文明</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AMERICA_SHORT_DESC</Tag>
+		<English>America</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AMERICA_ADJECTIVE</Tag>
+		<English>American</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARABIA_DESC</Tag>
+		<English>Arabian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿拉伯文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARABIA_SHORT_DESC</Tag>
+		<English>Arabia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿拉伯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARABIA_ADJECTIVE</Tag>
+		<English>Arabian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿拉伯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AZTEC_DESC</Tag>
+		<English>Aztec Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿兹特克文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AZTEC_SHORT_DESC</Tag>
+		<English>Aztec</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿兹特克</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AZTEC_ADJECTIVE</Tag>
+		<English>Aztec</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿兹特克</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_DESC</Tag>
+		<English>Chinese Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中华文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_SHORT_DESC</Tag>
+		<English>China</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_ADJECTIVE</Tag>
+		<English>Chinese</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>中国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_DESC</Tag>
+		<English>Egyptian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃及文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_SHORT_DESC</Tag>
+		<English>Egypt</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃及</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_ADJECTIVE</Tag>
+		<English>Egyptian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃及</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ENGLAND_DESC</Tag>
+		<English>English Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英格兰文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ENGLAND_SHORT_DESC</Tag>
+		<English>England</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ENGLAND_ADJECTIVE</Tag>
+		<English>English</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_DESC</Tag>
+		<English>French Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法兰西文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_SHORT_DESC</Tag>
+		<English>France</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_ADJECTIVE</Tag>
+		<English>French</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GERMANY_DESC</Tag>
+		<English>German Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日耳曼文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GERMANY_SHORT_DESC</Tag>
+		<English>Germany</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>德国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GERMANY_ADJECTIVE</Tag>
+		<English>German</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>德国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_DESC</Tag>
+		<English>Greek Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希腊文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_SHORT_DESC</Tag>
+		<English>Greece</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希腊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_ADJECTIVE</Tag>
+		<English>Greek</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希腊</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INCA_DESC</Tag>
+		<English>Incan Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印加文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INCA_SHORT_DESC</Tag>
+		<English>Inca</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印加</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INCA_ADJECTIVE</Tag>
+		<English>Incan</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印加</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_DESC</Tag>
+		<English>Indian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_SHORT_DESC</Tag>
+		<English>India</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_ADJECTIVE</Tag>
+		<English>Indian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_JAPAN_DESC</Tag>
+		<English>Japanese Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日本文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_JAPAN_SHORT_DESC</Tag>
+		<English>Japan</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日本</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_JAPAN_ADJECTIVE</Tag>
+		<English>Japanese</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日本</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MALI_DESC</Tag>
+		<English>Malinese Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马里文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MALI_SHORT_DESC</Tag>
+		<English>Mali</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马里</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MALI_ADJECTIVE</Tag>
+		<English>Malinese</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马里</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MONGOL_DESC</Tag>
+		<English>Mongolian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MONGOL_SHORT_DESC</Tag>
+		<English>Mongolia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MONGOL_ADJECTIVE</Tag>
+		<English>Mongolian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙古</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PERSIA_DESC</Tag>
+		<English>Persian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>波斯文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PERSIA_SHORT_DESC</Tag>
+		<English>Persia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>波斯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PERSIA_ADJECTIVE</Tag>
+		<English>Persian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>波斯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ROME_DESC</Tag>
+		<English>Roman Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗马文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ROME_SHORT_DESC</Tag>
+		<English>Rome</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗马</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ROME_ADJECTIVE</Tag>
+		<English>Roman</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗马</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_DESC</Tag>
+		<English>Russian Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>俄罗斯文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_SHORT_DESC</Tag>
+		<English>Russia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>俄国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
+		<English>Russian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>俄国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SPAIN_DESC</Tag>
+		<English>Spanish Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西班牙文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SPAIN_SHORT_DESC</Tag>
+		<English>Spain</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西班牙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SPAIN_ADJECTIVE</Tag>
+		<English>Spanish</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西班牙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MINOR_DESC</Tag>
+		<English>Minor Nation</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MINOR_SHORT_DESC</Tag>
+		<English>Minors</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小邦</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MINOR_ADJECTIVE</Tag>
+		<English>Minor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小邦</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_DESC</Tag>
+		<English>Barbarian State</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛮族国家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_SHORT_DESC</Tag>
+		<English>Barbarians</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛮族</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Tag>
+		<English>Barbarian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛮族</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BARBARIAN</Tag>
+		<English>Barbarian</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>野蛮人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_WASHINGTON</Tag>
+		<English>Washington</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>华盛顿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ROOSEVELT</Tag>
+		<English>Roosevelt</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>罗斯福</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SALADIN</Tag>
+		<English>Saladin</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>萨拉丁</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MONTEZUMA</Tag>
+		<English>Montezuma</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蒙特祖玛</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_QIN_SHI_HUANG</Tag>
+		<English>Qin Shi Huang</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嬴政</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CHINESE_LEADER</Tag>
+		<English>Mao Zedong</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>毛泽东</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HATSHEPSUT</Tag>
+		<English>
+			<Text>Hatshepsut</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>哈特谢普苏特</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ELIZABETH</Tag>
+		<English>
+			<Text>Elizabeth</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>伊丽莎白</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VICTORIA</Tag>
+		<English>
+			<Text>Victoria</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>维多利亚</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_LOUISXIV</Tag>
+		<English>Louis XIV</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>路易十四</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_NAPOLEON</Tag>
+		<English>Napoleon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拿破仑</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_FREDERICK</Tag>
+		<English>Frederick</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>腓特烈</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BISMARCK</Tag>
+		<English>Bismarck</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>俾斯麦</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ALEXANDER</Tag>
+		<English>Alexander</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>亚历山大</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_HUAYNA_CAPAC</Tag>
+		<English>Huayna Capac</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>怀那·卡帕</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ASOKA</Tag>
+		<English>Asoka</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿育</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GANDHI</Tag>
+		<English>Gandhi</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>甘地</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TOKUGAWA</Tag>
+		<English>Tokugawa</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>德川家康</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_MANSA_MUSA</Tag>
+		<English>Mansa Musa</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>曼沙·穆萨</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GENGHIS_KHAN</Tag>
+		<English>Genghis Khan</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>铁木真</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KUBLAI_KHAN</Tag>
+		<English>Kublai Khan</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>忽必烈</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CYRUS</Tag>
+		<English>Cyrus</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>居鲁士</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_JULIUS_CAESAR</Tag>
+		<English>Julius Caesar</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>朱利乌斯·恺撒</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_PETER</Tag>
+		<English>Peter</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>彼得</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_CATHERINE</Tag>
+		<English>
+			<Text>Catherine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>叶卡捷琳娜</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ISABELLA</Tag>
+		<English>
+			<Text>Isabella</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>伊莎贝拉</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHICAL</Tag>
+		<English>Philosophical</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>富于思辨</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGGRESSIVE</Tag>
+		<English>Aggressive</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强悍好斗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIRITUAL</Tag>
+		<English>Spiritual</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>虔信神灵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPANSIVE</Tag>
+		<English>Expansive</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>开拓进取</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INDUSTRIOUS</Tag>
+		<English>Industrious</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>勤奋刻苦</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CREATIVE</Tag>
+		<English>Creative</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>崇尚创新</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FINANCIAL</Tag>
+		<English>Financial</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>擅长理财</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORGANIZED</Tag>
+		<English>Organized</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>组织严密</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_BOMB_SHELTER</Tag>
+		<English>Bomb Shelter</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>防空洞</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_TEMPLE</Tag>
+		<English>Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_CATHEDRAL</Tag>
+		<English>Cathedral</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大教堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_MONASTERY</Tag>
+		<English>Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>修道院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE</Tag>
+		<English>Palace</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宫殿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_PALACE</Tag>
+		<English>Forbidden Palace</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>紫禁城</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VERSAILLES</Tag>
+		<English>Versailles</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凡尔赛宫</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WALLS</Tag>
+		<English>Walls</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城墙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CASTLE</Tag>
+		<English>Castle</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城堡</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BARRACKS</Tag>
+		<English>Barracks</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>兵营</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUNKER</Tag>
+		<English>Bunker</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地堡</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BOMB_SHELTER</Tag>
+		<English>Bomb Shelters</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>防空洞</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRANARY</Tag>
+		<English>Granary</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>粮仓</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AQUEDUCT</Tag>
+		<English>Aqueduct</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>引水渠</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOSPITAL</Tag>
+		<English>Hospital</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>医院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RECYCLING_CENTER</Tag>
+		<English>Recycling Center</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>回收中心</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LIGHTHOUSE</Tag>
+		<English>Lighthouse</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>灯塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARBOR</Tag>
+		<English>Harbor</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>港口</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DRYDOCK</Tag>
+		<English>Drydock</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>干船坞</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AIRPORT</Tag>
+		<English>Airport</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>机场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FORGE</Tag>
+		<English>Forge</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>煅造场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FACTORY</Tag>
+		<English>Factory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工厂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COAL_PLANT</Tag>
+		<English>Coal Plant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火电站</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYDRO_PLANT</Tag>
+		<English>Hydro Plant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>水电站</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_PLANT</Tag>
+		<English>Nuclear Plant</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>核电站</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OBELISK</Tag>
+		<English>Obelisk</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>方尖碑</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ACADEMY</Tag>
+		<English>Academy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科学院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LIBRARY</Tag>
+		<English>Library</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>图书馆</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNIVERSITY</Tag>
+		<English>University</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OBSERVATORY</Tag>
+		<English>Observatory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>天文台</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABORATORY</Tag>
+		<English>Laboratory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>实验室</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THEATRE</Tag>
+		<English>Theatre</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>剧场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOSSEUM</Tag>
+		<English>Colosseum</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>竞技场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROADCAST_TOWER</Tag>
+		<English>Broadcast Tower</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>广播塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MARKET</Tag>
+		<English>Market</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>市场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GROCER</Tag>
+		<English>Grocer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>杂货店</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BANK</Tag>
+		<English>Bank</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>银行</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
+		<English>Supermarket</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>超级市场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COURTHOUSE</Tag>
+		<English>Courthouse</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>法庭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JAIL</Tag>
+		<English>Jail</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>监狱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_TEMPLE</Tag>
+		<English>Jewish Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>犹太礼拜堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_MONASTERY</Tag>
+		<English>Jewish Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>犹太修道院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_CATHEDRAL</Tag>
+		<English>Jewish Synagogue</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>犹太教会堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JEWISH_SHRINE</Tag>
+		<English>The Temple of Solomon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>所罗门圣殿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_TEMPLE</Tag>
+		<English>Christian Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基督教礼拜堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_MONASTERY</Tag>
+		<English>Christian Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基督教修道院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_CATHEDRAL</Tag>
+		<English>Christian Cathedral</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基督教大教堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHRISTIAN_SHRINE</Tag>
+		<English>The Church of the Nativity</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>圣诞大教堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_TEMPLE</Tag>
+		<English>Islamic Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伊斯兰礼拜堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_MONASTERY</Tag>
+		<English>Islamic Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伊斯兰修道院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_CATHEDRAL</Tag>
+		<English>Islamic Mosque</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伊斯兰清真寺</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISLAMIC_SHRINE</Tag>
+		<English>The Masjid al-Haram</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>克尔白天房</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_TEMPLE</Tag>
+		<English>Hindu Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教神庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_MONASTERY</Tag>
+		<English>Hindu Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教静修院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_CATHEDRAL</Tag>
+		<English>Hindu Mandir</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教神殿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HINDU_SHRINE</Tag>
+		<English>The Kashi Vishwanath</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>印度教黄金殿</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_TEMPLE</Tag>
+		<English>Buddhist Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>佛堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_MONASTERY</Tag>
+		<English>Buddhist Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>佛院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_CATHEDRAL</Tag>
+		<English>Buddhist Stupa</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>佛寺</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUDDHIST_SHRINE</Tag>
+		<English>The Mahabodhi</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大菩提寺</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_TEMPLE</Tag>
+		<English>Confucian Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>学馆</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_MONASTERY</Tag>
+		<English>Confucian Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>书院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_CATHEDRAL</Tag>
+		<English>Confucian Academy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>学宫</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONFUCIAN_SHRINE</Tag>
+		<English>The Kong Miao</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>孔庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_TEMPLE</Tag>
+		<English>Taoist Temple</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道观</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_MONASTERY</Tag>
+		<English>Taoist Monastery</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_CATHEDRAL</Tag>
+		<English>Taoist Pagoda</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>道宫</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAOIST_SHRINE</Tag>
+		<English>The Dai Miao</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>岱庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEROIC_EPIC</Tag>
+		<English>Heroic Epic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英雄史诗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_EPIC</Tag>
+		<English>National Epic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>民族史诗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GLOBE_THEATRE</Tag>
+		<English>Globe Theatre</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>环球剧场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HERMITAGE</Tag>
+		<English>Hermitage</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冬宫</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Tag>
+		<English>Oxford University</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>牛津大学</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WALL_STREET</Tag>
+		<English>Wall Street</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>华尔街</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IRONWORKS</Tag>
+		<English>Ironworks</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大铁厂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WEST_POINT</Tag>
+		<English>West Point</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西点军校</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MT_RUSHMORE</Tag>
+		<English>Mt. Rushmore</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>总统山</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RED_CROSS</Tag>
+		<English>Red Cross</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>红十字会</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCOTLAND_YARD</Tag>
+		<English>Scotland Yard</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>苏格兰场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PYRAMID</Tag>
+		<English>The Pyramids</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大金字塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STONEHENGE</Tag>
+		<English>Stonehenge</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>巨石阵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_LIBRARY</Tag>
+		<English>The Great Library</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大图书馆</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Tag>
+		<English>The Great Lighthouse</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大灯塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANGING_GARDEN</Tag>
+		<English>The Hanging Gardens</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>空中花园</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COLOSSUS</Tag>
+		<English>The Colossus</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>青铜巨像</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORACLE</Tag>
+		<English>The Oracle</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神谕宣示所</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PARTHENON</Tag>
+		<English>The Parthenon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>帕特农神庙</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANGKOR_WAT</Tag>
+		<English>Angkor Wat</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>吴哥窟</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAGIA_SOPHIA</Tag>
+		<English>The Hagia Sophia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>圣索菲亚</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHICHEN_ITZA</Tag>
+		<English>Chichen Itza</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奇琴伊察</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SISTINE_CHAPEL</Tag>
+		<English>The Sistine Chapel</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>西斯廷教堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPIRAL_MINARET</Tag>
+		<English>The Spiral Minaret</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>螺旋尖塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NOTRE_DAME</Tag>
+		<English>Notre Dame</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>圣母院</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAJ_MAHAL</Tag>
+		<English>The Taj Mahal</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>泰姬陵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KREMLIN</Tag>
+		<English>The Kremlin</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>克里姆林宫</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EIFFEL_TOWER</Tag>
+		<English>The Eiffel Tower</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>埃菲尔铁塔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATUE_OF_LIBERTY</Tag>
+		<English>The Statue of Liberty</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>自由女神像</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BROADWAY</Tag>
+		<English>Broadway</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>百老汇</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROCKNROLL</Tag>
+		<English>Rock N Roll</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>摇滚名人堂</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HOLLYWOOD</Tag>
+		<English>Hollywood</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好莱坞</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_DAM</Tag>
+		<English>The Three Gorges Dam</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>三峡大坝</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PENTAGON</Tag>
+		<English>The Pentagon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>五角大楼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNITED_NATIONS</Tag>
+		<English>The United Nations</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>联合国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SPACE_ELEVATOR</Tag>
+		<English>The Space Elevator</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>天梯</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_ANIMALS</Tag>
+		<English>Animals</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>野兽</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_AIR_UNITS</Tag>
+		<English>Air Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>空中单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BARBARIANS</Tag>
+		<English>Barbarians</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蛮族</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BORDERS</Tag>
+		<English>Borders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国界</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_BUILDINGS</Tag>
+		<English>Buildings</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>建筑</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CITIES</Tag>
+		<English>Cities</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城市</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CITY_NETWORK</Tag>
+		<English>City Network</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城市网络</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CIVICS</Tag>
+		<English>Civics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>内政法令</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_COMBAT</Tag>
+		<English>Combat</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战斗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_COMMERCE</Tag>
+		<English>Commerce</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>商业</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CULTURE</Tag>
+		<English>Culture</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文化</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DIPLOMACY</Tag>
+		<English>Diplomacy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>外交</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DRAFT</Tag>
+		<English>Draft</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强制征召</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_EXPLORATION</Tag>
+		<English>Exploration</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>探索</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_FOOD</Tag>
+		<English>Food</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>食物</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_GOLDEN_AGE</Tag>
+		<English>Golden Age</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>黄金时代</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_GREAT_PEOPLE</Tag>
+		<English>Great People</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>历史伟人</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_HAPPINESS</Tag>
+		<English>Happiness</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快乐</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_HEALTH</Tag>
+		<English>Health</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>健康</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_HURRY_PRODUCTION</Tag>
+		<English>Hurry Production</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>加速生产</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_IMPROVEMENTS</Tag>
+		<English>Improvements</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>区域设施</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_LEADERS</Tag>
+		<English>Leaders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>领袖</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_MAINTENANCE</Tag>
+		<English>Maintenance</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维护费</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_MAPS</Tag>
+		<English>Maps</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地图</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_MOVEMENT</Tag>
+		<English>Movement</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>移动</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_NUKES</Tag>
+		<English>Nukes</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>核弹</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_PRODUCTION</Tag>
+		<English>Production</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生产</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_PROMOTIONS</Tag>
+		<English>Promotions</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位晋升</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RELIGION</Tag>
+		<English>Religion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宗教信仰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RESEARCH</Tag>
+		<English>Research</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科研</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RESISTANCE</Tag>
+		<English>Resistance</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抵抗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RESOURCES</Tag>
+		<English>Resources</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>资源</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_REVOLUTION</Tag>
+		<English>Revolution</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>革命</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_SPACESHIP</Tag>
+		<English>Spaceship</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太空飞船</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_SPECIALISTS</Tag>
+		<English>Specialists</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>专业人员</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_SPIES</Tag>
+		<English>Spies</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>间谍</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TECHNOLOGY</Tag>
+		<English>Technology</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TERRAIN</Tag>
+		<English>Terrain</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地形</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TRADE</Tag>
+		<English>Trade</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>贸易</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TRANSPORT</Tag>
+		<English>Transport</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>运输</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TREASURY</Tag>
+		<English>Treasury</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国库</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_UNITS</Tag>
+		<English>Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_UNITED_NATIONS</Tag>
+		<English>United Nations</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>联合国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_VICTORY</Tag>
+		<English>Victory</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>胜利</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WAR</Tag>
+		<English>War</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战争</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WAR_WEARINESS</Tag>
+		<English>War Weariness</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>厌战情绪</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WEALTH</Tag>
+		<English>Wealth</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>财富</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WONDERS</Tag>
+		<English>Wonders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>奇观</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_JANUARY</Tag>
+		<English>January</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>1月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_FEBRUARY</Tag>
+		<English>February</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>2月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_MARCH</Tag>
+		<English>March</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>3月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_APRIL</Tag>
+		<English>April</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>4月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_MAY</Tag>
+		<English>May</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>5月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_JUNE</Tag>
+		<English>June</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>6月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_JULY</Tag>
+		<English>July</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>7月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_AUGUST</Tag>
+		<English>August</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>8月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_SEPTEMBER</Tag>
+		<English>September</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>9月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_OCTOBER</Tag>
+		<English>October</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>10月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_NOVEMBER</Tag>
+		<English>November</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>11月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MONTH_DECEMBER</Tag>
+		<English>December</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>12月</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INVISIBLE_SUBMARINE</Tag>
+		<English>Submarines</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>潜艇</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_CEASE_FIRE_STRING</Tag>
+		<English>Cease Fire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>停火</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_WORLD_MAP_STRING</Tag>
+		<English>World Map</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>世界地图</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_OPEN_BORDERS_STRING</Tag>
+		<English>Open Borders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>开放边界</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_DEFENSIVE_PACT_STRING</Tag>
+		<English>Defensive Pact</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>共同防御</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_PERMANENT_ALLIANCE_STRING</Tag>
+		<English>Permanent Alliance</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>永久同盟</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_TECH</Tag>
+		<English>Technology</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_RESOURCES</Tag>
+		<English>Resources</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>资源</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_CIVICS</Tag>
+		<English>Civics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>政策</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_RELIGIONS</Tag>
+		<English>Religions</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>信仰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_CITIES</Tag>
+		<English>Cities</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>城市</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_TITLE_GOLD</Tag>
+		<English>Gold</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>金钱</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN1</Tag>
+		<English>Herodotus</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>希罗多德</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN2</Tag>
+		<English>Thucydides</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>修昔底德</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN3</Tag>
+		<English>Pliny</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>普林尼</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN4</Tag>
+		<English>St. Augustine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>圣奥古斯丁</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN5</Tag>
+		<English>Gibbon</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>吉本</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN6</Tag>
+		<English>Toynbee</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>汤因比</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN7</Tag>
+		<English>Lord McCauley</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>麦考莱勋爵</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN8</Tag>
+		<English>Livy</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>李维</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN9</Tag>
+		<English>Tacitus</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>塔西陀</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN10</Tag>
+		<English>The Venerable Bede</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维纳拉伯·比德</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_HISTORIAN11</Tag>
+		<English>Machiavelli</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马基亚维利</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TECH</Tag>
+		<English>Technologies</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIT</Tag>
+		<English>Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_BUILDING</Tag>
+		<English>Buildings</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>建筑</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_BONUS</Tag>
+		<English>Resources</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>资源</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_IMPROVEMENT</Tag>
+		<English>Improvements</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地域设施</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_SPECIALIST</Tag>
+		<English>Specialists</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>专业人员</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_PROMOTION</Tag>
+		<English>Promotions</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位晋升</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIT_COMBAT</Tag>
+		<English>Unit Categories</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位类型</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CIV</Tag>
+		<English>Civilizations</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文明</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_LEADER</Tag>
+		<English>Leaders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>文明领袖</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_RELIGION</Tag>
+		<English>Religions</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>宗教信仰</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CIVIC</Tag>
+		<English>Civics</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>内政法令</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_PROJECT</Tag>
+		<English>Projects</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大型工程</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT</Tag>
+		<English>Game Concepts</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>游戏概念</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TERRAIN</Tag>
+		<English>Base Terrain</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>基本地形</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_FEATURE</Tag>
+		<English>Terrain Features</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地貌特征</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_FEATURES</Tag>
+		<English>Features</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>特征</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_HINTS</Tag>
+		<English>Hints</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>提示</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_MAP</Tag>
+		<English>Map</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>地图</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SYSTEM_ALL</Tag>
+		<English>all</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>全部</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SYSTEM_TEAM</Tag>
+		<English>team</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>组队</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SYSTEM_YOU</Tag>
+		<English>you</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOP_CITIES_SCREEN_WORLD_WONDERS</Tag>
+		<English>World Wonders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>世界级奇观</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOP_CITIES_SCREEN_NATIONAL_WONDERS</Tag>
+		<English>National Wonders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国家级奇观</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEASON_WINTER</Tag>
+		<English>Winter</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冬季</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEASON_SPRING</Tag>
+		<English>Spring</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>春季</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEASON_SUMMER</Tag>
+		<English>Summer</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>夏季</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEASON_FALL</Tag>
+		<English>Fall</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>秋季</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_EVERGREEN</Tag>
+		<English>Evergreen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>四季长青</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_SNOWY_EVERGREEN</Tag>
+		<English>Snowy Evergreen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>冬季长青</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOLYROMAN_DESC</Tag>
+		<English>Holy Roman Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神圣罗马帝国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BYZANTINE_DESC</Tag>
+		<English>Byzantine Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拜占庭帝国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BYZANTINE_SHORT_DESC</Tag>
+		<English>Byzantines</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拜占庭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BYZANTINE_ADJECTIVE</Tag>
+		<English>Byzantine</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拜占庭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_DESC</Tag>
+		<English>Viking Empire</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京帝国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_SHORT_DESC</Tag>
+		<English>Scandinavia</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>斯堪的那维亚</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_ADJECTIVE</Tag>
+		<English>Viking</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BASIL</Tag>
+		<English>Basil</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>巴齐尔</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_SVEIN</Tag>
+		<English>Svein Forkbeard</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>八字胡斯维因</Chinese>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Please place any new text entries into this file-->
+	<TEXT>
+		<Tag>TXT_KEY_ALEXANDER_UNIT_PELTASTS_STRATEGY</Tag>
+		<English>Build this low powered melee combat unit to provide your army with quick response defensive units.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>此种肉搏单位战斗力较弱，适于快速组建你的军事防御力量。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALEXANDER_UNIT_PRODROMOI_STRATEGY</Tag>
+		<English>This mounted unit is very powerful for early in the game and is a great counter to an enemy with catapults.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>此种早期骑乘单位战斗力很强，适于对付敌方投石车。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MILITARY_ACADEMY_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Military Academies[COLOR_REVERT] increase a city's military unit production.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_BUILDING_TEXT]军事学院[COLOR_REVERT]提升所在城市军事单位组建速度。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STABLE_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]Stables[COLOR_REVERT] provide your mounted units with additional experience.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_BUILDING_TEXT]马厩[COLOR_REVERT]为骑乘单位提供额外经验值。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GREEKWAR_IMPROVEMENT_OLIVE_PRESS_STRATEGY</Tag>
+		<English>This improvement allows you to harvest [COLOR_HIGHLIGHT_TEXT]Olives[COLOR_REVERT].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>此种设施允许你采集[COLOR_HIGHLIGHT_TEXT]橄榄[COLOR_REVERT]。</Chinese>
+	</TEXT>
+</Civ4GameText>

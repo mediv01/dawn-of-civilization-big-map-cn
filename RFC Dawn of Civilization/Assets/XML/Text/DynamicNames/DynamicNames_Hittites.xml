@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HITTITES_DEFAULT</Tag>
 		<English>Hittie Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕÌİµÛ¹ú</Chinese>
+		<Chinese>èµ«æ¢¯å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HITTITES_PEOPLES</Tag>
 		<English>Hittites People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕÌİÈË</Chinese>
+		<Chinese>èµ«æ¢¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SUPPI</Tag>
 		<English>Suppiluliuma</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ</Chinese>
+		<Chinese>è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_IRON_FORGE_PEDIA</Tag>
 		<English>About 2000 B.C. the Hittites appeared in northern Asia Minor, a region rich in iron. In 1650 B.C. the Hittites began building a powerful empire. They extended their control in Asia Minor, seized northern Syria from the Egyptians, and expanded into northern Mesopotamia, where they conquered the Babylonians. Hittite culture was greatly influenced by contacts with the Babylonians.[NEWLINE][NEWLINE]While they were less advanced than the peoples of Mesopotamia, they had learned to extract iron from ore - they were the first to make tools and weapons of iron. The Hittites heated iron ore and pounded out impurities before plunging it into cold water. The tools and weapons they made with iron were harder and had sharper edges than those made out of bronze or copper. Because iron was plentiful, the Hittites were able to arm more people at less expense.[NEWLINE][NEWLINE]The Hittites tried to keep this valuable technology secret. But as their empire collapsed about 1200 B.C., Hittite ironsmiths migrated to serve customers elsewhere. The new knowledge thus spread across Asia, Africa, and Europe, ushering in the Iron Age.[PARAGRAPH:2]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÔ¼ÔÚ¹«ÔªÇ°2000Äê£¬ºÕÌİÈË³öÏÖÔÚĞ¡ÑÇÏ¸ÑÇ±±²¿£¬Ò»¸ö¸»º¬ÌúµÄµØÇø¡£¹«ÔªÇ°1650Äê£¬ºÕÌİÈË¿ªÊ¼½¨Á¢Ò»¸öÇ¿´óµÄµÛ¹ú¡£ËûÃÇÀ©´óÁË¶ÔĞ¡ÑÇÏ¸ÑÇµÄ¿ØÖÆ£¬´Ó°£¼°ÈËÊÖÖĞ¶áÈ¡ÁËĞğÀûÑÇ±±²¿£¬²¢À©Õ¹µ½ÃÀË÷²»´ïÃ×ÑÇ±±²¿£¬ÔÚÄÇÀïËûÃÇÕ÷·şÁË°Í±ÈÂ×ÈË¡£ºÕÌİÈËµÄÎÄ»¯ÔÚºÜ´ó³Ì¶ÈÉÏÊÜµ½ÁËÓë°Í±ÈÂ×ÈË½Ó´¥µÄÓ°Ïì¡£ËäÈ»ËûÃÇ²»ÈçÃÀË÷²»´ïÃ×ÑÇµÄÈËÃñÏÈ½ø£¬µ«ËûÃÇÒÑ¾­Ñ§»áÁË´Ó¿óÊ¯ÖĞÌáÈ¡Ìú--ËûÃÇÊÇµÚÒ»¸öÓÃÌúÖÆÔì¹¤¾ßºÍÎäÆ÷µÄÈË¡£ºÕÌİÈË½«Ìú¿óÊ¯¼ÓÈÈ²¢µ·ËéÔÓÖÊ£¬È»ºó½«ÆäÍ¶ÈëÀäË®ÖĞ¡£ËûÃÇÓÃÌúÖÆÔìµÄ¹¤¾ßºÍÎäÆ÷±ÈÓÃÇàÍ­»òÍ­ÖÆÔìµÄ¹¤¾ßºÍÎäÆ÷¸ü¼áÓ²£¬±ßÔµ¸ü·æÀû¡£ÓÉÓÚÌúºÜ·á¸»£¬ºÕÌİÈËÄÜ¹»ÒÔ½ÏÉÙµÄ·ÑÓÃÎä×°¸ü¶àµÄÈË¡£[NEWLINE][NEWLINE]ºÕÌİÈËÊÔÍ¼¶ÔÕâÏî±¦¹óµÄ¼¼Êõ±£ÃÜ¡£µ«Ëæ×ÅËûÃÇµÄµÛ¹úÔÚ¹«ÔªÇ°1200Äê×óÓÒ±ÀÀ££¬ºÕÌİÈËµÄÌú½³ÃÇÇ¨ÒÆµ½ÆäËûµØ·½Îª¹Ë¿Í·şÎñ¡£ĞÂµÄÖªÊ¶Òò´ËÔÚÑÇÖŞ¡¢·ÇÖŞºÍÅ·ÖŞ´«²¥¿ªÀ´£¬Ó­À´ÁËÌúÆ÷Ê±´ú¡£[PARAGRAPH:2]</Chinese>
+		<Chinese>å¤§çº¦åœ¨å…¬å…ƒå‰2000å¹´ï¼Œèµ«æ¢¯äººå‡ºç°åœ¨å°äºšç»†äºšåŒ—éƒ¨ï¼Œä¸€ä¸ªå¯Œå«é“çš„åœ°åŒºã€‚å…¬å…ƒå‰1650å¹´ï¼Œèµ«æ¢¯äººå¼€å§‹å»ºç«‹ä¸€ä¸ªå¼ºå¤§çš„å¸å›½ã€‚ä»–ä»¬æ‰©å¤§äº†å¯¹å°äºšç»†äºšçš„æ§åˆ¶ï¼Œä»åŸƒåŠäººæ‰‹ä¸­å¤ºå–äº†å™åˆ©äºšåŒ—éƒ¨ï¼Œå¹¶æ‰©å±•åˆ°ç¾ç´¢ä¸è¾¾ç±³äºšåŒ—éƒ¨ï¼Œåœ¨é‚£é‡Œä»–ä»¬å¾æœäº†å·´æ¯”ä¼¦äººã€‚èµ«æ¢¯äººçš„æ–‡åŒ–åœ¨å¾ˆå¤§ç¨‹åº¦ä¸Šå—åˆ°äº†ä¸å·´æ¯”ä¼¦äººæ¥è§¦çš„å½±å“ã€‚è™½ç„¶ä»–ä»¬ä¸å¦‚ç¾ç´¢ä¸è¾¾ç±³äºšçš„äººæ°‘å…ˆè¿›ï¼Œä½†ä»–ä»¬å·²ç»å­¦ä¼šäº†ä»çŸ¿çŸ³ä¸­æå–é“--ä»–ä»¬æ˜¯ç¬¬ä¸€ä¸ªç”¨é“åˆ¶é€ å·¥å…·å’Œæ­¦å™¨çš„äººã€‚èµ«æ¢¯äººå°†é“çŸ¿çŸ³åŠ çƒ­å¹¶æ£ç¢æ‚è´¨ï¼Œç„¶åå°†å…¶æŠ•å…¥å†·æ°´ä¸­ã€‚ä»–ä»¬ç”¨é“åˆ¶é€ çš„å·¥å…·å’Œæ­¦å™¨æ¯”ç”¨é’é“œæˆ–é“œåˆ¶é€ çš„å·¥å…·å’Œæ­¦å™¨æ›´åšç¡¬ï¼Œè¾¹ç¼˜æ›´é”‹åˆ©ã€‚ç”±äºé“å¾ˆä¸°å¯Œï¼Œèµ«æ¢¯äººèƒ½å¤Ÿä»¥è¾ƒå°‘çš„è´¹ç”¨æ­¦è£…æ›´å¤šçš„äººã€‚[NEWLINE][NEWLINE]èµ«æ¢¯äººè¯•å›¾å¯¹è¿™é¡¹å®è´µçš„æŠ€æœ¯ä¿å¯†ã€‚ä½†éšç€ä»–ä»¬çš„å¸å›½åœ¨å…¬å…ƒå‰1200å¹´å·¦å³å´©æºƒï¼Œèµ«æ¢¯äººçš„é“åŒ ä»¬è¿ç§»åˆ°å…¶ä»–åœ°æ–¹ä¸ºé¡¾å®¢æœåŠ¡ã€‚æ–°çš„çŸ¥è¯†å› æ­¤åœ¨äºšæ´²ã€éæ´²å’Œæ¬§æ´²ä¼ æ’­å¼€æ¥ï¼Œè¿æ¥äº†é“å™¨æ—¶ä»£ã€‚[PARAGRAPH:2]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HITTITES_ADJECTIVE</Tag>
 		<English>Hittites</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕÌİ</Chinese>
+		<Chinese>èµ«æ¢¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_KINGDOM_OF_PONTUS</Tag>
@@ -41,25 +41,25 @@
 		<Tag>TXT_KEY_CIV_HITTITES_DESC</Tag>
 		<English>The Hittites</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕÌİÎÄÃ÷</Chinese>
+		<Chinese>èµ«æ¢¯æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HITTITES_SHORT_DESC</Tag>
 		<English>Hittites</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºÕÌİ</Chinese>
+		<Chinese>èµ«æ¢¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SUPPI_PEDIA</Tag>
 		<English>[H1]Suppiluliuma I[\H1][NEWLINE][BOLD]King of the Hittites[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c. 1350 BC[PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Suppiluliuma I (Shuppiluliuma) was king of the Hittites (ca. 1358 BC - 1323 BC). He achieved fame as a great warrior and statesman, successfully challenging the then-dominant Egyptian empire for control of the lands between the Mediterranean and the Euphrates.[PARAGRAPH:2]Suppiluliuma began his career as advisor and general to Tudhaliya III, then based at Samuha. In this capacity he defeated the Hittites' enemies among the Hayasa and the Kaskas. Both enemies then united around charismatic leaders to counter him; of these Karanni founded a semblance of a royal court in Hayasa, and Piyapili failed to do likewise for the Kaska. Suppiluliuma and Tudhaliya defeated these threats in turn, to the extent that the Hittite court could settle in Hattusa again.[PARAGRAPH:2]At some point, Suppiluliuma deposed and probably murdered his liege. Some of the priests later reported this to Suppiluliumas's son, successor, and biographer Mursili II, holding it as an outstanding crime of the whole dynasty.[PARAGRAPH:2]Suppiluliuma married a sister to the Hayasan king Hukkana, and his daughter Muwatti to Maskhuiluwa of the Arzawan state Mira. He retook Arzawan territory as far as Hapalla. His most permanent victory was against the Mitanni kingdom, which he reduced to a client state under his son-in-law Shattiwazza. He was also a master builder of large stone structures decorated with stone reliefs. It was during his reign that concepts of the sacred nature of royal leaders developed.[PARAGRAPH:2]Suppiluliuma then took advantage of the tumultuous reign of the Pharaoh Akhenaten, and seized control of Egyptian territory in Syria, inciting many Egyptian vassals to revolt.[PARAGRAPH:2]His success encouraged the widow of the Egyptian king Nibhuruyira (usually identified with Akhenaten or Tutankhamun) to write to him, asking him to send one of his sons to be her husband and rule Egypt, since she had no heir and did not wish to marry a commoner. Suppliluliuma dispatched an ambassador to Egypt to investigate; he reported that the situation was accurately described, and the king decided to take advantage of this windfall; unfortunately, Prince Zannanza died on the way, and the marriage alliance never was consummated.[PARAGRAPH:2]Suppililiuma was furious at this turn at events and unleashed his armies against Egypt's vassal states in Canaan and Northern Syria capturing much territory.[PARAGRAPH:2]Unfortunately, many of the Egyptian prisoners carried a plague which would eventually ravage the Hittite heartland and lead to the deaths of both of Suppiluliuma I and his successor, Arnuwanda II.[PARAGRAPH:2]The Annals of Suppiluliuma, compiled after his death by his son Mursili II, is an important primary source for the 14th century BC. One of Suppiluliuma's letters, addressed to Akenaten, was preserved in the Amarna letters (EA 41) archive at Akhetaten. It expresses his hope that the good relations which existed between Egypt and Hatti under Akhenaten's father would continue into Akhenaten's new reign.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ[\H1][NEWLINE][BOLD]ºÕÌİ¹úÍõ[\BOLD][NEWLINE][BOLD]ÔÚÎ»£ºÔ¼¹«ÔªÇ°1350Äê[PARAGRAPH:2][BOLD]±³¾°£º[PARAGRAPH:1]ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ£¨Shuppiluliuma£©ÊÇºÕÌİÈËµÄ¹úÍõ£¨Ô¼¹«ÔªÇ°1358Äê-Ç°1323Äê£©¡£ËûÒÔÎ°´óµÄÕ½Ê¿ºÍÕşÖÎ¼ÒµÄÉí·İ³ÉÃû£¬³É¹¦µØÌôÕ½ÁËµ±Ê±Õ¼Í³ÖÎµØÎ»µÄ°£¼°µÛ¹ú¶ÔµØÖĞº£ºÍÓ×·¢À­µ×ºÓÖ®¼äÍÁµØµÄ¿ØÖÆ¡£ÔÚÕâ¸öÖ°Î»ÉÏ£¬Ëû´ò°ÜÁËºÕÌİÈËµÄµĞÈË¹şÑÇÈøÈËºÍ¿¨Ë¹¿¨Ë¹ÈË¡£ÕâÁ½¸öµĞÈËºóÀ´¶¼ÍÅ½áÔÚÓĞ÷ÈÁ¦µÄÁìµ¼ÈËÖÜÎ§À´¶Ô¸¶Ëû£»ÆäÖĞ¿¨À¼ÄáÔÚ¹şÑÇÉ³½¨Á¢ÁËÒ»¸öÀàËÆÓÚÍõÊÒµÄ·¨Í¥£¬¶øÆ¤ÑÇÆ¤ÀûÒ²Ã»ÄÜÎª¿¨Ë¹¿¨×öÍ¬ÑùµÄÊÂ¡£ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀºÍTudhaliyaÒÀ´Î»÷°ÜÁËÕâĞ©ÍşĞ²£¬ÒÔÖÁÓÚºÕÌİ¹¬Í¢¿ÉÒÔÔÙ´ÎÔÚ¹şÍ¼Èø¶¨¾Ó¡£ [PARAGRAPH:2]ÔÚÄ³¸öÊ±ºò£¬ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ·Ï÷íÁËËûµÄÖ÷×Ó£¬²¢¿ÉÄÜÄ±É±ÁËËûµÄÖ÷×Ó¡£Ò»Ğ©¼ÀË¾ºóÀ´ÏòËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀµÄ¶ù×Ó¡¢¼ÌÈÎÕßºÍ´«¼Ç×÷ÕßÄÂ¶ûÎ÷Àï¶şÊÀ±¨¸æÁË´ËÊÂ£¬ÈÏÎªÕâÊÇÕû¸öÍõ³¯µÄÍ»³ö×ïĞĞ¡£ [PARAGRAPH:2]ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ°ÑÃÃÃÃ¼Ş¸øÁË¹şÑÇÉ½¹úÍõHukkana£¬°ÑÅ®¶ùMuwatti¼Ş¸øÁË°¢¶ûÔúÍò¹úMiraµÄMaskhuiluwa¡£ËûÖØĞÂÕ¼ÁìÁËArzawanµÄÁìÍÁ£¬Ò»Ö±µ½Hapalla¡£Ëû×î³Ö¾ÃµÄÊ¤ÀûÊÇ¶ÔÃ×Ì¹ÄáÍõ¹úµÄÊ¤Àû£¬Ëû°ÑÃ×Ì¹ÄáÍõ¹ú½µÎªËûÅ®ĞöÉ³ÌáÍßÔúÊÖÏÂµÄÒ»¸ö¿Í»§¹ú¼Ò¡£ËûÒ²ÊÇÒ»Î»½¨Ôì´óĞÍÊ¯ÖÊ½á¹¹µÄ´óÊ¦£¬ÓÃÊ¯ÖÊ¸¡µñ½øĞĞ×°ÊÎ¡£ÕıÊÇÔÚËûµÄÍ³ÖÎÆÚ¼ä£¬ÍõÊÒÁìĞäµÄÉñÊ¥ĞÔ¸ÅÄîµÃµ½ÁË·¢Õ¹¡£[PARAGRAPH:2]Ëæºó£¬ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀÀûÓÃ·¨ÀÏAkhenatenµÄ¶¯µ´Í³ÖÎ£¬¿ØÖÆÁË°£¼°ÔÚĞğÀûÑÇµÄÁìÍÁ£¬É¿¶¯Ğí¶à°£¼°¸½Ó¹Ôì·´¡£ [PARAGRAPH:2]ËûµÄ³É¹¦¹ÄÀøÁË°£¼°¹úÍõÄá²¼Â³ÒÁÀ­£¨Í¨³£±»ÈÏÎªÊÇ°¢¿ÏÄÇ¶Ù»òÍ¼Ì¹¿¨ÃÉ£©µÄ¹Ñ¸¾Ğ´ĞÅ¸øËû£¬ÒªÇóËûÅÉËûµÄÒ»¸ö¶ù×Ó×öËıµÄÕÉ·ò£¬Í³ÖÎ°£¼°£¬ÒòÎªËıÃ»ÓĞ¼Ì³ĞÈË£¬Ò²²»Ï£Íû¼Ş¸øÒ»¸öÆ½Ãñ¡£ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀÅÉÇ²ÁËÒ»Î»´óÊ¹µ½°£¼°½øĞĞµ÷²é£»Ëû±¨¸æËµ£¬Çé¿öÃèÊöµÃºÜ×¼È·£¬¹úÍõ¾ö¶¨ÀûÓÃÕâ±ÊÒâÍâÖ®²Æ£»²»ĞÒµÄÊÇ£¬ZannanzaÍõ×ÓÔÚÍ¾ÖĞËÀÍö£¬»éÒöÁªÃË´ÓÎ´Íê³É¡£ [PARAGRAPH:2]ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ¶ÔÕâÒ»ÊÂ¼şµÄ×ª±ä¸Ğµ½·ßÅ­£¬·¢¶¯¾ü¶Ó¹¥´ò°£¼°ÔÚåÈÄÏºÍ±±ĞğÀûÑÇµÄ¸½Ó¹¹ú£¬Õ¼ÁìÁËĞí¶àÁìÍÁ¡£ [PARAGRAPH:2]²»ĞÒµÄÊÇ£¬Ğí¶à°£¼°·ıÂ²Ğ¯´øÁËÒ»ÖÖÎÁÒß£¬×îÖÕõåõïÁËºÕÌİÈËµÄĞÄÔàµØ´ø£¬²¢µ¼ÖÂËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀ IºÍËûµÄ¼ÌÈÎÕßArnuwanda IIµÄËÀÍö¡£ËÕÆ¤Â¬ÀûÎÚÂêË¹Ò»ÊÀÄÇ¶Ù¸¸Ç×Ê±ÆÚ°£¼°ºÍ¹şÌáÖ®¼ä´æÔÚµÄÁ¼ºÃ¹ØÏµÄÜ¹»³ÖĞøµ½°¢¿ÏÄÇ¶ÙµÄĞÂÍ³ÖÎÊ±ÆÚ¡£</Chinese>
+		<Chinese>[H1]è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–[\H1][NEWLINE][BOLD]èµ«æ¢¯å›½ç‹[\BOLD][NEWLINE][BOLD]åœ¨ä½ï¼šçº¦å…¬å…ƒå‰1350å¹´[PARAGRAPH:2][BOLD]èƒŒæ™¯ï¼š[PARAGRAPH:1]è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–ï¼ˆShuppiluliumaï¼‰æ˜¯èµ«æ¢¯äººçš„å›½ç‹ï¼ˆçº¦å…¬å…ƒå‰1358å¹´-å‰1323å¹´ï¼‰ã€‚ä»–ä»¥ä¼Ÿå¤§çš„æˆ˜å£«å’Œæ”¿æ²»å®¶çš„èº«ä»½æˆåï¼ŒæˆåŠŸåœ°æŒ‘æˆ˜äº†å½“æ—¶å ç»Ÿæ²»åœ°ä½çš„åŸƒåŠå¸å›½å¯¹åœ°ä¸­æµ·å’Œå¹¼å‘æ‹‰åº•æ²³ä¹‹é—´åœŸåœ°çš„æ§åˆ¶ã€‚åœ¨è¿™ä¸ªèŒä½ä¸Šï¼Œä»–æ‰“è´¥äº†èµ«æ¢¯äººçš„æ•Œäººå“ˆäºšè¨äººå’Œå¡æ–¯å¡æ–¯äººã€‚è¿™ä¸¤ä¸ªæ•Œäººåæ¥éƒ½å›¢ç»“åœ¨æœ‰é­…åŠ›çš„é¢†å¯¼äººå‘¨å›´æ¥å¯¹ä»˜ä»–ï¼›å…¶ä¸­å¡å…°å°¼åœ¨å“ˆäºšæ²™å»ºç«‹äº†ä¸€ä¸ªç±»ä¼¼äºç‹å®¤çš„æ³•åº­ï¼Œè€Œçš®äºšçš®åˆ©ä¹Ÿæ²¡èƒ½ä¸ºå¡æ–¯å¡åšåŒæ ·çš„äº‹ã€‚è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–å’ŒTudhaliyaä¾æ¬¡å‡»è´¥äº†è¿™äº›å¨èƒï¼Œä»¥è‡³äºèµ«æ¢¯å®«å»·å¯ä»¥å†æ¬¡åœ¨å“ˆå›¾è¨å®šå±…ã€‚ [PARAGRAPH:2]åœ¨æŸä¸ªæ—¶å€™ï¼Œè‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–åºŸé»œäº†ä»–çš„ä¸»å­ï¼Œå¹¶å¯èƒ½è°‹æ€äº†ä»–çš„ä¸»å­ã€‚ä¸€äº›ç¥­å¸åæ¥å‘è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–çš„å„¿å­ã€ç»§ä»»è€…å’Œä¼ è®°ä½œè€…ç©†å°”è¥¿é‡ŒäºŒä¸–æŠ¥å‘Šäº†æ­¤äº‹ï¼Œè®¤ä¸ºè¿™æ˜¯æ•´ä¸ªç‹æœçš„çªå‡ºç½ªè¡Œã€‚ [PARAGRAPH:2]è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–æŠŠå¦¹å¦¹å«ç»™äº†å“ˆäºšå±±å›½ç‹Hukkanaï¼ŒæŠŠå¥³å„¿Muwattiå«ç»™äº†é˜¿å°”æ‰ä¸‡å›½Miraçš„Maskhuiluwaã€‚ä»–é‡æ–°å é¢†äº†Arzawançš„é¢†åœŸï¼Œä¸€ç›´åˆ°Hapallaã€‚ä»–æœ€æŒä¹…çš„èƒœåˆ©æ˜¯å¯¹ç±³å¦å°¼ç‹å›½çš„èƒœåˆ©ï¼Œä»–æŠŠç±³å¦å°¼ç‹å›½é™ä¸ºä»–å¥³å©¿æ²™æç“¦æ‰æ‰‹ä¸‹çš„ä¸€ä¸ªå®¢æˆ·å›½å®¶ã€‚ä»–ä¹Ÿæ˜¯ä¸€ä½å»ºé€ å¤§å‹çŸ³è´¨ç»“æ„çš„å¤§å¸ˆï¼Œç”¨çŸ³è´¨æµ®é›•è¿›è¡Œè£…é¥°ã€‚æ­£æ˜¯åœ¨ä»–çš„ç»Ÿæ²»æœŸé—´ï¼Œç‹å®¤é¢†è¢–çš„ç¥åœ£æ€§æ¦‚å¿µå¾—åˆ°äº†å‘å±•ã€‚[PARAGRAPH:2]éšåï¼Œè‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–åˆ©ç”¨æ³•è€Akhenatençš„åŠ¨è¡ç»Ÿæ²»ï¼Œæ§åˆ¶äº†åŸƒåŠåœ¨å™åˆ©äºšçš„é¢†åœŸï¼Œç…½åŠ¨è®¸å¤šåŸƒåŠé™„åº¸é€ åã€‚ [PARAGRAPH:2]ä»–çš„æˆåŠŸé¼“åŠ±äº†åŸƒåŠå›½ç‹å°¼å¸ƒé²ä¼Šæ‹‰ï¼ˆé€šå¸¸è¢«è®¤ä¸ºæ˜¯é˜¿è‚¯é‚£é¡¿æˆ–å›¾å¦å¡è’™ï¼‰çš„å¯¡å¦‡å†™ä¿¡ç»™ä»–ï¼Œè¦æ±‚ä»–æ´¾ä»–çš„ä¸€ä¸ªå„¿å­åšå¥¹çš„ä¸ˆå¤«ï¼Œç»Ÿæ²»åŸƒåŠï¼Œå› ä¸ºå¥¹æ²¡æœ‰ç»§æ‰¿äººï¼Œä¹Ÿä¸å¸Œæœ›å«ç»™ä¸€ä¸ªå¹³æ°‘ã€‚è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–æ´¾é£äº†ä¸€ä½å¤§ä½¿åˆ°åŸƒåŠè¿›è¡Œè°ƒæŸ¥ï¼›ä»–æŠ¥å‘Šè¯´ï¼Œæƒ…å†µæè¿°å¾—å¾ˆå‡†ç¡®ï¼Œå›½ç‹å†³å®šåˆ©ç”¨è¿™ç¬”æ„å¤–ä¹‹è´¢ï¼›ä¸å¹¸çš„æ˜¯ï¼ŒZannanzaç‹å­åœ¨é€”ä¸­æ­»äº¡ï¼Œå©šå§»è”ç›Ÿä»æœªå®Œæˆã€‚ [PARAGRAPH:2]è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–å¯¹è¿™ä¸€äº‹ä»¶çš„è½¬å˜æ„Ÿåˆ°æ„¤æ€’ï¼Œå‘åŠ¨å†›é˜Ÿæ”»æ‰“åŸƒåŠåœ¨è¿¦å—å’ŒåŒ—å™åˆ©äºšçš„é™„åº¸å›½ï¼Œå é¢†äº†è®¸å¤šé¢†åœŸã€‚ [PARAGRAPH:2]ä¸å¹¸çš„æ˜¯ï¼Œè®¸å¤šåŸƒåŠä¿˜è™æºå¸¦äº†ä¸€ç§ç˜Ÿç–«ï¼Œæœ€ç»ˆè¹‚èºäº†èµ«æ¢¯äººçš„å¿ƒè„åœ°å¸¦ï¼Œå¹¶å¯¼è‡´è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸– Iå’Œä»–çš„ç»§ä»»è€…Arnuwanda IIçš„æ­»äº¡ã€‚è‹çš®å¢åˆ©ä¹Œç›æ–¯ä¸€ä¸–é‚£é¡¿çˆ¶äº²æ—¶æœŸåŸƒåŠå’Œå“ˆæä¹‹é—´å­˜åœ¨çš„è‰¯å¥½å…³ç³»èƒ½å¤ŸæŒç»­åˆ°é˜¿è‚¯é‚£é¡¿çš„æ–°ç»Ÿæ²»æ—¶æœŸã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_IRON_FORGE</Tag>
 		<English>Iron Forge</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ìú½³ÆÌ</Chinese>
+		<Chinese>é“åŒ é“º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HITTITES_PEDIA</Tag>

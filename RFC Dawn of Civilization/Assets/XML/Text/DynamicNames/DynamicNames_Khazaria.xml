@@ -1,82 +1,82 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_DEFAULT</Tag>
 		<English>%s2 Khaganate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2º¹¹ú</Chinese>
+		<Chinese>%s2æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KHANATE</Tag>
 		<English>%s2 Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2º¹¹ú</Chinese>
+		<Chinese>%s2æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_CUMAN</Tag>
 		<English>Cuman-Kipchak</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿âÂü-»ùÆÕÇÐ¿Ë</Chinese>
+		<Chinese>åº“æ›¼-åŸºæ™®åˆ‡å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARS_SHORT_DESC</Tag>
 		<English>Khazaria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÔú¶û</Chinese>
+		<Chinese>å“ˆæ‰Žå°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARS_DESC</Tag>
 		<English>The Khazars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÔú¶ûÎÄÃ÷</Chinese>
+		<Chinese>å“ˆæ‰Žå°”æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_CUMANIA</Tag>
 		<English>Cumania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿âÂíÄáÑÇ</Chinese>
+		<Chinese>åº“é©¬å°¼äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKH</Tag>
 		<English>Kazakh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÈø¿Ë</Chinese>
+		<Chinese>å“ˆè¨å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_CONFEDERATION</Tag>
 		<English>%s2 Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2ÁªÃË</Chinese>
+		<Chinese>%s2è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_PEOPLES</Tag>
 		<English>Turkic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÔú¶ûÈË</Chinese>
+		<Chinese>å“ˆæ‰Žå°”äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_FASCIST</Tag>
 		<English>Pan-Turkic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ºÍ»ØÊµÛ¹ú</Chinese>
+		<Chinese>æ³›çªåŽ¥å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKHSTAN</Tag>
 		<English>Kazakhstan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÈø¿ËË¹Ì¹</Chinese>
+		<Chinese>å“ˆè¨å…‹æ–¯å¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARS_ADJECTIVE</Tag>
 		<English>Khazar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÔú¶û</Chinese>
+		<Chinese>å“ˆæ‰Žå°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKH_DESC</Tag>
 		<English>The Kazakhs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹þÈø¿Ë</Chinese>
+		<Chinese>å“ˆè¨å…‹</Chinese>
 	</TEXT>
 </Civ4GameText>

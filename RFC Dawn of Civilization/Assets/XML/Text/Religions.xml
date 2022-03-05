@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ANUNNAKI</Tag>
 		<English>Anunnaki</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢Å¬ÄÉ»ù</Chinese>
+		<Chinese>é˜¿åŠªçº³åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>°¢Å¬ÄÉ»ù</Tag>
+		<Tag>é˜¿åŠªçº³åŸº</Tag>
 		<English>Anunnaki</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Anunnaki</Chinese>
@@ -23,10 +23,10 @@
 		<Tag>TXT_KEY_RELIGION_SHINTO</Tag>
 		<English>Shinto</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñµÀ½Ì</Chinese>
+		<Chinese>ç¥é“æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>ÉñµÀ½Ì</Tag>
+		<Tag>ç¥é“æ•™</Tag>
 		<English>Shinto</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Shinto</Chinese>
@@ -35,10 +35,10 @@
 		<Tag>TXT_KEY_RELIGION_CATHOLICISM</Tag>
 		<English>Catholicism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù¶½½Ì</Chinese>
+		<Chinese>åŸºç£æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>»ù¶½½Ì</Tag>
+		<Tag>åŸºç£æ•™</Tag>
 		<English>Catholicism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Catholicism</Chinese>
@@ -65,10 +65,10 @@
 		<Tag>TXT_KEY_RELIGION_MAZDAISM</Tag>
 		<English>Mazdaism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âí×Ô´ï½Ì</Chinese>
+		<Chinese>é©¬è‡ªè¾¾æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>Âí×Ô´ï½Ì</Tag>
+		<Tag>é©¬è‡ªè¾¾æ•™</Tag>
 		<English>Mazdaism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Mazdaism</Chinese>
@@ -77,10 +77,10 @@
 		<Tag>TXT_KEY_RELIGION_DRUIDISM</Tag>
 		<English>Druidism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂÂ³ÒÁ½Ì</Chinese>
+		<Chinese>å¾·é²ä¼Šæ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>µÂÂ³ÒÁ½Ì</Tag>
+		<Tag>å¾·é²ä¼Šæ•™</Tag>
 		<English>Druidism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Druidism</Chinese>
@@ -101,10 +101,10 @@
 		<Tag>TXT_KEY_RELIGION_TENGRI</Tag>
 		<English>Tengri</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌÚ¸ñÀï</Chinese>
+		<Chinese>è…¾æ ¼é‡Œ</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>ÌÚ¸ñÀï</Tag>
+		<Tag>è…¾æ ¼é‡Œ</Tag>
 		<English>Tengri</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Tengri</Chinese>
@@ -113,10 +113,10 @@
 		<Tag>TXT_KEY_RELIGION_OLYMPIANISM</Tag>
 		<English>Olympianism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂÁÖÆ¥ÑÇ</Chinese>
+		<Chinese>å¥¥æ—åŒ¹äºš</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>°ÂÁÖÆ¥ÑÇ</Tag>
+		<Tag>å¥¥æ—åŒ¹äºš</Tag>
 		<English>Olympianism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Olympianism</Chinese>
@@ -143,10 +143,10 @@
 		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM</Tag>
 		<English>Zoroastrianism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËöÂŞÑÇË¹µÂ½Ì</Chinese>
+		<Chinese>çç½—äºšæ–¯å¾·æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>ËöÂŞÑÇË¹µÂ½Ì</Tag>
+		<Tag>çç½—äºšæ–¯å¾·æ•™</Tag>
 		<English>Zoroastrianism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Zoroastrianism</Chinese>
@@ -155,10 +155,10 @@
 		<Tag>TXT_KEY_RELIGION_VEDISM</Tag>
 		<English>Vedism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÍÍÓ</Chinese>
+		<Chinese>å é™€</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>·ÍÍÓ</Tag>
+		<Tag>å é™€</Tag>
 		<English>Vedism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Vedism</Chinese>
@@ -167,10 +167,10 @@
 		<Tag>TXT_KEY_RELIGION_SHENDAO</Tag>
 		<English>Shendao</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñµÀ</Chinese>
+		<Chinese>ç¥é“</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>ÉñµÀ</Tag>
+		<Tag>ç¥é“</Tag>
 		<English>Shendao</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Shendao</Chinese>
@@ -191,10 +191,10 @@
 		<Tag>TXT_KEY_RELIGION_PROTESTANTISM_ADJECTIVE</Tag>
 		<English>Protestant</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù¶½ĞÂ½Ì</Chinese>
+		<Chinese>åŸºç£æ–°æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>»ù¶½ĞÂ½Ì</Tag>
+		<Tag>åŸºç£æ–°æ•™</Tag>
 		<English>Protestant</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Protestant</Chinese>
@@ -239,10 +239,10 @@
 		<Tag>TXT_KEY_RELIGION_PROTESTANTISM</Tag>
 		<English>Protestantism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù¶½ĞÂ½Ì</Chinese>
+		<Chinese>åŸºç£æ–°æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>»ù¶½ĞÂ½Ì</Tag>
+		<Tag>åŸºç£æ–°æ•™</Tag>
 		<English>Protestantism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Protestantism</Chinese>
@@ -251,10 +251,10 @@
 		<Tag>TXT_KEY_RELIGION_ASATRU</Tag>
 		<English>Asatru</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢ÈøÌØÂ³</Chinese>
+		<Chinese>é˜¿è¨ç‰¹é²</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>°¢ÈøÌØÂ³</Tag>
+		<Tag>é˜¿è¨ç‰¹é²</Tag>
 		<English>Asatru</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Asatru</Chinese>
@@ -263,10 +263,10 @@
 		<Tag>TXT_KEY_RELIGION_ORTHODOXY</Tag>
 		<English>Orthodoxy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶«Õı½Ì</Chinese>
+		<Chinese>ä¸œæ­£æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>¶«Õı½Ì</Tag>
+		<Tag>ä¸œæ­£æ•™</Tag>
 		<English>Orthodoxy</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Orthodoxy</Chinese>
@@ -275,7 +275,7 @@
 		<Tag>TXT_KEY_RELIGION_SCREEN_DATE_FOUNDED</Tag>
 		<English>Founded:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´´Á¢£º</Chinese>
+		<Chinese>åˆ›ç«‹ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_TEOTL</Tag>
@@ -293,10 +293,10 @@
 		<Tag>TXT_KEY_RELIGION_ANGAKKUQ</Tag>
 		<English>Angakkuq</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²¼Ó¿â¿Ë</Chinese>
+		<Chinese>å®‰åŠ åº“å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>°²¼Ó¿â¿Ë</Tag>
+		<Tag>å®‰åŠ åº“å…‹</Tag>
 		<English>Angakkuq</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Angakkuq</Chinese>
@@ -317,10 +317,10 @@
 		<Tag>TXT_KEY_RELIGION_BUDDHISM</Tag>
 		<English>Buddhism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ğ½Ì</Chinese>
+		<Chinese>ä½›æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>·ğ½Ì</Tag>
+		<Tag>ä½›æ•™</Tag>
 		<English>Buddhism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Buddhism</Chinese>
@@ -329,10 +329,10 @@
 		<Tag>TXT_KEY_RELIGION_RODNOVERY</Tag>
 		<English>Rodnovery</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂŞµÂÅµ·ò</Chinese>
+		<Chinese>ç½—å¾·è¯ºå¤«</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>ÂŞµÂÅµ·ò</Tag>
+		<Tag>ç½—å¾·è¯ºå¤«</Tag>
 		<English>Rodnovery</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Rodnovery</Chinese>
@@ -341,10 +341,10 @@
 		<Tag>TXT_KEY_RELIGION_PAGANISM</Tag>
 		<English>Paganism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ô­Ê¼ĞÅÑö</Chinese>
+		<Chinese>åŸå§‹ä¿¡ä»°</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>Ô­Ê¼ĞÅÑö</Tag>
+		<Tag>åŸå§‹ä¿¡ä»°</Tag>
 		<English>Paganism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Paganism</Chinese>
@@ -353,10 +353,10 @@
 		<Tag>TXT_KEY_RELIGION_YORUBA</Tag>
 		<English>Yoruba</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ô¼Â³°Í</Chinese>
+		<Chinese>çº¦é²å·´</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>Ô¼Â³°Í</Tag>
+		<Tag>çº¦é²å·´</Tag>
 		<English>Yoruba</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Yoruba</Chinese>
@@ -377,10 +377,10 @@
 		<Tag>TXT_KEY_RELIGION_BAALISM</Tag>
 		<English>Baalism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÁ¦½Ì</Chinese>
+		<Chinese>å·´åŠ›æ•™</Chinese>
 	</TEXT>
 	<TEXT>
-		<Tag>°ÍÁ¦½Ì</Tag>
+		<Tag>å·´åŠ›æ•™</Tag>
 		<English>Baalism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Baalism</Chinese>

@@ -1,131 +1,131 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CENTRAL_PLANNING_TRADE_FREE_MARKET</Tag>
 		<English>Central Planning: Trade with Free Market Civilizations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖÐÑë¼Æ»®£ºÓë×ÔÓÉÊÐ³¡ÎÄÃ÷µÄÃ³Ò×</Chinese>
+		<Chinese>ä¸­å¤®è®¡åˆ’ï¼šä¸Žè‡ªç”±å¸‚åœºæ–‡æ˜Žçš„è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WORSENING</Tag>
 		<English>Your nation's stability has worsened, it is now</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÄãÃÇ¹ú¼ÒµÄÎÈ¶¨¶ñ»¯ÁË</Chinese>
+		<Chinese>çŽ°åœ¨ä½ ä»¬å›½å®¶çš„ç¨³å®šæ¶åŒ–äº†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SOLID</Tag>
 		<English>Solid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¹Ì</Chinese>
+		<Chinese>ç¨³å›º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_22</Tag>
 		<English>Great Depression</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÏôÌõ</Chinese>
+		<Chinese>å¤§è§æ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_BUILDINGS</Tag>
 		<English>Buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½¨Öþ</Chinese>
+		<Chinese>å»ºç­‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_TYPE_DOMESTIC</Tag>
 		<English>domestic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹úÄÚµÄ</Chinese>
+		<Chinese>å›½å†…çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_LOST_COMMERCE</Tag>
 		<English>Due to our economic crisis we have lost %d1[ICON_GOLD] and %d2[ICON_RESEARCH]!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÉÓÚÎÒÃÇµÄ¾­¼ÃÎ£»ú£¬ÎÒÃÇËðÊ§ÁË%d1[ICON_GOLD]ºÍ%d2[ICON_RESEARCH]!£¡</Chinese>
+		<Chinese>ç”±äºŽæˆ‘ä»¬çš„ç»æµŽå±æœºï¼Œæˆ‘ä»¬æŸå¤±äº†%d1[ICON_GOLD]å’Œ%d2[ICON_RESEARCH]!ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CATEGORY_ECONOMY</Tag>
 		<English>Economy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼Ã</Chinese>
+		<Chinese>ç»æµŽ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_NATIONHOOD</Tag>
 		<English>Nationhood: Waging Wars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ãñ×å¹ú¼Ò£º·¢¶¯Õ½Õù</Chinese>
+		<Chinese>æ°‘æ—å›½å®¶ï¼šå‘åŠ¨æˆ˜äº‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_UNSTABLE_VASSALS</Tag>
 		<English>Unstable Vassals</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÎÈ¶¨µÄ¸½Ó¹</Chinese>
+		<Chinese>ä¸ç¨³å®šçš„é™„åº¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_CIVICS</Tag>
 		<English>Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌå</Chinese>
+		<Chinese>æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CANCEL_DEFENSIVE_PACT</Tag>
 		<English>%s1 has canceled their defensive pact with us!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1È¡ÏûÁËÓëÎÒÃÇµÄ·ÀÓùÐ­Òé£¡</Chinese>
+		<Chinese>%s1å–æ¶ˆäº†ä¸Žæˆ‘ä»¬çš„é˜²å¾¡åè®®ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_TYPE_ECONOMY</Tag>
 		<English>economic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃµÄ</Chinese>
+		<Chinese>ç»æµŽçš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GOOD_RELATIONS</Tag>
 		<English>Good Relations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Á¼ºÃµÄ¹ØÏµ</Chinese>
+		<Chinese>è‰¯å¥½çš„å…³ç³»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVIC_COMBINATIONS</Tag>
 		<English>Combinations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×éºÏ</Chinese>
+		<Chinese>ç»„åˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GREAT_DEPRESSION_INFLUENCE1</Tag>
 		<English>The period of Great Depression in the</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹¤ÉÌÒµ´óÏôÌõÏ¯¾í</Chinese>
+		<Chinese>å·¥å•†ä¸šå¤§è§æ¡å¸­å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_LOST_BATTLES</Tag>
 		<English>Lost Battles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê§°ÜµÄÕ½¶·</Chinese>
+		<Chinese>å¤±è´¥çš„æˆ˜æ–—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMY_TITLE</Tag>
 		<English>ECONOMY</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼Ã</Chinese>
+		<Chinese>ç»æµŽ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARFARE_TITLE</Tag>
 		<English>WARFARE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ½Õù</Chinese>
+		<Chinese>æˆ˜äº‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_20</Tag>
 		<English>Happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ìÀÖÖ¸Êý</Chinese>
+		<Chinese>å¿«ä¹æŒ‡æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_RELIGIOUS_UNITY</Tag>
 		<English>Religious Unity</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÍÅ½á</Chinese>
+		<Chinese>å®—æ•™å›¢ç»“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_</Tag>
@@ -137,1014 +137,1014 @@
 		<Tag>TXT_KEY_STABILITY_CONTACTS</Tag>
 		<English>Contacts</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÁªÏµ</Chinese>
+		<Chinese>è”ç³»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CATEGORY_FOREIGN</Tag>
 		<English>Foreign</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê</Chinese>
+		<Chinese>å›½é™…</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_17</Tag>
 		<English>Total City Stability</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÎÈ¶¨¶È×ÜºÍ</Chinese>
+		<Chinese>åŸŽå¸‚ç¨³å®šåº¦æ€»å’Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_TYPE_MILITARY</Tag>
 		<English>military</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÊÂµÄ</Chinese>
+		<Chinese>å†›äº‹çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SOCIETY_TITLE</Tag>
 		<English>SOCIETY</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éç»á</Chinese>
+		<Chinese>ç¤¾ä¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_REMOVE_DEFENSES</Tag>
 		<English>The military crisis leaves our cities without effective defenses!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÊÂÎ£»úÊ¹ÎÒÃÇµÄ³ÇÊÐÊ§È¥ÁËÓÐÐ§µÄ·ÀÓù£¡</Chinese>
+		<Chinese>å†›äº‹å±æœºä½¿æˆ‘ä»¬çš„åŸŽå¸‚å¤±åŽ»äº†æœ‰æ•ˆçš„é˜²å¾¡ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_7</Tag>
 		<English>Occupied Core</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ¼ÁìºËÐÄÇøÓò</Chinese>
+		<Chinese>å é¢†æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_13</Tag>
 		<English>Foreign Core Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ¹úºËÐÄÇøÓò</Chinese>
+		<Chinese>å¤–å›½æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_LEVEL_MINOR</Tag>
 		<English>minor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉÙÊýµÄ</Chinese>
+		<Chinese>å°‘æ•°çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OCCUPIED_FOREIGN_CORE</Tag>
 		<English>Occupied Foreign Core</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ¼ÁìÍâ¹úºËÐÄÇøÓò</Chinese>
+		<Chinese>å é¢†å¤–å›½æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_MULTILATERALISM</Tag>
 		<English>Multilateralism: Being at War</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶à±ßÖ÷Òå£º´¦ÓÚÕ½Õù×´Ì¬</Chinese>
+		<Chinese>å¤šè¾¹ä¸»ä¹‰ï¼šå¤„äºŽæˆ˜äº‰çŠ¶æ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_IMPROVING</Tag>
 		<English>Your nation's stability has improved, it is now</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÄãÃÇ¹ú¼ÒµÄÎÈ¶¨ÒÑ¾­¸ÄÉÆÁË</Chinese>
+		<Chinese>çŽ°åœ¨ä½ ä»¬å›½å®¶çš„ç¨³å®šå·²ç»æ”¹å–„äº†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DOMESTIC_CRISIS</Tag>
 		<English>Our civilization is descending into a period of civil war!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇµÄÎÄÃ÷ÕýÔÚ½øÈëÄÚÕ½Ê±ÆÚ£¡</Chinese>
+		<Chinese>æˆ‘ä»¬çš„æ–‡æ˜Žæ­£åœ¨è¿›å…¥å†…æˆ˜æ—¶æœŸï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_MESSAGE</Tag>
 		<English>Our civilization is experiencing a %s1 %s2 crisis!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇµÄÎÄÃ÷Õý¾­ÀúÒ»³¡%s1%s2Î£»ú£¡</Chinese>
+		<Chinese>æˆ‘ä»¬çš„æ–‡æ˜Žæ­£ç»åŽ†ä¸€åœº%s1%s2å±æœºï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_LOSING_WARS</Tag>
 		<English>Losing Wars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊäµôÕ½Õù</Chinese>
+		<Chinese>è¾“æŽ‰æˆ˜äº‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_IMMINENT_MESSAGE</Tag>
 		<English>A %s1 crisis is imminent!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Î£»úÆÈÔÚÃ¼½Þ£¡</Chinese>
+		<Chinese>%s1å±æœºè¿«åœ¨çœ‰ç«ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PARAMETER_ECONOMY</Tag>
 		<English>ECONOMY</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÒòËØ</Chinese>
+		<Chinese>ç»æµŽå› ç´ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_FALL</Tag>
 		<English>Historicity</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê·ÊµÐÔ</Chinese>
+		<Chinese>å²å®žæ€§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_FOREIGN_SECESSION</Tag>
 		<English>We are losing control over our foreign territory!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÕýÔÚÊ§È¥¶ÔÍâ¹úÁìÍÁµÄ¿ØÖÆ£¡</Chinese>
+		<Chinese>æˆ‘ä»¬æ­£åœ¨å¤±åŽ»å¯¹å¤–å›½é¢†åœŸçš„æŽ§åˆ¶ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SECESSION</Tag>
 		<English>has declared its independence!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ðû²¼¶ÀÁ¢½¨¹ú!</Chinese>
+		<Chinese>å®£å¸ƒç‹¬ç«‹å»ºå›½!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_NORMALIZATION</Tag>
 		<English>Normalization</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õý³£»¯</Chinese>
+		<Chinese>æ­£å¸¸åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_BUILT</Tag>
 		<English>Cities Built</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½¨Á¢³ÇÊÐ</Chinese>
+		<Chinese>å»ºç«‹åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COLLAPSING</Tag>
 		<English>Collapsing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕýÔÚ±ÀÀ£</Chinese>
+		<Chinese>æ­£åœ¨å´©æºƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OUTDATED_CIVICS</Tag>
 		<English>Outdated Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ýÊ±µÄÕþÌå×éºÏ</Chinese>
+		<Chinese>è¿‡æ—¶çš„æ”¿ä½“ç»„åˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_EXPANSION_TITLE</Tag>
 		<English>EXPANSION</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À©ÕÅ</Chinese>
+		<Chinese>æ‰©å¼ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DOWNGRADE_COTTAGES</Tag>
 		<English>The economic crisis is impeding our cottage growth!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÎ£»ú×è°­ÁËÎÒÃÇµÄÐ¡ÎÝµÄ³É³¤£¡</Chinese>
+		<Chinese>ç»æµŽå±æœºé˜»ç¢äº†æˆ‘ä»¬çš„å°å±‹çš„æˆé•¿ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMIC_CRISIS</Tag>
 		<English>The economic crisis is paralyzing our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÎ£»úÕýÔÚÊ¹ÎÒÃÇµÄÎÄÃ÷Ì±»¾£¡</Chinese>
+		<Chinese>ç»æµŽå±æœºæ­£åœ¨ä½¿æˆ‘ä»¬çš„æ–‡æ˜Žç˜«ç—ªï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_30</Tag>
 		<English>Golden Age</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ðÊ±´ú</Chinese>
+		<Chinese>é»„é‡‘æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_RELIGION</Tag>
 		<English>Religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹Ù·½×Ú½Ì</Chinese>
+		<Chinese>å®˜æ–¹å®—æ•™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_RAZED_CITIES</Tag>
 		<English>Razed Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÄÎªÆ½µØµÄ³ÇÊÐ</Chinese>
+		<Chinese>å¤·ä¸ºå¹³åœ°çš„åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_BASE</Tag>
 		<English>Base Stability</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù´¡ÎÈ¶¨¶È</Chinese>
+		<Chinese>åŸºç¡€ç¨³å®šåº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_BROTHERS_OF_FAITH</Tag>
 		<English>Theocracy: Fighting Brothers of Faith</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñÈ¨ÕþÖÎ£ºÐÅÑöµÄÕ½¶·ÐÖµÜ</Chinese>
+		<Chinese>ç¥žæƒæ”¿æ²»ï¼šä¿¡ä»°çš„æˆ˜æ–—å…„å¼Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_LEVEL_SEVERE</Tag>
 		<English>severe</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÏ¾þµÄ</Chinese>
+		<Chinese>ä¸¥å³»çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_RAZED</Tag>
 		<English>Cities Razed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÄÆ½³ÇÊÐ</Chinese>
+		<Chinese>å¤·å¹³åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OVERLAY_HELP</Tag>
 		<English>[COLOR_PLAYER_CYAN]Cyan[COLOR_REVERT]: core area[NEWLINE][COLOR_PLAYER_GREEN_TEXT]Green[COLOR_REVERT]: historical area[NEWLINE][COLOR_PLAYER_YELLOW_TEXT]Yellow[COLOR_REVERT]: contested area[NEWLINE][COLOR_PLAYER_DARK_RED_TEXT]Red[COLOR_REVERT]: foreign core</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_PLAYER_CYAN]ÇàÀ¶É«[COLOR_REVERT]: ºËÐÄÇø[NEWLINE][COLOR_PLAYER_GREEN_TEXT]ÂÌÉ«[COLOR_REVERT]: ÀúÊ·ÇøÓò[NEWLINE][COLOR_PLAYER_YELLOW_TEXT]»ÆÉ«[COLOR_REVERT]: ÕùÒéµØÇø[NEWLINE][COLOR_PLAYER_DARK_RED_TEXT]ºìÉ«COLOR_REVERT]: Íâ¹úÇøÓò</Chinese>
+		<Chinese>[COLOR_PLAYER_CYAN]é’è“è‰²[COLOR_REVERT]: æ ¸å¿ƒåŒº[NEWLINE][COLOR_PLAYER_GREEN_TEXT]ç»¿è‰²[COLOR_REVERT]: åŽ†å²åŒºåŸŸ[NEWLINE][COLOR_PLAYER_YELLOW_TEXT]é»„è‰²[COLOR_REVERT]: äº‰è®®åœ°åŒº[NEWLINE][COLOR_PLAYER_DARK_RED_TEXT]çº¢è‰²COLOR_REVERT]: å¤–å›½åŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_CHANGED_OWNER</Tag>
 		<English>%s1 has joined the %s2 civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¼ÓÈëÁË%s2ÎÄÃ÷£¡</Chinese>
+		<Chinese>%s1åŠ å…¥äº†%s2æ–‡æ˜Žï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DAMAGE_RELATIONS</Tag>
 		<English>Our relations with %s1 have deteriorated!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÓë%s1µÄ¹ØÏµ¶ñ»¯ÁË£¡</Chinese>
+		<Chinese>æˆ‘ä»¬ä¸Ž%s1çš„å…³ç³»æ¶åŒ–äº†ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OVERALL</Tag>
 		<English>Overall Stability</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨¶È×ÜºÍ</Chinese>
+		<Chinese>ç¨³å®šåº¦æ€»å’Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GOLDEN_AGE</Tag>
 		<English>Golden Age</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ðÊ±´ú</Chinese>
+		<Chinese>é»„é‡‘æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_25</Tag>
 		<English>Transition to Democracy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃñÖ÷Ö÷Òå¹ý¶É</Chinese>
+		<Chinese>æ°‘ä¸»ä¸»ä¹‰è¿‡æ¸¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_FOREIGN_CORE_AREA</Tag>
 		<English>Foreign Core Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ¹úºËÐÄÇøÓò</Chinese>
+		<Chinese>å¤–å›½æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_VASSALS</Tag>
 		<English>Vassals</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸½Ó¹</Chinese>
+		<Chinese>é™„åº¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMIC_DECLINE</Tag>
 		<English>Recession</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃË¥ÍË</Chinese>
+		<Chinese>ç»æµŽè¡°é€€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_IMMINENT</Tag>
 		<English>If our stability does not improve, we will experience a crisis at the next stability check!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÎÒÃÇµÄÎÈ¶¨µÃ²»µ½¸ÄÉÆ£¬ÎÒÃÇ½«ÔÚÏÂ´ÎµÄÎÈ¶¨ÆÀÅÐÖÐÓöµ½Î£»ú£¡</Chinese>
+		<Chinese>å¦‚æžœæˆ‘ä»¬çš„ç¨³å®šå¾—ä¸åˆ°æ”¹å–„ï¼Œæˆ‘ä»¬å°†åœ¨ä¸‹æ¬¡çš„ç¨³å®šè¯„åˆ¤ä¸­é‡åˆ°å±æœºï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVILWAR_HUMAN</Tag>
 		<English>Your empire is descending into civil war!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãµÄµÛ¹úÏÝÈëÁËÄÚÕ½!</Chinese>
+		<Chinese>ä½ çš„å¸å›½é™·å…¥äº†å†…æˆ˜!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CONTEMPORARY_CIVICS</Tag>
 		<English>Contemporary Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê±ÒËµÄÕþÌå</Chinese>
+		<Chinese>æ—¶å®œçš„æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COLLAPSE_TO_CORE</Tag>
 		<English>We are losing control over our entire empire!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÕýÔÚÊ§È¥¶ÔÕû¸öµÛ¹úµÄ¿ØÖÆ£¡</Chinese>
+		<Chinese>æˆ‘ä»¬æ­£åœ¨å¤±åŽ»å¯¹æ•´ä¸ªå¸å›½çš„æŽ§åˆ¶ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CONQUERED_CITIES</Tag>
 		<English>Conquered Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±»Õ÷·þµÄ³ÇÊÐ</Chinese>
+		<Chinese>è¢«å¾æœçš„åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_TYPE_FOREIGN</Tag>
 		<English>diplomatic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»µÄ</Chinese>
+		<Chinese>å¤–äº¤çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_INSUFFICIENT_TRADE</Tag>
 		<English>Economic Isolation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼Ã¹ÂÁ¢</Chinese>
+		<Chinese>ç»æµŽå­¤ç«‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DIPLOMACY</Tag>
 		<English>Diplomacy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»</Chinese>
+		<Chinese>å¤–äº¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_INDEPENDENCE</Tag>
 		<English>%s1 has declared independence!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Ðû²¼¶ÀÁ¢£¡</Chinese>
+		<Chinese>%s1å®£å¸ƒç‹¬ç«‹ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CATEGORY_DOMESTIC</Tag>
 		<English>Domestic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÚÕþ</Chinese>
+		<Chinese>å†…æ”¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SUMMARY_TITLE</Tag>
 		<English>SUMMARY</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ü½á</Chinese>
+		<Chinese>æ€»ç»“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CAP</Tag>
 		<English>Stability Limits</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨¶È·¶Î§</Chinese>
+		<Chinese>ç¨³å®šåº¦èŒƒå›´</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_NEIGHBORS</Tag>
 		<English>Collapsing Neighbors</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±ÀÀ£µÄÁÚ°î</Chinese>
+		<Chinese>å´©æºƒçš„é‚»é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_LEVEL_TERMINAL</Tag>
 		<English>terminal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖÕ¶Ë</Chinese>
+		<Chinese>ç»ˆç«¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_1</Tag>
 		<English>Neighbors</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÁÚ°î</Chinese>
+		<Chinese>é‚»é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DEMOCRACY</Tag>
 		<English>instability caused by transition to democracy!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃñÖ÷ÖÆ¶È×ªÐÍµ¼ÖÂ¶¯µ´!</Chinese>
+		<Chinese>æ°‘ä¸»åˆ¶åº¦è½¬åž‹å¯¼è‡´åŠ¨è¡!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_CULTURE</Tag>
 		<English>Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄ»¯</Chinese>
+		<Chinese>æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_INCOMPATIBLE_CIVICS</Tag>
 		<English>Incompatible Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÏàÈÝµÄÕþÌå</Chinese>
+		<Chinese>ä¸ç›¸å®¹çš„æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DEFENSIVE_PACTS</Tag>
 		<English>Defensive Pacts</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÀÓùÐ­¶¨</Chinese>
+		<Chinese>é˜²å¾¡åå®š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_UNIT_DESERTION</Tag>
 		<English>The military crisis led to the desertion of %d1 units!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÊÂÎ£»úµ¼ÖÂÁË%d1²¿¶ÓµÄ³·Àë£¡</Chinese>
+		<Chinese>å†›äº‹å±æœºå¯¼è‡´äº†%d1éƒ¨é˜Ÿçš„æ’¤ç¦»ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WINNING_WARS</Tag>
 		<English>Winning Wars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó®µÃÕ½Õù</Chinese>
+		<Chinese>èµ¢å¾—æˆ˜äº‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_3</Tag>
 		<English>Imperialism</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÛ¹úÖ÷Òå</Chinese>
+		<Chinese>å¸å›½ä¸»ä¹‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_TITLE</Tag>
 		<English>CITIES</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐ</Chinese>
+		<Chinese>åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_4</Tag>
 		<English>Contacts</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÁªÏµ</Chinese>
+		<Chinese>è”ç³»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_HAPPINESS</Tag>
 		<English>Happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ìÀÖÖ¸Êý</Chinese>
+		<Chinese>å¿«ä¹æŒ‡æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_HEATHENS</Tag>
 		<English>Theocracy: Fighting Heathens</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÉñÈ¨ÕþÖÎ£º¶Ô¿¹Òì½ÌÍ½</Chinese>
+		<Chinese>ç¥žæƒæ”¿æ²»ï¼šå¯¹æŠ—å¼‚æ•™å¾’</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_9</Tag>
 		<English>Civic Era</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌåÊ±´ú</Chinese>
+		<Chinese>æ”¿ä½“æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_TARGET_CITY_UNREST</Tag>
 		<English>Cities sympathetic to the enemy are in open revolt!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í¬ÇéµÐÈËµÄ³ÇÊÐÕýÔÚ¹«¿ª·´¿¹£¡</Chinese>
+		<Chinese>åŒæƒ…æ•Œäººçš„åŸŽå¸‚æ­£åœ¨å…¬å¼€åæŠ—ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_31</Tag>
 		<English>Fall</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¥ÍË</Chinese>
+		<Chinese>è¡°é€€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_12</Tag>
 		<English>Civic Techs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌå¿Æ¼¼</Chinese>
+		<Chinese>æ”¿ä½“ç§‘æŠ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_SECEDED</Tag>
 		<English>The %s1 is going through a period of instability, and %d2 cities have seceded from their civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÕýÔÚ¾­ÀúÒ»¸ö²»ÎÈ¶¨µÄÊ±ÆÚ£¬%d2³ÇÊÐÒÑ¾­ÍÑÀëÁËËûÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>%s1æ­£åœ¨ç»åŽ†ä¸€ä¸ªä¸ç¨³å®šçš„æ—¶æœŸï¼Œ%d2åŸŽå¸‚å·²ç»è„±ç¦»äº†ä»–ä»¬çš„æ–‡æ˜Žï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SECEDE_UNHAPPY</Tag>
 		<English>Unhappy cities are leaving our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»Óä¿ìµÄ³ÇÊÐÕýÔÚÀë¿ªÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>ä¸æ„‰å¿«çš„åŸŽå¸‚æ­£åœ¨ç¦»å¼€æˆ‘ä»¬çš„æ–‡æ˜Žï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_6</Tag>
 		<English>Outer Expansion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ÔÍâÀ©ÕÅ</Chinese>
+		<Chinese>å¯¹å¤–æ‰©å¼ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_HAPPINESS</Tag>
 		<English>Happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ìÀÖµãÊý</Chinese>
+		<Chinese>å¿«ä¹ç‚¹æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_LOST_CITIES</Tag>
 		<English>Lost Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê§È¥³ÇÊÐ</Chinese>
+		<Chinese>å¤±åŽ»åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COMPLETE_COLLAPSE</Tag>
 		<English>The %s1 civilization has collapsed!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÎÄÃ÷ÒÑ¾­±ÀÀ££¡</Chinese>
+		<Chinese>%s1æ–‡æ˜Žå·²ç»å´©æºƒï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_TRADE</Tag>
 		<English>Trade</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã³Ò×</Chinese>
+		<Chinese>è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PARAMETER_CIVICS</Tag>
 		<English>CIVICS</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÚÕþ·¨Áî</Chinese>
+		<Chinese>å†…æ”¿æ³•ä»¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_LOST_TERRITORY</Tag>
 		<English>We have lost control over our territory around %s1!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇÔÚ%s1×óÓÒÊ§È¥ÁË¶ÔÎÒÃÇÁìÍÁµÄ¿ØÖÆ£¡</Chinese>
+		<Chinese>æˆ‘ä»¬åœ¨%s1å·¦å³å¤±åŽ»äº†å¯¹æˆ‘ä»¬é¢†åœŸçš„æŽ§åˆ¶ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OVERLAY_WIDGET</Tag>
 		<English>Toggle Stability Display</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÇÐ»»ÎÈ¶¨ÐÔÏÔÊ¾</Chinese>
+		<Chinese>åˆ‡æ¢ç¨³å®šæ€§æ˜¾ç¤º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CATEGORY_MILITARY</Tag>
 		<English>Military</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾üÊÂ</Chinese>
+		<Chinese>å†›äº‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_23</Tag>
 		<English>Foreign Great Depression</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹úÍâ´óÏôÌõ</Chinese>
+		<Chinese>å›½å¤–å¤§è§æ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMIC_STAGNATION</Tag>
 		<English>Economic Stagnation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÍ£ÖÍ</Chinese>
+		<Chinese>ç»æµŽåœæ»ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CORE_AREA</Tag>
 		<English>Core Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºËÐÄÇøÓò</Chinese>
+		<Chinese>æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_27</Tag>
 		<English>Combat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ½¶·</Chinese>
+		<Chinese>æˆ˜æ–—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CANCEL_TRADE</Tag>
 		<English>%s1 has canceled their open borders agreement with us!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1È¡ÏûÁËÓëÎÒÃÇµÄ¿ª·Å±ß½çÐ­Òé£¡</Chinese>
+		<Chinese>%s1å–æ¶ˆäº†ä¸Žæˆ‘ä»¬çš„å¼€æ”¾è¾¹ç•Œåè®®ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_REMOVE_GPP</Tag>
 		<English>The economic crisis is preventing the emergence of great people!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÎ£»ú×èÖ¹ÁËÎ°ÈËµÄ³öÏÖ£¡</Chinese>
+		<Chinese>ç»æµŽå±æœºé˜»æ­¢äº†ä¼Ÿäººçš„å‡ºçŽ°ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_15</Tag>
 		<English>City Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÕþÌå</Chinese>
+		<Chinese>åŸŽå¸‚æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_HISTORICAL_AREA</Tag>
 		<English>Historical Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÀúÊ·ÇøÓò</Chinese>
+		<Chinese>åŽ†å²åŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GREAT_DEPRESSION_INFLUENCE2</Tag>
 		<English>is negatively influencing our economy!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¢¶Ô¾­¼ÃÔì³ÉÑÏÖØÓ°Ïì!</Chinese>
+		<Chinese>å¹¶å¯¹ç»æµŽé€ æˆä¸¥é‡å½±å“!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ANARCHY</Tag>
 		<English>Anarchy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÞÕþ¸®×´Ì¬</Chinese>
+		<Chinese>æ— æ”¿åºœçŠ¶æ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVIC_TECH</Tag>
 		<English>Technologies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿Æ¼¼</Chinese>
+		<Chinese>ç§‘æŠ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_TECH</Tag>
 		<English>Technology</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿Æ¼¼</Chinese>
+		<Chinese>ç§‘æŠ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CANCEL_PEACE_VASSAL</Tag>
 		<English>%s1 no longer wishes to be our vassal!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1²»ÔÙÏ£Íû³ÉÎªÎÒÃÇµÄ¸½Ó¹£¡</Chinese>
+		<Chinese>%s1ä¸å†å¸Œæœ›æˆä¸ºæˆ‘ä»¬çš„é™„åº¸ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_26</Tag>
 		<English>Number of Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÊýÄ¿</Chinese>
+		<Chinese>åŸŽå¸‚æ•°ç›®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_TYPE_EXPANSION</Tag>
 		<English>territorial</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÁìÍÁ</Chinese>
+		<Chinese>é¢†åœŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_IMMOBILIZED_UNITS</Tag>
 		<English>Due to the military crisis, we have temporarily lost control over our units!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÉÓÚ¾üÊÂÎ£»ú£¬ÎÒÃÇÔÝÊ±Ê§È¥ÁË¶Ô²¿¶ÓµÄ¿ØÖÆ£¡</Chinese>
+		<Chinese>ç”±äºŽå†›äº‹å±æœºï¼Œæˆ‘ä»¬æš‚æ—¶å¤±åŽ»äº†å¯¹éƒ¨é˜Ÿçš„æŽ§åˆ¶ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_5</Tag>
 		<English>Expansion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À©ÕÅ</Chinese>
+		<Chinese>æ‰©å¼ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WON_BATTLES</Tag>
 		<English>Won Battles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó®µÃÕ½¶·</Chinese>
+		<Chinese>èµ¢å¾—æˆ˜æ–—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_8</Tag>
 		<English>Civic Combinations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌå×éºÏ</Chinese>
+		<Chinese>æ”¿ä½“ç»„åˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVICS_TITLE</Tag>
 		<English>CIVICS</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌå</Chinese>
+		<Chinese>æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CRISIS_LEVEL_MODERATE</Tag>
 		<English>moderate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÊ¶ÈµÄ</Chinese>
+		<Chinese>é€‚åº¦çš„</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_NO_CHANGE</Tag>
 		<English>If our stability does not change, the stability level will remain constant at the next check</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÎÒÃÇµÄÎÈ¶¨ÐÔ²»±ä£¬ÏÂ´Î¼ì²éÊ±ÎÈ¶¨ÐÔË®Æ½½«±£³Ö²»±ä</Chinese>
+		<Chinese>å¦‚æžœæˆ‘ä»¬çš„ç¨³å®šæ€§ä¸å˜ï¼Œä¸‹æ¬¡æ£€æŸ¥æ—¶ç¨³å®šæ€§æ°´å¹³å°†ä¿æŒä¸å˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OUTER_TERRITORY</Tag>
 		<English>Outer Territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½çµØ¿é</Chinese>
+		<Chinese>å¤–ç•Œåœ°å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GREAT_DEPRESSION_INFLUENCE</Tag>
 		<English>The period of Great Depression in the %s1 is negatively influencing our economy!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1µÄ³¤ÆÚÏôÌõÒÑ¶ÔÎÒÃÇµÄ¾­¼ÃÔì³ÉÑÏÖØµÄ¸ºÃæÓ°Ïì£¡</Chinese>
+		<Chinese>%s1çš„é•¿æœŸè§æ¡å·²å¯¹æˆ‘ä»¬çš„ç»æµŽé€ æˆä¸¥é‡çš„è´Ÿé¢å½±å“ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_CHANGED_OWNER_US</Tag>
 		<English>%s1 has joined our civilization!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¼ÓÈëÁËÎÒÃÇµÄÎÄÃ÷£¡</Chinese>
+		<Chinese>%s1åŠ å…¥äº†æˆ‘ä»¬çš„æ–‡æ˜Žï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_TITLE</Tag>
 		<English>STABILITY: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨¶È£º %s1</Chinese>
+		<Chinese>ç¨³å®šåº¦ï¼š %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_32</Tag>
 		<English>Base Stability</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ù´¡ÎÈ¶¨¶È</Chinese>
+		<Chinese>åŸºç¡€ç¨³å®šåº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_18</Tag>
 		<English>Trade</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã³Ò×</Chinese>
+		<Chinese>è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_28</Tag>
 		<English>Combat Extra</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶îÍâÕ½¶·</Chinese>
+		<Chinese>é¢å¤–æˆ˜æ–—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_UNSTABLE</Tag>
 		<English>Unstable</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶¯µ´</Chinese>
+		<Chinese>åŠ¨è¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_GREAT_DEPRESSION</Tag>
 		<English>Great Depression</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÏôÌõ</Chinese>
+		<Chinese>å¤§è§æ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_21</Tag>
 		<English>Economy Extra</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶îÍâ¾­¼Ã</Chinese>
+		<Chinese>é¢å¤–ç»æµŽ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PARAMETER_CITIES</Tag>
 		<English>CITIES</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐ</Chinese>
+		<Chinese>åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVIC_NUMBER_CITIES</Tag>
 		<English>Number of Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÊýÄ¿</Chinese>
+		<Chinese>åŸŽå¸‚æ•°ç›®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMY</Tag>
 		<English>Economy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼Ã</Chinese>
+		<Chinese>ç»æµŽ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PARAMETER_EXPANSION</Tag>
 		<English>EXPANSION</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À©ÕÅÒòËØ</Chinese>
+		<Chinese>æ‰©å¼ å› ç´ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVILWAR</Tag>
 		<English>is descending into civil war!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÝÈëÁËÄÚÕ½!</Chinese>
+		<Chinese>é™·å…¥äº†å†…æˆ˜!</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DEMOCRACY_TRANSITION</Tag>
 		<English>Transition to Democracy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃñÖ÷¹ý¶É</Chinese>
+		<Chinese>æ°‘ä¸»è¿‡æ¸¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_UNHAPPINESS</Tag>
 		<English>Unhappiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»¿ìÀÖ</Chinese>
+		<Chinese>ä¸å¿«ä¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CHECKF2</Tag>
 		<English>Check the Interior Advisor (F2) for details</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²é¿´ÄÚÕþ¹ËÎÊ½çÃæ(F2)ÁË½âÏêÇé</Chinese>
+		<Chinese>æŸ¥çœ‹å†…æ”¿é¡¾é—®ç•Œé¢(F2)äº†è§£è¯¦æƒ…</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_19</Tag>
 		<English>Economy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼Ã</Chinese>
+		<Chinese>ç»æµŽ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_14</Tag>
 		<English>City Happiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐ¿ìÀÖÖ¸Êý</Chinese>
+		<Chinese>åŸŽå¸‚å¿«ä¹æŒ‡æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PARAMETER_FOREIGN</Tag>
 		<English>FOREIGN</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹úÍâÒòËØ</Chinese>
+		<Chinese>å›½å¤–å› ç´ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CIVIC_ERA</Tag>
 		<English>Era</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê±´ú</Chinese>
+		<Chinese>æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_STABLE</Tag>
 		<English>Stable</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²¶¨</Chinese>
+		<Chinese>å®‰å®š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COLLAPSING_WARNING</Tag>
 		<English>Our civilisation is collapsing! Unless our stability improves, we are in danger of a complete collapse.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÒÃÇµÄÎÄÃ÷ÕýÔÚ±ÀÀ££¡³ý·ÇÎÒÃÇµÄÎÈ¶¨µÃµ½¸ÄÉÆ£¬·ñÔòÎÒÃÇÓÐÍêÈ«±ÀÀ£µÄÎ£ÏÕ¡£</Chinese>
+		<Chinese>æˆ‘ä»¬çš„æ–‡æ˜Žæ­£åœ¨å´©æºƒï¼é™¤éžæˆ‘ä»¬çš„ç¨³å®šå¾—åˆ°æ”¹å–„ï¼Œå¦åˆ™æˆ‘ä»¬æœ‰å®Œå…¨å´©æºƒçš„å±é™©ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_MISC_TITLE</Tag>
 		<English>MISCELLANEOUS</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÓÏî</Chinese>
+		<Chinese>æ‚é¡¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CHANGE_NEGATIVE</Tag>
 		<English>If our stability does not improve, we will lose a stability level at the next check</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÎÒÃÇµÄÎÈ¶¨ÐÔ²»Ìá¸ß£¬ÎÒÃÇ½«ÔÚÏÂ´ÎÆÀ¶¨ÖÐ½µµÍÒ»¸öÎÈ¶¨¶ÈË®Æ½</Chinese>
+		<Chinese>å¦‚æžœæˆ‘ä»¬çš„ç¨³å®šæ€§ä¸æé«˜ï¼Œæˆ‘ä»¬å°†åœ¨ä¸‹æ¬¡è¯„å®šä¸­é™ä½Žä¸€ä¸ªç¨³å®šåº¦æ°´å¹³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CORE_PERIPHERY_INFO</Tag>
 		<English>Expansion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À©ÕÅ</Chinese>
+		<Chinese>æ‰©å¼ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_FOREIGN_AREA</Tag>
 		<English>Foreign Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ¹úÇøÓò</Chinese>
+		<Chinese>å¤–å›½åŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_RECENT_EXPANSION</Tag>
 		<English>Recent Expansion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×î½üµÄÀ©Õ¹</Chinese>
+		<Chinese>æœ€è¿‘çš„æ‰©å±•</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COMPATIBLE_CIVICS</Tag>
 		<English>Compatible Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓëÊ±´ú¼æÈÝµÄÕþÌå</Chinese>
+		<Chinese>ä¸Žæ—¶ä»£å…¼å®¹çš„æ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CORE_PERIPHERY_NEGATIVE</Tag>
 		<English>Overextension</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ý¶ÈÀ©ÕÅ</Chinese>
+		<Chinese>è¿‡åº¦æ‰©å¼ </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CANCEL_CAPITULATION</Tag>
 		<English>%s1 no longer recognizes our overlordship and declares sovereignty!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1²»ÔÙ³ÐÈÏÎÒÃÇµÄ°ÔÖ÷µØÎ»²¢Ðû²¼Ö÷È¨£¡</Chinese>
+		<Chinese>%s1ä¸å†æ‰¿è®¤æˆ‘ä»¬çš„éœ¸ä¸»åœ°ä½å¹¶å®£å¸ƒä¸»æƒï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_OCCUPIED_CORE</Tag>
 		<English>Occupied Core</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ¼ÁìºËÐÄÇøÓò</Chinese>
+		<Chinese>å é¢†æ ¸å¿ƒåŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CATEGORY_EXPANSION</Tag>
 		<English>Expansion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À©Õ¹</Chinese>
+		<Chinese>æ‰©å±•</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WAR_WEARINESS</Tag>
 		<English>War Weariness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑáÕ½</Chinese>
+		<Chinese>åŽŒæˆ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DIPLOMACY_TITLE</Tag>
 		<English>FOREIGN</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»</Chinese>
+		<Chinese>å¤–äº¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_11</Tag>
 		<English>Civic Cap</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕþÌå¸²¸Ç</Chinese>
+		<Chinese>æ”¿ä½“è¦†ç›–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITY_TERRITORY</Tag>
 		<English>City Territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐµØ¿é</Chinese>
+		<Chinese>åŸŽå¸‚åœ°å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_MERCANTILISM_TRADE_RICHER</Tag>
 		<English>Mercantilism: Trade with Wealthier Civilizations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖØÉÌÖ÷Òå£ºÓë¸ü¼Ó¸»Ô£ÎÄÃ÷µÄÃ³Ò×</Chinese>
+		<Chinese>é‡å•†ä¸»ä¹‰ï¼šä¸Žæ›´åŠ å¯Œè£•æ–‡æ˜Žçš„è´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_29</Tag>
 		<English>Anarchy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÞÕþ¸®×´Ì¬</Chinese>
+		<Chinese>æ— æ”¿åºœçŠ¶æ€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_SHAKY</Tag>
 		<English>Shaky</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´àÈõ</Chinese>
+		<Chinese>è„†å¼±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_POST_COMMUNISM</Tag>
 		<English>Post-Communist Crisis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹²²úÖ÷ÒåÎ£»ú</Chinese>
+		<Chinese>å…±äº§ä¸»ä¹‰å±æœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_DIFFICULTY</Tag>
 		<English>Difficulty Level</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÎÏ·ÄÑ¶È</Chinese>
+		<Chinese>æ¸¸æˆéš¾åº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_BARBARIAN_LOSSES</Tag>
 		<English>Lost Battles to Barbarians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Êä¸øÒ°ÂùÈË</Chinese>
+		<Chinese>è¾“ç»™é‡Žè›®äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_RELIGIOUS_DISUNITY</Tag>
 		<English>Religious Disunity</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½Ì²»Í³Ò»</Chinese>
+		<Chinese>å®—æ•™ä¸ç»Ÿä¸€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_16</Tag>
 		<English>City Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÎÄ»¯</Chinese>
+		<Chinese>åŸŽå¸‚æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_2</Tag>
 		<English>Vassals</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸½Ó¹</Chinese>
+		<Chinese>é™„åº¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_CONQUERED</Tag>
 		<English>Cities Conquered</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ÷·þ³ÇÊÐ</Chinese>
+		<Chinese>å¾æœåŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_24</Tag>
 		<English>Post-Communist Crisis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹²²úÖ÷ÒåÎ£»ú</Chinese>
+		<Chinese>å…±äº§ä¸»ä¹‰å±æœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CONTESTED_AREA</Tag>
 		<English>Contested Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÊÜÕùÒéÇøÓò</Chinese>
+		<Chinese>å—äº‰è®®åŒºåŸŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_PERIOD</Tag>
 		<English>Your empire is experiencing a period of</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãµÄµÛ¹úÕýÔÚ½øÈë</Chinese>
+		<Chinese>ä½ çš„å¸å›½æ­£åœ¨è¿›å…¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_FOREIGN_GREAT_DEPRESSION</Tag>
 		<English>Great Depression (foreign)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÏôÌõ (¹úÍâÒòËØ)</Chinese>
+		<Chinese>å¤§è§æ¡ (å›½å¤–å› ç´ )</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_10</Tag>
 		<English>Civic Number of Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊÐÊýÄ¿</Chinese>
+		<Chinese>åŸŽå¸‚æ•°ç›®</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CHANGE_POSITIVE</Tag>
 		<English>Unless our stability decreases, we will gain a stability level at the next check</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ý·ÇÎÒÃÇµÄÎÈ¶¨¶È½µµÍ£¬·ñÔòÏÂ´Î¼ì²éÊ±ÎÒÃÇ½«ÌáÉýÒ»¸öÎÈ¶¨¶ÈË®Æ½</Chinese>
+		<Chinese>é™¤éžæˆ‘ä»¬çš„ç¨³å®šåº¦é™ä½Žï¼Œå¦åˆ™ä¸‹æ¬¡æ£€æŸ¥æ—¶æˆ‘ä»¬å°†æå‡ä¸€ä¸ªç¨³å®šåº¦æ°´å¹³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_STABLE_VASSALS</Tag>
 		<English>Stable Vassals</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨µÄ¸½Ó¹</Chinese>
+		<Chinese>ç¨³å®šçš„é™„åº¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ADVISOR_TITLE</Tag>
 		<English>STABILITY: </English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨¶È: </Chinese>
+		<Chinese>ç¨³å®šåº¦: </Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ISOLATIONISM</Tag>
 		<English>Isolationism: no Cities outside of Core Area</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ÂÁ¢Ö÷Òå£ººËÐÄÇøÍâÎÞ³ÇÊÐ</Chinese>
+		<Chinese>å­¤ç«‹ä¸»ä¹‰ï¼šæ ¸å¿ƒåŒºå¤–æ— åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_ECONOMIC_GROWTH</Tag>
 		<English>Economic Growth</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾­¼ÃÔö³¤</Chinese>
+		<Chinese>ç»æµŽå¢žé•¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_0</Tag>
 		<English>Diplomacy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Íâ½»</Chinese>
+		<Chinese>å¤–äº¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_CITIES_LOST</Tag>
 		<English>Cities Lost</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ªÊ§³ÇÊÐ</Chinese>
+		<Chinese>ä¸¢å¤±åŸŽå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_BAD_RELATIONS</Tag>
 		<English>Bad Relations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»Á¼¹ØÏµ</Chinese>
+		<Chinese>ä¸è‰¯å…³ç³»</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_VERYSOLID</Tag>
 		<English>Very Solid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼«ÆäÎÈ¹Ì</Chinese>
+		<Chinese>æžå…¶ç¨³å›º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_COMBAT</Tag>
 		<English>Combat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ½¶·</Chinese>
+		<Chinese>æˆ˜æ–—</Chinese>
 	</TEXT>
 </Civ4GameText>

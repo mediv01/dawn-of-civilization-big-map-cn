@@ -1,34 +1,34 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWAHILI_ADJECTIVE</Tag>
 		<English>Swahili</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯瓦希里</Chinese>
+		<Chinese>鏂摝甯岄噷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWAHILI_SHORT_DESC</Tag>
 		<English>Swahili</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯瓦希里</Chinese>
+		<Chinese>鏂摝甯岄噷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWAHILI_PEOPLES</Tag>
 		<English>Swahili Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯瓦希里人</Chinese>
+		<Chinese>鏂摝甯岄噷浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWAHILI_DEFAULT</Tag>
 		<English>Kilwa Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>基尔瓦苏丹国</Chinese>
+		<Chinese>鍩哄皵鐡﹁嫃涓瑰浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWAHILI_DESC</Tag>
 		<English>The Swahili</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯瓦希里文明</Chinese>
+		<Chinese>鏂摝甯岄噷鏂囨槑</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,0 +1,661 @@
+<!--  edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games)  -->
+<!--  freesand leo  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<TEXT>
+<Tag>TXT_KEY_FINANCE_ADVISOR_CITY_MAINT_COST</Tag>
+<English>[NEWLINE]%d1[ICON_GOLD]: Distance Maintenance[NEWLINE]%d2[ICON_GOLD]: Number of Cities Maintenance[NEWLINE]%d3[ICON_GOLD]: Colony Expenses[NEWLINE]%d4[ICON_GOLD]: Corporation Payments[NEWLINE]------------------------[NEWLINE]------------------------[NEWLINE]TOTAL CITY MAINTENANCE COST: %d5[ICON_GOLD]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]%d1[ICON_GOLD]: 城市距离维护费[NEWLINE]%d2[ICON_GOLD]: 城市数量维护费[NEWLINE]%d3[ICON_GOLD]: 殖民地维护费[NEWLINE]%d4[ICON_GOLD]: 公司维护费[NEWLINE]------------------------[NEWLINE]------------------------[NEWLINE]城市维护费总计: %d5[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_COMPUTERS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Computers[COLOR_REVERT] enables the construction of the [COLOR_PROJECT_TEXT]Internet[COLOR_REVERT] project and the powerful [COLOR_UNIT_TEXT]Modern Armor[COLOR_REVERT]. It also obsoletes [COLOR_BUILDING_TEXT]Angkor Wat[COLOR_REVERT], [COLOR_BUILDING_TEXT]The University of Sankore[COLOR_REVERT] and [COLOR_BUILDING_TEXT]The Spiral Minaret[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]电子计算机[COLOR_REVERT]允许建造[COLOR_PROJECT_TEXT]因特网[COLOR_REVERT]工程和强大的[COLOR_UNIT_TEXT]主战坦克[COLOR_REVERT]。并使[COLOR_BUILDING_TEXT]吴哥窟[COLOR_REVERT]、[COLOR_BUILDING_TEXT]桑科雷大学[COLOR_REVERT]和[COLOR_BUILDING_TEXT]螺旋尖塔[COLOR_REVERT]过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_PENTAGON_STRATEGY</Tag>
+<English>Once the [COLOR_BUILDING_TEXT]Pentagon[COLOR_REVERT] is built, all new units built in your civilization receive two experience points and increases the chance that its city more likely to generate a [COLOR_UNIT_TEXT]Great Spy[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>一旦建成[COLOR_BUILDING_TEXT]五角大楼[COLOR_REVERT]，你所有新组建的单位将获得两个初始经验点。并使城市更有可能产生[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_GREAT_PALACE_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Forbidden Palace[COLOR_REVERT] reduces the maintenance costs in nearby cities; it also increases the chance of generating a [COLOR_UNIT_TEXT]Great Spy[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]紫禁城[COLOR_REVERT]能减少附近城市的维护费；并能提升产生[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]的几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_KREMLIN_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT] reduces the cost of hurrying production and it increases its city's chances of generating [COLOR_UNIT_TEXT]Great Spies[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]克里姆林宫[COLOR_REVERT]可减少加速生产的花费并可提升城市产生[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]的几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_WEST_POINT_STRATEGY</Tag>
+<English>All military units built in a city with a [COLOR_BUILDING_TEXT]West Point[COLOR_REVERT] building begin with four additional experience points. Further, its city is more likely to generate a [COLOR_UNIT_TEXT]Great Spy[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>在拥有[COLOR_BUILDING_TEXT]西点军校[COLOR_REVERT]的城市组建的军事单位拥有四个初始经验点。此外，该城市有更大的几率产生[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_MERCANTILISM_STRATEGY</Tag>
+<English>Free specialist in each city but no foreign trade routes; foreign corporations have no effect</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>所有城市的专业人员免费，但没有国际贸易线路；禁止外国公司的运作。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_POLICE_STATE_STRATEGY</Tag>
+<English>Faster military unit production; less war anger; increased espionage output</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>加快军事单位建造速度；减少厌战情绪；增加谍报点数产出。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CIVIC_STATE_PROPERTY_STRATEGY</Tag>
+<English>No maintenance penalty for distance to Palace; increased food production from workshops and watermills; corporations have no effect</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>取消遥远地区的维护费惩罚；增加来自工场和水力磨坊的食物产出；禁止所有公司的运作。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_COURTHOUSE_STRATEGY</Tag>
+<English>[COLOR_BUILDING_TEXT]Courthouses[COLOR_REVERT] lower city maintenance costs, provide you with a bonus to espionage and are required to build the [COLOR_BUILDING_TEXT]Forbidden Palace[COLOR_REVERT] national wonder. [COLOR_BUILDING_TEXT]Courthouses[COLOR_REVERT] help manage the cost of controlling large empires. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]法庭[COLOR_REVERT]降低城市维护费，增加谍报点数产出，并是建造[COLOR_BUILDING_TEXT]紫禁城[COLOR_REVERT]国家奇观的前提.[COLOR_BUILDING_TEXT]法庭[COLOR_REVERT]可帮助维持广阔的帝国。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_CASTLE_STRATEGY</Tag>
+<English>[COLOR_BUILDING_TEXT]Castles[COLOR_REVERT] increase your city's defenses against pre-gunpowder units, increase espionage output and generate a small amount of culture. Build them in cities near enemy civilizations.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]城堡[COLOR_REVERT]提升城市对火器时代以前单位的防御能力，增加谍报点数产出，并能积累少量文化值。可在边境城市建造。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_JAIL_STRATEGY</Tag>
+<English>[COLOR_BUILDING_TEXT]Jails[COLOR_REVERT] lower a city's [COLOR_HIGHLIGHT_TEXT]War Weariness[COLOR_REVERT] and increase espionage significantly. Build them if you are involved in a long war and your citizens are starting to complain.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]监狱[COLOR_REVERT]减少城市的[COLOR_HIGHLIGHT_TEXT]厌战情绪[COLOR_REVERT]，并增加谍报点数产出。可在要卷入长期战争时，或在市民提出要求时建造。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_YOU_CIRC_GLOBE</Tag>
+<English>Your maps have proven that the world is round! Your ships receive a %D1_Change Movement bonus.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>你通过探索证明了世界是圆形的！你的船只将获得%D1_Change移动力奖励。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_SOMEONE_CIRC_GLOBE</Tag>
+<English>%s1_PlyrName has proven that the world is round!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_PlyrName通过探索证明了世界是圆形的！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_CANNOT_CAPTURE</Tag>
+<English>[ICON_BULLET]Cannot Capture Enemy Cities or Units</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]不能占领城市或捕获单位</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_IMPROVEMENT_PILLAGE_YIELDS</Tag>
+<English>[ICON_BULLET]Pillage yields %d1_Num[ICON_GOLD] on average</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]进行劫掠平均可获得 %d1_Num[ICON_GOLD]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_SPY_STRATEGY</Tag>
+<English>Use the [COLOR_UNIT_TEXT]Spy[COLOR_REVERT] to explore enemy territory and perform [COLOR_HIGHLIGHT_TEXT]Espionage Missions[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>组建[COLOR_UNIT_TEXT]间谍[COLOR_REVERT]查探敌方领土。并可实施[COLOR_HIGHLIGHT_TEXT]谍报任务[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_ALL_CITIES</Tag>
+<English>[ICON_BULLET]All Cities: %s1_yield_symbols per resource consumed</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]所有城市: 每种对应资源 %s1_yield_symbols</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_JAPAN_SAMURAI_STRATEGY</Tag>
+<English>This powerful melee combat unit (the Japanese replacement for the [COLOR_UNIT_TEXT]Maceman[COLOR_REVERT]) is special because it gets 2 first strikes, starts with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion and is particularly effective against other melee units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这是日本的特色肉搏单位（替代[COLOR_UNIT_TEXT]钉锤手[COLOR_REVERT]），具有2个先发打击点数，天然拥有[COLOR_HIGHLIGHT_TEXT]操练一级[COLOR_REVERT]晋升，特别适用于对付其他肉搏单位。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_WORKER_PEDIA</Tag>
+<English>[TAB]The majority of people in all civilizations throughout time have been workers. Whether engaged in farming, commerce, or industry, their actions form the economic infrastructure without which no nation can succeed. Over time, the endless activity of workers has reshaped the very surface of the land by mining hills, cutting down huge stretches of forest, and irrigating hostile terrain into fertile farmland. By the late 20th century it had become apparent that excessive deforestation and pollution from heavy industry posed a threat to the world's environment. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>在任何文明社会中，工人（劳动者）都是数量最庞大的群体。无论是从事农业，商业还是工业，他们的劳动支持着整个经济体系的运行，对于一个国家的繁荣昌盛是不可或缺的。工人们成年累月的努力改变了整个世界的风貌，他们在山中开矿，在森林中伐木，将贫瘠的土地改造成肥沃的农田。但到了20世纪末，森林的过度砍伐和重工业的污染对全球环境构成了极为严重的威胁。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_73</Tag>
+<English>To found a Corporation, you must have the correct type of Great Person, have researched the appropriate technologies and build it in a city with one or more of the resources that the Corporation demands. See the "Corporations" entry under the "Beyond the Sword Concepts" section for more details.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>要创办一家公司，你需要一位特定类型的历史伟人，掌握相应的科技，以及一座拥有一种或多种对应资源的城市。请查看文明百科“刀剑之上新增概念”中的“商业公司”词条了解详情。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_SPANISH_CONQUISTADOR_STRATEGY</Tag>
+<English>This powerful mounted combat unit (the Spanish replacement for the [COLOR_UNIT_TEXT]Cuirassier[COLOR_REVERT]) gets a bonus when attacking melee units and gets terrain defense bonuses, unlike other mounted units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>这种强大的骑乘单位（西班牙用以取代[COLOR_UNIT_TEXT]胸甲骑兵[COLOR_REVERT]）在攻击肉搏部队时拥有加成，并且可以获得地形防御加成，这不同与其他骑乘单位。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_OTTOMAN_JANISSARY_PEDIA</Tag>
+<English>The Janissaries were an elite fighting force of infantry raised by the Ottoman sultans. They formed the sultan's household troops and bodyguard, eventually rising to a position of enormous influence before being disbanded in the nineteenth century. Murad I founded the Janissary corps around 1330; the troops were made up of non-Muslim boys who were captured in battle or bought as slaves and brought up as warriors. This was very similar to the Mameluk slave soldiers of Egypt, who may have been the inspiration for the Janissaries. Janissaries became the first infantry units in the Ottoman military forces, because at the time no free man would consent to fighting on foot. [PARAGRAPH:2]After 1380 the system for recruiting new soldiers into the Janissaries became standardized through a process called the "devshirmeh:" this was basically a "human tax" where each community had to contribute a certain number of young boys to the state. In practice these were almost always Christian slaves. [PARAGRAPH:2]The boys were sequestered in special barracks, where they would be converted to Islam and trained to become elite soldiers (a process very similar to that practiced by the Spartans of ancient Greece). Although slaves, the Janissaries received special privileges, including the right to bear weapons and higher pay than other soldiers. Although the Janissaries began their existence as a small bodyguard for the sultan, in time they came to comprise much of the Ottoman army, topping out at over 200,000 men at some points. [PARAGRAPH:2]The Janissaries originally were trained to be expert archers, but once firearms were invented they quickly adopted the new weapons, becoming fiercely proficient with muskets. They usually used axes or sabres for melee combat. Janissaries were present at all of the major battles in the early history of the Ottoman Empire, including the Siege of Constantinople in 1453. [PARAGRAPH:2]The very success of the Janissaries would eventually destroy them. Realizing their importance, they began demanding higher pay, threatening rebellion if their demands were refused. Their first rebellion took place in 1449, and it was followed by many more. By the eighteenth century, the Janissaries dominated the government. Through frequent palace coups they changed sultans as they wished, and they blocked much-needed modernization reforms in the Ottoman army. Many of the Janissaries became corrupted, no longer training for battle but instead pursuing commercial ventures or political office, and the weakness of the Ottomans in the face of Russian and Austrian expansion soon became obvious to all. Desperate to regain control of their country, the Ottoman rulers made determined efforts to eradicate them. [PARAGRAPH:2]Finally, in 1826 Mahmud II was able to form a non-Janissary army strong enough to challenge the Janissaries. The Janissaries did not go down peacefully, and Mahmud II had to use artillery to shell the Janissaries' barracks and batter them into submission. This event - known as the "Auspicious Incident," ended the Janissaries. Their characteristic marching music is the only trace of them that remains today. [PARAGRAPH:2]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>苏丹亲兵（Janissary）是奥斯曼帝国苏丹下令组建的精锐步兵部队，最初是作为苏丹的帖身卫士，其势力和影响在日后变得越来越大，最终于19世纪被解散。穆拉德一世于1330年左右首次组建苏丹亲兵部队；其成员均为在战争中俘获、或是被卖作奴隶的非穆斯林男童经过专门训练而成。这种做法与埃及的奴隶战士“马穆鲁克”非常类似，很可能是受到后者的启发。苏丹亲兵是奥斯曼军队的第一支步兵部队，因为当时的奥斯曼自由人均不愿步行作战。[PARAGRAPH:2]1380年以后，苏丹亲兵的训练方式已成为固定的制度，称为“人税”（devshirmeh），每个村社都必须向帝国提供规定数量的男童。实际上“人税”通常都是卖为奴隶的基督徒。[PARAGRAPH:2]这些男童将被送往与世隔绝的特殊兵营，在那里他们必须改奉伊斯兰教，接受成为精锐战士的严格训练（训练方式与古希腊的斯巴达人非常相似）。虽然身为奴隶，苏丹亲兵也拥有许多特殊待遇，他们有权在平时佩带武器，薪金也比普通士兵高得多。这支起初作为苏丹帖身卫士的部队人数很少，但逐渐发展成为奥斯曼军队的主要组成部分，其人数曾经多达200,000人。[PARAGRAPH:2]苏丹亲兵部队起初接受的是成为优秀弓箭手的训练，但随着火器的引入，他们很快接受了这类新式武器，能够熟练地使用火枪。他们通常使用手斧和弯刀进行肉搏战。苏丹亲兵参加了奥斯曼帝国前期的所有重要战役，包括1453年围攻君士坦丁堡。[PARAGRAPH:2]苏丹亲兵的战功也导致了他们日后的毁灭。他们开始倚仗自己的力量要求更高的报酬，一旦得不到满足就威胁发动叛乱。首次苏丹亲兵叛乱发生于1449年，此后类似的叛乱层出不穷。到了18世纪，苏丹亲兵几乎掌控了帝国政府。他们甚至多次发动宫庭政变，拥立符合自己利益的新苏丹，并阻挠奥斯曼军队进行现代化改造的努力。苏丹亲兵部队的许多成员都变得腐化堕落，他们不再专心于军事训练，转而从事商业或政治活动，奥斯曼军队在面对俄国和奥地利军队时逐渐显露出明显的劣势。为了收回对国政的控制权，奥斯曼苏丹终于决定消灭这股力量。[PARAGRAPH:2]到1826年，穆拉德二世已经组建起一支足以同苏丹亲兵相抗衡的新军。苏丹亲兵不愿放弃现有利益，穆拉德二世不得不下令炮轰他们的兵营，迫使其就范。这一事件史称“吉祥事变”，苏丹亲兵部队就此解散。只剩下那一段富于特色的进行曲流传至今。[PARAGRAPH:2]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VICTORY_SCREEN_BUILDING</Tag>
+<English>Build %s1 %s2</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>建造 %s1 %s2</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CITY_NAME_AACHEN</Tag>
+<English>Aachen</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>亚琛</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CITY_NAME_BRAUNSCHWEIG</Tag>
+<English>Braunschweig</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>布伦瑞克</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRAIT_HAPPINESS</Tag>
+<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1[ICON_HAPPY]/City</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1[ICON_HAPPY]/城市</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TRADE_PEACE_TREATY</Tag>
+<English>Establishes an Unbreakable Peace Treaty for %d1_Num [NUM1:Turn:Turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>签订不可撤销的和平协定, 持续%d1_Num回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_DIPLO_VOTE</Tag>
+<English>[ICON_BULLET]Triggers %s1 global Elections</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]触发 %s1 全球投票</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_POPUP_CHOOSE_ELECTION</Tag>
+<English>As Secretary-General, you can choose a U.N. Resolution to put forward for a global vote.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>作为秘书长，你可以选择一项联合国决议提请全球表决。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_HILLS</Tag>
+<English>(Hills Defense: %D1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(丘陵防御: %D1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_FEATURE</Tag>
+<English>(Feature Defense: %D1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(地貌防御: %D1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CONCEPT_RELIGION_PEDIA</Tag>
+<English>[H1]Religion[\H1][PARAGRAPH:2]Religion has always played a critical part in human history. Through religion, man has sought to make sense of the universe around him and to determine his place in it. Religion has inspired, enlightened and ennobled man; in its name men have erected beautiful buildings, written books of great wisdom, and made music of surpassing beauty. In its name men have also murdered and enslaved their fellows.[PARAGRAPH:2][H2]Religion in this Game[\H2][PARAGRAPH:2]We know that people have extremely strong opinions about religions - in fact, many a war has arisen when these beliefs collide. We at Firaxis have no desire to offend anyone. However, given the importance that religions have had in human development, we didn't want to simply leave them out of the game altogether; instead we have tried to handle them in as respectful, fair and even-handed manner as possible. In fact, all religions in the game have the same effects, the only difference being their requirements.[PARAGRAPH:2]There are seven religions in Civilization IV (testing having determined that seven was the optimal number for gameplay). When determining which seven to include, we picked those religions that we thought would be most familiar to our audience. We do not mean to imply that these religions are more important, better or worse than any other religions.[PARAGRAPH:2]We offer no value judgments on religion; we mean no disrespect to anyone's beliefs. We're game designers, not theologians.[PARAGRAPH:2][H2]Founding a Religion[\H2][PARAGRAPH:2]If you are the first civilization to discover the associated technology, the religion is founded in one of your cities. It is extremely useful to have a city where a religion has been founded; it allows a prophet to create a "shrine" in that city (see below).[PARAGRAPH:2][H2]State Religions[\H2][PARAGRAPH:2]When any cities in your civilization possess one or more religions, you may choose to assign one as the "state" religion. Having a state religion tends to make your cities possessing that religion happier and more productive; it also increases the effects of many religious buildings and religious civics.[PARAGRAPH:2][H2]Spreading Religions[\H2][PARAGRAPH:2]Religions spread randomly from city to city. Religions tend to spread from a city possessing the religion to nearby cities as well as to cities the possessing city has trade routes with. Some religious buildings (see below) increase the speed at which a religion will spread, and a civilization's religious civic (see below) can have a great effect upon the spread of religions, as well. [LINK=UNIT_BUDDHIST_MISSIONARY]Missionaries[\LINK] allow you to control the spread of religion; see the following section.[PARAGRAPH:2][H2]Missionaries[\H2][PARAGRAPH:2]Civilizations can construct special "missionary" units to spread the civilization's state religion. Each civilization may have only a limited number of missionary units in play at any one time, and each costs two gold per turn to maintain.[PARAGRAPH:2][BOLD]Building Missionaries[\BOLD][PARAGRAPH:2] Civilizations using the [LINK=CIVIC_ORGANIZED_RELIGION]Organized Religion[\LINK] civic can construct missionaries in any city with the state religion; if a civilization is not following Organized Religion, it can build missionaries only in cities with Monasteries.[PARAGRAPH:2][BOLD]Moving Missionaries[\BOLD][PARAGRAPH:2]Once constructed, missionaries can move about the map like any other unit. Your missionaries can freely enter your territory or neutral territory; they cannot enter another civilization's territory until you have an [LINK=CONCEPT_DIPLOMACY]Open Borders[\LINK] agreement with that civ. [PARAGRAPH:2][BOLD]How Missionaries Spread Religion[\BOLD][PARAGRAPH:2]When the missionary is in the target city, click on the "spread religion" order in the missionary's unit box (see [LINK=CONCEPT_UNITS]Units[\LINK]); if the attempt is successful the missionary's religion is now in the target city. Religions spread more easily into other cities within the missionary's civilization. Further, it is easier to spread a religion into a city with few or no religions already present; each resident religion decreases the odds of success. There is no limit to how many religions may be present in a single city; all seven religions can coexist in the same city. The missionary is consumed in the conversion attempt, successful or not.[PARAGRAPH:2][H2]Benefits of Religion[\H2][PARAGRAPH:2][BOLD]City Benefits[\BOLD][PARAGRAPH:2]All cities that possess your state religion receive one extra happy face and produce one culture per turn. Spreading your state religion is thus a good way to expand cultural borders in the early stages of your civilization. The holy city for your state religion also receives an additional bonus of five culture per turn, allowing it to expand its borders very quickly.[PARAGRAPH:2][BOLD]Buildings[\BOLD][PARAGRAPH:2]Without a religion in a city, that city cannot construct religious buildings like Temples and Cathedrals (see below). Cities without religions also cannot create Priest [LINK=CONCEPT_SPECIALISTS]Specialists[\LINK].[PARAGRAPH:2][BOLD]Shrine Income[\BOLD][PARAGRAPH:2]If you control the holy city for a religion and generate a Great Prophet, you can build the Shrine for that religion to generate income for every city in the world that possesses your religion (see below).[PARAGRAPH:2][H2]Religious Civics[\H2][PARAGRAPH:2]The religious [LINK=CONCEPT_CIVICS]Civics[\LINK] describe how religion affects your civilization. There are five religious civics in the game. You begin the game knowing only paganism; the other four become available when you learn their associated technologies.[PARAGRAPH:2][BOLD]Paganism:[\BOLD] No technology requirement. The basic religious civic. [PARAGRAPH:2][BOLD]Organized Religion:[\BOLD] Requires [LINK=TECH_MONOTHEISM]Monotheism[\LINK]. Increases production of buildings in cities with the state religion, and allows you to build missionaries without first constructing monasteries.[PARAGRAPH:2][BOLD]Theocracy:[\BOLD] Requires [LINK=TECH_THEOLOGY]Theology[\LINK]. Theocracy grants two additional experience points to units trained within cities with the state religion, and it stops the spread of non-state religions within the civilization.[PARAGRAPH:2][BOLD]Pacifism:[\BOLD] Requires [LINK=TECH_PHILOSOPHY]Philosophy[\LINK]. Greatly increases the [LINK=CONCEPT_GREAT_PEOPLE]Great Person[\LINK] birth rate in cities with the state religion, and it increases the support cost of military units.[PARAGRAPH:2][BOLD]Free Religion:[\BOLD] Requires [LINK=TECH_LIBERALISM]Liberalism[\LINK]. A civilization with Free Religion has no state religion. Each city gets happiness for each non-state religion in the city; also, all cities get a 10%% boost in scientific [LINK=CONCEPT_RESEARCH]Research[\LINK].[PARAGRAPH:2][H2]Religious Buildings[\H2][PARAGRAPH:2]There are a number of religious buildings available to be constructed. Religious buildings are dedicated to specific religions and can only be built in cities which have that religion. A city with more than one religion can have religious buildings for each religion: for example, a city with Judaism and Confucianism could construct both a Jewish Temple and a Confucian Temple.[PARAGRAPH:2][BOLD]Temples[\BOLD][PARAGRAPH:2]The most primitive religious building. Temples boost a city's [LINK=CONCEPT_CULTURE]Culture[\LINK] and [LINK=CONCEPT_HAPPINESS]Happiness[\LINK]. They allow 1 population point to be turned into a priest [LINK=CONCEPT_SPECIALISTS]Specialist[\LINK].[PARAGRAPH:2][BOLD]Monasteries[\BOLD][PARAGRAPH:2]Monasteries increase a city's research by a small amount. More importantly, they allow the city to build missionaries to spread your religion.[PARAGRAPH:2][BOLD]Cathedrals[\BOLD][PARAGRAPH:2]Cathedrals drastically increase a city's culture. They increase happiness if their religion is the civilization's state religion. They allow two population points to be turned into priests. Note that "Cathedral" is a generic name for a religion's grander houses of worship - Jewish synagogues, Islamic mosques, Christian cathedrals, etc., all have the same effects. Your civilization can only build one cathedral for every three temples that your civilization possesses; for example, a civilization with seven temples could build two cathedrals. [PARAGRAPH:2][BOLD]Shrines[\BOLD][PARAGRAPH:2]Shrines can be built only in cities in which a religion has been founded. Shrines are constructed by [LINK=CONCEPT_GREAT_PEOPLE]Great Prophets[\LINK]; a great prophet is the only unit that can build a shrine, and the prophet is consumed in the process. Shrines increase the spread of the religion, as well as the home city's culture. They increase the city's chance of generating prophets and allow the city to assign three population as priests. Most importantly, shrines generate one gold each turn for every city on the map that has the shrine's religion (thus explaining the importance of creating missionaries to spread the word). Each religion has a different name for its cathedral and shrine.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[H1]宗教信仰[\H1][PARAGRAPH:2]宗教信仰在人类历史上经常占据着重要的角色。通过宗教，人类寻求对宇宙的理解，确定自己存在的意义。宗教使人得到灵感和启迪，使人变得高贵和自尊；人们以宗教的名义修建宏伟的殿宇，撰写智慧的典籍，谱写美丽的乐章。人们也以宗教的名义屠杀和奴役着他们的兄弟姊妹。[PARAGRAPH:2][H2]游戏中的宗教信仰[\H2][PARAGRAPH:2]我们知道人们对于宗教信仰有非常强烈的观点和立场——事实上，信仰之间的冲突曾经导致了无数的战争。游戏的开发者无意冒犯任何人的信仰。但是，考虑到宗教信仰在人类文明发展中的重要作用，我们不能将这一重要元素排除在游戏之外；而且尽最大努力，以尊重，公正与中立的态度处理宗教元素。事实上，游戏中所有宗教的作用都是相同的，唯一不同的只是其创立的前提。[PARAGRAPH:2]在文明IV中有七种宗教信仰（经测试采用这个数量可以获得最佳的游戏性）。在具体选择时，我们采用了我们认为公众最为熟悉的几种宗教。我们并不认为这几种宗教比其他信仰更好或是更重要。[PARAGRAPH:2]我们并不对各种宗教进行价值判断；我们尊重任何人的任何信仰。我们是游戏设计师，不是神学家。[PARAGRAPH:2][H2]创立宗教[\H2][PARAGRAPH:2]如果你率先发现与特定宗教相关联的科技，该宗教将在你的某一城市中创立。拥有一座宗教创始城市有非常多的好处；这将允许大预言家在该城市中建立一座“圣坛”（见下文）。[PARAGRAPH:2][H2]官方信仰[\H2][PARAGRAPH:2]如果你的城市中存在一种或几种宗教信仰，你可以选择其中一种作为“官方”信仰（国教）。设立官方信仰可使信仰该宗教的城市快乐度更高，生产能力更强；还可以提升宗教建筑和宗教制度类内政法令的作用。[PARAGRAPH:2][H2]传播宗教信仰[\H2][PARAGRAPH:2]宗教信仰会在城市间随机传播。宗教会传播到邻近的城市，或是有商路相连的城市。某些宗教建筑（见下文）可以提升相应宗教的传播速度，文明所实行的内政法令（见下文）也对宗教的传播具有重要作用。[LINK=UNIT_BUDDHIST_MISSIONARY]传教士[\LINK]使你可以主动进行传教；相关详情见下节。[PARAGRAPH:2][H2]传教士[\H2][PARAGRAPH:2]一个文明可以组建专门的“传教士”单位以传播其官方信仰。每个文明在同一时刻保有的传教士数量有一定限制，每个传教士单位每回合的维持费为两个金币。[PARAGRAPH:2][BOLD]训练传教士[\BOLD][PARAGRAPH:2]实行[LINK=CIVIC_ORGANIZED_RELIGION]信仰控制[\LINK]内政法令的文明可以在任何信仰国教的城市训练传教士；对于不采用信仰控制政策的文明，则只能在建有修道院的城市训练传教士。[PARAGRAPH:2][BOLD]移动传教士[\BOLD][PARAGRAPH:2]一旦训练完成，传教士可以象其他单位一样在地图上移动。你的传教士可以在本国领土或中立领土中自由通行；但不能进入其他文明的领地，除非签有[LINK=CONCEPT_DIPLOMACY]开放边界[\LINK]条约。[PARAGRAPH:2][BOLD]传教士如何传播宗教信仰[\BOLD][PARAGRAPH:2]在传教士到达目标城市后，点击传教士单位命令清单中的“传播信仰”命令（见[LINK=CONCEPT_UNITS]单位[\LINK]）；如果传播成功，则传教士的宗教将传入该城市。在本国城市传播信仰更容易取得成功。此外，在原来没有信仰的城市传播信仰也比较容易；每增加一种现存信仰，都会进一步降低传教的成功几率。一座城市存在宗教的数量没有限制；七种宗教可能在同一城市并存。传教士在执行任务后将消失，无论成功与否。[PARAGRAPH:2][H2]宗教信仰的益处[\H2][PARAGRAPH:2][BOLD]对城市的益处[\BOLD][PARAGRAPH:2]信仰国教的城市可额外增加一个单位的快乐值，并每回合产生一个单位的文化值。因此传播你的官方信仰是游戏早期扩展文化边界的好办法。官方信仰的圣城每回合还能产生五单位文化值，使其能够快速扩展文化边界。[PARAGRAPH:2][BOLD]建筑[\BOLD][PARAGRAPH:2]城市如不存在宗教，将无法建造宗教建筑，例如寺庙和大教堂（见下文）。不存在宗教的城市也不能供养神学家类的[LINK=CONCEPT_SPECIALISTS]专业人员[\LINK]。[PARAGRAPH:2][BOLD]圣坛收入[\BOLD][PARAGRAPH:2]如果你拥有某一宗教的圣城，并且产生了一位大预言家，你将可以建造该宗教的圣坛，使全世界所有信仰该宗教的城市都会为你带来收入（见下文）。[PARAGRAPH:2][H2]宗教制度类内政法令[\H2][PARAGRAPH:2]宗教制度类的[LINK=CONCEPT_CIVICS]内政法令[\LINK]可调整宗教对文明的影响。游戏中共有五种宗教制度。在游戏开始时只有原始信仰；其他宗教制度将在你掌握相应科技后启用。[PARAGRAPH:2][BOLD]原始信仰:[\BOLD]无科技前提。基本的宗教制度。[PARAGRAPH:2][BOLD]信仰控制:[\BOLD]需要[LINK=TECH_MONOTHEISM]一神论[\LINK]。提升信仰国教城市的建造建筑的能力，允许你训练传教士而无须建造修道院。[PARAGRAPH:2][BOLD]神权政治:[\BOLD]需要[LINK=TECH_THEOLOGY]神学[\LINK]。实行神权政治法令，将使信仰国教的城市所组建的单位拥有两点初始经验，并禁止非官方信仰在本国的传播。[PARAGRAPH:2][BOLD]和平主义:[\BOLD]需要[LINK=TECH_PHILOSOPHY]哲学[\LINK]。大大提升信仰国教城市的[LINK=CONCEPT_GREAT_PEOPLE]历史伟人[\LINK]出现几率，并增加军事单位的维持费。[PARAGRAPH:2][BOLD]信仰自由:[\BOLD]需要[LINK=TECH_LIBERALISM]自由主义[\LINK]。实行信仰自由的文明没有官方信仰。任何宗教都可提升城市的快乐度；并且所有城市额外获得10%%的[LINK=CONCEPT_RESEARCH]科研[\LINK]加成。[PARAGRAPH:2][H2]宗教建筑[\H2][PARAGRAPH:2]可建造的宗教建筑有多种类型。不同宗教有相应的宗教建筑，城市必须信仰特定宗教才能建造相应宗教建筑。信仰多种宗教的城市可以建造多种宗教建筑：例如，同时信仰犹太教和儒学的城市即可同时建造犹太礼拜堂和儒学馆。[PARAGRAPH:2][BOLD]寺庙[\BOLD][PARAGRAPH:2]寺庙是最基本的宗教建筑。寺庙可促进城市的[LINK=CONCEPT_CULTURE]文化[\LINK]和[LINK=CONCEPT_HAPPINESS]快乐[\LINK]。允许1单位人口转化为神学家类[LINK=CONCEPT_SPECIALISTS]专业人员[\LINK]。[PARAGRAPH:2][BOLD]修道院[\BOLD][PARAGRAPH:2]修道院可少量提升城市的科研能力。更重要的是使城市可以训练传教士，以传播你的信仰。[PARAGRAPH:2][BOLD]大教堂[\BOLD][PARAGRAPH:2]大教堂可大大提升城市的文化等级。如所属宗教为官方信仰还将提升城市快乐度。并允许2单位人口转化为神学家。注意“大教堂”泛指任何宗教的大型活动场所——犹太教会堂，伊斯兰清真寺，基督教大教堂等等，其作用完全相同。建造一座大教堂的前提是已建有三座寺庙；例如，建有七座寺庙的文明将可建造两座大教堂。[PARAGRAPH:2][BOLD]圣坛[\BOLD][PARAGRAPH:2]圣坛只能建在创立宗教的城市。圣坛由[LINK=CONCEPT_GREAT_PEOPLE]大预言家[\LINK]建造；大预言家是唯一能建造圣坛的单位，建造圣坛的代价是这位大预言家的消失。圣坛可提升相应宗教的传播速度，以及所在城市的文化等级。并能提升城市产生大预言家的几率，使城市可能供养三位神学家。更重要的是，圣坛能使全世界所有信仰相应宗教的城市为你的文明带来每座城市每回合一个金币的收入（因此训练传教士传播信仰是非常重要的）。每种宗教都有不同名称的大教堂和圣坛类建筑。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_COMBAT_MESSAGE_TERRAIN</Tag>
+<English>(Terrain Defense: %d1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>(地形防御: %d1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>AI_DIPLO_CHANGED_FIRST_CONTACT_LEADER_RAGNAR_LODBROK_1</Tag>
+<English>Hail and well met, [CT_NAME]! I am [OUR_NAME], ruler of the glorious [OUR_CIV_SHORT]. So tell me: does [CT_CIV_SHORT] have a lot of rich and unprotected coastal cities, or what?</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>向你致以问候，[CT_NAME]！我是[OUR_NAME]，荣耀的[OUR_CIV_SHORT]的统治者。打听一下：[CT_CIV_SHORT]有没有很多足够富庶而缺乏防御的海滨城市啊？</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_SCIENTIFIC_METHOD_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Scientific Method[COLOR_REVERT] reveals the [COLOR_HIGHLIGHT_TEXT]Oil[COLOR_REVERT] resource and allows construction of the [COLOR_HIGHLIGHT_TEXT]Forest Preserve[COLOR_REVERT] improvement. It makes the [COLOR_BUILDING_TEXT]Great Library[COLOR_REVERT], [COLOR_BUILDING_TEXT]The Parthenon[COLOR_REVERT], [COLOR_BUILDING_TEXT]The Temple of Artemis[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Monasteries[COLOR_REVERT] obsolete.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]科学方法[COLOR_REVERT]启用[COLOR_HIGHLIGHT_TEXT]石油[COLOR_REVERT]资源，允许建造[COLOR_HIGHLIGHT_TEXT]森林保护区[COLOR_REVERT]设施。并使得[COLOR_BUILDING_TEXT]大图书馆[COLOR_REVERT]、[COLOR_BUILDING_TEXT]帕特农神庙[COLOR_REVERT]、[COLOR_BUILDING_TEXT]阿尔忒弥斯神庙[COLOR_REVERT]和[COLOR_BUILDING_TEXT]修道院[COLOR_REVERT]过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_UTOPIA_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Communism[COLOR_REVERT] enables the [COLOR_HIGHLIGHT_TEXT]State Property[COLOR_REVERT] civic and [COLOR_HIGHLIGHT_TEXT]Permanent Alliances[COLOR_REVERT]. It also allows construction of the [COLOR_BUILDING_TEXT]Intelligence Agency[COLOR_REVERT] building and the [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT] world wonder. The first to research [COLOR_TECH_TEXT]Communism[COLOR_REVERT] receives a free [COLOR_UNIT_TEXT]Great Spy[COLOR_REVERT] unit.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]共产主义[COLOR_REVERT]启用[COLOR_HIGHLIGHT_TEXT]国营经济[COLOR_REVERT]内政法令和[COLOR_HIGHLIGHT_TEXT]永久同盟[COLOR_REVERT]外交条约。并允许建造[COLOR_BUILDING_TEXT]情报局[COLOR_REVERT]建筑和[COLOR_BUILDING_TEXT]克里姆林宫[COLOR_REVERT]世界奇观。率先发现[COLOR_TECH_TEXT]共产主义[COLOR_REVERT]的文明可免费获得一位[COLOR_UNIT_TEXT]大间谍[COLOR_REVERT]。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_CALENDAR_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Calendar[COLOR_REVERT] allows your workers to construct [COLOR_HIGHLIGHT_TEXT]Plantation[COLOR_REVERT] improvements, enabling you to access various valuable resources. It allows construction of the [COLOR_BUILDING_TEXT]Mausoleum of Maussollos[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]历法[COLOR_REVERT]允许你的工人修建[COLOR_HIGHLIGHT_TEXT]种植园[COLOR_REVERT]设施，使你可以获取多种有价值的资源。并允许建造[COLOR_BUILDING_TEXT]摩索拉斯陵墓[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_CHEMISTRY_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Chemistry[COLOR_REVERT] allows construction of [COLOR_UNIT_TEXT]Privateers[COLOR_REVERT] and [COLOR_UNIT_TEXT]Frigates[COLOR_REVERT] (with [COLOR_TECH_TEXT]Astronomy[COLOR_REVERT]). It also increases production from all workshops by 1.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]化学[COLOR_REVERT]允许建造[COLOR_UNIT_TEXT]私掠舰[COLOR_REVERT]和[COLOR_UNIT_TEXT]三桅战舰[COLOR_REVERT]（需要[COLOR_TECH_TEXT]天文学[COLOR_REVERT]）。还可使工场生产能力+1。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ARTILLERY_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Artillery[COLOR_REVERT] allows you to build [COLOR_UNIT_TEXT]Artillery[COLOR_REVERT], [COLOR_UNIT_TEXT]Anti-Tank Infantry[COLOR_REVERT], and [COLOR_UNIT_TEXT]Mobile Artillery[COLOR_REVERT], the game's most powerful siege unit.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]火炮[COLOR_REVERT]允许你建造[COLOR_UNIT_TEXT]火炮[COLOR_REVERT]、[COLOR_UNIT_TEXT]反坦克步兵[COLOR_REVERT]和[COLOR_UNIT_TEXT]自行火炮[COLOR_REVERT]——游戏中最强大的压制武器。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ASTRONOMY_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Astronomy[COLOR_REVERT] allows access to the [COLOR_UNIT_TEXT]Galleon[COLOR_REVERT], as well as the [COLOR_UNIT_TEXT]Frigate[COLOR_REVERT] and the [COLOR_UNIT_TEXT]Privateer[COLOR_REVERT] (with [COLOR_TECH_TEXT]Chemistry[COLOR_REVERT]) and the [COLOR_UNIT_TEXT]Ship of the Line[COLOR_REVERT] (with [COLOR_TECH_TEXT]Military Science[COLOR_REVERT]). It enables trading on the ocean and lets you build [COLOR_BUILDING_TEXT]Observatories[COLOR_REVERT]. It obsoletes [COLOR_BUILDING_TEXT]The Colossus[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Stonehenge[COLOR_REVERT] Wonders and the [COLOR_BUILDING_TEXT]Monument[COLOR_REVERT] building.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]天文学[COLOR_REVERT]允许[COLOR_UNIT_TEXT]大帆船[COLOR_REVERT]、[COLOR_UNIT_TEXT]三桅战舰[COLOR_REVERT]和[COLOR_UNIT_TEXT]私掠舰[COLOR_REVERT]（需要[COLOR_TECH_TEXT]化学[COLOR_REVERT]），以及[COLOR_UNIT_TEXT]主力战舰[COLOR_REVERT]（需要[COLOR_TECH_TEXT]军事科学[COLOR_REVERT]）。并允许远洋贸易和建造[COLOR_BUILDING_TEXT]天文台[COLOR_REVERT]。并使得[COLOR_BUILDING_TEXT]青铜巨像[COLOR_REVERT]和[COLOR_BUILDING_TEXT]巨石阵[COLOR_REVERT]奇观以及[COLOR_BUILDING_TEXT]纪念碑[COLOR_REVERT]建筑过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_BIOLOGY_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Biology[COLOR_REVERT] allows your workers to build [COLOR_HIGHLIGHT_TEXT]Farms[COLOR_REVERT] without [COLOR_HIGHLIGHT_TEXT]Irrigation[COLOR_REVERT] as well as the [COLOR_BUILDING_TEXT]National Park[COLOR_REVERT] national wonder. It increases the food production of all [COLOR_HIGHLIGHT_TEXT]Farms[COLOR_REVERT] by 1. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]生物学[COLOR_REVERT]允许你的工人修建[COLOR_HIGHLIGHT_TEXT]农场[COLOR_REVERT]而无需[COLOR_HIGHLIGHT_TEXT]灌溉[COLOR_REVERT]设施，以及[COLOR_BUILDING_TEXT]国家公园[COLOR_REVERT]小奇观。并使所有[COLOR_HIGHLIGHT_TEXT]农场[COLOR_REVERT]食物产出+1。 </Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_COMBUSTION_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Combustion[COLOR_REVERT] allows you to construct the [COLOR_UNIT_TEXT]Transport[COLOR_REVERT], [COLOR_UNIT_TEXT]Destroyer[COLOR_REVERT], and [COLOR_UNIT_TEXT]Attack Submarine[COLOR_REVERT] (with [COLOR_TECH_TEXT]Radio[COLOR_REVERT] and [COLOR_TECH_TEXT]Rocketry[COLOR_REVERT]) naval units. You may construct the [COLOR_BUILDING_TEXT]Public Transportation[COLOR_REVERT] building and the [COLOR_BUILDING_TEXT]Creative Constructions[COLOR_REVERT] Wonder. It enables your workers to build the [COLOR_HIGHLIGHT_TEXT]Well[COLOR_REVERT] improvement on land-based [COLOR_HIGHLIGHT_TEXT]Oil[COLOR_REVERT] resources and obsoletes the [COLOR_HIGHLIGHT_TEXT]Whale[COLOR_REVERT] resource.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]内燃机[COLOR_REVERT]允许你建造[COLOR_UNIT_TEXT]运输舰[COLOR_REVERT]、[COLOR_UNIT_TEXT]驱逐舰[COLOR_REVERT]和[COLOR_UNIT_TEXT]攻击型潜艇[COLOR_REVERT]（需要[COLOR_TECH_TEXT]无线电[COLOR_REVERT]和[COLOR_TECH_TEXT]火箭[COLOR_REVERT]）。并允许建造[COLOR_BUILDING_TEXT]公交系统[COLOR_REVERT]建筑和[COLOR_BUILDING_TEXT]创新建筑公司[COLOR_REVERT]奇观。允许你的工人修建[COLOR_HIGHLIGHT_TEXT]油井[COLOR_REVERT]设施以获取陆上[COLOR_HIGHLIGHT_TEXT]石油[COLOR_REVERT]资源并使[COLOR_HIGHLIGHT_TEXT]鲸鱼[COLOR_REVERT]资源过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_COMPOSITES_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Composites[COLOR_REVERT] enables construction of [COLOR_UNIT_TEXT]Modern Armor[COLOR_REVERT] (with [COLOR_TECH_TEXT]Computers[COLOR_REVERT]). It lets you build the [COLOR_BUILDING_TEXT]SS Casing[COLOR_REVERT] project.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]复合材料[COLOR_REVERT]允许组建[COLOR_UNIT_TEXT]主战坦克[COLOR_REVERT]（需要[COLOR_TECH_TEXT]计算机[COLOR_REVERT]），并允许建造[COLOR_BUILDING_TEXT]飞船外壳[COLOR_REVERT]工程。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_CORPORATION_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Corporation[COLOR_REVERT] adds an additional trade route to all cities and enables construction of the [COLOR_BUILDING_TEXT]Wall Street[COLOR_REVERT] national wonder. It is a requirement to build all [COLOR_BUILDING_TEXT]Corporation[COLOR_REVERT] Wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]公司制[COLOR_REVERT]使所有城市获得额外商路并允许建造[COLOR_BUILDING_TEXT]华尔街[COLOR_REVERT]国家奇观，还是建造所有[COLOR_BUILDING_TEXT]公司[COLOR_REVERT]奇观的前提。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_DEMOCRACY_STRATEGY</Tag>
+<English>This tech enables the [COLOR_HIGHLIGHT_TEXT]Universal Suffrage[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Emancipation[COLOR_REVERT] civics. It allows construction of the [COLOR_BUILDING_TEXT]Security Bureau[COLOR_REVERT] building and the [COLOR_BUILDING_TEXT]Statue of Liberty[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>该科技启用[COLOR_HIGHLIGHT_TEXT]普选制度[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]人身自由[COLOR_REVERT]内政法令。并允许建造[COLOR_BUILDING_TEXT]安全局[COLOR_REVERT]建筑和[COLOR_BUILDING_TEXT]自由女神像[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_FASCISM_STRATEGY</Tag>
+<English>Fascism enables the [COLOR_HIGHLIGHT_TEXT]Police State[COLOR_REVERT] civic, the [COLOR_UNIT_TEXT]Paratrooper[COLOR_REVERT] unit (with [COLOR_TECH_TEXT]Rifling[COLOR_REVERT] and [COLOR_TECH_TEXT]Flight[COLOR_REVERT]) and construction of the [COLOR_BUILDING_TEXT]Mount Rushmore[COLOR_REVERT] wonder. It also allows [COLOR_HIGHLIGHT_TEXT]Permanent Alliances[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>法西斯主义将启用[COLOR_HIGHLIGHT_TEXT]强化监控[COLOR_REVERT]内政法令，允许组建[COLOR_UNIT_TEXT]伞兵[COLOR_REVERT]单位（需要[COLOR_TECH_TEXT]膛线[COLOR_REVERT]和[COLOR_TECH_TEXT]航空[COLOR_REVERT]），允许建造[COLOR_BUILDING_TEXT]总统山[COLOR_REVERT]奇观。并启用[COLOR_HIGHLIGHT_TEXT]永久同盟[COLOR_REVERT]外交条约。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ECONOMICS_STRATEGY</Tag>
+<English>The first to discover [COLOR_TECH_TEXT]Economics[COLOR_REVERT] receives a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT]. It also enables the [COLOR_HIGHLIGHT_TEXT]Free Market[COLOR_REVERT] civic and the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT] building.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现[COLOR_TECH_TEXT]经济学[COLOR_REVERT]的文明可获得一位[COLOR_UNIT_TEXT]大商业家[COLOR_REVERT]。启用[COLOR_HIGHLIGHT_TEXT]自由市场[COLOR_REVERT]内政法令。允许建造[COLOR_BUILDING_TEXT]海关[COLOR_REVERT]建筑。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_FIBER_OPTICS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Fiber Optics[COLOR_REVERT] allows you to build the [COLOR_PROJECT_TEXT]SS Cockpit[COLOR_REVERT] spaceship part.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]光纤[COLOR_REVERT]允许你建造[COLOR_PROJECT_TEXT]飞船驾驶舱[COLOR_REVERT]太空船组件。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_GUNPOWDER_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Gunpowder[COLOR_REVERT] allows you to build [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT] units and [COLOR_UNIT_TEXT]Cuirassiers[COLOR_REVERT] (with [COLOR_TECH_TEXT]Military Tradition[COLOR_REVERT]).</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]火药[COLOR_REVERT]允许你建造[COLOR_UNIT_TEXT]火枪手[COLOR_REVERT]和[COLOR_UNIT_TEXT]胸甲骑兵[COLOR_REVERT]（需要[COLOR_TECH_TEXT]军事制度[COLOR_REVERT]）。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_MASS_MEDIA_STRATEGY</Tag>
+<English>This technology allows construction of [COLOR_BUILDING_TEXT]Broadcast Towers[COLOR_REVERT], as well as the [COLOR_BUILDING_TEXT]Hollywood[COLOR_REVERT], [COLOR_BUILDING_TEXT]Civilized Jewelers[COLOR_REVERT] and [COLOR_BUILDING_TEXT]United Nations[COLOR_REVERT] wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>获得该科技将可建造[COLOR_BUILDING_TEXT]广播塔[COLOR_REVERT]，以及[COLOR_BUILDING_TEXT]好莱坞[COLOR_REVERT]、[COLOR_BUILDING_TEXT]文明珠宝公司[COLOR_REVERT]和[COLOR_BUILDING_TEXT]联合国[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_MILITARY_TRADITION_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Military Tradition[COLOR_REVERT] allows you to build powerful [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT] and [COLOR_UNIT_TEXT]Cuirassier[COLOR_REVERT] units (with [COLOR_TECH_TEXT]Horseback Riding[COLOR_REVERT]). It enables [COLOR_HIGHLIGHT_TEXT]Defensive Pacts[COLOR_REVERT] and construction of the [COLOR_BUILDING_TEXT]West Point[COLOR_REVERT] national wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]军事制度[COLOR_REVERT]允许你建造强大的[COLOR_UNIT_TEXT]近代骑兵[COLOR_REVERT]和[COLOR_UNIT_TEXT]胸甲骑兵[COLOR_REVERT]单位（需要[COLOR_TECH_TEXT]骑术[COLOR_REVERT]）。并启用[COLOR_HIGHLIGHT_TEXT]共同防御[COLOR_REVERT]条约和建造[COLOR_BUILDING_TEXT]西点军校[COLOR_REVERT]国家奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_INDUSTRIALISM_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Industrialism[COLOR_REVERT] allows construction of the [COLOR_UNIT_TEXT]Battleship[COLOR_REVERT], [COLOR_UNIT_TEXT]Marine[COLOR_REVERT] (with [COLOR_TECH_TEXT]Rifling[COLOR_REVERT]), and [COLOR_UNIT_TEXT]Tank[COLOR_REVERT] (with [COLOR_TECH_TEXT]Rifling[COLOR_REVERT]) units and the [COLOR_BUILDING_TEXT]Industrial Park[COLOR_REVERT] building. It also reveals the [COLOR_HIGHLIGHT_TEXT]Aluminum[COLOR_REVERT] resource and obsoletes [COLOR_HIGHLIGHT_TEXT]Ivory[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]产业主义[COLOR_REVERT]允许建造[COLOR_UNIT_TEXT]战列舰[COLOR_REVERT]、[COLOR_UNIT_TEXT]海军陆战队[COLOR_REVERT]（需要[COLOR_TECH_TEXT]膛线[COLOR_REVERT]）和[COLOR_UNIT_TEXT]坦克[COLOR_REVERT]（需要[COLOR_TECH_TEXT]膛线[COLOR_REVERT]）单位，以及[COLOR_BUILDING_TEXT]工业园区[COLOR_REVERT]建筑。并启用[COLOR_HIGHLIGHT_TEXT]铝[COLOR_REVERT]资源及使[COLOR_HIGHLIGHT_TEXT]象牙[COLOR_REVERT]过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_PLASTICS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Plastics[COLOR_REVERT] enables [COLOR_UNIT_TEXT]Work Boats[COLOR_REVERT] to construct [COLOR_HIGHLIGHT_TEXT]Offshore Platforms[COLOR_REVERT]. It also lets you build [COLOR_BUILDING_TEXT]Hydro Plants[COLOR_REVERT] and the [COLOR_BUILDING_TEXT]Standard Ethanol[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Three Gorges Dam[COLOR_REVERT] wonders, and obsoletes [COLOR_HIGHLIGHT_TEXT]Fur[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]塑料[COLOR_REVERT]允许[COLOR_UNIT_TEXT]工船[COLOR_REVERT]修建[COLOR_HIGHLIGHT_TEXT]海上平台[COLOR_REVERT]。并允许你建造[COLOR_BUILDING_TEXT]水电站[COLOR_REVERT]、[COLOR_BUILDING_TEXT]标准乙醇公司[COLOR_REVERT]和[COLOR_BUILDING_TEXT]三峡大坝[COLOR_REVERT]奇观，并使[COLOR_HIGHLIGHT_TEXT]毛皮[COLOR_REVERT]过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_RADIO_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Radio[COLOR_REVERT] enables the powerful [COLOR_UNIT_TEXT]Bomber[COLOR_REVERT] (with [COLOR_TECH_TEXT]Flight[COLOR_REVERT]) and [COLOR_UNIT_TEXT]Guided Missile[COLOR_REVERT] (with [COLOR_TECH_TEXT]Rocketry[COLOR_REVERT]) units, plus the [COLOR_UNIT_TEXT]Attack Submarine[COLOR_REVERT] (with [COLOR_TECH_TEXT]Combustion[COLOR_REVERT]) and [COLOR_UNIT_TEXT]Submarine[COLOR_REVERT] units. It also allows you to build the [COLOR_BUILDING_TEXT]Eiffel Tower[COLOR_REVERT], [COLOR_BUILDING_TEXT]Cristo Redentor[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Rock N Roll[COLOR_REVERT] wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]无线电[COLOR_REVERT]启用强大的[COLOR_UNIT_TEXT]轰炸机[COLOR_REVERT]（需要[COLOR_TECH_TEXT]航空[COLOR_REVERT]）、[COLOR_UNIT_TEXT]巡航导弹[COLOR_REVERT]（需要[COLOR_TECH_TEXT]火箭[COLOR_REVERT]）、[COLOR_UNIT_TEXT]攻击型潜艇[COLOR_REVERT]（需要[COLOR_TECH_TEXT]内燃机[COLOR_REVERT]）以及[COLOR_UNIT_TEXT]潜艇[COLOR_REVERT]单位。并允许你建造[COLOR_BUILDING_TEXT]埃菲尔铁塔[COLOR_REVERT]、[COLOR_BUILDING_TEXT]耶稣巨像[COLOR_REVERT]和[COLOR_BUILDING_TEXT]摇滚名人堂[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_REFRIGERATION_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Refrigeration[COLOR_REVERT] allows construction of the [COLOR_BUILDING_TEXT]Supermarket[COLOR_REVERT] building and the [COLOR_BUILDING_TEXT]Cereal Mills[COLOR_REVERT] wonder. It also increases your water units' movement speed.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]致冷[COLOR_REVERT]允许建造[COLOR_BUILDING_TEXT]超级市场[COLOR_REVERT]建筑和[COLOR_BUILDING_TEXT]谷物研磨公司[COLOR_REVERT]奇观。并提升海上单位的移动能力。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_SATELLITES_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Satellites[COLOR_REVERT] reveals the world map. It lets you build the [COLOR_PROJECT_TEXT]SS Docking Bay[COLOR_REVERT] spaceship part and enables construction of the [COLOR_PROJECT_TEXT]Space Elevator[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]人造卫星[COLOR_REVERT]使整个世界地图可见。允许你建造[COLOR_PROJECT_TEXT]飞船对接舱[COLOR_REVERT]太空船组件并允许建造[COLOR_PROJECT_TEXT]天梯[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_STEAM_POWER_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Steam Power[COLOR_REVERT] reveals the [COLOR_HIGHLIGHT_TEXT]Coal[COLOR_REVERT] resource and causes workers to build improvements 50%% faster. It also enables the [COLOR_UNIT_TEXT]Ironclad[COLOR_REVERT] (with [COLOR_TECH_TEXT]Steel[COLOR_REVERT]) and the [COLOR_BUILDING_TEXT]Levee[COLOR_REVERT] building. It obsoletes the [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]蒸汽机[COLOR_REVERT]启用[COLOR_HIGHLIGHT_TEXT]煤炭[COLOR_REVERT]资源并使工人修建设施速度+50%%。并启用[COLOR_UNIT_TEXT]铁甲舰[COLOR_REVERT]单位（需要[COLOR_TECH_TEXT]炼钢[COLOR_REVERT]）和[COLOR_BUILDING_TEXT]防洪堤[COLOR_REVERT]建筑，并使[COLOR_BUILDING_TEXT]圣索菲亚[COLOR_REVERT]奇观过时。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ROCKETRY_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Rocketry[COLOR_REVERT] allows you to build [COLOR_UNIT_TEXT]SAM Infantry[COLOR_REVERT], [COLOR_UNIT_TEXT]Guided Missiles[COLOR_REVERT] and [COLOR_UNIT_TEXT]Attack Submarines[COLOR_REVERT] (with [COLOR_TECH_TEXT]Radio[COLOR_REVERT]), and [COLOR_UNIT_TEXT]ICBMs[COLOR_REVERT] and [COLOR_UNIT_TEXT]Tactical Nukes[COLOR_REVERT] (with [COLOR_TECH_TEXT]Fission[COLOR_REVERT]). It enables the [COLOR_PROJECT_TEXT]Apollo Program[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Aluminum Co[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]火箭[COLOR_REVERT]允许你建造[COLOR_UNIT_TEXT]防空步兵[COLOR_REVERT]、[COLOR_UNIT_TEXT]巡航导弹[COLOR_REVERT]、[COLOR_UNIT_TEXT]攻击型潜艇[COLOR_REVERT]（需要[COLOR_TECH_TEXT]无线电[COLOR_REVERT]）、[COLOR_UNIT_TEXT]战略导弹[COLOR_REVERT]和[COLOR_UNIT_TEXT]战术核弹[COLOR_REVERT]（需要[COLOR_TECH_TEXT]核裂变[COLOR_REVERT]）。并启用[COLOR_PROJECT_TEXT]阿波罗计划[COLOR_REVERT]和[COLOR_BUILDING_TEXT]综合制铝公司[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_FISSION_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Fission[COLOR_REVERT] enables construction of [COLOR_BUILDING_TEXT]Nuclear Plants[COLOR_REVERT] and the [COLOR_PROJECT_TEXT]Manhattan Project[COLOR_REVERT] wonder. It allows access to the [COLOR_UNIT_TEXT]ICBM[COLOR_REVERT] and [COLOR_UNIT_TEXT]Tactical Nuke[COLOR_REVERT] units.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]核裂变[COLOR_REVERT]允许建造[COLOR_BUILDING_TEXT]核电站[COLOR_REVERT]和[COLOR_PROJECT_TEXT]曼哈顿工程[COLOR_REVERT]奇观，并启用[COLOR_UNIT_TEXT]战略导弹[COLOR_REVERT]和[COLOR_UNIT_TEXT]战术核弹[COLOR_REVERT]单位。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_POLYTHEISM_STRATEGY</Tag>
+<English>The first to research this tech founds [COLOR_HIGHLIGHT_TEXT]Hinduism[COLOR_REVERT]. It also enables you to build the [COLOR_BUILDING_TEXT]Parthenon[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Temple of Artemis[COLOR_REVERT] wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现该科技者将创立[COLOR_HIGHLIGHT_TEXT]印度教[COLOR_REVERT]。并允许你建造[COLOR_BUILDING_TEXT]帕特农神庙[COLOR_REVERT]和[COLOR_BUILDING_TEXT]阿尔忒弥斯神庙[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_HORSEBACK_RIDING_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Horseback Riding[COLOR_REVERT] enables the powerful [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT] (with [COLOR_TECH_TEXT]Archery[COLOR_REVERT]) unit, and later on [COLOR_UNIT_TEXT]Knights[COLOR_REVERT] (with [COLOR_TECH_TEXT]Guilds[COLOR_REVERT]), [COLOR_UNIT_TEXT]Cuirassiers[COLOR_REVERT] (with [COLOR_TECH_TEXT]Military Tradition[COLOR_REVERT]) and [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT] (with [COLOR_TECH_TEXT]Military Tradition[COLOR_REVERT] and [COLOR_TECH_TEXT]Rifling[COLOR_REVERT]). </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]骑术[COLOR_REVERT]启用强大的[COLOR_UNIT_TEXT]骑射手[COLOR_REVERT]（需要[COLOR_TECH_TEXT]弓箭[COLOR_REVERT]）单位，及后来的[COLOR_UNIT_TEXT]骑士[COLOR_REVERT]（需要[COLOR_TECH_TEXT]行会[COLOR_REVERT]）、 [COLOR_UNIT_TEXT]胸甲骑兵[COLOR_REVERT]（需要[COLOR_TECH_TEXT]军事制度[COLOR_REVERT]）、[COLOR_UNIT_TEXT]近代骑兵[COLOR_REVERT]（需要[COLOR_TECH_TEXT]军事制度[COLOR_REVERT]和[COLOR_TECH_TEXT]膛线[COLOR_REVERT]）。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_PAPER_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Paper[COLOR_REVERT] allows you to trade world maps with other civilizations and construct the [COLOR_BUILDING_TEXT]University of Sankore[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]造纸[COLOR_REVERT]允许你与其他文明交换地图，并启用[COLOR_BUILDING_TEXT]桑科雷大学[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_MEDITATION_STRATEGY</Tag>
+<English>The first to research this tech founds [COLOR_HIGHLIGHT_TEXT]Buddhism[COLOR_REVERT]. It also allows you to build the [COLOR_BUILDING_TEXT]Monastery[COLOR_REVERT] city improvement and the [COLOR_BUILDING_TEXT]Shwedagon Paya[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现该科技者将创立[COLOR_HIGHLIGHT_TEXT]佛教[COLOR_REVERT]。并允许你建造[COLOR_BUILDING_TEXT]修道院[COLOR_REVERT]建筑以及[COLOR_BUILDING_TEXT]瑞光大金塔[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_SISTINE_CHAPEL_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Sistine Chapel[COLOR_REVERT] causes each specialist in every city to generate culture and increases the culture bonus provided by religious buildings. The [COLOR_BUILDING_TEXT]Sistine Chapel[COLOR_REVERT] has a very high cultural value, and it increases its city's odds of generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]西斯庭教堂[COLOR_REVERT]使城市中的每位专业人员都能提供文化产出，并增加宗教建筑的文化产出。[COLOR_BUILDING_TEXT]西斯庭教堂[COLOR_REVERT]具有极高的文化值，还可提升城市产生[COLOR_UNIT_TEXT]大艺术家[COLOR_REVERT]的几率。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ROBOTICS_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Robotics[COLOR_REVERT] enables the extremely powerful [COLOR_UNIT_TEXT]Mechanized Infantry[COLOR_REVERT], [COLOR_UNIT_TEXT]Missile Cruiser[COLOR_REVERT], [COLOR_UNIT_TEXT]Stealth Destroyer[COLOR_REVERT] and [COLOR_UNIT_TEXT]Stealth Bomber[COLOR_REVERT] units. It lets you build the [COLOR_BUILDING_TEXT]Space Elevator[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]机器人[COLOR_REVERT]启用极其强大的[COLOR_UNIT_TEXT]机械化步兵[COLOR_REVERT]、[COLOR_UNIT_TEXT]导弹巡洋舰[COLOR_REVERT]、[COLOR_UNIT_TEXT]隐形驱逐舰[COLOR_REVERT]和[COLOR_UNIT_TEXT]隐形轰炸机[COLOR_REVERT]单位。并允许你建筑[COLOR_BUILDING_TEXT]天梯[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_ENGINEERING_STRATEGY</Tag>
+<English>[COLOR_TECH_TEXT]Engineering[COLOR_REVERT] allows production of the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], excellent against mounted units and the city-smashing [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT] siege unit. It increases road movement and allows construction of [COLOR_BUILDING_TEXT]Castles[COLOR_REVERT] and the [COLOR_BUILDING_TEXT]Notre Dame[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_TECH_TEXT]工程学[COLOR_REVERT]允许组建适于对抗骑乘单位的[COLOR_UNIT_TEXT]长枪兵[COLOR_REVERT]、擅长攻击城市的[COLOR_UNIT_TEXT]抛石机[COLOR_REVERT]单位。并可提升道路通行能力并允许建造[COLOR_BUILDING_TEXT]城堡[COLOR_REVERT]和[COLOR_BUILDING_TEXT]圣母院[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_MUSIC_STRATEGY</Tag>
+<English>The first to research [COLOR_TECH_TEXT]Music[COLOR_REVERT] receives a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT]. It also allows construction of [COLOR_BUILDING_TEXT]Cathedrals[COLOR_REVERT] and the [COLOR_BUILDING_TEXT]Sistine Chapel[COLOR_REVERT] wonder.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现[COLOR_TECH_TEXT]音乐[COLOR_REVERT]将获得一位[COLOR_UNIT_TEXT]大艺术家[COLOR_REVERT]。并允许建造[COLOR_BUILDING_TEXT]大教堂[COLOR_REVERT]和[COLOR_BUILDING_TEXT]西斯廷教堂[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_AIRPORT_STRATEGY</Tag>
+<English>[COLOR_BUILDING_TEXT]Airports[COLOR_REVERT] add an additional trade route, provide an experience bonus to all Air Units and increase the number of Air Units you may house in a city. A city with an [COLOR_BUILDING_TEXT]Airport[COLOR_REVERT] can also airlift one unit per turn to any of your other cities and house four extra Air Units for a total of eight. [COLOR_BUILDING_TEXT]Airports[COLOR_REVERT] also add unhealthiness in cities.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]机场[COLOR_REVERT]可使城市商路增加，使城市新建空军单位获得经验奖励，并提升城市可容纳空军单位数量。拥有[COLOR_BUILDING_TEXT]机场[COLOR_REVERT]的城市每回合可空运一个单位到其他城市，空军单位容纳数量+4（总计为8）。[COLOR_BUILDING_TEXT]机场[COLOR_REVERT]也会影响城市健康度。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_EXPOSE_SPIES</Tag>
+<English>[ICON_BULLET]Helps Thwart Rival Spies</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]有助于清除敌方间谍</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PLAYER_OPTION_QUICK_MOVES_HELP</Tag>
+<English>All of the player's moves are accelerated</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>加速玩家的所有移动</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_UNIT_COLLATERAL_DAMAGE</Tag>
+<English>[ICON_BULLET]Causes Collateral Damage (max. %d1%%)</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]造成附带伤害(最多%d1%%)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_REPLACED_BY_BUILDING</Tag>
+<English>Replaced by [LINK=literal]%s1_default_building[\LINK]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>被[LINK=literal]%s1_default_building[\LINK]所替代</Chinese>
+</TEXT>
+</Civ4GameText>

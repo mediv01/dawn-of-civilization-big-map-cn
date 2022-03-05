@@ -1,88 +1,88 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARM</Tag>
 		<English>Double Production Speed of State [ICON_RELIGION] Buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞ[ICON_RELIGION]½¨Öş½¨ÔìËÙ¶È¼Ó±¶</Chinese>
+		<Chinese>æ‰€æœ‰[ICON_RELIGION]å»ºç­‘å»ºé€ é€Ÿåº¦åŠ å€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY</Tag>
 		<English>Vishap Infantry</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¡°Áú¡±²½±ø</Chinese>
+		<Chinese>â€œé¾™â€æ­¥å…µ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARM_TITLE</Tag>
 		<English>The Power of Piety:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ò¯³ÏÖ®Á¦£º</Chinese>
+		<Chinese>è™”è¯šä¹‹åŠ›ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR</Tag>
 		<English>Khachkar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÆ¿ÌÊ¯±®</Chinese>
+		<Chinese>çº¹åˆ»çŸ³ç¢‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ASHOT</Tag>
 		<English>Ashot I</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÃÀÄáÑÇ-°¢ĞŞÌØÒ»ÊÀ</Chinese>
+		<Chinese>äºšç¾å°¼äºš-é˜¿ä¿®ç‰¹ä¸€ä¸–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_PEOPLES</Tag>
 		<English>Armenia Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÃÀÄáÑÇÈË</Chinese>
+		<Chinese>äºšç¾å°¼äºšäºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_SHORT_DESC</Tag>
 		<English>Armenia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÃÀÄáÑÇ</Chinese>
+		<Chinese>äºšç¾å°¼äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR_PEDIA</Tag>
 		<English>[TAB]A khachkar is a cross-bearing carved memorial stele covered with rosettes and botanical motifs, characteristic of Armenian art and found in Armenia. The most common reason for erecting a khachkar was for votive reasons - for the salvation of the soul of either a living or a deceased person. They were also erected for other reasons, such as to commemorate a military victory, construction of a church, or as a form of protection from natural disasters. [PARAGRAPH:1]The first true khachkars appeared in the 9th century, during the time of Armenian revival after liberation from Arab rule. The oldest khachkar with a known date was carved in 879. Erected in Garni, it is dedicated to queen Katranide, the wife of king Ashot I Bagratuni. The peak of the khachkar carving art was between the 12th and the 14th centuries. The art declined during the Mongol  invasion at the end of the 14th century.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]KhachkarÊÇÒ»ÖÖµñ¿Ì×ÅÊ®×Ö¼Ü¡¢ÒÔÃµ¹åºÍÖ²ÎïÎÆÀíÎª×°ÊÎµÄ¼ÍÄî±®£¬ËüÊÇÑÇÃÀÄáÑÇÒÕÊõµÄ´ú±í¡£½¨Á¢ÎÆ¿ÌÊ¯±®µÄ×î³£¼ûÀíÓÉÊÇÎªÁËÆí¸£--ÎªÁËÕü¾ÈÒ»ÃûÔÚÊÀ»òÕß²»ÔÚÊÀµÄÈËµÄÁé»ê¡£ËüÃÇÓĞÊ±Ò²ÒòÎªÆäËûÀíÓÉ±»½¨Á¢£¬ÀıÈç¼ÍÄîÒ»³¡¾üÊÂÊ¤Àû£¬¼ÍÄîÒ»Ëù½ÌÌÃÂä³É£¬»òÕßÎªÁËÇı³ıÎÁÒß¡£[PARAGRAPH:1]µÚÒ»¸öÕæÕıÒâÒåÉÏµÄÎÆ¿ÌÊ¯±®µ®ÉúÓÚ9ÊÀ¼Í£¬µ±Ê±ÑÇÃÀÄáÑÇÈË¸Õ¸Õ´Ó°¢À­²®ÈËÊÖÀï¸´¹ú¡£ÒÑÖªÄê´ú×îÔçµÄÎÆ¿ÌÊ¯±®±»Íê³ÉÓÚ879Äê£¬Î»ÓÚGarni£¬Ä¿µÄÊÇÏ×¸ø°¢ĞŞÌØÒ»ÊÀµÄÍõåú¡£ÎÆ¿ÌÊ¯±®ÒÕÊõµÄ´´×÷¸ß·åÔÚ12ÊÀ¼Íµ½14ÊÀ¼ÍÖ®¼ä£¬ÃÉ¹ÅÈËµÄÈëÇÖÊ¹ÕâÖÖÒÕÊõÖğ½¥Ë¥Âä£¬14ÊÀ¼ÍÄ©Ê±ÒÑÏúÉùÄä¼£¡£</Chinese>
+		<Chinese>[TAB]Khachkaræ˜¯ä¸€ç§é›•åˆ»ç€åå­—æ¶ã€ä»¥ç«ç‘°å’Œæ¤ç‰©çº¹ç†ä¸ºè£…é¥°çš„çºªå¿µç¢‘ï¼Œå®ƒæ˜¯äºšç¾å°¼äºšè‰ºæœ¯çš„ä»£è¡¨ã€‚å»ºç«‹çº¹åˆ»çŸ³ç¢‘çš„æœ€å¸¸è§ç†ç”±æ˜¯ä¸ºäº†ç¥ˆç¦--ä¸ºäº†æ‹¯æ•‘ä¸€ååœ¨ä¸–æˆ–è€…ä¸åœ¨ä¸–çš„äººçš„çµé­‚ã€‚å®ƒä»¬æœ‰æ—¶ä¹Ÿå› ä¸ºå…¶ä»–ç†ç”±è¢«å»ºç«‹ï¼Œä¾‹å¦‚çºªå¿µä¸€åœºå†›äº‹èƒœåˆ©ï¼Œçºªå¿µä¸€æ‰€æ•™å ‚è½æˆï¼Œæˆ–è€…ä¸ºäº†é©±é™¤ç˜Ÿç–«ã€‚[PARAGRAPH:1]ç¬¬ä¸€ä¸ªçœŸæ­£æ„ä¹‰ä¸Šçš„çº¹åˆ»çŸ³ç¢‘è¯ç”Ÿäº9ä¸–çºªï¼Œå½“æ—¶äºšç¾å°¼äºšäººåˆšåˆšä»é˜¿æ‹‰ä¼¯äººæ‰‹é‡Œå¤å›½ã€‚å·²çŸ¥å¹´ä»£æœ€æ—©çš„çº¹åˆ»çŸ³ç¢‘è¢«å®Œæˆäº879å¹´ï¼Œä½äºGarniï¼Œç›®çš„æ˜¯çŒ®ç»™é˜¿ä¿®ç‰¹ä¸€ä¸–çš„ç‹å¦ƒã€‚çº¹åˆ»çŸ³ç¢‘è‰ºæœ¯çš„åˆ›ä½œé«˜å³°åœ¨12ä¸–çºªåˆ°14ä¸–çºªä¹‹é—´ï¼Œè’™å¤äººçš„å…¥ä¾µä½¿è¿™ç§è‰ºæœ¯é€æ¸è¡°è½ï¼Œ14ä¸–çºªæœ«æ—¶å·²é”€å£°åŒ¿è¿¹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ASHOT_PEDIA</Tag>
 		<English>[H1]Ashot I Bagratuni[\H1][NEWLINE][BOLD]King of Armenia[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] 862 - 890[PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Ashot I Bagratuni was an Armenian prince who, with Ashot II, oversaw Armenia's second golden age (862-977). He was born to Smbat the Confessor. His family, the Bagratunis, was one of the most powerful in the kingdom along with the Artsruni. Both families were struggling for power through warfare against Arab invaders. He was recognized by the Abbasid Caliph as Prince of Princes of Armenia in 862. His later crowning as King of Armenia was consented to by Abbasid Caliph al-Mu'tamid in 885, a move to prevent intrusion into the Armenian territory by Basil I Byzantine emperor, an Armenian. [PARAGRAPH:1]Thus, Ashot restored the Armenian monarchy and became Armenia's first king since 428. He secured the favor of both the Byzantines and Arabs but ultimately showed loyalty to Basil and chose to conclude an alliance with the Byzantines in 885. Ashot was not the sole Armenian prince of the region (other principalities existed in Syunik, Vaspurakan, and Taron) yet he commanded the full support of the other princes who recognized his authority in his becoming of king. With his status of king, his authority also carried over to the neighboring states of Georgia, Caucasian Albania and several of the Arab emirates. Ashot's reign was brief and upon his death in 890, he was succeeded by his son Smbat I.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]°¢ĞŞÌØÒ»ÊÀ[\H1][NEWLINE][BOLD]ÑÇÃÀÄáÑÇ¹úÍõ[\BOLD][NEWLINE][BOLD]Í³ÖÎÊ±¼ä£º[\BOLD]862-890[PARAGRAPH:2][BOLD]±³¾°£º[\BOLD][NEWLINE][TAB]°¢ĞŞÌØÒ»ÊÀÊÇÒ»Î»ÑÇÃÀÄáÑÇÍõ×Ó£¬ËûºÍ°¢ĞŞÌØ¶şÊÀÒ»Æğ¿ª´´ÁËÑÇÃÀÄáÑÇµÄµÚ¶ş¸ö»Æ½ğÊ±´ú£¨862-977£©¡£Ëû³öÉúÓÚSmbat the Confessor¡£ËûµÄ¼Ò×å£¬°Í¸ñÀ­Í¼ÄáË¹£¬ºÍ°¢¶û´ÄÂ³Äá¼Ò×åÒ»Ñù£¬ÊÇÍõ¹úÖĞ×îÇ¿´óµÄ¼Ò×åÖ®Ò»¡£Á½¸ö¼Ò×å¶¼ÔÚÍ¨¹ıÓë°¢À­²®ÇÖÂÔÕßµÄÕ½ÕùÕù¶áÈ¨Á¦¡£¹«Ôª862Äê£¬°¢°ÍË¹¹şÀï·¢³ĞÈÏËûÎªÑÇÃÀÄáÑÇÍõ×Ó¡£885Äê£¬°¢°ÍË¹¹şÀï·¢ÄÂËşÃ×µÂ£¨al-Mu'tamid£©Í¬Òâ¼ÓÃáÎªÑÇÃÀÄáÑÇ¹úÍõ£¬´Ë¾ÙÖ¼ÔÚ·ÀÖ¹ÑÇÃÀÄáÑÇÈË°Í×È¶ûÒ»ÊÀ£¨Basil I Byzantine£©»ÊµÛÈëÇÖÑÇÃÀÄáÑÇÁìÍÁ¡£[PARAGRAPH:1]Òò´Ë£¬°¢Ğ¤ÌØ»Ö¸´ÁËÑÇÃÀÄáÑÇµÄ¾ıÖ÷ÖÆ£¬³ÉÎªÑÇÃÀÄáÑÇ×Ô428ÄêÒÔÀ´µÄµÚÒ»Î»¹úÍõ¡£Ëû»ñµÃÁË°İÕ¼Í¥ÈËºÍ°¢À­²®ÈËµÄÇàíù£¬µ«×îÖÕ±íÏÖ³ö¶Ô°Í×È¶ûµÄÖÒ³Ï£¬²¢Ñ¡ÔñÔÚ885ÄêÓë°İÕ¼Í¥ÈË½á³ÉÁªÃË¡£°¢Ğ¤ÌØ²¢²»ÊÇ¸ÃµØÇøÎ¨Ò»µÄÑÇÃÀÄáÑÇÍõ×Ó£¨ÎıÄá¿Ë¡¢ÍßË¹ÅÁÀ­¿²ºÍËşÂ¡Ò²ÓĞÆäËû¾ıÖ÷¹ú£©£¬µ«ËûµÃµ½ÁËÆäËûÍõ×ÓµÄÈ«Á¦Ö§³Ö£¬ÕâĞ©Íõ×Ó³ĞÈÏÁËËû³ÉÎª¹úÍõµÄÈ¨Íş¡£Ëæ×ÅËûµÄ¹úÍõµØÎ»£¬ËûµÄÈ¨Á¦Ò²´«µ½ÁËÁÚ¹ú¸ñÂ³¼ªÑÇ¡¢¸ß¼ÓË÷°¢¶û°ÍÄáÑÇºÍ¼¸¸ö°¢À­²®Çõ³¤¹ú¡£°¢ĞŞÌØµÄÍ³ÖÎÊ±¼äºÜ¶Ì£¬890ÄêÈ¥ÊÀºó£¬ËûµÄ¶ù×ÓË¹°ÍÌØÒ»ÊÀ½ÓÌæÁËËû¡£</Chinese>
+		<Chinese>[H1]é˜¿ä¿®ç‰¹ä¸€ä¸–[\H1][NEWLINE][BOLD]äºšç¾å°¼äºšå›½ç‹[\BOLD][NEWLINE][BOLD]ç»Ÿæ²»æ—¶é—´ï¼š[\BOLD]862-890[PARAGRAPH:2][BOLD]èƒŒæ™¯ï¼š[\BOLD][NEWLINE][TAB]é˜¿ä¿®ç‰¹ä¸€ä¸–æ˜¯ä¸€ä½äºšç¾å°¼äºšç‹å­ï¼Œä»–å’Œé˜¿ä¿®ç‰¹äºŒä¸–ä¸€èµ·å¼€åˆ›äº†äºšç¾å°¼äºšçš„ç¬¬äºŒä¸ªé»„é‡‘æ—¶ä»£ï¼ˆ862-977ï¼‰ã€‚ä»–å‡ºç”ŸäºSmbat the Confessorã€‚ä»–çš„å®¶æ—ï¼Œå·´æ ¼æ‹‰å›¾å°¼æ–¯ï¼Œå’Œé˜¿å°”èŒ¨é²å°¼å®¶æ—ä¸€æ ·ï¼Œæ˜¯ç‹å›½ä¸­æœ€å¼ºå¤§çš„å®¶æ—ä¹‹ä¸€ã€‚ä¸¤ä¸ªå®¶æ—éƒ½åœ¨é€šè¿‡ä¸é˜¿æ‹‰ä¼¯ä¾µç•¥è€…çš„æˆ˜äº‰äº‰å¤ºæƒåŠ›ã€‚å…¬å…ƒ862å¹´ï¼Œé˜¿å·´æ–¯å“ˆé‡Œå‘æ‰¿è®¤ä»–ä¸ºäºšç¾å°¼äºšç‹å­ã€‚885å¹´ï¼Œé˜¿å·´æ–¯å“ˆé‡Œå‘ç©†å¡”ç±³å¾·ï¼ˆal-Mu'tamidï¼‰åŒæ„åŠ å†•ä¸ºäºšç¾å°¼äºšå›½ç‹ï¼Œæ­¤ä¸¾æ—¨åœ¨é˜²æ­¢äºšç¾å°¼äºšäººå·´å…¹å°”ä¸€ä¸–ï¼ˆBasil I Byzantineï¼‰çš‡å¸å…¥ä¾µäºšç¾å°¼äºšé¢†åœŸã€‚[PARAGRAPH:1]å› æ­¤ï¼Œé˜¿è‚–ç‰¹æ¢å¤äº†äºšç¾å°¼äºšçš„å›ä¸»åˆ¶ï¼Œæˆä¸ºäºšç¾å°¼äºšè‡ª428å¹´ä»¥æ¥çš„ç¬¬ä¸€ä½å›½ç‹ã€‚ä»–è·å¾—äº†æ‹œå åº­äººå’Œé˜¿æ‹‰ä¼¯äººçš„é’çï¼Œä½†æœ€ç»ˆè¡¨ç°å‡ºå¯¹å·´å…¹å°”çš„å¿ è¯šï¼Œå¹¶é€‰æ‹©åœ¨885å¹´ä¸æ‹œå åº­äººç»“æˆè”ç›Ÿã€‚é˜¿è‚–ç‰¹å¹¶ä¸æ˜¯è¯¥åœ°åŒºå”¯ä¸€çš„äºšç¾å°¼äºšç‹å­ï¼ˆé”¡å°¼å…‹ã€ç“¦æ–¯å¸•æ‹‰åå’Œå¡”éš†ä¹Ÿæœ‰å…¶ä»–å›ä¸»å›½ï¼‰ï¼Œä½†ä»–å¾—åˆ°äº†å…¶ä»–ç‹å­çš„å…¨åŠ›æ”¯æŒï¼Œè¿™äº›ç‹å­æ‰¿è®¤äº†ä»–æˆä¸ºå›½ç‹çš„æƒå¨ã€‚éšç€ä»–çš„å›½ç‹åœ°ä½ï¼Œä»–çš„æƒåŠ›ä¹Ÿä¼ åˆ°äº†é‚»å›½æ ¼é²å‰äºšã€é«˜åŠ ç´¢é˜¿å°”å·´å°¼äºšå’Œå‡ ä¸ªé˜¿æ‹‰ä¼¯é…‹é•¿å›½ã€‚é˜¿ä¿®ç‰¹çš„ç»Ÿæ²»æ—¶é—´å¾ˆçŸ­ï¼Œ890å¹´å»ä¸–åï¼Œä»–çš„å„¿å­æ–¯å·´ç‰¹ä¸€ä¸–æ¥æ›¿äº†ä»–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY_PEDIA</Tag>
 		<English>[TAB]Vishaps ("Dragons") are medium infantry of the Armenian Highlands.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]Vishaps ("Áú")ÊÇÑÇÃÀÄáÑÇ¸ßµØµÄ³£¹æ²½±ø¡£</Chinese>
+		<Chinese>[TAB]Vishaps ("é¾™")æ˜¯äºšç¾å°¼äºšé«˜åœ°çš„å¸¸è§„æ­¥å…µã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_DESC</Tag>
 		<English>The Arrmenians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÃÀÄáÑÇÎÄÃ÷</Chinese>
+		<Chinese>äºšç¾å°¼äºšæ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_PEDIA</Tag>
 		<English>[TAB]Armenia has been populated since prehistoric times, and has been proposed as the site of the Biblical Garden of Eden. Armenia lies in the highlands surrounding the Biblical mountains of Ararat, upon which, as tradition states, Noah's Ark came to rest after the flood. [PARAGRAPH:1]Around 600 BC, the Kingdom of Armenia was established under the Orontid Dynasty, which existed under several local dynasties till AD 428. The kingdom reached its height between 95 - 66 BC under Tigranes the Great, becoming one of the most powerful kingdoms of its time. Throughout its history, the kingdom of Armenia enjoyed periods of independence intermitted with periods of autonomy subject to contemporary empires. Armenia's strategic location between two continents has subjected it to invasions by many peoples, including the Assyrians, Greeks, Romans, Byzantines, Arabs, Mongols, Persians, Ottoman Turks and Russians.[PARAGRAPH:1]In 301, Armenia became the first country in the world to adopt Christianity as its official state religion, while a number of Christian communities have been established in Armenia since 40 AD There had been various pagan communities before Christianity, but they were converted by an influx of Christian missionaries.[PARAGRAPH:1]After the fall of the Armenian kingdom in 428, most of Armenia was incorporated as a marzpanate within the Sassanid Empire. After the marzpanate period, Armenia emerged as an autonomous principality within the Arabic Empire, reuniting Armenian lands previously taken by the Byzantine Empire as well. The principality was ruled by the Prince of Armenia, recognized by the Caliph and the Byzantine Emperor. The Principality of Armenia lasted till 884, when it regained its independence from the weakened Arabic Empire.[PARAGRAPH:1]The reemerged Armenian kingdom was ruled by the Bagratuni dynasty, and lasted till 1045. In time, several areas of the Bagratid Armenia separated as independent kingdoms and principalities such as the Kingdom of Vaspurakan ruled by the House of Artsruni, while still recognizing the supremacy of the Bagratid kings.[PARAGRAPH:1]In 1045, the Byzantine Empire conquered Bagratid Armenia. Soon, the other Armenian states fell under Byzantine control as well. The Byzantine rule was short lived, as in 1071 Seljuk Turks defeated the Byzantines and conquered Armenia at the Battle of Manzikert, establishing the Seljuk Empire. To escape death or servitude at the hands of those who had assassinated his relative, Gagik II, King of Ani, an Armenian named Roupen with some of his countrymen went into the gorges of the Taurus Mountains and then into Tarsus of Cilicia. Here the Byzantine governor of the place gave them shelter where the Armenian Kingdom of Cilicia was eventually established.[PARAGRAPH:1]In 1230s Mongol Ilkhanate conquered the Zakaryan Principality, as well as the rest of Armenia. The Mongolian invasions were soon followed by those of other Central Asian tribes, which continued from 1200s till 1400s. After incessant invasions, each bringing destruction to the country, Armenia in time became weakened. In 1500s, the Ottoman Empire and Safavid Persia divided Armenia among themselves.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ÑÇÃÀÄáÑÇ×ÔÊ·Ç°Ê±´ú¾ÍÓĞÈË¾Ó×¡£¬²¢±»ÌáÒé×÷ÎªÊ¥¾­ÖĞÒÁµéÔ°µÄËùÔÚµØ¡£ÑÇÃÀÄáÑÇÎ»ÓÚÊ¥¾­ÖĞµÄ°¢À­À­ÌØÉ½ÂöÖÜÎ§µÄ¸ßµØÉÏ£¬°´ÕÕ´«Í³Ëµ·¨£¬ÅµÑÇ·½ÖÛÔÚºéË®¹ıºó°²Ï¢¡£[PARAGRAPH:1]´óÔ¼ÔÚ¹«ÔªÇ°600Äê£¬ÑÇÃÀÄáÑÇÍõ¹ú½¨Á¢ÔÚ°ÂÀÊµÙµÂÍõ³¯Ö®ÏÂ£¬ÔÚ¼¸¸öµØ·½Íõ³¯Í³ÖÎÏÂÒ»Ö±´æÔÚµ½¹«Ôª428Äê¡£Õâ¸öÍõ¹úÔÚ¹«ÔªÇ°95-66Äê¼äÔÚÌá¸ñÀ­Äá´óµÛµÄÍ³ÖÎÏÂ´ïµ½¶¥·å£¬³ÉÎªµ±Ê±×îÇ¿´óµÄÍõ¹úÖ®Ò»¡£ÔÚÆäÀúÊ·ÉÏ£¬ÑÇÃÀÄáÑÇÍõ¹úÏíÓĞ¶ÀÁ¢Ê±ÆÚ£¬Æä¼äÓĞ·ş´ÓÓÚµ±´úµÛ¹úµÄ×ÔÖÎÊ±ÆÚ¡£ÑÇÃÀÄáÑÇÎ»ÓÚÁ½´óÖŞÖ®¼ä£¬µØÀíÎ»ÖÃÓÅÔ½£¬ÊÜµ½Ğí¶àÈËµÄÇÖÂÔ£¬°üÀ¨ÑÇÊöÈË¡¢Ï£À°ÈË¡¢ÂŞÂíÈË¡¢°İÕ¼Í¥ÈË¡¢°¢À­²®ÈË¡¢ÃÉ¹ÅÈË¡¢²¨Ë¹ÈË¡¢°ÂË¹ÂüÍÁ¶úÆäÈËºÍ¶íÂŞË¹ÈË[PARAGRAPH:1]¹«Ôª301Äê£¬ÑÇÃÀÄáÑÇ³ÉÎªÊÀ½çÉÏµÚÒ»¸ö½«»ù¶½½Ì×÷Îª¹Ù·½¹ú½ÌµÄ¹ú¼Ò£¬ËäÈ»×Ô¹«Ôª40ÄêÒÔÀ´£¬ÑÇÃÀÄáÑÇÒÑ¾­½¨Á¢ÁËĞí¶à»ù¶½½ÌÉçÇø£¬µ«ÔÚ»ù¶½½ÌÖ®Ç°¾ÍÓĞ¸÷ÖÖÒì½ÌÍ½ÉçÇø£¬µ«ËûÃÇ±»»ù¶½½Ì´«½ÌÊ¿µÄÓ¿ÈëËù¸Ä±ä[PARAGRAPH:1]¹«Ôª428ÄêÑÇÃÀÄáÑÇÍõ¹ú¿åÌ¨ºó£¬ÑÇÃÀÄáÑÇ´ó²¿·ÖµØÇø±»²¢ÈëÈøÉºµÛ¹ú¡£ÔÚÂí¶û´ÄÅÁÄÉÌØÊ±ÆÚÖ®ºó£¬ÑÇÃÀÄáÑÇ³ÉÎª°¢À­²®µÛ¹úÄÚµÄÒ»¸ö×ÔÖÎ¹«¹ú£¬Í³Ò»ÁËÒÔÇ°±»°İÕ¼Í¥µÛ¹úÕ¼ÁìµÄÑÇÃÀÄáÑÇÍÁµØ¡£Õâ¸ö¹«¹úÓÉÑÇÃÀÄáÑÇÍõ×ÓÍ³ÖÎ£¬µÃµ½¹şÀï·¢ºÍ°İÕ¼Í¥»ÊµÛµÄ³ĞÈÏ¡£ÑÇÃÀÄáÑÇ¹«¹ú³ÖĞøµ½884Äê£¬´ÓË¥ÈõµÄ°¢À­²®µÛ¹úÖĞ»Ö¸´¶ÀÁ¢[PARAGRAPH:1]ÖØĞÂºÏ²¢µÄÑÇÃÀÄáÑÇÍõ¹úÓÉ°Í¸ñÀ­Í¼ÄáÍõ³¯Í³ÖÎ£¬³ÖĞøµ½1045Äê¡£Ëæ×ÅÊ±¼äµÄÍÆÒÆ£¬°Í¸ñÀ­µÂÑÇÃÀÄáÑÇµÄ¼¸¸öµØÇø×÷Îª¶ÀÁ¢µÄÍõ¹úºÍ¹«¹ú·ÖÀë¿ªÀ´£¬±ÈÈçÓÉ°¢¶û´ÄÂ³Äá¼Ò×åÍ³ÖÎµÄÍßË¹ÅÁÀ­¿²Íõ¹ú£¬Í¬Ê±ÈÔÈ»³ĞÈÏ°Í¸ñÀ­µÂ¹úÍõµÄÖÁ¸ßÎŞÉÏµØÎ»[PARAGRAPH:1]1045Äê£¬°İÕ¼Í¥µÛ¹úÕ÷·şÁË°Í¸ñÀ­µÏÑÇÃÀÄáÑÇ¡£ºÜ¿ì£¬ÆäËûÑÇÃÀÄáÑÇÖİÒ²ÂäÈë°İÕ¼Í¥µÄ¿ØÖÆÖ®ÏÂ¡£°İÕ¼Í¥µÄÍ³ÖÎÊÇ¶ÌÔİµÄ£¬ÒòÎª1071ÄêÈû¶ûÖùÍÁ¶úÆäÈË´ò°ÜÁË°İÕ¼Í¥ÈË£¬ÔÚÂüÆë¿ËÌØÕ½ÒÛÖĞÕ÷·şÁËÑÇÃÀÄáÑÇ£¬½¨Á¢ÁËÈû¶ûÖùµÛ¹ú¡£ÎªÁËÌÓ±ÜÄÇĞ©°µÉ±ËûÇ×ÆİµÄÈËµÄËÀÍö»òÅ«ÒÛ£¬°¢Äá¹úÍõ¼Ó¼ª¿Ë¶şÊÀ£¬Ò»¸öÃû½ĞÂ³±¾µÄÑÇÃÀÄáÑÇÈËºÍËûµÄÒ»Ğ©Í¬°û½øÈëÁË½ğÅ£×ùÉ½ÂöµÄÏ¿¹È£¬È»ºó½øÈëÁËÎ÷ÀïÎ÷ÑÇµÄËşËÕË¹¡£ÔÚÕâÀï£¬°İÕ¼Í¥Í³ÖÎÕßÎªËûÃÇÌá¹©±Ó»¤£¬ÑÇÃÀÄáÑÇµÄÎ÷ÀïÎ÷ÑÇÍõ¹ú×îÖÕÔÚÕâÀï½¨Á¢[PARAGRAPH:1]1230Äê£¬ÃÉ¹ÅÒÁ¶ûº¹¹úÕ÷·şÁËÔú¿¨Á¼¹«¹ú£¬ÒÔ¼°ÑÇÃÀÄáÑÇµÄÆäËûµØÇø¡£ÃÉ¹ÅµÄÈëÇÖºÜ¿ì¾Í±»ÖĞÑÇÆäËû²¿ÂäµÄÇÖÂÔËùÈ¡´ú£¬´Ó1200Äê´úÒ»Ö±³ÖĞøµ½14ÊÀ¼Í£¬ÔÚ²»¶ÏµÄÈëÇÖ£¬Ã¿´Î¶¼¸ø¹ú¼Ò´øÀ´ÆÆ»µÖ®ºó£¬ÑÇÃÀÄáÑÇ×îÖÕ±äµÃĞéÈõÆğÀ´¡£ÔÚ15ÊÀ¼Í£¬°ÂË¹ÂüµÛ¹úºÍÈø·ÇÍõ³¯²¨Ë¹½«ÑÇÃÀÄáÑÇ¹Ï·Ö¡£</Chinese>
+		<Chinese>[TAB]äºšç¾å°¼äºšè‡ªå²å‰æ—¶ä»£å°±æœ‰äººå±…ä½ï¼Œå¹¶è¢«æè®®ä½œä¸ºåœ£ç»ä¸­ä¼Šç”¸å›­çš„æ‰€åœ¨åœ°ã€‚äºšç¾å°¼äºšä½äºåœ£ç»ä¸­çš„é˜¿æ‹‰æ‹‰ç‰¹å±±è„‰å‘¨å›´çš„é«˜åœ°ä¸Šï¼ŒæŒ‰ç…§ä¼ ç»Ÿè¯´æ³•ï¼Œè¯ºäºšæ–¹èˆŸåœ¨æ´ªæ°´è¿‡åå®‰æ¯ã€‚[PARAGRAPH:1]å¤§çº¦åœ¨å…¬å…ƒå‰600å¹´ï¼Œäºšç¾å°¼äºšç‹å›½å»ºç«‹åœ¨å¥¥æœ—è’‚å¾·ç‹æœä¹‹ä¸‹ï¼Œåœ¨å‡ ä¸ªåœ°æ–¹ç‹æœç»Ÿæ²»ä¸‹ä¸€ç›´å­˜åœ¨åˆ°å…¬å…ƒ428å¹´ã€‚è¿™ä¸ªç‹å›½åœ¨å…¬å…ƒå‰95-66å¹´é—´åœ¨ææ ¼æ‹‰å°¼å¤§å¸çš„ç»Ÿæ²»ä¸‹è¾¾åˆ°é¡¶å³°ï¼Œæˆä¸ºå½“æ—¶æœ€å¼ºå¤§çš„ç‹å›½ä¹‹ä¸€ã€‚åœ¨å…¶å†å²ä¸Šï¼Œäºšç¾å°¼äºšç‹å›½äº«æœ‰ç‹¬ç«‹æ—¶æœŸï¼Œå…¶é—´æœ‰æœä»äºå½“ä»£å¸å›½çš„è‡ªæ²»æ—¶æœŸã€‚äºšç¾å°¼äºšä½äºä¸¤å¤§æ´²ä¹‹é—´ï¼Œåœ°ç†ä½ç½®ä¼˜è¶Šï¼Œå—åˆ°è®¸å¤šäººçš„ä¾µç•¥ï¼ŒåŒ…æ‹¬äºšè¿°äººã€å¸Œè…Šäººã€ç½—é©¬äººã€æ‹œå åº­äººã€é˜¿æ‹‰ä¼¯äººã€è’™å¤äººã€æ³¢æ–¯äººã€å¥¥æ–¯æ›¼åœŸè€³å…¶äººå’Œä¿„ç½—æ–¯äºº[PARAGRAPH:1]å…¬å…ƒ301å¹´ï¼Œäºšç¾å°¼äºšæˆä¸ºä¸–ç•Œä¸Šç¬¬ä¸€ä¸ªå°†åŸºç£æ•™ä½œä¸ºå®˜æ–¹å›½æ•™çš„å›½å®¶ï¼Œè™½ç„¶è‡ªå…¬å…ƒ40å¹´ä»¥æ¥ï¼Œäºšç¾å°¼äºšå·²ç»å»ºç«‹äº†è®¸å¤šåŸºç£æ•™ç¤¾åŒºï¼Œä½†åœ¨åŸºç£æ•™ä¹‹å‰å°±æœ‰å„ç§å¼‚æ•™å¾’ç¤¾åŒºï¼Œä½†ä»–ä»¬è¢«åŸºç£æ•™ä¼ æ•™å£«çš„æ¶Œå…¥æ‰€æ”¹å˜[PARAGRAPH:1]å…¬å…ƒ428å¹´äºšç¾å°¼äºšç‹å›½å®å°åï¼Œäºšç¾å°¼äºšå¤§éƒ¨åˆ†åœ°åŒºè¢«å¹¶å…¥è¨çŠå¸å›½ã€‚åœ¨é©¬å°”èŒ¨å¸•çº³ç‰¹æ—¶æœŸä¹‹åï¼Œäºšç¾å°¼äºšæˆä¸ºé˜¿æ‹‰ä¼¯å¸å›½å†…çš„ä¸€ä¸ªè‡ªæ²»å…¬å›½ï¼Œç»Ÿä¸€äº†ä»¥å‰è¢«æ‹œå åº­å¸å›½å é¢†çš„äºšç¾å°¼äºšåœŸåœ°ã€‚è¿™ä¸ªå…¬å›½ç”±äºšç¾å°¼äºšç‹å­ç»Ÿæ²»ï¼Œå¾—åˆ°å“ˆé‡Œå‘å’Œæ‹œå åº­çš‡å¸çš„æ‰¿è®¤ã€‚äºšç¾å°¼äºšå…¬å›½æŒç»­åˆ°884å¹´ï¼Œä»è¡°å¼±çš„é˜¿æ‹‰ä¼¯å¸å›½ä¸­æ¢å¤ç‹¬ç«‹[PARAGRAPH:1]é‡æ–°åˆå¹¶çš„äºšç¾å°¼äºšç‹å›½ç”±å·´æ ¼æ‹‰å›¾å°¼ç‹æœç»Ÿæ²»ï¼ŒæŒç»­åˆ°1045å¹´ã€‚éšç€æ—¶é—´çš„æ¨ç§»ï¼Œå·´æ ¼æ‹‰å¾·äºšç¾å°¼äºšçš„å‡ ä¸ªåœ°åŒºä½œä¸ºç‹¬ç«‹çš„ç‹å›½å’Œå…¬å›½åˆ†ç¦»å¼€æ¥ï¼Œæ¯”å¦‚ç”±é˜¿å°”èŒ¨é²å°¼å®¶æ—ç»Ÿæ²»çš„ç“¦æ–¯å¸•æ‹‰åç‹å›½ï¼ŒåŒæ—¶ä»ç„¶æ‰¿è®¤å·´æ ¼æ‹‰å¾·å›½ç‹çš„è‡³é«˜æ— ä¸Šåœ°ä½[PARAGRAPH:1]1045å¹´ï¼Œæ‹œå åº­å¸å›½å¾æœäº†å·´æ ¼æ‹‰è¿ªäºšç¾å°¼äºšã€‚å¾ˆå¿«ï¼Œå…¶ä»–äºšç¾å°¼äºšå·ä¹Ÿè½å…¥æ‹œå åº­çš„æ§åˆ¶ä¹‹ä¸‹ã€‚æ‹œå åº­çš„ç»Ÿæ²»æ˜¯çŸ­æš‚çš„ï¼Œå› ä¸º1071å¹´å¡å°”æŸ±åœŸè€³å…¶äººæ‰“è´¥äº†æ‹œå åº­äººï¼Œåœ¨æ›¼é½å…‹ç‰¹æˆ˜å½¹ä¸­å¾æœäº†äºšç¾å°¼äºšï¼Œå»ºç«‹äº†å¡å°”æŸ±å¸å›½ã€‚ä¸ºäº†é€ƒé¿é‚£äº›æš—æ€ä»–äº²æˆšçš„äººçš„æ­»äº¡æˆ–å¥´å½¹ï¼Œé˜¿å°¼å›½ç‹åŠ å‰å…‹äºŒä¸–ï¼Œä¸€ä¸ªåå«é²æœ¬çš„äºšç¾å°¼äºšäººå’Œä»–çš„ä¸€äº›åŒèƒè¿›å…¥äº†é‡‘ç‰›åº§å±±è„‰çš„å³¡è°·ï¼Œç„¶åè¿›å…¥äº†è¥¿é‡Œè¥¿äºšçš„å¡”è‹æ–¯ã€‚åœ¨è¿™é‡Œï¼Œæ‹œå åº­ç»Ÿæ²»è€…ä¸ºä»–ä»¬æä¾›åº‡æŠ¤ï¼Œäºšç¾å°¼äºšçš„è¥¿é‡Œè¥¿äºšç‹å›½æœ€ç»ˆåœ¨è¿™é‡Œå»ºç«‹[PARAGRAPH:1]1230å¹´ï¼Œè’™å¤ä¼Šå°”æ±—å›½å¾æœäº†æ‰å¡è‰¯å…¬å›½ï¼Œä»¥åŠäºšç¾å°¼äºšçš„å…¶ä»–åœ°åŒºã€‚è’™å¤çš„å…¥ä¾µå¾ˆå¿«å°±è¢«ä¸­äºšå…¶ä»–éƒ¨è½çš„ä¾µç•¥æ‰€å–ä»£ï¼Œä»1200å¹´ä»£ä¸€ç›´æŒç»­åˆ°14ä¸–çºªï¼Œåœ¨ä¸æ–­çš„å…¥ä¾µï¼Œæ¯æ¬¡éƒ½ç»™å›½å®¶å¸¦æ¥ç ´åä¹‹åï¼Œäºšç¾å°¼äºšæœ€ç»ˆå˜å¾—è™šå¼±èµ·æ¥ã€‚åœ¨15ä¸–çºªï¼Œå¥¥æ–¯æ›¼å¸å›½å’Œè¨éç‹æœæ³¢æ–¯å°†äºšç¾å°¼äºšç“œåˆ†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_ADJECTIVE</Tag>
 		<English>Armenia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÃÀÄáÑÇ</Chinese>
+		<Chinese>äºšç¾å°¼äºš</Chinese>
 	</TEXT>
 </Civ4GameText>

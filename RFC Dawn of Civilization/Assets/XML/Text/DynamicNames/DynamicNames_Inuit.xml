@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_REPUBLIC</Tag>
 		<English>%s2 Circumpolar Council</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2»·¼«Òé»á</Chinese>
+		<Chinese>%s2ç¯æè®®ä¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED_HELP</Tag>
 		<English>[ICON_BULLET]Can settle on Ice (along Coast)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]¿ÉÒÔÔÚÑØ°¶±ù¿éÉÏ¶¨¾Ó</Chinese>
+		<Chinese>[ICON_BULLET]å¯ä»¥åœ¨æ²¿å²¸å†°å—ä¸Šå®šå±…</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INU</Tag>
 		<English>Trade routes do not require roads. Extra Commerce on coastal city tiles.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã³Ò×Â·Ïß²»ĞèÒªµÀÂ·£¬ÑØº£³ÇÊĞ»ñµÃ¶îÍâÉÌÒµ</Chinese>
+		<Chinese>è´¸æ˜“è·¯çº¿ä¸éœ€è¦é“è·¯ï¼Œæ²¿æµ·åŸå¸‚è·å¾—é¢å¤–å•†ä¸š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED</Tag>
 		<English>Inuit Dog Sled</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØ¹·Ñ©ÇÁ</Chinese>
+		<Chinese>å› çº½ç‰¹ç‹—é›ªæ©‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_KIVALLIQ</Tag>
@@ -35,43 +35,43 @@
 		<Tag>TXT_KEY_VICTORY_MOST_WATER_OWN_CIV</Tag>
 		<English>Civilization with the most Coast, Ocean, and Lakes: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓµÓĞ×î¶àµÄº£Ñó¡¢º£±õºÍºşµØ¿éµÄÎÄÃ÷£º%s1</Chinese>
+		<Chinese>æ‹¥æœ‰æœ€å¤šçš„æµ·æ´‹ã€æµ·æ»¨å’Œæ¹–åœ°å—çš„æ–‡æ˜ï¼š%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2µÛ¹ú</Chinese>
+		<Chinese>%s2å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO_HELP</Tag>
 		<English>[ICON_BULLET]+1 Food and Production from Ice and Tundra</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]±ùÔ­ºÍ¶³ÍÁ+1Ê³ÎïºÍ²úÄÜ</Chinese>
+		<Chinese>[ICON_BULLET]å†°åŸå’Œå†»åœŸ+1é£Ÿç‰©å’Œäº§èƒ½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_COMMUNIST</Tag>
 		<English>Inuit's Circumpolar Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2»·¼«¹²ºÍ¹ú</Chinese>
+		<Chinese>%s2ç¯æå…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_COUNCIL</Tag>
 		<English>%s2 Circumpolar Council</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2»·¼«Òé»á</Chinese>
+		<Chinese>%s2ç¯æè®®ä¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_DESC</Tag>
 		<English>The Inuit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØÎÄÃ÷</Chinese>
+		<Chinese>å› çº½ç‰¹æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU2_TITLE</Tag>
 		<English>Bounty of the North</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±·½µÄ¿¶¿®</Chinese>
+		<Chinese>åŒ—æ–¹çš„æ…·æ…¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ANGAKKUQ_QARGI</Tag>
@@ -83,19 +83,19 @@
 		<Tag>TXT_KEY_CIV_INUIT_ADJECTIVE</Tag>
 		<English>Inuit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¬ÒÁÌØ</Chinese>
+		<Chinese>å› åŠªä¼Šç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_SHORT_DESC</Tag>
 		<English>Inuit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØ</Chinese>
+		<Chinese>å› çº½ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO</Tag>
 		<English>Igloo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±ùÎİ(Igloo)</Chinese>
+		<Chinese>å†°å±‹(Igloo)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUNAVIK</Tag>
@@ -107,61 +107,61 @@
 		<Tag>TXT_KEY_LEADER_AUA</Tag>
 		<English>Aua</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØ-Aua</Chinese>
+		<Chinese>å› çº½ç‰¹-Aua</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU1</Tag>
 		<English>Settle Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, and Nunavik by 900 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª900ÄêÇ°¶¨¾ÓKivalliq, Kalaallit Nunaat, Qikiqtaaluk, ºÍNunavik</Chinese>
+		<Chinese>å…¬å…ƒ900å¹´å‰å®šå±…Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, å’ŒNunavik</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU3_TITLE</Tag>
 		<English>Bladder Festival</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°òë×½Ú</Chinese>
+		<Chinese>è†€èƒ±èŠ‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU2</Tag>
 		<English>Acquire 25 Resources</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓµÓĞ25¸ö×ÊÔ´</Chinese>
+		<Chinese>æ‹¥æœ‰25ä¸ªèµ„æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_BERING_SEA</Tag>
 		<English>Bering Sea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°×Áîº£Ï¿</Chinese>
+		<Chinese>ç™½ä»¤æµ·å³¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU1_TITLE</Tag>
 		<English>The Dorset</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àÈüÌØºÅ</Chinese>
+		<Chinese>å¤šèµ›ç‰¹å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_RESOURCES</Tag>
 		<English>Resources</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×ÊÔ´</Chinese>
+		<Chinese>èµ„æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_DORSET</Tag>
 		<English>Dorset</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àÈûÌØ</Chinese>
+		<Chinese>å¤šå¡ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_INUIT</Tag>
 		<English>It is the year 200 BC. The Inuit's arrival to the Bering Strait marks the beginning of what will become one of the longest lasting cultures of the arctic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«ÔªÇ°200Äê¡£ÒòÅ¦ÌØÈËµÖ´ï°×Áîº£Ï¿±êÖ¾×Å±±¼«µØÇø×îÓÆ¾ÃÎÄ»¯Ö®Ò»µÄ¿ªÊ¼¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒå‰200å¹´ã€‚å› çº½ç‰¹äººæŠµè¾¾ç™½ä»¤æµ·å³¡æ ‡å¿—ç€åŒ—æåœ°åŒºæœ€æ‚ ä¹…æ–‡åŒ–ä¹‹ä¸€çš„å¼€å§‹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INU_TITLE</Tag>
 		<English>The Power of Inuksuk:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØÊ¯¶Ñ£º</Chinese>
+		<Chinese>å› çº½ç‰¹çŸ³å †ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_DEFAULT</Tag>
@@ -179,25 +179,25 @@
 		<Tag>TXT_KEY_VICTORY_WORKED_RESOURCES</Tag>
 		<English>Worked %s1 resources: %d2 / %d3d</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÑ¿ª·¢µÄ%s1×ÊÔ´£º%d2 / %d3</Chinese>
+		<Chinese>å·²å¼€å‘çš„%s1èµ„æºï¼š%d2 / %d3</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU3</Tag>
 		<English>Control and work more Ocean, Coast, and Lake tiles than any other civilization</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓµÓĞºÍ¿ª·¢±ÈÆäËûÎÄÃ÷¸ü¶àµÄº£Ñó¡¢º£±õºÍºş¹¤×÷µØ¿é</Chinese>
+		<Chinese>æ‹¥æœ‰å’Œå¼€å‘æ¯”å…¶ä»–æ–‡æ˜æ›´å¤šçš„æµ·æ´‹ã€æµ·æ»¨å’Œæ¹–å·¥ä½œåœ°å—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MOST_WATER_WORK_CIV</Tag>
 		<English>Civilization working the most Coast, Ocean, and Lakes: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚº£Ñó¡¢º£±õºÍºşµØ¿éÉÏ¹¤×÷×î¶àµÄÎÄÃ÷£º%s1</Chinese>
+		<Chinese>åœ¨æµ·æ´‹ã€æµ·æ»¨å’Œæ¹–åœ°å—ä¸Šå·¥ä½œæœ€å¤šçš„æ–‡æ˜ï¼š%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_URV_POL2_ANGAKKUQ</Tag>
 		<English>Acquire and work 3 Crab, Whale, and Fish Resources</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿ª·¢3¸öó¦Ğ·¡¢¾¨ÓãºÍÓãÀà×ÊÔ´</Chinese>
+		<Chinese>å¼€å‘3ä¸ªèƒèŸ¹ã€é²¸é±¼å’Œé±¼ç±»èµ„æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_QIKIQTAALUK</Tag>
@@ -209,12 +209,12 @@
 		<Tag>TXT_KEY_CIV_INUIT_THULE</Tag>
 		<English>Thule</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í¼¶û</Chinese>
+		<Chinese>å›¾å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_PEOPLES</Tag>
 		<English>The Inuit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒòÅ¦ÌØÈË</Chinese>
+		<Chinese>å› çº½ç‰¹äºº</Chinese>
 	</TEXT>
 </Civ4GameText>

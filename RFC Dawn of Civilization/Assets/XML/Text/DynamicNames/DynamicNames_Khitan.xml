@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI3</Tag>
 		<English>Control or Vassalize Korea, Song, and Jurchen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ÷·ş»ò¸½Ó¹³¯ÏÊ£¬ËÎ£¬Å®Õæ</Chinese>
+		<Chinese>å¾æœæˆ–é™„åº¸æœé²œï¼Œå®‹ï¼Œå¥³çœŸ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI3_TITLE</Tag>
 		<English>Control or Vassalize Korea, Song, and Jurchen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌìÏÂ¹éÒ»</Chinese>
+		<Chinese>å¤©ä¸‹å½’ä¸€</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_ADJECTIVE</Tag>
 		<English>Kitanyes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤</Chinese>
+		<Chinese>å¥‘ä¸¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_IRON_PAGODA</Tag>
 		<English>Ironpagoda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ìú¸¡ÍÀ(Ironpagoda)</Chinese>
+		<Chinese>é“æµ®å± (Ironpagoda)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_JURCHEN</Tag>
 		<English>Empire of Jin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ğµÛ¹ú</Chinese>
+		<Chinese>é‡‘å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_IRON_PAGODA_PEDIA</Tag>
@@ -37,90 +37,90 @@
 		
 		The Iron Pagodas were completely armored from head to toes in heavy lamellar armor - with only their eyes and hands exposed. Their horses were also completely encased in armor as well, covered on all sides with thick barding of lamellar plates and padded cotton. In fact, each armored rider would be given two horses to ensure mobility throughout the ranks and in all situations. They were also given a versatile array of weapons, aside from their customary lance, commonly featuring a black pennon, they were also equipped with a bow and full quiver, as well as a large two handed sword. For their dual roles (see below) they were also equipped with many sapping tools, including picks, rope ladders, and shovels. - Dragon's Armory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¡°Ìú¸¡ÍÀ¡±ÊÇÅ®Õæ½ğ³¯µÄÒ»Ö§¾«Èñ²¿¶Ó£¬ÔÚ½ğ¹ú30ÄêµÄÍ³ÖÎÖĞ·¢»ÓÁËÖØÒª×÷ÓÃ¡£ËûÃÇËäÈ»Ö»·şÒÛÁË²»µ½¶şÊ®Äê£¬µ«ÔÚ±£ÎÀ½ğ¹úµÄÊ®¼¸´Î¹Ø¼üÕ½ÒÛºÍÊı°Ù´ÎĞ¡¹æÄ£Õ½¶·ÖĞ·¢»ÓÁË¹Ø¼ü×÷ÓÃ¡£¸ù¾İÎåîùÌ«×ÓµÄÑ§Ëµ£¬Ìú¸¡ÍÀ½«ÊÇÒ»¸ö×¨×¢ºÍ¼¯ÖĞµÄÏÈÍ·²¿¶Ó£¬×î´óÏŞ¶ÈµØ·¢»Ó½ğÆï±øµÄÖÂÃüÍÆÁ¦£¬×÷ÎªËû×îºÃµÄÍ»»÷Æï±øºÍ×¨ÒµµÄÖØĞÍÁúÆï±ø£¬Ò²¾­³£×÷ÎªÍ½²½µÄÖØ²½±ø×÷Õ½[PARAGRAPH:2]ÕâĞ©ÌúËş´ÓÍ·µ½½Å¶¼´©×ÅºñºñµÄÆ¬×´¿ø¼×£¬Ö»Â¶³öÑÛ¾¦ºÍÊÖ¡£ËûÃÇµÄÂíÒ²ÍêÈ«±»¿ø¼×°ü¹ü£¬ËÄÖÜ¸²¸Ç×ÅºñºñµÄ°å×´°åºÍÃŞĞõ¡£ÊÂÊµÉÏ£¬Ã¿¸ö×°¼×ÆïÊÖ¶¼»áµÃµ½Á½Æ¥Âí£¬ÒÔÈ·±£ÔÚÕû¸ö¶ÓÎéºÍËùÓĞÇé¿öÏÂµÄ»ú¶¯ĞÔ¡£ËûÃÇ»¹µÃµ½ÁËÒ»ÏµÁĞ¶à¹¦ÄÜµÄÎäÆ÷£¬³ıÁËËûÃÇ¹ßÓÃµÄ³¤Ã¬£¬Í¨³£ÊÇÒ»¸öºÚÉ«µÄ±ãÊ¿Æì£¬ËûÃÇ»¹Åä±¸ÁË¹­ºÍ³ä·ÖµÄ¼ı´ü£¬ÒÔ¼°Ò»¸ö´óĞÍË«ÊÖ½£¡£×÷ÎªËûÃÇµÄË«ÖØ½ÇÉ«£¨¼ûÏÂÎÄ£©£¬ËûÃÇ»¹Åä±¸ÁËĞí¶à¹¤¾ß£¬°üÀ¨¸ä¡¢ÉşÌİºÍ²ù×Ó¡£-ÁúµÄ¾üĞµ¿â</Chinese>
+		<Chinese>â€œé“æµ®å± â€æ˜¯å¥³çœŸé‡‘æœçš„ä¸€æ”¯ç²¾é”éƒ¨é˜Ÿï¼Œåœ¨é‡‘å›½30å¹´çš„ç»Ÿæ²»ä¸­å‘æŒ¥äº†é‡è¦ä½œç”¨ã€‚ä»–ä»¬è™½ç„¶åªæœå½¹äº†ä¸åˆ°äºŒåå¹´ï¼Œä½†åœ¨ä¿å«é‡‘å›½çš„åå‡ æ¬¡å…³é”®æˆ˜å½¹å’Œæ•°ç™¾æ¬¡å°è§„æ¨¡æˆ˜æ–—ä¸­å‘æŒ¥äº†å…³é”®ä½œç”¨ã€‚æ ¹æ®äº”é“¢å¤ªå­çš„å­¦è¯´ï¼Œé“æµ®å± å°†æ˜¯ä¸€ä¸ªä¸“æ³¨å’Œé›†ä¸­çš„å…ˆå¤´éƒ¨é˜Ÿï¼Œæœ€å¤§é™åº¦åœ°å‘æŒ¥é‡‘éª‘å…µçš„è‡´å‘½æ¨åŠ›ï¼Œä½œä¸ºä»–æœ€å¥½çš„çªå‡»éª‘å…µå’Œä¸“ä¸šçš„é‡å‹é¾™éª‘å…µï¼Œä¹Ÿç»å¸¸ä½œä¸ºå¾’æ­¥çš„é‡æ­¥å…µä½œæˆ˜[PARAGRAPH:2]è¿™äº›é“å¡”ä»å¤´åˆ°è„šéƒ½ç©¿ç€åšåšçš„ç‰‡çŠ¶ç›”ç”²ï¼Œåªéœ²å‡ºçœ¼ç›å’Œæ‰‹ã€‚ä»–ä»¬çš„é©¬ä¹Ÿå®Œå…¨è¢«ç›”ç”²åŒ…è£¹ï¼Œå››å‘¨è¦†ç›–ç€åšåšçš„æ¿çŠ¶æ¿å’Œæ£‰çµ®ã€‚äº‹å®ä¸Šï¼Œæ¯ä¸ªè£…ç”²éª‘æ‰‹éƒ½ä¼šå¾—åˆ°ä¸¤åŒ¹é©¬ï¼Œä»¥ç¡®ä¿åœ¨æ•´ä¸ªé˜Ÿä¼å’Œæ‰€æœ‰æƒ…å†µä¸‹çš„æœºåŠ¨æ€§ã€‚ä»–ä»¬è¿˜å¾—åˆ°äº†ä¸€ç³»åˆ—å¤šåŠŸèƒ½çš„æ­¦å™¨ï¼Œé™¤äº†ä»–ä»¬æƒ¯ç”¨çš„é•¿çŸ›ï¼Œé€šå¸¸æ˜¯ä¸€ä¸ªé»‘è‰²çš„ä¾¿å£«æ——ï¼Œä»–ä»¬è¿˜é…å¤‡äº†å¼“å’Œå……åˆ†çš„ç®­è¢‹ï¼Œä»¥åŠä¸€ä¸ªå¤§å‹åŒæ‰‹å‰‘ã€‚ä½œä¸ºä»–ä»¬çš„åŒé‡è§’è‰²ï¼ˆè§ä¸‹æ–‡ï¼‰ï¼Œä»–ä»¬è¿˜é…å¤‡äº†è®¸å¤šå·¥å…·ï¼ŒåŒ…æ‹¬é•ã€ç»³æ¢¯å’Œé“²å­ã€‚-é¾™çš„å†›æ¢°åº“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHI_TITLE</Tag>
 		<English>The Power of Two Administrations:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ş¬ºº·ÖÖÎ£º</Chinese>
+		<Chinese>è•ƒæ±‰åˆ†æ²»ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_SHORT_DESC</Tag>
 		<English>Khitan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤</Chinese>
+		<Chinese>å¥‘ä¸¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_KHI</Tag>
 		<English>Reduced city distance maintenance and city maintenance.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼õÉÙ³ÇÊĞ¾àÀëÎ¬»¤·ÑºÍ³ÇÊĞÎ¬»¤·Ñ</Chinese>
+		<Chinese>å‡å°‘åŸå¸‚è·ç¦»ç»´æŠ¤è´¹å’ŒåŸå¸‚ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI1</Tag>
 		<English>Establish trade with 3 Silk Road countries</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓëË¿³ñÖ®Â·ÉÏµÄ3¸öÎÄÃ÷½øĞĞÃ³Ò×</Chinese>
+		<Chinese>ä¸ä¸ç»¸ä¹‹è·¯ä¸Šçš„3ä¸ªæ–‡æ˜è¿›è¡Œè´¸æ˜“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_AKUTA</Tag>
 		<English>Akuta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢¹Ç´ò</Chinese>
+		<Chinese>é˜¿éª¨æ‰“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI2</Tag>
 		<English>Have 3 Wats, 1 Mosque, and 1 Fire Temple in 1150 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1150ÄêÊ±ÓµÓĞ3¸öWats, 1¸öMosqueºÍ1¸öFire Temple</Chinese>
+		<Chinese>å…¬å…ƒ1150å¹´æ—¶æ‹¥æœ‰3ä¸ªWats, 1ä¸ªMosqueå’Œ1ä¸ªFire Temple</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ABAOJI</Tag>
 		<English>Yelu abaoji</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò®ÂÉ°¢±£»ú</Chinese>
+		<Chinese>è€¶å¾‹é˜¿ä¿æœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_KHITAN</Tag>
 		<English>It's the year 901 AD. Abaoji has risen as head of the Yila tribe, the most powerful of all the Khitans to extablish the Liao Dynasty! The land of the steppes and northern forests is vast, but the aging dynasty of China has opened up new opprotunities as well. You must choose where to expand knowing that far flung vassals may one day rise against you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª901Äê¡£Ò®ÂÉ°¢±£»ú³ÉÎªÁËÆõµ¤²¿ÂäµÄÊ×Áì£¬²¢½¨Á¢ÁËÁÉ¹ú¡£²İÔ­ºÍ±±·½É­ÁÖµÄÍÁµØÁÉÀ«£¬µ«ÖĞ¹úË¥ÂäµÄÍõ³¯Ò²¸øÎÒÃÇ´øÀ´ÁËĞÂµÄ»úÓö¡£Äã±ØĞëÑ¡ÔñÀ©ÕÅµÄµØ·½£¬ÒòÎªÄãÖªµÀÔ¶·½µÄ¸½Ó¹ÓĞÒ»Ìì»áÆğÀ´·´¶ÔÄã¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ901å¹´ã€‚è€¶å¾‹é˜¿ä¿æœºæˆä¸ºäº†å¥‘ä¸¹éƒ¨è½çš„é¦–é¢†ï¼Œå¹¶å»ºç«‹äº†è¾½å›½ã€‚è‰åŸå’ŒåŒ—æ–¹æ£®æ—çš„åœŸåœ°è¾½é˜”ï¼Œä½†ä¸­å›½è¡°è½çš„ç‹æœä¹Ÿç»™æˆ‘ä»¬å¸¦æ¥äº†æ–°çš„æœºé‡ã€‚ä½ å¿…é¡»é€‰æ‹©æ‰©å¼ çš„åœ°æ–¹ï¼Œå› ä¸ºä½ çŸ¥é“è¿œæ–¹çš„é™„åº¸æœ‰ä¸€å¤©ä¼šèµ·æ¥åå¯¹ä½ ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI2_TITLE</Tag>
 		<English>Have 3 Wats, 1 Mosque, and 1 Fire Temple in 1150 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤ÎÄ»¯</Chinese>
+		<Chinese>å¥‘ä¸¹æ–‡åŒ–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_DESC</Tag>
 		<English>The Kitanyes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤ÎÄÃ÷</Chinese>
+		<Chinese>å¥‘ä¸¹æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_DEFAULT</Tag>
 		<English>Khitan Federation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤²¿ÂäÁªÃË</Chinese>
+		<Chinese>å¥‘ä¸¹éƒ¨è½è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_PEOPLES</Tag>
 		<English>Khitan People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æõµ¤ÈË</Chinese>
+		<Chinese>å¥‘ä¸¹äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_EMPIRE_OF_KHITAN</Tag>
 		<English>Empire of Liao</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÁÉµÛ¹ú</Chinese>
+		<Chinese>è¾½å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI1_TITLE</Tag>
 		<English>Establish trade with 3 Silk Road countries</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖØ½¨Ë¿Â·</Chinese>
+		<Chinese>é‡å»ºä¸è·¯</Chinese>
 	</TEXT>
 </Civ4GameText>

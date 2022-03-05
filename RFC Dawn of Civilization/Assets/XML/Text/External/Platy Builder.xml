@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
@@ -137,7 +137,7 @@
 		<Tag>TXT_KEY_WB_DAMAGE</Tag>
 		<English>Damage</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伤害</Chinese>
+		<Chinese>浼ゅ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_WB_NUKE_INTERCEPTION</Tag>
@@ -149,7 +149,7 @@
 		<Tag>TXT_KEY_WB_DOCMAPS</Tag>
 		<English>DoC Maps</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>DoC地图</Chinese>
+		<Chinese>DoC鍦板浘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_WB_STOREDDATA_WARNING</Tag>
@@ -167,13 +167,13 @@
 		<Tag>TXT_KEY_PEDIA_CATEGORY_PROMOTION_TREE</Tag>
 		<English>Promotion Tree</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>单位晋升图谱</Chinese>
+		<Chinese>鍗曚綅鏅嬪崌鍥捐氨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PEDIA_CATEGORY_UNIT_UPGRADES</Tag>
 		<English>Unit Upgrades</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>单位升级图谱</Chinese>
+		<Chinese>鍗曚綅鍗囩骇鍥捐氨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_WB_MODIFIER</Tag>
@@ -617,7 +617,7 @@
 		<Tag>TXT_KEY_UNIQUE_BUILDINGS</Tag>
 		<English>Unique Buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特殊建筑</Chinese>
+		<Chinese>鐗规畩寤虹瓚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_WB_TARGET_PLOT</Tag>
@@ -1049,13 +1049,13 @@
 		<Tag>TXT_KEY_PEDIA_CATEGORY_NATIONAL_WONDERS</Tag>
 		<English>National Wonders</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>国家奇观</Chinese>
+		<Chinese>鍥藉濂囪</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PEDIA_CATEGORY_ROUTE</Tag>
 		<English>Routes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>道路</Chinese>
+		<Chinese>閬撹矾</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_WB_DEFY_RESOLUTION</Tag>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Please place any new text entries into this file-->
+	<TEXT>
+		<Tag>TXT_KEY_MOD_REQUIRED</Tag>
+		<English>The save file you have selected requires the following mod to be loaded:[NEWLINE][BOLD]%s1[\BOLD][NEWLINE]The application must restart, ok?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你选择的存档文件需要以下模组(MOD):[NEWLINE][BOLD]%s1[\BOLD][NEWLINE]程序需要重新启动，你确定吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUTURE_TECH</Tag>
+		<English>Future Tech</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>未来科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_CHANGE_ALL_PLOTS</Tag>
+		<English>Change All Plots</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>改变所有区块</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WB_ADD_ERA_TECH</Tag>
+		<English>Add all  %s1_EraName Techs</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>添加所有%s1_EraName科技</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OPTIONS_MUSICVOLUME</Tag>
+		<English>Music</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>音乐</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OPTIONS_EFFECTSVOLUME</Tag>
+		<English>Sound Effects</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>音效</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OPTIONS_SPEECHVOLUME</Tag>
+		<English>Speech</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>语音</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OPTIONS_AMBIENCEVOLUME</Tag>
+		<English>Ambience</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>环境音</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OPTIONS_INTERFACEVOLUME</Tag>
+		<English>Interface</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>界面</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALL_WORLD_SIZES</Tag>
+		<English>All World Sizes</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>所有地图大小</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEROIC_EPIC</Tag>
+		<English>Heroic Epic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>英雄史诗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_EPIC</Tag>
+		<English>National Epic</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>民族史诗</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ARE_YOU_SURE_ACTION</Tag>
+		<English>Are you sure you want to %s1_ActionName?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你确定要%s1_ActionName吗?</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_COAST</Tag>
+		<English>Coast</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>海滨</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DEMO_SCREEN_INDUSTRY_TEXT</Tag>
+		<English>Mfg. Goods (Prod.)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>工业品生产量 (产能)</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DEMO_SCREEN_AGRICULTURE_TEXT</Tag>
+		<English>Crop Yield (Food)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>粮食生产总量 (食物)</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_DECLARED_WAR_ON</Tag>
+		<English>You have declared war on %s1_TeamName!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你已向%s1_TeamName宣战!</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SETTINGS_MAP_SIZE</Tag>
+		<English>%s1 World Size</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1 地图大小</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_ENTIRE_HISTORY</Tag>
+		<English>Entire History</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>整个历史</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_RELIGION_PEDIA</Tag>
+		<English>[H1]Religion[\H1][PARAGRAPH:2]Religion has always played a critical part in human history. Through religion, man has sought to make sense of the universe around him and to determine his place in it. Religion has inspired, enlightened and ennobled man; in its name men have erected beautiful buildings, written books of great wisdom, and made music of surpassing beauty. In its name men have also murdered and enslaved their fellows.[PARAGRAPH:2][H2]Religion in this Game[\H2][PARAGRAPH:2]We know that people have extremely strong opinions about religions - in fact, many a war has arisen when these beliefs collide. We at Firaxis have no desire to offend anyone. However, given the importance that religions have had in human development, we didn't want to simply leave them out of the game altogether; instead we have tried to handle them in as respectful, fair and even-handed manner as possible. In fact, all religions in the game have the same effects, the only difference being their requirements.[PARAGRAPH:2]There are seven religions in Civilization IV (testing having determined that seven was the optimal number for gameplay). When determining which seven to include, we picked those religions that we thought would be most familiar to our audience. We do not mean to imply that these religions are more important, better or worse than any other religions.[PARAGRAPH:2]We offer no value judgments on religion; we mean no disrespect to anyone's beliefs. We're game designers, not theologians.[PARAGRAPH:2][H2]Founding a Religion[\H2][PARAGRAPH:2]If you are the first civilization to discover the associated technology, the religion is founded in one of your cities. It is extremely useful to have a city where a religion has been founded; it allows a prophet to create a "shrine" in that city (see below).[PARAGRAPH:2][H2]State Religions[\H2][PARAGRAPH:2]When any cities in your civilization possess one or more religions, you may choose to assign one as the "state" religion. Having a state religion tends to make your cities possessing that religion happier and more productive; it also increases the effects of many religious buildings and religious civics.[PARAGRAPH:2][H2]Spreading Religions[\H2][PARAGRAPH:2]Religions spread randomly from city to city. Religions tend to spread from a city possessing the religion to nearby cities as well as to cities the possessing city has trade routes with. Some religious buildings (see below) increase the speed at which a religion will spread, and a civilization's religious civic (see below) can have a great effect upon the spread of religions, as well. [LINK=UNIT_BUDDHIST_MISSIONARY]Missionaries[\LINK] allow you to control the spread of religion; see the following section.[PARAGRAPH:2][H2]Missionaries[\H2][PARAGRAPH:2]Civilizations can construct special "missionary" units to spread the civilization's state religion. Each civilization may have only a limited number of missionary units in play at any one time, and each costs two gold per turn to maintain.[PARAGRAPH:2][BOLD]Building Missionaries[\BOLD][PARAGRAPH:2] Civilizations using the [LINK=CIVIC_ORGANIZED_RELIGION]Organized Religion[\LINK] civic can construct missionaries in any city with the state religion; if a civilization is not following Organized Religion, it can build missionaries only in cities with Monasteries.[PARAGRAPH:2][BOLD]Moving Missionaries[\BOLD][PARAGRAPH:2]Once constructed, missionaries can move about the map like any other unit. Your missionaries can freely enter your territory or neutral territory; they cannot enter another civilization's territory until you have an [LINK=CONCEPT_DIPLOMACY]Open Borders[\LINK] agreement with that civ. [PARAGRAPH:2][BOLD]How Missionaries Spread Religion[\BOLD][PARAGRAPH:2]When the missionary is in the target city, click on the "spread religion" order in the missionary's unit box (see [LINK=CONCEPT_UNITS]Units[\LINK]); if the attempt is successful the missionary's religion is now in the target city. Religions spread more easily into other cities within the missionary's civilization. Further, it is easier to spread a religion into a city with few or no religions already present; each resident religion decreases the odds of success. There is no limit to how many religions may be present in a single city; all seven religions can coexist in the same city. The missionary is consumed in the conversion attempt, successful or not.[PARAGRAPH:2][H2]Benefits of Religion[\H2][PARAGRAPH:2][BOLD]City Benefits[\BOLD][PARAGRAPH:2]All cities that possess your state religion receive one extra happy face and produce one culture per turn. Spreading your state religion is thus a good way to expand cultural borders in the early stages of your civilization. The holy city for your state religion also receives an additional bonus of five culture per turn, allowing it to expand its borders very quickly.[PARAGRAPH:2][BOLD]Buildings[\BOLD][PARAGRAPH:2]Without a religion in a city, that city cannot construct religious buildings like Temples and Cathedrals (see below). Cities without religions also cannot create Priest [LINK=CONCEPT_SPECIALISTS]Specialists[\LINK].[PARAGRAPH:2][BOLD]Espionage[\BOLD][PARAGRAPH:2]If you control the holy city for a religion, you gain line-of-sight benefits in all foreign cities sharing your religion. This allows you to spy on what enemy cities are doing at no cost.[PARAGRAPH:2][BOLD]Shrine Income[\BOLD][PARAGRAPH:2]If you control the holy city for a religion and generate a Great Prophet, you can build the Shrine for that religion to generate income for every city in the world that possesses your religion (see below).[PARAGRAPH:2][H2]Religious Civics[\H2][PARAGRAPH:2]The religious [LINK=CONCEPT_CIVICS]Civics[\LINK] describe how religion affects your civilization. There are five religious civics in the game. You begin the game knowing only paganism; the other four become available when you learn their associated technologies.[PARAGRAPH:2][BOLD]Paganism:[\BOLD] No technology requirement. The basic religious civic. [PARAGRAPH:2][BOLD]Organized Religion:[\BOLD] Requires [LINK=TECH_MONOTHEISM]Monotheism[\LINK]. Increases production of buildings in cities with the state religion, and allows you to build missionaries without first constructing monasteries.[PARAGRAPH:2][BOLD]Theocracy:[\BOLD] Requires [LINK=TECH_THEOLOGY]Theology[\LINK]. Theocracy grants two additional experience points to units trained within cities with the state religion, and it stops the spread of non-state religions within the civilization.[PARAGRAPH:2][BOLD]Pacifism:[\BOLD] Requires [LINK=TECH_PHILOSOPHY]Philosophy[\LINK]. Greatly increases the [LINK=CONCEPT_GREAT_PEOPLE]Great Person[\LINK] birth rate in cities with the state religion, and it increases the support cost of military units.[PARAGRAPH:2][BOLD]Free Religion:[\BOLD] Requires [LINK=TECH_LIBERALISM]Liberalism[\LINK]. A civilization with Free Religion has no state religion. Each city gets happiness for each non-state religion in the city; also, all cities get a 10%% boost in scientific [LINK=CONCEPT_RESEARCH]Research[\LINK].[PARAGRAPH:2][H2]Religious Buildings[\H2][PARAGRAPH:2]There are a number of religious buildings available to be constructed. Religious buildings are dedicated to specific religions and can only be built in cities which have that religion. A city with more than one religion can have religious buildings for each religion: for example, a city with Judaism and Confucianism could construct both a Jewish Temple and a Confucian Temple.[PARAGRAPH:2][BOLD]Temples[\BOLD][PARAGRAPH:2]The most primitive religious building. Temples boost a city's [LINK=CONCEPT_CULTURE]Culture[\LINK] and [LINK=CONCEPT_HAPPINESS]Happiness[\LINK]. They allow 1 population point to be turned into a priest [LINK=CONCEPT_SPECIALISTS]Specialist[\LINK].[PARAGRAPH:2][BOLD]Monasteries[\BOLD][PARAGRAPH:2]Monasteries increase a city's research by a small amount. More importantly, they allow the city to build missionaries to spread your religion.[PARAGRAPH:2][BOLD]Cathedrals[\BOLD][PARAGRAPH:2]Cathedrals drastically increase a city's culture. They increase happiness if their religion is the civilization's state religion. They allow two population points to be turned into priests. Note that "Cathedral" is a generic name for a religion's grander houses of worship - Jewish synagogues, Islamic mosques, Christian cathedrals, etc., all have the same effects. Your civilization can only build one cathedral for every three temples that your civilization possesses; for example, a civilization with seven temples could build two cathedrals. [PARAGRAPH:2][BOLD]Shrines[\BOLD][PARAGRAPH:2]Shrines can be built only in cities in which a religion has been founded. Shrines are constructed by [LINK=CONCEPT_GREAT_PEOPLE]Great Prophets[\LINK]; a great prophet is the only unit that can build a shrine, and the prophet is consumed in the process. Shrines increase the spread of the religion, as well as the home city's culture. They increase the city's chance of generating prophets and allow the city to assign three population as priests. Most importantly, shrines generate one gold each turn for every city on the map that has the shrine's religion (thus explaining the importance of creating missionaries to spread the word). Each religion has a different name for its cathedral and shrine.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[H1]宗教信仰[\H1][PARAGRAPH:2]宗教信仰在人类历史上经常占据着重要的角色。通过宗教，人类寻求对宇宙的理解，确定自己存在的意义。宗教使人得到灵感和启迪，使人变得高贵和自尊；人们以宗教的名义修建宏伟的殿宇，撰写智慧的典籍，谱写美丽的乐章。人们也以宗教的名义屠杀和奴役着他们的兄弟姊妹。[PARAGRAPH:2][H2]游戏中的宗教信仰[\H2][PARAGRAPH:2]我们知道人们对于宗教信仰有非常强烈的观点和立场——事实上，信仰之间的冲突曾经导致了无数的战争。游戏的开发者无意冒犯任何人的信仰。但是，考虑到宗教信仰在人类文明发展中的重要作用，我们不能将这一重要元素排除在游戏之外；而且尽最大努力，以尊重，公正与中立的态度处理宗教元素。事实上，游戏中所有宗教的作用都是相同的，唯一不同的只是其创立的前提。[PARAGRAPH:2]在文明IV中有七种宗教信仰（经测试采用这个数量可以获得最佳的游戏性）。在具体选择时，我们采用了我们认为公众最为熟悉的几种宗教。我们并不认为这几种宗教比其他信仰更好或是更重要。[PARAGRAPH:2]我们并不对各种宗教进行价值判断；我们尊重任何人的任何信仰。我们是游戏设计师，不是神学家。[PARAGRAPH:2][H2]创立宗教[\H2][PARAGRAPH:2]如果你率先发现与特定宗教相关联的科技，该宗教将在你的某一城市中创立。拥有一座宗教创始城市有非常多的好处；这将允许大预言家在该城市中建立一座“圣坛”（见下文）。[PARAGRAPH:2][H2]官方信仰[\H2][PARAGRAPH:2]如果你的城市中存在一种或几种宗教信仰，你可以选择其中一种作为“官方”信仰（国教）。设立官方信仰可使信仰该宗教的城市快乐度更高，生产能力更强；还可以提升宗教建筑和宗教制度类内政法令的作用。[PARAGRAPH:2][H2]传播宗教信仰[\H2][PARAGRAPH:2]宗教信仰会在城市间随机传播。宗教会传播到邻近的城市，或是有商路相连的城市。某些宗教建筑（见下文）可以提升相应宗教的传播速度，文明所实行的内政法令（见下文）也对宗教的传播具有重要作用。[LINK=UNIT_BUDDHIST_MISSIONARY]传教士[\LINK]使你可以主动进行传教；相关详情见下节。[PARAGRAPH:2][H2]传教士[\H2][PARAGRAPH:2]一个文明可以组建专门的“传教士”单位以传播其官方信仰。每个文明在同一时刻保有的传教士数量有一定限制，每个传教士单位每回合的维持费为两个金币。[PARAGRAPH:2][BOLD]训练传教士[\BOLD][PARAGRAPH:2]实行[LINK=CIVIC_ORGANIZED_RELIGION]信仰控制[\LINK]内政法令的文明可以在任何信仰国教的城市训练传教士；对于不采用信仰控制政策的文明，则只能在建有修道院的城市训练传教士。[PARAGRAPH:2][BOLD]移动传教士[\BOLD][PARAGRAPH:2]一旦训练完成，传教士可以象其他单位一样在地图上移动。你的传教士可以在本国领土或中立领土中自由通行；但不能进入其他文明的领地，除非签有[LINK=CONCEPT_DIPLOMACY]开放边界[\LINK]条约。[PARAGRAPH:2][BOLD]传教士如何传播宗教信仰[\BOLD][PARAGRAPH:2]在传教士到达目标城市后，点击传教士单位命令清单中的“传播信仰”命令（见[LINK=CONCEPT_UNITS]单位[\LINK]）；如果传播成功，则传教士的宗教将传入该城市。在本国城市传播信仰更容易取得成功。此外，在原来没有信仰的城市传播信仰也比较容易；每增加一种现存信仰，都会进一步降低传教的成功几率。一座城市存在宗教的数量没有限制；七种宗教可能在同一城市并存。传教士在执行任务后将消失，无论成功与否。[PARAGRAPH:2][H2]宗教信仰的益处[\H2][PARAGRAPH:2][BOLD]对城市的益处[\BOLD][PARAGRAPH:2]信仰国教的城市可额外增加一个单位的快乐值，并每回合产生一个单位的文化值。因此传播你的官方信仰是游戏早期扩展文化边界的好办法。官方信仰的圣城每回合还能产生五单位文化值，使其能够快速扩展文化边界。[PARAGRAPH:2][BOLD]建筑[\BOLD][PARAGRAPH:2]城市如不存在宗教，将无法建造宗教建筑，例如寺庙和大教堂（见下文）。不存在宗教的城市也不能供养神学家类的[LINK=CONCEPT_SPECIALISTS]专业人员[\LINK]。[PARAGRAPH:2][BOLD]间谍[\BOLD][PARAGRAPH:2]如果你拥有某一宗教的圣城，你的视野将扩展到所有信仰该宗教的外国城市。使你可以免费查探敌方城市的情况。[PARAGRAPH:2][BOLD]圣坛收入[\BOLD][PARAGRAPH:2]如果你拥有某一宗教的圣城，并且产生了一位大预言家，你将可以建造该宗教的圣坛，使全世界所有信仰该宗教的城市都会为你带来收入（见下文）。[PARAGRAPH:2][H2]宗教制度类内政法令[\H2][PARAGRAPH:2]宗教制度类的[LINK=CONCEPT_CIVICS]内政法令[\LINK]可调整宗教对文明的影响。游戏中共有五种宗教制度。在游戏开始时只有原始信仰；其他宗教制度将在你掌握相应科技后启用。[PARAGRAPH:2][BOLD]原始信仰:[\BOLD]无科技前提。基本的宗教制度。[PARAGRAPH:2][BOLD]信仰控制:[\BOLD]需要[LINK=TECH_MONOTHEISM]一神论[\LINK]。提升信仰国教城市的建造建筑的能力，允许你训练传教士而无须建造修道院。[PARAGRAPH:2][BOLD]神权政治:[\BOLD]需要[LINK=TECH_THEOLOGY]神学[\LINK]。实行神权政治法令，将使信仰国教的城市所组建的单位拥有两点初始经验，并禁止非官方信仰在本国的传播。[PARAGRAPH:2][BOLD]和平主义:[\BOLD]需要[LINK=TECH_PHILOSOPHY]哲学[\LINK]。大大提升信仰国教城市的[LINK=CONCEPT_GREAT_PEOPLE]历史伟人[\LINK]出现几率，并增加军事单位的维持费。[PARAGRAPH:2][BOLD]信仰自由:[\BOLD]需要[LINK=TECH_LIBERALISM]自由主义[\LINK]。实行信仰自由的文明没有官方信仰。任何宗教都可提升城市的快乐度；并且所有城市额外获得10%%的[LINK=CONCEPT_RESEARCH]科研[\LINK]加成。[PARAGRAPH:2][H2]宗教建筑[\H2][PARAGRAPH:2]可建造的宗教建筑有多种类型。不同宗教有相应的宗教建筑，城市必须信仰特定宗教才能建造相应宗教建筑。信仰多种宗教的城市可以建造多种宗教建筑：例如，同时信仰犹太教和儒学的城市即可同时建造犹太礼拜堂和儒学馆。[PARAGRAPH:2][BOLD]寺庙[\BOLD][PARAGRAPH:2]寺庙是最基本的宗教建筑。寺庙可促进城市的[LINK=CONCEPT_CULTURE]文化[\LINK]和[LINK=CONCEPT_HAPPINESS]快乐[\LINK]。允许1单位人口转化为神学家类[LINK=CONCEPT_SPECIALISTS]专业人员[\LINK]。[PARAGRAPH:2][BOLD]修道院[\BOLD][PARAGRAPH:2]修道院可少量提升城市的科研能力。更重要的是使城市可以训练传教士，以传播你的信仰。[PARAGRAPH:2][BOLD]大教堂[\BOLD][PARAGRAPH:2]大教堂可大大提升城市的文化等级。如所属宗教为官方信仰还将提升城市快乐度。并允许2单位人口转化为神学家。注意“大教堂”泛指任何宗教的大型活动场所——犹太教会堂，伊斯兰清真寺，基督教大教堂等等，其作用完全相同。建造一座大教堂的前提是已建有三座寺庙；例如，建有七座寺庙的文明将可建造两座大教堂。[PARAGRAPH:2][BOLD]圣坛[\BOLD][PARAGRAPH:2]圣坛只能建在创立宗教的城市。圣坛由[LINK=CONCEPT_GREAT_PEOPLE]大预言家[\LINK]建造；大预言家是唯一能建造圣坛的单位，建造圣坛的代价是这位大预言家的消失。圣坛可提升相应宗教的传播速度，以及所在城市的文化等级。并能提升城市产生大预言家的几率，使城市可能供养三位神学家。更重要的是，圣坛能使全世界所有信仰相应宗教的城市为你的文明带来每座城市每回合一个金币的收入（因此训练传教士传播信仰是非常重要的）。每种宗教都有不同名称的大教堂和圣坛类建筑。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WAR_WEARINESS_PEDIA</Tag>
+		<English>[H1]War Weariness[\H1][PARAGRAPH:2]If you are engaged in a protracted [LINK=CONCEPT_WAR]War[\LINK], then "war weariness" may begin to make your citizens unhappy. The section on [LINK=CONCEPT_HAPPINESS]Happiness[\LINK] discusses in depth the effects of unhappiness and how to deal with it, but here are some special rules about war weariness.[PARAGRAPH:2][H2]Captured Cities[\H2][PARAGRAPH:2]If you have captured a city from another civilization, the captured city is much more susceptible to war weariness while you're fighting that civilization. This effect fades over time as you fully assimilate the city into your culture.[PARAGRAPH:2][H2]Fighting War Weariness[\H2][PARAGRAPH:2]There are a number of ways to limit the effects of war weariness. The most obvious way is to make peace; that stops the unhappiness immediately. If that is not feasible, then you can build [LINK=BUILDING_JAIL]Jails[\LINK] to reduce war weariness or adopt the [LINK=CIVIC_POLICE_STATE]Police State[\LINK] civic to reduce war weariness by 50%. You can also devote a greater percentage of your civilization's commerce to the [LINK=CONCEPT_CULTURE]Culture Button[\LINK] (enabled with the [LINK=TECH_DRAMA]Drama[\LINK] technology) to help increase the happiness of your citizens.[PARAGRAPH:2]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[H1]厌战情绪[\H1][PARAGRAPH:2]如果你卷入一场长期的[LINK=CONCEPT_WAR]战争[\LINK]，则“厌战情绪”可能导致你的市民不满。在[LINK=CONCEPT_HAPPINESS]快乐[\LINK]一节详细说明了不满的影响和解决方法，但关于厌战情绪还有一些特别的规定。[PARAGRAPH:2][H2]被占领城市[\H2][PARAGRAPH:2]如果你从其他文明手中占领了一座城市，被占领城市将因你与其原属文明进行的战争而表现出极度的厌战情绪。这种影响会随时间的流逝和文明的同化而逐渐消失。[PARAGRAPH:2][H2]消除厌战情绪[\H2][PARAGRAPH:2]要消除厌战情绪的影响有多种方法。最直接的方法就是实现和平；这将立即消除厌战情绪。如果无法做到，则可以建造[LINK=BUILDING_JAIL]监狱[\LINK]以降低厌战情绪，或实施[LINK=CIVIC_POLICE_STATE]强化监控[\LINK]内政法令以完全消除厌战情绪。你还可以将更大比例的金钱分配到[LINK=CONCEPT_CULTURE]文化支出[\LINK]（需要[LINK=TECH_DRAMA]戏剧[\LINK]科技）以提升市民的快乐度。[PARAGRAPH:2]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_LEADERS_PEDIA</Tag>
+		<English>[H1]Leaders[\H1][PARAGRAPH:2]Each civilization in Civilization IV has one or two leaders available to lead it. When you start a game of Civ, you will pick which civilization you want to lead; if that civilization has two available leaders, you pick which of them you want to play. Each computer-controlled civilization has a leader as well.[PARAGRAPH:2] [H2]Leader Personalities[\H2][PARAGRAPH:2]When you control a leader, you determine how your leader interacts with the world around him or her. Is the leader honest or shifty? Is the leader open, or paranoid? Is the leader aggressive or peaceful? It's up to you. When the computer controls a leader, the computer determines the leader's behavior. Often, the leader behaves like his or her historical counterparts - but don't count on it. Gandhi will USUALLY be peaceful and friendly, but he may from time to time turn out to be a warmongering backstabber. You have been warned![PARAGRAPH:2][H2]Leaders and Diplomacy[\H2][PARAGRAPH:2]A leader's personality and his or her interpretation of the current game situation will determine how the leader negotiates with you. Further, leaders have long memories; if you deal fairly with them, they'll remember it. And if you betray them, they'll remember that, as well. Check out [LINK=CONCEPT_DIPLOMACY]Diplomacy[\LINK] for more information on this topic.[PARAGRAPH:2][H2]Leader Traits[\H2][PARAGRAPH:2]Leaders in Civilization have "traits" which help determine the kind of civilization they are best at running. Each leader has two of the following traits:[PARAGRAPH:2][BOLD]Aggressive[\BOLD][PARAGRAPH:2]Free "Combat I" [LINK=CONCEPT_PROMOTIONS]Promotion[\LINK] for melee and gunpowder units.[PARAGRAPH:2][BOLD]Creative[\BOLD][PARAGRAPH:2]+2 [LINK=CONCEPT_CULTURE]Culture[\LINK] per city per turn.[PARAGRAPH:2][BOLD]Expansive[\BOLD][PARAGRAPH:2]+2 [LINK=CONCEPT_HEALTH]Health Points[\LINK] per city.[PARAGRAPH:2][BOLD]Financial[\BOLD][PARAGRAPH:2]+1 [LINK=CONCEPT_COMMERCE]Commerce[\LINK] on any squares which normally produce two or more commerce.[PARAGRAPH:2][BOLD]Industrious[\BOLD][PARAGRAPH:2]+50%% [LINK=CONCEPT_WONDER]Wonder[\LINK] production.[PARAGRAPH:2][BOLD]Organized[\BOLD][PARAGRAPH:2]-50%% [LINK=CONCEPT_CIVICS]Civic Upkeep[\LINK] cost.[PARAGRAPH:2][BOLD]Philosophical[\BOLD][PARAGRAPH:2]+100%% [LINK=CONCEPT_GREAT_PEOPLE]Great Person[\LINK] birth rate.[PARAGRAPH:2][BOLD]Spiritual[\BOLD][PARAGRAPH:2]No anarchy from changing civics.[PARAGRAPH:2]Each trait also allows civilizations that possess it to construct some buildings at double speed; for example, leaders with the Philosophical trait build [LINK=BUILDING_UNIVERSITY]Universities[\LINK] twice as fast.[PARAGRAPH:2][H2]Leader List[\H2][PARAGRAPH:2]Check out the [LINK=LEADER_ALEXANDER]Leader List[\LINK] for a complete list of the leaders in Civilization IV, their game traits, and historical backgrounds.[PARAGRAPH:2]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[H1]领袖[\H1][PARAGRAPH:2]在游戏中，每个文明有一位或两位领袖。在开始新游戏时，你先要选择一个文明；如果文明有两位领袖，则需要再选择一位代表你的领袖。每个电脑控制的文明也由一位领袖所领导。[PARAGRAPH:2][H2]领袖的个性[\H2][PARAGRAPH:2]当你控制某一位领袖时，就由你决定其对待周遭世界的方式和态度。这位领袖是诚实守信还是狡诈善变？是宽宏大度还是独断偏执？是强悍好斗还是热爱和平？一切都由你决定。当电脑控制一位领袖时，则由电脑决定其行为方式。通常，电脑领袖会的行为方式会与其历史原型保持一致——但并不保证如此。例如甘地——通常来说——会是爱好和平，温和友善的，但有时他也会变成一位笑里藏刀的战争狂。你要警惕这一点![PARAGRAPH:2][H2]领袖与外交[\H2][PARAGRAPH:2]领袖的个性及其对游戏形势的判断会影响其同你进行谈判时的态度和意图。此外，领袖们的记性都很好；如果你同他们进行公平的交易，他们会记住。如果你背叛了他们，他们也会记住。相关详情见[LINK=CONCEPT_DIPLOMACY]外交[\LINK]一节。[PARAGRAPH:2][H2]领袖特质[\H2][PARAGRAPH:2]各文明的领袖拥有不同的“特质”，会影响其所领导文明的方方面面。每位领导人均拥有以下特质中的两种:[PARAGRAPH:2][BOLD]侵略成性[\BOLD][PARAGRAPH:2]肉搏单位和火器单位自动获得“格斗一级”[LINK=CONCEPT_PROMOTIONS]晋升[\LINK]。[PARAGRAPH:2][BOLD]崇尚创新[\BOLD][PARAGRAPH:2]每座城市每回合+2[LINK=CONCEPT_CULTURE]文化[\LINK]。[PARAGRAPH:2][BOLD]开拓进取[\BOLD][PARAGRAPH:2]每座城市+2[LINK=CONCEPT_HEALTH]健康[\LINK]。[PARAGRAPH:2][BOLD]擅长理财[\BOLD][PARAGRAPH:2]原有商业收入在2以上的区域+1[LINK=CONCEPT_COMMERCE]商业[\LINK]。[PARAGRAPH:2][BOLD]勤奋刻苦[\BOLD][PARAGRAPH:2]+50%%[LINK=CONCEPT_WONDER]奇观[\LINK]建造速度。[PARAGRAPH:2][BOLD]组织严密[\BOLD][PARAGRAPH:2]-50%%[LINK=CONCEPT_CIVICS]内政法令[\LINK]经费。[PARAGRAPH:2][BOLD]富于思辨[\BOLD][PARAGRAPH:2]+100%%[LINK=CONCEPT_GREAT_PEOPLE]历史伟人[\LINK]出现几率。[PARAGRAPH:2][BOLD]虔信神灵[\BOLD][PARAGRAPH:2]改变内政法令时不经历无政府状态。[PARAGRAPH:2]此外每种特质还使相应文明建造某些建筑的速度加倍；例如，拥有富于思辨特质的领袖能使[LINK=BUILDING_UNIVERSITY]大学[\LINK]建造速度加倍。[PARAGRAPH:2][H2]领袖清单[\H2][PARAGRAPH:2]点击[LINK=LEADER_ALEXANDER]领袖清单[\LINK]查看文明IV中的所有领袖，性格特质以及历史背景介绍。[PARAGRAPH:2]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_CITIES_PEDIA_CORRECTED</Tag>
+		<English>[H1]Cities[\H1][PARAGRAPH:2]Cities are vital to your civilization's success. They allow you to build units, buildings and wonders. They allow you to gain wealth and research new technologies. They allow you to dominate terrain. Given this importance Cities are fairly complex entities, and a good deal of your time will be spent on their maintenance and management. You cannot win without powerful, well-situated cities.[PARAGRAPH:2][H2]Building Cities[\H2][PARAGRAPH:2]Cities are built by [LINK=UNIT_SETTLER]settler[\LINK] units. If the settler is in a place where a city can be built (see next), the "build city" action will appear in the settler's [LINK=CONCEPT_UNITS]order box[\LINK]. Simply click on build city and the settler will disappear, to be replaced by the new city. At this time you will also be given the opportunity to name the city. [PARAGRAPH:2][H2]Where to Build Cities[\H2][PARAGRAPH:2]A city's ultimate success or failure will depend greatly upon where it is constructed. Determining the best site is complex, and must take into account the availability of [LINK=CONCEPT_FOOD]food[\LINK], [LINK=CONCEPT_PRODUCTION]production[\LINK], [LINK=CONCEPT_COMMERCE]commerce[\LINK] and [LINK=CONCEPT_RESOURCES]resources[\LINK], your transportation network, and the proximity to friendly cities as well as to potential enemies. Though cities are usually sited to expand one's borders and to take the best advantage of local resources, a city may also be built for purely geopolitical reasons - to obstruct another civilization's expansion, for instance.[PARAGRAPH:2][BOLD]Where You Can't Build Cities [\BOLD][PARAGRAPH:2]Cities cannot be constructed within two spaces of another city. Cities cannot be constructed in impassable spaces. Cities cannot be built in another civilization's [LINK=CONCEPT_BORDERS]territory[\LINK].[PARAGRAPH:2] [BOLD]Tips for Finding Good City Sites[\BOLD][PARAGRAPH:2] Consider building cities in the following locations:[PARAGRAPH:2]On or near [LINK=CONCEPT_RESOURCES]resources[\LINK].[PARAGRAPH:2]On or near rivers.[PARAGRAPH:2]On coastlines, especially on the mouths of rivers or near aquatic (water) resources.[PARAGRAPH:2] Near a variety of terrain types, including hills and grassland.[PARAGRAPH:2]About 4 to 5 spaces away from your existing cities. (This allows each city to access all spaces within their "city radius" (see below) with little or no overlap.[PARAGRAPH:2]Astride chokepoints. (It's often extremely useful to build cities to block other civs' expansion.)[PARAGRAPH:2][H2]Capturing Cities[\H2][PARAGRAPH:2]You can capture barbarian cities or cities belonging to civilizations that you are at war with. To do so you must enter the city with a military unit; this usually involves destroying the enemy units defending the city. When you capture an enemy city you have the option of destroying the city or installing a new governor. If the city has a population size of 1 or no culture, you will automatically destroy the city. If you choose to destroy the city, it and everything it contains is done away with. If you choose to install a new governor, the captured city will usually go through several turns of  [LINK=CONCEPT_RESISTANCE]resistance[\LINK] before joining your civilization.[PARAGRAPH:2][H2]City Defenses[\H2][PARAGRAPH:2]Cities are defended from capture by the units inside them. Some units (see [LINK=UNIT_ARCHER]archers[\LINK]) get a defensive bonus (see [LINK=CONCEPT_COMBAT]combat[\LINK]) when defending inside cities; this makes them particularly good choices for garrisons.[PARAGRAPH:2]In addition to the military units, you can construct a number of [LINK=CONCEPT_BUILDINGS]buildings[\LINK] that enhance a city's defense: [LINK=BUILDING_WALLS]walls[\LINK], [LINK=BUILDING_CASTLE]castles[\LINK], and [LINK=BUILDING_BUNKER]bunkers[\LINK] , for example.[PARAGRAPH:2]Finally, a city with a high [LINK=CONCEPT_CULTURE]cultural value[\LINK] will give a defensive bonus to the units defending the city.[PARAGRAPH:2][H2]The City Screen[\H2][PARAGRAPH:2]To get to a city's city screen, double-click on the city on the main map. You can also hold down the Shift key and click the city to select it. The city screen contains a number of important elements to aid you in managing the city. (See the city screen diagram in the manual for more information on the city screen's layout.)[PARAGRAPH:2][BOLD]Unit List[\BOLD][PARAGRAPH:2]The unit list displays all of the units that currently occupy the city. You can activate a unit by clicking on its icon in this list.[PARAGRAPH:2][BOLD]City Production Display[\BOLD][PARAGRAPH:2]The city production display tells you what is currently being produced in the city and the number of turns until completion.[PARAGRAPH:2][BOLD]City Build Menu[\BOLD][PARAGRAPH:2]The city build menu contains all of the military units and buildings that can be constructed. You can change a city's current production by clicking on an item in the list. Buildings that appear greyed out have been unlocked but can not currently be built. Mouse over the grey building button to get popup help about why it can not be built.[PARAGRAPH:2][BOLD]City Management Menu[\BOLD][PARAGRAPH:2]The city management menu has a variety of functions. It allows you to "hurry" city [LINK=CONCEPT_PRODUCTION]production[\LINK] (if you have the appropriate civics). It allows you to "automate" your city's production (see the manual for details). It allows you to tell your city to emphasize [LINK=CONCEPT_FOOD]food[\LINK], [LINK=CONCEPT_PRODUCTION]production[\LINK], [LINK=CONCEPT_COMMERCE]commerce[\LINK], [LINK=CONCEPT_RESEARCH]research[\LINK], the creation of [LINK=CONCEPT_GREAT_PEOPLE]great people[\LINK], or force the governor to avoid growth.[PARAGRAPH:2][BOLD]Culture Display[\BOLD][PARAGRAPH:2]The culture display shows you how many [LINK=CONCEPT_CULTURE]culture points[\LINK] your city is generating. It also tells you what your city's current cultural "rank" is. The ranks are poor, fledgling, developing, refined, influential, and legendary.[PARAGRAPH:2][BOLD]City Building Roster[\BOLD][PARAGRAPH:2]The city building roster displays what buildings you have constructed in your city. The roster also displays how much culture, happiness, gold, production, and other assets the buildings provide. View the popup help for information on the special abilities the building performs.[PARAGRAPH:2][BOLD]City Cultural Defense Bonus[\BOLD][PARAGRAPH:2]This displays the cultural defense bonus your units get from the city.[PARAGRAPH:2][BOLD]City Nationality[\BOLD][PARAGRAPH:2]This displays the nationality breakdown of the city: what percentage of the population is your nationality, and what percentage is other nationalities. Cities with high foreign nationalities are more likely to [LINK=CONCEPT_RESISTANCE]revolt[\LINK] and "flip" to that nationality, and they suffer greater [LINK=CONCEPT_WAR_WEARINESS]war weariness[\LINK] unhappiness if you go to war against that nationality.[PARAGRAPH:2][BOLD]City Maintenance[\BOLD][PARAGRAPH:2]This displays the city's current [LINK=CONCEPT_MAINTENANCE]maintenance[\LINK] cost to your civilization.[PARAGRAPH:2][BOLD]Religion List[\BOLD][PARAGRAPH:2]This tells you what religions are present in the city, and what percentage of the population worships each.[PARAGRAPH:2]The following two bars are also located on the city bar that appears on the main map.[PARAGRAPH:2][BOLD]Food Bar[\BOLD][PARAGRAPH:2]This shows you how much food your city currently has in storage, and how long until the city's population expands.[PARAGRAPH:2][BOLD]Production Bar[\BOLD][PARAGRAPH:2]This shows you how much production your city currently has in storage, and how long the current production assignment will take.[PARAGRAPH:2][BOLD]Health and Happiness Displays[\BOLD][PARAGRAPH:2]These displays show you how [LINK=CONCEPT_HEALTH]healthy[\LINK] and [LINK=CONCEPT_HAPPINESS]happy[\LINK] your city is.[PARAGRAPH:2][BOLD]Trade Income List[\BOLD][PARAGRAPH:2]This displays any cities that this city is regularly trading with, and the income the city is getting from that trade.[PARAGRAPH:2][BOLD]Specialist Display[\BOLD][PARAGRAPH:2]This shows you if any of your population has been assigned to be a [LINK=CONCEPT_SPECIALISTS]specialist[\LINK] and how many specialist slots are still open.[PARAGRAPH:2][BOLD]Resource Box[\BOLD][PARAGRAPH:2]The [LINK=CONCEPT_RESOURCES]resource box[\LINK] displays what resources your city has access to - including local, national, and trade-based resources.[PARAGRAPH:2][BOLD]The City Map[\BOLD][PARAGRAPH:2]In the center of the city screen is the "city map." It displays your city in the center and the "city radius" - the area around your city that your city's population can work. (See below for more details on the city radius.) The map shows which of the squares are currently being worked - these are indicated by circles around the square.[PARAGRAPH:2]If given no particular orders, a city will assign its populace to work squares that provide it a balanced supply of commerce, food and production. You can change the city's priorities by clicking on entries in the [BOLD]City Management Menu[\BOLD] (see above). Clicking a circled city square stops the population from working the square and places them in the [BOLD]Specialist Display[\BOLD] as a [LINK=SPECIALIST_CITIZEN]citizen[\LINK]. If a citizen is available you can then click on any square in the [BOLD]city radius[\BOLD] to start working it. [PARAGRAPH:2][BOLD]City Radius[\BOLD][PARAGRAPH:2]As described above, the "city radius" represents the area around the city that the city's population can "work." When first created, a city radius consists of the city's square and the nine adjacent squares. When a city's culture grows enough to expand the city's [LINK=CONCEPT_BORDERS]borders[\LINK], the city's radius will expand as well. The radius expands one space in each direction, except the direct diagonal spaces, resulting in a "fat cross" shaped radius. (See the manual for a diagram.) [PARAGRAPH:2][BOLD]Foreign Borders and City Radii[\BOLD][PARAGRAPH:2]A nearby civilization's borders may extend into the squares that would normally be part of the city's radius. Spaces under foreign control cannot be worked and they are not part of a city radius.[PARAGRAPH:2][BOLD]We Love the King Day![\BOLD][PARAGRAPH:2]Cities of size 8 and higher which have no unhappy citizens and no food loss to health can enter "We Love the King Day!" from time to time. The effect is that the city pays no maintenance for one turn.[PARAGRAPH:2]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[H1]城市[\H1][PARAGRAPH:2]城市与你的文明之成败息息相关。城市可以建造单位，建筑物和奇观，为你赚取金钱，研究科技，控制地域。城市的地位非常重要，是一种相当复杂的实体，你会花大量的时间来维护和管理它们。没有强大的而位置良好的城市，就无法赢得胜利。[PARAGRAPH:2][H2]建立城市[\H2][PARAGRAPH:2]城市由[LINK=UNIT_SETTLER]移民[\LINK]建立。如果移民处在可以建立城市的地域（见下文），“建立城市”选项将出现在移民的[LINK=CONCEPT_UNITS]命令清单[\LINK]中。只需点击“建立城市”，移民就会消失，取而代之的是一座新的城市。这时你可以命名这座城市。[PARAGRAPH:2][H2]城市的选址[\H2][PARAGRAPH:2]一个城市最终的成败在很大程度上取决于建城的地点。决定最佳的地点需要考虑复杂的因素，要能取得[LINK=CONCEPT_FOOD]食物产出[\LINK]，[LINK=CONCEPT_PRODUCTION]工业产能[\LINK]，[LINK=CONCEPT_COMMERCE]商业收入[\LINK]和[LINK=CONCEPT_RESOURCES]奖励资源[\LINK]，你的交通网络，与友好城市和潜在敌人之间的距离。虽然城市通常位于能扩展国界和最大程度地从当地的资源中取得好处，但是一个城市的建立也可能出于纯粹的地理原因——例如为了阻碍其它文明的扩张。[PARAGRAPH:2][BOLD]不能建城的位置[\BOLD][PARAGRAPH:2]在距离其它城市两格之内不能建城。城市不能建在无法通行的地方，不能在其它文明的[LINK=CONCEPT_BORDERS]领土[\LINK]范围内建城。[PARAGRAPH:2][BOLD]寻找建城地点的小技巧[\BOLD][PARAGRAPH:2]考虑在以下位置建立城市:[PARAGRAPH:2]处于或邻近[LINK=CONCEPT_RESOURCES]资源[\LINK]。[PARAGRAPH:2]处于或临近河流。[PARAGRAPH:2]处于海滨，特别是河口或邻近水产资源。[PARAGRAPH:2]附近存在多种地形，包括丘陵和草原。[PARAGRAPH:2]距离你的现有城市4至5格。（这将允许每个城市各自取得“城市范围”（见下文）内的空间而不至相互重叠。[PARAGRAPH:2]控制战略要地。（在能阻止其他文明扩张的位置建立城市将非常有效.）[PARAGRAPH:2][H2]占领城市[\H2][PARAGRAPH:2]你可以占领野蛮人的城市，或你正与之交战的文明所拥有的城市。你必须有军事单位进入城市才能做到这一点；这通常需要消灭守城的敌军。当你占领一个敌人的城市时，你可以选择摧毁或者任命新市长。如果城市人口规模只有1或者没有文化积累，会自动被摧毁。如果选择摧毁城市，那么它和它所包括的一切都将不复存在。如果任命一位新市长，这个城市通需要经历数回合的[LINK=CONCEPT_RESISTANCE]抵抗[\LINK]才会融入你的文明。[PARAGRAPH:2][H2]城市防御[\H2][PARAGRAPH:2]城市凭借其中的单位抵御进攻者。某些单位（如[LINK=UNIT_ARCHER]弓手[\LINK]）在保卫城市时拥有防御加成（见[LINK=CONCEPT_COMBAT]战斗[\LINK]）；这使他们特别适用于守卫城市。[PARAGRAPH:2]除了军事单位，你可以修建各种[LINK=CONCEPT_BUILDINGS]建筑[\LINK]加强城防:[LINK=BUILDING_WALLS]城墙[\LINK]，[LINK=BUILDING_CASTLE]城堡[\LINK]，和[LINK=BUILDING_BUNKER]地堡[\LINK]等等。[PARAGRAPH:2]最后，拥有高[LINK=CONCEPT_CULTURE]文化值[\LINK]的城市可为守城单位提供防御奖励。[PARAGRAPH:2][H2]城市界面[\H2][PARAGRAPH:2]要进入城市界面,在大地图上双击城市即可。也可以按住Shift键并点击城市。城市界面包含了大量重要的信息，它可以帮助你管理城市。（查看手册中的城市界面图表了解详情.）[PARAGRAPH:2][BOLD]单位清单[\BOLD][PARAGRAPH:2]单位清单显示了当前驻扎在城市中的所有单位。你可通过点击它在清单中的图标来激活一个单位。[PARAGRAPH:2][BOLD]城市生产信息[\BOLD][PARAGRAPH:2]城市生产信息告诉你当前城市正在建设的项目以及完成项目所需要的回合数。[PARAGRAPH:2][BOLD]城市建设菜单[\BOLD][PARAGRAPH:2]城市建设菜单包含了所有你可以建设的军事单位和建筑物，可以通过点击菜单中的选项来改变当前的生产。呈灰色的建筑物表明你可能建造但目前无法建造。把鼠标移动到灰色建筑上弹出的帮助信息会告诉你不能建造的原因。[PARAGRAPH:2][BOLD]城市管理菜单[\BOLD][PARAGRAPH:2]城市管理菜单有多种功能。它允许你“加速”城市[LINK=CONCEPT_PRODUCTION]建设[\LINK]（如果实行相应的内政法令）。它允许你“自动”管理城市建设（查看手册了解详情）。它允许你命令城市专注于[LINK=CONCEPT_FOOD]食物[\LINK]，[LINK=CONCEPT_PRODUCTION]工业[\LINK]，[LINK=CONCEPT_COMMERCE]商业[\LINK]，[LINK=CONCEPT_RESEARCH]科研[\LINK]，产生[LINK=CONCEPT_GREAT_PEOPLE]历史伟人[\LINK]，或命令市长避免人口成长。[PARAGRAPH:2][BOLD]文化信息[\BOLD][PARAGRAPH:2]文化信息告诉你城市所积累的[LINK=CONCEPT_CULTURE]文化点数[\LINK]。它也告诉你城市当前的文化“等级”。城市文化分贫乏可怜，初步成形，正在发展，精致优雅，影响深远以及辉煌永恒六个等级。[PARAGRAPH:2][BOLD]城市建筑选项[\BOLD][PARAGRAPH:2]城市建筑选项显示城市中所有你已经建造的建筑物。它也显示文化值，快乐度，金钱，生产和建筑提供的其它效果。查看弹出的浮动提示了解各建筑的作用。[PARAGRAPH:2][BOLD]城市文化的防御奖励[\BOLD][PARAGRAPH:2]这显示你的单位从城市文化等级所获得的防御奖励。[PARAGRAPH:2][BOLD]城市的民族构成[\BOLD][PARAGRAPH:2]它显示了城市居民的民族构成：总人口多少属于本民族，多少属于其他民族。如果城市的外来民族过多，就容易[LINK=CONCEPT_RESISTANCE]暴乱[\LINK]并“叛离”到其他文明，并在与该文明发生战争时增加因[LINK=CONCEPT_WAR_WEARINESS]厌战情绪[\LINK]而导致的不满。[PARAGRAPH:2][BOLD]城市维护费[\BOLD][PARAGRAPH:2]这显示了你的文明为城市所支出的[LINK=CONCEPT_MAINTENANCE]维护费[\LINK]。[PARAGRAPH:2][BOLD]宗教清单[\BOLD][PARAGRAPH:2]这显示城市中现有的宗教，以及各宗教信徒所占人口比例。[PARAGRAPH:2]下面的两个信息栏也同时会在大地图的城市信息栏中显示。[PARAGRAPH:2][BOLD]食物信息栏[\BOLD][PARAGRAPH:2]这显示当前积存的食物，以及城市将在多久之后再次成长。[PARAGRAPH:2][BOLD]生产信息栏[\BOLD][PARAGRAPH:2]这显示了当前积累的工业产能，以及城市将在多久之后完成当前工程。[PARAGRAPH:2][BOLD]健康度与快乐度信息[\BOLD][PARAGRAPH:2]这显示城市的[LINK=CONCEPT_HEALTH]健康[\LINK]和[LINK=CONCEPT_HAPPINESS]快乐[\LINK]程度。[PARAGRAPH:2][BOLD]贸易收入清单[\BOLD][PARAGRAPH:2]显示所有与你贸易的城市，以及从贸易中获得的收入。[PARAGRAPH:2][BOLD]专业人员信息[\BOLD][PARAGRAPH:2]这显示你的人口中有多少转化为[LINK=CONCEPT_SPECIALISTS]专业人员[\LINK]以及还有多少可用专业人员空位。[PARAGRAPH:2][BOLD]资源列表[\BOLD][PARAGRAPH:2][LINK=CONCEPT_RESOURCES]资源列表[\LINK]显示城市获取的资源，包括本地的，本国的和来自于贸易的资源。[PARAGRAPH:2][BOLD]城市地图[\BOLD][PARAGRAPH:2]城市界面的中央是“城市地图.”显示城市及其“城市范围”——即城市人口可以工作的区域范围。（城市范围详情见下文.）地图显示正在工作的区域——以圆环标示的方格。[PARAGRAPH:2]如果没有特别的指令，城市人口工作的区域会平均化地提供商业，食物和工业产出。你可以点击[BOLD]城市管理菜单[\BOLD]（见上文）中的选项调整城市的专注目标。点击一个圆环标示的区域将终止人口在其上工作，并将该人口移至[BOLD]专业人员信息[\BOLD]成为[LINK=SPECIALIST_CITIZEN]普通市民[\LINK]。如果有可用市民，点击[BOLD]城市范围[\BOLD]内的空白区域使其开始在区域中工作。[PARAGRAPH:2][BOLD]城市范围[\BOLD][PARAGRAPH:2]如上文所述，“城市范围”代表城市周围可由城市居民“工作”的地方，在初建时，城市范围包括城市所在方格及周围相邻的九个方格。随着城市文化的积累，城市的[LINK=CONCEPT_BORDERS]边界[\LINK]将逐渐扩张，城市范围随之扩展。城市半径每次扩大一格，对角线方向除外，最终形成一个“胖十字架”形的范围。（查看手册了解详情.）[PARAGRAPH:2][BOLD]国家边界与城市范围[\BOLD][PARAGRAPH:2]邻近文明的边界可能扩展到原属城市范围的区域。处于外国控制下的区域将不能工作，不再属于城市范围。[PARAGRAPH:2][BOLD]我们爱国王日![\BOLD][PARAGRAPH:2]规模8或更大的城市如果没有不满的市民，也没有因缺乏食物而降低健康度，将不时举行“我们爱国王日!”活动。其作用是免除城市在该回合的维护费。[PARAGRAPH:2]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_2</Tag>
+		<English>How typical. Let's hear your brilliant idea then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不出所料。那么就说说你有什么好主意吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_1</Tag>
+		<English>The %s1:2 are a threat to us all. Please join us in wiping them out.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1:2对我们所有人都是一个威胁。让我们一起消灭他吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_2</Tag>
+		<English>Care to assist us in destroying the evil %s1:2?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿意协助我们消灭邪恶的%s1:2吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_3</Tag>
+		<English>Greetings, [CT_NAME]. The annoying %s1:2 must be destroyed, don't you agree?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]。讨厌的%s1:2必须被消灭，你同意吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_4</Tag>
+		<English>[CT_NAME]: we urgently request mighty [CT_CIV_SHORT]'s assistance in our crusade against the %s1:2!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]：我们迫切地请求强大的[CT_CIV_SHORT]协助我们进行对%s1:2的讨伐！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_5</Tag>
+		<English>The treacherous %s1:2 must be punished for their offences against civilization, [CT_NAME]! I assume we can count on your assistance?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>邪恶的%s1:2必须因其对世界文明的冒犯而受到惩罚，[CT_NAME]！我们能够期待得到你的帮助吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_6</Tag>
+		<English>The nasty %s1:2 are plotting against us all, [CT_NAME]! Let us destroy them together!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>讨厌的%s1:2正在策划一个针对我们所有人的阴谋，[CT_NAME]！让我们一起消灭他们！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_STOP_TRADING_1</Tag>
+		<English>It can no longer be tolerated - we demand that you cancel your deals with the vile %s1:2!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们再也无法忍受了——我们要求你立刻停止同邪恶的%s1:2进行贸易！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AMERICA_ADJECTIVE</Tag>
+		<English>
+			<Text>American:Americans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>美国:美国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARABIA_ADJECTIVE</Tag>
+		<English>
+			<Text>Arabian:Arabs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>阿拉伯:阿拉伯</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_AZTEC_ADJECTIVE</Tag>
+		<English>
+			<Text>Aztec:Aztecs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>阿兹特克:阿兹特克</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHINA_ADJECTIVE</Tag>
+		<English>
+			<Text>Chinese:Chinese</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>中国:中国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_EGYPT_ADJECTIVE</Tag>
+		<English>
+			<Text>Egyptian:Egyptians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>埃及:埃及</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ENGLAND_ADJECTIVE</Tag>
+		<English>
+			<Text>English:English</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>英国:英国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_FRANCE_ADJECTIVE</Tag>
+		<English>
+			<Text>French:French</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>法国:法国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GERMANY_ADJECTIVE</Tag>
+		<English>
+			<Text>German:Germans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>德国:德国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GREECE_ADJECTIVE</Tag>
+		<English>
+			<Text>Greek:Greeks</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>希腊:希腊</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INCA_ADJECTIVE</Tag>
+		<English>
+			<Text>Incan:Incas</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>印加:印加</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDIA_ADJECTIVE</Tag>
+		<English>
+			<Text>Indian:Indians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>印度:印度</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_JAPAN_ADJECTIVE</Tag>
+		<English>
+			<Text>Japanese:Japanese</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>日本:日本</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MALI_ADJECTIVE</Tag>
+		<English>
+			<Text>Malinese:Mali</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>马里:马里</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MONGOL_ADJECTIVE</Tag>
+		<English>
+			<Text>Mongolian:Mongols</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>蒙古:蒙古</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_PERSIA_ADJECTIVE</Tag>
+		<English>
+			<Text>Persian:Persians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>波斯:波斯</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ROME_ADJECTIVE</Tag>
+		<English>
+			<Text>Roman:Romans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>罗马:罗马</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
+		<English>
+			<Text>Russian:Russians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>俄国:俄国</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SPAIN_ADJECTIVE</Tag>
+		<English>
+			<Text>Spanish:Spanish</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>西班牙:西班牙</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MINOR_ADJECTIVE</Tag>
+		<English>
+			<Text>Minor:Minors</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>小邦:小邦</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Tag>
+		<English>
+			<Text>Barbarian:Barbarians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>
+			<Text>蛮族:蛮族</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BYZANTINE_ADJECTIVE</Tag>
+		<English>Byzantine:Byzantines</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>拜占庭:拜占庭</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_VIKING_ADJECTIVE</Tag>
+		<English>Viking:Vikings</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>维京:维京</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_LEGAL_LINE_1</Tag>
+		<English>&#169;2006 Firaxis Games, Inc. All Rights Reserved. Manufactured and marketed by Take Two Interactive, New York, NY.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>&#169;Firaxis 游戏公司版权所有. Take Two 交互娱乐公司代理发行. 塞爱维·文明联盟俱乐部完全汉化,</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ATG_DESCRIPTION</Tag>
+		<English>The year is 336 BC and your father, Phillip II of Macedon, has been assassinated leaving the Empire of Greece in your hands. The people of Greece are rebellious to your rule and have little faith in an unproven leader. Darius, the Ruler of Persia, will be the perfect test to prove your worth and is the first step towards fulfilling your goal of conquest of the entire known world. So take hold of the reigns and find your destiny!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在是公元前336年，您的父亲——马其顿国王腓力二世刚刚遇刺，整个希腊帝国将由您来统治。希腊人对您的统治充满反抗情绪，不相信您会成为一位出色的领袖。波斯的统治者大流士是您证明自己能力的理想试金石，也是您实现征服整个已知世界的梦想的第一步。所以就请您立即下达东征的命令吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROR_DESCRIPTION</Tag>
+		<English>The year is 300BC. The civilizations surrounding the Mediterranean Sea; Rome, Carthage, Greece, and Egypt, nervously attempt to establish borders and trade routes. Meanwhile the clannish Celts attempt to nurture their fledgling civilization and gain unity.  Each civilization is only looking to establish peace and gain dominance of the Mediterranean. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在是公元前300年，地中海周边诸文明：罗马、迦太基、希腊和埃及均在努力扩张领土、发展贸易。与此同时，仍处于松散部族状态下的凯尔特也正逐步趋向统一。每个文明的最终目标都是控制整个地中海地区。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VI_DESCRIPTION</Tag>
+		<English>The year is 800 AD and you are the Viking King, Ragnar Lodbrok. The chill of the long winter bites into your fingers as you look over your fleet longships. These boats will take you across the cold sea to your raiding destination. Do you raid for the money to provide for your children and people? Surely. Do you raid to prove yourself before your god?  Possibly. Do you raid for the adventure? Definitely!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在是公元800年，你将扮演维京人的领袖雷格那·罗德布洛克。你注视着你的庞大舰队，漫长冬季的凛冽寒风刺痛了你的手指。这些战船将载着你们穿越茫茫大海向着目标前进。这次远征是否是为了给你的子民带来财富？当然！这次远征是否是为了向你崇拜的神灵证明自己？或许！这次远征是否是为了追求冒险的刺激？没错！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CARRIES_IRRIGATION</Tag>
+		<English>[ICON_BULLET]Carries [LINK=CONCEPT_IRRIGATION]Irrigation[\LINK]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[ICON_BULLET]可以提供[LINK=CONCEPT_IRRIGATION]灌溉[\LINK]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_IRRIGATED_YIELD</Tag>
+		<!-- %s1 = TXT_KEY_IMPROVEMENT -->
+		<English>%s1: %D2%F3 (with [LINK=CONCEPT_IRRIGATION]Irrigation[\LINK])</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1: %D2%F3 (需要[LINK=CONCEPT_IRRIGATION]灌溉[\LINK])</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SPREAD_IRRIGATION</Tag>
+		<English>[ICON_BULLET][LINK=IMPROVEMENT_FARM]Farms[\LINK] Spread [LINK=CONCEPT_IRRIGATION]Irrigation[\LINK]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[ICON_BULLET][LINK=IMPROVEMENT_FARM]农场[\LINK]可以提供[LINK=CONCEPT_IRRIGATION]灌溉[\LINK]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_WITH_IRRIGATION</Tag>
+		<English>[SPACE]with [LINK=CONCEPT_IRRIGATION]Irrigation[\LINK]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[SPACE]需要[LINK=CONCEPT_IRRIGATION]灌溉[\LINK]</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HANGING_GARDEN_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Hanging Gardens[COLOR_REVERT] improves the health of your cities and adds an additional population point in them. It increases the odds of its city generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_BUILDING_TEXT]空中花园[COLOR_REVERT]可提升所有城市的健康度并额外增加1单位人口。并增加所在城市产生[COLOR_UNIT_TEXT]大工程师[COLOR_REVERT]的几率。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_SETTINGS</Tag>
+		<English>Settings</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>设置</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_RECON</Tag>
+		<English>Recon Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>侦察单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ARCHER</Tag>
+		<English>Archery Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>投射单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_MELEE</Tag>
+		<English>Melee Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>肉搏单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_GUN</Tag>
+		<English>Gunpowder Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>火器单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_HELICOPTER</Tag>
+		<English>Helicopter Units</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>旋翼飞机</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BARBARIAN_HORDE_SCREEN_NEW_UNITS</Tag>
+		<English>NEW UNITS</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>新单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BARBARIAN_HORDE_SCREEN_EXISTING_UNITS</Tag>
+		<English>EXISTING UNITS</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现有单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BARBARIAN_HORDE_SCREEN_AVAILABLE_UNITS</Tag>
+		<English>AVAILABLE UNITS</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可选单位</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_ELECTION</Tag>
+		<!-- %s1 = Player name   -->
+		<English>Election triggered by %s1</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1触发选举</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP</Tag>
+		<English>Increased Barbarian activity and aggressiveness</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>提高蛮族活跃度及攻击性</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_VASSAL_STATES_HELP</Tag>
+		<English>Disable Vassal State Treaties, which ensure a weaker civilization protection against a stronger rival</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>禁用附庸条约，附庸条约可使弱小文明得到宗主保护免受他国侵略</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_GOODY_HUTS_HELP</Tag>
+		<English>Random map generator does not place any tribal villages ("goody huts") on the map</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生成随机地图时不放置任何部落村庄（“蘑菇房”）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_TEXT3</Tag>
+		<English>%s1_leader the %s2_rank</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1_leader - %s2_rank</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PILLAGE_HELP</Tag>
+		<English>The unit destroys an improvement or route in the tile it occupies.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位摧毁当地的设施或道路</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DRAFT</Tag>
+		<English>Draft</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强制征召</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_MESSAGE_HIT</Tag>
+		<English>%[s1_CivName]'s %[s2_UnitName] is hit for %[d3_damage] (%[d4]/%[d5]HP)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%[s1_CivName]的%[s2_UnitName]受损%[d3_damage] (%[d4]/%[d5]生命值)</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_2</Tag>
+		<English>Not until every last [CT_CIV_ADJ] warrior is ground into dust!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>除非最后一位[CT_CIV_ADJ]战士也血洒疆场！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_FOUNDED_IN</Tag>
+		<English>Founded in %s1_DateStr</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>建立: %s1_DateStr</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SCORE_BREAKDOWN</Tag>
+		<English>%d1 from Population (%d2_pop/%d3_pop_max)[NEWLINE]%d4 from Land (%d5_land/%d6_land_max)[NEWLINE]%d7 from Technology (%d8_tech/%d9_tech_max)[NEWLINE]%d10 from Wonders (%d11_wonder/%d12_wonder_max)[NEWLINE]------------------------[NEWLINE]Total Score = %d13[NEWLINE]Score by winning this turn = %d14</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%d1 来自人口 (%d2_pop/%d3_pop_max)[NEWLINE]%d4 来自领土 (%d5_land/%d6_land_max)[NEWLINE]%d7 来自科技 (%d8_tech/%d9_tech_max)[NEWLINE]%d10 来自奇观 (%d11_wonder/%d12_wonder_max)[NEWLINE]------------------------[NEWLINE]总分 = %d13[NEWLINE]本回合胜利得分 = %d14</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FREE_MARKET</Tag>
+		<English>Free Market</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>自由市场</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
+		<English>No spread of non-state religion; new units receive free experience points in cities with state religion</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>禁止非官方信仰传播；信奉官方信仰的城市新组建单位可获得额外经验点数</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PITBOSS_TEAM</Tag>
+		<English>Team</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>组队</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SYSTEM_TEAM</Tag>
+		<English>Team</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>组队</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAIN_MENU_ABOUT_CIV4</Tag>
+		<English>About Warlords</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>关于战争之王</Chinese>
+	</TEXT>
+</Civ4GameText>

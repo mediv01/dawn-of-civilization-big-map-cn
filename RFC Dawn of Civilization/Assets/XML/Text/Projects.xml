@@ -1,59 +1,59 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_FRAMING</Tag>
 		<English>Mars Framing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÅ©³¡</Chinese>
+		<Chinese>ç«æ˜Ÿå†œåœº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_STATEGIC_DEFENSE_INITIATIVE</Tag>
 		<English>Strategic Defense Initiative</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ½ÂÔ·ÀÓù¼Æ»®</Chinese>
+		<Chinese>æˆ˜ç•¥é˜²å¾¡è®¡åˆ’</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_DOCKING_BAY_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]SS Docking Bay[COLOR_REVERT] is required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐèÒªÊ¹ÓÃ[COLOR_PROJECT_TEXT]SS¶Ô½Ó¼Ü[COLOR_REVERT]²ÅÄÜ´ïµ½[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£</Chinese>
+		<Chinese>éœ€è¦ä½¿ç”¨[COLOR_PROJECT_TEXT]SSå¯¹æŽ¥æž¶[COLOR_REVERT]æ‰èƒ½è¾¾åˆ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_BALLISTIC_MISSILE</Tag>
 		<English>Ballistic Missile</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¯µÀµ¼µ¯</Chinese>
+		<Chinese>å¼¹é“å¯¼å¼¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_CONTROL_CENTER</Tag>
 		<English>Mars Control Center</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇ¿ØÖÆÖÐÐÄ</Chinese>
+		<Chinese>ç«æ˜ŸæŽ§åˆ¶ä¸­å¿ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MAN_IN_SPACE</Tag>
 		<English>Man in Space</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì«¿ÕÈË</Chinese>
+		<Chinese>å¤ªç©ºäºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]Apollo Program[COLOR_REVERT] is required to create the [COLOR_PROJECT_TEXT]SS Cockpit[COLOR_REVERT], [COLOR_PROJECT_TEXT]SS Life Support[COLOR_REVERT], [COLOR_PROJECT_TEXT]SS Stasis Chamber[COLOR_REVERT], [COLOR_PROJECT_TEXT]SS Docking Bay[COLOR_REVERT], [COLOR_PROJECT_TEXT]SS Engines[COLOR_REVERT], [COLOR_PROJECT_TEXT]SS Casings[COLOR_REVERT] and [COLOR_PROJECT_TEXT]SS Thrusters[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓÃÓÚ½¨ÔìÌ«¿Õ·É´¬×é¼þ¡£</Chinese>
+		<Chinese>ç”¨äºŽå»ºé€ å¤ªç©ºé£žèˆ¹ç»„ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_GLOBAL_POSITIONING_SYSTEM</Tag>
 		<English>Global Positioning System</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>È«Çò¶¨Î»ÏµÍ³</Chinese>
+		<Chinese>å…¨çƒå®šä½ç³»ç»Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_LABORATORY</Tag>
 		<English>Mars Laboratory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÊµÑéÊÒ</Chinese>
+		<Chinese>ç«æ˜Ÿå®žéªŒå®¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_</Tag>
@@ -65,174 +65,174 @@
 		<Tag>TXT_KEY_PROJECT_GOLDEN_RECORD</Tag>
 		<English>Golden Record</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ð³ªÆ¬</Chinese>
+		<Chinese>é»„é‡‘å”±ç‰‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_PERSECUTION_HELP</Tag>
 		<English>[ICON_BULLET]Removes one non-state religion from this city[NEWLINE][ICON_BULLET]Causes temporary disorder and unhappiness</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]´ÓÕâ×ù³ÇÊÐÖÐÒÆ³ý·Ç¹Ù·½×Ú½Ì[NEWLINE][ICON_BULLET]Õâ½«µ¼ÖÂÅÑÂÒºÍ²»Âú</Chinese>
+		<Chinese>[ICON_BULLET]ä»Žè¿™åº§åŸŽå¸‚ä¸­ç§»é™¤éžå®˜æ–¹å®—æ•™[NEWLINE][ICON_BULLET]è¿™å°†å¯¼è‡´å›ä¹±å’Œä¸æ»¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_HUMAN_GENOME_PROJECT_HELP</Tag>
 		<English>[ICON_BULLET]+1[ICON_FOOD] for [LINK=literal]Town[\LINK]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+1[ICON_FOOD]ÓÃÓÚ[LINK=literal]Õò[\LINK]</Chinese>
+		<Chinese>[ICON_BULLET]+1[ICON_FOOD]ç”¨äºŽ[LINK=literal]é•‡[\LINK]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_THE_INTERNET_HELP</Tag>
 		<English>[ICON_BULLET]+1[ICON_COMMERCE] per Specialist</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+1[ICON_COMMERCE] Ã¿¸ö×¨¼Ò</Chinese>
+		<Chinese>[ICON_BULLET]+1[ICON_COMMERCE] æ¯ä¸ªä¸“å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_INTERNATIONAL_SPACE_STATION_HELP</Tag>
 		<English>[ICON_BULLET]+2[ICON_GREATPEOPLE] for Satellites</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+2[ICON_GREATPEOPLE] ÓÃÓÚÎÀÐÇ</Chinese>
+		<Chinese>[ICON_BULLET]+2[ICON_GREATPEOPLE] ç”¨äºŽå«æ˜Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_LUNAR_COLONY_HELP</Tag>
 		<English>[ICON_BULLET]+2[ICON_PRODUCTION] for Satellites</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+2[ICON_PRODUCTION] ÓÃÓÚÎÀÐÇ</Chinese>
+		<Chinese>[ICON_BULLET]+2[ICON_PRODUCTION] ç”¨äºŽå«æ˜Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_HABITAT</Tag>
 		<English>Mars Habitat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÆÜÏ¢µØ</Chinese>
+		<Chinese>ç«æ˜Ÿæ –æ¯åœ°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_INTERSTELLAR_PROBE</Tag>
 		<English>Interstellar Probe</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐÇ¼ÊÌ½²âÆ÷</Chinese>
+		<Chinese>æ˜Ÿé™…æŽ¢æµ‹å™¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_LUNAR_LANDING</Tag>
 		<English>Lunar Landing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÇÔÂ</Chinese>
+		<Chinese>ç™»æœˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_PERSECUTION</Tag>
 		<English>Persecution</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÉóÅÐ</Chinese>
+		<Chinese>å®—æ•™å®¡åˆ¤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_INTERNATIONAL_SPACE_STATION</Tag>
 		<English>International Space Station</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ú¼Ê¿Õ¼äÕ¾</Chinese>
+		<Chinese>å›½é™…ç©ºé—´ç«™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_ENGINE_STRATEGY</Tag>
 		<English>[COLOR_PROJECT_TEXT]SS Engines[COLOR_REVERT] are required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition. They also increase the speed of the spaceship.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_PROJECT_TEXT]SSÒýÇæ[COLOR_REVERT]ÐèÒª´ïµ½[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£ËüÃÇ»¹Ìá¸ßÁËÓîÖæ·É´¬µÄËÙ¶È¡£</Chinese>
+		<Chinese>[COLOR_PROJECT_TEXT]SSå¼•æ“Ž[COLOR_REVERT]éœ€è¦è¾¾åˆ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚å®ƒä»¬è¿˜æé«˜äº†å®‡å®™é£žèˆ¹çš„é€Ÿåº¦ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_STASIS_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]SS Stasis Chamber[COLOR_REVERT] is required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐèÒªÊ¹ÓÃ[COLOR_PROJECT_TEXT]SS Station Chamber[COLOR_REVERT]À´ÊµÏÖ[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£</Chinese>
+		<Chinese>éœ€è¦ä½¿ç”¨[COLOR_PROJECT_TEXT]SS Station Chamber[COLOR_REVERT]æ¥å®žçŽ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_EXTRACTOR</Tag>
 		<English>Mars Extractor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÌáÈ¡Æ÷</Chinese>
+		<Chinese>ç«æ˜Ÿæå–å™¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SDI_STRATEGY</Tag>
 		<English>[COLOR_PROJECT_TEXT]SDI[COLOR_REVERT] gives a fifty percent chance of intercepting nukes.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>+75%%¼¸ÂÊÀ¹½Ø[COLOR_UNIT_TEXT]Õ½ÂÔµ¼µ¯[COLOR_REVERT]¡£</Chinese>
+		<Chinese>+75%%å‡ çŽ‡æ‹¦æˆª[COLOR_UNIT_TEXT]æˆ˜ç•¥å¯¼å¼¹[COLOR_REVERT]ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_HUMAN_GENOME_PROJECT</Tag>
 		<English>Human Genome Project</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈËÀà»ùÒò×é¼Æ»®</Chinese>
+		<Chinese>äººç±»åŸºå› ç»„è®¡åˆ’</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_MISSION</Tag>
 		<English>Mission to Mars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÈÎÎñ</Chinese>
+		<Chinese>ç«æ˜Ÿä»»åŠ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_HYDROPONICS</Tag>
 		<English>Mars Hydroponics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇË®Åà</Chinese>
+		<Chinese>ç«æ˜Ÿæ°´åŸ¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MARS_POWER_SOURCE</Tag>
 		<English>Mars Power Source</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ðÐÇÄÜÔ´</Chinese>
+		<Chinese>ç«æ˜Ÿèƒ½æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_LUNAR_COLONY</Tag>
 		<English>Lunar Colony</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÇòÖ³ÃñµØ</Chinese>
+		<Chinese>æœˆçƒæ®–æ°‘åœ°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_FIRST_SATELLITE</Tag>
 		<English>First Satellite</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÚÒ»¿ÅÎÀÐÇ</Chinese>
+		<Chinese>ç¬¬ä¸€é¢—å«æ˜Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_HUMAN_GENOME_PROJECT_IMPROVEMENT_HELP</Tag>
 		<English>[ICON_BULLET]+1[ICON_FOOD] with [LINK=literal]Human Genome Project[\LINK]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+1[ICON_FOOD]ºÍ[LINK=literal]ÈËÀà»ùÒò×é¼Æ»®[\LINK]</Chinese>
+		<Chinese>[ICON_BULLET]+1[ICON_FOOD]å’Œ[LINK=literal]äººç±»åŸºå› ç»„è®¡åˆ’[\LINK]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_CASING_STRATEGY</Tag>
 		<English>[COLOR_PROJECT_TEXT]SS Casings[COLOR_REVERT] are required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition. Increases the chance of a successful mission for the spaceship.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_PROJECT_TEXT]SSÍâ¿Ç[COLOR_REVERT]ÐèÒª´ïµ½[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£Ôö¼Ó·É´¬³É¹¦Ö´ÐÐÈÎÎñµÄ»ú»á¡£</Chinese>
+		<Chinese>[COLOR_PROJECT_TEXT]SSå¤–å£³[COLOR_REVERT]éœ€è¦è¾¾åˆ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚å¢žåŠ é£žèˆ¹æˆåŠŸæ‰§è¡Œä»»åŠ¡çš„æœºä¼šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_COCKPIT_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]SS Cockpit[COLOR_REVERT] is required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐèÒªÊ¹ÓÃ[COLOR_PROJECT_TEXT]SS¼ÝÊ»²Õ[COLOR_REVERT]À´ÊµÏÖ[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£</Chinese>
+		<Chinese>éœ€è¦ä½¿ç”¨[COLOR_PROJECT_TEXT]SSé©¾é©¶èˆ±[COLOR_REVERT]æ¥å®žçŽ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_THE_INTERNET_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]Internet[COLOR_REVERT] grants all technologies that are already discovered by 2 known civilizations.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½¨ÔìÕß×Ô¶¯»ñµÃËùÓÐÒÑ±»Á½¸öÎÄÃ÷·¢ÏÖµÄ¿Æ¼¼¡£</Chinese>
+		<Chinese>å»ºé€ è€…è‡ªåŠ¨èŽ·å¾—æ‰€æœ‰å·²è¢«ä¸¤ä¸ªæ–‡æ˜Žå‘çŽ°çš„ç§‘æŠ€ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_GOLDEN_RECORD_HELP</Tag>
 		<English>[ICON_BULLET]+3[ICON_CULTURE] for Satellites[NEWLINE][ICON_BULLET]Half the spaceship production modifier also increases culture output</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]+3[ICON_CULTURE] ÎÀÐÇ[NEWLINE][ICON_BULLET]Ò»°ëµÄÓîÖæ·É´¬Éú²úÐÞÕýÒ²»áÔö¼ÓÎÄ»¯Êä³ö</Chinese>
+		<Chinese>[ICON_BULLET]+3[ICON_CULTURE] å«æ˜Ÿ[NEWLINE][ICON_BULLET]ä¸€åŠçš„å®‡å®™é£žèˆ¹ç”Ÿäº§ä¿®æ­£ä¹Ÿä¼šå¢žåŠ æ–‡åŒ–è¾“å‡º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_THRUSTERS_STRATEGY</Tag>
 		<English>[COLOR_PROJECT_TEXT]SS Thrusters[COLOR_REVERT] are required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition. They also increase the speed of the spaceship.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_PROJECT_TEXT]SSÍÆ½øÆ÷ÐèÒª[COLOR_REVERT]À´ÊµÏÖ[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£ËüÃÇ»¹Ìá¸ßÁËÓîÖæ·É´¬µÄËÙ¶È¡£</Chinese>
+		<Chinese>[COLOR_PROJECT_TEXT]SSæŽ¨è¿›å™¨éœ€è¦[COLOR_REVERT]æ¥å®žçŽ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚å®ƒä»¬è¿˜æé«˜äº†å®‡å®™é£žèˆ¹çš„é€Ÿåº¦ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_SPACE_LIFE_SUPPORT_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]SS Life Support[COLOR_REVERT] is required to achieve the [COLOR_HIGHLIGHT_TEXT]Space Race[COLOR_REVERT] victory condition.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐèÒª[COLOR_PROJECT_TEXT]SSÉúÃüÖ§³Ö[COLOR_REVERT]À´ÊµÏÖ[COLOR_HIGHLIGHT_TEXT]Ì«¿Õ¾ºÈü[COLOR_REVERT]µÄÊ¤ÀûÌõ¼þ¡£</Chinese>
+		<Chinese>éœ€è¦[COLOR_PROJECT_TEXT]SSç”Ÿå‘½æ”¯æŒ[COLOR_REVERT]æ¥å®žçŽ°[COLOR_HIGHLIGHT_TEXT]å¤ªç©ºç«žèµ›[COLOR_REVERT]çš„èƒœåˆ©æ¡ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY</Tag>
 		<English>The [COLOR_PROJECT_TEXT]Manhattan Project[COLOR_REVERT] is required to create [COLOR_PROJECT_TEXT]SDI[COLOR_REVERT]. It also allows you to construct [COLOR_UNIT_TEXT]ICBMs[COLOR_REVERT], [COLOR_UNIT_TEXT]Tactical Nukes[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Bomb Shelters[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓÐÍæ¼Ò¿É½¨Ôì[COLOR_UNIT_TEXT]Õ½ÂÔµ¼µ¯[COLOR_REVERT]Óë[COLOR_BUILDING_TEXT]·À¿Õ¶´[COLOR_REVERT]¡£</Chinese>
+		<Chinese>æ‰€æœ‰çŽ©å®¶å¯å»ºé€ [COLOR_UNIT_TEXT]æˆ˜ç•¥å¯¼å¼¹[COLOR_REVERT]ä¸Ž[COLOR_BUILDING_TEXT]é˜²ç©ºæ´ž[COLOR_REVERT]ã€‚</Chinese>
 	</TEXT>
 </Civ4GameText>

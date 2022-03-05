@@ -1,64 +1,64 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_ADJECTIVE</Tag>
 		<English>Mande</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里</Chinese>
+		<Chinese>椹噷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_DESC</Tag>
 		<English>The Mandinka</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里文明</Chinese>
+		<Chinese>椹噷鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_SHORT_DESC</Tag>
 		<English>Mali</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里</Chinese>
+		<Chinese>椹噷</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_FASCIST</Tag>
 		<English>Military Committee of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军事委员会</Chinese>
+		<Chinese>%s1鍐涗簨濮斿憳浼�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SONGHAI_SHORT_DESC</Tag>
 		<English>Songhai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>桑海</Chinese>
+		<Chinese>妗戞捣</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SONGHAI_DEFAULT</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2帝国</Chinese>
+		<Chinese>%s2甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_PEOPLES</Tag>
 		<English>Mandinka Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里人</Chinese>
+		<Chinese>椹噷浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_DEFAULT</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>%s1甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SONGHAI_ADJECTIVE</Tag>
 		<English>Songhai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>桑海</Chinese>
+		<Chinese>妗戞捣</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MALI_ADJECTIVE_OLD</Tag>
 		<English>Malinese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里</Chinese>
+		<Chinese>椹噷</Chinese>
 	</TEXT>
 </Civ4GameText>

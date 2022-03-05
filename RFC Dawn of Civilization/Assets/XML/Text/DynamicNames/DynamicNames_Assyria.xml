@@ -1,101 +1,101 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LOMBARDIA_DESC</Tag>
 		<English>The Lombardia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚÎÄÃ÷</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ASHUR</Tag>
 		<English>Ashurbanipal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÊö-°¢Ê²Â³Ã×ÅÁ¶û</Chinese>
+		<Chinese>äºšè¿°-é˜¿ä»€é²ç±³å¸•å°”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_AISTULF</Tag>
 		<English>Aistulf</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚ-Aistulf</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬-Aistulf</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_SHORT_DESC</Tag>
 		<English>Assyria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÊö</Chinese>
+		<Chinese>äºšè¿°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_DESC</Tag>
 		<English>The Assyrians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÊöÎÄÃ÷</Chinese>
+		<Chinese>äºšè¿°æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ASSYRIA_EKAL_PEDIA</Tag>
 		<English>[TAB]The armies of Assyria had permanent bases called ekal masharti, which literally means "palace of the place for marshalling forces", in effect, "barracks". These were buildings with large courtyards for army purposes. They stored weapons, food and stationed men in these barracks.[PARAGRAPH:1]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ÑÇÊöµÄ¾ü¶ÓÓĞÒ»¸öÓÀ¾ÃĞÔµÄ»ùµØ£¬½Ğ×ö°£¿¨¶û¡¤ÂíÉ³µÙ£¬×ÖÃæÒâË¼ÊÇ¡°¼¯½á¾ü¶ÓµÄ¹¬µî¡±£¬Êµ¼ÊÉÏÊÇ¡°±øÓª¡±¡£ÕâĞ©¶¼ÊÇ¾ü¶ÓÓÃµÄ´øÓĞ´óÍ¥ÔºµÄ½¨Öş¡£ËûÃÇÔÚÕâĞ©±øÓªÀï´¢´æÎäÆ÷¡¢Ê³ÎïºÍ×¤ÔúÈËÔ±[PARAGRAPH:1]</Chinese>
+		<Chinese>[TAB]äºšè¿°çš„å†›é˜Ÿæœ‰ä¸€ä¸ªæ°¸ä¹…æ€§çš„åŸºåœ°ï¼Œå«åšåŸƒå¡å°”Â·é©¬æ²™è’‚ï¼Œå­—é¢æ„æ€æ˜¯â€œé›†ç»“å†›é˜Ÿçš„å®«æ®¿â€ï¼Œå®é™…ä¸Šæ˜¯â€œå…µè¥â€ã€‚è¿™äº›éƒ½æ˜¯å†›é˜Ÿç”¨çš„å¸¦æœ‰å¤§åº­é™¢çš„å»ºç­‘ã€‚ä»–ä»¬åœ¨è¿™äº›å…µè¥é‡Œå‚¨å­˜æ­¦å™¨ã€é£Ÿç‰©å’Œé©»æ‰äººå‘˜[PARAGRAPH:1]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_ADJECTIVE</Tag>
 		<English>Assyria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÊö</Chinese>
+		<Chinese>äºšè¿°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ASS</Tag>
 		<English>Reduced Unit keep cost</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼õÉÙ¾üÊÂµ¥Î»Î¬»¤·Ñ</Chinese>
+		<Chinese>å‡å°‘å†›äº‹å•ä½ç»´æŠ¤è´¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_PEOPLES</Tag>
 		<English>Assyria Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÊöÈË</Chinese>
+		<Chinese>äºšè¿°äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LOMBARD_DEFAULT</Tag>
 		<English>Kingdom of Lombard</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚÍõ¹ú</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LOMBARD</Tag>
 		<English>Kingdom of Lombard</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚÍõ¹ú</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ASS_TITLE</Tag>
 		<English>The Power of Militarism:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Õ½¶·Ãñ×å£º</Chinese>
+		<Chinese>æˆ˜æ–—æ°‘æ—ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASSYRIA_PEDIA</Tag>
 		<English>[TAB]Assyria was an ancient empire of W Asia. It developed around the city of Ashur, or Assur, on the upper Tigris River and south of the later capital, Nineveh.[PARAGRAPH:1]The nucleus of a Semitic state was forming by the beginning of the 3d millennium B.C., but it was overshadowed by the greatness of Sumer and Akkad. Ashur was Assyria's chief god, but the gods of the Babylonians and Hittites were also honored. In the 17th cent. B.C., Assyria expanded briefly, but it soon relapsed into weakness. The 13th cent. B.C. saw Assyria threatening the surrounding states, and under Tiglathpileser I Assyrian soldiers entered the kingdom centered about Urartu, took Babylonia, and crossed N Syria to reach the Mediterranean. This empire was, however, only ephemeral.[PARAGRAPH:1]Assyrian greatness was to wait until the 9th cent., when Ashurnasirpal II came into power. He was not only a vigorous and barbarously cruel conqueror who pushed his conquests N to Urartu and W to Lebanon and the Mediterranean, but he was also a shrewd administrator. Instead of merely making conquered kings pay tribute, he installed Assyrian governors so that he could have more control over the empire.[PARAGRAPH:1]Shalmaneser III attempted to continue this policy, but, although he exacted heavy tribute from Jehu of Israel and claimed many victories, he failed to establish hegemony over the Hebrews and their Aramaic-speaking allies. The basalt obelisk, called the Black Obelisk (British Mus.), describes the expeditions and conquests of Shalmaneser III. Raids from Urartu were resumed and grew more destructive after the death of Shalmaneser. Calah, the capital of Assyria during the reigns of Ashurnasirpal II and Shalmaneser III, has been excavated.[PARAGRAPH:1]In the 8th cent. B.C. conquest was pursued by Tiglathpileser III. He subdued Babylonia, defeated the king of Urartu, attacked the Medes, and established control over Syria. As an ally of Ahaz of Judah (who became his vassal), he defeated his Aramaic-speaking enemies centering at Damascus. His successor, Shalmaneser V, besieged Samaria, the capital of Israel, in 722-721 B.C., but it was Sargon, his son, who completed the task of capturing Israel. Sargon's victory at Raphia (720 B.C.) and his invasions of Armenia, Arabia, and other lands made Assyria indisputably one of the greatest of ancient empires.[PARAGRAPH:1]Sargon's son Sennacherib devoted himself to retaining the gains his father had made. He is particularly remembered for his warfare against his rebellious vassal, Hezekiah of Judah. Sennacherib's successor, Esar-Haddon, defeated the Chaldaeans, who threatened Assyria and carried his conquests (673-670) to Egypt, where he deposed Taharka and established Necho in power. Under Assurbanipal, Assyria reached its zenith and approached its fall. When Assurbanipal was fighting against the Chaldaeans and Elamites, an Egyptian revolt under Psamtik I was successful.[PARAGRAPH:1]Assurbanipal's reign saw the Assyrian capital of Nineveh reach the height of its splendor. The library of cuneiform tablets he collected ultimately proved to be one of the most important historical sources of antiquity. The magnificent Assyrian bas-reliefs reached their peak. The royal court was luxurious. Assyrian culture owed much to earlier Babylonian civilization, and in religion Assyria seems to have taken much from its southern neighbor and subject.[PARAGRAPH:1]Despite the magnificence of Assurbanipal's court, Assyria began a rapid decline during his reign. The military aspect of the empire was its most prominent feature, for Assyria was prepared for conflict from beginning to end. Because of the ever-present need for men to fight the incessant battles, agriculture suffered, and ultimately the Assyrians had to import food. The division of society into a fairly rigid three-class system was not unlike that of other early western Asian peoples (e.g., Babylonia), but it did not supply a solid base for the overgrown Assyrian state.[PARAGRAPH:1]The lavish expenditures of Assurbanipal on warfare and building drained the resources of the empire and contributed to its weakness. The king of the Medes, Cyaxares, and the Babylonian ruler Nabopolassar, joined forces and took Nineveh in 612 B.C. Under the son of Nabopolassar, Nebuchadnezzar, Babylonia was renewed in power, and the great-grandson of Cyaxares, Cyrus the Great, was to establish the Persian Empire, which owed much to the earlier Assyrian state.[PARAGRAPH:1]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ÑÇÊöÊÇÎ÷ÑÇµÄÒ»¸ö¹ÅÀÏµÛ¹ú¡£ËüÊÇÔÚµ×¸ñÀïË¹ºÓÉÏÓÎºÍºóÀ´µÄÊ×¶¼ÄáÄáÎ¢ÒÔÄÏµÄÑÇÊæ¶ûÊĞ»ò°¢Êæ¶ûÊĞÖÜÎ§·¢Õ¹ÆğÀ´µÄ[PARAGRAPH:1]Ò»¸öÉÁÃ×ÌØ¹ú¼ÒµÄºËĞÄÔÚ¹«ÔªÇ°3Ç§Äê¿ªÊ¼ĞÎ³É£¬µ«Ëü±»ËÕÃÀ¶ûºÍ°¢¿¨µÂµÄÎ°´óËùÑÚ¸Ç¡£ÑÇÊöµÄÖ÷ÉñÊÇÑÇÊö£¬µ«°Í±ÈÂ×ÈËºÍºÕÈËµÄÉñÒ²ÊÜ×ğ³ç¡£¹«ÔªÇ°17ÊÀ¼Í£¬ÑÇÊöÔø¶ÌÔİÀ©ÕÅ£¬µ«ºÜ¿ìÓÖÏİÈëË¥Èõ¡£¹«ÔªÇ°13ÊÀ¼Í£¬¿´µ½ÑÇÊöÍşĞ²×ÅÖÜÎ§µÄ¹ú¼Ò£¬ÔÚÌá¸ñÀ­ÌØÆ¤À³ÈûÒ»ÊÀµÄÁìµ¼ÏÂ£¬ÑÇÊöÊ¿±ø½øÈëÒÔÎÚÀ­¶ûÍ¼ÎªÖĞĞÄµÄÍõ¹ú£¬Õ¼Áì°Í±ÈÂ×ÄáÑÇ£¬Ô½¹ıĞğÀûÑÇ±±²¿µ½´ïµØÖĞº£¡£È»¶ø£¬Õâ¸öµÛ¹úÖ»ÊÇê¼»¨Ò»ÏÖ[PARAGRAPH:1]ÑÇÊöÈËµÄÎ°´óÊÇÒªµÈµ½µÚ¾Å·ÖÇ®£¬ÄÇÊ±ÑÇÊöÈËÑÇÊöÈËÕÆÈ¨¡£Ëû²»½öÊÇÒ»¸ö³äÂú»îÁ¦ºÍÒ°Âù²ĞÈÌµÄÕ÷·şÕß£¬°ÑËûµÄÕ÷·ş±±ÍÆµ½ÎÚÀ­¶ûÍ¼£¬Î÷µ½Àè°ÍÄÛºÍµØÖĞº££¬¶øÇÒËû»¹ÊÇÒ»¸ö¾«Ã÷µÄ¹ÜÀíÕß¡£Ëû²»½öÈÃ±»Õ÷·şµÄ¹úÍõ½ø¹±£¬»¹ÈÎÃüÁËÑÇÊö×Ü¶½£¬ÒÔ±ã¶ÔµÛ¹úÓĞ¸ü¶àµÄ¿ØÖÆÈ¨[PARAGRAPH:1]É³ÀÕÂüÒÔÉ«ÈıÊÀÊÔÍ¼¼ÌĞøÕâÒ»Õş²ß£¬µ«ÊÇ£¬¾¡¹ÜËûÏòÒÔÉ«ÁĞµÄÒ®»§Ë÷È¡ÁË´óÁ¿µÄ¹±Æ·£¬²¢È¡µÃÁËĞí¶àÊ¤Àû£¬ËûÃ»ÓĞ½¨Á¢Æğ¶ÔÏ£²®À´ÈËºÍËûÃÇµÄÑÇÀ­Ä·ÓïÃËÓÑµÄ°ÔÈ¨¡£ĞşÎäÑÒ·½¼â±®£¬±»³ÆÎªºÚ·½¼â±®£¨²»ÁĞµßÄÂË¹£©£¬ÃèÊöÁËÉ³ÀÕÂüÄÚÉªÈıÊÀµÄÌ½ÏÕºÍÕ÷·ş¡£´ÓÎÚÀ­¶ûÍ¼·¢¶¯µÄÍ»Ï®ÔÚÉ³ÀÕÂüÄÚÔóËÀºó»Ö¸´£¬ÆÆ»µÁ¦Ô½À´Ô½´ó¡£°¢À­£¬ÑÇÊöÊ×¶¼ÑÇÊöÔÚÑÇÊöµÄÊ×¶¼ÑÇÊöÔÚÑÇÊöµÄÑÇÊöÔÚÑÇÊöµÄÊ×¶¼ÑÇÊöÔÚÑÇÊöµÄÊ×¶¼ÑÇÊöÔÚÑÇÊöÑÇÊöµÄÊ×¶¼ÑÇÊöÔÚÑÇÊöÑÇÊöÑÇÊöÑÇÊöÑÇÊöÔÚÑÇÊöÑÇÊöÑÇÊöÑÇÊöÑÇÊöÔÚÑÇÊöÑÇÊöÑÇÊöÑÇÊöÑÇÊöÑÇÊöÑÇÊöÊ×¶¼¿¨À­[PARAGRAPH:1]¹«ÔªÇ°8ÊÀ¼Í£¬Õ÷·ş±»Ìá¸ñÀ­ÌØÆ¤À³ÈûÈıÊÀ×·Çó¡£ËûÕ÷·şÁË°Í±ÈÂ×ÄáÑÇ£¬´ò°ÜÁËÎÚÀ­¶ûÍ¼¹úÍõ£¬¹¥»÷ÁËÃ×´úÈË£¬²¢½¨Á¢ÁË¶ÔĞğÀûÑÇµÄ¿ØÖÆ¡£×÷ÎªÓÌ´óÑÇ¹şË¹µÄÃËÓÑ£¨ÑÇ¹şË¹³ÉÁËËûµÄ¸½Ó¹£©£¬Ëû´ò°ÜÁËÒÔ´óÂíÊ¿¸ïÎªÖĞĞÄËµÑÇÀ¼ÓïµÄµĞÈË¡£ËûµÄ¼ÌÈÎÕßÉ³ÀÕÂüÄÚÉªÎåÊÀÔÚ¹«ÔªÇ°722-721Äê°üÎ§ÁËÒÔÉ«ÁĞÊ×¶¼ÈöÂíÀûÑÇ£¬µ«Íê³ÉÕ¼ÁìÒÔÉ«ÁĞÈÎÎñµÄÊÇËûµÄ¶ù×ÓÈø¶û¹±¡£Èø¶û¹±ÔÚÀ­ì³ÑÇ£¨¹«ÔªÇ°720Äê£©µÄÊ¤ÀûºÍËû¶ÔÑÇÃÀÄáÑÇ¡¢°¢À­²®ºÍÆäËû¹ú¼ÒµÄÈëÇÖ£¬Ê¹ÑÇÊö³ÉÎª×îÎ°´óµÄ¹Å´úµÛ¹úÖ®Ò»[PARAGRAPH:1]Èø¶û¹±µÄ¶ù×ÓÈûÄÉÇĞÀï²¼ÖÂÁ¦ÓÚ±£ÁôËû¸¸Ç×ËùÈ¡µÃµÄ³É¾Í¡£ËûÒòÓëËûµÄÅÑÄæ¸½Ó¹£¬ÓÌ´óµÄÏ£Î÷¼ÒÕùÕ½¶ø±»ÈË¼ÇÄî¡£Î÷ÄÃ»ùÁ¢µÄ¼ÌÈÎÕßÒÔÈö¹ş¶Ù»÷°ÜÁËÍşĞ²ÑÇÊöµÄåÈÀÕµ×ÈË£¬²¢½«ËûµÄÕ÷·ş£¨673-670Äê£©´øµ½°£¼°£¬ÔÚÄÇÀïËû·Ï÷íÁËËş¹ş¿¨£¬½¨Á¢ÁËÄá¿ÆÕÆÈ¨¡£ÔÚ°¢Êæ°ÍÄáÅÁ¶ûµÄÍ³ÖÎÏÂ£¬ÑÇÊö´ïµ½ÁË¶¥·å£¬²¢½Ó½üË¥Âä¡£µ±°¢Êæ°ÍÄáÅÁ¶ûÓëåÈÀÕµ×ÈËºÍ°£À¼ÈË×÷Õ½Ê±£¬ÔÚ¡¶Ê«Æª¡·Ò»ÊÀÍ³ÖÎÏÂµÄ°£¼°ÆğÒåÊÇ³É¹¦µÄ[PARAGRAPH:1]°¢Êæ°ÍÄáÅÁ¶ûÍ³ÖÎÆÚ¼ä£¬ÑÇÊöÊ×¶¼ÄáÄáÎ¢´ïµ½ÁË»Ô»ÍµÄ¶¥·å¡£ËûËùÊÕ¼¯µÄĞ¨ĞÎÊ¯°åÍ¼Êé¹İ×îÖÕ±»Ö¤Ã÷ÊÇ¹Å´ú×îÖØÒªµÄÀúÊ·À´Ô´Ö®Ò»¡£ºêÎ°µÄÑÇÊöÇ³¸¡µñ´ïµ½ÁË¶¥·å¡£»Ê¼Ò¹¬Í¢ºÜºÀ»ª¡£ÑÇÊöÎÄ»¯ÔÚºÜ´ó³Ì¶ÈÉÏÒª¹é¹¦ÓÚÔçÆÚµÄ°Í±ÈÂ×ÎÄÃ÷£¬ÔÚ×Ú½ÌÉÏ£¬ÑÇÊöËÆºõ´ÓËüµÄÄÏ²¿ÁÚ¹úºÍ³¼ÃñÄÇÀïµÃµ½ÁËºÜ¶à¶«Î÷[PARAGRAPH:1]¾¡¹Ü°¢Êæ°ÍÄáÅÁ¶ûµÄ¹¬Í¢¸»ÀöÌÃ»Ê£¬ÑÇÊöÔÚËûµÄÍ³ÖÎÆÚ¼ä¿ªÊ¼Ñ¸ËÙË¥Âä¡£µÛ¹úµÄ¾üÊÂ·½ÃæÊÇÆä×îÍ»³öµÄÌØµã£¬ÒòÎªÑÇÊö×ÔÊ¼ÖÁÖÕ¶¼ÔÚÎª³åÍ»×öºÃ×¼±¸¡£ÒòÎªÒ»Ö±ÒÔÀ´¶¼ĞèÒªÈËÈ¥´ò²»¶ÏµÄÕ½Õù£¬Å©ÒµÔâÊÜÁËËğÊ§£¬×îÖÕÑÇÊöÈË²»µÃ²»½ø¿ÚÁ¸Ê³¡£Éç»á±»»®·ÖÎªÒ»¸öÏàµ±ÑÏ¸ñµÄÈı½×¼¶ÖÆ¶È£¬ÕâÓëÆäËûÔçÆÚÎ÷ÑÇÈË£¨Èç°Í±ÈÂ×ÄáÑÇ£©µÄÉç»á»®·ÖÃ»ÓĞÊ²Ã´²»Í¬£¬µ«Ëü²¢Ã»ÓĞÎªÕâ¸ö¹ı¶È·¢Õ¹µÄÑÇÊö¹ú¼ÒÌá¹©¼áÊµµÄ»ù´¡[PARAGRAPH:1]°¢Êæ°ÍÄáÅÁ¶ûÔÚÕ½ÕùºÍ½¨ÖşÉÏµÄ¾Ş¶î¿ªÖ§ºÄ¾¡ÁËµÛ¹úµÄ×ÊÔ´£¬Ò²µ¼ÖÂÁËµÛ¹úµÄË¥Èõ¡£¹«ÔªÇ°612Äê£¬Âê´ú¹úÍõÑÇ¿ËÈøÀ×Ë¹ºÍ°Í±ÈÂ×Í³ÖÎÕßÄÉ²¨ÅÁÀ­Èø¶ûÁªÊÖ¹¥Õ¼ÄáÄáÎ¢¡£ÔÚÄÉ²¨À­ÈøµÄ¶ù×ÓÄá²¼¼×ÄáÈöµÄÁìµ¼ÏÂ£¬°Í±ÈÂ×ÄáÑÇÖØĞÂÕÆÈ¨£¬¶ø¹ÅÈøÀ×Ë¹µÄÔøËï¾ÓÂ³Ê¿´óµÛÒª½¨Á¢²¨Ë¹µÛ¹ú£¬ÕâÔÚºÜ´ó³Ì¶ÈÉÏÒª¹é¹¦ÓÚÔçÆÚµÄÑÇÊö¹ú¼Ò[PARAGRAPH:1]</Chinese>
+		<Chinese>[TAB]äºšè¿°æ˜¯è¥¿äºšçš„ä¸€ä¸ªå¤è€å¸å›½ã€‚å®ƒæ˜¯åœ¨åº•æ ¼é‡Œæ–¯æ²³ä¸Šæ¸¸å’Œåæ¥çš„é¦–éƒ½å°¼å°¼å¾®ä»¥å—çš„äºšèˆ’å°”å¸‚æˆ–é˜¿èˆ’å°”å¸‚å‘¨å›´å‘å±•èµ·æ¥çš„[PARAGRAPH:1]ä¸€ä¸ªé—ªç±³ç‰¹å›½å®¶çš„æ ¸å¿ƒåœ¨å…¬å…ƒå‰3åƒå¹´å¼€å§‹å½¢æˆï¼Œä½†å®ƒè¢«è‹ç¾å°”å’Œé˜¿å¡å¾·çš„ä¼Ÿå¤§æ‰€æ©ç›–ã€‚äºšè¿°çš„ä¸»ç¥æ˜¯äºšè¿°ï¼Œä½†å·´æ¯”ä¼¦äººå’Œèµ«äººçš„ç¥ä¹Ÿå—å°Šå´‡ã€‚å…¬å…ƒå‰17ä¸–çºªï¼Œäºšè¿°æ›¾çŸ­æš‚æ‰©å¼ ï¼Œä½†å¾ˆå¿«åˆé™·å…¥è¡°å¼±ã€‚å…¬å…ƒå‰13ä¸–çºªï¼Œçœ‹åˆ°äºšè¿°å¨èƒç€å‘¨å›´çš„å›½å®¶ï¼Œåœ¨ææ ¼æ‹‰ç‰¹çš®è±å¡ä¸€ä¸–çš„é¢†å¯¼ä¸‹ï¼Œäºšè¿°å£«å…µè¿›å…¥ä»¥ä¹Œæ‹‰å°”å›¾ä¸ºä¸­å¿ƒçš„ç‹å›½ï¼Œå é¢†å·´æ¯”ä¼¦å°¼äºšï¼Œè¶Šè¿‡å™åˆ©äºšåŒ—éƒ¨åˆ°è¾¾åœ°ä¸­æµ·ã€‚ç„¶è€Œï¼Œè¿™ä¸ªå¸å›½åªæ˜¯æ˜™èŠ±ä¸€ç°[PARAGRAPH:1]äºšè¿°äººçš„ä¼Ÿå¤§æ˜¯è¦ç­‰åˆ°ç¬¬ä¹åˆ†é’±ï¼Œé‚£æ—¶äºšè¿°äººäºšè¿°äººæŒæƒã€‚ä»–ä¸ä»…æ˜¯ä¸€ä¸ªå……æ»¡æ´»åŠ›å’Œé‡è›®æ®‹å¿çš„å¾æœè€…ï¼ŒæŠŠä»–çš„å¾æœåŒ—æ¨åˆ°ä¹Œæ‹‰å°”å›¾ï¼Œè¥¿åˆ°é»å·´å«©å’Œåœ°ä¸­æµ·ï¼Œè€Œä¸”ä»–è¿˜æ˜¯ä¸€ä¸ªç²¾æ˜çš„ç®¡ç†è€…ã€‚ä»–ä¸ä»…è®©è¢«å¾æœçš„å›½ç‹è¿›è´¡ï¼Œè¿˜ä»»å‘½äº†äºšè¿°æ€»ç£ï¼Œä»¥ä¾¿å¯¹å¸å›½æœ‰æ›´å¤šçš„æ§åˆ¶æƒ[PARAGRAPH:1]æ²™å‹’æ›¼ä»¥è‰²ä¸‰ä¸–è¯•å›¾ç»§ç»­è¿™ä¸€æ”¿ç­–ï¼Œä½†æ˜¯ï¼Œå°½ç®¡ä»–å‘ä»¥è‰²åˆ—çš„è€¶æˆ·ç´¢å–äº†å¤§é‡çš„è´¡å“ï¼Œå¹¶å–å¾—äº†è®¸å¤šèƒœåˆ©ï¼Œä»–æ²¡æœ‰å»ºç«‹èµ·å¯¹å¸Œä¼¯æ¥äººå’Œä»–ä»¬çš„äºšæ‹‰å§†è¯­ç›Ÿå‹çš„éœ¸æƒã€‚ç„æ­¦å²©æ–¹å°–ç¢‘ï¼Œè¢«ç§°ä¸ºé»‘æ–¹å°–ç¢‘ï¼ˆä¸åˆ—é¢ ç©†æ–¯ï¼‰ï¼Œæè¿°äº†æ²™å‹’æ›¼å†…ç‘Ÿä¸‰ä¸–çš„æ¢é™©å’Œå¾æœã€‚ä»ä¹Œæ‹‰å°”å›¾å‘åŠ¨çš„çªè¢­åœ¨æ²™å‹’æ›¼å†…æ³½æ­»åæ¢å¤ï¼Œç ´ååŠ›è¶Šæ¥è¶Šå¤§ã€‚é˜¿æ‹‰ï¼Œäºšè¿°é¦–éƒ½äºšè¿°åœ¨äºšè¿°çš„é¦–éƒ½äºšè¿°åœ¨äºšè¿°çš„äºšè¿°åœ¨äºšè¿°çš„é¦–éƒ½äºšè¿°åœ¨äºšè¿°çš„é¦–éƒ½äºšè¿°åœ¨äºšè¿°äºšè¿°çš„é¦–éƒ½äºšè¿°åœ¨äºšè¿°äºšè¿°äºšè¿°äºšè¿°äºšè¿°åœ¨äºšè¿°äºšè¿°äºšè¿°äºšè¿°äºšè¿°åœ¨äºšè¿°äºšè¿°äºšè¿°äºšè¿°äºšè¿°äºšè¿°äºšè¿°é¦–éƒ½å¡æ‹‰[PARAGRAPH:1]å…¬å…ƒå‰8ä¸–çºªï¼Œå¾æœè¢«ææ ¼æ‹‰ç‰¹çš®è±å¡ä¸‰ä¸–è¿½æ±‚ã€‚ä»–å¾æœäº†å·´æ¯”ä¼¦å°¼äºšï¼Œæ‰“è´¥äº†ä¹Œæ‹‰å°”å›¾å›½ç‹ï¼Œæ”»å‡»äº†ç±³ä»£äººï¼Œå¹¶å»ºç«‹äº†å¯¹å™åˆ©äºšçš„æ§åˆ¶ã€‚ä½œä¸ºçŠ¹å¤§äºšå“ˆæ–¯çš„ç›Ÿå‹ï¼ˆäºšå“ˆæ–¯æˆäº†ä»–çš„é™„åº¸ï¼‰ï¼Œä»–æ‰“è´¥äº†ä»¥å¤§é©¬å£«é©ä¸ºä¸­å¿ƒè¯´äºšå…°è¯­çš„æ•Œäººã€‚ä»–çš„ç»§ä»»è€…æ²™å‹’æ›¼å†…ç‘Ÿäº”ä¸–åœ¨å…¬å…ƒå‰722-721å¹´åŒ…å›´äº†ä»¥è‰²åˆ—é¦–éƒ½æ’’é©¬åˆ©äºšï¼Œä½†å®Œæˆå é¢†ä»¥è‰²åˆ—ä»»åŠ¡çš„æ˜¯ä»–çš„å„¿å­è¨å°”è´¡ã€‚è¨å°”è´¡åœ¨æ‹‰æ–äºšï¼ˆå…¬å…ƒå‰720å¹´ï¼‰çš„èƒœåˆ©å’Œä»–å¯¹äºšç¾å°¼äºšã€é˜¿æ‹‰ä¼¯å’Œå…¶ä»–å›½å®¶çš„å…¥ä¾µï¼Œä½¿äºšè¿°æˆä¸ºæœ€ä¼Ÿå¤§çš„å¤ä»£å¸å›½ä¹‹ä¸€[PARAGRAPH:1]è¨å°”è´¡çš„å„¿å­å¡çº³åˆ‡é‡Œå¸ƒè‡´åŠ›äºä¿ç•™ä»–çˆ¶äº²æ‰€å–å¾—çš„æˆå°±ã€‚ä»–å› ä¸ä»–çš„å›é€†é™„åº¸ï¼ŒçŠ¹å¤§çš„å¸Œè¥¿å®¶äº‰æˆ˜è€Œè¢«äººè®°å¿µã€‚è¥¿æ‹¿åŸºç«‹çš„ç»§ä»»è€…ä»¥æ’’å“ˆé¡¿å‡»è´¥äº†å¨èƒäºšè¿°çš„è¿¦å‹’åº•äººï¼Œå¹¶å°†ä»–çš„å¾æœï¼ˆ673-670å¹´ï¼‰å¸¦åˆ°åŸƒåŠï¼Œåœ¨é‚£é‡Œä»–åºŸé»œäº†å¡”å“ˆå¡ï¼Œå»ºç«‹äº†å°¼ç§‘æŒæƒã€‚åœ¨é˜¿èˆ’å·´å°¼å¸•å°”çš„ç»Ÿæ²»ä¸‹ï¼Œäºšè¿°è¾¾åˆ°äº†é¡¶å³°ï¼Œå¹¶æ¥è¿‘è¡°è½ã€‚å½“é˜¿èˆ’å·´å°¼å¸•å°”ä¸è¿¦å‹’åº•äººå’ŒåŸƒå…°äººä½œæˆ˜æ—¶ï¼Œåœ¨ã€Šè¯—ç¯‡ã€‹ä¸€ä¸–ç»Ÿæ²»ä¸‹çš„åŸƒåŠèµ·ä¹‰æ˜¯æˆåŠŸçš„[PARAGRAPH:1]é˜¿èˆ’å·´å°¼å¸•å°”ç»Ÿæ²»æœŸé—´ï¼Œäºšè¿°é¦–éƒ½å°¼å°¼å¾®è¾¾åˆ°äº†è¾‰ç…Œçš„é¡¶å³°ã€‚ä»–æ‰€æ”¶é›†çš„æ¥”å½¢çŸ³æ¿å›¾ä¹¦é¦†æœ€ç»ˆè¢«è¯æ˜æ˜¯å¤ä»£æœ€é‡è¦çš„å†å²æ¥æºä¹‹ä¸€ã€‚å®ä¼Ÿçš„äºšè¿°æµ…æµ®é›•è¾¾åˆ°äº†é¡¶å³°ã€‚çš‡å®¶å®«å»·å¾ˆè±ªåã€‚äºšè¿°æ–‡åŒ–åœ¨å¾ˆå¤§ç¨‹åº¦ä¸Šè¦å½’åŠŸäºæ—©æœŸçš„å·´æ¯”ä¼¦æ–‡æ˜ï¼Œåœ¨å®—æ•™ä¸Šï¼Œäºšè¿°ä¼¼ä¹ä»å®ƒçš„å—éƒ¨é‚»å›½å’Œè‡£æ°‘é‚£é‡Œå¾—åˆ°äº†å¾ˆå¤šä¸œè¥¿[PARAGRAPH:1]å°½ç®¡é˜¿èˆ’å·´å°¼å¸•å°”çš„å®«å»·å¯Œä¸½å ‚çš‡ï¼Œäºšè¿°åœ¨ä»–çš„ç»Ÿæ²»æœŸé—´å¼€å§‹è¿…é€Ÿè¡°è½ã€‚å¸å›½çš„å†›äº‹æ–¹é¢æ˜¯å…¶æœ€çªå‡ºçš„ç‰¹ç‚¹ï¼Œå› ä¸ºäºšè¿°è‡ªå§‹è‡³ç»ˆéƒ½åœ¨ä¸ºå†²çªåšå¥½å‡†å¤‡ã€‚å› ä¸ºä¸€ç›´ä»¥æ¥éƒ½éœ€è¦äººå»æ‰“ä¸æ–­çš„æˆ˜äº‰ï¼Œå†œä¸šé­å—äº†æŸå¤±ï¼Œæœ€ç»ˆäºšè¿°äººä¸å¾—ä¸è¿›å£ç²®é£Ÿã€‚ç¤¾ä¼šè¢«åˆ’åˆ†ä¸ºä¸€ä¸ªç›¸å½“ä¸¥æ ¼çš„ä¸‰é˜¶çº§åˆ¶åº¦ï¼Œè¿™ä¸å…¶ä»–æ—©æœŸè¥¿äºšäººï¼ˆå¦‚å·´æ¯”ä¼¦å°¼äºšï¼‰çš„ç¤¾ä¼šåˆ’åˆ†æ²¡æœ‰ä»€ä¹ˆä¸åŒï¼Œä½†å®ƒå¹¶æ²¡æœ‰ä¸ºè¿™ä¸ªè¿‡åº¦å‘å±•çš„äºšè¿°å›½å®¶æä¾›åšå®çš„åŸºç¡€[PARAGRAPH:1]é˜¿èˆ’å·´å°¼å¸•å°”åœ¨æˆ˜äº‰å’Œå»ºç­‘ä¸Šçš„å·¨é¢å¼€æ”¯è€—å°½äº†å¸å›½çš„èµ„æºï¼Œä¹Ÿå¯¼è‡´äº†å¸å›½çš„è¡°å¼±ã€‚å…¬å…ƒå‰612å¹´ï¼Œç›ä»£å›½ç‹äºšå…‹è¨é›·æ–¯å’Œå·´æ¯”ä¼¦ç»Ÿæ²»è€…çº³æ³¢å¸•æ‹‰è¨å°”è”æ‰‹æ”»å å°¼å°¼å¾®ã€‚åœ¨çº³æ³¢æ‹‰è¨çš„å„¿å­å°¼å¸ƒç”²å°¼æ’’çš„é¢†å¯¼ä¸‹ï¼Œå·´æ¯”ä¼¦å°¼äºšé‡æ–°æŒæƒï¼Œè€Œå¤è¨é›·æ–¯çš„æ›¾å­™å±…é²å£«å¤§å¸è¦å»ºç«‹æ³¢æ–¯å¸å›½ï¼Œè¿™åœ¨å¾ˆå¤§ç¨‹åº¦ä¸Šè¦å½’åŠŸäºæ—©æœŸçš„äºšè¿°å›½å®¶[PARAGRAPH:1]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ASHUR_PEDIA</Tag>
 		<English>[H1]Ashurbanipal[\H1][NEWLINE][BOLD]King of Assyria[\BOLD][NEWLINE][BOLD]Lived: [\BOLD] c.685 - 627 BC[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]King Ashurbanipal was the ruler of ancient Assyria at the height of Assyrian military and cultural accomplishments and is considered to be the last great king of Assyria. He is known in Greek writings as Sardanapalus and as Asnappeer or Osnapper in the Bible.[PARAGRAPH:1]Through military conquests Ashurbanipal also expanded Assyrian territory and its number of vassal states. However, of far greater importance to posterity was Ashurbanipal's establishment of a great library in the city of Nineveh. The military and territorial gains made by this ruler barely outlived him but the Library he established has survived partially intact. A collection of 20,000 to 30,000 cuneiform tablets containing approximately 1,200 distinct texts remains for scholars to study today.[PARAGRAPH:1]Ashurbanipal's library was not the first library of its kind but it was one of the largest and one of the ones to survive to the present day. Most of it is now in the possession of the British Museum or the Iraq Department of Antiquities.[PARAGRAPH:1]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]°¢Ê²Â³Ã×ÅÁ¶û[\H1][NEWLINE][BOLD]ÑÇÊö¹úÍõ[\BOLD][NEWLINE][BOLD]Éú×äÄê·İ£º[\BOLD]¹«ÔªÇ°685-627Äê[NEWLINE][PARAGRAPH:2][BOLD]±³¾°£º[\BOLD][PARAGRAPH:1]°¢Ê²Â³Ã×ÄáÅÁ¶û¹úÍõÊÇ¹Å´úÑÇÊöµÄÍ³ÖÎÕß£¬ÔÚÑÇÊö¾üÊÂºÍÎÄ»¯³É¾ÍµÄ¶¦Ê¢Ê±ÆÚ£¬Ëû±»ÈÏÎªÊÇÑÇÊö×îºóÒ»Î»Î°´óµÄ¹úÍõ¡£ËûÔÚÏ£À°Öø×÷ÖĞ±»³ÆÎªÈöµ©ÄÇÅÁÀÕË¹£¬ÔÚÊ¥¾­ÖĞ±»³ÆÎªAsnappeer»òOsnapper[PARAGRAPH:1]Í¨¹ı¾üÊÂÕ÷·ş£¬°¢Ê²Â³Ã×ÄáÅÁ¶û»¹À©´óÁËÑÇÊöÁìÍÁ¼°Æä¸½Ó¹¹úµÄÊıÁ¿¡£È»¶ø£¬¶ÔºóÈËÀ´Ëµ¸üÎªÖØÒªµÄÊÇ°¢Ê²Â³Ã×ÅÁ¶ûÔÚÄáÄáÎ¢³Ç½¨Á¢ÁËÒ»¸ö´óÍ¼Êé¹İ¡£ÕâÎ»Í³ÖÎÕßÔÚ¾üÊÂºÍÁìÍÁÉÏËùÈ¡µÃµÄ³É¾Í¼¸ºõÃ»ÓĞ³¬¹ıËû£¬µ«Ëû½¨Á¢µÄÍ¼Êé¹İÈ´±£´æÍêºÃ¡£Ò»¸öÊÕ¼¯ÁË20000µ½30000Ğ¨ĞÎÎÄ×Ö°å£¬°üº¬´óÔ¼1200¸ö²»Í¬µÄÎÄ±¾£¬½ñÌìÁô¸øÑ§ÕßÃÇÑĞ¾¿[PARAGRAPH:1]°¢Ê²ÂüÄáÅÁ¶ûµÄÍ¼Êé¹İ²¢²»ÊÇµÚÒ»¸öÕâÑùµÄÍ¼Êé¹İ£¬µ«ËüÊÇ×î´óµÄÍ¼Êé¹İÖ®Ò»£¬Ò²ÊÇÏÖ´æÖÁ½ñµÄÍ¼Êé¹İÖ®Ò»¡£ËüÏÖÔÚÊÇÓ¢¹ú²©Îï¹İµÄ´ó²¿·Ö²ØÆ·[PARAGRAPH:1]</Chinese>
+		<Chinese>[H1]é˜¿ä»€é²ç±³å¸•å°”[\H1][NEWLINE][BOLD]äºšè¿°å›½ç‹[\BOLD][NEWLINE][BOLD]ç”Ÿå’å¹´ä»½ï¼š[\BOLD]å…¬å…ƒå‰685-627å¹´[NEWLINE][PARAGRAPH:2][BOLD]èƒŒæ™¯ï¼š[\BOLD][PARAGRAPH:1]é˜¿ä»€é²ç±³å°¼å¸•å°”å›½ç‹æ˜¯å¤ä»£äºšè¿°çš„ç»Ÿæ²»è€…ï¼Œåœ¨äºšè¿°å†›äº‹å’Œæ–‡åŒ–æˆå°±çš„é¼ç››æ—¶æœŸï¼Œä»–è¢«è®¤ä¸ºæ˜¯äºšè¿°æœ€åä¸€ä½ä¼Ÿå¤§çš„å›½ç‹ã€‚ä»–åœ¨å¸Œè…Šè‘—ä½œä¸­è¢«ç§°ä¸ºæ’’æ—¦é‚£å¸•å‹’æ–¯ï¼Œåœ¨åœ£ç»ä¸­è¢«ç§°ä¸ºAsnappeeræˆ–Osnapper[PARAGRAPH:1]é€šè¿‡å†›äº‹å¾æœï¼Œé˜¿ä»€é²ç±³å°¼å¸•å°”è¿˜æ‰©å¤§äº†äºšè¿°é¢†åœŸåŠå…¶é™„åº¸å›½çš„æ•°é‡ã€‚ç„¶è€Œï¼Œå¯¹åäººæ¥è¯´æ›´ä¸ºé‡è¦çš„æ˜¯é˜¿ä»€é²ç±³å¸•å°”åœ¨å°¼å°¼å¾®åŸå»ºç«‹äº†ä¸€ä¸ªå¤§å›¾ä¹¦é¦†ã€‚è¿™ä½ç»Ÿæ²»è€…åœ¨å†›äº‹å’Œé¢†åœŸä¸Šæ‰€å–å¾—çš„æˆå°±å‡ ä¹æ²¡æœ‰è¶…è¿‡ä»–ï¼Œä½†ä»–å»ºç«‹çš„å›¾ä¹¦é¦†å´ä¿å­˜å®Œå¥½ã€‚ä¸€ä¸ªæ”¶é›†äº†20000åˆ°30000æ¥”å½¢æ–‡å­—æ¿ï¼ŒåŒ…å«å¤§çº¦1200ä¸ªä¸åŒçš„æ–‡æœ¬ï¼Œä»Šå¤©ç•™ç»™å­¦è€…ä»¬ç ”ç©¶[PARAGRAPH:1]é˜¿ä»€æ›¼å°¼å¸•å°”çš„å›¾ä¹¦é¦†å¹¶ä¸æ˜¯ç¬¬ä¸€ä¸ªè¿™æ ·çš„å›¾ä¹¦é¦†ï¼Œä½†å®ƒæ˜¯æœ€å¤§çš„å›¾ä¹¦é¦†ä¹‹ä¸€ï¼Œä¹Ÿæ˜¯ç°å­˜è‡³ä»Šçš„å›¾ä¹¦é¦†ä¹‹ä¸€ã€‚å®ƒç°åœ¨æ˜¯è‹±å›½åšç‰©é¦†çš„å¤§éƒ¨åˆ†è—å“[PARAGRAPH:1]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LOMBARDIA_SHORT_DESC</Tag>
 		<English>Lombard</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚ</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ASSYRIA_EKAL</Tag>
@@ -107,6 +107,6 @@
 		<Tag>TXT_KEY_LOMBARDIA_ADJECTIVE</Tag>
 		<English>Lombard</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Â×°ÍµÚ</Chinese>
+		<Chinese>ä¼¦å·´ç¬¬</Chinese>
 	</TEXT>
 </Civ4GameText>

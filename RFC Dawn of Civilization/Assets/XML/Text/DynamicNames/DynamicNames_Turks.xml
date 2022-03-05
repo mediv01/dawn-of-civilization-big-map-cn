@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKIC_VASSAL</Tag>
 		<English>Atabeylik of %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s3¸½Êô¹ú</Chinese>
+		<Chinese>%s3é™„å±å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_TIMURID</Tag>
 		<English>Timurid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌûÄ¾¶ù</Chinese>
+		<Chinese>å¸–æœ¨å„¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_KHANATE_OF</Tag>
 		<English>Khanate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1º¹¹ú</Chinese>
+		<Chinese>%s1æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_RUM</Tag>
 		<English>Rum</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂŞÄ·</Chinese>
+		<Chinese>ç½—å§†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_</Tag>
@@ -35,114 +35,114 @@
 		<Tag>TXT_KEY_CIV_UZBEKS_DESC</Tag>
 		<English>The Uzbeks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÚ×È±ğ¿ËÎÄÃ÷</Chinese>
+		<Chinese>ä¹Œå…¹åˆ«å…‹æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_GREAT_EMPIRE</Tag>
 		<English>Great %s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´ó%s2µÛ¹ú</Chinese>
+		<Chinese>å¤§%s2å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_SHORT_DESC</Tag>
 		<English>Turkestan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊ</Chinese>
+		<Chinese>çªå¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_ADJECTIVE</Tag>
 		<English>Turkic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊ</Chinese>
+		<Chinese>çªå¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_KURULTAI</Tag>
 		<English>%s2 Kurultai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2-ºöÀïÀÕÌ¨</Chinese>
+		<Chinese>%s2-å¿½é‡Œå‹’å°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_PEOPLES</Tag>
-		<English>Í»ØÊÈË</English>
+		<English>çªå¥äºº</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊÈË</Chinese>
+		<Chinese>çªå¥äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_EASTERN_TURKIC</Tag>
 		<English>Eastern Turkic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶«Í»ØÊ</Chinese>
+		<Chinese>ä¸œçªå¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKESTAN_PEOPLES</Tag>
 		<English>Turkic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊÈË</Chinese>
+		<Chinese>çªå¥äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_SELJUK</Tag>
 		<English>Seljuk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èû¶ûÖù</Chinese>
+		<Chinese>å¡å°”æŸ±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_SHAYBANID</Tag>
 		<English>Shaybanid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Îô°àÄá</Chinese>
+		<Chinese>æ˜”ç­å°¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UZBEKS_SHORT_DESC</Tag>
 		<English>Uzbekistan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÚ×È±ğ¿Ë</Chinese>
+		<Chinese>ä¹Œå…¹åˆ«å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_KHAGANATE</Tag>
 		<English>%s2 Khaganate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2º¹¹ú</Chinese>
+		<Chinese>%s2æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_UZBEKISTAN</Tag>
 		<English>Uzbekistan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÚ×È±ğ¿ËË¹Ì¹</Chinese>
+		<Chinese>ä¹Œå…¹åˆ«å…‹æ–¯å¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKESTAN_FASCIST</Tag>
 		<English>Pan-Turkic Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ºÍ»ØÊµÛ¹ú</Chinese>
+		<Chinese>æ³›çªå¥å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UZBEKS_ADJECTIVE</Tag>
 		<English>Uzbek</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÚ×È±ğ¿Ë</Chinese>
+		<Chinese>ä¹Œå…¹åˆ«å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_WESTERN_TURKIC</Tag>
 		<English>Western Turkic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷Í»ØÊ</Chinese>
+		<Chinese>è¥¿çªå¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKESTAN_DEFAULT</Tag>
 		<English>%s2 Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2º¹¹ú</Chinese>
+		<Chinese>%s2æ±—å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_DESC</Tag>
 		<English>The Turks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ØÊÎÄÃ÷</Chinese>
+		<Chinese>çªå¥æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_UZBEK</Tag>
 		<English>Uzbek</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÚ×È±ğ¿Ë</Chinese>
+		<Chinese>ä¹Œå…¹åˆ«å…‹</Chinese>
 	</TEXT>
 </Civ4GameText>

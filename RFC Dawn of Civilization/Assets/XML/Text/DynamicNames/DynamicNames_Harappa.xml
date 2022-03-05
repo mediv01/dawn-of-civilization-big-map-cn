@@ -1,64 +1,64 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_DESC</Tag>
 		<English>The Harappans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹şÀ­ÅÁÎÄÃ÷</Chinese>
+		<Chinese>å“ˆæ‹‰å¸•æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPANS_ADJECTIVE</Tag>
 		<English>Harappan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹şÀ­ÅÁ</Chinese>
+		<Chinese>å“ˆæ‹‰å¸•</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPANS_SHORT_DESC</Tag>
 		<English>Harappa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹şÀ­ÅÁ</Chinese>
+		<Chinese>å“ˆæ‹‰å¸•</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_COMMUNIST</Tag>
 		<English>Democratic Republic of the Indus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈÃñÖ÷¹²ºÍ¹ú</Chinese>
+		<Chinese>å°åº¦æ°‘ä¸»å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_FASCIST</Tag>
 		<English>National Republic of the Indus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶È¹²ºÍ¹ú</Chinese>
+		<Chinese>å°åº¦å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_REPUBLIC</Tag>
 		<English>Indus River Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈºÓ¹²ºÍ¹ú</Chinese>
+		<Chinese>å°åº¦æ²³å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPANS_DESC</Tag>
 		<English>The Harappans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹şÀ­ÅÁÎÄÃ÷</Chinese>
+		<Chinese>å“ˆæ‹‰å¸•æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_PEOPLES</Tag>
 		<English>Indus Valley Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈºÓ¹şÀ­ÅÁÈË</Chinese>
+		<Chinese>å°åº¦æ²³å“ˆæ‹‰å¸•äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_INDUS</Tag>
 		<English>Indus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈºÓ</Chinese>
+		<Chinese>å°åº¦æ²³</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HARAPPA_DEFAULT</Tag>
 		<English>Indus Valley City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶ÈºÓ¹şÀ­ÅÁ³Ç°î</Chinese>
+		<Chinese>å°åº¦æ²³å“ˆæ‹‰å¸•åŸé‚¦</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_JAGUAR</Tag>
 		<English>Jaguar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀÖŞ±ª</Chinese>
+		<Chinese>ç¾æ´²è±¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_TRADE_GOLD_SPENT</Tag>
 		<English>Gold spent</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÑ»¨·Ñ½ğ±Ò</Chinese>
+		<Chinese>å·²èŠ±è´¹é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MUI_TITLE</Tag>
 		<English>The Power of Salt:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê³ÑÎÖ®Àû£º</Chinese>
+		<Chinese>é£Ÿç›ä¹‹åˆ©ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUISCA_FASCIST</Tag>
 		<English>Muisca Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨µÛ¹ú</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_PERCENT_STRING</Tag>
@@ -35,13 +35,13 @@
 		<Tag>TXT_KEY_UNIT_MUISCA_GUECHA_WARRIOR</Tag>
 		<English>Guecha Warrior</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸ñ²é¶û£¨Guecha£©ÓÂÊ¿</Chinese>
+		<Chinese>æ ¼æŸ¥å°”ï¼ˆGuechaï¼‰å‹‡å£«</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI2_MARATHON</Tag>
 		<English>Spend 6000 Gold in diplomacy by 1540 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1540ÄêÇ°ÔÚÍâ½»ÖĞ»¨·Ñ6000½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1540å¹´å‰åœ¨å¤–äº¤ä¸­èŠ±è´¹6000é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_STRING_SINGLE</Tag>
@@ -53,132 +53,132 @@
 		<Tag>TXT_KEY_CIV_MUISCA_DEFAULT</Tag>
 		<English>Muisca Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨ÁªÃË</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡è”ç›Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI3_TITLE</Tag>
 		<English>El Dorado</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¶û¶àÀ­¶à</Chinese>
+		<Chinese>åŸƒå°”å¤šæ‹‰å¤š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUISCA_DESC</Tag>
 		<English>The Muisca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨ÎÄÃ÷</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI3</Tag>
 		<English>Ensure no Old World civilization controls a silver or gold resource in South or Central America in 1600 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1600ÄêÊ±È·±£Ã»ÓĞ¾ÉÊÀ½çÎÄÃ÷¿ØÖÆÄÏÃÀÖŞ»òÖĞÃÀÖŞµÄ½ğÒø×ÊÔ´</Chinese>
+		<Chinese>å…¬å…ƒ1600å¹´æ—¶ç¡®ä¿æ²¡æœ‰æ—§ä¸–ç•Œæ–‡æ˜æ§åˆ¶å—ç¾æ´²æˆ–ä¸­ç¾æ´²çš„é‡‘é“¶èµ„æº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MUISCA_GOLDSMITH_HELP</Tag>
 		<English>[ICON_BULLET]+1 Gold per Gold Resource</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]Ã¿¸ö»Æ½ğ×ÊÔ´+1½ğ±Ò</Chinese>
+		<Chinese>[ICON_BULLET]æ¯ä¸ªé»„é‡‘èµ„æº+1é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HYENA</Tag>
 		<English>Hyena</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>÷à¹·</Chinese>
+		<Chinese>é¬£ç‹—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_PERCENT_NEW_WORLD_POPULATION</Tag>
 		<English>Percentage of new world population</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂÊÀ½çµÄÈË¿Ú°Ù·Ö±È</Chinese>
+		<Chinese>æ–°ä¸–ç•Œçš„äººå£ç™¾åˆ†æ¯”</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MUISCA_GOLDSMITH</Tag>
 		<English>Goldsmith</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½ğ½³ÆÌ</Chinese>
+		<Chinese>é‡‘åŒ é“º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI1</Tag>
 		<English>Have the highest average population in the New World at the time of Old World contact</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±½Ó´¥¾ÉÊÀ½çÎÄÃ÷Ê±ÓµÓĞĞÂÊÀ½ç×î¸ßµÄÆ½¾ùÈË¿Ú</Chinese>
+		<Chinese>å½“æ¥è§¦æ—§ä¸–ç•Œæ–‡æ˜æ—¶æ‹¥æœ‰æ–°ä¸–ç•Œæœ€é«˜çš„å¹³å‡äººå£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUISCA_SHORT_DESC</Tag>
 		<English>Muisca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUISCA_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹ÈË</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_POLAR_BEAR</Tag>
 		<English>Polar Bear</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>±±¼«ĞÜ</Chinese>
+		<Chinese>åŒ—æç†Š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI2_TITLE</Tag>
 		<English>Tejuelo Gold Coins</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌØºú°£Âå(Tejuelo)½ğ±Ò</Chinese>
+		<Chinese>ç‰¹èƒ¡åŸƒæ´›(Tejuelo)é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_MUI</Tag>
 		<English>+1 Food from Mines.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿óÉ½+1Ê³Îï</Chinese>
+		<Chinese>çŸ¿å±±+1é£Ÿç‰©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI1_TITLE</Tag>
 		<English>The Altiplano Cundiboyacense</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿×µÏ²¨ÑÇÉ½Âö</Chinese>
+		<Chinese>å­”è¿ªæ³¢äºšå±±è„‰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TIGER</Tag>
 		<English>Tiger</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÀÏ»¢</Chinese>
+		<Chinese>è€è™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SAGUAMANCHICA</Tag>
 		<English>Saguamanchica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨-Èø¹ÅÂüÆæ¿¨</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡-è¨å¤æ›¼å¥‡å¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI2_EPIC</Tag>
 		<English>Spend 3000 Gold in diplomacy by 1540 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1540ÄêÇ°ÔÚÍâ½»ÖĞ»¨·Ñ3000½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1540å¹´å‰åœ¨å¤–äº¤ä¸­èŠ±è´¹3000é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MUI2</Tag>
 		<English>Spend 2000 Gold in diplomacy by 1540 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1540ÄêÇ°ÔÚÍâ½»ÖĞ»¨·Ñ2000½ğ±Ò</Chinese>
+		<Chinese>å…¬å…ƒ1540å¹´å‰åœ¨å¤–äº¤ä¸­èŠ±è´¹2000é‡‘å¸</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUISCA_ADJECTIVE</Tag>
 		<English>Muisca</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÂÒÁË¹¿¨</Chinese>
+		<Chinese>ç©†ä¼Šæ–¯å¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_MUISCA</Tag>
 		<English>It is the year 800 AD. The formation end of the Hererra period heralds in a new age for the peopel of the Altiplano Cundiboyacense. The rise of the Muisca Confederation marks the start in a new golden age of American trade.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª800Äê£¬ºÕÀ×À­Ê±ÆÚµÄĞÎ³É½áÊø£¬Ô¤Ê¾×Å¸ßÔ­¿²µÏ²©ÑÇÈË½øÈëÁËÒ»¸öĞÂÊ±´ú¡£ÄÂÒÁË¹¿¨ÁªÃËµÄáÈÆğ±êÖ¾×ÅÃÀÖŞÃ³Ò×ĞÂ»Æ½ğÊ±´úµÄ¿ªÊ¼¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ800å¹´ï¼Œèµ«é›·æ‹‰æ—¶æœŸçš„å½¢æˆç»“æŸï¼Œé¢„ç¤ºç€é«˜åŸåè¿ªåšäºšäººè¿›å…¥äº†ä¸€ä¸ªæ–°æ—¶ä»£ã€‚ç©†ä¼Šæ–¯å¡è”ç›Ÿçš„å´›èµ·æ ‡å¿—ç€ç¾æ´²è´¸æ˜“æ–°é»„é‡‘æ—¶ä»£çš„å¼€å§‹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_HIGHEST_AVERAGE_POPULATION_NEW_WORLD</Tag>
 		<English>New world civilization with the highest average population: %s1_city</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞÂÊÀ½çÆ½¾ùÈË¿Ú×î¸ß£º%s1_city</Chinese>
+		<Chinese>æ–°ä¸–ç•Œå¹³å‡äººå£æœ€é«˜ï¼š%s1_city</Chinese>
 	</TEXT>
 </Civ4GameText>

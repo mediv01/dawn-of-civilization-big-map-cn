@@ -1,130 +1,130 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_SHORT_DESC</Tag>
 		<English>Phoenicia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_REPUBLIC</Tag>
 		<English>Republic of Tunisia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ÄáË¹¹²ºÍ¹ú</Chinese>
+		<Chinese>çªå°¼æ–¯å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_EMPIRE</Tag>
 		<English>Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_COMMUNIST</Tag>
 		<English>People's Republic of Lebanon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Àè°ÍÄÛÈËÃñ¹²ºÍ¹ú</Chinese>
+		<Chinese>é»Žå·´å«©äººæ°‘å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_FASCIST</Tag>
 		<English>New Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÐÂåÈÌ«»ùµÛ¹ú</Chinese>
+		<Chinese>æ–°è¿¦å¤ªåŸºå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_PEOPLES</Tag>
 		<English>Canaanite Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>åÈÄÏÈË</Chinese>
+		<Chinese>è¿¦å—äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_ADJECTIVE</Tag>
 		<English>Phoenician</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_DEFAULT</Tag>
 		<English>Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>åÈÌ«»ùµÛ¹ú</Chinese>
+		<Chinese>è¿¦å¤ªåŸºå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%1Íõ¹ú</Chinese>
+		<Chinese>%1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_FASCIST</Tag>
 		<English>National Lebanon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Àè°ÍÄÛ¹ú</Chinese>
+		<Chinese>é»Žå·´å«©å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_SHORT_DESC</Tag>
 		<English>Tunisia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ÄáË¹</Chinese>
+		<Chinese>çªå°¼æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_SHORT_DESC</Tag>
 		<English>Carthage</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ù</Chinese>
+		<Chinese>è…“å°¼åŸº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_COMMUNIST</Tag>
 		<English>Punic People's Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼ÄäÈËÃñ¹²ºÍ¹ú</Chinese>
+		<Chinese>å¸ƒåŒ¿äººæ°‘å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_COMMUNIST</Tag>
 		<English>Tunisian People's Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ÄáË¹ÈËÃñ¹²ºÍ¹ú</Chinese>
+		<Chinese>çªå°¼æ–¯äººæ°‘å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_REPUBLIC</Tag>
 		<English>Punic Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¼Ää¹²ºÍ¹ú</Chinese>
+		<Chinese>å¸ƒåŒ¿å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_ADJECTIVE</Tag>
 		<English>Tunisian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Í»ÄáË¹</Chinese>
+		<Chinese>çªå°¼æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_DESC</Tag>
 		<English>The Phoenicians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ùÎÄÃ÷</Chinese>
+		<Chinese>è…“å°¼åŸºæ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_REPUBLIC</Tag>
 		<English>Lebanese Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Àè°ÍÄÛ¹²ºÍ¹ú</Chinese>
+		<Chinese>é»Žå·´å«©å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TUNISIA_FASCIST</Tag>
 		<English>New Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ëèÄá»ùÎÄÃ÷</Chinese>
+		<Chinese>è…“å°¼åŸºæ–‡æ˜Ž</Chinese>
 	</TEXT>
 </Civ4GameText>

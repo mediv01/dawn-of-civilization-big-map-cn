@@ -1,52 +1,52 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_REPUBLIC</Tag>
 		<English>United %s2 States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2Áª°î¹²ºÍ¹ú</Chinese>
+		<Chinese>%s2è”é‚¦å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_FASCIST</Tag>
 		<English>Synarchist Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¾üÊÂÎ¯Ô±»á</Chinese>
+		<Chinese>%s1å†›äº‹å§”å‘˜ä¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_DESC</Tag>
 		<English>The Mexicans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä«Î÷¸çÎÄÃ÷</Chinese>
+		<Chinese>å¢¨è¥¿å“¥æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_PEOPLES</Tag>
 		<English>Mexican Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä«Î÷¸çÈË</Chinese>
+		<Chinese>å¢¨è¥¿å“¥äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_COMMUNIST</Tag>
 		<English>Anti-Reelectionist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éç»áÖ÷Òå%s1</Chinese>
+		<Chinese>ç¤¾ä¼šä¸»ä¹‰%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1çŽ‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_ADJECTIVE</Tag>
 		<English>Mexican</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä«Î÷¸ç</Chinese>
+		<Chinese>å¢¨è¥¿å“¥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_SHORT_DESC</Tag>
 		<English>Mexico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä«Î÷¸ç</Chinese>
+		<Chinese>å¢¨è¥¿å“¥</Chinese>
 	</TEXT>
 </Civ4GameText>

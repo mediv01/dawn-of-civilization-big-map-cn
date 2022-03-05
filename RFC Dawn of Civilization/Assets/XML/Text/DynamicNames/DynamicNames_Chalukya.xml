@@ -1,65 +1,65 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHALUKYA_ADJECTIVE</Tag>
 		<English>Chalukyan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÚÂ¦Æä</Chinese>
+		<Chinese>é®å¨„å…¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHALUKYA_PEDIA</Tag>
 		<English>[TAB]During the 6th and the 8th century, the empire that ruled the Deccan region of India was the Chalukya dynasty. After fading away for some time, they came back to power during the 10th century and ruled till 12th century. The Chalukyas are essentially divided into three broad categories: The Eastern Chalukyas, ruled from the Vengi region, the Western Chalukyas who ruled from the Badami region and the Later Western Chalukyas, which ruled from Kalyani region.[NEWLINE][TAB]The most famous rulers in the empire of the Chalukyas were Pulakesin I and Pulakesin II. The ruler Pulakesin II is said to have defeated emperor Harshavardhana in a battle on the banks of the River Narmada. He also waged a battle against Mahendravarman, the Pallava ruler and conquered him and his kingdom. [PARAGRAPH:2]The Chalukya dynasty is famous for developing and encouraging art and architecture during its era. The rulers of the Chalukya dynasty were great enthusiasts of art. This is evident from the fact that they built many temples near the region of Badami. A famous example of their architecture is the Virupaksha Temple in Karnataka. The sculptures that adorn the temples are beautifully carved and sculpted and represent scenes from the famous epic Ramayana. Some of the paintings at Ajanta and Ellora cave temples are considered to belong to this period. [PARAGRAPH:2]Pulakesin II was an admirer of art and always encouraged any art form to flourish in his kingdom. He was also fond of literature and encouraged poetry to flourish in his kingdom. The three famous poets of Kannada literature Adikavi Pampa, Sri Ponna and Ranna were from this era. Pulakesin was an able administrator and his subjects were devoted to him. Though he was Hindu by religion Pulakesin was tolerant towards Buddhism as well as Jainism. He built many monasteries in his kingdom that provided shelter to almost 5000 monks. The Chalukya kingdom was truly flourishing till it declined after the 12th century.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]ÔÚ6ÊÀ¼ÍºÍ8ÊÀ¼Í£¬Í³ÖÎÓ¡¶ÈµÂ¸ÉµØÇøµÄµÛ¹úÊÇÕÚÂ¦ÆäÍõ³¯¡£ÔÚË¥ÂäÁËÒ»¶ÎÊ±¼äºó£¬ËûÃÇÔÚ10ÊÀ¼ÍÖØĞÂÕÆÈ¨£¬Í³ÖÎµ½12ÊÀ¼Í¡£ÕÚÂ¦ÆäÈË»ù±¾ÉÏ±»·ÖÎªÈı´óÀà£º¶«²¿µÄÕÚÂ¦ÆäÈË£¬Í³ÖÎÎÄ¼ªµØÇø£»Î÷²¿µÄ£¬Í³ÖÎÓÉ°Í´ïÃ×µØÇø£¬ÒÔ¼°ºóÀ´µÄÎ÷ÕÚÂ¦ÆäÈË£¬ËûÃÇÍ³ÖÎ¼ÓÀïÑÇÄáµØÇø¡£[NEWLINE][TAB]ÔÚÕÚÂ¦ÆäµÛ¹úÖĞ£¬×îÖøÃûµÄÍ³ÖÎÕßÊÇÆÕÀ­¿ËĞÁÒ»ÊÀºÍÆÕÁĞ¿ËĞÁ¶şÊÀ¡£¾İËµ£¬Í³ÖÎÕßÆÕÀ­¿ËĞÁ¶şÊÀÔÚÄÉ¶ûÂí´ïºÓÅÏµÄÒ»³¡Õ½¶·ÖĞ»÷°ÜÁË¹şÉ³ÍßµÂ¹şÄÉ»ÊµÛ¡£Ëû»¹ÓëÅÁÀ­ÍßÍ³ÖÎÕßÂíºàµÂÀ­ÍßÂü£¨Mahendravarman£©Õ¹¿ªÁËÒ»³¡Õ½¶·£¬Õ÷·şÁËËûºÍËûµÄÍõ¹ú¡£[PARAGRAPH:2]ÕÚÂ¦ÆäÍõ³¯ÔÚÆäÊ±´úÒÔ·¢Õ¹ºÍ¹ÄÀøÒÕÊõºÍ½¨Öş¶øÎÅÃû¡£ÕÚÂ¦ÆäÍõ³¯µÄÍ³ÖÎÕßÊÇÎ°´óµÄÒÕÊõ°®ºÃÕß¡£ÕâÒ»µã´ÓËûÃÇÔÚ°Í´ïÃ×µØÇø¸½½üĞŞ½¨ÁËĞí¶àËÂÃí¾Í¿ÉÒÔ¿´³ö¡£¿¨ÄÉËş¿Ë°îµÄVirupakshaÃíÊÇËûÃÇ½¨ÖşµÄÒ»¸öÖøÃûÀı×Ó¡£×°ÊÎÃíÓîµÄµñËÜµñ¿Ì¾«ÃÀ£¬´ú±íÁËÖøÃûÊ·Ê«¡¶ÂŞÄ¦ÑÜÄÇ¡·ÖĞµÄ³¡¾°¡£°¢¸ÊËşºÍ°£ÂåÀ­¶´Ñ¨ËÂÃíµÄÒ»Ğ©»æ»­±»ÈÏÎªÊôÓÚÕâÒ»Ê±ÆÚ¡£[PARAGRAPH:2]ÆÕÀ­¿ËĞÁ¶şÊÀÊÇÒ»¸öÒÕÊõµÄ³ç°İÕß£¬Ëû×ÜÊÇ¹ÄÀøÈÎºÎÒÕÊõĞÎÊ½ÔÚËûµÄÍõ¹úÀïÅî²ª·¢Õ¹¡£ËûÒ²Ï²»¶ÎÄÑ§£¬²¢¹ÄÀøÊ«¸èÔÚËûµÄÍõ¹úÀïÅî²ª·¢Õ¹¡£¿¨ÄÉ´ïÎÄÑ§µÄÈıÎ»ÖøÃûÊ«ÈË°¢µÏ¿¨Î¬¡¤ÅËÅÁ¡¢Ë¹Àï¡¤²¨ÄÉºÍÀ¼ÄÈ¶¼À´×ÔÕâ¸öÊ±´ú¡£ÆÕÀ³¿ËĞÁÊÇÒ»Î»ÄÜ¸ÉµÄĞĞÕş³¤¹Ù£¬ËûµÄ³¼Ãñ¶¼¶ÔËûÇã×¢ÁËĞÄÑª¡£ËäÈ»ÆÕÀ³¿ËĞÁµÄ×Ú½ÌĞÅÑöÊÇÓ¡¶È½Ì£¬µ«Ëû¶Ô·ğ½ÌºÍêÈÄÇ½ÌÊÇ¿íÈİµÄ¡£ËûÔÚ×Ô¼ºµÄÍõ¹úÀï½¨ÔìÁËĞí¶àĞŞµÀÔº£¬Îª½ü5000ÃûÉ®ÂÂÌá¹©ÁË×¡Ëù¡£12ÊÀ¼ÍÒÔºó£¬ÕÚÂ¦ÆäÍõ¹úÒ»Ö±·±ÈÙµ½Ë¥Âä¡£</Chinese>
+		<Chinese>[TAB]åœ¨6ä¸–çºªå’Œ8ä¸–çºªï¼Œç»Ÿæ²»å°åº¦å¾·å¹²åœ°åŒºçš„å¸å›½æ˜¯é®å¨„å…¶ç‹æœã€‚åœ¨è¡°è½äº†ä¸€æ®µæ—¶é—´åï¼Œä»–ä»¬åœ¨10ä¸–çºªé‡æ–°æŒæƒï¼Œç»Ÿæ²»åˆ°12ä¸–çºªã€‚é®å¨„å…¶äººåŸºæœ¬ä¸Šè¢«åˆ†ä¸ºä¸‰å¤§ç±»ï¼šä¸œéƒ¨çš„é®å¨„å…¶äººï¼Œç»Ÿæ²»æ–‡å‰åœ°åŒºï¼›è¥¿éƒ¨çš„ï¼Œç»Ÿæ²»ç”±å·´è¾¾ç±³åœ°åŒºï¼Œä»¥åŠåæ¥çš„è¥¿é®å¨„å…¶äººï¼Œä»–ä»¬ç»Ÿæ²»åŠ é‡Œäºšå°¼åœ°åŒºã€‚[NEWLINE][TAB]åœ¨é®å¨„å…¶å¸å›½ä¸­ï¼Œæœ€è‘—åçš„ç»Ÿæ²»è€…æ˜¯æ™®æ‹‰å…‹è¾›ä¸€ä¸–å’Œæ™®åˆ—å…‹è¾›äºŒä¸–ã€‚æ®è¯´ï¼Œç»Ÿæ²»è€…æ™®æ‹‰å…‹è¾›äºŒä¸–åœ¨çº³å°”é©¬è¾¾æ²³ç•”çš„ä¸€åœºæˆ˜æ–—ä¸­å‡»è´¥äº†å“ˆæ²™ç“¦å¾·å“ˆçº³çš‡å¸ã€‚ä»–è¿˜ä¸å¸•æ‹‰ç“¦ç»Ÿæ²»è€…é©¬äº¨å¾·æ‹‰ç“¦æ›¼ï¼ˆMahendravarmanï¼‰å±•å¼€äº†ä¸€åœºæˆ˜æ–—ï¼Œå¾æœäº†ä»–å’Œä»–çš„ç‹å›½ã€‚[PARAGRAPH:2]é®å¨„å…¶ç‹æœåœ¨å…¶æ—¶ä»£ä»¥å‘å±•å’Œé¼“åŠ±è‰ºæœ¯å’Œå»ºç­‘è€Œé—»åã€‚é®å¨„å…¶ç‹æœçš„ç»Ÿæ²»è€…æ˜¯ä¼Ÿå¤§çš„è‰ºæœ¯çˆ±å¥½è€…ã€‚è¿™ä¸€ç‚¹ä»ä»–ä»¬åœ¨å·´è¾¾ç±³åœ°åŒºé™„è¿‘ä¿®å»ºäº†è®¸å¤šå¯ºåº™å°±å¯ä»¥çœ‹å‡ºã€‚å¡çº³å¡”å…‹é‚¦çš„Virupakshaåº™æ˜¯ä»–ä»¬å»ºç­‘çš„ä¸€ä¸ªè‘—åä¾‹å­ã€‚è£…é¥°åº™å®‡çš„é›•å¡‘é›•åˆ»ç²¾ç¾ï¼Œä»£è¡¨äº†è‘—åå²è¯—ã€Šç½—æ‘©è¡é‚£ã€‹ä¸­çš„åœºæ™¯ã€‚é˜¿ç”˜å¡”å’ŒåŸƒæ´›æ‹‰æ´ç©´å¯ºåº™çš„ä¸€äº›ç»˜ç”»è¢«è®¤ä¸ºå±äºè¿™ä¸€æ—¶æœŸã€‚[PARAGRAPH:2]æ™®æ‹‰å…‹è¾›äºŒä¸–æ˜¯ä¸€ä¸ªè‰ºæœ¯çš„å´‡æ‹œè€…ï¼Œä»–æ€»æ˜¯é¼“åŠ±ä»»ä½•è‰ºæœ¯å½¢å¼åœ¨ä»–çš„ç‹å›½é‡Œè“¬å‹ƒå‘å±•ã€‚ä»–ä¹Ÿå–œæ¬¢æ–‡å­¦ï¼Œå¹¶é¼“åŠ±è¯—æ­Œåœ¨ä»–çš„ç‹å›½é‡Œè“¬å‹ƒå‘å±•ã€‚å¡çº³è¾¾æ–‡å­¦çš„ä¸‰ä½è‘—åè¯—äººé˜¿è¿ªå¡ç»´Â·æ½˜å¸•ã€æ–¯é‡ŒÂ·æ³¢çº³å’Œå…°å¨œéƒ½æ¥è‡ªè¿™ä¸ªæ—¶ä»£ã€‚æ™®è±å…‹è¾›æ˜¯ä¸€ä½èƒ½å¹²çš„è¡Œæ”¿é•¿å®˜ï¼Œä»–çš„è‡£æ°‘éƒ½å¯¹ä»–å€¾æ³¨äº†å¿ƒè¡€ã€‚è™½ç„¶æ™®è±å…‹è¾›çš„å®—æ•™ä¿¡ä»°æ˜¯å°åº¦æ•™ï¼Œä½†ä»–å¯¹ä½›æ•™å’Œè€†é‚£æ•™æ˜¯å®½å®¹çš„ã€‚ä»–åœ¨è‡ªå·±çš„ç‹å›½é‡Œå»ºé€ äº†è®¸å¤šä¿®é“é™¢ï¼Œä¸ºè¿‘5000ååƒ§ä¾£æä¾›äº†ä½æ‰€ã€‚12ä¸–çºªä»¥åï¼Œé®å¨„å…¶ç‹å›½ä¸€ç›´ç¹è£åˆ°è¡°è½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_CHALUKYA</Tag>
 		<English>It's the year 543 AD. With the decline of the Gupta to the north, small fragmented states rule over India, but there is no better time for a large empire to rise! Beginning in the Deccan, all of central India will foster a civilization rivaling those that once existed along the Ganges itself.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª543Äê¡£Ëæ×ÅóÅ¶àÍõ³¯ÔÚ±±·½µÄË¥Âä£¬Ò»Ğ©Ö§ÀëÆÆËéµÄĞ¡¹ú¼ÒÍ³ÖÎ×ÅÓ¡¶È£¬Ã»ÓĞ±ÈÏÖÔÚ¸üºÃµÄÊ±»úÈÃÒ»¸ö´óµÛ¹úáÈÆğ£¡´ÓµÂ¸É¿ªÊ¼£¬Õû¸öÓ¡¶ÈÖĞ²¿µØÇø¶¼½«ÅàÓı³öÒ»ÖÖÓëºãºÓÑØ°¶Ôø¾­´æÔÚµÄÎÄÃ÷ÏàæÇÃÀµÄÎÄÃ÷¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ543å¹´ã€‚éšç€ç¬ˆå¤šç‹æœåœ¨åŒ—æ–¹çš„è¡°è½ï¼Œä¸€äº›æ”¯ç¦»ç ´ç¢çš„å°å›½å®¶ç»Ÿæ²»ç€å°åº¦ï¼Œæ²¡æœ‰æ¯”ç°åœ¨æ›´å¥½çš„æ—¶æœºè®©ä¸€ä¸ªå¤§å¸å›½å´›èµ·ï¼ä»å¾·å¹²å¼€å§‹ï¼Œæ•´ä¸ªå°åº¦ä¸­éƒ¨åœ°åŒºéƒ½å°†åŸ¹è‚²å‡ºä¸€ç§ä¸æ’æ²³æ²¿å²¸æ›¾ç»å­˜åœ¨çš„æ–‡æ˜ç›¸åª²ç¾çš„æ–‡æ˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAL</Tag>
 		<English>+50% Production Efficiency of Wealth and Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Éú²ú²Æ¸»ºÍÎÄ»¯Ê±+50%Ğ§ÂÊ</Chinese>
+		<Chinese>ç”Ÿäº§è´¢å¯Œå’Œæ–‡åŒ–æ—¶+50%æ•ˆç‡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KINGDOM_OF_CHALUKYA_DEFAULT</Tag>
 		<English>Kingdom of Chalukya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÚÂ¦ÆäÍõ¹ú</Chinese>
+		<Chinese>é®å¨„å…¶ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHALUKYA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_PULAKESI</Tag>
 		<English>Pulakesi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÚÂ¦Æä-²¹ÂŞ»üÉá</Chinese>
+		<Chinese>é®å¨„å…¶-è¡¥ç½—ç¨½èˆ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHALUKYA_DESC</Tag>
 		<English>The Chalukyas</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÚÂ¦ÆäÎÄÃ÷</Chinese>
+		<Chinese>é®å¨„å…¶æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHALUKYA_SHORT_DESC</Tag>
 		<English>Chalukya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕÚÂ¦Æä</Chinese>
+		<Chinese>é®å¨„å…¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAL_TITLE</Tag>
 		<English>The Power of Craftsmanship:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¾«¹¤Ï¸×÷£º</Chinese>
+		<Chinese>ç²¾å·¥ç»†ä½œï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_PULAKESI_PEDIA</Tag>
@@ -71,6 +71,6 @@
 		<Tag>TXT_KEY_CIV_CHALUKYA_PEOPLES</Tag>
 		<English>Deccan Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÂ¸ÉÈË</Chinese>
+		<Chinese>å¾·å¹²äºº</Chinese>
 	</TEXT>
 </Civ4GameText>

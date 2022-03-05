@@ -1,113 +1,113 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_EGYPT</Tag>
 		<English>Exarchate of Alexandria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÀúÉ½´óÐÐÊ¡</Chinese>
+		<Chinese>äºšåŽ†å±±å¤§è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_MOREA</Tag>
 		<English>the Morea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä¦ÀïÑÇ</Chinese>
+		<Chinese>æ‘©é‡Œäºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÝÕ¼Í¥</Chinese>
+		<Chinese>æ‹œå åº­</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_VASSAL</Tag>
 		<English>Exarchate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÐÐÊ¡</Chinese>
+		<Chinese>%s1è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_SHORT_DESC</Tag>
 		<English>Byzantium</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÝÕ¼Í¥</Chinese>
+		<Chinese>æ‹œå åº­</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_GREECE</Tag>
 		<English>Exarchate of Achaia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢ÆæÑÇÐÐÊ¡</Chinese>
+		<Chinese>é˜¿å¥‡äºšè¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_PERSIA</Tag>
 		<English>Exarchate of Parthia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÅÁÌáÑÇÐÐÊ¡</Chinese>
+		<Chinese>å¸•æäºšè¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_NICAEA</Tag>
 		<English>Nicaea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÝÕ¼Í¥ÎÄÃ÷</Chinese>
+		<Chinese>æ‹œå åº­æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_EASTERN</Tag>
 		<English>Eastern Roman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶«ÂÞÂí</Chinese>
+		<Chinese>ä¸œç½—é©¬</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DESC</Tag>
 		<English>The Byzantines</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÝÕ¼Í¥ÎÄÃ÷</Chinese>
+		<Chinese>æ‹œå åº­æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_TREBIZOND</Tag>
 		<English>Trebizond</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌØÀ­²¼ËÉµÛ¹ú</Chinese>
+		<Chinese>ç‰¹æ‹‰å¸ƒæ¾å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_CARTHAGE</Tag>
 		<English>Exarchate of Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·ÇÖÞÐÐÊ¡</Chinese>
+		<Chinese>éžæ´²è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_EPIRUS</Tag>
 		<English>Epirus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄáÎ÷ÑÇ</Chinese>
+		<Chinese>å°¼è¥¿äºš</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_BABYLONIA</Tag>
 		<English>Exarchate of Ctesiphon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈûÎ÷·áÐÐÊ¡</Chinese>
+		<Chinese>å¡žè¥¿ä¸°è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_RUM</Tag>
 		<English>R&#251;m</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÄ·</Chinese>
+		<Chinese>ç½—å§†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_SPAIN</Tag>
 		<English>Exarchate of Spania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Î÷°àÑÀÐÐÊ¡</Chinese>
+		<Chinese>è¥¿ç­ç‰™è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DEFAULT</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2µÛ¹ú</Chinese>
+		<Chinese>%s2å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_ROME</Tag>
 		<English>Exarchate of Ravenna</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­ÎÄÄÉÐÐÊ¡</Chinese>
+		<Chinese>æ‹‰æ–‡çº³è¡Œçœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag></Tag>
@@ -119,24 +119,24 @@
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DESPOTATE</Tag>
 		<English>Despotate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1µÛ¹ú</Chinese>
+		<Chinese>%s1å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_FASCIST</Tag>
 		<English>Despotate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1µÛ¹ú</Chinese>
+		<Chinese>%s1å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_PEOPLES</Tag>
 		<English>Byzantine Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÝÕ¼Í¥ÈË</Chinese>
+		<Chinese>æ‹œå åº­äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_REPUBLIC</Tag>
 		<English>Republic of Rhomania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÞÂíÄáÑÇ¹²ºÍ¹ú</Chinese>
+		<Chinese>ç½—é©¬å°¼äºšå…±å’Œå›½</Chinese>
 	</TEXT>
 </Civ4GameText>

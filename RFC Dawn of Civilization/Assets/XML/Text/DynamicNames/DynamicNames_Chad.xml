@@ -1,76 +1,76 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_EMPIRE</Tag>
 		<English>Kanem</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>©╗дзд╥╡╪</Chinese>
+		<Chinese>Е█║Е├┘Е╖├Е╦┐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_ADJECTIVE</Tag>
 		<English>Kanembu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>©╗дзд╥╡╪</Chinese>
+		<Chinese>Е█║Е├┘Е╖├Е╦┐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_BORNU_DESC</Tag>
 		<English>The Bornu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╡╘╤Ше╛ндцВ</Chinese>
+		<Chinese>Е█ Е╟■Е┼╙Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_MODERN_SHORT_DESC</Tag>
 		<English>Chad</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>у╖╣ц</Chinese>
+		<Chinese>Д╧█Е╬≈</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_BORNU</Tag>
 		<English>Bornu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>╡╘╤Ше╛</Chinese>
+		<Chinese>Е█ Е╟■Е┼╙</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_DESC</Tag>
 		<English>The Kanembu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>©╗дзд╥╡╪ндцВ</Chinese>
+		<Chinese>Е█║Е├┘Е╖├Е╦┐Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_FASCIST</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╣ш╧З</Chinese>
+		<Chinese>%s1Е╦²Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_PEOPLES</Tag>
 		<English>Kanembu Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>©╗дзд╥╡╪хк</Chinese>
+		<Chinese>Е█║Е├┘Е╖├Е╦┐Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_MODERN_DESC</Tag>
 		<English>The Chadians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>у╖╣цндцВ</Chinese>
+		<Chinese>Д╧█Е╬≈Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_SHORT_DESC</Tag>
 		<English>Kanem-Bornu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>©╗дзд╥╡╪-╡╘╤Ше╛</Chinese>
+		<Chinese>Е█║Е├┘Е╖├Е╦┐-Е█ Е╟■Е┼╙</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_MODERN_ADJECTIVE</Tag>
 		<English>Chadian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>у╖╣ц</Chinese>
+		<Chinese>Д╧█Е╬≈</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_DEFAULT</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╣ш╧З</Chinese>
+		<Chinese>%s1Е╦²Е⌡╫</Chinese>
 	</TEXT>
 </Civ4GameText>

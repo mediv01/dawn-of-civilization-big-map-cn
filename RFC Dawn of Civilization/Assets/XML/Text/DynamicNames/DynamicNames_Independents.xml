@@ -1,100 +1,100 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</Tag>
 		<English>Independents</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ÀÁ¢³Ç°î</Chinese>
+		<Chinese>ç‹¬ç«‹åŸŽé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_ADJECTIVE</Tag>
 		<English>Native</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ô­×¡Ãñ</Chinese>
+		<Chinese>åŽŸä½æ°‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Tag>
 		<English>Independent</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ÀÁ¢³Ç°î</Chinese>
+		<Chinese>ç‹¬ç«‹åŸŽé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SELJUK_SHORT_DESC</Tag>
 		<English>Seljuks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èû¶ûÖù</Chinese>
+		<Chinese>å¡žå°”æŸ±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELT_SHORT_DESC</Tag>
 		<English>Celtia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿­¶ûÌØ</Chinese>
+		<Chinese>å‡¯å°”ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_DESC</Tag>
 		<English>Native Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ô­×¡Ãñ</Chinese>
+		<Chinese>åŽŸä½æ°‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SELJUK_DESC</Tag>
 		<English>Seljuk Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èû¶ûÖùµÛ¹ú</Chinese>
+		<Chinese>å¡žå°”æŸ±å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDEPENDENT_DESC</Tag>
 		<English>Independent Cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ÀÁ¢³Ç°î</Chinese>
+		<Chinese>ç‹¬ç«‹åŸŽé‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELT_DESC</Tag>
 		<English>Celtic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿­¶ûÌØÈË</Chinese>
+		<Chinese>å‡¯å°”ç‰¹äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SELJUK_ADJECTIVE</Tag>
 		<English>Seljuk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èû¶ûÖù</Chinese>
+		<Chinese>å¡žå°”æŸ±</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELT_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¿­¶ûÌØ</Chinese>
+		<Chinese>å‡¯å°”ç‰¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ZULU_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×æÂ³</Chinese>
+		<Chinese>ç¥–é²</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BARBARIAN_ADJECTIVE</Tag>
 		<English>Barbarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âù×å</Chinese>
+		<Chinese>è›®æ—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BARBARIAN_SHORT_DESC</Tag>
 		<English>Barbarians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âù×å</Chinese>
+		<Chinese>è›®æ—</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BARBARIAN_DESC</Tag>
 		<English>Barbarian State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âù×å¹ú¼Ò</Chinese>
+		<Chinese>è›®æ—å›½å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_SHORT_DESC</Tag>
 		<English>Natives</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ô­×¡Ãñ</Chinese>
+		<Chinese>åŽŸä½æ°‘</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,179 +1,179 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_69</Tag>
 		<English>The number of National Wonders and Great Wonders that can be built in a city is limited by its culture level.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»¸ö³ÇÊĞÄÜ¹»½¨ÔìµÄÃñ×åÆæ¹ÛºÍÊÀ½çÆæ¹ÛµÄÊıÁ¿ÊÜµ½ÆäÎÄ»¯Ë®Æ½µÄÏŞÖÆ¡£</Chinese>
+		<Chinese>ä¸€ä¸ªåŸå¸‚èƒ½å¤Ÿå»ºé€ çš„æ°‘æ—å¥‡è§‚å’Œä¸–ç•Œå¥‡è§‚çš„æ•°é‡å—åˆ°å…¶æ–‡åŒ–æ°´å¹³çš„é™åˆ¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_30</Tag>
 		<English>Naval Units performing "Blockade" Missions prevent all enemy trade from passing within their blockading range. Making sure an enemy city is within that range is a sure-fire way to stop enemy trade routes.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ö´ĞĞ¡°·âËø¡±ÈÎÎñµÄº£¾ü²¿¶Ó×èÖ¹ËùÓĞµĞ·½Ã³Ò×½øÈëÆä·âËø·¶Î§¡£È·±£µĞÈËµÄ³ÇÊĞÔÚÕâ¸ö·¶Î§ÄÚÊÇ×èÖ¹µĞÈËÃ³Ò×Â·ÏßµÄÒ»ÖÖ¿É¿¿µÄ»ğÁ¦·½·¨¡£</Chinese>
+		<Chinese>æ‰§è¡Œâ€œå°é”â€ä»»åŠ¡çš„æµ·å†›éƒ¨é˜Ÿé˜»æ­¢æ‰€æœ‰æ•Œæ–¹è´¸æ˜“è¿›å…¥å…¶å°é”èŒƒå›´ã€‚ç¡®ä¿æ•Œäººçš„åŸå¸‚åœ¨è¿™ä¸ªèŒƒå›´å†…æ˜¯é˜»æ­¢æ•Œäººè´¸æ˜“è·¯çº¿çš„ä¸€ç§å¯é çš„ç«åŠ›æ–¹æ³•ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_78</Tag>
 		<English>Cities no longer just lose one population when captured. Large cities can lose additional population, especially if you decide to sack them.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»Ğ©Ö÷ÒªÎÄÃ÷ÓĞµÚ¶ş¸ö¶ÀÌØµÄµ¥Î»¡£</Chinese>
+		<Chinese>ä¸€äº›ä¸»è¦æ–‡æ˜æœ‰ç¬¬äºŒä¸ªç‹¬ç‰¹çš„å•ä½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_23</Tag>
 		<English>In Rhye's and Fall of Civilization, many wonder effects have been changed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Ğí¶àÆæ¼£µÄÓ°ÏìÒÑ¾­¸Ä±äÁË¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œè®¸å¤šå¥‡è¿¹çš„å½±å“å·²ç»æ”¹å˜äº†ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_29</Tag>
 		<English>Intercontinental trade routes now yield more gold than normal trade routes. Build a Customs House to further cash in.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÖŞ¼ÊÃ³Ò×Â·ÏßÏÖÔÚ±ÈÕı³£Ã³Ò×Â·Ïß²ú³ö¸ü¶àµÄ»Æ½ğ¡£½¨Ò»¸öº£¹ØÒÔ½øÒ»²½¶ÒÏÖ¡£</Chinese>
+		<Chinese>æ´²é™…è´¸æ˜“è·¯çº¿ç°åœ¨æ¯”æ­£å¸¸è´¸æ˜“è·¯çº¿äº§å‡ºæ›´å¤šçš„é»„é‡‘ã€‚å»ºä¸€ä¸ªæµ·å…³ä»¥è¿›ä¸€æ­¥å…‘ç°ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_20</Tag>
 		<English>In Rhye's and Fall of Civilization, city founding is not allowed in tundra, ice or desert if far from water.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Èç¹ûÔ¶ÀëË®µÄ»°£¬Ì¦Ô­¡¢±ùÔ­»òÉ³Ä®ÊÇ²»ÔÊĞí½¨Á¢³ÇÊĞµÄ¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œå¦‚æœè¿œç¦»æ°´çš„è¯ï¼Œè‹”åŸã€å†°åŸæˆ–æ²™æ¼ æ˜¯ä¸å…è®¸å»ºç«‹åŸå¸‚çš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_6</Tag>
 		<English>The civilization you choose to play affects your difficulty every bit as much as the difficulty level you choose. Make sure to pick a civ that suits your playing style and your level of expertise.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãÑ¡ÔñÍæµÄÎÄÃ÷³Ì¶È»áÓ°ÏìÄãµÄÄÑ¶ÈºÍÄãÑ¡ÔñµÄÄÑ¶ÈµÈ¼¶¡£Ò»¶¨ÒªÑ¡ÔñÒ»¸öÊÊºÏÄãµÄ·ç¸ñºÍÄãµÄË®Æ½µÄÎÄÃ÷¡£</Chinese>
+		<Chinese>ä½ é€‰æ‹©ç©çš„æ–‡æ˜ç¨‹åº¦ä¼šå½±å“ä½ çš„éš¾åº¦å’Œä½ é€‰æ‹©çš„éš¾åº¦ç­‰çº§ã€‚ä¸€å®šè¦é€‰æ‹©ä¸€ä¸ªé€‚åˆä½ çš„é£æ ¼å’Œä½ çš„æ°´å¹³çš„æ–‡æ˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_56</Tag>
 		<English>Religions spread faster in regions where they were historically present. In some regions religions can only spread if they are the state religion of the owner.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÔÚÀúÊ·ÉÏ´æÔÚµÄµØÇø´«²¥µÃ¸ü¿ì¡£ÔÚÄ³Ğ©µØÇø£¬×Ú½ÌÖ»ÓĞÔÚËüÊÇËùÓĞÕßµÄ¹ú½ÌÊ±²ÅÄÜ´«²¥¡£</Chinese>
+		<Chinese>å®—æ•™åœ¨å†å²ä¸Šå­˜åœ¨çš„åœ°åŒºä¼ æ’­å¾—æ›´å¿«ã€‚åœ¨æŸäº›åœ°åŒºï¼Œå®—æ•™åªæœ‰åœ¨å®ƒæ˜¯æ‰€æœ‰è€…çš„å›½æ•™æ—¶æ‰èƒ½ä¼ æ’­ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_6</Tag>
 		<English>Pagan Temples cannot be built in cities that have a religion, and when a religion spreads to a city with a Pagan Temple, it is replaced by that religion's temple instead.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Òì½ÌÍ½ÃíÓî²»ÄÜ½¨ÔÚÓĞ×Ú½ÌµÄ³ÇÊĞÀï£¬µ±Ò»ÖÖ×Ú½Ì´«²¥µ½ÓĞÒì½ÌÍ½ÃíÓîµÄ³ÇÊĞÊ±£¬Ëü¾Í»á±»¸Ã×Ú½ÌµÄÃíÓîËùÈ¡´ú¡£</Chinese>
+		<Chinese>å¼‚æ•™å¾’åº™å®‡ä¸èƒ½å»ºåœ¨æœ‰å®—æ•™çš„åŸå¸‚é‡Œï¼Œå½“ä¸€ç§å®—æ•™ä¼ æ’­åˆ°æœ‰å¼‚æ•™å¾’åº™å®‡çš„åŸå¸‚æ—¶ï¼Œå®ƒå°±ä¼šè¢«è¯¥å®—æ•™çš„åº™å®‡æ‰€å–ä»£ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_29</Tag>
 		<English>Defeating Native units on your territory while using Slavery has a chance to create a slave unit.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÊ¹ÓÃÅ«Á¥ÖÆ¶ÈµÄÊ±ºò»÷°ÜÄãÁìÍÁÉÏµÄÔ­×¡ÃñÓĞ»ú»á´´ÔìÒ»¸öÅ«Á¥µ¥Î»¡£</Chinese>
+		<Chinese>åœ¨ä½¿ç”¨å¥´éš¶åˆ¶åº¦çš„æ—¶å€™å‡»è´¥ä½ é¢†åœŸä¸Šçš„åŸä½æ°‘æœ‰æœºä¼šåˆ›é€ ä¸€ä¸ªå¥´éš¶å•ä½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_16</Tag>
 		<English>In Dawn of Civilization, many wonders have religion or civic prerequisites to encourage their historical distribution.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Ğí¶àÆæ¼£¶¼ÓĞ×Ú½Ì»òÕşÌåµÄÏÈ¾öÌõ¼şÀ´¹ÄÀøËüÃÇµÄÀúÊ··Ö²¼¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œè®¸å¤šå¥‡è¿¹éƒ½æœ‰å®—æ•™æˆ–æ”¿ä½“çš„å…ˆå†³æ¡ä»¶æ¥é¼“åŠ±å®ƒä»¬çš„å†å²åˆ†å¸ƒã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_44</Tag>
 		<English>Instead of spreading their culture in rings with every new culture level, cities spread cultural control over individual tiles as their culture grows.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞÃ»ÓĞÔÚÃ¿Ò»¸öĞÂµÄÎÄ»¯²ã´ÎÉÏ°ÑËûÃÇµÄÎÄ»¯´«²¥³É»·×´£¬¶øÊÇËæ×ÅÎÄ»¯µÄ·¢Õ¹£¬°ÑÎÄ»¯¿ØÖÆÁ¦·ÖÉ¢µ½¸÷¸ö´É×©ÉÏ¡£</Chinese>
+		<Chinese>åŸå¸‚æ²¡æœ‰åœ¨æ¯ä¸€ä¸ªæ–°çš„æ–‡åŒ–å±‚æ¬¡ä¸ŠæŠŠä»–ä»¬çš„æ–‡åŒ–ä¼ æ’­æˆç¯çŠ¶ï¼Œè€Œæ˜¯éšç€æ–‡åŒ–çš„å‘å±•ï¼ŒæŠŠæ–‡åŒ–æ§åˆ¶åŠ›åˆ†æ•£åˆ°å„ä¸ªç“·ç –ä¸Šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_52</Tag>
 		<English>Spy specialists have been removed. Instead, global spy experience is accumulated similar to military experience. If the bar is full, your most experienced spy becomes a Great Spy.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼äµı×¨¼ÒÒÑ±»³·Ö°¡£Ïà·´£¬È«Çò¼äµı¾­ÑéµÄ»ıÀÛÓë¾üÊÂ¾­ÑéÀàËÆ¡£Èç¹û¼äµıµãÊı²ÛÂúÁË£¬Äã×îÓĞ¾­ÑéµÄ¼äµı¾Í»á³ÉÎªÒ»¸ö´ó¼äµı¡£</Chinese>
+		<Chinese>é—´è°ä¸“å®¶å·²è¢«æ’¤èŒã€‚ç›¸åï¼Œå…¨çƒé—´è°ç»éªŒçš„ç§¯ç´¯ä¸å†›äº‹ç»éªŒç±»ä¼¼ã€‚å¦‚æœé—´è°ç‚¹æ•°æ§½æ»¡äº†ï¼Œä½ æœ€æœ‰ç»éªŒçš„é—´è°å°±ä¼šæˆä¸ºä¸€ä¸ªå¤§é—´è°ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_75</Tag>
 		<English>The late game has been expanded: the last technologies in the tech tree are more expensive to research, but also provide more content in the form of additional buildings and projects as well as the ability to build satellites.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ºóÆÚµÄÓÎÏ·ÒÑµÃµ½À©Õ¹£º¿Æ¼¼Ê÷ÖĞµÄ×îĞÂ¿Æ¼¼ÑĞ¾¿³É±¾¸ü¸ß£¬µ«»¹¿ÉÒÔÍ¨¹ıÆäËû½¨ÖşÎïºÍÏîÄ¿ÒÔ¼°½¨ÔìÎÀĞÇµÄÄÜÁ¦Ìá¹©¸ü¶àÄÚÈİ¡£</Chinese>
+		<Chinese>åæœŸçš„æ¸¸æˆå·²å¾—åˆ°æ‰©å±•ï¼šç§‘æŠ€æ ‘ä¸­çš„æœ€æ–°ç§‘æŠ€ç ”ç©¶æˆæœ¬æ›´é«˜ï¼Œä½†è¿˜å¯ä»¥é€šè¿‡å…¶ä»–å»ºç­‘ç‰©å’Œé¡¹ç›®ä»¥åŠå»ºé€ å«æ˜Ÿçš„èƒ½åŠ›æä¾›æ›´å¤šå†…å®¹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_67</Tag>
 		<English>Bad health from power is multiplied by the number of buildings that consume power.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µçÁ¦Ôì³ÉµÄ½¡¿µ²»Á¼»á³ËÒÔÏûºÄµçÁ¦µÄ½¨ÖşÎïµÄÊıÁ¿¡£</Chinese>
+		<Chinese>ç”µåŠ›é€ æˆçš„å¥åº·ä¸è‰¯ä¼šä¹˜ä»¥æ¶ˆè€—ç”µåŠ›çš„å»ºç­‘ç‰©çš„æ•°é‡ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_30</Tag>
 		<English>Acquire slaves to build slave plantations or settle them in your cities. This option is only available in North America or in Africa unless your capital is in Africa.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»ñµÃÅ«Á¥À´½¨ÔìÅ«Á¥ÖÖÖ²Ô°»òÔÚÄãÃÇµÄ³ÇÊĞ¶¨¾Ó¡£´ËÑ¡Ïî½öÔÚ±±ÃÀ»ò·ÇÖŞ¿ÉÓÃ£¬³ı·ÇÄúµÄÊ×¶¼ÔÚ·ÇÖŞ¡£</Chinese>
+		<Chinese>è·å¾—å¥´éš¶æ¥å»ºé€ å¥´éš¶ç§æ¤å›­æˆ–åœ¨ä½ ä»¬çš„åŸå¸‚å®šå±…ã€‚æ­¤é€‰é¡¹ä»…åœ¨åŒ—ç¾æˆ–éæ´²å¯ç”¨ï¼Œé™¤éæ‚¨çš„é¦–éƒ½åœ¨éæ´²ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_36</Tag>
 		<English>The Tamil, Moorish, Tibetan, Polish and Congolese civilizations can be configured not to appear in every game. Edit the XML\GlobalDefinesAlt.xml file.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì©Ã×¶û¡¢Ä¦¶û¡¢Î÷²Ø¡¢²¨À¼ºÍ¸Õ¹ûµÄÎÄÃ÷¿ÉÒÔÅäÖÃÎª²»³öÏÖÔÚÃ¿Ò»¸öÓÎÏ·ÖĞ¡£±à¼­XML\GlobalDefinesAlt.XMLÎÄ¼ş¡£</Chinese>
+		<Chinese>æ³°ç±³å°”ã€æ‘©å°”ã€è¥¿è—ã€æ³¢å…°å’Œåˆšæœçš„æ–‡æ˜å¯ä»¥é…ç½®ä¸ºä¸å‡ºç°åœ¨æ¯ä¸€ä¸ªæ¸¸æˆä¸­ã€‚ç¼–è¾‘XML\GlobalDefinesAlt.XMLæ–‡ä»¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_27</Tag>
 		<English>When on the defense, be sure to set your Fighters and Jet Fighters to the "Intercept" mission when they're not running missions. They will defend the skies from opposing Air Units, earning them valuable experience points.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±Äã´¦ÓÚ·ÀÊØ×´Ì¬Ê±£¬È·±£ÄãµÄÕ½¶·»úºÍÅçÆøÊ½Õ½¶·»úÔÚ²»Ö´ĞĞÈÎÎñµÄÇé¿öÏÂÖ´ĞĞ¡°À¹½Ø¡±ÈÎÎñ¡£ËûÃÇ½«±£»¤Ìì¿ÕÃâÊÜµĞ·½¿Õ¾üµÄ¹¥»÷£¬ÎªËûÃÇÓ®µÃ±¦¹óµÄ¾­ÑéÖµ¡£</Chinese>
+		<Chinese>å½“ä½ å¤„äºé˜²å®ˆçŠ¶æ€æ—¶ï¼Œç¡®ä¿ä½ çš„æˆ˜æ–—æœºå’Œå–·æ°”å¼æˆ˜æ–—æœºåœ¨ä¸æ‰§è¡Œä»»åŠ¡çš„æƒ…å†µä¸‹æ‰§è¡Œâ€œæ‹¦æˆªâ€ä»»åŠ¡ã€‚ä»–ä»¬å°†ä¿æŠ¤å¤©ç©ºå…å—æ•Œæ–¹ç©ºå†›çš„æ”»å‡»ï¼Œä¸ºä»–ä»¬èµ¢å¾—å®è´µçš„ç»éªŒå€¼ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_25</Tag>
 		<English>Good things come to spies who wait. Leaving a spy on a tile will reduce the costs of all Espionage Missions performed against objects in that tile. So leaving a Spy in an enemy city will make your Missions in that city significantly cheaper.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÈ´ıµÄ¼äµı»áµÃµ½ºÃ´¦¡£½«¼äµıÁôÔÚÒ»¸öµØ¿éÉÏ½«¼õÉÙ¶Ô¸ÃµØ¿éÖĞÖ´ĞĞµÄËùÓĞ¼äµıÈÎÎñµÄ³É±¾¡£ËùÒÔ°Ñ¼äµıÁôÔÚµĞÈËµÄ³ÇÊĞ»áÊ¹ÄãÔÚÄÇ¸ö³ÇÊĞµÄÈÎÎñÄÑ¶È´ó´ó½µµÍ¡£</Chinese>
+		<Chinese>ç­‰å¾…çš„é—´è°ä¼šå¾—åˆ°å¥½å¤„ã€‚å°†é—´è°ç•™åœ¨ä¸€ä¸ªåœ°å—ä¸Šå°†å‡å°‘å¯¹è¯¥åœ°å—ä¸­æ‰§è¡Œçš„æ‰€æœ‰é—´è°ä»»åŠ¡çš„æˆæœ¬ã€‚æ‰€ä»¥æŠŠé—´è°ç•™åœ¨æ•Œäººçš„åŸå¸‚ä¼šä½¿ä½ åœ¨é‚£ä¸ªåŸå¸‚çš„ä»»åŠ¡éš¾åº¦å¤§å¤§é™ä½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_1</Tag>
 		<English>AI Mongols receive additional armies to attack Russia and the Middle East. Be prepared!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µçÄÔ¿ØÖÆµÄÃÉ¹ÅÈË½«µÃµ½¶îÍâµÄ¾ü¶Ó¹¥»÷¶íÂŞË¹ºÍÖĞ¶«¡£×¼±¸ºÃÁË£¡</Chinese>
+		<Chinese>ç”µè„‘æ§åˆ¶çš„è’™å¤äººå°†å¾—åˆ°é¢å¤–çš„å†›é˜Ÿæ”»å‡»ä¿„ç½—æ–¯å’Œä¸­ä¸œã€‚å‡†å¤‡å¥½äº†ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_9</Tag>
 		<English>You need to discover Exploration before you can train settlers on other continents than your capital's.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãĞèÒªÏÈ·¢ÏÖµØÀíÌ½Ë÷¿Æ¼¼£¬È»ºó²ÅÄÜÔÚÊ×¶¼ÒÔÍâµÄÆäËû´óÂ½ÑµÁ·¶¨¾ÓÕß¡£</Chinese>
+		<Chinese>ä½ éœ€è¦å…ˆå‘ç°åœ°ç†æ¢ç´¢ç§‘æŠ€ï¼Œç„¶åæ‰èƒ½åœ¨é¦–éƒ½ä»¥å¤–çš„å…¶ä»–å¤§é™†è®­ç»ƒå®šå±…è€…ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_1</Tag>
 		<English>You can check the parameters influencing your stability in the Financial Advisor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äú¿ÉÒÔÔÚ²ÆÎñ¹ËÎÊÀ¸ÖĞ¼ì²éÓ°ÏìÄúÎÈ¶¨ĞÔµÄ²ÎÊı</Chinese>
+		<Chinese>æ‚¨å¯ä»¥åœ¨è´¢åŠ¡é¡¾é—®æ ä¸­æ£€æŸ¥å½±å“æ‚¨ç¨³å®šæ€§çš„å‚æ•°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_37</Tag>
 		<English>The Polynesian civilization is intended for the human player only. You can enable it for the AI in XML\GlobalDefinesAlt.xml, however its AI will not be geared towards playing successfully or realistically.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¨ÀûÄáÎ÷ÑÇÎÄÃ÷Ö»ÎªÈËÀàÍæ¼ÒÉè¼Æ¡£Äú¿ÉÒÔÔÚXML\GlobalDefinesAlt.XMLÖĞÎªÈË¹¤ÖÇÄÜÆôÓÃËü£¬µ«ÊÇËüµÄÈË¹¤ÖÇÄÜ²»ÊÊºÏ³É¹¦»òÕæÊµµØÓÎÍæ¡£</Chinese>
+		<Chinese>æ³¢åˆ©å°¼è¥¿äºšæ–‡æ˜åªä¸ºäººç±»ç©å®¶è®¾è®¡ã€‚æ‚¨å¯ä»¥åœ¨XML\GlobalDefinesAlt.XMLä¸­ä¸ºäººå·¥æ™ºèƒ½å¯ç”¨å®ƒï¼Œä½†æ˜¯å®ƒçš„äººå·¥æ™ºèƒ½ä¸é€‚åˆæˆåŠŸæˆ–çœŸå®åœ°æ¸¸ç©ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_48</Tag>
 		<English>A purple circle marks the next tile to be culturally covered in the city screen.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞÆÁÄ»ÉÏÒ»¸ö×ÏÉ«µÄÔ²È¦±êÖ¾×ÅÏÂÒ»¸ö½«»á±»ÎÄ»¯¸²¸ÇµÄµØ¿é¡£</Chinese>
+		<Chinese>åŸå¸‚å±å¹•ä¸Šä¸€ä¸ªç´«è‰²çš„åœ†åœˆæ ‡å¿—ç€ä¸‹ä¸€ä¸ªå°†ä¼šè¢«æ–‡åŒ–è¦†ç›–çš„åœ°å—ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_4</Tag>
 		<English>In Dawn of Civilization, free technology effects like the Oracle only allow you to choose technologies of your current or earlier eras.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬ÏñÉñÚÍĞûÊ¾ËùÕâÑùµÄÃâ·Ñ¿Æ¼¼Ğ§¹ûÖ»ÔÊĞíÄãÑ¡Ôñµ±Ç°»ò¸üÔçÊ±´úµÄ¼¼Êõ¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œåƒç¥è°•å®£ç¤ºæ‰€è¿™æ ·çš„å…è´¹ç§‘æŠ€æ•ˆæœåªå…è®¸ä½ é€‰æ‹©å½“å‰æˆ–æ›´æ—©æ—¶ä»£çš„æŠ€æœ¯ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_12</Tag>
 		<English>Combining Totalitarianism and Constitution isn't a good idea.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°Ñ¼«È¨Ö÷ÒåºÍÏÜ·¨½áºÏÆğÀ´²»ÊÇ¸öºÃÖ÷Òâ¡£</Chinese>
+		<Chinese>æŠŠææƒä¸»ä¹‰å’Œå®ªæ³•ç»“åˆèµ·æ¥ä¸æ˜¯ä¸ªå¥½ä¸»æ„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_61</Tag>
 		<English>Siege units are now much more expensive, but their increased withdrawal chance also makes them less expendable.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹¥³Çµ¥Î»ÏÖÔÚÒª¹óµÃ¶à£¬µ«ÊÇËûÃÇÔö¼ÓµÄ³·ÍË»ú»áÒ²Ê¹ËûÃÇµÄÏûºÄÁ¿¼õÉÙ¡£</Chinese>
+		<Chinese>æ”»åŸå•ä½ç°åœ¨è¦è´µå¾—å¤šï¼Œä½†æ˜¯ä»–ä»¬å¢åŠ çš„æ’¤é€€æœºä¼šä¹Ÿä½¿ä»–ä»¬çš„æ¶ˆè€—é‡å‡å°‘ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_25</Tag>
 		<English>Confused about the expansion and civic stability rules? Look them up under the Concepts section in the Civilopedia!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶ÔÀ©ÕÅºÍÕşÌåÎÈ¶¨¹æÔò¸Ğµ½À§»ó£¿ÔÚÎÄÃ÷°Ù¿ÆµÄ¸ÅÄî²¿·ÖÖĞ²éÕÒËüÃÇ£¡</Chinese>
+		<Chinese>å¯¹æ‰©å¼ å’Œæ”¿ä½“ç¨³å®šè§„åˆ™æ„Ÿåˆ°å›°æƒ‘ï¼Ÿåœ¨æ–‡æ˜ç™¾ç§‘çš„æ¦‚å¿µéƒ¨åˆ†ä¸­æŸ¥æ‰¾å®ƒä»¬ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_3</Tag>
 		<English>Not every lake produces 2 food. Some are salt lakes, and thus produce 1 food, like coast.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÊÇÃ¿¸öË®ÓòµØ¿é¶¼ÄÜ²úÁ½¸öÊ³Îï¡£ÓĞĞ©ÊÇÏÌË®Ë®Óò£¬Òò´Ë²úÉú1¸öÊ³Îï£¬Èçº£°¶¡£</Chinese>
+		<Chinese>ä¸æ˜¯æ¯ä¸ªæ°´åŸŸåœ°å—éƒ½èƒ½äº§ä¸¤ä¸ªé£Ÿç‰©ã€‚æœ‰äº›æ˜¯å’¸æ°´æ°´åŸŸï¼Œå› æ­¤äº§ç”Ÿ1ä¸ªé£Ÿç‰©ï¼Œå¦‚æµ·å²¸ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_</Tag>
@@ -185,546 +185,546 @@
 		<Tag>TXT_KEY_HINT_10</Tag>
 		<English>You can't see the current year until you discover calendar.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚ·¢ÏÖÀú·¨Ö®Ç°£¬ÄúÎŞ·¨¿´µ½µ±Ç°Äê·İ¡£</Chinese>
+		<Chinese>åœ¨å‘ç°å†æ³•ä¹‹å‰ï¼Œæ‚¨æ— æ³•çœ‹åˆ°å½“å‰å¹´ä»½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_15</Tag>
 		<English>To attract a corporation, acquire more of its resources, build associated buildings, or adopt the Free Enterprise civic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎüÒı¹«Ë¾£¬»ñÈ¡¸ü¶à×ÊÔ´£¬½¨ÔìÏà¹Ø½¨Öş£¬»ò²ÉÓÃ×ÔÓÉÊĞ³¡ÕşÌå</Chinese>
+		<Chinese>å¸å¼•å…¬å¸ï¼Œè·å–æ›´å¤šèµ„æºï¼Œå»ºé€ ç›¸å…³å»ºç­‘ï¼Œæˆ–é‡‡ç”¨è‡ªç”±å¸‚åœºæ”¿ä½“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_2</Tag>
 		<English>Discovering Microbiology will keep you safe from plagues</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¢ÏÖÎ¢ÉúÎïÑ§¿ÉÒÔÈÃÄãÔ¶ÀëÎÁÒß</Chinese>
+		<Chinese>å‘ç°å¾®ç”Ÿç‰©å­¦å¯ä»¥è®©ä½ è¿œç¦»ç˜Ÿç–«</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_19</Tag>
 		<English>In Rhye's and Fall of Civilization, camera flying mode hotkey has changed to [CTRL + F]</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Ïà»ú·ÉĞĞÄ£Ê½ÈÈ¼üÒÑ¸ü¸ÄÎª[CTRL+F]</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œç›¸æœºé£è¡Œæ¨¡å¼çƒ­é”®å·²æ›´æ”¹ä¸º[CTRL+F]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_68</Tag>
 		<English>Enemy workers cannot be captured unless enabled by a civic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ı·ÇÓĞÕşÌåµÄÖ§³Ö£¬·ñÔòµĞÈËµÄ¹¤ÈËÊÇ²»ÄÜ±»·ıÂ²µÄ¡£</Chinese>
+		<Chinese>é™¤éæœ‰æ”¿ä½“çš„æ”¯æŒï¼Œå¦åˆ™æ•Œäººçš„å·¥äººæ˜¯ä¸èƒ½è¢«ä¿˜è™çš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_11</Tag>
 		<English>Remember that you can always take control of a newborn civ if you don't like the civilization you started with. You can also use this feature to play from 3000BC even when you want to pick a civ that starts later on.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼Ç×¡£¬Èç¹ûÄã²»Ï²»¶Äã¿ªÊ¼µÄÎÄÃ÷£¬Äã×ÜÊÇ¿ÉÒÔ¿ØÖÆÒ»¸öĞÂÉúµÄÎÄÃ÷¡£ÄúÒ²¿ÉÒÔÊ¹ÓÃ´Ë¹¦ÄÜ´Ó¹«ÔªÇ°3000Äê¿ªÊ¼ÓÎÍæ£¬¼´Ê¹ÄúÏëÑ¡ÔñÒÔºó¿ªÊ¼ÓÎÍæµÄÎÄÃ÷¡£</Chinese>
+		<Chinese>è®°ä½ï¼Œå¦‚æœä½ ä¸å–œæ¬¢ä½ å¼€å§‹çš„æ–‡æ˜ï¼Œä½ æ€»æ˜¯å¯ä»¥æ§åˆ¶ä¸€ä¸ªæ–°ç”Ÿçš„æ–‡æ˜ã€‚æ‚¨ä¹Ÿå¯ä»¥ä½¿ç”¨æ­¤åŠŸèƒ½ä»å…¬å…ƒå‰3000å¹´å¼€å§‹æ¸¸ç©ï¼Œå³ä½¿æ‚¨æƒ³é€‰æ‹©ä»¥åå¼€å§‹æ¸¸ç©çš„æ–‡æ˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_34</Tag>
 		<English>The core of several civilisations expands on certain conditions, such as entering a new era.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼¸¸öÎÄÃ÷µÄºËĞÄÔÚÄ³Ğ©Ìõ¼şÏÂÀ©Õ¹£¬ÀıÈç½øÈëÒ»¸öĞÂÊ±´ú¡£</Chinese>
+		<Chinese>å‡ ä¸ªæ–‡æ˜çš„æ ¸å¿ƒåœ¨æŸäº›æ¡ä»¶ä¸‹æ‰©å±•ï¼Œä¾‹å¦‚è¿›å…¥ä¸€ä¸ªæ–°æ—¶ä»£ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_46</Tag>
 		<English>City culture will never expand beyond the third ring.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞÎÄ»¯¾ø²»»áÀ©Õ¹µ½Èı»·ÒÔÍâ¡£</Chinese>
+		<Chinese>åŸå¸‚æ–‡åŒ–ç»ä¸ä¼šæ‰©å±•åˆ°ä¸‰ç¯ä»¥å¤–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_35</Tag>
 		<English>Short on gold? Send your spies to steal from your neighbors!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ğ¶ÌÈ±£¿ÅÉÄãµÄ¼äµıÈ¥ÍµÄãÁÚ¾ÓµÄ¶«Î÷£¡</Chinese>
+		<Chinese>é»„é‡‘çŸ­ç¼ºï¼Ÿæ´¾ä½ çš„é—´è°å»å·ä½ é‚»å±…çš„ä¸œè¥¿ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_31</Tag>
 		<English>The game is won when a Spaceship arrives on Alpha Centauri, not when it is launched. The more Engines and Thrusters you build, the faster the Spaceship will arrive.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±ÓîÖæ·É´¬µ½´ï°ëÈËÂí×ù°¢¶û·¨ĞÇÊ±£¬¶ø²»ÊÇµ±Ëü·¢ÉäÊ±£¬ÓÎÏ·¾ÍÓ®ÁË¡£ÄãÖÆÔìµÄ·¢¶¯»úºÍÍÆ½øÆ÷Ô½¶à£¬ÓîÖæ·É´¬µ½´ïµÄËÙ¶È¾ÍÔ½¿ì¡£</Chinese>
+		<Chinese>å½“å®‡å®™é£èˆ¹åˆ°è¾¾åŠäººé©¬åº§é˜¿å°”æ³•æ˜Ÿæ—¶ï¼Œè€Œä¸æ˜¯å½“å®ƒå‘å°„æ—¶ï¼Œæ¸¸æˆå°±èµ¢äº†ã€‚ä½ åˆ¶é€ çš„å‘åŠ¨æœºå’Œæ¨è¿›å™¨è¶Šå¤šï¼Œå®‡å®™é£èˆ¹åˆ°è¾¾çš„é€Ÿåº¦å°±è¶Šå¿«ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_38</Tag>
 		<English>Watch your stability level closely. Depending on your situation, it can increase or decrease after significant game events. If your civilisation is collapsing and your stability does not improve until the next check, it will collapse!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×ĞÏ¸¹Û²ìÄãµÄÎÈ¶¨ĞÔ¶È¡£¸ù¾İÄãµÄÇé¿ö£¬Ëü¿ÉÒÔÔÚÖØ´óÓÎÏ·ÊÂ¼şºóÔö¼Ó»ò¼õÉÙ¡£Èç¹ûÄãµÄÎÄÃ÷µÄÎÈ¶¨¶È´¦ÓÚ¡°±ÀÀ£ÖĞ¡±£¬¶øÄãµÄÎÈ¶¨ÔÚÏÂÒ»´Î¼ì²éÖ®Ç°Ã»ÓĞ¸ÄÉÆ£¬Ëü¾Í»á±ÀÀ££¡</Chinese>
+		<Chinese>ä»”ç»†è§‚å¯Ÿä½ çš„ç¨³å®šæ€§åº¦ã€‚æ ¹æ®ä½ çš„æƒ…å†µï¼Œå®ƒå¯ä»¥åœ¨é‡å¤§æ¸¸æˆäº‹ä»¶åå¢åŠ æˆ–å‡å°‘ã€‚å¦‚æœä½ çš„æ–‡æ˜çš„ç¨³å®šåº¦å¤„äºâ€œå´©æºƒä¸­â€ï¼Œè€Œä½ çš„ç¨³å®šåœ¨ä¸‹ä¸€æ¬¡æ£€æŸ¥ä¹‹å‰æ²¡æœ‰æ”¹å–„ï¼Œå®ƒå°±ä¼šå´©æºƒï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_8</Tag>
 		<English>You need to discover Exploration before you can vassalize far away civilizations.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãĞèÒªÏÈ·¢ÏÖµØÀíÌ½Ë÷¿Æ¼¼£¬È»ºó²ÅÄÜ½«Ò£Ô¶µÄÎÄÃ÷¸½Ó¹¡£</Chinese>
+		<Chinese>ä½ éœ€è¦å…ˆå‘ç°åœ°ç†æ¢ç´¢ç§‘æŠ€ï¼Œç„¶åæ‰èƒ½å°†é¥è¿œçš„æ–‡æ˜é™„åº¸ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_21</Tag>
 		<English>Dawn of Civilization is still actively developed. You can get the latest bugfixes and additions by using the Git version of the mod. Visit the forum under http://forums.civfanatics.com/forumdisplay.php?f=452 to find out how.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÃ÷µÄÊï¹âÈÔÔÚ»ı¼«·¢Õ¹¡£Äú¿ÉÒÔÍ¨¹ıÊ¹ÓÃGit°æ±¾µÄmod»ñµÃ×îĞÂµÄ´íÎóĞŞ¸´ºÍÌí¼Ó¡£·ÃÎÊÂÛÌ³http://forums.civfanatics.com/forumdisplay.php£¿f=452À´ÕÒ³öÔ­Òò¡£</Chinese>
+		<Chinese>æ–‡æ˜çš„æ›™å…‰ä»åœ¨ç§¯æå‘å±•ã€‚æ‚¨å¯ä»¥é€šè¿‡ä½¿ç”¨Gitç‰ˆæœ¬çš„modè·å¾—æœ€æ–°çš„é”™è¯¯ä¿®å¤å’Œæ·»åŠ ã€‚è®¿é—®è®ºå›http://forums.civfanatics.com/forumdisplay.phpï¼Ÿf=452æ¥æ‰¾å‡ºåŸå› ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_72</Tag>
 		<English>Some units are stronger in open terrain. Tiles that are flat, have no features with defensive bonuses, and do not contain a city or fort count as open terrain.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓĞĞ©µ¥Î»ÔÚ¿ªÀ«µÄµØĞÎÉÏ¸üÇ¿´ó¡£Æ½Ì¹µÄµØÃ²£¬Ã»ÓĞ·ÀÓù¼ÓÖµµÄÌØÕ÷£¬²¢ÇÒ²»°üº¬³ÇÊĞ»ò±¤Àİ£¬±»ÊÓÎª¿ª·ÅµØĞÎ¡£</Chinese>
+		<Chinese>æœ‰äº›å•ä½åœ¨å¼€é˜”çš„åœ°å½¢ä¸Šæ›´å¼ºå¤§ã€‚å¹³å¦çš„åœ°è²Œï¼Œæ²¡æœ‰é˜²å¾¡åŠ å€¼çš„ç‰¹å¾ï¼Œå¹¶ä¸”ä¸åŒ…å«åŸå¸‚æˆ–å ¡å’ï¼Œè¢«è§†ä¸ºå¼€æ”¾åœ°å½¢ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_10</Tag>
 		<English>In Dawn of Civilization, military units cannot be killed by the plague, only weakened.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬¾ü¶Ó²»ÄÜ±»ÎÁÒßÉ±ËÀ£¬Ö»ÄÜ±»Ï÷Èõ¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œå†›é˜Ÿä¸èƒ½è¢«ç˜Ÿç–«æ€æ­»ï¼Œåªèƒ½è¢«å‰Šå¼±ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_17</Tag>
 		<English>If you like the mod, and if you have any ideas to improve it, or you just have a bug to report, make sure to check out the development forum at CivFanatics.com.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄãÏ²»¶mod£¬Èç¹ûÄãÓĞÈÎºÎ¸Ä½øµÄÏë·¨£¬»òÕßÄãÖ»ÊÇÓĞÒ»¸öbugÒª±¨¸æ£¬Ò»¶¨Òª²é¿´CivFanatics.comÉÏµÄ¿ª·¢ÂÛÌ³¡£</Chinese>
+		<Chinese>å¦‚æœä½ å–œæ¬¢modï¼Œå¦‚æœä½ æœ‰ä»»ä½•æ”¹è¿›çš„æƒ³æ³•ï¼Œæˆ–è€…ä½ åªæ˜¯æœ‰ä¸€ä¸ªbugè¦æŠ¥å‘Šï¼Œä¸€å®šè¦æŸ¥çœ‹CivFanatics.comä¸Šçš„å¼€å‘è®ºå›ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_54</Tag>
 		<English>Civic combinations with positive or negative effects on stability are highlighted in the civics advisor.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÕşÌå¹ËÎÊÖĞÇ¿µ÷ÁË¶ÔÎÈ¶¨ĞÔÓĞÕıÃæ»ò¸ºÃæÓ°ÏìµÄ³ÇÊĞ×éºÏ¡£</Chinese>
+		<Chinese>æ”¿ä½“é¡¾é—®ä¸­å¼ºè°ƒäº†å¯¹ç¨³å®šæ€§æœ‰æ­£é¢æˆ–è´Ÿé¢å½±å“çš„åŸå¸‚ç»„åˆã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_28</Tag>
 		<English>During wartime, your ships may sever all naval trade routes entering an enemy city by using the "Blockade" Mission within range of the opposing metropolis. Using a Privateer to blockade a city during peace time will even allow you to plunder gold from your enemy's treasury!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÕ½Ê±£¬ÄãµÄ´¬¿ÉÄÜ»áÇĞ¶ÏËùÓĞ½øÈëµĞ·½³ÇÊĞµÄº£ÉÏÃ³Ò×Â·Ïß£¬ÔÚµĞ·½³ÇÊĞ·¶Î§ÄÚÖ´ĞĞ¡°·âËø¡±ÈÎÎñ¡£ÔÚºÍÆ½Ê±ÆÚÓÃË½ÈË´¬·âËøÒ»×ù³ÇÊĞÉõÖÁ¿ÉÒÔÈÃÄã´ÓµĞÈËµÄ±¦¿âÀïÂÓ¶á»Æ½ğ£¡</Chinese>
+		<Chinese>åœ¨æˆ˜æ—¶ï¼Œä½ çš„èˆ¹å¯èƒ½ä¼šåˆ‡æ–­æ‰€æœ‰è¿›å…¥æ•Œæ–¹åŸå¸‚çš„æµ·ä¸Šè´¸æ˜“è·¯çº¿ï¼Œåœ¨æ•Œæ–¹åŸå¸‚èŒƒå›´å†…æ‰§è¡Œâ€œå°é”â€ä»»åŠ¡ã€‚åœ¨å’Œå¹³æ—¶æœŸç”¨ç§äººèˆ¹å°é”ä¸€åº§åŸå¸‚ç”šè‡³å¯ä»¥è®©ä½ ä»æ•Œäººçš„å®åº“é‡Œæ å¤ºé»„é‡‘ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_22</Tag>
 		<English>If you attempt to stop the growth of newborn civs, some of your units will flip to their side.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄãÊÔÍ¼×èÖ¹ĞÂÉúÎÄÃ÷µÄáÈÆğ£¬ÄãµÄÒ»Ğ©µ¥Î»»áµ¹¸ê¡£</Chinese>
+		<Chinese>å¦‚æœä½ è¯•å›¾é˜»æ­¢æ–°ç”Ÿæ–‡æ˜çš„å´›èµ·ï¼Œä½ çš„ä¸€äº›å•ä½ä¼šå€’æˆˆã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_24</Tag>
 		<English>Train a persecutor to remove non-state religions from your cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑµÁ·×Ú½ÌÉóÅĞ¹Ù½«·Ç¹ú½Ì×Ú½Ì´ÓÄãÃÇµÄ³ÇÊĞÖĞÒÆ³ı¡£</Chinese>
+		<Chinese>è®­ç»ƒå®—æ•™å®¡åˆ¤å®˜å°†éå›½æ•™å®—æ•™ä»ä½ ä»¬çš„åŸå¸‚ä¸­ç§»é™¤ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_13</Tag>
 		<English>Corporation headquarters and executives have been removed, corporations spread on their own if the prerequisites are met.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ë¾×Ü²¿ºÍ¸ß¹ÜÒÑ¾­±»ÒÆ³ı£¬Èç¹ûÂú×ãÁËÏÈ¾öÌõ¼ş£¬¹«Ë¾½«×ÔĞĞÀ©ÕÅ¡£</Chinese>
+		<Chinese>å…¬å¸æ€»éƒ¨å’Œé«˜ç®¡å·²ç»è¢«ç§»é™¤ï¼Œå¦‚æœæ»¡è¶³äº†å…ˆå†³æ¡ä»¶ï¼Œå…¬å¸å°†è‡ªè¡Œæ‰©å¼ ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_42</Tag>
 		<English>In DoC, Ocean tiles start out yielding no food. Improvements on Ocean tiles require Compass, but in turn provide one additional food.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚDoCÖĞ£¬º£ÑóµØ¿é¿ªÊ¼²»²úÉúÊ³Îï¡£ÔÚº£ÑóµØ¿éĞŞ½¨ÉèÊ©ĞèÒªÂŞÅÌ¿Æ¼¼£¬µ«·´¹ıÀ´ÓÖÌá¹©ÁËÒ»¸ö¶îÍâµÄÊ³Îï¡£</Chinese>
+		<Chinese>åœ¨DoCä¸­ï¼Œæµ·æ´‹åœ°å—å¼€å§‹ä¸äº§ç”Ÿé£Ÿç‰©ã€‚åœ¨æµ·æ´‹åœ°å—ä¿®å»ºè®¾æ–½éœ€è¦ç½—ç›˜ç§‘æŠ€ï¼Œä½†åè¿‡æ¥åˆæä¾›äº†ä¸€ä¸ªé¢å¤–çš„é£Ÿç‰©ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_47</Tag>
 		<English>The amount of culture required for the next tile to be covered is displayed as tick marks on the culture bar in the city screen.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚ³ÇÊĞÆÁÄ»µÄÎÄ»¯À¸ÉÏ£¬½«Òª¸²¸ÇÏÂÒ»¸öµØ¿éËùĞèµÄÎÄ»¯Á¿ÏÔÊ¾Îª¿Ì¶ÈÏß¡£</Chinese>
+		<Chinese>åœ¨åŸå¸‚å±å¹•çš„æ–‡åŒ–æ ä¸Šï¼Œå°†è¦è¦†ç›–ä¸‹ä¸€ä¸ªåœ°å—æ‰€éœ€çš„æ–‡åŒ–é‡æ˜¾ç¤ºä¸ºåˆ»åº¦çº¿ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_23</Tag>
 		<English>The amount of cultures that Great Artists can generate using Great Works depends on the game era.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´óÒÕÊõ¼ÒÄÜÓÃ¾Ş×÷´´Ôì¶àÉÙÎÄ»¯È¡¾öÓÚÓÎÏ·Ê±´ú¡£</Chinese>
+		<Chinese>å¤§è‰ºæœ¯å®¶èƒ½ç”¨å·¨ä½œåˆ›é€ å¤šå°‘æ–‡åŒ–å–å†³äºæ¸¸æˆæ—¶ä»£ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_76</Tag>
 		<English>To win the Space Victory, you now have to construct a permanent base on Mars, instead of sending a colony ship to Alpha Centauri</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎªÁËÓ®µÃÌ«¿ÕÊ¤Àû£¬ÄãÏÖÔÚ±ØĞëÔÚ»ğĞÇÉÏ½¨Á¢Ò»¸öÓÀ¾ÃĞÔµÄ»ùµØ£¬¶ø²»ÊÇ°ÑÖ³ÃñµØ·É´¬ËÍµ½°ëÈËÂí×ù°¢¶û·¨ĞÇ¡£</Chinese>
+		<Chinese>ä¸ºäº†èµ¢å¾—å¤ªç©ºèƒœåˆ©ï¼Œä½ ç°åœ¨å¿…é¡»åœ¨ç«æ˜Ÿä¸Šå»ºç«‹ä¸€ä¸ªæ°¸ä¹…æ€§çš„åŸºåœ°ï¼Œè€Œä¸æ˜¯æŠŠæ®–æ°‘åœ°é£èˆ¹é€åˆ°åŠäººé©¬åº§é˜¿å°”æ³•æ˜Ÿã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_65</Tag>
 		<English>City defense now also protects against collateral damage: unit strength can never be reduced below the current defense modifier.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞ·ÀÓùÏÖÔÚÒ²¿ÉÒÔ·ÀÖ¹¸½´øÉËº¦£ºµ¥Î»Ç¿¶ÈÓÀÔ¶²»ÄÜ½µµÍµ½µÍÓÚµ±Ç°·ÀÓùĞŞÕıÖµ¡£</Chinese>
+		<Chinese>åŸå¸‚é˜²å¾¡ç°åœ¨ä¹Ÿå¯ä»¥é˜²æ­¢é™„å¸¦ä¼¤å®³ï¼šå•ä½å¼ºåº¦æ°¸è¿œä¸èƒ½é™ä½åˆ°ä½äºå½“å‰é˜²å¾¡ä¿®æ­£å€¼ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_16</Tag>
 		<English>In Rhye's and Fall of Civilization, vassal states are enabled by the discovery of Contract.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬¸½Ó¹¹ØÏµĞèÒªµã³öÆõÔ¼¾«Éñ¿Æ¼¼¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œé™„åº¸å…³ç³»éœ€è¦ç‚¹å‡ºå¥‘çº¦ç²¾ç¥ç§‘æŠ€ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_34</Tag>
 		<English>Keep some spies in your borders for counter-espionage. Enemy spies can wreak havoc!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÄãµÄ±ß¾³±£ÁôÒ»Ğ©¼äµı½øĞĞ·´¼äµı»î¶¯¡£µĞÈËµÄ¼äµı»áÔì³ÉÑÏÖØÆÆ»µ£¡</Chinese>
+		<Chinese>åœ¨ä½ çš„è¾¹å¢ƒä¿ç•™ä¸€äº›é—´è°è¿›è¡Œåé—´è°æ´»åŠ¨ã€‚æ•Œäººçš„é—´è°ä¼šé€ æˆä¸¥é‡ç ´åï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_77</Tag>
 		<English>When capturing a city, you now have the additional options to sack or spare it. More gold can be plundered in sacked cities, at the cost of more severe building damage and unrest. Sparing cities reduces unrest and building damage but instead costs money.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ì«¿Õ¾ºÈüÒÑ¾­±äµÃ¸ü¼ÓÏêÏ¸£ºĞèÒªĞí¶àÏîÄ¿À´ÊµÏÖÌ«¿ÕÊ¤Àû£¬¶øÃ¿Ò»¸öÏîÄ¿¶¼»á¸øÍê³ÉËüÃÇµÄµÚÒ»¸öÎÄÃ÷´øÀ´¶îÍâµÄÀûÒæ¡£ ÓëÌ«¿ÕÊ¤ÀûÎŞ¹ØµÄ¼¸¸öÏîÄ¿Ò²Óë¶ÔÌ«¿Õ¾ºÈüµÄÍ¶×ÊÏà»¥ÅäºÏ¡£</Chinese>
+		<Chinese>å¤ªç©ºç«èµ›å·²ç»å˜å¾—æ›´åŠ è¯¦ç»†ï¼šéœ€è¦è®¸å¤šé¡¹ç›®æ¥å®ç°å¤ªç©ºèƒœåˆ©ï¼Œè€Œæ¯ä¸€ä¸ªé¡¹ç›®éƒ½ä¼šç»™å®Œæˆå®ƒä»¬çš„ç¬¬ä¸€ä¸ªæ–‡æ˜å¸¦æ¥é¢å¤–çš„åˆ©ç›Šã€‚ ä¸å¤ªç©ºèƒœåˆ©æ— å…³çš„å‡ ä¸ªé¡¹ç›®ä¹Ÿä¸å¯¹å¤ªç©ºç«èµ›çš„æŠ•èµ„ç›¸äº’é…åˆã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_80</Tag>
 		<English>You can use a settler to immediately construct buildings in a city. This will give all buildings that a new city would receive for free when founded.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äã¿ÉÒÔÊ¹ÓÃÒ»¸öÒÆÃñÁ¢¼´ÔÚÒ»¸ö³ÇÊĞ½¨Ôì½¨ÖşÎï¡£Õâ½«Ìá¹©Ò»¸öĞÂ³ÇÊĞ½¨³Éºó½«Ãâ·Ñ»ñµÃµÄËùÓĞ½¨Öş¡£</Chinese>
+		<Chinese>ä½ å¯ä»¥ä½¿ç”¨ä¸€ä¸ªç§»æ°‘ç«‹å³åœ¨ä¸€ä¸ªåŸå¸‚å»ºé€ å»ºç­‘ç‰©ã€‚è¿™å°†æä¾›ä¸€ä¸ªæ–°åŸå¸‚å»ºæˆåå°†å…è´¹è·å¾—çš„æ‰€æœ‰å»ºç­‘ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_40</Tag>
 		<English>Rival civilizations led by computer opponents now pose a more significant threat from the sea. Stronger fleets, amphibious invasions... Don't be caught unprepared! The more warlike leaders can be very sneaky with their attack plans, as they have learned to think beyond the sword.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÒÔ¼ÆËã»ú¶ÔÊÖÎªÊ×µÄµĞ¶ÔÎÄÃ÷ÏÖÔÚ¹¹³ÉÁËÀ´×Ôº£ÑóµÄ¸ü´óÍşĞ²¡£¸üÇ¿´óµÄ½¢¶Ó£¬Á½ÆÜÈëÇÖ¡­¡­±ğ´ëÊÖ²»¼°£¡Ô½ÊÇºÃÕ½µÄÁìµ¼Õß£¬ËûÃÇµÄ¹¥»÷¼Æ»®¾ÍÔ½½Æ»«£¬ÒòÎªËûÃÇÒÑ¾­Ñ§»áÁËÓÃ½£ÒÔÍâµÄË¼Î¬¡£</Chinese>
+		<Chinese>ä»¥è®¡ç®—æœºå¯¹æ‰‹ä¸ºé¦–çš„æ•Œå¯¹æ–‡æ˜ç°åœ¨æ„æˆäº†æ¥è‡ªæµ·æ´‹çš„æ›´å¤§å¨èƒã€‚æ›´å¼ºå¤§çš„èˆ°é˜Ÿï¼Œä¸¤æ –å…¥ä¾µâ€¦â€¦åˆ«æªæ‰‹ä¸åŠï¼è¶Šæ˜¯å¥½æˆ˜çš„é¢†å¯¼è€…ï¼Œä»–ä»¬çš„æ”»å‡»è®¡åˆ’å°±è¶Šç‹¡çŒ¾ï¼Œå› ä¸ºä»–ä»¬å·²ç»å­¦ä¼šäº†ç”¨å‰‘ä»¥å¤–çš„æ€ç»´ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_26</Tag>
 		<English>The soundtracks you hear during the Classical, Medieval and Renaissance eras depend on your state religion.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãÔÚ¹Åµä¡¢ÖĞÊÀ¼ÍºÍÎÄÒÕ¸´ĞËÊ±ÆÚÌıµ½µÄÔ­ÉùÈ¡¾öÓÚÄãµÄ¹ú½Ì¡£</Chinese>
+		<Chinese>ä½ åœ¨å¤å…¸ã€ä¸­ä¸–çºªå’Œæ–‡è‰ºå¤å…´æ—¶æœŸå¬åˆ°çš„åŸå£°å–å†³äºä½ çš„å›½æ•™ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_33</Tag>
 		<English>The area certain civilisations flip on spawn is not always identical to their core. Several civilizations can flip larger areas.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä³Ğ©ÎÄÃ÷ÔÚ³öÉúÊ±·­×ªµÄÇøÓò²¢²»×ÜÊÇÓëÆäºËĞÄÏàÍ¬¡£¼¸¸öÎÄÃ÷¿ÉÒÔ·­×ª¸ü´óµÄÇøÓò¡£</Chinese>
+		<Chinese>æŸäº›æ–‡æ˜åœ¨å‡ºç”Ÿæ—¶ç¿»è½¬çš„åŒºåŸŸå¹¶ä¸æ€»æ˜¯ä¸å…¶æ ¸å¿ƒç›¸åŒã€‚å‡ ä¸ªæ–‡æ˜å¯ä»¥ç¿»è½¬æ›´å¤§çš„åŒºåŸŸã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_39</Tag>
 		<English>Stability checks are triggered by a variety of events including discovering techs, changing civics and losing or acquiring cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÈ¶¨ĞÔ¼ì²éÊÇÓÉ¸÷ÖÖ¸÷ÑùµÄÊÂ¼ş´¥·¢µÄ£¬°üÀ¨·¢ÏÖ¼¼Êõ£¬¸Ä±ä¹«ÃñºÍÊ§È¥»òÊÕ¹º³ÇÊĞ¡£</Chinese>
+		<Chinese>ç¨³å®šæ€§æ£€æŸ¥æ˜¯ç”±å„ç§å„æ ·çš„äº‹ä»¶è§¦å‘çš„ï¼ŒåŒ…æ‹¬å‘ç°æŠ€æœ¯ï¼Œæ”¹å˜å…¬æ°‘å’Œå¤±å»æˆ–æ”¶è´­åŸå¸‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_5</Tag>
 		<English>Plague can spread in many ways - through trade routes, along roads and between neighbouring cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÁÒß¿ÉÒÔÍ¨¹ı¶àÖÖÍ¾¾¶´«²¥¡ª¡ªÍ¨¹ıÃ³Ò×Â·Ïß¡¢¹«Â·ºÍÁÚ½ü³ÇÊĞÖ®¼ä´«²¥¡£</Chinese>
+		<Chinese>ç˜Ÿç–«å¯ä»¥é€šè¿‡å¤šç§é€”å¾„ä¼ æ’­â€”â€”é€šè¿‡è´¸æ˜“è·¯çº¿ã€å…¬è·¯å’Œé‚»è¿‘åŸå¸‚ä¹‹é—´ä¼ æ’­ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_71</Tag>
 		<English>Mounted units have been split into Light Cavalry and Heavy Cavalry.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æï±øµ¥Î»·ÖÎªÇáÆï±øºÍÖØÆï±ø¡£</Chinese>
+		<Chinese>éª‘å…µå•ä½åˆ†ä¸ºè½»éª‘å…µå’Œé‡éª‘å…µã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_40</Tag>
 		<English>Golden Ages protect you from most negative effects of being unstable. The protection only lasts as long as the Golden Age, however.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>»Æ½ğÊ±ÆÚ±£»¤ÄãÃâÊÜ²»ÎÈ¶¨µÄ¸ºÃæÓ°Ïì¡£È»¶ø£¬ÕâÖÖ±£»¤Ö»³ÖĞøµ½»Æ½ğÊ±´ú¡£</Chinese>
+		<Chinese>é»„é‡‘æ—¶æœŸä¿æŠ¤ä½ å…å—ä¸ç¨³å®šçš„è´Ÿé¢å½±å“ã€‚ç„¶è€Œï¼Œè¿™ç§ä¿æŠ¤åªæŒç»­åˆ°é»„é‡‘æ—¶ä»£ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_8</Tag>
 		<English>You can declare war on independent states and minor civs only by moving your units into their territory.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äã¿ÉÒÔÏò¶ÀÁ¢¹ú¼ÒºÍĞ¡ĞÍÎÄÃ÷ĞûÕ½£¬Ö»Ğè°ÑÄãµÄ²¿¶Ó×ªÒÆµ½ËûÃÇµÄÁìÍÁÉÏ¡£</Chinese>
+		<Chinese>ä½ å¯ä»¥å‘ç‹¬ç«‹å›½å®¶å’Œå°å‹æ–‡æ˜å®£æˆ˜ï¼Œåªéœ€æŠŠä½ çš„éƒ¨é˜Ÿè½¬ç§»åˆ°ä»–ä»¬çš„é¢†åœŸä¸Šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_26</Tag>
 		<English>If you spend more Espionage Points than an opponent, then your missions towards that opponent will be cheaper. Every point you spend throughout the game is added towards this total, so if you see a fierce rival outspending you in Espionage Points, it would be wise to increase your Espionage spending.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄã±È¶ÔÊÖ»¨·Ñ¸ü¶àµÄ¼äµıµãÊı£¬ÄÇÃ´Äã¶Ô¶ÔÊÖµÄÈÎÎñ½«¸ü±ãÒË¡£ÄãÔÚÕû¸öÓÎÏ·ÖĞ»¨·ÑµÄÃ¿Ò»·Ö¶¼»á¼Óµ½Õâ¸ö×ÜÊıÉÏ£¬ËùÒÔÈç¹ûÄã¿´µ½Ò»¸ö¾¢µĞÔÚ¼äµıµãÊıÉÏ³¬¹ıÁËÄã£¬ÄÇÃ´Ôö¼ÓÄãµÄ¼äµı»¨·ÑÊÇÃ÷ÖÇµÄ¡£</Chinese>
+		<Chinese>å¦‚æœä½ æ¯”å¯¹æ‰‹èŠ±è´¹æ›´å¤šçš„é—´è°ç‚¹æ•°ï¼Œé‚£ä¹ˆä½ å¯¹å¯¹æ‰‹çš„ä»»åŠ¡å°†æ›´ä¾¿å®œã€‚ä½ åœ¨æ•´ä¸ªæ¸¸æˆä¸­èŠ±è´¹çš„æ¯ä¸€åˆ†éƒ½ä¼šåŠ åˆ°è¿™ä¸ªæ€»æ•°ä¸Šï¼Œæ‰€ä»¥å¦‚æœä½ çœ‹åˆ°ä¸€ä¸ªåŠ²æ•Œåœ¨é—´è°ç‚¹æ•°ä¸Šè¶…è¿‡äº†ä½ ï¼Œé‚£ä¹ˆå¢åŠ ä½ çš„é—´è°èŠ±è´¹æ˜¯æ˜æ™ºçš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_53</Tag>
 		<English>If you have problems with game performance in the late game, enabling graphics paging in the BUG menu can help on some machines.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄúÔÚÓÎÏ·ºóÆÚÓöµ½ÓÎÏ·ĞÔÄÜÎÊÌâ£¬ÔÚBUG²Ëµ¥ÖĞÆôÓÃÍ¼ĞÎ·ÖÒ³¿ÉÒÔ°ïÖúÄ³Ğ©Éè±¸¡£</Chinese>
+		<Chinese>å¦‚æœæ‚¨åœ¨æ¸¸æˆåæœŸé‡åˆ°æ¸¸æˆæ€§èƒ½é—®é¢˜ï¼Œåœ¨BUGèœå•ä¸­å¯ç”¨å›¾å½¢åˆ†é¡µå¯ä»¥å¸®åŠ©æŸäº›è®¾å¤‡ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_62</Tag>
 		<English>Instead of starting with no religion, each civilisation starts with its own specific pagan religion. These religions do not have any of the benefits of major religions, however.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã¿¸öÎÄÃ÷²»ÊÇ´ÓÃ»ÓĞ×Ú½Ì¿ªÊ¼µÄ£¬¶øÊÇ´Ó×Ô¼ºÌØ¶¨µÄÒì½ÌÍ½×Ú½Ì¿ªÊ¼µÄ¡£È»¶ø£¬ÕâĞ©×Ú½ÌÃ»ÓĞÈÎºÎÖ÷Òª×Ú½ÌµÄºÃ´¦¡£</Chinese>
+		<Chinese>æ¯ä¸ªæ–‡æ˜ä¸æ˜¯ä»æ²¡æœ‰å®—æ•™å¼€å§‹çš„ï¼Œè€Œæ˜¯ä»è‡ªå·±ç‰¹å®šçš„å¼‚æ•™å¾’å®—æ•™å¼€å§‹çš„ã€‚ç„¶è€Œï¼Œè¿™äº›å®—æ•™æ²¡æœ‰ä»»ä½•ä¸»è¦å®—æ•™çš„å¥½å¤„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_18</Tag>
 		<English>If it's been a while since the last time you got an updated version of the mod, make sure to check CivFanatics.com for a new version. The mod is in active development, and updates are uploaded often. Every update is full of fixes and new features.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄãÒÑ¾­ÓĞÒ»¶ÎÊ±¼äÃ»ÓĞµÃµ½¸üĞÂ°æ±¾µÄmodÁË£¬Ò»¶¨ÒªÔÚCivFanatics.comÉÏÕÒµ½Ò»¸öĞÂ°æ±¾¡£ÎÒÃÇÕıÔÚ»ı¼«¿ª·¢ÖĞ£¬¾­³£ÓĞ¸üĞÂ±»ÉÏ´«¡£Ã¿¸ö¸üĞÂ¶¼³äÂúÁËĞŞ¸´ºÍĞÂ¹¦ÄÜ¡£</Chinese>
+		<Chinese>å¦‚æœä½ å·²ç»æœ‰ä¸€æ®µæ—¶é—´æ²¡æœ‰å¾—åˆ°æ›´æ–°ç‰ˆæœ¬çš„modäº†ï¼Œä¸€å®šè¦åœ¨CivFanatics.comä¸Šæ‰¾åˆ°ä¸€ä¸ªæ–°ç‰ˆæœ¬ã€‚æˆ‘ä»¬æ­£åœ¨ç§¯æå¼€å‘ä¸­ï¼Œç»å¸¸æœ‰æ›´æ–°è¢«ä¸Šä¼ ã€‚æ¯ä¸ªæ›´æ–°éƒ½å……æ»¡äº†ä¿®å¤å’Œæ–°åŠŸèƒ½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_31</Tag>
 		<English>If you run Slavery or Colonialism, you can trade slaves when interacting with other civilizations in the diplomacy interface.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄã¾­ÓªÅ«Á¥ÖÆ¶È»òÖ³ÃñÖ÷Òå£¬Äã¿ÉÒÔÔÚÓëÆäËûÎÄÃ÷µÄÍâ½»½»ÍùÖĞ½»»»Å«Á¥¡£</Chinese>
+		<Chinese>å¦‚æœä½ ç»è¥å¥´éš¶åˆ¶åº¦æˆ–æ®–æ°‘ä¸»ä¹‰ï¼Œä½ å¯ä»¥åœ¨ä¸å…¶ä»–æ–‡æ˜çš„å¤–äº¤äº¤å¾€ä¸­äº¤æ¢å¥´éš¶ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_37</Tag>
 		<English>Random events are tied to what is happening within your civilization. If you want to experience all of the events that are possible, you will have to play numerous games using different approaches and strategies: war and peace, different religious approaches, different technological paths, different civics and more!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ëæ»úÊÂ¼şÓëÄãÃÇÎÄÃ÷ÖĞÕıÔÚ·¢ÉúµÄÊÂÇéÁªÏµÔÚÒ»Æğ¡£Èç¹ûÄãÏëÌåÑéËùÓĞ¿ÉÄÜ·¢ÉúµÄÊÂ¼ş£¬Äã½«²»µÃ²»ÓÃ²»Í¬µÄ·½·¨ºÍ²ßÂÔÍæºÜ¶àÓÎÏ·£ºÕ½ÕùÓëºÍÆ½£¬²»Í¬µÄ×Ú½Ì·½·¨£¬²»Í¬µÄ¼¼ÊõÍ¾¾¶£¬²»Í¬µÄÎÄÃ÷µÈµÈ£¡</Chinese>
+		<Chinese>éšæœºäº‹ä»¶ä¸ä½ ä»¬æ–‡æ˜ä¸­æ­£åœ¨å‘ç”Ÿçš„äº‹æƒ…è”ç³»åœ¨ä¸€èµ·ã€‚å¦‚æœä½ æƒ³ä½“éªŒæ‰€æœ‰å¯èƒ½å‘ç”Ÿçš„äº‹ä»¶ï¼Œä½ å°†ä¸å¾—ä¸ç”¨ä¸åŒçš„æ–¹æ³•å’Œç­–ç•¥ç©å¾ˆå¤šæ¸¸æˆï¼šæˆ˜äº‰ä¸å’Œå¹³ï¼Œä¸åŒçš„å®—æ•™æ–¹æ³•ï¼Œä¸åŒçš„æŠ€æœ¯é€”å¾„ï¼Œä¸åŒçš„æ–‡æ˜ç­‰ç­‰ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_60</Tag>
 		<English>The last two eras are now called the Global and Digital eras.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×îºóÁ½¸öÊ±´úÏÖÔÚ±»³ÆÎªÈ«Çò»¯Ê±´úºÍÊı×Ö»¯Ê±´ú¡£</Chinese>
+		<Chinese>æœ€åä¸¤ä¸ªæ—¶ä»£ç°åœ¨è¢«ç§°ä¸ºå…¨çƒåŒ–æ—¶ä»£å’Œæ•°å­—åŒ–æ—¶ä»£ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_51</Tag>
 		<English>Spies can now accumulate experience and acquire promotions by successfully completing missions.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼äµıÏÖÔÚ¿ÉÒÔÍ¨¹ı³É¹¦Íê³ÉÈÎÎñÀ´»ıÀÛ¾­ÑéºÍ»ñµÃ½úÉı¡£</Chinese>
+		<Chinese>é—´è°ç°åœ¨å¯ä»¥é€šè¿‡æˆåŠŸå®Œæˆä»»åŠ¡æ¥ç§¯ç´¯ç»éªŒå’Œè·å¾—æ™‹å‡ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_11</Tag>
 		<English>Related religions like Hinduism and Buddhism or Confucianism and Taoism don't create unhappiness if one of them is your state religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ïà¹ØÁªµÄ×Ú½Ì£¬ÈçÓ¡¶È½ÌºÍ·ğ½Ì»òÈå½Ì£¬Èç¹ûÆäÖĞÒ»¸öÊÇÄãµÄ¹ú½Ì£¬¾Í²»»á²úÉú²»¿ìÀÖ</Chinese>
+		<Chinese>ç›¸å…³è”çš„å®—æ•™ï¼Œå¦‚å°åº¦æ•™å’Œä½›æ•™æˆ–å„’æ•™ï¼Œå¦‚æœå…¶ä¸­ä¸€ä¸ªæ˜¯ä½ çš„å›½æ•™ï¼Œå°±ä¸ä¼šäº§ç”Ÿä¸å¿«ä¹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_64</Tag>
 		<English>Units lose all their promotions when upgraded. A portion of the experience earned is refunded, depending on the strength difference between the previous and current unit type.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ¥Î»Éı¼¶ºó»áÊ§È¥ËùÓĞµÄ½úÉı¡£Ëù»ñ¾­ÑéµÄÒ»²¿·Ö½«ÍË»¹£¬ÕâÈ¡¾öÓÚÒÔÇ°ºÍµ±Ç°µ¥Î»ÀàĞÍÖ®¼äµÄÕ½¶·Á¦²îÒì¡£</Chinese>
+		<Chinese>å•ä½å‡çº§åä¼šå¤±å»æ‰€æœ‰çš„æ™‹å‡ã€‚æ‰€è·ç»éªŒçš„ä¸€éƒ¨åˆ†å°†é€€è¿˜ï¼Œè¿™å–å†³äºä»¥å‰å’Œå½“å‰å•ä½ç±»å‹ä¹‹é—´çš„æˆ˜æ–—åŠ›å·®å¼‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_18</Tag>
 		<English>In Dawn of Civilization, vassals do not have to give up tile control to their masters in the first ring around their cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬¸½Ó¹²»±ØÔÚ³ÇÊĞÖÜÎ§µÄµÚÒ»È¦°Ñ¿ØÖÆÈ¨½»¸øËûÃÇµÄÖ÷ÈË¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œé™„åº¸ä¸å¿…åœ¨åŸå¸‚å‘¨å›´çš„ç¬¬ä¸€åœˆæŠŠæ§åˆ¶æƒäº¤ç»™ä»–ä»¬çš„ä¸»äººã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_66</Tag>
 		<English>Entering enemy waters consumes all remaining movement points.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>½øÈëµĞ·½Ë®ÓòÏûºÄËùÓĞÊ£ÓàµÄÒÆ¶¯µã¡£</Chinese>
+		<Chinese>è¿›å…¥æ•Œæ–¹æ°´åŸŸæ¶ˆè€—æ‰€æœ‰å‰©ä½™çš„ç§»åŠ¨ç‚¹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_28</Tag>
 		<English>Cities on islands of size five or less also act as improvements for the resource they are founded on, yielding the full production and commerce increase for the city tile.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Îå¸ö»òÒÔÏÂµØ¿éµºÓìÉÏµÄ³ÇÊĞÒ²¿ÉÒÔ×÷ÎªÉèÊ©ÀûÓÃÆäËù½¨Á¢µÄ×ÊÔ´£¬Ê¹³ÇÊĞµØ¿éµÄ²úÄÜºÍÉÌÒµµÃµ½³ä·ÖµÄÔö³¤¡£</Chinese>
+		<Chinese>äº”ä¸ªæˆ–ä»¥ä¸‹åœ°å—å²›å±¿ä¸Šçš„åŸå¸‚ä¹Ÿå¯ä»¥ä½œä¸ºè®¾æ–½åˆ©ç”¨å…¶æ‰€å»ºç«‹çš„èµ„æºï¼Œä½¿åŸå¸‚åœ°å—çš„äº§èƒ½å’Œå•†ä¸šå¾—åˆ°å……åˆ†çš„å¢é•¿ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_49</Tag>
 		<English>A Great Statesman can put an end to war or anarchy, improve diplomatic relations, build an Administrative Center or reform your civics for free.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»¸ö´óÕşÖÎ¼Ò¿ÉÒÔ½áÊøÕ½Õù»òÎŞÕş¸®×´Ì¬£¬¸ÄÉÆÍâ½»¹ØÏµ£¬½¨Á¢Ò»¸öĞĞÕşÖĞĞÄ»òÃâ·Ñ¸Ä¸ïÄãµÄÕşÌå¡£</Chinese>
+		<Chinese>ä¸€ä¸ªå¤§æ”¿æ²»å®¶å¯ä»¥ç»“æŸæˆ˜äº‰æˆ–æ— æ”¿åºœçŠ¶æ€ï¼Œæ”¹å–„å¤–äº¤å…³ç³»ï¼Œå»ºç«‹ä¸€ä¸ªè¡Œæ”¿ä¸­å¿ƒæˆ–å…è´¹æ”¹é©ä½ çš„æ”¿ä½“ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_7</Tag>
 		<English>In Dawn of Civilization, civilisations can respawn in historically appropriate time periods, even before Nationalism has been discovered.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬ÎÄÃ÷¿ÉÒÔÔÚÀúÊ·ÉÏÊÊµ±µÄÊ±ÆÚÖØÉú£¬ÉõÖÁÔÚÃñ×åÖ÷Òå±»·¢ÏÖÖ®Ç°¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œæ–‡æ˜å¯ä»¥åœ¨å†å²ä¸Šé€‚å½“çš„æ—¶æœŸé‡ç”Ÿï¼Œç”šè‡³åœ¨æ°‘æ—ä¸»ä¹‰è¢«å‘ç°ä¹‹å‰ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_9</Tag>
 		<English>Combining certain civics will improve or harm the stability of your empire.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ä³Ğ©ÕşÌå×éºÏ½«¸ÄÉÆ»òËğº¦ÄãµÄµÛ¹úµÄÎÈ¶¨¡£</Chinese>
+		<Chinese>æŸäº›æ”¿ä½“ç»„åˆå°†æ”¹å–„æˆ–æŸå®³ä½ çš„å¸å›½çš„ç¨³å®šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_74</Tag>
 		<English>Resources now only supply a limited number of cities with happiness or health. Acquire additional instances of a resource to keep your growing empire supplied!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚ£¬×ÊÔ´Ö»ÄÜÎªÓĞÏŞÊıÁ¿µÄ³ÇÊĞ´øÀ´ĞÒ¸£»ò½¡¿µ¡£ »ñÈ¡¸ü¶àµÄ×ÊÔ´£¬ÒÔ±£³ÖÄú²»¶Ï·¢Õ¹µÄµÛ¹ú£¡</Chinese>
+		<Chinese>ç°åœ¨ï¼Œèµ„æºåªèƒ½ä¸ºæœ‰é™æ•°é‡çš„åŸå¸‚å¸¦æ¥å¹¸ç¦æˆ–å¥åº·ã€‚ è·å–æ›´å¤šçš„èµ„æºï¼Œä»¥ä¿æŒæ‚¨ä¸æ–­å‘å±•çš„å¸å›½ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_70</Tag>
 		<English>Many classical wonders can only be built with no state religion in cities without any religions.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÃ»ÓĞ×Ú½ÌµÄ³ÇÊĞÖĞ£¬Ö»ÓĞÃ»ÓĞ¹ú½Ì²ÅÄÜ½¨Á¢Ğí¶à¹ÅµäÆæ¹Û¡£</Chinese>
+		<Chinese>åœ¨æ²¡æœ‰å®—æ•™çš„åŸå¸‚ä¸­ï¼Œåªæœ‰æ²¡æœ‰å›½æ•™æ‰èƒ½å»ºç«‹è®¸å¤šå¤å…¸å¥‡è§‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_33</Tag>
 		<English>Use the Submarine's stealth along with its ability to carry conventional and tactical nuclear missiles to launch a devastating opening attack on another landmass.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÀûÓÃÇ±Í§µÄÒşÉíÄÜÁ¦ÒÔ¼°Ğ¯´ø³£¹æºÍÕ½ÊõºËµ¼µ¯µÄÄÜÁ¦£¬¶ÔÁíÒ»¿éÂ½µØ·¢¶¯»ÙÃğĞÔµÄ¿ª·ÅÊ½¹¥»÷¡£</Chinese>
+		<Chinese>åˆ©ç”¨æ½œè‰‡çš„éšèº«èƒ½åŠ›ä»¥åŠæºå¸¦å¸¸è§„å’Œæˆ˜æœ¯æ ¸å¯¼å¼¹çš„èƒ½åŠ›ï¼Œå¯¹å¦ä¸€å—é™†åœ°å‘åŠ¨æ¯ç­æ€§çš„å¼€æ”¾å¼æ”»å‡»ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_73</Tag>
 		<English>In addition to discovering the associated technology, to found a religion you also need to control a city in its historical core region.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ıÁË·¢ÏÖÏà¹ØµÄ¿Æ¼¼£¬Òª·¢ÏÖÒ»¸ö×Ú½Ì£¬Äã»¹ĞèÒª¿ØÖÆÕâ¸ö×Ú½ÌÀúÊ·ºËĞÄÇøÓòµÄÒ»¸ö³ÇÊĞ¡£</Chinese>
+		<Chinese>é™¤äº†å‘ç°ç›¸å…³çš„ç§‘æŠ€ï¼Œè¦å‘ç°ä¸€ä¸ªå®—æ•™ï¼Œä½ è¿˜éœ€è¦æ§åˆ¶è¿™ä¸ªå®—æ•™å†å²æ ¸å¿ƒåŒºåŸŸçš„ä¸€ä¸ªåŸå¸‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_14</Tag>
 		<English>In Rhye's and Fall of Civilization, movement through ocean tiles costs &#189; a movement point.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬´©Ô½º£ÑóÍßÆ¬µÄÒÆ¶¯ĞèÒª°ë¸öÒÆ¶¯µã¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œç©¿è¶Šæµ·æ´‹ç“¦ç‰‡çš„ç§»åŠ¨éœ€è¦åŠä¸ªç§»åŠ¨ç‚¹ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_13</Tag>
 		<English>In Rhye's and Fall of Civilization, vassals can declare war.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬¸½Ó¹¹ú¿ÉÒÔĞûÕ½¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œé™„åº¸å›½å¯ä»¥å®£æˆ˜ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_50</Tag>
 		<English>Oases provide more food and less commerce. It is also possible to build Cottages on Oases.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂÌÖŞÌá¹©¸ü¶àµÄÊ³ÎïºÍ¸üÉÙµÄÉÌÒµ¡£ÔÚÂÌÖŞÉÏ½¨Ğ¡ÎİÒ²ÊÇ¿ÉÄÜµÄ¡£</Chinese>
+		<Chinese>ç»¿æ´²æä¾›æ›´å¤šçš„é£Ÿç‰©å’Œæ›´å°‘çš„å•†ä¸šã€‚åœ¨ç»¿æ´²ä¸Šå»ºå°å±‹ä¹Ÿæ˜¯å¯èƒ½çš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_59</Tag>
 		<English>Dawn of Civilization features a completely new tech tree, consisting of 141 technologies spread over 7 eras.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÃ÷µÄÊï¹âÓµÓĞÒ»¿ÃÈ«ĞÂµÄ¿Æ¼¼Ê÷£¬ÓÉ±é²¼7¸öÊ±´úµÄ141Ïî¿Æ¼¼×é³É¡£</Chinese>
+		<Chinese>æ–‡æ˜çš„æ›™å…‰æ‹¥æœ‰ä¸€æ£µå…¨æ–°çš„ç§‘æŠ€æ ‘ï¼Œç”±éå¸ƒ7ä¸ªæ—¶ä»£çš„141é¡¹ç§‘æŠ€ç»„æˆã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_20</Tag>
 		<English>Areas that are relevant to your UHV are displayed in light blue in the tile tooltip.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÓëÀúÊ·Ê¤ÀûÏà¹ØµÄÇøÓòÔÚÆ½ÆÌ¹¤¾ßÌáÊ¾ÖĞÏÔÊ¾ÎªÇ³À¶É«¡£</Chinese>
+		<Chinese>ä¸å†å²èƒœåˆ©ç›¸å…³çš„åŒºåŸŸåœ¨å¹³é“ºå·¥å…·æç¤ºä¸­æ˜¾ç¤ºä¸ºæµ…è“è‰²ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_7</Tag>
 		<English>Every civ has hidden modifiers that influence their growth. This way, modern civs are not disadvantaged by their late start.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ã¿¸öÎÄÃ÷¶¼ÓĞÒş²ØµÄĞŞÕı£¬Ó°ÏìËûÃÇµÄ³É³¤¡£ÕâÑù£¬ÏÖ´úÎÄÃ÷¾Í²»»áÒòÎªÆğ²½Íí¶ø´¦ÓÚ²»ÀûµØÎ»¡£</Chinese>
+		<Chinese>æ¯ä¸ªæ–‡æ˜éƒ½æœ‰éšè—çš„ä¿®æ­£ï¼Œå½±å“ä»–ä»¬çš„æˆé•¿ã€‚è¿™æ ·ï¼Œç°ä»£æ–‡æ˜å°±ä¸ä¼šå› ä¸ºèµ·æ­¥æ™šè€Œå¤„äºä¸åˆ©åœ°ä½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_58</Tag>
 		<English>Only proselytizing religions, that is Buddhism, Christianity and Islam, can be spread by missionaries in civilizations with a different state religion.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>´«½ÌÊ¿Ö»ÄÜÔÚ²»Í¬¹ú¼Ò×Ú½ÌµÄÎÄÃ÷ÖĞ´«²¥´«½Ì×Ú½Ì£¬¼´·ğ½Ì¡¢»ù¶½½ÌºÍÒÁË¹À¼½Ì¡£</Chinese>
+		<Chinese>ä¼ æ•™å£«åªèƒ½åœ¨ä¸åŒå›½å®¶å®—æ•™çš„æ–‡æ˜ä¸­ä¼ æ’­ä¼ æ•™å®—æ•™ï¼Œå³ä½›æ•™ã€åŸºç£æ•™å’Œä¼Šæ–¯å…°æ•™ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_3</Tag>
 		<English>Several AI civilizations flip larger areas on spawn to help them along.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼¸¸ö¼ÆËã»úÎÄÃ÷ÔÚ³öÉúÊ±·­×ª¸ü´óµÄÇøÓòÀ´°ïÖúËüÃÇÇ°½ø¡£</Chinese>
+		<Chinese>å‡ ä¸ªè®¡ç®—æœºæ–‡æ˜åœ¨å‡ºç”Ÿæ—¶ç¿»è½¬æ›´å¤§çš„åŒºåŸŸæ¥å¸®åŠ©å®ƒä»¬å‰è¿›ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_12</Tag>
 		<English>Related religions like Hinduism and Buddhism or Confucianism and Taoism create reduced diplomacy penalties</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶È½Ì¡¢·ğ½Ì¡¢Èå½ÌµÈÏà¹ØÁªµÄ×Ú½Ì¼õÉÙÁËÍâ½»³Í·£</Chinese>
+		<Chinese>å°åº¦æ•™ã€ä½›æ•™ã€å„’æ•™ç­‰ç›¸å…³è”çš„å®—æ•™å‡å°‘äº†å¤–äº¤æƒ©ç½š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_24</Tag>
 		<English>Never attack a city with only siege weapons. They may be the best way to damage a large number of enemy units, but once they inflict their maximum amount of damage, they will be unable to attack enemy units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²»ÒªÖ»ÓÃ¹¥³ÇÎäÆ÷¹¥»÷³ÇÊĞ¡£ËüÃÇ¿ÉÄÜÊÇÆÆ»µ´óÁ¿µĞ¾üµÄ×î¼Ñ·½Ê½£¬µ«Ò»µ©Ôì³É×î´ó³Ì¶ÈµÄÆÆ»µ£¬¾ÍÎŞ·¨¹¥»÷µĞ¾ü¡£</Chinese>
+		<Chinese>ä¸è¦åªç”¨æ”»åŸæ­¦å™¨æ”»å‡»åŸå¸‚ã€‚å®ƒä»¬å¯èƒ½æ˜¯ç ´åå¤§é‡æ•Œå†›çš„æœ€ä½³æ–¹å¼ï¼Œä½†ä¸€æ—¦é€ æˆæœ€å¤§ç¨‹åº¦çš„ç ´åï¼Œå°±æ— æ³•æ”»å‡»æ•Œå†›ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_41</Tag>
 		<English>DoC adds a new terrain feature, Rainforests. They resemble Jungles, but cause no unhealthiness and can be improved after the discovery of Alloys.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>DoCÔö¼ÓÁËÒ»¸öĞÂµÄµØĞÎÌØÕ÷£¬ÓêÁÖ¡£ËüÃÇÀàËÆÓÚ´ÔÁÖ£¬µ«²»»áÔì³É²»½¡¿µ£¬ÔÚ·¢ÏÖºÏ½ğ¿Æ¼¼ºó¿ÉÒÔÔÚÆäÉÏĞŞ½¨ÉèÊ©¡£</Chinese>
+		<Chinese>DoCå¢åŠ äº†ä¸€ä¸ªæ–°çš„åœ°å½¢ç‰¹å¾ï¼Œé›¨æ—ã€‚å®ƒä»¬ç±»ä¼¼äºä¸›æ—ï¼Œä½†ä¸ä¼šé€ æˆä¸å¥åº·ï¼Œåœ¨å‘ç°åˆé‡‘ç§‘æŠ€åå¯ä»¥åœ¨å…¶ä¸Šä¿®å»ºè®¾æ–½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_32</Tag>
 		<English>Your Fighters can intercept multiple enemy planes per turn, but become less effective at it as they get damage, so take care to repair your defensive planes.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄãµÄÕ½¶·»ú¿ÉÒÔÃ¿»ØºÏÀ¹½Ø¶à¼ÜµĞ»ú£¬µ«µ±ËüÃÇÊÜµ½ÉËº¦Ê±£¬Ğ§¹û»á½µµÍ£¬ËùÒÔÒª×¢ÒâĞŞÀíÄãµÄ·ÀÓù»ú¡£</Chinese>
+		<Chinese>ä½ çš„æˆ˜æ–—æœºå¯ä»¥æ¯å›åˆæ‹¦æˆªå¤šæ¶æ•Œæœºï¼Œä½†å½“å®ƒä»¬å—åˆ°ä¼¤å®³æ—¶ï¼Œæ•ˆæœä¼šé™ä½ï¼Œæ‰€ä»¥è¦æ³¨æ„ä¿®ç†ä½ çš„é˜²å¾¡æœºã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_14</Tag>
 		<English>The Silk Route and Trading Company corporations can only spread in historically appropriate regions.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ë¿³ñÖ®Â·ºÍÃ³Ò×¹«Ë¾Ö»ÄÜÔÚÀúÊ·ÉÏºÏÊÊµÄµØÇø½øĞĞÀ©ÕÅ¡£</Chinese>
+		<Chinese>ä¸ç»¸ä¹‹è·¯å’Œè´¸æ˜“å…¬å¸åªèƒ½åœ¨å†å²ä¸Šåˆé€‚çš„åœ°åŒºè¿›è¡Œæ‰©å¼ ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_17</Tag>
 		<English>Researching Academia as a Catholic civilization starts the Reformation, prompting all Catholic civilizations to decide if they want to convert to Protestantism.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌìÖ÷½ÌÎÄÃ÷ÑĞ¾¿Íê³ÉÑ§Êõ¾«Éñ¿Æ¼¼½«»á¿ªÊ¼¸Ä¸ï£¬´ÙÊ¹ËùÓĞÌìÖ÷½ÌÎÄÃ÷¾ö¶¨ÊÇ·ñÒªğ§ÒÀĞÂ½Ì¡£</Chinese>
+		<Chinese>å¤©ä¸»æ•™æ–‡æ˜ç ”ç©¶å®Œæˆå­¦æœ¯ç²¾ç¥ç§‘æŠ€å°†ä¼šå¼€å§‹æ”¹é©ï¼Œä¿ƒä½¿æ‰€æœ‰å¤©ä¸»æ•™æ–‡æ˜å†³å®šæ˜¯å¦è¦çšˆä¾æ–°æ•™ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_27</Tag>
 		<English>AI Romans and Greeks will receive armies to conquer the Mediterranean and Mesopotamia. Be prepared!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¼ÆËã»ú¿ØÖÆµÄÂŞÂíºÍÏ£À°ÈË½«½ÓÊÜ¾ü¶ÓÕ÷·şµØÖĞº£ºÍÃÀË÷²»´ïÃ×ÑÇ¡£×¼±¸ºÃÁË£¡</Chinese>
+		<Chinese>è®¡ç®—æœºæ§åˆ¶çš„ç½—é©¬å’Œå¸Œè…Šäººå°†æ¥å—å†›é˜Ÿå¾æœåœ°ä¸­æµ·å’Œç¾ç´¢ä¸è¾¾ç±³äºšã€‚å‡†å¤‡å¥½äº†ï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_57</Tag>
 		<English>There is a chance that an existing religion disappears when a new religion spreads to a city. Religions can also disappear when too many of them are present, especially in smaller cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±Ò»¸öĞÂµÄ×Ú½Ì´«²¥µ½Ò»¸ö³ÇÊĞÊ±£¬Ò»¸öÏÖ´æµÄ×Ú½ÌÓĞ¿ÉÄÜÏûÊ§¡£×Ú½ÌÒ²»áÔÚ×Ú½ÌÌ«¶àµÄÊ±ºòÏûÊ§£¬ÌØ±ğÊÇÔÚĞ¡³ÇÊĞ¡£</Chinese>
+		<Chinese>å½“ä¸€ä¸ªæ–°çš„å®—æ•™ä¼ æ’­åˆ°ä¸€ä¸ªåŸå¸‚æ—¶ï¼Œä¸€ä¸ªç°å­˜çš„å®—æ•™æœ‰å¯èƒ½æ¶ˆå¤±ã€‚å®—æ•™ä¹Ÿä¼šåœ¨å®—æ•™å¤ªå¤šçš„æ—¶å€™æ¶ˆå¤±ï¼Œç‰¹åˆ«æ˜¯åœ¨å°åŸå¸‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_63</Tag>
 		<English>The presence of non-state religions causes unhappiness in your cities, unless you adopt the Tolerance civic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·Ç¹ú½Ì×Ú½ÌµÄ´æÔÚ»áµ¼ÖÂÄãÃÇ³ÇÊĞµÄ²»ĞÒ¸££¬³ı·ÇÄãÃÇ²ÉÈ¡ÇóÍ¬´æÒìµÄÕşÌåÌ¬¶È¡£</Chinese>
+		<Chinese>éå›½æ•™å®—æ•™çš„å­˜åœ¨ä¼šå¯¼è‡´ä½ ä»¬åŸå¸‚çš„ä¸å¹¸ç¦ï¼Œé™¤éä½ ä»¬é‡‡å–æ±‚åŒå­˜å¼‚çš„æ”¿ä½“æ€åº¦ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_21</Tag>
 		<English>In Rhye's and Fall of Civilization, jungle, rainforest and marshes are impassable to most land units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬´ÔÁÖ¡¢ÓêÁÖºÍÕÓÔó¶Ô´ó¶àÊıÂ½µØµ¥Î»À´Ëµ¶¼ÊÇÎŞ·¨ÓâÔ½µÄ¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œä¸›æ—ã€é›¨æ—å’Œæ²¼æ³½å¯¹å¤§å¤šæ•°é™†åœ°å•ä½æ¥è¯´éƒ½æ˜¯æ— æ³•é€¾è¶Šçš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_32</Tag>
 		<English>Tribal villages are placed randomly at the beginning of the game.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>²¿Âä´å×¯ÔÚÓÎÏ·¿ªÊ¼Ê±ÊÇËæ»ú·ÅÖÃµÄ¡£</Chinese>
+		<Chinese>éƒ¨è½æ‘åº„åœ¨æ¸¸æˆå¼€å§‹æ—¶æ˜¯éšæœºæ”¾ç½®çš„ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_38</Tag>
 		<English>You may be wise to keep some reserve gold in your treasury. You never know when your savings may help mitigate the effects of a disastrous event or grant you access to additional opportunities when a positive event rolls around.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Äã×îºÃ°ÑÒ»Ğ©´¢±¸»Æ½ğ·ÅÔÚÄãµÄ½ğ¿âÀï¡£ÄãÓÀÔ¶²»ÖªµÀÊ²Ã´Ê±ºòÄãµÄ´¢Ğî¿ÉÄÜÓĞÖúÓÚ¼õÇáÔÖÄÑĞÔÊÂ¼şµÄÓ°Ïì£¬»òÕßÔÚ»ı¼«ÊÂ¼ş·¢ÉúÊ±¸øÄãÌá¹©¸ü¶àµÄ»ú»á¡£</Chinese>
+		<Chinese>ä½ æœ€å¥½æŠŠä¸€äº›å‚¨å¤‡é»„é‡‘æ”¾åœ¨ä½ çš„é‡‘åº“é‡Œã€‚ä½ æ°¸è¿œä¸çŸ¥é“ä»€ä¹ˆæ—¶å€™ä½ çš„å‚¨è“„å¯èƒ½æœ‰åŠ©äºå‡è½»ç¾éš¾æ€§äº‹ä»¶çš„å½±å“ï¼Œæˆ–è€…åœ¨ç§¯æäº‹ä»¶å‘ç”Ÿæ—¶ç»™ä½ æä¾›æ›´å¤šçš„æœºä¼šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_15</Tag>
 		<English>In Rhye's and Fall of Civilization, the max income from a shrine is 20 gold per turn.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Ê¥¼£µÄ×î´óÊÕÈëÊÇÃ¿»ØºÏ20½ğ±Ò¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œåœ£è¿¹çš„æœ€å¤§æ”¶å…¥æ˜¯æ¯å›åˆ20é‡‘å¸ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_2</Tag>
 		<English>In Dawn of Civilization, several civilizations like Byzantium, Italy and Thailand have conditional spawns, and don't appear in every game.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÚÎÄÃ÷µÄÊï¹âÖĞ£¬Ïñ°İÕ¼Í¥¡¢Òâ´óÀûºÍÌ©¹úÕâÑùµÄ¼¸¸öÎÄÃ÷¶¼ÓĞ³öÏÖµÄÌõ¼ş£¬²¢Ã»ÓĞ³öÏÖÔÚÃ¿Ò»¾ÖÓÎÏ·ÖĞ¡£</Chinese>
+		<Chinese>åœ¨æ–‡æ˜çš„æ›™å…‰ä¸­ï¼Œåƒæ‹œå åº­ã€æ„å¤§åˆ©å’Œæ³°å›½è¿™æ ·çš„å‡ ä¸ªæ–‡æ˜éƒ½æœ‰å‡ºç°çš„æ¡ä»¶ï¼Œå¹¶æ²¡æœ‰å‡ºç°åœ¨æ¯ä¸€å±€æ¸¸æˆä¸­ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_55</Tag>
 		<English>Religions spread gradually from around cities where the religion is already present. The presence of religious buildings increases the spread range.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÖğ½¥´Ó×Ú½ÌÒÑ¾­´æÔÚµÄ³ÇÊĞÖÜÎ§´«²¥¿ªÀ´¡£×Ú½Ì½¨ÖşµÄ´æÔÚÔö¼ÓÁË´«²¥·¶Î§¡£</Chinese>
+		<Chinese>å®—æ•™é€æ¸ä»å®—æ•™å·²ç»å­˜åœ¨çš„åŸå¸‚å‘¨å›´ä¼ æ’­å¼€æ¥ã€‚å®—æ•™å»ºç­‘çš„å­˜åœ¨å¢åŠ äº†ä¼ æ’­èŒƒå›´ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_4</Tag>
 		<English>If you get a skull over your cities, it means they have the plague! The population and units in the city and in the surrounding region will probably decrease dramatically. To reduce the effects and the duration of plague, keep your cities healthy.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄãÔÚÄãµÄ³ÇÊĞ·¢ÏÖÒ»¸öÍ·¹Ç·ûºÅ£¬ÄÇ¾ÍÒâÎ¶×ÅËûÃÇÓĞÎÁÒß£¡³ÇÊĞºÍÖÜ±ßµØÇøµÄÈË¿ÚºÍµ¥Î»¿ÉÄÜ»á¼±¾ç¼õÉÙ¡£ÎªÁË¼õÉÙÎÁÒßµÄÓ°ÏìºÍ³ÖĞøÊ±¼ä£¬±£³ÖÄãÃÇ³ÇÊĞµÄ½¡¿µ¡£</Chinese>
+		<Chinese>å¦‚æœä½ åœ¨ä½ çš„åŸå¸‚å‘ç°ä¸€ä¸ªå¤´éª¨ç¬¦å·ï¼Œé‚£å°±æ„å‘³ç€ä»–ä»¬æœ‰ç˜Ÿç–«ï¼åŸå¸‚å’Œå‘¨è¾¹åœ°åŒºçš„äººå£å’Œå•ä½å¯èƒ½ä¼šæ€¥å‰§å‡å°‘ã€‚ä¸ºäº†å‡å°‘ç˜Ÿç–«çš„å½±å“å’ŒæŒç»­æ—¶é—´ï¼Œä¿æŒä½ ä»¬åŸå¸‚çš„å¥åº·ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_22</Tag>
 		<English>Catholicism is founded by the Great Schism, which occurs when more than half of all Orthodox cities fall outside of the control of Orthodox civilisations.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌìÖ÷½ÌÊÇÓÉ´ó·ÖÁÑ½¨Á¢µÄ£¬µ±³¬¹ıÒ»°ëµÄ¶«Õı½Ì³ÇÊĞ²»ÊÜ¶«Õı½ÌÎÄÃ÷µÄ¿ØÖÆÊ±£¬¾Í»á·¢Éú´ó·ÖÁÑ¡£</Chinese>
+		<Chinese>å¤©ä¸»æ•™æ˜¯ç”±å¤§åˆ†è£‚å»ºç«‹çš„ï¼Œå½“è¶…è¿‡ä¸€åŠçš„ä¸œæ­£æ•™åŸå¸‚ä¸å—ä¸œæ­£æ•™æ–‡æ˜çš„æ§åˆ¶æ—¶ï¼Œå°±ä¼šå‘ç”Ÿå¤§åˆ†è£‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_36</Tag>
 		<English>Mounted units cause flanking damage to certain Siege weapons. For example, all Cannons in an enemy stack are damaged if an attacking Cavalry unit survives the battle!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Æï±ø¶ÔÄ³Ğ©¹¥³ÇÎäÆ÷Ôì³ÉÓØ»Ø¹¥»÷¡£ÀıÈç£¬Èç¹ûÒ»Ö§½ø¹¥Æï±ø²¿¶ÓÔÚÕ½¶·ÖĞĞÒ´æÏÂÀ´£¬ÄÇÃ´µĞ¾ü¶ÑÕ»ÖĞµÄËùÓĞ´óÅÚ¶¼»áÊÜµ½Ëğ»µ£¡</Chinese>
+		<Chinese>éª‘å…µå¯¹æŸäº›æ”»åŸæ­¦å™¨é€ æˆè¿‚å›æ”»å‡»ã€‚ä¾‹å¦‚ï¼Œå¦‚æœä¸€æ”¯è¿›æ”»éª‘å…µéƒ¨é˜Ÿåœ¨æˆ˜æ–—ä¸­å¹¸å­˜ä¸‹æ¥ï¼Œé‚£ä¹ˆæ•Œå†›å †æ ˆä¸­çš„æ‰€æœ‰å¤§ç‚®éƒ½ä¼šå—åˆ°æŸåï¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_19</Tag>
 		<English>When a UHV goal asks to control a civilization, you need to own more cities in their core than they do.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±Ò»¸öÀúÊ·Ê¤ÀûÄ¿±êÒªÇó¿ØÖÆÒ»¸öÎÄÃ÷£¬ÄãĞèÒªÓµÓĞÔÚËûÃÇµÄºËĞÄ±ÈËûÃÇ¸ü¶àµÄ³ÇÊĞ¡£</Chinese>
+		<Chinese>å½“ä¸€ä¸ªå†å²èƒœåˆ©ç›®æ ‡è¦æ±‚æ§åˆ¶ä¸€ä¸ªæ–‡æ˜ï¼Œä½ éœ€è¦æ‹¥æœ‰åœ¨ä»–ä»¬çš„æ ¸å¿ƒæ¯”ä»–ä»¬æ›´å¤šçš„åŸå¸‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_43</Tag>
 		<English>Islands are a new maritime terrain feature that provides additional production, tile defense and faster culture spread.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µºÓìÊÇÒ»¸öĞÂµÄº£ÑóµØĞÎÌØÕ÷£¬Ìá¹©¶îÍâµÄ²úÄÜ£¬µØ¿é·ÀÓùºÍ¸ü¿ìµÄÎÄ»¯´«²¥¡£</Chinese>
+		<Chinese>å²›å±¿æ˜¯ä¸€ä¸ªæ–°çš„æµ·æ´‹åœ°å½¢ç‰¹å¾ï¼Œæä¾›é¢å¤–çš„äº§èƒ½ï¼Œåœ°å—é˜²å¾¡å’Œæ›´å¿«çš„æ–‡åŒ–ä¼ æ’­ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_39</Tag>
 		<English>A negative event that afflicts one of your rivals is, in effect, like a positive event for you! Keep an eye on the world news reports in case an event happening to other nations opens new opportunities for you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò»¸öÏû¼«µÄÊÂ¼ş£¬ÕÛÄ¥ÄãµÄ¾ºÕù¶ÔÊÖÖ®Ò»£¬Êµ¼ÊÉÏ£¬¾ÍÏñÒ»¸ö»ı¼«µÄÊÂ¼şÎªÄã£¡ÁôÒâÊÀ½çĞÂÎÅ±¨µÀ£¬ÒÔ·ÀÆäËû¹ú¼Ò·¢ÉúµÄÊÂ¼şÎªÄã´ò¿ªĞÂµÄ»ú»á¡£</Chinese>
+		<Chinese>ä¸€ä¸ªæ¶ˆæçš„äº‹ä»¶ï¼ŒæŠ˜ç£¨ä½ çš„ç«äº‰å¯¹æ‰‹ä¹‹ä¸€ï¼Œå®é™…ä¸Šï¼Œå°±åƒä¸€ä¸ªç§¯æçš„äº‹ä»¶ä¸ºä½ ï¼ç•™æ„ä¸–ç•Œæ–°é—»æŠ¥é“ï¼Œä»¥é˜²å…¶ä»–å›½å®¶å‘ç”Ÿçš„äº‹ä»¶ä¸ºä½ æ‰“å¼€æ–°çš„æœºä¼šã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_5</Tag>
 		<English>If you're playing as a Western European civilization, build a Trading Company to expand to Africa or Asia.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Èç¹ûÄãÊÇÔÚ°çÑİÎ÷Å·ÎÄÃ÷µÄ½ÇÉ«£¬ÄÇ¾Í½¨Á¢Ò»¼ÒÃ³Ò×¹«Ë¾£¬½«ÒµÎñÀ©Õ¹µ½·ÇÖŞ»òÑÇÖŞ¡£</Chinese>
+		<Chinese>å¦‚æœä½ æ˜¯åœ¨æ‰®æ¼”è¥¿æ¬§æ–‡æ˜çš„è§’è‰²ï¼Œé‚£å°±å»ºç«‹ä¸€å®¶è´¸æ˜“å…¬å¸ï¼Œå°†ä¸šåŠ¡æ‰©å±•åˆ°éæ´²æˆ–äºšæ´²ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_45</Tag>
 		<English>The amount of culture needed to cover a tile depends on its terrain type and features, as well as the distance to cities.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¸²¸ÇµØ¿éËùĞèµÄÎÄ»¯Á¿È¡¾öÓÚÆäµØĞÎÀàĞÍºÍÌØÕ÷£¬ÒÔ¼°Óë³ÇÊĞµÄ¾àÀë¡£</Chinese>
+		<Chinese>è¦†ç›–åœ°å—æ‰€éœ€çš„æ–‡åŒ–é‡å–å†³äºå…¶åœ°å½¢ç±»å‹å’Œç‰¹å¾ï¼Œä»¥åŠä¸åŸå¸‚çš„è·ç¦»ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_35</Tag>
 		<English>The stability and flip zone maps for all civilizations can be found in the Maps folder.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËùÓĞÎÄÃ÷µÄÎÈ¶¨ĞÔºÍ·­×ªÇøÓòµØÍ¼¶¼¿ÉÒÔÔÚ¡°µØÍ¼¡±ÎÄ¼ş¼ĞÖĞÕÒµ½¡£</Chinese>
+		<Chinese>æ‰€æœ‰æ–‡æ˜çš„ç¨³å®šæ€§å’Œç¿»è½¬åŒºåŸŸåœ°å›¾éƒ½å¯ä»¥åœ¨â€œåœ°å›¾â€æ–‡ä»¶å¤¹ä¸­æ‰¾åˆ°ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_HINT_DOC_79</Tag>
 		<English>Cities cannot be instantly razed anymore. After ordering a city to be razed, it will lose population each turn while in unrest, and finally be destroyed when the population reaches zero.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>³ÇÊĞ²»ÄÜÂíÉÏ±»ÒÄÎªÆ½µØ¡£ÃüÁî´İ»Ù³ÇÊĞºó£¬ËüÔÚ¶¯ÂÒÖĞÃ¿¾­¹ıÒ»¸ö»ØºÏ¾Í»áÊ§È¥ÈË¿Ú£¬×îºóÔÚÈË¿Ú´ïµ½ÁãÊ±±»´İ»Ù¡£</Chinese>
+		<Chinese>åŸå¸‚ä¸èƒ½é©¬ä¸Šè¢«å¤·ä¸ºå¹³åœ°ã€‚å‘½ä»¤æ‘§æ¯åŸå¸‚åï¼Œå®ƒåœ¨åŠ¨ä¹±ä¸­æ¯ç»è¿‡ä¸€ä¸ªå›åˆå°±ä¼šå¤±å»äººå£ï¼Œæœ€ååœ¨äººå£è¾¾åˆ°é›¶æ—¶è¢«æ‘§æ¯ã€‚</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,94 +1,94 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1мУ╧З</Chinese>
+		<Chinese>%s1Г▌▀Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_EXILE</Tag>
 		<English>%s2 Government in Exile</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2аВмЖуЧ╦╝</Chinese>
+		<Chinese>%s2Ф╣│Д╨║Ф■©Е╨°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_BRAZIL</Tag>
 		<English>United Kingdom of %s1 and Brazil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1-╟мнВа╙╨омУ╧З</Chinese>
+		<Chinese>%s1-Е╥╢Х╔©Х│■Е░┬Г▌▀Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_COMMUNIST</Tag>
 		<English>%s2 Continuing Revolutionary Process</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2╦ОцЭуЧ╦╝</Chinese>
+		<Chinese>%s2И²╘Е▒╫Ф■©Е╨°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_ADJECTIVE</Tag>
 		<English></English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фоляяю</Chinese>
+		<Chinese>Х▒║Х░└Г┴≥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_DESC</Tag>
 		<English>The Portuguese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фоляяюндцВ</Chinese>
+		<Chinese>Х▒║Х░└Г┴≥Ф√┤Ф≤▌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_MALI</Tag>
 		<English>%s2 Gold Coast</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фойТ╩ф╫П╨ё╟╤</Chinese>
+		<Chinese>Х▒║Е╠·И╩└И┤▒Ф╣╥Е╡╦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_PEOPLES</Tag>
 		<English>Lusitanian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>б╛нВкЧдАягхк</Chinese>
+		<Chinese>Е█╒Х╔©Е║■Е╟╪Д╨ Д╨╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_BRAZIL</Tag>
 		<English>State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фойТ╟мнВ</Chinese>
+		<Chinese>Х▒║Е╠·Е╥╢Х╔©</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_CONGO</Tag>
 		<English>%s2 West Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фойТнВ╥г</Chinese>
+		<Chinese>Х▒║Е╠·Х╔©И²·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_INDONESIA</Tag>
 		<English>%s2 East Indies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фойТ╤╚с║╤х</Chinese>
+		<Chinese>Х▒║Е╠·Д╦°Е█╟Е╨╕</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_EMPIRE</Tag>
 		<English>Portuguese Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фоляяю╣ш╧З</Chinese>
+		<Chinese>Х▒║Х░└Г┴≥Е╦²Е⌡╫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_FASCIST</Tag>
 		<English>New State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1╬ЭуЧ╦╝</Chinese>
+		<Chinese>%s1Е├⌡Ф■©Е╨°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_INDIA</Tag>
 		<English>Viceroyalty of %s2 %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фойТс║╤х%2вэ╤╫гЬ</Chinese>
+		<Chinese>Х▒║Е╠·Е█╟Е╨╕%2Ф─╩Г²ёЕ▄╨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_SHORT_DESC</Tag>
 		<English>Portugal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>фоляяю</Chinese>
+		<Chinese>Х▒║Х░└Г┴≥</Chinese>
 	</TEXT>
 </Civ4GameText>

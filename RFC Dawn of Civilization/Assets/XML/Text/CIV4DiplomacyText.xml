@@ -1,0 +1,4567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text Diplomacy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_1</Tag>
+		<English>This world isn't big enough for the two of us! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我和你们不共戴天！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_2</Tag>
+		<English>We have suffered your insolence for long enough! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们已经无法继续忍受你们的傲慢了！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_3</Tag>
+		<English>Prepare to meet your doom! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>准备迎接你们的末日吧！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_4</Tag>
+		<English>Now you shall pay for your many insults to the [OUR_EMPIRE]! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在你们要为对伟大的[OUR_EMPIRE]所犯下的侮辱付出代价了！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_5</Tag>
+		<English>The time for talking is over, [CT_NAME]! We shall shall settle this on the field of battle! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>谈判结束了，[CT_NAME]！现在我们要在战场上解决我们的分歧了！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_6</Tag>
+		<English>Soon my numberless minions shall destroy you all! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我麾下的无数士兵很快将毁灭你们所有人！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_7</Tag>
+		<English>Time to die, [CT_NAME]. ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>去死吧，[CT_NAME]。（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_8</Tag>
+		<English>Fool! Now we shall destroy you! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>蠢才，现在我们要消灭你们了！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_9</Tag>
+		<English>I suppose you realize, this means war. ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我想你应该明白，这意味着战争。（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_10</Tag>
+		<English>Mighty [OUR_EMPIRE] has had enough of your treachery and deceit! Now you must pay! ([OUR_NAME] declares war!)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_EMPIRE]已经受够了你的欺骗和背叛！现在你要付出代价了！（[OUR_NAME]宣战！）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>Greetings! I am [OUR_NAME] of the [OUR_EMPIRE]. I hope that our two great peoples can live together in peace.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好！我是[OUR_NAME]，来自[OUR_EMPIRE]。我希望我们两国人民能够和平共处。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WASHINGTON_1</Tag>
+		<English>Welcome, [CT_NAME]! I cannot tell a lie: I'm darned glad to meet you!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]！我从不说谎话：见到你我实在是太高兴了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SALADIN_1</Tag>
+		<English>Greetings, [CT_NAME]! It is an honor to meet you! May the heavens bestow upon you an empire only slightly less glorious than mine!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]！很荣幸见到你！愿神保佑你的国家辉煌鼎盛——当然，要比我的国家稍微差那么一点点……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MONTEZUMA_1</Tag>
+		<English>I am pleased to meet you, [CT_NAME]! Let us each slaughter fifty thousand slaves to celebrate this auspicious occasion.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很高兴见到你，[CT_NAME]！让我们各宰杀五万个奴隶来庆祝这个吉祥的会面吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_QIN_SHI_HUANG_1</Tag>
+		<English>Greetings, honorable [CT_NAME]. Let us hope that there will always be peace and friendship between [OUR_EMPIRE] and [CT_CIV_SHORT] - for that is all that stands between you and immediate annihilation. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，尊敬的[CT_NAME]。让我们祝愿和平与友爱长存于[OUR_EMPIRE]和[CT_CIV_SHORT]之间——因为这是你们避免迅速灭亡唯一希望。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHINESE_LEADER_1</Tag>
+		<English>Greetings, [CT_NAME]. It is a pleasure to meet you. Here: have a copy of my little red book. You might learn something.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]。很高兴见到你。喏：这是一本我的红宝书。拿着吧，也许你会从里面学到点什么。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HATSHEPSUT_1</Tag>
+		<English>Surely the gods have smiled upon you, [CT_NAME] - for they have led you to me!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>显然众神在对你微笑啊，[CT_NAME]——因为他们把你带到了我的面前！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ELIZABETH_1</Tag>
+		<English>Welcome to my palace, [CT_NAME]. I'm [OUR_NAME], the wise and really quite beautiful leader of mighty [OUR_CIV_SHORT]. Let there be peace between us or we'll kill you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎来到我的宫殿，[CT_NAME]。我是[OUR_NAME]，强大的[OUR_CIV_SHORT]的美丽而又智慧的领袖。让我们保持和平吧，否则就消灭你们。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_VICTORIA_1</Tag>
+		<English>Good day to you, [CT_NAME]. We are [OUR_NAME], ruler of [OUR_CIV_SHORT]. Please do not hesitate to call upon us if you need assistance - God commands us give aid and comfort to our inferiors...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>日安，[CT_NAME]。我是[OUR_NAME]，[OUR_CIV_SHORT]的统治者。如果你需要帮助请尽管提出来——神要我们尽可能地帮助所有落后的族群……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LOUIS_XIV_1</Tag>
+		<English>Welcome! I am [OUR_NAME], absolute monarch of mighty [OUR_CIV_SHORT] and indisputably the handsomest and best-dressed ruler in the entire history of the universe. Wouldn't you agree?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎！我是[OUR_NAME]，强大的[OUR_CIV_SHORT]的至高君主，也是全宇宙有史以来最英俊、穿着最得体的统治者。难道你不这么认为吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_NAPOLEON_1</Tag>
+		<English>Greetings. I'm [OUR_NAME], Emperor, Marshal, and First Citizen of [OUR_CIV_SHORT]. You can call me "Little Corporal," but then I'll have to kill you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好。我是[OUR_NAME]，[OUR_CIV_SHORT]的皇帝、大元帅兼第一公民。你也可以叫我“小下士”，不过那样我就不得不杀死你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BISMARCK_1</Tag>
+		<English>[OUR_CIV_SHORT] the great and its superior people greet you. I, [OUR_NAME], desire peace with all my neighbors - even with your puny culture.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>伟大的[OUR_CIV_SHORT]和她高贵的人民欢迎你。我，[OUR_NAME]，希望同所有邻居和睦相处——即使是象你们那样微不足道的弱小文明。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ALEXANDER_1</Tag>
+		<English>Greetings, [CT_NAME]! I am [OUR_NAME], ruler of the warlike [OUR_EMPIRE]! Let us join together and crush the world's armies beneath our sandals! It'll be way cool!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]！我是[OUR_NAME]，尚武的[OUR_EMPIRE]的统治者！让我们联手将全世界的敌人都碾得粉碎吧！那一定会很酷！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HUAYNA_CAPAC_1</Tag>
+		<English>The [OUR_EMPIRE] welcomes the glorious [CT_CIV_ADJ] people and their leader, [CT_NAME]. You play ceremonial ball with us, we'll play ceremonial ball with you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]欢迎伟大的[CT_CIV_ADJ]人民和他们的领袖，[CT_NAME]。你敬我一尺，我敬你一丈。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ASOKA_1</Tag>
+		<English>May peace and happiness go with you always, [CT_NAME]. I am [OUR_NAME] of [OUR_CIV_SHORT]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿和平与幸福常伴你左右，[CT_NAME]。我是[OUR_NAME]，来自[OUR_CIV_SHORT]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GANDHI_1</Tag>
+		<English>Welcome to my humble home, [CT_NAME]. [OUR_CIV_SHORT] desires peace with all of her neighbors - even the really annoying ones like yours.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎光临寒舍，[CT_NAME]。[OUR_CIV_SHORT]渴望与所有的邻居和平相处——即使是像你这样令人生厌的家伙。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_TOKUGAWA_1</Tag>
+		<English>Welcome, [CT_NAME]! May your empire flourish and grow for as long as it remains useful to us! I mean that sincerely. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]！愿你的帝国能长期保持繁荣昌盛，只要它对我们还有用处！我可是很有诚意地祝愿哟。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MANSA_MUSA_1</Tag>
+		<English>Welcome, [CT_NAME]. I, [OUR_NAME], humble ruler of [OUR_CIV_SHORT], offer my hand to you in friendship. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]。我，[OUR_NAME]，谦逊的[OUR_CIV_SHORT]统治者，向您伸出真诚的友谊之手。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GENGHIS_KHAN_1</Tag>
+		<English>Welcome, oh leader of the [CT_EMPIRE]. My horde can beat your horde any day of the week. Shall we be friends or enemies?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_EMPIRE]人民的领袖。我的部族能够随时消灭你的部落。你看我们是做朋友好，还是做敌人好呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_KUBLAI_KHAN_1</Tag>
+		<English>The mighty [OUR_EMPIRE] greets you. Let us work together to achieve the total destruction of our foes, and only THEN betray and rend each other like the rabid dogs we truly are!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_EMPIRE]欢迎你。让我们并肩摧毁我们所有的敌人，然后么……再让我们互相背叛，像疯狗一样将对方撕碎吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CYRUS_1</Tag>
+		<English>Greetings, oh wise ruler of the [CT_CIV_ADJ] peoples! [OUR_CIV_SHORT] is strong - shall we count you among our friends, or among our enemies?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_CIV_ADJ]人民睿智的领袖！[OUR_CIV_SHORT]是如此地强大——我们该把你当作朋友，还是当作敌人呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JULIUS_CAESAR_1</Tag>
+		<English>Welcome to [OUR_CIV_SHORT], [CT_NAME]. Care for some salad? I made it myself.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎来到[OUR_CIV_SHORT]，[CT_NAME]。要不要来点沙拉？是我亲手做的哟。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PETER_1</Tag>
+		<English>Welcome, [CT_NAME]. I am [OUR_NAME], ruler of all of [OUR_CIV_SHORT]. You will find me a fair man to deal with - cruel, but fair. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]。我是[OUR_NAME]，全[OUR_CIV_SHORT]的统治者。你将发现我是个坦诚的人——残忍，但绝对坦诚。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CATHERINE_1</Tag>
+		<English>Well hello there, [CT_NAME]. It is a pleasure to meet you at last! I'm always looking for CLOSER relations with other leaders, if you get my drift...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，[CT_NAME]。遇见你真高兴！我一直想与其他文明的领袖建立更-亲-密的关系，明白我的意思吗……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ISABELLA_1</Tag>
+		<English>Her most righteous majesty, Isabella, beloved of God and protector of the faith, does condescend to greet you, [CT_NAME]. Do tell me: are you a righteous people, or are you fiendish heathens who need to be wiped off of the face of this fair land?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最英明的伊莎贝拉女王陛下，神最眷顾的人，真正信仰的守护者，屈尊向你表示问候，[CT_NAME]。请告诉我：你是一个正直的人，还是一个恶魔般的异教徒，应该从这块神佑之土上被彻底抹掉？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_1</Tag>
+		<English>Stop pestering me!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不要再烦我！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_2</Tag>
+		<English>I have nothing to say to you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我已经没什么话可对你说了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_3</Tag>
+		<English>Sorry, [CT_NAME], talk does not interest us!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抱歉，[CT_NAME]，我们对谈判不感兴趣！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_4</Tag>
+		<English>Go away. We have nothing to discuss.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>滚开，我们没什么好谈的了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_5</Tag>
+		<English>Leave me alone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>离我远点！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_6</Tag>
+		<English>I am not interested in hearing any more of your lies. Go away.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我再没兴趣听你的任何谎言了，滚开吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>[OUR_EMPIRE] does not negotiate with terrorists.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]绝不与恐怖分子谈判。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_WASHINGTON_1</Tag>
+		<English>We shall not listen to your insidious lies. Begone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们不想再听你那阴险的谎言。滚蛋吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SALADIN_1</Tag>
+		<English>Your words are but the braying of a jackass, [CT_NAME]. Take them elsewhere.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你说话简直就象是驴叫，[CT_NAME]。哪好哪凉快去吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MONTEZUMA_1</Tag>
+		<English>Talk to the ceremonial blade, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>有话跟断头台说去吧，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_QIN_SHI_HUANG_1</Tag>
+		<English>The mere sight of you offends me, [CT_NAME]. Begone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我一看到你就不爽，[CT_NAME]。快滚！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CHINESE_LEADER_1</Tag>
+		<English>[OUR_CIV_SHORT] will not listen to your bourgoise lies!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]再也不想听你那资本主义的谎言了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_HATSHEPSUT_1</Tag>
+		<English>Begone, you lying serpent!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>滚蛋，满口谎言的毒蛇！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ELIZABETH_1</Tag>
+		<English>Go away you horrible little person!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>滚开，你这讨厌的小人！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_VICTORIA_1</Tag>
+		<English>We are not amused by your meaningless babble, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们对你那毫无意义的扯淡毫无兴趣，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_LOUIS_XIV_1</Tag>
+		<English>Forget it. I have wigs that are smarter than you are.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>得了吧。我的假发都比你的头脑更聪明。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_NAPOLEON_1</Tag>
+		<English>Talk to the massed artillery, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>跟我们的大炮谈判去吧，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_BISMARCK_1</Tag>
+		<English>Speak with YOU? Do not make me laugh!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>跟你谈？别在我面前搞笑了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ALEXANDER_1</Tag>
+		<English>I have more important things to do than to exchange lies with you. Come back another day.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我现在有比同你互相扯谎更重要的事情要处理。改天再来吧</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_HUAYNA_CAPAC_1</Tag>
+		<English>It is a waste of time to speak with fools. Go away.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和傻瓜谈话就是浪费时间。快滚吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ASOKA_1</Tag>
+		<English>We will not listen to your lies, [CT_NAME]. Remove yourself from our presence.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们不想再听你的谎言了，[CT_NAME]。快从我眼前消失吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_GANDHI_1</Tag>
+		<English>Further discussion at this point would be meaningless. Not to mention very annoying. Go away.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>继续讨论下去已毫无意义。只能是令我感到更加厌烦。滚开吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_TOKUGAWA_1</Tag>
+		<English>I have no time to exchange pleasantries with you, [CT_NAME]: I am too busy plotting your downfall. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我可没时间和你开玩笑，[CT_NAME]：我正忙着研究如何使你完蛋呢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MANSA_MUSA_1</Tag>
+		<English>Take your pathetic lies elsewhere, for I do not wish to hear them.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>带着你那可怜的谎言到别处去招摇撞骗吧，我可不想听。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_GENGHIS_KHAN_1</Tag>
+		<English>Bah! This chatter is a waste of time! Begone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>呸！听你扯淡纯粹就是浪费时间！滚蛋！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_KUBLAI_KHAN_1</Tag>
+		<English>Hello, this is [OUR_NAME]. [OUR_CIV_SHORT] is not at home right now: please leave your name and number and we'll get back to you when pigs have wings.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，这里是[OUR_NAME]的宅邸。[OUR_CIV_SHORT]的领袖不在家：请在“嘀”声后留下你的名字和电话号码，我们会在猪长出翅膀飞上天时候给你回电。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CYRUS_1</Tag>
+		<English>Vile serpent! [OUR_CIV_SHORT] will not listen to your lies!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>卑鄙的毒蛇！[OUR_CIV_SHORT]不会再听信你的谎言了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JULIUS_CAESAR_1</Tag>
+		<English>Negotiate this, pal!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还谈什么谈，伙计！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_PETER_1</Tag>
+		<English>Guards! Toss this villain out into the snow before I commit a diplomatic incident!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>卫兵！快把这个恶棍给我扔到雪地里去，免得我制造一起外交悲剧事件出来！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CATHERINE_1</Tag>
+		<English>I find you strangely unattractive, [CT_NAME]. Do not return until you are better-looking.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我发现你看上去有点造型失败哦，[CT_NAME]。先回去，在你看上去更顺眼以前，别回来见我。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ISABELLA_1</Tag>
+		<English>Your lying words pollute the heavens, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的谎言可真是臭气熏天啊，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_1</Tag>
+		<English>We look forward to many years of peace between the [OUR_CIV_ADJ] and [CT_CIV_ADJ] Empires.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们希望在[OUR_CIV_ADJ]和[CT_CIV_ADJ]两大帝国之间实现长久的和平。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_2</Tag>
+		<English>May the peace be eternal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿和平永驻。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_3</Tag>
+		<English>May we all live long and prosper.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿我们两国和平安定，繁荣昌盛。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_4</Tag>
+		<English>May this peace last until there is no more room to expand!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们的和平一直持续到没有更多的空间让彼此扩张吧之前吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_5</Tag>
+		<English>I look forward to years of peace with you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我期待同你实现长久的和平，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_6</Tag>
+		<English>Wonderful!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好极了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_7</Tag>
+		<English>[CT_NAME], let us sit in a circle and sing "Kumbaya" to celebrate this great event!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，让我们围成一圈来唱“赞美神”，庆祝这一伟大的事件！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_8</Tag>
+		<English>Minions! Prepare a feast to celebrate the peace between our great Empires!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>来人啊！快去准备酒筵来庆祝我们两个伟大帝国之间达成和平协议！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_9</Tag>
+		<English>You have our gratitude.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们对你非常感激。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_10</Tag>
+		<English>May the peace last a thousand years.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿和平能够持续一千年。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_11</Tag>
+		<English>There is no way to peace. Peace is the way.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>没有别的道路通向和平了。和平就是唯一的道路。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_12</Tag>
+		<English>You have chosen wisely.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你做出了明智的选择。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_13</Tag>
+		<English>Excellent!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太棒了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_14</Tag>
+		<English>I applaud your wisdom.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我为你的明智拍手叫好。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_15</Tag>
+		<English>Wonderful.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好极了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_16</Tag>
+		<English>Excellent! Now let us join together and destroy somebody else!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太棒了！现在让我们联手消灭其他对手吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_17</Tag>
+		<English>You are wiser than you appear, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你表现得比看上去要聪明一些嘛，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_18</Tag>
+		<English>Peace with honor, [CT_NAME]: that's what it's all about.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>有尊严的和平，[CT_NAME]：那就是我们想要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_19</Tag>
+		<English>You are not as foolish as you first appear, [CT_NAME]. I am pleased.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你不像第一眼看上去那么蠢啊，[CT_NAME]。我很高兴。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_20</Tag>
+		<English>May the peace last until there is no one else to conquer!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们的和平持续到再没有别人可以被我们征服吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_1</Tag>
+		<English>No way.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>没门。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_2</Tag>
+		<English>Not until every last [CT_CIV_ADJ] warrior is ground into dust!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>除非最后一位[CT_CIV_ADJ]战士也在沙场上倒下！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_3</Tag>
+		<English>Never!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>决不！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_4</Tag>
+		<English>There will be no peace, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绝不会有和平了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_5</Tag>
+		<English>Peace? Hah! Forget it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和平？哈！得了吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_6</Tag>
+		<English>It is much too late for that, [CT_NAME]. Take your punishment like a man!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太晚了，[CT_NAME]。像个男子汉一样迎接对你的惩罚吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>Certainly not! You've awoken a sleeping tiger, [CT_NAME], and I hope you choke on it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绝对不行！你唤醒了沉睡的猛虎，[CT_NAME]，我要将你撕成碎片！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_WASHINGTON_1</Tag>
+		<English>America does not negotiate with terrorists. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>美国绝不与恐怖分子谈判。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_SALADIN_1</Tag>
+		<English>Never! You are an enemy of God! Prepare for thy doom!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>决不！你是神的敌人！准备迎接你的末日吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_MONTEZUMA_1</Tag>
+		<English>No. We have not yet sacrificed enough [CT_CIV_ADJ] warriors to slake the gods' unending thirst for blood. Try back later.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不。我们还没有向嗜血无度的诸神奉献足够多的[CT_CIV_ADJ]战士的鲜血。你回去吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_QIN_SHI_HUANG_1</Tag>
+		<English>No. You have not yet learned the proper respect for your betters.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不。你还没有学会如何对强者表示足够的尊敬。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_CHINESE_LEADER_1</Tag>
+		<English>There can never be peace in the unending war between the people and the bloodsucking bourgoise capitalist opressors who seek to enslave them! That would be you, punk.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在这场我国人民反抗企图奴役他们的吸血的资本主义压迫者的无尽的战争中永远不会有和平，快滚吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_HATSHEPSUT_1</Tag>
+		<English>Gods do not negitiate with mortals - particularly with ugly little slimeballs such as yourself. Go back to your home to await your doom.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>诸神绝不同凡人谈判——特别是象你这样丑陋的混球。回去等待你的末日吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ELIZABETH_1</Tag>
+		<English>Do you plead for mercy, [CT_NAME]? You'll find none here - only justice!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你来乞求宽恕吗，[CT_NAME]？在这儿你只能找到正义的审判！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_VICTORIA_1</Tag>
+		<English>War is deeply unpleasant, but sometimes necessary. We're told that this is one of those times, so we must refuse your pleas. This interview is concluded.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>战争总是令人厌恶的，但有些时候它又是必须的。我们认为现在的情况属于后者，因此我们必须拒绝你的请求。此次会谈结束。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_LOUIS_XIV_1</Tag>
+		<English>It is far too late for peace, you silly [CT_CIV_ADJ] person! Now go away or I shall taunt you a second time!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在请求和平已经太迟了，愚蠢的[CT_CIV_ADJ]人！滚开吧，免得我再次嘲笑你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_NAPOLEON_1</Tag>
+		<English>Why should I agree to peace when my [OUR_CIV_ADJ] armies are making such short work of you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为什么我要同意和平，在我们[OUR_CIV_ADJ]的军队已经取得了如此的优势之下？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_BISMARCK_1</Tag>
+		<English>Your request is denied. Welcome to total war, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的请求被拒绝。欢迎进入全面战争，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ALEXANDER_1</Tag>
+		<English>Your continued existence is an insult to the mighty [OUR_EMPIRE]. This war shall end when you have been erased from the planet.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的存在对强大的[OUR_EMPIRE]来说就是一种侮辱。这场战争在你从地球上被抹掉之后才会结束。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_HUAYNA_CAPAC_1</Tag>
+		<English>You may beg and plead all you like, [CT_NAME], but it will do you no good. The war will continue until the gods grow tired of it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你尽情地乞求和辩护吧，[CT_NAME]，这毫无用处。这场战争将会继续到众神都感到厌倦为止。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ASOKA_1</Tag>
+		<English>There shall be no true peace in the world until you are no longer in it. The war continues.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>只要你还存在在这个世界上，就不会有真正的和平。战争仍将继续。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_GANDHI_1</Tag>
+		<English>I may be a pacifist, [CT_NAME], but I'm not an idiot. [OUR_CIV_SHORT] declines your request.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我可能是个和平主义者，[CT_NAME]，不过我可不是个白痴。[OUR_CIV_SHORT]拒绝你的请求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_TOKUGAWA_1</Tag>
+		<English>What? Leave you alive to betray and backstab us again?! I shall not sleep easily until you are totally vanquished!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>什么？让你活着再来背叛和欺骗我们？！不到你被彻底击败我是睡不好觉的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_MANSA_MUSA_1</Tag>
+		<English>Your nation pollutes the very world with its corruption, [CT_NAME]. You must be exterminated.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的民族污染了整个世界，[CT_NAME]。你们一定要被消灭。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_GENGHIS_KHAN_1</Tag>
+		<English>Now? While everybody's having so much fun? I don't think so!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在？就在大家都在找乐子的时候？我可不愿意！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_KUBLAI_KHAN_1</Tag>
+		<English>No! [OUR_CIV_ADJ] laws demand that you be further punished for your insolence!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不！[OUR_CIV_ADJ]的法律决定你必须为你的傲慢遭受更多的惩罚！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_CYRUS_1</Tag>
+		<English>You have yet to pay fully for your sins, [CT_NAME]. Your people's sufferings will continue until you have done so.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你还没有为你的罪行付出足够的代价，[CT_NAME]。你的人民将继续为你的罪行受苦。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_JULIUS_CAESAR_1</Tag>
+		<English>I have a better idea - how about I just raze your cities and sow your fields with salt?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你瞧，我有个更好的主意——让我烧了你们的城市，再给你们的田地撒上把盐怎么样？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_PETER_1</Tag>
+		<English>Mighty [OUR_CIV_SHORT] does not negotiate with the likes of you! Now go before I have my Cossacks hack you to bits!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]不会与你这样的家伙谈判！在我的哥萨克们没把你砍成碎块之前赶紧滚！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_CATHERINE_1</Tag>
+		<English>I must refuse, [CT_NAME]; peace is not in our best interests at this time. Besides, I think that men in uniform look totally yummy, don't you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我必须拒绝，[CT_NAME]；和平不符合我们目前最大的利益。另外，我觉得男人穿着制服比较帅，你不这么认为吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ISABELLA_1</Tag>
+		<English>No! God commands that I continue this holy crusade until I have achieved total victory! Begone, churl!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不！神命令我继续这场圣战直到我获得全面的胜利！滚蛋吧，野蛮人！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_1</Tag>
+		<English>Hello, [CT_NAME]. What is it that you wish to discuss?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，[CT_NAME]。你想讨论什么内容？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_2</Tag>
+		<English>Greetings. What may humble [OUR_CIV_SHORT] do for the mighty [CT_CIV_SHORT]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎你。渺小的[OUR_CIV_SHORT]能为强大的[CT_CIV_SHORT]做些什么呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_3</Tag>
+		<English>Greetings.  How may we be of assistance?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎你。我们能帮些什么忙呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_4</Tag>
+		<English>Welcome, friend [CT_NAME]. How may we be of assistance?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]老友。我们能帮些什么忙吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_5</Tag>
+		<English>Hello again!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，又是你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_6</Tag>
+		<English>Good day to you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好吗，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_7</Tag>
+		<English>So what's going on?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>发生什么事了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_8</Tag>
+		<English>Hello, [CT_NAME]. What can I do for you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，[CT_NAME]。能为你做点什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_9</Tag>
+		<English>What is on your mind?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你有什么打算呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_10</Tag>
+		<English>To what do I owe the pleasure of your company?'</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我能为你的到访做些什么呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_11</Tag>
+		<English>Greetings, [CT_NAME]; how may we be of service?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]；我们能为你做点什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_12</Tag>
+		<English>Welcome, [CT_NAME], to my home.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]，欢迎你来我家做客。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_13</Tag>
+		<English>Hello, [CT_NAME], leader of mighty [CT_CIV_SHORT].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，[CT_NAME]，强大的[CT_CIV_SHORT]的领袖。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_14</Tag>
+		<English>And what brings [CT_CIV_SHORT] to my humble palace?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>什么风把[CT_CIV_SHORT]的领袖带到寒舍来了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_15</Tag>
+		<English>How may the [OUR_EMPIRE] assist mighty [CT_CIV_SHORT]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]能为强大的[CT_CIV_SHORT]做点什么呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_16</Tag>
+		<English>And to what do I owe the pleasure of your company?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我能为你的来临做些什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WASHINGTON_1</Tag>
+		<English>Greetings, [CT_NAME]. How was your journey from the [CT_EMPIRE]? I slept there once, you know. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]。从[CT_EMPIRE]来的路上可好？我去过那里一次，你知道的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>How absolutely marvey to see you again, [CT_NAME]! Do sit down; my man will get you a Martini.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>再再见到你真是太好了，[CT_NAME]！请坐；我的人会给您上杯马提尼。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SALADIN_1</Tag>
+		<English>Blessings be upon you, oh mighty [CT_NAME]! Your glorious personage bestows great honor upon my humble kingdom!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祝福你，强大的[CT_NAME]！您的造访令敝国上下倍感荣耀！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MONTEZUMA_1</Tag>
+		<English>Welcome, friend [CT_NAME]! I will slaughter many slaves in celebration of your visit!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]老友！我要宰杀很多奴隶来庆祝你的到访！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_QIN_SHI_HUANG_1</Tag>
+		<English>Greetings, [CT_NAME]! Who shall we betray and destroy today?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]！我们今天应该背叛和消灭谁？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CHINESE_LEADER_1</Tag>
+		<English>On behalf of the great and glorious Communist Party of China and of all of her horrible little peasants - I mean, "glorious workers" - greetings!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>以伟大而辉煌的中国共产党及它所有渺小而可怕的农民——我是说“光荣的劳动者们"——的名义，问候您！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HATSHEPSUT_1</Tag>
+		<English>Hello again, [CT_NAME]. How honored you must be to see me once more.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗨，又是你，[CT_NAME]。再次见到我你一定倍感荣耀吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ELIZABETH_1</Tag>
+		<English>Good afternoon, [CT_NAME]. And how is that quaint little empire of yours doing?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>下午好，[CT_NAME]。你那小巧别致的国家怎么样了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_VICTORIA_1</Tag>
+		<English>On behalf of Mighty Britannia, we are almost pleased to grant you an audience, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>代表强盛的大不列颠帝国，我们欢迎你的到访，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LOUIS_XIV_1</Tag>
+		<English>Welcome to my palace, [CT_NAME]. Care to watch me shave?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎来到我的宫殿，[CT_NAME]。不介意看着我刮脸吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_NAPOLEON_1</Tag>
+		<English>I am quite busy today, [CT_NAME], but perhaps I can grant you a short audience.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我今天很忙，[CT_NAME]，不过也许我抽点时间会见你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_BISMARCK_1</Tag>
+		<English>[OUR_CIV_SHORT] salutes you, [CT_NAME]. Come - sit down and admire my huge mustaches!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你敬礼，[CT_NAME]。来——坐下来赞美我的大胡子吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ALEXANDER_1</Tag>
+		<English>Welcome, my friend! Come, let us mount our chariots and destroy our foes, leaving fifty thousand rotting corpses upon the battlefield for the crows to fatten upon!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，我的朋友！来，让我们跨上战车摧毁我们的敌人，留下无数腐烂的尸体在战场上喂肥那些乌鸦吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HUAYNA_CAPAC_1</Tag>
+		<English>I, [OUR_NAME], do welcome you, [CT_NAME], leader of the [CT_EMPIRE]. Let us speak of the slow, painful deaths of our enemies! Care for a smoked hamster?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我，[OUR_NAME]，真诚地欢迎你，[CT_NAME]，[CT_EMPIRE]的领袖。让我们讨论一下如何让我们的敌人慢慢地，痛苦地死去吧！来块熏仓鼠干怎么样？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ASOKA_1</Tag>
+		<English>Greetings, fair [CT_NAME]! May our two countries live forever in peace and harmony!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，公正的[CT_NAME]！祝愿我们两国永远处于和平和融洽之中！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GANDHI_1</Tag>
+		<English>Greetings, [CT_NAME]. I trust you have come in peace?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]。我想你是带着和平的愿望而来吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_TOKUGAWA_1</Tag>
+		<English>It is good to see you again, [CT_NAME]! Let us sit down and plot the ruination of our enemies. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很高兴再次见到你，[CT_NAME]！让我们来一起计划我们的敌人的灭亡吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MANSA_MUSA_1</Tag>
+		<English>We meet again, [CT_NAME]. It is truly a blessed day for [OUR_CIV_SHORT]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们又见面了，[CT_NAME]。这对[OUR_CIV_SHORT]来说实在是一个幸运的日子！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GENGHIS_KHAN_1</Tag>
+		<English>Welcome to my yurt, [CT_NAME]! Let us sit upon these horse-hair cushions and discuss many things! Care for some boiled yak?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎来到我的帐篷，[CT_NAME]！让我们坐在马毛垫子上慢慢讨论事情！尝尝这些煮牛肉？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_KUBLAI_KHAN_1</Tag>
+		<English>Welcome to China, [CT_NAME]! Let us sit upon these golden thrones and discuss many things! Care for some kung pao yak?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎来到中国，[CT_NAME]！让我们坐在金椅子上慢慢讨论事情！尝尝这些宫爆牛丁？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CYRUS_1</Tag>
+		<English>I salute you, ruler of the [CT_EMPIRE]. May your inevitable destruction at the hands of Mighty [OUR_CIV_SHORT] be long delayed!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>向你致敬，[CT_EMPIRE]的统治者。考虑一下如何避免让强大的[OUR_CIV_SHORT]将你们彻底地摧毁吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JULIUS_CAESAR_1</Tag>
+		<English>Greetings, my friend. What may I, [OUR_NAME], Emperor of Mighty [OUR_CIV_SHORT], do for your insignificant civilization today?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，我的朋友。今天有什么需要我，[OUR_NAME]，强大的[OUR_CIV_SHORT]的君主为你那卑微的文明做的吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PETER_1</Tag>
+		<English>Mighty [OUR_CIV_SHORT] greets you in friendship, [CT_NAME]. And in a drunken stupor too. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]友好的向你致意，[CT_NAME]。让我们一起痛饮吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CATHERINE_1</Tag>
+		<English>Welcome, [CT_NAME]. Is that a treaty in your pocket or are you just glad to see me?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]。你是想来谈判还是只想来看看我？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ISABELLA_1</Tag>
+		<English>Her most righteous majesty, [OUR_NAME], beloved of God and protector of the faith, does condescend to greet you once more, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最英明的[OUR_NAME]女王陛下，神所眷顾的人，信仰的守护者，屈尊降贵再来会见你一次，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_1</Tag>
+		<English>Well?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗯？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_2</Tag>
+		<English>What is it?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>怎么了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_3</Tag>
+		<English>Well? Get on with it!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗯？请说话！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_4</Tag>
+		<English>What do YOU want?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你想要什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_5</Tag>
+		<English>Let's hear it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我正听着呢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_6</Tag>
+		<English>What is it this time, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这次是什么事，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_7</Tag>
+		<English>My time is valuable, [CT_NAME]. What do you want?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我的时间是很宝贵的，[CT_NAME]。你想要什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_8</Tag>
+		<English>Do not make me angry, [CT_NAME]. You wouldn't like me when I'm angry.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不要惹我生气，[CT_NAME]。我生气后果很严重的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_9</Tag>
+		<English>And what does puny [CT_CIV_SHORT] want from mighty [OUR_CIV_SHORT]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弱小的[CT_CIV_SHORT]想从强大的[OUR_CIV_SHORT]这里得到什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_10</Tag>
+		<English>Speak your piece, [CT_NAME] - I haven't got all day.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快点谈谈你们的条件吧，[CT_NAME]——我可不能把整天的时间都耗在这里。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_11</Tag>
+		<English>Are you still around? I thought somebody wiped out your puny civilization years ago.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你还在这里？我以为你们那弱小的文明早就被什么人灭掉了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_12</Tag>
+		<English>Oh, it's you. Now my day is complete.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>噢，是你。我正等着呢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_13</Tag>
+		<English>Well, look what the cat dragged in.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗯，看看是哪个讨厌的家伙走进来了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_14</Tag>
+		<English>I studied on killin' you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我正在学习如何杀死你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_15</Tag>
+		<English>You try my patience, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你在考验我的耐性，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_16</Tag>
+		<English>I'm listening.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我正听着呢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WASHINGTON_1</Tag>
+		<English>What could [CT_CIV_SHORT] possibly have to say that would be of interest to [OUR_CIV_SHORT]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_CIV_SHORT]能带来什么让[OUR_CIV_SHORT]感兴趣的消息？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>Come to add to our troubles, have you? Well, get on with it then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你是来给我们增加麻烦的吗？嗯，那试试看吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SALADIN_1</Tag>
+		<English>What a surprise! I did not realize it was locust season once again.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太让我惊讶了，难道又到了贪婪的蝗虫泛滥的季节？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MONTEZUMA_1</Tag>
+		<English>Tell me, [CT_NAME]: what has [CT_CIV_SHORT] done to anger the gods so that they give them you as leader?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>告诉我，[CT_NAME]：[CT_CIV_SHORT]人究竟做了什么事使众神如此愤怒，以至于让你来做他们的领袖？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_QIN_SHI_HUANG_1</Tag>
+		<English>Greetings, [CT_NAME]! We are, as always, happy to see you again.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]！我们的大门永远为你敞开。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CHINESE_LEADER_1</Tag>
+		<English>It is people like you, [CT_NAME], who give ruthless dictators a bad name. Why are you here?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>正是像你这样的人，[CT_NAME]，给无情的独裁者带来了坏名声。你为什么在这儿？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HATSHEPSUT_1</Tag>
+		<English>Bow before me, [CT_NAME] - a goddess deserves no less!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>向我鞠躬，[CT_NAME]——一个女神至少应该受到这样的礼节。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ELIZABETH_1</Tag>
+		<English>Well? Out with it, you tiresome little person!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗯？快滚吧，一无是处的小人！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_VICTORIA_1</Tag>
+		<English>Good day to you, [CT_NAME]. To what do we owe this unexpected interruption?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>今天真是个好日子啊，[CT_NAME]。是什么风把你吹来了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LOUIS_XIV_1</Tag>
+		<English>Back again so soon, [CT_NAME]? How glorious. Imagine my excitement.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这么快又看到你了，[CT_NAME]？多么的令人愉快，你都想象不到我有多激动。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_NAPOLEON_1</Tag>
+		<English>I have little time for your prattle, [CT_NAME]. That is the long and short of it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我没什么时间听你的废话，[CT_NAME]。已经说的很明白了，没有必要再说什么了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_BISMARCK_1</Tag>
+		<English>Get to the point, [CT_NAME]. I have IMPORTANT matters of state to deal with.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>请简要些，[CT_NAME]。我有很重要的国家大事要处理。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ALEXANDER_1</Tag>
+		<English>Still alive, are you? How disappointing. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你还活着啊？真是让人失望。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HUAYNA_CAPAC_1</Tag>
+		<English>It is a source of unending astonishment to me that the gods permit you to live, [CT_NAME]. Why are you here?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我非常惊讶为什么众神还允许你活着，[CT_NAME]。你来这里干什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ASOKA_1</Tag>
+		<English>Why have you come to trouble us, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你为什么要来麻烦我们，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GANDHI_1</Tag>
+		<English>All people, no matter how unpleasant, are welcome in [OUR_CIV_SHORT], [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，所有的人，不管多么令人讨厌，在[OUR_CIV_SHORT]都会受到欢迎。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_TOKUGAWA_1</Tag>
+		<English>Greetings, [CT_NAME]! [OUR_CIV_SHORT] is honored by your visit. You can be sure that we will be coming to your country very soon now. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>热烈欢迎，[CT_NAME]！[OUR_CIV_SHORT]很荣幸迎接您的来访。您可以确信我们很快就会去回访您的国家。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MANSA_MUSA_1</Tag>
+		<English>I do not approve of you or your country, [CT_NAME]. What have you to say that will change my opinion of you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我对你和你的国家都不满意，[CT_NAME]。你准备说些什么让我改变对你的看法？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GENGHIS_KHAN_1</Tag>
+		<English>And they call US barbarians?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>有人还敢说我们是野蛮人？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_KUBLAI_KHAN_1</Tag>
+		<English>My grandfather would have destroyed you on sight, [CT_NAME]. Alas, but I live in more "civilized" times. What do you want?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>假如是我的祖先就会直接把你消灭掉，[CT_NAME]。哎，但是我生活在一个更加文明的时代里。你想要什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CYRUS_1</Tag>
+		<English>I wonder, [CT_NAME]: how many hanging chads did it take to get YOU into office?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我在想，[CT_NAME]，到底你伪造了多少选票，才使自已当上了国家领导人？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JULIUS_CAESAR_1</Tag>
+		<English>Why are you here? Is it the Ides of March already?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你来这干吗？想找死吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PETER_1</Tag>
+		<English>Be brief, [CT_NAME]. I'm trying to give up hacking annoying people to death in a blind rage for Lent. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，简单的说，我正在努力压制当我无名火起的时候试图砍死那些厌恶的家伙的念头。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CATHERINE_1</Tag>
+		<English>Remarkable: a politician who even I won't sleep with.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很明显：你是个连我都不想与之有染的政客。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ISABELLA_1</Tag>
+		<English>I'm glad you're here, [CT_NAME]. My Grand Inquisitor would like to have a word with you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很高兴在这儿见到你，[CT_NAME]。我的大检察官会很乐意和你谈谈的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_1</Tag>
+		<English>So what do you propose?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你有什么建议？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_2</Tag>
+		<English>Make an offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你出个价吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_3</Tag>
+		<English>Let us begin!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们开始吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_4</Tag>
+		<English>Hopefully we can come to an agreement.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我多么希望我们能够达成协议啊。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_5</Tag>
+		<English>What does [CT_CIV_SHORT] have to offer?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_CIV_SHORT]有什么可以提供的？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_6</Tag>
+		<English>I'm listening...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我正在听……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_7</Tag>
+		<English>We're always looking for a fair exchange, [CT_NAME]. Please go ahead.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们一直希望开展公平的交易，[CT_NAME]。请继续。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_8</Tag>
+		<English>Go on.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>请继续。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_9</Tag>
+		<English>Well, go ahead and put something on the table.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，请你先开价吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRADING_10</Tag>
+		<English>All right. Let's hear it then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧。我在听着。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_1</Tag>
+		<English>Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>同意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_2</Tag>
+		<English>All right then. Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，我同意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_3</Tag>
+		<English>Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_4</Tag>
+		<English>Excellent. We are agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常好，我们成交了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_5</Tag>
+		<English>Hrmph. This is highway robbery - but we'll take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>唔，这简直是拦路抢劫——但我们接受了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_6</Tag>
+		<English>Well, if that's the best you can do, I guess we'll take it. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，如果这是你的最高出价，我想我们会接受的。就这么说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_7</Tag>
+		<English>I agree to your terms.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我同意你的条件。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_8</Tag>
+		<English>I believe we can accept that. Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我想我们可以接受，我同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_9</Tag>
+		<English>I think I can accept these terms. It is agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我想我可以接受这些条件，我同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_10</Tag>
+		<English>It is agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_11</Tag>
+		<English>It's against my better judgment, but we'll take it. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这有违我的初衷，但我们会接受的。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_12</Tag>
+		<English>Sounds fair to me. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>听起来对我很公平。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_13</Tag>
+		<English>That is acceptable to us. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这对我们很合理。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_14</Tag>
+		<English>I dislike haggling. Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不喜欢讨价还价。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_15</Tag>
+		<English>The offer is a bit light - but we'll agree to it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的出价少了些，但我们会接受的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_16</Tag>
+		<English>We accept your fair offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们接受你公平的提议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_17</Tag>
+		<English>We accept your gracious offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们接受你优厚的出价。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_18</Tag>
+		<English>We are agreed then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么我们同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_19</Tag>
+		<English>We can accept these terms. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们可以接受这些条件。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_20</Tag>
+		<English>We can do business along these lines. Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们可以照这些条件做生意。我同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_21</Tag>
+		<English>We'll take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们会接受的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_22</Tag>
+		<English>Very well, we'll take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，我们会接受的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_23</Tag>
+		<English>It's a good deal. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是个好买卖。说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_24</Tag>
+		<English>Your terms are acceptable.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的条件很合理。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_25</Tag>
+		<English>You are a hard bargainer, [CT_NAME]. Agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你真是个一毛不拔的商人，[CT_NAME]。我同意了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_26</Tag>
+		<English>Excellent. It is done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常好。我们说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_27</Tag>
+		<English>[OUR_CIV_SHORT] thanks you. Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你。我们说定了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_1</Tag>
+		<English>You'll have to do better than that, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你可以做得更好些，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_2</Tag>
+		<English>We really do not think this trade will benefit our people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我真的不认为这项交易对我的人民有利。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_3</Tag>
+		<English>This proposal will not work for us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个提议并不使我们满意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_4</Tag>
+		<English>No, seriously. Quit fooling around: what's your offer?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我认真的对你说不。别再吊儿郎当了，这是你的出价？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_5</Tag>
+		<English>That's not good enough, friend [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，这还不够好，朋友。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_6</Tag>
+		<English>Is that your final offer? </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是你的最后出价么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_7</Tag>
+		<English>I'm afraid that your offer is not acceptable to the [OUR_CIV_ADJ] people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>恐怕你的出价对[OUR_CIV_ADJ]的人民并不合理。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_8</Tag>
+		<English>No can do, my friend. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不行，我的朋友。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_9</Tag>
+		<English>We cannot afford to be so generous, [CT_NAME]. Try again.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们无法如此慷慨，[CT_NAME]。试试别的吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_REJECT_10</Tag>
+		<English>I don't think so. You'll have to do better than that.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不那么认为。你应该比这做得更好。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_1</Tag>
+		<English>We reject your proposal.  No thanks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们拒绝你的提议。请别管闲事。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_2</Tag>
+		<English>Forget it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>忘了它吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_3</Tag>
+		<English>We reject your laughable offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们拒绝你可笑的提议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_4</Tag>
+		<English>Just how gullible do you think I am, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你以为我那么容易受骗么，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_5</Tag>
+		<English>Your generosity is underwhelming. Forget it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的慷慨微不足道。忘了它吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_6</Tag>
+		<English>This is totally unacceptable!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是完全不可接受的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_7</Tag>
+		<English>Just who do you think you're dealing with, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你以为你是在和谁打交道，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_8</Tag>
+		<English>Your offer is an insult to [OUR_CIV_SHORT]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你提出的条件是对[OUR_CIV_SHORT]的侮辱。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_9</Tag>
+		<English>Now that's just crazy talk. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这真是一场疯狂的会谈。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_REJECT_10</Tag>
+		<English>Quit wasting my time. Make a reasonable offer or go away.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不要再浪费我的时间了。提出一个合理的条件，不然就滚蛋。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_1</Tag>
+		<English>We're glad you accepted our offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你能接受我们的条件让我们感到非常高兴。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_2</Tag>
+		<English>It is wonderful that you have accepted.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你同意了，这真是太好了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_3</Tag>
+		<English>I'm glad that you found the offer acceptable, [CT_NAME]</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很高兴你终于发现这些条款是可接受的了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_4</Tag>
+		<English>Marvelous!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>真是太好了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_5</Tag>
+		<English>You have chosen wisely, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的选择非常明智，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_6</Tag>
+		<English>Wonderful! Let us celebrate!!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太棒了！让我们庆祝一下吧！！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_7</Tag>
+		<English>It's a pleasure doing business with you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和你做交易真是件令人愉快的事。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_8</Tag>
+		<English>Excellent!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好极了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_9</Tag>
+		<English>I'm glad that we could come to an agreement.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很高兴我们双方能达成协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_GLAD_10</Tag>
+		<English>Cha-CHING!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太好了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_1</Tag>
+		<English>All right then. We're agreed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那好吧。我们成交。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_2</Tag>
+		<English>Now you are beginning to show some sense, [CT_NAME]. Perhaps there is some hope for you yet.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你总算表现出一点理性了，[CT_NAME]。也许你还有那么点希望。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_3</Tag>
+		<English>Done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>成交。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_4</Tag>
+		<English>Excellent. Perhaps you are not as foolish as you look.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好极了。也许你并不像你看起来那么笨。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_5</Tag>
+		<English>Mighty  [OUR_CIV_SHORT] thanks you. You may go now.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]向你致谢。你可以走了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_6</Tag>
+		<English>Thank you for your cooperation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你的协作。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_7</Tag>
+		<English>We thank you. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_8</Tag>
+		<English>That is all for now. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>就这样吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_9</Tag>
+		<English>Fine. It is done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好。成交了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_GLAD_10</Tag>
+		<English>[OUR_CIV_SHORT] thanks you and your petty little civilization.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你和你那可怜弱小的文明。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_1</Tag>
+		<English>We're sorry you don't feel that our offer is reasonable.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>您竟然不满意我们的条件，对此我们深表遗憾。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_2</Tag>
+		<English>Too bad. Do you have something different in mind?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可惜。那么你有什么不同的提议吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_3</Tag>
+		<English>Let's hear an offer from you, then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么让我们听听你的建议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_4</Tag>
+		<English>All right. Why don't you put something on the table?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧。你为什么不在谈判桌上摆出点什么东西呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_5</Tag>
+		<English>Well, do you wish to make a counter-proposal?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，由你来提条件如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_6</Tag>
+		<English>All right: let's hear your counter-proposal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好的：让我们听听你的反建议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_7</Tag>
+		<English>That is regrettable.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>真是可惜啊。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_8</Tag>
+		<English>That is unfortunate.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太不幸了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_9</Tag>
+		<English>Oh well. Perhaps next time, then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>嗯，好的。也许下次吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_SORRY_10</Tag>
+		<English>Well, perhaps you would care to suggest something then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，也许你愿意提一些建议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_1</Tag>
+		<English>Well, you suggest something then!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，我们来看看你的提案吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_2</Tag>
+		<English>How typical. Let's hear your brilliant. idea then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>多么没创意啊。那就让我们听听你的高见。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_3</Tag>
+		<English>You annoy me, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你惹恼我了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_4</Tag>
+		<English>You are incredibly stubborn, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你真是难以置信的顽固，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_5</Tag>
+		<English>You are remarkably short-sighted, [CT_NAME], to treat your betters thusly.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在和那些比你强的人的谈判中，你表现得极其短视，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_6</Tag>
+		<English>I suppose you have something better in mind?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我猜你也许有一些更好的想法？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_7</Tag>
+		<English>Then quit wasting my time. Either make a counter-proposal or be gone.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么不要再浪费我的时间了。要么提出你的方案，要么滚蛋。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_8</Tag>
+		<English>Let's hear your idea, then.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么让我们听听你的提议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_9</Tag>
+		<English>Then you put something on the table!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么你就拿点什么东西来交换吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_SORRY_10</Tag>
+		<English>Does puny [CT_CIV_SHORT] wish to make a counter-proposal? </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>弱小的[CT_CIV_SHORT]也想要提出一个反提案吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_1</Tag>
+		<English>How does this deal sound?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这笔交易听起来如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_2</Tag>
+		<English>What do you think of this deal, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你看这笔交易如何，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_3</Tag>
+		<English>Do you find this offer tempting?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你发现这个提议的诱人之处了吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_4</Tag>
+		<English>Here's my offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这就是我的提议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_5</Tag>
+		<English>I'm sure that you'll agree that this deal is fair...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我肯定你也认为这项交易是公平的……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TRY_THIS_DEAL_6</Tag>
+		<English>And that's my final offer. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是我的最终提议了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_1</Tag>
+		<English>I don't see how a deal is possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不认为这项交易是可接受的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_2</Tag>
+		<English>That's just crazy-talk. I don't think it can be done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这太疯狂了。我认为无法接受。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_3</Tag>
+		<English>I'm sorry to say that no such deal is possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很抱歉，这样的提议是不可能被接受的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_4</Tag>
+		<English>That can't be done, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那是不可能的，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_5</Tag>
+		<English>I don't see how we can make such a trade.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不认为我们能达成这笔交易。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_NO_DEAL_6</Tag>
+		<English>We can't do that.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们不能那样做。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_1</Tag>
+		<English>That's impossible. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那是不可能的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_2</Tag>
+		<English>Don't be foolish. That can't possibly be done.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>别犯傻了。这是不可能的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_3</Tag>
+		<English>Don't waste my time with impossibilities!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不要用不可能实现的事浪费我的时间！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_4</Tag>
+		<English>What are you talking about? That's not possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你说什么呀？那不是可能的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_5</Tag>
+		<English>Are you kidding? That can't be done!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你开玩笑吧？这绝对不行！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_NO_DEAL_6</Tag>
+		<English>There's no way such a deal is possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>想达成这项交易是不可能的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_1</Tag>
+		<English>Perhaps it is time for all this bloodshed to end?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>或许已到该结束这场血战的时候了？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_CITY_1</Tag>
+		<English>We would like to offer up this city as a sign of our respect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们想献上这座城市来表达我们对您的尊敬。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_1</Tag>
+		<English>Greetings, [CT_NAME]! What do you think of this deal?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]！你觉得这项交易怎么样？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_2</Tag>
+		<English>The peace-loving people of [OUR_CIV_SHORT] seek a fair trade with [CT_CIV_SHORT]. How about it?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>热爱和平的[OUR_CIV_SHORT]人民想与[CT_CIV_SHORT]进行一场公平的交易。如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_3</Tag>
+		<English>How does this sound to you, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你意下如何，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_4</Tag>
+		<English>What do you think of this deal, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你对这项提议怎么看，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_5</Tag>
+		<English>My friend, can [OUR_CIV_SHORT] tempt you with this offer?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我的朋友，你觉得[OUR_CIV_SHORT]的这项提议怎么样？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_OFFER_DEAL_6</Tag>
+		<English>Let's make a deal!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们来做一笔交易！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_1</Tag>
+		<English>[CT_NAME], I'm making you an offer you can't refuse.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，我向你提出一项难以拒绝的优厚条件。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_2</Tag>
+		<English>Show some intelligence for a change, [CT_NAME]. Accept this deal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>动动你的脑子，[CT_NAME]。接受这项交易吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_3</Tag>
+		<English>The [OUR_EMPIRE] offers you this trade. I suggest you take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]提出这项交易。我建议你接受它。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_4</Tag>
+		<English>Here's our offer. Take it or leave it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是我们的提议。同不同意随你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_5</Tag>
+		<English>[OUR_CIV_SHORT] offers your nasty little civilization the following deal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你这讨厌的文明提出这项交易。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_OFFER_DEAL_6</Tag>
+		<English>Here's the deal. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是我们的提议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_1</Tag>
+		<English>I'm afraid this deal will no longer work for us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>恐怕我们不能继续进行这项交易了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_2</Tag>
+		<English>I'm sorry, [CT_NAME], but this deal will no longer work for us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很抱歉，[CT_NAME]，但是这项交易我们不想再继续了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_3</Tag>
+		<English>All good things come to an end, unfortunately. Including this deal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很不幸，一切美好的事物终将完结，包括这项交易。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_4</Tag>
+		<English>[OUR_CIV_SHORT] can no longer afford this deal, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]不再接受这项交易了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_5</Tag>
+		<English>It's time to end this deal, friend. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该结束这项交易了，朋友。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_CANCEL_DEAL_6</Tag>
+		<English>If you don't mind, [OUR_CIV_SHORT] would like to cancel this deal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你不介意，[OUR_CIV_SHORT]想取消这项交易了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_1</Tag>
+		<English>The [OUR_CIV_ADJ] people are no longer interested in this deal, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_ADJ]的人民对这项交易已经没兴趣了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_2</Tag>
+		<English>This deal is over. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交易结束了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_3</Tag>
+		<English>We're ending this deal, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们要终止这项交易了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_4</Tag>
+		<English>We're sick of this deal. And of you, too, frankly.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们对这项交易很恶心。说实话，我们觉得你也很恶心。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_5</Tag>
+		<English>We are terminating this deal, [CT_NAME], effective immediately.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们要终止这项交易，[CT_NAME]，立即执行。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_CANCEL_DEAL_6</Tag>
+		<English>This deal no longer suits our needs. It is canceled. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项交易不再适合我们的需要了，取消吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_1</Tag>
+		<English>[OUR_NAME] thanks you on behalf of the grateful [OUR_CIV_ADJ] people!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_NAME]代表[OUR_CIV_ADJ]人民感谢你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_2</Tag>
+		<English>[OUR_CIV_SHORT] acknowledges your friendship. Thank you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]接受你们的友谊。谢谢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_3</Tag>
+		<English>[OUR_CIV_SHORT] graciously acknowledges your friendship, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你们的友谊，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_4</Tag>
+		<English>[OUR_CIV_SHORT] salutes its friend, the tiny nation of [CT_CIV_SHORT].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向定居于小巧的[CT_CIV_SHORT]的朋友们致敬。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_5</Tag>
+		<English>[OUR_CIV_SHORT] salutes you, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你致敬，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_6</Tag>
+		<English>[OUR_CIV_SHORT] thanks you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_7</Tag>
+		<English>[OUR_CIV_SHORT] thanks you, fair and generous [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你，公平而慷慨的[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_8</Tag>
+		<English>[CT_NAME], my people thank you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，我的人民感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_9</Tag>
+		<English>Excellent! I'm quite pleased. Let's sit down and have a jolly cup of tea, shall we?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太好了！我真的很高兴。我们坐下来喝杯茶，好吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_10</Tag>
+		<English>Good decision. We must build a closer bond - or else!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>明智的决定。我们应该建立更亲密的关系！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_11</Tag>
+		<English>I [OUR_NAME], Godlike Ruler of the Mighty [OUR_EMPIRE], do hereby offer my sincerest thanks to my good friend, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我，[OUR_NAME]，强大[OUR_EMPIRE]的神圣统治者，在此向我的朋友致以最诚挚的感谢，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_12</Tag>
+		<English>I am glad that we have concluded this arrangement amicably, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很高兴我们能够达成这项友好的协议，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_13</Tag>
+		<English>I am so happy that our two nations can rise above petty rivalries like this! We will set an example the whole world will follow!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很高兴我们两国结束了不愉快的冲突！我们可以成为全世界遵循的榜样。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_14</Tag>
+		<English>I am SO pleased that we have been able to come to a fair agreement, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很高兴我们可以达成一项公平的合约，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_15</Tag>
+		<English>I appreciate this, friend [CT_NAME]. Thanks from all the [OUR_CIV_ADJ] people!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]老友，我感谢你。[OUR_CIV_ADJ]全体人民都感谢你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_16</Tag>
+		<English>I bow before you in friendship, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为了友谊我向你致敬，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_17</Tag>
+		<English>I congratulate you on your common sense, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>祝贺你拥有如此出色的判断力，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_18</Tag>
+		<English>I thank you. Now I'm sure that you have pressing business elsewhere...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常感谢你。你先去忙你的事情吧……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_19</Tag>
+		<English>I will sacrifice fifty warriors in honor of your friendship!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我将献祭五十位勇士来向你的友谊致敬！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_20</Tag>
+		<English>I, [OUR_NAME], ruler of way too many places to mention, do hereby thank my good friend, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我，[OUR_NAME]，一个庞大帝国的领袖，在此对一位好友表达感谢之情，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_21</Tag>
+		<English>It has been a pleasure doing business with you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和你打交道令我感到愉快，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_22</Tag>
+		<English>It is good that we can come together as equals, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很高兴我们可以平等地合作，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_23</Tag>
+		<English>We enjoyed speaking with you [CT_NAME]. Odd, since you are so far inferior, but personality goes a long way.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们很乐意与你谈话，[CT_NAME]。尽管你比较低能，但还是很有前途的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_24</Tag>
+		<English>You are the wind beneath my wings, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你使我如虎添翼，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_25</Tag>
+		<English>You have our gratitude.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们很感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_26</Tag>
+		<English>Many thanks, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常感谢，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_27</Tag>
+		<English>Many thanks. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常感谢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_28</Tag>
+		<English>May the heavens bless and sanctify the friendship between our two great people!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿上天保佑我们两个伟大民族之间的友谊长存！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_29</Tag>
+		<English>May the bond between [OUR_NAME] and [CT_NAME] grow ever stronger!.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿[OUR_NAME]和[CT_NAME]间的纽带永远保持紧密！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_30</Tag>
+		<English>May the friendship between [OUR_CIV_SHORT] and [CT_CIV_SHORT] last for many years!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愿[OUR_NAME]和[CT_NAME]的友谊持续长久！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_31</Tag>
+		<English>Did you ever know that you're my hero? You're everything I wish I could be. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你是我心目中英雄！我就想成为象你这样的人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_32</Tag>
+		<English>On behalf of the [OUR_CIV_ADJ] people, I thank you!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我代表[OUR_CIV_ADJ]人民感谢你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_33</Tag>
+		<English>On behalf of the people of [OUR_CIV_SHORT], I thank you and all the [CT_CIV_ADJ] people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我代表[OUR_CIV_ADJ]人民向你以及全体[CT_CIV_ADJ]人民致以谢意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_34</Tag>
+		<English>Our work is concluded. You may go.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们的工作告一段落。你可以走了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_35</Tag>
+		<English>Our work is finished here, is it not? Well, then, don't let me keep you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们的工作告一段落，不是么？好吧，别让我挽留你了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_36</Tag>
+		<English>Thank me?  No, no...thank you, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢我？不，不……应该感谢你，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_37</Tag>
+		<English>Thank you, [CT_NAME]! </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_38</Tag>
+		<English>Thank you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_39</Tag>
+		<English>Thank you, [CT_NAME].  Is there anything else?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你，[CT_NAME]。还有什么事么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_40</Tag>
+		<English>Thank you, [CT_NAME]. May both our people profit from our continued friendship!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你，[CT_NAME]。我们长久的友谊对两国的人民都有利。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_41</Tag>
+		<English>Thank you.  Your cooperation has been noted.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>感谢你，你的合作我记下了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_42</Tag>
+		<English>Thanks, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>谢谢，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_43</Tag>
+		<English>It's been a small slice of heaven. I mean that sincerely.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>真象是身处天堂！衷心感谢哦。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_44</Tag>
+		<English>Thanks.  Will that be all?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>谢谢，这样可以了么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_45</Tag>
+		<English>You have our gratitude.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们很感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_46</Tag>
+		<English>That will be all for now, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>今天先谈到这里吧，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_47</Tag>
+		<English>There. That's a job well done, don't you think?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>就这样。这项交易不错，你不这么想么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_48</Tag>
+		<English>That's done, then. Thanks and farewell!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那么说定了。谢谢你，再见了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_49</Tag>
+		<English>The [OUR_CIV_ADJ] people graciously thank the people of - whatever your culture's name is.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_ADJ]人民感谢……抱歉我记不得你们的国名了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_50</Tag>
+		<English>The [OUR_EMPIRE] thanks you, [CT_NAME]. You may go now.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]感谢你，[CT_NAME]。现在你可以走了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_51</Tag>
+		<English>We thank our friends and partners, the [CT_CIV_ADJ] people!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们感谢我们的朋友与同道，[CT_CIV_ADJ]人民。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_52</Tag>
+		<English>We thank our partner, [CT_CIV_SHORT], for coming to a fair and just agreement.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们感谢我们的伙伴，[CT_CIV_SHORT]，前来达成一个公正的协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_53</Tag>
+		<English>We work together well, [CT_NAME]. I look forward to many more mutually profitable arrangements in the future!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们合作良好，[CT_NAME]。我希望在将来我们可以缔结更多的互惠协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_54</Tag>
+		<English>We're done here, right? Well, don't let me keep you. Thanks and good bye.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们的交易完成了，不是么？好吧，别以为我会挽留你。谢谢，再见了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_55</Tag>
+		<English>Yes, I believe we will both profit from this deal.  I look forward to doing business with you again.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对，我相信我们都能从这项交易中获利。我希望将来还可以和你谈别生意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_56</Tag>
+		<English>You are almost an equal in cunning and martial prowess, [CT_NAME]. I, [OUR_NAME], thank you for your visit.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>就智谋和军力而言，我们两个真是旗鼓相当，[CT_NAME]。我，[OUR_NAME]，感谢你的来访。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_57</Tag>
+		<English>You are wise beyond your years, friend [CT_NAME]. [OUR_CIV_SHORT] offers you its sincerest thanks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你拥有超出你年龄的智慧，我的朋友，[CT_NAME]。[OUR_CIV_SHORT]向你致以最诚挚的谢意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_58</Tag>
+		<English>You have [OUR_CIV_SHORT]'s thanks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你表示感谢。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_59</Tag>
+		<English>You have chosen wisely, [CT_NAME]. It is important to maintain good relations with your betters, don't you agree?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的选择很明智，[CT_NAME]。同强者保持良好关系是很重要的，对吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_60</Tag>
+		<English>You have my eternal gratitude, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我永远感谢你，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_61</Tag>
+		<English>You have our gratitude.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我很感激你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_62</Tag>
+		<English>You have our thanks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_63</Tag>
+		<English>You make me so happy, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，你太让人高兴了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_64</Tag>
+		<English>You show great wisdom and acumen in picking your friends, [CT_NAME]. The [OUR_EMPIRE] thanks you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你挑选朋友的眼光不错，[CT_NAME]。[OUR_EMPIRE]感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_65</Tag>
+		<English>You show great wisdom and friendship. [OUR_CIV_SHORT] thanks you!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你表现得如此的英明和友善。[OUR_CIV_SHORT]感谢你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_66</Tag>
+		<English>Your fair and courteous dealings with the [OUR_CIV_ADJ] people will not be forgotten.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你向[OUR_CIV_ADJ]提出的条款是如此公平，我们的人民将永远不会忘记你的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_67</Tag>
+		<English>You have [OUR_CIV_SHORT]'s thanks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]感谢你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_68</Tag>
+		<English>It appears that your visit was not a complete waste. Come back again when you have something else to offer the [OUR_EMPIRE].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>看来你的到访并非全无收获啊。今后如果有别的事情，请随时向[OUR_EMPIRE]提出来。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_69</Tag>
+		<English>Yours is a friendly and accommodating little culture. We thank you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们确实很友善。我们感谢你们。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CURRENT_DEALS_1</Tag>
+		<English>As I see it, these are our current deals.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这就是我们目前的协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CURRENT_DEALS_2</Tag>
+		<English>These are our active deals.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这些是我们目前的协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CURRENT_DEALS_3</Tag>
+		<English>[CT_NAME], these are the deals we have agreed upon.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，这些是我们目前的协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CURRENT_DEALS_4</Tag>
+		<English>These are the deals we have with the [CT_EMPIRE].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这些是我们与[CT_EMPIRE]达成的协议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_ASK_1</Tag>
+		<English>Always happy to help...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很高兴为您效劳……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_ASK_1</Tag>
+		<English>Sorry, but you press us too hard.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对不起，你让我们太为难了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_1</Tag>
+		<English>We accede to your unreasonable demands.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我勉强同意你那不切实际的要求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_2</Tag>
+		<English>I accept your terms, for now. But you just wait until next time!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我暂时接受你的要求。不过还会有下一次的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_3</Tag>
+		<English>It appears that I have no choice but to agree.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>看上去我除了接受之外没有其它选择了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_4</Tag>
+		<English>All right, then. But just remember: what goes around comes around!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好的。但记住这一点：我们会卷土重来的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_5</Tag>
+		<English>Sure: kick a civilization when it's down. I accept your terms.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>请确信：在一个文明衰落时就要干掉它。我接受你的条件。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_6</Tag>
+		<English>I agree to your terms. For now.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我同意你的建议。不过只是现在。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEMAND_TEAM_1</Tag>
+		<English>Always happy to help!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>随时随地为你效劳！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_1</Tag>
+		<English>We reject your meaningless threats!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们无视你那狂妄的威胁！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_2</Tag>
+		<English>How dare you insult glorious [OUR_CIV_SHORT] with your stupid demands!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愚昧的你居然敢于侮辱伟大的[OUR_CIV_SHORT]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_3</Tag>
+		<English>Not bloody likely.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>绝没有可能。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_4</Tag>
+		<English>Not on my watch!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不会接受的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_5</Tag>
+		<English>Never!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不可能！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REJECT_DEMAND_6</Tag>
+		<English>You badly underestimate the [OUR_EMPIRE], [CT_NAME]. We would never agree to any such thing.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你太小看[OUR_EMPIRE]了，[CT_NAME]。我们绝不会同意的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_1</Tag>
+		<English>We see that you could probably use a little help.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我想这对你们来说可能会有点用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_2</Tag>
+		<English>Perhaps this could be of assistance to you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可能这对你有所帮助，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_3</Tag>
+		<English>Here's a little something from us to you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是给你的一点小东西。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_4</Tag>
+		<English>Here, my friend: you might need this.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>朋友，过来：你可能需要这个。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_5</Tag>
+		<English>Would this be of any use to you, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这对你们有好处吗，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GIVE_HELP_6</Tag>
+		<English>The [OUR_CIV_ADJ] people are feeling quite generous today, [CT_NAME]. Perhaps this could be of some use to you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_ADJ]的人民现在更大方了，[CT_NAME]。可能这对你们有一定的帮助。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_1</Tag>
+		<English>Charity begins at home, [CT_NAME]. Care to give us some?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>既然你在国内都如此慷慨，[CT_NAME]。不介意分给我们一点吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_2</Tag>
+		<English>[OUR_CIV_SHORT] requires your assistance, friend [CT_NAME]. I hope that you will not disappoint us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]需要你的帮助，[CT_NAME]。我相信你不会让我们失望的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_3</Tag>
+		<English>I have always relied on the kindness of strangers, [CT_NAME]. Can you help?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对陌生人我也一概是信任的，[CT_NAME]。能帮个忙吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_4</Tag>
+		<English>A friend in need is a friend indeed, [CT_NAME]. Care to help us out?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>患难见真情，[CT_NAME]。能帮助我们吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_5</Tag>
+		<English>[OUR_CIV_SHORT] could use your assistance, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]需要你的帮助，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FR_ASK_FOR_HELP_6</Tag>
+		<English>Could you possibly spare us this, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你能和我们分享吗，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_1</Tag>
+		<English>Supplying us with this would go a long way towards healing the unfortunate rift between our peoples, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>向我们提供这个有助于消除两国人民间的不和，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_2</Tag>
+		<English>I find that [OUR_CIV_SHORT] needs your aid, [CT_NAME]. I'm certain you won't disappoint us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我发现[OUR_CIV_SHORT]需要你的帮助，[CT_NAME]。我敢肯定你不会让我们失望的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_3</Tag>
+		<English>As difficult as it may be to believe, you actually have something that we could use.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>尽管听起来让人难以接受，但你的确拥有我们需要的东西。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_4</Tag>
+		<English>Your assistance at this vital time will do much towards regaining [OUR_CIV_SHORT]'s friendship, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你在关键时刻伸出的援手赢得了[OUR_CIV_SHORT]的友谊，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_5</Tag>
+		<English>Despite our differences, I believe that our two nations have much in common. For example, you have this and we need it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>尽管我们之间还存在分歧，但我相信我们的国家是可以互通有无的。比如说，你手上的某样东西正好是我们需要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FUR_ASK_FOR_HELP_6</Tag>
+		<English>We could use your assistance, [CT_NAME]. Do not disappoint us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们需要你的援助，[CT_NAME]。别让我们失望。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_1</Tag>
+		<English>How disappointing. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太让人失望了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_2</Tag>
+		<English>Well, dang.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>哼，可恶……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_3</Tag>
+		<English>You are really not a very giving person, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你不是个乐善好施的家伙，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_4</Tag>
+		<English>Very well. We shall say nothing more of this - for the moment.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好了。在这点上我们没什么好谈的——在这个时候。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_5</Tag>
+		<English>You have chosen foolishly, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你做出了愚蠢的选择，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_WEAKER_6</Tag>
+		<English>Very well. But greed will be your ultimate downfall, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好的，但是你的贪欲将会使你最终走向衰败，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_1</Tag>
+		<English>We shall remember this, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们会记住的，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_2</Tag>
+		<English>How shortsighted of you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你毫无远见。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_3</Tag>
+		<English>That's not very nice of you, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你这人真难说话，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_4</Tag>
+		<English>We'll remember this.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们会记住的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_5</Tag>
+		<English>You foolish person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你是愚蠢的人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_EQUAL_6</Tag>
+		<English>I expected better of you, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我希望你可以做的更好，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_1</Tag>
+		<English>I hope you don't come to regret this, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我希望你不要为此后悔，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_2</Tag>
+		<English>Very well. On your own head be it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>非常好。你尽管去做这种决定吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_3</Tag>
+		<English>As you will. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>随你的便好了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_4</Tag>
+		<English>Remember, what goes around comes around...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>记住，恶有恶报善有善报……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_5</Tag>
+		<English>Fine. See if we help you out when you need it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，当你需要帮助的时候，看我们会不会帮助你。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_HELP_REFUSED_STRONGER_6</Tag>
+		<English>That's too bad. For the both of us, I fear.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这对于我们两个来说都是不好的，使我感到担心。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_1</Tag>
+		<English>We demand the following in tribute!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在贡物中我们要求下列各项！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_2</Tag>
+		<English>[CT_NAME], meet our demands or suffer the consequences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，你必须同意我们的要求或者就遭受毁灭把。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_3</Tag>
+		<English>It would be wise for you to give us what we want.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这会让你明智的给我们我们想要的一切。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_4</Tag>
+		<English>Give us what we want or prepare to be destroyed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们我们想要的或者你就准备被毁灭把。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_5</Tag>
+		<English>Be wise [CT_NAME] and give in to our demands.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你是明智的[CT_NAME]就应该同意我们的要求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_1</Tag>
+		<English>We can do this the easy way, or the hard way. Which do you prefer?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们可以用简单的方法解决问题，当然也可以用复杂的方法。你选择哪一个？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_2</Tag>
+		<English>For the sake of our long friendship, [CT_NAME], will you not give us this small present?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为了我们的友谊可以长久的维持，[CT_NAME]，你可以给我们这个小小的礼物吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_3</Tag>
+		<English>Friend [CT_NAME], we are in some need of assistance. Will you not help your longstanding friend and ally?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>朋友[CT_NAME]，我们需要帮助。你能不能帮助我，你忠诚的朋友？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_4</Tag>
+		<English>Give us what we want, [CT_NAME], lest we come and take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们想要的，[CT_NAME]，免得我们亲自来拿走他。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_5</Tag>
+		<English>This is what we need, [CT_NAME]. Surely our continued friendship is worth far more than that!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是我们需要的，[CT_NAME]。当然我们的友谊远远超过它！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_6</Tag>
+		<English>The [OUR_EMPIRE] would be quite grateful if your terribly vulnerable country gave us what we want.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你的国家给予了我们想要的，[OUR_EMPIRE]我会相当感谢的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_7</Tag>
+		<English>Our continued friendship provides many benefits, [CT_NAME]. Surely it is worth this small tribute in return?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们长久的友谊可以提供我们许多利益，[CT_NAME]。所以它是值得这个小小贡物的把？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_8</Tag>
+		<English>Pay it forward, [CT_NAME]. Please?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>请你迅速给我，[CT_NAME]。好吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>The only thing you have to fear is the terrible consequence of not giving me what I want.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我想要的，否则你必须接受可怕的结果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WASHINGTON_1</Tag>
+		<English>The best things in life are free, [CT_NAME]. Unfortunately, our continued friendship isn't one of them.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>生活中的最好的事情就是免费得到想要的，[CT_NAME]。很不幸，我们保持友谊可不是免费的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MONTEZUMA_1</Tag>
+		<English>The gods demand sacrifice, [CT_NAME]. If your civilization is to exist for much longer, I recommend that you comply.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神要求贡品，[CT_NAME]。如果你的文明想要存在的更久一些，我建议你遵照神的意志。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_QIN_SHI_HUANG_1</Tag>
+		<English>That's quite a nice little civilization you have going there, [CT_NAME]. It would be very unfortunate if something bad were to happen to it... We understand each other, do we not?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的国家看上去非常美丽美好，[CT_NAME]。当然如果某些事情发生在你的国家，它会变的非常不幸……我们彼此了解情况了，对把？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CHINESE_LEADER_1</Tag>
+		<English>[CT_NAME], please give us the following immediately. Think of it as an investment in our continued friendship.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，请立即满足我们的要求。你可以看作它是我们维持长久友谊的投资。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MENES_1</Tag>
+		<English>I want this right now. Do not make me angry - you wouldn't like me when I'm angry...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我立刻想要这个。不要让我生气——当我很生气的时候，我想你是不会高兴的……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HATSHEPSUT_1</Tag>
+		<English>I was going to demand that you sacrifice 1000 warriors to my greatness, [CT_NAME], but if you prefer, you can give me this.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我要你作出重大的选择，[CT_NAME]，作为献祭牺牲你的1000个战士，还是给我这个。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ELIZABETH_1</Tag>
+		<English>The world is a better place because of our friendship, [CT_NAME]; don't you agree? Surely this isn't too large a price to pay to insure that it continues...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>因为我们的友谊，这里是一个平静地方，[CT_NAME]；你同意吗？现在这只需要很小的代价就可以让它继续……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_VICTORIA_1</Tag>
+		<English>The [CT_CIV_ADJ] people are in great need, [CT_NAME]. Do not disappoint us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是[CT_CIV_ADJ]人民的迫切要求，[CT_NAME]。不要使我们失望。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_NAPOLEON_1</Tag>
+		<English>My armies thirst for new lands to conquer, [CT_NAME]. Would you care to ensure that they aren't yours?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我的军队很想征服新的土地，[CT_NAME]。你希望他们去你那里吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ALEXANDER_1</Tag>
+		<English>For the sake of our continued friendship, provide the great people of the [OUR_NAME] with tribute.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为了我们的继续友谊，提供贡物给[OUR_NAME]伟大的人民。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HUAYNA_CAPAC_1</Tag>
+		<English>Give us what we want, [CT_NAME] - it is the will of the gods. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们想要的，[CT_NAME]——它是神的意志。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ASOKA_1</Tag>
+		<English>Peace demands sacrifice, [CT_NAME]. From you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>想要和平是要有牺牲的，[CT_NAME]。从你开始。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GANDHI_1</Tag>
+		<English>I hope you see, [CT_NAME], that it is in your country's best interest to give us what we want. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我希望你看到，[CT_NAME]，为了你国家的存在，最好给我们想要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_TOKUGAWA_1</Tag>
+		<English>Give us what we want, now! Or face imminent destruction! </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们想要的，现在就要！或者面对即将来临的浩劫！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MANSA_MUSA_1</Tag>
+		<English>Forsake greed, friend!  Provide me with tribute, or risk the anger of the [OUR_CIV_ADJ] people.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>放弃贪欲把，朋友！提供贡物给我，或冒[OUR_CIV_ADJ]人民愤怒的危险。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GENGHIS_KHAN_1</Tag>
+		<English>Bestow gifts upon your friends and you are likely to be rewarded a hundred times over.  Ignore the advice of wise-men, and you risk being flogged about the head, neck, face, and shoulders.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>只管放心给你的朋友礼物，你会得到百倍的回报。如果你无视有智者的建议，你要当心受到劈头盖脸的责骂。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_KUBLAI_KHAN_1</Tag>
+		<English>The mighty [OUR_EMPIRE] thanks you for your generous gift, [CT_NAME]. Now hand it over.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_EMPIRE]谢谢你慷慨的礼物，[CT_NAME]。现在结束。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CYRUS_1</Tag>
+		<English>Friendly [OUR_CIV_SHORT] requires a goodwill gesture from our firm yet surprisingly vulnerable ally, [CT_CIV_SHORT]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>友好的[OUR_CIV_SHORT]需要你们善意的表示以牢固我们的联盟，[CT_CIV_SHORT]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JULIUS_CAESAR_1</Tag>
+		<English>Usually, when I see something I want, I just come over and take it. Consider this your lucky day.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>通常，当我见到我想要的东西时，我会亲自来带走它。不过今天是你的幸运的日子。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_AUGUSTUS_CAESAR_1</Tag>
+		<English>The truth is, [OUR_CIV_SHORT] is stronger than your empire, [CT_NAME]. It would be wise of you to give us what we want.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>事实是，[OUR_CIV_SHORT]比你的帝国，[CT_NAME]。强大，它会使你明智的给我们想要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PETER_1</Tag>
+		<English>Give us this or our mighty Cossacks will roam across your ravaged country, burning your cities, stealing your pigs and making lewd gestures at your women!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们这个，否则我们强大的哥萨克人将会在你的国家游荡，烧毁你的城市，抢劫你的财物奸污你的女人！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CATHERINE_1</Tag>
+		<English>A present for me? Why, it's just what I wanted! How ever did you guess?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>问为什么给我礼物？因为它正好是我想要的！如何你猜对了吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ISABELLA_1</Tag>
+		<English>Heaven is on our side, [CT_NAME]. I pray that you know what's good for you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神站在我们一边，[CT_NAME]。我祈祷你们明白什么对你们有利。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GILGAMESH_1</Tag>
+		<English>Give us what we want now, [CT_NAME], and we shall repay you a hundredfold at some distant later date.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>把我们想要的东西交出来，[CT_NAME]。我们会百倍地偿还你们--当然是很久以后。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_1</Tag>
+		<English>The honor of [OUR_CIV_SHORT] requires that we ask you to give us a small donation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们[OUR_CIV_SHORT]的荣誉感迫使我们向你们要一份小小的赠品。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_2</Tag>
+		<English>For the sake of friendship, you might want to consider giving us a small gift.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为了我们永恒的友谊，你们也许会考虑给我们一份小礼物。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_3</Tag>
+		<English>Agree to our demands, [CT_NAME], or be prepared to fight!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>接受我们的要求，[CT_NAME]，不然就要准备开战了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_4</Tag>
+		<English>Know that [OUR_CIV_SHORT] stands by [CT_CIV_SHORT]'s side as friend and equal Now - about our fee...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们[OUR_CIV_SHORT]一直站在你们[CT_CIV_SHORT]一边，作为平等的朋友。现在--关于我们的应收款项……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_5</Tag>
+		<English>Peace with the [OUR_EMPIRE] comes with a price, [CT_NAME]. Will you pay?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>与我们[OUR_EMPIRE]的和平是有价的，[CT_NAME]，你们愿意付账吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_6</Tag>
+		<English>[OUR_CIV_SHORT] demands that you give us the following tribute. Our [OUR_BEST_UNIT] await your response.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你们索取如下贡品，我们英勇的[OUR_BEST_UNIT]等待你们的答复。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_7</Tag>
+		<English>[OUR_CIV_SHORT] needs this, [CT_NAME]. Will you give it to us, or must we fight for it?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]要这个，[CT_NAME]。你是现在就给我们呢，还是要我们为这个打一仗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>Hello, [CT_NAME]! The price of freedom has just gone up.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]！自由涨价了！你们自己看着办吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WASHINGTON_1</Tag>
+		<English>I cannot tell a lie, [CT_NAME]: we want your stuff. Kindly give it to us at your earliest convenience.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我从不说谎，[CT_NAME]：我们要你的东西。请尽快送到，万勿延期。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SALADIN_1</Tag>
+		<English>By the glory of God, I, [OUR_NAME], mightiest of his servants, do request a small donation from you, [CT_NAME]. You would be wise to consider my request carefully.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我，[OUR_NAME]，全知全能的神的忠实仆人，的确需要你们作一点贡献。[CT_NAME]，你们放聪明点，认真考虑一下我们的请求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MONTEZUMA_1</Tag>
+		<English>The [OUR_EMPIRE] requests from you a small donation, [CT_NAME]. Or, if you prefer, we can battle until one of us is destroyed. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_EMPIRE]向你们要一点点赠品。你们[CT_NAME]看着办。或者，如果你们愿意，我们可以打到我们中有一个倒下为止。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CHINESE_LEADER_1</Tag>
+		<English>Would you care to take part in our share-the-wealth program, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们[CT_NAME]愿意费心劳神，加入我们的“财富共享计划”，如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MENES_1</Tag>
+		<English>Furnish [OUR_CIV_SHORT] with these gifts and we will tolerate your existence for a little while longer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>用这些礼物装点我们伟大的[OUR_CIV_SHORT]，我们会考虑再让你们苟延残喘一会儿。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HATSHEPSUT_1</Tag>
+		<English>It is customary for puny mortals to show their devotion by giving their goddess a gift. Or if they prefer they can be cut into small pieces and fed to the royal crocodiles.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对于可怜的凡人来说，为了显示他们对神祗的诚心，都要给众神礼物。或者--如果他们愿意的话--也可以被剁碎喂皇家饲养的鳄鱼。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ELIZABETH_1</Tag>
+		<English>My dear [CT_NAME], [OUR_CIV_SHORT] can make life very difficult indeed for [CT_CIV_SHORT]. Give us what we want or suffer the consequences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>亲爱的[CT_NAME]，[OUR_CIV_SHORT]可以让你们[CT_CIV_SHORT]日子相当不好过。把我们要的交出来，要不然有的你们好看！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_VICTORIA_1</Tag>
+		<English>We have needs, [CT_NAME]. Please comply.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>凡人皆有欲求，[CT_NAME]。请关照。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_NAPOLEON_1</Tag>
+		<English>I'll keep this short: comply with our demands or suffer the consequences. That is all.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我就长话短说了：满足我们的要求或者承担一切后果。完毕。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_BISMARCK_1</Tag>
+		<English>"Blackmail" is such an ugly word, [CT_NAME]. I prefer to call it, "extortion."</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>"敲诈”这个词太不中听，[CT_NAME]。我倒是喜欢用“索取”这个词。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ALEXANDER_1</Tag>
+		<English>Do you choose to cravenly lick our boots and give us what we want, or to stand and fight us in a heroic but doomed last stand?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们是打算像窝囊废一样，拜倒在我们脚下，交出我们要的一切，还是爬起来，英勇但是无谓地战死在我们面前呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HUAYNA_CAPAC_1</Tag>
+		<English>I have sacrificed many foes, [CT_NAME]. Give me what I want or you may be next.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们已经把许多敌人送上了神的祭坛，[CT_NAME]，交出我们要的东西，要不然你们就是下一个祭品。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ASOKA_1</Tag>
+		<English>A small donation would help insure continued frirendship between our two peoples, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，一点小小的捐赠能为我们两族人民的传统友谊加上保险，如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GANDHI_1</Tag>
+		<English>[OUR_CIV_SHORT] requests a small donation from their good friends, the [CT_CIV_ADJ] people. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向友好的[CT_CIV_ADJ]人民要求一点点帮助。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_TOKUGAWA_1</Tag>
+		<English>We are bigger and stronger than you, [CT_NAME]. You must give us tribute, or suffer the consequences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们疆域和军力皆在你们之上，[CT_NAME]。向我们进贡，要不然后果自负。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MANSA_MUSA_1</Tag>
+		<English>My generosity is known the world over, [CT_NAME]. How about yours?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我的慷慨世人皆知，你们[CT_NAME]的呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GENGHIS_KHAN_1</Tag>
+		<English>Give us what we want, [CT_NAME], or 20,000 screaming warriors will come and take it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交出我们想要的，[CT_NAME]，要不然二万振臂高呼的勇士就要暴力夺取了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_KUBLAI_KHAN_1</Tag>
+		<English>You may purchase your continued existence with this, [CT_NAME]. I suggest that you be sensible and do so.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们可以以这些换取你们的继续生存，[CT_NAME]。我建议你们明智一点。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JULIUS_CAESAR_1</Tag>
+		<English>If you wish to ensure [CT_CIV_SHORT]'s continued survival, you would be wise to comply with my demands.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你们想保证[CT_CIV_SHORT]的继续生存，聪明的人都会答应我们的要求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_AUGUSTUS_CAESAR_1</Tag>
+		<English>The [CT_EMPIRE] is strong, [CT_NAME]. But are you sure that it is as strong as Mighty [OUR_CIV_SHORT]? Deny us our tribute and you may have a chance to find out.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_EMPIRE]确实很强大，[CT_NAME]。但是你们确信[CT_CIV_SHORT]有我们[OUR_CIV_SHORT]强大吗？如果拒绝向我们进贡，那就有机会找到答案。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PETER_1</Tag>
+		<English>Hand this over or die.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交出这些或者去死。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CATHERINE_1</Tag>
+		<English>I do so hope that we can remain friends, [CT_NAME]. The world just wouldn't be as much fun with you not in it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我真的希望我们能保持友谊。[CT_NAME]，这个世界少了你就没那么有意思了……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ISABELLA_1</Tag>
+		<English>Mighty [OUR_CIV_SHORT] is leading the battle against evil, godless, heathen, barbarians, [CT_NAME]. It is time to show your appreciation. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]正在领导一场针对邪恶，不信神者，异教徒，野蛮人的战争。现在你们可以显示一下你们的支持。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GILGAMESH_1</Tag>
+		<English>Given the many concessions we have granted you previously, is it not time for you to give Mighty [OUR_CIV_SHORT] something in return?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>想想我们曾经对你们做出的许多让步，难道现在你们不该给予强大的[OUR_CIV_SHORT]一点回报吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_1</Tag>
+		<English>Think well, [CT_NAME]: if you give us tribute, our friendship will continue. If not, we will have to seriously re-evaluate our relationship.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好好想想，[CT_NAME]：如果你向我们进贡，我们的友谊将继续保持；如果不给，我们将不得不认真地重新评估我们的友谊。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_2</Tag>
+		<English>[OUR_CIV_SHORT] demands that you pay her tribute.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]向你们索要她应有的贡品。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_3</Tag>
+		<English>Give us what we want or be destroyed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给予我们想要的，不然就等着被消灭吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_4</Tag>
+		<English>Mighty [OUR_CIV_SHORT] demands that you acknowledge her superiority with a small token of respect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]要求你们明白她的绝对的优越地位，并拿出一点点象征性的东西表示你们的尊敬。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_5</Tag>
+		<English>The superior [OUR_CIV_ADJ] civilization is worthy of tribute. Dispense goods to us, and we'll refrain from sending our [OUR_BEST_UNIT] to crush you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>优越的[OUR_CIV_ADJ]文明应该配得上优越的贡品。向我们支付这些货物，我们就不派[OUR_BEST_UNIT]去踩扁你们。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_6</Tag>
+		<English>Time is short and so too will be the memory of [CT_CIV_SHORT] should you deny me this token of respect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>时间短暂，而关于[CT_CIV_SHORT]的历史更短。如果你们拒绝给我们这件东西，就是对我们的不尊重。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_7</Tag>
+		<English>I wonder if you would consider giving us a small gift, [CT_NAME], in honor of the timeless friendship between Mighty [OUR_CIV_SHORT] and your weak and defenseless people?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我在想你们是不是该考虑给我们一件小礼物，[CT_NAME]，向我们之间的永久友谊致敬？一方是强大的[OUR_CIV_SHORT]，另一方是你们弱小而无力自卫的民族。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_8</Tag>
+		<English>For the sake of your country's continued survival, I suggest that you comply with our demands.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>为了你们国家的继续生存，我建议你们顺从我们的要求。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_FRANKLIN_ROOSEVELT_1</Tag>
+		<English>That certainly is a nice little civilization you have there, [CT_NAME]. It would be unfortunate if something were to happen to it...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这一定是你们小巧玲珑的文明所有的一切，[CT_NAME]。如果有些事发生在你们头上，那真是太不幸了……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WASHINGTON_1</Tag>
+		<English>Don't think of this as a demand for tribute, [CT_NAME]. Think of it as an investment in world peace.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不要把这看成是敲诈勒索。[CT_NAME]，把它看成是对世界和平的投资。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SALADIN_1</Tag>
+		<English>It is only proper that the vassal states provide tribute to their lord and protector. That would be me.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>只有这样才是合理的：你们附属国向主人和保护者进贡。也就是我们。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MONTEZUMA_1</Tag>
+		<English>Your weakness is contemptible, #CT_NAME! Give us what we want or perish!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们[CT_NAME]的软弱实在太可耻了！交出我们想要的，要不然就从者世界上消失！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_QIN_SHI_HUANG_1</Tag>
+		<English>If you wish your pathetic civilization to survive, [CT_NAME], you had better comply with our demands!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你们可怜的[CT_NAME]文明想继续生存，最好顺从我们的意志！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CHINESE_LEADER_1</Tag>
+		<English>For too long have the glorious [CT_CIV_ADJ] workers put up with your contemptible bourgoise insolence! It's time for an immediate redistribution of wealth!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>光荣的[CT_CIV_ADJ]工人们为你们无耻的资产阶级工作太久，任由你们飞扬跋扈太久了！现在我们要求立刻重新分配财富！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MENES_1</Tag>
+		<English>Glorious [OUR_CIV_SHORT] requires from you a token of aubmission. Or would you prefer that we wipe [CT_CIV_SHORT] from the face of the planet?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>辉煌的[OUR_CIV_SHORT]向你们要一点点东西，证实你们已经屈服。不然你们是不是想要我们把你们[CT_CIV_SHORT]从地球上抹掉？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ELIZABETH_1</Tag>
+		<English>Conventional wisdom suggests that you bequeath certain goods to us or be destroyed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>常规的智慧告诉你们赠给我们一定的货品，不然你们就不复存在。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_VICTORIA_1</Tag>
+		<English>Give [OUR_CIV_SHORT] what is due her, [CT_NAME]! We shall not ask a second time.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>偿还[OUR_CIV_SHORT]那些[CT_NAME]应付的东西吧！我们不想再问第二次。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LOUIS_XIV</Tag>
+		<English>The [OUR_CIV_ADJ] Folk have put up with your insults long enough! Pay us the following or suffer the consequences!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_ADJ]民-族承受你们的欺辱已经够久了，接受我们的条件，否则后果自负！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_NAPOLEON_1</Tag>
+		<English>If you wish to delay your destruction, [CT_NAME], give us what we want.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你想延缓你们的毁灭，[CT_NAME]，把我们想要的东西给我。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_BISMARCK_1</Tag>
+		<English>To be honest, raw greed is the only thing stopping us from destroying your puny civilization. Pay us what we want, or perish.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>实话告诉你，满足我们的欲望是停止毁灭你那微不足道的文明的唯一途径。给我们我们所想要的，否则就接受毁灭吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HUAYNA_CAPAC_1</Tag>
+		<English>Foolish [CT_NAME]! Give us what we want and you may live for yet another day!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>愚蠢的[CT_NAME]！满足我们的要求你才可以活得更久。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ASOKA_1</Tag>
+		<English>Mighty [OUR_CIV_SHORT]'s protection comes at a price, [CT_NAME]. You would be wise to pay it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强大的[OUR_CIV_SHORT]的保护是有代价的，[CT_NAME]。聪明的你一定会偿付吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GANDHI_1</Tag>
+		<English>I believe in peace at any price, [CT_NAME]. This is your price.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>无论如何我也相信和平，[CT_NAME]。这是你应付的价格。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_TOKUGAWA_1</Tag>
+		<English>Do not let foolish pride cause the downfall of your people, [CT_NAME]. Pay us what we want - or be destroyed!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>别让你的人民因为你愚蠢的自尊心而毁灭，[CT_NAME]。满足我们的要求或者接受毁灭吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MANSA_MUSA_1</Tag>
+		<English>Time is short and so too will be the memory of [CT_CIV_SHORT] should you deny me this token of respect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>时间短暂，而关于[CT_CIV_SHORT]的历史更短，给我们这些象征敬意的东西你不会拒绝把。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GENGHIS_KHAN_1</Tag>
+		<English>When you find a hungry tiger at your door, commen sense says that you feed him.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你家门口有只饿虎，常识告诉你你只得喂饱它。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_KUBLAI_KHAN_1</Tag>
+		<English>[OUR_CIV_SHORT] requires tribute from inferior cultures such as yours. Comply or be destroyed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_SHORT]希望从那你们低劣的文明获得贡品，你可以选择顺从或是毁灭。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JULIUS_CAESAR_1</Tag>
+		<English>Acceed to our demands or face us in battle. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>满足我们的要求，否则我们将在战场会面。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_AUGUSTUS_CAESAR_1</Tag>
+		<English>Resistance is futile! Comply with our demands or face destruction!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抵抗是没用的！满足我们，否则接受灭亡吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PETER_1</Tag>
+		<English>Ah, [CT_NAME]. I have an excellent deal to offer you: give us what we want, and we will not crush you. Does that not sound fair?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>啊，[CT_NAME]。我有个不错的主意，给我我们所想要的，然后我们不摧毁你。这听起来很公平吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CATHERINE_1</Tag>
+		<English>Some enjoy licking our boots, [CT_NAME]. How about you give it a try?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不少人愿意舔我的靴子，[CT_NAME]，你想试试么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GILGAMESH_1</Tag>
+		<English>Your ruination is at hand, [CT_NAME]! Your only chance of survival is to give mighty [OUR_CIV_SHORT] what she wants!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>毁灭你易如反掌，[CT_NAME]！你唯一的求生机会就是满足强大的[OUR_CIV_SHORT]所有她想要的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_1</Tag>
+		<English>Very well. I hope that you won't come to regret this decision, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，我希望你不要对这个决定感到遗憾，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_2</Tag>
+		<English>In the future you'd best remember who your friends are, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将来你最好牢记你的朋友是谁，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_3</Tag>
+		<English>Once again you disappoint me, [CT_NAME]. You'd be advised to see that it doesn't happen again.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你再一次令我失望了，[CT_NAME]。你最好记得不要让这种事再次发生。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_4</Tag>
+		<English>Well that's not very nice, if you ask me.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，如果你问我的话，我告诉你这并不是很好。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_5</Tag>
+		<English>Curses: foiled again!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>可恶，又失败了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_WEAKER_6</Tag>
+		<English>You are arrogant, [CT_NAME]. Some day it will lead to your destruction. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你太傲慢了，[CT_NAME]。有一天它会令你毁灭。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_1</Tag>
+		<English>Foolish stubborness will lead to your destruction, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你那愚蠢的顽固会使你遭受毁灭，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_2</Tag>
+		<English>Very well. On your head be it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，你将承担一切后果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_3</Tag>
+		<English>I don't think you realize just who you're dealing with, [CT_NAME]. I suggest you reconsider, and quickly!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我想你并没有意识到你正在和谁谈判，[CT_NAME]。我建议你快些重新考虑下。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_4</Tag>
+		<English>You gamble with the lives of your people, [CT_NAME]. Are you ready to pay the price if you lose?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你正在用你的人民赌博，[CT_NAME]。你准备好你失败后所需支付的代价了么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_5</Tag>
+		<English>Fine. Next time I won't ask so nicely!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧。下次我不会那么礼貌的跟你说话！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_EQUAL_6</Tag>
+		<English>You're playing with fire, [CT_NAME]. See that you don't get burned.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]，你正在玩火。有一天你会烧到自己的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_1</Tag>
+		<English>You'll regret this, you wretched creature!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你会后悔的，你这肮脏的动物！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_2</Tag>
+		<English>You test my patience, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的考验我的耐性，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_3</Tag>
+		<English>Very well. I suggest that you start cranking out those soldiers, [CT_NAME]. You'll have need of them shortly.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好。我建议你可以开始训练你的军队了，[CT_NAME]。很快你就会用到他们。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_4</Tag>
+		<English>You should think more carefully before you anger your betters, [CT_NAME], for it can lead to bitter consequences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在触怒你的长辈前你应该认真考虑你的处境，[CT_NAME]，那会带来很严重的后果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_5</Tag>
+		<English>Fool! Don't you know that I could crush you like a grape?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>傻瓜！你不知道我毁灭你就像捏碎一棵葡萄那样容易么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_POWER_STRONGER_6</Tag>
+		<English>How dare you deny my extremely reasonable request! You'll regret this, I promise!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你真有勇气，居然敢拒绝我如此合理的要求！有一天你会为此后悔的，我保证。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_WEAKER_1</Tag>
+		<English>The bonds between our civilizations would be greatly strengthened if you converted to [OUR_STATE_RELIGION].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你皈依[OUR_STATE_RELIGION]，我们两个文明的纽带会大大加强。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_WEAKER_2</Tag>
+		<English>Isn't it about time that you abandoned your foolish beliefs and converted to [OUR_STATE_RELIGION], [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这不正是你们放弃那愚蠢的信仰皈依[OUR_STATE_RELIGION]的好时机么？[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_WEAKER_3</Tag>
+		<English>You should consider converting to [OUR_STATE_RELIGION], [CT_NAME]. It is the one true path to salvation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你们应该考虑皈依[OUR_STATE_RELIGION]，[CT_NAME]，这是获得拯救的真正途径。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_EQUAL_1</Tag>
+		<English>I urge you to convert to [OUR_STATE_RELIGION], [CT_NAME]. Religious wars can be so unpleasant...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我迫切要求你们皈依[OUR_STATE_RELIGION]，[CT_NAME]，宗教战争是多么的不明智……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_EQUAL_2</Tag>
+		<English>Our gods can beat your gods any day of the week, [CT_NAME]. Convert to [OUR_STATE_RELIGION] before it's too late!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们的神可以在一星期的任何一天击败你们的神，[CT_NAME]，皈依[OUR_STATE_RELIGION]吧，现在还不太晚。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_EQUAL_3</Tag>
+		<English>[OUR_STATE_RELIGION] is mighty, [CT_NAME]. Convert now, before the heavens rain their displeasure upon you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_STATE_RELIGION]很强大，[CT_NAME]。现在就皈依它吧，在上天把他的惩罚降临到你们头上之前。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_STRONGER_1</Tag>
+		<English>The heavens demand that you join [OUR_STATE_RELIGION] immediately. Consider your answer carefully!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>上天要求你们立刻加入[OUR_STATE_RELIGION]。好好考虑你的回答！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_STRONGER_2</Tag>
+		<English>Abandon your heathenish ways and join [OUR_STATE_RELIGION], [CT_NAME]. Your people's survival depends on it!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>放弃你们的异教思想加入[OUR_STATE_RELIGION]吧，[CT_NAME]。你的人民会因此获得拯救。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_PRESSURE_STRONGER_3</Tag>
+		<English>Discard your false religion and embrace [OUR_STATE_RELIGION], [CT_NAME]. If you wish to survive...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>放弃你们错误的信仰投入[OUR_STATE_RELIGION]的怀抱吧，[CT_NAME]。如果你想生存下去的话。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_WEAKER_1</Tag>
+		<English>Very well. We know that this can be a sensitive matter.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，我们知道这可能会是件敏感的事。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_WEAKER_2</Tag>
+		<English>As you wish. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>随你的便好了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_WEAKER_3</Tag>
+		<English>We shall speak of this again at a later time.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>下一次我们再谈吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_EQUAL_1</Tag>
+		<English>On your own head be it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你将承担一切后果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_EQUAL_2</Tag>
+		<English>You disappoint me. And you disappoint the heavens. Foolish.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你令我失望了。你也将令上天失望。傻瓜。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_EQUAL_3</Tag>
+		<English>Very well. But remember, [CT_NAME], The wages of sin are death. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好，但是[CT_NAME]请记住，犯罪的代价将是死亡。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_STRONGER_1</Tag>
+		<English>So be it. I pray that your people do not suffer overmuch for your folly.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>就这样吧。我祈祷你的人民不会为你的愚蠢付出太多。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_STRONGER_2</Tag>
+		<English>You mock the heavens at your peril, [CT_NAME]! I can but hope that you will see wisdom before it is too late.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你小子完了，[CT_NAME]！我希望你在一切都太迟之前长点脑子。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RELIGION_DENIED_STRONGER_3</Tag>
+		<English>I fear that your blasphemy will not go unpunished, [CT_NAME]. I'd invest in a lot of lightning rods if I were you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我恐怕你的亵渎将受惩罚，[CT_NAME]。我要是你，就多买点避雷针先。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_1</Tag>
+		<English>Please join us by adopting %s1.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>来加入我们，推行%s1法令吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_2</Tag>
+		<English>All the cool civs are adopting %s1, [CT_NAME]. How about you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>所有与时俱进的文明都在推行%s1法令，[CT_NAME]。你呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_3</Tag>
+		<English>Have you considered adopting %s1? it will bring our two civilizations even closer together.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你有没有考虑推行%s1法令？那会使我们更亲近的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_4</Tag>
+		<English>I urge you to adopt %s1, [CT_NAME]. Your civilization will be the better for it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我要求你推行%s1法令，[CT_NAME]。这对你的文明很有好处。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_5</Tag>
+		<English>%s1 is extremely useful, [CT_NAME]. [CT_CIV_SHORT] would do well to adopt it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1法令非常有利，[CT_NAME]。[CT_CIV_SHORT]很应该推行之。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_PRESSURE_16</Tag>
+		<English>Adopt %s1 - before it's too late!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>推行%s1法令吧——在太迟之前！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_1</Tag>
+		<English>As you will.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如你所愿。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_2</Tag>
+		<English>I suppose you know best. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我认为你知道好坏。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_3</Tag>
+		<English>On your head be it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你罪有应得。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_4</Tag>
+		<English>Really? How foolish.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>是吗？蠢死了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_5</Tag>
+		<English>That's not very intelligent of you, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你这样不太明智哦，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_CIVIC_DENIED_6</Tag>
+		<English>Nobody ever listens to me.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>从没有人听我的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_1</Tag>
+		<English>The %s1 are a threat to us all. Please join us in wiping them out.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1威胁到了我们所有的人。请加入消灭他们的行列。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_2</Tag>
+		<English>Care to assist us in destroying the evil %s1?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>要不要帮助我们摧毁邪恶的%s1？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_3</Tag>
+		<English>Greetings, [CT_NAME]. The annoying %s1 must be destroyed, don't you agree?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你好，[CT_NAME]。烦死人的%s1必须被消灭，你同意吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_4</Tag>
+		<English>[CT_NAME]: we urgently request mighty [CT_CIV_SHORT]'s assistance in our crusade against the %s1!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[CT_NAME]：我们急切地邀请强大的[CT_CIV_SHORT]协助我们讨伐%s1！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_5</Tag>
+		<English>The treacherous %s1 must be punished for their offences against civilization, [CT_NAME]! I assume we can count on your assistance?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>背信弃义的%s1必须为他们犯下的反文明罪受到惩罚，[CT_NAME]！我想我们能够指望你的吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_6</Tag>
+		<English>The nasty %s1 are plotting against us all, [CT_NAME]! Let us destroy them together!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>下流的%s1想要反对我们所有的人，[CT_NAME]！我们一起干掉他们吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_1</Tag>
+		<English>You should choose your sides carefully.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你应该小心地选择站在哪一边。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_2</Tag>
+		<English>Very well. That just means more plunder for us!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>很好。这意味着我方就有更多的战利品了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_3</Tag>
+		<English>Really? I had no idea you were so timid!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>是吗？我不知道你这么胆小！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_4</Tag>
+		<English>How very disappointing.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>太令人失望了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_5</Tag>
+		<English>I hope you know what you're doing, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我希望你明白你在干什么，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_6</Tag>
+		<English>We shall remember this, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们会记着的，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_STOP_TRADING_1</Tag>
+		<English>It can no longer be tolerated - we demand that you cancel your deals with the vile %s1!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>已经忍无可忍了——我们要求你停止与坏透了的%s1交易！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_STOP_DENIED_1</Tag>
+		<English>We won't take this lightly, [CT_NAME]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们不会轻易忘记这件事的，[CT_NAME]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_UNIT_BRAG_1</Tag>
+		<English>Fear my [OUR_BEST_UNIT]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>等着我的[OUR_BEST_UNIT]吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_UNIT_BRAG_2</Tag>
+		<English>Soon my numberless [OUR_BEST_UNIT] shall destroy you all!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不久，我会有无数的[OUR_BEST_UNIT]过来扁你！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_UNIT_BRAG_3</Tag>
+		<English>Now I have a [OUR_BEST_UNIT]. Ho-Ho-Ho.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我现在有[OUR_BEST_UNIT]了。哈-哈-哈。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_UNIT_BRAG_4</Tag>
+		<English>Oh look: I've just built a [OUR_BEST_UNIT]. Now where shall I put it?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>看哪：我刚造的[OUR_BEST_UNIT]。我该放哪呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_UNIT_BRAG_5</Tag>
+		<English>Cower before the might of my [OUR_BEST_UNIT]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在我的[OUR_BEST_UNIT]面前胆怯吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NUKES_1</Tag>
+		<English>Beware, our words are backed by nuclear weapons!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>小心，我身后可有原子弹在撑腰呢！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_1</Tag>
+		<English>Watch out for our worst enemy - [OUR_WORST_ENEMY]! They can't be trusted.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当心我们最坏的敌人——[OUR_WORST_ENEMY]！他们不可信。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WORST_ENEMY_TRADING_1</Tag>
+		<English>We would encourage you to stop trading with our bitter enemy - [OUR_WORST_ENEMY]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们建议你停止与我们的敌人交易——[OUR_WORST_ENEMY]！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_SOMETHING_ELSE_1</Tag>
+		<English>What else would you like to discuss?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你还想讨论什么呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RESEARCH_1</Tag>
+		<English>What would you like us to research?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你想让我们研究什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_RESEARCH_TECH_1</Tag>
+		<English>We'll switch right away!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们马上改！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_1</Tag>
+		<English>Yes?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TARGET_1</Tag>
+		<English>Where should we attack?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们打哪里？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_TARGET_CITY_1</Tag>
+		<English>We'll do our best!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们会努力的！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_WELL_1</Tag>
+		<English>Well?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_WAR_RESPONSE_1</Tag>
+		<English>So be it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>就这么办。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_PEACE_1</Tag>
+		<English>There shall be peace in our time!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们和平相处吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_WAR_1</Tag>
+		<English>Your head would look good on the end of a pole. (WAR)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>把你的头挑在竿子上一定会很好看。（开战）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_PROPOSE_1</Tag>
+		<English>Would you accept this deal?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你接受吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ACCEPT_1</Tag>
+		<English>We accept your offer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们接受了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REJECT_1</Tag>
+		<English>Sorry, we cannot accept such a deal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抱歉，我们不会接受这个的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_OFFER_1</Tag>
+		<English>What do you want for this?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你要什么来交换这些？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_GIFT_1</Tag>
+		<English>Please, accept this gift.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>请接受这件礼物。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NEVERMIND_1</Tag>
+		<English>Never mind...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>没关系……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_PROPOSAL_1</Tag>
+		<English>We would like to make a trade proposal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们希望进行一笔交易。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_COMPLETE_DEAL_1</Tag>
+		<English>What would make this deal work?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>怎么样才能达成这交易呢？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_FISH_FOR_DEAL_1</Tag>
+		<English>What will you give me for this?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对于这些，你能和我换什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_SUGGEST_PEACE_1</Tag>
+		<English>Lets stop this pointless fighting and declare peace!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们停止这无意义的战斗，恢复和平！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_OFFER_PEACE_1</Tag>
+		<English>Let us bury the hatchet. What is the price for peace?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让我们铸剑为犁。换取和平的代价是什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_CURRENT_DEALS_1</Tag>
+		<English>What are the current deals we have together?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们目前签订有哪些协议？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ASK_1</Tag>
+		<English>Could you spare this for a good friend?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你能将这些赠给一个好朋友吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_DEMAND_1</Tag>
+		<English>We demand that you give this to us in tribute.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们要求你向我们进贡这些。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_DEMAND_TEAM_1</Tag>
+		<English>This sure would come in handy...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这肯定得心应手……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ACCEPT_OFFER_1</Tag>
+		<English>Sounds like a deal!!!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>看来是笔好交易！！！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REJECT_OFFER_1</Tag>
+		<English>It ain't happening.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>那不会发生的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_RENEGOTIATE_1</Tag>
+		<English>Care to negotiate?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们来谈判吧？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NO_RENEGOTIATE_1</Tag>
+		<English>Fair enough. (exit)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>够公平了。（结束）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_GIVE_HELP_1</Tag>
+		<English>Sure! We're always glad to help!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当然！我们一直乐于助人！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REFUSE_HELP_1</Tag>
+		<English>Sorry, but it's no rose garden over here either.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对不起，但是这里也没有玫瑰花园。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ACCEPT_DEMAND_1</Tag>
+		<English>Well, if you insist...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好吧，既然你坚持……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REJECT_DEMAND_1</Tag>
+		<English>We reject your empty threats!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们拒绝你空洞的威胁！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_CONVERT_1</Tag>
+		<English>I agree. We will convert to [OUR_STATE_RELIGION] immediately. (Convert Religion)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我同意。我们将立刻改信[OUR_STATE_RELIGION]。（转变信仰）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NO_CONVERT_1</Tag>
+		<English>Our people will never give up their beliefs.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们的人民永远不会放弃他们的信仰。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REVOLUTION_1</Tag>
+		<English>But of course... we now see the error of our ways. (Start Revolution)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>但是当然……我们发现走错路了。（发动革命）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NO_REVOLUTION_1</Tag>
+		<English>You must learn to respect our differences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你应该求同存异。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_JOIN_WAR_1</Tag>
+		<English>Let's get this war started! (Declare War)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>好，打仗了！（宣战）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NO_JOIN_WAR_1</Tag>
+		<English>Sorry, but we cannot afford a war right now.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对不起，但我们现在实在没法打仗。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_STOP_TRADING_1</Tag>
+		<English>You're right, we can't stand them either! (Cancel Deals)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你是对的，我们不能这样了！（取消交易）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_NO_STOP_TRADING_1</Tag>
+		<English>Sorry, but we just can't turn our back on them.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>抱歉，我们不会背弃他们的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_SOMETHING_ELSE_1</Tag>
+		<English>Let's discuss something else...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们谈点别的吧……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_RESEARCH_1</Tag>
+		<English>We would like you to research...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们想让你研究……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_RESEARCH_TECH_1</Tag>
+		<English>%s1...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ATTITUDE_1</Tag>
+		<English>What do you think of...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你怎么看……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_ATTITUDE_PLAYER_1</Tag>
+		<English>%s1...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_TARGET_1</Tag>
+		<English>Why don't you attack...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你何不进攻……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_TARGET_CITY_1</Tag>
+		<English>%s1...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_EXIT_1</Tag>
+		<English>Farewell ... (Exit)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>再见……（结束）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_1</Tag>
+		<English>%s1 is a scourge on our world! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是我们这个世界苦难的根源！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_2</Tag>
+		<English>%s1 is a snake in the grass! Do not trust [NUM1:him:her:x:x]! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是草丛里的蛇！别相信[NUM1:他:她:x:x]！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_3</Tag>
+		<English>I neither like nor trust %s1. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不喜欢也不信任%s1。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_4</Tag>
+		<English>A despicable villain! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>此人是个卑鄙的恶棍！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_5</Tag>
+		<English>%s1 is a deceitful cretin! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个狡诈的白痴！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_6</Tag>
+		<English>%s1 is dead to me! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1就是个死人！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_7</Tag>
+		<English>%s1 is a very bad person. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个大坏蛋。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_8</Tag>
+		<English>%s1? A treacherous cowardly baboon. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1？一个背信弃义的懦夫。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_9</Tag>
+		<English>%s1 is not worth a bucket of owl spit. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个狗屁不值的家伙。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_10</Tag>
+		<English>%s1 is evil through and through! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是彻头彻尾的恶棍！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_11</Tag>
+		<English>%s1 is a dirty, rotten scoundrel! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个肮脏堕落的无赖！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_12</Tag>
+		<English>%s1 is a nasty piece of work, if you want my opinion! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个下流东西，这就是我的看法！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_13</Tag>
+		<English>Not to be trusted at all. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>此人完全不可信赖。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_14</Tag>
+		<English>Do not mention that creature's name in my presence! (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>别在我面前提那个畜牲的名字！（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FURIOUS_15</Tag>
+		<English>%s1 is a rat fink. (Furious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是只猪猡。（狂怒的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_1</Tag>
+		<English>We're becoming increasingly frustrated with %s1's behavior! (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们对%s1的行为感到日益不满！（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_2</Tag>
+		<English>%s1 is an extremely annoying person. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1真是个极其讨厌的家伙。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_3</Tag>
+		<English>%s1 tries my patience. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1在考验我的忍耐力。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_4</Tag>
+		<English>I don't like %s1 much, to be honest. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不怎么喜欢%s1，说实话。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_5</Tag>
+		<English>%s1 is more trouble than [NUM1:he:she:x:x] is worth. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1？[NUM1:他:她:x:x]这个人成事不足败事有余。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_6</Tag>
+		<English>I think that the world would be better off without %s1. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我认为这个世界没有%s1将更美好。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_7</Tag>
+		<English>I don't think much of %s1 at all. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我根本不在乎%s1。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_8</Tag>
+		<English>%s1 is no better than [NUM1:he:she:x:x] should be. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1没有[NUM1:他:她:x:x]应有的样子。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_9</Tag>
+		<English>A worthless windbag, in my opinion. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>一个无用的饶舌者，这就是我的看法。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_10</Tag>
+		<English>%s1 is a pain in the butt. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1的屁股痒了。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_11</Tag>
+		<English>%s1 is a useless waste of space, as far as I'm concerned. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1真是浪费空间啊，这是我说的。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_12</Tag>
+		<English>I hardly trust %s1 at all. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我一点也不相信%s1。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_13</Tag>
+		<English>%s1 is a petty criminal masquerading as a world leader. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个卑鄙的罪犯，却装成世界领袖的样子。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_14</Tag>
+		<English>A cheap, jumped-up little weasel. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这人是个廉价的暴发小混蛋。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_ANNOYED_15</Tag>
+		<English>%s1 is a pain in the neck, to be honest. (Annoyed)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1的脖子需要拉一刀，实话实说。（不悦的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_1</Tag>
+		<English>We're not quite sure yet what to think of %s1. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们还不怎么确定该如何看待%s1。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_2</Tag>
+		<English>%s1 is all right, I suppose. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我认为%s1还不错。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_3</Tag>
+		<English>%s1 has [NUM1:his:her:x:x] uses. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1有[NUM1:他:她:x:x]的用处。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_4</Tag>
+		<English>I have no problems with %s1. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我和%s1没什么过节。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_5</Tag>
+		<English>%s1 is all right, I guess. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我猜%s1还不错。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_6</Tag>
+		<English>I'm not too sure about %s1, to be honest. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>说实话，我对%s1不太确定。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_7</Tag>
+		<English>%s1 is all right as long as you keep an eye on [NUM1:him:her:x:x]. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你谨慎对待%s1的话，[NUM1:他:她:x:x]还不错。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_8</Tag>
+		<English>We trust %s1. Sometimes. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们信任%s1，有时。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_9</Tag>
+		<English>I'm not sure what to think of %s1. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不知道该怎么看%s1。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_10</Tag>
+		<English>I'm adopting a "wait and see" attitude on %s1. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我对%s1采取“等着瞧”的态度。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_11</Tag>
+		<English>I haven't made up my mind yet. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我还没打定主意。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_12</Tag>
+		<English>I have the feeling that %s1 is up to something, but I can't prove it yet. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我感觉%s1和某些事有牵连，但我还没证实。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_13</Tag>
+		<English>%s1? Who knows? (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1？谁知道?（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_14</Tag>
+		<English>I don't know what to think of %s1, to be totally honest. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>说实话，我不知道该怎么评价%s1，真的。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_CAUTIOUS_15</Tag>
+		<English>Reply hazy. Ask again later. (Cautious)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>不太清楚。日后再说。（谨慎的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_1</Tag>
+		<English>We get along with %s1 quite well. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们与%s1处得很好。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_2</Tag>
+		<English>%s1 is a friend of ours. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是我们的朋友。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_3</Tag>
+		<English>No complaints here! (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我没有任何可抱怨的！（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_4</Tag>
+		<English>%s1? A good person to have at your back. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1？是你的坚强后盾。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_5</Tag>
+		<English>%s1 has done all right by us. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1对我们真的很好。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_6</Tag>
+		<English>%s1? I like [NUM1:him:her:x:x]. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1？我喜欢[NUM1:他:她:x:x]。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_7</Tag>
+		<English>%s1 is better than most. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1比大多数人都好。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_8</Tag>
+		<English>%s1 is all right in my book. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在我印象里%s1很好。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_9</Tag>
+		<English>%s1 is a fine ruler and a credit to [NUM1:his:her:x:x] people! (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个不错的统治者，深受[NUM1:他:她:x:x]的人民信任！（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_10</Tag>
+		<English>We get along fine with %s1. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们与%s1处得不错。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_11</Tag>
+		<English>%s1 is all right. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1很不错。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_12</Tag>
+		<English>I have no problems with %s1.(Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我觉得%s1很好。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_13</Tag>
+		<English>%s1 has treated us well. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1待我们不薄。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_14</Tag>
+		<English>I like %s1. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我喜欢%s1。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_PLEASED_15</Tag>
+		<English>We get along just fine. (Pleased)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们合作得不错。（热情的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_1</Tag>
+		<English>%s1 is a close, trusted friend. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是一个亲近的，值得信赖的朋友。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_2</Tag>
+		<English>I'd trust %s1 with my life! (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我敢把自己的性命交给%s1！（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_3</Tag>
+		<English>A friend indeed. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>的确是真诚的朋友。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_4</Tag>
+		<English>%s1 is a true friend. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是真正的朋友。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_5</Tag>
+		<English>%s1 is da bomb! (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是我的密友！（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_6</Tag>
+		<English>%s1 has been a faithful friend to us. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是个忠实的朋友。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_7</Tag>
+		<English>%s1 is an old crony of ours. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1和我是老相好啦。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_8</Tag>
+		<English>%s1 is a faithful friend and boon companion. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1是忠实的朋友和战友。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_9</Tag>
+		<English>I like and trust %s1 completely! (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我喜欢%s1，完全信任他！（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_10</Tag>
+		<English>A better friend would be hard to find. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>再难找到更好的朋友了。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_11</Tag>
+		<English>%s1 has many admirable traits. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1有许多值得赞扬的优点。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_12</Tag>
+		<English>%s1 is a leader of quality. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1的确是一个好领导。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_13</Tag>
+		<English>We're old buddies, %s1 and I. (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1和我是老朋友了。（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_14</Tag>
+		<English>%s1 hasn't let us down yet! (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>%s1从没让我们失望过！（亲密的）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_ATTITUDE_PLAYER_FRIENDLY_15</Tag>
+		<English>They don't come any better than %s1! (Friendly)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>没人比得过%s1！（亲密的）</Chinese>
+	</TEXT>
+</Civ4GameText>

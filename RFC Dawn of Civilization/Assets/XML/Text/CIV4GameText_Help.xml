@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text Help -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_SETTLER_HELP</Tag>
+		<English>The easiest difficulty level and a great way to start your very first game or when you want to try a new strategy.  As a Settler leader, you will notice that: barbarians and wild animals are less aggressive, your citizens stay happy and healthy longer, and there are many production bonuses to help you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是最简单级难度，也是上手游戏的好选择，直到你打算换个新的策略。作为一个平民级的领导人，你可能会注意到：蛮族和野兽具有比较小的侵略性，你的市民们保持快乐和健康的时间更长，还有许多额外生产点数可以帮助你.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_CHIEFTAIN_HELP</Tag>
+		<English>A relatively easy difficulty level - good for when you want to try a new strategy.  Barbarians and wild animals are stronger and more aggressive and you don't get as many bonuses.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>较简单级难度——当你准备好挑战新的难度的时候这个级别值得一试。 蛮族和野兽侵略性稍微强了些，你也没有那么多奖励点。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_WARLORD_HELP</Tag>
+		<English>Warlords have a slightly tougher time of it.  Your opponents are less forgiving and more aggressive - watch your back!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>军阀级难度要更难对付些。你的对手们更难讨好，侵略性也更强——小心你背后哦!</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_NOBLE_HELP</Tag>
+		<English>Nobles need to balance their many responsibilities so this is the most balanced level.  Civ veterans will find this level to be a great place to start.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>贵族级别的难度需要平衡好许多的职责，这个难度级别是最平衡的级别了。文明的老手玩家们会发现这个级别是最好的上手级别。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_PRINCE_HELP</Tag>
+		<English>As a Prince you will need to truly prove you are of royal stock.  The AI can produce and research slightly faster than you so you will have to play a much better game to be victorious.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>作为一个亲王级玩家，你需要证明你具有真正的王室血统。电脑的生产和研发速度会比你稍快，因此你需要表现得更出色才能赢得游戏。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_MONARCH_HELP</Tag>
+		<English>For Monarchs, the challenges definitely start to ramp up on this level.  Upkeep is higher, research is slower, your people are harder to please, and your computer opponents are just plain smarter.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>国王级，挑战难度从此开始急剧增加了。维修费更高了，研发也更慢了，你的人民也更难取悦，你的电脑对手们显然更加聪明了。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_EMPEROR_HELP</Tag>
+		<English>Are you ready to be an Emperor?  If so, you will need to prove your mettle by overcoming opponents that are both fast and aggressive while dealing with a population that is harder to motivate and please. This is a true test for Civ experts.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你准备好做个皇帝了？如果是这样的话，你需要战胜发展比你快而且更具侵略性的对手，同时还要面对难以取悦和满足的民众。这个级别真的是对文明专家级玩家们的考验。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_IMMORTAL_HELP</Tag>
+		<English>Only a few can claim memberships among the ranks of the Immortals.  This is a bruising test for all but the most experienced.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>只有少数中的少数玩家有资格宣称自己能跻身圣人级的玩家。这个级别对于除了那些最有经验的玩家之外的任何人都是一场痛苦。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_DIETY_HELP</Tag>
+		<English>The ultimate test for only the best Civ players. Can it be beat?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最终级的考验是为最终级的玩家准备的。这个难度可能被征服吗？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_DUEL_HELP</Tag>
+		<English>A very tiny map with only one opponent.  This is tougher than it sounds because you will have to work extra hard at research without the benefit of multiple trading partners.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>最小的地图只有一个对手。这其实比听上去更难。因为这需要你更努力地研发科技，这是因为不能从多边的交易中获得好处。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_TINY_HELP</Tag>
+		<English>A very small map with two opponents.  Expect to find other Civs rather quickly and for Conquest games to go more quickly.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>较小的地图有两个对手。最好快速找到其他的文明。对于征服对手的玩法可能会很快。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_SMALL_HELP</Tag>
+		<English>A slightly larger map sized to have 4 opponents for you.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>稍大的地图有4个对手。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_STANDARD_HELP</Tag>
+		<English>This map size is the default choice and is designed to have 7 total Civs.  There's a lot of opportunity for exploration but you shouldn't feel alone for very long.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个地图默认共有7个文明。你有许多探险的机会，不过你很快会发现你不孤独。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_LARGE_HELP</Tag>
+		<English>For people who want to have some extra room to spread out and explore.  This map size will support 9 Civs comfortably.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>对那些想要额外的空间扩张和探险的人来说，有9个文明的地图尺寸是更舒服的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_HUGE_HELP</Tag>
+		<English>If you are looking for a truly epic experience, this map size is for you.  It has room for you and 10 opponents.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你想要一次真正史诗级的经验，这个地图尺寸适合你，它能让你拥有10个对手</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEALEVEL_LOW_HELP</Tag>
+		<English>When the sea level is low, large continents will appear on the map.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当海平面较低时，星球上会布满大陆.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEALEVEL_MEDIUM_HELP</Tag>
+		<English>This is the default setting with the normal mix of land and water.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是默认的正常的陆地和水面的比值。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEALEVEL_HIGH_HELP</Tag>
+		<English>You will need a strong Navy when playing with high seas and lots of islands.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当你玩拥有很大比例海洋和众多岛屿的地图时，你需要强大的海军.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATE_TEMPERATE_HELP</Tag>
+		<English>This is the default Climate.  Everything is balanced exactly as designed for the world type chosen.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是默认气候。一切均按选择的世界进行了准确的平衡。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATE_TROPICAL_HELP</Tag>
+		<English>This climate is warmer and wetter so expect to see a lot more jungle.  Your workers will have their hands full but there is rich soil underneath.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个气候更温暖更湿润，所以可能会有更多的丛林。你的工人可能要在这张地图花费更多的时间，但丛林覆盖的土地是非常肥沃的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATE_ARID_HELP</Tag>
+		<English>A warm and dry climate means you will have to contend with more deserts.  You will want to settle along rivers and take advantage of the flood plains.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>温暖而干燥的气候意味着你将会面对更多的沙漠。你会觉得定居在河边，利用冲积平原是个好主意。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATE_ROCKY_HELP</Tag>
+		<English>You will find many more hills and mountains when you choose this climate.  That means growth may be tougher but there should be no shortage of mineral resources.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个气候条件下你会发现更多的山脉和丘陵。这意味着发展可能更困难，但你绝不会缺少矿产资源。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATE_COLD_HELP</Tag>
+		<English>Expect to find an excess of tundra in this climate type.  </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这种气候下你会见到大量的冻土地带。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_EPIC_HELP</Tag>
+		<English>Experience the full sweep of time when you choose this speed.  The game is balanced to take longer but still feel like a normal game.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>当选择了这个速度你会体验到较慢的游戏速度。游戏可能需要较多时间，但平衡性仍然像个正常的游戏。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_NORMAL_HELP</Tag>
+		<English>This is the traditional game speed for Civ.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是文明游戏的传统游戏速度。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMESPEED_QUICK_HELP</Tag>
+		<English>Choose this for a game where everything happens a bit quicker.  The game will be faster but is balanced to still feel like a normal game.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>选择这个速度，一切发生得会更快些。游戏速度快了些但游戏的平衡性仍然是正常的.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_BUILD_HELP</Tag>
+		<English>Automate all [COLOR_UNIT_TEXT]Worker[COLOR_REVERT] actions. The unit will continue working until you cancel its automation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>所有[COLOR_UNIT_TEXT]工人[COLOR_REVERT]全部自动工作。单位将持续工作直到你取消自动指令。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_NETWORK_HELP</Tag>
+		<English>The unit will create a trade network connecting all your cities and resources. It will continue working until you cancel its automation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位会将你的所有城市和资源都连入贸易网络，直到你取消自动指令.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_CITY_HELP</Tag>
+		<English>The unit will improve its closest city only. It will continue working until you cancel its automation.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位将只升级最近的城市，直到你取消指令。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_AUTOMATE_EXPLORE_HELP</Tag>
+		<English>This order tells the unit to explore the uncharted regions on the map. The unit will continue to move until it has run out of places to explore.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个指令会让你的单位自动探索地图上未知的区域。单位将持续移动直到走出探索的区域.</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_CENTER_SELECTION_HELP</Tag>
+		<English>Centers camera on the selected unit.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>以选择单位为视野中心。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_NEXT_CITY_HELP</Tag>
+		<English>Cycle to the next city screen.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>前进至下一城市视窗。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_PREVIOUS_CITY_HELP</Tag>
+		<English>Cycle to previous city screen.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>后退至上一城市视窗。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_NEXT_PLOT_UNIT_HELP</Tag>
+		<English>Cycle unit selection to the next unit on the plot.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>前进至地图上的下一个单位。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_PREVIOUS_PLOT_UNIT_HELP</Tag>
+		<English>Cycle unit selection to the previous unit on the plot.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>后退至地图上的下一个单位。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_CYCLES_UNIT_HELP</Tag>
+		<English>Cycle unit selection to one that still needs to perform an action this turn.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>前进至这回合还可以行动的单位。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_CYCLE_UNIT_ALT_HELP</Tag>
+		<English>Cycle unit selection to one that still needs to perform an action this turn.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>前进至这回合还可以行动的单位。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_WORKERS_HELP</Tag>
+		<English>Cycle unit selection to a worker that still needs to perform an action this turn.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>前进至这回合还可以行动的工人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_ENDTURN_HELP</Tag>
+		<English>End your turn</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>结束你的回合</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_ENDTURN_ALT_HELP</Tag>
+		<English>End your turn</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>结束你的回合</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_FORCE_ENDTURN_HELP</Tag>
+		<English>Forces the turn to end even though units may still need to receive orders</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强制结束回合，即使仍有命令未执行。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_AUTOMOVES_HELP</Tag>
+		<English>Forces all units with queued actions to make their moves</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>强制所有单位按顺序执行行动。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_RELIGION_SCREEN_HELP</Tag>
+		<English>Display the Religion Screen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>显示宗教窗口</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_CIVICS_SCREEN_HELP</Tag>
+		<English>Display the Civics Screen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>显示政体窗口</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_PING_HELP</Tag>
+		<English>Ping a plot to bring it to the attention of your team mates</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>标定一个地块，提醒你的队友注意</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_GRID_HELP</Tag>
+		<English>Toggle Gridlines On / Off</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>切换网格线显示</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_BARE_MAP_HELP</Tag>
+		<English>Makes it easier to see the landscape</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让地形更容易观看</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_YIELDS_HELP</Tag>
+		<English>Toggle Food / Production / Commerce icon visibility</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>切换 食物 / 产能 / 商业 图标显示</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_RESOURCES_HELP</Tag>
+		<English>Makes finding resources easier</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>让寻找资源更容易</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SCORES_HELP</Tag>
+		<English>Toggle Score Visibility</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>切换积分显示</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_LOAD_GAME_HELP</Tag>
+		<English>Display the Load Game Screen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>显示读档窗口</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_OPTIONS_SCREEN_HELP</Tag>
+		<English>Display the Options Screen</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>显示选项菜单</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_RETIRE_HELP</Tag>
+		<English>Retire from the game. When done in multiplayer, the AI will take over the player's Civilization.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>从游戏中退出。如果在多人游戏中，电脑将接管玩家的文明。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_SAVE_GROUP_HELP</Tag>
+		<English>Save the Game on all computers (for multi-player)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在所有电脑上保存游戏（多人游戏选项）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_CONTROL_SAVE_GAME_HELP</Tag>
+		<English>Save the Game</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>保存游戏</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_WAKE_HELP</Tag>
+		<English>This will wake the unit up so that it can be issued orders. Waking a unit does not remove its fortification bonus.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将唤醒该单位，使之可以接受指令。唤醒一个单位将不会消除它的防御加成。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_CANCEL_HELP</Tag>
+		<English>This will cancel the last order in the unit's mission queue. You will find this to be very useful if you accidentally queue the wrong order.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将消除所选单位任务列表中的最后一个命令。当发现队列中有错误的命令时该操作将很有用。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_CANCEL_ALL_HELP</Tag>
+		<English>This will cancel all queued orders for the currently selected unit.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将消除所选择单位的全部命令列表，该单位将成为无指令的自由状态。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_STOP_AUTOMATION_HELP</Tag>
+		<English>This will cancel the order for the unit to automate itself. It will then rely on you for all orders.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将取消所选择单位的自动执行操作状态。此后它将完全按你的指令行动。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_DELETE_HELP</Tag>
+		<English>Click on this order to remove the unit from play.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>点击该命令将从游戏中移除该单位。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_GIFT_HELP</Tag>
+		<English>This will give the currently selected unit to the player who controls the land the unit is standing on. To give the unit to a different player you must first move the unit into their territory.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将把当前选定单位送给控制该部队所处的土地的玩家。要将一支部队送给一个玩家你必须控制该部队进入该玩家的国界。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_LOAD_HELP</Tag>
+		<English>This will move the unit into a transport.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将选定的单位装入运输工具。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_UNLOAD_HELP</Tag>
+		<English>This will unload a previously loaded unit from its transport.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将使已经装入运输工具的单位卸载。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_UNLOAD_ALL_HELP</Tag>
+		<English>This will unload all transported units.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将卸载所有运输单位上的部队。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_HOTKEY_HELP</Tag>
+		<English>Allows you to assign a hot-key to this unit.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>允许你为该部队制定一个热键。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PATROL_TO_HELP</Tag>
+		<English>Set your unit to patrol (repeats a goto path indefinitely)</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>派你的单位巡逻（不断重复巡逻路线）</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_MOVE_TO_HELP</Tag>
+		<English>Set your unit to move to a specific plot</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将你的单位派到指定的地区</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_ROUTE_TO_HELP</Tag>
+		<English>This order causes the worker to build a road (or railroad) to the location selected. The worker will follow the shortest path to the location. The worker wakes when it has completed the assignment.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将使工人在指定的位置修建道路（或铁路）。工人将按到该地去的最短的路线施工。工人将在完成该任务后唤醒。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_MOVE_TO_UNIT_HELP</Tag>
+		<English>Set your unit to move to a unit</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>设定你的单位向另一个单位移动</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SKIP_HELP</Tag>
+		<English>Do nothing. The unit will awake and ask again for orders the next turn.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>休息。该单位将在下回合再次激活并等待新的指令。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SLEEP_HELP</Tag>
+		<English>Order the unit to sleep until activated by the player</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令单位休眠直到玩家将其唤醒</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_FORTIFY_HELP</Tag>
+		<English>The unit "digs in" to better withstand enemy attack. A unit gets a 5%% defensive bonus for each turn it is fortified, to a maximum bonus of 25%%.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位将进行“土木作业”以更好地经受敌人的攻击。驻防单位将获得每回合5%%的防御奖励，上限是25%%。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_INTERCEPT_HELP</Tag>
+		<English>This air unit order will tell the craft to attempt interception with any incoming air attacks.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这个空军单位指令将使飞行器尝试拦截任何入侵的空袭。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_HEAL_HELP</Tag>
+		<English>The unit remains inactive until it reaches full strength.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将选定单位进入休眠直到其力量恢复满。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SENTRY_HELP</Tag>
+		<English>The unit remains inactive until an enemy unit enters any adjacent square.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将选定单位进入休眠直到有敌军进入相邻的位置。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_AIRLIFT_HELP</Tag>
+		<English>Airlifts the unit to another city.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将该单位空运至另一个城市。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_NUKE_HELP</Tag>
+		<English>Drops a nuclear device onto the selected space.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在选定位置投掷核弹。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_RECON_HELP</Tag>
+		<English>Clears the fog of war from around the selected space for one turn.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>将选定区域附近的战争迷雾驱散一回合。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_AIRBOMB_HELP</Tag>
+		<English>Destroys city fortifications and tile improvements.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>摧毁城防工事及地块上的设施。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_BOMBARD_HELP</Tag>
+		<English>Destroys fortifications and reduces the cities defensive bonus.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>摧毁城防工事减弱城防加成。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PILLAGE_HELP</Tag>
+		<English>The unit destroys an improvement or route in the tile it occupies.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>单位将摧毁它占据的地块上的一项设施或道路。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SABOTAGE_HELP</Tag>
+		<English>The [COLOR_UNIT_TEXT]Spy[COLOR_REVERT] will attempt to sabotage the tile's improvement.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_UNIT_TEXT]间谍[COLOR_REVERT]将尝试破坏地块上的设施。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_DESTROY_HELP</Tag>
+		<English>The [COLOR_UNIT_TEXT]Spy[COLOR_REVERT] will attempt to destroy the city's current production.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_UNIT_TEXT]间谍[COLOR_REVERT]将尝试破坏目前城市的生产项目。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_STEAL_PLANS_HELP</Tag>
+		<English>The [COLOR_UNIT_TEXT]Spy[COLOR_REVERT] will attempt to steal plans, which will reveal all of the target civilization's units.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[COLOR_UNIT_TEXT]间谍[COLOR_REVERT]将尝试盗窃情报，这将使所有目标文明的单位暴露出来。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_BUILD_CITY_HELP</Tag>
+		<English>This order causes the [COLOR_UNIT_TEXT]Settler[COLOR_REVERT] to build a city in its current location. The [COLOR_UNIT_TEXT]Settler[COLOR_REVERT] is consumed in the process.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将允许[COLOR_UNIT_TEXT]移民[COLOR_REVERT]在当前位置建造一座城市，同时该[COLOR_UNIT_TEXT]移民[COLOR_REVERT]将被消耗掉。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SPREAD_HELP</Tag>
+		<English>This order will consume the [COLOR_UNIT_TEXT]Missionary[COLOR_REVERT] unit but spread their religion to the city.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该命令将消耗掉[COLOR_UNIT_TEXT]传教士[COLOR_REVERT]但将把该宗教传入该城市中。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_JOIN_CITY_HELP</Tag>
+		<English>This order will make the Great Person join the city as a super specialist. It will consume the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项命令将把伟人加入城市变成一个超级专业人员，但会消耗掉这个伟人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_CONSTRUCT_HELP</Tag>
+		<English>This will have the Great Person create their special building. It consumes the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将会让伟人创建他们的特殊建筑，不过该伟人将被消耗掉。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_DISCOVER_TECH_HELP</Tag>
+		<English>This will have the Great Person help research a technology. It consumes the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这将会让伟人帮助研究一项科技，不过该伟人将被消耗掉。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_HURRY_PRODUCTION_HELP</Tag>
+		<English>This order will hurry production on the city's current effort. It consumes the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项命令将立即完成该城市目前的建造项目，但伟人将被消耗掉。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP</Tag>
+		<English>This order will have the Great Merchant conduct a trade mission with a foreign city. The amount of gold created is relative to the size of the city and its distance from your capital. It consumes the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项命令将使大商业家在外国城市开展贸易活动。收获得金钱的数目取决于城市规模和离你的首都的距离。这将消耗掉伟人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP</Tag>
+		<English>This order will have the Great Artist create a Great Work in the city they are currently in. It consumes the Great Person.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项命令将使大艺术家在其所在的这座城市创造一件艺术杰作。这将消耗掉伟人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_START_GOLDENAGE_HELP</Tag>
+		<English>This order will consume multiple Great People (of different types) and initiate a Golden Age (extra [ICON_PRODUCTION] &amp; [ICON_COMMERCE]).</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这项命令将消耗掉多个伟人（不同类型的）并使你进入黄金时代（额外增加[ICON_PRODUCTION]与[ICON_COMMERCE]）。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_FOOD_HELP</Tag>
+		<English>Select this to have a city obtain high levels of food (bread) each turn. Food is necessary to help cities gain population.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该选项将使该城市每回合获得较高的食物产出（面包）。食物是使城市人口增长的必要条件。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_PRODUCTION_HELP</Tag>
+		<English>Select this to have a city obtain high levels of production (hammers) each turn. Focusing the city on production will slow growth but ensure that the cities are producing as quickly as possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该选项将使该城市每回合获得更多的工业产能（锤子）。重视产能将减慢人口增长但能使城市的生产进度加快。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_COMMERCE_HELP</Tag>
+		<English>Select this to have a city obtain high levels of commerce (gold) each turn. Commerce translates into gold which allows you to research, expand, and build your empire.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该选项将使该城市每回合获得更多的商业收入（金币）。商业收入意味着金钱财富，使你能更好地研究科技，扩张领土，建设你的帝国。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_RESEARCH_HELP</Tag>
+		<English>Select this to have a city focus on achieving the highest amount of research possible. This will activate specialists if they are available to help facilitate the city's tech research.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该选项将使该城市致力于获得最多的科研力量。在条件具备的情况下供养尽可能多的科研人员，以推动城市的科技发展。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_GREAT_PEOPLE_HELP</Tag>
+		<English>Select this to have the city focus on creating a great person. The governor will use specialists to try and create a Great Person as quickly as possible.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该选项将使该城市致力于产生更多的历史伟人。在条件具备的情况下供养尽可能多的专业人员，以期尽快产生历史伟人。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_GROWTH_HELP</Tag>
+		<English>Typically the governor will try to meet your demands while allowing for some growth to continue in the city. Select this option to indicate that growth should be avoided with all focus being on the appropriate emphasis.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>通常城市总督会尽量满足你的要求并使城市仍保持增长。选择该指令以避免人口增加，而将重点集中于其他方面。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_GO_TO_HELP</Tag>
+		<English>Order the selected unit to move to a tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令选定单位移动到一个地块上。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_GO_TO_TYPE_HELP</Tag>
+		<English>Orders all units of the currently selected unit's type to move</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令所有与当前选定单位同类型的单位移动。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_GO_TO_ALL_HELP</Tag>
+		<English>Order all units on the currently selected unit's tile to move</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令所有在当前选定单位的地块上的单位移动。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_ROUTE_TO_HELP</Tag>
+		<English>Order the unit to build roads or railroads to the selected tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令选定单位修建道路或铁路至指定的地块。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_AIRLIFT_HELP</Tag>
+		<English>Order the unit airlifted to the selected tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令单位空运至指定地块。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_NUKE_HELP</Tag>
+		<English>Order a nuclear missile strike on the selected tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令核弹打击指定地块。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_RECON_HELP</Tag>
+		<English>Order the air unit to perform a recon sweep on an area</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令空军单位侦查指定的区域。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_AIRBOMB_HELP</Tag>
+		<English>Order the air unit to bomb the city or improvement in the selected tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令空军单位轰炸选定的地块上的城市或设施。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_AIRSTRIKE_HELP</Tag>
+		<English>Order the air unit to attack enemy units in the selected tile</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令空军单位轰炸选定的地块上的敌军部队。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_REBASE_HELP</Tag>
+		<English>Order the air unit to rebase to another city</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>命令空军单位以另一个城市作为基地重新部署。</Chinese>
+	</TEXT>
+</Civ4GameText>

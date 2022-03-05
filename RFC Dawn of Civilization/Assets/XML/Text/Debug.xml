@@ -11,12 +11,12 @@
 		<Tag>TXT_KEY_TOTAL_AFFECTED_CITIES</Tag>
 		<English>TOTAL</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>总计</Chinese>
+		<Chinese>鎬昏</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INIT_AFFECTED_CITIES</Tag>
 		<English>INIT</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>基本</Chinese>
+		<Chinese>鍩虹</Chinese>
 	</TEXT>
 </Civ4GameText>

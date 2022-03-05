@@ -1,172 +1,172 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_FASCIST</Tag>
 		<English>Indo-Greek Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶È-Ï£À°µÛ¹ú</Chinese>
+		<Chinese>å°åº¦-å¸Œè…Šå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_SHORT_DESC</Tag>
 		<English>Kushan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹óËª</Chinese>
+		<Chinese>è´µéœœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_DESC</Tag>
 		<English>The Yuezhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÊÏÎÄÃ÷</Chinese>
+		<Chinese>æœˆæ°æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_YUE</Tag>
 		<English>Extra Culture, Gold, and Happiness from Religions. Halved instability from Religious Disunity.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÌá¹©¶îÍâµÄÎÄ»¯£¬ÉÌÒµºÍ¿ìÀÖ£»×Ú½Ì²»ÍÅ½áÔì³ÉµÄ²»ÎÈ¶¨¼õ°ë¡£</Chinese>
+		<Chinese>å®—æ•™æä¾›é¢å¤–çš„æ–‡åŒ–ï¼Œå•†ä¸šå’Œå¿«ä¹ï¼›å®—æ•™ä¸å›¢ç»“é€ æˆçš„ä¸ç¨³å®šå‡åŠã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_KANISHKA_PEDIA</Tag>
 		<English>[H1]Kanishka I[\H1][NEWLINE][BOLD]Emperor of the Kushan Empire[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]100s AD[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Most of what is known about Kaniska derives from Chinese sources, particularly Buddhist writings. When Kaniska came to the throne is uncertain. His accession has been estimated as occurring between 78 and 144 CE; his reign is believed to have lasted 23 years. The year 78 marks the beginning of the Shaka era, a system of dating that Kaniska might have initiated.[PARAGRAPH:2]Through inheritance and conquest, Kaniska's kingdom covered an area extending from Bukhara (now in Uzbekistan) in the west to Patna in the Ganges (Ganga) River valley in the east and from the Pamirs (now in Tajikistan) in the north to central India in the south. His capital probably was Purusapura (Peshawar, now in Pakistan). He may have crossed the Pamirs and subjugated the kings of the city-states of Khotan (Hotan), Kashgar, and Yarkand (now in the Xinjiang region of China), who had previously been tributaries of the Han emperors of China. Contact between Kaniska and the Chinese in Central Asia may have inspired the transmission of Indian ideas, particularly Buddhism, to China. Buddhism first appeared in China in the 2nd century CE.[PARAGRAPH:2]As a patron of Buddhism, Kaniska is chiefly noted for having convened the fourth great Buddhist council in Kashmir, which marked the beginnings of Mahayana Buddhism. At the council, according to Chinese sources, authorized commentaries on the Buddhist canon were prepared and engraved on copper plates. These texts have survived only in Chinese translations and adaptations.[PARAGRAPH:2]Kaniska was a tolerant king, and his coins show that he honoured the Zoroastrian, Greek, and Brahmanic deities as well as the Buddha. During his reign, contacts with the Roman Empire via the Silk Road led to a significant increase in trade and the exchange of ideas; perhaps the most remarkable example of the fusion of Eastern and Western influences in his reign was the Gandhara school of art, in which Classical Greco-Roman lines are seen in images of the Buddha.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]åÈÄåÉ«åÈÒ»ÊÀ[\H1][NEWLINE][BOLD]¹óËªµÛ¹úµÄ»ÊµÛ[\BOLD][NEWLINE][BOLD]Éú×äÄê·İ£º[\BOLD]¹«Ôª100Äê×óÓÒ[NEWLINE][PARAGRAPH:2][BOLD]±³¾°£º[\BOLD][PARAGRAPH:1]¹ØÓÚåÈÄåÉ«åÈËùÖªµÄ´ó²¿·Ö¶¼À´×ÔÖĞ¹ú£¬ÓÈÆäÊÇ·ğ½ÌÖø×÷¡£åÈÄåÉ«åÈºÎÊ±µÇ»ù»¹²»È·¶¨¡£¾İ¹À¼Æ£¬ËûµÄµÇ»ù·¢ÉúÔÚ¹«ÔªÇ°78ÄêÖÁ144ÄêÖ®¼ä£»¾İĞÅËûµÄÍ³ÖÎ³ÖĞøÁË23Äê¡£78Äê±êÖ¾×ÅÏÄ¿¨Ê±´úµÄ¿ªÊ¼£¬ÕâÊÇåÈÄåÉ«åÈËù¿ª´´µÄÒ»ÖÖÄê´ú²â¶¨ÏµÍ³[PARAGRAPH:2]Í¨¹ı¼Ì³ĞºÍÕ÷·ş£¬åÈÄåÉ«åÈÍõ¹úËù¸²¸ÇµÄµØÇø´ÓÎ÷²¿µÄ²¼¹şÀ­£¨ÏÖÔÚÔÚÎÚ×È±ğ¿ËË¹Ì¹£©µ½¶«²¿ºãºÓÁ÷ÓòµÄ°ÍÌØÄÉ£¬´Ó±±²¿µÄÅÁÃ×¶û£¨ÏÖÔÚÔÚËş¼ª¿ËË¹Ì¹£©µ½ÄÏ²¿µÄÓ¡¶ÈÖĞ²¿¡£ËûµÄÊ×¶¼¿ÉÄÜÊÇPurusapura£¨°×É³Íß£¬ÏÖÔÚÔÚ°Í»ùË¹Ì¹£©¡£Ëû¿ÉÄÜÔ½¹ıÅÁÃ×¶û£¬Õ÷·şÁËºÍãÙ£¨ºÍÌï£©¡¢¿¦Ê²ºÍÒ¶¶ûÇ¼£¨ÏÖÔÚÔÚÖĞ¹úĞÂ½®µØÇø£©³Ç°îµÄ¹úÍõ£¬ÕâĞ©³Ç°îÔøÊÇÖĞ¹úºº³¯»ÊµÛµÄ³¯¹±¡£åÈÄåÉ«åÈºÍÖĞÑÇÖĞ¹úÈËµÄ½Ó´¥¿ÉÄÜ¼¤·¢ÁËÓ¡¶ÈË¼Ïë£¬ÌØ±ğÊÇ·ğ½Ì£¬ÏòÖĞ¹úµÄ´«²¥¡£·ğ½Ì×îÔç³öÏÖÔÚ¹«ÔªÇ°2ÊÀ¼ÍµÄÖĞ¹ú[PARAGRAPH:2]×÷Îª·ğ½ÌµÄÔŞÖúÈË£¬åÈÄåÉ«åÈÒÔÔÚ¿ËÊ²Ã×¶ûÕÙ¿ªÁËµÚËÄ½ì·ğ½Ì´ó»áÒé¶øÎÅÃû£¬Õâ±êÖ¾×Å´ó³Ë·ğ½ÌµÄ¿ª¶Ë¡£¾İÖĞ¹úÏûÏ¢À´Ô´³Æ£¬ÔÚ»áÒéÉÏ£¬ÒÑ×¼±¸ºÃÁË¾­ÊÚÈ¨µÄ·ğ¾­ÆÀ×¢£¬²¢¿ÌÔÚÍ­°æÉÏ¡£ÕâĞ©ÎÄ±¾Ö»ÓĞÔÚÖĞÎÄ·­ÒëºÍ¸Ä±àÖĞĞÒ´æÏÂÀ´[PARAGRAPH:2]åÈÄåÉ«åÈÊÇÒ»¸ö¿íÈİµÄ¹úÍõ£¬ËûµÄÓ²±Ò±íÃ÷Ëû×ğ¾´ËöÂŞÑÇË¹µÂ½Ì¡¢Ï£À°ºÍÆÅÂŞÃÅ½ÌµÄÉñÒÔ¼°·ğÍÓ¡£ÔÚËûÍ³ÖÎÆÚ¼ä£¬Í¨¹ıË¿³ñÖ®Â·ÓëÂŞÂíµÛ¹úµÄ½Ó´¥µ¼ÖÂÁËÃ³Ò×ºÍË¼Ïë½»Á÷µÄÏÔÖøÔö¼Ó£»Ò²ĞíËûÍ³ÖÎÊ±ÆÚ¶«Î÷·½Ó°ÏìÈÚºÏµÄ×îÏÔÖøµÄÀı×ÓÊÇ¸Ê´ïÀ­ÒÕÊõÑ§Ğ££¬ÔÚÄÇÀï£¬¹ÅµäµÄÏ£À°-ÂŞÂíÏßÌõ³öÏÖÔÚ·ğÏñÖĞ¡£</Chinese>
+		<Chinese>[H1]è¿¦è…»è‰²è¿¦ä¸€ä¸–[\H1][NEWLINE][BOLD]è´µéœœå¸å›½çš„çš‡å¸[\BOLD][NEWLINE][BOLD]ç”Ÿå’å¹´ä»½ï¼š[\BOLD]å…¬å…ƒ100å¹´å·¦å³[NEWLINE][PARAGRAPH:2][BOLD]èƒŒæ™¯ï¼š[\BOLD][PARAGRAPH:1]å…³äºè¿¦è…»è‰²è¿¦æ‰€çŸ¥çš„å¤§éƒ¨åˆ†éƒ½æ¥è‡ªä¸­å›½ï¼Œå°¤å…¶æ˜¯ä½›æ•™è‘—ä½œã€‚è¿¦è…»è‰²è¿¦ä½•æ—¶ç™»åŸºè¿˜ä¸ç¡®å®šã€‚æ®ä¼°è®¡ï¼Œä»–çš„ç™»åŸºå‘ç”Ÿåœ¨å…¬å…ƒå‰78å¹´è‡³144å¹´ä¹‹é—´ï¼›æ®ä¿¡ä»–çš„ç»Ÿæ²»æŒç»­äº†23å¹´ã€‚78å¹´æ ‡å¿—ç€å¤å¡æ—¶ä»£çš„å¼€å§‹ï¼Œè¿™æ˜¯è¿¦è…»è‰²è¿¦æ‰€å¼€åˆ›çš„ä¸€ç§å¹´ä»£æµ‹å®šç³»ç»Ÿ[PARAGRAPH:2]é€šè¿‡ç»§æ‰¿å’Œå¾æœï¼Œè¿¦è…»è‰²è¿¦ç‹å›½æ‰€è¦†ç›–çš„åœ°åŒºä»è¥¿éƒ¨çš„å¸ƒå“ˆæ‹‰ï¼ˆç°åœ¨åœ¨ä¹Œå…¹åˆ«å…‹æ–¯å¦ï¼‰åˆ°ä¸œéƒ¨æ’æ²³æµåŸŸçš„å·´ç‰¹çº³ï¼Œä»åŒ—éƒ¨çš„å¸•ç±³å°”ï¼ˆç°åœ¨åœ¨å¡”å‰å…‹æ–¯å¦ï¼‰åˆ°å—éƒ¨çš„å°åº¦ä¸­éƒ¨ã€‚ä»–çš„é¦–éƒ½å¯èƒ½æ˜¯Purusapuraï¼ˆç™½æ²™ç“¦ï¼Œç°åœ¨åœ¨å·´åŸºæ–¯å¦ï¼‰ã€‚ä»–å¯èƒ½è¶Šè¿‡å¸•ç±³å°”ï¼Œå¾æœäº†å’Œé˜—ï¼ˆå’Œç”°ï¼‰ã€å–€ä»€å’Œå¶å°”ç¾Œï¼ˆç°åœ¨åœ¨ä¸­å›½æ–°ç–†åœ°åŒºï¼‰åŸé‚¦çš„å›½ç‹ï¼Œè¿™äº›åŸé‚¦æ›¾æ˜¯ä¸­å›½æ±‰æœçš‡å¸çš„æœè´¡ã€‚è¿¦è…»è‰²è¿¦å’Œä¸­äºšä¸­å›½äººçš„æ¥è§¦å¯èƒ½æ¿€å‘äº†å°åº¦æ€æƒ³ï¼Œç‰¹åˆ«æ˜¯ä½›æ•™ï¼Œå‘ä¸­å›½çš„ä¼ æ’­ã€‚ä½›æ•™æœ€æ—©å‡ºç°åœ¨å…¬å…ƒå‰2ä¸–çºªçš„ä¸­å›½[PARAGRAPH:2]ä½œä¸ºä½›æ•™çš„èµåŠ©äººï¼Œè¿¦è…»è‰²è¿¦ä»¥åœ¨å…‹ä»€ç±³å°”å¬å¼€äº†ç¬¬å››å±Šä½›æ•™å¤§ä¼šè®®è€Œé—»åï¼Œè¿™æ ‡å¿—ç€å¤§ä¹˜ä½›æ•™çš„å¼€ç«¯ã€‚æ®ä¸­å›½æ¶ˆæ¯æ¥æºç§°ï¼Œåœ¨ä¼šè®®ä¸Šï¼Œå·²å‡†å¤‡å¥½äº†ç»æˆæƒçš„ä½›ç»è¯„æ³¨ï¼Œå¹¶åˆ»åœ¨é“œç‰ˆä¸Šã€‚è¿™äº›æ–‡æœ¬åªæœ‰åœ¨ä¸­æ–‡ç¿»è¯‘å’Œæ”¹ç¼–ä¸­å¹¸å­˜ä¸‹æ¥[PARAGRAPH:2]è¿¦è…»è‰²è¿¦æ˜¯ä¸€ä¸ªå®½å®¹çš„å›½ç‹ï¼Œä»–çš„ç¡¬å¸è¡¨æ˜ä»–å°Šæ•¬çç½—äºšæ–¯å¾·æ•™ã€å¸Œè…Šå’Œå©†ç½—é—¨æ•™çš„ç¥ä»¥åŠä½›é™€ã€‚åœ¨ä»–ç»Ÿæ²»æœŸé—´ï¼Œé€šè¿‡ä¸ç»¸ä¹‹è·¯ä¸ç½—é©¬å¸å›½çš„æ¥è§¦å¯¼è‡´äº†è´¸æ˜“å’Œæ€æƒ³äº¤æµçš„æ˜¾è‘—å¢åŠ ï¼›ä¹Ÿè®¸ä»–ç»Ÿæ²»æ—¶æœŸä¸œè¥¿æ–¹å½±å“èåˆçš„æœ€æ˜¾è‘—çš„ä¾‹å­æ˜¯ç”˜è¾¾æ‹‰è‰ºæœ¯å­¦æ ¡ï¼Œåœ¨é‚£é‡Œï¼Œå¤å…¸çš„å¸Œè…Š-ç½—é©¬çº¿æ¡å‡ºç°åœ¨ä½›åƒä¸­ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_PEDIA</Tag>
 		<English>[TAB]The term Tocharian or Tokharian has a complex history. It is based on the ethnonym Tokharoi used by Greek historians. The first Greek mention of the Tocharians appeared in the 1st century BC, when Strabo presented them as a Scythian tribe, and explained that the Tocharians together with the Assianis, Passianis and Sakaraulis took part in the destruction of the Greco-Bactrian kingdom in the second half of the 2nd century BC. These Tocharians have frequently been identified with the Yuezhi and the later (and probably related) Kushan peoples. Many scholars believe the Yuezhi originally spoke a Tocharian language. However, the debate about the origins and original language(s) of the Yuezhi and the Kushan continues, and there is no general consensus. Regardless, it is generally accepted that the Tocharians were inhabitants of the Tarim Basin who spoke Tocharian, an Indo-European language, making them the easternmost speakers of Indo-European languages in antiquity.[PARAGRAPH:2]The Tarim mummies suggest that precursors of these easternmost speakers of an Indo-European language may have lived in the region of the Tarim Basin from around 1800 BC until finally being assimilated by Uyghur Turks in the 9th century AD. This is evidenced by both the mummies and Chinese writings.[PARAGRAPH:2]The Tocharians, living along the Silk Road, had contacts with the Chinese, Persians, Indian and Turkic tribes.[PARAGRAPH:2]The Tocharians who remained in the Tarim Basin adopted Buddhism, which, like their alphabet, came from northern India in the first century of the 1st millennium, through the proselytism of Kushan monks. The Kushans and the Tocharians seem to have played a part in the Silk Road transmission of Buddhism to China. Many apparently also practised some variant of Manichaeanism.[PARAGRAPH:2]Protected by the Taklamakan Desert from steppe nomads, the Tocharian culture survived past the 7th century. It was then, during the rise of the Islamic and Turkic Empires, that the Tocharians finally vanished from history and were assimilated into various other Central Asian peoples.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]Tocharian»òTokharianÕâ¸ö´ÊÓĞ×Å¸´ÔÓµÄÀúÊ·¡£ËüÊÇ»ùÓÚÏ£À°ÀúÊ·Ñ§¼ÒÊ¹ÓÃµÄÈËÖ¾¡£Ï£À°µÚÒ»´ÎÌáµ½ÍĞ¿¨ÀïÑÇÈËÊÇÔÚ¹«ÔªÇ°1ÊÀ¼Í£¬µ±Ê±Ë¹ÌØÀ­²¨½«ËûÃÇÃèÊö³ÉÒ»¸öË¹»ùÎ÷ÑÇ²¿Âä£¬²¢½âÊÍËµ£¬ÍĞ¿ËÈËÓë°¢Î÷ÑÇÄáÈË¡¢ÅÁÎ÷ÑÇË¹ÈËºÍÈø¿¨Â³ÀûË¹ÈËÔÚ¹«ÔªÇ°2ÊÀ¼Íºó°ëÒ¶²ÎÓëÁË¶Ô¸ñÀ×¿Æ-°Í¿ËÌØÀïÑÇÍõ¹úµÄÆÆ»µ¡£ÕâĞ©ÍĞ¿¨ÀïÑÇÈË¾­³£±»ÈÏÎªÊÇÔÂÊÏÈËºÍºóÀ´µÄ£¨¿ÉÄÜÊÇÏà¹ØµÄ£©¹óËªÈË¡£Ğí¶àÑ§ÕßÈÏÎª£¬ÔÂÊÏ×î³õËµµÄÊÇÒ»ÖÖÍĞ¿ËÓï¡£È»¶ø£¬¹ØÓÚÔÂÊÏºÍ¹óËªµÄÆğÔ´ºÍÔ­Ê¼ÓïÑÔµÄÕùÂÛÈÔÔÚ¼ÌĞø£¬²¢Ã»ÓĞ´ï³É¹²Ê¶¡£¹ÅÊ±ºò½²Ó¡¶È½ÌÓïµÄËşÀïÄ¾ÅèµØµÄ¾ÓÃñÆÕ±é½ÓÊÜËûÃÇËµµÄÊÇÅ·ÖŞÓï[PARAGRAPH:2]ËşÀïÄ¾Ä¾ÄËÒÁ±íÃ÷£¬ÕâĞ©×î¶«±ß½²Ó¡Å·ÓïµÄÈË¿ÉÄÜÉú»îÔÚÕâÀï´Ó¹«ÔªÇ°1800Äê×óÓÒµ½¹«Ôª9ÊÀ¼Í±»Î¬Îá¶ûÍÁ¶úÆäÈËÍ¬»¯µÄËşÀïÄ¾ÅèµØµØÇø¡£Ä¾ÄËÒÁºÍÖĞ¹úÎÄ×Ö¶¼Ö¤Ã÷ÁËÕâÒ»µã[PARAGRAPH:2]×¡ÔÚË¿³ñÖ®Â·ÉÏµÄÍĞ¿ËÈËÓëÖĞ¹úÈË¡¢²¨Ë¹ÈËÓĞ¹ı½Ó´¥£¬Ó¡µÚ°²ºÍÍ»ØÊ²¿Âä[PARAGRAPH:2]ÁôÔÚËşÀïÄ¾ÅèµØµÄÍĞåÈÀûÑÇÈË½ÓÊÜÁË·ğ½Ì£¬·ğ½ÌºÍËûÃÇµÄ×ÖÄ¸Ò»Ñù£¬ÊÇÔÚ1Ç§ÄêµÄµÚÒ»¸öÊÀ¼Í£¬Í¨¹ı¹óËªÉ®ÂÂµÄ´«½ÌÀ´×ÔÓ¡¶È±±²¿¡£¹óËªÈËºÍÍĞåÈÀûÑÇÈËËÆºõÔÚ·ğ½Ì´«ÈëÖĞ¹úµÄË¿³ñÖ®Â·ÖĞ°çÑİÁËÒ»¸ö½ÇÉ«¡£Ğí¶àÈËÏÔÈ»Ò²ÊµĞĞÄ¦Äá½ÌµÄÒ»Ğ©±äÌå[PARAGRAPH:2]ÊÜËş¿ËÀ­Âê¸ÉÉ³Ä®µÄ±£»¤£¬²»ÊÜ²İÔ­ÓÎÄÁÈËµÄÓ°Ïì£¬ÍĞ¿ËÎÄ»¯ÑÓĞøÁË7ÊÀ¼Í¡£ÔÚÆäËûÒÁË¹À¼µÛ¹úáÈÆğµÄ¹ı³ÌÖĞ£¬×îÖÕ±»ÆäËûÒÁË¹À¼µÛ¹úÍ¬»¯¡£</Chinese>
+		<Chinese>[TAB]Tocharianæˆ–Tokharianè¿™ä¸ªè¯æœ‰ç€å¤æ‚çš„å†å²ã€‚å®ƒæ˜¯åŸºäºå¸Œè…Šå†å²å­¦å®¶ä½¿ç”¨çš„äººå¿—ã€‚å¸Œè…Šç¬¬ä¸€æ¬¡æåˆ°æ‰˜å¡é‡Œäºšäººæ˜¯åœ¨å…¬å…ƒå‰1ä¸–çºªï¼Œå½“æ—¶æ–¯ç‰¹æ‹‰æ³¢å°†ä»–ä»¬æè¿°æˆä¸€ä¸ªæ–¯åŸºè¥¿äºšéƒ¨è½ï¼Œå¹¶è§£é‡Šè¯´ï¼Œæ‰˜å…‹äººä¸é˜¿è¥¿äºšå°¼äººã€å¸•è¥¿äºšæ–¯äººå’Œè¨å¡é²åˆ©æ–¯äººåœ¨å…¬å…ƒå‰2ä¸–çºªååŠå¶å‚ä¸äº†å¯¹æ ¼é›·ç§‘-å·´å…‹ç‰¹é‡Œäºšç‹å›½çš„ç ´åã€‚è¿™äº›æ‰˜å¡é‡Œäºšäººç»å¸¸è¢«è®¤ä¸ºæ˜¯æœˆæ°äººå’Œåæ¥çš„ï¼ˆå¯èƒ½æ˜¯ç›¸å…³çš„ï¼‰è´µéœœäººã€‚è®¸å¤šå­¦è€…è®¤ä¸ºï¼Œæœˆæ°æœ€åˆè¯´çš„æ˜¯ä¸€ç§æ‰˜å…‹è¯­ã€‚ç„¶è€Œï¼Œå…³äºæœˆæ°å’Œè´µéœœçš„èµ·æºå’ŒåŸå§‹è¯­è¨€çš„äº‰è®ºä»åœ¨ç»§ç»­ï¼Œå¹¶æ²¡æœ‰è¾¾æˆå…±è¯†ã€‚å¤æ—¶å€™è®²å°åº¦æ•™è¯­çš„å¡”é‡Œæœ¨ç›†åœ°çš„å±…æ°‘æ™®éæ¥å—ä»–ä»¬è¯´çš„æ˜¯æ¬§æ´²è¯­[PARAGRAPH:2]å¡”é‡Œæœ¨æœ¨ä¹ƒä¼Šè¡¨æ˜ï¼Œè¿™äº›æœ€ä¸œè¾¹è®²å°æ¬§è¯­çš„äººå¯èƒ½ç”Ÿæ´»åœ¨è¿™é‡Œä»å…¬å…ƒå‰1800å¹´å·¦å³åˆ°å…¬å…ƒ9ä¸–çºªè¢«ç»´å¾å°”åœŸè€³å…¶äººåŒåŒ–çš„å¡”é‡Œæœ¨ç›†åœ°åœ°åŒºã€‚æœ¨ä¹ƒä¼Šå’Œä¸­å›½æ–‡å­—éƒ½è¯æ˜äº†è¿™ä¸€ç‚¹[PARAGRAPH:2]ä½åœ¨ä¸ç»¸ä¹‹è·¯ä¸Šçš„æ‰˜å…‹äººä¸ä¸­å›½äººã€æ³¢æ–¯äººæœ‰è¿‡æ¥è§¦ï¼Œå°ç¬¬å®‰å’Œçªå¥éƒ¨è½[PARAGRAPH:2]ç•™åœ¨å¡”é‡Œæœ¨ç›†åœ°çš„æ‰˜è¿¦åˆ©äºšäººæ¥å—äº†ä½›æ•™ï¼Œä½›æ•™å’Œä»–ä»¬çš„å­—æ¯ä¸€æ ·ï¼Œæ˜¯åœ¨1åƒå¹´çš„ç¬¬ä¸€ä¸ªä¸–çºªï¼Œé€šè¿‡è´µéœœåƒ§ä¾£çš„ä¼ æ•™æ¥è‡ªå°åº¦åŒ—éƒ¨ã€‚è´µéœœäººå’Œæ‰˜è¿¦åˆ©äºšäººä¼¼ä¹åœ¨ä½›æ•™ä¼ å…¥ä¸­å›½çš„ä¸ç»¸ä¹‹è·¯ä¸­æ‰®æ¼”äº†ä¸€ä¸ªè§’è‰²ã€‚è®¸å¤šäººæ˜¾ç„¶ä¹Ÿå®è¡Œæ‘©å°¼æ•™çš„ä¸€äº›å˜ä½“[PARAGRAPH:2]å—å¡”å…‹æ‹‰ç›å¹²æ²™æ¼ çš„ä¿æŠ¤ï¼Œä¸å—è‰åŸæ¸¸ç‰§äººçš„å½±å“ï¼Œæ‰˜å…‹æ–‡åŒ–å»¶ç»­äº†7ä¸–çºªã€‚åœ¨å…¶ä»–ä¼Šæ–¯å…°å¸å›½å´›èµ·çš„è¿‡ç¨‹ä¸­ï¼Œæœ€ç»ˆè¢«å…¶ä»–ä¼Šæ–¯å…°å¸å›½åŒåŒ–ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE1_TITLE</Tag>
 		<English>The Kushan Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹óËªµÛ¹ú</Chinese>
+		<Chinese>è´µéœœå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL_HELP</Tag>
 		<English>[ICON_BULLET]+25% Production of religious buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]×Ú½Ì½¨Öş+25%½¨ÔìËÙ¶È</Chinese>
+		<Chinese>[ICON_BULLET]å®—æ•™å»ºç­‘+25%å»ºé€ é€Ÿåº¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_ADJECTIVE</Tag>
 		<English>Yuezhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÊÏ</Chinese>
+		<Chinese>æœˆæ°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_PEOPLES</Tag>
 		<English>Yuezhi Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÊÏÈË</Chinese>
+		<Chinese>æœˆæ°äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE2_TITLE</Tag>
 		<English>The Centerpoint of Civilization</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÎÄÃ÷ÖĞĞÄ</Chinese>
+		<Chinese>æ–‡æ˜ä¸­å¿ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_DEFAULT</Tag>
 		<English>%s1 Nomads</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ÓÎÄÁ</Chinese>
+		<Chinese>%s1æ¸¸ç‰§</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_YUE_TITLE</Tag>
 		<English>The Power of Syncretism:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>×Ú½ÌÈÚºÏ£º</Chinese>
+		<Chinese>å®—æ•™èåˆï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_ADJECTIVE</Tag>
 		<English>Kuashana</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹óËª</Chinese>
+		<Chinese>è´µéœœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_YUEZHI</Tag>
 		<English>Kushan Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹óËªµÛ¹ú</Chinese>
+		<Chinese>è´µéœœå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_DEFAULT</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1µÛ¹ú</Chinese>
+		<Chinese>%s1å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_KUSHAN</Tag>
 		<English>Kushan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹óËª</Chinese>
+		<Chinese>è´µéœœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE2</Tag>
 		<English>Have trade routes with four different civilizations by 200 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª200ÄêÇ°ÓëËÄ¸ö²»Í¬ÎÄÃ÷Í¨ÉÌ</Chinese>
+		<Chinese>å…¬å…ƒ200å¹´å‰ä¸å››ä¸ªä¸åŒæ–‡æ˜é€šå•†</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_HEPHT</Tag>
 		<English>Hephthalite Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>‡™ßÕµÛ¹ú</Chinese>
+		<Chinese>åšˆå“’å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL</Tag>
 		<English>Gandhara School</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>êùÍÓÂŞÅÉÑ§Ğ£</Chinese>
+		<Chinese>çŠé™€ç½—æ´¾å­¦æ ¡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE3</Tag>
 		<English>Build the Salsal Buddha and eight temples by 400 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª400ÄêÇ°½¨³ÉÈø¶ûÈø·ğºÍ8×ùËÂÃí</Chinese>
+		<Chinese>å…¬å…ƒ400å¹´å‰å»ºæˆè¨å°”è¨ä½›å’Œ8åº§å¯ºåº™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_SHORT_DESC</Tag>
 		<English>Yuezhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÊÏ</Chinese>
+		<Chinese>æœˆæ°</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_TEMPLES</Tag>
 		<English>Temples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËÂÃí</Chinese>
+		<Chinese>å¯ºåº™</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_KANISHKA</Tag>
 		<English>Kanishka</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÔÂÊÏ-åÈÄåÉ«Ù¤Ò»ÊÀ</Chinese>
+		<Chinese>æœˆæ°-è¿¦è…»è‰²ä¼½ä¸€ä¸–</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE1</Tag>
 		<English>Control a city in the Hindu Kush region with a developing culture in 100 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª100ÄêÔÚĞË¶¼¿âÊ²µØÇø¿ØÖÆÒ»×ùÕıÔÚ·¢Õ¹(developing)ÎÄ»¯µÄ³ÇÊĞ</Chinese>
+		<Chinese>å…¬å…ƒ100å¹´åœ¨å…´éƒ½åº“ä»€åœ°åŒºæ§åˆ¶ä¸€åº§æ­£åœ¨å‘å±•(developing)æ–‡åŒ–çš„åŸå¸‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE3_TITLE</Tag>
 		<English>Greco-Buddhist tradition</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ï£À°·ğ½Ì´«Í³</Chinese>
+		<Chinese>å¸Œè…Šä½›æ•™ä¼ ç»Ÿ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_FASCIST</Tag>
 		<English>Indo-Greek Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ó¡¶È-Ï£À°µÛ¹ú</Chinese>
+		<Chinese>å°åº¦-å¸Œè…Šå¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_YUEZHI</Tag>
 		<English>It is the year 650 BC. As the interchange between Indian and Greek cultures grows, the nomadic Yuezhi begin gathering power from within their homelands of the arid Gansu Grasslands. Syncretizing faiths both near and far, the Yuezhi culture seems set to spread unlike that of any nomads' before it.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«ÔªÇ°650Äê¡£Ëæ×ÅÓ¡¶ÈºÍÏ£À°ÎÄ»¯½»Á÷µÄ·¢Õ¹£¬ÓÎÄÁÈËÔÂÊÏ¿ªÊ¼´Ó¼ÒÏç¸ÉºµµÄ¸ÊËà²İÔ­»ıĞîÁ¦Á¿¡£ÈÚºÏÁËÔ¶½üÁ½ÖÖĞÅÑö£¬ÔÂÊÏÎÄ»¯ËÆºõÒª´«²¥¿ªÀ´£¬²»ÏñÖ®Ç°µÄÈÎºÎÓÎÄÁÈË¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒå‰650å¹´ã€‚éšç€å°åº¦å’Œå¸Œè…Šæ–‡åŒ–äº¤æµçš„å‘å±•ï¼Œæ¸¸ç‰§äººæœˆæ°å¼€å§‹ä»å®¶ä¹¡å¹²æ—±çš„ç”˜è‚ƒè‰åŸç§¯è“„åŠ›é‡ã€‚èåˆäº†è¿œè¿‘ä¸¤ç§ä¿¡ä»°ï¼Œæœˆæ°æ–‡åŒ–ä¼¼ä¹è¦ä¼ æ’­å¼€æ¥ï¼Œä¸åƒä¹‹å‰çš„ä»»ä½•æ¸¸ç‰§äººã€‚</Chinese>
 	</TEXT>
 </Civ4GameText>

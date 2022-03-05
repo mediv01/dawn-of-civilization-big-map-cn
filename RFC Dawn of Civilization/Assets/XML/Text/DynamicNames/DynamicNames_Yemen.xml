@@ -1,88 +1,88 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ENGLAND</Tag>
 		<English>Aden Protectorate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇ¶¡±£»¤Çø</Chinese>
+		<Chinese>äºšä¸ä¿æŠ¤åŒº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_STATE_PARTY</Tag>
 		<English>Yemen Arab Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­²®Ò²ÃÅ¹²ºÍ¹ú</Chinese>
+		<Chinese>é˜¿æ‹‰ä¼¯ä¹Ÿé—¨å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_SHORT_DESC</Tag>
 		<English>Yemen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò²ÃÅ</Chinese>
+		<Chinese>ä¹Ÿé—¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_PEOPLES</Tag>
 		<English>Arabian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢À­²®ÈË</Chinese>
+		<Chinese>é˜¿æ‹‰ä¼¯äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_THEOCRACY</Tag>
 		<English>Mutawakkilite Kingdom of Yemen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò²ÃÅÄÂËşÍß»ùÀûÌØÍõ¹ú</Chinese>
+		<Chinese>ä¹Ÿé—¨ç©†å¡”ç“¦åŸºåˆ©ç‰¹ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_COMMUNIST</Tag>
 		<English>People's Democratic Republic of Yemen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò²ÃÅÈËÃñÃñÖ÷¹²ºÍ¹ú</Chinese>
+		<Chinese>ä¹Ÿé—¨äººæ°‘æ°‘ä¸»å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_DEFAULT</Tag>
 		<English>Ziyadid Emirate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÆëÑÇ¶ÅµÂÇõ³¤¹ú</Chinese>
+		<Chinese>é½äºšæœå¾·é…‹é•¿å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_DEAD_ARABIA</Tag>
 		<English>Sulayhid Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËÕÀ³Ï£µÂËÕµ¤¹ú</Chinese>
+		<Chinese>è‹è±å¸Œå¾·è‹ä¸¹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ARABIA</Tag>
 		<English>Tahirid Emirate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËşÏ£ÀïÇõ³¤¹ú</Chinese>
+		<Chinese>å¡”å¸Œé‡Œé…‹é•¿å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ELECTIVE</Tag>
 		<English>Tahirid Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ËşÏ£ÀïËÕµ¤¹ú</Chinese>
+		<Chinese>å¡”å¸Œé‡Œè‹ä¸¹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_MECCA</Tag>
 		<English>Rasulid Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­ËÕÀûµÂËÕµ¤¹ú</Chinese>
+		<Chinese>æ‹‰è‹åˆ©å¾·è‹ä¸¹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ADJECTIVE</Tag>
 		<English>Yemeni</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò²ÃÅ</Chinese>
+		<Chinese>ä¹Ÿé—¨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_DESC</Tag>
 		<English>The Yemeni</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò²ÃÅÎÄÃ÷</Chinese>
+		<Chinese>ä¹Ÿé—¨æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_FASCIST</Tag>
 		<English>Federation of South Arabia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÄÏ°¢À­²®Áª°î</Chinese>
+		<Chinese>å—é˜¿æ‹‰ä¼¯è”é‚¦</Chinese>
 	</TEXT>
 </Civ4GameText>

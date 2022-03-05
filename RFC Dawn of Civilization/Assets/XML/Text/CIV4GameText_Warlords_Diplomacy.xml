@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- freesand -->
+<!-- Game Text Diplomacy -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_AUGUSTUS_CAESAR_1</Tag>
+		<English>It is excellent to meet you, [CT_NAME]! Would you care to surrender to mighty [OUR_CIV_SHORT] now or would you prefer to put off the inevitable for a while?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>见到你真好，[CT_NAME]！你是现在就归顺我们强大的[OUR_CIV_SHORT]呢，还是想再苟延残喘几天？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BRENNUS_1</Tag>
+		<English>Greetings, [CT_NAME]! I am [OUR_NAME] of the warlike [OUR_CIV_ADJ] people!  My druids shall construct a huge stone circle to honor this auspicious occasion!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！我是好战的[OUR_CIV_ADJ]人民的领袖[OUR_NAME]！我的德鲁伊们将会建造一座宏伟的巨石阵以庆祝这次美好的盛事！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HANNIBAL_1</Tag>
+		<English>The glorious [OUR_CIV_ADJ] people welcome the cute little civilization of [CT_CIV_SHORT]!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>无上荣耀的[OUR_CIV_ADJ]人民欢迎我们的小兄弟[CT_CIV_SHORT]加入！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOSEF_STALIN_1</Tag>
+		<English>Greetings from the glorious worker's paradise of [OUR_CIV_SHORT]! Shall we be friends, or do you have a death wish?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>来自大众天堂[OUR_CIV_SHORT]的问候！让我们成为朋友吧，或者你希望有人因此而挂掉？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_MEHMED_1</Tag>
+		<English>May the heavens rain down blessings upon you, [CT_NAME]! I am [OUR_NAME], wise and benevolent ruler of [OUR_EMPIRE]! Feel free to begin showering me with tribute at your convenience!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>来自天堂的祝福围绕着你，[CT_NAME]！我是[OUR_NAME]，[OUR_EMPIRE]聪慧而又仁慈的领袖！你在方便的时候就开始向我国进贡吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SHAKA_1</Tag>
+		<English>Greetings, [CT_NAME]! The [OUR_CIV_ADJ] people always enjoy meeting vulnerable and undefended new civilizations!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！[OUR_CIV_ADJ]的人民喜欢看到弱小而毫不设防的新文明！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WANG_KON_1</Tag>
+		<English>Welcome, [CT_NAME], ruler of mighty [CT_CIV_SHORT]! Deal faithfully with [OUR_CIV_SHORT] and we will deal faithfully with you. Betray us and your life will be both short and full of excitement...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>欢迎，[CT_NAME]，强大的[CT_CIV_SHORT]之主！只要对[OUR_CIV_SHORT]诚实，我们也会以诚相待。胆敢欺骗我们的话，你将渡过短暂而又“刺激”的一生…</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WINSTON_CHURCHILL_1</Tag>
+		<English>Welcome, [CT_NAME]! I hope that our two great nations can be firm friends and allies. However if you attack us we shall fight you on the beaches, we shall fight you on the landing grounds, we shall fight you in the fields and in the streets - well, you get the idea... </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！我希望我们两个强大的国家可以成为好朋友并结成联盟。如果你攻击我们，我们将在你的海岸线上登陆，在你的领土上列队，在你的原野和森林中前进——哼哼，你看着办……</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ AUGUSTUS_CAESAR _1</Tag>
+		<English>Go away, [CT_NAME]; you bother me.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>离我远点，[CT_NAME]，不要骚扰我。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ BRENNUS _1</Tag>
+		<English>Your words twist like they were serpents, [CT_NAME]. Begone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>狗嘴里吐不出象牙，[CT_NAME]。滚开！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_HANNIBAL_1</Tag>
+		<English>Go away. [OUR_EMPIRE] has no time for your nonsense. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>走开！[OUR_EMPIRE]没时间听你胡说八道。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOSEF_STALIN_1</Tag>
+		<English>I'll have no truck with liars and villains, [CT_NAME]! Begone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我不和骗子恶棍打交道，[CT_NAME]！滚开！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_MEHMED_1</Tag>
+		<English>You're wasting your time, [CT_NAME]. I'll not be swayed by your lying words.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你在浪费时间，[CT_NAME]。我对你的谎言完全免疫。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_RAGNAR_LODBROK_1</Tag>
+		<English>Be gone before I chop you into tiny pieces and feed you to the walruses!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在我准备把你碎尸万段拿去喂海象之前，你最好快滚！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_RAMESSES_II_1</Tag>
+		<English>Hold your tongue less I tear it out and feed it to the crocodiles!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我闭嘴！不然把你的舌头撕下来喂鳄鱼！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SHAKA_1</Tag>
+		<English>Your words are but the grunts of a diseased pig, [CT_NAME]. I do not hear them.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你的声音听起来就像一只病猪在呻吟，[CT_NAME]。我听不清楚。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_WANG_KON_1</Tag>
+		<English>Your web of deceit will not ensnare [OUR_CIV_SHORT]. I've been lied to by far better men than you!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你那张欺诈之网可捕不到睿智的[OUR_CIV_SHORT]。我可见识过比你还能骗人的家伙！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_WINSTON_CHURCHILL_1</Tag>
+		<English>I have nothing to say to you, you pestilential insect.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我跟你没什么可谈的，你这只散播瘟疫的虫子。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ AUGUSTUS_CAESAR _1</Tag>
+		<English>You shall have peace, [CT_NAME] - the peace of death!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你应该得到安宁，[CT_NAME]_——死后的安宁！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_ BRENNUS _1</Tag>
+		<English>Peace? Don't make me laugh!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和平？别逗了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_HANNIBAL_1</Tag>
+		<English>And why in the world would I want to discuss peace when mighty [OUR_CIV_SHORT] is on the verge of wiping your puny civilization off of the planet?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在这个世界上，为什么我要在强大的[OUR_CIV_SHORT]帝国即将把你这个渺小的文明从这颗星球上抹去的时候，和你谈论可笑的和平？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_JOSEF_STALIN_1</Tag>
+		<English>No! You have made your bed, now you must die in it!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>决不！你自掘坟墓，就应该老老实实地给我躺进去！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_MEHMED_1</Tag>
+		<English>One cannot make peace with a jackal. Now go!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>没人会和骗子讲和的。去死吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_RAGNAR_LODBROK_1</Tag>
+		<English>Peace? Hah! Peace is for the weak and the dead - not for mighty Viking warriors!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和平？哈！和平是向那些虚弱将死之人说的——强大的维京战士们可不听那套！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_RAMESSES_II_1</Tag>
+		<English>Peace now? When my mighty chariots are on the verge of destroying your civilization in its entirety? Don't make me laugh!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>和平？现在？在我的战车即将把你的文明完全摧毁的时候？别逗了！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_SHAKA_1</Tag>
+		<English>Not a chance. The mighty [OUR_CIV_ADJ] people do not care to make peace with cattle-stealing brigands like you. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>别妄想了。强大的[OUR_CIV_ADJ]人民绝对不会同意和你这样的偷牛贼讲和的。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_WANG_KON_1</Tag>
+		<English>There shall be no peace until you are languishing in a [OUR_CIV_ADJ] prison, [CT_NAME]. Get out of here.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>除非把你扔进[OUR_CIV_ADJ]的监狱里，不然我们之间没有和平，[CT_NAME]。滚出去。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_LEADER_WINSTON_CHURCHILL_1</Tag>
+		<English>The [OUR_CIV_ADJ] people shall accept no terms but unconditional surrender, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>[OUR_CIV_ADJ]的人民只会接受无限期并且无条件的投降，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ BRENNUS _1</Tag>
+		<English>We welcome our friend and ally, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们欢迎来自[CT_NAME]的盟友。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HANNIBAL_1</Tag>
+		<English>So you have come, [CT_NAME]? Excellent. It always gives me pleasure to speak with one who is almost my equal.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你来了么，[CT_NAME]？太好了。和平起平坐的人讲话就是舒服。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JOSEF_STALIN_1</Tag>
+		<English>Ah, [CT_NAME]. Come to surrender and join our glorious collectivist society, have you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！投降并融入我们的大同社会，如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MEHMED_1</Tag>
+		<English>Welcome, [CT_NAME]. Let us eat figs and sip sherbet and discuss important things.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！让我们吃点无花果，喝点果汁，谈些重要的事情。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_RAGNAR_LODBROK_1</Tag>
+		<English>Greetings, friend [CT_NAME]! Of all the decadent and vulnerable civilizations in the world, yours is one of my favorites! </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]兄弟！在这个世界上众多堕落羸弱的文明中，你最对我的口味！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_RAMESSES_II_1</Tag>
+		<English>Ah, [CT_NAME] - come to bask for a while in my wondrous glory, have you?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>呵，[CT_NAME]– 过来沐浴在我无上荣耀的光辉之下吧，如何？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SHAKA_1</Tag>
+		<English>Welcome, [CT_NAME]. And how is that undefended civilization of your coming along?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！和你一起来的那个不设防文明怎么样？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WANG_KON_1</Tag>
+		<English>We are honored by your visit, [CT_NAME]. Let us speak of many important things.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>您的到来让我们倍感荣幸，[CT_NAME]。让我们谈些重要的事情。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ AUGUSTUS_CAESAR _1</Tag>
+		<English>Greetings, [CT_NAME]! What brings you to mighty [OUR_CIV_SHORT] today? Let's go over to the Coliseum and watch a bunch of prisoners get eaten by wild animals, shall we? </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！什么风把你给吹到[OUR_CIV_SHORT]了？让我们去竞技场观看角斗士们被野兽吃掉的表演吧，好么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WINSTON_CHURCHILL_1</Tag>
+		<English>Greetings, [CT_NAME]! Let us have tea and crumpets and divide the world between us.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>还好么，[CT_NAME]！我们先喝杯茶，吃点东西，再来讨论瓜分世界吧。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ BRENNUS _1</Tag>
+		<English>Speak your piece, [CT_NAME], and then be gone!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>有话直说，[CT_NAME]，说完好去办事儿！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HANNIBAL_1</Tag>
+		<English>This had better be good, [CT_NAME]. I have no time for nonsense.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这是个建议，[CT_NAME]。我没时间跟你绕弯子。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOSEF_STALIN_1</Tag>
+		<English>What do YOU want?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你到底想要什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MEHMED_1</Tag>
+		<English>Speak quickly, [CT_NAME]. Your voice has an unpleasant grating whine that is distasteful to listen to.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快点说，[CT_NAME]。你的声音听起来就像腐朽的窗框，让人很不舒服。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_RAGNAR_LODBROK_1</Tag>
+		<English>Speak quickly, [CT_NAME]. You are stinking up my palace.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快点说，[CT_NAME]。你正在污染我的宫殿。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_RAMESSES_II_1</Tag>
+		<English>Talk quickly and be gone, knave, before I forget myself and turn you into a beetle.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>有话快说，说完赶紧给我走人，贱民，不然我会控制不住把你砸成肉饼。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WANG_KON_1</Tag>
+		<English>Speak quickly, [CT_NAME]. I have little time for your imbecilities. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快点说，[CT_NAME]。我没空理你这个弱智。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WINSTON_CHURCHILL_1</Tag>
+		<English>I have no desire to exchange social pleasantries with you, [CT_NAME]. Why have you come?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我现在不想和你称兄道弟，[CT_NAME]。你来干什么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ AUGUSTUS_CAESAR _1</Tag>
+		<English>Friendship should be rewarded, don't you think? Here's a suggestion.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>友谊需要利益来维持，你觉得呢？这里有份建议。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ BRENNUS _1</Tag>
+		<English>Give 'til it hurts, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>在你想毁约前，履行它，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HANNIBAL_1</Tag>
+		<English>Our continued protection comes at a price, [CT_NAME]. I recommend that you pay it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>要我们延长保护时间可是要收费的，[CT_NAME]。我建议你最好先付帐。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JOSEF_STALIN_1</Tag>
+		<English>It's time for a redistribution of wealth, [CT_NAME]. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>是时候进行财产分割了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MEHMED_1</Tag>
+		<English>How about a small token of appreciation, [CT_NAME]? </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在表示出一点谢意如何，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_RAGNAR_LODBROK_1</Tag>
+		<English>We usually take what we want, [CT_NAME], but in the name of our continued good relations I'll ask for it first.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>以前我们都是想要什么自己去拿，[CT_NAME]，但基于我们之间良好的关系，我们会先询问一下再动手。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_RAMESSES_II_1</Tag>
+		<English>A wise ruler makes sacrifices to gain the good will of the gods, [CT_NAME]. You can start with me.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>一名睿智的领袖应当学会向神灵献祭以祈求赐福，[CT_NAME]。你可以先从我开始。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SHAKA_1</Tag>
+		<English>Give me this, [CT_NAME] and perhaps our two nations can live in peace for a while longer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>把它呈上来，[CT_NAME].这样我们两国之间将拥有一段长期的和平。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WANG_KON_1</Tag>
+		<English>We require some assistance at this time, [CT_NAME]. Will you come to our aid?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我们现在需要一些帮助，[CT_NAME]。你会伸出援手么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WINSTON_CHURCHILL_1</Tag>
+		<English>Perhaps you would care to show your appreciation for our friendship, [CT_NAME]...</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>也许你应该会对我们之间的友谊有一个正确的认识，[CT_NAME]..。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ AUGUSTUS_CAESAR _1</Tag>
+		<English>Hand this over quickly, [CT_NAME], and nobody gets hurt.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>快点交出来，[CT_NAME]，这样没人会受到伤害。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ BRENNUS _1</Tag>
+		<English>I recommend that you give us what we want, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我建议你拿出我们所要的东西，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HANNIBAL_1</Tag>
+		<English>Share the wealth, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>共享财富，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JOSEF_STALIN_1</Tag>
+		<English>Pay up or be destroyed.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>立即交钱，或者立即毁灭。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_RAGNAR_LODBROK_1</Tag>
+		<English>Give us what we want or face our wrath.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们所要的，不然就准备迎接我们的怒火。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_RAMESSES_II_1</Tag>
+		<English>I demand that you give me this tribute.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>我要求你进献贡品。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SHAKA_1</Tag>
+		<English>Unlikely as it may seem, it appears that your puny civilization has something that we want. I suggest you hand it over quickly. </English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>似乎有点不可思议，你这个弱小的文明有一些我们需要的东西。我建议你马上交出来。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WANG_KON_1</Tag>
+		<English>Care to give [OUR_CIV_SHORT] a small token of friendship, [CT_NAME]?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>向[OUR_CIV_SHORT]表示出一点友谊很难么，[CT_NAME]？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WINSTON_CHURCHILL_1</Tag>
+		<English>Give us this one small thing, [CT_NAME], and you shall earn [OUR_CIV_SHORT]'s gratitude tenfold. That's quite a bargain, don't you agree?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们这点微不足道的东西，[CT_NAME]，你将在以后获得[OUR_CIV_SHORT]十倍的酬谢。这是份很好的协议，不是么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ AUGUSTUS_CAESAR _1</Tag>
+		<English>Here's what we want, [CT_NAME]. Shall you give it to us now or would you prefer me to send my legions to [CT_CIV_SHORT] to pick it up?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>这些就是我们要的东西，[CT_NAME]。你是现在就给我们呢？还是邀请我们的军团亲自去[CT_CIV_SHORT]那里取？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ BRENNUS _1</Tag>
+		<English>Pay now or pay tenfold later, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>现在就答应，或者以后我们收十倍的利息，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HANNIBAL_1</Tag>
+		<English>Give us what we want and perhaps we'll let your puny civilization survive for a while longer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交出我们需要的东西，也许我们会让你这个渺小的文明能够再多活两天。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JOSEF_STALIN_1</Tag>
+		<English>Give us what we want or suffer the consequences.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>给我们所要的，不然就承受拒绝的结果。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MEHMED_1</Tag>
+		<English>If you want our continued friendship,[CT_NAME], you'll have to pay for it.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>如果你还想维持目前的友谊，[CT_NAME]，你必须付出些代价。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_RAGNAR_LODBROK_1</Tag>
+		<English>Give us this or die.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交给我们，不然就去死。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_RAMESSES_II_1</Tag>
+		<English>Give this to me immediately or face my divine wrath!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>马上交给我们，不然就准备面对神怒吧！</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SHAKA_1</Tag>
+		<English>Hand this over, [CT_NAME], and I might let you continue to exist for a short while longer.</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>交出来，[CT_NAME]，我会看在它的份上让你再多活两天。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WANG_KON_1</Tag>
+		<English>Time to pay it forward, [CT_NAME].</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>该是结帐的时候了，[CT_NAME]。</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WINSTON_CHURCHILL_1</Tag>
+		<English>You have something we need, [CT_NAME]. Isn't it NICE to be needed?</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你有我们想要的东西，[CT_NAME]。独占它是“好事”么？</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MONTEZUMA_1_CORRECTED</Tag>
+		<English>Your weakness is contemptible, [CT_NAME]! Give us what we want or perish!</English>
+<L1 /><L2 /><L3 /><L4 />
+		<Chinese>你弱小得令人不屑一顾，[CT_NAME]！交出我们想要的东西，不然就消失吧！</Chinese>
+	</TEXT>
+</Civ4GameText>

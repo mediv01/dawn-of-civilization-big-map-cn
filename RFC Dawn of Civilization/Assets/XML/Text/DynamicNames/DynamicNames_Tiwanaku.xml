@@ -1,59 +1,59 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2¸ïÃüÁª°î</Chinese>
+		<Chinese>%s2é©å‘½è”é‚¦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TIWANAKU_SISQENO_HELP</Tag>
 		<English>[ICON_BULLET]+1 [COLOR_UNIT_TEXT]Great Prophet Points[COLOR_REVERT] per turn in the capital when stationed in a foreign city</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µ±×¤ÔúÔÚÍâ¹ú³ÇÊĞÊ±Ê×¶¼Ã¿»ØºÏ[ICON_BULLET]+1[COLOR_UNIT_TEXT]´óÔ¤ÑÔ¼Òµã[COLOR_REVERT]</Chinese>
+		<Chinese>å½“é©»æ‰åœ¨å¤–å›½åŸå¸‚æ—¶é¦–éƒ½æ¯å›åˆ[ICON_BULLET]+1[COLOR_UNIT_TEXT]å¤§é¢„è¨€å®¶ç‚¹[COLOR_REVERT]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_DEFAULT</Tag>
 		<English>Kingdom of Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÙÍßÄÉ¿âÍõ¹ú</Chinese>
+		<Chinese>è’‚ç“¦çº³åº“ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW1</Tag>
 		<English>Build the Gate of Sun and settle a Great Prophet in your capital by 900 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª900ÄêÇ°½¨³ÉÌ«ÑôÖ®ÃÅ²¢ÔÚÊ×¶¼Èë×¤Ò»Î»´óÔ¤ÑÔ¼Ò</Chinese>
+		<Chinese>å…¬å…ƒ900å¹´å‰å»ºæˆå¤ªé˜³ä¹‹é—¨å¹¶åœ¨é¦–éƒ½å…¥é©»ä¸€ä½å¤§é¢„è¨€å®¶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW2</Tag>
 		<English>Have two cities with refined culture by 1000 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1000ÄêÇ°ÓµÓĞ2×ù³ÇÊĞwith refined culture</Chinese>
+		<Chinese>å…¬å…ƒ1000å¹´å‰æ‹¥æœ‰2åº§åŸå¸‚with refined culture</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MALKU_HUYUSTUS</Tag>
 		<English>Malku Huyustus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÙÍßÄÉ¿â-Âí¿âºúÓÈË¹Í¼Ë¹</Chinese>
+		<Chinese>è’‚ç“¦çº³åº“-é©¬åº“èƒ¡å°¤æ–¯å›¾æ–¯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_DESC</Tag>
 		<English>The Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÙÍßÄÉ¿âÎÄÃ÷</Chinese>
+		<Chinese>è’‚ç“¦çº³åº“æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_SHORT_DESC</Tag>
 		<English>Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÙÍßÄÉ¿â</Chinese>
+		<Chinese>è’‚ç“¦çº³åº“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW3_TITLE</Tag>
 		<English>The Splendor of Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÌáÍßÄÉ¿âµÄ»Ô»Í</Chinese>
+		<Chinese>æç“¦çº³åº“çš„è¾‰ç…Œ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TIWANAKU_KALASASAYA</Tag>
@@ -65,31 +65,31 @@
 		<Tag>TXT_KEY_UHV_TIW2_TITLE</Tag>
 		<English>The Multi-Cultural Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¶àÎÄ»¯µÛ¹ú</Chinese>
+		<Chinese>å¤šæ–‡åŒ–å¸å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_ADJECTIVE</Tag>
 		<English>Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>µÙÍßÄÉ¿â</Chinese>
+		<Chinese>è’‚ç“¦çº³åº“</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TIW_TITLE</Tag>
 		<English>The Power of Hospitality:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÈÈÇéºÃ¿Í£º</Chinese>
+		<Chinese>çƒ­æƒ…å¥½å®¢ï¼š</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TIWANAKU</Tag>
 		<English>It is the year 110 AD. As the invention of ceramics strengthens existing trade routes, the pilgrimige site of Tiwanaku begins growing into a true city and the first great regional power since the fall of the Norte Chican Civilization. With an economy built on the seasonal swelling of visitors from far and wide, the city of Tiwanaku is primed to grow into an empire of great fame and glory.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª110Äê¡£Ëæ×ÅÌÕ´ÉµÄ·¢Ã÷¼ÓÇ¿ÁËÏÖÓĞµÄÃ³Ò×Â·Ïß£¬µÙÍßÄÉ¿â³¯Ê¥µØ¿ªÊ¼³É³¤ÎªÒ»¸öÕæÕıµÄ³ÇÊĞºÍ×Ô±±Æõ¿¨ÎÄÃ÷Ë¥ÂäÒÔÀ´µÚÒ»¸öÇ¿´óµÄµØÇøÁ¦Á¿¡£Ëæ×ÅÀ´×ÔËÄÃæ°Ë·½µÄÓÎ¿ÍµÄ¼¾½ÚĞÔÔö³¤£¬µÙÍßÄÉ¿âÊĞµÄ¾­¼Ã½«·¢Õ¹³ÉÎªÒ»¸öÏíÓĞÊ¢ÃûºÍÈÙÒ«µÄµÛ¹ú¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ110å¹´ã€‚éšç€é™¶ç“·çš„å‘æ˜åŠ å¼ºäº†ç°æœ‰çš„è´¸æ˜“è·¯çº¿ï¼Œè’‚ç“¦çº³åº“æœåœ£åœ°å¼€å§‹æˆé•¿ä¸ºä¸€ä¸ªçœŸæ­£çš„åŸå¸‚å’Œè‡ªåŒ—å¥‘å¡æ–‡æ˜è¡°è½ä»¥æ¥ç¬¬ä¸€ä¸ªå¼ºå¤§çš„åœ°åŒºåŠ›é‡ã€‚éšç€æ¥è‡ªå››é¢å…«æ–¹çš„æ¸¸å®¢çš„å­£èŠ‚æ€§å¢é•¿ï¼Œè’‚ç“¦çº³åº“å¸‚çš„ç»æµå°†å‘å±•æˆä¸ºä¸€ä¸ªäº«æœ‰ç››åå’Œè£è€€çš„å¸å›½ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2¸ïÃüÕş¸®</Chinese>
+		<Chinese>%s2é©å‘½æ”¿åºœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW1_TITLE</Tag>
@@ -101,30 +101,30 @@
 		<Tag>TXT_KEY_UHV_TIW3</Tag>
 		<English>Experiece two golden ages by 1100 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹«Ôª1100ÄêÇ°¾­Àú2´Î»Æ½ğÊ±´ú</Chinese>
+		<Chinese>å…¬å…ƒ1100å¹´å‰ç»å†2æ¬¡é»„é‡‘æ—¶ä»£</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TIWANAKU_SISQENO</Tag>
 		<English>Sisqeno</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ï£Ë¹»ùÅµ</Chinese>
+		<Chinese>å¸Œæ–¯åŸºè¯º</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TIWANAKU_600</Tag>
 		<English>It is the year 600 AD. The Tiwanaku Empire is in the middle of a cold war with their northern neighbors...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÏÖÔÚÊÇ¹«Ôª600Äê¡£ÌáÍßÄÉ¿âµÛ¹úÕı´¦ÓÚÓë±±·½ÁÚ¹úµÄÀäÕ½ÖĞ¡£¡£¡£</Chinese>
+		<Chinese>ç°åœ¨æ˜¯å…¬å…ƒ600å¹´ã€‚æç“¦çº³åº“å¸å›½æ­£å¤„äºä¸åŒ—æ–¹é‚»å›½çš„å†·æˆ˜ä¸­ã€‚ã€‚ã€‚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TIW</Tag>
 		<English>Extra Production in the Capital. +1 Priest Slot from Pagan Temples.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ê×¶¼Ìá¹©¶îÍâ²úÄÜ£»Ô­Ê¼ÉñÃí+1ÉñÑ§¼Ò²Û</Chinese>
+		<Chinese>é¦–éƒ½æä¾›é¢å¤–äº§èƒ½ï¼›åŸå§‹ç¥åº™+1ç¥å­¦å®¶æ§½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°²µÚË¹ÈË</Chinese>
+		<Chinese>å®‰ç¬¬æ–¯äºº</Chinese>
 	</TEXT>
 </Civ4GameText>

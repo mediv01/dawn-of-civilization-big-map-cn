@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_EGYPT</Tag>
 		<English>Egypt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°£¼°</Chinese>
+		<Chinese>åŸƒåŠ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_DESC</Tag>
 		<English>The Mamluks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÄÂÂ³¿ËÎÄÃ÷</Chinese>
+		<Chinese>é©¬ç©†é²å…‹æ–‡æ˜Ž</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_PEOPLES</Tag>
 		<English>Fatimid peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¨µÙÂêÈË</Chinese>
+		<Chinese>æ³•è’‚çŽ›äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_ADJECTIVE</Tag>
 		<English>Mamluk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÄÂÂ³¿Ë</Chinese>
+		<Chinese>é©¬ç©†é²å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_FATIMID</Tag>
 		<English>Fatimid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·¨µÙÂê</Chinese>
+		<Chinese>æ³•è’‚çŽ›</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_DEFAULT</Tag>
 		<English>%s1 Caliphate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1¹þÀï·¢</Chinese>
+		<Chinese>%s1å“ˆé‡Œå‘</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_AYYUBID</Tag>
 		<English>Ayyubid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°¢ÓÈ²¼</Chinese>
+		<Chinese>é˜¿å°¤å¸ƒ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_SHORT_DESC</Tag>
 		<English>Mamluks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÄÂÂ³¿Ë</Chinese>
+		<Chinese>é©¬ç©†é²å…‹</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAMLUKS_MAMLUK</Tag>
 		<English>Mamluk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂíÄÂÂ³¿Ë</Chinese>
+		<Chinese>é©¬ç©†é²å…‹</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -1,52 +1,52 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_DESC</Tag>
 		<English>The Brazilians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷ÎÄÃ÷</Chinese>
+		<Chinese>å·´è¥¿æ–‡æ˜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_SHORT_DESC</Tag>
 		<English>Brazil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷</Chinese>
+		<Chinese>å·´è¥¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZILIAN_ARGENTINA</Tag>
 		<English>Transplatine Province</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>À­¶¡ÁªÊ¡</Chinese>
+		<Chinese>æ‹‰ä¸è”çœ</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_PEOPLES</Tag>
 		<English>Brazilian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷ÈË</Chinese>
+		<Chinese>å·´è¥¿äºº</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_ADJECTIVE</Tag>
 		<English>Brazilian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÍÎ÷</Chinese>
+		<Chinese>å·´è¥¿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_REPUBLIC</Tag>
 		<English>Federative Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Áª°î¹²ºÍ¹ú</Chinese>
+		<Chinese>%s1è”é‚¦å…±å’Œå›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Íõ¹ú</Chinese>
+		<Chinese>%s1ç‹å›½</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BRAZIL_FASCIST</Tag>
 		<English>United States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1ºÏÖÚ¹ú</Chinese>
+		<Chinese>%s1åˆä¼—å›½</Chinese>
 	</TEXT>
 </Civ4GameText>

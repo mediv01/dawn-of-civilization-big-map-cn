@@ -1,52 +1,52 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_DESC</Tag>
 		<English>The Manchurians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>女真文明</Chinese>
+		<Chinese>濂崇湡鏂囨槑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_DEFAULT</Tag>
 		<English>Empire of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>%s1甯濆浗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_CHONGZHEN</Tag>
 		<English>Chongzhen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>女真</Chinese>
+		<Chinese>濂崇湡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_FASCIST</Tag>
 		<English>Nation of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>%s1鍐涙斂搴�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_ADJECTIVE</Tag>
 		<English>Manchurian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>女真</Chinese>
+		<Chinese>濂崇湡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_SHORT_DESC</Tag>
 		<English>Manchuria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>女真</Chinese>
+		<Chinese>濂崇湡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_PEOPLES</Tag>
 		<English>Jurchen Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>女真人</Chinese>
+		<Chinese>濂崇湡浜�</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MANCHURIA_QING</Tag>
 		<English>the Great Qing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>大清</Chinese>
+		<Chinese>澶ф竻</Chinese>
 	</TEXT>
 </Civ4GameText>

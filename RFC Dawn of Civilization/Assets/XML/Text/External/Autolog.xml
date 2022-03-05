@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYBORDERS_HOVER</Tag>
 		<English>When checked, will log when one of your city's borders expand.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ������ĳ�����еı߽�չ��ʱ��¼��</Chinese>
+		<Chinese>选中时，将在某个城市的边界展开时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILENAME_HOVER</Tag>
 		<English>Name of log file. If there is no file of this name in the directory above, one will be created.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��־�ļ������ơ���������Ŀ¼��û�д����Ƶ��ļ���������һ����</Chinese>
+		<Chinese>日志文件的名称。如果上面的目录中没有此名称的文件，将创建一个。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHILE_ATTACKING_DECIMATES</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_AUTOLOG_NEAR</Tag>
 		<English>[SPACE]near %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[SPACE]���� %s1</Chinese>
+		<Chinese>[SPACE]靠近 %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHILE_ATTACKING_ESCAPES</Tag>
@@ -35,7 +35,7 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__4000BC_HOVER</Tag>
 		<English>Select which turn number 4000BC should be.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��4000BC��������</Chinese>
+		<Chinese>选择4000BC的匝数。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND</Tag>
@@ -47,25 +47,25 @@
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_REMOVED_OUT</Tag>
 		<English>%s1 has been removed: %s2 (%s3)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���Ƴ�: %s2 (%s3)</Chinese>
+		<Chinese>%s1 被移除: %s2 (%s3)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CORP_REMOVED_OUT</Tag>
 		<English>%s1 has been removed: %s2 (%s3)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���Ƴ�: %s2 (%s3)</Chinese>
+		<Chinese>%s1 被移除: %s2 (%s3)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTECH_HOVER</Tag>
 		<English>When checked, will log techs acquired and research started.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼��ȡ�ļ�������ʼ�о���</Chinese>
+		<Chinese>勾选后，将记录获取的技术并开始研究。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_STRONGHOSTILES</Tag>
 		<English>strong hostiles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ǿ��ĵ���</Chinese>
+		<Chinese>强大的敌人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_PEACE_OFFER</Tag>
@@ -77,25 +77,25 @@
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_WEAKHOSTILES</Tag>
 		<English>weak hostiles</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��С�ĵ���</Chinese>
+		<Chinese>弱小的敌人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCOMBAT_TEXT</Tag>
 		<English>Combat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ս��</Chinese>
+		<Chinese>战斗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_GP_BORN</Tag>
 		<English>%s1 born in %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������ %s2</Chinese>
+		<Chinese>%s1 出生在 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_EXPANDED</Tag>
 		<English>%s1's borders expand</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1's �߽���չ��</Chinese>
+		<Chinese>%s1's 边界拓展了</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VASSAL_REVOLTS</Tag>
@@ -107,7 +107,7 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGIONDEMAND_HOVER</Tag>
 		<English>When checked, will log AI demands that you change religion and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬻��¼�˹�����Ҫ����ı��ڽ̺���ķ�Ӧ��</Chinese>
+		<Chinese>勾选后，会记录人工智能要求你改变宗教和你的反应。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_GIFT_REJECT</Tag>
@@ -119,43 +119,43 @@
 		<Tag>TXT_KEY_AUTOLOG_GOLDENAGE_ENDS</Tag>
 		<English>Golden Age ends</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ƽ�ʱ������</Chinese>
+		<Chinese>黄金时代结束</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_LOTSOFGOLD</Tag>
 		<English>lots of gold</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ܶ����</Chinese>
+		<Chinese>很多金子</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGOODIES_HOVER</Tag>
 		<English>When checked, will log results from popping tribal villages.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������������¼�����ׯ��ը�Ľ����</Chinese>
+		<Chinese>如果检查过，会记录部落村庄爆炸的结果。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_GROWS</Tag>
 		<English>%s1 grows to size %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������ %d2 ��ģ</Chinese>
+		<Chinese>%s1 增长到 %d2 规模</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_ENTER_LOG_NAME</Tag>
 		<English>Enter new or existing log file name</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����µĻ����е���־�ļ���</Chinese>
+		<Chinese>输入新的或现有的日志文件名</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILENAME_TEXT</Tag>
 		<English>File</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ļ�</Chinese>
+		<Chinese>文件</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_LOST</Tag>
 		<English>%s1 lost</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ��ʧ</Chinese>
+		<Chinese>%s1 丢失</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_HELP_OFFER</Tag>
@@ -167,25 +167,25 @@
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_MAP</Tag>
 		<English>map</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ͼ</Chinese>
+		<Chinese>地图</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_RAZED_BY</Tag>
 		<English>%s1 razed by %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ɾ�� by %s2</Chinese>
+		<Chinese>%s1 删除 by %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_FIRST_CONTACT_TEAM</Tag>
 		<English>Team contact made: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ŶӽӴ��Ѵ���: %s1</Chinese>
+		<Chinese>团队接触已创建: %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYFOUNDED_TEXT</Tag>
 		<English>City Founded</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��������</Chinese>
+		<Chinese>创建城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHILE_DEFENDING_DEFEATS</Tag>
@@ -197,49 +197,49 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCONTACT_HOVER</Tag>
 		<English>When checked, will log first contact with other civs.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼������CIV���״���ϵ��</Chinese>
+		<Chinese>勾选后，将记录与其他CIV的首次联系。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_FLIPPED</Tag>
 		<English>%s1 (%s2) culture flips</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 (%s2) �Ļ���ת</Chinese>
+		<Chinese>%s1 (%s2) 文化翻转</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CIVIC_CHANGE</Tag>
 		<English>Civics Change: %s1 from '%s2' to '%s3'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��������: %s1 from '%s2' to '%s3'</Chinese>
+		<Chinese>文明更替: %s1 from '%s2' to '%s3'</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__ENABLED_HOVER</Tag>
 		<English>When checked, various game events are logged to a text file using eotinb's AutoLog mod.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ��������Ϸ�¼���ʹ��eotinb��AutoLog mod��¼���ı��ļ��С�</Chinese>
+		<Chinese>选中时，各种游戏事件将使用eotinb的AutoLog mod记录到文本文件中。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGION_TEXT</Tag>
 		<English>Religions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڽ�</Chinese>
+		<Chinese>宗教</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROMOTIONS_HOVER</Tag>
 		<English>When checked, will log when you promote one of your units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ������һ����Ԫʱ����¼��</Chinese>
+		<Chinese>选中时，升级一个单元时将记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_FOUNDED</Tag>
 		<English>%s1 founded</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������</Chinese>
+		<Chinese>%s1 被发现</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND</Tag>
 		<English>Diplomacy (Embargo Request): %s1 (%s2) asks %s3 (%s4) to stop trading with %s5 (%s6)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻ (ó�׽���): %s1 (%s2) Ҫ�� %s3 (%s4) ֹͣó��with %s5 (%s6)</Chinese>
+		<Chinese>外交 (贸易禁令): %s1 (%s2) 要求 %s3 (%s4) 停止贸易with %s5 (%s6)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT</Tag>
@@ -251,25 +251,25 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICDEMAND_HOVER</Tag>
 		<English>When checked, will log AI demands that you change civics and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬻��¼�˹�����Ҫ����ı乫�����Ļ�Ӧ��</Chinese>
+		<Chinese>勾选后，会记录人工智能要求你改变公民和你的回应。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT_DESTROYED_BY_GOLD</Tag>
 		<English>[SPACE]was destroyed by %s1 %s2 (%d3 gold)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[SPACE]���ݻ� by %s1 %s2 (%d3 gold)</Chinese>
+		<Chinese>[SPACE]被摧毁 by %s1 %s2 (%d3 gold)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWAR_TEXT</Tag>
 		<English>War</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ս��</Chinese>
+		<Chinese>战争</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGATTITUDE_HOVER</Tag>
 		<English>When checked, will log any change in attitude between civs known to you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����飬����¼�κθı�֮���̬������֮��֪���㡣</Chinese>
+		<Chinese>当检查，将记录任何改变之间的态度文明之间知道你。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_AD</Tag>
@@ -281,31 +281,31 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDCOMPLETED_HOVER</Tag>
 		<English>When checked, will log when a city completes a build.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ�����ڳ����������ʱ��¼��</Chinese>
+		<Chinese>选中时，将在城市完成生成时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYRAZED_TEXT</Tag>
 		<English>City Razed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���б���Ϊƽ��</Chinese>
+		<Chinese>城市被夷为平地</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IN_TERRITORY_AT</Tag>
 		<English>%s1 at %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �� %s2</Chinese>
+		<Chinese>%s1 在 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_TECH_RESEARCHED</Tag>
 		<English>Tech research finished: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����о������: %s1</Chinese>
+		<Chinese>技术研究已完成: %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_BATTLE_STATS</Tag>
 		<English>Battle Stats:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ս��ͳ�ƣ�</Chinese>
+		<Chinese>战斗统计：</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_GIFT_CANCEL</Tag>
@@ -317,97 +317,97 @@
 		<Tag>TXT_KEY_AUTOLOG_OTHER_PLAYER_ACTIONS</Tag>
 		<English>Other Player Actions:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������Ҷ�����</Chinese>
+		<Chinese>其他玩家动作：</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWARDEMAND_TEXT</Tag>
 		<English>Declare War</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ս</Chinese>
+		<Chinese>宣战</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_TECH</Tag>
 		<English>technology</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>技术</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT</Tag>
 		<English>; %s1 REFUSES.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>; %s1 �ܾ�</Chinese>
+		<Chinese>; %s1 拒绝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_CAPTURED</Tag>
 		<English>Captured %s1 (%s2)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���� %s1 (%s2)</Chinese>
+		<Chinese>捕获 %s1 (%s2)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND</Tag>
 		<English>Diplomacy (Civic Request): %s1 (%s2) asks %s3 (%s4) to switch to %s5</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻ (����Ҫ��): %s1 (%s2) Ҫ�� %s3 (%s4) �ƽ��� %s5</Chinese>
+		<Chinese>外交 (文明要求): %s1 (%s2) 要求 %s3 (%s4) 移交给 %s5</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_HOVER</Tag>
 		<English>The format of the log output.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��־����ĸ�ʽ��</Chinese>
+		<Chinese>日志输出的格式。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_FINISH_PROJECT</Tag>
 		<English>%s1 finishes: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���: %s2</Chinese>
+		<Chinese>%s1 完成: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CIV_ELIMINATED</Tag>
 		<English>%s1 has been eliminated</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �Ѿ�������</Chinese>
+		<Chinese>%s1 已经被消灭！</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CORP_SPREAD_OUT</Tag>
 		<English>%s1 has spread: %s2 (%s3)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �Ѿ�����: %s2 (%s3)</Chinese>
+		<Chinese>%s1 已经传播: %s2 (%s3)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGIMPROVEMENTS_TEXT</Tag>
 		<English>Improvements</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�Ľ�</Chinese>
+		<Chinese>改进</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYOWNER_TEXT</Tag>
 		<English>City Ownership</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��������Ȩ</Chinese>
+		<Chinese>城市所有权</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_CITY_OFFER</Tag>
 		<English>Diplomacy: %s1 (%s2) offers to give the city %s3 to %s4 (%s5)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻: %s1 (%s2) ���㽫���� %s3 �ƽ��� %s4 (%s5)</Chinese>
+		<Chinese>外交: %s1 (%s2) 打算将城市 %s3 移交给 %s4 (%s5)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILEPATH_HOVER</Tag>
 		<English>Directory where log file resides (fully qualified path, i.e. C:\folder\subfolder or blank).</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��־�ļ����ڵ�Ŀ¼����ȫ�޶�·������C:\�ļ���\���ļ��л�հף���</Chinese>
+		<Chinese>日志文件所在的目录（完全限定路径，即C:\文件夹\子文件夹或空白）。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_CHANGE</Tag>
 		<English>State Religion Change: %s1 from '%s2' to '%s3'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����ڽ̸���: %s1 from '%s2' to '%s3'</Chinese>
+		<Chinese>国家宗教更改: %s1 from '%s2' to '%s3'</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_WORKER</Tag>
 		<English>worker</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>工人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_UNITS_VICTORIOUS_DEFENDING</Tag>
@@ -419,13 +419,13 @@
 		<Tag>TXT_KEY_AUTOLOG_COMMERCE_OTHER_SLIDERS</Tag>
 		<English>%d1%% %s2: %d3 per turn</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%d1%% %s2: %d3 ÿ�غ�</Chinese>
+		<Chinese>%d1%% %s2: %d3 每回合</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEALL_HOVER</Tag>
 		<English>When checked, will log all AI-initiated trade offers and demands along with your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�����˹����ܷ���Ľ��ױ��ۺ�Ҫ���Լ����Ļظ���</Chinese>
+		<Chinese>勾选后，将记录所有人工智能发起的交易报价和要求以及您的回复。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND</Tag>
@@ -437,25 +437,25 @@
 		<Tag>TXT_KEY_AUTOLOG_TECH_ACQUIRED</Tag>
 		<English>Tech acquired (trade, lightbulb, hut, espionage): %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��õļ�����ó�ס����ݡ�С�ݡ��������: %s1</Chinese>
+		<Chinese>获得的技术（贸易、灯泡、小屋、间谍）：: %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_SETTLER</Tag>
 		<English>settler</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������</Chinese>
+		<Chinese>定居者</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_SPREAD_OUT</Tag>
 		<English>%s1 has spread: %s2 (%s3)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������: %s2 (%s3)</Chinese>
+		<Chinese>%s1 已扩张: %s2 (%s3)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCOMBAT_HOVER</Tag>
 		<English>When checked, will log combat results involving your units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼��Ĳ��ӵ�ս�������</Chinese>
+		<Chinese>勾选后，将记录你的部队的战斗结果。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_UNITS_DEFEATED_DEFENDING</Tag>
@@ -467,49 +467,49 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGP_HOVER</Tag>
 		<English>When checked, will log the birth of great people (in your cities).</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����飬����¼ΰ������ĳ���������ĳ��У���</Chinese>
+		<Chinese>如果检查，将记录伟大人物的出生（在你的城市）。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__SILENT_TEXT</Tag>
 		<English>Start Automatically</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�Զ�����</Chinese>
+		<Chinese>自动启动</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CORP_REMOVED_IN</Tag>
 		<English>%s1 has been removed: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���Ƴ� %s2</Chinese>
+		<Chinese>%s1 被移除 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWAR_HOVER</Tag>
 		<English>When checked, will log start and end of wars between civs known to you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����飬����¼ս���Ŀ�ʼ�ͽ���֮�������֪���㡣</Chinese>
+		<Chinese>当检查，将记录战争的开始和结束之间的文明知道你。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_PROMOTION</Tag>
 		<English>%s1 promoted: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ����: %s2</Chinese>
+		<Chinese>%s1 升级: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYFOUNDED_HOVER</Tag>
 		<English>When checked, will log when you found a city.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���ѡ�У��������ҵ�����ʱ��¼��</Chinese>
+		<Chinese>如果选中，将在您找到城市时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCORPORATION_TEXT</Tag>
 		<English>Corporations</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��˾</Chinese>
+		<Chinese>公司</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DRAFT_ANGER_DECREASED</Tag>
 		<English>Draft anger has decreased in %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ŭ�������� in %s1</Chinese>
+		<Chinese>愤怒正在消减 in %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHILE_DEFENDING_LOSES</Tag>
@@ -521,79 +521,79 @@
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_REMOVED_IN</Tag>
 		<English>%s1 has been removed: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���Ƴ�: %s2</Chinese>
+		<Chinese>%s1 被移除: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICS_TEXT</Tag>
 		<English>Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_SPREAD_IN</Tag>
 		<English>%s1 has spread: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������: %s2</Chinese>
+		<Chinese>%s1 已扩张: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_JUST_OFF_SHORE</Tag>
 		<English>just off shore</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���ڰ���</Chinese>
+		<Chinese>就在岸边</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IN_THE_WILD</Tag>
 		<English>in the wild</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��Ұ��</Chinese>
+		<Chinese>在野外</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_PRODUCES_BUILDING</Tag>
 		<English>%s1 begins: %s2 (%d3 turns)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ��ʼ: %s2 (%d3 �غ�)</Chinese>
+		<Chinese>%s1 开始: %s2 (%d3 回合)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT_UNKNOWN</Tag>
 		<English>An improvement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�Ľ�</Chinese>
+		<Chinese>改进</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_GOLDENAGE_BEGINS</Tag>
 		<English>Golden Age begins</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ƽ�ʱ����ʼ</Chinese>
+		<Chinese>黄金时代开始</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_ANOTHER_CIV_ELIMINATED</Tag>
 		<English>Another civilization has been eliminated</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��һ��������������</Chinese>
+		<Chinese>另一个文明被消灭了</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYOWNER_HOVER</Tag>
 		<English>When checked, will log when you acquire or lose a city through conquest or trade.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬵���ͨ��������ó�׻�û�ʧȥһ������ʱ����¼��</Chinese>
+		<Chinese>勾选后，当您通过征服或贸易获得或失去一个城市时将记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__DEFAULTFILENAME_HOVER</Tag>
 		<English>When checked, the default (playername.txt) will be used, ignores log file name option.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ����ʹ��Ĭ��ֵ��playername.txt����������־�ļ���ѡ�</Chinese>
+		<Chinese>选中时，将使用默认值（playername.txt），忽略日志文件名选项。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_LITTLEGOLD</Tag>
 		<English>a little gold</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>һ�����</Chinese>
+		<Chinese>一点金子</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__PREFIX_HOVER</Tag>
 		<English>Used as a prefix before custom entries in the log (use [ALT + E]), e.g. your nick.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������־���Զ�����֮ǰ��ǰ׺��ʹ��[ALT+E]��������������ˡ�</Chinese>
+		<Chinese>用作日志中自定义项之前的前缀（使用[ALT+E]），例如您的尼克。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_TURN</Tag>
@@ -605,31 +605,31 @@
 		<Tag>TXT_KEY_AUTOLOG_NO_STATE_RELIGION</Tag>
 		<English>no State Religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>û�й����ڽ�</Chinese>
+		<Chinese>没有国家宗教</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_FINISH_BUILDING</Tag>
 		<English>%s1 finishes: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���: %s2</Chinese>
+		<Chinese>%s1 完成: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGEMBARGODEMAND_HOVER</Tag>
 		<English>When checked, will log AI requests to stop trading with a third party and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�˹�����������ֹͣ����������׺����Ļ�Ӧ��</Chinese>
+		<Chinese>勾选后，将记录人工智能请求，以停止与第三方交易和您的回应。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGA_TEXT</Tag>
 		<English>Golden Age</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ƽ�ʱ��</Chinese>
+		<Chinese>黄金时代</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYGROWTH_HOVER</Tag>
 		<English>When checked, will log when one of your cities grows in population.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�����ڳ��е��˿����������</Chinese>
+		<Chinese>勾选后，将记录您所在城市的人口增长情况。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__PREFIX_TEXT</Tag>
@@ -641,49 +641,49 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICDEMAND_TEXT</Tag>
 		<English>Change Civics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ı�����</Chinese>
+		<Chinese>改变文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_DEAL_OFFER</Tag>
 		<English>Diplomacy: %s1 (%s2) offers to trade %s3 to %s4 (%s5) for %s6</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻: %s1 (%s2) �ṩó�� %s3 to %s4 (%s5) for %s6</Chinese>
+		<Chinese>外交: %s1 (%s2) 提供贸易 %s3 to %s4 (%s5) for %s6</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DISTANT_LAND</Tag>
 		<English>a distant land</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ңԶ������</Chinese>
+		<Chinese>遥远的土地</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT</Tag>
 		<English>Tribal village results: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����ׯ�����%s1</Chinese>
+		<Chinese>部落村庄结果：%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT_DESTROYED_BY_NOGOLD</Tag>
 		<English>[SPACE]was destroyed by %s1 %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[SPACE]���ݻ� by %s1 %s2</Chinese>
+		<Chinese>[SPACE]被摧毁 by %s1 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGVASSALS_TEXT</Tag>
 		<English>Vassal States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ӹ��</Chinese>
+		<Chinese>附庸国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__IBT_TEXT</Tag>
 		<English>Show IBT</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ʾIBT</Chinese>
+		<Chinese>显示IBT</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_POPUP_ANSWERS</Tag>
 		<English>OK for YES, Cancel for NO</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���� ѡ YES, ȡ�� ѡ NO</Chinese>
+		<Chinese>继续 选 YES, 取消 选 NO</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_UNITS_WITHDRAWING_ATTACKING</Tag>
@@ -695,25 +695,25 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROJECTS_HOVER</Tag>
 		<English>When checked, will log completion of projects (certain wonders are technically projects -- other wonders are treated like normal buildings).</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���󣬽���¼��Ŀ����������ĳЩ����ڼ���������Ŀ�������������Ϊ������������</Chinese>
+		<Chinese>检查后，将记录项目的完成情况（某些奇观在技术上是项目，其他奇观则被视为正常建筑）。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_BATTLE_STATS_WRITTEN</Tag>
 		<English>Battle stats written to log and reset</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>д����־������</Chinese>
+		<Chinese>写入日志并重置</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_FIRST_CONTACT_PLAYER</Tag>
 		<English>Player contact made: %s1 of %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ҽӴ��Ѿ�: %s1 of %s2</Chinese>
+		<Chinese>玩家接触已经: %s1 of %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGVASSALS_HOVER</Tag>
 		<English>When checked, will log when any civ becomes a vassal state of or frees itself from another.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����ѡ��ʱ�����κι����Ϊ��һ�����ҵĸ�ӹ�������һ�����ҽ�ų���ʱ������¼�ڰ���</Chinese>
+		<Chinese>当被选中时，当任何公民成为另一个国家的附庸国或从另一个国家解放出来时，将记录在案。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_BC</Tag>
@@ -725,25 +725,25 @@
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_HEALING</Tag>
 		<English>healing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ָ�</Chinese>
+		<Chinese>恢复</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_RESEARCH_BEGUN</Tag>
 		<English>Research begun: %s1 (%d2 Turns)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�о���ʼʱ��: %s1 (%d2 Turns)</Chinese>
+		<Chinese>研究开始时间: %s1 (%d2 Turns)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDCOMPLETED_TEXT</Tag>
 		<English>Builds Completed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�������</Chinese>
+		<Chinese>建筑完成</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DECLARES_WAR</Tag>
 		<English>%s1 declares war on %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �� %s2 ��ս�ˣ�</Chinese>
+		<Chinese>%s1 向 %s2 宣战了！</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHIP_ANGER_DECREASED</Tag>
@@ -761,7 +761,7 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__COLORCODING_TEXT</Tag>
 		<English>Color Coding</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ɫ����</Chinese>
+		<Chinese>颜色编码</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND</Tag>
@@ -773,103 +773,103 @@
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT</Tag>
 		<English>; %s1 AGREES.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>; %s1 ͬ��</Chinese>
+		<Chinese>; %s1 同意</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_NO_LOGGING</Tag>
 		<English>No Logging of this Game</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����¼����Ϸ</Chinese>
+		<Chinese>不记录此游戏</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGIMPROVEMENTS_HOVER</Tag>
 		<English>When checked, will log when your improvements are built or destroyed by you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ�����������ɻ����ٸĽ�ʱ��¼��</Chinese>
+		<Chinese>选中时，将在您生成或销毁改进时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CUSTOM_ENTRY</Tag>
 		<English>Enter custom log entry</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����Զ�����־��</Chinese>
+		<Chinese>输入自定义日志项</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_NOTHING</Tag>
 		<English>nothing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>û��ʲô</Chinese>
+		<Chinese>没有什么</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEALL_TEXT</Tag>
 		<English>Trade/Demands</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ó��/����</Chinese>
+		<Chinese>贸易/需求</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT_DESTROYED</Tag>
 		<English>A %s1 was destroyed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>A %s1 ���ݻ�</Chinese>
+		<Chinese>A %s1 被摧毁</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CORP_FOUNDED</Tag>
 		<English>%s1 founded in %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������ in %s2</Chinese>
+		<Chinese>%s1 被发现 in %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_DEAL_ACCEPT</Tag>
 		<English>Diplomacy: %s1 (%s2) accepts trade of %s3 to %s4 (%s5) for %s6</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻: %s1 (%s2) ����ó�� of %s3 to %s4 (%s5) for %s6</Chinese>
+		<Chinese>外交: %s1 (%s2) 接受贸易 of %s3 to %s4 (%s5) for %s6</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROMOTIONS_TEXT</Tag>
 		<English>Promotions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>升级</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTECH_TEXT</Tag>
 		<English>Technologies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѧ����</Chinese>
+		<Chinese>科学技术</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_RELIGION_FOUNDED</Tag>
 		<English>%s1 founded in %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ������ %s2</Chinese>
+		<Chinese>%s1 被发现 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CORP_SPREAD_IN</Tag>
 		<English>%s1 has spread: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �Ѿ�����: %s2</Chinese>
+		<Chinese>%s1 已经传播: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGWARDEMAND_HOVER</Tag>
 		<English>When checked, will log AI requests to declare war on a third party and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�˹��������������ս����������Ļظ���</Chinese>
+		<Chinese>勾选后，将记录人工智能向第三方宣战的请求和您的回复。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__ENABLED_TEXT</Tag>
 		<English>Enable Logging</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>������־��¼</Chinese>
+		<Chinese>启用日志记录</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_TECH_TRADED</Tag>
 		<English>Tech traded to %s1: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����ѽ��׵� %s1: %s2</Chinese>
+		<Chinese>技术已交易到 %s1: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_WARRIOR</Tag>
 		<English>warrior</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>սʿ</Chinese>
+		<Chinese>战士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_VASSAL_OFFER</Tag>
@@ -881,7 +881,7 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDSTARTED_TEXT</Tag>
 		<English>Builds Started</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����������</Chinese>
+		<Chinese>建筑进行中</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_UNITS_VICTORIOUS_ATTACKING</Tag>
@@ -893,79 +893,79 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEOFFER_TEXT</Tag>
 		<English>Trade Offers</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ó���Ż�</Chinese>
+		<Chinese>贸易优惠</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__IBT_HOVER</Tag>
 		<English>When checked, the logger inserts IBT (in between turns) at the end of the player's turn.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ����¼��������һغϽ���ʱ����IBT���ڻغ�֮�䣩��</Chinese>
+		<Chinese>选中时，记录器会在玩家回合结束时插入IBT（在回合之间）。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__SILENT_HOVER</Tag>
 		<English>When checked, the logger is automatically started and doesn't wait for the manual start (or stop) command which can be issued by using [Alt + L].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ����¼�����Զ�������������ȴ�ʹ��[Alt+L]�������ֶ���������ֹͣ�����</Chinese>
+		<Chinese>选中时，记录器将自动启动，而不会等待使用[Alt+L]发出的手动启动（或停止）命令。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGEMBARGODEMAND_TEXT</Tag>
 		<English>Stop Trading</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ֹͣ����</Chinese>
+		<Chinese>停止交易</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_LOGGING_GAME</Tag>
 		<English>Logging Game to File: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����Ϸ��¼���ļ�: %s1</Chinese>
+		<Chinese>将游戏记录到文件: %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IN_TERRITORY</Tag>
 		<English>in %s1 territory</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�� %s1 ������</Chinese>
+		<Chinese>在 %s1 领土内</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IMPROVEMENT_BUILT</Tag>
 		<English>A %s1 was built</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>A %s1 �Ѿ�������</Chinese>
+		<Chinese>A %s1 已经被建造</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_AFTER_END_TURN</Tag>
 		<English>After End Turn:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�����غ�</Chinese>
+		<Chinese>结束回合</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CONSCRIPT</Tag>
 		<English>A %s1 was drafted in %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>A %s1 ����� in %s2</Chinese>
+		<Chinese>A %s1 被起草 in %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYWHIPSTATUS_TEXT</Tag>
 		<English>City Whip</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���н���Whip</Chinese>
+		<Chinese>城市劫掠Whip</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGATTITUDE_TEXT</Tag>
 		<English>Attitude</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>̬��</Chinese>
+		<Chinese>态度</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_XP</Tag>
 		<English>experience</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����</Chinese>
+		<Chinese>经验</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRADEOFFER_HOVER</Tag>
 		<English>When checked, will log AI-initiated trades and gift offers and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�˹����ܷ���Ľ��ס���Ʒ�Żݺ����Ļظ���</Chinese>
+		<Chinese>勾选后，将记录人工智能发起的交易、礼品优惠和您的回复。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHILE_ATTACKING_LOSES</Tag>
@@ -977,85 +977,85 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGION_HOVER</Tag>
 		<English>When checked, will log[NEWLINE][ICON_BULLET]When you found a religion[NEWLINE][ICON_BULLET]Spread of any religion to your cities[NEWLINE][ICON_BULLET]Spread of religions whose Holy city you control to foreign cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬵�������ĳ���ڽ�ʱ������¼[����][ͼ����Ŀ����]���κ��ڽ̴��������ĳ���[����][ͼ����Ŀ����]���ڽ̴����������Ƶ���ʥ���е��������</Chinese>
+		<Chinese>勾选后，当您发现某个宗教时，将记录[新线][图标项目符号]将任何宗教传播到您的城市[新线][图标项目符号]将宗教传播到您控制的神圣城市到外国城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_PEACE_TREATY</Tag>
 		<English>%s1 and %s2 have signed a peace treaty</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 and %s2 ǩ���˺�ƽ��Լ</Chinese>
+		<Chinese>%s1 and %s2 签署了和平条约</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGA_HOVER</Tag>
 		<English>When checked, will log begin and end of your Golden Ages.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����飬����־��ʼ�ͽ�����Ļƽ�ʱ����</Chinese>
+		<Chinese>当检查，将日志开始和结束你的黄金时代。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_ON_THE_HIGH_SEAS</Tag>
 		<English>on the high seas</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ڹ���</Chinese>
+		<Chinese>在公海</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__4000BC_TEXT</Tag>
 		<English>4000BC is Turn</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��Ԫǰ4000�� �غ�</Chinese>
+		<Chinese>公元前4000年 回合</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRIBUTEDEMAND_HOVER</Tag>
 		<English>When checked, will log AI demands for tribute or help and your responses.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼�˹����ܶԹ�Ʒ������������������Ӧ��</Chinese>
+		<Chinese>勾选后，将记录人工智能对贡品或帮助的需求和您的响应。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_RAZED</Tag>
 		<English>Razed %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ɾ�� %s1</Chinese>
+		<Chinese>已删除 %s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_DEAL_REJECT</Tag>
 		<English>Diplomacy: %s1 (%s2) rejects trade of %s3 to %s4 (%s5) for %s6</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻: %s1 (%s2) �ܾ�ó�� of %s3 to %s4 (%s5) for %s6</Chinese>
+		<Chinese>外交: %s1 (%s2) 拒绝贸易 of %s3 to %s4 (%s5) for %s6</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_FINISH_UNIT</Tag>
 		<English>%s1 finishes: %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ���: %s2</Chinese>
+		<Chinese>%s1 完成: %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_ON_A_LAKE</Tag>
 		<English>on a lake</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ں���</Chinese>
+		<Chinese>在湖上</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYWHIPSTATUS_HOVER</Tag>
 		<English>When checked, will log when you whip a city or when the whip anger decreases in a city.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬵���޴�һ�����л򵱱޴��ŭ��һ�����м���ʱ���¼��</Chinese>
+		<Chinese>勾选后，当你鞭打一个城市或当鞭打愤怒在一个城市减少时会记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPILLAGE_TEXT</Tag>
 		<English>Pillaging</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�Ӷ�</Chinese>
+		<Chinese>掠夺</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPROJECTS_TEXT</Tag>
 		<English>Projects Completed</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����ɵ���Ŀ</Chinese>
+		<Chinese>已完成的项目</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_COMMERCE_GOLD_SLIDERS</Tag>
 		<English>%d1%% %s2: %d3 per turn, %d4 in the bank</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%d1%% %s2: %d3 ÿ�غ�, %d4 ������</Chinese>
+		<Chinese>%d1%% %s2: %d3 每回合, %d4 在银行</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_GIFT_ACCEPT</Tag>
@@ -1067,13 +1067,13 @@
 		<Tag>TXT_KEY_AUTOLOG_ATTITUDE_CHANGE</Tag>
 		<English>Attitude Change: %s1 towards %s2, from '%s3' to '%s4'</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>̬�ȸı�: %s1 towards %s2, from '%s3' to '%s4'</Chinese>
+		<Chinese>态度改变: %s1 towards %s2, from '%s3' to '%s4'</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_POPUP_QUESTION</Tag>
 		<English>Do you want to log this game?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ҫ��¼����Ϸ��</Chinese>
+		<Chinese>要记录此游戏吗？</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_WHIP_APPLIED</Tag>
@@ -1091,55 +1091,55 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGOODIES_TEXT</Tag>
 		<English>Tribal Villages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�������</Chinese>
+		<Chinese>部落村落</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYGROWTH_TEXT</Tag>
 		<English>City Growth</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��������</Chinese>
+		<Chinese>城市增长</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGGP_TEXT</Tag>
 		<English>Great People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ΰ��</Chinese>
+		<Chinese>伟人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGBUILDSTARTED_HOVER</Tag>
 		<English>When checked, will log when a city starts a build.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ�����ڳ��п�ʼ����ʱ��¼��</Chinese>
+		<Chinese>选中时，将在城市开始构建时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGTRIBUTEDEMAND_TEXT</Tag>
 		<English>Tribute/Help</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>����/����</Chinese>
+		<Chinese>进贡/帮助</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCIVICS_HOVER</Tag>
 		<English>When checked, will log any change in civics of civs known to you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���ʱ������¼����֪�Ĺ�����κι���仯��</Chinese>
+		<Chinese>检查时，将记录您所知的公民的任何公民变化。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYRAZED_HOVER</Tag>
 		<English>When checked, will log when you raze another civ's city or one of your cities is razed.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽���¼��ʱ����Ϊ��������ĳ��л����ĳ���֮һ����Ϊƽ�ء�</Chinese>
+		<Chinese>勾选后，将记录何时您夷为其他公民的城市或您的城市之一被夷为平地。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGRELIGIONDEMAND_TEXT</Tag>
 		<English>Change Religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�ı��ڽ�����</Chinese>
+		<Chinese>改变宗教信仰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VILLAGE_RESULT_SCOUT</Tag>
 		<English>scout</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ͯ�Ӿ�</Chinese>
+		<Chinese>童子军</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_UNITS_ESCAPING_ATTACKING</Tag>
@@ -1151,13 +1151,13 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCONTACT_TEXT</Tag>
 		<English>Contact</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�Ӵ�</Chinese>
+		<Chinese>接触</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FILEPATH_TEXT</Tag>
 		<English>Path</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>·��</Chinese>
+		<Chinese>路径</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_VASSAL_BECOMES</Tag>
@@ -1169,67 +1169,67 @@
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_LIST</Tag>
 		<English>Plain|HTML Tags|Forum Tags, With " around color codes|Forum Tags, No " around color codes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ͨ��HTML��ǩ����̳��ǩ�����С���Χ��ɫ���롱��û�С���Χ��ɫ����</Chinese>
+		<Chinese>普通的HTML标签，论坛标签，带有“周围颜色代码”，没有“周围颜色代码</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCITYBORDERS_TEXT</Tag>
 		<English>City Borders</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>���б߽�</Chinese>
+		<Chinese>城市边界</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__COLORCODING_HOVER</Tag>
 		<English>When checked, comments are color-coded for forum posts.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ѡ��ʱ����̳���ӵ����۽�����ɫ���롣</Chinese>
+		<Chinese>选中时，论坛帖子的评论将以颜色编码。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_IN_TERRITORY_NEAR</Tag>
 		<English>%s1 near %s2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 �ӽ� %s2</Chinese>
+		<Chinese>%s1 接近 %s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__FORMAT_TEXT</Tag>
 		<English>Format Style</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ʽ��ʽ</Chinese>
+		<Chinese>格式样式</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_PRODUCES_UNIT</Tag>
 		<English>%s1 begins: %s2 (%d3 turns)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 ��ʼ: %s2 (%d3 �غ�)</Chinese>
+		<Chinese>%s1 开始: %s2 (%d3 回合)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_DIPLO_DEAL_CANCEL</Tag>
 		<English>Diplomacy: %s1 (%s2) cancels trade of %s3 to %s4 (%s5) for %s6</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>�⽻: %s1 (%s2) ȡ��ó�� of %s3 to %s4 (%s5) for %s6</Chinese>
+		<Chinese>外交: %s1 (%s2) 取消贸易 of %s3 to %s4 (%s5) for %s6</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__DEFAULTFILENAME_TEXT</Tag>
 		<English>Use Default File Name</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ʹ��Ĭ���ļ���</Chinese>
+		<Chinese>使用默认文件名</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGPILLAGE_HOVER</Tag>
 		<English>When checked, will log when you pillage or your improvements are pillaged.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬽��������ٻ����ĸĽ�������ʱ��¼��</Chinese>
+		<Chinese>勾选后，将在您抢劫或您的改进被抢劫时记录。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOLOG__LOGCORPORATION_HOVER</Tag>
 		<English>When checked, will log[NEWLINE][ICON_BULLET]When you found a corporation[NEWLINE][ICON_BULLET]Spread of any corporation to your cities[NEWLINE][ICON_BULLET]Spread of corporation whose headquarters you control to foreign cities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>��ѡ�󣬵����ҵ���˾ʱ������¼[NEWLINE][ICON_BULLET]�κι�˾�����ĳ��еķֲ�[NEWLINE][ICON_BULLET]���������ܲ��Ĺ�˾�ڹ�����еķֲ�</Chinese>
+		<Chinese>勾选后，当您找到公司时，将记录[NEWLINE][ICON_BULLET]任何公司在您的城市的分布[NEWLINE][ICON_BULLET]您控制其总部的公司在国外城市的分布</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_CITY_TRADED</Tag>
 		<English>Traded for %s1 (%s2)</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ó�� for %s1 (%s2)</Chinese>
+		<Chinese>贸易 for %s1 (%s2)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_AUTOLOG_ROUTE</Tag>

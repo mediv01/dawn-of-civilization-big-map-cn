@@ -1,76 +1,76 @@
-<?xml version='1.0' encoding='GBK'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_INDONESIA</Tag>
 		<English>Eyalet of Aceh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÑÇÆëÖİ</Chinese>
+		<Chinese>äºšé½å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKEY_OTTOMAN</Tag>
 		<English>Ottoman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>°ÂË¹Âü</Chinese>
+		<Chinese>å¥¥æ–¯æ›¼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_BYZANTIUM</Tag>
 		<English>Eyalet of R&#251;m</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂŞÄ·Öİ</Chinese>
+		<Chinese>ç½—å§†å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_ARABIA</Tag>
 		<English>Sharifate of Mekke</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Âó¼ÓÖİ</Chinese>
+		<Chinese>éº¦åŠ å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_RUSSIA</Tag>
 		<English>Eyalet of Yedisan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ò®µÏÉ£Öİ</Chinese>
+		<Chinese>è€¶è¿ªæ¡‘å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_PHOENICIA</Tag>
 		<English>Eyalet of Syria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ĞğÀûÑÇÖİ</Chinese>
+		<Chinese>å™åˆ©äºšå·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_PERSIA</Tag>
 		<English>Eyalet of Sharazor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>É³À­×ôÖİ</Chinese>
+		<Chinese>æ²™æ‹‰ä½å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_ETHIOPIA</Tag>
 		<English>Eyalet of Habes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>¹ş±´Ë¹Öİ</Chinese>
+		<Chinese>å“ˆè´æ–¯å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_EGYPT</Tag>
 		<English>Khedivate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Öİ</Chinese>
+		<Chinese>%s1å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_BABYLONIA</Tag>
 		<English>Eyalet of Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÃÀË÷²»´ïÃ×ÑÇÖİ</Chinese>
+		<Chinese>ç¾ç´¢ä¸è¾¾ç±³äºšå·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_VASSAL</Tag>
 		<English>Eyalet of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1Öİ</Chinese>
+		<Chinese>%s1å·</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_GREECE</Tag>
 		<English>Eyalet of Rumelia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>ÂŞÂíÄáÑÇÖİ</Chinese>
+		<Chinese>ç½—é©¬å°¼äºšå·</Chinese>
 	</TEXT>
 </Civ4GameText>

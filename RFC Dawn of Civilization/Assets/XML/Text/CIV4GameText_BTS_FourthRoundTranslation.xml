@@ -1,0 +1,515 @@
+<Civ4GameText xmlns="http://www.firaxis.com">
+<TEXT>
+<Tag>TXT_KEY_CROSSROADS_WB_DESC</Tag>
+<English>The year is 1300. European traders have caught the sweet waft of spices from the East, and the craving for the goods of the Orient has become an epidemic. China, for the first time in their history, has sent out trading vessels to establish contact with the West. Indian storehouses spill over with finery. It is a trader's age and you stand at the Crossroads of the World.[NEWLINE][NEWLINE]Features:[NEWLINE]Commerce Victory[NEWLINE]This new victory requires players to accumulate wealth through any means necessary. Taxes, pillaging, conquest or trade - the means matter not, only that in the end, you have the deepest coffers. Ten new Corporations are among the many features that will let players engage in unprecedented economic warfare.[NEWLINE][NEWLINE]Raiders[NEWLINE]These lightning-quick cavalry bear no markings of nationality, allowing players to pillage the lands of friends and foes alike. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]四海通衢[NEWLINE][NEWLINE]公元1300年，欧洲商人嗅到了东方香料的芬芳气息，对东方诸国商品的渴望也成为一种流行趋势。中华文明有史以来第一次派出贸易船队与西方建立了联系。印度的仓库溢满了华丽的服饰。这是商贾的时代，而你正位于世界的交通要冲。[NEWLINE][NEWLINE]特色：[NEWLINE]商业胜利[NEWLINE]这种新的胜利方式要求玩家用一切可能的手段积累财富。税赋、劫掠、缴获或是贸易——无所不用其极，最终直至你胜券在握。十个有许多新特色的商业公司将使玩家置身于空前的商战之中。[NEWLINE][NEWLINE]掠夺者[NEWLINE]这些疾如闪电的骑手没有任何国家印记，使玩家可以不分彼此的掠夺友方和敌方的土地。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FINAL_FRONTIER_WB_DESC</Tag>
+<English>Communications with Earth have gone silent. Scheduled cargo ships have not arrived as expected, nor have any sent in the last two months returned. At this point we have no answers. We can only assume that something serious has occurred on Earth. It is up to you, commander, to determine how we should proceed.[NEWLINE]- Colonial Congress Briefing Report, January 8th, 2302 AD[NEWLINE][NEWLINE]Features:[NEWLINE][NEWLINE]Civilization: Intergalactic[NEWLINE]A dozen new units, thirty new buildings and a completely unique tech tree make this more than a mod. It's a whole new game of Civ![NEWLINE][NEWLINE]Bold New Setting[NEWLINE]Battle your enemies across star fields, black holes, nebulae and asteroids fields. Settle your colonies across entire star systems. Envelop yourself in the history of a future Earth through an engrossing backstory penned by designer Jon Shafer.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]终极边疆[NEWLINE][NEWLINE]同地球的联系完全中断了，预定的货运飞船未能如期到达，发出的信息也已有两个月未收到任何答复。我们只能假定地球上发生了某些非常严重的事件。指挥官，下一步该如何行动将由你决定。[NEWLINE]——殖民地议会简报，公元2302年1月8日[NEWLINE][NEWLINE]特色：[NEWLINE][NEWLINE]文明：银河规模[NEWLINE]十二种新单位，三十种新建筑和完全独立的科技树使它不仅仅是个模组，更是一个全新的文明游戏！[NEWLINE][NEWLINE]显著的新设定[NEWLINE]横亘整个星域、黑洞、星云和小行星带与敌决战，让自己沉浸在由设计师乔恩·夏弗所撰写的，有着波澜壮阔故事背景的地球未来史当中。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CHARLEMAGNE_WB_DESC</Tag>
+<English>The mighty power that was the Roman Empire is no more. The West has shattered into a series of warring kingdoms, each claiming that it alone should rule all of Europe. Take the throne of one of these great medieval powers as you maneuver and battle across the European continent in the hopes of defeating your foes, procuring the Pope's favor and being named Holy Roman Emperor![NEWLINE][NEWLINE]Features:[NEWLINE]New Medieval Units[NEWLINE]Fight your way to victory with new medieval units, including Mounted Infantry, Supply Trains and Heavy Cavalry.[NEWLINE][NEWLINE]Papal Favor[NEWLINE]Vie for the Favor of Rome by spreading Christianity, building churches, acquiring Relics and battling the infidels. His Holiness's favorite ruler may receive bonuses like the powerful Papal Pikeman unit.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]查理曼征服[NEWLINE][NEWLINE]罗马帝国的强盛已一去不返，西罗马帝国分裂成一系列敌对的公国，谁都宣称自己将会独霸欧洲。你的计划是在这些中世纪诸强国之一登基即位，为打败敌人征战整个欧洲大陆，取悦罗马教皇并加冕为神圣罗马帝国皇帝！[NEWLINE][NEWLINE]特色：[NEWLINE]新的中世纪单位[NEWLINE]带着新的中世纪单位努力争胜，包括步战骑兵、补给车和重骑兵。[NEWLINE][NEWLINE]教皇的支持[NEWLINE]通过传播基督教、建造教堂、取得圣物和征讨异教徒来赢得罗马教皇的支持，教皇陛下所垂青的统治者能得到诸如强力教庭长枪兵单位这样的奖励。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_GODS_OF_OLD_WB_DESC</Tag>
+<English>Seems the Sumerians were right all along. The Gods of Ancient Sumeria have made their presence known and are ready to grant their gifts to those that will serve them. Rain down plagues, meteors and tsunamis upon those who would oppose you, all while trying to wipe the faiths of enemy Gods from the planet. Ah, give me that old time religion...[NEWLINE][NEWLINE]Features:[NEWLINE][NEWLINE]Divine Gameplay[NEWLINE]The Gods provide for their followers. Extra food, great wealth, unbelievable power, they're all yours. Use Great Prophets to rain massive natural disasters down upon your enemies. The Gods ask only one thing in return - that they be the last God standing. Use the all new Inquisitor Unit to obliterate heathen religions from cities and ensure that yours is the one true god.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]远古众神[NEWLINE][NEWLINE]看起来苏美尔人始终是对的，远古苏美尔诸神显灵于众，并准备给那些追随者馈赠礼物。反对你的那些人承受着铺天盖地的瘟疫、流星雨和海啸，远古诸神甚至试图抹去这星球上敌对神祗的信仰。啊，赐我那上古宗教吧...[NEWLINE][NEWLINE]特色：[NEWLINE][NEWLINE]神的祝福[NEWLINE]诸神供给他们的信徒，额外的食物、巨额的财富、惊人的力量，全都归你所有。用大预言家给你的敌人降下不计其数的自然灾害。远古诸神仅需一样回报——他们必须是唯一存在的神。用宗教裁判官单位根除城市中的异端信仰，确保你的神是唯一真神。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_DEFENSE_WB_DESC</Tag>
+<English>Build your city. Brace your troops. And be prepared for an unending onslaught of opponents.[NEWLINE][NEWLINE]A Civ mod with a beat 'em up mentality, Defense plants you in the middle of 20 levels of endless enemies. Slaughter your foes and earn gold to buy more troops to fortify your position. Only by using your wits can you hope to succeed. Because numbers just aren't on your side.[NEWLINE][NEWLINE]Features:[NEWLINE]Your Own Personal Battlefield[NEWLINE]Using the Advanced Start system, players may customize their defenses in order to stop their foes dead in their tracks. Use ranged units to obliterate enemies from afar or get up close and personal using specialized melee warriors. Earn gold for cities left at the end of each wave to further insulate yourself from their ever more deadly attacks.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]捍卫文明[NEWLINE][NEWLINE]修建城市、充实部队，为对手源源不断的冲击做好准备。[NEWLINE][NEWLINE]一个让人颠狂的文明模组，把自己置身于无穷无尽、多达20级的敌人中艰苦防御。屠戮敌手并挣钱购买更多的部队保家卫国。只有发挥自己的聪明才智才有望获胜，因为你没有数量上的优势。[NEWLINE][NEWLINE]特色：[NEWLINE]你独有的个性化战场[NEWLINE]使用高级开局系统，玩家可以定制他们的防御计划以阻止敌人并用自己的方式消灭他们。用有限的单位远远的吞没敌人，或是抵近并亲自指挥专门的肉搏勇士。通过保卫城市赢得金钱奖励，让自己在敌人日甚一日的致命攻击中巍然不动。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_NEXT_WAR_WB_DESC</Tag>
+<English>Engage in a near-future battle for world dominance. Massive war machines, clone armies, domed cities and a vast nuclear arsenal are your tools of negotiation. Battle on land, sea and air, and should the world crumble in the resulting chaos, make sure you own the largest crumb![NEWLINE][NEWLINE]Features:[NEWLINE][NEWLINE]Futuristic Setting[NEWLINE]March Mech Units across the field of battle, construct massive Dreadnought Tanks and research a variety of new technologies from Cloning to Cold Fusion.[NEWLINE][NEWLINE]Dynamic Environment[NEWLINE]Race against a dwindling environment as resources slowly disappear from the face of the Earth. Fire off one too many nuclear missiles and you may bring the game to a shocking conclusion!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]下一场战争[NEWLINE][NEWLINE]参加在不久的将来争夺地球统治权的一场战争。大吨位的战争机器、克隆人部队、穹顶保护城市和浩如烟海的核武库就是你谈判的工具。在陆、海、空领域内激战，哪怕这世界崩溃，重回混沌，也要确保你自己是那最大的一块碎片！[NEWLINE][NEWLINE]特色：[NEWLINE][NEWLINE]未来选项[NEWLINE]战斗机甲单位肆虐整个战场，建造重型无畏级坦克，研究从克隆技术到低温核聚变的多种科技。[NEWLINE][NEWLINE]动态环境[NEWLINE]地球上的资源在慢慢消失，人类面临着一个日渐萎缩的生存环境。如果向某个对手发射太多的核弹，游戏也将来个惊天动地的结束！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_NEXT_WAR_EPIC_WB_DESC</Tag>
+<English>For those looking to add some science-fictional flare to Civilization, the Next War Epic mod takes all the features of Next War and integrates them into the Epic Game, making Civ's Future Era a whole new experience. Players can select any Civilization, choose any map, start in any era, just as they would in a regular game of Civ. But the Next War Epic Game lets players experience the unique thrill of watching Gandhi flee in the face of your Mech Armada or overwhelming Montezuma with your Army of Clones. Reach the late game and let the havoc begin![NEWLINE][NEWLINE]Features:[NEWLINE]Epic Expansion![NEWLINE]Extend your game of Civ with a whole new Future Era that lets players build Mechs, Domed Cities, Bio Weapons and much more!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]下一场战争（史诗版）[NEWLINE][NEWLINE]对那些寻求为文明游戏增加些虚构科技亮点的人来说，下一场战争（史诗版）模组有着十足的未来之战特色，并将其整合到史诗游戏当中，使得文明的未来时代成为一种全新体验。玩家可以选择任意文明、挑选任意地图、从任意地形开始，就象一个正规的文明游戏那样。只不过下一场战争（史诗版）将让玩家体验看着甘地在你的机甲机群面前仓皇逃离或是用你的克隆人大军一举击溃蒙特祖玛这类特别的快感。到游戏后期让这种浩劫降临吧！[NEWLINE][NEWLINE]特色：[NEWLINE]史诗般的扩张！[NEWLINE]将文明游戏扩展到整个全新的未来时代，玩家可以建造机甲部队、穹顶保护城市、生化武器，诸如此类……</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BROKEN_STAR_WB_DESC</Tag>
+<English>Russia is in chaos. The President has fled the country. With a military district at your command and a deep purse to fund your war, you must create a new order. Raise an empire or buy yourself an army. Just know that your foes won't be going down without a fight.[NEWLINE][NEWLINE]Features:[NEWLINE]Buyable Promotions and Units[NEWLINE]A big treasury has a whole new value in Broken Star. Use your hard-fought dollars to purchase new units or upgrade the units you have, to create an army that no force in Russia could hope to defeat.[NEWLINE][NEWLINE]Race to Arms![NEWLINE]As if you needed another reason to want Nukes. In Broken Star, players can deploy ultra-powered nuclear weapons to obliterate entire metropolises or acquire an arsenal large enough to declare themselves ruler of all Russia!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]破碎的红星[NEWLINE][NEWLINE]俄罗斯陷入混乱，总统已逃离国家。有了任你自由支配的军区和支撑战争的雄厚资本，你必将建立一个新秩序。自立为王还是拥兵自重，只要明白你的对手可不会不战而胜就够了。[NEWLINE][NEWLINE]特色：[NEWLINE]购买晋升和单位[NEWLINE]在破碎的红星中巨额财富有了全新价值。用无坚不摧的美元购买新单位或者晋升已有单位，建立一支没有任何俄罗斯武装能望其项背的强大部队。[NEWLINE][NEWLINE]军备竞赛！[NEWLINE]似乎你有另一个理由需要获得核武器。在破碎的红星中，玩家可以部署威力无穷的核武器，通过抹去整个大城市或是取得绝对武器数量优势来向整个俄罗斯宣告自己的统治！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FFH_ICE_WB_DESC</Tag>
+<English>[NEWLINE]FAN SCENARIO[NEWLINE]The land of Erebus is in peril. Mulcarn, the God of Winter, has covered all in ice and chill, stifling any who refuse to serve him. All, that is, save you. Only you can pry back the icy fingers of the God of Winter by amassing your army, rallying your heroes, and reassembling the famed Godslayer blade to end Mulcarn's reign once and for all. [NEWLINE][NEWLINE]Features:[NEWLINE]Fantastic Worlds[NEWLINE]Part RPG, part strategy game, Age of Ice transports players to the world of Erebus in the latest addition to the popular Fall from Heaven mod series. Battle ogres, undead and the God of Winter himself in a world of rich fantasy. Perform quests to better the plight of your nation. Earn experience for your unique hero units. The world is yours to change.[NEWLINE][NEWLINE]Weather Effects[NEWLINE]Blizzards will often scour the face of Erebus, damaging units and turning fertile land into barren tundra. Only by observing your environment and building wisely can you hope to avoid their icy effects.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]坠落凡间之冰河时代（玩家模组）[NEWLINE][NEWLINE]生与死之间的黑暗界大陆危机四布，冬神穆尔卡恩用冰霜和酷寒将其覆盖，扼杀不服从他的一切生灵。确切的说，是除你之外的一切。通过积聚部队、集结英雄，唯有你才能在冬神冰冷的手指下一探究竟，并重新打造著名的屠神剑断然终结穆尔卡恩的统治。[NEWLINE][NEWLINE]特色：[NEWLINE]奇幻世界[NEWLINE]部分角色扮演、部分策略类的游戏。基于最近广受欢迎的坠落凡间系列模组，冰河时代也将玩家传送到了阴阳交界的黑暗大陆。在一个充满奇幻的世界与魔鬼、亡灵和冬神本尊作战，完成提升种族境况的任务，为你独特的英雄单位挣得经验。世界因你而改变。[NEWLINE][NEWLINE]气候影响[NEWLINE]暴风雪将常常在黑暗大陆上肆虐，损坏单位并将肥沃的土地变成荒芜的冻土。只有通过留神环境的变化和谨慎巧妙的修建建筑才有望抵消那些冰天雪地的不利影响。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_RHYES_WB_DESC</Tag>
+<English>[NEWLINE]FAN SCENARIO[NEWLINE]The ultimate in historical gameplay, Rhye's and Fall of Civilization does what no other game of Civ has - takes its Civilizations and places them in their actual history time period. As time passes, these empires grow and shrink according to their real world timelines, letting the player experience a whole new level of historical gameplay.[NEWLINE][NEWLINE]Features:[NEWLINE]Historical Victory Conditions[NEWLINE]Every Civilization in Rhye's and Fall has their own historical victory conditions. Conquer the seas as the Vikings, defend the American continent as the Aztecs or fight back the barbarians as the Roman Empire. These are your new keys to victory.[NEWLINE][NEWLINE]Uprisings[NEWLINE]Every empire in Rhye's and Fall has a stability rating. By keeping your nation stable, you can keep your nation running like a finely tuned machine, but let your empire get too out of control and watch as new Civilizations rise from your own lands!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]文明的兴衰（玩家模组）[NEWLINE][NEWLINE]以史实游戏体验为基本原则，文明的兴衰做到了其他文明游戏模组所不具有的——生成文明并把其置于他们所处的真实历史时期。当时间流逝时，这些帝国成长及萎缩依照他们真正的世界发展时间线，使得玩家经历一个全新级别的史实游戏体验。[NEWLINE][NEWLINE]特色：[NEWLINE]符合史实的胜利条件[NEWLINE]文明的兴衰中的每种文明都有自己的史实胜利条件，象维京人那样征服大海、象阿兹特克人那样守卫美洲大陆或是象罗马人那样击退蛮族，这些是你取得胜利的关键。[NEWLINE][NEWLINE]新文明的兴起[NEWLINE]文明的兴衰中的每个帝国都有一个稳定度。通过维持国家的稳定，你可以确保它象一部精妙调谐的机器那样运作；但如果放任帝国脱离控制，那就眼睁睁看着新的文明从属于你的领土上崛起吧！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ROAD_TO_WAR_WB_DESC</Tag>
+<English>[NEWLINE]FAN SCENARIO[NEWLINE]Road to War sets you on the brink of World War II and lets players decide how they would like to play. Players may choose to let the major events of World War II play out historically or command the War themselves, deciding how each battle should be fought.[NEWLINE][NEWLINE]Features:[NEWLINE]Multiple Ways to Play[NEWLINE]Players may choose to let the events of World War II take place historically, give the events a few years leeway or take complete command of history.[NEWLINE][NEWLINE]Historical Combat[NEWLINE]An armada of new combat options lets the player engage in strategic combat. Bombard enemy cities from afar with ranged artillery. Run Air Raid missions to target specific enemy installations within a city. Or send your Paratroopers in for a surprise attack.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]战争之路（玩家模组）[NEWLINE][NEWLINE]战争之路让你置身第二次世界大战的前夜，并让玩家决定他们想要如何进行游戏。玩家可以选择让二战时期的重要事件的发生符合真实历史，或是完全由自己控制历史，决定整个战局的走向。[NEWLINE][NEWLINE]特色：[NEWLINE]游戏多样性[NEWLINE]玩家可以选择二战中的事件如史实般发生、有那么一点年头上的误差、或是干脆将历史玩弄于股掌之上。[NEWLINE][NEWLINE]历史战役[NEWLINE]一大批新的战斗选项让玩家参与到战略性战役中。用长程火炮远距离轰击敌人的城市，执行针对敌人城市内特殊目标的空中打击、或是派遣伞兵发动奇袭。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_AFTERWORLD_WB_DESC</Tag>
+<English>In the distant future humanity commands nature, shifting from the clay into its sculptor. Superluminal travel through wave gates, manufactured stars, and artificial solar systems solidifies this reality. A thorough map of the universe, however, illustrates our solitary claim to sentience. We drift alone.[NEWLINE][NEWLINE]Consciousness is isolated and temporarily replaced allowing volunteers to store their persona and commit their bodies to manual labor; trading identity for dream.[NEWLINE][NEWLINE]A mysterious radiation has twisted some of these workers into misshapen nightmares - Aberrants. When a science team fails to return from their investigation an elite military unit is sent to retrieve their research.[NEWLINE][NEWLINE]Features:[NEWLINE]Tactical, Upgradeable Combat[NEWLINE]Command your squadron of Gravebringers in the first ever tactical strategy game built on the Civilization IV engine. Upgrade your elite warriors with new equipment including mines, teleportation, invisibility and the deadly MAULer.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[NEWLINE]再生世界[NEWLINE][NEWLINE]在遥远的将来，人类已能够支配自然，从造物主手中的陶土转变为世界的塑造者。穿越波动门的超光速旅行、人造恒星和人造恒星系都成为现实。宇宙全景图的完成更使人类意识到自身的孤独——我们就是宇宙间唯一的漂泊者。[NEWLINE][NEWLINE]当时人类已经可以单独分离大脑中个人意识所在的区域，并加以安全地转移和存储。许多志愿者的个人意识被暂时冻结，他们的躯体在进行劳役，而原本意识则在休眠和梦想。[NEWLINE][NEWLINE]然而，一种未知辐射的影响将这些劳工扭曲成狂暴而畸形的梦魇——“突变体”。在前往调查的科学家小组杳无音讯的情况下，一支精锐特工单位受命前往，继续他们未完成的任务。[NEWLINE][NEWLINE]特色：[NEWLINE]战术层面的战斗[NEWLINE]在首次出现的，基于文明IV引擎建立的战术策略游戏中指挥你的“掘墓人”小队，用包括地雷、瞬时传送、隐形和致命的反物质波等新式装备升级你的精英战士。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_NO_JUNGLES</Tag>
+<English>No Jungle</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>无丛林</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_CITY_LIBERATED</Tag>
+<English>In a gracious act of generosity, %s2_player has liberated %s1_city, which passed under %s3_civ_adjective control.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s2_player慷慨地放弃了对%s1_city城的统治权，将其移交给%s3_civ_adjective管理。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_RAINFOREST_DESCR</Tag>
+<English>Regional map depicting a tropical rainforest. The thick jungle is rich in rice, pigs and bananas to feed your hungry people.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>热带雨林区域地图。存在大片丛林，盛产稻米、家猪和香蕉，使你的臣民不必担忧食物供给。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_ARBORIA_DESCR</Tag>
+<English>A massive single continent contains a grassland-forest paradise, rich in wildlife.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>巨型单独大陆。存在大片草原、森林，盛产野生动物，仿佛传说中的人间乐园。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_BOREAL_DESCR</Tag>
+<English>Regional map depicting an endless boreal forest covering harsh tundra. Look for herds of sheep, elk and caribou, and for the fertile river valleys and hardy patches of wheat to feed your hungry people in this difficult landscape.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>寒带森林区域地图。存在大片贫瘠的冻土，只在河谷地带分布有绵羊、野鹿、小麦，为你的臣民提供食物。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_DONUT_DESCR</Tag>
+<English>Circular continent on a square map. You control the type of terrain that will appear in the hole of the donut.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>车轮状大陆地图。你可以自行选择中心区域的地形种类。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_LEFT_AND_RIGHT_DESCR</Tag>
+<English>2-4 Continents arranged in East and West hemispheres, separated by ocean. Smaller islands may also be present.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>东西半球——2至4块大陆分布于东西半球，中间有大洋相隔。还可能存在一些较小的岛屿。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_KHMER_BARAY_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Baray[COLOR_REVERT], the Khmer replacement for the [COLOR_BUILDING_TEXT]Aqueduct[COLOR_REVERT], provides a food bonus, in addition to the usual health bonus. A [COLOR_BUILDING_TEXT]Baray[COLOR_REVERT] is needed to construct [COLOR_BUILDING_TEXT]The Hanging Gardens[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]人工湖[COLOR_REVERT]为高棉特色建筑，替代[COLOR_BUILDING_TEXT]引水渠[COLOR_REVERT]，除提供健康加成外还额外提供食物奖励。[COLOR_BUILDING_TEXT]人工湖[COLOR_REVERT]是建造[COLOR_BUILDING_TEXT]空中花园[COLOR_REVERT]的前提。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_DESTROY_IMPROVEMENT</Tag>
+<English>Sabotage %s1_improvement</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏%s1_improvement</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_DESTROY_PRODUCTION</Tag>
+<English>Sabotage current production (%d1[ICON_PRODUCTION])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>破坏建设项目(%d1[ICON_PRODUCTION])</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_DESTROY_UNIT</Tag>
+<English>Assassinate %s1_unit_name</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>暗杀%s1_unit_name</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_BRIBE</Tag>
+<English>Bribe the loyalty of %s1_name</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>策反%s1_name</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_POISON</Tag>
+<English>Cause %d1%F2 in %s3_city (fully recovers after %d4 [NUM4:turn:turns])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>造成%d1%F2, 所在城市: %s3_city (%d4回合后恢复)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_REVOLT</Tag>
+<English>Cause %s1_city to revolt for %d2 [NUM2:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>策动%s1_city暴乱, 持续%d2回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_STEAL_TREASURY</Tag>
+<English>Steal %d1[ICON_GOLD] from the %s2_civ_adjective treasury</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>窃取%d1[ICON_GOLD], 目标国家: %s2_civ_adjective</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_STEAL_TECH</Tag>
+<English>Gain knowledge of %s1_tech</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>窃取%s1_tech</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_SWITCH_CIVIC</Tag>
+<English>Induce %s1_player to switch to %s2_civic</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>诱使%s1_player推行%s2_civic</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_ANARCHY</Tag>
+<English>Cause %s1_player to enter Anarchy for %d2 [NUM2:turn:turns]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_player进入无政府状态, 持续%d2回合</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_ESPIONAGE_HELP_COUNTERESPIONAGE</Tag>
+<English>Add %d1%% to the cost of %s2_civ_adjective espionage missions against you (lasts for %d3 [NUM3:turn:turns])</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>使敌方针对你的谍报行动花费%d1%%(目标国家: %s2_civ_adjective, 持续%d3回合)</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_CORPORATION_2_PEDIA</Tag>
+<English>[TAB]Sushi is an ancient form of food preservation that originated in Southeast Asia in the fourth century BC. This technique of wrapping fish in vinegar-soaked rice spread through out Asia, making its way to China in the thirteenth century and later to Japan.[PARAGRAPH:1]In Japan, the dish became extremely popular in the early nineteenth century, when a sushi stall owner in Edo began placing bits of extremely fresh and even raw fish within or atop the classic bed of vinegar rice. It was here that modern sushi was born. Sushi has since become Japan's signature dish, and from the 1980s onward has become a popular delicacy throughout the world.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>寿司在公元前4世纪起源于东南亚，是一种方便保存与携带的干粮食品。这种用浸醋米饭包裹鱼肉的方法渐渐流行至东亚地区，在13世纪传到中国，稍后又传到日本。[PARAGRAPH:1]到19世纪初，寿司在日本已是非常受欢迎的食品，当时江户（今东京）的一家寿司店在传统浸醋米饭团中加入切碎的鲜鱼肉（甚至生鱼肉），“现代寿司”就此诞生。从那时起寿司一直是日本的标志性食品，而到20世纪80年代后又进一步成为流行全世界的美食。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_THEOLOGY_STRATEGY</Tag>
+<English>The first to research this tech founds [COLOR_HIGHLIGHT_TEXT]Christianity[COLOR_REVERT]. It enables the [COLOR_HIGHLIGHT_TEXT]Theocracy[COLOR_REVERT] civic and allows construction of the [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT] and [COLOR_BUILDING_TEXT]Apostolic Palace[COLOR_REVERT] wonders.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现该科技者将创立[COLOR_HIGHLIGHT_TEXT]基督教[COLOR_REVERT]。启用[COLOR_HIGHLIGHT_TEXT]神权政治[COLOR_REVERT]内政法令并允许建造[COLOR_BUILDING_TEXT]圣索菲亚[COLOR_REVERT]和[COLOR_BUILDING_TEXT]教皇宫[COLOR_REVERT]奇观。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_CONSTRUCTION_STRATEGY</Tag>
+<English>This tech allows you to build the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT] unit and the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT] (with [COLOR_HIGHLIGHT_TEXT]Ivory[COLOR_REVERT]). It also enables [COLOR_BUILDING_TEXT]Colosseums[COLOR_REVERT] and your units no longer lose movement when crossing rivers on roads. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>该科技允许你建造[COLOR_UNIT_TEXT]投石车[COLOR_REVERT]单位和[COLOR_UNIT_TEXT]战象[COLOR_REVERT]（需要[COLOR_HIGHLIGHT_TEXT]象牙[COLOR_REVERT]）。并允许建造[COLOR_BUILDING_TEXT]竞技场[COLOR_REVERT]，，并使你的单位在沿道路渡河时不消耗移动力。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_TECH_MONOTHEISM_STRATEGY</Tag>
+<English>The first to research this tech founds [COLOR_HIGHLIGHT_TEXT]Judaism[COLOR_REVERT]. It also enables the [COLOR_HIGHLIGHT_TEXT]Organized Religion[COLOR_REVERT] civic. </English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>首先发现该科技者将创立[COLOR_HIGHLIGHT_TEXT]犹太教[COLOR_REVERT]。并启用[COLOR_HIGHLIGHT_TEXT]信仰控制[COLOR_REVERT]内政法令。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_66</Tag>
+<English>To build a Corporation Headquarters building, you need a specific type of Great Person. Check the Civilopedia for the type required by each Corporation so you can assign your specialists accordingly.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>要建造公司总部，你需要一位特定类型的历史伟人。请查看文明百科了解各个公司相应的历史伟人，做好相应准备。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_67</Tag>
+<English>If you choose to found a Corporation, remember that even though the Headquarters will enjoy extra income, each city hosting the corporation will suffer increased maintenance costs. Build Courthouses in all of your Corporation cities and Banks in your Headquarters, otherwise the Corporation may actually run at a net loss.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>如果你准备创办一家公司，就要记住虽然公司可以带来金钱收益，但公司总部所在城市的维护费却会上升。注意在所有城市建造法院，公司总部所在城市建造银行，否则你创办的公司可能反而面临亏损。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_68</Tag>
+<English>Random events are tied to what is happening within your civilization. If you want to experience all of the events that are possible, you will have to play numerous games using different approaches and strategies: war and peace, different religious approaches, different technological paths, different civics and more!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>随机事件是同你管理文明的方式相关联的。如果你想要经历所有可能发生的随机事件，就需要在每局游戏中采用不同的发展路线和策略：战争路线、和平路线、不同的宗教路线、不同的科技路线、不同的内政法令等等！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_69</Tag>
+<English>You may be wise to keep some reserve gold in your treasury. You never know when your savings may help mitigate the effects of a disastrous event or grant you access to additional opportunities when a positive event rolls around.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>保持一定数量的国库储备是非常明智的做法。金钱可以减低灾难性事件造成的负面影响，在机遇性事件发生时也能获得更有利的作用效果。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_70</Tag>
+<English>A negative event that afflicts one of your rivals is, in effect, like a positive event for you! Keep an eye on the world news reports in case an event happening to other nations opens new opportunities for you.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>别国发生负面事件在某种意义上就相当于本国发生正面事件！请时时关注世界大事，及时抓住有利机会。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_71</Tag>
+<English>Rival civilizations led by computer opponents now pose a more significant threat from the sea. Stronger fleets, amphibious invasions... Don't be caught unprepared! The more warlike leaders can be very sneaky with their attack plans, as they have learned to think beyond the sword.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>电脑文明现在更善于发动跨海进攻。他们会使用强大的舰队配合两栖登陆……千万要事先有所防备！越是好战的领袖，制订军事策略时越是周密，懂得充分运用“刀剑之上”的各种手段。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_HINT_72</Tag>
+<English>Only Great People can found new Corporations. Corporations also require specific resources for their product lines to thrive. If you aim to create a specific Corporation to aid your nation's interests, try to plan ahead, choosing a Corporation for which you can supply the needed resources and produce the needed Great Person.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>只有历史伟人才能创办新的公司。公司业务的运作还需要相应的资源。如果你想要创办特定的公司增加国库收益，就要预先充分做好计划，选择你所拥有的资源所对应的公司，催生对应的历史伟人。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FEAT_CORPORATION_ENABLED</Tag>
+<English>Congratulations! You now possess the knowledge required to found [COLOR_HIGHLIGHT_TEXT]%s1_corporation[COLOR_REVERT]. You may use a [COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT] to build the Headquarters in any city with access to [COLOR_HIGHLIGHT_TEXT]%s3_bonus_list[COLOR_REVERT].</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>祝贺你！你已掌握创办[COLOR_HIGHLIGHT_TEXT]%s1_corporation[COLOR_REVERT]所需的技术。你可以让一位[COLOR_UNIT_TEXT]%s2_unit[COLOR_REVERT]在某座可获取到[COLOR_HIGHLIGHT_TEXT]%s3_bonus_list[COLOR_REVERT]资源的城市建造公司的总部。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FEAT_UNIT_PRIVATEER</Tag>
+<English>Congratulations, you have trained your first [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! The nationality of this unit is invisible to your rivals, so you may use it to attack their ships without having to declare war. You may also blockade and plunder rival trade routes without having to be at war.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>祝贺你，你已组建了首个[COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]单位，地点：%s2City_Name！其他文明不能确定此种单位的国籍，你可以不必宣战袭击对手的舰船，或是封锁和劫掠对手的海上商路。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_FEAT_UNIT_SPY</Tag>
+<English>Congratulations, you have trained your first [COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT] in %s2City_Name! This unit is invisible to other players, which allows you to enter into their territory to gather intelligence and to perform Espionage Missions. Be aware, however, that even though it cannot be seen, this unit still has a chance to get caught when operating in rival territory, possibly revealing its identity and causing tension in your international relations.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>祝贺你，你已组建了首个[COLOR_UNIT_TEXT]%s1Unit_Name[COLOR_REVERT]单位，地点：%s2City_Name！其他文明不能发现此种单位，你可以派遣他们进入对手领土搜集情报，或是实施谍报行动。但是要注意虽然此种单位是隐形的，但在执行任务时仍有可能被发觉，并导致外交关系恶化。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MISC_HELP_GREATPEOPLE_GOLDEN_AGE</Tag>
+<English>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] from Golden Age</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1%%[ICON_GREATPEOPLE] 来自黄金时代</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_HILLS</Tag>
+<English>Hills</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>丘陵</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_OPENING_MENU</Tag>
+<English>Opening Menu</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>开始菜单</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_MEDIUM_AND_SMALL_DESCR</Tag>
+<English>Realistic world with highly random landmasses medium and small. East and west hemispheres are divided by ocean, although rarely an island chain may connect them.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>中小陆地——由中小型陆地构成的世界。东西半球间由大洋分隔，但偶而会有岛链相连。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_PORTUGAL_FEITORIA_STRATEGY</Tag>
+<English>The [COLOR_BUILDING_TEXT]Feitoria[COLOR_REVERT], the Portuguese replacement for the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT], provides a commerce bonus from all water tiles worked by a city in addition to the usual foreign trade route bonus.</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[COLOR_BUILDING_TEXT]商站[COLOR_REVERT]是葡萄牙的特色建筑，替代[COLOR_BUILDING_TEXT]海关[COLOR_REVERT]，除正常的国际商路收益加成外，还可从每片城市水域额外获得一单位商业收入。</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_GLOBAL_HIGHLANDS_DESCR</Tag>
+<English>A global version of the Highlands map, this map brings a wide variety of mountainous options to a standard oceanic world. This is an extra large map type!</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>高原地图的全球版，与通常由水面占多数的全球地图有很大不同。这种类型的地图非常巨大！</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_VOTE_RESULTS</Tag>
+<English>%s1_institution voting members have announced their decision: %s2_resolution</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>%s1_institution的投票成员宣布了他们的决定：%s2_resolution</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_MAP_SCRIPT_UNPREDICTABLE</Tag>
+<English>Unpredictable</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>不可预测</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_BUILDING_CIVIC_HEALTH_HAPPINESS_CHANGE</Tag>
+<English>[ICON_BULLET]%D1_Change%F2_HappyOrHealth with[SPACE]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]%D1_Change%F2_HappyOrHealth, 如果拥有[SPACE]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_PROJECT_REQUIRED_FOR_VICTORY</Tag>
+<English>[ICON_BULLET]%s1 Required for %s2_victory Victory</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET]需要%s1以赢得%s2_victory胜利</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_AT_WAR_WITH</Tag>
+<English>[ICON_BULLET][COLOR_WARNING_TEXT]War with %s1_player[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET][COLOR_WARNING_TEXT]与 %s1_player 处于战争状态[COLOR_REVERT]</Chinese>
+</TEXT>
+<TEXT>
+<Tag>TXT_KEY_WORST_ENEMY_OF</Tag>
+<English>[ICON_BULLET][COLOR_WARNING_TEXT]Worst Enemy of %s1_player[COLOR_REVERT]</English>
+<L1/>
+<L2/>
+<L3/>
+<L4/>
+<Chinese>[ICON_BULLET][COLOR_WARNING_TEXT]%s1_player 的最坏的敌人[COLOR_REVERT]</Chinese>
+</TEXT>
+</Civ4GameText>
