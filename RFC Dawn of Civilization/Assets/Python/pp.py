@@ -38,7 +38,7 @@ def hello():
 	ret = localText.getText(key.encode('utf-8'), (key, tang)) # -> 'China'
 	toScr(ret)
 	ckey = 'TXT_KEY_CIV_巴比伦'.decode('utf-8') 
-	ret = localText.getText(ckey.encode('gbk'), ()) # 中英混合要用'gbk'编码查询
+	ret = localText.getText(ckey.encode('utf-8'), ())
 	toScr(ret)
 
 def city():

@@ -1999,7 +1999,7 @@ class RFCUtils:
 	def getGoalText(self, iPlayer, iGoal, bTitle = False):
 		iCiv = gc.getPlayer(iPlayer).getCivilizationType()
 		iGameSpeed = gc.getGame().getGameSpeedType()
-		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('gbk'), ()).encode('utf-8')
+		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('utf-8'), ()).encode('utf-8')
 		
 		baseKey = "TXT_KEY_UHV_" + gc.getCivilizationInfo(iCiv).getIdentifier() + str(iGoal+1)
 		
@@ -2011,15 +2011,15 @@ class RFCUtils:
 			#toScr(gc.getGameSpeedInfo(iGameSpeed).getText()) 史诗 -> EPIC
 			fullKey += "_" + speedText
 			
-		translation = localText.getText(str(fullKey), ())
+		translation = localText.getText(fullKey.encode('utf-8'), ())
 		
 		if translation != fullKey: return translation
 		
-		return localText.getText(str(baseKey), ())
+		return localText.getText(baseKey.encode('utf-8'), ())
 		
 	def getReligiousGoalText(self, iReligion, iGoal, bTitle = False):
 		iGameSpeed = gc.getGame().getGameSpeedType()
-		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('gbk'), ()).encode('utf-8')
+		speedText = localText.getText(gc.getGameSpeedInfo(iGameSpeed).getText().encode('utf-8'), ()).encode('utf-8')
 
 		religionKey = ''
 		if iReligion < iNumReligions:
@@ -2038,7 +2038,7 @@ class RFCUtils:
 		baseKey = u"TXT_KEY_URV_" + religionKey
 
 		# 将'TXT_KEY_URV_佛教'转换为'TXT_KEY_URV_BUD'，为了兼容宗教中文名称翻译
-		baseKey = localText.getText(baseKey.encode('gbk'), ()).encode('utf-8')
+		baseKey = localText.getText(baseKey.encode('utf-8'), ()).encode('utf-8')
 
 		if not self.isValidKey(baseKey):
 			file = open("wunshareDbg.log", "a+")
@@ -2073,30 +2073,21 @@ class RFCUtils:
 	def getDawnOfManText(self, iPlayer):
 		iScenario = self.getScenario()
 		# wunshare: start
-		#baseKey = "TXT_KEY_DOM_" + gc.getPlayer(iPlayer).getCivilizationShortDescription(0).replace(" ", "_").upper()
-		# 兼容未翻译英文版
-		converted = gc.getPlayer(iPlayer).getCivilizationShortDescription(0).replace(" ", "_").upper()
-
-		baseKey = u'TXT_KEY_DOM_%s'%converted
+		baseKey = gc.getPlayer(iPlayer).getCivilizationShortDescriptionKey()
+		civKey = baseKey.replace("TXT_KEY_CIV_", "")
+		civKey = civKey.replace("_SHORT_DESC", "")
 		
-		# 将'TXT_KEY_DOM_美利坚'转换成对应的'TXT_KEY_DOM_AMERICA'，为了兼容%s1中文输入
-		baseKey = localText.getText(baseKey.encode('gbk'), ())
-
-		if not isValidKey(baseKey):
-			file = open("wunshareDbg.log", "a+")
-			toFile(u"getDawnOfManText:lost key:TXT_KEY_DOM_%s\n"%converted, file)
-			file.close()
-
-		fullKey = baseKey
+		fullKey = 'TXT_KEY_DOM_' + civKey		
 		# wunshare: end
 		if iScenario == i600AD: fullKey += "_600AD"
 		elif iScenario == i1700AD: fullKey += "_1700AD"
-		
-		translation = localText.getText(str(fullKey), ())
+		#toScr(fullKey)
+
+		translation = localText.getText(fullKey.encode('utf-8'), ())
 		
 		if translation != fullKey: return translation
 		
-		return localText.getText(str(baseKey), ())
+		return localText.getText(baseKey.encode('utf-8'), ())
 		
 	def plot(self, tuple):
 		return gc.getMap().plot(tuple[0], tuple[1])

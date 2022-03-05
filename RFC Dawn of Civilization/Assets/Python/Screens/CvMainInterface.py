@@ -5806,7 +5806,7 @@ class CvMainInterface:
 		paganReligionName = gc.getCivilizationInfo(gc.getPlayer(iPlayer).getCivilizationType()).getPaganReligionName(0)
 		
 		# 中文转英文
-		paganReligionName = localText.getText(paganReligionName.encode('gbk'), ()) # wunshare
+		paganReligionName = localText.getText(paganReligionName.encode('utf-8'), ()) # wunshare
 
 		if not paganReligionName: return ""
 	

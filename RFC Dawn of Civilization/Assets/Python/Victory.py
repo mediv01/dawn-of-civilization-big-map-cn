@@ -2541,7 +2541,7 @@ def checkTurn(iGameTurn, iPlayer):
 				data.bPolytheismNeverReligion = False
 
 			PaganReligionName = gc.getCivilizationInfo(gc.getPlayer(iPlayer).getCivilizationType()).getPaganReligionName(0)
-			PaganReligionName = localText.getText(PaganReligionName.encode('gbk'), ()) # wunshare
+			PaganReligionName = localText.getText(PaganReligionName.encode('utf-8'), ()) # wunshare
 			if PaganReligionName == "Vedism":
 				for city in utils.getCityList(iPlayer):
 					if city.isWeLoveTheKingDay():
@@ -3610,7 +3610,7 @@ def checkReligiousGoal(iPlayer, iGoal):
 		# second Pagan goal: depends on Pagan religion
 		elif iGoal == 1:
 			paganReligion = gc.getCivilizationInfo(pPlayer.getCivilizationType()).getPaganReligionName(0)
-			paganReligion = localText.getText(paganReligion.encode('gbk'), ()) # wunshare
+			paganReligion = localText.getText(paganReligion.encode('utf-8'), ()) # wunshare
 			# Anunnaki: have more wonders in your capital than any other city in the world
 			if paganReligion == "Anunnaki":
 				capital = pPlayer.getCapitalCity()
@@ -5045,7 +5045,7 @@ def getURVHelp(iPlayer, iGoal):
 def getPaganGoalHelp(iPlayer):
 	pPlayer = gc.getPlayer(iPlayer)
 	paganReligion = gc.getCivilizationInfo(gc.getPlayer(iPlayer).getCivilizationType()).getPaganReligionName(0)
-	paganReligion = localText.getText(paganReligion.encode('gbk'), ()) # wunshare
+	paganReligion = localText.getText(paganReligion.encode('utf-8'), ()) # wunshare
 
 	if paganReligion == "Anunnaki":
 		x, y = 0, 0

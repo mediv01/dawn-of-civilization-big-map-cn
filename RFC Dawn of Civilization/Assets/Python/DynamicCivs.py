@@ -905,7 +905,7 @@ def key(iPlayer, sSuffix):
 	
 	# 将'TXT_KEY_CIV_美利坚'转换成对应的'TXT_KEY_CIV_AMERICA'，为了兼容%s1中文输入
 	queryKey = u"TXT_KEY_CIV_%s" % converted
-	converted = localText.getText(queryKey.encode('gbk'), ()).encode('utf-8')
+	converted = localText.getText(queryKey.encode('utf-8'), ()).encode('utf-8')
 
 	if not isValidKey(converted):
 		file = open("wunshareDbg.log", 'a+')

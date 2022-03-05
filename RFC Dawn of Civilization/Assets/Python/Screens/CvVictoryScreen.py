@@ -1753,7 +1753,7 @@ class CvVictoryScreen:
 							if iVictoryType == iVictoryPaganism and i == 1: 
 								# 中文转英文
 								paganReligionName = gc.getCivilizationInfo(gc.getPlayer(self.iActivePlayer).getCivilizationType()).getPaganReligionName(0)
-								paganReligionName = localText.getText(paganReligionName.encode('gbk'), ()) # wunshare
+								paganReligionName = localText.getText(paganReligionName.encode('utf-8'), ()) # wunshare
 								sGoalText += "_" + str(paganReligionName).upper()
 								if self.iActivePlayer == iMaya and not gc.getPlayer(self.iActivePlayer).isReborn(): sGoalText += "_MAYA"
 								elif self.iActivePlayer == iTeotihuacan: sGoalText += "_TEOTIHUACAN"

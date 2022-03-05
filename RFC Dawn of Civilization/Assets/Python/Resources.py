@@ -15,6 +15,7 @@ localText = CyTranslator()
 
 ### Constants ###
 
+# modified in 2020.02.15
 
 # initialise bonuses variables
 
@@ -290,6 +291,9 @@ class Resources:
 			self.createResource(44, 23, iCoffee) # Brazil
 			self.createResource(43, 26, iCoffee) # Brazil
 			self.createResource(29, 31, iCoffee) # Colombia
+			# wunshare : set plot(28, 34) to hills
+			gc.getMap().plot(28, 34).setPlotTypes(PlotTypes.PLOT_HILLS, True, True)
+			gc.getMap().plot(28, 34).setTerrainTypes(iTerrainHills, True, True)
 			self.createResource(28, 34, iCoffee) # Colombia
 			self.createResource(34, 36, iCoffee) # Colombia
 			self.createResource(119, 28, iCoffee) # Sumatra
@@ -321,7 +325,8 @@ class Resources:
 		elif iGameTurn == getTurnForYear(1800):
 			if gc.getDefineINT("PLAYER_REBIRTH_MEXICO") != 0:
 				self.createResource(16, 47, iHorse) # Mexico
-				self.createResource(14, 45, iIron) # Mexico
+				# wunshare : move iron out of the peak (14, 45) -> (15, 45)
+				self.createResource(15, 45, iIron) # Mexico
 				self.createResource(16, 44, iCow) # Mexico
 				
 			if gc.getDefineINT("PLAYER_REBIRTH_COLOMBIA") != 0:
@@ -344,10 +349,12 @@ class Resources:
 			
 			self.createResource(138, 10, iSheep) # Australia
 			self.createResource(140, 14, iSheep) # Australia
-			self.createResource(146, 6, iSheep) # New Zealand
+			# wunshare : move sheep out of the sea (146, 6) -> (0, 7)
+			self.createResource(0, 7, iSheep) # New Zealand
 			
 			# self.createResource(58, 47, iRice) # Vercelli
-			self.createResource(8, 56, iRice) # California
+			# wunshare : move rice out of the peak (8, 56) -> (8, 55)
+			self.createResource(8, 55, iRice) # California
 			
 			self.createResource(9, 50, iFish) # California
 			self.createResource(102, 37, iFish) # Bombay
