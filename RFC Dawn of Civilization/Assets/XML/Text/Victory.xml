@@ -1,6 +1,41 @@
 <?xml version='1.0' encoding='GBK'?>
 <Civ4GameText>
-	
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM1</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM2</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ARM3</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASS1</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASS2</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASS3</Tag>
+		<English>Empty</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>暂无</Chinese>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_BAB3_TITLE</Tag>
 		<English>The Tower of Babel</English>

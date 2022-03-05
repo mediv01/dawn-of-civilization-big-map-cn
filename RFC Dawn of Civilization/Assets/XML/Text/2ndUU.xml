@@ -11,7 +11,7 @@
 		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN_PEDIA</Tag>
 		<English>[TAB]Naffatun were Arabian infantry corps armed with naphtha grenades. They are noted for the successful defense during the Seljuk Siege of Baghdad in 1157, when they managed to destroy several catapults.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]Naffatun是装备石脑油手榴弹的阿拉伯步兵团。他们以在1157年塞尔柱人围攻巴格达期间的成功防御而闻名，当时他们成功摧毁了几架弹射器。</Chinese>
+		<Chinese>[TAB]那法掷油兵是装备石脑油手榴弹的阿拉伯步兵团。他们以在1157年塞尔柱人围攻巴格达期间的成功防御而闻名，当时他们成功摧毁了几架弹射器。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INCA_SLINGER_PEDIA</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_UNIT_ROME_BALLISTA</Tag>
 		<English>Ballista</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗马弩炮</Chinese>
+		<Chinese>扭力弩炮</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_RAM</Tag>
@@ -83,7 +83,7 @@
 		<Tag>TXT_KEY_UNIT_VIKING_LONGSHIP</Tag>
 		<English>Longship</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>维京战舰</Chinese>
+		<Chinese>维京龙船</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO_STRATEGY</Tag>
@@ -95,7 +95,7 @@
 		<Tag>TXT_KEY_UNIT_ITALIAN_BERSAGLIERE</Tag>
 		<English>Bersagliere</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>意大利步兵</Chinese>
+		<Chinese>意大利神射手军团</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KHMER_PHAKAK_STRATEGY</Tag>
@@ -131,7 +131,7 @@
 		<Tag>TXT_KEY_UNIT_MEXICO_EJERCITO</Tag>
 		<English>Ejercito Constitucionalista</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>墨西哥步兵</Chinese>
+		<Chinese>制宪军</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET_STRATEGY</Tag>
@@ -143,13 +143,13 @@
 		<Tag>TXT_KEY_UNIT_JAPAN_ASHIGARU</Tag>
 		<English>Ashigaru</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日本长矛武士</Chinese>
+		<Chinese>足轻</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO</Tag>
 		<English>Tercio</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>西班牙滑膛枪兵</Chinese>
+		<Chinese>西班牙大方阵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL</Tag>
@@ -161,7 +161,7 @@
 		<Tag>TXT_KEY_UNIT_EGYPT_KHOPESH</Tag>
 		<English>Khopesh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃及剑客</Chinese>
+		<Chinese>埃及斧剑兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MOORISH_CAMEL_GUNNER_PEDIA</Tag>
@@ -252,7 +252,7 @@
 		<Tag>TXT_KEY_UNIT_TIBET_DOB_DOB</Tag>
 		<English>Dob Dob</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃矛兵</Chinese>
+		<Chinese>吐蕃僧兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPAIN_TERCIO_PEDIA</Tag>
@@ -270,7 +270,7 @@
 		<Tag>TXT_KEY_UNIT_SELJUK_GHULAM_WARRIOR</Tag>
 		<English>Ghulam Warrior</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>塞尔柱战士</Chinese>
+		<Chinese>古拉姆战士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MONGOL_SIEGE_ENGINEER_STRATEGY</Tag>
@@ -330,7 +330,7 @@
 		<Tag>TXT_KEY_UNIT_CHINA_FIRELANCE</Tag>
 		<English>Pen Huo Qi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>中国喷火器</Chinese>
+		<Chinese>猛火油柜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT_STRATEGY</Tag>
@@ -390,13 +390,13 @@
 		<Tag>TXT_KEY_UNIT_MAYAN_BLOWGUNNER</Tag>
 		<English>Blowgunner</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>玛雅游击军</Chinese>
+		<Chinese>玛雅吹箭手</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN</Tag>
 		<English>Naffatun</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伊朗榴弹车</Chinese>
+		<Chinese>拿法掷弹兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_RUSSIA_STRELETS_STRELETS</Tag>
@@ -498,7 +498,7 @@
 		<Tag>TXT_KEY_UNIT_PORTUGAL_BANDEIRANTES</Tag>
 		<English>Bandeirantes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>葡萄牙火绳枪兵</Chinese>
+		<Chinese>班代兰特征服者</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_RAM_STRATEGY</Tag>
@@ -582,7 +582,7 @@
 		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI</Tag>
 		<English>Hetairoi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>希腊骑兵</Chinese>
+		<Chinese>伙友骑兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_STRATEGY</Tag>
@@ -636,7 +636,7 @@
 		<Tag>TXT_KEY_UNIT_MOORISH_CAMEL_GUNNER</Tag>
 		<English>Berber Camel Gunner</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>柏柏尔骆驼炮手</Chinese>
+		<Chinese>火枪骆驼骑兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PORTUGAL_BANDEIRANTES_STRATEGY</Tag>
@@ -648,7 +648,7 @@
 		<Tag>TXT_KEY_UNIT_CANADA_ARROW</Tag>
 		<English>Avro Arrow</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>加拿大战机</Chinese>
+		<Chinese>CF-105</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CANADA_ARROW_STRATEGY</Tag>
@@ -690,7 +690,7 @@
 		<Tag>TXT_KEY_UNIT_ITALY_CONDOTTIERI</Tag>
 		<English>Condottiero</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>意大利骑兵</Chinese>
+		<Chinese>残枪骑兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TURKEY_GREAT_BOMBARD_PEDIA</Tag>
@@ -726,7 +726,7 @@
 		<Tag>TXT_KEY_UNIT_RUSSIA_STRELETS</Tag>
 		<English>Strelets</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>俄罗斯滑膛枪兵</Chinese>
+		<Chinese>射击军</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PERSIA_SCYTHED_CHARIOT_PEDIA</Tag>
@@ -757,7 +757,7 @@ The soldiers had got into the habit of collecting their supplies carelessly and 
 		<Tag>TXT_KEY_UNIT_INDONESIA_BAMBOO_RUNCING</Tag>
 		<English>Bamboo Runcing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>印尼长枪兵</Chinese>
+		<Chinese>竹枪兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CANADA_ARROW_PEDIA</Tag>
@@ -829,7 +829,7 @@ The soldiers had got into the habit of collecting their supplies carelessly and 
 		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA</Tag>
 		<English>Tagmata</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拜占庭矛兵</Chinese>
+		<Chinese>皇家禁卫军</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KOREA_KOBUKSON_STRATEGY</Tag>
@@ -847,7 +847,7 @@ The soldiers had got into the habit of collecting their supplies carelessly and 
 		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER</Tag>
 		<English>Doppels鰈dner</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德意志剑客</Chinese>
+		<Chinese>杜普勒剑士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ITALIAN_BERSAGLIERE_STRATEGY</Tag>
@@ -934,7 +934,7 @@ The soldiers had got into the habit of collecting their supplies carelessly and 
 		<Tag>TXT_KEY_UNIT_IRAN_NAFFATUN_STRATEGY</Tag>
 		<English>The [COLOR_UNIT_TEXT]Naffatun[COLOR_REVERT], the Iranian replacement for the the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], does more collateral damage.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_UNIT_TEXT]Naffatun[COLOR_REVERT]，伊朗替代[COLOR_UNIT_TEXT]榴弹兵[COLOR_REVERT]造成更多的附带伤害。</Chinese>
+		<Chinese>[COLOR_UNIT_TEXT]那法掷油兵[COLOR_REVERT]，伊朗替代[COLOR_UNIT_TEXT]榴弹兵[COLOR_REVERT]造成更多的附带伤害。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TAMIL_KALLARANI_STRATEGY</Tag>
@@ -952,6 +952,6 @@ The soldiers had got into the habit of collecting their supplies carelessly and 
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET</Tag>
 		<English>Heqa Khasewet</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃及斧兵</Chinese>
+		<Chinese>希克索斯人</Chinese>
 	</TEXT>
 </Civ4GameText>

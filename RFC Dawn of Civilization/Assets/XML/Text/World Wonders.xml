@@ -11,7 +11,7 @@
 		<Tag>TXT_KEY_BUILDING_SHALIMAR_GARDENS_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Shalimar Gardens[COLOR_REVERT] provide happiness for excessive health in its city. It also increases its city's odds of generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>沙利马尔花园[COLOR_BUILDING_TEXT]为城市的过度健康提供了快乐。它还增加了这个城市创造出一个伟大的艺术家的可能性。</Chinese>
+		<Chinese>沙利马尔花园[COLOR_BUILDING_TEXT]为城市的富余健康提供快乐。它还增加了这个城市创造出大艺术家的可能性。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GOLDEN_GATE_BRIDGE_STRATEGY</Tag>
@@ -59,7 +59,7 @@
 		<Tag>TXT_KEY_BUILDING_MOTHERLAND_CALLS_STRATEGY</Tag>
 		<English>[COLOR_BUILDING_TEXT]Motherland Calls[COLOR_REVERT] drafts an unit when a unit of level 3 or higher is lost. It also increases its city's chance of generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>当3级或更高级别的单位丢失时，祖国调用[COLOR_REVERT]绘制一个单位。它也增加了这个城市产生一个伟大的艺术家的机会。</Chinese>
+		<Chinese>当3级或更高级别的单位损失时，祖国调用[COLOR_REVERT]绘制一个单位。它也增加了这个城市产生大艺术家的机会。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_JETAVANARAMAYA_STRATEGY</Tag>
@@ -167,7 +167,7 @@
 		<Tag>TXT_KEY_BUILDING_PRAMBANAN</Tag>
 		<English>Prambanan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>普拉姆巴纳</Chinese>
+		<Chinese>巴兰班南</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_KREMLIN_STRATEGY</Tag>
@@ -461,7 +461,7 @@
 		<Tag>TXT_KEY_BUILDING_OLD_SYNAGOGUE</Tag>
 		<English>Old Synagogue</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>老犹太教堂</Chinese>
+		<Chinese>旧犹太会堂</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GARDENS_BY_THE_BAY</Tag>
@@ -539,7 +539,7 @@
 		<Tag>TXT_KEY_BUILDING_MOTHERLAND_CALLS</Tag>
 		<English>The Motherland Calls</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>祖国呼唤雕像</Chinese>
+		<Chinese>祖国母亲在呼唤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE_STRATEGY</Tag>
@@ -923,7 +923,7 @@
 		<Tag>TXT_KEY_BUILDING_WEMBLEY</Tag>
 		<English>Wembley</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>温布利</Chinese>
+		<Chinese>温布利球场</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NOBEL_PRIZE</Tag>
@@ -1181,7 +1181,7 @@
 		<Tag>TXT_KEY_BUILDING_SALSAL_BUDDHA</Tag>
 		<English>Salsal Buddha</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>萨尔萨佛</Chinese>
+		<Chinese>巴米扬大佛</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GLOBAL_SEED_VAULT</Tag>
@@ -1193,7 +1193,7 @@
 		<Tag>TXT_KEY_BUILDING_POTALA_PALACE_STRATEGY</Tag>
 		<English>[COLOR_BUILDING_TEXT]Potala Palace[COLOR_REVERT] provides a Great People point for every hill tile in the city radius. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]布达拉宫[COLOR_REVERT]为城市半径内的每一个山丘瓷砖提供了一个很棒的人民点。它还增加了生成[COLOR_UNIT_TEXT]伟大先知[COLOR_REVERT]的机会。</Chinese>
+		<Chinese>[COLOR_BUILDING_TEXT]布达拉宫[COLOR_REVERT]为城市半径内的每一个丘陵地块提供一个伟人点数。它还增加了生成[COLOR_UNIT_TEXT]大先知[COLOR_REVERT]的机会。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TRAFALGAR_SQUARE_HELP</Tag>
@@ -1205,7 +1205,7 @@
 		<Tag>TXT_KEY_BUILDING_SILVER_TREE_FOUNTAIN_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Silver Tree Fountain[COLOR_REVERT] creates a free Great Person when a [COLOR_UNIT_TEXT]Great General[COLOR_REVERT] is born. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Statesman[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]银树喷泉[COLOR_REVERT]在[COLOR_UNIT_TEXT]伟大的将军[COLOR_REVERT]诞生时创造了一个自由的伟人。它还增加了生成[COLOR_UNIT_TEXT]伟大政治家[COLOR_REVERT]的机会。</Chinese>
+		<Chinese>[COLOR_BUILDING_TEXT]银树喷泉[COLOR_REVERT]在[COLOR_UNIT_TEXT]大将军[COLOR_REVERT]诞生时创造了一个额外的伟人。它还增加了生成[COLOR_UNIT_TEXT]大政治家[COLOR_REVERT]的机会。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ESCORIAL_STRATEGY</Tag>
@@ -1241,7 +1241,7 @@
 		<Tag>TXT_KEY_BUILDING_SILVER_TREE_FOUNTAIN_HELP</Tag>
 		<English>[ICON_BULLET]Another great person is born whenever a Great General appears</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>当一个伟大的将军出现时，另一个伟大的人就诞生了</Chinese>
+		<Chinese>当一个大将军出现时，获得额外的伟人</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TORRE_DE_BELEM</Tag>
@@ -1505,7 +1505,7 @@
 		<Tag>TXT_KEY_BUILDING_PYRAMID_OF_THE_SUN_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Pyramid of the Sun[COLOR_REVERT] reduces by 1 the number of Great People required to start a [COLOR_HIGHLIGHT_TEXT]Golden Age[COLOR_REVERT]. It improves the odds of its city generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>42</Chinese>
+		<Chinese>太阳金字塔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MOAI_STATUES_STRATEGY</Tag>
@@ -1553,7 +1553,7 @@
 		<Tag>TXT_KEY_BUILDING_HOUSE_OF_WISDOM</Tag>
 		<English>House of Wisdom</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>智慧之家</Chinese>
+		<Chinese>智慧宫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AQUA_APPIA</Tag>
@@ -1697,7 +1697,7 @@
 		<Tag>TXT_KEY_BUILDING_AL_KHAZNEH</Tag>
 		<English>Al Khazneh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡兹尼神殿</Chinese>
+		<Chinese>佩特拉古城</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SILVER_TREE_FOUNTAIN</Tag>
@@ -1799,7 +1799,7 @@
 		<Tag>TXT_KEY_BUILDING_MONOLITHIC_CHURCH</Tag>
 		<English>Monolithic Church</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>法国大教堂</Chinese>
+		<Chinese>拉利贝拉岩石教堂</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MT_RUSHMORE_STRATEGY</Tag>
@@ -1919,7 +1919,7 @@
 		<Tag>TXT_KEY_BUILDING_WAT_PREAH_PISNULOK</Tag>
 		<English>Wat Preah Pisnulok</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>皮斯努洛克</Chinese>
+		<Chinese>吴哥窟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SPACE_ELEVATOR_HELP</Tag>
@@ -1955,13 +1955,13 @@
 		<Tag>TXT_KEY_BUILDING_SAINT_SOPHIA</Tag>
 		<English>Saint Sophia's Cathedral</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>圣索菲亚大教堂（基辅）</Chinese>
+		<Chinese>基辅圣索菲亚大教堂</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ITAIPU_DAM</Tag>
 		<English>Itaipu Dam</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>三峡大坝</Chinese>
+		<Chinese>伊泰普大坝</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SHALIMAR_GARDENS</Tag>
@@ -2010,5 +2010,11 @@
 		<English>The Grand Canal</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>大运河</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN</Tag>
+		<English>太阳门</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>太阳门</Chinese>
 	</TEXT>
 </Civ4GameText>

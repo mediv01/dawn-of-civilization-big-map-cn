@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Terrain -->
+<Civ4GameText>
+	<TEXT>
+		<Tag>TXT_KEY_DEBUG_INFO_TITLE</Tag>
+		<English>DEBUG_INFO</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>DEBUG_INFO</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOTAL_AFFECTED_CITIES</Tag>
+		<English>TOTAL</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>总计</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INIT_AFFECTED_CITIES</Tag>
+		<English>INIT</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基本</Chinese>
+	</TEXT>
+</Civ4GameText>

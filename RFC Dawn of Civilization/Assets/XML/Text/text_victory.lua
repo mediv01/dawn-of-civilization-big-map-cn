@@ -3609,9 +3609,8 @@ return {
 
 	TXT_KEY_UHV_YEM2 = {
 		"Control Mecca in 1265",
-
 		"1265年控制麦加",
-
+	}
 
 	TXT_KEY_VICTORY_JEWISH_SPECIALISTS = {
 		"Great Prophets, Scientists and Statesmen in Jewish cities: %d1 / %d2",

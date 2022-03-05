@@ -5,6 +5,12 @@
 		<Tag>TXT_KEY_RELIGION_ANUNNAKI</Tag>
 		<English>Anunnaki</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>阿努纳基</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>阿努纳基</Tag>
+		<English>Anunnaki</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Anunnaki</Chinese>
 	</TEXT>	
 	<TEXT>
@@ -17,10 +23,22 @@
 		<Tag>TXT_KEY_RELIGION_SHINTO</Tag>
 		<English>Shinto</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Shinto</Chinese>
+		<Chinese>神道教</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>神道教</Tag>
+		<English>Shinto</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Shinto</Chinese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_CATHOLICISM</Tag>
+		<English>Catholicism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基督教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>基督教</Tag>
 		<English>Catholicism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Catholicism</Chinese>
@@ -38,13 +56,31 @@
 		<Chinese>Pesedjet</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>Pesedjet</Tag>
+		<English>Pesedjet</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Pesedjet</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_MAZDAISM</Tag>
+		<English>Mazdaism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>马自达教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>马自达教</Tag>
 		<English>Mazdaism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Mazdaism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_DRUIDISM</Tag>
+		<English>Druidism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>德鲁伊教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>德鲁伊教</Tag>
 		<English>Druidism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Druidism</Chinese>
@@ -56,13 +92,31 @@
 		<Chinese>Atua</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>Atua</Tag>
+		<English>Atua</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Atua</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_TENGRI</Tag>
+		<English>Tengri</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>腾格里</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>腾格里</Tag>
 		<English>Tengri</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Tengri</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_OLYMPIANISM</Tag>
+		<English>Olympianism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>奥林匹亚</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>奥林匹亚</Tag>
 		<English>Olympianism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Olympianism</Chinese>
@@ -89,16 +143,34 @@
 		<Tag>TXT_KEY_RELIGION_ZOROASTRIANISM</Tag>
 		<English>Zoroastrianism</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>琐罗亚斯德教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>琐罗亚斯德教</Tag>
+		<English>Zoroastrianism</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Zoroastrianism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_VEDISM</Tag>
 		<English>Vedism</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>吠陀</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>吠陀</Tag>
+		<English>Vedism</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Vedism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_SHENDAO</Tag>
+		<English>Shendao</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>神道</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>神道</Tag>
 		<English>Shendao</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Shendao</Chinese>
@@ -110,7 +182,19 @@
 		<Chinese>Midewiwin</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>Midewiwin</Tag>
+		<English>Midewiwin</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Midewiwin</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_PROTESTANTISM_ADJECTIVE</Tag>
+		<English>Protestant</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基督新教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>基督新教</Tag>
 		<English>Protestant</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Protestant</Chinese>
@@ -122,7 +206,19 @@
 		<Chinese>Inti</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>Inti</Tag>
+		<English>Inti</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Inti</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_SHIA</Tag>
+		<English>Shia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Shia</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>Shia</Tag>
 		<English>Shia</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Shia</Chinese>
@@ -143,10 +239,22 @@
 		<Tag>TXT_KEY_RELIGION_PROTESTANTISM</Tag>
 		<English>Protestantism</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>基督新教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>基督新教</Tag>
+		<English>Protestantism</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Protestantism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ASATRU</Tag>
+		<English>Asatru</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>阿萨特鲁</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>阿萨特鲁</Tag>
 		<English>Asatru</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Asatru</Chinese>
@@ -155,13 +263,19 @@
 		<Tag>TXT_KEY_RELIGION_ORTHODOXY</Tag>
 		<English>Orthodoxy</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>东正教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>东正教</Tag>
+		<English>Orthodoxy</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Orthodoxy</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_SCREEN_DATE_FOUNDED</Tag>
 		<English>Founded:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Founded:</Chinese>
+		<Chinese>创立：</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_TEOTL</Tag>
@@ -170,7 +284,19 @@
 		<Chinese>Teotl</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>Teotl</Tag>
+		<English>Teotl</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>Teotl</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ANGAKKUQ</Tag>
+		<English>Angakkuq</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>安加库克</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>安加库克</Tag>
 		<English>Angakkuq</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Angakkuq</Chinese>
@@ -191,10 +317,22 @@
 		<Tag>TXT_KEY_RELIGION_BUDDHISM</Tag>
 		<English>Buddhism</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>佛教</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>佛教</Tag>
+		<English>Buddhism</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Buddhism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_RODNOVERY</Tag>
+		<English>Rodnovery</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗德诺夫</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>罗德诺夫</Tag>
 		<English>Rodnovery</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Rodnovery</Chinese>
@@ -203,10 +341,22 @@
 		<Tag>TXT_KEY_RELIGION_PAGANISM</Tag>
 		<English>Paganism</English>
 		<L1/><L2/><L3/><L4/>
+		<Chinese>原始信仰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>原始信仰</Tag>
+		<English>Paganism</English>
+		<L1/><L2/><L3/><L4/>
 		<Chinese>Paganism</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_YORUBA</Tag>
+		<English>Yoruba</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>约鲁巴</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>约鲁巴</Tag>
 		<English>Yoruba</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Yoruba</Chinese>
@@ -225,6 +375,12 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_BAALISM</Tag>
+		<English>Baalism</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>巴力教</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>巴力教</Tag>
 		<English>Baalism</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>Baalism</Chinese>
