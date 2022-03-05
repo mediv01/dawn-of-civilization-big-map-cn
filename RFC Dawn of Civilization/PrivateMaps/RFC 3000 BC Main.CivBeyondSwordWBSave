@@ -295,14 +295,14 @@ BeginPlayer
 	Team=3
 	LeaderType=LEADER_WIRACOCHA
 	CivType=CIVILIZATION_NORTE_CHICO
-	PlayableCiv=1
+	PlayableCiv=0
 	Handicap=HANDICAP_REGENT
 EndPlayer
 BeginPlayer
 	Team=4
 	LeaderType=LEADER_PIYE
 	CivType=CIVILIZATION_NUBIA
-	PlayableCiv=1
+	PlayableCiv=0
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	Handicap=HANDICAP_REGENT
 EndPlayer
@@ -326,7 +326,7 @@ BeginPlayer
 	Team=7
 	LeaderType=LEADER_SUPPI
 	CivType=CIVILIZATION_HITTITES
-	PlayableCiv=1
+	PlayableCiv=0
 	Handicap=HANDICAP_REGENT
 EndPlayer
 BeginPlayer
@@ -344,7 +344,7 @@ BeginPlayer
 	Team=9
 	LeaderType=LEADER_TEZCATLIPOCA
 	CivType=CIVILIZATION_OLMECS
-	PlayableCiv=1
+	PlayableCiv=0
 	Handicap=HANDICAP_REGENT
 EndPlayer
 BeginPlayer
@@ -381,7 +381,7 @@ BeginPlayer
 	Team=13
 	LeaderType=LEADER_AHOEITU
 	CivType=CIVILIZATION_POLYNESIA
-	PlayableCiv=1
+	PlayableCiv=0
 	Handicap=HANDICAP_REGENT
 EndPlayer
 BeginPlayer
@@ -412,7 +412,7 @@ BeginPlayer
 	Team=16
 	LeaderType=LEADER_KANISHKA
 	CivType=CIVILIZATION_YUEZHI
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_SOCIETY, Civic=CIVIC_SLAVERY
@@ -456,7 +456,7 @@ BeginPlayer
 	Team=20
 	LeaderType=LEADER_EZANA
 	CivType=CIVILIZATION_ETHIOPIA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_SOCIETY, Civic=CIVIC_SLAVERY
@@ -467,7 +467,7 @@ BeginPlayer
 	Team=21
 	LeaderType=LEADER_TRUNG
 	CivType=CIVILIZATION_VIETNAM
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	StateReligion=RELIGION_BUDDHISM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -479,7 +479,7 @@ BeginPlayer
 	Team=22
 	LeaderType=LEADER_ATLATL_CAUAC
 	CivType=CIVILIZATION_TEOTIHUACAN
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	Handicap=HANDICAP_REGENT
@@ -488,7 +488,7 @@ BeginPlayer
 	Team=23
 	LeaderType=LEADER_ASHOT
 	CivType=CIVILIZATION_ARMENIA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_CITIZENSHIP
@@ -501,7 +501,7 @@ BeginPlayer
 	Team=24
 	LeaderType=LEADER_AUA
 	CivType=CIVILIZATION_INUIT
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	Handicap=HANDICAP_REGENT
 EndPlayer
@@ -509,7 +509,7 @@ BeginPlayer
 	Team=25
 	LeaderType=LEADER_RED_HORN
 	CivType=CIVILIZATION_MISSISSIPPI
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=500
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEIFICATION
 	Handicap=HANDICAP_REGENT
@@ -530,7 +530,7 @@ BeginPlayer
 	Team=27
 	LeaderType=LEADER_MALKU_HUYUSTUS
 	CivType=CIVILIZATION_TIWANAKU
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_REPUBLIC
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEIFICATION
@@ -554,7 +554,7 @@ BeginPlayer
 	Team=29
 	LeaderType=LEADER_WARI_CAPAC
 	CivType=CIVILIZATION_WARI
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEIFICATION
@@ -646,7 +646,7 @@ BeginPlayer
 	Team=36
 	LeaderType=LEADER_ANAWRAHTA
 	CivType=CIVILIZATION_BURMA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=150
 	StateReligion=RELIGION_BUDDHISM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -658,7 +658,7 @@ BeginPlayer
 	Team=37
 	LeaderType=LEADER_BULAN
 	CivType=CIVILIZATION_KHAZARS
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=400
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -727,7 +727,7 @@ BeginPlayer
 	Team=42
 	LeaderType=LEADER_SAIF
 	CivType=CIVILIZATION_OMAN
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=300
 	StateReligion=RELIGION_ISLAM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -741,7 +741,7 @@ BeginPlayer
 	Team=43
 	LeaderType=LEADER_ABAOJI
 	CivType=CIVILIZATION_KHITAN
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_SOCIETY, Civic=CIVIC_CASTE_SYSTEM
@@ -766,7 +766,7 @@ BeginPlayer
 	Team=45
 	LeaderType=LEADER_SAGUAMANCHICA
 	CivType=CIVILIZATION_MUISCA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=300
 	CivicOption=CIVICOPTION_SOCIETY, Civic=CIVIC_SLAVERY
 	Handicap=HANDICAP_REGENT
@@ -775,7 +775,7 @@ BeginPlayer
 	Team=46
 	LeaderType=LEADER_ARWA
 	CivType=CIVILIZATION_YEMEN
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=300
 	StateReligion=RELIGION_ISLAM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -818,7 +818,7 @@ BeginPlayer
 	Team=49
 	LeaderType=LEADER_RURIK
 	CivType=CIVILIZATION_NOVGOROD
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	StateReligion=RELIGION_ORTHODOXY
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -862,7 +862,7 @@ BeginPlayer
 	Team=52
 	LeaderType=LEADER_LAPU_LAPU
 	CivType=CIVILIZATION_PHILIPPINES
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=600
 	StateReligion=RELIGION_BUDDHISM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -876,7 +876,7 @@ BeginPlayer
 	Team=53
 	LeaderType=LEADER_SHIRAZI
 	CivType=CIVILIZATION_SWAHILI
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=600
 	StateReligion=RELIGION_ISLAM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -933,7 +933,7 @@ EndPlayer
  	Team=57
 	LeaderType=LEADER_RUSVINGO
 	CivType=CIVILIZATION_ZIMBABWE
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -986,7 +986,7 @@ BeginPlayer
 	Team=61
 	LeaderType=LEADER_ODUDUWA
 	CivType=CIVILIZATION_NIGERIA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=250
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -999,7 +999,7 @@ BeginPlayer
 	Team=62
 	LeaderType=LEADER_MINDAUGAS
 	CivType=CIVILIZATION_LITHUANIA
-	PlayableCiv=1
+	PlayableCiv=0
 	StartingGold=100
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ELECTIVE
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -1012,7 +1012,7 @@ BeginPlayer
 	Team=63
 	LeaderType=LEADER_GENGHIS_KHAN
 	CivType=CIVILIZATION_MONGOL
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=250
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ELECTIVE
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -1025,7 +1025,7 @@ BeginPlayer
 	Team=64
 	LeaderType=LEADER_MONTEZUMA
 	CivType=CIVILIZATION_AZTEC
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=600
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_CITIZENSHIP
@@ -1038,7 +1038,7 @@ BeginPlayer
 	Team=65
 	LeaderType=LEADER_AKBAR
 	CivType=CIVILIZATION_MUGHALS
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=400
 	StateReligion=RELIGION_ISLAM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -1068,7 +1068,7 @@ BeginPlayer
 	Team=67
 	LeaderType=LEADER_MEHMED
 	CivType=CIVILIZATION_OTTOMAN
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=300
 	StateReligion=RELIGION_ISLAM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -1083,7 +1083,7 @@ BeginPlayer
 	Team=68
 	LeaderType=LEADER_PETER
 	CivType=CIVILIZATION_RUSSIA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=200
 	Handicap=HANDICAP_REGENT
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
@@ -1095,7 +1095,7 @@ BeginPlayer
 	Team=69
 	LeaderType=LEADER_NARESUAN
 	CivType=CIVILIZATION_THAILAND
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=800
 	StateReligion=RELIGION_BUDDHISM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -1109,7 +1109,7 @@ BeginPlayer
 	Team=70
 	LeaderType=LEADER_MBEMBA
 	CivType=CIVILIZATION_CONGO
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=300
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ELECTIVE
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_VASSALAGE
@@ -1135,7 +1135,7 @@ BeginPlayer
 	Team=72
 	LeaderType=LEADER_WILLEM_VAN_ORANJE
 	CivType=CIVILIZATION_NETHERLANDS
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=600
 	StateReligion=RELIGION_ORTHODOXY
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_REPUBLIC
@@ -1149,7 +1149,7 @@ BeginPlayer
 	Team=73
 	LeaderType=LEADER_KANGXI
 	CivType=CIVILIZATION_MANCHURIA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=200
 	StateReligion=RELIGION_CONFUCIANISM
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_REPUBLIC
@@ -1163,7 +1163,7 @@ BeginPlayer
 	Team=74
 	LeaderType=LEADER_FREDERICK
 	CivType=CIVILIZATION_GERMANY
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=800
 	StateReligion=RELIGION_ORTHODOXY
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -1178,7 +1178,7 @@ BeginPlayer
 	Team=75
 	LeaderType=LEADER_FRANKLIN_ROOSEVELT
 	CivType=CIVILIZATION_AMERICA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=1500
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DEMOCRACY
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_CONSTITUTION
@@ -1192,7 +1192,7 @@ BeginPlayer
 	Team=76
 	LeaderType=LEADER_SAN_MARTIN
 	CivType=CIVILIZATION_ARGENTINA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=1200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DEMOCRACY
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_CONSTITUTION
@@ -1206,7 +1206,7 @@ BeginPlayer
 	Team=77
 	LeaderType=LEADER_DOM_PEDRO
 	CivType=CIVILIZATION_BRAZIL
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=1600
 	StateReligion=RELIGION_ORTHODOXY
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
@@ -1221,7 +1221,7 @@ BeginPlayer
 	Team=78
 	LeaderType=LEADER_MENZIES
 	CivType=CIVILIZATION_AUSTRALIA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=1200
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
 	CivicOption=CIVICOPTION_LEGITIMACY, Civic=CIVIC_CONSTITUTION
@@ -1249,7 +1249,7 @@ BeginPlayer
 	Team=80
 	LeaderType=LEADER_TRUDEAU
 	CivType=CIVILIZATION_CANADA
-	PlayableCiv=0
+	PlayableCiv=1
 	StartingGold=1000
 	StateReligion=RELIGION_ORTHODOXY
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DEMOCRACY
