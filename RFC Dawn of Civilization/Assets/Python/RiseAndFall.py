@@ -2217,7 +2217,7 @@ class RiseAndFall:
 								plot = gc.getMap().plot(i, j)
 								if not (plot.isCity() or plot.isPeak() or plot.isWater()):
 									lFreePlots.append((i, j))
-
+				bAlaska= False
 				for tPlot in lAlaska:
 					x, y = tPlot
 					pPlot = gc.getMap().plot(x, y)
