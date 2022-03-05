@@ -58,8 +58,8 @@ def getNormalArea(iPlayer, bReborn=None):
 	return getArea(iPlayer, tNormalArea, dNormalAreaExceptions, bReborn, dChangedNormalArea, dChangedNormalAreaExceptions)			
 				
 def getBroaderArea(iPlayer, bReborn=None):				
-	return getArea(iPlayer, tBroaderArea, {}, bReborn, dChangedBroaderArea)
-    
+	return getArea(iPlayer, tBroaderArea, {}, bReborn, dChangedBroaderArea)			
+				
 def getRespawnArea(iPlayer):				
 	if iPlayer in dRespawnArea: return getArea(iPlayer, dRespawnArea, {})			
 	return getNormalArea(iPlayer)			
@@ -412,7 +412,7 @@ tCoreArea = (
 ((79, 66),	(85, 70)),	# Novgorod		
 ((79, 60),	(83, 62)),	# Kievan Rus		
 ((71, 56),	(76, 59)),	# Hungary		
-((128, 35),	(133, 40)),	# Philippines		
+((128, 35),	(133, 40)),	# Philippines	
 ((82, 18),	(85, 25)),	# Swahili		
 ((77, 39),	(81, 45)),	# Mamluks		
 ((57, 34),	(65, 39)),	# Mali		
@@ -423,7 +423,7 @@ tCoreArea = (
 ((65, 55),	(70, 57)),	# Italy		
 ((65, 31),	(70, 35)),	# Nigeria
 ((76, 65),	(79, 69)),	# Lithuania		
-((113, 56),	(126, 63)),	# Mongolia		
+((112, 56),	(126, 63)),	# Mongolia		
 ((14, 41),	(19, 44)),	# Aztecs		
 ((99, 44),	(106, 50)),	# Mughals		
 ((89, 60),	(93, 66)),	# Tatar		
@@ -433,7 +433,7 @@ tCoreArea = (
 ((69, 24),	(74, 27)),	# Congo		
 ((69, 68),	(75, 75)),	# Sweden		
 ((62, 63),	(64, 65)),	# Netherlands		
-((125, 56),	(131, 65)),	# Manchuria		
+((121, 51),	(130, 65)),	# Manchuria			
 ((65, 59),	(75, 66)),	# Germany		
 ((22, 53),	(34, 60)),	# America		
 ((35, 9),	(39, 17)),	# Argentina		
@@ -642,11 +642,10 @@ iByzantium : [(83, 49), (75, 55), (76, 55), (75, 56), (76, 56), (77, 56), (78, 5
 iJapan : [(133, 60), (134, 60), (133, 61), (134, 61), (133, 62), (134, 62)],				
 iVikings : [(75, 67), (77, 67), (78, 67), (77, 68), (78, 68), (79, 68)],				
 iArabia : [(84, 35), (84, 36), (84, 37), (85, 35), (88, 45), (88, 46), (89, 45), (89, 46), (90, 44), (90, 45), (90, 46), (91, 45), (91, 46), (92, 45), (92, 46), (93, 44), (93, 45), (94, 43), (94, 44), (94, 45), (94, 46), (95, 43), (95, 45), (95, 46), (96, 43), (96, 44), (96, 45), (96, 46)],
-iSpain : [(49, 44), (49, 43), (49, 42), (49, 41)],	# bugs			
-iTibet : [(107, 47), (108, 47), (107, 53), (108, 53), (107, 54), (108, 54), (109, 54), (110, 54)],		
+iTibet : [(107, 47), (108, 47), (107, 53), (108, 53), (107, 54), (108, 54), (109, 54), (110, 54)],				
 iIndonesia : [(131, 33)],				
 iMoors : [(64, 51), (67, 51)],				
-iSpain : [(63, 48), (64, 48)],	# bugs			
+iSpain : [(63, 48), (64, 48)],				
 iFrance : [(65, 60), (65, 61)],				
 iKhmer:	[(121, 41), (122, 40), (123, 39)],			
 iHolyRome : [(65, 58), (65, 59), (73, 62)],				

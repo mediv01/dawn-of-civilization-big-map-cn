@@ -176,6 +176,18 @@ class RFCUtils:
 			if gc.getTeam(gc.getPlayer(iMajorCiv).getTeam()).isHasTech(iTech):
 					gc.getTeam(gc.getPlayer(iMinorCiv).getTeam()).setHasTech(iTech, True, iMinorCiv, False, False)
 
+	#wunshare 2020.01.18
+	def joinPlotGroup(self, unit):
+		plot = unit.plot()
+		if plot.isUnit():
+			for i in reversed(range(plot.getNumUnits())):
+				head_unit = plot.getUnit(i)
+				if head_unit.getID() == unit.getID():
+					continue
+				if unit.canJoinGroup(head_unit.getGroup()):
+					unit.joinGroup(head_unit.getGroup())
+					#self.show("Player:%d Unit:%d, joinGroup:%d"%(unit.getOwner(), unit.getID(), head_unit.getGroupID()))
+					break
 
 	#RiseAndFall, Religions, Congresses, UniquePowers
 	def makeUnit(self, iUnit, iPlayer, tCoords, iNum, sAdj="", iExp = 0): #by LOQ
@@ -187,6 +199,7 @@ class RFCUtils:
 				unit.setName(CyTranslator().getText(sAdj, ()) + ' ' + unit.getName())
 			if iExp > 0:
 				unit.changeExperience(iExp, 100, False, False, False)
+			self.joinPlotGroup(unit) #wunshare 2020.01.18
 
 	def makeUnitAI(self, iUnit, iPlayer, tCoords, iAI, iNum, sAdj=""): #by LOQ, modified by Leoreth
 		'Makes iNum units for player iPlayer of the type iUnit at tCoords.'
@@ -195,6 +208,7 @@ class RFCUtils:
 			unit = player.initUnit(iUnit, tCoords[0], tCoords[1], iAI, DirectionTypes.DIRECTION_SOUTH)
 			if sAdj != "":
 				unit.setName(CyTranslator().getText(sAdj, ()) + ' ' + unit.getName())
+			self.joinPlotGroup(unit) #wunshare 2020.01.18
 
 	#RiseAndFall, Religions, Congresses
 	def getHumanID(self):
@@ -2018,7 +2032,7 @@ class RFCUtils:
 			religionKey = "SEC"
 
 		# 兼容未翻译英文版
-		if isValidKey(religionKey):
+		if self.isValidKey(religionKey):
 			religionKey = religionKey[:3]
 		
 		baseKey = u"TXT_KEY_URV_" + religionKey
@@ -2026,7 +2040,7 @@ class RFCUtils:
 		# 将'TXT_KEY_URV_佛教'转换为'TXT_KEY_URV_BUD'，为了兼容宗教中文名称翻译
 		baseKey = localText.getText(baseKey.encode('gbk'), ()).encode('utf-8')
 
-		if not isValidKey(baseKey):
+		if not self.isValidKey(baseKey):
 			file = open("wunshareDbg.log", "a+")
 			toFile("getReligiousGoalText:lost key:%s\n"%baseKey, file)
 			file.close()

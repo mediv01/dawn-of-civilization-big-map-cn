@@ -4064,7 +4064,8 @@ class CvMainInterface:
 						szLeadBuffer = szLeadBuffer + szTempBuffer
 						
 						iNumResources = pHeadSelectedCity.getNumBonuses(i)
-						iAffectedCities = bonusInfo.getAffectedCities()
+						# wunshare
+						iAffectedCities = gc.getPlayer(pHeadSelectedCity.getOwner()).getBonusAffectedCities(i) # bonusInfo.getAffectedCities()
 						
 						iResourceDiff = iNumResources * iAffectedCities - iCityCultureRank
 						
@@ -5804,6 +5805,9 @@ class CvMainInterface:
 	def getPaganReligionChar(self, iPlayer):
 		paganReligionName = gc.getCivilizationInfo(gc.getPlayer(iPlayer).getCivilizationType()).getPaganReligionName(0)
 		
+		# 中文转英文
+		paganReligionName = localText.getText(paganReligionName.encode('gbk'), ()) # wunshare
+
 		if not paganReligionName: return ""
 	
 		return u"<font=2>%c</font>" % FontUtil.getChar(paganReligionName.lower())

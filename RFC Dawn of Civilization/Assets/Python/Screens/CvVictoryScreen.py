@@ -54,6 +54,7 @@ VICTORY_CONDITION_SCREEN = 0
 GAME_SETTINGS_SCREEN = 1
 UN_RESOLUTION_SCREEN = 2
 UN_MEMBERS_SCREEN = 3
+DEBUG_INFO_SCREEN = 4 # wunshare
 
 class CvVictoryScreen:
 	"Keeps track of victory conditions"
@@ -72,6 +73,7 @@ class CvVictoryScreen:
 		self.SETTINGS_TAB_ID = "SettingsTabWidget"
 		self.UN_RESOLUTION_TAB_ID = "VotingTabWidget"
 		self.UN_MEMBERS_TAB_ID = "MembersTabWidget"
+		self.DEBUG_INFO_TAB_ID = "DebugInfoWidget" # wunshare
 		self.SPACESHIP_LAUNCH_BUTTON = 1234
 
 		self.Z_BACKGROUND = -6.1
@@ -167,7 +169,7 @@ class CvVictoryScreen:
 		screen = self.getScreen()
 		if screen.isActive():
 			return
-		screen.setRenderInterfaceOnly(True);
+		screen.setRenderInterfaceOnly(True)
 		screen.showScreen(PopupStates.POPUPSTATE_IMMEDIATE, False)
 		
 		self.X_SCREEN -= self.X_EXTRA / 2
@@ -211,6 +213,9 @@ class CvVictoryScreen:
 			self.showVotingScreen()
 		elif self.iScreen == UN_MEMBERS_SCREEN:
 			self.showMembersScreen()
+		# wunshare
+		elif self.iScreen == DEBUG_INFO_SCREEN:
+			self.showDebugInfoScreen()
 
 	def drawTabs(self):
 		screen = self.getScreen()
@@ -240,6 +245,137 @@ class CvVictoryScreen:
 			else:
 				screen.setText(self.UN_MEMBERS_TAB_ID, "", u"<font=4>" + localText.getColorText("TXT_KEY_MEMBERS_TITLE", (), gc.getInfoTypeForString("COLOR_YELLOW")).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 			xLink += self.DX_LINK
+
+		# wunshare
+		if (self.iScreen != DEBUG_INFO_SCREEN):
+			screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" + localText.getText("TXT_KEY_DEBUG_INFO_TITLE", ()).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		else:
+			screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" + localText.getColorText("TXT_KEY_DEBUG_INFO_TITLE", (), gc.getInfoTypeForString("COLOR_YELLOW")).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		xLink += self.DX_LINK
+
+		# wunshare
+	def showDebugInfoScreen(self):
+		self.deleteAllWidgets()	
+		screen = self.getScreen()
+
+		# frameworks
+		screen.addPanel(self.getNextWidgetName(), "", "", False, False, self.X_AREA-10, self.Y_AREA-15, self.W_AREA+20, self.H_AREA+30, PanelStyles.PANEL_STYLE_BLUE50)
+		szTable = self.getNextWidgetName()
+		screen.addTableControlGFC(szTable, 6, self.X_AREA, self.Y_AREA, self.W_AREA, self.H_AREA, False, False, 32,32, TableStyles.TABLE_STYLE_STANDARD)
+		screen.setTableColumnHeader(szTable, 0, "", self.TABLE2_WIDTH_1)
+		screen.setTableColumnHeader(szTable, 1, "", self.TABLE_WIDTH_2) # fixed width
+		screen.setTableColumnHeader(szTable, 2, "", self.TABLE_WIDTH_2)
+		screen.setTableColumnHeader(szTable, 3, "", self.TABLE_WIDTH_2)
+		screen.setTableColumnHeader(szTable, 4, "", self.TABLE_WIDTH_2)
+		screen.setTableColumnHeader(szTable, 5, "", self.TABLE_WIDTH_2)
+		screen.appendTableRow(szTable)
+
+		# logics - start
+		activePlayer = gc.getPlayer(self.iActivePlayer)
+		activeTeam = gc.getTeam(activePlayer.getTeam())
+
+		# 1.Crop resourses(corn, wheat, rice, potato, millet)
+		lCropResourses = (iCorn, iWheat, iRice, iPotato, iMillet)
+		# 2.Seafood(clam, crab, fish)
+		lSeafood = (iClam, iCrab, iFish)
+		# 3.livestocks (deer, cow, pig, sheep)
+		lLivestocks = (iDeer, iCow, iPig, iSheep, iCamel)
+		# 4.Commercial crops(olives, spices, wine, banana, cocoa, coffee, cotton, dye, incense, opium, silk, sugar, tea, tobacco)
+		lCommericialCrops = (iOlives, iSpices, iWine, iBanana, iCocoa, iCoffee, iCotton, iDye, iIncense, iOpium, iSilk, iSugar, iTea, iTobacco, iCitrus, iDates)
+		# 5.Luxury resourses(fur, ivory, pearls, gems, gold, silver, jade, amber, whale)
+		lLuxuryResources = (iFur, iIvory, iPearls, iGems, iGold, iSilver, iJade, iAmber, iWhales)
+		# 6.Media resourses(football, movies, singles)
+		lMediaResources = (iSoccer, iMovies, iSongs)
+		# 7.Salt
+
+		# helper function
+		def getIcon(bVal):
+			if bVal:
+				return u"%c" %(CyGame().getSymbolID(FontSymbols.SUCCESS_CHAR))
+			else:
+				return u"%c" %(CyGame().getSymbolID(FontSymbols.FAILURE_CHAR))
+		def getHasTech(iTech, iPosition):
+			if activeTeam.isHasTech(iTech):
+				text = getIcon(True) + gc.getTechInfo(iTech).getDescription()
+			else:
+				text = getIcon(False) + gc.getTechInfo(iTech).getDescription()
+			screen.setTableText(szTable, iPosition, iRow, text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+		# resources affected cities
+		for iBonus in range(gc.getNumBonusInfos()):
+			pBonusInfo = gc.getBonusInfo(iBonus)
+			if pBonusInfo.getHealth() != 0 or pBonusInfo.getHappiness() != 0:
+				
+
+				iRow = screen.appendTableRow(szTable)
+				# 1. Resources
+				text = u"%c %s" % (pBonusInfo.getChar(), pBonusInfo.getDescription())
+				screen.setTableText(szTable, 0, iRow, text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+				# 2. totalAffectedCities
+				iAffectedCities = activePlayer.getBonusAffectedCities(iBonus)
+				text = u"%s:%d" % (localText.getText("TXT_KEY_TOTAL_AFFECTED_CITIES", ()), iAffectedCities)
+				screen.setTableText(szTable, 1, iRow, text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+				# 3. initAffectedCities
+				text = u"%s:%d" % (localText.getText("TXT_KEY_INIT_AFFECTED_CITIES", ()), pBonusInfo.getInitAffectedCities())
+				screen.setTableText(szTable, 2, iRow, text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+				# 4. techAffectedCities
+				if iBonus in lCropResourses:
+					# iCropRotation + 1
+					getHasTech(iCropRotation, 3)
+					# iBiology + 1
+					getHasTech(iBiology, 4)
+					# iInfrastructure + 1
+					getHasTech(iInfrastructure, 5)
+				elif iBonus in lSeafood:
+					# iOptics + 1
+					getHasTech(iOptics, 3)
+					# iRefrigeration + 1
+					getHasTech(iRefrigeration, 4)
+					# iEcology + 1
+					getHasTech(iEcology, 5)
+				elif iBonus in lLivestocks:
+					# iLogistics + 1
+					getHasTech(iLogistics, 3)
+					# iRefrigeration + 1
+					getHasTech(iRefrigeration, 4)
+					# iEcology + 1
+					getHasTech(iEcology, 5)
+				elif iBonus in lCommericialCrops:
+					# iHorticulture + 1
+					getHasTech(iHorticulture, 3)
+					# iMicrobiology + 1
+					getHasTech(iMicrobiology, 4)
+					# iGenetics + 1
+					getHasTech(iGenetics, 5)
+				elif iBonus in lLuxuryResources:
+					# iHeritage + 1
+					getHasTech(iHeritage, 3)
+					# iConsumerism + 1
+					getHasTech(iConsumerism, 4)
+					# iTourism + 1
+					getHasTech(iTourism, 5)
+					pass
+				elif iBonus in lMediaResources:
+					# iTelevision + 2
+					getHasTech(iTelevision, 3)
+					# after Internet is completed + 3
+					if activeTeam.getProjectCount(iTheInternet):
+						text = getIcon(True) + gc.getProjectInfo(iTheInternet).getDescription()
+					else:
+						text = getIcon(False) + gc.getProjectInfo(iTheInternet).getDescription()
+					screen.setTableText(szTable, 4, iRow, text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+				elif iBonus == iSalt:
+					# iCompanies + 1
+					getHasTech(iCompanies, 3)
+					# iInfrastructure + 1
+					getHasTech(iInfrastructure, 4)
+		# logics - end
+
+		# frameworks
+		self.drawTabs()
 
 	def showVotingScreen(self):
 		self.deleteAllWidgets()
@@ -1615,7 +1751,10 @@ class CvVictoryScreen:
 							iRow = screen.appendTableRow(szTable)
 							sGoalText = utils.getReligiousGoalText(iVictoryType, i)
 							if iVictoryType == iVictoryPaganism and i == 1: 
-								sGoalText += "_" + str(gc.getCivilizationInfo(gc.getPlayer(self.iActivePlayer).getCivilizationType()).getPaganReligionName(0).upper())
+								# 中文转英文
+								paganReligionName = gc.getCivilizationInfo(gc.getPlayer(self.iActivePlayer).getCivilizationType()).getPaganReligionName(0)
+								paganReligionName = localText.getText(paganReligionName.encode('gbk'), ()) # wunshare
+								sGoalText += "_" + str(paganReligionName).upper()
 								if self.iActivePlayer == iMaya and not gc.getPlayer(self.iActivePlayer).isReborn(): sGoalText += "_MAYA"
 								elif self.iActivePlayer == iTeotihuacan: sGoalText += "_TEOTIHUACAN"
 							screen.setTableText(szTable, 0, iRow, localText.getText(str(sGoalText), ()), '', WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
@@ -1881,6 +2020,10 @@ class CvVictoryScreen:
 			elif (sWidget == self.UN_MEMBERS_TAB_ID):
 				self.iScreen = UN_MEMBERS_SCREEN
 				self.showMembersScreen()
+			# wunshare
+			elif (sWidget == self.DEBUG_INFO_TAB_ID):
+				self.iScreen = DEBUG_INFO_SCREEN
+				self.showDebugInfoScreen()
 
 			elif (sWidget == self.Vote_Pope_ID and self.VoteType == 2):
 				self.VoteType = 1

@@ -425,16 +425,17 @@ class Religions:
 		elif popupReturn.getButtonClicked() == 2:
 			self.counterReformation(iHuman)
 
-	def onTechAcquired(self, iTech, iPlayer):
+	def onTechAcquired(self, iPlayer, iTech):
 		if utils.getScenario() == i1700AD:
 			return
 
 		if iTech == iAcademia:
-			if gc.getPlayer(iPlayer).getStateReligion() == iCatholicism:
-				if not gc.getGame().isReligionFounded(iProtestantism):
-					gc.getPlayer(iPlayer).foundReligion(iProtestantism, iProtestantism, True)
-					self.reformation()
-					
+			if gc.getPlayer(iPlayer): # wunshare : why will getPlayer() is None ??
+				if gc.getPlayer(iPlayer).getStateReligion() == iCatholicism:
+					if not gc.getGame().isReligionFounded(iProtestantism):
+						gc.getPlayer(iPlayer).foundReligion(iProtestantism, iProtestantism, True)
+						self.reformation()
+						
 		for iReligion in range(iNumReligions):
 			self.checkLateReligionFounding(iReligion, iTech)
 					

@@ -62,7 +62,7 @@ def initTechs(iPlayer, lTechs):
 def initTech(iPlayer, iTech):
 	gc.getTeam(gc.getPlayer(iPlayer).getTeam()).setHasTech(iTech, True, iPlayer, False, False)
 	vic.onTechAcquired(iPlayer, iTech)
-	rel.onTechAcquired(iTech, iPlayer)
+	rel.onTechAcquired(iPlayer, iTech)
 
 ### Tech preference functions ###
 
@@ -272,17 +272,25 @@ iCivJapan :	Techs([iCombinedArms, iUrbanPlanning], column=10, exceptions=[iExplo
 iCivVikings :	Techs(column=11, exceptions=[iEconomics, iHorticulture]),
 iCivTurks :	Techs([iFirearms, iLogistics, iHeritage], column=9),
 iCivKazakhs :	Techs([iFirearms, iLogistics, iHeritage], column=9),
-iCivBurma :		Techs(column=10, exceptions=[iExploration, iOptics]),
+iCivBurma :		Techs(column=10, exceptions=[iExploration, iOptics, iAcademia]),
 iCivKhmer :	Techs([iUrbanPlanning], column=10, exceptions=[iExploration, iOptics, iHeritage, iLogistics]),
 iCivChad :	Techs([iCombinedArms], column=10, exceptions=[iHeritage, iOptics, iExploration, iLogistics]),
 iCivMoors :	Techs([iUrbanPlanning], column=10, exceptions=[iExploration, iOptics]),
 iCivSpain :	Techs([iCombinedArms, iGeography, iHorticulture], column=10),
 iCivFrance :	Techs(column=11, exceptions=[iUrbanPlanning, iEconomics]),
 iCivOman :		Techs([iEconomics, iGeography], column=10, exceptions=[iHeritage]),
-iCivEngland :	Techs(column=11, exceptions=[iUrbanPlanning, iHorticulture]),
+iCivEngland :	Techs(column=11, exceptions=[iUrbanPlanning, iEconomics]),
 iCivHolyRome :	Techs([iCombinedArms, iUrbanPlanning, iHorticulture], column=10, exceptions=[iExploration]),
 iCivPoland :	Techs(column=11, exceptions=[iEconomics, iGeography, iHorticulture, iUrbanPlanning]),
 iCivPortugal :	Techs([iGeography, iHorticulture], column=10),
+iCivZimbabwe : 	Techs([iCartography, iJudiciary], column=8),
+iCivItaly : 	Techs([iCombinedArms, iUrbanPlanning, iHorticulture], column=10, exceptions=[iExploration]),
+iCivMali : 	Techs([iFirearms, iLogistics, iHeritage], column=9),
+iCivTibet :	Techs([iFirearms, iLogistics, iHeritage], column=9),
+iCivIndonesia :	Techs([iCartography, iJudiciary], column=8),
+iCivNigeria :	Techs([iCartography, iJudiciary], column=8),
+iCivYemen :		Techs([iEconomics, iGeography], column=10, exceptions=[iHeritage]),
+iCivMongols :	Techs([iFirearms, iLogistics, iHeritage], column=9),
 iCivOttomans :	Techs([iUrbanPlanning, iHorticulture], column=10, exceptions=[iExploration]),
 iCivRussia : 	Techs([iCombinedArms, iUrbanPlanning], column=10, exceptions=[iExploration, iOptics]),
 iCivMughals :	Techs([iUrbanPlanning, iHorticulture], column=10, exceptions=[iExploration, iOptics]),

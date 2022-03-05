@@ -1958,7 +1958,7 @@ class RiseAndFall:
 			
 			if tSeaPlot:
 				gc.getPlayer(iCiv).initUnit(iGalley, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
-				utils.makeUnit(iSettler, iCiv, tSeaPlot, 1)
+				utils.makeUnitAI(iSettler, iCiv, tSeaPlot, UnitAITypes.UNITAI_SETTLE, 1)
 				utils.makeUnit(iArcher, iCiv, tSeaPlot, 1)
 
 	def giveColonists(self, iCiv):
@@ -1983,7 +1983,8 @@ class RiseAndFall:
 					city = utils.getRandomEntry(lCoastalCities)
 					tPlot = (city.getX(), city.getY())
 					tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
-					if not tSeaPlot: tSeaPlot = tPlot
+					if not tSeaPlot: 
+						tSeaPlot = tPlot
 					
 					utils.makeUnitAI(utils.getUniqueUnitType(iCiv, gc.getUnitInfo(iGalleon).getUnitClassType()), iCiv, tSeaPlot, UnitAITypes.UNITAI_SETTLER_SEA, 1)
 					utils.makeUnitAI(iSettler, iCiv, tSeaPlot, UnitAITypes.UNITAI_SETTLE, 1)
@@ -2202,6 +2203,7 @@ class RiseAndFall:
 				iCount = 0
 				lWestCoast = [(8, 59), (8, 58), (8, 57), (8, 56), (8, 55), (8, 54), (9, 53), (9, 52), (9, 51)]
 				lAlaska = [(0, 70), (0, 71), (0, 73), (0, 75), (1, 70), (1, 72), (1, 73), (1, 76), (3, 69), (3, 70)]
+				bAlaska = False # wunshare bugfixed : 2022.01.09
 				lEnemyCivs = []
 				lEnemyCivs = []
 				lFreePlots = []
@@ -2217,7 +2219,7 @@ class RiseAndFall:
 								plot = gc.getMap().plot(i, j)
 								if not (plot.isCity() or plot.isPeak() or plot.isWater()):
 									lFreePlots.append((i, j))
-				bAlaska= False
+
 				for tPlot in lAlaska:
 					x, y = tPlot
 					pPlot = gc.getMap().plot(x, y)
@@ -2704,15 +2706,15 @@ class RiseAndFall:
 	def createStartingUnits(self, iCiv, tPlot):
 		if iCiv == iNubia:
 			utils.createSettlers(iCiv, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 1)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 		if iCiv == iAssyria:
 			utils.createSettlers(iCiv, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 1)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 			utils.makeUnitAI(iRam, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
 		if iCiv == iChina:
 			utils.createSettlers(iCiv, 1)
 			utils.makeUnit(iArcher, iCiv, tPlot, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 1)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 		elif iCiv == iHittites:
 			utils.createSettlers(iCiv, 1)
 			utils.makeUnit(iSpearman, iCiv, tPlot, 1)
@@ -2725,7 +2727,7 @@ class RiseAndFall:
 			utils.makeUnit(iChariot, iCiv, tPlot, 1)
 		elif iCiv == iGreece:
 			utils.createSettlers(iCiv, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 2)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 2)
 			utils.makeUnit(iHoplite, iCiv, tPlot, 1) #3
 			pGreece.initUnit(iHoplite, tPlot[0], tPlot[1], UnitAITypes.UNITAI_ATTACK, DirectionTypes.DIRECTION_SOUTH)
 			pGreece.initUnit(iHoplite, tPlot[0], tPlot[1], UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.DIRECTION_SOUTH)
@@ -2737,7 +2739,7 @@ class RiseAndFall:
 				utils.makeUnit(iMilitia, iCiv, tSeaPlot, 1)
 		elif iCiv == iOlmecs:
 			utils.createSettlers(iCiv, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 1)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 		elif iCiv == iPersia:
 			utils.createSettlers(iCiv, 3)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 3)
@@ -2858,7 +2860,7 @@ class RiseAndFall:
 				utils.makeUnit(iArcher, iCiv, tPlot, 2)
 		elif iCiv == iInuit:
 			utils.createSettlers(iCiv, 1)
-			utils.makeUnit(iMilitia, iCiv, tPlot, 1)
+			utils.makeUnitAI(iMilitia, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 		elif iCiv == iMississippi:
 			utils.createSettlers(iCiv, 1)
 			utils.makeUnit(iFalconDancer, iCiv, tPlot, 2)
@@ -2997,8 +2999,8 @@ class RiseAndFall:
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 3)
 			utils.createMissionaries(iCiv, 1)
 			if utils.getHumanID() != iFrance:
-			                utils.makeUnit(iLancer, iCiv, tPlot, 1)
-			                utils.createMissionaries(iCiv, 1)
+				utils.makeUnit(iLancer, iCiv, tPlot, 1)
+				utils.createMissionaries(iCiv, 1)
 		elif iCiv == iOman:
 			utils.createSettlers(iCiv, 2)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 2)
@@ -3046,8 +3048,8 @@ class RiseAndFall:
 				utils.makeUnit(iCrossbowman, iCiv, tPlot, 1)
 				utils.makeUnit(iGalley, iCiv, tSeaPlot, 2)
 			if utils.getHumanID() != iEngland:
-			                utils.makeUnit(iLancer, iCiv, tPlot, 1)
-			                utils.createMissionaries(iCiv, 2)
+				utils.makeUnit(iLancer, iCiv, tPlot, 1)
+				utils.createMissionaries(iCiv, 2)
 		elif iCiv == iHolyRome:
 			utils.createSettlers(iCiv, 4)
 			utils.makeUnitAI(iCrossbowman, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 3)
@@ -3200,7 +3202,7 @@ class RiseAndFall:
 				utils.makeUnit(iSkirmisher, iCiv, tPlot, 2)
 		elif iCiv == iMongolia:
 			utils.createSettlers(iCiv, 3)
-			utils.makeUnit(iCrossbowman, iCiv, tPlot, 3)
+			utils.makeUnitAI(iCrossbowman, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 3)
 			utils.makeUnit(iHeavySwordsman, iCiv, tPlot, 2)
 			utils.makeUnit(iMangudai, iCiv, tPlot, 2)
 			utils.makeUnitAI(iKeshik, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 6)
@@ -3691,14 +3693,19 @@ class RiseAndFall:
 		for iPlayer in range(iNumPlayers):
 			tCapital = Areas.getCapital(iPlayer)
 			
+			# keep human alive
 			if tBirth[iPlayer] > utils.getScenarioStartYear() and gc.getPlayer(iPlayer).isHuman():
 				utils.makeUnit(iSettler, iPlayer, tCapital, 1)
-				utils.makeUnit(iMilitia, iPlayer, tCapital, 1)
+				utils.makeUnit(iMilitia, iPlayer, tCapital, 1)	
+
+			if tBirth[iPlayer] <= utils.getScenarioStartYear(): 
+				if iPlayer == iHarappa and data.players[iHarappa].iSpawnType != iNoSpawn:
+					utils.makeUnit(iCityBuilder, iPlayer, tCapital, 1)
+					utils.makeUnitAI(iMilitia, iPlayer, tCapital, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
+				else: # Egypy(0), Babylonia(1), NorteChico(3)
+					utils.makeUnit(iSettler, iPlayer, tCapital, 1)
+					utils.makeUnitAI(iMilitia, iPlayer, tCapital, UnitAITypes.UNITAI_CITY_DEFENSE, 1)		
 				
-			if iPlayer == iHarappa and data.players[iHarappa].iSpawnType != iNoSpawn:
-				utils.makeUnit(iCityBuilder, iPlayer, tCapital, 1)
-				utils.makeUnit(iMilitia, iPlayer, tCapital, 1)
-		
 	def assignTechs(self, iPlayer):
 		Civilizations.initPlayerTechs(iPlayer)
 				

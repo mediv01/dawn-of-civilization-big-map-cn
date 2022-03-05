@@ -6,6 +6,8 @@
 	parser game info for civ4
 
 change log:
+# version 0.03
+1. onGameTurn 每回合重新读取文本，便于汉化校对
 # version 0.02
 1. onSaveGame 序列化功能实现
 2. onGameTurn 统计功能实现
@@ -14,7 +16,7 @@ change log:
 '''
 
 from CvPythonExtensions import *
-from Consts import iNumPlayers, iManchuria # wunshare
+from Consts import iNumPlayers # wunshare
 from RFCUtils import utils
 from pp import *
 
@@ -60,6 +62,11 @@ def onGameTurn(iGameTurn):
 	iNumUnits = getNumUnits()
 	iNumCities = getNumCities()
 	dbInfo.append((iGameTurn, iTotalTime, iNumAlivePlayer, iNumUnits, iNumCities))
+		
+	# 每回合重新读取文本
+	#if gc.getGame().getCurrentLanguage() == 5: # 中文
+	#	gc.getGame().setCurrentLanguage(0)
+	#	gc.getGame().setCurrentLanguage(5)
 
 ##############  杂项函数  ##############
 def getAlivePlayerInfo():
