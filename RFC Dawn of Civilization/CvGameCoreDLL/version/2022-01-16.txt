@@ -1,0 +1,2 @@
+1.修复了一些出生时候汉化(DOM)文本的bug
+2.修复了阿拉斯加(bAlask)和宗教(onTechAcquired)的python脚本bug

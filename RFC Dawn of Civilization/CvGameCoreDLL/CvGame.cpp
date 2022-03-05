@@ -30,13 +30,27 @@
 #include "CvDLLEngineIFaceBase.h"
 #include "CvDLLPythonIFaceBase.h"
 
-// BUG - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 #include "BugMod.h"
 #include "CvBugOptions.h"
-// BUG - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
-#include "CvRhyes.h" //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+#include "CvRhyes.h" 
 #include <algorithm>
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 // Public Functions...
 
@@ -49,9 +63,15 @@ CvGame::CvGame()
 	m_aiTeamRank = new int[MAX_TEAMS];						// Ordered by team ID...
 	m_aiTeamScore = new int[MAX_TEAMS];						// Ordered by team ID...
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	m_aiTechRankTeam = new int[MAX_TEAMS];
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	m_paiUnitCreatedCount = NULL;
 	m_paiUnitClassCreatedCount = NULL;
 	m_paiBuildingClassCreatedCount = NULL;
@@ -90,21 +110,31 @@ CvGame::~CvGame()
 	SAFE_DELETE_ARRAY(m_aiRankTeam);
 	SAFE_DELETE_ARRAY(m_aiTeamRank);
 	SAFE_DELETE_ARRAY(m_aiTeamScore);
-
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	SAFE_DELETE_ARRAY(m_aiTechRankTeam);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 }
 
-
-//Rhye - start (jdog)
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye & jdog	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 void CvGame::logMsg(char* format, ... )
 {
 	static char buf[2048];
 	_vsnprintf( buf, 2048-4, format, (char*)(&format+1) );
 	gDLL->logMsg("sdkDbg.log", buf);
 }
-//Rhye - end
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 void CvGame::init(HandicapTypes eHandicap)
 {
@@ -209,8 +239,11 @@ void CvGame::init(HandicapTypes eHandicap)
 			GC.getInitCore().setAdminPassword(szRandomPassword);
 		}
 	}
-
-	//edead: start hack to allow late start with different game speeds
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 	hack to allow late start with different game speeds						    */
+/********************************************************************************/
 	if (getScenario() == SCENARIO_600AD) //late start condition
 	{
 		if (getGameTurn() == 181)
@@ -226,7 +259,9 @@ void CvGame::init(HandicapTypes eHandicap)
 			setGameTurn(getGameTurnForYear(1700, -3000, GC.getInitCore().getCalendar(), GC.getInitCore().getGameSpeed()));
 		}
 	}
-	//edead: end
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 
 	if (getGameTurn() == 0)
 	{
@@ -327,8 +362,11 @@ void CvGame::setInitialItems()
 		}
 	}
 }
-
-// BUG - MapFinder - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	MapFinder																    */
+/********************************************************************************/
 // from HOF Mod - Dianthus
 bool CvGame::canRegenerateMap() const
 {
@@ -347,7 +385,9 @@ bool CvGame::canRegenerateMap() const
 	}
 	return true;
 }
-// BUG - MapFinder - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 void CvGame::regenerateMap()
 {
@@ -411,9 +451,15 @@ void CvGame::regenerateMap()
 
 	gDLL->getEngineIFace()->AutoSave(true);
 
-// BUG - AutoSave - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	AutoSave														  			*/
+/********************************************************************************/
 	gDLL->getPythonIFace()->callFunction(PYBugModule, "gameStartSave");
-// BUG - AutoSave - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	// EF - This doesn't work until after the game has had time to update.
 	//      Centering on the starting location is now done by MapFinder using BugUtil.delayCall().
@@ -505,11 +551,26 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 	m_iInitTech = 0;
 	m_iInitWonders = 0;
 	m_iAIAutoPlay = 0;
-	m_iCircumnavigated = -1; //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	m_iCircumnavigated = -1;
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
-	// Leoreth: graphics paging
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	graphics paging															    */
+/********************************************************************************/
 	m_iXResolution = 1024;
 	m_iYResolution = 720;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	m_uiInitialTime = 0;
 
@@ -529,15 +590,29 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 	m_eWinner = NO_TEAM;
 	m_eVictory = NO_VICTORY;
 	m_eGameState = GAMESTATE_ON;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	m_eCityScreenOwner = NO_PLAYER;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	m_szScriptData = "";
 
-	// Leoreth: graphics paging
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	graphics paging															    */
+/********************************************************************************/
 	m_iLastLookatX = -1;
 	m_iLastLookatY = -1;
 	m_bWasGraphicsPagingEnabled = false;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	for (iI = 0; iI < MAX_PLAYERS; iI++)
 	{
 		m_aiRankPlayer[iI] = 0;
@@ -550,8 +625,15 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 		m_aiRankTeam[iI] = 0;
 		m_aiTeamRank[iI] = 0;
 		m_aiTeamScore[iI] = 0;
-
-		m_aiTechRankTeam[iI] = 0; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+		m_aiTechRankTeam[iI] = 0;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	}
 
 	if (!bConstructorCall)
@@ -682,7 +764,11 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 		AI_reset();
 	}
 
-		// Sanguo Mod Performance start, added by poyuzhe 07.27.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/27/09			poyuzhe	    	*/
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	UnitTypes eUnit;
 	std::vector<UnitTypes> aUpgradeUnits;
 
@@ -711,7 +797,9 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 			}
 		}while(aUpgradeUnits.size() >= 0);
 	}
-	// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 }
 
 
@@ -727,14 +815,20 @@ void CvGame::initDiplomacy()
 
 		if (GET_TEAM((TeamTypes)iI).isBarbarian() || GET_TEAM((TeamTypes)iI).isMinorCiv())
 		{
-			//Rhye - start
-			/*for (iJ = 0; iJ < MAX_CIV_TEAMS; iJ++)
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+			for (iJ = 0; iJ < MAX_CIV_TEAMS; iJ++)
 			{
 				if (iI != iJ)
 				{
 					GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)iJ), false, NO_WARPLAN);
 				}
-			}*/
+			}
+*/
 			if (iI == INDEPENDENT || iI == INDEPENDENT2) {
 				if (getScenario() == SCENARIO_600AD) { //late start condition
 					GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)CHINA), false, NO_WARPLAN);
@@ -747,25 +841,15 @@ void CvGame::initDiplomacy()
 				for (iJ = 0; iJ < MAX_CIV_TEAMS; iJ++)
 				{
 					if (iI != iJ && !(iI == NATIVE && iJ == CHAD))
-					//if (iI != iJ && iJ != VIKINGS && iJ != MONGOLIA) //Rhye (useless)
 					{
 						GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)iJ), false, NO_WARPLAN);
 					}
 				}
 			}
-				//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 		}
-		//Rhye - start (uncomment only if Byzantium isn't minor)
-		/*if (iI == CELTIA && !GET_PLAYER((PlayerTypes)EGYPT).isPlayable()) { //late start condition
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)ARABIA), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)TURKEY), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)MONGOLIA), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)VIKINGS), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)BABYLONIA), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)PERSIA), false, NO_WARPLAN);
-				GET_TEAM((TeamTypes)iI).declareWar(((TeamTypes)EGYPT), false, NO_WARPLAN);
-		}*/
-		//Rhye - end
 	}
 	// Forced peace at the beginning of Advanced starts
 	if (isOption(GAMEOPTION_ADVANCED_START))
@@ -1548,7 +1632,6 @@ void CvGame::normalizeRemoveBadTerrain()
 	}
 }
 
-
 void CvGame::normalizeAddFoodBonuses()
 {
 	bool bIgnoreLatitude = pythonIsBonusIgnoreLatitudes();
@@ -2191,6 +2274,11 @@ void CvGame::update()
 {
 	PROFILE("CvGame::update");
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	CvPlot* lookatPlot = gDLL->getInterfaceIFace()->getLookAtPlot();
 	if ( lookatPlot != NULL )
 	{
@@ -2247,26 +2335,37 @@ void CvGame::update()
 			CvPlot::EvictGraphicsIfNecessary();
 		}
 	}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	if (!gDLL->GetWorldBuilderMode() || isInAdvancedStart())
 	{
 		sendPlayerOptions();
 
 		// sample generic event
-		//Rhye - start (this must not be commented as in Kael's mod)
+		//this must not be commented as in Kael's mod
 		CyArgsList pyArgs;
 		pyArgs.add(getTurnSlice());
 		CvEventReporter::getInstance().genericEvent("gameUpdate", pyArgs.makeFunctionArgs());
 
 		if (getTurnSlice() == 0)
-		{
-			// edead: disable autosave during autoplay
+		{	
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 	disable autosave during autoplay										    */
+/********************************************************************************/
+/* original code
+			gDLL->getEngineIFace()->AutoSave(true);
+*/
 			if ((GC.getDefineINT("NO_AUTOSAVE_DURING_AUTOPLAY") == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
 			{
 				gDLL->getEngineIFace()->AutoSave(true);
 			}
-			// edead: end
-			//gDLL->getEngineIFace()->AutoSave(true);
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 		}
 
 		if (getNumGameTurnActive() == 0)
@@ -2290,8 +2389,18 @@ void CvGame::update()
 		AI_updateAssignWork();
 
 		testAlive();
-
-		if ((getAIAutoPlay() == 0) && !(gDLL->GetAutorun()) /*&& GAMESTATE_EXTENDED != getGameState()*/)
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+		if ((getAIAutoPlay() == 0) && !(gDLL->GetAutorun()) && GAMESTATE_EXTENDED != getGameState())
+*/
+		if ((getAIAutoPlay() == 0) && !(gDLL->GetAutorun()))
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		{
 			if (countHumanPlayersAlive() == 0)
 			{
@@ -2307,7 +2416,11 @@ void CvGame::update()
 			gDLL->getInterfaceIFace()->setWorldBuilder(true);
 		}
 		
-		// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		if (getGameTurn() == getScenarioStartTurn() && GET_PLAYER(getActivePlayer()).getBirthTurn() > getScenarioStartTurn())
 		{
 			setAIAutoPlay(1);
@@ -2316,9 +2429,17 @@ void CvGame::update()
 		{
 			setAIAutoPlayCatapult(1);
 		}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	}
 }
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 struct techRankCompare
 {
 	bool operator() (TeamTypes eTeam1, TeamTypes eTeam2)
@@ -2354,6 +2475,9 @@ int CvGame::getTechRank(TeamTypes eTeam) const
 {
 	return m_aiTechRankTeam[(int)eTeam];
 }
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 
 void CvGame::updateScore(bool bForce)
@@ -2859,9 +2983,18 @@ int CvGame::getAdjustedLandPercent(VictoryTypes eVictory) const
 
 	iPercent = GC.getVictoryInfo(eVictory).getLandPercent();
 
-	//Rhye
-	//iPercent -= (countCivTeamsEverAlive() * 2);
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	iPercent -= (countCivTeamsEverAlive() * 2);
+*/
 	iPercent -= (countCivTeamsAlive() * 2);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	return std::max(iPercent, GC.getVictoryInfo(eVictory).getMinLandPercent());
 }
@@ -2883,12 +3016,18 @@ bool CvGame::isTeamVoteEligible(TeamTypes eTeam, VoteSourceTypes eVoteSource) co
 {
 	CvTeam& kTeam = GET_TEAM(eTeam);
 
-	//Rhye - start
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	if (eTeam == INDEPENDENT || eTeam == INDEPENDENT2 || eTeam == NATIVE)
 	{
 		return false;
 	}
-	//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 	if (kTeam.isForceTeamVoteEligible(eVoteSource))
 	{
@@ -2949,8 +3088,19 @@ bool CvGame::isTeamVoteEligible(TeamTypes eTeam, VoteSourceTypes eVoteSource) co
 int CvGame::countVote(const VoteTriggeredData& kData, PlayerVoteTypes eChoice) const
 {
 	int iCount = 0;
-	//for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++) //Rhye
-	for (int iI = 0; iI < NUM_MAJOR_PLAYERS; iI++) //Rhye
+
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	for (int iI = 0; iI < MAX_CIV_PLAYERS; ++iI)
+*/
+	for (int iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	{
 		if (GET_PLAYER((PlayerTypes)iI).isAlive())
 		{
@@ -2972,8 +3122,18 @@ int CvGame::countPossibleVote(VoteTypes eVote, VoteSourceTypes eVoteSource) cons
 
 	iCount = 0;
 
-	//for (iI = 0; iI < MAX_CIV_PLAYERS; iI++) //Rhye
-	for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++) //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	for (iI = 0; iI < MAX_CIV_PLAYERS; iI++)
+*/
+	for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	{
 		iCount += GET_PLAYER((PlayerTypes)iI).getVotes(eVote, eVoteSource);
 	}
@@ -2990,8 +3150,18 @@ TeamTypes CvGame::findHighestVoteTeam(const VoteTriggeredData& kData) const
 
 	if (isTeamVote(kData.kVoteOption.eVote))
 	{
-		//for (int iI = 0; iI < MAX_CIV_TEAMS; ++iI) //Rhye
-		for (int iI = 0; iI < NUM_MAJOR_PLAYERS; ++iI) //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+		for (int iI = 0; iI < MAX_CIV_TEAMS; ++iI)
+*/
+		for (int iI = 0; iI < NUM_MAJOR_PLAYERS; ++iI)
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 		{
 			if (GET_TEAM((TeamTypes)iI).isAlive())
 			{
@@ -3026,8 +3196,18 @@ TeamTypes CvGame::getSecretaryGeneral(VoteSourceTypes eVoteSource) const
 		{
 			if (GC.getBuildingInfo((BuildingTypes)iBuilding).getVoteSourceType() == eVoteSource)
 			{
-				//for (iI = 0; iI < MAX_CIV_PLAYERS; iI++) //Rhye
-				for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++) //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+				for (iI = 0; iI < MAX_CIV_PLAYERS; ++iI)
+*/
+				for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				{
 					CvPlayer& kLoopPlayer = GET_PLAYER((PlayerTypes)iI);
 					if (kLoopPlayer.isAlive())
@@ -3132,6 +3312,11 @@ int CvGame::countCivPlayersAlive() const
 	return iCount;
 }
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 int CvGame::countMajorPlayersAlive() const
 {
 	int iCount = 0;
@@ -3146,6 +3331,9 @@ int CvGame::countMajorPlayersAlive() const
 
 	return iCount;
 }
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 int CvGame::countCivPlayersEverAlive() const
 {
@@ -3275,11 +3463,18 @@ int CvGame::getNumFreeBonuses(BuildingTypes eBuilding)
 {
 	if (GC.getBuildingInfo(eBuilding).getNumFreeBonuses() == -1)
 	{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		if (GC.getMapINLINE().getWorldSize() == -1)
 		{
 			return 7;
 		}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		return GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getNumFreeBuildingBonuses();
 	}
 	else
@@ -3374,7 +3569,18 @@ int CvGame::calculateReligionPercent(ReligionTypes eReligion) const
 			{
 				if (pLoopCity->isHasReligion(eReligion))
 				{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+					iCount += ((pLoopCity->getPopulation() + (pLoopCity->getReligionCount() / 2)) / pLoopCity->getReligionCount());
+*/
 					iCount += pLoopCity->getReligionPopulation(eReligion);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				}
 			}
 		}
@@ -3421,8 +3627,15 @@ int CvGame::getImprovementUpgradeTime(ImprovementTypes eImprovement) const
 
 	iTime *= GC.getEraInfo(getStartEra()).getImprovementPercent();
 	iTime /= 100;
-
-	iTime *= 2; //Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	iTime *= 2;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	return iTime;
 }
@@ -3557,23 +3770,37 @@ void CvGame::reviveActivePlayer()
 		GC.getInitCore().setSlotStatus(getActivePlayer(), SS_TAKEN);
 
 		// Let Python handle it
-		//Rhye - start
-//Speed: Modified by Kael 04/19/2007
-//		long lResult=0;
-//		CyArgsList argsList;
-//		argsList.add(getActivePlayer());
-//
-//		gDLL->getPythonIFace()->callFunction(PYGameModule, "doReviveActivePlayer", argsList.makeFunctionArgs(), &lResult);
-//		if (lResult == 1)
-//		{
-//			return;
-//		}
-//Speed: End Modify
-		//Rhye - end
+/********************************************************************************/
+/* 	K-Mod					04/19/07				Kael	    */
+/* 																			    */
+/* 	Speed: Modified by Kael													    */
+/********************************************************************************/
+/*
+		long lResult=0;
+		CyArgsList argsList;
+		argsList.add(getActivePlayer());
 
-		//GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)0), 0, 0); //Rhye
+		gDLL->getPythonIFace()->callFunction(PYGameModule, "doReviveActivePlayer", argsList.makeFunctionArgs(), &lResult);
+		if (lResult == 1)
+		{
+			return;
+		}
+*/
+/********************************************************************************/
+/* 	K-Mod							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)0), 0, 0);
+*/
 		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)GC.getInfoTypeForString("UNIT_CATAPULT")), 0, 0); //Rhye (catapult)
-		//logMsg("init catapult in 00"); //Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	}
 }
 
@@ -4181,7 +4408,11 @@ void CvGame::setAIAutoPlay(int iNewValue)
 	}
 }
 
-//Rhye - start
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 void CvGame::setAIAutoPlayCatapult(int iNewValue)
 {
 	int iOldValue;
@@ -4225,8 +4456,9 @@ void CvGame::setAIAutoPlayCatapult(int iNewValue)
 		}
 	}
 }
-//Rhye - end
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 void CvGame::changeAIAutoPlay(int iChange)
 {
@@ -4269,7 +4501,11 @@ void CvGame::makeCircumnavigated()
 	m_bCircumnavigated = true;
 }
 
-//Rhye - start
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 int CvGame::getCircumnavigated()
 {
 	return m_iCircumnavigated;
@@ -4280,7 +4516,9 @@ void CvGame::setCircumnavigated(int i)
 {
 	m_iCircumnavigated = i;
 }
-//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 bool CvGame::circumnavigationAvailable() const
 {
@@ -4289,12 +4527,18 @@ bool CvGame::circumnavigationAvailable() const
 		return false;
 	}
 
-	// Leoreth: no circumnavigation in 1700 AD
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	no circumnavigation in 1700 AD											    */
+/********************************************************************************/
 	if (getScenario() == SCENARIO_1700AD)
 	{
 		return false;
 	}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	if (GC.getDefineINT("CIRCUMNAVIGATE_FREE_MOVES") == 0)
 	{
 		return false;
@@ -4547,7 +4791,15 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 	}
 	else if (GC.getVoteInfo(kData.eVote).isForceWar())
 	{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		ReligionTypes eVoteSourceReligion = GC.getGame().getVoteSourceReligion(eVoteSource);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		CvPlayer& kPlayer = GET_PLAYER(kData.ePlayer);
 		CvTeam& kTeam = GET_TEAM(kPlayer.getTeam());
 
@@ -4561,7 +4813,11 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 		{
 			return false;
 		}
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		// Leoreth: crusade target if at war with a full member or controlling the holy city
 		if (eVoteSourceReligion != NO_RELIGION)
 		{
@@ -4597,6 +4853,9 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 		}
 
 		return true;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 		bool bAtWarWithEveryone = true;
 		for (int iTeam2 = 0; iTeam2 < MAX_CIV_TEAMS; ++iTeam2)
@@ -4620,9 +4879,14 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 			return false;
 		}
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	changed, non-members can always be targeted								    */
+/********************************************************************************/
+/*
 		// Can be passed against a non-member only if he is already at war with a member
-		// Leoreth: changed, non-members can always be targeted
-		/*if (!kPlayer.isVotingMember(eVoteSource))
+		if (!kPlayer.isVotingMember(eVoteSource))
 		{
 			bool bValid = false;
 			for (int iTeam2 = 0; iTeam2 < MAX_CIV_TEAMS; ++iTeam2)
@@ -4643,15 +4907,29 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 			{
 				return false;
 			}
-		}*/
+		}
+*/
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	}
 	else if (GC.getVoteInfo(kData.eVote).isAssignCity())
 	{
 		CvPlayer& kPlayer = GET_PLAYER(kData.ePlayer);
-		/*if (kPlayer.isFullMember(eVoteSource) || !kPlayer.isVotingMember(eVoteSource))
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/*  original code
+		if (kPlayer.isFullMember(eVoteSource) || !kPlayer.isVotingMember(eVoteSource))
 		{
 			return false;
-		}*/
+		}
+*/
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 		CvCity* pCity = kPlayer.getCity(kData.iCityId);
 		FAssert(NULL != pCity);
@@ -4659,12 +4937,19 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 		{
 			return false;
 		}
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		// Leoreth: last city cannot be voted away
 		if (kPlayer.getNumCities() <= 1)
 		{
 			return false;
 		}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 		if (NO_PLAYER == kData.eOtherPlayer)
 		{
@@ -4692,6 +4977,11 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 			return false;
 		}
 	}
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	else if (GC.getVoteInfo(kData.eVote).getEspionage() > 0)
 	{
 		if (NO_PLAYER == kData.ePlayer)
@@ -4803,6 +5093,9 @@ bool CvGame::isValidVoteSelection(VoteSourceTypes eVoteSource, const VoteSelecti
 			return false;
 		}
 	}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	if (!canDoResolution(eVoteSource, kData))
 	{
@@ -5002,10 +5295,16 @@ void CvGame::setActivePlayer(PlayerTypes eNewValue, bool bForceHotSeat)
 	if (eOldActivePlayer != eNewValue)
 	{
 		int iActiveNetId = ((NO_PLAYER != eOldActivePlayer) ? GET_PLAYER(eOldActivePlayer).getNetID() : -1);
-		//Rhye - start
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		GC.getInitCore().setSlotStatus(eOldActivePlayer, SS_COMPUTER);
 		GC.getInitCore().setSlotStatus(eNewValue, SS_TAKEN);
-		//Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 		GC.getInitCore().setActivePlayer(eNewValue);
 
 		if (GET_PLAYER(eNewValue).isHuman() && (isHotSeat() || isPbem() || bForceHotSeat))
@@ -5029,18 +5328,31 @@ void CvGame::setActivePlayer(PlayerTypes eNewValue, bool bForceHotSeat)
 				GC.getInitCore().setType(GAME_HOTSEAT_NEW);
 			}
 
-			sendPlayerOptions(true); //Rhye
-
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+			sendPlayerOptions(true);
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 			if (isHotSeat() || bForceHotSeat)
 			{
 				sendPlayerOptions(true);
 			}
-
-			// Leoreth: allow winning again after switching
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	allow winning again after switching										    */
+/********************************************************************************/
 			if (getGameState() == GAMESTATE_EXTENDED)
 			{
 				setGameState(GAMESTATE_ON);
 			}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		}
 
 		if (GC.IsGraphicsInitialized())
@@ -5168,10 +5480,18 @@ void CvGame::setWinner(TeamTypes eNewWinner, VictoryTypes eNewVictory)
 		{
 			if (getWinner() != NO_TEAM)
 			{
-				//Rhye - start
-				//szBuffer = gDLL->getText("TXT_KEY_GAME_WON", GET_TEAM(getWinner()).getName().GetCString(), GC.getVictoryInfo(getVictory()).getTextKeyWide());
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+				szBuffer = gDLL->getText("TXT_KEY_GAME_WON", GET_TEAM(getWinner()).getName().GetCString(), GC.getVictoryInfo(getVictory()).getTextKeyWide());
+*/		
 				szBuffer = gDLL->getText("TXT_KEY_GAME_WON", GET_PLAYER((PlayerTypes)getWinner()).getCivilizationShortDescription(), GC.getVictoryInfo(getVictory()).getTextKeyWide());
-				//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 				addReplayMessage(REPLAY_MESSAGE_MAJOR_EVENT, GET_TEAM(getWinner()).getLeaderID(), szBuffer, -1, -1, (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
 			}
 
@@ -5211,10 +5531,15 @@ void CvGame::setGameState(GameStateTypes eNewValue)
 		{
 			CvEventReporter::getInstance().gameEnd();
 
-// BUG - AutoSave - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	AutoSave																    */
+/********************************************************************************/
 			gDLL->getPythonIFace()->callFunction(PYBugModule, "gameEndSave");
-// BUG - AutoSave - end
-
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 			showEndGameSequence();
 
 			for (iI = 0; iI < MAX_CIV_PLAYERS; iI++)
@@ -5288,7 +5613,11 @@ void CvGame::setPlayerRank(PlayerTypes ePlayer, int iRank)
 {
 	FAssertMsg(ePlayer >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(ePlayer < MAX_PLAYERS, "ePlayer is expected to be within maximum bounds (invalid Index)");
-	// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    	*/
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	if (iRank != m_aiPlayerRank[ePlayer])
 	{
 		for (int iI = 0; iI < GC.getMAX_PLAYERS(); iI++)
@@ -5300,7 +5629,9 @@ void CvGame::setPlayerRank(PlayerTypes ePlayer, int iRank)
 			}
 		}
 	}
-	// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 	m_aiPlayerRank[ePlayer] = iRank;
 	FAssert(getPlayerRank(ePlayer) >= 0);
 }
@@ -5649,12 +5980,18 @@ int CvGame::getReligionGameTurnFounded(ReligionTypes eIndex)
 	return m_paiReligionGameTurnFounded[eIndex];
 }
 
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 void CvGame::setReligionGameTurnFounded(ReligionTypes eReligion, int iGameTurn)
 {
 	m_paiReligionGameTurnFounded[eReligion] = iGameTurn;
 }
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 bool CvGame::isReligionFounded(ReligionTypes eIndex)
 {
@@ -5670,11 +6007,25 @@ void CvGame::makeReligionFounded(ReligionTypes eIndex, PlayerTypes ePlayer)
 	if (!isReligionFounded(eIndex))
 	{
 		FAssertMsg(getGameTurn() != -1, "getGameTurn() is not expected to be equal with -1");
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+		m_paiReligionGameTurnFounded[eIndex] = getGameTurn();
+*/
 		setReligionGameTurnFounded(eIndex, getGameTurn());
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 		CvEventReporter::getInstance().religionFounded(eIndex, ePlayer);
-
-		// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    	*/
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		for (int iI = 0; iI < GC.getMAX_PLAYERS(); iI++)
 		{
 			if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getStateReligion() == eIndex)
@@ -5683,7 +6034,9 @@ void CvGame::makeReligionFounded(ReligionTypes eIndex, PlayerTypes ePlayer)
 				GET_PLAYER((PlayerTypes)iI).AI_invalidateAttitudeCache(ePlayer);
 			}
 		}
-		// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 	}
 }
 
@@ -5712,7 +6065,6 @@ int CvGame::getCorporationGameTurnFounded(CorporationTypes eIndex)
 
 bool CvGame::isCorporationFounded(CorporationTypes eIndex)
 {
-	//return true; //Leoreth: corporations don't get founded anymore
 	return (getCorporationGameTurnFounded(eIndex) != -1);
 }
 
@@ -5882,8 +6234,18 @@ void CvGame::setHolyCity(ReligionTypes eIndex, CvCity* pNewValue, bool bAnnounce
 		{
 			pHolyCity = getHolyCity(eIndex);
 
-			//pHolyCity->setHasReligion(eIndex, true, bAnnounce, true);
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+			pHolyCity->setHasReligion(eIndex, true, bAnnounce, true);
+*/
 			pHolyCity->spreadReligion(eIndex, false);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 			pHolyCity->changeReligionInfluence(eIndex, GC.getDefineINT("HOLY_CITY_INFLUENCE"));
 
 			pHolyCity->updateReligionCommerce();
@@ -6133,22 +6495,25 @@ void CvGame::doTurn()
 {
 	PROFILE_BEGIN("CvGame::doTurn()");
 
-	{
-		// GC.getTechInfo((TechTypes)GC.getBuildingInfo(eBuilding).getPrereqAndTech()) == NULL when eBuiding == 1
-		BuildingTypes eBuilding = (BuildingTypes)1;
-		int techTypes = GC.getBuildingInfo(eBuilding).getPrereqAndTech();
-		CvTechInfo& techInfo = GC.getTechInfo((TechTypes)techTypes);
+	{ // write testing code here
+
 	}
 
 	int aiShuffle[MAX_PLAYERS];
 	int iLoopPlayer;
 	int iI;
-
-	//Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	for (iI = 0; iI < MAX_PLAYERS; iI++)
 	{
 		GET_PLAYER((PlayerTypes)iI).m_bTurnPlayed = false;
 	}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	// END OF TURN
 	CvEventReporter::getInstance().beginGameTurn( getGameTurn() );
@@ -6169,17 +6534,36 @@ void CvGame::doTurn()
 
 	GC.getMapINLINE().doTurn();
 
-	//Rhye
-	//createBarbarianCities();
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	createBarbarianCities();
+*/
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 	createBarbarianUnits();
 
 	doGlobalWarming();
 
-	//Rhye - comment this to stop religion founding
-	//doHolyCity();
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+// comment this to stop religion founding
+	doHolyCity();
 
-	//doHeadquarters();
+	doHeadquarters();
+*/
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 	doDiploVote();
 
@@ -6268,13 +6652,21 @@ void CvGame::doTurn()
 
 	stopProfilingDLL();
 
-	// edead: disable autosave during autoplay
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 	disable autosave during autoplay										    */
+/********************************************************************************/
+/* original code
+	gDLL->getEngineIFace()->AutoSave();
+*/
 	if ((GC.getDefineINT("NO_AUTOSAVE_DURING_AUTOPLAY") == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
 	{
 		gDLL->getEngineIFace()->AutoSave();
 	}
-	// edead: end
-	//gDLL->getEngineIFace()->AutoSave();
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 }
 
 
@@ -6295,8 +6687,11 @@ void CvGame::doDeals()
 void CvGame::doGlobalWarming()
 {
 	int iGlobalWarmingDefense = 0;
-
-// BUG - Global Warming Mod - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 	int iTreeHuggerDefenseBonus = GC.getDefineINT("TREEHUGGER_DEFENSE_BONUS");
 	bool abTreeHugger[MAX_PLAYERS];
@@ -6318,11 +6713,18 @@ void CvGame::doGlobalWarming()
 		}
 	}
 #endif
-
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	for (int i = 0; i < GC.getMapINLINE().numPlotsINLINE(); ++i)
 	{
 		CvPlot* pPlot = GC.getMapINLINE().plotByIndexINLINE(i);
 
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 		if (pPlot->getFeatureType() != NO_FEATURE)
 		{
@@ -6348,6 +6750,9 @@ void CvGame::doGlobalWarming()
 			}
 		}
 #else
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 		if (!pPlot->isWater())
 		{
 			if (pPlot->getFeatureType() != NO_FEATURE)
@@ -6363,10 +6768,18 @@ void CvGame::doGlobalWarming()
 	iGlobalWarmingDefense = iGlobalWarmingDefense * GC.getDefineINT("GLOBAL_WARMING_FOREST") / std::max(1, GC.getMapINLINE().getLandPlots());
 
 	int iUnhealthWeight = GC.getDefineINT("GLOBAL_WARMING_UNHEALTH_WEIGHT");
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 	int iBonusWeight = GC.getDefineINT("GLOBAL_WARMING_BONUS_WEIGHT");
 	int iPowerWeight = GC.getDefineINT("GLOBAL_WARMING_POWER_WEIGHT");
 #endif
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	int iGlobalWarmingValue = 0;
 	for (int iPlayer = 0; iPlayer < MAX_PLAYERS; ++iPlayer)
 	{
@@ -6376,9 +6789,17 @@ void CvGame::doGlobalWarming()
 			int iLoop;
 			for (CvCity* pCity = kPlayer.firstCity(&iLoop); pCity != NULL; pCity = kPlayer.nextCity(&iLoop))
 			{
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 				iGlobalWarmingValue -= (pCity->totalBadBuildingHealth() * iUnhealthWeight) + (pCity->getBonusBadHealth() * iBonusWeight) + (pCity->getPowerBadHealth() * iPowerWeight); //GWMod Changed to be total building bad health and to include power and bonuses M.A.
 #else
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 				iGlobalWarmingValue -= pCity->getBuildingBadHealth() * iUnhealthWeight;
 #endif
 			}
@@ -6392,6 +6813,11 @@ void CvGame::doGlobalWarming()
 #endif
 
 	TerrainTypes eWarmingTerrain = ((TerrainTypes)(GC.getDefineINT("GLOBAL_WARMING_TERRAIN")));
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 	TerrainTypes eFrozenTerrain = ((TerrainTypes)(GC.getDefineINT("FROZEN_TERRAIN")));
 	TerrainTypes eColdTerrain = ((TerrainTypes)(GC.getDefineINT("COLD_TERRAIN")));
@@ -6405,14 +6831,25 @@ void CvGame::doGlobalWarming()
 	FeatureTypes eWarmFeature = ((FeatureTypes)(GC.getDefineINT("WARM_FEATURE")));
 	FeatureTypes eFalloutFeature = ((FeatureTypes)(GC.getDefineINT("NUKE_FEATURE")));
 #endif
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	for (int iI = 0; iI < iGlobalWarmingValue; iI++)
 	{
 		if (getSorenRandNum(100, "Global Warming") + iGlobalWarmingDefense < GC.getDefineINT("GLOBAL_WARMING_PROB"))
 		{
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 			CvPlot* pPlot = GC.getMapINLINE().syncRandPlot(RANDPLOT_NOT_CITY); // GWMod removed check for water tile M.A.
 #else
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 			CvPlot* pPlot = GC.getMapINLINE().syncRandPlot(RANDPLOT_LAND | RANDPLOT_NOT_CITY);
 #endif
 
@@ -6420,6 +6857,11 @@ void CvGame::doGlobalWarming()
 			{
 				bool bChanged = false;
 
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/
 #ifdef _MOD_GWARM
 				if (pPlot->getFeatureType() != NO_FEATURE)
 				{
@@ -6495,6 +6937,9 @@ void CvGame::doGlobalWarming()
 					}
 				}
 #else
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 				if (pPlot->getFeatureType() != NO_FEATURE)
 				{
 					if (pPlot->getFeatureType() != GC.getDefineINT("NUKE_FEATURE"))
@@ -6530,7 +6975,11 @@ void CvGame::doGlobalWarming()
 			}
 		}
 	}
-	
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Global Warming Mod													    */
+/********************************************************************************/	
 #ifdef _MOD_GWARM
 	//Nuclear Winter
 	int iNuclearWinterValue = 0;
@@ -6593,7 +7042,9 @@ void CvGame::doGlobalWarming()
 		}
 	}
 #endif
-// BUG - Global Warming Mod - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 }
 
 
@@ -6632,7 +7083,19 @@ void CvGame::doHolyCity()
 			{
 				if (GET_TEAM((TeamTypes)iJ).isAlive())
 				{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+					if (GET_TEAM((TeamTypes)iJ).isHasTech((TechTypes)(GC.getReligionInfo((ReligionTypes)iI).getTechPrereq())))
+*/
 					if (GC.getReligionInfo((ReligionTypes)iI).getTechPrereq() != -1 && GET_TEAM((TeamTypes)iJ).isHasTech((TechTypes)(GC.getReligionInfo((ReligionTypes)iI).getTechPrereq())))
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
+
 					{
 						if (GET_TEAM((TeamTypes)iJ).getNumCities() > 0)
 						{
@@ -6860,7 +7323,7 @@ void CvGame::createBarbarianCities()
 {
 	CvPlot* pLoopPlot;
 	CvPlot* pBestPlot;
-//	long lResult; //Rhye (Kael)
+	long lResult;
 	int iTargetCities;
 	int iValue;
 	int iBestValue;
@@ -6876,16 +7339,22 @@ void CvGame::createBarbarianCities()
 		return;
 	}
 
-	//Rhye - start
-//Speed: Modified by Kael 04/19/2007
-//	lResult = 0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianCities", NULL, &lResult);
-//	if (lResult == 1)
-//	{
-//		return;
-//	}
-//Speed: End Modify
-	//Rhye - end
+/********************************************************************************/
+/* 	K-Mod					04/19/07				Kael	    */
+/* 																			    */
+/* 	Speed: Modified by Kael													    */
+/********************************************************************************/
+/*
+	lResult = 0;
+	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianCities", NULL, &lResult);
+	if (lResult == 1)
+	{
+		return;
+	}
+*/
+/********************************************************************************/
+/* 	K-Mod							END							*/
+/********************************************************************************/
 
 	if (GC.getEraInfo(getCurrentEra()).isNoBarbCities())
 	{
@@ -6995,7 +7464,7 @@ void CvGame::createBarbarianUnits()
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
 	bool bAnimals;
-//	long lResult; //Rhye (Kael)
+	long lResult;
 	int iNeededBarbs;
 	int iDivisor;
 	int iValue;
@@ -7008,16 +7477,22 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
-	//Rhye - start
-//Speed: Modified by Kael 04/19/2007
-//	lResult = 0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianUnits", NULL, &lResult);
-//	if (lResult == 1)
-//	{
-//		return;
-//	}
-//Speed: End Modify
-	//Rhye - end
+/********************************************************************************/
+/* 	K-Mod					04/19/07				Kael	    */
+/* 																			    */
+/* 	Speed: Modified by Kael													    */
+/********************************************************************************/
+/*
+	lResult = 0;
+	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianUnits", NULL, &lResult);
+	if (lResult == 1)
+	{
+		return;
+	}
+*/
+/********************************************************************************/
+/* 	K-Mod							END							*/
+/********************************************************************************/
 
 	bAnimals = false;
 
@@ -7042,8 +7517,15 @@ void CvGame::createBarbarianUnits()
 	}
 	else
 	{
-		return; //Rhye (so that it create just animals)
-
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+		return; // (so that it create just animals)
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 		{
 			if (pLoopArea->isWater())
@@ -7076,10 +7558,16 @@ void CvGame::createBarbarianUnits()
 
 						if (pPlot != NULL)
 						{
-							//Rhye - start (no partially impassable terrains)
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 	no partially impassable terrains										    */
+/********************************************************************************/
 							if ((pPlot->getTerrainType() <= 3) && (pPlot->getFeatureType() >= 2) && (pPlot->getFeatureType() <= 4))
 							{
-							//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 							eBestUnit = NO_UNIT;
 							iBestValue = 0;
 
@@ -7175,9 +7663,15 @@ void CvGame::createBarbarianUnits()
 							{
 								GET_PLAYER(BARBARIAN_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), eBarbUnitAI);
 							}
-							//Rhye - start
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 							}
-							//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 						}
 					}
 				}
@@ -7261,6 +7755,11 @@ void CvGame::createAnimals()
 
 										if (iValue > iBestValue)
 										{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/											
 											bool bAppropriateLocation = true;
 
 											if (eBestUnit == GC.getInfoTypeForString("UNIT_TIGER") &&
@@ -7337,9 +7836,20 @@ void CvGame::createAnimals()
 
 											if (bAppropriateLocation)
 											{
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 												eBestUnit = eLoopUnit;
 												iBestValue = iValue;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 											}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 										}
 									}
 								}
@@ -7549,8 +8059,18 @@ bool CvGame::testVictory(VictoryTypes eVictory, TeamTypes eTeam, bool* pbEndScor
 			else
 			{
 				bool bFound = false;
-
-				for (int iK = 0; iK < NUM_MAJOR_PLAYERS; iK++) //Rhye independents fix //MAX_CIV_TEAMS
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 	independents fix														    */
+/********************************************************************************/
+/*  original code
+				for (int iK = 0; iK < MAX_CIV_TEAMS; iK++)
+*/
+				for (int iK = 0; iK < NUM_MAJOR_PLAYERS; iK++)
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				{
 					if (GET_TEAM((TeamTypes)iK).isAlive())
 					{
@@ -7859,11 +8379,19 @@ void CvGame::testVictory()
 		{
 			if (!(kLoopTeam.isMinorCiv()))
 			{
-				//Rhye - start (Historical victory should not be checked - it's triggered by python
-				// Leoreth: same for religious
-				//for (int iJ = 0; iJ < GC.getNumVictoryInfos(); iJ++)
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 	Rhye: Historical victory should not be checked - it's triggered by python.	*/
+/*  Leoreth: same for religious.												*/
+/********************************************************************************/
+/* original code
+				for (int iJ = 0; iJ < GC.getNumVictoryInfos(); iJ++)
+*/
 				for (int iJ = 0; iJ < GC.getNumVictoryInfos()-2; iJ++)
-				//Rhye - end
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				{
 					if (testVictory((VictoryTypes)iJ, (TeamTypes)iI, &bEndScore))
 					{
@@ -7954,16 +8482,30 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 				CvTeam& kLoopTeam1 = GET_TEAM((TeamTypes)iTeam1);
 				if (kLoopTeam1.isVotingMember(kData.eVoteSource))
 				{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					// Leoreth: unaffected by defied, but passed resolution
 					if (getPlayerVote((PlayerTypes)iTeam1, kData.getID()) == PLAYER_VOTE_NEVER)
 						continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 					for (int iTeam2 = iTeam1 + 1; iTeam2 < MAX_CIV_PLAYERS; ++iTeam2)
 					{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 						// Leoreth: unaffected by defied, but passed resolution
 						if (getPlayerVote((PlayerTypes)iTeam2, kData.getID()) == PLAYER_VOTE_NEVER)
 							continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 						CvTeam& kLoopTeam2 = GET_TEAM((TeamTypes)iTeam2);
 						if (kLoopTeam2.isVotingMember(kData.eVoteSource))
 						{
@@ -7982,16 +8524,30 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 				CvTeam& kLoopTeam1 = GET_TEAM((TeamTypes)iTeam1);
 				if (kLoopTeam1.isVotingMember(kData.eVoteSource))
 				{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					// Leoreth: unaffected by defied, but passed resolution
 					if (getPlayerVote((PlayerTypes)iTeam1, kData.getID()) == PLAYER_VOTE_NEVER)
 						continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 					for (int iTeam2 = iTeam1 + 1; iTeam2 < MAX_CIV_PLAYERS; ++iTeam2)
 					{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 						// Leoreth: unaffected by defied, but passed resolution
 						if (getPlayerVote((PlayerTypes)iTeam2, kData.getID()) == PLAYER_VOTE_NEVER)
 							continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 						CvTeam& kLoopTeam2 = GET_TEAM((TeamTypes)iTeam2);
 						if (kLoopTeam2.isVotingMember(kData.eVoteSource))
 						{
@@ -8010,22 +8566,37 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 
 			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
 			{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 				// Leoreth: unaffected by defied, but passed resolution
 				if (getPlayerVote((PlayerTypes)iPlayer, kData.getID()) == PLAYER_VOTE_NEVER)
 					continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				CvPlayer& kLoopPlayer = GET_PLAYER((PlayerTypes)iPlayer);
 				if (kLoopPlayer.getTeam() != kPlayer.getTeam())
 				{
 					if (kLoopPlayer.isVotingMember(kData.eVoteSource))
 					{
-						//Rhye - start
-						//kLoopPlayer.forcePeace(kData.kVoteOption.ePlayer);
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+						kLoopPlayer.forcePeace(kData.kVoteOption.ePlayer);
+*/
 						if (atWar(kPlayer.getTeam(), kLoopPlayer.getTeam())) {
 							kLoopPlayer.forcePeace(kData.kVoteOption.ePlayer);
 							CvEventReporter::getInstance().peaceBrokered(GET_TEAM(getSecretaryGeneral(kVote.isVoteSourceType(0) ? (VoteSourceTypes)0 : (VoteSourceTypes)1)).getLeaderID(), (PlayerTypes)iPlayer, kData.kVoteOption.ePlayer);
 						}
-						//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 					}
 				}
 			}
@@ -8039,10 +8610,17 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 
 			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
 			{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 				// Leoreth: unaffected by defied, but passed resolution
 				if (getPlayerVote((PlayerTypes)iPlayer, kData.getID()) == PLAYER_VOTE_NEVER)
 					continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				CvPlayer& kLoopPlayer = GET_PLAYER((PlayerTypes)iPlayer);
 				if (kLoopPlayer.isVotingMember(kData.eVoteSource))
 				{
@@ -8062,10 +8640,17 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 
 			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
 			{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 				// Leoreth: unaffected by defied, but passed resolution
 				if (getPlayerVote((PlayerTypes)iPlayer, kData.getID()) == PLAYER_VOTE_NEVER)
 					continue;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				CvPlayer& kLoopPlayer = GET_PLAYER((PlayerTypes)iPlayer);
 				if (kLoopPlayer.isVotingMember(kData.eVoteSource))
 				{
@@ -8087,6 +8672,11 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 
 			if (NULL != pCity)
 			{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 				// Leoreth: city assignment can be defied, but leads to war with the civs that voted yes
 				if (getPlayerVote(pCity->getOwnerINLINE(), kData.getID()) == PLAYER_VOTE_NEVER)
 				{
@@ -8099,12 +8689,20 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 					}
 				}
 				else
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				{
 					if (NO_PLAYER != kData.kVoteOption.eOtherPlayer && kData.kVoteOption.eOtherPlayer != pCity->getOwnerINLINE())
 					{
 						GET_PLAYER(kData.kVoteOption.eOtherPlayer).acquireCity(pCity, false, true, true);
 					}
 				}
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			}
 
 			setVoteOutcome(kData, NO_PLAYER_VOTE);
@@ -8202,6 +8800,9 @@ void CvGame::processVote(const VoteTriggeredData& kData, int iChange)
 			{
 				GET_PLAYER(kData.kVoteOption.ePlayer).splitEmpire(kData.kVoteOption.eOtherPlayer);
 			}
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 			setVoteOutcome(kData, NO_PLAYER_VOTE);
 		}
@@ -8404,8 +9005,11 @@ int CvGame::calculateOptionsChecksum()
 	return iValue;
 }
 
-
-//Rhye - start (jdog) for Warlords
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye & jdog	    */
+/* 																			    */
+/* 	for Warlords															    */
+/********************************************************************************/
 // Return success of changing properties of player
 // playerIdx is index of player to be changed ... must have been alive at some point (otherwise use createNewPlayer)
 // newCivType is index of new civ
@@ -8624,9 +9228,9 @@ void CvGame::convertUnits( int playerIdx )
 			break;
 	}
 }
-// Rhye - end (jdog)
-
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 void CvGame::addReplayMessage(ReplayMessageTypes eType, PlayerTypes ePlayer, CvWString pszText, int iPlotX, int iPlotY, ColorTypes eColor)
 {
@@ -9300,7 +9904,11 @@ bool CvGame::hasSkippedSaveChecksum() const
 
 void CvGame::addPlayer(PlayerTypes eNewPlayer, LeaderHeadTypes eLeader, CivilizationTypes eCiv)
 {
-	// UNOFFICIAL_PATCH Start
+/************************************************************************************************/
+/* UNOFFICIAL_PATCH                       12/30/08                                jdog5000      */
+/*                                                                                              */
+/* Bugfix                                                                                       */
+/************************************************************************************************/
 	// * Fixed bug with colonies who occupy recycled player slots showing the old leader or civ names.
 	CvWString szEmptyString = L"";
 	LeaderHeadTypes eOldLeader = GET_PLAYER(eNewPlayer).getLeaderType();
@@ -9315,7 +9923,9 @@ void CvGame::addPlayer(PlayerTypes eNewPlayer, LeaderHeadTypes eLeader, Civiliza
 		GC.getInitCore().setCivDescription(eNewPlayer, szEmptyString);
 		GC.getInitCore().setCivShortDesc(eNewPlayer, szEmptyString);
 	}
-	// UNOFFICIAL_PATCH End
+/************************************************************************************************/
+/* UNOFFICIAL_PATCH                        END                                                  */
+/************************************************************************************************/
 	PlayerColorTypes eColor = (PlayerColorTypes)GC.getCivilizationInfo(eCiv).getDefaultPlayerColor();
 
 	for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++)
@@ -9372,27 +9982,34 @@ void CvGame::addPlayer(PlayerTypes eNewPlayer, LeaderHeadTypes eLeader, Civiliza
 
 bool CvGame::isCompetingCorporation(CorporationTypes eCorporation1, CorporationTypes eCorporation2) const
 {
-	// edead: start comment
-	// bool bShareResources = false;
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	bool bShareResources = false;
 
-	// for (int i = 0; i < GC.getNUM_CORPORATION_PREREQ_BONUSES() && !bShareResources; ++i)
-	// {
-		// if (GC.getCorporationInfo(eCorporation1).getPrereqBonus(i) != NO_BONUS)
-		// {
-			// for (int j = 0; j < GC.getNUM_CORPORATION_PREREQ_BONUSES(); ++j)
-			// {
-				// if (GC.getCorporationInfo(eCorporation2).getPrereqBonus(j) != NO_BONUS)
-				// {
-					// if (GC.getCorporationInfo(eCorporation1).getPrereqBonus(i) == GC.getCorporationInfo(eCorporation2).getPrereqBonus(j))
-					// {
-						// return true;
-					// }
-				// }
-			// }
-		// }
-	// }
-	// edead: end comment
-
+	for (int i = 0; i < GC.getNUM_CORPORATION_PREREQ_BONUSES() && !bShareResources; ++i)
+	{
+		if (GC.getCorporationInfo(eCorporation1).getPrereqBonus(i) != NO_BONUS)
+		{
+			for (int j = 0; j < GC.getNUM_CORPORATION_PREREQ_BONUSES(); ++j)
+			{
+				if (GC.getCorporationInfo(eCorporation2).getPrereqBonus(j) != NO_BONUS)
+				{
+					if (GC.getCorporationInfo(eCorporation1).getPrereqBonus(i) == GC.getCorporationInfo(eCorporation2).getPrereqBonus(j))
+					{
+						return true;
+					}
+				}
+			}
+		}
+	}
+*/
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 	return false;
 }
 
@@ -9770,8 +10387,18 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 
 								if (isValidVoteSelection(eVoteSource, kData))
 								{
-									//kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_PEACE", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_PEACE", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource));
+*/								
 									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_PEACE", GET_PLAYER((PlayerTypes)iTeam1).getCivilizationDescriptionKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 									pData->aVoteOptions.push_back(kData);
 								}
 							}
@@ -9789,8 +10416,18 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 
 								if (isValidVoteSelection(eVoteSource, kData))
 								{
-									//kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_NO_TRADE", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_NO_TRADE", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource));
+*/
 									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_NO_TRADE", GET_PLAYER((PlayerTypes)iTeam1).getCivilizationDescriptionKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 									pData->aVoteOptions.push_back(kData);
 								}
 							}
@@ -9808,8 +10445,18 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 
 								if (isValidVoteSelection(eVoteSource, kData))
 								{
-									//kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_WAR", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_WAR", kTeam1.getName().GetCString(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource));
+*/
 									kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_FORCE_WAR", GET_PLAYER((PlayerTypes)iTeam1).getCivilizationDescriptionKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 									pData->aVoteOptions.push_back(kData);
 								}
 							}
@@ -9824,6 +10471,11 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 							int iLoop;
 							for (CvCity* pLoopCity = kPlayer1.firstCity(&iLoop); NULL != pLoopCity; pLoopCity = kPlayer1.nextCity(&iLoop))
 							{
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 								for (int iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
 								{
 									if (pLoopCity->plot()->isCore((PlayerTypes)iI))
@@ -9840,7 +10492,9 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 										}
 									}
 								}
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 								PlayerTypes eNewOwner = pLoopCity->plot()->findHighestCulturePlayer();
 								if (NO_PLAYER != eNewOwner)
 								{
@@ -9850,7 +10504,14 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 
 									if (isValidVoteSelection(eVoteSource, kData))
 									{
-										//kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_ASSIGN_CITY", kPlayer1.getCivilizationAdjectiveKey(), pLoopCity->getNameKey(), GET_PLAYER(eNewOwner).getNameKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+										kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_ASSIGN_CITY", kPlayer1.getCivilizationAdjectiveKey(), pLoopCity->getNameKey(), GET_PLAYER(eNewOwner).getNameKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource));
+*/
 										kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_ASSIGN_CITY", kPlayer1.getCivilizationAdjectiveKey(), pLoopCity->getNameKey(), GET_PLAYER(eNewOwner).getCivilizationDescriptionKey(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
 										pData->aVoteOptions.push_back(kData);
 									}
@@ -9953,8 +10614,16 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 								kData.ePlayer = ePlayer;
 								kData.iCityId = iBestID;
 								kData.szText = gDLL->getText("TXT_KEY_POPUP_ELECTION_DECOLONIZE", kPlayer.getCity(iBestID)->getNameKey(), kPlayer.getCivilizationShortDescription(), getVoteRequired(kData.eVote, eVoteSource), countPossibleVote(kData.eVote, eVoteSource)); //Rhye
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 								pData->aVoteOptions.push_back(kData);
 							}
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 						}
 					}
 					else if (GC.getVoteInfo(kData.eVote).isReleaseCivilization())
@@ -9995,6 +10664,9 @@ VoteSelectionData* CvGame::addVoteSelection(VoteSourceTypes eVoteSource)
 									pData->aVoteOptions.push_back(kData);
 								}
 							}
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 						}
 					}
 					else
@@ -10113,7 +10785,11 @@ void CvGame::doVoteResults()
 			for (int iJ = 0; iJ < MAX_CIV_PLAYERS; iJ++)
 			{
 				PlayerTypes ePlayer = (PlayerTypes) iJ;
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 				// Leoreth: player triggering the election and his capitulated vassals can't vote
 				if (GC.getVoteInfo(eVote).isVictory())
 				{
@@ -10122,7 +10798,9 @@ void CvGame::doVoteResults()
 						continue;
 					}
 				}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 				if (GET_PLAYER(ePlayer).isVotingMember(eVoteSource))
 				{
 					if (getPlayerVote(ePlayer, pVoteTriggered->getID()) == NO_PLAYER_VOTE)
@@ -10206,8 +10884,16 @@ void CvGame::doVoteResults()
 					{
 						if (getPlayerVote((PlayerTypes)iJ, pVoteTriggered->getID()) == PLAYER_VOTE_NEVER)
 						{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 							// Leoreth: AP resolutions still pass if defied - espionage is the only exception
 							if (getVoteSourceReligion(eVoteSource) == NO_RELIGION || GC.getVoteInfo(eVote).getEspionage() > 0)
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 								bPassed = false;
 
 							GET_PLAYER((PlayerTypes)iJ).setDefiedResolution(eVoteSource, pVoteTriggered->kVoteOption);
@@ -10552,7 +11238,11 @@ int CvGame::getWarningStatus() const
 #endif
 // BUFFY - Security Checks - end
 
-// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 bool CvGame::isNeighbors(PlayerTypes ePlayer1, PlayerTypes ePlayer2) const
 {
 	return (GET_PLAYER(ePlayer1).AI_calculateStolenCityRadiusPlots(ePlayer2) > 0 || GET_PLAYER(ePlayer2).AI_calculateStolenCityRadiusPlots(ePlayer1) > 0);
@@ -10625,3 +11315,6 @@ PlayerTypes CvGame::getCityScreenOwner() const
 {
 	return m_eCityScreenOwner;
 }
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/

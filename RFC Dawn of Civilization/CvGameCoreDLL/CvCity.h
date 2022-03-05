@@ -7,17 +7,23 @@
 
 #include "CvDLLEntity.h"
 #include "LinkedList.h"
+#include "CvEnums.h"
 
 class CvPlot;
 class CvPlotGroup;
 class CvArea;
 class CvGenericBuilding;
 class CvArtInfoBuilding;
-
-// BUG - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 void addGoodOrBad(int iValue, int& iGood, int& iBad);
 void subtractGoodOrBad(int iValue, int& iGood, int& iBad);
-// BUG - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 class CvCity : public CvDLLEntity
 {
@@ -57,7 +63,15 @@ public:
 	void verifyWorkingPlots();
 	void clearWorkingOverride(int iIndex);														// Exposed to Python
 	int countNumImprovedPlots(ImprovementTypes eImprovement = NO_IMPROVEMENT, bool bPotential = false) const;
-	int countNumBonusPlots(BonusTypes eBonus = NO_BONUS) const; // 1SDAN																		// Exposed to Python
+/********************************************************************************/
+/* 	1SDAN					xx/xx/xx				1SDAN	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int countNumBonusPlots(BonusTypes eBonus = NO_BONUS) const;																		// Exposed to Python
+/********************************************************************************/
+/* 	1SDAN							END							*/
+/********************************************************************************/
 	int countNumWaterPlots() const;																					// Exposed to Python
 	int countNumRiverPlots() const;																					// Exposed to Python
 
@@ -132,24 +146,44 @@ public:
 
 	bool canHurry(HurryTypes eHurry, bool bTestVisible = false) const;		// Exposed to Python
 	void hurry(HurryTypes eHurry);																						// Exposed to Python
-// BUG - Hurry Assist - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Hurry Assist															    */
+/********************************************************************************/
 	bool hurryOverflow(HurryTypes eHurry, int* iProduction, int* iGold, bool bCountThisTurn = false) const;
-// BUG - Hurry Assist - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	UnitTypes getConscriptUnit() const;																// Exposed to Python
 	CvUnit* initConscriptedUnit();
 	int getConscriptPopulation() const;																// Exposed to Python
 	int conscriptMinCityPopulation() const;																			// Exposed to Python
 	int flatConscriptAngerLength() const;																				// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/	
 	bool canConscript(bool bForce = false) const;																				// Exposed to Python
 	void conscript(bool bForce = false);																											// Exposed to Python
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	int getBonusHealth(BonusTypes eBonus) const;																// Exposed to Python - getBonusHealth
 	int getBonusHappiness(BonusTypes eBonus) const;															// Exposed to Python - getBonusHappiness
 	int getBonusPower(BonusTypes eBonus, bool bDirty) const;										// Exposed to Python 
 	int getBonusYieldRateModifier(YieldTypes eIndex, BonusTypes eBonus) const;	// Exposed to Python 
-	int getBonusCommerceRateModifier(CommerceTypes eIndex, BonusTypes eBonus) const; // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int getBonusCommerceRateModifier(CommerceTypes eIndex, BonusTypes eBonus) const;
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	void processBonus(BonusTypes eBonus, int iChange);
 	void processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolete = false);
 	void processProcess(ProcessTypes eProcess, int iChange);
@@ -170,7 +204,15 @@ public:
 
 	bool isCapital() const;																				// Exposed to Python
 	bool isCoastal(int iMinWaterSize) const;																									// Exposed to Python
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	bool isCoastalOld() const;		//Rhye																						// Exposed to Python
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	bool isDisorder() const;																			// Exposed to Python				 
 	bool isHolyCity(ReligionTypes eIndex) const;									// Exposed to Python				
 	bool isHolyCity() const;																			// Exposed to Python				
@@ -190,7 +232,15 @@ public:
 	int getVassalHappiness() const;																		// Exposed to Python
 	int getVassalUnhappiness() const;																		// Exposed to Python
 	int unhappyLevel(int iExtra = 0) const;																	// Exposed to Python 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int happyLevel(bool bSpecial = true) const;																				// Exposed to Python				
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int angryPopulation(int iExtra = 0) const;										// Exposed to Python
 
 	int visiblePopulation() const;
@@ -202,7 +252,15 @@ public:
 	int unhealthyPopulation(bool bNoAngry = false, int iExtra = 0) const;	// Exposed to Python
 	int totalGoodBuildingHealth() const;																		// Exposed to Python
 	int totalBadBuildingHealth() const;														// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int goodHealth(bool bSpecial = true) const;																				// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int badHealth(bool bNoAngry = false, int iExtra = 0) const;		// Exposed to Python
 	int healthRate(bool bNoAngry = false, int iExtra = 0) const;	// Exposed to Python
 	int foodConsumption(bool bNoAngry = false, int iExtra = 0) const;				// Exposed to Python
@@ -222,9 +280,16 @@ public:
 	int cultureDistance(int iDX, int iDY) const;														// Exposed to Python
 	int cultureStrength(PlayerTypes ePlayer) const;								// Exposed to Python					 
 	int cultureGarrison(PlayerTypes ePlayer) const;								// Exposed to Python					 
-																																		
-	bool hasBuilding(BuildingTypes eIndex) const;	//Rhye								// Exposed to Python					
-	bool hasActiveBuilding(BuildingTypes eIndex) const;	//Rhye					// Exposed to Python
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/																																		
+	bool hasBuilding(BuildingTypes eIndex) const;								// Exposed to Python					
+	bool hasActiveBuilding(BuildingTypes eIndex) const;						// Exposed to Python
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	int getNumBuilding(BuildingTypes eIndex) const;									// Exposed to Python					
 	int getNumActiveBuilding(BuildingTypes eIndex) const;						// Exposed to Python
 	bool hasActiveWorldWonder() const;																			// Exposed to Python
@@ -237,17 +302,30 @@ public:
 /************************************************************************************************/
 /* UNOFFICIAL_PATCH                        END                                                  */
 /************************************************************************************************/
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getReligionCount(bool bCountLocalReligions = true) const;																						// Exposed to Python  
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCorporationCount() const;																						// Exposed to Python  
 
 	DllExport int getID() const;																			// Exposed to Python
 	DllExport int getIndex() const;
 	DllExport IDInfo getIDInfo() const;
 	void setID(int iID);
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getRegionID() const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	DllExport int getX() const;																			// Exposed to Python
 #ifdef _USRDLL
 	inline int getX_INLINE() const
@@ -271,8 +349,15 @@ public:
 	int getArea() const;
 	CvArea* area() const;																						// Exposed to Python
 	CvArea* waterArea() const;																			// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	CvArea* continentArea() const; // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	CvPlot* getRallyPlot() const;																// Exposed to Python
 	void setRallyPlot(CvPlot* pPlot);
 
@@ -307,17 +392,27 @@ public:
 
 	int getGreatPeopleRateModifier() const;																// Exposed to Python
 	void changeGreatPeopleRateModifier(int iChange);
-
-// BUG - Building Additional Great People - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Great People										    */
+/********************************************************************************/
 	int getAdditionalGreatPeopleRateByBuilding(BuildingTypes eBuilding) const;								// Exposed to Python
 	int getAdditionalBaseGreatPeopleRateByBuilding(BuildingTypes eBuilding) const;							// Exposed to Python
 	int getAdditionalGreatPeopleRateModifierByBuilding(BuildingTypes eBuilding) const;						// Exposed to Python
-// BUG - Building Additional Great People - end
-
-// BUG - Specialist Additional Great People - start
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Specialist Additional Great People										    */
+/********************************************************************************/
 	int getAdditionalGreatPeopleRateBySpecialist(SpecialistTypes eSpecialist, int iChange) const;			// Exposed to Python
 	int getAdditionalBaseGreatPeopleRateBySpecialist(SpecialistTypes eSpecialist, int iChange) const;		// Exposed to Python
-// BUG - Specialist Additional Great People - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getGreatPeopleProgress() const;													// Exposed to Python
 	void changeGreatPeopleProgress(int iChange);										// Exposed to Python
@@ -337,11 +432,16 @@ public:
 	int getGovernmentCenterCount() const;																	
 	bool isGovernmentCenter() const;														// Exposed to Python
 	void changeGovernmentCenterCount(int iChange);													
-
-// BUG - Building Saved Maintenance - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Saved Maintenance												    */
+/********************************************************************************/
 	int getSavedMaintenanceByBuilding(BuildingTypes eBuilding) const;										// Exposed to Python
 	int getSavedMaintenanceTimes100ByBuilding(BuildingTypes eBuilding) const;								// Exposed to Python
-// BUG - Building Saved Maintenance - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getMaintenance() const;																	// Exposed to Python
 	int getMaintenanceTimes100() const;																	// Exposed to Python
@@ -412,30 +512,46 @@ public:
 	int getExtraBuildingGoodHappiness() const;														// Exposed to Python
 	int getExtraBuildingBadHappiness() const;															// Exposed to Python
 	void updateExtraBuildingHappiness();
-
-// BUG - Building Additional Happiness - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Happiness											    */
+/********************************************************************************/
 	int getAdditionalHappinessByBuilding(BuildingTypes eBuilding) const;									// Exposed to Python
 	int getAdditionalHappinessByBuilding(BuildingTypes eBuilding, int& iGood, int& iBad, int& iAngryPop) const;
-// BUG - Building Additional Happiness - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getExtraBuildingGoodHealth() const;														// Exposed to Python
 	int getExtraBuildingBadHealth() const;															// Exposed to Python
 	void updateExtraBuildingHealth();
-
-// BUG - Building Additional Health - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Health												    */
+/********************************************************************************/
 	int getAdditionalHealthByBuilding(BuildingTypes eBuilding) const;										// Exposed to Python
 	int getAdditionalHealthByBuilding(BuildingTypes eBuilding, int& iGood, int& iBad, int& iSpoiledFood) const;
-// BUG - Building Additional Health - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getFeatureGoodHappiness() const;																	// Exposed to Python
 	int getFeatureBadHappiness() const;																		// Exposed to Python
 	void updateFeatureHappiness();
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getImprovementHappiness() const;
 	int getImprovementHappinessPercent() const;																	// Exposed to Python
 	void setImprovementHappinessPercent(int iNewValue);
 	void changeImprovementHappinessPercent(int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getBonusGoodHappiness() const;																		// Exposed to Python  
 	int getBonusBadHappiness() const;																			// Exposed to Python  
 	void changeBonusGoodHappiness(int iChange);
@@ -477,12 +593,18 @@ public:
 	bool isBuildingOnlyHealthy() const;																		// Exposed to Python
 	void changeBuildingOnlyHealthyCount(int iChange);
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getImprovementHealth() const;
 	int getImprovementHealthPercent() const;
 	void setImprovementHealthPercent(int iNewValue);
 	void changeImprovementHealthPercent(int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getFood() const;																				// Exposed to Python
 	void setFood(int iNewValue);																		// Exposed to Python
 	void changeFood(int iChange);																		// Exposed to Python
@@ -519,15 +641,27 @@ public:
 
 	int getBuildingDefense() const;																				// Exposed to Python
 	void changeBuildingDefense(int iChange);
-// BUG - Building Additional Defense - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Defense												    */
+/********************************************************************************/
 	int getAdditionalDefenseByBuilding(BuildingTypes eBuilding) const;											// Exposed to Python
-// BUG - Building Additional Defense - start
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getBuildingBombardDefense() const;																				// Exposed to Python
 	void changeBuildingBombardDefense(int iChange);
-// BUG - Building Additional Bombard Defense - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Bombard Defense										    */
+/********************************************************************************/
 	int getAdditionalBombardDefenseByBuilding(BuildingTypes eBuilding) const;									// Exposed to Python
-// BUG - Building Additional Bombard Defense - start
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getFreeExperience() const;																				// Exposed to Python
 	void changeFreeExperience(int iChange);															
@@ -557,10 +691,16 @@ public:
 	int getDirtyPowerCount() const;
 	bool isDirtyPower() const;																						// Exposed to Python
 	void changePowerCount(int iChange, bool bDirty);
-	
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getPowerConsumedCount() const;
 	void changePowerConsumedCount(int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	bool isAreaBorderObstacle() const;																				// Exposed to Python
 
 	int getDefenseDamage() const;																					// Exposed to Python
@@ -577,9 +717,16 @@ public:
 
 	int getOccupationTimer() const;															// Exposed to Python
 	bool isOccupation() const;																	// Exposed to Python 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/	
 	void setOccupationTimer(int iNewValue, bool bEffects = true);													// Exposed to Python
 	void changeOccupationTimer(int iChange, bool bEffects = true);												// Exposed to Python
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCultureUpdateTimer() const;															// Exposed to Python
 	void setCultureUpdateTimer(int iNewValue);
 	void changeCultureUpdateTimer(int iChange);												// Exposed to Python
@@ -648,25 +795,48 @@ public:
 	int getRiverPlotYield(YieldTypes eIndex) const;																// Exposed to Python
 	void changeRiverPlotYield(YieldTypes eIndex, int iChange);
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getBonusYield(BonusTypes eBonus, YieldTypes eYield) const;
 	void changeBonusYield(BonusTypes eBonus, YieldTypes eYield, int iChange);
-
-	// 1SDAN
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	1SDAN					xx/xx/xx				1SDAN	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getStateReligionCommerceRateModifier(ReligionTypes eReligion, CommerceTypes eCommerce) const;
 	void changeStateReligionCommerceRateModifier(ReligionTypes eReligion, CommerceTypes eCommerce, int iChange);
-
-// BUG - Building Additional Yield - start
+/********************************************************************************/
+/* 	1SDAN							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* Building Additional Yield												    */
+/********************************************************************************/
+// BUG -  - start
 	int getAdditionalYieldByBuilding(YieldTypes eIndex, BuildingTypes eBuilding) const;						// Exposed to Python
 	int getAdditionalBaseYieldRateByBuilding(YieldTypes eIndex, BuildingTypes eBuilding) const;				// Exposed to Python
 	int getAdditionalYieldRateModifierByBuilding(YieldTypes eIndex, BuildingTypes eBuilding) const;			// Exposed to Python
-// BUG - Building Additional Yield - end
-
-// BUG - Specialist Additional Yield - start
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* Specialist Additional Yield												    */
+/********************************************************************************/
 	int getAdditionalYieldBySpecialist(YieldTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;				// Exposed to Python
 	int getAdditionalBaseYieldRateBySpecialist(YieldTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;		// Exposed to Python
-// BUG - Specialist Additional Yield - end
-
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	int getBaseYieldRate(YieldTypes eIndex) const;															// Exposed to Python
 	int getBaseYieldRateModifier(YieldTypes eIndex, int iExtra = 0) const;			// Exposed to Python
 	int getYieldRate(YieldTypes eIndex) const;												// Exposed to Python
@@ -682,26 +852,44 @@ public:
 	int getBonusYieldRateModifier(YieldTypes eIndex) const;											// Exposed to Python 
 	void changeBonusYieldRateModifier(YieldTypes eIndex, int iChange);
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getBonusCommerceRateModifier(CommerceTypes eIndex) const;
 	void changeBonusCommerceRateModifier(CommerceTypes eIndex, int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getTradeYield(YieldTypes eIndex) const;																	// Exposed to Python
 	int totalTradeModifier(CvCity* pOtherCity = NULL) const;																							// Exposed to Python
 	int getPopulationTradeModifier() const;
 	int getPeaceTradeModifier(TeamTypes eTeam) const;
 	int getBaseTradeProfit(CvCity* pCity) const;
-// BUG - Fractional Trade Routes - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Fractional Trade Routes													    */
+/********************************************************************************/
 #ifdef _MOD_FRACTRADE
 	int calculateTradeProfitTimes100(CvCity* pCity) const;															// Exposed to Python
 #endif
-// BUG - Fractional Trade Routes - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	int calculateTradeProfit(CvCity* pCity) const;															// Exposed to Python
 	int calculateTradeYield(YieldTypes eIndex, int iTradeProfit) const;					// Exposed to Python
-// BUG - Trade Totals - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Trade Totals															    */
+/********************************************************************************/
 	void calculateTradeTotals(YieldTypes eIndex, int& iDomesticYield, int& iDomesticRoutes, int& iForeignYield, int& iForeignRoutes, PlayerTypes eWithPlayer = NO_PLAYER, bool bRound = false, bool bBase = false) const;
 	int calculateTotalTradeYield(YieldTypes eIndex, PlayerTypes eWithPlayer = NO_PLAYER, bool bRound = false, bool bBase = false) const;
-// BUG - Trade Totals - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	void setTradeYield(YieldTypes eIndex, int iNewValue);
 
 	int getExtraSpecialistYield(YieldTypes eIndex) const;																				// Exposed to Python
@@ -709,10 +897,16 @@ public:
 	void updateExtraSpecialistYield(YieldTypes eYield);
 	void updateExtraSpecialistYield();
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getHappinessYield(YieldTypes eIndex) const;
 	void updateHappinessYield();
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCommerceRate(CommerceTypes eIndex) const;									// Exposed to Python
 	int getCommerceRateTimes100(CommerceTypes eIndex) const;									// Exposed to Python
 	int getCommerceFromPercent(CommerceTypes eIndex, int iYieldRate) const;			// Exposed to Python
@@ -722,34 +916,51 @@ public:
 	void updateCommerce(CommerceTypes eIndex);
 	void updateCommerce();
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getModifiedCultureRateTimes100() const;
 	int getModifiedCultureRate() const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getProductionToCommerceModifier(CommerceTypes eIndex) const;						// Exposed to Python
 	void changeProductionToCommerceModifier(CommerceTypes eIndex, int iChange);
 
 	int getBuildingCommerce(CommerceTypes eIndex) const;																				// Exposed to Python
 	int getBuildingCommerceByBuilding(CommerceTypes eIndex, BuildingTypes eBuilding) const;			// Exposed to Python
-// BUG - Building Additional Commerce - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Building Additional Commerce											    */
+/********************************************************************************/
 	int getAdditionalCommerceByBuilding(CommerceTypes eIndex, BuildingTypes eBuilding) const;						// Exposed to Python
 	int getAdditionalCommerceTimes100ByBuilding(CommerceTypes eIndex, BuildingTypes eBuilding) const;				// Exposed to Python
 	int getAdditionalBaseCommerceRateByBuilding(CommerceTypes eIndex, BuildingTypes eBuilding) const;				// Exposed to Python
 	int getAdditionalBaseCommerceRateByBuildingImpl(CommerceTypes eIndex, BuildingTypes eBuilding) const;
 	int getAdditionalCommerceRateModifierByBuilding(CommerceTypes eIndex, BuildingTypes eBuilding) const;			// Exposed to Python
 	int getAdditionalCommerceRateModifierByBuildingImpl(CommerceTypes eIndex, BuildingTypes eBuilding) const;
-// BUG - Building Additional Commerce - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 	void updateBuildingCommerce();
 
 	int getSpecialistCommerce(CommerceTypes eIndex) const;											// Exposed to Python
 	void changeSpecialistCommerce(CommerceTypes eIndex, int iChange);			// Exposed to Python
-// BUG - Specialist Additional Commerce - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Specialist Additional Commerce											    */
+/********************************************************************************/
 	int getAdditionalCommerceBySpecialist(CommerceTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;				// Exposed to Python
 	int getAdditionalCommerceTimes100BySpecialist(CommerceTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;		// Exposed to Python
 	int getAdditionalBaseCommerceRateBySpecialist(CommerceTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;		// Exposed to Python
 	int getAdditionalBaseCommerceRateBySpecialistImpl(CommerceTypes eIndex, SpecialistTypes eSpecialist, int iChange) const;
-// BUG - Specialist Additional Commerce - end
-
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getReligionCommerce(CommerceTypes eIndex) const;																				// Exposed to Python
 	int getReligionCommerceByReligion(CommerceTypes eIndex, ReligionTypes eReligion) const;			// Exposed to Python
@@ -761,30 +972,50 @@ public:
 	int getCorporationCommerceByCorporation(CommerceTypes eIndex, CorporationTypes eCorporation) const;			// Exposed to Python
 	int getCorporationYield(YieldTypes eIndex) const;																				// Exposed to Python
 	int getCorporationYieldByCorporation(YieldTypes eIndex, CorporationTypes eCorporation) const;			// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getCorporationGoodHappiness() const;
 	int getCorporationBadHappiness() const;
 	int getCorporationHappinessByCorporation(CorporationTypes eCorporation) const;
 	int getCorporationHealth() const;
 	int getCorporationUnhealth() const;
 	int getCorporationHealthByCorporation(CorporationTypes eCorporation) const;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	void updateCorporation();
 	void updateCorporationCommerce(CommerceTypes eIndex);
 	void updateCorporationYield(YieldTypes eIndex);
 	void updateCorporationBonus();
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	void updateCorporationHappiness();
 	void updateCorporationHealth();
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCommerceRateModifier(CommerceTypes eIndex) const;										// Exposed to Python
 	void changeCommerceRateModifier(CommerceTypes eIndex, int iChange);
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getPowerCommerceRateModifier(CommerceTypes eIndex) const;
 	void changePowerCommerceRateModifier(CommerceTypes eIndex, int iChange);
 
-	// Leoreth
 	int getCultureCommerceRateModifier(CommerceTypes eIndex) const;
 	void changeCultureCommerceRateModifier(CommerceTypes eIndex, int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCommerceHappinessPer(CommerceTypes eIndex) const;										// Exposed to Python
 	int getCommerceHappinessByType(CommerceTypes eIndex) const;									// Exposed to Python
 	int getCommerceHappiness() const;																						// Exposed to Python
@@ -798,22 +1029,52 @@ public:
 
 	int getCulture(PlayerTypes eIndex) const;													// Exposed to Python
 	int getCultureTimes100(PlayerTypes eIndex) const;													// Exposed to Python
-	//int countTotalCultureTimes100() const;			//Rhye																				// Exposed to Python
-	int countTotalCultureTimes100() const;		//Rhye																					// Exposed to Python
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/	
+	//int countTotalCultureTimes100() const;																				// Exposed to Python
+	int countTotalCultureTimes100() const;																					// Exposed to Python
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getActualTotalCultureTimes100() const; // Leoreth
 	PlayerTypes findHighestCulture(bool bIgnoreMinors = false) const;																			// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int calculateCulturePercent(PlayerTypes eIndex) const;											// Exposed to Python
-	int calculateOverallCulturePercent(PlayerTypes eIndex) const; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int calculateOverallCulturePercent(PlayerTypes eIndex) const;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int calculateTeamCulturePercent(TeamTypes eIndex) const;										// Exposed to Python
 	void setCulture(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups);			// Exposed to Python
 	void setCultureTimes100(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups);			// Exposed to Python
 	void changeCulture(PlayerTypes eIndex, int iChange, bool bPlots, bool bUpdatePlotGroups);		// Exposed to Python
 	void changeCultureTimes100(PlayerTypes eIndex, int iChange, bool bPlots, bool bUpdatePlotGroups);		// Exposed to Python
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getActualCultureTimes100(PlayerTypes ePlayer) const;
 	int getActualCulture(PlayerTypes ePlayer) const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getNumRevolts(PlayerTypes eIndex) const;
 	void changeNumRevolts(PlayerTypes eIndex, int iChange);
 	int getRevoltTestProbability() const;
@@ -835,8 +1096,15 @@ public:
 	DllExport const wchar* getNameKey() const;															// Exposed to Python
 	void setName(const wchar* szNewValue, bool bFound = false);		// Exposed to Python
 	void doFoundMessage();
-	void doFoundReplayMessage(); //Rhye
-
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	void doFoundReplayMessage();
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 	// Script data needs to be a narrow string for pickling in Python
 	std::string getScriptData() const;																						// Exposed to Python
@@ -860,11 +1128,17 @@ public:
 	int getBuildingProductionTime(BuildingTypes eIndex) const;										// Exposed to Python
 	void setBuildingProductionTime(BuildingTypes eIndex, int iNewValue);		// Exposed to Python
 	void changeBuildingProductionTime(BuildingTypes eIndex, int iChange);		// Exposed to Python
-// BUG - Production Decay - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Production Decay														    */
+/********************************************************************************/
 	bool isBuildingProductionDecay(BuildingTypes eIndex) const;														// Exposed to Python
 	int getBuildingProductionDecay(BuildingTypes eIndex) const;														// Exposed to Python
 	int getBuildingProductionDecayTurns(BuildingTypes eIndex) const;												// Exposed to Python
-// BUG - Production Decay - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getProjectProduction(ProjectTypes eIndex) const;								// Exposed to Python
 	void setProjectProduction(ProjectTypes eIndex, int iNewValue);					// Exposed to Python
@@ -872,25 +1146,43 @@ public:
 
 	int getBuildingOriginalOwner(BuildingTypes eIndex) const;											// Exposed to Python
 	int getBuildingOriginalTime(BuildingTypes eIndex) const;											// Exposed to Python
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	void setBuildingOriginalOwner(BuildingTypes eBuilding, PlayerTypes ePlayer); // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getUnitProduction(UnitTypes eIndex) const;											// Exposed to Python
 	void setUnitProduction(UnitTypes eIndex, int iNewValue);								// Exposed to Python
 	void changeUnitProduction(UnitTypes eIndex, int iChange);								// Exposed to Python
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	bool isUnitHurried(UnitTypes eIndex) const;
 	void setUnitHurried(UnitTypes eIndex, bool bNewValue);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getUnitProductionTime(UnitTypes eIndex) const;														// Exposed to Python
 	void setUnitProductionTime(UnitTypes eIndex, int iNewValue);						// Exposed to Python
 	void changeUnitProductionTime(UnitTypes eIndex, int iChange);						// Exposed to Python
-// BUG - Production Decay - start
+/********************************************************************************/
+/* 	Bug Mod					xx/xx/xx				Bug Mod	    */
+/* 																			    */
+/* 	Production Decay														    */
+/********************************************************************************/
 	bool isUnitProductionDecay(UnitTypes eIndex) const;														// Exposed to Python
 	int getUnitProductionDecay(UnitTypes eIndex) const;														// Exposed to Python
 	int getUnitProductionDecayTurns(UnitTypes eIndex) const;												// Exposed to Python
-// BUG - Production Decay - end
+/********************************************************************************/
+/* 	Bug Mod							END							*/
+/********************************************************************************/
 
 	int getGreatPeopleUnitRate(UnitTypes eIndex) const;														// Exposed to Python
 	void setGreatPeopleUnitRate(UnitTypes eIndex, int iNewValue);
@@ -922,11 +1214,26 @@ public:
 	int getImprovementFreeSpecialists(ImprovementTypes eIndex) const;			// Exposed to Python
 	void changeImprovementFreeSpecialists(ImprovementTypes eIndex, int iChange);		// Exposed to Python
 
-	int getReligionInfluence(ReligionTypes eIndex) const;													// Exposed to Python
+	int getReligionInfluence(ReligionTypes eIndex) const; 							 // Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	void setReligionInfluence(ReligionTypes eIndex, int iNewValue);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/	
 	void changeReligionInfluence(ReligionTypes eIndex, int iChange);				// Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	void spreadReligionInfluence(ReligionTypes eReligion, int iRange, int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int getCurrentStateReligionHappiness() const;																	// Exposed to Python
 	int getStateReligionHappiness(ReligionTypes eIndex) const;										// Exposed to Python
 	void changeStateReligionHappiness(ReligionTypes eIndex, int iChange);		// Exposed to Python
@@ -949,15 +1256,28 @@ public:
 	void setWorkingPlot(int iIndex, bool bNewValue);
 	void setWorkingPlot(CvPlot* pPlot, bool bNewValue);
 	void alterWorkingPlot(int iIndex);																			// Exposed to Python
-
-	bool isHasRealBuilding(BuildingTypes eIndex) const;		//Rhye												// Exposed to Python
-	void setHasRealBuilding(BuildingTypes eIndex, bool bNewValue);	//Rhye	// Exposed to Python
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	bool isHasRealBuilding(BuildingTypes eIndex) const;												// Exposed to Python
+	void setHasRealBuilding(BuildingTypes eIndex, bool bNewValue);	// Exposed to Python
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	int getNumRealBuilding(BuildingTypes eIndex) const;														// Exposed to Python
 	void setNumRealBuilding(BuildingTypes eIndex, int iNewValue);		// Exposed to Python
 	void setNumRealBuildingTimed(BuildingTypes eIndex, int iNewValue, bool bFirst, PlayerTypes eOriginalOwner, int iOriginalTime);
-
-	bool isHasBuildingEffect(BuildingTypes eBuilding) const; // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	bool isHasBuildingEffect(BuildingTypes eBuilding) const;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	bool isValidBuildingLocation(BuildingTypes eIndex) const;
 
 	int getNumFreeBuilding(BuildingTypes eIndex) const;															// Exposed to Python
@@ -965,13 +1285,19 @@ public:
 
 	bool isHasReligion(ReligionTypes eIndex) const;
 	void setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce, bool bArrows = true);
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	void spreadReligion(ReligionTypes eReligion, bool bMissionary = false);
 	void removeReligion(ReligionTypes eReligion);
 	void replaceReligion(ReligionTypes eOldReligion, ReligionTypes eNewReligion);
 
 	ReligionTypes disappearingReligion(ReligionTypes eNewReligion = NO_RELIGION, bool bConquest = false) const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	bool isHasCorporation(CorporationTypes eIndex) const;
 	void setHasCorporation(CorporationTypes eIndex, bool bNewValue, bool bAnnounce, bool bArrows = true);
 
@@ -979,8 +1305,15 @@ public:
 	int getTradeRoutes() const;																										// Exposed to Python
 	void clearTradeRoutes();
 	void updateTradeRoutes();
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	bool canHaveTradeRouteWith(const CvCity* pCity) const; // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	void clearOrderQueue();																														// Exposed to Python
 	void pushOrder(OrderTypes eOrder, int iData1, int iData2, bool bSave, bool bPop, bool bAppend, bool bForce = false);		// Exposed to Python
 	void popOrder(int iNum, bool bFinish = false, bool bChoose = false);		// Exposed to Python
@@ -1031,13 +1364,20 @@ public:
 	void setBuildingHappyChange(BuildingClassTypes eBuildingClass, int iChange);          // Exposed to Python
 	int getBuildingHealthChange(BuildingClassTypes eBuildingClass) const;           // Exposed to Python
 	void setBuildingHealthChange(BuildingClassTypes eBuildingClass, int iChange);          // Exposed to Python
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getBuildingGreatPeopleRateChange(BuildingClassTypes eBuildingClass) const; // Leoreth
 	void setBuildingGreatPeopleRateChange(BuildingClassTypes eBuildingClass, int iChange); // Leoreth
 	void changeBuildingGreatPeopleRateChange(BuildingClassTypes eBuildingClass, int iChange); // Leoreth
 
 	void updateBuildingYieldChange(BuildingClassTypes eBuildingType, YieldTypes eYield, int iChange);
 	void changeReligionYieldChange(ReligionTypes eReligion, YieldTypes eYield, int iChange);
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	PlayerTypes getLiberationPlayer(bool bConquest) const;   // Exposed to Python
 	void liberate(bool bConquest);    // Exposed to Python
 
@@ -1047,7 +1387,11 @@ public:
 
 	bool isAutoRaze() const;
 
-	//Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	bool isMiddleEast() const;
 	int getSpecialistGoodHappiness() const;
 	int getSpecialistBadHappiness() const;
@@ -1164,7 +1508,9 @@ public:
 	void completeRaze();
 
 	bool canLiberate() const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	DllExport int getMusicScriptId() const;
 	DllExport int getSoundscapeScriptId() const;
 	DllExport void cheat(bool bCtrl, bool bAlt, bool bShift);
@@ -1217,8 +1563,15 @@ public:
 	virtual int AI_playerCloseness(PlayerTypes eIndex, int iMaxDistance = 7) = 0;
 	virtual int AI_cityThreat(bool bDangerPercent = false) = 0;
 	virtual BuildingTypes AI_bestAdvancedStartBuilding(int iPass) = 0;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	virtual ReligionTypes AI_getPersecutionReligion(ReligionTypes eIgnoredReligion = NO_RELIGION) = 0;
-	
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	virtual int AI_getWorkersHave() = 0;
 	virtual int AI_getWorkersNeeded() = 0;
 	virtual void AI_changeWorkersHave(int iChange) = 0;
@@ -1231,10 +1584,16 @@ public:
 	void invalidateCommerceRankCache(CommerceTypes eCommerce = NO_COMMERCE);
 
 	int getBestYieldAvailable(YieldTypes eYield) const;
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int calculateBaseYieldRate(YieldTypes eYield) const;
 	int calculateBaseGreatPeopleRate() const;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 protected:
 
 	int m_iID;
@@ -1316,7 +1675,15 @@ protected:
 	int m_iNukeModifier;
 	int m_iFreeSpecialist;
 	int m_iPowerCount;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int m_iPowerConsumedCount;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int m_iDirtyPowerCount;
 	int m_iDefenseDamage;
 	int m_iLastDefenseDamage;
@@ -1326,7 +1693,11 @@ protected:
 	int m_iSpecialistFreeExperience;
 	int m_iEspionageDefenseModifier;
 
-	//Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int m_iSpecialistGoodHappiness;
 	int m_iSpecialistBadHappiness;
 
@@ -1360,6 +1731,9 @@ protected:
 
 	int m_iTotalPopulationLoss;
 	int m_iPopulationLoss;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	bool m_bNeverLost;
 	bool m_bBombarded;
@@ -1372,7 +1746,15 @@ protected:
 	bool m_bInfoDirty;
 	bool m_bLayoutDirty;
 	bool m_bPlundered;
-	bool m_bMongolUP; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	bool m_bMongolUP;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 /************************************************************************************************/
 /* UNOFFICIAL_PATCH                       12/07/09                         denev & jdog5000     */
@@ -1388,19 +1770,42 @@ protected:
 	PlayerTypes m_ePreviousOwner;
 	PlayerTypes m_eOriginalOwner;
 	CultureLevelTypes m_eCultureLevel;
-	ArtStyleTypes m_eArtStyle; // Leoreth
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	ArtStyleTypes m_eArtStyle;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int* m_aiSeaPlotYield;
 	int* m_aiRiverPlotYield;
 	int* m_aiBaseYieldRate;
 	int* m_aiYieldRateModifier;
 	int* m_aiPowerYieldRateModifier;
 	int* m_aiBonusYieldRateModifier;
-	int* m_aiBonusCommerceRateModifier; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int* m_aiBonusCommerceRateModifier;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int* m_aiTradeYield;
 	int* m_aiCorporationYield;
 	int* m_aiExtraSpecialistYield;
-	int* m_aiHappinessYield; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int* m_aiHappinessYield;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int* m_aiCommerceRate;
 	int* m_aiProductionToCommerceModifier;
 	int* m_aiBuildingCommerce;
@@ -1408,19 +1813,33 @@ protected:
 	int* m_aiReligionCommerce;
 	int* m_aiCorporationCommerce;
 	int* m_aiCommerceRateModifier;
-	int* m_aiPowerCommerceRateModifier; // Leoreth
-	int* m_aiCultureCommerceRateModifier; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int* m_aiPowerCommerceRateModifier;
+	int* m_aiCultureCommerceRateModifier;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int* m_aiCommerceHappinessPer;
 	int* m_aiDomainFreeExperience;
 	int* m_aiDomainProductionModifier;
 	int* m_aiCulture;
 	int* m_aiNumRevolts;
 
-	// Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int* m_aiGameTurnPlayerLost;
 	int* m_aiCulturePlots;
 	int* m_aiCultureCosts;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	bool* m_abEverOwned;
 	bool* m_abTradeRoute;
 	bool* m_abRevealed;
@@ -1447,8 +1866,16 @@ protected:
 	int* m_paiForceSpecialistCount;
 	int* m_paiFreeSpecialistCount;
 	int* m_paiImprovementFreeSpecialists;
-	int* m_paiImprovementHealthPercentChange; // Leoreth
-	int* m_paiImprovementHappinessPercentChange; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	int* m_paiImprovementHealthPercentChange;
+	int* m_paiImprovementHappinessPercentChange;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	int* m_paiReligionInfluence;
 	int* m_paiStateReligionHappiness;
 	int* m_paiUnitCombatFreeExperience;
@@ -1459,13 +1886,26 @@ protected:
 	bool* m_pabWorkingPlot;
 	bool* m_pabHasReligion;
 	bool* m_pabHasCorporation;
-	bool* m_pabIsUnitHurried; // Leoreth
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	bool* m_pabIsUnitHurried;
 
-	// Leoreth
 	int** m_ppaiBonusYield;
-	// 1SDAN
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
+/********************************************************************************/
+/* 	1SDAN					xx/xx/xx				1SDAN	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/	
 	int** m_ppaiStateReligionCommerceRateModifier;
-
+/********************************************************************************/
+/* 	1SDAN							END							*/
+/********************************************************************************/
 	IDInfo* m_paTradeCities;
 
 	mutable CLinkList<OrderData> m_orderQueue;
@@ -1477,7 +1917,15 @@ protected:
 	std::vector<BuildingCommerceChange> m_aBuildingCommerceChange;
 	BuildingChangeArray m_aBuildingHappyChange;
 	BuildingChangeArray m_aBuildingHealthChange;
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	BuildingChangeArray m_aBuildingGreatPeopleRateChange;
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	// CACHE: cache frequently used values
 	mutable int	m_iPopulationRank;

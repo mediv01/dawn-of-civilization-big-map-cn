@@ -286,6 +286,7 @@ nmake clean</NMakeCleanCommandLine>
     <ClInclude Include="CvFractal.h" />
     <ClInclude Include="CvGame.h" />
     <ClInclude Include="CvGameAI.h" />
+    <ClInclude Include="CvGamebryo.h" />
     <ClInclude Include="CvGameCoreDLL.h" />
     <ClInclude Include="CvGameCoreDLLDefNew.h" />
     <ClInclude Include="CvGameCoreDLLUndefNew.h" />

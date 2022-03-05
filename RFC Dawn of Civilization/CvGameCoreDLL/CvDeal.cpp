@@ -197,17 +197,29 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 				if ((pFirstList != NULL) && (pFirstList->getLength() > 0))
 				{
 					GET_PLAYER(getFirstPlayer()).AI_changePeacetimeTradeValue(getSecondPlayer(), iValue);
-					// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					GET_PLAYER(getFirstPlayer()).AI_invalidateAttitudeCache(getSecondPlayer());
 					GET_PLAYER(getSecondPlayer()).AI_invalidateAttitudeCache(getFirstPlayer());
-					// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 				}
 				else
 				{
 					GET_PLAYER(getFirstPlayer()).AI_changePeacetimeGrantValue(getSecondPlayer(), iValue);
-					// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					GET_PLAYER(getFirstPlayer()).AI_invalidateAttitudeCache(getSecondPlayer());
-					// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 				}
 			}
 			if ((pFirstList != NULL) && (pFirstList->getLength() > 0))
@@ -217,22 +229,38 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 				if ((pSecondList != NULL) && (pSecondList->getLength() > 0))
 				{
 					GET_PLAYER(getSecondPlayer()).AI_changePeacetimeTradeValue(getFirstPlayer(), iValue);
-					// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					GET_PLAYER(getFirstPlayer()).AI_invalidateAttitudeCache(getSecondPlayer());
 					GET_PLAYER(getSecondPlayer()).AI_invalidateAttitudeCache(getFirstPlayer());
-					// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 				}
 				else
 				{
 					GET_PLAYER(getSecondPlayer()).AI_changePeacetimeGrantValue(getFirstPlayer(), iValue);
-					// Sanguo Mod Performance start, added by poyuzhe 07.26.09
+/********************************************************************************/
+/* 	Sanguo Mod Performance					07/26/09			poyuzhe	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 					GET_PLAYER(getSecondPlayer()).AI_invalidateAttitudeCache(getFirstPlayer());
-					// Sanguo Mod Performance, end
+/********************************************************************************/
+/* 	Sanguo Mod Performance							END							*/
+/********************************************************************************/
 				}
 			}
 		}
 	}
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int iFirstSlaves = 0;
 	int iSecondSlaves = 0;
 	int iFirstGold = 0;
@@ -241,24 +269,37 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 	int iSecondStrategicBonuses = 0;
 	int iFirstGPT = 0;
 	int iSecondGPT = 0;
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	if (pFirstList != NULL)
 	{
 		for (pNode = pFirstList->head(); pNode; pNode = pFirstList->next(pNode))
 		{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			// Leoreth: to prevent a crash caused by a war triggered by tech trades and the subsequent peace treaty
 			if (atWar(eFirstTeam, eSecondTeam))
 			{
 				break;
 			}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 			bSave = startTrade(pNode->m_data, getFirstPlayer(), getSecondPlayer());
 
 			if (bSave)
 			{
 				insertAtEndFirstTrades(pNode->m_data);
 			}
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			if (pNode->m_data.m_eItemType == TRADE_SLAVE)
 			{
 				iFirstSlaves += pNode->m_data.m_iData;
@@ -283,24 +324,37 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 			}
 		}
 	}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	if (pSecondList != NULL)
 	{
 		for (pNode = pSecondList->head(); pNode; pNode = pSecondList->next(pNode))
 		{
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			// Leoreth: to prevent a crash caused by a war triggered by tech trades and the subsequent peace treaty
 			if (atWar(eFirstTeam, eSecondTeam))
 			{
 				break;
 			}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 			bSave = startTrade(pNode->m_data, getSecondPlayer(), getFirstPlayer());
 
 			if (bSave)
 			{
 				insertAtEndSecondTrades(pNode->m_data);
 			}
-
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			if (pNode->m_data.m_eItemType == TRADE_SLAVE)
 			{
 				iSecondSlaves += pNode->m_data.m_iData;
@@ -347,7 +401,9 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 	{
 		CvEventReporter::getInstance().playerBonusTrade(getFirstPlayer(), iSecondStrategicBonuses, iFirstGPT);
 	}
-
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 	bAlliance = false;
 
 	if (pFirstList != NULL)
@@ -791,7 +847,15 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 	CvPlot* pLoopPlot;
 	bool bSave;
 	int iI;
-	CvUnit* pUnit; // edead
+/********************************************************************************/
+/* 	edead					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	CvUnit* pUnit;
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 
 	bSave = false;
 
@@ -833,8 +897,12 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 			pCity->doTask(TASK_GIFT, eToPlayer);
 		}
 		break;
-
-	// edead: start Relic trade based on Afforess' Advanced Diplomacy (Leoreth)
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+// edead: Relic trade based on Afforess' Advanced Diplomacy (Leoreth)
 	case TRADE_SLAVE:
         pUnit = GET_PLAYER(eFromPlayer).getUnit(trade.m_iData);
         if (pUnit != NULL)
@@ -846,7 +914,9 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
             pUnit->tradeUnit(eToPlayer);
         }
         break;
-	// edead: end
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 
 	case TRADE_GOLD:
 		GET_PLAYER(eFromPlayer).changeGold(-(trade.m_iData));
@@ -904,7 +974,16 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 
 	case TRADE_PEACE:
 		GET_TEAM(GET_PLAYER(eFromPlayer).getTeam()).makePeace((TeamTypes)trade.m_iData);
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 		CvEventReporter::getInstance().peaceBrokered(eToPlayer, eFromPlayer, GET_TEAM((TeamTypes)trade.m_iData).getLeaderID());
+
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		break;
 
 	case TRADE_WAR:
@@ -971,7 +1050,15 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 		{
 			startTeamTrade(TRADE_OPEN_BORDERS, GET_PLAYER(eFromPlayer).getTeam(), GET_PLAYER(eToPlayer).getTeam(), true);
 			GET_TEAM(GET_PLAYER(eFromPlayer).getTeam()).setOpenBorders(((TeamTypes)(GET_PLAYER(eToPlayer).getTeam())), true);
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 			CvEventReporter::getInstance().bordersOpened(eToPlayer, eFromPlayer);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		}
 		else
 		{
@@ -1024,7 +1111,15 @@ void CvDeal::endTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eToP
 
 	case TRADE_CITIES:
 	case TRADE_GOLD:
-	case TRADE_SLAVE: // edead
+/********************************************************************************/
+/* 	edead					xx/xx/xx				edead	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	case TRADE_SLAVE:
+/********************************************************************************/
+/* 	edead							END							*/
+/********************************************************************************/
 		FAssert(false);
 		break;
 
@@ -1060,7 +1155,15 @@ void CvDeal::endTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eToP
 
 	case TRADE_OPEN_BORDERS:
 		GET_TEAM(GET_PLAYER(eFromPlayer).getTeam()).setOpenBorders(((TeamTypes)(GET_PLAYER(eToPlayer).getTeam())), false);
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/		
 		CvEventReporter::getInstance().bordersClosed(eToPlayer, eFromPlayer);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 		if (bTeam)
 		{
 			endTeamTrade(TRADE_OPEN_BORDERS, GET_PLAYER(eFromPlayer).getTeam(), GET_PLAYER(eToPlayer).getTeam());

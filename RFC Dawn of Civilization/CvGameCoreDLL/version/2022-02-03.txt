@@ -1,0 +1,21 @@
+1.修复了GoodHealth没有统计难度奖励的bug
+2.调整了资源供给城市的优先顺序，核心区优先，人口次之
+3.增加了资源供应城市的数量的机制
+	initial	Crop Rotation	companies	Optics	logistics	heritage	horticulture	biology	refrigeration	microbiology	Consumerism	Infrastructure	television	tourism	ecology	genetics	after Internet is completed
+crop resourses	1 or 2	+1 city						+1 city				+1 city					
+Seafood	3			+1 city					+1 city						+1 city		
+livestocks	3				+1 city				+1 city						+1 city		
+Commercial crops	3						+1 city			+1 city						+1 city	
+Luxury resourses	3					+1 city					+1 city			+1 city			
+Media resourses	10												+2 cities				+3 cities
+salt	3		+1 city									+2 cities					
+																	
+Crop resourses(corn, wheat, rice, potato, millet)																	
+Seafood(clam, crab, fish)																	
+livestocks (deer, cow, pig, sheep, camel)																	
+Commercial crops(olives, spices, wine, banana, cocoa, coffee, cotton, dye, incense, opium, silk, sugar, tea, tobacco, citrus, dates)																	
+Luxury resourses(fur, ivory, pearls, gems, gold, silver, jade, amber, whale)																	
+Media resourses(football, movies, singles)																	
+salt is just salt																	
+																	
+每种资源到最后都可按照科技加成额外供应3个城市																	

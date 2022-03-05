@@ -1093,6 +1093,19 @@ CySelectionGroup* CyUnit::getGroup()
 	return m_pUnit ? new CySelectionGroup( m_pUnit->getGroup() ) : NULL;
 }
 
+bool CyUnit::canJoinGroup(CySelectionGroup* pSelectionGroup) const
+{
+	return m_pUnit ? m_pUnit->canJoinGroup(m_pUnit->plot(), pSelectionGroup->getSelectionGroup()) : false;
+}
+
+void CyUnit::joinGroup(CySelectionGroup* pSelectionGroup)
+{
+	if (m_pUnit)
+	{
+		m_pUnit->joinGroup(pSelectionGroup->getSelectionGroup());
+	}
+}
+
 int CyUnit::getHotKeyNumber()
 {
 	return m_pUnit ? m_pUnit->getHotKeyNumber() : -1;

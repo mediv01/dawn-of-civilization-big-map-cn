@@ -5,10 +5,10 @@
 #ifndef CIV4_AREA_H
 #define CIV4_AREA_H
 
-//#include "CvStructs.h"
-
+#include "CvEnums.h"
 class CvCity;
-class CvPlot;
+struct IDInfo;
+class FDataStreamBase;
 
 class CvArea
 {
@@ -28,8 +28,15 @@ public:
 	int countNumUniqueBonusTypes() const;																			// Exposed to Python
 	int countHasReligion(ReligionTypes eReligion, PlayerTypes eOwner = NO_PLAYER) const;		// Exposed to Python
 	int countHasCorporation(CorporationTypes eCorporation, PlayerTypes eOwner = NO_PLAYER) const;		// Exposed to Python
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int countCanSpread(ReligionTypes eReligion, PlayerTypes eOwner = NO_PLAYER, bool bMissionary = false) const;
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	int getID() const;																							// Exposed to Python
 	void setID(int iID);
 
@@ -118,9 +125,15 @@ public:
 
 	int getNumImprovements(ImprovementTypes eImprovement) const;							// Exposed to Python
 	void changeNumImprovements(ImprovementTypes eImprovement, int iChange);
-
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	int getClosestAreaSize(int iSize) const;
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 protected:
 
 	int m_iID;

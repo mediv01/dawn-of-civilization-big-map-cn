@@ -962,6 +962,7 @@ enum FeatureTypes					// Exposed to Python
 	NUM_FEATURES
 };
 
+// wunshare: fixed bug 2022.01.23
 enum BonusTypes						// Exposed to Python
 {
 	NO_BONUS = -1,
@@ -969,8 +970,10 @@ enum BonusTypes						// Exposed to Python
 	BONUS_ALUMINUM,
 	BONUS_AMBER,
 	BONUS_CAMEL,
+	BONUS_CITRUS, // 4
 	BONUS_COAL,
 	BONUS_COPPER,
+	BONUS_DATES, // 6
 	BONUS_HORSE,
 	BONUS_IRON,
 	BONUS_MARBLE,
@@ -1017,7 +1020,8 @@ enum BonusTypes						// Exposed to Python
 	BONUS_WHALE,
 	BONUS_HIT_FOOTBALL_EVENT,
 	BONUS_HIT_SINGLES,
-	BONUS_HIT_MOVIES,
+	BONUS_HIT_MOVIES, 
+	NUM_BONUS // 52
 };
 
 enum BonusClassTypes			// Exposed to Python
@@ -1147,6 +1151,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	BOUDICA,
 	BRENNUS,
 	CATHERINE,
+
 	CHARLEMAGNE,
 	CHURCHILL,
 	CYRUS,
@@ -1157,6 +1162,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	GANDHI,
 	GENGHIS_KHAN,
 	SARGON,
+
 	HAMMURABI,
 	HANNIBAL,
 	CLEOPATRA,
@@ -1257,10 +1263,12 @@ enum LeaderHeadTypes			// Exposed to Python
 	MACDONALD,
 	CASTILLA,
 	WILLIAM,
+
 	GEORGE,
 	KHOSROW,
 	BUMIN,
 	TAMERLANE,
+	EZANA, // wunshare : fixed 2022.01.23
 	CHRISTIAN,
 	GUSTAVVASA,
 	KARL,
@@ -1271,6 +1279,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	CIXI,
 	ODUDUWA,
 	EWUARE,
+
 	AMINATU,
 	LAPULAPU,
 	KRUGER,
@@ -1283,6 +1292,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	HOCHIMINH,
 	RUSVINGO,
 	MUTOTA,
+
 	ANAWRAHTA,
 	SHINSAWBU,
 	BAYINNUANG,
@@ -1297,6 +1307,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	BULAN,
 	PIYE,
 	DUNAMA,
+
 	ROBERT,
 	COLLINS,
 	WIRACOCHA,
@@ -1307,7 +1318,7 @@ enum LeaderHeadTypes			// Exposed to Python
 	TACAYNAMO,
 	ASHOT,
 	PULAKESI,
-                RED_HORN,
+    RED_HORN,
 	AUA,
 	SAGUAMANCHICA,
 	RURIK,
@@ -1317,6 +1328,8 @@ enum LeaderHeadTypes			// Exposed to Python
 	MODU_CHANYU,
 	MINDAUGAS,
 	SUPPI,
+	DEGANAWIDA, // wunshare : fixed 2022.01.23
+
 	NUM_LEADERHEADS
 };
 
@@ -1472,11 +1485,12 @@ enum PlayerTypes				// Exposed to Python
 	AUSTRALIA,
 	BOERS,
 	CANADA,
-	ISRAEL,
+	ISRAEL, // 81
 	INDEPENDENT,
 	INDEPENDENT2,
 	NATIVE,
-	BARBARIAN
+	BARBARIAN,
+	NUM_PLAYERS // 86
 };
 
 enum TraitTypes					// Exposed to Python
@@ -2191,7 +2205,7 @@ enum ReligionTypes				// Exposed to Python
 	CONFUCIANISM,
 	TAOISM,
 	ZOROASTRIANISM,
-	NUM_RELIGIONS,
+	NUM_RELIGIONS, // 10
 };
 
 enum CorporationTypes				// Exposed to Python
@@ -2296,13 +2310,13 @@ enum AreaAITypes					// Exposed to Python
 {
 	NO_AREAAI = -1,
 
-	AREAAI_OFFENSIVE,
-	AREAAI_DEFENSIVE,
-	AREAAI_MASSING,
-	AREAAI_ASSAULT,
-	AREAAI_ASSAULT_MASSING,
-	AREAAI_ASSAULT_ASSIST,
-	AREAAI_NEUTRAL
+	AREAAI_OFFENSIVE,		// 攻势
+	AREAAI_DEFENSIVE,		// 守势
+	AREAAI_MASSING,			// 集结
+	AREAAI_ASSAULT,			// 进攻
+	AREAAI_ASSAULT_MASSING, // 主攻
+	AREAAI_ASSAULT_ASSIST,	// 助攻
+	AREAAI_NEUTRAL			// 平衡
 };
 
 enum EndTurnButtonStates	// Exposed to Python

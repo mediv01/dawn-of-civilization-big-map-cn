@@ -190,6 +190,8 @@ enum DoCTechs
 	ARTIFICIAL_INTELLIGENCE,
 
 	TRANSHUMANISM,
+
+	NUM_TECHS // 141
 };
 
 enum DoCBuildings
@@ -416,7 +418,7 @@ enum Regions
 	REGION_ARGENTINA,
 	REGION_PERU,
 	REGION_COLOMBIA,
-	NUM_REGIONS
+	NUM_REGIONS // 38
 };
 
 enum ECSArtStyles

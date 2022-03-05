@@ -15,7 +15,9 @@ YOURMOD=$(CIVINSTALL)\Mods\RFC Dawn of Civilization
 GLOBALBOOST = $(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
 GLOBALPYTHON = $(CIVINSTALL)\CvGameCoreDLL\Python24
 
-
+#### Civilization 4 (Japanese Version) ####
+## Uncomment to define the macros for Japanese version
+#CYBERFRONT = 1
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -49,10 +51,6 @@ Final_Release_MOD_CFLAGS =
 MOD_LDFLAGS =
 MOD_INCS =
 MOD_LIBS =
-
-#### Civilization 4 (Japanese Version) ####
-## Uncomment to define the macros for Japanese version
-CYBERFRONT = 1
 
 #### Rise of Mankind - A new dawn ####
 ## Uncomment to define the macros for ROM-AND

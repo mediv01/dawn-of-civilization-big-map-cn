@@ -5,8 +5,16 @@
 
 // structs.h
 
-//#include "CvEnums.h"
+#include "CvEnums.h"
 #include "CvString.h"
+#include "FFreeListArrayBase.h"
+#include "CvGamebryo.h"
+#include <vector>
+#include <utility>
+#include <windef.h>
+
+class FDataStreamBase;
+class CvUnit;
 
 // XXX these should not be in the DLL per se (if the user changes them, we are screwed...)
 

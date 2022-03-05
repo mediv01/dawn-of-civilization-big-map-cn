@@ -224,6 +224,12 @@ std::string CyPlayer::getUnitButton(int eUnit)
 	return m_pPlayer ? m_pPlayer->getUnitButton((UnitTypes)eUnit) : "";
 }
 
+// wunshare
+int CyPlayer::getBonusAffectedCities(int eBonus) 
+{
+	return m_pPlayer ? m_pPlayer->getBonusAffectedCities((BonusTypes)eBonus) : 0;
+}
+
 int CyPlayer::calculateScore(bool bFinal, bool bVictory)
 {
 	return m_pPlayer ? m_pPlayer->calculateScore(bFinal, bVictory) : -1;

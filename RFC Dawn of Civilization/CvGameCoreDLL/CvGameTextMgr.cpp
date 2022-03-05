@@ -645,7 +645,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(szTempBuffer);
 		}
 	}
-    if (bAlt && (gDLL->getChtLvl() > 0))
+    
+	//if (bAlt && (gDLL->getChtLvl() > 0)) // wunshare
     {
 		CvSelectionGroup* eGroup = pUnit->getGroup();
 		if (eGroup != NULL)
@@ -13811,10 +13812,10 @@ void CvGameTextMgr::setBonusTradeHelp(CvWStringBuffer &szBuffer, BonusTypes eBon
 		{
 			CvPlayer& kActivePlayer = GET_PLAYER(GC.getGameINLINE().getActivePlayer());
 
-			if (pCity != NULL && GC.getBonusInfo(eBonus).getAffectedCities() != 0)
+			if (pCity != NULL && kActivePlayer.getBonusAffectedCities(eBonus) != 0)
 			{
-				int iDifference = kActivePlayer.getNumAvailableBonuses(eBonus) * GC.getBonusInfo(eBonus).getAffectedCities() - pCity->getCultureRank();
-				int iResourceDifference = iDifference > 0 ? iDifference / GC.getBonusInfo(eBonus).getAffectedCities() : std::abs(iDifference) / GC.getBonusInfo(eBonus).getAffectedCities() + 1;
+				int iDifference = kActivePlayer.getNumAvailableBonuses(eBonus) * kActivePlayer.getBonusAffectedCities(eBonus) - pCity->getCultureRank();
+				int iResourceDifference = iDifference > 0 ? iDifference / kActivePlayer.getBonusAffectedCities(eBonus) : std::abs(iDifference) / kActivePlayer.getBonusAffectedCities(eBonus) + 1;
 
 				if (iResourceDifference == 0)
 				{
@@ -21224,6 +21225,7 @@ void CvGameTextMgr::getFontSymbols(std::vector< std::vector<wchar> >& aacSymbols
 	}
 }
 
+// 加载字体图标资源
 void CvGameTextMgr::assignFontIds(int iFirstSymbolCode, int iPadAmount)
 {
 	int iCurSymbolID = iFirstSymbolCode;
@@ -21241,7 +21243,7 @@ void CvGameTextMgr::assignFontIds(int iFirstSymbolCode, int iPadAmount)
 	} while (iCurSymbolID % iPadAmount != 0);
 
 	// set commerce symbols
-	for (i=0;i<GC.getNUM_COMMERCE_TYPES();i++)
+	for (int i=0;i<GC.getNUM_COMMERCE_TYPES();i++)
 	{
 		GC.getCommerceInfo((CommerceTypes) i).setChar(iCurSymbolID);
 		++iCurSymbolID;

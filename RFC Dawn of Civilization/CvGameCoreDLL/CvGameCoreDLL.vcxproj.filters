@@ -632,6 +632,9 @@
     <ClInclude Include="CvUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CvGamebryo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="FVariableSystem.inl">

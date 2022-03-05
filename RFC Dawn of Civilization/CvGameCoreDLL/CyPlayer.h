@@ -69,6 +69,9 @@ public:
 	int /*ArtStyleTypes*/ getArtStyleType();
 	std::string getUnitButton(int eUnit);
 	
+	int getBonusAffectedCities(int eBonus); // wunshare
+
+
 	int calculateScore(bool bFinal, bool bVictory); //1SDAN
 	int findBestFoundValue();
 

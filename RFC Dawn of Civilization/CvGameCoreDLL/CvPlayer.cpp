@@ -3567,6 +3567,177 @@ bool CvPlayer::hasBusyUnit() const
 }
 
 /************************************************************************************************/
+/* wunshare                       22/02/03                            wunshare      */
+/*                                                                                              */
+/* wunshare                                                                                       */
+/************************************************************************************************/
+/*
+				initial	Crop Rotation	companies	Optics	logistics	heritage	horticulture	biology	refrigeration	microbiology	Consumerism	Infrastructure	television	tourism	ecology	genetics	after Internet is completed
+crop resourses	1 or 2		+1 city																	+1 city												+1 city
+Seafood				3								+1 city														+1 city																		+1 city
+livestocks			3										+1 city												+1 city																		+1 city
+Commercial crops	3																	+1 city									+1 city																+1 city
+Luxury resourses	3													+1 city																+1 city									+1 city
+Media resourses		10																																					+2 cities								+3 cities
+salt				3					+1 city																											+2 cities
+
+Crop resourses(corn, wheat, rice, potato, millet)
+Seafood(clam, crab, fish)
+livestocks (deer, cow, pig, sheep, camel)
+Commercial crops(olives, spices, wine, banana, cocoa, coffee, cotton, dye, incense, opium, silk, sugar, tea, tobacco, citrus, dates)
+Luxury resourses(fur, ivory, pearls, gems, gold, silver, jade, amber, whale)
+Media resourses(football, movies, singles)
+salt is just salt
+
+每种资源到最后都可按照科技加成额外供应3个城市
+*/
+int CvPlayer::getBonusAffectedCities(BonusTypes eBonus) const
+{
+	int iTechBonusAffectedCities = 0;
+	CvTeam& pTeam = GET_TEAM(getTeam());
+	switch (eBonus)
+	{
+		// 1.Crop resourses(corn, wheat, rice, potato, millet)
+	case BONUS_CORN:
+	case BONUS_WHEAT:
+	case BONUS_RICE:
+	case BONUS_POTATO:
+	case BONUS_MILLET:
+		if (pTeam.isHasTech((TechTypes)CROP_ROTATION)) // Crop Rotation +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)REFRIGERATION)) // refrigeration +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)INFRASTRUCTURE)) // Infrastructure +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		break;
+		// 2.Seafood(clam, crab, fish)
+	case BONUS_CLAM:
+	case BONUS_CRAB:
+	case BONUS_FISH:
+		if (pTeam.isHasTech((TechTypes)OPTICS)) // Optics +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)BIOLOGY)) // biology +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)ECOLOGY)) // ecology +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		break;
+		// 3.livestocks (deer, cow, pig, sheep, camel)
+	case BONUS_DEER:
+	case BONUS_COW:
+	case BONUS_PIG:
+	case BONUS_SHEEP:
+	case BONUS_CAMEL:
+		if (pTeam.isHasTech((TechTypes)LOGISTICS)) // logistics +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)REFRIGERATION)) // refrigeration +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)ECOLOGY)) // ecology +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		break;
+		// 4.Commercial crops(olives, spices, wine, banana, cocoa, coffee, cotton, dye, incense, opium, silk, sugar, tea, tobacco, citrus, dates)
+	case BONUS_OLIVES:
+	case BONUS_SPICES:
+	case BONUS_WINE:
+	case BONUS_BANANA:
+	case BONUS_COCOA:
+	case BONUS_COFFEE:
+	case BONUS_COTTON:
+	case BONUS_DYE:
+	case BONUS_INCENSE:
+	case BONUS_OPIUM:
+	case BONUS_SILK:
+	case BONUS_SUGAR:
+	case BONUS_TEA:
+	case BONUS_TOBACCO:
+	case BONUS_CITRUS:
+	case BONUS_DATES:
+		if (pTeam.isHasTech((TechTypes)HORTICULTURE)) // horticulture +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)MICROBIOLOGY)) // microbiology +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)GENETICS)) // genetics +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		break;
+		// 5.Luxury resourses(fur, ivory, pearls, gems, gold, silver, jade, amber, whale)
+	case BONUS_FUR:
+	case BONUS_IVORY:
+	case BONUS_PEARL:
+	case BONUS_GEMS:
+	case BONUS_GOLD:
+	case BONUS_SILVER:
+	case BONUS_JADE:
+	case BONUS_AMBER:
+	case BONUS_WHALE:
+		if (pTeam.isHasTech((TechTypes)HERITAGE)) // heritage +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)CONSUMERISM)) // Consumerism +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)TOURISM)) // tourism +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		break;
+		// 6.Media resourses(football, movies, singles)
+	case BONUS_HIT_FOOTBALL_EVENT:
+	case BONUS_HIT_MOVIES:
+	case BONUS_HIT_SINGLES:
+		if (pTeam.isHasTech((TechTypes)TELEVISION)) // television +2
+		{
+			iTechBonusAffectedCities += 2;
+		}
+		if (pTeam.getProjectCount(PROJECT_THE_INTERNET)) // after Internet is completed +3
+		{
+			iTechBonusAffectedCities += 3;
+		}
+		break;
+		// 7.salt is just salt
+	case BONUS_SALT:
+		if (pTeam.isHasTech((TechTypes)COMPANIES)) // companies +1
+		{
+			iTechBonusAffectedCities += 1;
+		}
+		if (pTeam.isHasTech((TechTypes)INFRASTRUCTURE)) // Infrastructure +2
+		{
+			iTechBonusAffectedCities += 2;
+		}
+		break;
+	}
+
+	return GC.getBonusInfo(eBonus).getInitAffectedCities() + iTechBonusAffectedCities;
+}
+/************************************************************************************************/
+/* wunshare                        END                                                  */
+/************************************************************************************************/
+
+/************************************************************************************************/
 /* UNOFFICIAL_PATCH                       12/07/09                            Emperor Fool      */
 /*                                                                                              */
 /* Bugfix                                                                                       */
@@ -7179,17 +7350,6 @@ void CvPlayer::processBuilding(BuildingTypes eBuilding, int iChange, CvArea* pAr
 	{
 		updateCommerce(COMMERCE_RESEARCH);
 		AI_makeAssignWorkDirty();
-	}
-	
-	// Merijn: Harbour Opera House effect
-	if (eBuilding == HARBOUR_OPERA)
-	{
-		CvCity* pLoopCity;
-		int iLoop;
-		for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
-		{
-			pLoopCity->changeCultureHappiness(iChange);
-		}
 	}
 }
 
@@ -26214,11 +26374,44 @@ bool CvPlayer::canUseSlaves() const
 	return true;
 }
 
+// 资源供给排序算法
 struct cultureRankCompare
 {
 	bool operator() (CvCity* left, CvCity* right)
 	{
-		return left->getCulture(left->getOwnerINLINE()) > right->getCulture(right->getOwnerINLINE());
+		// leo
+		//return left->getCulture(left->getOwnerINLINE()) > right->getCulture(right->getOwnerINLINE());
+
+		// wunshare - 2022.02.03
+		// 1. 物流中心排最后，不挤占原来的坑位
+		const BuildingTypes iLogisticsCenter = (BuildingTypes)201;
+		if (left->hasBuilding(iLogisticsCenter))
+		{
+			return false;
+		}
+		if (right->hasBuilding(iLogisticsCenter))
+		{
+			return true;
+		}
+			
+		// 2. 核心区优先，人口次之
+		if (left->plot()->isCore(left->getOwner()) && right->plot()->isCore(right->getOwner())) 
+		{
+			return left->getPopulation() > right->getPopulation();
+		}
+
+		// 3. 核心区优先
+		if (left->plot()->isCore(left->getOwner()) && !right->plot()->isCore(right->getOwner())) 
+		{
+			return true;
+		}
+		else if (!left->plot()->isCore(left->getOwner()) && right->plot()->isCore(right->getOwner()))
+		{
+			return false;
+		}
+
+		// 4. 人口优先
+		return left->getPopulation() > right->getPopulation();
 	}
 };
 
@@ -26237,8 +26430,7 @@ void CvPlayer::updateCultureRanks(CvPlotGroup* pPlotGroup) const
 	std::vector<CvCity*> cities;
 
 	int iLoop;
-	CvCity* pLoopCity;
-	for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
+	for (CvCity* pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
 	{
 		if (pLoopCity->plot()->getPlotGroup(getID()) == pPlotGroup)
 		{

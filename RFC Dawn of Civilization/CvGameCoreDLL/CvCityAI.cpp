@@ -18,7 +18,15 @@
 #include "CvDLLInterfaceIFaceBase.h"
 #include "CvDLLFAStarIFaceBase.h"
 
-#include "CvRhyes.h" //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+#include "CvRhyes.h"
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 #define BUILDINGFOCUS_FOOD					(1 << 1)
 #define BUILDINGFOCUS_PRODUCTION			(1 << 2)
@@ -309,9 +317,20 @@ void CvCityAI::AI_assignWorkingPlots()
 					iSpecialistCount += iSpecialistsToAdd;
 					iExtraSpecialists -= iSpecialistsToAdd;
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
 					// if we cannot fit that many, then add as many as we can
+					 if (iSpecialistCount > iMaxSpecialistCount && !GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI))
+*/					
 					// Leoreth: no unlimited specialist effects
-					if (iSpecialistCount > iMaxSpecialistCount /*&& !GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI)*/)
+					if (iSpecialistCount > iMaxSpecialistCount )
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 					{
 						iExtraSpecialists += iSpecialistCount - iMaxSpecialistCount;
 						iSpecialistCount = iMaxSpecialistCount;
@@ -322,7 +341,17 @@ void CvCityAI::AI_assignWorkingPlots()
 			}
 		}
 	}
-	//FAssertMsg(iExtraSpecialists >= 0, "added too many specialists");
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+	FAssertMsg(iExtraSpecialists >= 0, "added too many specialists");
+*/
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	// if we still have population to assign, assign specialists
 	while (extraSpecialists() > 0)
@@ -369,7 +398,18 @@ bool CvCityAI::AI_avoidGrowth()
 		return true;
 	}
 
+/********************************************************************************/
+/* 	1SDAN					xx/xx/xx				1SDAN	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+    if (isFoodProduction())
+*/
 	if (isFoodProduction() && !GET_PLAYER(getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)GREAT_SPHINX) && getOwnerINLINE() == KIEVAN_RUS)
+/********************************************************************************/
+/* 	1SDAN							END							*/
+/********************************************************************************/
 	{
 		return true;
 	}
@@ -444,7 +484,18 @@ int CvCityAI::AI_specialistValue(SpecialistTypes eSpecialist, bool bAvoidGrowth,
 
 	iValue = AI_yieldValue(aiYields, aiCommerceYields, bAvoidGrowth, bRemove);
 
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+/* original code
+    iGreatPeopleRate = GC.getSpecialistInfo(eSpecialist).getGreatPeopleRateChange();
+*/
 	iGreatPeopleRate = getSpecialistGreatPeopleRateChange(eSpecialist);
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/
 
 	int iEmphasisCount = 0;
 	if (iGreatPeopleRate != 0)

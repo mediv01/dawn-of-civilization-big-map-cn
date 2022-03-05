@@ -265,6 +265,8 @@ void CyUnitPythonInterface1(python::class_<CyUnit>& x)
 		.def("isInGroup", &CyUnit::isInGroup, "bool ()")
 		.def("isGroupHead", &CyUnit::isGroupHead, "bool ()")
 		.def("getGroup", &CyUnit::getGroup, python::return_value_policy<python::manage_new_object>(), "CySelectionGroup* ()")
+		.def("canJoinGroup", &CyUnit::canJoinGroup, "bool (CySelectionGroup*)")
+		.def("joinGroup", &CyUnit::joinGroup, "void (CySelectionGroup*)")
 
 		.def("getHotKeyNumber", &CyUnit::getHotKeyNumber, "int () - returns the HotKey number for this unit")
 		.def("setHotKeyNumber", &CyUnit::setHotKeyNumber, "void (int iNewValue)")

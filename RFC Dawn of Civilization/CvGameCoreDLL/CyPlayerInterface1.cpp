@@ -69,6 +69,8 @@ void CyPlayerPythonInterface1(python::class_<CyPlayer>& x)
 		.def("getArtStyleType", &CyPlayer::getArtStyleType, " int () - Returns the ArtStyleType for this player (e.g. European)")
 		.def("getUnitButton", &CyPlayer::getUnitButton, " string (int eUnit) - Returns the unit button for this player")
 		
+		.def("getBonusAffectedCities", &CyPlayer::getBonusAffectedCities, "int (int (BonusTypes) eBonus) - ")
+
 		.def("calculateScore", &CyPlayer::calculateScore, " int (bFinal, bVictory) - calculates the player's score")
 		.def("findBestFoundValue", &CyPlayer::findBestFoundValue, " int () - Finds best found value")
 

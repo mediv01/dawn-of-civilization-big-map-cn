@@ -14093,7 +14093,7 @@ int CvBonusInfo::getMinAreaSize() const
 	return m_iMinAreaSize;
 }
 
-int CvBonusInfo::getAffectedCities() const
+int CvBonusInfo::getInitAffectedCities() const
 {
 	return m_iAffectedCities;
 }

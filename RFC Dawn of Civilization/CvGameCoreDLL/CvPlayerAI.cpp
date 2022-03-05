@@ -7225,8 +7225,8 @@ int CvPlayerAI::AI_bonusEffectVal(BonusTypes eBonus, int iChange) const
 	int iNumBonuses = getNumAvailableBonuses(eBonus);
 	int iNumCities = getNumCities();
 
-	int iCurrentAffectedCities = iNumBonuses * kBonus.getAffectedCities();
-	int iAffectedCitiesChange = iChange * kBonus.getAffectedCities();
+	int iCurrentAffectedCities = iNumBonuses * getBonusAffectedCities(eBonus);
+	int iAffectedCitiesChange = iChange * getBonusAffectedCities(eBonus);
 
 	int iNewAffectedCities = std::max(0, std::min(iCurrentAffectedCities + iAffectedCitiesChange, iNumCities));
 	int iDiffAffectedCities = abs(iNewAffectedCities - iCurrentAffectedCities);

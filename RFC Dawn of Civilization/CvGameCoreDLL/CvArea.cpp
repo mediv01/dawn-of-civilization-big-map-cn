@@ -12,8 +12,15 @@
 #include "CvInfos.h"
 
 #include "CvDLLInterfaceIFaceBase.h"
-
-#include "CvRhyes.h" //Rhye
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+#include "CvRhyes.h"
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 // Public Functions...
 
@@ -322,6 +329,11 @@ int CvArea::countHasReligion(ReligionTypes eReligion, PlayerTypes eOwner) const
 	return iCount;
 }
 
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 int CvArea::countCanSpread(ReligionTypes eReligion, PlayerTypes eOwner, bool bMissionary) const
 {
 	CvCity* pLoopCity;
@@ -353,6 +365,9 @@ int CvArea::countCanSpread(ReligionTypes eReligion, PlayerTypes eOwner, bool bMi
 
 	return iCount;
 }
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 int CvArea::countHasCorporation(CorporationTypes eCorporation, PlayerTypes eOwner) const
 {
@@ -654,14 +669,21 @@ int CvArea::getPower(PlayerTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be >= 0");
 	FAssertMsg(eIndex < MAX_PLAYERS, "eIndex is expected to be < MAX_PLAYERS");
-	//Rhye - start
+
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	if (eIndex == BARBARIAN)
 			return m_aiPower[eIndex] /= 2;
 	if (eIndex == INDEPENDENT || eIndex == INDEPENDENT2)
 			return m_aiPower[eIndex] /= 8;
 	if (eIndex >= NUM_MAJOR_PLAYERS)
 			return m_aiPower[eIndex] /= 4;
-	//Rhye - end
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	return m_aiPower[eIndex];
 }
 
@@ -670,7 +692,16 @@ void CvArea::changePower(PlayerTypes eIndex, int iChange)
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be >= 0");
 	FAssertMsg(eIndex < MAX_PLAYERS, "eIndex is expected to be < MAX_PLAYERS");
-	if (m_aiPower[eIndex] + iChange < 0) iChange = -m_aiPower[eIndex];
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
+	if (m_aiPower[eIndex] + iChange < 0) 
+		iChange = -m_aiPower[eIndex];
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 	m_aiPower[eIndex] = (m_aiPower[eIndex] + iChange);
 	FAssert(getPower(eIndex) >= 0);
 }
@@ -951,7 +982,11 @@ void CvArea::changeNumImprovements(ImprovementTypes eImprovement, int iChange)
 	FAssert(getNumImprovements(eImprovement) >= 0);
 }
 
-
+/********************************************************************************/
+/* 	Rhye					xx/xx/xx				Rhye	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 int CvArea::getClosestAreaSize(int iSize) const
 {
 	if (getNumTiles() > iSize)
@@ -991,7 +1026,9 @@ int CvArea::getClosestAreaSize(int iSize) const
 
 	return iClosestArea;
 }
-
+/********************************************************************************/
+/* 	Rhye							END							*/
+/********************************************************************************/
 
 void CvArea::read(FDataStreamBase* pStream)
 {

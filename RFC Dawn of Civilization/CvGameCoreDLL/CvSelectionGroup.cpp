@@ -231,6 +231,13 @@ void CvSelectionGroup::doTurn()
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 
+			// wunshare: 不知道为什么 pLoopUnit为NULL
+			if (pLoopUnit == NULL) 
+			{
+				kill();
+				return;
+			}
+
 			pLoopUnit->doTurn();
 
 			if (pLoopUnit->isHurt())

@@ -277,6 +277,8 @@ public:
 	bool isInGroup();
 	bool isGroupHead();
 	CySelectionGroup* getGroup();
+	bool canJoinGroup(CySelectionGroup* pSelectionGroup) const;
+	void joinGroup(CySelectionGroup* pSelectionGroup);
 
 	int getHotKeyNumber();
 	void setHotKeyNumber(int iNewValue);

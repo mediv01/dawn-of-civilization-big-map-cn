@@ -113,11 +113,17 @@ public:
 	int AI_getWorkersNeeded();
 	void AI_changeWorkersHave(int iChange);
 	BuildingTypes AI_bestAdvancedStartBuilding(int iPass);
-
-	// Leoreth
+	
+/********************************************************************************/
+/* 	Leoreth					xx/xx/xx				Leoreth	    */
+/* 																			    */
+/* 																			    */
+/********************************************************************************/
 	ReligionTypes AI_getPersecutionReligion(ReligionTypes eIgnoredReligion);
 	int AI_buildingWeight(BuildingTypes eBuilding) const;
-	
+/********************************************************************************/
+/* 	Leoreth							END							*/
+/********************************************************************************/	
 	void read(FDataStreamBase* pStream);
 	void write(FDataStreamBase* pStream);
 

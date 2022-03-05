@@ -27,6 +27,8 @@
 //		*	Add INIT_GLOBAL_XML_LOAD item to SetGlobalArtDefines in 'CvXMLLoadUtilitySet'
 //		*	Add <new> to 'XML\Art\CIV4ArtDefines.xml' and update the 'CIV4ArtDefinesSchema'
 
+#include <vector>
+
 class CvArtInfoAsset;
 class CvArtInfoMisc;
 class CvArtInfoUnit;
