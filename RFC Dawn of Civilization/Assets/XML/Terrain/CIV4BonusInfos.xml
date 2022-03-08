@@ -111,7 +111,7 @@
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
 			<iHealth>1</iHealth>
-			<iAffectedCities>3</iAffectedCities>
+			<iAffectedCities>2</iAffectedCities>
 			<iPlacementOrder>1</iPlacementOrder>
 			<iConstAppearance>100</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
@@ -679,7 +679,7 @@
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<iHealth>1</iHealth>
-			<iAffectedCities>2</iAffectedCities>
+			<iAffectedCities>3</iAffectedCities>
 			<iPlacementOrder>6</iPlacementOrder>
 			<iConstAppearance>50</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
@@ -788,7 +788,7 @@
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<iHealth>1</iHealth>
-			<iAffectedCities>2</iAffectedCities>
+			<iAffectedCities>3</iAffectedCities>
 			<iPlacementOrder>6</iPlacementOrder>
 			<iConstAppearance>50</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
@@ -870,7 +870,7 @@
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<iHealth>1</iHealth>
-			<iAffectedCities>2</iAffectedCities>
+			<iAffectedCities>3</iAffectedCities>
 			<iPlacementOrder>6</iPlacementOrder>
 			<iConstAppearance>50</iConstAppearance>
 			<iMinAreaSize>10</iMinAreaSize>
@@ -1644,7 +1644,7 @@
 				<iYieldChange>1</iYieldChange>
 			</YieldChanges>
 			<iHealth>1</iHealth>
-			<iAffectedCities>2</iAffectedCities>
+			<iAffectedCities>3</iAffectedCities>
 			<iPlacementOrder>5</iPlacementOrder>
 			<iConstAppearance>50</iConstAppearance>
 			<iMinAreaSize>3</iMinAreaSize>
