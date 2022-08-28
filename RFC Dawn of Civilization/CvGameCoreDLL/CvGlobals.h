@@ -2,6 +2,819 @@
 
 // CvGlobals.h
 
+// CvGlobals.h
+
+// 不建议使用宏的方式，因为无法实现常量内联优化
+/*
+#ifndef FP_PROFILE_ENABLE 
+static const int DEBUG_MODE = 1;
+//    参数为0时，关闭游戏运行的一些统计选项，日志输出等内容，减少卡顿
+#else
+static const int DEBUG_MODE = 0;
+#endif
+*/
+
+static const int DEBUG_MODE = 0;
+//    参数为0时，关闭游戏运行的一些统计选项，日志输出等内容，减少卡顿
+
+static const int RELEASE_MODE = 0;
+//    参数为1时，关闭Python报错弹窗内容
+
+static const int ANYFUN_MODE = 0;
+//    参数为1时，进入ANYFUN娱乐模式1的参数选择
+
+static const CvWString DOCM_BIGMAP_VERSION = L"游戏版本：V10.5.5 2209 中秋版";
+
+
+
+
+/*
+编译选项解释：
+/D_MOD_SENTRY           BUG模组的 - Sentry Actions，默认开始
+/D_MOD_FRACTRADE        数值精确计算模组，商路、科研等支持2位小数，默认开启
+/D_MOD_GOVWORKERS       BUG - Governor Builds Workboats，默认开启
+/DQC_MASTERY_VICTORY    已经找不到
+/DLOG_AI                已经找不到
+/DFP_PROFILE_ENABLE     开启编译分析，分析慢DLL代码，目前是开启状态
+/D_MOD_GWARM            BUG - 全球变暖模组
+/D_MOD_SHAM_SPOILER     Show Hidden Attitude Mod
+/DC2C_BUILD             已经找不到
+/DUSE_INTERNAL_PROFILER 已经找不到
+/DSCALE_CITY_LIMITS     已经找不到
+*/
+
+
+
+// GlobalDefinesALT里比较耗时的参数，预制到DLL里
+
+static const int ANYFUN_ENABLES_FREE_OUTSIDE_UNIT = 1 && ANYFUN_MODE;
+//    <!-- 为1时在外单位没有维护费  0为默认模式  mediv01  -->
+
+static const int ANYFUN_DISABLE_COMBAT_LIMIT = 0;
+//     <!-- 为1时取消单位伤害上限，例如投石车等攻城武器不再有75%的伤害上限  0为默认模式  mediv01  -->
+
+static const int ANYFUN_MAX_UNIT = -1;
+//     <!-- 大于0的数字，为每个玩家最大的单位数 -1为默认模式  mediv01  -->
+
+static const int ANYFUN_MAX_CITY = -1;
+//   <!-- 大于0的数字，为每个玩家最大的城市数  -1为默认模式  mediv01  -->
+
+static const int CVCITY_MAX_SHRINE_LIMIT = 0;
+//     <!-- 大于0的数字为圣殿能够带来的最大收入 0或者20为默认模式， mediv01  2021年8月版本新增内容 -->
+
+static const int CVCITY_RANK_BONUS_TYPE = 2;
+//     <!-- 资源按照什么顺序优先分配 1为按照人口排名，0为按照文明4DOC原版默认的文化排名 2为按照wunshare的排名 0为默认模式 mediv01 -->
+
+static const int CVUNIT_AI_NOT_TAKE_GOODY = 1 && ANYFUN_MODE;
+//   <!-- 1为AI不会主动采集部落村庄 0为默认模式 mediv01 -->
+
+static const int CVUNITAI_AI_CAN_NOT_TAKE_GOODY = 1 && ANYFUN_MODE;
+//    <!-- 1为AI不自动采蘑菇的选项 0为默认模式，  mediv01  -->
+
+static const int CVUNIT_CAN_ALWAYS_ENTER_TERRITORY = 0;
+//   <!-- 1为所以单位不开边可以随便出入他国国境 0为默认模式，  mediv01  -->
+
+static const int CVUNIT_SHIP_CAN_ALWAYS_ENTER_TERRITORY = 1;
+//   <!-- 1为船只不开边可以随便出入他国国境 0为默认模式，  mediv01  -->
+
+static const int CVGAME_FORT_CAN_CULTURE = 1;
+//   <!-- 为1时要塞驻军可以产生文化  0为默认模式  mediv01  -->
+
+static const int CVUNIT_MAX_UNIT_PER_PLOT = -1;
+//   <!--每个地块最多单位个数 - 1为默认模式 mediv01-->
+
+static const int CVUNIT_MOVE_MULTIPILIER = 1;
+//       <!-- 大于0的数字为移动力倍数 0或者1为默认模式，  mediv01  -->
+
+static const int CVUNIT_OLD_GREAT_WALL_EFFECT = 0;
+//  <!-- 1为之前长城特效的代码，野蛮人不能进入 0为默认模式，  mediv01  -->
+
+static const int CVCITY_NOT_HURRY_ANGRY_PUNISHMENT = 0;
+//    <!-- 1为没有连续砍人出兵的红脸惩罚 0为默认模式， mediv01  -->
+
+static const int PLOT_CITY_FULL_YIELD_WHEN_SETTLE = 1;
+//  <!-- 1为资源坐城满产出 0为默认模式 mediv01 -->
+
+static const int CVPLAYER_NO_EXTRA_COST_FOR_HURRY = 1 && ANYFUN_MODE;
+//   <!-- 大于0的数字为金币加速军事单位生产时没有额外费用  0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+static const int CVGAMETEXT_SHOW_BONUS_TRADE_VALUE = 1;
+//    <!-- 显示该资源交易价值的最小阈值 0为默认模式  mediv01 -->
+
+static const int CVPLAYER_AI_CANNOT_BUILD_CITY_IN_NOT_HISTORY = 0;
+//   <!-- 大于0的数字为AI玩家不能在历史区外建立城市 0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVPLAYER_HUMAN_CANNOT_BUILD_CITY_IN_NOT_HISTORY = 0;
+//  <!-- 大于0的数字为人类玩家不能在历史区外建立城市 0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVGAMETEXT_SHOW_HURRYINFO_IN_CITY_BAR_TOHUMAN = 1;
+//      <!-- 1为在城市界面用H0显示能否加速，以及加速的红脸 用于人类城市 0为默认模式 mediv01 2021年11月新增内容 -->
+
+static const int CVGAMETEXT_SHOW_HURRYINFO_IN_CITY_BAR_TOAI = 1;
+//   <!-- 1为在城市界面用H0显示能否加速，以及加速的红脸 用于AI城市  0为默认模式 2021年11月新增内容 mediv01 -->
+
+static const int CVPLOT_BUILD_FORT_NEAR_CITY_OR_FORT = 1 && ANYFUN_MODE;
+//     <!-- 1为要塞可以连着修，0为默认模式 mediv01  -->
+
+static const int DIPLO_ALLOW_TO_CANCEL_VASSAL = 1;
+// <!--允许主动取消附庸  0为默认模式 mediv01-->
+
+
+static const int CVDEAL_ALLOW_TO_CANCEL_DEAL_ANYTIME = 0;
+//   <!-- 1为10回合内允许取消交易 0为默认模式， mediv01  -->
+
+
+static const int CVDEAL_NOT_ALLOW_TO_CANCEL_DEAL_ANYTIME = 0;
+//   <!-- 1为不允许取消任何交易，除非战争 0为默认模式， mediv01  -->
+
+static const int CVPLOT_BUILD_IMPROVEMENT_OUTSIDE_BORDER = 0;
+//  <!-- 1为可以在边疆外修筑改良设施，0为默认模式 mediv01  -->
+
+
+static const int CVPLAYER_AI_CAN_SETTLE_ON_FOOD = 1;
+//   <!-- 1为AI可以在食物资源上建城 0为默认模式，  mediv01  -->
+
+
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER = 100;
+//   <!-- AI和人类科研费用的乘数百分比 可以调节科研费用比率 0或者100为默认模式 已校准 mediv01  -->
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC = 1;
+//     <!-- 1为根据难度动态平衡各个玩家的科技进度，确保各个难度下AI在同一时期的科技进度相近（例如1860年各个难度的AI均处于第二次工业革命的科技水平，不会出现神级AI科研进度太快的情况） 0为默认模式  mediv01  -->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_NOT_INCLUDE_HUMAN = 1;
+//     <!-- 1为上面的科研动态平衡不包含人类玩家，提升人类玩家的体验，建议开启 0为默认模式  mediv01  -->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1 = 80;
+//     <!-- 1等难度下AI科研费用的乘数百分比 100为默认模式 已校准 mediv01  -->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2 = 90;
+//   <!-- 2等难度下AI科研费用的乘数百分比 100为默认模式 已校准 mediv01-->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3 = 100;
+//   <!-- 3等难度下AI科研费用的乘数百分比 100为默认模式 已校准 mediv01  -->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H4 = 110;
+// <!-- 4等难度下AI科研费用的乘数百分比 100为默认模式  已校准 mediv01  -->
+
+
+static const int CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H5 = 120;
+//  <!-- 5等难度下AI科研费用的乘数百分比 100为默认模式 已校准 mediv01  -->
+
+
+
+
+
+static const int CVTEAM_TECH_COST_BY_ERA = 1;
+//  <!-- 大于0的数字为玩家科技费用跟玩家当前时代挂钩，如果超前研究太多，就会遭受惩罚 0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVTEAM_TECH_COST_BY_ERA_TO_HUMAN = 1 && !ANYFUN_MODE;
+//      <!-- 大于0的数字为人类玩家科技费用跟玩家当前时代挂钩，如果超前研究太多，就会遭受惩罚 0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+static const int CVTEAM_TECH_COST_BY_ERA_TO_AI = 1;
+//      <!-- 大于0的数字为AI玩家科技费用跟玩家当前时代挂钩，如果超前研究太多，就会遭受惩罚 0为默认模式， mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS_AI = 0;
+//   <!-- AI玩家可以不受政策的限制加速单位和建筑   0为默认模式  2021年11月版本新增内容  mediv01 -->
+
+
+static const int CVCITY_CAN_ALWAYS_HURRY_WITH_CIVICS_HUMAN = 0;
+//     <!-- 人类玩家可以不受政策的限制加速单位和建筑   0为默认模式 2021年11月版本新增内容  mediv01 -->
+
+
+static const int CVCITY_AI_CANNOT_BUILD_WONDER = 1 && ANYFUN_MODE;
+//  <!-- 1为 AI不能建造奇观，奇观控的福音  0为默认模式    mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVCITY_MAX_HURRY_POPULATION = -ANYFUN_MODE;
+//      <!-- -1为城市无最大的加速人口限制，0为默认模式，其他数值为固定限制 mediv01  -->
+
+
+static const int MAX_BUILDINGS_PER_CITY = -1;
+//   <!--每个城市最多建筑个数 - 1为默认模式 mediv01-->
+
+
+static const int CVCITY_CAN_ALWAYS_HURRY = 0;
+// <!--可以不受政策的限制加速单位和建筑，0为默认模式  mediv01-->
+
+
+static const int CVCITY_CAN_HURRY_NONARMY = 1 && ANYFUN_MODE;
+//    <!-- 可以黄金加速非军事单位，0为默认模式  mediv01 -->
+
+
+static const int CVGAME_MINOR_CITY_LOW_SCORE_ON_SCREEN = 5;
+//  <!-- 大于0的数字为积分榜上独立城邦的积分被缩减处理的倍数  0为默认模式， mediv01  2021年11月版本新增内容 -->
+
+
+static const int CVTEAMAI_AI_CANNOT_VASSAL_TO_OTHER_WHEN_AT_WAR = 1 && ANYFUN_MODE;
+//    <!-- 1为AI在和人类打仗时，不允许投降给其他文明  0为默认模式 mediv01 -->
+
+
+static const int CVUNIT_ANIMAL_CAN_ENTER_COUNTRY = 0;
+//       <!-- 1为动物可以随便出入他国国境 0为默认模式，  mediv01  -->
+
+
+static const int CVCITY_BUILDING_NO_OBSOLETE = 1 && ANYFUN_MODE;
+//       <!-- 1为城市建筑物不再过期 0为默认模式，  mediv01  -->
+
+
+static const int MAX_WORLD_NATIONAL_WONDERS_PER_CITY_MEDIV01 = -ANYFUN_MODE;
+//       <!-- 城市的国家奇观数量限制，-1为无限制，0为DOC默认机制，1-8为固定数量限制 mediv01 -->
+
+static const int MAX_WORLD_WONDERS_PER_CITY_MEDIV01 = -ANYFUN_MODE;
+//       <!-- 城市的奇观数量限制，-1为无限制，0为DOC默认机制，1-8为固定数量限制 mediv01 -->
+
+static const int CVCITY_CANNOT_BUILD_FIRESTATION_WHEN_HAVE_CLEAN_ENERGY = 0;
+//  <!-- 1为 当有清洁电力后，不能继续建造火电站  0为默认模式  现在火电厂、核电厂默认增加10%锤子，参数可以取消了    mediv01  2021年8月版本新增内容 -->
+
+// static const int CVCITY_RELEASE_PLAYER_NO_LIMIT = 1;
+//  <!-- 1为 释放附庸的时候，可以释放不能复活的过期国家，0为默认模式   此选项暂时移植到XML中配置 mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVPLAYER_CAN_ALWAYS_TRADE_TECH = 1 && ANYFUN_MODE;
+//  <!-- 1为 永远可以交易科技   mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVGAME_ALWAYS_SHOW_GOODY_IN_MAP = 1 ;
+//  <!-- 1为 可以在地图高亮显示部落村庄   mediv01  2021年8月版本新增内容 -->
+
+
+static const int CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW = -ANYFUN_MODE;
+//   <!-- -1 为取消文化低城市叛乱机制 大于0的数字为城市在低文化时叛乱概率的倍数 0为默认模式 mediv01 -->
+
+static const int CVPLAYERAI_CAN_TRADE_GOLD_UNLIMITED = 1 && ANYFUN_MODE;
+//    <!-- 1为AI交易金币无限制，可以交易国库中所有的金币 0为默认模式 mediv01 -->
+
+
+static const int PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD = 1;
+//    <!-- 1为可以提示勒索信息，0为禁用 0为默认模式  mediv01 -->  此项需要与C++保持一致
+
+static const int PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD_MAP = 0;
+//     <!-- 1为可以提示交易地图的信息，0为禁用 0为默认模式  mediv01 -->
+
+/*
+游戏运行日志输出参数相关日志
+*/
+
+static const int CVGAMECORE_DLL_LOG = 1 && DEBUG_MODE;
+//       <!-- 1为输出DLL日志情况 0为默认模式，  mediv01  -->
+
+static const int CVGAME_RECORED_GLOBAL_DEFINES_ALT_CALL = 1 && DEBUG_MODE;
+//       <!-- 1为计算每回合globaldefinesalt.xml的调用次数 0为默认模式，  mediv01  -->
+
+static const int CVGAME_RECORED_DLL_CALL_PYTHON_FUNCTION_CALL = 1 && DEBUG_MODE;
+//       <!-- 1为计算每回合DLL调用Python函数的调用次数 0为默认模式，  mediv01  -->
+
+static const int CVGAME_RECORED_FUNCTION_CALL = 1 && DEBUG_MODE;
+//       <!-- 1为计算每回合调用函数的次数 0为默认模式，  mediv01  -->
+
+static const int CVGAME_COUNT_ON_TIME_COST = 1 && DEBUG_MODE;
+//       <!-- 1为计算每回合计算的耗时情况 0为默认模式，  mediv01  -->
+
+static const int CVGAME_COUNT_ON_TIME_COST_LOG = 1 && DEBUG_MODE;
+//       <!-- 1为计算每回合计算的耗时情况输出日志 0为默认模式，  mediv01  -->
+
+
+static const int CVGAME_DO_UNITTEST_ON_DEBUG = 1 && DEBUG_MODE;
+//       <!-- 1为当打开提示信息的时候，进行单元测试 0为默认模式，  mediv01  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+static const CvString CVGAMECORE_LOG_PATH = "Mods\\RFC Dawn of Civilization\\Logs\\";
+//    <!--日志存放的文件夹 mediv01-->
+
+static const int CVGLOBAL_ENABLE_DLL_LOG= 1 && DEBUG_MODE;
+//       <!-- 1为允许DLL记录日志 DLL日志记录的总开关 0为默认模式，  mediv01  -->
+
+
+
+
+/*
+性能优化选项
+*/
+
+static const std::wstring CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR = L"";
+// mediv01  大地图空字符串常量，用于提升性能  引入by wunshare
+
+static const int DOC_COMPILER_PERFORMANCE_UP = 1;
+// 不再编译多人游戏和一些特殊游戏选项的内容，提升代码速度
+
+
+static const int CVGLOBAL_DISABLE_USELESS_PYTHON_CALLBACK = 1;
+//     <!-- 1为禁用无效的PythonCallBack，提升的速度，0为禁用 0为默认模式  mediv01 -->
+
+static const int DOC_CALCULATE_GAMESCORE_IN_DLL = 1;
+// 在DLL里计算游戏分数，而不是在PYTHON里计算，不然每回合要调用几万次PYTHON，很耗费性能
+
+
+static const int DOC_PERFORMANCE_CVPLOT_SETOWNER = 1;
+//  重点优化函数性能问题
+
+
+struct CVPLOT_DOTURN_INFO {
+	int plotid;
+};
+
+static const int DOC_PERFORMANCE_USE_MULTITHREAD_IN_CVPLOT_DOTURN = 0;
+//  在CvPlot过回合时采用多线程计算，提高效率   此选项会闪退不能用，建议关闭
+
+static const int DOC_PERFORMANCE_SKIP_SEA_PLOT_IN_CVPLOT_DOTURN = 1;
+//  大于1700年份时，海洋格子有一定概率不进行dotrun计算
+
+static const int DOC_PERFORMANCE_SKIP_UpdatePlotGroup_IN_CVPLOT_DOTURN = 1;
+//  大于1700年份时，海洋格子有一定概率跳过plotgroup的更新
+
+static const int DOC_PERFORMANCE_SKIP_updatePlotGroup_IN_CvPlotGroup_recalculatePlots = 1;
+//  由于updatePlotGroup过于耗时，在recalculatePlots计算时跳过这一步骤，增强性能
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+static const int CVGAMECORE_NEW_AUTOSAVE_FEATURE = 1;
+// 启用新的AutoSave机制，在游戏回合结束时保存游戏，而不是游戏回合开始时
+//mediv01  游戏BUG修复参数结束
+
+//全局变量区
+static CvWString log_CWstring;
+static CvString log_CvString;
+
+static CvWString2 log_CWstring2;
+static CvString2 log_CvString2;
+
+
+
+// 每列科技对应的真实年份
+static const int SIZE_OF_TECH_COL_YEAR = 22;
+//static const int TechColYear[SIZE_OF_TECH_COL_YEAR] = { -4000 ,-4000,-4000,    -2000,-1500, -1000,    -500,0,500,   1000,1300,1500,   1600,1700,1800, 1850,1890,1920, 1940,1960,1970,1970 };
+
+
+
+static const int TechColYear[SIZE_OF_TECH_COL_YEAR] = { -4000 ,-4000,-2000,    -1000,-500, 0,    500,850,1100,   1300,1450,1600,   1700,1800,1850, 1900,1920,1940, 1960,1970,1980,1990 };
+
+
+// 每个时代对应的真实年份
+const int SIZE_OF_TECH_ERA_YEAR = 7;
+static const int TechEraYear[SIZE_OF_TECH_ERA_YEAR] = { -4000 ,-2000,-500, 1000, 1600, 1850,1940 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// GlobalDefines里比较耗时的参数，预制到DLL里
+
+static const int BASE_CITY_GROWTH_THRESHOLD = 20;
+//   城市基础增长
+
+static const int CITY_GROWTH_MULTIPLIER = 2;
+//  城市基础增长修正
+
+static const int BASE_UNIT_UPGRADE_COST = 10;
+// 单位升级花费
+
+
+static const int UNIT_UPGRADE_COST_PER_PRODUCTION = 2;
+
+static const int CAPITAL_TRADE_MODIFIER = 25;
+
+static const int CULTURE_PERCENT_ANGER = 400;
+
+
+static const SpecialistTypes DEFAULT_SPECIALIST = SPECIALIST_CITIZEN;
+
+
+static const int IGNORE_PLOT_GROUP_FOR_TRADE_ROUTES = 0;
+
+
+static const int OUR_POPULATION_TRADE_MODIFIER = 5;
+
+static const int OUR_POPULATION_TRADE_MODIFIER_OFFSET = -10;
+
+static const int RELIGION_PERCENT_ANGER = 800;
+
+
+static const int WATER_POTENTIAL_CITY_WORK_FOR_AREA = 0;
+
+static const int VASSAL_HAPPINESS = 1;
+
+static const int COMBAT_DAMAGE = 20;
+
+static const int UPKEEP_POPULATION_OFFSET = -8;
+
+static const int UPKEEP_CITY_OFFSET = -1;
+
+
+static const int UNIT_PRODUCTION_PERCENT = 100;
+
+static const int TRADE_PROFIT_PERCENT = 20;
+
+static const int THEIR_POPULATION_TRADE_PERCENT = 50;
+
+static const int TECH_COST_EXTRA_TEAM_MEMBER_MODIFIER = 50;
+
+static const int PEACE_TREATY_LENGTH = 10;
+
+
+static const int OWNERSHIP_SCORE_DURATION_THRESHOLD = 20;
+
+
+static const int UNIT_VISIBILITY_RANGE = 1;
+
+static const int NO_MILITARY_PERCENT_ANGER = 334;
+
+static const int MAX_YIELD_STACK = 10;
+
+static const int MAX_TRADE_ROUTES = 10;
+
+static const int GREAT_PEOPLE_THRESHOLD = 100;
+
+static const int HURRY_ANGER_DIVISOR = 10;
+
+static const int AT_WAR_CULTURE_ANGER_MODIFIER = 50;
+
+
+static const int AI_SHOULDNT_MANAGE_PLOT_ASSIGNMENT = 0;
+
+
+static const int BASE_FEATURE_PRODUCTION_PERCENT = 67;
+
+
+static const int FEATURE_PRODUCTION_PERCENT_MULTIPLIER = 0;
+
+
+static const int BUILDING_PRODUCTION_PERCENT = 100;
+
+static const int CITY_BARBARIAN_DEFENSE_MODIFIER = 25;
+
+static const int CONSCRIPT_ANGER_DIVISOR = 10;
+
+static const int CONSCRIPT_POP_ANGER = 3;
+
+
+static const int MAX_WITHDRAWAL_PROBABILITY = 90;
+
+static const int MAX_INTERCEPTION_PROBABILITY = 100;
+
+
+static const int MAX_FORTIFY_TURNS = 5;
+
+
+static const int OVERSEAS_TRADE_MODIFIER = 0;
+
+
+static const int FOREIGN_TRADE_FULL_CREDIT_PEACE_TURNS = 50;
+
+static const int DISTANCE_TRADE_MODIFIER = 1;
+
+static const int FOREIGN_TRADE_MODIFIER = 150;
+
+static const int INITIAL_FREE_OUTSIDE_UNITS = 4;
+//  免费在外的单位数量
+
+static const int INITIAL_OUTSIDE_UNIT_GOLD_PERCENT = 50;
+
+
+static const int MAX_EVASION_PROBABILITY = 90;
+
+
+static const int HURRY_POP_ANGER = 1;
+
+
+static const int FRESH_WATER_HEALTH_CHANGE = 2;
+
+
+static const int CULTURE_COST_DISTANCE = 5;
+
+static const int CULTURE_COST_RIVER = -5;
+
+static const int CULTURE_COST_PEAK = 20;
+
+static const int CULTURE_COST_HILL = 0;
+
+static const int CULTURE_COST_BONUS = -10;
+
+static const int LAND_UNITS_CAN_ATTACK_WATER_CITIES = 0;
+
+static const int PLOT_VISIBILITY_RANGE = 1;
+
+
+static const int ESPIONAGE_SPENDING_MULTIPLIER = 100;
+
+static const int ESPIONAGE_DISTANCE_MULTIPLIER_MOD = 100;
+
+static const int ESPIONAGE_CITY_POP_EACH_MOD = 0;
+
+static const int ESPIONAGE_CULTURE_MULTIPLIER_MOD = 50;
+
+static const int FREE_VASSAL_LAND_PERCENT = 50;
+
+static const int NEW_HURRY_MODIFIER = 50;
+
+static const int FREE_VASSAL_POPULATION_PERCENT = 50;
+
+static const int CITY_SCREEN_FOG_ENABLED = 1;
+
+static const int MAX_DISTANCE_CITY_MAINTENANCE = 20;
+//  最大城市距离维护费
+
+
+static const int DIPLOMACY_VALUE_REMAINDER = 10;
+
+static const int RECON_VISIBILITY_RANGE = 5;
+
+static const int FREE_CITY_ADJACENT_CULTURE = 1;
+
+static const int BASE_RESEARCH_RATE = 1;
+
+static const int TECH_COST_KNOWN_PREREQ_MODIFIER = 20;
+
+static const int TECH_COST_TOTAL_KNOWN_TEAM_MODIFIER = 30;
+
+static const int STANDARD_HANDICAP = 1;
+
+
+static const int LAND_TERRAIN = 0;
+
+static const int RELIGION_FOUNDING_SPREAD_TURNS = 20;
+
+static const int CITY_DEFENSE_DAMAGE_HEAL_RATE = 5;
+
+
+static const int POWER_HEALTH_CHANGE = 0;
+
+
+static const int DIRTY_POWER_HEALTH_CHANGE = -2;
+
+static const int ETHNIC_CITY_STYLES = 0;
+
+static const int CITY_FREE_CULTURE_GROWTH_FACTOR = 20;
+
+static const int COMMERCE_PERCENT_CHANGE_INCREMENTS = 10;
+
+
+static const int TEMP_HAPPY = 1;
+
+static const int WE_LOVE_THE_KING_POPULATION_MIN_POPULATION = 8;
+
+static const int WE_LOVE_THE_KING_RAND = 1000;
+
+static const int CONSCRIPT_POPULATION_PER_COST = 60;
+
+
+static const int ESPIONAGE_CITY_RELIGION_STATE_MOD = -15;
+
+static const int ESPIONAGE_CITY_HOLY_CITY_MOD = -25;
+
+static const int ESPIONAGE_CITY_TRADE_ROUTE_MOD = -20;
+
+static const int BASE_WAR_WEARINESS_MULTIPLIER = 2;
+
+static const int PROJECT_PRODUCTION_PERCENT = 100;
+
+
+static const int SHIP_BLOCKADE_RANGE = 2;
+
+static const int CIRCUMNAVIGATE_FREE_MOVES = 1;
+
+static const int BARBARIAN_FREE_TECH_PERCENT = 3;
+
+static const int FREE_CITY_CULTURE = 2;
+
+static const int INITIAL_CITY_POPULATION = 1;
+
+static const int FIRST_EVENT_DELAY_TURNS = 20;
+
+static const int EVENT_PROBABILITY_ROLL_SIDES = 100;
+
+static const int WW_DECAY_RATE = -1;
+
+static const int WW_DECAY_PEACE_PERCENT = 99;
+
+static const int CITY_HEAL_RATE = 20;
+
+static const int ENEMY_HEAL_RATE = 5;
+
+static const int NEUTRAL_HEAL_RATE = 10;
+
+static const int FRIENDLY_HEAL_RATE = 15;
+
+static const int MAXED_UNIT_GOLD_PERCENT = 50;
+
+static const int MAXED_BUILDING_GOLD_PERCENT = 50;
+
+static const int MAX_EXPERIENCE_PER_COMBAT = 10;
+
+static const int MIN_EXPERIENCE_PER_COMBAT = 1;
+
+static const int BARBARIAN_MAX_XP_VALUE = 10;
+
+static const int ANIMAL_MAX_XP_VALUE = 5;
+
+static const int EXPERIENCE_FROM_WITHDRAWL = 5;
+
+static const int CAPITAL_BUILDINGCLASS = 0;
+
+static const int RUINS_IMPROVEMENT = 2;
+
+static const int WAR_SUCCESS_ATTACKING = 4;
+
+static const int WAR_SUCCESS_DEFENDING = 3;
+
+static const int WW_KILLED_UNIT_ATTACKING = 2;
+
+static const int WW_KILLED_UNIT_DEFENDING = 1;
+
+static const int WW_UNIT_KILLED_ATTACKING = 3;
+
+static const int WW_UNIT_KILLED_DEFENDING = 2;
+
+static const int RELIGION_PRESENCE_INFLUENCE = 3;
+
+static const int COMBAT_EXPERIENCE_IN_BORDERS_PERCENT = 100;
+
+static const int EVENT_MESSAGE_TIME_LONG = 20;
+
+static const int CITY_AIR_UNIT_CAPACITY = 4;
+
+static const int COLLATERAL_COMBAT_DAMAGE = 10;
+
+
+static const int MIN_CIV_STARTING_DISTANCE = 10;
+
+static const int STARTING_DISTANCE_PERCENT = 12;
+
+
+static const int CONSCRIPT_MIN_CITY_POPULATION = 5;
+
+static const int CONSCRIPT_MIN_CULTURE_PERCENT = 50;
+
+static const int REVOLT_TEST_PROB = 10;
+
+static const int ESPIONAGE_INTERCEPT_SPENDING_MAX = 25;
+
+static const int ESPIONAGE_INTERCEPT_COUNTERSPY = 15;
+
+static const int ESPIONAGE_INTERCEPT_COUNTERESPIONAGE_MISSION = 20;
+
+static const int ESPIONAGE_INTERCEPT_RECENT_MISSION = 15;
+
+static const int CAPTURE_GOLD_MAX_TURNS = 50;
+
+static const int CAPTURE_GOLD_PER_BUILDING_COST = 5;
+
+static const int RAZING_CULTURAL_PERCENT_THRESHOLD = 25;
+
+static const int FORCE_UNOWNED_CITY_TIMER = 2;
+
+static const int WAR_SUCCESS_CITY_CAPTURING = 10;
+
+static const int WW_CAPTURED_CITY = 6;
+
+static const int BASE_CAPTURE_GOLD = 10;
+
+static const int CAPTURE_GOLD_PER_POPULATION = 5;
+
+static const int CAPTURE_GOLD_RAND1 = 50;
+
+static const int CAPTURE_GOLD_RAND2 = 25;
+
+static const int OCCUPATION_CULTURE_PERCENT_THRESHOLD = 75;
+
+static const int NO_AUTOSAVE_DURING_AUTOPLAY = 0;
+
+static const int GLOBAL_WARMING_FOREST = 50;
+
+static const int GLOBAL_WARMING_NUKE_WEIGHT = 50;
+
+static const int GLOBAL_WARMING_TERRAIN = 2;
+
+static const int GLOBAL_WARMING_UNHEALTH_WEIGHT = 20;
+
+static const int MIN_CITY_ATTACK_MODIFIER_FOR_SIEGE_TOWER = 10;
+
+static const int MIN_REVOLUTION_TURNS = 5;
+
+static const int GOLDEN_AGE_LENGTH = 8;
+
+static const int BASE_GOLDEN_AGE_UNITS = 2;
+
+static const int ESPIONAGE_SPY_INTERCEPT_MOD = -75;
+
+static const int ESPIONAGE_SPY_NO_INTRUDE_INTERCEPT_MOD = -90;
+
+
+
+
+
+
+
+static const int minStartingDistanceModifier = 0;  // PYTHON函数里总是为0 因此做常量化优化
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//mediv01  游戏BUG修复参数开始，大地图已弃用
+/*
+//第一阶段修复使用的参数
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG1 = 1; //mediv01 主要是PLOT空指针错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG2 = 1; //mediv01 主要是内存泄露错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG3 = 1; //mediv01 IF条件里重复判断的BUG
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG4 = 1; //mediv01 不太有把握的空指针
+
+//第二阶段修复使用的参数
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG5 = 1; //mediv01 主要是PLOT空指针错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG6 = 1; //mediv01 主要是内存泄露错误
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG7 = 1; //mediv01 不太有把握的空指针
+static const int CVGAMECORE_FIX_NULL_POINTER_BUG8 = 1; //mediv01 预留
+
+//引入Wunshare Performance UP中的内容
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP01 = 1; //mediv01 修正Cyplayer中的部分性能问题
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP02 = 1; //mediv01 预留
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP03 = 1; //mediv01 预留
+static const int CVGAMECORE_FIX_BUG_PERFORMANCE_UP04 = 1; //mediv01 预留
+*/
+
+
 #ifndef CIV4_GLOBALS_H
 #define CIV4_GLOBALS_H
 
@@ -128,6 +941,7 @@ class CvEspionageMissionInfo;
 class CvUnitArtStyleTypeInfo;
 class CvVoteSourceInfo;
 class CvMainMenuInfo;
+class CyArgsList;
 
 
 class CvGlobals
@@ -135,6 +949,115 @@ class CvGlobals
 //	friend class CvDLLUtilityIFace;
 	friend class CvXMLLoadUtility;
 public:
+
+	// mediv01 cache
+	int m_iMAX_YIELD_STACK;
+	int m_iCVGAMETEXT_MANUAL_DEBUG_TRIGGER;
+	int m_iCVGAMETEXT_SHOW_ENERMY_AREA;
+	int m_iGAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT;
+	int m_iGAME_TEXT_SHOW_CITY_X_AND_Y;
+	int m_iCVPLAYER_CAN_CONTACT_BARBARIAN;
+	int m_iANYFUN_ALERT_FOR_WORLD_WONDER;
+	int m_iANYFUN_ALERT_FOR_ANY_BUILDING;
+	int m_iCVTECH_SHOW_TECH_DISCOVERY2_MAX;
+	int m_iCVTECH_SHOW_TECH_DISCOVERY3_MAX;
+	int m_iCVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD;
+	int m_iCVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE;
+	int m_iCVCITY_INCREASE_RELIGION_CHANCE_ONLY_FOR_STATERELIGION;
+	int m_iCVCITY_CAN_CAPTURE_GREAT_PEOPLE_WHEN_RAZE_CITY;
+	int m_iPLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS;
+
+	int m_iCVPLAYERAI_ATTITUDE_BONUS;
+	int m_iCVUNIT_CAN_CAPTURE_GREAT_PEOPLE;
+	int m_iCVUNITAI_AI_NOT_PILLAGE;
+	int m_iCVUNIT_CAN_SPREAD_RELIGON_ANYWHERE;
+	int m_iCVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT;
+	int m_iCVCITY_FOUND_CITY_CAN_USE_FOREST;
+	int m_iCVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER;
+
+	int m_iCVUNIT_HUMAN_SPY_CANNOT_REVEAL;
+	int m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE;
+	int m_iCAPTURE_CITY_WITH_ALL_DAMAGE;
+	int m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER;
+	int m_iCVCITY_HURRY_CALCULATION_WITH_FLOAT;
+	int m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED;
+	int m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER;
+	int m_iCVUNIT_DISBAND_CAN_GIVE_GOLD;
+	int m_iCVUNIT_DISBAND_GIVE_GOLD;
+	int m_iCVUNIT_DISBAND_GIVE_GOLD_PERCENT;
+	int m_iCVPLAYERAI_CAN_ALWAYS_TRADE_CITY;
+	int m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI;
+	int m_iCVGAME_CANNOT_VASSAL_TO_INDEPENDENT;
+	int m_iCVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY;
+	int m_iCVCITY_RELIGON_NO_DISAPPEAR;
+	int m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION;
+
+
+
+
+	// mediv01 cache
+
+	// mediv01 参数
+	int m_CVGAMETEXT_SHOW_DEFEND_COMBAT;  // 测试使用 不再使用
+
+	// mediv01
+
+
+	DllExport int AI_foundValue(int PlayerID, int iX, int iY, int iMinRivalRange, bool bStartingLoc) const;
+
+	//mediv01
+
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* fxnArg = NULL) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, long* result) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, CvString* result) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, CvWString* result) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, std::vector<byte>* pList) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, std::vector<int>* pIntList) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, int* pIntList, int* iListSize) const;
+	bool callPythoFunction(CvString PYModule, CvString PYFunction, void* argsList4, std::vector<float>* pFloatList) const;
+
+
+	int AItradeTechValList(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech, OperationType Operation) const;
+	bool AIcantradeTech(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech) const;
+
+	void CvGlobals::show(CvWString text) const;
+
+	void logswithid(PlayerTypes PlayerID, CvWString2& buf, CvString2 filename) const;
+	void logs(CvWString2& buf, CvString2 filename) const;
+	void logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filename) const;
+	void logs(CvWString& buf, CvString filename) const;
+
+
+	//DllExport void logs(CvString buf, CvString filename) const;
+	void logs(wchar* buf, CvString filename) const;
+	void logs(char* buf, CvString filename) const;
+	void logs(const CvWString& buf, CvString filename) const;
+	//DllExport void logs(const CvString buf, CvString filename) const;
+	void logs(const wchar* buf, CvString filename) const;
+	void logs(const char* buf, CvString filename) const;
+	void countFunctionCall(CvString functionname) const;
+	void countFunctionStartTime(CvString functionname) const;
+	void countFunctionEndTime(CvString functionname) const;
+	void debug() const;
+	void doTurn() const;
+	int getTimeNow() const;
+	int showAIstrategy(int iPlayer) const;
+	int getGoldMultiplier() const;
+
+	bool isHuman(PlayerTypes PlayerID) const;
+	PlayerTypes getHumanID() const;
+	TeamTypes getHumanTeam() const;
+	TeamTypes getTeam(PlayerTypes iPlayer) const;
+	int getGameTurn() const;
+	int getGameTurnYear() const;
+	int rand(int range) const;
+	int simpleRand(int range) const;
+	void updateAllPlotSight(PlayerTypes PlayerID, bool withoutflog) const;
+	void FogOfWarOff();
+
+	void doCollapse(PlayerTypes PlayerID) const;
+	bool flipCity(int x, int y, bool bFlipType, bool bKillUnits, int iNewOwner) const;
+	bool cultureManager(int x, int y, int iCulturePercent, int iNewOwner, int iOldOwner, bool bBarbarian2x2Decay, bool bBarbarian2x2Conversion, bool bAlwaysOwnPlots) const;
 
 	// singleton accessor
 	DllExport inline static CvGlobals& getInstance();
@@ -1221,6 +2144,11 @@ protected:
 	int m_iUSE_ON_UPDATE_CALLBACK;
 	int m_iUSE_ON_UNIT_CREATED_CALLBACK;
 	int m_iUSE_ON_UNIT_LOST_CALLBACK;
+
+
+
+
+
 
 	// DLL interface
 	CvDLLUtilityIFaceBase* m_pDLL;

@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_BABYLONIA</Tag>
 		<English>Ninth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>巴比伦第九总督区</Chinese>
+		<Chinese>第九总督区（巴比伦）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_PEOPLES</Tag>
 		<English>Parsi Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>波斯人</Chinese>
+		<Chinese>波斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_ADJECTIVE</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_GREECE</Tag>
 		<English>First Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>希腊第一总督区</Chinese>
+		<Chinese>第一总督区（希腊）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_ACHAEMENID</Tag>
@@ -35,7 +35,7 @@
 		<Tag>TXT_KEY_CIV_IRAN_FASCIST</Tag>
 		<English>National-Socialist Workers' %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1社会主义工人联盟</Chinese>
+		<Chinese>%s1国家社会主义工人联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_SHORT_DESC</Tag>
@@ -53,19 +53,19 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_NAME_TURKS</Tag>
 		<English>Sogdiana</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>土耳其</Chinese>
+		<Chinese>粟特</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIAN_OTTOMANS</Tag>
 		<English>Fourth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥斯曼第四总督区</Chinese>
+		<Chinese>第四总督区（奥斯曼）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_MEDIAN</Tag>
 		<English>Median</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>麦迪安</Chinese>
+		<Chinese>米底</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_IRAN_SHORT_DESC</Tag>
@@ -95,7 +95,7 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_ARABIA</Tag>
 		<English>Fifth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿拉伯第五总督区</Chinese>
+		<Chinese>第五总督区（阿拉伯）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_DESC</Tag>
@@ -107,7 +107,7 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_ETHIOPIA</Tag>
 		<English>Seventeenth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>东非第七总督区</Chinese>
+		<Chinese>第七总督区（阿比西尼亚）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_PAHLAVI</Tag>
@@ -125,7 +125,7 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_INDIA</Tag>
 		<English>Twentieth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>印度第十二总督区</Chinese>
+		<Chinese>第二十总督区（印度）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERSIA_SASSANID</Tag>
@@ -149,7 +149,7 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_EGYPT</Tag>
 		<English>Sixth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃及第六总督区</Chinese>
+		<Chinese>第六总督区（埃及）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_IRAN_DESC</Tag>
@@ -179,6 +179,6 @@
 		<Tag>TXT_KEY_CIV_PERSIAN_MONGOLIA</Tag>
 		<English>Fifteenth Satrapy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古第十五总督区</Chinese>
+		<Chinese>第十五总督区（蒙古）</Chinese>
 	</TEXT>
 </Civ4GameText>

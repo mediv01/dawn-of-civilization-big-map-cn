@@ -38,6 +38,15 @@ NiPoint3 CyPlot::getPoint()
 	return m_pPlot ? m_pPlot->getPoint() : NiPoint3(0,0,0);
 }
 
+//mediv01 - start
+void CyPlot::updateSight(int PlayerID, bool withoutflog)
+{
+	if (m_pPlot)
+		m_pPlot->changeAdjacentSight(GC.getTeam((PlayerTypes)PlayerID), PLOT_VISIBILITY_RANGE, withoutflog, NULL, true);
+}
+//mediv01 - end
+
+
 int CyPlot::getTeam()
 {
 	return m_pPlot ? m_pPlot->getTeam() : -1;

@@ -120,10 +120,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELT_ADJECTIVE</Tag>
-		<English>
-			<Text>Celtic:Celts</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+		<English>Celtic
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>凯尔特</Chinese>
@@ -143,9 +140,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OTTOMAN_ADJECTIVE</Tag>
 		<English>
-			<Text>Ottoman:Ottomans</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			Ottoman
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>奥斯曼</Chinese>
@@ -177,9 +172,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KOREA_ADJECTIVE</Tag>
 		<English>
-			<Text>Korean:Koreans</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			Korean
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>高丽</Chinese>
@@ -199,9 +192,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ZULU_ADJECTIVE</Tag>
 		<English>
-			<Text>Zulu:Zulu</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			Zulu
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>祖鲁</Chinese>
@@ -221,9 +212,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_ADJECTIVE</Tag>
 		<English>
-			<Text>Carthaginian:Carthaginians</Text>
-			<Gender>Male</Gender>
-			<Plural>0:1</Plural>
+			Carthaginian
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>迦太基</Chinese>

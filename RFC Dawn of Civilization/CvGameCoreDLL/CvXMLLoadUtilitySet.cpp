@@ -31,6 +31,18 @@ bool CvXMLLoadUtility::ReadGlobalDefines(const TCHAR* szXMLFileName, CvCacheObje
 			return false;
 		}
 
+		// Leoreth: force logging and Python exceptions
+		if (RELEASE_MODE == 0) { 
+			//mediv01 允许显示PYTHON错误
+			gDLL->ChangeINIKeyValue("CONFIG", "HidePythonExceptions", "0");
+			gDLL->ChangeINIKeyValue("CONFIG", "LoggingEnabled", "1");
+		}
+		else {
+			gDLL->ChangeINIKeyValue("CONFIG", "HidePythonExceptions", "1");
+			gDLL->ChangeINIKeyValue("CONFIG", "LoggingEnabled", "1");
+		}
+
+
 		// load the new FXml variable with the szXMLFileName file
 		bLoaded = LoadCivXml(m_pFXml, szXMLFileName);
 		if (!bLoaded)
@@ -1871,6 +1883,12 @@ void CvXMLLoadUtility::SetFeatureStruct(int** ppiFeatureTech, int** ppiFeatureTi
 						gDLL->MessageBox(szMessage, "XML Error");
 					}
 					GetChildXmlValByName(szTextVal, "PrereqTech");
+
+					// mediv01 预防数组越界
+					if (iFeatureIndex <= -1) {
+						iFeatureIndex = 0;
+					}
+
 					paiFeatureTech[iFeatureIndex] = FindInInfoClass(szTextVal);
 					GetChildXmlValByName(&paiFeatureTime[iFeatureIndex], "iTime");
 					GetChildXmlValByName(&paiFeatureProduction[iFeatureIndex], "iProduction");

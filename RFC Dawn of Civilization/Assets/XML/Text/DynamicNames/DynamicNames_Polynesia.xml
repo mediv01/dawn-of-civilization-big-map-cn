@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_POLYNESIA_PEOPLES</Tag>
 		<English>Polynesian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>玻利尼西亚人</Chinese>
+		<Chinese>玻利尼西亚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_POLYNESIA_TAHITI</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_POLYNESIA_TUI_TONGA</Tag>
 		<English>Tu'i Tonga</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>图汤加</Chinese>
+		<Chinese>图伊汤加</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_POLYNESIA_HAWAII</Tag>
@@ -47,7 +47,7 @@
 		<Tag>TXT_KEY_CIV_POLYNESIA_TUI_MANUA</Tag>
 		<English>Tu'i Manu'a</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>图曼努</Chinese>
+		<Chinese>图伊马努阿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_POLYNESIA_DESC</Tag>

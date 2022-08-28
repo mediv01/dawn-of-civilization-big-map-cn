@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_MONGOLIA_KHAMAG</Tag>
 		<English>Khamag Mongol</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古汗国</Chinese>
+		<Chinese>蒙兀国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_ILKHANATE</Tag>
@@ -77,7 +77,7 @@
 		<Tag>TXT_KEY_CIV_MONGOL_OTTOMANS</Tag>
 		<English>Khanate of Turkestan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>土耳其斯坦汗国</Chinese>
+		<Chinese>突厥斯坦汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_YUAN</Tag>
@@ -89,7 +89,7 @@
 		<Tag>TXT_KEY_CIV_MONGOLIA_FASCIST</Tag>
 		<English>Nationalist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>%s1民族主义军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_RUSSIA</Tag>
@@ -107,7 +107,7 @@
 		<Tag>TXT_KEY_CIV_MONGOL_BABYLONIA</Tag>
 		<English>Ilkhanate of Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>巴比伦伊尔汗国</Chinese>
+		<Chinese>美索不达米亚伊尔汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOLIA_REPUBLIC</Tag>
@@ -125,13 +125,13 @@
 		<Tag>TXT_KEY_CIV_MONGOL_CHINA</Tag>
 		<English>Yuan Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>元</Chinese>
+		<Chinese>大元</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_MUGHALS</Tag>
 		<English>Khanate of Delhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古</Chinese>
+		<Chinese>德里汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_ILKHANATE</Tag>
@@ -143,12 +143,12 @@
 		<Tag>TXT_KEY_CIV_MONGOLIA_PEOPLES</Tag>
 		<English>Mongolian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古人</Chinese>
+		<Chinese>蒙古诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MONGOL_NAME_TURKS</Tag>
 		<English>Moghulistan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古</Chinese>
+		<Chinese>蒙兀儿斯坦</Chinese>
 	</TEXT>
 </Civ4GameText>

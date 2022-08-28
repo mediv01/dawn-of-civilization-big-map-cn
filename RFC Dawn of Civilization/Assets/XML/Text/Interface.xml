@@ -2427,8 +2427,16 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUTTON_MEDIV</Tag>
-		<English>模组由mediv01汉化</English>
+		<English>模组由mediv01汉化 </English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>模组由mediv01汉化</Chinese>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_ERA_DIGITAL</Tag>
+		<English>Digital Age</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>数字化时代</Chinese>
 	</TEXT>
 </Civ4GameText>

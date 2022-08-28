@@ -1511,7 +1511,7 @@
 		<Tag>TXT_KEY_BUILDING_MOAI_STATUES_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Moai Statues[COLOR_REVERT] add bonus production to all [COLOR_HIGHLIGHT_TEXT]Fishing Boats[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]High Sea Fishing Boats[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Whaling Boats[COLOR_REVERT] in your civilization. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]摩艾石像群[COLOR_REVERT]使所在城市的每片水域额外增加1单位产能。并提升[COLOR_UNIT_TEXT]大预言家[COLOR_REVERT]的出现几率。</Chinese>
+		<Chinese>[COLOR_BUILDING_TEXT]摩埃石像群[COLOR_REVERT]使所在城市的每片水域额外增加1单位产能。并提升[COLOR_UNIT_TEXT]大预言家[COLOR_REVERT]的出现几率。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GARDENS_BY_THE_BAY_STRATEGY</Tag>
@@ -1533,9 +1533,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PORCELAIN_TOWER_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Porcelain Tower[COLOR_REVERT] adds additional food to all of your [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialists and removes the open border requirement for trade routes. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Porcelain Tower[COLOR_REVERT] removes the open border requirement for trade routes. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]瓷塔[COLOR_REVERT]为您的所有[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]专家添加了额外的食物，并取消了贸易路线的开放边界要求。它还增加了生成[COLOR_UNIT_TEXT]大商人[COLOR_REVERT]的机会。</Chinese>
+		<Chinese>[COLOR_BUILDING_TEXT]大报恩寺[COLOR_REVERT]取消了贸易路线的开放边界要求。它还增加了生成[COLOR_UNIT_TEXT]大商人[COLOR_REVERT]的机会。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GUADALUPE_BASILICA_HELP</Tag>
@@ -2013,7 +2013,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GATE_OF_THE_SUN</Tag>
-		<English>太阳门</English>
+		<English>太阳门 </English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>太阳门</Chinese>
 	</TEXT>

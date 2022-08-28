@@ -23,6 +23,9 @@ void CyPlayerPythonInterface1(python::class_<CyPlayer>& x)
 	python::scope().attr("__doc__") = "Civilization IV Player Class";
 	x
 		.def("isNone", &CyPlayer::isNone, "checks for a null player")
+		.def("doCollapse", &CyPlayer::doCollapse, "(int PlayerID)")
+		.def("getFreeTechsOnDiscovery", &CyPlayer::getFreeTechsOnDiscovery, "()")
+
 		.def("startingPlotRange", &CyPlayer::startingPlotRange, "int ()")
 		.def("startingPlotWithinRange", &CyPlayer::startingPlotWithinRange, "bool (CyPlot *pPlot, int /*PlayerTypes*/ ePlayer, int iRange, int iPass)")
 

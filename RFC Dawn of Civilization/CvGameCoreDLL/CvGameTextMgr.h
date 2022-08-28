@@ -44,6 +44,11 @@ public:
 
 	DllExport int getCurrentLanguage();
 
+	// mediv01
+	void setCommerceChangeHelpByCity(CvCity* pCity, CvWStringBuffer& szBuffer, const CvWString& szStart, const CvWString& szSpace, const CvWString& szEnd, const int* piCommerceChange, bool bPercent = false, bool bNewLine = true);
+	void setYieldChangeHelpByCity(CvCity* pCity, CvWStringBuffer& szBuffer, const CvWString& szStart, const CvWString& szSpace, const CvWString& szEnd, const int* piYieldChange, bool bPercent = false, bool bNewLine = true);
+
+
 	DllExport void setTimeStr(CvWString& szString, int iGameTurn, bool bSave);
 	DllExport void setYearStr(CvWString& szString, int iGameTurn, bool bSave, CalendarTypes eCalendar, int iStartYear, GameSpeedTypes eSpeed);
 	DllExport void setDateStr(CvWString& szString, int iGameTurn, bool bSave, CalendarTypes eCalendar, int iStartYear, GameSpeedTypes eSpeed);
@@ -58,6 +63,21 @@ public:
 	DllExport void setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, bool bOneLine = false, bool bShort = false);
 	DllExport void setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bool bOneLine, bool bShort);
 	DllExport bool setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot);
+	bool constructCombatString(CvUnit* pDefender, CvUnit* pAttacker, CvPlot* pPlot, CvWString& szTempBuffer, bool ACO_enabled, CvWStringBuffer& szString, int iView, CvWString& szTempBuffer2, int& iModifier, CvWString& szOffenseOdds, CvWString& szDefenseOdds, bool& retflag);
+	bool constructCombatString2(CvUnit* pDefender, CvUnit* pAttacker, CvPlot* pPlot, CvWString& szTempBuffer, bool ACO_enabled, CvWStringBuffer& szString, int iView, CvWString& szTempBuffer2, int& iModifier, CvWString& szOffenseOdds, CvWString& szDefenseOdds, bool& retflag);
+	void showOtherRangeText(int iView, CvWString& szTempBuffer, float E_HP_Att, CvWString& szTempBuffer2, float E_HP_Def, CvWStringBuffer& szString, float AttackerUnharmed, float DefenderUnharmed, float AttXP, float DefXP);
+	void showCombatVSText(CvWString& szTempBuffer, CvUnit* pAttacker, CvUnit* pDefender, CvWString& szTempBuffer2, CvPlot* pPlot, CvWStringBuffer& szString);
+	void showDefenderUnitText(int iView, CvWStringBuffer& szString, CvUnit* pDefender);
+	void showTotalDefenderModifierText(int iView, CvUnit* pDefender, CvPlot* pPlot, CvUnit* pAttacker, CvWString& szTempBuffer, CvWStringBuffer& szString);
+	void showDefenderDetailModifierText(int iView, CvWStringBuffer& szString, CvUnit* pAttacker, CvUnit* pDefender, CvPlot* pPlot, int& iModifier);
+	void showHPRangeText(int iView, CvWString& szTempBuffer, int iDamageToDefender, int iDamageToAttacker, CvWStringBuffer& szString, int iNeededRoundsAttacker, int iNeededRoundsDefender, int iAttackerOdds, CvUnit* pAttacker, CvUnit* pDefender, float CombatRatio, int iExperience);
+	void showHPImage(CvWStringBuffer& szString, int& fullBlocks, int& pixels_left, int& lastBlock, CvWString& szTempBuffer2, int& pixels, float prob2, CvUnit* pAttacker, CvUnit* pDefender, CvWString& szTempBuffer, float AttackerKillOdds, int iExperience, int iAttackerExperienceModifier, int iBonusAttackerXP, float E_HP_Att_Victory, float PullOutOdds, int iBonusWithdrawXP, float E_HP_Att_Withdraw, int iDefenderHitLimit, int iDefenderOdds, float& DefenderKillOdds, float RetreatOdds, int E_HP_Att_Retreat, int iDefExperienceKill, int iDefenderExperienceModifier, int iBonusDefenderXP, float E_HP_Def_Defeat);
+	void ShowSurvivalOddsText(int iView, CvWString& szTempBuffer, float AttackerKillOdds, float RetreatOdds, float PullOutOdds, CvWString& szTempBuffer2, float DefenderKillOdds, CvWStringBuffer& szString, CvUnit* pAttacker);
+	void showAttackerHPText(const BOOL& ACO_debug, CvWString& szTempBuffer, CvWStringBuffer& szString, int iNeededRoundsDefender, float& E_HP_Att, CvUnit* pAttacker, int iDamageToAttacker, CvUnit* pDefender, int iNeededRoundsAttacker, int iDefenderHitLimit, float& E_HP_Att_Victory, float& E_HP_Att_Withdraw, float& prob_bottom_Att_HP, int iDamageToDefender, float& E_HP_Def, float& prob_bottom_Def_HP, float& E_HP_Def_Defeat, float& E_HP_Def_Withdraw);
+	void setWithdrawalText(CvUnit* pAttacker, CvUnit* pDefender, int& iWithdrawal, int iCombatOdds, CvWString& szTempBuffer, bool ACO_enabled, CvWStringBuffer& szString);
+	void setCombatOddsText(CvUnit* pAttacker, CvUnit* pDefender, int iCombatOdds, CvWString& szTempBuffer, bool ACO_enabled, CvWStringBuffer& szString);
+	void showDefenderDetailHPText(int& first_combined_HP_Def, CvUnit* pDefender, int iView, int iNeededRoundsAttacker, CvUnit* pAttacker, int iDamageToDefender, float PullOutOdds, int iNeededRoundsDefender, float HP_percent_cutoff, BOOL& bIsCondensed, CvWStringBuffer& szString, float Scaling_Factor, float& combined_HP_sum, CvWString& szTempBuffer2, CvWString& szTempBuffer, int& last_combined_HP);
+	void showAttackerDetailHPText(int iView, int iNeededRoundsDefender, CvUnit* pAttacker, CvUnit* pDefender, int iNeededRoundsAttacker, float HP_percent_cutoff, BOOL& bIsCondensed, float Scaling_Factor, float& combined_HP_sum, CvWStringBuffer& szString, CvWString& szTempBuffer2, int& last_combined_HP, int& first_combined_HP_Att, CvWString& szTempBuffer, int iDamageToAttacker, float RetreatOdds);
 	DllExport void setPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot);
 	DllExport void setCityBarHelp(CvWStringBuffer &szString, CvCity* pCity);
 	DllExport void setScoreHelp(CvWStringBuffer &szString, PlayerTypes ePlayer);

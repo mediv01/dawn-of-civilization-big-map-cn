@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_CARTHAGE_EMPIRE</Tag>
 		<English>Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>腓尼基</Chinese>
+		<Chinese>迦太基帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_COMMUNIST</Tag>
@@ -38,16 +38,16 @@
 		<Chinese>新迦太基帝国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_PHOENICIA_PEOPLES</Tag>
+		<Tag>TXT_KEY_CIV_CARTHAGE_PEOPLES</Tag>
 		<English>Canaanite Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>迦南人</Chinese>
+		<Chinese>迦南诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CARTHAGE_ADJECTIVE</Tag>
-		<English></English>
+		<English>Carthaginian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>腓尼基</Chinese>
+		<Chinese>迦太基</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_ADJECTIVE</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_TUNISIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%1王国</Chinese>
+		<Chinese>%s1王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHOENICIA_FASCIST</Tag>
@@ -125,6 +125,6 @@
 		<Tag>TXT_KEY_CIV_TUNISIA_FASCIST</Tag>
 		<English>New Carthaginian Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>腓尼基文明</Chinese>
+		<Chinese>新迦太基帝国</Chinese>
 	</TEXT>
 </Civ4GameText>

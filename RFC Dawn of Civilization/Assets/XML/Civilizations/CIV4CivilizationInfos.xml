@@ -511,7 +511,7 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
-			<DerivativeCiv>CIVILIZATION_BABYLONIA</DerivativeCiv>
+			<DerivativeCiv>CIVILIZATION_BABYLON</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_BABYLON_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_BABYLON_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
@@ -10362,9 +10362,9 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT2</Type>
-			<Description>TXT_KEY_CIV_INDEPENDENT_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Adjective>
+			<Description>TXT_KEY_CIV_INDEPENDENT2_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_INDEPENDENT2_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_INDEPENDENT2_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_CIV_INDEPENDENT_PEDIA</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_DARK_GRAY2</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_INDEPENDENT</ArtDefineTag>

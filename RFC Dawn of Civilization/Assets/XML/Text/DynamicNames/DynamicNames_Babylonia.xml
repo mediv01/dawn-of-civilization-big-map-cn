@@ -1,6 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
+	<TEXT>
+	<Tag>TXT_KEY_CIV_BABYLON_DESC</Tag>
+		<English>Babylonian Empire</English>
+		<L1/>
+		<L2/>
+		<L3/>
+		<L4/>
+		<Chinese>巴比伦帝国</Chinese>
+	</TEXT>
+	<TEXT>
+	<Tag>TXT_KEY_CIV_BABYLON_SHORT_DESC</Tag>
+		<English>Babylon</English>
+		<L1/>
+		<L2/>
+		<L3/>
+		<L4/>
+		<Chinese>巴比伦</Chinese>
+	</TEXT>
+	<TEXT>
+	<Tag>TXT_KEY_CIV_BABYLON_ADJECTIVE</Tag>
+		<English>Babylonian</English>
+		<L1/>
+		<L2/>
+		<L3/>
+		<L4/>
+		<Chinese>巴比伦</Chinese>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLONIA_ASSYRIAN</Tag>
 		<English>Assyrian</English>
@@ -11,7 +37,7 @@
 		<Tag>TXT_KEY_CIV_PHOENICIA_BABYLONIAN_VASSAL</Tag>
 		<English>Babylonian Phoenicia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>巴比伦-腓尼基</Chinese>
+		<Chinese>巴属腓尼基</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLONIA_MESOPOTAMIAN</Tag>
@@ -21,7 +47,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLONIA_ADJECTIVE</Tag>
-		<English></English>
+		<English>Babylonia</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>巴比伦</Chinese>
 	</TEXT>	
@@ -41,13 +67,13 @@
 		<Tag>TXT_KEY_CIV_BABYLONIA_FASCIST</Tag>
 		<English>Baathist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>叙利亚-%s1</Chinese>
+		<Chinese>伊拉克复兴党军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLONIA_COMMUNIST</Tag>
 		<English>%s2 Golden Square</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2黄金时代</Chinese>
+		<Chinese>%s2黄金广场</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLONIA_NEO_EMPIRE</Tag>
@@ -77,6 +103,6 @@
 		<Tag>TXT_KEY_CIV_BABYLONIA_PEOPLES</Tag>
 		<English>Mesopotamian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美索不达米亚人</Chinese>
+		<Chinese>美索不达米亚诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

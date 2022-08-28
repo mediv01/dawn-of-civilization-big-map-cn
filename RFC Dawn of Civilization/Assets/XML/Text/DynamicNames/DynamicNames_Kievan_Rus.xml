@@ -2,7 +2,7 @@
 <Civ4GameText>
 	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_ADJECTIVE</Tag>
+		<Tag>TXT_KEY_CIV_RUS_ADJECTIVE</Tag>
 		<English>Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯</Chinese>
@@ -20,13 +20,19 @@
 		<Chinese>泛斯拉夫帝国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_OF</Tag>
+		<Tag>TXT_KEY_CIV_RUS_OF</Tag>
 		<English>Rus of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗斯%s1</Chinese>
+		<Chinese>%s1罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_DESC</Tag>
+		<Tag>TXT_KEY_CIV_RUS_DESC</Tag>
+		<English>The Rus'</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗斯文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KIEVANRUS_PEOPLES</Tag>
 		<English>The Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯文明</Chinese>
@@ -44,31 +50,31 @@
 		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_FASCIST</Tag>
+		<Tag>TXT_KEY_CIV_RUS_FASCIST</Tag>
 		<English>Panslavic Empire</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>泛斯拉夫帝国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_DEFAULT</Tag>
+		<Tag>TXT_KEY_CIV_KIEVANRUS_DEFAULT</Tag>
 		<English>Kievan Rus</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>基辅罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_REPUBLIC</Tag>
+		<Tag>TXT_KEY_CIV_RUS_REPUBLIC</Tag>
 		<English>%s1 Republic</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>%s1共和国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_PEOPLES</Tag>
+		<Tag>TXT_KEY_CIV_RUS_PEOPLES</Tag>
 		<English>Rus' Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗斯人</Chinese>
+		<Chinese>罗斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_SHORT_DESC</Tag>
+		<Tag>TXT_KEY_CIV_RUS_SHORT_DESC</Tag>
 		<English>Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯</Chinese>
@@ -86,9 +92,9 @@
 		<Chinese>乌克兰</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_RUS'_VASSAL</Tag>
+		<Tag>TXT_KEY_CIV_RUS_VASSAL</Tag>
 		<English>%s1 Krai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1附庸国</Chinese>
+		<Chinese>%s1边疆区</Chinese>
 	</TEXT>
 </Civ4GameText>

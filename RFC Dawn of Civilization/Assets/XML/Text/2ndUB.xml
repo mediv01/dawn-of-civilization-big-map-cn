@@ -219,7 +219,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Ch&#226;teau[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Estate[COLOR_REVERT], allows you to hire one additional [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Château[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Estate[COLOR_REVERT], allows you to hire one additional [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>[COLOR_BUILDING_TEXT]法国庄园[COLOR_REVERT]是[COLOR_BUILDING_TEXT]庄园[COLOR_REVERT]的法国替代品，允许您另外雇佣一名[COLOR_HIGHLIGHT_TEXT]艺术家[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]。</Chinese>
 	</TEXT>	
@@ -447,7 +447,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU</Tag>
-		<English>Ch&#226;teau</English>
+		<English>Château</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>法国庄园</Chinese>
 	</TEXT>	

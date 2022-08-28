@@ -50,7 +50,7 @@ void CvGame::updateColoredPlots()
 
 	//Rhye - start
 //Speed: Modified by Kael 04/19/2007
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "updateColoredPlots", NULL, &lResult);
+//	GC.callPythoFunction(PYGameModule, "updateColoredPlots", NULL, &lResult);
 //	if (lResult == 1)
 //	{
 //		return;
@@ -98,9 +98,13 @@ void CvGame::updateColoredPlots()
 						gDLL->getEngineIFace()->fillAreaBorderPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), color, AREA_BORDER_LAYER_CITY_RADIUS);
 					}
 				}
+
+
 			}
 		}
 	}
+
+	
 
 	pHeadSelectedCity = gDLL->getInterfaceIFace()->getHeadSelectedCity();
 	pHeadSelectedUnit = gDLL->getInterfaceIFace()->getHeadSelectedUnit();
@@ -161,6 +165,19 @@ void CvGame::updateColoredPlots()
 	}
 	else if (pHeadSelectedUnit != NULL)
 	{
+		if (CVGAME_ALWAYS_SHOW_GOODY_IN_MAP) {
+			for (int iPlotLoop = 0; iPlotLoop < GC.getMap().numPlots(); iPlotLoop++)
+			{
+				CvPlot* pLoopPlot = GC.getMap().plotByIndex(iPlotLoop);
+				if (pLoopPlot != NULL)
+				{
+					if (pLoopPlot->isGoody()) {
+						gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+					}
+				}
+			}
+		}
+
 		if (gDLL->getGraphicOption(GRAPHICOPTION_CITY_RADIUS))
 		{
 			if (gDLL->getInterfaceIFace()->canSelectionListFound())
@@ -321,7 +338,7 @@ void CvGame::updateColoredPlots()
 
 		if (pHeadSelectedUnit->isBlockading())
 		{
-			int iBlockadeRange = GC.getDefineINT("SHIP_BLOCKADE_RANGE");
+			int iBlockadeRange = SHIP_BLOCKADE_RANGE;
 
 			for (int iPlayer = 0; iPlayer < MAX_CIV_PLAYERS; ++iPlayer)
 			{
@@ -878,7 +895,7 @@ void CvGame::selectionListMove(CvPlot* pPlot, bool bAlt, bool bShift, bool bCtrl
 //	argsList.add(bShift);
 //	argsList.add(bCtrl);
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "cannotSelectionListMove", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "cannotSelectionListMove", argsList.makeFunctionArgs(), &lResult);
 //	delete pyPlot;	// python fxn must not hold on to this pointer
 //	if (lResult == 1)
 //	{
@@ -957,7 +974,7 @@ void CvGame::selectionListGameNetMessage(int eMessage, int iData2, int iData3, i
 //	argsList.add(bAlt);
 //	argsList.add(bShift);
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "cannotSelectionListGameNetMessage", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "cannotSelectionListGameNetMessage", argsList.makeFunctionArgs(), &lResult);
 //	if (lResult == 1)
 //	{
 //		return;
@@ -1139,7 +1156,7 @@ bool CvGame::canHandleAction(int iAction, CvPlot* pPlot, bool bTestVisible, bool
 		argsList.add(iAction);
 		argsList.add(bTestVisible);
 		long lResult=0;
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "cannotHandleAction", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "cannotHandleAction", argsList.makeFunctionArgs(), &lResult);
 		delete pyPlot;	// python fxn must not hold on to this pointer 
 		if (lResult == 1)
 		{
@@ -1318,7 +1335,7 @@ bool CvGame::canDoControl(ControlTypes eControl) const
 //	CyArgsList argsList;
 //	argsList.add(eControl);
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "cannotDoControl", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "cannotDoControl", argsList.makeFunctionArgs(), &lResult);
 //	if (lResult == 1)
 //	{
 //		return false;
@@ -1642,6 +1659,16 @@ void CvGame::doControl(ControlTypes eControl)
 
 	case CONTROL_ENDTURN:
 	case CONTROL_ENDTURN_ALT:
+
+		// 游戏回合结束时自动保存 mediv01
+		if (CVGAMECORE_NEW_AUTOSAVE_FEATURE) {
+			// edead: disable autosave during autoplay
+			if ((NO_AUTOSAVE_DURING_AUTOPLAY == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
+			{
+				gDLL->getEngineIFace()->AutoSave();
+			}
+		}
+
 		if (gDLL->getInterfaceIFace()->isEndTurnMessage())
 		{
 			CvMessageControl::getInstance().sendTurnComplete();
@@ -1649,6 +1676,14 @@ void CvGame::doControl(ControlTypes eControl)
 		break;
 
 	case CONTROL_FORCEENDTURN:
+		// 游戏回合结束时自动保存 mediv01
+		if (CVGAMECORE_NEW_AUTOSAVE_FEATURE) {
+			// edead: disable autosave during autoplay
+			if ((NO_AUTOSAVE_DURING_AUTOPLAY == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
+			{
+				gDLL->getEngineIFace()->AutoSave();
+			}
+		}
 		CvMessageControl::getInstance().sendTurnComplete();
 		break;
 
@@ -1697,7 +1732,7 @@ void CvGame::doControl(ControlTypes eControl)
 		break;
 
 	case CONTROL_OPTIONS_SCREEN:
-		gDLL->getPythonIFace()->callFunction("CvScreensInterface", "showOptionsScreen");
+		GC.callPythoFunction("CvScreensInterface", "showOptionsScreen");
 		break;
 
 	case CONTROL_RETIRE:
@@ -1778,39 +1813,39 @@ void CvGame::doControl(ControlTypes eControl)
 		break;
 
 	case CONTROL_CIVILOPEDIA:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaShow");
+		GC.callPythoFunction(PYScreensModule, "pediaShow");
 		break;
 
 	case CONTROL_RELIGION_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showReligionScreen");
+		GC.callPythoFunction(PYScreensModule, "showReligionScreen");
 		break;
 
 	case CONTROL_CORPORATION_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showCorporationScreen");
+		GC.callPythoFunction(PYScreensModule, "showCorporationScreen");
 		break;
 
 	case CONTROL_CIVICS_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showCivicsScreen");
+		GC.callPythoFunction(PYScreensModule, "showCivicsScreen");
 		break;
 
 	case CONTROL_FOREIGN_SCREEN:
 		{
 			CyArgsList argsList;
 			argsList.add(-1);
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, "showForeignAdvisorScreen", argsList.makeFunctionArgs());
+			GC.callPythoFunction(PYScreensModule, "showForeignAdvisorScreen", argsList.makeFunctionArgs());
 		}
 		break;
 
 	case CONTROL_FINANCIAL_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showFinanceAdvisor");
+		GC.callPythoFunction(PYScreensModule, "showFinanceAdvisor");
 		break;
 
 	case CONTROL_MILITARY_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showMilitaryAdvisor");
+		GC.callPythoFunction(PYScreensModule, "showMilitaryAdvisor");
 		break;
 
 	case CONTROL_TECH_CHOOSER:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showTechChooser");
+		GC.callPythoFunction(PYScreensModule, "showTechChooser");
 		break;
 
 	case CONTROL_TURN_LOG:
@@ -1838,12 +1873,12 @@ void CvGame::doControl(ControlTypes eControl)
 		{
 			CyArgsList argsList;
 			argsList.add(-1);
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, "showDomesticAdvisor", argsList.makeFunctionArgs());
+			GC.callPythoFunction(PYScreensModule, "showDomesticAdvisor", argsList.makeFunctionArgs());
 		}
 		break;
 
 	case CONTROL_VICTORY_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showVictoryScreen");
+		GC.callPythoFunction(PYScreensModule, "showVictoryScreen");
 		break;
 
 	case CONTROL_INFO:
@@ -1851,7 +1886,7 @@ void CvGame::doControl(ControlTypes eControl)
 			CyArgsList args;
 			args.add(0);
 			args.add(getGameState() == GAMESTATE_ON ? 0 : 1);
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, "showInfoScreen", args.makeFunctionArgs());
+			GC.callPythoFunction(PYScreensModule, "showInfoScreen", args.makeFunctionArgs());
 		}
 		break;
 
@@ -1883,7 +1918,7 @@ void CvGame::doControl(ControlTypes eControl)
 		{
 			CyArgsList args;
 			args.add(true);
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, "showHallOfFame", args.makeFunctionArgs());
+			GC.callPythoFunction(PYScreensModule, "showHallOfFame", args.makeFunctionArgs());
 		}
 		break;
 
@@ -1904,7 +1939,7 @@ void CvGame::doControl(ControlTypes eControl)
 		break;
 
 	case CONTROL_ESPIONAGE_SCREEN:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "showEspionageAdvisor");
+		GC.callPythoFunction(PYScreensModule, "showEspionageAdvisor");
 		break;
 
 	case CONTROL_FREE_COLONY:
@@ -1927,7 +1962,7 @@ void CvGame::doControl(ControlTypes eControl)
 
 	// edead: start
 	case CONTROL_STABILITY_OVERLAY:
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "toggleStabilityOverlay");
+		GC.callPythoFunction(PYScreensModule, "toggleStabilityOverlay");
 		break;
 	// edead: end
 
@@ -2310,7 +2345,7 @@ CvPlot* CvGame::getNewHighlightPlot() const
 		bool bOK = false;
 		CyArgsList argsList;
 		argsList.add(0);
-		bOK = gDLL->getPythonIFace()->callFunction(PYScreensModule, "WorldBuilderGetHighlightPlot", argsList.makeFunctionArgs(), &coords);
+		bOK = GC.callPythoFunction(PYScreensModule, "WorldBuilderGetHighlightPlot", argsList.makeFunctionArgs(), &coords);
 		if (bOK && coords.size())
 		{
 			pNewPlot = GC.getMap().plot(coords[0],coords[1]);
@@ -2356,7 +2391,7 @@ ColorTypes CvGame::getPlotHighlightColor(CvPlot* pPlot) const
 					CyArgsList argsList;
 					argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
 					long lResult = 0;
-					gDLL->getPythonIFace()->callFunction(PYGameModule, "canPickPlot", argsList.makeFunctionArgs(), &lResult);
+					GC.callPythoFunction(PYGameModule, "canPickPlot", argsList.makeFunctionArgs(), &lResult);
 					delete pyPlot;	// python fxn must not hold on to this pointer 
 					if (lResult == 0)
 					{

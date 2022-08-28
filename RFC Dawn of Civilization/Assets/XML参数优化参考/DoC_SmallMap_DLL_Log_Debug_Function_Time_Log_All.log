@@ -1,0 +1,11 @@
+CvGame::doTurn(): start time 61218613 , end time 61229851, time cost 11238 
+CvGame::doTurn(): CvEventReporter::getInstance().beginGameTurn( getGameTurn() ): start time 61218620 , end time 61223677, time cost 5057 
+CvGame::doTurn(): doUpdateCacheOnTurn();: start time 61223679 , end time 61223681, time cost 2 
+CvGame::doTurn(): updateScore();: start time 61223683 , end time 61223688, time cost 5 
+CvGame::doTurn():CvEventReporter::getInstance().endGameTurn(getGameTurn());: start time 61228161 , end time 61228163, time cost 2 
+CvGame::doTurn():GC.getMapINLINE().doTurn();: start time 61223911 , end time 61228153, time cost 4242 
+CvGame::doTurn():GET_TEAM((TeamTypes)iI).doTurn();: start time 61223692 , end time 61223909, time cost 217 
+CvGame::doTurn():doDeals();: start time 61223689 , end time 61223691, time cost 2 
+CvGame::doTurn():doDiploVote();: start time 61228157 , end time 61228159, time cost 2 
+CvGame::doTurn():incrementGameTurn(); and OTHER CODE: start time 61228165 , end time 61229849, time cost 1684 
+CvGame::doTurn():testing code: start time 61218615 , end time 61218618, time cost 3 

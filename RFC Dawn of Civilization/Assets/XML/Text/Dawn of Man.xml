@@ -2,23 +2,59 @@
 <Civ4GameText>
 	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_VIKINGS_1700AD</Tag>
+		<Tag>TXT_KEY_DOM_VIKING</Tag>
+		<English>It is the year 551 AD. The scarcity of food makes the inhabitants of Scandinavia excellent sailors that rely on fishing and trade. Their home kingdoms still can't sustain further population growth, and the Vikings have to turn to lands across the sea. Not only the coasts of the North Sea, but also the Mediterranean and even the New World make good targets for plunder or settlement.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元551年的第一缕阳光照耀着挪威的峡湾。食物匮乏的现状，迫使生活在斯堪的纳维亚半岛上优秀的水手们以捕鱼和贸易为生。但即便如此，这片故土还是难以承受人口的进一步增长，维京人不得不将目光从陆地投向海洋。他们的目标不仅是北海沿岸，地中海乃至新大陆都将成为他们征服和殖民的目标。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_VIKING_600AD</Tag>
+		<English>It is the year 600 AD. The scarcity of food makes the inhabitants of Scandinavia excellent sailors that rely on fishing and trade. Their home kingdoms still can't sustain further population growth, and the Vikings have to turn to lands across the sea. Not only the coasts of the North Sea, but also those of the Mediterranean and even the New World make good targets for either plunder or settlement.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着挪威的峡湾。食物匮乏的现状，迫使生活在斯堪的纳维亚半岛上优秀的水手们以捕鱼和贸易为生。但即便如此，这片故土还是难以承受人口的进一步增长，维京人不得不将目光从陆地投向海洋。他们的目标不仅是北海沿岸，地中海乃至新大陆都将成为他们征服和殖民的目标。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_VIKING_1700AD</Tag>
 		<English>It is the year 1700 AD. Denmark is a shadow of its former. Once the premier power throughout Scandinavia, the 17th century saw the collapse of the Kalmar Union, Protestant Reformation, 30 Years鈥?? War, and a slew of wars against Sweden. Only shrewd diplomacy will determine whether Denmark will regain what it has lost or end up undergoing even further disintegration...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年，丹麦是其前身的影子。曾经是整个斯堪的纳维亚半岛的主要政权，17世纪见证了卡尔玛联盟的崩溃，新教改革，30年的战争，以及一系列针对瑞典的战争。只有精明的外交才能决定丹麦是否会重获失去的东西，或者最终会经历更进一步的解体。。。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着日德兰半岛。作为它前身的残余势力，丹麦曾经是整个斯堪的纳维亚半岛的绝对强权。十七世纪见证了卡尔玛联盟的崩溃，新教改革，三十年战争以及丹麦与瑞典之间的一系列战争。只有精明的外交政策才能使丹麦夺回它曾经失去的东西，否则它甚至将进一步地解体。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TAMILS</Tag>
+		<English>It is the year 300 BC. With the development of their Sangam literature, the Tamil culture rises to the south of India. Their position close to both China and Rome as well as the availability of valuable spices have made the local dynasties of the Cheras, Pandyans and Cholas affluent centers of trade.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前300年的第一缕阳光照耀着德干高原。随着桑伽姆文化的发展，泰米尔文化开始在印度南部快速发展。临近中国和罗马这一得天独厚的地理位置，以及极具价值的香料资源，使得当地的朱罗, 潘地亚以及注辇王朝成为富庶的贸易中心。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TAMILS_600AD</Tag>
+		<English>It is the year 600 AD...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着德干高原。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TAMILS_1700AD</Tag>
 		<English>It is the year 1700 AD. Since the decline of the Vijayanagara Empire in the 16th century, the Kingdom of Mysore has been the dominant power in the southern Deccan, resisting Mughal expansion. With the appearance of the Marathas and the British, the power structure in India has shifted, requiring Mysore to defend its sovereignty again.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年，自16世纪维贾亚纳加拉帝国衰落以来，迈索尔王国一直是德干南部的主导力量，抵抗着莫卧儿帝国的扩张。随着马拉塔和英国的出现，印度的权力结构发生了变化，要求迈索尔再次捍卫自己的主权。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着印度南部。自16世纪毗奢耶那伽罗帝国衰落以来，迈索尔王国在德干高原南部建立了绝对统治，并抵挡着莫卧儿帝国的扩张。随着马拉塔人和英国人的出现，印度地区的权力结构发生了转移，这要求迈索尔再一次保卫他们的主权。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_TURKEY</Tag>
+		<Tag>TXT_KEY_DOM_OTTOMAN</Tag>
 		<English>It is the year 1280 AD. After the collapse of the Seljuk Empire, the Anatolian Turks are divided into several small Beyliks. However, Byzantium is weakened itself, and now that the Osmanli Beylik is in the hands of a strong leader, a Turkish Ottoman Empire seems close. With the Bosphorus right within their grasp, they have the opportunity to form an empire that stretches over three continents.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1280年的第一缕阳光照耀着安纳托利亚。随着塞尔柱帝国的崩溃，安纳托利亚高原上出现了许多小部族。与此同时，拜占庭帝国也已是苟延残喘。而奥斯曼部族正被一个强有力的领袖所带领，看来，一个奥斯曼帝国的时代即将到来。博斯普鲁斯海峡几乎已是囊中之物，他们将建立起一个地跨三大洲的庞大帝国。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_OTTOMAN_1700AD</Tag>
+		<English>It is the year 1700 AD. With the defeat at the Siege of Vienna, the military expansion of the Ottoman Empire has come to an end and it is on the defensive against the growing power of Austria and Russia. This change in the balance of power leads to increased cultural contact and exchange with the Europeans and a flowering of Ottoman culture.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着博斯普鲁斯海峡。在维也纳城下受挫之后，奥斯曼帝国的武力扩张进程走到了终点，它不得不在与不断崛起的奥地利以及俄罗斯的对抗中处于防守地位。这种各方势力处于平衡状态的变化将导致欧洲与奥斯曼帝国文化上的交流不断加深。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_RUSSIA</Tag>
+		<English>It is the year 1283 AD...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1283年的第一缕阳光照耀着东欧的白桦林。金帐汗国在偏远而落后的弗拉基米尔地区建立了分封国——莫斯科公国。作为金帐汗国的封臣，莫斯科公国从一开始就有着深藏的野心。东方，是喀山汗国、西伯利亚汗国，还有更遥远的广阔领土。 </Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_RUSSIA_1700AD</Tag>
 		<English>It is the year 1700 AD. Under the rule of Peter the Great Russia is on the path of modernization. Sweden has just been defeated and the foundation of Sankt-Peterburg secured a window to the west for Russia. With the advance into Siberia, the Russian Empire is now the largest in the world.</English>
@@ -26,17 +62,47 @@
 		<Chinese>公元1700年的第一缕阳光照耀着圣巴西尔教堂。在彼得大帝治下，俄国终于开始了西化的进程。对于瑞典的胜利，以及圣彼得堡的建立，为俄国打开了一扇面向西方的窗户。同时，伴随着对西伯利亚的开发，俄罗斯帝国成为了世界上领土最辽阔的国家。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_PORTUGAL</Tag>
+		<English>It is the year 1128 AD. Portugal has just defeated Spain and gained independence. Situated at the western end of Europe, the kingdom is in an excellent position to send ships to ports all over the world and control the trade of all of Europe, Africa and Asia.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1128年的第一缕阳光照耀着欧洲之角。葡萄牙在不久前击败西班牙取得了独立，这个坐落于欧洲最西端的文明拥有得天独厚的地理优势，它可以将它的船只派往世界各地，并掌控欧亚非三大洲的贸易。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DOM_PORTUGAL_1700AD</Tag>
 		<English>It is the year 1700 AD. In the last century, Portugal has regained its independence from the Spanish crown. Many of its colonial possessions have been lost to the Dutch, but Brazil is still under Portuguese control and promises wealth for the future.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1700年的第一缕阳光照耀着欧洲之角。在上个世纪，葡萄牙从西班牙的统治之下脱离出来，重获独立。它的许多殖民地都在战争中被荷兰占领，但是巴西仍在葡萄牙控制之下，并将在未来为之提供大量财富。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_JAPAN</Tag>
+		<English>It is the year 525 AD. The early Japanese polity centered around the Yamato province is introduced to Buddhism from Korea. This allows the spread of Chinese influences from the Sui and Tang dynasties to Japan, followed by a centralization of power into the Empire of Japan.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元525年的第一缕阳光照耀着富士山。日本列岛上最早的定居者——大和诸部开始兴起。随着佛教从高丽的传入，以及中国隋唐时代文化的广泛影响，中央集权逐渐在日本列岛上形成。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_JAPAN_600AD</Tag>
+		<English>It is the year 600 AD. The early Japanese polity centered around the Yamato province is introduced to Buddhism from Korea. This allows the spread of Chinese influences from the Sui and Tang dynasties to Japan, followed by a centralization of power into the Empire of Japan.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着富士山。日本列岛上最早的定居者——大和诸部开始兴起。随着佛教从高丽的传入，以及中国隋唐时代文化的广泛影响，中央集权逐渐在日本列岛上形成。</Chinese>
+	</TEXT>			
+	<TEXT>
 		<Tag>TXT_KEY_DOM_JAPAN_1700AD</Tag>
 		<English>It is the year 1700 AD. Under the Tokugawa Shogunate, Japan has been at peace for almost a century now. But contact with European traders threatens to disturb the achieved balance again, and even the complete seclusion under the Sakoku cannot preserve it forever. Japan will have to open itself to the world ...</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1700年的第一缕阳光照耀着富士山。在德川幕府的统治之下，日本列岛已经经历了将近一个世纪的和平。但是欧洲人的到来正在逐渐打破这种平衡，即使是在闭关锁国下完全的隔绝也于事无补。现在，日本必须向世界打开国门……</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_KOREA</Tag>
+		<English>It is the year 50 BC. The three Korean kingdoms of Silla, Baekje and Goguryeo form on the Korean peninsula, the first step of centralization of power away from their predecessor chiefdoms. The Chinese are close; Korea will have to have to adapt their more advanced organization without abandoning its own sovereignty.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前50年的第一缕阳光照耀着朝鲜半岛。朝鲜半岛上的三个王国――百济、新罗和高句丽摈弃了之前的部落酋长制度，向着中央集权制度迈出了第一步。作为中国的近邻，高丽必须在保持自己独立的同时，尽量吸收中国的先进制度。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_KOREA_600AD</Tag>
+		<English>It is the year 600 AD. The three Korean kingdoms still thrive and Goguryeo has expanded the influence of Korean civilization into Manchuria. But now that China is reunited again, they have to be careful to protect their independence for the future.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着汉江两岸，朝鲜半岛上的三个王国仍然繁荣昌盛，高句丽王国已将朝鲜文明的影响扩大到中国东北地区。但现在中国又统一了，他们必须小心保护自己的独立地位，以待将来。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_KOREA_1700AD</Tag>
 		<English>It is the year 1700 AD. The Kingdom of Joseon has faced both invasion from Japan and the Manchu, who now control the entire Chinese Empire. Now a period of relative peace and economic and cultural renaissance has begun, but with two powerful neighbors and Western imperialism on the rise, it can only last for so long ...</English>
@@ -47,8 +113,14 @@
 		<Tag>TXT_KEY_DOM_MANCHURIA</Tag>
 		<English>It is the year 1636 AD. Beginning in the 16th century, an Aisin Gioro chief called Nurhaci successfully united the warring Jurchen tribes and proclaimed himself the Khan of the Later Jin, openly renouncing his fealty to the Chinese Ming dynasty. Hong Taiji, the son of Nurhaci, has now declared himself the Emperor of the Great Qing, setting his sights on the Imperial capital of Beijing...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1636年，从16世纪开始，一位名叫努尔哈奇的艾辛·乔罗首领成功地联合了交战的女真部落，并自称为后金的可汗，公开宣布放弃对中国明朝的效忠。努尔哈赤之子洪太极现在已经宣布自己是大清皇帝，将目光投向了京城。。。</Chinese>
+		<Chinese>公元1636年的第一缕阳光照耀着白山黑水。在本世纪初，一位爱新觉罗家族的族长——努尔哈赤成功地统一了处于长期内战中的女真各部，建立后金，并自立为汗，公开宣布自己不再效忠于中原的大明王朝。现在，努尔哈赤的儿子——皇太极宣布自己成为大清王朝的皇帝，并将他的目光投向明帝国的首都——北京。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_MANCHURIA_1700AD</Tag>
+		<English>It is the year 1700 AD. After the Ming Dynasty collapsed under peasant revolts, the Jurchens of Manchuria conquered China and established the Empire of the Great Qing. With Manchuria and Tibet under imperial control, China has reached its greatest extent in history and the rule of the Kangxi Emperor promises another golden era.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着紫禁城。自明朝在农民起义中灭亡后，来自满洲的女真人征服了中国，并建立了大清帝国。随着满洲和西藏被纳入了帝国的统治之下，中国达到了历史上的最大版图，同时康熙皇帝的统治预示着另一个黄金时代的到来。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ENGLAND</Tag>
 		<English>It is the year 829 AD. After the migration of Germanic peoples to Britain, the island has been divided between several Celtic, Norse and Anglo-Saxon kingdoms. Now the King of Wessex has been crowned Bretwalda and thus ruler of all of England. Now unified, the English people can turn their eyes from their island across the sea and gain rule of the waves.</English>
@@ -56,23 +128,47 @@
 		<Chinese>公元829年的第一缕阳光照耀着英伦诸岛。在大量日耳曼人定居大不列颠岛后，这座岛上星罗棋布着许多凯尔特人、北欧人或是盎格鲁-撒克逊人建立的小王国。现在，威塞克斯王国的国王得到了英格兰霸主的地位；现在，英伦三岛上的居民可以不再仅仅将目光局限于本土，而是乘风破浪，争取海洋的霸权。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_ENGLAND_1700AD</Tag>
+		<English>It is the year 1700 AD. The Glorious Revolution has restored stability to the British thrones and paved the way to the Acts of Union. With its colonial holdings in the Americas and India growing, the British crown will be able to establish a world-wide empire and challenge the French dominance over Europe.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着英伦诸岛。“光荣革命”确立了英国的君主立宪体制，并为联合王国的成立铺平了道路。伴随着北美以及印度殖民地的飞速发展，英国将会建立一个世界性的帝国，并挑战法国在欧洲的统治地位。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DOM_HUNGARY</Tag>
 		<English>It is the year 895 AD. Following their conquest of the Carpathian Basin, the Magyar peoples form the Principality of Hungary...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元895年，在征服喀尔巴阡盆地之后，马扎尔人组成了匈牙利公国。。。</Chinese>
+		<Chinese>公元895年的第一缕阳光照耀着潘诺尼亚草原。在征服喀尔巴阡盆地之后，马扎尔人组成了匈牙利公国……</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_NETHERLANDS</Tag>
+		<English>It is the year 1581 AD. Situated at the confluence of Europe's most important trade routes, the Netherlands are the most populated and wealthiest region of the continent. Far too long this wealth has gone to foreign powers, but now, after long wars, the Dutch people have finally reached independence and established a Republic.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1581年的第一缕阳光照耀着北海东岸。坐落于欧洲最主要的几条贸易路线的交汇之处，尼德兰逐渐成为了这块大陆上人口最稠密，财富最集中的区域。长久以来，这些财富掌握在外国人的手里，但是现在，经过长期的斗争，荷兰人终于取得了独立，并建立起自己的共和国。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_NETHERLANDS_1700AD</Tag>
 		<English>It is the year 1700 AD. Since their independence at the end of the Eighty Years war, the Netherlands have entered a Golden Age and become the European center of trade, industry, culture and science. This wealth however has created envy in the rising neighboring powers of France and Great Britain, and the Dutch will need to keep their colonial empire together to maintain their wealth.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着阿姆斯特丹。自从八十年战争结束而获得独立以来，荷兰经历了一个黄金时代，并成为了欧洲的贸易、工商业科学以及文化中心。然而，这些财富也同样招来了邻近的法国和英国的嫉妒。同时，为了保有这些财富，荷兰必须维持一个庞大的殖民帝国。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着阿姆斯特丹。自从八十年战争结束而获得独立以来，荷兰经历了一个黄金时代，并成为了欧洲的贸易、工商业、科学以及文化中心。然而，这些财富也同样招来了邻近的法国和英国的嫉妒。同时，为了保有这些财富，荷兰必须维持一个庞大的殖民帝国。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_MUGHALS</Tag>
+		<English>It is the year 1206 AD. Although Muslim rulers have occasionally raided India for centuries, the foundation of the Delhi Sultanate by Muhammad of Ghor marks the establishment of Islam as a political power on the subcontinent. Their successors, including the Muslim Mughal dynasty, would spread their faith all over India and erect its greatest architectural wonders since ancient times.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1206年的第一缕阳光照耀着德里城。尽管印度已被穆斯林统治者们间歇地袭击了几个世纪，但穆罕默德·古尔所建立的德里苏丹国首次象征着伊斯兰政权在南亚次大陆的巩固。以莫卧儿帝国为首的传承者们，将他们的信仰传播至整个印度，并将建造起印度历史上最伟大的建筑奇观。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_MUGHALS_1700AD</Tag>
 		<English>It is the year 1700 AD. The Mughal Empire has reached its zenith. While culture and architecture are still thriving, Mughal hegemony over India is threatened by the emergence of a sovereign Hindu state in the Marathas and the gains of various European powers on India's coasts.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着泰姬陵。莫卧儿王朝达到了它的顶峰。尽管文化兴盛，但是莫卧儿王朝在军事方面却开始落后，同时，印度海岸开始被欧洲列强瓜分、蚕食……</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着泰姬陵。莫卧儿王朝达到了它的顶峰。尽管文化及建筑水平仍在蓬勃发展，但是莫卧儿王朝对印度地区的霸权却开始逐渐受到马拉塔人建立的印度教国家的威胁，同时，印度海岸开始被欧洲列强瓜分、蚕食。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CONGO</Tag>
+		<English>It is the year 1390 AD. The Kingdom of Kongo emerges after the unification of several tribal polities in the Congo delta just when European powers start to expand their influence in Africa. It must try to keep its independence by both religious and economic means.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1390年的第一缕阳光照耀着刚果盆地。就在欧洲势力开始在非洲扩大他们的影响之时，刚果三角洲的几个部落政权联合了起来，刚果王国由此孕育。它必须通过宗教和经济手段试图来维持它的独立性。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_CONGO_1700AD</Tag>
 		<English>It is the year 1700 AD. Continued warfare with the Portuguese and internal rebellions have weakened the Kingdom of Kongo to the point of effective colonization. The kingdom is still lagging behind scientifically and economically, and often the slave trade remains as the only viable source of income.</English>
@@ -80,46 +176,46 @@
 		<Chinese>公元1700年的第一缕阳光照耀着刚果盆地。葡萄牙人和当地部落武装之间不断的冲突，使得刚果王国得以避免完全沦为殖民地。虽然如此，这个王国仍然在科技和经济方面大大落后于整个世界，同时，贩卖奴隶几乎成为了王国唯一的收入来源。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_KHMER</Tag>
+		<English>It is the year 800 AD. The unpredictable nature of the South East Asian monsoons have so far prevented the formation of a developed civilization in the region. But now, the advanced Khmer water management techniques lead to the foundation of their capital Angkor, facilitating enormous population growth and urbanization.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元800年的第一缕阳光照耀着洞里萨湖。由于东南亚地区多变的气候条件，这一地区之前从未形成发达的文明。但是现在，因为掌握了先进的给排水技术，高棉人定都吴哥，正在努力发展自己的城市并壮大自己的势力。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DOM_KHMER_1700AD</Tag>
 		<English>It is the year 1700 AD. We don't know a lot about this era in the history of the Khmer.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年，我们对高棉历史上的这个时代了解不多。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着洞里萨湖，我们对高棉历史上的这个时代了解不多。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_SWEDEN</Tag>
 		<English>It is 1523 AD. A couple years after the outrages of the Stockholm Bloodbath, committed by the Danish king Kristian the Tyrant. You, Gustav Vasa, have lead a rebellion since to restore independence, successfully uniting Sweden under a hereditary monarchy.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1523年，是在斯德哥尔摩大屠杀的几年后，丹麦国王克里斯汀暴君犯下的。你，古斯塔夫·瓦萨，自那以后领导了一场叛乱，恢复了独立，成功地将瑞典统一在世袭的君主制下。</Chinese>
+		<Chinese>公元1523年的第一缕阳光照耀着斯德哥尔摩。在由丹麦国王，暴君克里斯蒂安下令执行的斯德哥尔摩大屠杀发生几年后，你，古斯塔夫·瓦萨，领导了一场叛乱，成功获得独立，并将瑞典统一在一位世袭君主的领导下。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_VIKINGS</Tag>
-		<English>It is the year 551 AD. The scarcity of food makes the inhabitants of Scandinavia excellent sailors that rely on fishing and trade. Their home kingdoms still can't sustain further population growth, and the Vikings have to turn to lands across the sea. Not only the coasts of the North Sea, but also the Mediterranean and even the New World make good targets for plunder or settlement.</English>
+		<Tag>TXT_KEY_DOM_SWEDEN_1700AD</Tag>
+		<English>It is the year 1700 AD. The Kingdom of Sweden is the most formidable of the Scandinavian powers and has managed to establish an empire by acquiring Finland. Still, its expansion has also created enemies, and rivals like Denmark-Norway, Poland and especially Russia might seek to curb Swedish power...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元551年的第一缕阳光照耀着挪威的峡湾。食物匮乏的现状，迫使生活在斯堪的纳维亚半岛上优秀的水手们以捕鱼和贸易为生。但即便如此，这片故土还是难以承受人口的进一步增长，维京人不得不将目光从陆地投向海洋。他们的目标不仅是北海沿岸，地中海乃至新大陆都将成为他们征服和殖民的目标。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着波罗的海。目前，瑞典王国是斯堪的纳维亚地区最令人生畏的势力，通过占领芬兰，一个新的帝国正在崛起。当然，不断的扩张也带来了敌人，丹麦-挪威王国、波兰，尤其是俄国，它们都想压制瑞典，并从中分一杯羹……</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_BOER</Tag>
 		<English>It is the year 1852 AD. The discord between governers and settlers about colony politics lead settlers to move out from their colonies. Boer republics declared independence and get recognized by former governers, but the political and diplomatic conditions against European imperialists are still unstable. The Boer peoples' bright future is not guaranted yet.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1852年，总督和定居者在殖民地政治上的不和导致定居者迁出他们的殖民地。波尔共和国宣布独立并得到前政府的承认，但反对欧洲帝国主义的政治和外交条件仍然不稳定。波尔人民的光明前途尚未得到保证。</Chinese>
+		<Chinese>公元1852年的第一缕阳光照耀着布尔殖民地。殖民地长官和移民之间关于殖民地政策的分歧，导致移民们从他们的殖民地迁出。布尔共和国从此宣布独立，并获得了前宗主国政府的承认。但是，对于欧洲帝国主义国家在政治和外交上的反对，使得这个新生的国家处于动荡。布尔人的未来并不光明。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_OMAN</Tag>
+		<English>It is the year 751 AD. Seeking to form a nation ruled not by an absolute political or military ruler but by the will of god, the Azd Ibadi Muslims form the Imamate of Oman...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元751年的第一缕阳光照耀着马斯喀特的港口，为了建立一个不受制于绝对的政治或军事统治者，而是完全由神的意志统治的国家，伊巴德派穆斯林建立了阿曼伊玛目国……</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_OMAN_1700AD</Tag>
 		<English>It is the year 1700 AD. Against all odds the Omani people have ousted their Portugese colonizers, invaded their colonies, and become an imperial power in their own right...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年，阿曼人民不顾一切地驱逐了他们的葡萄牙殖民者，入侵了他们的殖民地，并凭借自己的力量成为了一个帝国。。。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_TURKEY_1700AD</Tag>
-		<English>It is the year 1700 AD. With the defeat at the Siege of Vienna, the military expansion of the Ottoman Empire has come to an end and it is on the defensive against the growing power of Austria and Russia. This change in the balance of power leads to increased cultural contact and exchange with the Europeans and a flowering of Ottoman culture.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着博斯普鲁斯海峡。在维也纳城下受挫之后，奥斯曼帝国的武力扩张进程走到了终点，它不得不在与不断崛起的奥地利以及俄罗斯的对抗中处于防守地位。这种变化将导致欧洲与奥斯曼帝国文化上的交流不断加深。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_KHMER</Tag>
-		<English>It is the year 800 AD. The unpredictable nature of the South East Asian monsoons have so far prevented the formation of a developed civilization in the region. But now, the advanced Khmer water management techniques lead to the foundation of their capital Angkor, facilitating enormous population growth and urbanization.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元655年的第一缕阳光照耀着洞里萨湖。由于东南亚地区多变的气候条件，这一地区之前从未形成发达的文明。但是现在，因为掌握了先进的给排水技术，高棉人定都吴哥，正在努力发展自己的城市并壮大自己的势力。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着霍尔木兹海峡。阿曼人民克服了重重困难，赶走了葡萄牙殖民者，并侵入了原葡萄牙殖民地，逐渐凭借自己的力量成为了一个新兴的帝国。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_GERMANY</Tag>
@@ -128,23 +224,47 @@
 		<Chinese>公元1701年的第一缕阳光照耀着德意志的土地。自1648年威斯特伐利亚和约签订以来，神圣罗马帝国早已是强弩之末。当帝国的实力集中于奥地利手中时，勃兰登堡-普鲁士侯国自立为普鲁士王国，并在其霸权下开始寻求统一德意志民族的道路。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_BYZANTIUM</Tag>
+		<English>It is the year 330 AD. With the Roman Empire threatened by Barbarian invasions from the east, it becomes evident that the Empire cannot be governed from Rome alone. So Constantine the Great has founded Constantinopolis as a "New Rome", in hopes that the Eastern Empire will be able to withstand these incursions and eventually restore the glory of the Roman Empire.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元330年的第一缕阳光照耀着君士坦丁堡，罗马帝国正不断受到来自东方的蛮族威胁，显然这个庞大的帝国已经不能单由罗马城管辖。于是，君士坦丁大帝建立了君士坦丁堡，并将这座城市认为是“新罗马”，藉此希望这个东部的帝国能够抵挡住蛮族的入侵，并重现罗马帝国昔日的辉煌！</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DOM_BYZANTIUM_600AD</Tag>
 		<English>It is the year 600 AD. After the death of Justinian, most of his successes have been unmade again. While the Lombards took Northern Italy and the Danube could be barely held against the Slavs, Byzantium was also plunged into a war against Sassanid Persia. Its victory proved Pyrrhic, and now the Empire is economically and militarily weakened.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年，查士丁尼死后，他的大部分成功再次被侵蚀。当伦巴第人攻占意大利北部，多瑙河几乎无法抵御斯拉夫人时，拜占庭也陷入了对萨珊王朝波斯的战争。它的胜利证明了它的代价，现在帝国在经济和军事上都被削弱了。</Chinese>
+		<Chinese>公元600年的第一缕阳光照耀着君士坦丁堡。自查士丁尼大帝驾崩后，他生前的大部分战果均被消磨殆尽。当意大利北部被伦巴第人占据，而多瑙河防线也难以抵御斯拉夫人入侵的时候，拜占庭同时陷入了一场与萨珊波斯之间旷日持久的战争。这是一场皮洛士式的胜利（指代价高昂的惨胜），现在，帝国在经济和军事上均处于严重衰落中。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_YEMEN</Tag>
 		<English>It is the year 819 AD. Following their victories, a new amir of Yemen has been appointed Amir of Yemen with the task of restraining the Alid Shi'a influence in the area. As Abbasid rule continues to wane and the spice trade from India continues to bolster Yemen's growth, the Yemeni nation is in a prime position to become the new face of the Arabian peninsula.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元819年，在他们的胜利之后，也门的一个新的阿米尔被任命为也门的阿米尔，任务是限制阿利德什叶派在该地区的影响力。随着阿巴斯统治的继续衰落和来自印度的香料贸易继续促进也门的增长，也门民族处于成为阿拉伯半岛新面貌的首要位置。</Chinese>
+		<Chinese>公元819年的第一缕阳光照耀着亚丁湾。在阿拔斯王朝取得战争胜利后，他们任命了一位新的埃米尔统治也门，以遏制阿利德什叶派在这一区域的影响力。随着阿拔斯王朝统治力不断减弱，来自印度的香料贸易不断推动着也门的发展，也门埃米尔国逐渐成为了阿拉伯半岛上一个占据首要位置的新兴国家。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_MONGOLIA</Tag>
+		<Tag>TXT_KEY_DOM_MONGOL</Tag>
 		<English>It is the year 1190 AD. For centuries, the peoples of the Mongolian steppe were too divided to pose an actual threat to the world. Now that Temujin has managed to unify all Mongolian tribes under his command, everything has changed, and soon both Orient and Occident will tremble in fear before his armies.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1190年的第一缕阳光照耀着蒙古高原。几个世纪以来，草原上的各个部族，由于太过分散，无法对世界构成大的威胁。但是现在，铁木真已经各个蒙古部族统一起来，一切都改变了。很快，在他攻无不克，战无不胜的精锐骑兵面前，东方国家和西方国家都将绝望地颤栗。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_MONGOL_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着蒙古高原。准噶尔汗国与大清帝国的战争正在进行中。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CHINA</Tag>
+		<English>It is the year 2070 BC. China is the easternmost region of the world where human civilization first develops. Through the dynasties of Xia, Shang and Zhou, cities develop mainly in the vicinity of the Yellow River, and the concept of a "Mandate of Heaven" is invented to legitimize the rule of the Middle Kingdom of China through the ages.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前2070年的第一缕阳光照耀在黄河之滨。在人类文明的萌芽阶段，中国就是文明世界的最东方。夏商周三代，城市如雨后春笋般出现于黄河之岸；同时，“天命”开始逐渐被君王们用来证明自己统治的合法性。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CHINA_600AD</Tag>
+		<English>It is the year 600 AD. After the Han Dynasty had collapsed, civil war between the Chinese kingdoms ensued. Only 11 years ago Emperor Wen of Sui managed to reunite China and reclaim the Mandate of Heaven. But the power of the Sui Dynasty is not completely consolidated, and the old challenges of China remain.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着隋都大兴（长安）。汉朝灭亡后，中国分裂成了多个割据王国，内战接踵而至。就在11年前，隋文帝成功地统一了中国，收回了天命。但隋朝的势力并未完全巩固，中华文明仍面临着众多旧有的挑战。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_CHINA_1700AD</Tag>
 		<English>It is the year 1700 AD. After the Ming Dynasty has collapsed under peasant revolts, the Jurchens of Manchuria have conquered China and established the Qing Dynasty. With Manchuria and Tibet under imperial control, China has reached the greatest extent in history, and the rule of the Kangxi Emperor promises another golden era.</English>
@@ -152,11 +272,29 @@
 		<Chinese>公元1700年的第一缕阳光照耀着金碧辉煌的紫禁城。由于农民起义，明王朝灭亡，满洲的女真部落武装长驱直入，占领全国，建立了清王朝。现在，满洲、新疆、西藏都在帝国的控制之下，这是中国历史上领土最辽阔的时期；同时，康熙皇帝的统治，也昭示着另一个黄金时代的开始。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_DOM_INDIA</Tag>
+		<English>It is the year 1500 BC. After the collapse of the Harappan civilization, the Vedic Aryans reach the Indo-Gangetic plain. The following Vedic era features the development of a caste system and the Mahajanapada kingdoms, where the most important epics of Indian culture are authored, laying the foundation to transform India into the religious and spiritual center of the world.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元前1500年的第一缕阳光照耀着恒河平原。随着哈拉帕文明的崩溃，雅利安人进入了印度河―恒河平原。他们将带来种姓制度，并建立起自己的王国，印度文化的史诗将在这里被不断创作，并为印度成为世界宗教精神的中心打好基础。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_INDIA_600AD</Tag>
+		<English>It is the year 600 AD. After the collapse of the Harappan civilization, the Vedic Aryans reach the Indo-Gangetic plain. The following Vedic era features the development of a caste system and the Mahajanapada kingdoms, where the most important epics of Indian culture are authored, laying the foundation to transform India into the religious and spiritual center of the world.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着恒河平原。印度正经历波罗王朝的统治。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_DOM_INDIA_1700AD</Tag>
 		<English>It is the year 1700 AD. Sixteen years ago, Shivaji Bhosle has established the Maratha Kingdom, the first Hindu state to challenge Mughal hegemony over Northern India. With Mughal power declining, now is the time to break Muslim domination of the subcontinent for good.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年。16年前，贾特拉帕蒂·西瓦吉建立了马拉塔王国，这是印度第一个挑战莫卧儿对印度北部霸权的国家。随着莫卧儿王朝的衰落，现在是时候永远打破穆斯林对次大陆的统治了。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着次大陆西部。16年前，贾特拉帕蒂·西瓦吉建立了马拉塔王国，这是第一个挑战莫卧儿王朝对印度北部地区霸权的印度教国家。随着莫卧儿王朝的衰落，现在是时候永远打破穆斯林对次大陆的统治了。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_SPAIN</Tag>
+		<English>It is the year 718 AD. Arabs from the Ummayad Caliphate have overrun almost all of Iberia and put an end to Visigoth rule. Now the Spanish Kingdom of Asturias is founded in the mountainous north, seeking to restore Christian control over Iberia and expand it beyond.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元718年的第一缕阳光照耀着伊比利亚。倭马亚哈里发王朝几乎控制了整个伊比利亚半岛，并终结了西哥特人的统治。但是现在，西班牙的阿斯图里亚斯王国建立于北部山地，正在为基督教势力重新控制伊比利亚而奋斗。当然，他们的目标绝不仅局限于此。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_SPAIN_1700AD</Tag>
 		<English>It is the year 1700 AD. The Spanish Empire is in a state of decline. Income from the American colonies is diminishing, the cultural flourishing of the last century has come to an end, and now the ruling Habsburg dynasty is about to die out. The conflict over the Spanish succession is about to consume Europe ...</English>
@@ -170,10 +308,28 @@
 		<Chinese>公元989年的第一缕阳光照耀着尼日尔河。相对于旧世界的其他地区，撒哈拉以南的非洲始终没有得到很好的发展。但是马里人坐拥高产的金矿，这些财富吸引了它北方近邻们的注意。抵抗外敌入侵，保护自己的财富，马里王国现在有机会成为地球上最富裕的文明。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_UZBEKISTAN</Tag>
+		<Tag>TXT_KEY_DOM_MALI_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着廷巴克图。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TURKS</Tag>
+		<English>It is the year 554 AD. After throwing off their domination by the Rouran Khaganate, the Turks have taken control of the Central Asian steppes. Both China and the Middle East are open for raids and conquests, and the Silk Road promises vast riches to whoever controls it.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元554年的第一缕阳光照耀着巴尔喀什湖。在摆脱柔然汗国的统治后，突厥人控制了中亚大草原。中国和中东都敞开了面向劫掠者和征服者的大门，同时，丝绸之路也向任何能够控制它的人提供了巨大的财富。</Chinese>
+	</TEXT>				
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TURKS_600AD</Tag>
+		<English>It is the year 600 AD. After throwing off their domination by the Rouran Khaganate, the Turks have taken control of the Central Asian steppes. Both China and the Middle East are open for raids and conquests, and the Silk Road promises vast riches to whoever controls it.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着巴尔喀什湖。在摆脱柔然汗国的统治后，突厥人控制了中亚大草原。中国和中东都敞开了面向劫掠者和征服者的大门，同时，丝绸之路也向任何能够控制它的人提供了巨大的财富。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_TURKS_1700AD</Tag>
 		<English>It is the year 1700 AD. After the rise of the Safavid Empire, the power of the Timurids as the eminent Turkic power in the Middle East has been broken. Afterwards, Uzbek tribes have invaded Transoxiana and captured its wealthy cities, establishing the Khanate of Bukhara.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年，萨非帝国崛起后，帖木儿王朝作为中东地区土库曼王朝的显赫力量被打破。后来，乌兹别克部落入侵特兰西亚纳，占领了特兰西亚纳富裕的城市，建立了布哈拉汗国。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着费尔干纳盆地。萨菲帝国的崛起，代表着帖木儿王朝作为最显赫突厥势力在中东的统治地位已被打破。自此之后，乌兹别克部落入侵河中地区，并占领了此处富裕的城市，建立了布哈拉汗国。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ITALY</Tag>
@@ -182,35 +338,35 @@
 		<Chinese>公元1167年的第一缕阳光照耀着亚平宁半岛。意大利已经被德国国王统治得太久太久了，然而现在，伦巴第的市民们在罗马教皇的支持下揭竿而起，实现了独立。意大利各城邦虽然彼此经常不和，但是它们依然在欧洲占据着科技、文化、贸易的主导地位，并在文艺复兴时期中占尽先机。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_KOREA</Tag>
-		<English>It is the year 50 BC. The three Korean kingdoms of Silla, Baekje and Goguryeo form on the Korean peninsula, the first step of centralization of power away from their predecessor chiefdoms. The Chinese are close; Korea will have to have to adapt their more advanced organization without abandoning its own sovereignty.</English>
+		<Tag>TXT_KEY_DOM_ITALY_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前50年的第一缕阳光照耀着朝鲜半岛。朝鲜半岛上的三个王国――百济、新罗和高句丽摈弃了之前的部落酋长制度，向着中央集权制度迈出了第一步。作为中国的近邻，高丽必须在保持自己独立的同时，尽量吸收中国的先进制度。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着亚平宁半岛。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_AUSTRALIA</Tag>
 		<English>It is the year 1850 AD. The Australian Colonies Government Act has just been signed, granting representative constitutions to the colony. The mineral riches of the land can provide the base of a well developed empire.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1850年，《澳大利亚殖民地政府法》刚刚签署，授予殖民地代表性宪法。这片土地丰富的矿产资源为一个发达的帝国提供了基础。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_RUSSIA</Tag>
-		<English>It is the year 1283 AD...</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元860年的第一缕阳光投射在东欧的白桦林上。瓦拉几亚的游牧民族开始沿着北欧与拜占庭之间的琥珀之路建立他们自己的国家。他们与当地的斯拉夫原住民迅速融合，建立罗斯公国，并着眼于整个东欧，甚至更遥远的广阔领土。</Chinese>
+		<Chinese>公元1850年的第一缕阳光照耀着悉尼的港湾。《澳大利亚殖民地政府法》刚刚签署，授予殖民地一部代议制宪法。这片土地丰富的矿产资源为一个发达的帝国提供了基础。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_SWAHILI</Tag>
 		<English>It is the year 960 AD. For generations the East Coast of Africa has been visited by Persian and Arabic traders from the Islamic world, giving rise to a uniquely mixed culture. Now, with the purchase of the highly defensible island of Kilwa from the inland dwellers, the Swahili traders are ready to control the trade of the entire Indian ocean, and maybe even beyond...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元960年，几代人以来，伊斯兰世界的波斯和阿拉伯商人来到非洲东海岸，形成了一种独特的混合文化。现在，随着从内陆居民手中购买了防御能力很强的基尔瓦岛，斯瓦希里商人准备控制整个印度洋的贸易，甚至可能控制更远的地区。。。</Chinese>
+		<Chinese>公元960年的第一缕阳光照耀着坦噶尼喀海岸。几代人以来，东非海岸频频有来自伊斯兰世界的波斯及阿拉伯商人来访，形成了一种独特的混合文化。现在，随着斯瓦希里商人从内陆居民手里购买了具备极强防御力的基尔瓦岛，他们已经准备好控制整个印度洋的贸易，甚至实现更为远大的目标……</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_INDONESIA</Tag>
 		<English>It is the year 650 AD. Nearly all of the trade between China and India passes the Strait of Malacca. Benefiting from its position on the nearby island of Sumatra, the Indonesian Kingdom of Srivijaya rises to become a major trading power in Southeast Asia.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元700年的第一缕阳光照耀着马六甲海峡。几乎所有在中国和印度之间的贸易都必须经过马六甲海峡。得益于这一地理位置，位于苏门答腊岛上的室利佛逝王国逐渐崛起，并成为了东南亚地区一股强大的势力。</Chinese>
+		<Chinese>公元650年的第一缕阳光照耀着马六甲海峡。几乎所有在中国和印度之间的贸易都必须经过马六甲海峡。得益于这一地理位置，位于苏门答腊岛上的室利佛逝王国逐渐崛起，并成为了东南亚地区一股强大的势力。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_INDONESIA_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着爪哇岛。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TIBET</Tag>
 		<English>It is the year 630 AD. The Tibetan clans around Lhasa have been united, and the current weakness of the neighboring Chinese Tang and Indian Pala empires opens the opportunity to expand your empire from the Tibetan highlands and spread Buddhist teaching in the whole world.</English>
@@ -218,23 +374,29 @@
 		<Chinese>公元630年的第一缕阳光照耀着青藏高原。居住在拉萨附近的藏族部落开始联合起来，与此同时，唐王朝和波罗王朝的衰败给吐蕃带来了向邻邦开疆扩土，并把佛教教义传播至世界各地的良机。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_MUGHALS</Tag>
-		<English>It is the year 1206 AD. Although Muslim rulers have occasionally raided India for centuries, the foundation of the Delhi Sultanate by Muhammad of Ghor marks the establishment of Islam as a political power on the subcontinent. Their successors, including the Muslim Mughal dynasty, would spread their faith all over India and erect its greatest architectural wonders since ancient times.</English>
+		<Tag>TXT_KEY_DOM_TIBET_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1206年的第一缕阳光照耀着恒河平原。尽管印度已被穆斯林统治者们间歇地袭击了几个世纪，但穆罕默德&#12539;古尔所建立的德里苏丹国首次象征着伊斯兰政权在南亚次大陆的巩固。以莫卧儿帝国为首的传承者们，将他们的信仰传播至整个印度，并将建造起印度历史上最伟大的建筑奇观。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着布达拉宫。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_NIGERIA</Tag>
 		<English>It is the year 1180 AD. While living there for centuries, the people of the region have only just begun to unify, under the sixteen clans in the city-state of Ife. The newly united Yoruba people are now ready to spread their culture, urbanism, and wisdom from the banks of the river Niger to the coast of the Gulf of Guinea.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1180年。虽然在那里生活了几个世纪，该地区的人民才刚刚开始统一，隶属于伊夫城邦的16个部族。新团结起来的约鲁巴人现在准备将他们的文化、城市化和智慧从尼日尔河沿岸传播到几内亚湾沿岸。</Chinese>
+		<Chinese>公元1180年的第一缕阳光照耀着尼日尔河流域。在此地繁衍生息几个世纪后，隶属于伊费城邦的16个部族民众们才刚刚开始统一。新团结起来的约鲁巴人现在准备将他们的文化、城建技术和智慧从尼日尔河沿岸传播到几内亚湾沿岸。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_SWEDEN_1700AD</Tag>
-		<English>It is the year 1700 AD. The Kingdom of Sweden is the most formidable of the Scandinavian powers and has managed to establish an empire by acquiring Finland. Still, its expansion has also created enemies, and rivals like Denmark-Norway, Poland and especially Russia might seek to curb Swedish power...</English>
+		<Tag>TXT_KEY_DOM_NIGERIA_1700AD</Tag>
+		<English>It is the year 1700 AD.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着波罗的海。目前，瑞典王国是斯堪的纳维亚地区最令人生畏的势力，通过占领芬兰，一个新的帝国正在崛起。当然，不断的扩张也带来了敌人，丹麦-挪威王国、波兰，尤其是俄国，它们都想压制瑞典，并从中分一杯羹……</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着尼日尔河流域。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_THAILAND</Tag>
+		<English>It is the year 1350 AD. The collapse of the Khmer Empire has allowed the Thai people to claim hegemony over South East Asia. They were able to raze the Khmer capital of Angkor and found their own kingdom west of it, in Ayutthaya.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1350年的第一缕阳光照耀在大城上空。高棉帝国的崩溃为泰人提供了在东南亚证明自己统治力的契机，他们将摧毁原来的高棉国都吴哥，并在它的西面建立起自己的王朝――大城王朝。</Chinese>
+	</TEXT>			
 	<TEXT>
 		<Tag>TXT_KEY_DOM_THAILAND_1700AD</Tag>
 		<English>It is the year 1700 AD. With excellent relations with the new European powers in South Asia and controlling one of the largest cities in the world, the Kingdom of Ayutthaya is in an advantageous condition. However, the threat from their Burmese neighbors is beginning to grow and even the Europeans might consider colonization ...</English>
@@ -245,62 +407,98 @@
 		<Tag>TXT_KEY_DOM_PHILIPPINES</Tag>
 		<English>It is the year 900 AD. All across the archipelago polities are beginning to rise, spurred by its position on the trade routes between India and China. While culturally influenced by these two great regions, the archipelago is also home to a strong tradition of its own. One of the first polities to rise is Tondo. Surrounded on all sides by water, is especially well-placed to command an influential role across the entirety of Luzon and beyond.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元900年，受其在中印贸易路线上的地位刺激，所有群岛政治都开始崛起。在文化上受这两大地区的影响的同时，这个群岛也有着自己强大的传统。最早崛起的政体之一是东多。四面都被水包围着，特别适合指挥整个吕宋岛和其他地方的有影响力的角色。</Chinese>
+		<Chinese>公元900年的第一缕阳光照耀着菲律宾的岛群。由于菲律宾位于中印之间的贸易路线上，受此影响，群岛上开始崛起多个政治势力。在文化上受中印两大地区影响的同时，这个群岛也有着自己强大的传统。通多王国是最早崛起的政治势力之一。四面环海，这个王国将在未来成为整个吕宋岛乃至更大区域的统治力量。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_KANEM-BORNU_1700AD</Tag>
+		<Tag>TXT_KEY_DOM_PHILIPPINES_1700AD</Tag>
+		<English>It is the year 1700 AD.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元900年的第一缕阳光照耀着菲律宾的岛群。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CHAD</Tag>
+		<English>It is the year 700 AD. The Kanembu peoples settle along the banks of Lake Chad. While lacking in fertility, the region's vast aquifiers and strategic position between the wealthy Arabians and resource rich Sub-Saharan will surely draw the attention of the Trans-Saharan trade that thrives to their west.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元700年的第一缕阳光照耀着乍得湖。加涅姆人在乍得湖畔定居。尽管此地土壤并不肥沃，但该地区丰富的水源，地处富裕阿拉伯国家之间并坐拥撒哈拉以南地区丰富资源的优秀战略地位，必将吸引在其西部地区蓬勃发展的跨撒哈拉贸易活动的光顾。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_CHAD_1700AD</Tag>
 		<English>It is the year 1700 AD. After the death of the Idris Alooma nearly a century ago, the Bornu Empire has been slowly fading. The Trans-Saharan trade no longer flows through the hear of the continent, and the western reaches of their former empire has since broke off from the crown...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年，伊德里斯·阿洛马一个世纪前去世后，博尔努帝国逐渐衰落。横贯撒哈拉的贸易不再流经非洲大陆，他们前帝国的西部地区从此脱离了王位。。。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_CHINA</Tag>
-		<English>It is the year 2070 BC. China is the easternmost region of the world where human civilization first develops. Through the dynasties of Xia, Shang and Zhou, cities develop mainly in the vicinity of the Yellow River, and the concept of a "Mandate of Heaven" is invented to legitimize the rule of the Middle Kingdom of China through the ages.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前2070年的第一缕阳光照耀在黄河之滨。在人类文明的萌芽阶段，中国就好比是世界的最东方。夏商周三代，城市如雨后春笋般出现于黄河之岸；同时，“天命”开始逐渐被君王们用来证明自己统治的合法性。</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着乍得湖。在伊德里斯·阿洛马于大约一个世纪前去世后，博尔努帝国逐渐衰落。横贯撒哈拉的贸易不再经过这一国度，同时，帝国的西部地区也早已脱离了国王的统治……</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ETHIOPIA</Tag>
 		<English>It is the year 295 BC. The Ethiopian highlands are exceptionally fertile due to its temperate climate, but also quite remote from other civilizations. This changes when the major trade routes between the Roman Empire and Indians shift to the Red Sea, allowing the Ethiopian kingdom of Aksum to flourish.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前295年的第一缕阳光照耀着东非高原。由于温和的气候，埃塞俄比亚高原土地异常肥沃，但却不为其他文明所熟知。但是，当罗马和印度之间的贸易路线转移到了红海沿岸之后，这种情况发生了变化，阿克苏姆王国自此开始蓬勃发展。</Chinese>
+		<Chinese>公元前295年的第一缕阳光照耀着东非高原。得益于温和的气候，埃塞俄比亚高原土地异常肥沃，但却不为其他文明所熟知。但是，当罗马和印度之间的贸易路线转移到了红海沿岸之后，这种情况发生了变化，阿克苏姆王国自此开始蓬勃发展。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ETHIOPIA_600AD</Tag>
+		<English>It is the year 600 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着东非高原。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_ETHIOPIA_1700AD</Tag>
+		<English>It is the year 1700 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着东非高原。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_CANADA</Tag>
 		<English>It is the year 1867. After the American revolution, Canada has remained under colonial control. With the approval of the North America Acts, Canada has now been finally granted independence so it can expand across the Great White North on its own accord.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>1867年。美国革命后，加拿大一直处于殖民统治之下。随着北美法案的通过，加拿大终于获得了独立，因此它可以自行扩展到整个”北大白“地区。</Chinese>
+		<Chinese>公元1867年的第一缕阳光照耀着尼亚加拉瀑布。自从北美十三州独立后，加拿大仍然一直处于殖民统治之下。随着北美法案的批准通过，加拿大终于获得了独立，自此，它可以凭借自身力量扩张到整个“北大白”地区。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_MAYA</Tag>
 		<English>It is the year 400 BC. Urbanization on the peninsula of Yucatan sparks the formation of the Mayan city states, whose technological and architectural advancements would create the first advanced civilization in the Americas.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元60年的第一缕阳光照耀着中美洲的雨林，尤卡坦半岛上的城邦联合组成了玛雅城邦联盟，凭借着先进的技术和建筑工艺，他们将建立起美洲大陆上的第一个文明。</Chinese>
+		<Chinese>公元前400年的第一缕阳光照耀着中美洲的雨林，尤卡坦半岛上的城邦联合组成了玛雅城邦联盟，凭借着先进的技术和建筑工艺，他们将建立起美洲大陆上的第一个文明。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_MAYA_600AD</Tag>
+		<English>It is the year 600 AD. </English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着中美洲的雨林。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_VIETNAM</Tag>
 		<English>It's the year 257 BC. Your people live a peaceful life at the Red River delta, but conquerers from the north calling themselves the Sons of Heaven threaten to end this lifestyle once and for all. It is your duty to not only fend off these arrivists, but also build an empire that outshines everthing that has ever been.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前257年。你们的人民在红河三角洲过着和平的生活，但是来自北方自称天子的征服者威胁要永远结束这种生活方式。你的责任不仅是抵挡这些侵略分子，而且要建立一个比以往任何时候都更加耀眼的帝国。</Chinese>
+		<Chinese>公元前257年的第一缕阳光照耀着红河三角洲。你的人民在此处安居乐业，但是来自北方，自称天子的征服者威胁要永远结束你们的这种生活方式。你的责任不仅是抵挡这些侵略分子，而且要建立一个比以往任何时候都更加耀眼的帝国。（此段仅为原文翻译，不代表汉化者真实想法）</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_TURKESTAN_600AD</Tag>
-		<English>It is the year 600 AD. After throwing off their domination by the Rouran Khaganate, the Turks have taken control of the Central Asian steppes. Both China and the Middle East are open for raids and conquests, and the Silk Road promises vast riches to whoever controls it.</English>
+		<Tag>TXT_KEY_DOM_VIETNAM_1700AD</Tag>
+		<English>It's the year 1700 AD. Your people live a peaceful life at the Red River delta, but conquerers from the north calling themselves the Sons of Heaven threaten to end this lifestyle once and for all. It is your duty to not only fend off these arrivists, but also build an empire that outshines everthing that has ever been.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元600年，在摆脱了鲁兰汗国的统治后，土耳其人控制了中亚大草原。中国和中东都对突袭和征服开放，丝绸之路向控制丝绸之路的人承诺了巨大的财富。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_TURKESTAN</Tag>
-		<English>It is the year 554 AD. After throwing off their domination by the Rouran Khaganate, the Turks have taken control of the Central Asian steppes. Both China and the Middle East are open for raids and conquests, and the Silk Road promises vast riches to whoever controls it.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元554年，土耳其人摆脱了鲁兰汗国的统治，控制了中亚大草原。中国和中东都对突袭和征服开放，丝绸之路向控制丝绸之路的人承诺了巨大的财富。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着红河三角洲。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_POLYNESIA</Tag>
 		<English>It is the year 1000 BC. Polynesian settlers have migrated to the Tongan and Samoan islands. With their exceptional navigational skills, they can reach and settle even the most isolated islands in the South Pacific Ocean around them.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前1000年。波利尼西亚定居者移居汤加和萨摩亚群岛。凭借非凡的航海技术，他们甚至可以到达并定居在南太平洋最孤立的岛屿周围。</Chinese>
+		<Chinese>公元前1000年的第一缕阳光照耀着汤加的岛群。波利尼西亚的先民已经定居于汤加和萨摩亚群岛。凭借非凡的航海技术，他们甚至可以到达南太平洋最孤立的岛屿周围，并在那里繁衍生息。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_POLYNESIA_600AD</Tag>
+		<English>It is the year 600 AD.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着汤加的岛群。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_POLYNESIA_1700AD</Tag>
+		<English>It is the year 1700 AD.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着汤加的岛群。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_DOM_POLAND</Tag>
+		<English>It is the year 1025 AD. After the Christianization of the West Slavs in 966, the first Polish ruler is coronated as king. Fertile lands promise urban growth, while pagan neighbors to the north and declining Orthodox polities to the east offer opportunities for expansion.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1025年的第一缕阳光照耀着维斯瓦河。自公元966年西斯拉夫人皈依基督教以来，第一个波兰统治者加冕为王。肥沃的土地给予城市发展的保证，同时北方的异教邻邦和东方日益衰败的东正教政权给波兰的壮大提供了机遇。</Chinese>
+	</TEXT>			
 	<TEXT>
 		<Tag>TXT_KEY_DOM_POLAND_1700AD</Tag>
 		<English>It is the year 1700 AD. Cossack uprisings and the Swedish deluge have severely weakened the Polish-Lithuanian Commonwealth, and the decentralized political system is incapable of reform. Encircled by the growing powers of Prussia, Austria and Russia, the very independence of Poland is in danger ...</English>
@@ -311,55 +509,43 @@
 		<Tag>TXT_KEY_DOM_BABYLONIA</Tag>
 		<English>It is the year 3000 BC. The fertile crescent of Mesopotamia is home of the first urbanized cultures in the history of mankind and known as the cradle of civilization. Though the cities of Sumer and Akkad are thriving, with the emergence of Babylon, they will soon be overshadowed by the greatest metropolis of its time.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前3000年的第一缕阳光照耀在两河流域。美索不达米亚肥沃的土地，是人类历史上第一个城市化文明的摇篮。虽然目前苏美尔和阿卡德的城市欣欣向荣，但是不久，他们的光芒就将被当时世界上最伟大的城市――巴比伦所掩盖。</Chinese>
+		<Chinese>公元前3000年的第一缕阳光照耀着两河流域。美索不达米亚肥沃的土地，是人类历史上第一个城市化文明的摇篮。虽然目前苏美尔和阿卡德的城市欣欣向荣，但是不久，他们的光芒就将被当时世界上最伟大的城市――巴比伦所掩盖。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_VIKINGS_600AD</Tag>
-		<English>It is the year 600 AD. The scarcity of food makes the inhabitants of Scandinavia excellent sailors that rely on fishing and trade. Their home kingdoms still can't sustain further population growth, and the Vikings have to turn to lands across the sea. Not only the coasts of the North Sea, but also those of the Mediterranean and even the New World make good targets for either plunder or settlement.</English>
+		<Tag>TXT_KEY_DOM_HOLY_ROMAN</Tag>
+		<English>It is the year 843 AD. The Treaty of Verdun brings the final separation of the Frankish Empire into West and East Francia. The eastern half is dominated by German peoples, and not only would its German kings break with the Romantic Frankish culture, but also claim its imperial title and the continuation of the Holy Roman Empire.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元600年。食物的匮乏使斯堪的纳维亚的居民成为依靠捕鱼和贸易的优秀水手。他们的王国仍然无法维持人口的进一步增长，维京人不得不转向海洋对面的陆地。不仅北海海岸，地中海海岸，甚至新大陆海岸都是掠夺或定居的好目标。</Chinese>
-	</TEXT>	
+		<Chinese>公元843年的第一缕阳光照耀在多瑙河畔。凡尔登条约将法兰克王国分割成东西两半。东半部分为日耳曼人所占据，是为东法兰克王国。这个王国不仅将继承古罗马帝国的文化，还将彰显其伟大的名声并使神圣罗马帝国永世留存。</Chinese>
+	</TEXT>		
 	<TEXT>
-		<Tag>TXT_KEY_DOM_AUSTRIA_1700AD</Tag>
+		<Tag>TXT_KEY_DOM_AUSTRIA</Tag>
 		<English>It is the year 1700 AD. Despite the setbacks during the Thirty Years War, the victory at the Siege of Vienna allowed the Habsburg Monarchy to drive back the Turks and secure their holdings in the Balkans. The beginning of the Austrian baroque let arts and architecture flourish, but the weakness of the Spanish line may lead to another war soon ...</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1700年的第一缕阳光照耀着多瑙河。尽管在三十年战争中铩羽而归，但是维也纳之战中，哈布斯堡王朝击退了土耳其的入侵，并将异教徒的势力暂时控制在巴尔干半岛。奥地利巴洛克时代的开始，使得艺术和建筑都有了显著的发展，但是由于西班牙王位继承权引发的一系列问题，可能很快就要带来一场新的战争。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_TAMILS_600AD</Tag>
-		<English>It is the year 600 AD...</English>
+		<Tag>TXT_KEY_DOM_NUBIA</Tag>
+		<English>It is the year 2500 BC. Threatened and inspired by the growing might and culture of their northern neighbors, the Nubian peoples found the Kerma Kingdom...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年的第一缕阳光照耀在德干高原。随着桑伽姆文化的发展，泰米尔文化开始在印度南部快速发展。临近中国和罗马这一得天独厚的地理位置，以及极具价值的香料资源，使得当地的朱罗, 潘地亚以及注辇王朝成为富庶的贸易中心。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_CHINA_600AD</Tag>
-		<English>It is the year 600 AD. After the Han Dynasty had collapsed, civil war between the Chinese kingdoms ensued. Only 11 years ago Emperor Wen of Sui managed to reunite China and reclaim the Mandate of Heaven. But the power of the Sui Dynasty is not completely consolidated, and the old challenges of China remain.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年。汉朝灭亡后，中国王国之间的内战接踵而至。就在11年前，隋文帝成功地统一了中国，收回了天命。但隋朝的势力并未完全巩固，中国的旧挑战依然存在。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_OMAN</Tag>
-		<English>It is the year 751 AD. Seeking to form a nation ruled not by an absolute political or military ruler but by the will of god, the Azd Ibadi Muslims form the Imamate of Oman...</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元751年，为了建立一个不受绝对的政治或军事统治者，而是由上帝意志统治的国家，阿兹伊巴迪穆斯林组成了阿曼的教友。。。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_SPAIN</Tag>
-		<English>It is the year 718 AD. Arabs from the Ummayad Caliphate have overrun almost all of Iberia and put an end to Visigoth rule. Now the Spanish Kingdom of Asturias is founded in the mountainous north, seeking to restore Christian control over Iberia and expand it beyond.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元718年的第一缕阳光照耀着伊比利亚。倭马亚哈里发王朝几乎控制了整个伊比利亚半岛，并终结了西哥特人的统治。但是现在，西班牙的阿斯图里亚斯王国建立于北部的多山地区，正在为基督教势力重新控制伊比利亚而奋斗。当然，他们的目标绝不仅局限于此。</Chinese>
-	</TEXT>	
+		<Chinese>公元前2500年的第一缕阳光照耀着尼罗河中游地区。受到北方邻国日益增长的军事实力威胁，以及文化影响，努比亚人建立了库施王国……</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_NUBIA_600AD</Tag>
 		<English>It is the year 600 AD. Following the collapse of the Kingdom of Kush, the Kingdom of Makuria rises in hopes of reviving the Nubian Dynasty and maintaining the rule of Orthodox Christianity...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年，随着库什王国的崩溃，马库里亚王国崛起，希望复兴努比亚王朝，维持正统基督教的统治。。。</Chinese>
+		<Chinese>公元600年的第一缕阳光照耀着努比亚的故土，随着库什王国的崩溃，马库里亚王国正在崛起，并希望复兴努比亚王朝，并维持东正教在这一区域的统治地位……</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_NUBIA_1700AD</Tag>
+		<English>It is the year 1700 AD. A center of the arts and sciences, the Funj Sultanate has managed to stave off the aggressions of their Ottoman neighbors...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元1700年的第一缕阳光照耀着尼罗河中游的土地。作为艺术和科学的中心，丰吉苏丹国设法阻止了邻国奥斯曼的侵略……</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_RUS'</Tag>
 		<English>It is the year 882 AD. Varangian travelers among the amber road between Scandinavia and Byzantium begin to set up states along their routes. Quickly mingling with their Slavic subjects, they would become the Rus and set out to settle the vast areas of Eastern Europe and beyond.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元882年，在斯堪的纳维亚和拜占庭之间的琥珀路上，瓦兰吉安人开始沿着他们的路线建立州。他们很快与斯拉夫人混在一起，成为罗斯人，开始在东欧和其他地区定居。</Chinese>
+		<Chinese>公元882年的第一缕阳光照耀着顿河平原。在斯堪的纳维亚和拜占庭之间的琥珀之路上，瓦兰吉人开始沿着他们的迁徙路线建立城邦。他们很快与斯拉夫人杂居一处，逐渐形成了罗斯公国，并开始在东欧及更广阔的地区定居。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ROME</Tag>
@@ -368,58 +554,64 @@
 		<Chinese>公元前753年的第一缕阳光照耀在台伯河畔。拉丁部落在不久前建立了罗马城。他们坐拥优越的地理环境，拥有先进的政治制度，他们注定要控制整个亚平宁半岛。当时，欧洲的大多数其他地区都尚未开化，迦太基城邦将是罗马人控制整个地中海区域道路上的唯一障碍。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_TAMILS</Tag>
-		<English>It is the year 300 BC. With the development of their Sangam literature, the Tamil culture rises to the south of India. Their position close to both China and Rome as well as the availability of valuable spices have made the local dynasties of the Cheras, Pandyans and Cholas affluent centers of trade.</English>
+		<Tag>TXT_KEY_DOM_ROME_600AD</Tag>
+		<English>It is the year 600 AD.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前300年的第一缕阳光照耀在德干高原。随着桑伽姆文化的发展，泰米尔文化开始在印度南部快速发展。临近中国和罗马这一得天独厚的地理位置，以及极具价值的香料资源，使得当地的朱罗, 潘地亚以及注辇王朝成为富庶的贸易中心。</Chinese>
-	</TEXT>	
+		<Chinese>公元600年的第一缕阳光照耀着波河平原。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_GREECE</Tag>
 		<English>It is the year 1600 BC. The first city states emerge on the Greek peninsula. While the division of the Greek civilization might seem as a disadvantage at first, their emphasis on independence favors the inception of new ideas in literature, science and philosophy as well as new tactics in the art of warfare.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前1600年的第一缕阳光照耀在爱琴海上。第一座城市出现在希腊半岛上。虽然看上去希腊文明在一开始显得有些落后，但是他们对文学、科学和哲学的贡献，他们在战争中对阵法的创造，以及他们对自由独立的渴望，都将使他们青史留名。</Chinese>
+		<Chinese>公元前1600年的第一缕阳光照耀在爱琴海上。第一座城邦出现在希腊半岛上。虽然看上去希腊文明在一开始显得有些落后，但是他们对文学、科学和哲学的贡献，他们在战争中对阵法的创造，以及他们对自由独立的渴望，都将使他们青史留名。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_CONGO</Tag>
-		<English>It is the year 1390 AD. The Kingdom of Kongo emerges after the unification of several tribal polities in the Congo delta just when European powers start to expand their influence in Africa. It must try to keep its independence by both religious and economic means.</English>
+		<Tag>TXT_KEY_DOM_KHAZARIA</Tag>
+		<English>It is the year 650 AD. Following the breakup of the Western Turkic Khaganate, a group of Turkic peoples head west to found a new Khaganate. Positioned astride a major artery of the Silk Road, word of the tolerant Khazar Khaganate will soon spread far and wide, attracting a variety of peoples from disenfranchised faiths.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1390年的第一缕阳光照耀着刚果盆地。就在欧洲势力开始在非洲扩大他们的影响之时，刚果三角洲的几个部落政权联合了起来，刚果王国由此孕育。它必须通过宗教和经济手段试图来维持它的独立性。</Chinese>
-	</TEXT>	
+		<Chinese>公元650年的第一缕阳光照耀着里海北岸。在西突厥汗国瓦解后，一部分突厥人一路向西，建立了一个新的汗国。地处丝绸之路的交通要冲，可萨汗国宗教宽容的名声很快就会声名远播，吸引着来自各地因宗教信仰问题遭受迫害的人。</Chinese>
+	</TEXT>		
 	<TEXT>
-		<Tag>TXT_KEY_DOM_KAZAKH</Tag>
+		<Tag>TXT_KEY_DOM_KHAZARIA_1700AD</Tag>
 		<English>It is the year 1700 AD...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年。。。</Chinese>
+		<Chinese>公元1700年的第一缕曙光照耀着哈萨克大草原。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_POLAND</Tag>
-		<English>It is the year 1025 AD. After the Christianization of the West Slavs in 966, the first Polish ruler is coronated as king. Fertile lands promise urban growth, while pagan neighbors to the north and declining Orthodox polities to the east offer opportunities for expansion.</English>
+		<Tag>TXT_KEY_DOM_PERSIA</Tag>
+		<English>It is the year 844 BC. Persia has always been home to warlike peoples, but now the Achaemenid dynasty provides them with the unifying force to form an organized empire. While the Persian plateau is not particularly wealthy, it has rich and defenseless neighbors in India in the east and Mesopotamia in the west to conquer on their way to become the world's greatest empire.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1025年的第一缕阳光照耀着维斯瓦河。自公元966年西斯拉夫人皈依基督教以来，第一个波兰统治者加冕为王。肥沃的土地给予城市发展的保证，同时北方的异教邻邦和东方日益衰败的东正教政权给波兰的壮大提供了机遇。</Chinese>
+		<Chinese>公元前844年的第一缕阳光照耀着伊朗高原。长期以来，波斯人一直被认为是尚武的游牧民族，但是现在，阿契美尼德王朝的建立给了他们一个机会。伊朗高原地区土地略显贫瘠，然而在他的东方和西方，分别是富饶而不设防的印度和美索不达米亚。征服他们，开创一个世界上最强大的帝国！</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_PERSIA_600AD</Tag>
+		<English>It is the year 600 AD.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元600年的第一缕阳光照耀着伊朗高原。</Chinese>
+	</TEXT>				
 	<TEXT>
 		<Tag>TXT_KEY_DOM_IRAN</Tag>
 		<English>It is the year 1700 AD. The Safavid Dynasty, which has ruled Persia since 1500 AD, is losing authority over its territory. The time is ripe for a competent warlord to seize control and humiliate the neighboring Turks, Uzbeks and Mughals ...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年。自公元1500年起统治波斯的萨法维王朝正在失去对其领土的统治。一个称职的军阀夺取控制权、羞辱邻国土耳其人、乌兹别克人和穆加尔人的时机已经成熟。。。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_BYZANTIUM</Tag>
-		<English>It is the year 330 AD. With the Roman Empire threatened by Barbarian invasions from the east, it becomes evident that the Empire cannot be governed from Rome alone. So Constantine the Great has founded Constantinopolis as a "New Rome", in hopes that the Eastern Empire will be able to withstand these incursions and eventually restore the glory of the Roman Empire.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元330年的第一缕阳光照耀着君士坦丁堡，罗马帝国正不断受到来自东方的蛮族威胁，显然这个庞大的帝国已经不能单由罗马城管辖。于是，君士坦丁大帝建立了君士坦丁堡，并将这座城市认为是“新罗马”，藉此希望这个东部的帝国能够抵挡住蛮族的入侵，并重现罗马帝国昔日的辉煌！</Chinese>
+		<Chinese>公元1700年的第一缕阳光照耀着金碧辉煌的都城伊斯法罕。自公元1500年起一直统治波斯的萨菲王朝正在逐渐失去对其领土的掌控。王朝急需一个称职的统治者重新掌控国土，并羞辱邻国奥斯曼、乌兹别克以及莫卧儿……</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_INCA</Tag>
 		<English>It is the year 1150 AD. Manco Capac has just founded the Kingdom of Cuzco, the first Incan kingdom. Even in the harsh environment of the Andes and lacking suitable pack animals, they set out to create an empire never seen before in the Americas.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1150年的第一缕阳光照耀着的的喀喀湖。曼诺&#12539;卡帕不久前建立了印加的第一个王国――库斯科王国。安第斯山区环境恶劣且缺乏大型牲畜，但即使如此，他们仍然开创了一个在美洲前所未见的大帝国。</Chinese>
+		<Chinese>公元1150年的第一缕阳光照耀着的的喀喀湖。曼诺·卡帕不久前建立了印加的第一个王国――库斯科王国。安第斯山区环境恶劣且缺乏大型牲畜，但即使如此，他们仍然开创了一个在美洲前所未见的大帝国。</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_DOM_BURMA</Tag>
+		<English>It is the year 650 AD. Bamar settlers from the Pyu City states at the confluence of the Irrawaddy and Chindwin Rivers have migrated west to found the Kingdom of Pagan...</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>公元650年的第一缕阳光照耀着伊洛瓦底江。来自伊洛瓦底江和钦德温河交汇处的骠国城邦的缅族移民向西迁移，建立了蒲甘王朝……</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_BURMA_1700AD</Tag>
 		<English>It is the year 1700 AD. The golden age of the Toungoo Empire has long since ended...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元1700年，东郭帝国的黄金时代早已结束。。。</Chinese>
+		<Chinese>现在是公元1700年，缅甸东吁王朝的黄金时代早已结束……</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
@@ -428,23 +620,17 @@
 		<Chinese>文明的曙光</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_HOLY_ROME</Tag>
-		<English>It is the year 843 AD. The Treaty of Verdun brings the final separation of the Frankish Empire into West and East Francia. The eastern half is dominated by German peoples, and not only would its German kings break with the Romantic Frankish culture, but also claim its imperial title and the continuation of the Holy Roman Empire.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元843年的第一缕阳光照耀在多瑙河畔。凡尔登条约将法兰克王国分割成东西两半。东半部分为日耳曼人所占据，是为东法兰克王国。这个王国不仅将继承古罗马帝国的文化，还将彰显其伟大的名声并使神圣罗马帝国永世留存。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_DOM_MOORS</Tag>
 		<English>It is the year 711 AD. The Berbers and Arabs of the Maghreb have crossed the Strait of Gibraltar and defeated the Visigoths to establish the Emirate of Cordoba in Al-Andalus, driving the Iberian Christians to the northern coast of Asturias.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元711年的第一缕阳光照耀着安达卢西亚。居住于北非马格里布地区的柏柏尔人和阿拉伯人早已跨越了直布罗陀海峡，击败了西哥特人，并在安达卢斯建立起了科尔多瓦酋长国，把伊比利亚的基督徒们驱逐到了半岛北部的阿斯图里亚斯地区。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_THAILAND</Tag>
-		<English>It is the year 1350 AD. The collapse of the Khmer Empire has allowed the Thai people to claim hegemony over South East Asia. They were able to raze the Khmer capital of Angkor and found their own kingdom west of it, in Ayutthaya.</English>
+		<Tag>TXT_KEY_DOM_MOORS_1700AD</Tag>
+		<English>It is the year 1700 AD.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1350年的第一缕阳光照耀在大城上空。高棉帝国的崩溃为泰人提供了在东南亚证明自己统治力的契机，他们将摧毁原来的高棉国都吴哥，并在它的西面建立起自己的王朝――大城王朝。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着马拉喀什古城。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ARABIA</Tag>
 		<English>It is the year 622 AD. The founding of Islam unites the Arabian people under the banner of the Caliphate. Arabia's direct neighbors, the Byzantine Empire and Sassanid Persia, are weakened from their recent wars. It is the right time to expand the House of Islam into their wealthy possessions, forming a melting pot of cultures that will bring culture and science to new heights.</English>
@@ -452,28 +638,10 @@
 		<Chinese>公元622年的第一缕阳光照耀着红海之滨。伊斯兰教的创立，使得阿拉伯各部落团结在真主的旗帜下。而在阿拉伯的近邻，拜占庭帝国和萨珊波斯王朝因为旷日持久的战争而两败俱伤。现在，正是扩大伊斯兰教影响力的天赐良机。阿拉伯的文化和科技成就将达到一个新的高度，并为后世留下宝贵的财富。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_KOREA_600AD</Tag>
-		<English>It is the year 600 AD. The three Korean kingdoms still thrive and Goguryeo has expanded the influence of Korean civilization into Manchuria. But now that China is reunited again, they have to be careful to protect their independence for the future.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年，朝鲜三国仍然繁荣昌盛，高句丽将朝鲜文明的影响扩大到满洲。但现在中国又统一了，他们必须小心保护自己的独立，以备将来之需。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_HARAPPA</Tag>
+		<Tag>TXT_KEY_DOM_HARAPPANS</Tag>
 		<English>It is the year 3000 BC. The river beds of the Indus and Sarasvati provide fertile ground for ancient civilization. With unparalleled sanitation and urban planning, the Indus Valley Civilization centered around the city of Harappa can make use of this fertility and become the most widespread and populous civilization of its time.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前3000年。印度河和萨拉斯瓦蒂河的河床为古代文明提供了肥沃的土壤。以哈拉帕市为中心的印度河流域文明，凭借无与伦比的卫生设施和城市规划，可以利用这一肥沃的土地，成为当时最广泛、人口最多的文明。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_KHAZARIA</Tag>
-		<English>It is the year 650 AD. Following the breakup of the Western Turkic Khaganate, a group of Turkic peoples head west to found a new Khaganate. Positioned astride a major artery of the Silk Road, word of the tolerant Khazar Khaganate will soon spread far and wide, attracting a variety of peoples from disenfranchised faiths.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元650年，在西突厥汗国解体后，一群突厥人向西去寻找一个新的汗国。站在丝绸之路的一条大动脉上，宽容的卡扎尔-卡甘纳特的话语很快就会传遍全世界，吸引着各种被剥夺权利的信仰的人。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_KANEM-BORNU</Tag>
-		<English>It is the year 700 AD. The Kanembu peoples settle along the banks of Lake Chad. While lacking in fertility, the region's vast aquifiers and strategic position between the wealthy Arabians and resource rich Sub-Saharan will surely draw the attention of the Trans-Saharan trade that thrives to their west.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元700年，卡内姆布人在乍得湖畔定居。虽然缺乏生育能力，但该地区广阔的水源地以及富裕的阿拉伯国家和资源丰富的撒哈拉以南地区之间的战略地位，肯定会引起在其西部蓬勃发展的跨撒哈拉贸易的注意。</Chinese>
+		<Chinese>公元前3000年的第一缕阳光照耀着哈拉帕城邦。印度河和萨拉斯瓦蒂河的河床为古代文明提供了肥沃的土壤。以哈拉帕为中心的印度河流域文明，凭借当时举世无双的卫生设施和城市规划，可以利用这一肥沃的土地，成为当时影响最广、人口最多的文明。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ARGENTINA</Tag>
@@ -482,34 +650,22 @@
 		<Chinese>公元1810年的第一缕阳光照耀着拉普拉塔河口。在西班牙帝国处于衰落中的情况下，受到法国大革命精神的鼓舞，拉普拉塔总督区的人民推翻了西班牙总督的统治，并开始为建立阿根廷共和国而奋斗。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_NETHERLANDS</Tag>
-		<English>It is the year 1581 AD. Situated at the confluence of Europe's most important trade routes, the Netherlands are the most populated and wealthiest region of the continent. Far too long this wealth has gone to foreign powers, but now, after long wars, the Dutch people have finally reached independence and established a Republic.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1581年的第一缕阳光照耀在北海东岸。坐落于欧洲最主要的几条贸易路线的交汇之处，尼德兰逐渐成为了这块大陆上人口最稠密，财富最集中的区域。长久以来，这些财富掌握在外国人的手里，但是现在，经过长期的斗争，荷兰人终于取得了独立，并建立起自己的共和国。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_DOM_TEOTIHUACAN</Tag>
 		<English>It is the year 200 BC. While the Valley of Mexico has been inhabited for thousands of years, advanced civilization thus far has only flourished East, in the Olmec, Zapotec, and Maya heartlands. Now urban centers are developing around Lake Texcoco. The most prominent is Teotihuacan, poised to influence the culture of all Mesoamerica.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元前200年。虽然墨西哥山谷已经有人居住了数千年，但到目前为止，先进的文明只在奥尔梅克、扎波特克和玛雅的心脏地带蓬勃发展。现在，城市中心正在Texcoco湖周围发展。最突出的是特奥蒂瓦坎，准备影响整个中美洲的文化。</Chinese>
+		<Chinese>公元前200年的第一缕阳光照耀着墨西哥谷地。虽然墨西哥谷地中有人居住已达数千年，但到目前为止，先进的文明只在东部的奥尔梅克、萨波特克和玛雅的心脏地带蓬勃发展。现在，城市正在特斯科科湖周围发展。最突出的是特奥蒂瓦坎，它们的文化蓄势待发，将要影响整个中美洲。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_ISRAEL</Tag>
 		<English>It is the year 1948 AD. Following decades of Zionist immigration to Palestine, the international community has agreed to partition the region and create a Jewish state. Many challenges await the young Israeli nation, from coexisting with the surrounding Arab populations to growing a tradition of technological and scientific prowess.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1948年，犹太复国主义者移民巴勒斯坦几十年后，国际社会同意对该地区进行分治，建立一个犹太国家。这个年轻的以色列国家正面临着许多挑战，从与周围的阿拉伯人口共存到不断发展科技实力的传统。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_NUBIA_1700AD</Tag>
-		<English>It is the year 1700 AD. A center of the arts and sciences, the Funj Sultanate has managed to stave off the aggressions of their Ottoman neighbors...</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1700年。作为艺术和科学的中心，芬吉苏丹国设法阻止了奥斯曼邻国的侵略。。。</Chinese>
+		<Chinese>公元1948年的第一缕阳光照耀着锡安山，犹太复国主义者移民巴勒斯坦几十年后，国际社会同意对该地区进行分治，建立一个犹太国家。这个年轻的国家以色列正面临着许多挑战，包括与周围的阿拉伯诸国共存，以及弘扬犹太传统，不断发展科技实力。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_MAMLUKS</Tag>
 		<English>It is the year 969 AD. Under your command, the Fatimid army has conquered Egypt. The land here is rich and people are tired of persecutions from the hands of Sunni governors. The Ismaili Fatimids shall be more welcoming to people of different creeds - their help will be vital in the final battle against the caliphs of Baghdad.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元969年，在你的指挥下，法蒂玛军队征服了埃及。这里的土地富饶，人们厌倦了逊尼派统治者的迫害。伊斯梅利法蒂玛人将更欢迎不同信仰的人-他们的帮助将是至关重要的最后一场战斗巴格达哈里发。</Chinese>
+		<Chinese>公元969年的第一缕阳光照耀着开罗城。在你的指挥下，法蒂玛军队征服了埃及。这里的土地富饶，人们厌倦了逊尼派统治者的迫害。伊斯玛仪法蒂玛王朝将对持不同信仰的人更为宽容——在对位于巴格达的哈里发的最后决战中，这些人将提供重要的帮助。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_AZTECS</Tag>
@@ -521,26 +677,14 @@
 		<Tag>TXT_KEY_DOM_ZIMBABWE</Tag>
 		<English>It is the year 1075 AD. The hills at the confluence of the Shashi and Limpopo rivers control the local gold and cattle trade and are also prime country for hunting elephants for their valuable ivory. From this vantage point new innovations in stonework will take place, and these structures will grow ever grander as the grandeur of these kingdoms grows.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>这是公元1075年，位于沙市河和林波波河交汇处的山丘控制着当地的黄金和牲畜交易，也是猎取大象珍贵象牙的主要国家。从这个有利的角度来看，新的石工创新将会发生，而这些建筑将随着这些王国的宏伟而变得越来越宏伟。</Chinese>
+		<Chinese>公元1075年第一缕阳光照耀着非洲南部的密林，位于沙谢河和林波波河交汇处的山丘地区控制着当地的黄金和牲畜贸易，同时这里也是猎取大象获得珍贵象牙的主要地区。由于这些有利因素，一些石工创新将会在此处发生，而这些建筑将随着这些王国的发展而变得越来越宏伟。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_JAPAN</Tag>
-		<English>It is the year 525 AD. The early Japanese polity centered around the Yamato province is introduced to Buddhism from Korea. This allows the spread of Chinese influences from the Sui and Tang dynasties to Japan, followed by a centralization of power into the Empire of Japan.</English>
+		<Tag>TXT_KEY_DOM_ZIMBABWE_1700AD</Tag>
+		<English>It is the year 1700 AD.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元525年的第一缕阳光照耀着富士山。日本列岛上最早的定居者――大和诸部开始兴起。随着佛教从高丽的传入，以及中国隋唐时代文化的广泛影响，中央集权逐渐在日本列岛上形成。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_MANCHURIA_1700AD</Tag>
-		<English>It is the year 1700 AD. After the Ming Dynasty collapsed under peasant revolts, the Jurchens of Manchuria conquered China and established the Empire of the Great Qing. With Manchuria and Tibet under imperial control, China has reached its greatest extent in history and the rule of the Kangxi Emperor promises another golden era.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年，明朝在农民起义中垮台后，满洲女真人征服了中国，建立了大清帝国。随着满洲和西藏在帝国的控制之下，中国达到了历史上最大的程度，康熙皇帝的统治预示着另一个黄金时代。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_PERSIA</Tag>
-		<English>It is the year 844 BC. Persia has always been home to warlike peoples, but now the Achaemenid dynasty provides them with the unifying force to form an organized empire. While the Persian plateau is not particularly wealthy, it has rich and defenseless neighbors in India in the east and Mesopotamia in the west to conquer on their way to become the world's greatest empire.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前844年的第一缕阳光照耀着伊朗高原。长期以来，波斯人一直被认为是尚武的游牧民族，但是现在，阿契美尼德王朝的建立给了他们一个机会。伊朗高原地区土地略显贫瘠，然而在他的东方和西方，分别是富饶而不设防的印度和美索不达米亚。征服他们，开创一个世界上最强大的帝国！</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年第一缕阳光照耀着非洲南部的密林。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_FRANCE</Tag>
 		<English>It is the year 751 AD. After the collapse of the Western Roman Empire, the Merovingian Frankish Empire became the major Christian power in Europe. With the coronation of Pepin from the Carolingian dynasty, the Franks have come another step closer to reclaim Rome's legacy and dominate Christian Europe.</English>
@@ -548,46 +692,16 @@
 		<Chinese>公元751年的第一缕阳光照耀着塞纳河。随着西罗马帝国的崩溃，墨洛温法兰克帝国成为了欧洲最主要的基督教势力。随着加洛林王朝的丕平加冕王位，法兰克人又向着自己重现罗马辉煌，主宰基督教欧洲的目标迈进了一步。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_NUBIA</Tag>
-		<English>It is the year 2500 BC. Threatened and inspired by the growing might and culture of their northern neighbors, the Nubian peoples found the Kerma Kingdom...</English>
+		<Tag>TXT_KEY_DOM_FRANCE_1700AD</Tag>
+		<English>It is the year 1700 AD. France under the rule of Louis XIV is at the height of its power and the dominating cultural and military power in continental Europe. After extending its borders and winning the Thirty Years War, the impeding end of the Spanish Habsburgs presents another opportunity to expand French power.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前2500年。受到北方邻国日益增长的力量和文化的威胁和鼓舞，努比亚人建立了克尔玛王国。。。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_PORTUGAL</Tag>
-		<English>It is the year 1128 AD. Portugal has just defeated Spain and gained independence. Situated at the western end of Europe, the kingdom is in an excellent position to send ships to ports all over the world and control the trade of all of Europe, Africa and Asia.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1128年的第一缕阳光照耀着欧洲之角。葡萄牙在不久前击败了西班牙取得了独立，这个坐落于欧洲最西端的文明拥有得天独厚的地理优势，它可以将它的船只派往世界各地，并掌控欧亚非三大洲的贸易。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_JAPAN_600AD</Tag>
-		<English>It is the year 600 AD. The early Japanese polity centered around the Yamato province is introduced to Buddhism from Korea. This allows the spread of Chinese influences from the Sui and Tang dynasties to Japan, followed by a centralization of power into the Empire of Japan.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元600年，日本早期以大和道为中心的政权从韩国传入佛教。这使得中国的影响从隋唐时期扩散到日本，随后权力集中到日本帝国。</Chinese>
-	</TEXT>	
+		<Chinese>公元1700年的第一缕阳光照耀着巴黎城。在文化和军事这两个方面，路易十四治下的法国都处于整个欧陆的巅峰。在赢得三十年战争，扩张了自己的领土之后，未来哈布斯堡王朝在西班牙统治的结束，将为法国势力的扩张提供一个新的契机。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_DOM_EGYPT</Tag>
 		<English>It is the year 3000 BC. The Egyptian civilization coalesces under the recent unification of the Kingdoms of Lower and Upper Egypt. The fertile banks of the Nile make Egypt one of the wealthiest regions of the world. It is time to use this wealth to build monuments and establish a culture the world has never seen before.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元前3000年的第一缕阳光照耀着尼罗河两岸。在上埃及和下埃及王国统一并合并之后，埃及文明诞生于尼罗河流域的沃土之上。肥沃的尼罗河三角洲将使埃及成为世界上最富饶的区域之一。现在，他们要用这些财富创造出世所未见的文化，以彰示后人。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_INDIA</Tag>
-		<English>It is the year 1500 BC. After the collapse of the Harappan civilization, the Vedic Aryans reach the Indo-Gangetic plain. The following Vedic era features the development of a caste system and the Mahajanapada kingdoms, where the most important epics of Indian culture are authored, laying the foundation to transform India into the religious and spiritual center of the world.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前1500年的第一缕阳光照耀着恒河平原。随着哈拉帕文明的崩溃，雅利安人进入了印度河―恒河平原。他们将带来种姓制度，并建立起自己的王国，印度文化的史诗将在这里被不断创作，并为印度成为世界宗教精神的中心打好基础。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_ENGLAND_1700AD</Tag>
-		<English>It is the year 1700 AD. The Glorious Revolution has restored stability to the British thrones and paved the way to the Acts of Union. With its colonial holdings in the Americas and India growing, the British crown will be able to establish a world-wide empire and challenge the French dominance over Europe.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着英伦诸岛。“光荣革命”确立了英国的君主立宪体制，并为联合王国的成立铺平了道路。伴随着北美以及印度殖民地的飞速发展，英国将会建立一个世界性的帝国，并挑战法国在欧洲的统治地位。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_DOM_FRANCE_1700AD</Tag>
-		<English>It is the year 1700 AD. France under the rule of Louis XIV is at the height of its power and the dominating cultural and military power in continental Europe. After extending its borders and winning the Thirty Years War, the impeding end of the Spanish Habsburgs presents another opportunity to expand French power.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1700年的第一缕阳光照耀着巴黎城。在文化和军事这两个方面，路易十四治下的法国都处于整个欧陆的巅峰。在赢得三十年战争，扩张了自己的领土之后，未来哈布斯堡王朝在西班牙统治的结束，将为法国势力的扩张提供一个新的契机。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_PHOENICIA</Tag>
@@ -602,15 +716,9 @@
 		<Chinese>公元1776年的第一缕阳光照耀着北美十三州。不满足于外国人的统治，北美殖民地的人民起来为建立自己的国家而革命。然而，他们羽翼未丰的联邦仍然有被欧洲列强颠覆的危险，他们必须全面超越他们以前的宗主国，以实现他们天赋的使命。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_DOM_BURMA</Tag>
-		<English>It is the year 650 AD. Bamar settlers from the Pyu City states at the confluence of the Irrawaddy and Chindwin Rivers have migrated west to found the Kingdom of Pagan...</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>公元650年伊洛瓦底河与伊洛瓦底河交汇处的伊洛瓦底河。。。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_DOM_BRAZIL</Tag>
 		<English>It is the year 1822 AD. After the revolution in Portugal threatens Brazilian sovereignty within the United Kingdom, Dom Pedro of Brazil declares an independent empire. Brazil's rich plantations as well as the Amazon rainforest promise wealth for the future, but also demand preservation.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>1822年的第一缕阳光照耀着里约热内卢。葡萄牙国内的革命动摇了它在巴西的殖民统治，巴西的佩德罗王子宣布巴西为一个独立王国。巴西富饶的种植园以及亚马逊的热带雨林保证了其日后的财富来源，但这也需要悉心的保护。</Chinese>
+		<Chinese>公元1822年的第一缕阳光照耀着里约热内卢。葡萄牙国内的革命动摇了它在巴西的殖民统治，巴西的佩德罗王子宣布巴西为一个独立王国。巴西富饶的种植园以及亚马逊的热带雨林保证了其日后的财富来源，但这也需要悉心的保护。</Chinese>
 	</TEXT>
 </Civ4GameText>

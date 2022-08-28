@@ -7,5 +7,5 @@
 ## Author: EmperorFool
 
 import BugGameUtils
-
+from Consts import *
 GameUtils = BugGameUtils.getDispatcher()

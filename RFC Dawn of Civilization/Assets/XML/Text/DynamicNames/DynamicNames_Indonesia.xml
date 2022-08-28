@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_INDONESIA_PEOPLES</Tag>
 		<English>Malay Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马来人</Chinese>
+		<Chinese>马来诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_DESC</Tag>
@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_CIV_INDONESIAN_VASSAL</Tag>
 		<English>Kedatuan of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1附属国</Chinese>
+		<Chinese>%s1哥打端</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_FASCIST</Tag>
 		<English>%s2 New Order</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2军政府</Chinese>
+		<Chinese>%s2新秩序军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDONESIA_MAJAPAHIT</Tag>

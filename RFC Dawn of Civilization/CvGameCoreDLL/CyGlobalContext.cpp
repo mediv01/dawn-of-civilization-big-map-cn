@@ -40,8 +40,88 @@ bool CyGlobalContext::isDebugBuild() const
 #endif
 }
 
+int CyGlobalContext::getTimeNow() const
+{
+
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getTimeNow()");// 统计函数调用次数
+	}
+	int aa = GC.getTimeNow();
+	return aa;//test by mediv01
+}
+
+void CyGlobalContext::debug() const
+{
+	GC.debug();
+	//test by mediv01
+}
+
+void CyGlobalContext::doCollapse(int PlayerID) const
+{
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::doCollapse");// 统计函数调用次数
+	}
+	GC.doCollapse((PlayerTypes) PlayerID);
+}
+
+bool CyGlobalContext::flipCity(int x, int y, bool bFlipType, bool bKillUnits, int iNewOwner) const
+{
+	return GC.flipCity(x,y, bFlipType, bKillUnits, iNewOwner);
+}
+
+
+bool CyGlobalContext::cultureManager(int x, int y, int iCulturePercent, int iNewOwner, int iOldOwner, bool bBarbarian2x2Decay, bool bBarbarian2x2Conversion, bool bAlwaysOwnPlots) const {
+	return GC.cultureManager(x, y, iCulturePercent, iNewOwner, iOldOwner, bBarbarian2x2Decay, bBarbarian2x2Conversion, bAlwaysOwnPlots);
+}
+
+
+
+void CyGlobalContext::updateAllPlotSight(int PlayerID, bool withoutflog) const
+{
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::updateAllPlotSight");// 统计函数调用次数
+	}
+	GC.updateAllPlotSight((PlayerTypes)PlayerID, withoutflog);
+}
+
+
+int CyGlobalContext::showAIstrategy(int iPlayer) const
+{
+	int aa = GC.showAIstrategy(iPlayer);
+	return aa;//test by mediv01
+}
+
+int CyGlobalContext::getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const
+{
+	int aa = CvPlayerAI().getAIdealValuetoMoney(ePlayerID, myPlayerID, tradetypeID, tradeitemID);
+	return aa;//test by mediv01
+}
+
+
+int CyGlobalContext::AI_considerOfferThreshold(int ePlayer, int myPlayer) const
+{
+	int aa = CvPlayerAI().AI_considerOffer_Threshold(ePlayer, myPlayer);
+	return aa;//test by mediv01
+}
+
+int CyGlobalContext::AI_considerOfferThreshold_Map(int ePlayer, int myPlayer) const
+{
+	int aa = CvPlayerAI().AI_considerOffer_Threshold_Map(ePlayer, myPlayer);
+	return aa;//test by mediv01
+}
+
+bool CyGlobalContext::AI_considerOffer(PlayerTypes ePlayer, const CLinkList<TradeData>* pTheirList, const CLinkList<TradeData>* pOurList, int iChange) const
+{
+	bool aa = CvPlayerAI().AI_considerOffer(ePlayer, pTheirList, pOurList, iChange);
+	return aa;//test by mediv01
+}
+
+
 CyGame* CyGlobalContext::getCyGame() const
 {
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getCyGame()");// 统计函数调用次数
+	}
 	static CyGame cyGame(&GC.getGameINLINE());
 	return &cyGame;
 }
@@ -49,6 +129,9 @@ CyGame* CyGlobalContext::getCyGame() const
 
 CyMap* CyGlobalContext::getCyMap() const
 {
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getCyMap()");// 统计函数调用次数
+	}
 	static CyMap cyMap(&GC.getMapINLINE());
 	return &cyMap;
 }
@@ -56,6 +139,11 @@ CyMap* CyGlobalContext::getCyMap() const
 
 CyPlayer* CyGlobalContext::getCyPlayer(int idx)
 {
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getCyPlayer");// 统计函数调用次数
+	}
+
+
 	static CyPlayer cyPlayers[MAX_PLAYERS];
 	static bool bInit=false;
 
@@ -76,6 +164,10 @@ CyPlayer* CyGlobalContext::getCyPlayer(int idx)
 
 CyPlayer* CyGlobalContext::getCyActivePlayer()
 {
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getCyActivePlayer()");// 统计函数调用次数
+	}
+
 	PlayerTypes pt = GC.getGameINLINE().getActivePlayer();
 	return pt != NO_PLAYER ? getCyPlayer(pt) : NULL;
 }
@@ -88,6 +180,10 @@ CvRandom& CyGlobalContext::getCyASyncRand() const
 
 CyTeam* CyGlobalContext::getCyTeam(int i)
 {
+	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
+		GC.countFunctionCall("DLL:CyGlobalContext::getCyTeam");// 统计函数调用次数
+	}
+
 	static CyTeam cyTeams[MAX_TEAMS];
 	static bool bInit=false;
 

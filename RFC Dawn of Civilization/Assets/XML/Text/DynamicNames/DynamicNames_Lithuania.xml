@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_LITHUANIA_COMMUNIST</Tag>
 		<English>Grand Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1大公国</Chinese>
+		<Chinese>立陶宛大公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_SHORT_DESC</Tag>
@@ -17,25 +17,25 @@
 		<Tag>TXT_KEY_CIV_LITHUANIA_FASCIST</Tag>
 		<English>Iron Wolf %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>立陶宛铁狼军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_111</Tag>
 		<English>Prussia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Prussia</Chinese>
+		<Chinese>普鲁士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_LIT_TITLE</Tag>
 		<English>The Power of the Pagans:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>异教徒之力：</Chinese>
+		<Chinese>异教之力：</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_LIT</Tag>
 		<English>All cities are pagan and no religious disunity from the most popular religion while running a Pagan State Religion.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>所有的城市都是异教徒，在管理一个异教徒的国家宗教时，没有与最流行的宗教不团结的宗教。</Chinese>
+	<Chinese>立陶宛控制的所有城市都算作原始宗教城市；当官方宗教为原始宗教时，城市中存在目前最流行的宗教不带来稳定度惩罚。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_ADJECTIVE</Tag>
@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_CIVV_LITHUANIA_GRAND_DUCHY_OF</Tag>
 		<English>Grand Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1大公国</Chinese>
+		<Chinese>立陶宛大公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>立陶宛王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MINDAUGAS_PEDIA</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_BUILDING_ROMUVA_SACRED_GROVE</Tag>
 		<English>Sacred Grove</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>神圣树林(Sacred Grove)</Chinese>
+		<Chinese>神圣丛林(Sacred Grove)</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_LIT2</Tag>
@@ -77,13 +77,13 @@
 		<Tag>TXT_KEY_UNIT_LITHUANIAN_VYTIS_HELP</Tag>
 		<English>[ICON_BULLET]+25% vs Civilizations of other faiths until the end of the Middle Ages</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]中古时代之前与异教徒作战+25%</Chinese>
+		<Chinese>[ICON_BULLET]中古时代结束前与异教徒作战时+25% 战斗力</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_LIT1_TITLE</Tag>
-		<English>Yagaylo's Legacy</English>
+		<English>Jagiełło's Legacy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>雅加洛的辉煌</Chinese>
+		<Chinese>雅盖沃的辉煌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_LATVIA</Tag>
@@ -113,19 +113,19 @@
 		<Tag>TXT_KEY_DOM_LITHUANIA</Tag>
 		<English>It is the year 1180 AD. As the Lithuan raids on their neighboring Slavic provinces begin to increase in frequency and success, the region begins to see a level of wealth and organization it has never seen before. The imminent formation of a Lithuanian State will surely and radically change the political landscape of Eastern Europe for centuries to come.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元1180年。随着立陶宛对其邻近的斯拉夫省份的袭击开始频繁和成功，该地区开始看到前所未有的财富和组织。立陶宛国家即将成立，这必将从根本上改变东欧未来几个世纪的政治格局。</Chinese>
+		<Chinese>公元1180年的第一缕阳光照耀着立陶宛的密林。随着立陶宛对其邻近的斯拉夫省份的袭击不断频繁并取得成功，这一地区开始出现前所未有的财富和初具雏形的组织性。立陶宛国家即将成立，这必将从根本上改变东欧未来几个世纪的政治格局。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MINDAUGAS</Tag>
 		<English>Mindaugas</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>立陶宛-Mindaugas</Chinese>
+		<Chinese>立陶宛-明道加斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_AREA_112</Tag>
 		<English>Austria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Austria</Chinese>
+		<Chinese>奥地利</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_LIT3</Tag>
@@ -137,7 +137,7 @@
 		<Tag>TXT_KEY_UHV_LIT1</Tag>
 		<English>Control more territory than any European civ in 1500 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1500年时比其他欧洲文明控制更多的领土</Chinese>
+		<Chinese>公元1500年时比其他任何欧洲文明控制更多的领土</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LITHUANIAN_SEIMELIS_PEDIA</Tag>
@@ -149,7 +149,7 @@
 		<Tag>TXT_KEY_COMBAT_LITHUANIA_MOD</Tag>
 		<English>[ICON_BULLET]%D1_Bonus%% from different State Religion</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]不同的信仰额外提供%D1_Bonus</Chinese>
+		<Chinese>[ICON_BULLET]不同的官方宗教额外提供%D1_Bonus</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LITHUANIAN_SEIMELIS</Tag>
@@ -161,19 +161,19 @@
 		<Tag>TXT_KEY_CIV_LITHUANIA_COMMONWEALTH</Tag>
 		<English>Polish-Lithuanian Commonwealth</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>波兰立陶宛联盟</Chinese>
+		<Chinese>波兰立陶宛联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ROMUVA</Tag>
 		<English>Romuva</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Romuva</Chinese>
+		<Chinese>洛姆瓦教</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_LITHUANIAN_VYTIS</Tag>
 		<English>Vytis</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Vytis</Chinese>
+		<Chinese>立陶宛骑士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_ESTONIA</Tag>
@@ -197,7 +197,7 @@
 		<Tag>TXT_KEY_CIV_LITHUANIA_PEOPLES</Tag>
 		<English>Lithuanian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>立陶宛人</Chinese>
+		<Chinese>立陶宛诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_LITHUANIA_DESC</Tag>

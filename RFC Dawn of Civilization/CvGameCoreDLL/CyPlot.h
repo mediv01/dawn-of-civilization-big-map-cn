@@ -21,6 +21,7 @@ public:
 	void setPlot(CvPlot* p) { m_pPlot=p; }	// Call from C++
 	bool isNone() { return (m_pPlot==NULL); }
 	void erase();
+	void updateSight(int PlayerID, bool withoutflog); // mediv01
 	void eraseAIDevelopment(); //Rhye
 	DllExport NiPoint3 getPoint();
 	int getTeam();

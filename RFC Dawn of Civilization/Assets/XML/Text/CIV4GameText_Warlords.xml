@@ -2073,7 +2073,7 @@
 		<Tag>TXT_KEY_BUILDING_CARTHAGE_COTHON_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Cothon[COLOR_REVERT], the Carthaginian replacement for the [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT], significantly increases that city's income from trade routes. It increases a city's health from access to [COLOR_HIGHLIGHT_TEXT]Clam[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Crab[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Fish[COLOR_REVERT] resources.</English>
 <L1 /><L2 /><L3 /><L4 />
-		<Chinese>[COLOR_BUILDING_TEXT]巨港[COLOR_REVERT]是迦太基的特色建筑，替代[COLOR_BUILDING_TEXT]港口[COLOR_REVERT]，可提升城市从商路获得的收入。如果拥有[COLOR_HIGHLIGHT_TEXT]蛤蜊[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]螃蟹[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]鱼群[COLOR_REVERT]还可额外提供健康点数。</Chinese>
+		<Chinese>[COLOR_BUILDING_TEXT]迦太基商港[COLOR_REVERT]是迦太基的特色建筑，替代[COLOR_BUILDING_TEXT]港口[COLOR_REVERT]，可提升城市从商路获得的收入。如果拥有[COLOR_HIGHLIGHT_TEXT]蛤蜊[COLOR_REVERT]、[COLOR_HIGHLIGHT_TEXT]螃蟹[COLOR_REVERT]和[COLOR_HIGHLIGHT_TEXT]鱼群[COLOR_REVERT]还可额外提供健康点数。</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MALI_MINT_STRATEGY</Tag>
@@ -3217,7 +3217,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_REYKJAVIK</Tag>
-		<English>Reykjav&#237;k</English>
+		<English>Reykjavík</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>雷克雅未克</Chinese>
 	</TEXT>
@@ -3345,7 +3345,7 @@
 		<Tag>TXT_KEY_BUILDING_CARTHAGE_COTHON</Tag>
 		<English>Cothon</English>
 <L1 /><L2 /><L3 /><L4 />
-		<Chinese>巨港</Chinese>
+		<Chinese>迦太基商港</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CELTIC_DUN</Tag>
@@ -3949,7 +3949,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BJORGVIN</Tag>
-		<English>Bj&#248;rgvin</English>
+		<English>Bjørgvin</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>比约尔格文</Chinese>
 	</TEXT>
@@ -3967,7 +3967,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TONSBERG</Tag>
-		<English>T&#248;nsberg</English>
+		<English>Tønsberg</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>托恩斯堡</Chinese>
 	</TEXT>
@@ -3979,7 +3979,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LODOSE</Tag>
-		<English>L&#246;d&#246;se</English>
+		<English>Lödöse</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>洛多塞</Chinese>
 	</TEXT>
@@ -4003,7 +4003,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VASTERAS</Tag>
-		<English>V&#228;ster&#229;s</English>
+		<English>Västerås</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>瓦斯特拉兹</Chinese>
 	</TEXT>
@@ -4033,7 +4033,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JORVIK</Tag>
-		<English>Jorv&#237;k</English>
+		<English>Jorvík</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>约尔维克</Chinese>
 	</TEXT>
@@ -4081,13 +4081,13 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KONUGARD</Tag>
-		<English>K&#246;nug&#229;rd</English>
+		<English>Könugård</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>科努加德</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HOLMGARD</Tag>
-		<English>Holmg&#229;rd</English>
+		<English>Holmgård</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>霍尔姆加德</Chinese>
 	</TEXT>
@@ -4123,7 +4123,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KIRKJUBOUR</Tag>
-		<English>Kirkjub&#248;ur</English>
+		<English>Kirkjubøur</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>基尔克朱伯尔</Chinese>
 	</TEXT>

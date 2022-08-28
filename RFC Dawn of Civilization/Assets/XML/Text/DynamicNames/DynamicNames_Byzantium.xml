@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_EGYPT</Tag>
 		<English>Exarchate of Alexandria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>亚历山大行省</Chinese>
+		<Chinese>亚历山大总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_MOREA</Tag>
@@ -15,7 +14,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_ADJECTIVE</Tag>
-		<English></English>
+		<English>Byzantium</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>拜占庭</Chinese>
 	</TEXT>	
@@ -23,7 +22,7 @@
 		<Tag>TXT_KEY_CIV_BYZANTINE_VASSAL</Tag>
 		<English>Exarchate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1行省</Chinese>
+		<Chinese>%s1总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_SHORT_DESC</Tag>
@@ -35,25 +34,25 @@
 		<Tag>TXT_KEY_CIV_BYZANTINE_GREECE</Tag>
 		<English>Exarchate of Achaia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿奇亚行省</Chinese>
+		<Chinese>亚该亚总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_PERSIA</Tag>
 		<English>Exarchate of Parthia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>帕提亚行省</Chinese>
+		<Chinese>帕提亚总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_NICAEA</Tag>
 		<English>Nicaea</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拜占庭文明</Chinese>
+		<Chinese>尼西亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_EASTERN</Tag>
 		<English>Eastern Roman</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>东罗马</Chinese>
+		<Chinese>东罗马帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DESC</Tag>
@@ -65,29 +64,29 @@
 		<Tag>TXT_KEY_CIV_BYZANTIUM_TREBIZOND</Tag>
 		<English>Trebizond</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特拉布松帝国</Chinese>
+		<Chinese>特拉布松</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_CARTHAGE</Tag>
 		<English>Exarchate of Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>非洲行省</Chinese>
+		<Chinese>阿非利加总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_EPIRUS</Tag>
 		<English>Epirus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼西亚</Chinese>
+		<Chinese>伊庇鲁斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_BABYLONIA</Tag>
 		<English>Exarchate of Ctesiphon</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>塞西丰行省</Chinese>
+		<Chinese>泰西封总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_RUM</Tag>
-		<English>R&#251;m</English>
+		<English>Rûm</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗姆</Chinese>
 	</TEXT>	
@@ -95,19 +94,19 @@
 		<Tag>TXT_KEY_CIV_BYZANTINE_SPAIN</Tag>
 		<English>Exarchate of Spania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>西班牙行省</Chinese>
+		<Chinese>西班牙总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DEFAULT</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2帝国</Chinese>
+		<Chinese>拜占庭帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_ROME</Tag>
 		<English>Exarchate of Ravenna</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拉文纳行省</Chinese>
+		<Chinese>拉文纳总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag></Tag>
@@ -119,19 +118,19 @@
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DESPOTATE</Tag>
 		<English>Despotate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>拜占庭专制君主国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_FASCIST</Tag>
 		<English>Despotate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>拜占庭专制君主国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_PEOPLES</Tag>
 		<English>Byzantine Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拜占庭人</Chinese>
+		<Chinese>拜占庭诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_REPUBLIC</Tag>

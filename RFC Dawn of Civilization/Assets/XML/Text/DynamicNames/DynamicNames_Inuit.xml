@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_INUIT_REPUBLIC</Tag>
 		<English>%s2 Circumpolar Council</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2环极议会</Chinese>
+		<Chinese>%s2环极地议会</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED_HELP</Tag>
@@ -17,7 +17,7 @@
 		<Tag>TXT_KEY_UP_INU</Tag>
 		<English>Trade routes do not require roads. Extra Commerce on coastal city tiles.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>贸易路线不需要道路，沿海城市获得额外商业</Chinese>
+		<Chinese>商路无需道路连通，沿海城市所在地块获得额外商业</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INUIT_DOG_SLED</Tag>
@@ -29,13 +29,13 @@
 		<Tag>TXT_KEY_VICTORY_KIVALLIQ</Tag>
 		<English>Kivalliq</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Kivalliq</Chinese>
+		<Chinese>基瓦里奇（加拿大北部努纳武特地区）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MOST_WATER_OWN_CIV</Tag>
 		<English>Civilization with the most Coast, Ocean, and Lakes: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拥有最多的海洋、海滨和湖地块的文明：%s1</Chinese>
+		<Chinese>拥有最多的近海、大洋和湖泊地块的文明：%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_FASCIST</Tag>
@@ -47,19 +47,19 @@
 		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO_HELP</Tag>
 		<English>[ICON_BULLET]+1 Food and Production from Ice and Tundra</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]冰原和冻土+1食物和产能</Chinese>
+		<Chinese>[ICON_BULLET]冰原和冻土地块+1 食物和产能</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_COMMUNIST</Tag>
 		<English>Inuit's Circumpolar Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2环极共和国</Chinese>
+		<Chinese>因纽特环极地共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_COUNCIL</Tag>
 		<English>%s2 Circumpolar Council</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2环极议会</Chinese>
+		<Chinese>%s2环极地议会</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_DESC</Tag>
@@ -77,13 +77,13 @@
 		<Tag>TXT_KEY_BUILDING_ANGAKKUQ_QARGI</Tag>
 		<English>Qargi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Qargi</Chinese>
+		<Chinese>因纽特图腾石</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_ADJECTIVE</Tag>
 		<English>Inuit</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>因努伊特</Chinese>
+		<Chinese>因纽特</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_SHORT_DESC</Tag>
@@ -95,13 +95,13 @@
 		<Tag>TXT_KEY_BUILDING_INUIT_IGLOO</Tag>
 		<English>Igloo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>冰屋(Igloo)</Chinese>
+		<Chinese>因纽特冰屋</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUNAVIK</Tag>
 		<English>Nunavik</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Nunavik</Chinese>
+		<Chinese>努纳维克（魁北克以北地区）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_AUA</Tag>
@@ -113,13 +113,13 @@
 		<Tag>TXT_KEY_UHV_INU1</Tag>
 		<English>Settle Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, and Nunavik by 900 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元900年前定居Kivalliq, Kalaallit Nunaat, Qikiqtaaluk, 和Nunavik</Chinese>
+		<Chinese>公元900年前定居基瓦里奇（加拿大北部努纳武特地区），格陵兰，基吉柯塔鲁克（巴芬岛）和努纳维克（魁北克以北地区）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU3_TITLE</Tag>
 		<English>Bladder Festival</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>膀胱节</Chinese>
+		<Chinese>因纽特膀胱节</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INU2</Tag>
@@ -137,7 +137,7 @@
 		<Tag>TXT_KEY_UHV_INU1_TITLE</Tag>
 		<English>The Dorset</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>多赛特号</Chinese>
+		<Chinese>多尔塞特文化</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_RESOURCES</Tag>
@@ -149,13 +149,13 @@
 		<Tag>TXT_KEY_CIV_INUIT_DORSET</Tag>
 		<English>Dorset</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>多塞特</Chinese>
+		<Chinese>多尔塞特</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_INUIT</Tag>
 		<English>It is the year 200 BC. The Inuit's arrival to the Bering Strait marks the beginning of what will become one of the longest lasting cultures of the arctic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前200年。因纽特人抵达白令海峡标志着北极地区最悠久文化之一的开始。</Chinese>
+		<Chinese>公元前200年的第一缕阳光照耀着白令海峡。因纽特人抵达白令海峡，标志着北极地区最悠久的文化之一开始了。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_INU_TITLE</Tag>
@@ -173,7 +173,7 @@
 		<Tag>TXT_KEY_VICTORY_KALAALLIT_NUNAAT</Tag>
 		<English>Kalaallit Nunaat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Kalaallit Nunaat</Chinese>
+		<Chinese>格陵兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_WORKED_RESOURCES</Tag>
@@ -185,31 +185,31 @@
 		<Tag>TXT_KEY_UHV_INU3</Tag>
 		<English>Control and work more Ocean, Coast, and Lake tiles than any other civilization</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拥有和开发比其他文明更多的海洋、海滨和湖工作地块</Chinese>
+		<Chinese>拥有比其他任何文明更多的近海、大洋和湖泊工作地块，并在这些地块上有市民工作</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MOST_WATER_WORK_CIV</Tag>
 		<English>Civilization working the most Coast, Ocean, and Lakes: %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>在海洋、海滨和湖地块上工作最多的文明：%s1</Chinese>
+		<Chinese>在近海、大洋和湖泊地块上工作最多的文明：%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_URV_POL2_ANGAKKUQ</Tag>
 		<English>Acquire and work 3 Crab, Whale, and Fish Resources</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>开发3个螃蟹、鲸鱼和鱼类资源</Chinese>
+		<Chinese>开发并在3个螃蟹、鲸鱼和鱼类资源地块上有市民工作</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_QIKIQTAALUK</Tag>
 		<English>Qikiqtaaluk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Qikiqtaaluk</Chinese>
+		<Chinese>基吉柯塔鲁克（巴芬岛）</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_THULE</Tag>
 		<English>Thule</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>图尔</Chinese>
+		<Chinese>图勒</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INUIT_PEOPLES</Tag>

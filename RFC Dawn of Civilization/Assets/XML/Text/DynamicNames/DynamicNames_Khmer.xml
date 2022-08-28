@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_SHORT_DESC</Tag>
-		<English>高棉</English>
+		<English>Khmer</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>高棉</Chinese>
 	</TEXT>	
@@ -11,11 +10,11 @@
 		<Tag>TXT_KEY_CIV_KHMER_NANZHAO</Tag>
 		<English>Nanzhao</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;南诏</Chinese>
+		<Chinese>南诏</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_ADJECTIVE</Tag>
-		<English></English>
+		<English>Khmer</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>高棉</Chinese>
 	</TEXT>	
@@ -35,7 +34,7 @@
 		<Tag>TXT_KEY_CIV_KHMER_COMMUNIST</Tag>
 		<English>Democratic %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>红色%s1</Chinese>
+		<Chinese>民主%s1</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_CAMBODIAN</Tag>
@@ -47,7 +46,7 @@
 		<Tag>TXT_KEY_CIV_KHMER_PEOPLES</Tag>
 		<English>Khmer Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>高棉人</Chinese>
+		<Chinese>高棉诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_DESC</Tag>
@@ -65,7 +64,7 @@
 		<Tag>TXT_KEY_CIV_KHMER_FASCIST</Tag>
 		<English>Nationalist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;%s1军政府</Chinese>
+		<Chinese>%s1民族主义军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_KAMPUCHEA</Tag>

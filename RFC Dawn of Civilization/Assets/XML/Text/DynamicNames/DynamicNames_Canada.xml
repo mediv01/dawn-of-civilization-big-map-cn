@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_CANADA_COMMUNIST</Tag>
 		<English>%s2 Worker's Commonwealth</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2工人联邦</Chinese>
+		<Chinese>%s2工人共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CANADA_ADJECTIVE</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_CANADA_REPUBLIC</Tag>
 		<English>%s2 Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联邦</Chinese>
+		<Chinese>%s2邦联</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CANADA_DEFAULT</Tag>
@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_CANADA_PEOPLES</Tag>
 		<English>Canadian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>加拿大人</Chinese>
+		<Chinese>加拿大诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CANADA_DESC</Tag>

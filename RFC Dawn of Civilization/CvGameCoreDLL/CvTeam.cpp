@@ -937,7 +937,8 @@ void CvTeam::doTurn()
 					changeResearchProgress(((TechTypes)iI), ((getResearchCost((TechTypes)iI) * ((GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount) / iPossibleCount)) / 100), getLeaderID());
 */
 					// From Mongoose SDK, BarbarianPassiveTechFix
-					changeResearchProgress((TechTypes)iI, std::max((getResearchCost((TechTypes)iI) * GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount) / (100 * iPossibleCount), 1), getLeaderID());
+					changeResearchProgress((TechTypes)iI, std::max((getResearchCost((TechTypes)iI) * BARBARIAN_FREE_TECH_PERCENT
+						* iCount) / (100 * iPossibleCount), 1), getLeaderID());
 /************************************************************************************************/
 /* UNOFFICIAL_PATCH                        END                                                  */
 /************************************************************************************************/
@@ -1177,7 +1178,7 @@ bool CvTeam::canDeclareWar(TeamTypes eTeam) const
 		argsList.add(getID());	// Team ID
 		argsList.add(eTeam);	// pass in city class
 		long lResult=0;
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "canDeclareWar", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "canDeclareWar", argsList.makeFunctionArgs(), &lResult);
 
 		if (lResult == 0)
 		{
@@ -2379,14 +2380,14 @@ bool CvTeam::canVassalRevolt(TeamTypes eMaster) const
 		}
 	}
 
-	if (GC.getDefineINT("FREE_VASSAL_LAND_PERCENT") < 0 || 
-		100 * getTotalLand(false) < kMaster.getTotalLand(false) * GC.getDefineINT("FREE_VASSAL_LAND_PERCENT"))
+	if (FREE_VASSAL_LAND_PERCENT < 0 || 
+		100 * getTotalLand(false) < kMaster.getTotalLand(false) * FREE_VASSAL_LAND_PERCENT)
 	{
 		return false;
 	}
 
-	if (GC.getDefineINT("FREE_VASSAL_POPULATION_PERCENT") < 0 || 
-		100 * getTotalPopulation(false) < kMaster.getTotalPopulation(false) * GC.getDefineINT("FREE_VASSAL_POPULATION_PERCENT"))
+	if (FREE_VASSAL_POPULATION_PERCENT < 0 || 
+		100 * getTotalPopulation(false) < kMaster.getTotalPopulation(false) * FREE_VASSAL_POPULATION_PERCENT)
 	{
 		return false;
 	}
@@ -2683,6 +2684,78 @@ int CvTeam::countEnemyDangerByArea(CvArea* pArea) const
 
 	return iCount;
 }
+int getTechBePunishedByTechCol(TechTypes eTech) 
+{
+	int iModifer = 100;
+	bool bTechPunished = false;
+	int iGameTurnYear = GC.getGameTurnYear();
+	int iTechCol = GC.getTechInfo(eTech).getGridX() - 1;
+
+
+	int iTechYearThreshold = -4000;
+
+	if (iTechCol <= SIZE_OF_TECH_COL_YEAR) {
+		iTechYearThreshold = TechColYear[iTechCol];
+	}
+
+	if (iGameTurnYear < iTechYearThreshold) {
+		bTechPunished = true;
+	}
+
+	int iPlayerCol = 0;
+	int iPlayerTechDiff = 0;
+	if (bTechPunished) {
+
+		for (int i = 0; i <= SIZE_OF_TECH_COL_YEAR; i++) {
+			if (iGameTurnYear >= TechColYear[i]) {
+				iPlayerCol = i;
+			}
+		}
+		iPlayerTechDiff = abs(iTechCol - iPlayerCol);
+		double iExpCalc = exp((double)iPlayerTechDiff * 0.5);
+		iExpCalc = (iExpCalc > 100) ? 100 : iExpCalc;
+		iExpCalc = (iExpCalc < 1) ? 1 : iExpCalc;
+		iModifer = (int)(100 * iExpCalc);
+
+
+		//log_CWstring.Format(L" 科技 %s 科技所在列：%d 当前年份 %d 当前年份所属的列: %d  惩罚阈值年份 %d  列差: %d 惩罚系数: %d", GC.getTechInfo(eTech).getDescription(), iTechCol, iGameTurnYear, iPlayerCol , iTechYearThreshold, iPlayerTechDiff,iModifer);
+		//GC.logswithid(getLeaderID(),log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	}
+
+
+	return iModifer;
+}
+
+int getResearchCostByTech(TechTypes eTech, PlayerTypes iPlayer) 
+{
+	int iModifer = 100;
+	// 科技惩罚与科技时代与年份挂钩
+	if (CVTEAM_TECH_COST_BY_ERA > 0) {
+
+		int iNewModifer = getTechBePunishedByTechCol(eTech);
+
+		if (GC.isHuman(iPlayer)) {
+			if (CVTEAM_TECH_COST_BY_ERA_TO_HUMAN > 0) {
+				iModifer = iNewModifer;
+				return iModifer;
+			}
+			else {
+				return 100;
+			}
+		}
+		else {
+			if (CVTEAM_TECH_COST_BY_ERA_TO_AI > 0) {
+				iModifer = iNewModifer;
+				return iModifer;
+			}
+			else {
+				return 100;
+			}
+		}
+	}
+
+	return iModifer;
+}
 
 
 int CvTeam::getResearchCost(TechTypes eTech, bool bModifiers) const
@@ -2695,6 +2768,9 @@ int CvTeam::getResearchCost(TechTypes eTech, bool bModifiers) const
 
 	//iCost *= GC.getHandicapInfo(getHandicapType()).getResearchPercent(); //Rhye
 	iCost *= GC.getHandicapInfo(getHandicapType()).getResearchPercentByID(getLeaderID()); //Rhye
+	iCost /= 100;
+
+	iCost *= getResearchCostByTech(eTech, getLeaderID());
 	iCost /= 100;
 
 	iCost *= getScenarioResearchModifier();
@@ -2714,7 +2790,7 @@ int CvTeam::getResearchCost(TechTypes eTech, bool bModifiers) const
 	iCost *= GC.getEraInfo((EraTypes)GC.getTechInfo(eTech).getEra()).getResearchPercent();
 	iCost /= 100;
 
-	iCost *= std::max(0, ((GC.getDefineINT("TECH_COST_EXTRA_TEAM_MEMBER_MODIFIER") * (getNumMembers() - 1)) + 100));
+	iCost *= std::max(0, ((TECH_COST_EXTRA_TEAM_MEMBER_MODIFIER * (getNumMembers() - 1)) + 100));
 	iCost /= 100;
 
 	if (bModifiers)
@@ -3157,7 +3233,7 @@ HandicapTypes CvTeam::getHandicapType() const
 	}
 	else
 	{
-		return ((HandicapTypes)(GC.getDefineINT("STANDARD_HANDICAP")));
+		return ((HandicapTypes)(STANDARD_HANDICAP));
 	}
 }
 
@@ -3174,7 +3250,18 @@ CvWString CvTeam::getName() const
 	{
 		if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getTeam() == getID())
 		{
-			setListHelp(szBuffer, L"", GET_PLAYER((PlayerTypes)iI).getName(), L"/", bFirst);
+
+			setListHelp(szBuffer, L"-", GET_PLAYER((PlayerTypes)iI).getName(), L"/", bFirst);
+			// 不建议这样用，会出现问题
+			/*
+			if (GC.getDefineINT("CVGAMETEXT_SHOW_CIV_WITH_LEADER_NAME") > 0) {
+				setListHelp(szBuffer, L"", GET_PLAYER((PlayerTypes)iI).getName(), L"/", bFirst);
+				setListHelp(szBuffer, L"", GET_PLAYER((PlayerTypes)iI).getCivilizationDescription(), L"/", bFirst);
+			}
+			else {
+				setListHelp(szBuffer, L"-", GET_PLAYER((PlayerTypes)iI).getName(), L"/", bFirst);
+			}
+			*/
 			bFirst = false;
 		}
 	}
@@ -5094,6 +5181,9 @@ int CvTeam::getObsoleteBuildingCount(BuildingTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < GC.getNumBuildingInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	if (CVCITY_BUILDING_NO_OBSOLETE > 0) {
+		return 0;
+	}
 	return m_paiObsoleteBuildingCount[eIndex];
 }
 
@@ -5693,7 +5783,7 @@ void CvTeam::setHasTech(TechTypes eIndex, bool bNewValue, PlayerTypes ePlayer, b
 					argsList.add(eIndex);
 					argsList.add(bFirst);
 					long lResult=0;
-					gDLL->getPythonIFace()->callFunction(PYGameModule, "doHolyCityTech", argsList.makeFunctionArgs(), &lResult);
+					GC.callPythoFunction(PYGameModule, "doHolyCityTech", argsList.makeFunctionArgs(), &lResult);
 					if (lResult != 1 && getID() < NUM_MAJOR_PLAYERS) //Leoreth: independents don't found religions
 					{
 						for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
@@ -6096,11 +6186,11 @@ void CvTeam::doWarWeariness()
 	{
 		if (getWarWeariness((TeamTypes)iI) > 0)
 		{
-			changeWarWeariness(((TeamTypes)iI), 100 * GC.getDefineINT("WW_DECAY_RATE"));
+			changeWarWeariness(((TeamTypes)iI), 100 * WW_DECAY_RATE);
 
 			if (!(GET_TEAM((TeamTypes)iI).isAlive()) || !isAtWar((TeamTypes)iI) || GC.getGameINLINE().isOption(GAMEOPTION_ALWAYS_WAR) || GC.getGameINLINE().isOption(GAMEOPTION_NO_CHANGING_WAR_PEACE))
 			{
-				setWarWeariness(((TeamTypes)iI), ((getWarWeariness((TeamTypes)iI) * GC.getDefineINT("WW_DECAY_PEACE_PERCENT")) / 100));
+				setWarWeariness(((TeamTypes)iI), ((getWarWeariness((TeamTypes)iI) * WW_DECAY_PEACE_PERCENT) / 100));
 			}
 		}
 	}
@@ -6234,9 +6324,9 @@ void CvTeam::testCircumnavigated()
 
 	if (GC.getGameINLINE().getElapsedGameTurns() > 0)
 	{
-		if (GC.getDefineINT("CIRCUMNAVIGATE_FREE_MOVES") != 0)
+		if (CIRCUMNAVIGATE_FREE_MOVES != 0)
 		{
-			changeExtraMoves(DOMAIN_SEA, GC.getDefineINT("CIRCUMNAVIGATE_FREE_MOVES"));
+			changeExtraMoves(DOMAIN_SEA, CIRCUMNAVIGATE_FREE_MOVES);
 
 			for (int iI = 0; iI < MAX_PLAYERS; iI++)
 			{
@@ -6244,7 +6334,7 @@ void CvTeam::testCircumnavigated()
 				{
 					if (getID() == GET_PLAYER((PlayerTypes)iI).getTeam())
 					{
-						szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_CIRC_GLOBE", GC.getDefineINT("CIRCUMNAVIGATE_FREE_MOVES"));
+						szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_CIRC_GLOBE", CIRCUMNAVIGATE_FREE_MOVES);
 					}
 					else if (isHasMet(GET_PLAYER((PlayerTypes)iI).getTeam()))
 					{

@@ -34,6 +34,7 @@ from __future__ import generators
 """
 
 import sys
+
 INTP_VER = sys.version_info[:2]
 if INTP_VER < (2, 2):
     raise RuntimeError("Python v.2.2 or later needed")
@@ -51,7 +52,7 @@ BOMS = {
     BOM_UTF16_BE: ('utf16_be', 'utf_16'),
     BOM_UTF16_LE: ('utf16_le', 'utf_16'),
     BOM_UTF16: ('utf_16', 'utf_16'),
-    }
+}
 # All legal variants of the BOM codecs.
 # TODO: the list of aliases is not meant to be exhaustive, is there a
 #   better way ?
@@ -71,7 +72,7 @@ BOM_LIST = {
     'utf': 'utf_8',
     'utf8': 'utf_8',
     'utf-8': 'utf_8',
-    }
+}
 
 # Map of encodings to the BOM to write.
 BOM_SET = {
@@ -80,7 +81,7 @@ BOM_SET = {
     'utf16_be': BOM_UTF16_BE,
     'utf16_le': BOM_UTF16_LE,
     None: BOM_UTF8
-    }
+}
 
 try:
     from validate import VdtMissingValue
@@ -101,7 +102,6 @@ try:
     True, False
 except NameError:
     True, False = 1, 0
-
 
 __version__ = '4.2.0'
 
@@ -151,6 +151,7 @@ OPTION_DEFAULTS = {
     'default_encoding': None,
 }
 
+
 class ConfigObjError(SyntaxError):
     """
     This is the base class for all errors that ConfigObj raises.
@@ -160,11 +161,13 @@ class ConfigObjError(SyntaxError):
     Traceback (most recent call last):
     ConfigObjError
     """
+
     def __init__(self, message='', line_number=None, line=''):
         self.line = line
         self.line_number = line_number
         self.message = message
         SyntaxError.__init__(self, message)
+
 
 class NestingError(ConfigObjError):
     """
@@ -174,6 +177,7 @@ class NestingError(ConfigObjError):
     Traceback (most recent call last):
     NestingError
     """
+
 
 class ParseError(ConfigObjError):
     """
@@ -186,6 +190,7 @@ class ParseError(ConfigObjError):
     ParseError
     """
 
+
 class DuplicateError(ConfigObjError):
     """
     The keyword or section specified already exists.
@@ -194,6 +199,7 @@ class DuplicateError(ConfigObjError):
     Traceback (most recent call last):
     DuplicateError
     """
+
 
 class ConfigspecError(ConfigObjError):
     """
@@ -204,8 +210,10 @@ class ConfigspecError(ConfigObjError):
     ConfigspecError
     """
 
+
 class InterpolationError(ConfigObjError):
     """Base class for the two interpolation errors."""
+
 
 class InterpolationDepthError(InterpolationError):
     """Maximum interpolation depth exceeded in string interpolation."""
@@ -220,6 +228,7 @@ class InterpolationDepthError(InterpolationError):
             self,
             'max interpolation depth exceeded in value "%s".' % option)
 
+
 class RepeatSectionError(ConfigObjError):
     """
     This error indicates additional sections in a section with a
@@ -229,6 +238,7 @@ class RepeatSectionError(ConfigObjError):
     Traceback (most recent call last):
     RepeatSectionError
     """
+
 
 class MissingInterpolationOption(InterpolationError):
     """A value specified for interpolation was missing."""
@@ -242,6 +252,7 @@ class MissingInterpolationOption(InterpolationError):
         InterpolationError.__init__(
             self,
             'missing option "%s" in interpolation.' % option)
+
 
 class Section(dict):
     """
@@ -389,14 +400,14 @@ class Section(dict):
                     for entry in value:
                         if not isinstance(entry, StringTypes):
                             raise TypeError, (
-                                'Value is not a string "%s".' % entry)
+                                    'Value is not a string "%s".' % entry)
                 else:
                     raise TypeError, 'Value is not a string "%s".' % value
             dict.__setitem__(self, key, value)
 
     def __delitem__(self, key):
         """Remove items from the sequence when deleting."""
-        dict. __delitem__(self, key)
+        dict.__delitem__(self, key)
         if key in self.scalars:
             self.scalars.remove(key)
         else:
@@ -417,7 +428,6 @@ class Section(dict):
         """
         for entry in indict:
             self[entry] = indict[entry]
-
 
     def pop(self, key, *args):
         """ """
@@ -440,7 +450,7 @@ class Section(dict):
         if not sequence:
             raise KeyError, ": 'popitem(): dictionary is empty'"
         key = sequence[0]
-        val =  self[key]
+        val = self[key]
         del self[key]
         return key, val
 
@@ -495,36 +505,36 @@ class Section(dict):
 
     def __repr__(self):
         return '{%s}' % ', '.join([('%s: %s' % (repr(key), repr(self[key])))
-            for key in (self.scalars + self.sections)])
+                                   for key in (self.scalars + self.sections)])
 
     __str__ = __repr__
 
     # Extra methods - not in a normal dictionary
-    
+
     def clearKeyComments(self, key):
-    	"""Clears all comments for the given key."""
-    	if key in self.scalars or key in self.sections:
+        """Clears all comments for the given key."""
+        if key in self.scalars or key in self.sections:
             self.comments[key] = []
             self.inline_comments[key] = ''
-    
+
     def addKeyComment(self, key, comment=None):
-    	"""Adds the given text as a single-line comment with a leading '# '."""
-    	if key in self.scalars or key in self.sections:
-	    	if comment is None:
-	    		comment = ''
-	    	elif comment == '':
-	    		comment = '#'
-	    	else:
-	    		comment = '# ' + comment
-    		self.comments.setdefault(key, []).append(comment)
+        """Adds the given text as a single-line comment with a leading '# '."""
+        if key in self.scalars or key in self.sections:
+            if comment is None:
+                comment = ''
+            elif comment == '':
+                comment = '#'
+            else:
+                comment = '# ' + comment
+            self.comments.setdefault(key, []).append(comment)
 
     def setInlineKeyComment(self, key, comment):
-    	"""Sets the given text as the single inline comment with a leading '# '."""
-    	if key in self.scalars or key in self.sections:
-    		if comment:
-    			self.inline_comments[key] = '# ' + comment
-    		else:
-    			self.inline_comments[key] = ''
+        """Sets the given text as the single inline comment with a leading '# '."""
+        if key in self.scalars or key in self.sections:
+            if comment:
+                self.inline_comments[key] = '# ' + comment
+            else:
+                self.inline_comments[key] = ''
 
     def dict(self):
         """
@@ -571,9 +581,9 @@ class Section(dict):
         """
         for key, val in indict.items():
             if (key in self and isinstance(self[key], dict) and
-                                isinstance(val, dict)):
+                    isinstance(val, dict)):
                 self[key].merge(val)
-            else:   
+            else:
                 self[key] = val
 
     def rename(self, oldkey, newkey):
@@ -606,7 +616,7 @@ class Section(dict):
         self.inline_comments[newkey] = inline_comment
 
     def walk(self, function, raise_errors=True,
-            call_on_sections=False, **keywargs):
+             call_on_sections=False, **keywargs):
         """
         Walk every member and call a function on the keyword and value.
         
@@ -714,6 +724,7 @@ class Section(dict):
         >>> a == m
         1
         """
+
         def decode(section, key, encoding=encoding):
             """ """
             val = section[key]
@@ -728,6 +739,7 @@ class Section(dict):
             newkey = key.decode(encoding)
             section.rename(key, newkey)
             section[newkey] = newval
+
         # using ``call_on_sections`` allows us to modify section names
         self.walk(decode, call_on_sections=True)
 
@@ -739,6 +751,7 @@ class Section(dict):
         Works with subsections and list values.
         Uses the ``walk`` method.
         """
+
         def encode(section, key, encoding=encoding):
             """ """
             val = section[key]
@@ -753,12 +766,13 @@ class Section(dict):
             newkey = key.encode(encoding)
             section.rename(key, newkey)
             section[newkey] = newval
+
         self.walk(encode, call_on_sections=True)
 
     def istrue(self, key):
         """A deprecated version of ``as_bool``."""
         warn('use of ``istrue`` is deprecated. Use ``as_bool`` method '
-                'instead.', DeprecationWarning)
+             'instead.', DeprecationWarning)
         return self.as_bool(key)
 
     def as_bool(self, key):
@@ -845,7 +859,7 @@ class Section(dict):
         3.2000000000000002
         """
         return float(self[key])
-    
+
 
 class ConfigObj(Section):
     """
@@ -891,7 +905,7 @@ class ConfigObj(Section):
         (.*)                    # value (including list values and comments)
         $   # line end
         ''',
-        re.VERBOSE)
+                          re.VERBOSE)
 
     _sectionmarker = re.compile(r'''^
         (\s*)                     # 1: indentation
@@ -904,7 +918,7 @@ class ConfigObj(Section):
         ((?:\s*\])+)              # 4: section marker close
         \s*(\#.*)?                # 5: optional comment
         $''',
-        re.VERBOSE)
+                                re.VERBOSE)
 
     # this regexp pulls list values out as a single string
     # or single values and comments
@@ -931,7 +945,7 @@ class ConfigObj(Section):
         )
         \s*(\#.*)?          # optional comment
         $''',
-        re.VERBOSE)
+                           re.VERBOSE)
 
     # use findall to get the members of a list value
     _listvalueexp = re.compile(r'''
@@ -942,7 +956,7 @@ class ConfigObj(Section):
         )
         \s*,\s*                 # comma
         ''',
-        re.VERBOSE)
+                               re.VERBOSE)
 
     # this regexp is used for the value
     # when lists are switched off
@@ -954,7 +968,7 @@ class ConfigObj(Section):
         )
         \s*(\#.*)?              # optional comment
         $''',
-        re.VERBOSE)
+                              re.VERBOSE)
 
     # regexes for finding triple quoted values on one line
     _single_line_single = re.compile(r"^'''(.*?)'''\s*(#.*)?$")
@@ -973,7 +987,7 @@ class ConfigObj(Section):
         'on': True, 'off': False,
         '1': True, '0': False,
         'true': True, 'false': False,
-        }
+    }
 
     def __init__(self, infile=None, options=None, **kwargs):
         """
@@ -1056,7 +1070,7 @@ class ConfigObj(Section):
             # in case it's not an 8 bit encoding
         else:
             raise TypeError, ('infile must be a filename,'
-                ' file like object, or list of lines.')
+                              ' file like object, or list of lines.')
         #
         if infile:
             # don't do it for the empty ConfigObj
@@ -1116,7 +1130,7 @@ class ConfigObj(Section):
         passed in as a single string.
         """
         if ((self.encoding is not None) and
-            (self.encoding.lower() not in BOM_LIST)):
+                (self.encoding.lower() not in BOM_LIST)):
             # No need to check for a BOM
             # encoding specified doesn't have one
             # just decode
@@ -1333,7 +1347,7 @@ class ConfigObj(Section):
             reset_comment = True
             # first we check if it's a section marker
             mat = self._sectionmarker.match(line)
-##            print >> sys.stderr, sline, mat
+            ##            print >> sys.stderr, sline, mat
             if mat is not None:
                 # is a section line
                 (indent, sect_open, sect_name, sect_close, comment) = (
@@ -1370,7 +1384,7 @@ class ConfigObj(Section):
                 #
                 sect_name = self._unquote(sect_name)
                 if parent.has_key(sect_name):
-##                    print >> sys.stderr, sect_name
+                    ##                    print >> sys.stderr, sect_name
                     self._handle_error(
                         'Duplicate section name at line %s.',
                         DuplicateError, infile, cur_index)
@@ -1384,13 +1398,13 @@ class ConfigObj(Section):
                 parent[sect_name] = this_section
                 parent.inline_comments[sect_name] = comment
                 parent.comments[sect_name] = comment_list
-##                print >> sys.stderr, parent[sect_name] is this_section
+                ##                print >> sys.stderr, parent[sect_name] is this_section
                 continue
             #
             # it's not a section marker,
             # so it should be a valid ``key = value`` line
             mat = self._keyword.match(line)
-##            print >> sys.stderr, sline, mat
+            ##            print >> sys.stderr, sline, mat
             if mat is not None:
                 # is a keyword value
                 # value will include any inline comment
@@ -1417,7 +1431,7 @@ class ConfigObj(Section):
                             ParseError, infile, cur_index)
                         continue
                 #
-##                print >> sys.stderr, sline
+                ##                print >> sys.stderr, sline
                 key = self._unquote(key)
                 if this_section.has_key(key):
                     self._handle_error(
@@ -1425,15 +1439,15 @@ class ConfigObj(Section):
                         DuplicateError, infile, cur_index)
                     continue
                 # add the key
-##                print >> sys.stderr, this_section.name
+                ##                print >> sys.stderr, this_section.name
                 this_section[key] = value
                 this_section.inline_comments[key] = comment
                 this_section.comments[key] = comment_list
-##                print >> sys.stderr, key, this_section[key]
-##                if this_section.name is not None:
-##                    print >> sys.stderr, this_section
-##                    print >> sys.stderr, this_section.parent
-##                    print >> sys.stderr, this_section.parent[this_section.name]
+                ##                print >> sys.stderr, key, this_section[key]
+                ##                if this_section.name is not None:
+                ##                    print >> sys.stderr, this_section
+                ##                    print >> sys.stderr, this_section.parent
+                ##                    print >> sys.stderr, this_section.parent[this_section.name]
                 continue
             #
             # it neither matched as a keyword
@@ -1513,7 +1527,7 @@ class ConfigObj(Section):
             elif len(value) == 1:
                 return self._quote(value[0], multiline=False) + ','
             return ', '.join([self._quote(val, multiline=False)
-                for val in value])
+                              for val in value])
         if not isinstance(value, StringTypes):
             if self.stringify:
                 value = str(value)
@@ -1528,7 +1542,7 @@ class ConfigObj(Section):
         if not value:
             return '""'
         if (not self.list_values and '\n' not in value) or not (multiline and
-                ((("'" in value) and ('"' in value)) or ('\n' in value))):
+                                                                ((("'" in value) and ('"' in value)) or ('\n' in value))):
             if not self.list_values:
                 # we don't quote if ``list_values=False``
                 quot = noquot
@@ -1536,15 +1550,15 @@ class ConfigObj(Section):
             elif '\n' in value:
                 # will only happen if multiline is off - e.g. '\n' in key
                 raise ConfigObjError, ('Value "%s" cannot be safely quoted.' %
-                    value)
+                                       value)
             elif ((value[0] not in wspace_plus) and
-                    (value[-1] not in wspace_plus) and
-                    (',' not in value)):
+                  (value[-1] not in wspace_plus) and
+                  (',' not in value)):
                 quot = noquot
             else:
                 if ("'" in value) and ('"' in value):
                     raise ConfigObjError, (
-                        'Value "%s" cannot be safely quoted.' % value)
+                            'Value "%s" cannot be safely quoted.' % value)
                 elif '"' in value:
                     quot = squot
                 else:
@@ -1553,7 +1567,7 @@ class ConfigObj(Section):
             # if value has '\n' or "'" *and* '"', it will need triple quotes
             if (value.find('"""') != -1) and (value.find("'''") != -1):
                 raise ConfigObjError, (
-                    'Value "%s" cannot be safely quoted.' % value)
+                        'Value "%s" cannot be safely quoted.' % value)
             if value.find('"""') == -1:
                 quot = tdquot
             else:
@@ -1780,10 +1794,10 @@ class ConfigObj(Section):
             section_keys = configspec.sections
             scalar_keys = configspec.scalars
         except AttributeError:
-            section_keys = [entry for entry in configspec 
-                                if isinstance(configspec[entry], dict)]
-            scalar_keys = [entry for entry in configspec 
-                                if not isinstance(configspec[entry], dict)]
+            section_keys = [entry for entry in configspec
+                            if isinstance(configspec[entry], dict)]
+            scalar_keys = [entry for entry in configspec
+                           if not isinstance(configspec[entry], dict)]
         if '__many__' in section_keys and len(section_keys) > 1:
             # FIXME: can we supply any useful information here ?
             raise RepeatSectionError
@@ -1875,32 +1889,32 @@ class ConfigObj(Section):
         raise SyntaxError
 
     # Public methods
-    
+
     def clearComments(self):
         self.clearInitialComment()
         self.clearFinalComment()
-    
+
     def clearInitialComment(self):
         self.initial_comment = []
-    
+
     def addInitialComment(self, comment=None):
-    	if comment is None:
-    		self.initial_comment.append('')
-    	elif comment == '':
-    		self.initial_comment.append('#')
-    	else:
-    		self.initial_comment.append('# ' + comment)
-    
-	def clearFinalComment(self):
-		self.final_comment = []
-    
+        if comment is None:
+            self.initial_comment.append('')
+        elif comment == '':
+            self.initial_comment.append('#')
+        else:
+            self.initial_comment.append('# ' + comment)
+
+        def clearFinalComment(self):
+            self.final_comment = []
+
     def addFinalComment(self, comment=None):
-    	if comment is None:
-    		self.final_comment.append('')
-    	elif comment == '':
-    		self.final_comment.append('#')
-    	else:
-    		self.final_comment.append('# ' + comment)
+        if comment is None:
+            self.final_comment.append('')
+        elif comment == '':
+            self.final_comment.append('#')
+        else:
+            self.final_comment.append('# ' + comment)
 
     def write(self, outfile=None, section=None):
         """
@@ -1932,7 +1946,7 @@ class ConfigObj(Section):
         ['a = %(a)s', '[DEFAULT]', 'a = fish']
         """
         if self.indent_type is None:
-            # this can be true if initialised from a dictionary
+            # this can be True if initialised from a dictionary
             self.indent_type = DEFAULT_INDENT_TYPE
         #
         out = []
@@ -1997,7 +2011,7 @@ class ConfigObj(Section):
             if self.encoding:
                 out = [l.encode(self.encoding) for l in out]
             if (self.BOM and ((self.encoding is None) or
-                (BOM_LIST.get(self.encoding.lower()) == 'utf_8'))):
+                              (BOM_LIST.get(self.encoding.lower()) == 'utf_8'))):
                 # Add the UTF8 BOM
                 if not out:
                     out.append('')
@@ -2006,11 +2020,11 @@ class ConfigObj(Section):
         #
         # Turn the list to a string, joined with correct newlines
         output = (self._a_to_u(self.newlines or os.linesep)
-            ).join(out)
+                  ).join(out)
         if self.encoding:
             output = output.encode(self.encoding)
         if (self.BOM and ((self.encoding is None) or
-            (BOM_LIST.get(self.encoding.lower()) == 'utf_8'))):
+                          (BOM_LIST.get(self.encoding.lower()) == 'utf_8'))):
             # Add the UTF8 BOM
             output = BOM_UTF8 + output
         if outfile is not None:
@@ -2497,7 +2511,7 @@ class ConfigObj(Section):
             if section is self and entry == 'DEFAULT':
                 continue
             check = self.validate(validator, preserve_errors=preserve_errors,
-                section=section[entry])
+                                  section=section[entry])
             out[entry] = check
             if check == False:
                 ret_true = False
@@ -2513,6 +2527,7 @@ class ConfigObj(Section):
             return False
         else:
             return out
+
 
 class SimpleVal(object):
     """
@@ -2565,15 +2580,16 @@ class SimpleVal(object):
     >>> o.validate(val)
     0
     """
-    
+
     def __init__(self):
         self.baseErrorClass = ConfigObjError
-    
+
     def check(self, check, member, missing=False):
         """A dummy check method, always returns the value unchanged."""
         if missing:
             raise self.baseErrorClass
         return member
+
 
 # Check / processing functions for options
 def flatten_errors(cfg, res, levels=None, results=None):
@@ -2909,6 +2925,7 @@ def _doctest():
     1
     """
 
+
 if __name__ == '__main__':
     # run the code tests in doctest format
     #
@@ -2979,6 +2996,7 @@ if __name__ == '__main__':
     '''
     #
     import doctest
+
     m = sys.modules.get('__main__')
     globs = m.__dict__.copy()
     a = ConfigObj(testconfig1.split('\n'), raise_errors=True)
@@ -3547,4 +3565,3 @@ if __name__ == '__main__':
     
     *A programming language is a medium of expression.* - Paul Graham
 """
-

@@ -161,7 +161,7 @@ void CvPlayerAI::AI_init()
 		FAssert(getPersonalityType() != NO_LEADER);
 		AI_setPeaceWeight(GC.getLeaderHeadInfo(getPersonalityType()).getBasePeaceWeight() + GC.getGameINLINE().getSorenRandNum(GC.getLeaderHeadInfo(getPersonalityType()).getPeaceWeightRand(), "AI Peace Weight"));
 		AI_setEspionageWeight(GC.getLeaderHeadInfo(getPersonalityType()).getEspionageWeight());
-		//AI_setCivicTimer(((getMaxAnarchyTurns() == 0) ? (GC.getDefineINT("MIN_REVOLUTION_TURNS") * 2) : CIVIC_CHANGE_DELAY) / 2);
+		//AI_setCivicTimer(((getMaxAnarchyTurns() == 0) ? (MIN_REVOLUTION_TURNS * 2) : CIVIC_CHANGE_DELAY) / 2);
 		AI_setReligionTimer(1);
 		AI_setCivicTimer((getMaxAnarchyTurns() == 0) ? 1 : 2);
 	}
@@ -320,6 +320,7 @@ int CvPlayerAI::AI_getFlavorValue(FlavorTypes eFlavor) const
 void CvPlayerAI::AI_doTurnPre()
 {
 	PROFILE_FUNC();
+	GC.countFunctionCall("CvPlayerAI::AI_doTurnPre()");
 
 	FAssertMsg(getPersonalityType() != NO_LEADER, "getPersonalityType() is not expected to be equal with NO_LEADER");
 	FAssertMsg(getLeaderType() != NO_LEADER, "getLeaderType() is not expected to be equal with NO_LEADER");
@@ -380,7 +381,7 @@ void CvPlayerAI::AI_doTurnPre()
 void CvPlayerAI::AI_doTurnPost()
 {
 	PROFILE_FUNC();
-
+	GC.countFunctionCall("CvPlayerAI::AI_doTurnPost()");
 	if (isHuman())
 	{
 		return;
@@ -925,7 +926,7 @@ void CvPlayerAI::AI_updateFoundValues(bool bStartingLoc) const
 					argsList.add((int)getID());
 					argsList.add(pLoopPlot->getX());
 					argsList.add(pLoopPlot->getY());
-					gDLL->getPythonIFace()->callFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
+					GC.callPythoFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
 				}
 
 				if (lResult == -1)
@@ -1374,45 +1375,46 @@ void CvPlayerAI::AI_conquerCity(CvCity* pCity, PlayerTypes ePreviousOwner, Playe
 		}
 		//Rhye - moved here
 
-		//Rhye - start
+		// mediv01 地图硬编码 已经由阿根廷铁路解决
+				//Rhye - start
 		int iX = pCity->getX_INLINE();
 		int iY = pCity->getY_INLINE();
-		if ((iX == 58 && iY == 39) || //Carthage
-			//(iX == 76 && iY == 40) || //Babylon
-			(iX == 62 && iY == 42) || //Pompeii
-			(iX == 76 && iY == 42) || //Niniveh
-			(iX == 77 && iY == 42) || //Niniveh
-			(iX == 77 && iY == 38) || //Ur
-			(iX == 71 && iY == 43) || //Gordium
-			(iX == 73 && iY == 43) || //Hattusas
-			(iX == 77 && iY == 44) || //Artaxata
-			(iX == 69 && iY == 15) || //Zimbabwe
-			(iX == 71 && iY == 17)) { //Quelimane
+		if ((iX == 67 && iY == 48) || //Carthage
+			//(iX == 89 && iY == 47) || //Babylon
+			(iX == 70 && iY == 52) || //Pompeii
+			(iX == 88 && iY == 50) || //Niniveh
+			(iX == 88 && iY == 51) || //Niniveh
+			(iX == 90 && iY == 45) || //Ur
+			(iX == 81 && iY == 53) || //Gordium
+			(iX == 84 && iY == 53) || //Hattusas
+			(iX == 89 && iY == 53) || //Artaxata
+			(iX == 79 && iY == 18) || //Zimbabwe
+			(iX == 83 && iY == 20)) { //Quelimane
 			iRazeValue += 60;
 			if (pCity->hasActiveWorldWonder())
 				iRazeValue -= 30;
-			}
-		else if ((iX == 73 && iY == 40) || //Sur
-			(iX == 59 && iY == 50) || //Mainz
-			(iX == 54 && iY == 38)) { //Russadir
+		}
+		else if ((iX == 84 && iY == 47) || //Sur
+			(iX == 67 && iY == 60) || //Mainz
+			(iX == 61 && iY == 47)) { //Russadir
 			iRazeValue += 20;
 			if (pCity->hasActiveWorldWonder())
 				iRazeValue -= 10;
-			}
-        // Leoreth: added more 600 AD cities here
-		else if ((iX == 68 && iY == 45) || //Byzantium
-            (iX == 60 && iY == 37) ||     //Tripolis
-            (iX == 64 && iY == 36) ||     //Bengazi
-            (iX == 67 && iY == 36) ||     //Alexandria
-            (iX == 69 && iY == 35) ||     //Cairo
-            (iX == 82 && iY == 38) ||     //Shiraz
-            (iX == 83 && iY == 45) ||     //Merv
-            (iX == 85 && iY == 47) ||    //Samarkand
-			(iX == 102 && iY == 47) ||	//Beijing
-			(iX == 75 && iY == 44) ||	//Trabzon
-			(iX == 72 && iY == 43)){	//Konya
-				iRazeValue -= 30;
-			}
+		}
+		// Leoreth: added more 600 AD cities here
+		else if ((iX == 79 && iY == 55) || //Byzantium
+			(iX == 69 && iY == 45) ||     //Tripolis
+			(iX == 74 && iY == 45) ||     //Bengazi
+			(iX == 77 && iY == 44) ||     //Alexandria
+			(iX == 79 && iY == 43) ||     //Cairo
+			(iX == 94 && iY == 45) ||     //Shiraz
+			(iX == 97 && iY == 53) ||     //Merv
+			(iX == 100 && iY == 54) ||    //Samarkand
+			(iX == 125 && iY == 56) ||	//Beijing
+			(iX == 86 && iY == 54) ||	//Trabzon
+			(iX == 82 && iY == 53)) {	//Konya
+			iRazeValue -= 30;
+		}
 
 		if (iRazeValue > 0)
 		{
@@ -1875,7 +1877,7 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 	{
 		return 0;
 	}
-
+	// mediv01 一些地图硬编码，尚未解决
 	//Leoreth: prevent France from founding Metz
 	if (iX == 57 && iY == 50)
 	{
@@ -2502,7 +2504,7 @@ int CvPlayerAI::AI_foundValue(int iX, int iY, int iMinRivalRange, bool bStarting
 	if (pPlot->isFreshWater())
 	{
 		iValue += 40;
-		iValue += (GC.getDefineINT("FRESH_WATER_HEALTH_CHANGE") * 30);
+		iValue += (FRESH_WATER_HEALTH_CHANGE * 30);
 	}
 
 	if (bStartingLoc)
@@ -4767,7 +4769,7 @@ void CvPlayerAI::AI_chooseFreeTech()
 //	argsList.add(getID());
 //	argsList.add(true);
 //	lResult = -1;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_chooseTech", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "AI_chooseTech", argsList.makeFunctionArgs(), &lResult);
 //	eBestTech = ((TechTypes)lResult);
     eBestTech = NO_TECH;
 //Speed: End Modify
@@ -4821,7 +4823,7 @@ void CvPlayerAI::AI_chooseResearch()
 //		argsList.add(getID());
 //		argsList.add(false);
 //		lResult = -1;
-//		gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_chooseTech", argsList.makeFunctionArgs(), &lResult);
+//		GC.callPythoFunction(PYGameModule, "AI_chooseTech", argsList.makeFunctionArgs(), &lResult);
 //		eBestTech = ((TechTypes)lResult);
         eBestTech = NO_TECH;
 //Speed: End Modify
@@ -5434,10 +5436,14 @@ int CvPlayerAI::AI_getWarAttitude(PlayerTypes ePlayer) const
 int CvPlayerAI::AI_getPeaceAttitude(PlayerTypes ePlayer) const
 {
 	int iAttitudeChange;
-
+	iAttitudeChange = 0;
+	if ((GET_PLAYER(ePlayer).isHuman()) && GC.m_iCVPLAYERAI_ATTITUDE_BONUS != 0)
+	{
+		iAttitudeChange += GC.m_iCVPLAYERAI_ATTITUDE_BONUS; //mediv01 外交态度红利
+	}
 	if (GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor() != 0)
 	{
-		iAttitudeChange = (GET_TEAM(getTeam()).AI_getAtPeaceCounter(GET_PLAYER(ePlayer).getTeam()) / GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor());
+		iAttitudeChange += (GET_TEAM(getTeam()).AI_getAtPeaceCounter(GET_PLAYER(ePlayer).getTeam()) / GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeDivisor());
 		return range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getAtPeaceAttitudeChangeLimit()));
 	}
 
@@ -6314,6 +6320,10 @@ PlayerVoteTypes CvPlayerAI::AI_diploVote(const VoteSelectionSubData& kVoteData, 
 
 }
 
+
+
+
+
 int CvPlayerAI::AI_dealVal(PlayerTypes ePlayer, const CLinkList<TradeData>* pList, bool bIgnoreAnnual, int iChange) const
 {
 	CLLNode<TradeData>* pNode;
@@ -6526,7 +6536,195 @@ bool CvPlayerAI::AI_considerOffer(PlayerTypes ePlayer, const CLinkList<TradeData
 	return (iTheirValue >= iOurValue);
 }
 
+//mediv01 by 20200723 可以勒索金币数量的接口
+int CvPlayerAI::AI_considerOffer_Threshold(int ePlayer1, int myPlayer1) const
+{
+	//CLLNode<TradeData>* pNode;
+	//return 0;
+	PlayerTypes ePlayer = ((PlayerTypes)ePlayer1);//human 
+	PlayerTypes myPlayer = ((PlayerTypes)myPlayer1);//AI
+	int iThreshold;
+	if (PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD == 0) {
+		return 0;//mediv01
+	}
 
+	//FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
+
+	if (GET_PLAYER(myPlayer).AI_getAttitude(ePlayer) < ATTITUDE_PLEASED)
+	{
+
+		if (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) > ((GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) * 4) / 3))
+		{
+			return 0;
+		}
+
+	}
+
+	if (GET_PLAYER(myPlayer).AI_getMemoryCount(ePlayer, MEMORY_MADE_DEMAND_RECENT) > 0)
+	{
+		return 0;
+	}
+
+
+
+	iThreshold = (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_getHasMetCounter(GET_PLAYER(ePlayer).getTeam()) + 50);
+
+	iThreshold *= 2;
+
+	if (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).AI_isLandTarget(GET_PLAYER(myPlayer).getTeam()))
+	{
+		iThreshold *= 3;
+	}
+
+	iThreshold *= (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) + 100);
+	iThreshold /= (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) + 100);
+
+
+	iThreshold -= GET_PLAYER(ePlayer).AI_getPeacetimeGrantValue(myPlayer);
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//iTheirValue=0
+	//int AI_dealVal = AI_goldTradeValuePercent(myPlayer);
+	iThreshold = iThreshold / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+	return iThreshold;
+
+	//iThreshold = 100;
+
+
+
+
+}
+
+int CvPlayerAI::AI_considerOffer_Threshold_Map(int ePlayer1, int myPlayer1) const
+{
+	//CLLNode<TradeData>* pNode;
+	//return 0;
+	PlayerTypes ePlayer = ((PlayerTypes)ePlayer1);//human 
+	PlayerTypes myPlayer = ((PlayerTypes)myPlayer1);//AI
+	int iThreshold = 0;
+	if (PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD_MAP == 0) {
+		return 0;//mediv01
+	}
+
+	CLinkList<TradeData> pOurList;
+	TradeData item;
+	setTradeItem(&item, TRADE_MAPS, 0);
+	pOurList.insertAtEnd(item);
+
+	int iChange = -1;
+	int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), &pOurList, false, iChange);
+	iThreshold = iOurValue;
+
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//int iTheirValue = AI_dealVal(ePlayer, pTheirList, false, iChange);
+
+	/* //mediv01 以下代码为勒索的代码
+	//FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
+
+	if (GET_PLAYER(myPlayer).AI_getAttitude(ePlayer) < ATTITUDE_PLEASED)
+	{
+
+		if (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) > ((GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) * 4) / 3))
+		{
+			return 0;
+		}
+
+	}
+
+	if (GET_PLAYER(myPlayer).AI_getMemoryCount(ePlayer, MEMORY_MADE_DEMAND_RECENT) > 0)
+	{
+		return 0;
+	}
+
+
+
+	iThreshold = (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_getHasMetCounter(GET_PLAYER(ePlayer).getTeam()) + 50);
+
+	iThreshold *= 2;
+
+	if (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).AI_isLandTarget(GET_PLAYER(myPlayer).getTeam()))
+	{
+		iThreshold *= 3;
+	}
+
+	iThreshold *= (GET_TEAM(GET_PLAYER(ePlayer).getTeam()).getPower(false) + 100);
+	iThreshold /= (GET_TEAM(GET_PLAYER(myPlayer).getTeam()).getPower(false) + 100);
+
+
+	iThreshold -= GET_PLAYER(ePlayer).AI_getPeacetimeGrantValue(myPlayer);
+	*/
+
+	//int iOurValue = GET_PLAYER(ePlayer).AI_dealVal(getID(), pOurList, false, iChange);
+	//iTheirValue=0
+	//int AI_dealVal = AI_goldTradeValuePercent(myPlayer);
+	iThreshold = iThreshold / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+	return iThreshold;
+
+	//iThreshold = 100;
+
+
+
+
+}
+
+
+int CvPlayerAI::getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const {
+	// 实现人类卖东西给AI的函数
+
+	PlayerTypes ePlayer = (PlayerTypes)ePlayerID;    //Human
+	PlayerTypes myPlayer = (PlayerTypes)myPlayerID;  //AI
+	TradeableItems tradetype = (TradeableItems)tradetypeID;
+	int iValue = 0;
+	int iMoney = 0;
+
+	if (myPlayer >= NUM_MAJOR_PLAYERS) {
+		return 0;
+	}
+
+	if (tradetype == TRADE_TECHNOLOGIES) {
+		TechTypes tradeTech = (TechTypes)tradeitemID;
+
+
+
+		bool cantrade = false;
+
+		//TradeData item;
+		//setTradeItem(&item, TRADE_TECHNOLOGIES, tradeitemID);
+		//cantrade = canTradeItem(ePlayer, item);
+
+		cantrade = GC.AIcantradeTech(myPlayer, ePlayer, tradeTech);
+		cantrade = true;
+		if (cantrade) {
+			iValue = GET_TEAM(GET_PLAYER(myPlayer).getTeam()).AI_techTradeVal((TechTypes)(tradeTech), GET_PLAYER(ePlayer).getTeam());
+			iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+
+		}
+	}
+	/*
+	if (tradetype == TRADE_RESOURCES) {
+		// 不成熟的代码
+		BonusTypes tradeBonus = (BonusTypes)(tradeitemID);
+
+
+		int iChange = -1;
+		iValue = 1000;
+		iValue = GET_PLAYER(myPlayer).AI_bonusTradeVal(tradeBonus, ePlayer, iChange);
+		iMoney = iValue / GET_PLAYER(ePlayer).AI_goldTradeValuePercent(myPlayer) * 100;
+
+		iMoney = iValue;
+
+		CvWString log_CWstring;
+		log_CWstring.Format(L"玩家ID %d ，资源ID： %d  资源价值： %d", (int)ePlayer, tradetypeID, 0);
+		GC.logs(log_CWstring, "TESTBonusTrade.log");
+
+	}
+	*/
+
+
+
+	return iMoney;
+}
 bool CvPlayerAI::AI_counterPropose(PlayerTypes ePlayer, const CLinkList<TradeData>* pTheirList, const CLinkList<TradeData>* pOurList, CLinkList<TradeData>* pTheirInventory, CLinkList<TradeData>* pOurInventory, CLinkList<TradeData>* pTheirCounter, CLinkList<TradeData>* pOurCounter) const
 {
 	CLLNode<TradeData>* pNode;
@@ -7152,7 +7350,11 @@ int CvPlayerAI::AI_maxGoldTrade(PlayerTypes ePlayer) const
 
 		iMaxGold = std::min(iMaxGold, getGold());
 
-		iMaxGold -= (iMaxGold % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		iMaxGold -= (iMaxGold % DIPLOMACY_VALUE_REMAINDER);
+	}
+
+	if (CVPLAYERAI_CAN_TRADE_GOLD_UNLIMITED == 1) {  //无限制交易金币
+		iMaxGold = getGold();
 	}
 
 	return std::max(0, iMaxGold);
@@ -7175,8 +7377,9 @@ int CvPlayerAI::AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const
 
 	if (isHuman() || (GET_PLAYER(ePlayer).getTeam() == getTeam()))
 	{
-		iMaxGoldPerTurn = (calculateGoldRate() + (getGold() / GC.getDefineINT("PEACE_TREATY_LENGTH")));
+		iMaxGoldPerTurn = (calculateGoldRate() + (getGold() / PEACE_TREATY_LENGTH));
 		iMaxGoldPerTurn += iResearchSurplus;
+
 	}
 	else
 	{
@@ -7186,15 +7389,31 @@ int CvPlayerAI::AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const
 		iMaxGoldPerTurn /= 100;
 
 		iMaxGoldPerTurn += std::min(0, getGoldPerTurnByPlayer(ePlayer));
+		if (isHuman()) {
+			if (GC.m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION > 0) {  //无限制交易金币
+				iMaxGoldPerTurn += getTotalPopulation() / GC.m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION;
+			}
+		}
 	}
 
-	return std::max(0, std::min(iMaxGoldPerTurn, calculateGoldRate() + iResearchSurplus));
+
+
+	int goldrate = calculateGoldRate() + iResearchSurplus;
+	if (isHuman()) {
+		if (GC.m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI > 0) {  //无限制交易金币
+			iMaxGoldPerTurn = getTotalPopulation() * GC.m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI;
+			goldrate = (calculateGoldRate() + 1) * GC.m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI + iResearchSurplus;
+		}
+	}
+
+	return std::max(0, std::min(iMaxGoldPerTurn, goldrate));
 }
+
 
 
 int CvPlayerAI::AI_goldPerTurnTradeVal(int iGoldPerTurn) const
 {
-	int iValue = iGoldPerTurn * GC.getDefineINT("PEACE_TREATY_LENGTH");
+	int iValue = iGoldPerTurn * PEACE_TREATY_LENGTH;
 	iValue *= AI_goldTradeValuePercent(NO_PLAYER);
 	iValue /= 100;
 
@@ -7674,7 +7893,7 @@ int CvPlayerAI::AI_bonusTradeVal(BonusTypes eBonus, PlayerTypes ePlayer, int iCh
 		iValue /= 2;
 	}
 
-	return (iValue * GC.getDefineINT("PEACE_TREATY_LENGTH"));
+	return (iValue * PEACE_TREATY_LENGTH);
 }
 
 
@@ -7687,6 +7906,13 @@ DenialTypes CvPlayerAI::AI_bonusTrade(BonusTypes eBonus, PlayerTypes ePlayer) co
 	int iI, iJ;
 
 	FAssertMsg(ePlayer != getID(), "shouldn't call this function on ourselves");
+
+	if (GC.m_iCVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE == 1) {// mediv01 
+		if (GET_PLAYER(ePlayer).isHuman()) {
+			return NO_DENIAL;
+		}
+	}
+
 
 	if (isHuman() && GET_PLAYER(ePlayer).isHuman())
 	{
@@ -7849,14 +8075,14 @@ int CvPlayerAI::AI_cityTradeVal(CvCity* pCity) const
 		iValue /= 2;
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	// Leoreth: help Canada acquire cities
 	if (getID() == CANADA) iValue /= 2;
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -7870,6 +8096,20 @@ DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 	CvCity* pNearestCity;
 
 	FAssert(pCity->getOwnerINLINE() == getID());
+
+	if (GC.m_iCVPLAYERAI_CAN_ALWAYS_TRADE_CITY == 1) {//mediv01 
+		if (GET_PLAYER(ePlayer).isHuman()) {
+			//这里需要加上对手是人类方，否则会出现闪退
+
+
+			return NO_DENIAL;
+		}
+
+		if (isHuman()) {
+			return NO_DENIAL;
+		}
+	}
+
 
 	//Rhye - start
 	if (isHuman() && GET_PLAYER(ePlayer).getNumCities() == 0)
@@ -8065,11 +8305,11 @@ int CvPlayerAI::AI_stopTradingTradeVal(TeamTypes eTradeTeam, PlayerTypes ePlayer
 		iValue /= 2;
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -8163,11 +8403,11 @@ int CvPlayerAI::AI_civicTradeVal(CivicTypes eCivic, PlayerTypes ePlayer) const
 		iValue /= 2;
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -8248,11 +8488,11 @@ int CvPlayerAI::AI_religionTradeVal(ReligionTypes eReligion, PlayerTypes ePlayer
 		iValue /= 2;
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -11530,25 +11770,28 @@ int CvPlayerAI::AI_espionageVal(PlayerTypes eTargetPlayer, EspionageMissionTypes
 		*/
 		SpecialistTypes theGreatSpecialistTarget = (SpecialistTypes)0;
 
-		CvCity* pCity = pPlot->getPlotCity();
-		if (NULL != pCity)
-		{
-			for (int iSpecialist = SPECIALIST_GREAT_PRIEST; iSpecialist <= SPECIALIST_GREAT_SPY; iSpecialist++)
+		// mediv01 修复空指针错误
+		if (pPlot != NULL) {
+			CvCity* pCity = pPlot->getPlotCity();
+			if (NULL != pCity)
 			{
-				SpecialistTypes tempSpecialist = (SpecialistTypes)0;
-				if (pCity->getFreeSpecialistCount((SpecialistTypes)iSpecialist) > 0)
+				for (int iSpecialist = SPECIALIST_GREAT_PRIEST; iSpecialist <= SPECIALIST_GREAT_SPY; iSpecialist++)
 				{
-					tempSpecialist = (SpecialistTypes)iSpecialist;
-					if (tempSpecialist > theGreatSpecialistTarget)
+					SpecialistTypes tempSpecialist = (SpecialistTypes)0;
+					if (pCity->getFreeSpecialistCount((SpecialistTypes)iSpecialist) > 0)
 					{
-						theGreatSpecialistTarget = tempSpecialist;
+						tempSpecialist = (SpecialistTypes)iSpecialist;
+						if (tempSpecialist > theGreatSpecialistTarget)
+						{
+							theGreatSpecialistTarget = tempSpecialist;
+						}
 					}
 				}
 			}
-		}
-		if (theGreatSpecialistTarget >= 7) 
-		{
-			iValue += 1000;
+			if (theGreatSpecialistTarget >= 7)
+			{
+				iValue += 1000;
+			}
 		}
 	}
 	
@@ -11558,11 +11801,14 @@ int CvPlayerAI::AI_espionageVal(PlayerTypes eTargetPlayer, EspionageMissionTypes
 		Bribe iValues compete with:
 		destroy improvement (1-60)
 		*/
-		if (pPlot->plotCount(PUF_isOtherTeam, getID(), -1, NO_PLAYER, NO_TEAM, PUF_isVisible, getID()) >= 1)
-		{
-			if (pPlot->plotCount(PUF_isUnitAIType, UNITAI_WORKER, -1) >= 1)
+		// mediv01 修复空指针问题
+		if (pPlot != NULL) {
+			if (pPlot->plotCount(PUF_isOtherTeam, getID(), -1, NO_PLAYER, NO_TEAM, PUF_isVisible, getID()) >= 1)
 			{
-				iValue += 100;
+				if (pPlot->plotCount(PUF_isUnitAIType, UNITAI_WORKER, -1) >= 1)
+				{
+					iValue += 100;
+				}
 			}
 		}
 	}
@@ -12420,7 +12666,7 @@ void CvPlayerAI::AI_doCommerce()
 
 			iIdealPercent /= getNumCities();
 
-			iIdealPercent -= (iIdealPercent % GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+			iIdealPercent -= (iIdealPercent % COMMERCE_PERCENT_CHANGE_INCREMENTS);
 
 			iIdealPercent = std::min(iIdealPercent, 20);
 
@@ -12464,7 +12710,7 @@ void CvPlayerAI::AI_doCommerce()
 		{
 			while (calculateGoldRate() > 0)
 			{
-				changeCommercePercent(COMMERCE_RESEARCH, GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+				changeCommercePercent(COMMERCE_RESEARCH, COMMERCE_PERCENT_CHANGE_INCREMENTS);
 
 				if (getCommercePercent(COMMERCE_RESEARCH) == 100)
 				{
@@ -12476,7 +12722,7 @@ void CvPlayerAI::AI_doCommerce()
 			{
 				while (getGold() + iTargetTurns * calculateGoldRate() <= iGoldTarget)
 				{
-					changeCommercePercent(COMMERCE_RESEARCH, -(GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS")));
+					changeCommercePercent(COMMERCE_RESEARCH, -(COMMERCE_PERCENT_CHANGE_INCREMENTS));
 
 					if ((getCommercePercent(COMMERCE_RESEARCH) == 0))
 					{
@@ -12488,25 +12734,25 @@ void CvPlayerAI::AI_doCommerce()
 			{
 				if (AI_avoidScience())
 				{
-					changeCommercePercent(COMMERCE_RESEARCH, -(GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS")));
+					changeCommercePercent(COMMERCE_RESEARCH, -(COMMERCE_PERCENT_CHANGE_INCREMENTS));
 				}
 			}
 
 			if ((GET_TEAM(getTeam()).getChosenWarCount(true) > 0) || (GET_TEAM(getTeam()).getWarPlanCount(WARPLAN_ATTACKED_RECENT, true) > 0))
 			{
-				changeCommercePercent(COMMERCE_RESEARCH, -(GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS")));
+				changeCommercePercent(COMMERCE_RESEARCH, -(COMMERCE_PERCENT_CHANGE_INCREMENTS));
 			}
 
 			if ((getCommercePercent(COMMERCE_RESEARCH) == 0) && (calculateGoldRate() > 0))
 			{
-				setCommercePercent(COMMERCE_RESEARCH, GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+				setCommercePercent(COMMERCE_RESEARCH, COMMERCE_PERCENT_CHANGE_INCREMENTS);
 			}
 
 			//Rhye - start switch
 			switch (getID())
 			{
 				case MALI:
-					changeCommercePercent(COMMERCE_RESEARCH, -4*(GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"))); //-40%
+					changeCommercePercent(COMMERCE_RESEARCH, -4*(COMMERCE_PERCENT_CHANGE_INCREMENTS)); //-40%
 					break;
 			}
 			//Rhye - end
@@ -12564,8 +12810,8 @@ void CvPlayerAI::AI_doCommerce()
 
 			while (getCommerceRate(COMMERCE_ESPIONAGE) < iEspionageTargetRate && getCommercePercent(COMMERCE_ESPIONAGE) < 20)
 			{
-				changeCommercePercent(COMMERCE_RESEARCH, -GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
-				changeCommercePercent(COMMERCE_ESPIONAGE, GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+				changeCommercePercent(COMMERCE_RESEARCH, -COMMERCE_PERCENT_CHANGE_INCREMENTS);
+				changeCommercePercent(COMMERCE_ESPIONAGE, COMMERCE_PERCENT_CHANGE_INCREMENTS);
 
 				if (getGold() + iTargetTurns * calculateGoldRate() < iGoldTarget)
 				{
@@ -12578,7 +12824,7 @@ void CvPlayerAI::AI_doCommerce()
 	//				{
 	//					break;
 	//				}
-					if (getCommercePercent(COMMERCE_RESEARCH) * 2 <= (getCommercePercent(COMMERCE_ESPIONAGE) + GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS")) * 3)
+					if (getCommercePercent(COMMERCE_RESEARCH) * 2 <= (getCommercePercent(COMMERCE_ESPIONAGE) + COMMERCE_PERCENT_CHANGE_INCREMENTS) * 3)
 					{
 						break;
 					}
@@ -12602,13 +12848,13 @@ void CvPlayerAI::AI_doCommerce()
 		{
 			if (getCommercePercent(COMMERCE_ESPIONAGE) > 0)
 			{
-				changeCommercePercent(COMMERCE_ESPIONAGE, -GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+				changeCommercePercent(COMMERCE_ESPIONAGE, -COMMERCE_PERCENT_CHANGE_INCREMENTS);
 			}
 			else
 			{
-				changeCommercePercent(COMMERCE_RESEARCH, -GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+				changeCommercePercent(COMMERCE_RESEARCH, -COMMERCE_PERCENT_CHANGE_INCREMENTS);
 			}
-			//changeCommercePercent(COMMERCE_GOLD, GC.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"));
+			//changeCommercePercent(COMMERCE_GOLD, COMMERCE_PERCENT_CHANGE_INCREMENTS);
 		}
 	}
 
@@ -12659,7 +12905,7 @@ void CvPlayerAI::AI_doCivics()
 	if (canRevolution(paeBestCivic))
 	{
 		revolution(paeBestCivic);
-		AI_setCivicTimer((getMaxAnarchyTurns() == 0) ? (GC.getDefineINT("MIN_REVOLUTION_TURNS") * 2) : CIVIC_CHANGE_DELAY);
+		AI_setCivicTimer((getMaxAnarchyTurns() == 0) ? (MIN_REVOLUTION_TURNS * 2) : CIVIC_CHANGE_DELAY);
 	}
 
 	SAFE_DELETE_ARRAY(paeBestCivic);
@@ -12702,6 +12948,7 @@ void CvPlayerAI::AI_doReligion()
 void CvPlayerAI::AI_doDiplo()
 {
 	PROFILE_FUNC();
+	GC.countFunctionCall("CvPlayerAI::AI_doDiplo()");
 
 	CLLNode<TradeData>* pNode;
 	CvDiploParameters* pDiplo;
@@ -12745,7 +12992,7 @@ void CvPlayerAI::AI_doDiplo()
 //	CyArgsList argsList;
 //	argsList.add(getID());
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_doDiplo", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "AI_doDiplo", argsList.makeFunctionArgs(), &lResult);
 //	if (lResult == 1)
 //	{
 //		return;
@@ -12780,7 +13027,7 @@ void CvPlayerAI::AI_doDiplo()
 							{
 								if (pLoopDeal->isCancelable(getID()))
 								{
-									if ((GC.getGameINLINE().getGameTurn() - pLoopDeal->getInitialGameTurn()) >= (GC.getDefineINT("PEACE_TREATY_LENGTH") * 2))
+									if ((GC.getGameINLINE().getGameTurn() - pLoopDeal->getInitialGameTurn()) >= (PEACE_TREATY_LENGTH * 2))
 									{
 										bCancelDeal = false;
 
@@ -12865,6 +13112,10 @@ void CvPlayerAI::AI_doDiplo()
 
 													if (pLoopDeal->isVassalDeal())
 													{
+														if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_VASSAL_DEAL") > 0) {
+															continue;
+														}
+
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_NO_VASSAL"));
 														pDiplo->setAIContact(true);
 														gDLL->beginDiplomacy(pDiplo, ((PlayerTypes)iI));
@@ -12872,6 +13123,10 @@ void CvPlayerAI::AI_doDiplo()
 													}
 													else
 													{
+														if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_CANCEL_VASSAL_DEAL") > 0) {
+															continue;
+														}
+
 														pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_CANCEL_DEAL"));
 														pDiplo->setAIContact(true);
 														pDiplo->setOurOfferList(theirList);
@@ -12933,6 +13188,9 @@ void CvPlayerAI::AI_doDiplo()
 									{
 										if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 										{
+											if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_RESOURCE_DEAL") > 0) {
+												continue;
+											}
 											pDiplo = new CvDiploParameters(getID());
 											FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
 											pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_GIVE_HELP"));
@@ -12985,6 +13243,9 @@ void CvPlayerAI::AI_doDiplo()
 									{
 										if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 										{
+											if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_TECH_DEAL") > 0) {
+												continue;
+											}
 											pDiplo = new CvDiploParameters(getID());
 											FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
 											pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_GIVE_HELP"));
@@ -13037,6 +13298,9 @@ void CvPlayerAI::AI_doDiplo()
 										{
 											if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 											{
+												if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_TRIBUTE_DEAL") > 0) {
+													continue;
+												}
 												CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_VASSAL_GRANT_TRIBUTE, getID(), eBestGiveBonus);
 												if (pInfo)
 												{
@@ -13094,6 +13358,9 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																//if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_CITY_DEAL") > 0) {
+																		continue;
+																	}
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
 																	pDiplo->setDiploComment((DiploCommentTypes)GC.getInfoTypeForString("AI_DIPLOCOMMENT_OFFER_CITY"));
@@ -13137,6 +13404,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_PERMANENT_ALLIANCE_DEAL") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_PERMANENT_ALLIANCE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_PERMANENT_ALLIANCE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13171,6 +13441,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_OFFER_VASSAL_DEAL") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_PERMANENT_ALLIANCE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_PERMANENT_ALLIANCE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13223,6 +13496,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_RELIGION_PRESSURE") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_RELIGION_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_RELIGION_PRESSURE));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13255,6 +13531,9 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_CIVIC_PRESSURE") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_CIVIC_PRESSURE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_CIVIC_PRESSURE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13312,6 +13591,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_JOIN_WAR") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_JOIN_WAR, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_JOIN_WAR));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13344,6 +13626,9 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_STOP_TRADING") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_STOP_TRADING, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_STOP_TRADING));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13399,6 +13684,9 @@ void CvPlayerAI::AI_doDiplo()
 
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
+																if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_TECH_DEAL") > 0) {
+																	continue;
+																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_GIVE_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_GIVE_HELP));
 																pDiplo = new CvDiploParameters(getID());
 																FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13451,6 +13739,9 @@ void CvPlayerAI::AI_doDiplo()
 
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_TECH") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_ASK_FOR_HELP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_ASK_FOR_HELP));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13493,7 +13784,7 @@ void CvPlayerAI::AI_doDiplo()
 														{
 															iReceiveGold = std::min(std::max(0, (GET_PLAYER((PlayerTypes)iI).getGold() - 50)), GET_PLAYER((PlayerTypes)iI).AI_goldTarget());
 
-															iReceiveGold -= (iReceiveGold % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+															iReceiveGold -= (iReceiveGold % DIPLOMACY_VALUE_REMAINDER);
 
 															if (iReceiveGold > 50)
 															{
@@ -13504,6 +13795,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_GOLD") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13555,6 +13849,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_MAP") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13628,6 +13925,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_TECH") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13704,6 +14004,9 @@ void CvPlayerAI::AI_doDiplo()
 
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_RESOURCE") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEMAND_TRIBUTE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEMAND_TRIBUTE));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13741,6 +14044,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_OPEN_TRADE_DEAL") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_OPEN_BORDERS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_OPEN_BORDERS));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13781,6 +14087,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_DEFENSIVE_PACT_DEAL") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_DEFENSIVE_PACT, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_DEFENSIVE_PACT));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -13937,6 +14246,9 @@ void CvPlayerAI::AI_doDiplo()
 															{
 																if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																{
+																	if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_TECH_TRADE_DEAL") > 0) {
+																		continue;
+																	}
 																	AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_TECH, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_TECH));
 																	pDiplo = new CvDiploParameters(getID());
 																	FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -14006,6 +14318,9 @@ void CvPlayerAI::AI_doDiplo()
 																{
 																	if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 																	{
+																		if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_SLAVE_TRADE_DEAL") > 0) {
+																			continue;
+																		}
 																		AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_SLAVE, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_SLAVE));
 																		pDiplo = new CvDiploParameters(getID());
 																		FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -14111,6 +14426,9 @@ void CvPlayerAI::AI_doDiplo()
 														{
 															if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 															{
+																if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_BONUS_TRADE_DEAL") > 0) {
+																	continue;
+																}
 																AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_BONUS, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_BONUS));
 																pDiplo = new CvDiploParameters(getID());
 																FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -14155,6 +14473,9 @@ void CvPlayerAI::AI_doDiplo()
 													{
 														if (!(abContacted[GET_PLAYER((PlayerTypes)iI).getTeam()]))
 														{
+															if (GC.getDefineINT("CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_MAP_TRADE_DEAL") > 0) {
+																continue;
+															}
 															AI_changeContactTimer(((PlayerTypes)iI), CONTACT_TRADE_MAP, GC.getLeaderHeadInfo(getPersonalityType()).getContactDelay(CONTACT_TRADE_MAP));
 															pDiplo = new CvDiploParameters(getID());
 															FAssertMsg(pDiplo != NULL, "pDiplo must be valid");
@@ -14788,7 +15109,7 @@ int CvPlayerAI::AI_eventValue(EventTypes eEvent, const EventTriggeredData& kTrig
 		iValue += kEvent.getFoodPercent() / 4;
 		iValue += kEvent.getPopulationChange() * 30;
 		iValue -= kEvent.getRevoltTurns() * (12 + iCityPopulation * 16);
-		iValue -= (kEvent.getHurryAnger() * 6 * GC.getDefineINT("HURRY_ANGER_DIVISOR") * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getHurryConscriptAngerPercent()) / 100;
+		iValue -= (kEvent.getHurryAnger() * 6 * HURRY_ANGER_DIVISOR * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getHurryConscriptAngerPercent()) / 100;
 		iValue += kEvent.getHappyTurns() * 10;
 		iValue += kEvent.getCulture() / 2;
 	}
@@ -14803,7 +15124,7 @@ int CvPlayerAI::AI_eventValue(EventTypes eEvent, const EventTriggeredData& kTrig
 		iValue += (kEvent.getFood() * iNumCities);
 		iValue += (kEvent.getFoodPercent() * iNumCities) / 4;
 		iValue += (kEvent.getPopulationChange() * iNumCities * 40);
-		iValue -= (iNumCities * kEvent.getHurryAnger() * 6 * GC.getDefineINT("HURRY_ANGER_DIVISOR") * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getHurryConscriptAngerPercent()) / 100;
+		iValue -= (iNumCities * kEvent.getHurryAnger() * 6 * HURRY_ANGER_DIVISOR * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getHurryConscriptAngerPercent()) / 100;
 		iValue += iNumCities * kEvent.getHappyTurns() * 10;
 		iValue += iNumCities * kEvent.getCulture() / 2;
 	}
@@ -15015,7 +15336,7 @@ int CvPlayerAI::AI_eventValue(EventTypes eEvent, const EventTriggeredData& kTrig
 			int iBonusValue = -AI_bonusVal((BonusTypes)kEvent.getBonusGift(), -1);
 			iBonusValue += (iOtherPlayerAttitudeWeight - 40) * kOtherPlayer.AI_bonusVal((BonusTypes)kEvent.getBonusGift(), +1);
 			//Positive for friends, negative for enemies.
-			iDiploValue += (iBonusValue * GC.getDefineINT("PEACE_TREATY_LENGTH")) / 60;
+			iDiploValue += (iBonusValue * PEACE_TREATY_LENGTH) / 60;
 		}
 
 		if (GC.getGameINLINE().isOption(GAMEOPTION_AGGRESSIVE_AI))
@@ -17405,43 +17726,51 @@ bool CvPlayerAI::AI_advancedStartPlaceExploreUnits(bool bLand)
 	for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
 	{
 		CvPlot* pLoopPlot = pLoopCity->plot();
-		CvArea* pLoopArea = bLand ? pLoopCity->area() : pLoopPlot->waterArea();
+		// mediv01 修复空指针错误
+		CvArea* pLoopArea;
+		if (pLoopPlot == NULL)
+		{
 
-		if (pLoopArea != NULL)
+		}
+		else {
+			pLoopArea = bLand ? pLoopCity->area() : pLoopPlot->waterArea();
+
+
+			if (pLoopArea != NULL)
 			{
-			int iValue = std::max(0, pLoopArea->getNumUnrevealedTiles(getTeam()) - 10) * 10;
-			iValue += std::max(0, pLoopArea->getNumTiles() - 50);
+				int iValue = std::max(0, pLoopArea->getNumUnrevealedTiles(getTeam()) - 10) * 10;
+				iValue += std::max(0, pLoopArea->getNumTiles() - 50);
 
 				if (iValue > 0)
 				{
 					int iOtherPlotCount = 0;
 					int iGoodyCount = 0;
 					int iExplorerCount = 0;
-				int iAreaId = pLoopArea->getID();
+					int iAreaId = pLoopArea->getID();
 
-				int iRange = 4;
+					int iRange = 4;
 					for (int iX = -iRange; iX <= iRange; iX++)
 					{
 						for (int iY = -iRange; iY <= iRange; iY++)
 						{
 							CvPlot* pLoopPlot2 = plotXY(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), iX, iY);
-						if (NULL != pLoopPlot2)
+							if (NULL != pLoopPlot2)
 							{
 								iExplorerCount += pLoopPlot2->plotCount(PUF_isUnitAIType, eUnitAI, -1, NO_PLAYER, getTeam());
-							if (pLoopPlot2->getArea() == iAreaId)
-							{
-								if (pLoopPlot2->isGoody())
+								if (pLoopPlot2->getArea() == iAreaId)
 								{
-									iGoodyCount++;
-								}
-								if (pLoopPlot2->getTeam() != getTeam())
-								{
-									iOtherPlotCount++;
+									if (pLoopPlot2->isGoody())
+									{
+										iGoodyCount++;
+									}
+									if (pLoopPlot2->getTeam() != getTeam())
+									{
+										iOtherPlotCount++;
+									}
 								}
 							}
 						}
 					}
-				}
 
 					iValue -= 300 * iExplorerCount;
 					iValue += 200 * iGoodyCount;
@@ -17458,6 +17787,7 @@ bool CvPlayerAI::AI_advancedStartPlaceExploreUnits(bool bLand)
 					}
 				}
 			}
+		}
 		}
 
 	if (pBestExplorePlot != NULL)
@@ -18198,7 +18528,7 @@ void CvPlayerAI::AI_recalculateFoundValues(int iX, int iY, int iInnerRadius, int
 							argsList.add((int)getID());
 							argsList.add(pLoopPlot->getX());
 							argsList.add(pLoopPlot->getY());
-							gDLL->getPythonIFace()->callFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
+							GC.callPythoFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
 						}
 
 						if (lResult == -1)

@@ -11,11 +11,11 @@
 		<Tag>TXT_KEY_BUILDING_CHIMU_KANCHA</Tag>
 		<English>Kancha</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>坎查(Kancha)</Chinese>
+		<Chinese>坎查小屋</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU2</Tag>
-		<English>Conquer or vassalize the Inca by 1475 CE</English>
+		<English>Conquer or vassalize the Inca by 1475 AD</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元1475年前征服或附庸印加</Chinese>
 	</TEXT>	
@@ -35,13 +35,13 @@
 		<Tag>TXT_KEY_UNIT_CHIMU_SC_AUCAC</Tag>
 		<English>Suchuc Chiqui Aucac</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Suchuc Chiqui Aucac</Chinese>
+		<Chinese>奇穆标枪手</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU1</Tag>
 		<English>Build two Kanchas by 1300 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1300年前建成2个坎查(Kancha)</Chinese>
+		<Chinese>公元1300年前建成2个坎查小屋</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CMU_TITLE</Tag>
@@ -53,19 +53,19 @@
 		<Tag>TXT_KEY_UHV_CMU3_TITLE</Tag>
 		<English>The Lambayeque-Sipan Conection</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>兰巴耶克(Lambayeque-Sipan)文化</Chinese>
+		<Chinese>兰巴耶克-西潘文化</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯人</Chinese>
+		<Chinese>安第斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_TACAYNAMO</Tag>
 		<English>Tacaynamo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奇穆-Tacaynamo</Chinese>
+		<Chinese>塔凯那姆</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_SHORT_DESC</Tag>
@@ -83,7 +83,7 @@
 		<Tag>TXT_KEY_UP_CMU</Tag>
 		<English>Recieves a Free Artist in the capital for every other improved resource in Northwestern South American.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>在南美洲西北部，每开发一个资源，就可以在首都免费获得一名艺术家。</Chinese>
+		<Chinese>在南美洲西北部，每开发一个资源，就可以在首都获得一名免费艺术家。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_DEFAULT</Tag>
@@ -95,13 +95,13 @@
 		<Tag>TXT_KEY_UHV_CMU3</Tag>
 		<English>Settle three great artists in your capital by 1500 CE</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1500年前首都入驻3位大艺术家</Chinese>
+		<Chinese>公元1500年前在首都入驻3位大艺术家</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CMU2_TITLE</Tag>
 		<English>Minchancaman Revenge</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>明查卡曼的复仇</Chinese>
+		<Chinese>敏昌卡曼的复仇</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHIMU_EMPIRE</Tag>

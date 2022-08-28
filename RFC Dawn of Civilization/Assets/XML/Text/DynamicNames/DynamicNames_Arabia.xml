@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_PERSIA</Tag>
 		<English>Fars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>波斯</Chinese>
+		<Chinese>法尔斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_ETHIOPIA</Tag>
 		<English>Al-Habash</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃塞尔比亚</Chinese>
+		<Chinese>阿尔-哈巴什</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_OTTOMANS</Tag>
@@ -23,37 +23,37 @@
 		<Tag>TXT_KEY_CIV_ARABIA_ABBASID</Tag>
 		<English>Abbasid</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿巴斯</Chinese>
+		<Chinese>阿拔斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_COMMUNIST</Tag>
 		<English>Baathist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1复兴党</Chinese>
+		<Chinese>%s1复兴党人民共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_PORTUGAL</Tag>
 		<English>Al-Garb</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>葡萄牙</Chinese>
+		<Chinese>阿尔-加维</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_BYZANTIUM</Tag>
-		<English>R&#251;m</English>
+		<English>Rûm</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拜占庭</Chinese>
+		<Chinese>罗姆</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_FASCIST</Tag>
 		<English>Pan Arab State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>泛阿拉伯国家</Chinese>
+		<Chinese>泛阿拉伯国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_TURKS</Tag>
 		<English>Bilad al-Turk</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>土耳其</Chinese>
+		<Chinese>突厥国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_UMMAYAD</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_ARABIA_PEOPLES</Tag>
 		<English>Bedouin Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>贝都因人</Chinese>
+		<Chinese>贝都因诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_SAUDI</Tag>
@@ -77,13 +77,13 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_MOORS</Tag>
 		<English>Al-Andalus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>摩尔</Chinese>
+		<Chinese>阿尔-安达卢斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_ISRAEL</Tag>
 		<English>Jund Filastin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>以色列</Chinese>
+		<Chinese>菲莱斯廷驻军区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_VASSAL</Tag>
@@ -101,7 +101,7 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_EGYPT</Tag>
 		<English>Misr</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃及</Chinese>
+		<Chinese>米斯尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_REPUBLIC</Tag>
@@ -113,7 +113,7 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_ROME</Tag>
 		<English>Italiya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗马</Chinese>
+		<Chinese>伊塔历阿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_DESC</Tag>
@@ -125,13 +125,13 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_BABYLONIA</Tag>
 		<English>Iraq</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伊朗</Chinese>
+		<Chinese>伊拉克</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_RASHIDUN</Tag>
 		<English>Rashidun</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拉希顿</Chinese>
+		<Chinese>四大</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_SHORT_DESC</Tag>
@@ -143,7 +143,7 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_SPAIN</Tag>
 		<English>Esbanya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>西班牙</Chinese>
+		<Chinese>埃斯班阿</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIA_DEFAULT</Tag>
@@ -161,12 +161,12 @@
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_CARTHAGE</Tag>
 		<English>Ifriqiya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>迦太基</Chinese>
+		<Chinese>伊弗里基叶</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARABIAN_NAME_INDONESIA</Tag>
 		<English>Zabag</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>印度尼西亚</Chinese>
+		<Chinese>闍婆格</Chinese>
 	</TEXT>
 </Civ4GameText>

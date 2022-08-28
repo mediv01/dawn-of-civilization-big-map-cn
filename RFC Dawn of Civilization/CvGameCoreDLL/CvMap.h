@@ -95,6 +95,7 @@ public:
 	void setAllPlotTypes(PlotTypes ePlotType);												// Exposed to Python
 
 	void doTurn();																			
+	void doTurnMulti(LPVOID pData);
 
 	DllExport void updateFlagSymbols();
 

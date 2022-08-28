@@ -9,9 +9,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWEDEN_DEFAULT</Tag>
-		<English>Kingdom of %s1s</English>
+		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>瑞典王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWEDEN_SHORT_DESC</Tag>
@@ -23,11 +23,11 @@
 		<Tag>TXT_KEY_CIV_SWEDEN_PEOPLES</Tag>
 		<English>Swedish Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>瑞典人</Chinese>
+		<Chinese>瑞典诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SWEDEN_ADJECTIVE</Tag>
-		<English></English>
+		<English>Swedish</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>瑞典</Chinese>
 	</TEXT>	

@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_ISRAEL_FASCIST</Tag>
 		<English>Land of Greater %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>大%s1</Chinese>
+		<Chinese>大%s1国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_PEOPLES</Tag>
 		<English>Zionist Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>犹太人</Chinese>
+		<Chinese>锡安诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_REPUBLIC</Tag>
@@ -23,13 +23,13 @@
 		<Tag>TXT_KEY_CIV_ISRAEL_PALESTINE</Tag>
 		<English>Palestine</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>巴基斯坦</Chinese>
+		<Chinese>巴勒斯坦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_COMMUNIST</Tag>
 		<English>Labor Zionist State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1工人国</Chinese>
+		<Chinese>%s1劳动者锡安主义国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ISRAEL_DESC</Tag>

@@ -26,6 +26,20 @@ CyPlayer::CyPlayer(CvPlayer* pPlayer) : m_pPlayer(pPlayer)
 {
 }
 
+void CyPlayer::doCollapse(int PlayerID) const {
+	if (m_pPlayer) {
+		m_pPlayer->doCollapse((PlayerTypes)PlayerID);
+	}
+}
+
+int CyPlayer::getFreeTechsOnDiscovery() const
+{
+	if (m_pPlayer) {
+		return m_pPlayer->getFreeTechsOnDiscovery();
+	}
+	return 0;
+}
+
 int CyPlayer::startingPlotRange()
 {
 	return m_pPlayer ? m_pPlayer->startingPlotRange() : -1;
@@ -68,7 +82,7 @@ void CyPlayer::killCities()
 
 std::wstring CyPlayer::getNewCityName()
 {
-	return m_pPlayer ? m_pPlayer->getNewCityName() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getNewCityName() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 CyUnit* CyPlayer::initUnit(int /*UnitTypes*/ iIndex, int iX, int iY, UnitAITypes eUnitAI, DirectionTypes eFacingDirection)
@@ -104,7 +118,7 @@ bool CyPlayer::isBarbarian()
 
 std::wstring CyPlayer::getName()
 {
-	return m_pPlayer ? m_pPlayer->getName() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getName() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 //Rhye (jdog) -  start ---------------------
@@ -117,17 +131,17 @@ void CyPlayer::setName(std::wstring szNewValue)
 
 std::wstring CyPlayer::getNameForm(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getName((uint)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getName((uint)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getNameKey()
 {
-	return m_pPlayer ? m_pPlayer->getNameKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getNameKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getCivilizationDescription(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationDescription((uint)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationDescription((uint)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 //Rhye (jdog) -  start ---------------------
@@ -157,32 +171,32 @@ void CyPlayer::setCivAdjective(std::wstring szNewAdj)
 
 std::wstring CyPlayer::getCivilizationDescriptionKey()
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationDescriptionKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationDescriptionKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getCivilizationShortDescription(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationShortDescription((uint)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationShortDescription((uint)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getCivilizationShortDescriptionKey()
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationShortDescriptionKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationShortDescriptionKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getCivilizationAdjective(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationAdjective((uint)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationAdjective((uint)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getCivilizationAdjectiveKey( )
 {
-	return m_pPlayer ? m_pPlayer->getCivilizationAdjectiveKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCivilizationAdjectiveKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getFlagDecal( )
 {
-	return m_pPlayer ? m_pPlayer->getFlagDecal() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getFlagDecal() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 bool CyPlayer::isWhiteFlag()
@@ -192,27 +206,27 @@ bool CyPlayer::isWhiteFlag()
 
 std::wstring CyPlayer::getStateReligionName(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getStateReligionName((int)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getStateReligionName((int)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getStateReligionKey( )
 {
-	return m_pPlayer ? m_pPlayer->getStateReligionKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getStateReligionKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getBestAttackUnitName(int iForm)
 {
-	return m_pPlayer ? m_pPlayer->getBestAttackUnitName((uint)iForm) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getBestAttackUnitName((uint)iForm) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getWorstEnemyName()
 {
-	return m_pPlayer ? m_pPlayer->getWorstEnemyName() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getWorstEnemyName() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 std::wstring CyPlayer::getBestAttackUnitKey()
 {
-	return m_pPlayer ? m_pPlayer->getBestAttackUnitKey() : std::wstring();
+	return m_pPlayer ? m_pPlayer->getBestAttackUnitKey() : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 int /*ArtStyleTypes*/ CyPlayer::getArtStyleType()
@@ -2053,7 +2067,7 @@ int CyPlayer::getNumCityNames()
 
 std::wstring CyPlayer::getCityName(int iIndex)
 {
-	return m_pPlayer ? m_pPlayer->getCityName(iIndex) : std::wstring();
+	return m_pPlayer ? m_pPlayer->getCityName(iIndex) : CVGAMECORE_FIX_BUG_PERFORMANCE_UP_EMPTY_STR;
 }
 
 // returns tuple of (CyCity, iterOut)

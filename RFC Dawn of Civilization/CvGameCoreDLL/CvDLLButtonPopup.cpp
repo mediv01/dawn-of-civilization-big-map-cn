@@ -91,7 +91,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 // BUG - Exit Save - start
 				if (GC.getGameINLINE().getVictory() == NO_VICTORY)
 				{
-					gDLL->getPythonIFace()->callFunction(PYBugModule, "gameExitSave");
+					GC.callPythoFunction(PYBugModule, "gameExitSave");
 				}
 // BUG - Exit Save - end
 				gDLL->SetDone(true);
@@ -100,7 +100,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 // BUG - Exit Save - start
 				if (GC.getGameINLINE().getVictory() == NO_VICTORY)
 				{
-					gDLL->getPythonIFace()->callFunction(PYBugModule, "gameExitSave");
+					GC.callPythoFunction(PYBugModule, "gameExitSave");
 				}
 // BUG - Exit Save - end
 				gDLL->getInterfaceIFace()->exitingToMainMenu();
@@ -165,7 +165,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		}
 		else if (pPopupReturn->getButtonClicked() == 6)
 		{	// options
-			gDLL->getPythonIFace()->callFunction("CvScreensInterface", "showOptionsScreen");
+			GC.callPythoFunction("CvScreensInterface", "showOptionsScreen");
 		}
 		else if (pPopupReturn->getButtonClicked() == 7)
 		{
@@ -299,7 +299,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 	case BUTTONPOPUP_CHOOSETECH:
 		if (pPopupReturn->getButtonClicked() == GC.getNumTechInfos())
 		{
-			gDLL->getPythonIFace()->callFunction("CvScreensInterface", "showTechChooser");
+			GC.callPythoFunction("CvScreensInterface", "showTechChooser");
 			GET_PLAYER(GC.getGameINLINE().getActivePlayer()).chooseTech(0, "", true);
 		}
 		break;
@@ -438,7 +438,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		}
 		else if (pPopupReturn->getButtonClicked() == 2)
 		{
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, "showCivicsScreen");
+			GC.callPythoFunction(PYScreensModule, "showCivicsScreen");
 		}
 		break;
 
@@ -486,7 +486,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 			argsList.add(info.getText());
 			argsList.add(info.getOption1());
 			argsList.add(info.getOption2());
-			gDLL->getPythonIFace()->callFunction((info.getPythonModule().IsEmpty() ? PYScreensModule : info.getPythonModule()), info.getOnClickedPythonCallback(), argsList.makeFunctionArgs());
+			GC.callPythoFunction((info.getPythonModule().IsEmpty() ? PYScreensModule : info.getPythonModule()), info.getOnClickedPythonCallback(), argsList.makeFunctionArgs());
 			break;
 		}
 		break;
@@ -712,7 +712,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 				{
 					gDLL->sendImplementDealMessage(eVassal, &ourList, &theirList);
 
-					CvWString szBuffer = gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_ACCEPTED", GET_PLAYER(eVassal).getNameKey(), GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getNameKey(), GC.getBonusInfo((BonusTypes)pPopupReturn->getButtonClicked()).getTextKeyWide());
+					CvWString szBuffer = gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_ACCEPTED", GET_PLAYER(eVassal).getCivilizationShortDescription(), GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCivilizationShortDescription(), GC.getBonusInfo((BonusTypes)pPopupReturn->getButtonClicked()).getTextKeyWide());
 					gDLL->getInterfaceIFace()->addMessage(GC.getGameINLINE().getActivePlayer(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer);
 				}
 				else
@@ -735,7 +735,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 			
 			gDLL->sendImplementDealMessage((PlayerTypes)info.getData1(), &ourList, &theirList);
 
-			CvWString szBuffer = gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_ACCEPTED", GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getNameKey(), GET_PLAYER((PlayerTypes)info.getData1()).getNameKey(), GC.getBonusInfo((BonusTypes)info.getData2()).getTextKeyWide());
+			CvWString szBuffer = gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_ACCEPTED", GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)info.getData1()).getCivilizationShortDescription(), GC.getBonusInfo((BonusTypes)info.getData2()).getTextKeyWide());
 			gDLL->getInterfaceIFace()->addMessage((PlayerTypes)info.getData1(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer);
 		}
 		else
@@ -887,7 +887,7 @@ void CvDLLButtonPopup::OnFocus(CvPopup* pPopup, CvPopupInfo &info)
 			argsList.add(info.getText());
 			argsList.add(info.getOption1());
 			argsList.add(info.getOption2());
-			gDLL->getPythonIFace()->callFunction(PYScreensModule, info.getOnFocusPythonCallback(), argsList.makeFunctionArgs(), &iResult);
+			GC.callPythoFunction(PYScreensModule, info.getOnFocusPythonCallback(), argsList.makeFunctionArgs(), &iResult);
 			if (0 != iResult)
 			{
 				gDLL->getInterfaceIFace()->popupSetAsCancelled(pPopup);
@@ -1047,7 +1047,7 @@ bool CvDLLButtonPopup::launchProductionPopup(CvPopup* pPopup, CvPopupInfo &info)
 	CyArgsList argsList;
 	argsList.add(gDLL->getPythonIFace()->makePythonObject(pyCity));	// pass in plot class
 	long lResult=0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "skipProductionPopup", argsList.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "skipProductionPopup", argsList.makeFunctionArgs(), &lResult);
 	delete pyCity;	// python fxn must not hold on to this pointer 
 	if (lResult == 1)
 	{
@@ -1130,7 +1130,7 @@ bool CvDLLButtonPopup::launchProductionPopup(CvPopup* pPopup, CvPopupInfo &info)
 	CyArgsList argsList2;
 	argsList2.add(gDLL->getPythonIFace()->makePythonObject(pyCity));	// pass in plot class
 	lResult=1;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "showExamineCityButton", argsList2.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "showExamineCityButton", argsList2.makeFunctionArgs(), &lResult);
 	delete pyCity;	// python fxn must not hold on to this pointer 
 	if (lResult == 1)
 	{
@@ -1164,12 +1164,12 @@ bool CvDLLButtonPopup::launchProductionPopup(CvPopup* pPopup, CvPopupInfo &info)
 	CyArgsList argsList3;
 	argsList3.add(gDLL->getPythonIFace()->makePythonObject(pyCity));	// pass in city class
 	lResult=-1;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "getRecommendedUnit", argsList3.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "getRecommendedUnit", argsList3.makeFunctionArgs(), &lResult);
 	eProductionUnit = ((UnitTypes)lResult);
 	CyArgsList argsList4; // XXX
 	argsList4.add(gDLL->getPythonIFace()->makePythonObject(pyCity));	// pass in city class
 	lResult=-1;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "getRecommendedBuilding", argsList4.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "getRecommendedBuilding", argsList4.makeFunctionArgs(), &lResult);
 	eProductionBuilding = ((BuildingTypes)lResult);
 	delete pyCity;	// python fxn must not hold on to this pointer 
 
@@ -1552,7 +1552,7 @@ bool CvDLLButtonPopup::launchChooseTechPopup(CvPopup* pPopup, CvPopupInfo &info)
 	CyArgsList argsList;
 	argsList.add(GC.getGameINLINE().getActivePlayer());
 	long lResult=0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "skipResearchPopup", argsList.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "skipResearchPopup", argsList.makeFunctionArgs(), &lResult);
 	if (lResult == 1)
 	{
 		return false;
@@ -1571,7 +1571,7 @@ bool CvDLLButtonPopup::launchChooseTechPopup(CvPopup* pPopup, CvPopupInfo &info)
 	if (iDiscover == 0)
 	{
 		lResult=1;
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "showTechChooserButton", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "showTechChooserButton", argsList.makeFunctionArgs(), &lResult);
 		if (lResult == 1)
 		{
 			// Allow user to Jump to the Tech Chooser
@@ -1584,7 +1584,7 @@ bool CvDLLButtonPopup::launchChooseTechPopup(CvPopup* pPopup, CvPopupInfo &info)
 	TechTypes eNextBestTech = NO_TECH;
 
 	lResult = -1;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "getFirstRecommendedTech", argsList.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "getFirstRecommendedTech", argsList.makeFunctionArgs(), &lResult);
 	eBestTech = ((TechTypes)lResult);
 
 	if (eBestTech == NO_TECH)
@@ -1596,7 +1596,7 @@ bool CvDLLButtonPopup::launchChooseTechPopup(CvPopup* pPopup, CvPopupInfo &info)
 	{
 		argsList.add(eBestTech);
 		lResult = -1;
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "getSecondRecommendedTech", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "getSecondRecommendedTech", argsList.makeFunctionArgs(), &lResult);
 		eNextBestTech = ((TechTypes)lResult);
 
 		if (eNextBestTech == NO_TECH)
@@ -1663,6 +1663,10 @@ bool CvDLLButtonPopup::launchChangeCivicsPopup(CvPopup* pPopup, CvPopupInfo &inf
 	CivicTypes* paeNewCivics = new CivicTypes[GC.getNumCivicOptionInfos()];
 	if (NULL == paeNewCivics)
 	{
+
+		// mediv01 修复内存泄漏
+		SAFE_DELETE(paeNewCivics);
+
 		return (false);
 	}
 
@@ -1673,6 +1677,10 @@ bool CvDLLButtonPopup::launchChangeCivicsPopup(CvPopup* pPopup, CvPopupInfo &inf
 	// Leoreth: suppress for Egypt due to their UP
 	if (eCivicType == NO_CIVIC && GC.getGameINLINE().getActivePlayer() == EGYPT)
 	{
+
+		// mediv01 修复内存泄漏
+		SAFE_DELETE(paeNewCivics);
+
 		return false;
 	}
 
@@ -2226,7 +2234,7 @@ bool CvDLLButtonPopup::launchPythonScreen(CvPopup* pPopup, CvPopupInfo &info)
 	argsList.add(info.getData3());
 	argsList.add(info.getOption1());
 	argsList.add(info.getOption2());
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, CvString(info.getText()).GetCString(), argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, CvString(info.getText()).GetCString(), argsList.makeFunctionArgs());
 
 	return (false); // return false, so the Popup object is deleted, since it's just a dummy
 }
@@ -2447,7 +2455,7 @@ bool CvDLLButtonPopup::launchVassalDemandTributePopup(CvPopup* pPopup, CvPopupIn
 	int iNumResources = 0;
 	if (kVassal.canTradeNetworkWith(GC.getGameINLINE().getActivePlayer()))
 	{
-		gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_VASSAL_DEMAND_TRIBUTE", kVassal.getNameKey()));
+		gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_VASSAL_DEMAND_TRIBUTE", kVassal.getCivilizationShortDescription()));
 
 		for (int iBonus = 0; iBonus < GC.getNumBonusInfos(); iBonus++)
 		{
@@ -2492,7 +2500,7 @@ bool CvDLLButtonPopup::launchVassalGrantTributePopup(CvPopup* pPopup, CvPopupInf
 		return false;
 	}
 
-	gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE", kMaster.getCivilizationDescriptionKey(), kMaster.getNameKey(), GC.getBonusInfo((BonusTypes)info.getData2()).getTextKeyWide()));
+	gDLL->getInterfaceIFace()->popupSetBodyString(pPopup, gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE", kMaster.getCivilizationDescriptionKey(), kMaster.getCivilizationShortDescription(), GC.getBonusInfo((BonusTypes)info.getData2()).getTextKeyWide()));
 	gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_YES"), NULL, 0, WIDGET_GENERAL);
 	gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, gDLL->getText("TXT_KEY_VASSAL_GRANT_TRIBUTE_NO"), NULL, 1, WIDGET_GENERAL);
 	gDLL->getInterfaceIFace()->popupLaunch(pPopup, false, POPUPSTATE_IMMEDIATE);
@@ -2614,7 +2622,32 @@ bool CvDLLButtonPopup::launchFreeColonyPopup(CvPopup* pPopup, CvPopupInfo &info)
 	{
 		PlayerTypes eOtherPlayer = (PlayerTypes)iI;
 		int iYear = GC.getGame().getGameTurnYear();
-		if (eOtherPlayer != ePlayer && !GET_PLAYER(eOtherPlayer).isAlive() && GET_PLAYER(eOtherPlayer).canRespawn())
+		bool bRebirth = true;
+		
+		int PlayerNum =(int) eOtherPlayer;
+		std::vector<int> pIntList2;
+		CyArgsList argsList2;
+		argsList2.add(PlayerNum);
+		argsList2.add(PlayerNum);
+		int BirthDate = -3000;
+		int FallDate = 2020;
+		GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
+		if (pIntList2.size() > 0) {
+
+			BirthDate = pIntList2[0];
+			FallDate = pIntList2[1];
+		}
+		if (iYear < BirthDate) {
+			bRebirth = false;
+		}
+
+
+
+		if (GC.getDefineINT("CVCITY_RELEASE_PLAYER_NO_LIMIT")==0) {
+			bRebirth = GET_PLAYER(eOtherPlayer).canRespawn();
+		}
+		
+		if (eOtherPlayer != ePlayer && !GET_PLAYER(eOtherPlayer).isAlive() && bRebirth && (GC.m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER == 0)) //mediv01  是否允许解放的城市给现有玩家
 		{
 			CvWString szCityList;
 			int iCityLoop;
@@ -2622,7 +2655,17 @@ bool CvDLLButtonPopup::launchFreeColonyPopup(CvPopup* pPopup, CvPopupInfo &info)
 
 			for (CvCity* pLoopCity = GET_PLAYER(ePlayer).firstCity(&iCityLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(ePlayer).nextCity(&iCityLoop))
 			{
-				if (pLoopCity->plot()->isCore(eOtherPlayer) && !pLoopCity->plot()->isCore(ePlayer) && !pLoopCity->isCapital())
+				bool CityCoreOrHistory = false;
+				if (GC.getDefineINT("CVCITY_RELEASE_PLAYER_WITH_CITY_IN_HISTORY") > 0) {
+					// 历史区
+					CityCoreOrHistory = (pLoopCity->plot()->getSettlerValue(eOtherPlayer)>=90);
+				}
+				else {
+					CityCoreOrHistory = pLoopCity->plot()->isCore(eOtherPlayer);
+				}
+				
+				bool NormalReleaseCondition = (CityCoreOrHistory && !pLoopCity->plot()->isCore(ePlayer) && !pLoopCity->isCapital());
+				if (NormalReleaseCondition)
 				{
 					if (!szCityList.empty())
 					{
@@ -2658,15 +2701,20 @@ bool CvDLLButtonPopup::launchFreeColonyPopup(CvPopup* pPopup, CvPopupInfo &info)
 			CvWString szCity = gDLL->getText("TXT_KEY_CITY_LIBERATE", pLoopCity->getNameKey(), GET_PLAYER(eLiberationPlayer).getCivilizationShortDescription()); //Rhye
 			gDLL->getInterfaceIFace()->popupAddGenericButton(pPopup, szCity, ARTFILEMGR.getInterfaceArtInfo("INTERFACE_BUTTONS_CITYSELECTION")->getPath(), -pLoopCity->getID(), WIDGET_GENERAL);
 		}
-		else if (pLoopCity->plot()->getSettlerValue(ePlayer) < 90)
+		else if (pLoopCity->plot()->getSettlerValue(ePlayer) < 90 || (GC.getDefineINT("CITY_ALLOW_TO_LIBERATE_ALL_CITY") == 1))
 		{
 			bool bFound = false;
 			for (int iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
 			{
 				if (abPlayerFound[iI] && pLoopCity->plot()->isCore((PlayerTypes)iI))
 				{
-					bFound = true;
-					break;
+					if (GC.m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER == 1) {//mediv01 是否允许释放所有的城市
+					}
+					else
+					{
+						bFound = true;//mediv01
+						break;//mediv01
+					}
 				}
 			}
 

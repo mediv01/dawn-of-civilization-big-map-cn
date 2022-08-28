@@ -5,19 +5,19 @@
 		<Tag>TXT_KEY_CIV_AMERICA_CSA</Tag>
 		<English>Confederate States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦</Chinese>
+		<Chinese>美利坚联盟国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_MAYA</Tag>
-		<English>%s2 Yucat&#225;n</English>
+		<English>%s2 Yucatán</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2尤卡坦</Chinese>
+		<Chinese>美属尤卡坦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_GERMANY</Tag>
 		<English>US-Occupied %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美占%s1</Chinese>
+		<Chinese>美占德国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_ADJECTIVE</Tag>
@@ -29,37 +29,37 @@
 		<Tag>TXT_KEY_CIV_AMERICA_GOLDEN_CIRCLE</Tag>
 		<English>Golden Circle</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美国黄金圈</Chinese>
+		<Chinese>美利坚帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_DEFAULT</Tag>
 		<English>United Principalities of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美利坚文明</Chinese>
+		<Chinese>美利坚联合公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_KOREA</Tag>
 		<English>Commander Naval Forces %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美占%s1</Chinese>
+		<Chinese>驻韩美军司令部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_COMMUNIST</Tag>
 		<English>United Socialist States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1社会主义合众国</Chinese>
+		<Chinese>美利坚社会主义合众国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_JAPAN</Tag>
 		<English>Allied Council for %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美国盟国管制理事会 %s1</Chinese>
+		<Chinese>盟国对日理事会</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_PEOPLES</Tag>
 		<English>American Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美利坚人</Chinese>
+		<Chinese>美利坚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_FASCIST</Tag>
@@ -71,13 +71,13 @@
 		<Tag>TXT_KEY_CIV_AMERICAN_ENGLAND</Tag>
 		<English>Airstrip One</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美占英国</Chinese>
+		<Chinese>第一空降场</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICAN_MEXICO</Tag>
 		<English>New Mexico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美占墨西哥</Chinese>
+		<Chinese>新墨西哥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_SHORT_DESC</Tag>
@@ -89,7 +89,7 @@
 		<Tag>TXT_KEY_CIV_AMERICA_REPUBLIC</Tag>
 		<English>United States of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1合众国</Chinese>
+		<Chinese>美利坚合众国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_DESC</Tag>

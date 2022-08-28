@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_UP_YUE</Tag>
 		<English>Extra Culture, Gold, and Happiness from Religions. Halved instability from Religious Disunity.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>宗教提供额外的文化，商业和快乐；宗教不团结造成的不稳定减半。</Chinese>
+		<Chinese>宗教提供额外的文化，金币和快乐；宗教不团结造成的不稳定减半。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_KANISHKA_PEDIA</Tag>
@@ -47,7 +47,7 @@
 		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL_HELP</Tag>
 		<English>[ICON_BULLET]+25% Production of religious buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]宗教建筑+25%建造速度</Chinese>
+		<Chinese>[ICON_BULLET]建造宗教建筑时+25%产能。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_ADJECTIVE</Tag>
@@ -59,7 +59,7 @@
 		<Tag>TXT_KEY_CIV_YUEZHI_PEOPLES</Tag>
 		<English>Yuezhi Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>月氏人</Chinese>
+		<Chinese>月氏诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE2_TITLE</Tag>
@@ -71,7 +71,7 @@
 		<Tag>TXT_KEY_CIV_YUEZHI_DEFAULT</Tag>
 		<English>%s1 Nomads</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1游牧</Chinese>
+		<Chinese>%s1游牧部落</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_YUE_TITLE</Tag>
@@ -105,9 +105,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE2</Tag>
-		<English>Have trade routes with four different civilizations by 200 CE</English>
+		<English>Have trade routes with four different civilizations by 200 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元200年前与四个不同文明通商</Chinese>
+		<Chinese>公元200年前与四个不同文明建立商路。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KUSHAN_HEPHT</Tag>
@@ -119,13 +119,13 @@
 		<Tag>TXT_KEY_BUILDING_YUEZHI_GANDHARA_SCHOOL</Tag>
 		<English>Gandhara School</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>犍陀罗派学校</Chinese>
+		<Chinese>犍陀罗学校</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE3</Tag>
-		<English>Build the Salsal Buddha and eight temples by 400 CE</English>
+		<English>Build the Salsal Buddha and eight temples by 400 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元400年前建成萨尔萨佛和8座寺庙</Chinese>
+		<Chinese>公元400年前建成萨勒萨勒佛像和8座寺庙。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YUEZHI_SHORT_DESC</Tag>
@@ -147,9 +147,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE1</Tag>
-		<English>Control a city in the Hindu Kush region with a developing culture in 100 CE</English>
+		<English>Control a city in the Hindu Kush region with a developing culture in 100 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元100年在兴都库什地区控制一座正在发展(developing)文化的城市</Chinese>
+		<Chinese>公元100年在兴都库什地区控制一座文化等级为正在发展(developing)的城市。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_YUE3_TITLE</Tag>
@@ -167,6 +167,6 @@
 		<Tag>TXT_KEY_DOM_YUEZHI</Tag>
 		<English>It is the year 650 BC. As the interchange between Indian and Greek cultures grows, the nomadic Yuezhi begin gathering power from within their homelands of the arid Gansu Grasslands. Syncretizing faiths both near and far, the Yuezhi culture seems set to spread unlike that of any nomads' before it.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前650年。随着印度和希腊文化交流的发展，游牧人月氏开始从家乡干旱的甘肃草原积蓄力量。融合了远近两种信仰，月氏文化似乎要传播开来，不像之前的任何游牧人。</Chinese>
+		<Chinese>公元前650年的第一缕阳光照耀着河西走廊。随着印度和希腊之间文化交流不断深入，原本是游牧民族的月氏人开始从家乡干旱的甘肃草原积蓄力量。与此前的任何其他游牧民族不同，融合了远近两种信仰，月氏文化似乎将要流传开来。</Chinese>
 	</TEXT>
 </Civ4GameText>

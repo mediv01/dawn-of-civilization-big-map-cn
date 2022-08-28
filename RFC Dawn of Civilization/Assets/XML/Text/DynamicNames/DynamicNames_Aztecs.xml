@@ -17,7 +17,7 @@
 		<Tag>TXT_KEY_CIV_AZTECS_ALTEPETL</Tag>
 		<English>Mexican Altepetl</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>墨西哥同盟</Chinese>
+		<Chinese>墨西哥城邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AZTECS_EMPIRE</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_AZTECS_DEFAULT</Tag>
 		<English>%s2 Triple Alliance</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联盟</Chinese>
+		<Chinese>阿兹特克三方联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AZTEC_FASCIST</Tag>
@@ -47,6 +47,6 @@
 		<Tag>TXT_KEY_CIV_AZTECS_PEOPLES</Tag>
 		<English>Mexica Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿兹特克人</Chinese>
+		<Chinese>墨西加诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -11,19 +11,19 @@
 		<Tag>TXT_KEY_CIV_INCA_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2革命军</Chinese>
+		<Chinese>印加革命运动政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_FASCIST</Tag>
 		<English>Government of the %s2 Armed Forces</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>秘鲁武装部队军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯人</Chinese>
+		<Chinese>安第斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_DESC</Tag>
@@ -35,25 +35,25 @@
 		<Tag>TXT_KEY_CIV_INCA_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1革命联盟</Chinese>
+		<Chinese>印加革命联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_FOUR_REGIONS</Tag>
 		<English>Four %s2 Regions</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联盟</Chinese>
+		<Chinese>塔万廷苏尤</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>秘鲁王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PERU_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1革命军</Chinese>
+		<Chinese>秘鲁革命运动政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_BOLIVIA</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_INCA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>印加王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INCA_BOLIVIAN</Tag>

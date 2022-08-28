@@ -9,7 +9,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_PHILIPPINES</Tag>
-		<English>吕宋</English>
+		<English>Lyusong</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>吕宋</Chinese>
 	</TEXT>	
@@ -59,7 +59,7 @@
 		<Tag>TXT_KEY_CIV_CHINA_QING</Tag>
 		<English>the Great Qing</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>大清</Chinese>
+		<Chinese>中华</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_TIBET</Tag>
@@ -101,7 +101,7 @@
 		<Tag>TXT_KEY_CIV_CHINA_PEOPLES</Tag>
 		<English>Han Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>中国人</Chinese>
+		<Chinese>华夏诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_ARABIA</Tag>
@@ -111,9 +111,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_KHMER</Tag>
-		<English>Jiaozhi</English>
+		<English>Zhenla</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>柬埔寨</Chinese>
+		<Chinese>真腊</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_TANG</Tag>
@@ -131,7 +131,7 @@
 		<Tag>TXT_KEY_CIV_CHINA_DESC</Tag>
 		<English>The Chinese</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>华夏文明</Chinese>
+		<Chinese>中华文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_KOREA</Tag>
@@ -159,7 +159,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_SHANG</Tag>
-		<English>商</English>
+		<English>Shang</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>商</Chinese>
 	</TEXT>	
@@ -179,19 +179,19 @@
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_VIETNAM</Tag>
 		<English>Nanyue</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>交趾</Chinese>
+		<Chinese>安南</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_BABYLONIA</Tag>
 		<English>Tiaozhi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>巴比伦</Chinese>
+		<Chinese>条支</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINESE_ADJECTIVE_JAPAN</Tag>
 		<English>Wo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>倭国</Chinese>
+		<Chinese>倭</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_ZHOU</Tag>
@@ -203,6 +203,13 @@
 		<Tag>TXT_KEY_CIV_CHINA_DEFAULT</Tag>
 		<English>Middle Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>中华帝国</Chinese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_REPUBLIC_OF_CHINA</Tag>
+		<English>China</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>中华人民</Chinese>
 	</TEXT>
 </Civ4GameText>

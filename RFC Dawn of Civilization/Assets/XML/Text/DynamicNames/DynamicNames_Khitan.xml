@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_UHV_KHI3</Tag>
 		<English>Control or Vassalize Korea, Song, and Jurchen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>征服或附庸朝鲜，宋，女真</Chinese>
+		<Chinese>控制或附庸朝鲜，宋以及女真</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI3_TITLE</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_UNIT_IRON_PAGODA</Tag>
 		<English>Ironpagoda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>铁浮屠(Ironpagoda)</Chinese>
+		<Chinese>铁浮屠</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_JURCHEN</Tag>
@@ -43,7 +43,7 @@
 		<Tag>TXT_KEY_UP_KHI_TITLE</Tag>
 		<English>The Power of Two Administrations:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蕃汉分治：</Chinese>
+		<Chinese>两院分治：</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHITAN_SHORT_DESC</Tag>
@@ -67,13 +67,13 @@
 		<Tag>TXT_KEY_LEADER_AKUTA</Tag>
 		<English>Akuta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿骨打</Chinese>
+		<Chinese>完颜阿骨打</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI2</Tag>
 		<English>Have 3 Wats, 1 Mosque, and 1 Fire Temple in 1150 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1150年时拥有3个Wats, 1个Mosque和1个Fire Temple</Chinese>
+		<Chinese>公元1150年时拥有3个大佛寺, 1个大清真寺和1个祆教大庙。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ABAOJI</Tag>
@@ -85,7 +85,7 @@
 		<Tag>TXT_KEY_DOM_KHITAN</Tag>
 		<English>It's the year 901 AD. Abaoji has risen as head of the Yila tribe, the most powerful of all the Khitans to extablish the Liao Dynasty! The land of the steppes and northern forests is vast, but the aging dynasty of China has opened up new opprotunities as well. You must choose where to expand knowing that far flung vassals may one day rise against you.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元901年。耶律阿保机成为了契丹部落的首领，并建立了辽国。草原和北方森林的土地辽阔，但中国衰落的王朝也给我们带来了新的机遇。你必须选择扩张的地方，因为你知道远方的附庸有一天会起来反对你。</Chinese>
+		<Chinese>公元901年的第一缕阳光照耀着白山黑水。耶律阿保机成为了移剌部落——所有契丹部落中最强大的一个——的首领，并建立了辽王朝。草原和北方森林的土地辽阔，同时中原王朝的不断衰落也给我们带来了新的机遇。你必须选择你的扩张方向，因为你知道远方的附庸有一天可能会起来反对你。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHI2_TITLE</Tag>
@@ -109,7 +109,7 @@
 		<Tag>TXT_KEY_CIV_KHITAN_PEOPLES</Tag>
 		<English>Khitan People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>契丹人</Chinese>
+		<Chinese>契丹诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_EMPIRE_OF_KHITAN</Tag>

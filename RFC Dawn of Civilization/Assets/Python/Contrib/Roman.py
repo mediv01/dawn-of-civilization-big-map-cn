@@ -5,30 +5,35 @@
 # 
 
 from CvPythonExtensions import *
-
+from Consts import *
 import sys
 import math
 
 gc = CyGlobalContext()
 
-#Define exeptions
+
+# Define exeptions
 class RomanError(Exception): pass
+
+
 class OutOfRangeError(RomanError): pass
 
-#make a list of Roman numbers
+
+# make a list of Roman numbers
 RomanNumberMap = (('M', 1000),
                   ('CM', 900),
-                  ('D',  500),
+                  ('D', 500),
                   ('CD', 400),
-                  ('C',  100),
-                  ('XC',  90),
-                  ('L',   50),
-                  ('XL',  40),
-                  ('X',   10),
-                  ('IX',   9),
-                  ('V',    5),
-                  ('IV',   4),
-                  ('I',    1))
+                  ('C', 100),
+                  ('XC', 90),
+                  ('L', 50),
+                  ('XL', 40),
+                  ('X', 10),
+                  ('IX', 9),
+                  ('V', 5),
+                  ('IV', 4),
+                  ('I', 1))
+
 
 # Makes the Number into RomsnNumber
 def toRoman(Number):
@@ -36,7 +41,7 @@ def toRoman(Number):
 
     if not (0 < Number < 10000):
         raise OutOfRangeError, "number out of range (must be 1..9999)"
-    
+
     Roman = ""
     for Romantext, integer in RomanNumberMap:
         while Number >= integer:

@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_CHAD_EMPIRE</Tag>
 		<English>Kanem</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆布</Chinese>
+		<Chinese>加涅姆</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_ADJECTIVE</Tag>
 		<English>Kanembu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆布</Chinese>
+		<Chinese>加涅姆布</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_BORNU_DESC</Tag>
@@ -35,19 +35,25 @@
 		<Tag>TXT_KEY_CIV_CHAD_DESC</Tag>
 		<English>The Kanembu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆布文明</Chinese>
+		<Chinese>加涅姆布文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_FASCIST</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>加涅姆-博尔努帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_PEOPLES</Tag>
 		<English>Kanembu Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆布人</Chinese>
+		<Chinese>加涅姆布诸部</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_PEOPLES</Tag>
+		<English>Kanembu Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>加涅姆布诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_MODERN_DESC</Tag>
@@ -59,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_CHAD_SHORT_DESC</Tag>
 		<English>Kanem-Bornu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡内姆布-博尔努</Chinese>
+		<Chinese>加涅姆-博尔努</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHAD_MODERN_ADJECTIVE</Tag>
@@ -71,6 +77,12 @@
 		<Tag>TXT_KEY_CIV_KANEM-BORNU_DEFAULT</Tag>
 		<English>%s1 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>加涅姆-博尔努帝国</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_CHAD_DEFAULT</Tag>
+		<English>Kingdom of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>乍得王国</Chinese>
 	</TEXT>
 </Civ4GameText>

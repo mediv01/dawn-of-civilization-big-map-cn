@@ -106,7 +106,21 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		break;
 
 	case WIDGET_MENU_ICON:
+
+		if (ANYFUN_MODE) {
+			log_CWstring.Format(L"文明4 DOCM大地图AnyFun版 by mediv01");
+		}
+		else {
+			log_CWstring.Format(L"文明4 DOCM大地图汉化版 by mediv01");
+		}
 		szBuffer.append(gDLL->getText("TXT_KEY_MAIN_MENU"));
+		szBuffer.append(NEWLINE);
+		szBuffer.append(log_CWstring);
+		szBuffer.append(NEWLINE);
+		szBuffer.append(DOCM_BIGMAP_VERSION);
+		szBuffer.append(NEWLINE);
+		log_CWstring.Format(L"按下SHIFT+H按键获取DOC大地图帮助");
+		szBuffer.append(log_CWstring);
 
 	case WIDGET_CONSCRIPT:
 		parseConscriptHelp(widgetDataStruct, szBuffer);
@@ -1591,14 +1605,14 @@ void CvDLLWidgetData::doPediaTechJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToTech", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToTech", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaCultureLevelJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToCultureLevel", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToCultureLevel", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaUnitJump(CvWidgetDataStruct &widgetDataStruct)
@@ -1606,14 +1620,14 @@ void CvDLLWidgetData::doPediaUnitJump(CvWidgetDataStruct &widgetDataStruct)
 	CyArgsList argsList;
 
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToUnit", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToUnit", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaBuildingJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
 }
 
 // Leoreth
@@ -1621,42 +1635,42 @@ void CvDLLWidgetData::doPediaMinorReligionJump(CvWidgetDataStruct &widgetDataStr
 {
 	CyArgsList argsList;
 	argsList.add(getUniqueBuilding((CivilizationTypes)widgetDataStruct.m_iData1, PAGAN_TEMPLE));
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaProjectJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToProject", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToProject", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaReligionJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToReligion", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToReligion", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaCorporationJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToCorporation", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToCorporation", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaTerrainJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToTerrain", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToTerrain", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaFeatureJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToFeature", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToFeature", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaTrainJump(CvWidgetDataStruct &widgetDataStruct)
@@ -1664,7 +1678,7 @@ void CvDLLWidgetData::doPediaTrainJump(CvWidgetDataStruct &widgetDataStruct)
 	CyArgsList argsList;
 	argsList.add(GC.getCivilizationInfo(GC.getGameINLINE().getActiveCivilizationType()).getCivilizationUnits(widgetDataStruct.m_iData1));
 	
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToUnit", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToUnit", argsList.makeFunctionArgs());
 }
 
 
@@ -1673,18 +1687,18 @@ void CvDLLWidgetData::doPediaConstructJump(CvWidgetDataStruct &widgetDataStruct)
 	CyArgsList argsList;
 	argsList.add(GC.getCivilizationInfo(GC.getGameINLINE().getActiveCivilizationType()).getCivilizationBuildings(widgetDataStruct.m_iData1));
 
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToBuilding", argsList.makeFunctionArgs());
 }
 
 
 void CvDLLWidgetData::doPediaBack()
 {
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaBack");	
+	GC.callPythoFunction(PYScreensModule, "pediaBack");	
 }
 
 void CvDLLWidgetData::doPediaForward()
 {
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaForward");	
+	GC.callPythoFunction(PYScreensModule, "pediaForward");	
 }
 
 void CvDLLWidgetData::doPediaBonusJump(CvWidgetDataStruct &widgetDataStruct, bool bData2)
@@ -1698,35 +1712,35 @@ void CvDLLWidgetData::doPediaBonusJump(CvWidgetDataStruct &widgetDataStruct, boo
 	{
 		argsList.add(widgetDataStruct.m_iData1);
 	}
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBonus", argsList.makeFunctionArgs());	
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToBonus", argsList.makeFunctionArgs());	
 }
 
 void CvDLLWidgetData::doPediaSpecialistJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToSpecialist", argsList.makeFunctionArgs());	
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToSpecialist", argsList.makeFunctionArgs());	
 }
 
 void CvDLLWidgetData::doPediaMain(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1 < 0 ? 0 : widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaMain", argsList.makeFunctionArgs());	
+	GC.callPythoFunction(PYScreensModule, "pediaMain", argsList.makeFunctionArgs());	
 }
 
 void CvDLLWidgetData::doPediaPromotionJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToPromotion", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToPromotion", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaUnitCombatJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToUnitChart", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToUnitChart", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaImprovementJump(CvWidgetDataStruct &widgetDataStruct, bool bData2)
@@ -1740,35 +1754,35 @@ void CvDLLWidgetData::doPediaImprovementJump(CvWidgetDataStruct &widgetDataStruc
 	{
 		argsList.add(widgetDataStruct.m_iData1);
 	}
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToImprovement", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToImprovement", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaRouteJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToRoute", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToRoute", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaCivicJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToCivic", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToCivic", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaCivilizationJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToCiv", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToCiv", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaLeaderJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToLeader", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaJumpToLeader", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaDescription(CvWidgetDataStruct &widgetDataStruct)
@@ -1776,7 +1790,7 @@ void CvDLLWidgetData::doPediaDescription(CvWidgetDataStruct &widgetDataStruct)
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
 	argsList.add(widgetDataStruct.m_iData2);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaShowHistorical", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "pediaShowHistorical", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaBuildJump(CvWidgetDataStruct &widgetDataStruct)
@@ -1793,7 +1807,7 @@ void CvDLLWidgetData::doPediaBuildJump(CvWidgetDataStruct &widgetDataStruct)
 	if (NO_IMPROVEMENT != eImprovement)
 	{
 		argsList.add(eImprovement);
-		gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToImprovement", argsList.makeFunctionArgs());
+		GC.callPythoFunction(PYScreensModule, "pediaJumpToImprovement", argsList.makeFunctionArgs());
 	}
 }
 
@@ -1838,14 +1852,14 @@ void CvDLLWidgetData::doForeignAdvisor(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "showForeignAdvisorScreen", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "showForeignAdvisorScreen", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doFinanceAdvisor(CvWidgetDataStruct &widgetDataStruct)
 {
 	//CyArgsList argsList;
 	//argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "showFinanceAdvisor");
+	GC.callPythoFunction(PYScreensModule, "showFinanceAdvisor");
 }
 
 //
@@ -1894,7 +1908,7 @@ void CvDLLWidgetData::parseLiberateCityHelp(CvWidgetDataStruct &widgetDataStruct
 		PlayerTypes ePlayer = pHeadSelectedCity->getLiberationPlayer(false);
 		if (NO_PLAYER != ePlayer)
 		{
-			szBuffer.append(gDLL->getText("TXT_KEY_LIBERATE_CITY_HELP", pHeadSelectedCity->getNameKey(), GET_PLAYER(ePlayer).getNameKey()));
+			szBuffer.append(gDLL->getText("TXT_KEY_LIBERATE_CITY_HELP", pHeadSelectedCity->getNameKey(), GET_PLAYER(ePlayer).getCivilizationShortDescription()));
 		}
 	}
 }
@@ -2064,14 +2078,35 @@ void CvDLLWidgetData::parseHurryHelp(CvWidgetDataStruct &widgetDataStruct, CvWSt
 
 		iHurryAngerLength = pHeadSelectedCity->hurryAngerLength((HurryTypes)(widgetDataStruct.m_iData1));
 
-		// Leoreth: anger scales with amount of sacrificed population
-		int iHurryAngerModifier = (1 + iHurryPopulation) / 2;
+		int iHurryAnger = 0;
+		int iHurryAngerModifier = 0;
+		int hurrylength = 0;
+		//红脸计算
+		if (GC.m_iCVCITY_HURRY_CALCULATION_WITH_FLOAT > 0) {
+			float iHurryAngerModifier_Float = ((float)iHurryPopulation) / 2;
+			int Angertimer = (int)((float)HURRY_POP_ANGER * iHurryAngerModifier_Float);
+			iHurryAnger = (int)iHurryAngerModifier_Float + 1;
+			hurrylength = (int)((float)iHurryAngerLength * iHurryAngerModifier_Float);
 
-		// Leoreth: Pyramids negate unhappiness scaling
-		//if (GET_PLAYER(pHeadSelectedCity->getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)PYRAMIDS))
-		//	iHurryAngerModifier = 1;
+		}
+		else {
 
-		int iHurryAnger = GC.getDefineINT("HURRY_POP_ANGER") * iHurryAngerModifier;
+
+
+			// Leoreth: anger scales with amount of sacrificed population
+			iHurryAngerModifier = (1 + iHurryPopulation) / 2;
+
+			// Leoreth: Pyramids negate unhappiness scaling
+			//if (GET_PLAYER(pHeadSelectedCity->getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)PYRAMIDS))
+			//	iHurryAngerModifier = 1;
+
+			iHurryAnger = HURRY_POP_ANGER * iHurryAngerModifier;
+
+
+			hurrylength = iHurryAngerLength * iHurryAngerModifier;
+		
+
+		}
 
 		if (pHeadSelectedCity->isHasBuildingEffect((BuildingTypes)BLUE_MOSQUE))
 		{
@@ -2081,7 +2116,7 @@ void CvDLLWidgetData::parseHurryHelp(CvWidgetDataStruct &widgetDataStruct, CvWSt
 		if (iHurryAngerLength > 0)
 		{
 			szBuffer.append(NEWLINE);
-			szBuffer.append(gDLL->getText("TXT_KEY_MISC_ANGER_TURNS", iHurryAnger, (iHurryAngerLength * iHurryAngerModifier + pHeadSelectedCity->getHurryAngerTimer())));
+			szBuffer.append(gDLL->getText("TXT_KEY_MISC_ANGER_TURNS", iHurryAnger, (hurrylength + pHeadSelectedCity->getHurryAngerTimer())));
 		}
 
 		if (!(pHeadSelectedCity->isProductionUnit()) && !(pHeadSelectedCity->isProductionBuilding()))
@@ -2108,6 +2143,70 @@ void CvDLLWidgetData::parseHurryHelp(CvWidgetDataStruct &widgetDataStruct, CvWSt
 			{
 				szBuffer.append(ENDCOLR);
 			}
+		}
+		if (GC.getDefineINT("CVCITY_SHOW_DETAILED_HURRY_INFO") == 1) {//显示详细加速信息
+			CvWString szTempBuffer1;
+			HurryTypes eHurry = (HurryTypes)(widgetDataStruct.m_iData1);
+
+			int iOverflowProduction = 0;
+			int iOverflowGold = 0;
+			pHeadSelectedCity->hurryOverflow((HurryTypes)(widgetDataStruct.m_iData1), &iOverflowProduction, &iOverflowGold, getBugOptionBOOL("MiscHover__HurryOverflowIncludeCurrent", false, "BUG_HURRY_OVERFLOW_HOVER_INCLUDE_CURRENT"));
+
+			szBuffer.append(NEWLINE);
+			//int iHurryPopulation1 = pHeadSelectedCity->getHurryCostModifier() * iHurryPopulation;
+			int iHurryProduction_all = pHeadSelectedCity->hurryProduction((HurryTypes)(widgetDataStruct.m_iData1));
+
+			int iProduction = (pHeadSelectedCity->getProduction());//城市已经生产的锤子数
+			int iProductionNeeded = (pHeadSelectedCity->getProductionNeeded());//城市需要生产的锤子数总数
+			int iProduction_city_per = pHeadSelectedCity->getCurrentProductionDifference(true, true);//城市锤子数
+
+			int iHurryProduction_per;
+			if (iHurryPopulation > 0) {
+				iHurryProduction_per = iHurryProduction_all / iHurryPopulation;
+			}
+			else {
+				iHurryProduction_per = 0;
+			}
+
+			//int iHurryProduction_per = GC.getHurryInfo(eHurry).getProductionPerPopulation();
+
+
+			int iHurryTime_left = 999;
+			int iOverflowProduction2;
+			if (iProduction_city_per > 0) {
+				if (iProduction > 0) {
+					iHurryTime_left = (iHurryProduction_per - iOverflowProduction) / iProduction_city_per + 1;
+				}
+				else {
+					iOverflowProduction2 = (int)((iHurryPopulation - 1) * iHurryProduction_per * 1.5 - (iHurryProduction_all - iOverflowProduction));
+					iHurryTime_left = (int)((iHurryProduction_per * 1.5 - iOverflowProduction2) / (iProduction_city_per)+1);
+
+					//iHurryTime_left = (iHurryProduction_per * 1.5 - iOverflowProduction2-2* iProduction_city_per) / (iProduction_city_per) + 1;
+				}
+			}
+			else {
+			}
+
+
+			int iHurryTime_left2 = 999;
+			if (iProduction_city_per > 0) {
+				if (iProduction > 0) {
+					iHurryTime_left2 = (iHurryProduction_per * 2 - iOverflowProduction) / iProduction_city_per + 1;
+					szBuffer.append(gDLL->getText("TXT_KEY_MISC_HURRY_POP_DETAIL", iHurryProduction_per, iHurryTime_left, iHurryPopulation - 1, iHurryTime_left2, iHurryPopulation - 2));
+				}
+				else {
+					iOverflowProduction2 = (int)((iHurryPopulation - 1) * iHurryProduction_per * 1.5 - (iHurryProduction_all - iOverflowProduction));
+					//iHurryTime_left2 = (iHurryProduction_per * 1.5*2 - iOverflowProduction2 - 2 * iProduction_city_per) / (iProduction_city_per ) + 1;
+					iHurryTime_left2 = (int)((iHurryProduction_per * 1.5 * 2 - iOverflowProduction2) / (iProduction_city_per)+1);
+
+					szBuffer.append(gDLL->getText("TXT_KEY_MISC_HURRY_POP_DETAIL", iHurryProduction_per, iHurryTime_left, iHurryPopulation - 2, iHurryTime_left2, iHurryPopulation - 3));
+				}
+			}
+			else {
+			}
+			//szTempBuffer1.Format(L"  详细加速信息：每个人口加速：%d    城市产量:%d     加速剩余回合 %d", iHurryProduction_per, (pHeadSelectedCity->getProduction()), iHurryTime_left);
+			//szBuffer.append(szTempBuffer);
+
 		}
 	}
 }
@@ -2153,7 +2252,7 @@ void CvDLLWidgetData::parseConscriptHelp(CvWidgetDataStruct &widgetDataStruct, C
 			}
 
 			iConscriptAngerLength = pHeadSelectedCity->flatConscriptAngerLength();
-			iConscriptAnger = GC.getDefineINT("CONSCRIPT_POP_ANGER");
+			iConscriptAnger = CONSCRIPT_POP_ANGER;
 
 			if (pHeadSelectedCity->isHasBuildingEffect((BuildingTypes)BLUE_MOSQUE))
 			{
@@ -2174,7 +2273,7 @@ void CvDLLWidgetData::parseConscriptHelp(CvWidgetDataStruct &widgetDataStruct, C
 				szBuffer.append(gDLL->getText("TXT_KEY_MISC_MIN_CITY_POP", iMinCityPopulation));
 			}
 
-			iMinCulturePercent = GC.getDefineINT("CONSCRIPT_MIN_CULTURE_PERCENT");
+			iMinCulturePercent = CONSCRIPT_MIN_CULTURE_PERCENT;
 
 			if (pHeadSelectedCity->plot()->calculateTeamCulturePercent(pHeadSelectedCity->getTeam()) < iMinCulturePercent)
 			{
@@ -2322,6 +2421,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 #endif
 // BUG - Sentry Actions - end
 			{
+				// 治疗士兵时显示的文字
 				iTurns = 0;
 
 				pSelectedUnitNode = gDLL->getInterfaceIFace()->headSelectionListNode();
@@ -2336,6 +2436,8 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 
 				szBuffer.append(NEWLINE);
 				szBuffer.append(gDLL->getText("TXT_KEY_MISC_TURN_OR_TURNS", iTurns));
+				szBuffer.append(NEWLINE);
+				szBuffer.append(CvWString::format(SETCOLR L" 地块治疗速率：%d" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE"), pSelectedUnit->healRate(pMissionPlot)));
 			}
 			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType() == MISSION_PILLAGE)
 			{
@@ -2642,60 +2744,86 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 			}
 			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType() == MISSION_DISCOVER)
 			{
-				pSelectedUnitNode = gDLL->getInterfaceIFace()->headSelectionListNode();
+			pSelectedUnitNode = gDLL->getInterfaceIFace()->headSelectionListNode();
 
-				while (pSelectedUnitNode != NULL)
+			while (pSelectedUnitNode != NULL)
+			{
+				pSelectedUnit = ::getUnit(pSelectedUnitNode->m_data);
+
+				if (pSelectedUnit->canDiscover(pMissionPlot))
 				{
-					pSelectedUnit = ::getUnit(pSelectedUnitNode->m_data);
+					eFirstDiscovery = pSelectedUnit->getDiscoveryTech();
+					iFirstResearchLeft = GET_TEAM(pSelectedUnit->getTeam()).getResearchLeft(eFirstDiscovery);
+					iFirstResearch = pSelectedUnit->getDiscoverResearch(eFirstDiscovery);
 
-					if (pSelectedUnit->canDiscover(pMissionPlot))
+					eSecondDiscovery = pSelectedUnit->getDiscoveryTech(eFirstDiscovery);
+					iSecondResearch = 0;
+					iSecondResearchLeft = -1;
+
+					if (eSecondDiscovery != NO_TECH && iFirstResearch >= iFirstResearchLeft)
 					{
-						eFirstDiscovery = pSelectedUnit->getDiscoveryTech();
-						iFirstResearchLeft = GET_TEAM(pSelectedUnit->getTeam()).getResearchLeft(eFirstDiscovery);
-						iFirstResearch = pSelectedUnit->getDiscoverResearch(eFirstDiscovery);
-						
-						eSecondDiscovery = pSelectedUnit->getDiscoveryTech(eFirstDiscovery);
-						iSecondResearch = 0;
-						iSecondResearchLeft = -1;
+						iSecondResearch = std::max(0, pSelectedUnit->getDiscoverResearch(eSecondDiscovery) - iFirstResearchLeft);
+						iSecondResearchLeft = pSelectedUnit->getDiscoveryTech(eSecondDiscovery);
+					}
 
-						if (eSecondDiscovery != NO_TECH && iFirstResearch >= iFirstResearchLeft)
-						{
-							iSecondResearch = std::max(0, pSelectedUnit->getDiscoverResearch(eSecondDiscovery) - iFirstResearchLeft);
-							iSecondResearchLeft = pSelectedUnit->getDiscoveryTech(eSecondDiscovery);
+					szBuffer.append(NEWLINE);
+
+					if (iFirstResearch >= iFirstResearchLeft)
+					{
+						//mediv01 伟人点科技的详细提示信息
+						if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY_INFO") == 1) {
+							szTempBuffer.Format(SETCOLR L"%s ( 科研值 %d )" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), GC.getTechInfo(eFirstDiscovery).getDescription(), iFirstResearchLeft);
+							szBuffer.append(szTempBuffer);
 						}
-						
-						szBuffer.append(NEWLINE);
-
-						if (iFirstResearch >= iFirstResearchLeft)
-						{
+						else {
 							szTempBuffer.Format(SETCOLR L"%s" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), GC.getTechInfo(eFirstDiscovery).getDescription());
 							szBuffer.append(szTempBuffer);
 						}
-						else
-						{
+					}
+					else
+					{
+						if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY_INFO") == 1) {
+							szBuffer.append(gDLL->getText("TXT_KEY_ACTION_EXTRA_RESEARCH", iFirstResearch, GC.getTechInfo(eFirstDiscovery).getTextKeyWide()));
+						}
+						else {
 							szBuffer.append(gDLL->getText("TXT_KEY_ACTION_EXTRA_RESEARCH", iFirstResearch, GC.getTechInfo(eFirstDiscovery).getTextKeyWide()));
 						}
 
-						if (iSecondResearch > 0)
-						{
-							szBuffer.append(gDLL->getText("TXT_KEY_AND"));
+					}
 
-							if (iSecondResearch >= iSecondResearchLeft)
-							{
+					if (iSecondResearch > 0)
+					{
+						szBuffer.append(gDLL->getText("TXT_KEY_AND"));
+
+						if (iSecondResearch >= iSecondResearchLeft)
+						{
+							if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY_INFO") == 1) {
+								szTempBuffer.Format(SETCOLR L"%s ( 科研值 %d )" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), GC.getTechInfo(eSecondDiscovery).getDescription(), iSecondResearch);
+								szBuffer.append(szTempBuffer);
+							}
+							else {
 								szTempBuffer.Format(SETCOLR L"%s" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), GC.getTechInfo(eSecondDiscovery).getDescription());
 								szBuffer.append(szTempBuffer);
 							}
-							else
-							{
-								szBuffer.append(gDLL->getText("TXT_KEY_ACTION_EXTRA_RESEARCH", iSecondResearch, GC.getTechInfo(eSecondDiscovery).getTextKeyWide()));
-							}
 						}
-
-						break;
+						else
+						{
+							szBuffer.append(gDLL->getText("TXT_KEY_ACTION_EXTRA_RESEARCH", iSecondResearch, GC.getTechInfo(eSecondDiscovery).getTextKeyWide()));
+						}
 					}
 
-					pSelectedUnitNode = gDLL->getInterfaceIFace()->nextSelectionListNode(pSelectedUnitNode);
+					if (GC.getDefineINT("CVTECH_SHOW_TECH_DISCOVERY_INFO") == 1) {
+						szTempBuffer.Format(SETCOLR L"   总科研值 ( %d )" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN"), iFirstResearch);
+						szBuffer.append(szTempBuffer);
+					}
+
+					// GC.debug();
+
+					break;
 				}
+
+				pSelectedUnitNode = gDLL->getInterfaceIFace()->nextSelectionListNode(pSelectedUnitNode);
+			}
 			}
 			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType() == MISSION_HURRY)
 			{
@@ -2732,7 +2860,12 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 								if (NULL != pcKey && pSelectedUnit->getHurryProduction(pMissionPlot) >= pMissionCity->productionLeft())
 								{
 									szBuffer.append(NEWLINE);
-									szBuffer.append(gDLL->getText("TXT_KEY_ACTION_FINISH_CONSTRUCTION", pcKey));
+									if (GC.getDefineINT("CVTECH_SHOW_TECH_ACCELERATE_INFO") == 1) {
+										szBuffer.append(gDLL->getText("TXT_KEY_ACTION_EXTRA_CONSTRUCTION", pSelectedUnit->getHurryProduction(pMissionPlot), pcKey));
+									}
+									else {
+										szBuffer.append(gDLL->getText("TXT_KEY_ACTION_FINISH_CONSTRUCTION", pcKey));
+									}
 								}
 								else
 								{
@@ -3402,7 +3535,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 						if (!(GET_PLAYER(eGiftPlayer).AI_acceptUnit(pSelectedUnit)))
 						{
 							szBuffer.append(NEWLINE);
-							szBuffer.append(gDLL->getText("TXT_KEY_REFUSE_GIFT", GET_PLAYER(eGiftPlayer).getNameKey()));
+							szBuffer.append(gDLL->getText("TXT_KEY_REFUSE_GIFT", GET_PLAYER(eGiftPlayer).getCivilizationShortDescription()));
 							break;
 						}
 
@@ -3414,6 +3547,18 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 			else if (GC.getActionInfo(widgetDataStruct.m_iData1).getCommandType() == COMMAND_DELETE)
 			{
 				szBuffer.append(gDLL->getText("TXT_KEY_SAME_UNITS_TYPE"));
+				if (GC.m_iCVUNIT_DISBAND_CAN_GIVE_GOLD == 1) {//mediv01 解散单位获得收入
+					pSelectedUnitNode = gDLL->getInterfaceIFace()->headSelectionListNode();
+					pSelectedUnit = ::getUnit(pSelectedUnitNode->m_data);
+					int money = pSelectedUnit->getUnitInfo().getProductionCost() * GC.m_iCVUNIT_DISBAND_GIVE_GOLD_PERCENT / 100;
+					if (GC.m_iCVUNIT_DISBAND_GIVE_GOLD > 0) {
+						money = GC.m_iCVUNIT_DISBAND_GIVE_GOLD;
+					}
+
+					szBuffer.append(CvWString::format(L"解散单位获得"));
+					szBuffer.append(CvWString::format(SETCOLR L" %d %c" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN"), money, GC.getCommerceInfo((CommerceTypes)COMMERCE_GOLD).getChar()));
+
+				}
 			}
 // BUG - Delete All Action - end
 
@@ -3599,7 +3744,7 @@ void CvDLLWidgetData::parseChangeSpecialistHelp(CvWidgetDataStruct &widgetDataSt
 			GAMETEXT.parseSpecialistHelpActual(szBuffer, ((SpecialistTypes)(widgetDataStruct.m_iData1)), pHeadSelectedCity, false, widgetDataStruct.m_iData2);
 // BUG - Specialist Actual Effects - end
 
-			if (widgetDataStruct.m_iData1 != GC.getDefineINT("DEFAULT_SPECIALIST"))
+			if (widgetDataStruct.m_iData1 != DEFAULT_SPECIALIST)
 			{
 				// Leoreth: unlimited specialists removed
 				if (true)//!(GET_PLAYER(pHeadSelectedCity->getOwnerINLINE()).isSpecialistValid((SpecialistTypes)(widgetDataStruct.m_iData1))))
@@ -3688,7 +3833,9 @@ void CvDLLWidgetData::parseSetPercentHelp(CvWidgetDataStruct &widgetDataStruct, 
 
 void CvDLLWidgetData::parseContactCivHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer)
 {
+	// 积分栏鼠标放上去的文字解释
 	// do not execute if player is out of range
+	CvWString szTempBuffer;
 	PlayerTypes ePlayer = (PlayerTypes) widgetDataStruct.m_iData1;
 	if (ePlayer >= MAX_PLAYERS)
 	{
@@ -3727,10 +3874,148 @@ void CvDLLWidgetData::parseContactCivHelp(CvWidgetDataStruct &widgetDataStruct, 
 
 	//Rhye
 	//szBuffer.assign(gDLL->getText("TXT_KEY_MISC_CONTACT_LEADER", GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getNameKey(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getCivilizationShortDescription()));
-	szBuffer.assign(gDLL->getText("TXT_KEY_MISC_CONTACT_LEADER", GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getNameKey(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getCivilizationDescription()));
+	szBuffer.assign(gDLL->getText("TXT_KEY_MISC_CONTACT_LEADER", GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getNameKey(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getCivilizationShortDescription()));
 
+
+		
 	szBuffer.append(NEWLINE);
 	GAMETEXT.parsePlayerTraits(szBuffer, (PlayerTypes)widgetDataStruct.m_iData1);
+
+	// 显示玩家首都所在区域
+	if (GC.getDefineINT("CVGAMETEXT_SHOW_PLAYER_REGION") > 0) {
+		// szBuffer.append(NEWLINE);
+		PlayerTypes iPlayer = (PlayerTypes)widgetDataStruct.m_iData1;
+		if (GET_PLAYER(iPlayer).isMinorCiv() || GET_PLAYER(iPlayer).isBarbarian()) {
+
+		}
+		else {
+			CvCity* pcity = GET_PLAYER(iPlayer).getCapitalCity();
+			if (pcity != NULL) {
+				CvPlot* pplot = GC.getMapINLINE().plotINLINE(pcity->getX(), pcity->getY());
+				if (pplot != NULL) {
+					szTempBuffer.Format(SETCOLR L"首都区域：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"));
+					szBuffer.append(szTempBuffer);
+					szBuffer.append(pplot->getRegionName());
+
+					if (GC.getDefineINT("CVGAMETEXT_SHOW_PLAYER_RISE_AND_FALL") == 1) {//mediv01 显示地块是否为出生区
+						int PlayerNum = (int)widgetDataStruct.m_iData1;
+
+						std::vector<int> pIntList2;
+						CyArgsList argsList2;
+						argsList2.add(PlayerNum);
+						argsList2.add(PlayerNum);
+						int BirthDate = 500;
+						int FallDate = 1800;
+
+						GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
+						if (pIntList2.size() > 0) {
+
+							BirthDate = pIntList2[0];
+							FallDate = pIntList2[1];
+						}
+						szTempBuffer.Format(L" ( %d 至 %d ) ", BirthDate, FallDate);
+						szBuffer.append(szTempBuffer);
+					}
+
+					szBuffer.append(NEWLINE);
+				}
+			}
+		}
+	}
+
+	if (GC.getDefineINT("CVGAMETEXT_SHOW_PLAYER_ASK_VALUE") == 1) {//mediv01 显示可勒索价值
+
+		int PlayerNum = (int)widgetDataStruct.m_iData1;
+		int humanPlayer = GC.getHumanID();
+
+		int askmoney_max = CvPlayerAI().AI_considerOffer_Threshold(humanPlayer, PlayerNum);
+		int iGold = GET_PLAYER((PlayerTypes)PlayerNum).AI_maxGoldTrade(GC.getHumanID());
+		int askmoney = std::min(askmoney_max, iGold);
+
+		if (askmoney > 0) {
+			szTempBuffer.Format(L" 可勒索金币： %d （%d) ", askmoney, askmoney_max);
+			szBuffer.append(szTempBuffer);
+			szBuffer.append(NEWLINE);
+		}
+	}
+
+	if (GC.getDefineINT("CVGAMETEXT_SHOW_PLAYER_MAP_VALUE") == 1) {//mediv01 显示地图交易价值
+
+
+
+		int PlayerNum = (int)widgetDataStruct.m_iData1;
+		int humanPlayer = GC.getHumanID();
+
+
+		PlayerTypes pBuyResourcePlayer = (PlayerTypes)PlayerNum;
+		PlayerTypes pSellResourcePlayer = (PlayerTypes)humanPlayer;
+		CLinkList<TradeData> pSellingResourceList;
+		TradeData item;
+		TradeableItems TradeItem = (TradeableItems)(TRADE_MAPS);
+		setTradeItem(&item, ((TradeableItems)(TradeItem)), 0);
+		pSellingResourceList.insertAtEnd(item);
+		//int iOurValue = GET_PLAYER(pHuman).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pHuman).AI_goldTradeValuePercent(pAI) * 100;
+
+
+
+		int iOurValue = 0;
+		iOurValue = GET_PLAYER(pBuyResourcePlayer).AI_dealVal(pSellResourcePlayer, &pSellingResourceList, false, -1) / GET_PLAYER(pBuyResourcePlayer).AI_goldTradeValuePercent(pSellResourcePlayer) * 100;
+
+		//在卖资源的时候
+		//实测 此处的pAI为人类玩家，pHuman为AI
+		//CvWString log_CWstring;
+		//log_CWstring.Format(L"%s 的交易价值1111： %d", GET_PLAYER(pBuyResourcePlayer).getCivilizationDescription(), iOurValue);
+		//GC.logs(log_CWstring, "testrade.log");
+
+
+	
+
+
+		int askmoney_max = iOurValue;
+		int iGold = GET_PLAYER((PlayerTypes)PlayerNum).AI_maxGoldTrade(GC.getHumanID());
+		int askmoney = std::min(askmoney_max, iGold);
+
+		if (askmoney > 0) {
+			szTempBuffer.Format(L" 地图价值： %d （%d) ", askmoney, askmoney_max);
+			szBuffer.append(szTempBuffer);
+			szBuffer.append(NEWLINE);
+		}
+	}
+
+	// 显示玩家稳定度
+	if (GC.getDefineINT("CVGAMETEXT_SHOW_PLAYER_STABILITY") > 0) {
+		PlayerTypes iPlayer = (PlayerTypes)widgetDataStruct.m_iData1;
+		if (GET_PLAYER(iPlayer).isMinorCiv() || GET_PLAYER(iPlayer).isBarbarian()) {
+
+		}
+		else {
+
+
+			int PlayerNum = iPlayer;
+
+			std::vector<int> pIntList2;
+			CyArgsList argsList2;
+			argsList2.add(PlayerNum);
+			argsList2.add(1);
+			int NowStability = 0;
+			int LastStability = 0;
+
+			GC.callPythoFunction(PYScreensModule, "CheckStability", argsList2.makeFunctionArgs(), &pIntList2);
+			if (pIntList2.size() > 0) {
+
+				NowStability = pIntList2[0];
+				LastStability = pIntList2[1];
+			}
+			szTempBuffer.Format(L" 上次稳定度：%d ，  实时稳定度: %d ", LastStability, NowStability);
+			szBuffer.append(szTempBuffer);
+					
+
+			szBuffer.append(NEWLINE);
+				
+			
+		}
+	}
+
 
 	if (!(GET_TEAM(GC.getGameINLINE().getActiveTeam()).isHasMet(GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData1).getTeam())) && !(gDLL->getChtLvl() > 0))
 	{
@@ -3807,6 +4092,34 @@ void CvDLLWidgetData::parseContactCivHelp(CvWidgetDataStruct &widgetDataStruct, 
 			{
 				szBuffer.append(NEWLINE);
 				szBuffer.append(gDLL->getText("TXT_KEY_MISC_CANNOT_DECLARE_WAR"));
+				if (GC.getDefineINT("CVGAMETEXT_SHOW_PEACE_DEAL_IN_MAP") > 0) {
+					szBuffer.append(NEWLINE);
+					PlayerTypes Humanplayer = GC.getHumanID();
+					PlayerTypes AIplayer = (PlayerTypes)widgetDataStruct.m_iData1;
+					int iLoop;
+					for (CvDeal* pLoopDeal = GC.getGameINLINE().firstDeal(&iLoop); pLoopDeal != NULL; pLoopDeal = GC.getGameINLINE().nextDeal(&iLoop))
+					{
+						if (pLoopDeal->isPeaceDeal())
+						{
+							int iturns = pLoopDeal->turnsToCancel();
+							if ((pLoopDeal->getFirstPlayer() == Humanplayer) && (GET_PLAYER(pLoopDeal->getSecondPlayer()).getTeam() == GET_PLAYER(AIplayer).getTeam()))
+							{
+								szTempBuffer.Format(SETCOLR L"和平条约还剩：%d 回合" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iturns);
+								szBuffer.append(szTempBuffer);
+
+							}
+							if ((pLoopDeal->getSecondPlayer() == Humanplayer) && (GET_PLAYER(pLoopDeal->getFirstPlayer()).getTeam() == GET_PLAYER(AIplayer).getTeam()))
+							{
+								szTempBuffer.Format(SETCOLR L"和平条约还剩：%d 回合" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iturns);
+								szBuffer.append(szTempBuffer);
+							}
+						}
+
+					}
+				}
+
+
+
 			}
 		}
 	}
@@ -3824,7 +4137,7 @@ void CvDLLWidgetData::parseCompleteStabilityInfo(CvWidgetDataStruct &widgetDataS
 	long result = 0;
 	CyArgsList argsList;
 	argsList.add((PlayerTypes)widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "getStabilityLevel", argsList.makeFunctionArgs(), &result);
+	GC.callPythoFunction(PYScreensModule, "getStabilityLevel", argsList.makeFunctionArgs(), &result);
 	int iResult = (int)result;
 
 	szBuffer.append(gDLL->getText("TXT_KEY_STABILITY_ADVISOR_TITLE"));
@@ -3843,7 +4156,7 @@ void CvDLLWidgetData::parseHistoricalVictoryInfo(CvWidgetDataStruct &widgetDataS
 	long result = -1;
 	CyArgsList argsList;
 	argsList.add((PlayerTypes)widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "countAchievedGoals", argsList.makeFunctionArgs(), &result);
+	GC.callPythoFunction(PYScreensModule, "countAchievedGoals", argsList.makeFunctionArgs(), &result);
 	int iResult = (int)result;
 	szBuffer.append(gDLL->getText("TXT_KEY_VICTORY_ACCOMPLISHED"));
 	szBuffer.append(gDLL->getText(" "));
@@ -4070,13 +4383,13 @@ void CvDLLWidgetData::parseTradeItem(CvWidgetDataStruct &widgetDataStruct, CvWSt
 			eWhoDenies = (widgetDataStruct.m_bOption ? eWhoFrom : eWhoTo);
 			break;
 		case TRADE_PEACE:
-			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_MAKE_PEACE", GET_TEAM(GET_PLAYER(eWhoFrom).getTeam()).getName().GetCString(), GET_TEAM((TeamTypes)widgetDataStruct.m_iData2).getName().GetCString()));
+			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_MAKE_PEACE", GET_PLAYER(eWhoFrom).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData2).getCivilizationShortDescription()));
 			break;
 		case TRADE_WAR:
-			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_MAKE_WAR", GET_TEAM(GET_PLAYER(eWhoFrom).getTeam()).getName().GetCString(), GET_TEAM((TeamTypes)widgetDataStruct.m_iData2).getName().GetCString()));
+			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_MAKE_WAR", GET_PLAYER(eWhoFrom).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData2).getCivilizationShortDescription()));
 			break;
 		case TRADE_EMBARGO:
-			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_STOP_TRADING", GET_TEAM(GET_PLAYER(eWhoFrom).getTeam()).getName().GetCString(), GET_TEAM((TeamTypes)widgetDataStruct.m_iData2).getName().GetCString()));
+			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_STOP_TRADING", GET_PLAYER(eWhoFrom).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)widgetDataStruct.m_iData2).getCivilizationShortDescription()));
 			break;
 		case TRADE_CIVIC:
 			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_ADOPT_CIVIC", GC.getCivicInfo((CivicTypes)widgetDataStruct.m_iData2).getDescription()));
@@ -4109,7 +4422,7 @@ void CvDLLWidgetData::parseTradeItem(CvWidgetDataStruct &widgetDataStruct, CvWSt
 			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_PERMANENT_ALLIANCE"));
 			break;
 		case TRADE_PEACE_TREATY:
-			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_PEACE_TREATY", GC.getDefineINT("PEACE_TREATY_LENGTH")));
+			szBuffer.append(gDLL->getText("TXT_KEY_TRADE_PEACE_TREATY", PEACE_TREATY_LENGTH));
 			break;
 		// edead: start Relic trade based on Afforess' Advanced Diplomacy
 		case TRADE_SLAVE:
@@ -4126,10 +4439,138 @@ void CvDLLWidgetData::parseTradeItem(CvWidgetDataStruct &widgetDataStruct, CvWSt
 
 		if (eDenial != NO_DENIAL)
 		{
-			szTempBuffer.Format(L"%s: " SETCOLR L"%s" ENDCOLR, GET_PLAYER(eWhoDenies).getName(), TEXT_COLOR("COLOR_WARNING_TEXT"), GC.getDenialInfo(eDenial).getDescription());
+			szTempBuffer.Format(L"%s: " SETCOLR L"%s" ENDCOLR, GET_PLAYER(eWhoDenies).getCivilizationShortDescription(), TEXT_COLOR("COLOR_WARNING_TEXT"), GC.getDenialInfo(eDenial).getDescription());
 			szBuffer.append(NEWLINE);
 			szBuffer.append(szTempBuffer);
 		}
+
+
+		PlayerTypes pBuyResourcePlayer = eWhoTo;
+		PlayerTypes pSellResourcePlayer = eWhoFrom;
+		CLinkList<TradeData> pSellingResourceList;
+		//TradeData item;
+		//setTradeItem(&item, ((TradeableItems)(widgetDataStruct.m_iData1)), widgetDataStruct.m_iData2);;
+		pSellingResourceList.insertAtEnd(item);
+		//int iOurValue = GET_PLAYER(pHuman).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pHuman).AI_goldTradeValuePercent(pAI) * 100;
+
+		if (GC.getDefineINT("CVGAMETEXT_TRADE_SHOW_VALUE") == 1) { //mediv01 显示物品交易价值
+
+
+
+
+
+			int iOurValue = 0;
+
+
+
+			iOurValue = GET_PLAYER(pBuyResourcePlayer).AI_dealVal(pSellResourcePlayer, &pSellingResourceList, false, -1) / GET_PLAYER(pBuyResourcePlayer).AI_goldTradeValuePercent(pSellResourcePlayer) * 100;
+
+			//在卖资源的时候
+			//实测 此处的pAI为人类玩家，pHuman为AI
+			//CvWString log_CWstring;
+			//log_CWstring.Format(L"%s 的交易价值1111： %d", GET_PLAYER(pBuyResourcePlayer).getCivilizationDescription(), iOurValue);
+			//GC.logs(log_CWstring, "testrade.log");
+
+
+			TradeableItems TradeItem = (TradeableItems)(widgetDataStruct.m_iData1);
+			if (TradeItem == TRADE_RESOURCES) {
+				szTempBuffer.Format(SETCOLR L"交易价值：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iOurValue);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+				szTempBuffer.Format(SETCOLR L"交易回合金：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), (int)(iOurValue / PEACE_TREATY_LENGTH));
+			}
+			else if (TradeItem == TRADE_GOLD) {
+
+				szTempBuffer.Format(SETCOLR L"交易价值：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iOurValue);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+				int maxaskmoney = CvPlayerAI().AI_considerOffer_Threshold(pBuyResourcePlayer, pSellResourcePlayer);
+				int maxgoldtrade = GET_PLAYER(pSellResourcePlayer).AI_maxGoldTrade(pBuyResourcePlayer);
+				int actual_gold_ask = std::min(maxaskmoney, maxgoldtrade);
+				if (actual_gold_ask > 0 && maxaskmoney > 0) {
+					szTempBuffer.Format(SETCOLR L"勒索金币价值：%d (%d)" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), actual_gold_ask, maxaskmoney);
+					szBuffer.append(NEWLINE);
+					szBuffer.append(szTempBuffer);
+				}
+				
+				szTempBuffer.Format(SETCOLR L"可交易金币总额：%d (%d)" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), maxgoldtrade, GET_PLAYER(pSellResourcePlayer).getGold());
+
+			}
+			else {
+				szTempBuffer.Format(SETCOLR L"交易价值：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iOurValue);
+			}
+			szBuffer.append(NEWLINE);
+			szBuffer.append(szTempBuffer);
+
+			//这个是错的
+			//iOurValue = GET_PLAYER(pAI).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pAI).AI_goldTradeValuePercent(pHuman) * 100;
+			//iOurValue = GET_PLAYER(pHuman).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pHuman).AI_goldTradeValuePercent(pAI) * 100;
+
+
+			/*
+			szTempBuffer.Format(SETCOLR L"交易价值：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iOurValue);
+			szBuffer.append(NEWLINE);
+			szBuffer.append(szTempBuffer);
+			*/
+
+
+
+			if (widgetDataStruct.m_iData1 == TRADE_GOLD_PER_TURN) {
+				int maxgoldperturn = 0;
+
+
+
+				//显示成人类的
+				/*
+				maxgoldperturn = GET_PLAYER(pHuman).AI_maxGoldPerTurnTrade(pAI);
+				szTempBuffer.Format(SETCOLR L"最大交易回合金：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), maxgoldperturn);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+				*/
+
+				//显示成AI的回合金
+				maxgoldperturn = GET_PLAYER(pSellResourcePlayer).AI_maxGoldPerTurnTrade(pBuyResourcePlayer);
+				szTempBuffer.Format(SETCOLR L"最大交易回合金：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), maxgoldperturn);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+
+
+				//显示成AI的
+				/*
+				maxgoldperturn = GET_PLAYER(pAI).AI_maxGoldPerTurnTrade(pAI);
+				szTempBuffer.Format(SETCOLR L"最大交易回合金：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), maxgoldperturn);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+
+				*/
+
+				//显示成人类的
+				/*
+				maxgoldperturn = GET_PLAYER(pHuman).AI_maxGoldPerTurnTrade(pHuman);
+				szTempBuffer.Format(SETCOLR L"最大交易回合金：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), maxgoldperturn);
+				szBuffer.append(NEWLINE);
+				szBuffer.append(szTempBuffer);
+				*/
+			}
+		}
+
+		if (GC.getDefineINT("CVGAMETEXT_TRADE_SHOW_ASK_VALUE") == 1) { //mediv01 显示勒索交易价值
+			//CLinkList<TradeData> pOurList;
+
+			//pOurList.insertAtEnd(item);
+
+			//int iOurValue = GET_PLAYER(pHuman).AI_dealVal(pAI, &pOurList, false, -1) / GET_PLAYER(pAI).AI_goldTradeValuePercent(pHuman) * 100;
+			int iOurValue = GET_PLAYER(pBuyResourcePlayer).AI_considerOffer_Threshold(pBuyResourcePlayer, pSellResourcePlayer);
+			int iOurValue2 = GET_PLAYER(pSellResourcePlayer).AI_considerOffer_Threshold(pSellResourcePlayer, pBuyResourcePlayer);
+			int iOurValue_f = std::max(iOurValue, iOurValue2);
+			szTempBuffer.Format(SETCOLR L"可勒索价值：%d" ENDCOLR, TEXT_COLOR("COLOR_HIGHLIGHT_TEXT"), iOurValue_f);
+			szBuffer.append(NEWLINE);
+			szBuffer.append(szTempBuffer);
+		}
+
+
+
+
 	}
 }
 
@@ -4298,7 +4739,8 @@ void CvDLLWidgetData::parseNationalityHelp(CvWidgetDataStruct &widgetDataStruct,
 		// Leoreth: stability effects of cultural control
 		int iOwnCulture = iTotalCulture == 0 ? 100 : 100 * pHeadSelectedCity->plot()->getCulture(pHeadSelectedCity->getOwnerINLINE()) / iTotalCulture;
 
-		if (pHeadSelectedCity->getOwnerINLINE() != PERSIA || (pHeadSelectedCity->getOwnerINLINE() == PERSIA && GET_PLAYER((PlayerTypes)PERSIA).isReborn()))
+		// mediv01 疑似判断条件写的不严谨
+		if ((pHeadSelectedCity->getOwnerINLINE() != PERSIA) || ((pHeadSelectedCity->getOwnerINLINE() == PERSIA && GET_PLAYER((PlayerTypes)PERSIA).isReborn())))
 		{
 			if (iOwnCulture < 20)
 			{
@@ -5258,6 +5700,7 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 void CvDLLWidgetData::parseKillDealHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer)
 {
 //	szBuffer = "Click to cancel";
+	// 显示交易是否可以取消的文字
 	CvWString szTemp;
 	szTemp = szBuffer.getCString();
 	CvDeal* pDeal = GC.getGameINLINE().getDeal(widgetDataStruct.m_iData1);
@@ -5351,7 +5794,7 @@ void CvDLLWidgetData::doRefreshMilitaryAdvisor(CvWidgetDataStruct &widgetDataStr
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
 	argsList.add(widgetDataStruct.m_iData2);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "refreshMilitaryAdvisor", argsList.makeFunctionArgs());
+	GC.callPythoFunction(PYScreensModule, "refreshMilitaryAdvisor", argsList.makeFunctionArgs());
 }
 
 // BUG - Food Rate Hover - start

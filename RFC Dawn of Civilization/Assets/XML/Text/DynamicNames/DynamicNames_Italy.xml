@@ -17,13 +17,13 @@
 		<Tag>TXT_KEY_CIV_ITALY_FASCIST</Tag>
 		<English>National Fascist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>法西斯%s1</Chinese>
+		<Chinese>法西斯%s2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ITALY_LOMBARD</Tag>
 		<English>Lombard</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伦巴第人</Chinese>
+		<Chinese>伦巴第</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ITALY_DEFAULT</Tag>
@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_ITALY_MARITIME_REPUBLICS</Tag>
 		<English>%s2 Maritime Republics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2海上共和国</Chinese>
+		<Chinese>%s2海洋共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ITALY_TUSCANY</Tag>
@@ -59,18 +59,43 @@
 		<Tag>TXT_KEY_CIV_ITALY_DESC</Tag>
 		<English>The Italians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>意大利</Chinese>
+		<Chinese>意大利文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ITALY_PEOPLES</Tag>
 		<English>Lombard Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>伦巴第人</Chinese>
+		<Chinese>伦巴第诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ITALY_DUCHY_OF</Tag>
 		<English>Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>%s1公国</Chinese>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARDIA_DESC</Tag>
+		<English>The Lombardia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第文明</Chinese>
+	</TEXT>	
+		<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARDIA_SHORT_DESC</Tag>
+		<English>The Lombardia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARDIA_SHORT_DESC</Tag>
+		<English>Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_CIV_LOMBARDIA_ADJECTIVE</Tag>
+		<English>Lombard</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>伦巴第</Chinese>
 	</TEXT>
 </Civ4GameText>

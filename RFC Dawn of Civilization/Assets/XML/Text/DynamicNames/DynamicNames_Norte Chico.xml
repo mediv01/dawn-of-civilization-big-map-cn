@@ -5,25 +5,25 @@
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_ADJECTIVE</Tag>
 		<English>Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡劳尔</Chinese>
+		<Chinese>小北</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2革命政府</Chinese>
+		<Chinese>小北革命政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_SHORT_DESC</Tag>
 		<English>Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡劳尔</Chinese>
+		<Chinese>小北</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR2_TITLE</Tag>
 		<English>Quipu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>结绳</Chinese>
+		<Chinese>结绳记事</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR1</Tag>
@@ -35,19 +35,19 @@
 		<Tag>TXT_KEY_BUILDING_NORTE_CHICO_SHICRA</Tag>
 		<English>Shicra</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Shicra</Chinese>
+		<Chinese>小北土堡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NORTE_CHICO_AYLLU</Tag>
 		<English>Ayllu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ayllu</Chinese>
+		<Chinese>艾柳</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR3</Tag>
-		<English>Have a capital with 5 populations and 6 buildings in 1500 BC</English>
+		<English>Have a capital with 5 populations and 6 buildings in 1400 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前1500年是首都拥有5个人口和6个建筑</Chinese>
+		<Chinese>公元前1400年时首都拥有5个人口和6个建筑</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITAL_POPULATION</Tag>
@@ -59,13 +59,13 @@
 		<Tag>TXT_KEY_UNIT_NORTE_CHICO_AYLLU_HELP</Tag>
 		<English>[ICON_BULLET]Creates 10 [ICON_CULTURE] in the capital when it constructs an improvement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[ICON_BULLET]当你完成一项设施时首都+10[ICON_CULTURE]</Chinese>
+		<Chinese>[ICON_BULLET]当你修建完成一处地域设施时首都+10[ICON_CULTURE]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NOR</Tag>
 		<English>Doubled [ICON_RESEARCH] prior to the discovery of Pottery.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Doubled [ICON_RESEARCH] prior to the discovery of Pottery.</Chinese>
+		<Chinese>在获得陶器科技之前拥有双倍[ICON_RESEARCH]。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR1_TITLE</Tag>
@@ -77,13 +77,13 @@
 		<Tag>TXT_KEY_LEADER_WIRACOCHA</Tag>
 		<English>Wiracocha</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡劳尔-维拉科查</Chinese>
+		<Chinese>小北-维拉科查</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2军政府</Chinese>
+		<Chinese>小北革命同盟军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITAL_BUILDINGS</Tag>
@@ -95,25 +95,25 @@
 		<Tag>TXT_KEY_DOM_NORTE_CHICO</Tag>
 		<English>It is the year 3000 BC. Settling along the river beds of the Fortaleza, Pativilca, and Supe rivers, the Andean peoples form the first civilizations in the Americas...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前3000年。安第斯人定居在福塔莱萨河、帕蒂维卡河和苏佩河的河床上，形成了美洲最早的文明。。。</Chinese>
+		<Chinese>公元前3000年的第一缕阳光照耀着秘鲁的海岸。安第斯先民定居在福塔莱萨河、帕蒂维卡河和苏佩河的河床上，形成了美洲最早的文明。。。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_NORTE_CHICO_DEFAULT</Tag>
+		<Tag>TXT_KEY_CIV_NORTECHICO_DEFAULT</Tag>
 		<English>Norte Chico City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡劳尔城邦</Chinese>
+		<Chinese>小北城邦</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_NORTE_CHICO_PEOPLES</Tag>
+		<Tag>TXT_KEY_CIV_NORTECHICO_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯人</Chinese>
+		<Chinese>安第斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NOR_TITLE</Tag>
 		<English>The Power of Aceramics:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>The Power of Aceramics:</Chinese>
+		<Chinese>制陶之力:</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NOR3_TITLE</Tag>
@@ -131,6 +131,6 @@
 		<Tag>TXT_KEY_CIV_NORTE_CHICO_DESC</Tag>
 		<English>The Norte Chico</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卡劳尔文明</Chinese>
+		<Chinese>小北文明</Chinese>
 	</TEXT>
 </Civ4GameText>

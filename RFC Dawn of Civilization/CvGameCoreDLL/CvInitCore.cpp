@@ -665,7 +665,7 @@ void CvInitCore::resetPlayer(PlayerTypes eID)
 		m_aeCiv[eID] = NO_CIVILIZATION;
 		m_aeLeader[eID] = NO_LEADER;
 		m_aeTeam[eID] = (TeamTypes)eID;
-		m_aeHandicap[eID] = (HandicapTypes)GC.getDefineINT("STANDARD_HANDICAP");
+		m_aeHandicap[eID] = (HandicapTypes)STANDARD_HANDICAP;
 		m_aeColor[eID] = NO_PLAYERCOLOR;
 		m_aeArtStyle[eID] = NO_ARTSTYLE;
 
@@ -967,10 +967,10 @@ void CvInitCore::refreshCustomMapOptions()
 			bool bOK;
 			long iNumOptions = 0;
 
-			gDLL->getPythonIFace()->callFunction(CvString(getMapScriptName()).GetCString(), "getNumHiddenCustomMapOptions", NULL, &iNumOptions);
+			GC.callPythoFunction(CvString(getMapScriptName()).GetCString(), "getNumHiddenCustomMapOptions", NULL, &iNumOptions);
 			m_iNumHiddenCustomMapOptions = iNumOptions;
 
-			bOK = gDLL->getPythonIFace()->callFunction(CvString(getMapScriptName()).GetCString(), "getNumCustomMapOptions", NULL, &iNumOptions);
+			bOK = GC.callPythoFunction(CvString(getMapScriptName()).GetCString(), "getNumCustomMapOptions", NULL, &iNumOptions);
 			if (bOK)
 			{
 				// Got number of custom map options - now get the option defaults
@@ -981,7 +981,7 @@ void CvInitCore::refreshCustomMapOptions()
 					CyArgsList argsList;
 					argsList.add(i);
 
-					bOK = gDLL->getPythonIFace()->callFunction(CvString(getMapScriptName()).GetCString(), "getCustomMapOptionDefault", argsList.makeFunctionArgs(), &iOptionDefault);
+					bOK = GC.callPythoFunction(CvString(getMapScriptName()).GetCString(), "getCustomMapOptionDefault", argsList.makeFunctionArgs(), &iOptionDefault);
 					FAssertMsg(bOK, "Call to python fn \"getCustomMapOptionDefault\" failed in CvInitCore::refreshCustomMapOptions");
 					if (bOK)
 					{

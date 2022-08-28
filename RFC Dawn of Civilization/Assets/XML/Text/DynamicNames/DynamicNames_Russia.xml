@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_RUSSIA_PEOPLES</Tag>
 		<English>Rus' Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯拉夫人</Chinese>
+		<Chinese>罗斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_MUSCOVY</Tag>
@@ -17,7 +17,7 @@
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_GERMANY</Tag>
 		<English>%s4 Democratic Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏维埃德国</Chinese>
+		<Chinese>%s4民主共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_TURKS</Tag>
 		<English>%s4 Soviet Socialist Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏维埃土耳其</Chinese>
+		<Chinese>%s4苏维埃社会主义共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_RUS'</Tag>
@@ -65,25 +65,25 @@
 		<Tag>TXT_KEY_CIV_RUSSIA_COMMUNIST</Tag>
 		<English>Union of Soviet Socialist Republics</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;苏维埃社会主义共和国联盟</Chinese>
+		<Chinese>苏维埃社会主义共和国联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_JAPAN</Tag>
 		<English>Far Eastern Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏维埃远东</Chinese>
+		<Chinese>远东共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_OTTOMANS</Tag>
 		<English>Transcaucasian Socialist Federative Soviet Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏维埃外高加索</Chinese>
+		<Chinese>外高加索苏维埃社会主义共和国联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_TSARDOM_OF</Tag>
 		<English>Tsardom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;%s1沙皇</Chinese>
+		<Chinese>%s1沙皇国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_DEFAULT</Tag>
@@ -95,13 +95,13 @@
 		<Tag>TXT_KEY_CIV_RUSSIAN_VASSAL</Tag>
 		<English>%s1 Krai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1附属国</Chinese>
+		<Chinese>%s1边疆区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIAN_NAME_PERSIA</Tag>
 		<English>Gilan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏维埃波斯</Chinese>
+		<Chinese>吉兰</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET</Tag>
@@ -113,7 +113,7 @@
 		<Tag>TXT_KEY_CIV_RUSSIA_REPUBLIC</Tag>
 		<English>%s2 Federation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>&gt;%s2联邦共和国</Chinese>
+		<Chinese>%s2联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_SOVIET_REPUBLIC_ADJECTIVE</Tag>

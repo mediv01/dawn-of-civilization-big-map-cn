@@ -1155,7 +1155,7 @@ void CvNetAddReminder::Execute()
 		argsList.add(m_iGameTurn);
 		argsList.add(m_szMessage.c_str());
 
-		gDLL->getPythonIFace()->callFunction(PYCivModule, "netAddReminder", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYCivModule, "netAddReminder", argsList.makeFunctionArgs(), &lResult);
 	}
 }
 

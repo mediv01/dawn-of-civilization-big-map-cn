@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_HOPEWELL_ADJECTIVE</Tag>
 		<English>Mississippian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>霍普韦尔</Chinese>
+		<Chinese>密西西比</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_DEFAULT</Tag>
@@ -17,31 +17,31 @@
 		<Tag>TXT_KEY_CIV_HOPEWELL_PEOPLES</Tag>
 		<English>%s1 Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1人</Chinese>
+		<Chinese>%s1诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS1</Tag>
 		<English>Control all tiles along the Mississippi River, Ohio River, and Great Lakes by 500 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元500年前控制所有密西西比河(Mississippi River)，俄亥俄河(Ohio River)，五大湖(Great Lakes)的所有地块</Chinese>
+		<Chinese>公元500年前控制密西西比河流域(Mississippi River)，俄亥俄河流域(Ohio River)，五大湖区(Great Lakes)的所有地块</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS1_TITLE</Tag>
 		<English>Hopewell Exchange</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>霍普韦尔交易所</Chinese>
+		<Chinese>霍普韦尔交流</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MISSISSIPPI_RIVER</Tag>
 		<English>Mississippi River</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Mississippi River</Chinese>
+		<Chinese>密西西比河流域</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_OHIO_RIVER</Tag>
 		<English>Ohio River</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Ohio River</Chinese>
+		<Chinese>俄亥俄河流域</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS2_TITLE</Tag>
@@ -59,37 +59,37 @@
 		<Tag>TXT_KEY_LEADER_RED_HORN</Tag>
 		<English>Red Horn</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Red Horn</Chinese>
+		<Chinese>霍普维尔-红角</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_SHORT_DESC</Tag>
 		<English>Hopewell</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>密西西比</Chinese>
+		<Chinese>霍普维尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_ADJECTIVE</Tag>
 		<English>Hopewell</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>密西西比</Chinese>
+		<Chinese>霍普维尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MIDEWIWIN_MIDEWIGAAN</Tag>
 		<English>Midewigaan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Midewigaan</Chinese>
+		<Chinese>密得微图腾</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOPEWELL_SHORT_DESC</Tag>
 		<English>Mississippi</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>霍普韦尔</Chinese>
+		<Chinese>密西西比</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_GREAT_LAKES</Tag>
 		<English>Great Lakes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Great Lakes</Chinese>
+		<Chinese>五大湖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS3_TITLE</Tag>
@@ -107,13 +107,13 @@
 		<Tag>TXT_KEY_DOM_HOPEWELL</Tag>
 		<English>It is the year 100 BC. The consolidation of the Ohio Hopewell tradition marks the first major step towards the development of complex civilization north of the Mexican Altiplano...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前100年。俄亥俄州霍普韦尔传统的巩固标志着墨西哥高原北部复杂文明发展的第一大步。。。</Chinese>
+		<Chinese>公元前100年的第一缕阳光照耀着俄亥俄河。俄亥俄霍普韦尔传统的巩固，标志着位于北美地区（特指墨西哥高原以北）复杂文明发展走出了一大步。。。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS2</Tag>
 		<English>Build the Serpent Mound and 7 Effigy Mounds by 1070 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1070年前建成蛇丘(Serpent Mound)和7个Effigy Mounds</Chinese>
+		<Chinese>公元1070年前建成蛇丘(Serpent Mound)和7个雕像墩</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND_HELP</Tag>
@@ -137,13 +137,13 @@
 		<Tag>TXT_KEY_UNIT_MISSISSIPPI_FALCON_DANCER</Tag>
 		<English>Falcon Dancer</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Falcon Dancer</Chinese>
+		<Chinese>篝火舞者</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MISSISSIPPI_EFFIGY_MOUND</Tag>
 		<English>Effigy Mound</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Effigy Mound</Chinese>
+		<Chinese>雕像墩</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MIS3</Tag>
@@ -155,7 +155,7 @@
 		<Tag>TXT_KEY_UP_MIS_TITLE</Tag>
 		<English>The Power of Mshi-Ziibi:</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>The Power of Mshi-Ziibi:</Chinese>
+		<Chinese>密西西比之力:</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SERPENT_MOUND</Tag>
@@ -167,12 +167,12 @@
 		<Tag>TXT_KEY_URV_POL2_MIDEWIWIN</Tag>
 		<English>Acquire 4 Corn Resources and construct 20 Farms</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拥有4个Corn资源并建成20个农场</Chinese>
+		<Chinese>拥有4个玉米资源并建成20个农场</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MISSISSIPPI_PEOPLES</Tag>
 		<English>%s1 Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1人</Chinese>
+		<Chinese>%s1诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

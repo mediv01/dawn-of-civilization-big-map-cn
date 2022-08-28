@@ -3,9 +3,21 @@
 	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDEPENDENT_SHORT_DESC</Tag>
-		<English>Independents</English>
+		<English>Independents1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>独立城邦</Chinese>
+		<Chinese>独立城邦1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDEPENDENT2_SHORT_DESC</Tag>
+		<English>Independents2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>独立城邦2</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDEPENDENT2_DESC</Tag>
+		<English>Independents2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>独立城邦2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_ADJECTIVE</Tag>
@@ -15,9 +27,15 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_INDEPENDENT_ADJECTIVE</Tag>
-		<English>Independent</English>
+		<English>Independent1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>独立城邦</Chinese>
+		<Chinese>独立城邦1</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_INDEPENDENT2_ADJECTIVE</Tag>
+		<English>Independent2</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>独立城邦2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SELJUK_SHORT_DESC</Tag>
@@ -53,7 +71,7 @@
 		<Tag>TXT_KEY_CIV_CELT_DESC</Tag>
 		<English>Celtic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>凯尔特人</Chinese>
+		<Chinese>凯尔特诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SELJUK_ADJECTIVE</Tag>
@@ -63,13 +81,13 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELT_ADJECTIVE</Tag>
-		<English></English>
+		<English>Celtia</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>凯尔特</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ZULU_ADJECTIVE</Tag>
-		<English></English>
+		<English>Zulu</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>祖鲁</Chinese>
 	</TEXT>	

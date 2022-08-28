@@ -2268,6 +2268,26 @@
 					<TerrainType>TERRAIN_SNOW</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
+        <TerrainMakesValid>
+					<TerrainType>TERRAIN_SEMIDESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+        <TerrainMakesValid>
+					<TerrainType>TERRAIN_STEPPE</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+        <TerrainMakesValid>
+					<TerrainType>TERRAIN_MOORLAND</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+        <TerrainMakesValid>
+					<TerrainType>TERRAIN_SALTFLAT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+        <TerrainMakesValid>
+					<TerrainType>TERRAIN_SAVANNA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>																												
 			</TerrainMakesValids>
 			<FeatureMakesValids/>
 			<ImprovementPillage/>

@@ -162,7 +162,7 @@ void CvCityAI::AI_reset()
 void CvCityAI::AI_doTurn()
 {
 	PROFILE_FUNC();
-
+	GC.countFunctionCall("CvCityAI::AI_doTurn()");
 	int iI;
 
 	if (!isHuman())
@@ -210,7 +210,7 @@ void CvCityAI::AI_assignWorkingPlots()
 	CvPlot* pHomePlot;
 	int iI;
 
-	if (0 != GC.getDefineINT("AI_SHOULDNT_MANAGE_PLOT_ASSIGNMENT"))
+	if (0 != AI_SHOULDNT_MANAGE_PLOT_ASSIGNMENT)
 	{
 		return;
 	}
@@ -422,7 +422,7 @@ bool CvCityAI::AI_avoidGrowth()
 		// ignore military unhappy, since we assume it will be fixed quickly, grow anyway
 		if (getMilitaryHappinessUnits() == 0)
 		{
-			iHappinessLevel += ((GC.getDefineINT("NO_MILITARY_PERCENT_ANGER") * (getPopulation() + 1)) / GC.getPERCENT_ANGER_DIVISOR());
+			iHappinessLevel += ((NO_MILITARY_PERCENT_ANGER * (getPopulation() + 1)) / GC.getPERCENT_ANGER_DIVISOR());
 		}
 
 		// if we can pop rush, we want to grow one over the cap
@@ -617,7 +617,7 @@ int CvCityAI::AI_specialistValue(SpecialistTypes eSpecialist, bool bAvoidGrowth,
 	}
 	else
 	{
-		SpecialistTypes eGenericCitizen = (SpecialistTypes) GC.getDefineINT("DEFAULT_SPECIALIST");
+		SpecialistTypes eGenericCitizen = (SpecialistTypes) DEFAULT_SPECIALIST;
 
 		// are we the generic specialist?
 		if (eSpecialist == eGenericCitizen)
@@ -733,7 +733,7 @@ void CvCityAI::AI_chooseProduction()
 //	CyArgsList argsList;
 //	argsList.add(gDLL->getPythonIFace()->makePythonObject(pyCity));	// pass in city class
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_chooseProduction", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "AI_chooseProduction", argsList.makeFunctionArgs(), &lResult);
 //	delete pyCity;	// python fxn must not hold on to this pointer
 //	if (lResult == 1)
 //	{
@@ -3626,7 +3626,7 @@ int CvCityAI::AI_buildingValueThreshold(BuildingTypes eBuilding, int iFocusFlags
 				{
 					if (isDirtyPower() && !(kBuilding.isDirtyPower()))
 					{
-						iValue += (std::min(-(GC.getDefineINT("DIRTY_POWER_HEALTH_CHANGE")), iBadHealth) * 8);
+						iValue += (std::min(-(DIRTY_POWER_HEALTH_CHANGE), iBadHealth) * 8);
 					}
 				}
 
@@ -3764,7 +3764,7 @@ int CvCityAI::AI_buildingValueThreshold(BuildingTypes eBuilding, int iFocusFlags
 				int iCurrentSpecialistsRunnable = 0;
 				for (iI = 0; iI < GC.getNumSpecialistInfos(); iI++)
 				{
-					if (iI != GC.getDefineINT("DEFAULT_SPECIALIST"))
+					if (iI != DEFAULT_SPECIALIST)
 					{
 						// Leoreth: unlimited specialists removed
 						bool bUnlimited = false; //(GET_PLAYER(getOwnerINLINE()).isSpecialistValid((SpecialistTypes)iI));
@@ -5682,7 +5682,7 @@ int CvCityAI::AI_totalBestBuildValue(CvArea* pArea)
 			{
 				if (pLoopPlot->area() == pArea)
 				{
-					if ((pLoopPlot->getImprovementType() == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(pLoopPlot->getImprovementType() == (GC.getDefineINT("RUINS_IMPROVEMENT")))))
+					if ((pLoopPlot->getImprovementType() == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(pLoopPlot->getImprovementType() == (RUINS_IMPROVEMENT))))
 					{
 						iTotalValue += AI_getBestBuildValue(iI);
 					}
@@ -5698,9 +5698,17 @@ int CvCityAI::AI_clearFeatureValue(int iIndex)
 {
 	CvPlot* pPlot = plotCity(getX_INLINE(), getY_INLINE(), iIndex);
 	FAssert(pPlot != NULL);
+	// mediv01  ÐÞ¸´¿ÕÖ¸Õë´íÎó
+	if (pPlot == NULL) {
+		return 0;
+	}
 
 	FeatureTypes eFeature = pPlot->getFeatureType();
 	FAssert(eFeature != NO_FEATURE);
+	// mediv01  ÐÞ¸´¿ÕÖ¸Õë´íÎó
+	if (eFeature == NO_FEATURE) {
+		return 0;
+	}
 
 	CvFeatureInfo& kFeatureInfo = GC.getFeatureInfo(eFeature);
 
@@ -6340,7 +6348,7 @@ void CvCityAI::AI_doDraft(bool bForce)
             bool bLandWar = ((area()->getAreaAIType(getTeam()) == AREAAI_OFFENSIVE) || (area()->getAreaAIType(getTeam()) == AREAAI_DEFENSIVE) || (area()->getAreaAIType(getTeam()) == AREAAI_MASSING));
             bool bDanger = (!AI_isDefended() && AI_isDanger());
             int iConscriptPop = getConscriptPopulation();
-            int iHappyDiff = GC.getDefineINT("CONSCRIPT_POP_ANGER") - iConscriptPop;
+            int iHappyDiff = CONSCRIPT_POP_ANGER - iConscriptPop;
 
             if (bLandWar && 0 == angryPopulation(iHappyDiff))
             {
@@ -6607,9 +6615,9 @@ void CvCityAI::AI_doHurry(bool bForce)
 
 			if (eProductionBuilding != NO_BUILDING)
 			{
-				if (GC.getDefineINT("DEFAULT_SPECIALIST") != NO_SPECIALIST)
+				if (DEFAULT_SPECIALIST != NO_SPECIALIST)
 				{
-					if (getSpecialistCount((SpecialistTypes)(GC.getDefineINT("DEFAULT_SPECIALIST"))) > 0)
+					if (getSpecialistCount((SpecialistTypes)(DEFAULT_SPECIALIST)) > 0)
 					{
 						for (iJ = 0; iJ < GC.getNumSpecialistInfos(); iJ++)
 						{
@@ -6810,7 +6818,7 @@ void CvCityAI::AI_doHurry(bool bForce)
 						if (iHurryAngerLength > 0)
 						{
 							//is the whip just too small or the population just too reduced to bother?
-							if (!bEssential && ((iHurryPopulation < (1 + GC.getDefineINT("HURRY_POP_ANGER"))) || ((getPopulation() - iHurryPopulation) <= std::max(3, (getHighestPopulation() / 2)))))
+							if (!bEssential && ((iHurryPopulation < (1 + HURRY_POP_ANGER)) || ((getPopulation() - iHurryPopulation) <= std::max(3, (getHighestPopulation() / 2)))))
 							{
 								bWait = true;
 							}
@@ -6823,7 +6831,7 @@ void CvCityAI::AI_doHurry(bool bForce)
 									{
 										bWait = true;
 									}
-									else if (GC.getDefineINT("HURRY_POP_ANGER") == iHurryPopulation && angryPopulation() > 0)
+									else if (HURRY_POP_ANGER == iHurryPopulation && angryPopulation() > 0)
 									{
 										//ideally we'll whip something more expensive
 										bWait = true;
@@ -7468,16 +7476,16 @@ bool CvCityAI::AI_removeWorstCitizen(SpecialistTypes eIgnoreSpecialist)
 	if (extraFreeSpecialists() < 0)
 	{
 		// does generic 'citizen' specialist exist?
-		if (GC.getDefineINT("DEFAULT_SPECIALIST") != NO_SPECIALIST)
+		if (DEFAULT_SPECIALIST != NO_SPECIALIST)
 		{
 			// is ignore something other than generic citizen?
-			if (eIgnoreSpecialist != GC.getDefineINT("DEFAULT_SPECIALIST"))
+			if (eIgnoreSpecialist != DEFAULT_SPECIALIST)
 			{
 				// do we have at least one more generic citizen than we are forcing?
-				if (getSpecialistCount((SpecialistTypes)(GC.getDefineINT("DEFAULT_SPECIALIST"))) > getForceSpecialistCount((SpecialistTypes)(GC.getDefineINT("DEFAULT_SPECIALIST"))))
+				if (getSpecialistCount((SpecialistTypes)(DEFAULT_SPECIALIST)) > getForceSpecialistCount((SpecialistTypes)(DEFAULT_SPECIALIST)))
 				{
 					// remove the extra generic citzen
-					changeSpecialistCount(((SpecialistTypes)(GC.getDefineINT("DEFAULT_SPECIALIST"))), -1);
+					changeSpecialistCount(((SpecialistTypes)(DEFAULT_SPECIALIST)), -1);
 					return true;
 				}
 			}
@@ -7950,7 +7958,7 @@ int CvCityAI::AI_yieldValue(short* piYields, short* piCommerceYields, bool bAvoi
 						{
 							if (GET_PLAYER(getOwnerINLINE()).getNumCities() > 2)
 							{
-								iHappinessLevel += ((GC.getDefineINT("NO_MILITARY_PERCENT_ANGER") * (iPopulation + 1)) / GC.getPERCENT_ANGER_DIVISOR());
+								iHappinessLevel += ((NO_MILITARY_PERCENT_ANGER * (iPopulation + 1)) / GC.getPERCENT_ANGER_DIVISOR());
 							}
 						}
 
@@ -9172,7 +9180,7 @@ int CvCityAI::AI_getHappyFromHurry(HurryTypes eHurry)
 
 int CvCityAI::AI_getHappyFromHurry(int iHurryPopulation)
 {
-	int iHappyDiff = iHurryPopulation - GC.getDefineINT("HURRY_POP_ANGER");
+	int iHappyDiff = iHurryPopulation - HURRY_POP_ANGER;
 	if (iHappyDiff > 0)
 	{
 		if (getHurryAngerTimer() <= 1)
@@ -9510,9 +9518,9 @@ void CvCityAI::AI_buildGovernorChooseProduction()
 #endif
 // BUG - Governor Builds Workers - end
 
-    if (GC.getDefineINT("DEFAULT_SPECIALIST") != NO_SPECIALIST)
+    if (DEFAULT_SPECIALIST != NO_SPECIALIST)
     {
-        if (getSpecialistCount((SpecialistTypes)(GC.getDefineINT("DEFAULT_SPECIALIST"))) > 0)
+        if (getSpecialistCount((SpecialistTypes)(DEFAULT_SPECIALIST)) > 0)
         {
             if (AI_chooseBuilding(BUILDINGFOCUS_SPECIALIST, 60))
             {
@@ -9872,7 +9880,7 @@ int CvCityAI::AI_buildingSpecialYieldChangeValue(BuildingTypes eBuilding, YieldT
     }
     if (iWorkedCount == 0)
     {
-		SpecialistTypes eDefaultSpecialist = (SpecialistTypes)GC.getDefineINT("DEFAULT_SPECIALIST");
+		SpecialistTypes eDefaultSpecialist = (SpecialistTypes)DEFAULT_SPECIALIST;
 		if ((getPopulation() > 2) && ((eDefaultSpecialist == NO_SPECIALIST) || (getSpecialistCount(eDefaultSpecialist) == 0)))
 		{
 			iValue /= 2;

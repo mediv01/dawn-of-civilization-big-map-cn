@@ -17,7 +17,7 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_NETHERLANDS</Tag>
 		<English>Belgica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>比利时</Chinese>
+		<Chinese>贝尔吉卡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_HOLY_ROME</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_ROME_COMMUNIST</Tag>
 		<English>Plebeian Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗马社会主义共和国</Chinese>
+		<Chinese>庶民共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_BABYLONIA</Tag>
@@ -47,7 +47,7 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_KHMER</Tag>
 		<English>Aurea Chersonesus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>高棉</Chinese>
+		<Chinese>黄金半岛</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_ENGLAND</Tag>
@@ -59,13 +59,13 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_GERMANY</Tag>
 		<English>Borussia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日耳曼</Chinese>
+		<Chinese>博鲁西亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_CARTHAGE</Tag>
 		<English>Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>北非</Chinese>
+		<Chinese>阿非利加</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_SPAIN</Tag>
@@ -89,19 +89,19 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_ETHIOPIA</Tag>
 		<English>Aethiopia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>东非</Chinese>
+		<Chinese>埃西欧匹亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_MALI</Tag>
 		<English>Gaetulia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马里</Chinese>
+		<Chinese>盖图利亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_TURKS</Tag>
 		<English>Transoxiana</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>土耳其</Chinese>
+		<Chinese>河中</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_BYZANTIUM</Tag>
@@ -113,7 +113,7 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_MONGOLIA</Tag>
 		<English>Serica</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒙古</Chinese>
+		<Chinese>赛里斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_GREECE</Tag>
@@ -137,7 +137,7 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_RUSSIA</Tag>
 		<English>Sarmatia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗斯</Chinese>
+		<Chinese>萨尔玛提亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_PERSIA</Tag>
@@ -155,7 +155,7 @@
 		<Tag>TXT_KEY_CIV_ROME_PEOPLES</Tag>
 		<English>Italic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拉丁人</Chinese>
+		<Chinese>拉丁诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_ADJECTIVE</Tag>
@@ -167,13 +167,13 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_VIKINGS</Tag>
 		<English>Scandia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>斯堪的纳维亚</Chinese>
+		<Chinese>斯堪迪亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_CHINA</Tag>
 		<English>Sinae</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>中国</Chinese>
+		<Chinese>赛里斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_PHOENICIA</Tag>
@@ -185,7 +185,7 @@
 		<Tag>TXT_KEY_CIV_ROMAN_NAME_EGYPT</Tag>
 		<English>Aegyptus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>埃及</Chinese>
+		<Chinese>埃古普托斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ROME_DEFAULT</Tag>

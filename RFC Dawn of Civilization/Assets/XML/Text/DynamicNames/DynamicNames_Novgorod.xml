@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_LEADER_RURIK_PEDIA</Tag>
 		<English>[H1]Rurik[\H1][NEWLINE][BOLD]Prince of Novgorod[\BOLD][NEWLINE][BOLD]Lived:[\BOLD] c. 830 - c. 879[NEWLINE][PARAGRAPH:2][BOLD]Background:[\BOLD][PARAGRAPH:1]Rurik or Riurik was a legendary Varangian chieftain who gained control of Ladoga in 862, built the Holmgard settlement near Novgorod, and founded the Rurik Dynasty, which ruled Kievan Rus (and later Grand Duchy of Moscow and Tsardom of Russia) until the 17th century.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]鲁里克[\H1][NEWLINE][BOLD]诺夫哥罗德王子[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]约830年-879年[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][PARAGRAPH:1]鲁里克或里里克是一位传奇的瓦兰吉安酋长，他在862年控制了拉多加，在诺夫哥罗德附近建立了霍尔姆加德定居点，并建立了鲁里克王朝，统治基辅罗斯（和后来的莫斯科大公国和俄国沙皇）直到17世纪。</Chinese>
+		<Chinese>[H1]留里克[\H1][NEWLINE][BOLD]诺夫哥罗德王子[\BOLD][NEWLINE][BOLD]生卒年份：[\BOLD]约830年-879年[NEWLINE][PARAGRAPH:2][BOLD]背景：[\BOLD][PARAGRAPH:1]鲁里克或里里克是一位传奇的瓦兰吉安酋长，他在862年控制了拉多加，在诺夫哥罗德附近建立了霍尔姆加德定居点，并建立了鲁里克王朝，统治基辅罗斯（和后来的莫斯科大公国和俄国沙皇）直到17世纪。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_NOVGOROD</Tag>
 		<English>It is the year 864 AD. You, Rurik, have been invited by the warring local tribes to reestablish order; to rule over them. Novgorod the Great has the potential to grow into a fabulously wealthy city, the envy of both West and East.[NEWLINE]But can you hold the fledgling principality together when both West and East come for you?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元864年。你，鲁里克，受交战的当地部落的邀请，重建秩序，统治他们。诺夫哥罗德有可能发展成为一个令东西方都羡慕的富庶城市。[NEWLINE]但是当面临来自东西方的挑战时，你能把这个初出茅庐的公国维系在一起吗？</Chinese>
+		<Chinese>公元864年的第一缕阳光照耀着拉多加湖。你，留里克，受正在交战中的当地部落邀请，前来重建秩序并统治他们。伟大的诺夫哥罗德具备发展成为一个令东西方都觊觎的富庶城市的潜力。[NEWLINE]但是当面临来自东西方的挑战时，你能把这个初出茅庐的公国维系在一起吗？</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NOVGOROD_PEDIA</Tag>
@@ -23,13 +23,13 @@
 		<Tag>TXT_KEY_CIV_NOVGOROD_SHORT_DESC</Tag>
 		<English>Novgorod</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德</Chinese>
+		<Chinese>诺夫哥罗德</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NOVGOROD_PEOPLES</Tag>
 		<English>Novgorodians People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德人</Chinese>
+		<Chinese>诺夫哥罗德诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NOVGOROD_USHKUINIK</Tag>
@@ -41,19 +41,19 @@
 		<Tag>TXT_KEY_CIV_NOVGOROD_ADJECTIVE</Tag>
 		<English>Novgorodian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德</Chinese>
+		<Chinese>诺夫哥罗德</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NOVGOROD_KONETS</Tag>
 		<English>Konets</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>康茨(Konets)</Chinese>
+		<Chinese>康茨商栈</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NOVGOROD_DESC</Tag>
 		<English>The Novgorodians</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德文明</Chinese>
+		<Chinese>诺夫哥罗德文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_NOV</Tag>
@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_NOVGOROD_DEFAULT</Tag>
 		<English>Republic of Novgorod</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德共和国</Chinese>
+		<Chinese>诺夫哥罗德共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NOVGOROD_USHKUINIK_PEDIA</Tag>
@@ -83,6 +83,6 @@
 		<Tag>TXT_KEY_LEADER_RURIK</Tag>
 		<English>Rurik</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺夫哥德-鲁里克</Chinese>
+		<Chinese>诺夫哥罗德-留里克</Chinese>
 	</TEXT>
 </Civ4GameText>

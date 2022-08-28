@@ -159,7 +159,7 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 					if (kLoopTeam.isAlive() && kLoopTeam.isVassal(eSecondTeam))
 					{
 						GET_TEAM(eSecondTeam).freeVassal(eLoopTeam);
-						int iSecondSuccess = GET_TEAM(eFirstTeam).AI_getWarSuccess(eSecondTeam) + GC.getDefineINT("WAR_SUCCESS_CITY_CAPTURING") * GET_TEAM(eSecondTeam).getNumCities();
+						int iSecondSuccess = GET_TEAM(eFirstTeam).AI_getWarSuccess(eSecondTeam) + WAR_SUCCESS_CITY_CAPTURING * GET_TEAM(eSecondTeam).getNumCities();
 						GET_TEAM(eFirstTeam).AI_setWarSuccess(eLoopTeam, std::max(iSecondSuccess, GET_TEAM(eFirstTeam).AI_getWarSuccess(eLoopTeam)));
 					}
 				}
@@ -177,7 +177,7 @@ void CvDeal::addTrades(CLinkList<TradeData>* pFirstList, CLinkList<TradeData>* p
 					if (kLoopTeam.isAlive() && kLoopTeam.isVassal(eFirstTeam))
 					{
 						GET_TEAM(eFirstTeam).freeVassal(eLoopTeam);
-						int iFirstSuccess = GET_TEAM(eSecondTeam).AI_getWarSuccess(eFirstTeam) + GC.getDefineINT("WAR_SUCCESS_CITY_CAPTURING") * GET_TEAM(eFirstTeam).getNumCities();
+						int iFirstSuccess = GET_TEAM(eSecondTeam).AI_getWarSuccess(eFirstTeam) + WAR_SUCCESS_CITY_CAPTURING * GET_TEAM(eFirstTeam).getNumCities();
 						GET_TEAM(eSecondTeam).AI_setWarSuccess(eLoopTeam, std::max(iFirstSuccess, GET_TEAM(eSecondTeam).AI_getWarSuccess(eLoopTeam)));
 					}
 				}
@@ -450,7 +450,7 @@ void CvDeal::doTurn()
 	{
 		if (getLengthSecondTrades() > 0)
 		{
-			iValue = (GET_PLAYER(getFirstPlayer()).AI_dealVal(getSecondPlayer(), getSecondTrades()) / GC.getDefineINT("PEACE_TREATY_LENGTH"));
+			iValue = (GET_PLAYER(getFirstPlayer()).AI_dealVal(getSecondPlayer(), getSecondTrades()) / PEACE_TREATY_LENGTH);
 
 			if (getLengthFirstTrades() > 0)
 			{
@@ -464,7 +464,7 @@ void CvDeal::doTurn()
 
 		if (getLengthFirstTrades() > 0)
 		{
-			iValue = (GET_PLAYER(getSecondPlayer()).AI_dealVal(getFirstPlayer(), getFirstTrades()) / GC.getDefineINT("PEACE_TREATY_LENGTH"));
+			iValue = (GET_PLAYER(getSecondPlayer()).AI_dealVal(getFirstPlayer(), getFirstTrades()) / PEACE_TREATY_LENGTH);
 
 			if (getLengthSecondTrades() > 0)
 			{
@@ -581,6 +581,11 @@ bool CvDeal::isUncancelableVassalDeal(PlayerTypes eByPlayer, CvWString* pszReaso
 {
 	CLLNode<TradeData>* pNode;
 	CvWStringBuffer szBuffer;
+
+	if (DIPLO_ALLOW_TO_CANCEL_VASSAL == 1) {
+		return false;
+		// 检测DIPLO_ALLOW_TO_CANCEL_VASSAL，如果值为1允许主动取消附庸
+	}
 
 	for (pNode = headFirstTradesNode(); (pNode != NULL); pNode = nextFirstTradesNode(pNode))
 	{
@@ -1028,9 +1033,9 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 
 		GET_PLAYER(eFromPlayer).revolution(paeNewCivics, true);
 
-		if (GET_PLAYER(eFromPlayer).AI_getCivicTimer() < GC.getDefineINT("PEACE_TREATY_LENGTH"))
+		if (GET_PLAYER(eFromPlayer).AI_getCivicTimer() < PEACE_TREATY_LENGTH)
 		{
-			GET_PLAYER(eFromPlayer).AI_setCivicTimer(GC.getDefineINT("PEACE_TREATY_LENGTH"));
+			GET_PLAYER(eFromPlayer).AI_setCivicTimer(PEACE_TREATY_LENGTH);
 		}
 
 		SAFE_DELETE_ARRAY(paeNewCivics);
@@ -1039,9 +1044,9 @@ bool CvDeal::startTrade(TradeData trade, PlayerTypes eFromPlayer, PlayerTypes eT
 	case TRADE_RELIGION:
 		GET_PLAYER(eFromPlayer).convert((ReligionTypes)trade.m_iData);
 
-		if (GET_PLAYER(eFromPlayer).AI_getReligionTimer() < GC.getDefineINT("PEACE_TREATY_LENGTH"))
+		if (GET_PLAYER(eFromPlayer).AI_getReligionTimer() < PEACE_TREATY_LENGTH)
 		{
-			GET_PLAYER(eFromPlayer).AI_setReligionTimer(GC.getDefineINT("PEACE_TREATY_LENGTH"));
+			GET_PLAYER(eFromPlayer).AI_setReligionTimer(PEACE_TREATY_LENGTH);
 		}
 		break;
 
@@ -1315,7 +1320,15 @@ bool CvDeal::isCancelable(PlayerTypes eByPlayer, CvWString* pszReason)
 
 int CvDeal::turnsToCancel(PlayerTypes eByPlayer)
 {
-	return (getInitialGameTurn() + GC.getDefineINT("PEACE_TREATY_LENGTH") - GC.getGameINLINE().getGameTurn());
+	//mediv01 可以随时取消交易
+	if (CVDEAL_ALLOW_TO_CANCEL_DEAL_ANYTIME == 1) {
+		return 0;
+	}
+	//mediv01 禁止主动取消任何交易（只有战争）
+	if (CVDEAL_NOT_ALLOW_TO_CANCEL_DEAL_ANYTIME == 1) {
+		return 1000;
+	}
+	return (getInitialGameTurn() + PEACE_TREATY_LENGTH - GC.getGameINLINE().getGameTurn());
 }
 
 // static

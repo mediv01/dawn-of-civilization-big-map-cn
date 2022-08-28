@@ -220,6 +220,7 @@ void CvGame::init(HandicapTypes eHandicap)
 		}
 	}
 
+	// mediv01 游戏上锁的实现方式
 	if (isOption(GAMEOPTION_LOCK_MODS))
 	{
 		if (isGameMultiPlayer())
@@ -456,7 +457,7 @@ void CvGame::regenerateMap()
 /* 																			    */
 /* 	AutoSave														  			*/
 /********************************************************************************/
-	gDLL->getPythonIFace()->callFunction(PYBugModule, "gameStartSave");
+	GC.callPythoFunction(PYBugModule, "gameStartSave");
 /********************************************************************************/
 /* 	Bug Mod							END							*/
 /********************************************************************************/
@@ -1033,7 +1034,7 @@ void CvGame::assignStartingPlots()
 		}
 	}
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "assignStartingPlots"))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "assignStartingPlots"))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -1249,6 +1250,11 @@ void CvGame::normalizeStartingPlotLocations()
 				{
 					if (GET_PLAYER((PlayerTypes)iJ).isAlive())
 					{
+						// mediv01 预防越界
+						if (iI >= MAX_CIV_PLAYERS || iJ >= MAX_CIV_PLAYERS) {
+							continue;
+						}
+
 						int iTemp = aiStartingLocs[iI];
 						aiStartingLocs[iI] = aiStartingLocs[iJ];
 						aiStartingLocs[iJ] = iTemp;
@@ -2034,7 +2040,7 @@ void CvGame::normalizeAddExtras()
 												{
 												pLoopPlot->setFeatureType(NO_FEATURE);
 
-													for (iK = 0; iK < GC.getNumBonusInfos(); iK++)
+													for (int iK = 0; iK < GC.getNumBonusInfos(); iK++)
 													{
 														if (GC.getBonusInfo((BonusTypes)iK).isNormalize())
 														{
@@ -2066,7 +2072,7 @@ void CvGame::normalizeAddExtras()
 
 				shuffleArray(aiShuffle, NUM_CITY_PLOTS, getMapRand());
 
-				for (iJ = 0; iJ < NUM_CITY_PLOTS; iJ++)
+				for (int iJ = 0; iJ < NUM_CITY_PLOTS; iJ++)
 				{
 					if (GET_PLAYER((PlayerTypes)iI).AI_foundValue(pStartingPlot->getX_INLINE(), pStartingPlot->getY_INLINE(), -1, true) >= iTargetValue)
 					{
@@ -2153,7 +2159,7 @@ void CvGame::normalizeStartingPlots()
 
 	if (!(GC.getInitCore().getWBMapScript()) || GC.getInitCore().getWBMapNoPlayers())
 	{
-		if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeStartingPlotLocations", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+		if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeStartingPlotLocations", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
 			normalizeStartingPlotLocations();
 		}
@@ -2164,42 +2170,42 @@ void CvGame::normalizeStartingPlots()
 		return;
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddRiver", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddRiver", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeAddRiver();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemovePeaks", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemovePeaks", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeRemovePeaks();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddLakes", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddLakes", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeAddLakes();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemoveBadFeatures", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemoveBadFeatures", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeRemoveBadFeatures();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemoveBadTerrain", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeRemoveBadTerrain", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeRemoveBadTerrain();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddFoodBonuses", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddFoodBonuses", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeAddFoodBonuses();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddGoodTerrain", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddGoodTerrain", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeAddGoodTerrain();
 	}
 
-	if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddExtras", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "normalizeAddExtras", NULL)  || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		normalizeAddExtras();
 	}
@@ -2231,6 +2237,11 @@ int CvGame::getTeamClosenessScore(int** aaiDistances, int* aiStartingLocs)
 						{
 							if (GET_PLAYER((PlayerTypes)iOtherPlayer).getTeam() == (TeamTypes)iTeam)
 							{
+								// mediv01 预防越界
+								if (iPlayer >= MAX_CIV_PLAYERS || iOtherPlayer >= MAX_CIV_PLAYERS) {
+									continue;
+								}
+
 								// Add the edge between these two players that are on the same team
 								iNumEdges++;
 								int iPlayerStart = aiStartingLocs[iPlayer];
@@ -2273,7 +2284,7 @@ int CvGame::getTeamClosenessScore(int** aaiDistances, int* aiStartingLocs)
 void CvGame::update()
 {
 	PROFILE("CvGame::update");
-
+	GC.countFunctionCall("CvGame::update()");
 /********************************************************************************/
 /* 	Leoreth					xx/xx/xx				Leoreth	    */
 /* 																			    */
@@ -2359,7 +2370,7 @@ void CvGame::update()
 /* original code
 			gDLL->getEngineIFace()->AutoSave(true);
 */
-			if ((GC.getDefineINT("NO_AUTOSAVE_DURING_AUTOPLAY") == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
+			if ((NO_AUTOSAVE_DURING_AUTOPLAY == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
 			{
 				gDLL->getEngineIFace()->AutoSave(true);
 			}
@@ -3594,7 +3605,7 @@ int CvGame::goldenAgeLength() const
 {
 	int iLength;
 
-	iLength = GC.getDefineINT("GOLDEN_AGE_LENGTH");
+	iLength = GOLDEN_AGE_LENGTH;
 
 	iLength *= GC.getGameSpeedInfo(getGameSpeedType()).getGoldenAgePercent();
 	iLength /= 100;
@@ -3780,7 +3791,7 @@ void CvGame::reviveActivePlayer()
 		CyArgsList argsList;
 		argsList.add(getActivePlayer());
 
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "doReviveActivePlayer", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "doReviveActivePlayer", argsList.makeFunctionArgs(), &lResult);
 		if (lResult == 1)
 		{
 			return;
@@ -3797,7 +3808,7 @@ void CvGame::reviveActivePlayer()
 /* original code
 		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)0), 0, 0);
 */
-		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)GC.getInfoTypeForString("UNIT_CATAPULT")), 0, 0); //Rhye (catapult)
+		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)GC.getInfoTypeForString("UNIT_MACHINE_GUN")), 0, 0); //Rhye (catapult) //mediv01 改成重机枪
 /********************************************************************************/
 /* 	Rhye							END							*/
 /********************************************************************************/
@@ -4539,7 +4550,7 @@ bool CvGame::circumnavigationAvailable() const
 /********************************************************************************/
 /* 	Leoreth							END							*/
 /********************************************************************************/
-	if (GC.getDefineINT("CIRCUMNAVIGATE_FREE_MOVES") == 0)
+	if (CIRCUMNAVIGATE_FREE_MOVES == 0)
 	{
 		return false;
 	}
@@ -5536,7 +5547,7 @@ void CvGame::setGameState(GameStateTypes eNewValue)
 /* 																			    */
 /* 	AutoSave																    */
 /********************************************************************************/
-			gDLL->getPythonIFace()->callFunction(PYBugModule, "gameEndSave");
+			GC.callPythoFunction(PYBugModule, "gameEndSave");
 /********************************************************************************/
 /* 	Bug Mod							END							*/
 /********************************************************************************/
@@ -5652,7 +5663,15 @@ void CvGame::setPlayerScore(PlayerTypes ePlayer, int iScore)
 
 	if (getPlayerScore(ePlayer) != iScore)
 	{
-		m_aiPlayerScore[ePlayer] = iScore;
+		if ((int)ePlayer >= NUM_MAJOR_PLAYERS) {
+			int multi = CVGAME_MINOR_CITY_LOW_SCORE_ON_SCREEN;
+			if (multi > 0) {
+				m_aiPlayerScore[ePlayer] = iScore / multi;
+			}
+		}
+		else {
+			m_aiPlayerScore[ePlayer] = iScore;
+		}
 		FAssert(getPlayerScore(ePlayer) >= 0);
 
 		gDLL->getInterfaceIFace()->setDirty(Score_DIRTY_BIT, true);
@@ -6266,12 +6285,12 @@ void CvGame::setHolyCity(ReligionTypes eIndex, CvCity* pNewValue, bool bAnnounce
 							if (pHolyCity->isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false))
 							{
 								szBuffer = gDLL->getText("TXT_KEY_MISC_REL_FOUNDED", GC.getReligionInfo(eIndex).getTextKeyWide(), pHolyCity->getNameKey());
-								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getReligionInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), pHolyCity->getX_INLINE(), pHolyCity->getY_INLINE());
+								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, EVENT_MESSAGE_TIME_LONG, szBuffer, GC.getReligionInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), pHolyCity->getX_INLINE(), pHolyCity->getY_INLINE());
 							}
 							else
 							{
 								szBuffer = gDLL->getText("TXT_KEY_MISC_REL_FOUNDED_UNKNOWN", GC.getReligionInfo(eIndex).getTextKeyWide());
-								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getReligionInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
+								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, EVENT_MESSAGE_TIME_LONG, szBuffer, GC.getReligionInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
 							}
 						}
 					}
@@ -6338,12 +6357,12 @@ void CvGame::setHeadquarters(CorporationTypes eIndex, CvCity* pNewValue, bool bA
 						{
 							if (pHeadquarters->isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false))
 							{
-								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getCorporationInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getCorporationInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), pHeadquarters->getX_INLINE(), pHeadquarters->getY_INLINE());
+								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, EVENT_MESSAGE_TIME_LONG, szBuffer, GC.getCorporationInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getCorporationInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"), pHeadquarters->getX_INLINE(), pHeadquarters->getY_INLINE());
 							}
 							else
 							{
 								CvWString szBuffer2 = gDLL->getText("TXT_KEY_MISC_CORPORATION_FOUNDED_UNKNOWN", GC.getCorporationInfo(eIndex).getTextKeyWide());
-								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer2, GC.getCorporationInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getCorporationInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
+								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, EVENT_MESSAGE_TIME_LONG, szBuffer2, GC.getCorporationInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getCorporationInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT"));
 							}
 						}
 					}
@@ -6493,8 +6512,17 @@ void CvGame::addGreatPersonBornName(const CvWString& szName)
 
 void CvGame::doTurn()
 {
+	GC.countFunctionStartTime("CvGame::doTurn()");
 	PROFILE_BEGIN("CvGame::doTurn()");
+	GC.countFunctionCall("CvGame::doTurn()");
+	if (DEBUG_MODE) {
+		GC.enableDLLProfiler(true);
+		startProfilingDLL();
+	}
 
+
+	// GC.countFunctionStartTime("CvGame::doTurn():testing code"); //这个不耗时，只有2毫秒，不再统计
+	/*
 	{ // write testing code here
 		PlayerTypes iHuman = getActivePlayer();
 		CvPlayer& pPlayer = GET_PLAYER(iHuman);
@@ -6506,7 +6534,9 @@ void CvGame::doTurn()
 			int z = 1;
 		}
 	}
+	*/
 
+	// GC.countFunctionEndTime("CvGame::doTurn():testing code");  //这个不耗时，只有2毫秒，不再统计
 	int aiShuffle[MAX_PLAYERS];
 	int iLoopPlayer;
 	int iI;
@@ -6524,14 +6554,23 @@ void CvGame::doTurn()
 /********************************************************************************/
 
 	// END OF TURN
+	GC.countFunctionStartTime("CvGame::doTurn(): CvEventReporter::getInstance().beginGameTurn( getGameTurn() )");// 20秒左右
 	CvEventReporter::getInstance().beginGameTurn( getGameTurn() );
+	GC.countFunctionEndTime("CvGame::doTurn(): CvEventReporter::getInstance().beginGameTurn( getGameTurn() )");
 
+	// GC.countFunctionStartTime("CvGame::doTurn(): doUpdateCacheOnTurn();");  //这个不耗时，只有2毫秒，不再统计
 	doUpdateCacheOnTurn();
+	// GC.countFunctionEndTime("CvGame::doTurn(): doUpdateCacheOnTurn();");   //这个不耗时，只有2毫秒，不再统计
 
+	// GC.countFunctionStartTime("CvGame::doTurn(): updateScore();");  //这个不耗时，只有5毫秒，不再统计
 	updateScore();
+	// GC.countFunctionEndTime("CvGame::doTurn(): updateScore();");   //这个不耗时，只有5毫秒，不再统计
 
+	GC.countFunctionStartTime("CvGame::doTurn():doDeals();"); // 大约275毫秒
 	doDeals();
+	GC.countFunctionEndTime("CvGame::doTurn():doDeals();");
 
+	GC.countFunctionStartTime("CvGame::doTurn():GET_TEAM((TeamTypes)iI).doTurn();");
 	for (iI = 0; iI < MAX_TEAMS; iI++)
 	{
 		if (GET_TEAM((TeamTypes)iI).isAlive())
@@ -6539,8 +6578,11 @@ void CvGame::doTurn()
 			GET_TEAM((TeamTypes)iI).doTurn();
 		}
 	}
+	GC.countFunctionEndTime("CvGame::doTurn():GET_TEAM((TeamTypes)iI).doTurn();");// 120毫秒
 
+	GC.countFunctionStartTime("CvGame::doTurn():GC.getMapINLINE().doTurn();");
 	GC.getMapINLINE().doTurn();
+	GC.countFunctionEndTime("CvGame::doTurn():GC.getMapINLINE().doTurn();"); // 18秒
 
 /********************************************************************************/
 /* 	Rhye					xx/xx/xx				Rhye	    */
@@ -6572,8 +6614,9 @@ void CvGame::doTurn()
 /********************************************************************************/
 /* 	Rhye							END							*/
 /********************************************************************************/
-
+	// GC.countFunctionStartTime("CvGame::doTurn():doDiploVote();");   //这个不耗时，只有1毫秒，不再统计
 	doDiploVote();
+	// GC.countFunctionEndTime("CvGame::doTurn():doDiploVote();");   //这个不耗时，只有5毫秒，不再统计
 
 	gDLL->getInterfaceIFace()->setEndTurnMessage(false);
 	gDLL->getInterfaceIFace()->setHasMovedUnit(false);
@@ -6588,8 +6631,11 @@ void CvGame::doTurn()
 		}
 	}
 
+	GC.countFunctionStartTime("CvGame::doTurn():CvEventReporter::getInstance().endGameTurn(getGameTurn());"); //不稳定，暂时保留
 	CvEventReporter::getInstance().endGameTurn(getGameTurn());
+	GC.countFunctionEndTime("CvGame::doTurn():CvEventReporter::getInstance().endGameTurn(getGameTurn());");
 
+	GC.countFunctionStartTime("CvGame::doTurn():incrementGameTurn(); and OTHER CODE");  //大约1秒
 	incrementGameTurn();
 	incrementElapsedGameTurns();
 
@@ -6658,7 +6704,11 @@ void CvGame::doTurn()
 
 	PROFILE_END();
 
-	stopProfilingDLL();
+	if (DEBUG_MODE) {
+		gDLL->getEngineIFace()->printProfileText();
+		stopProfilingDLL();
+	}
+	
 
 /********************************************************************************/
 /* 	edead					xx/xx/xx				edead	    */
@@ -6668,10 +6718,13 @@ void CvGame::doTurn()
 /* original code
 	gDLL->getEngineIFace()->AutoSave();
 */
-	if ((GC.getDefineINT("NO_AUTOSAVE_DURING_AUTOPLAY") == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
+	if ((NO_AUTOSAVE_DURING_AUTOPLAY == 0) || ((getGameTurn() > 0) && !(getGameTurn() < getGameTurnForYear(GET_PLAYER(getActivePlayer()).getBirthYear(), getStartYear(), getCalendar(), getGameSpeedType()))))
 	{
 		gDLL->getEngineIFace()->AutoSave();
 	}
+	GC.countFunctionEndTime("CvGame::doTurn():incrementGameTurn(); and OTHER CODE");
+	GC.countFunctionEndTime("CvGame::doTurn()");
+	GC.doTurn();
 /********************************************************************************/
 /* 	edead							END							*/
 /********************************************************************************/
@@ -6728,6 +6781,11 @@ void CvGame::doGlobalWarming()
 	{
 		CvPlot* pPlot = GC.getMapINLINE().plotByIndexINLINE(i);
 
+		// mediv01 修复空指针问题
+		if (pPlot == NULL) {
+			continue;
+		}
+
 /********************************************************************************/
 /* 	Bug Mod					xx/xx/xx				Bug Mod	    */
 /* 																			    */
@@ -6773,9 +6831,9 @@ void CvGame::doGlobalWarming()
 		}
 #endif
 	}
-	iGlobalWarmingDefense = iGlobalWarmingDefense * GC.getDefineINT("GLOBAL_WARMING_FOREST") / std::max(1, GC.getMapINLINE().getLandPlots());
+	iGlobalWarmingDefense = iGlobalWarmingDefense * GLOBAL_WARMING_FOREST / std::max(1, GC.getMapINLINE().getLandPlots());
 
-	int iUnhealthWeight = GC.getDefineINT("GLOBAL_WARMING_UNHEALTH_WEIGHT");
+	int iUnhealthWeight = GLOBAL_WARMING_UNHEALTH_WEIGHT;
 /********************************************************************************/
 /* 	Bug Mod					xx/xx/xx				Bug Mod	    */
 /* 																			    */
@@ -6817,10 +6875,10 @@ void CvGame::doGlobalWarming()
 
 #ifdef _MOD_GWARM
 #else
-	iGlobalWarmingValue += getNukesExploded() * GC.getDefineINT("GLOBAL_WARMING_NUKE_WEIGHT") / 100;
+	iGlobalWarmingValue += getNukesExploded() * GLOBAL_WARMING_NUKE_WEIGHT / 100;
 #endif
 
-	TerrainTypes eWarmingTerrain = ((TerrainTypes)(GC.getDefineINT("GLOBAL_WARMING_TERRAIN")));
+	TerrainTypes eWarmingTerrain = ((TerrainTypes)(GLOBAL_WARMING_TERRAIN));
 /********************************************************************************/
 /* 	Bug Mod					xx/xx/xx				Bug Mod	    */
 /* 																			    */
@@ -7066,7 +7124,7 @@ void CvGame::doHolyCity()
 	int iI, iJ, iK;
 
 	lResult = 0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "doHolyCity", NULL, &lResult);
+	GC.callPythoFunction(PYGameModule, "doHolyCity", NULL, &lResult);
 	if (lResult == 1)
 	{
 		return;
@@ -7192,7 +7250,7 @@ void CvGame::doHolyCity()
 void CvGame::doHeadquarters()
 {
 	long lResult = 0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "doHeadquarters", NULL, &lResult);
+	GC.callPythoFunction(PYGameModule, "doHeadquarters", NULL, &lResult);
 	if (lResult == 1)
 	{
 		return;
@@ -7354,7 +7412,7 @@ void CvGame::createBarbarianCities()
 /********************************************************************************/
 /*
 	lResult = 0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianCities", NULL, &lResult);
+	GC.callPythoFunction(PYGameModule, "createBarbarianCities", NULL, &lResult);
 	if (lResult == 1)
 	{
 		return;
@@ -7492,7 +7550,7 @@ void CvGame::createBarbarianUnits()
 /********************************************************************************/
 /*
 	lResult = 0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianUnits", NULL, &lResult);
+	GC.callPythoFunction(PYGameModule, "createBarbarianUnits", NULL, &lResult);
 	if (lResult == 1)
 	{
 		return;
@@ -8345,7 +8403,7 @@ bool CvGame::testVictory(VictoryTypes eVictory, TeamTypes eTeam, bool* pbEndScor
 		long lResult = 1;
 		CyArgsList argsList;
 		argsList.add(eVictory);
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "isVictory", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "isVictory", argsList.makeFunctionArgs(), &lResult);
 		if (0 == lResult)
 		{
 			bValid = false;
@@ -8372,7 +8430,7 @@ void CvGame::testVictory()
 	updateScore();
 
 	long lResult = 1;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "isVictoryTest", NULL, &lResult);
+	GC.callPythoFunction(PYGameModule, "isVictoryTest", NULL, &lResult);
 	if (lResult == 0)
 	{
 		return;
@@ -10855,7 +10913,7 @@ void CvGame::doVoteResults()
 						{
 							if (getPlayerVote(((PlayerTypes)iJ), pVoteTriggered->getID()) == (PlayerVoteTypes)iI)
 							{
-								szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_FOR", GET_PLAYER((PlayerTypes)iJ).getNameKey(), GET_TEAM((TeamTypes)iI).getName().GetCString(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+								szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_FOR", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), GET_TEAM((TeamTypes)iI).getName().GetCString(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 							}
 						}
 					}
@@ -10867,7 +10925,7 @@ void CvGame::doVoteResults()
 					{
 						if (getPlayerVote(((PlayerTypes)iJ), pVoteTriggered->getID()) == PLAYER_VOTE_ABSTAIN)
 						{
-							szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_ABSTAINS", GET_PLAYER((PlayerTypes)iJ).getNameKey(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+							szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_ABSTAINS", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 						}
 					}
 				}
@@ -10936,16 +10994,16 @@ void CvGame::doVoteResults()
 								switch ((PlayerVoteTypes)iI)
 								{
 								case PLAYER_VOTE_ABSTAIN:
-									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_ABSTAINS", GET_PLAYER((PlayerTypes)iJ).getNameKey(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_ABSTAINS", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 									break;
 								case PLAYER_VOTE_NEVER:
-									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getNameKey(), L"TXT_KEY_POPUP_VOTE_NEVER", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), L"TXT_KEY_POPUP_VOTE_NEVER", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 									break;
 								case PLAYER_VOTE_NO:
-									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getNameKey(), L"TXT_KEY_POPUP_NO", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), L"TXT_KEY_POPUP_NO", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 									break;
 								case PLAYER_VOTE_YES:
-									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getNameKey(), L"TXT_KEY_POPUP_YES", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
+									szBuffer += NEWLINE + gDLL->getText("TXT_KEY_POPUP_VOTES_YES_NO", GET_PLAYER((PlayerTypes)iJ).getCivilizationShortDescription(), L"TXT_KEY_POPUP_YES", GET_PLAYER((PlayerTypes)iJ).getVotes(eVote, eVoteSource));
 									break;
 								default:
 									FAssert(false);
@@ -11218,7 +11276,7 @@ void CvGame::processBuilding(BuildingTypes eBuilding, int iChange)
 bool CvGame::pythonIsBonusIgnoreLatitudes() const
 {
 	long lResult = -1;
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "isBonusIgnoreLatitude", NULL, &lResult))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "isBonusIgnoreLatitude", NULL, &lResult))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl() && lResult != -1)
 		{

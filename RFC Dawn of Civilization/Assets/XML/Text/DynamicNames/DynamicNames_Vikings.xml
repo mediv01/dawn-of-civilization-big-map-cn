@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_NORWAY_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>挪威王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NORWAY_ADJECTIVE</Tag>
@@ -23,13 +23,13 @@
 		<Tag>TXT_KEY_CIV_VIKINGS_PEOPLES</Tag>
 		<English>Norse Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>挪威人</Chinese>
+		<Chinese>挪威诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_ALTHINGS</Tag>
 		<English>%s2 Althings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2辖区</Chinese>
+		<Chinese>%s2自由民大会</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_DENMARK_ADJECTIVE</Tag>
@@ -65,13 +65,13 @@
 		<Tag>TXT_KEY_CIV_VIKING_ENGLAND</Tag>
 		<English>Danelaw</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>英格兰</Chinese>
+		<Chinese>不列颠丹麦法区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_RUSSIA</Tag>
 		<English>Varangian Principalities</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗斯</Chinese>
+		<Chinese>瓦兰吉公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_DENMARK</Tag>
@@ -95,7 +95,7 @@
 		<Tag>TXT_KEY_CIV_VIKINGS_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>丹麦-挪威王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_KALMAR_UNION</Tag>
@@ -125,7 +125,7 @@
 		<Tag>TXT_KEY_CIV_DENMARK_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>丹麦王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKINGS_NORWAY</Tag>
@@ -137,7 +137,7 @@
 		<Tag>TXT_KEY_CIV_VIKINGS_FASCIST</Tag>
 		<English>National Gathering of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>%s1国民大会政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_VIKING_DESC</Tag>

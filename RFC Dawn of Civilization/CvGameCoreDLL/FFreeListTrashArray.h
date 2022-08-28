@@ -223,7 +223,8 @@ T* FFreeListTrashArray<T>::add()
 		growArray();
 	}
 
-	if (m_iFreeListCount > 0)
+	// mediv01 ·ÀÖ¹¿ÕÖ¸Õë´íÎó
+	if (m_iFreeListCount > 0 && m_pArray != NULL)
 	{
 		iIndex = m_iFreeListHead;
 		m_iFreeListHead = m_pArray[m_iFreeListHead].iNextFreeIndex;

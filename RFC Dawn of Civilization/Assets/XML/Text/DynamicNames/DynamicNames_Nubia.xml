@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_NUBIA_FASCIST</Tag>
 		<English>Empire of the %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>努比亚帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SUDAN_DESC</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_NUBIA_COMMUNIST</Tag>
 		<English>Democratic Republic of the %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1民主共和国</Chinese>
+		<Chinese>努比亚民主共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NUBIA_DESC</Tag>
@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_CIV_NUBIA_REPUBLIC</Tag>
 		<English>Republic of the %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1共和国</Chinese>
+		<Chinese>努比亚共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NUBIA_DEFAULT</Tag>
 		<English>%s1 Kingdom</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>努比亚王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NUBIA_ADJECTIVE</Tag>
@@ -77,7 +77,7 @@
 		<Tag>TXT_KEY_CIV_NUBIA_PEOPLES</Tag>
 		<English>Nubian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>努比亚人</Chinese>
+		<Chinese>努比亚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_FUNJ</Tag>

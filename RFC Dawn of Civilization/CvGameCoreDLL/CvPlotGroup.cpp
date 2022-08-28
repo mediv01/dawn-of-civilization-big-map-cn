@@ -221,22 +221,29 @@ void CvPlotGroup::recalculatePlots()
 	//{
 	//	printPlotGroups();
 	//}
-
+	
 	{
 		// 主要影响，重点优化目标
 		PROFILE("CvPlotGroup::recalculatePlots::Others");
-		for (pPlot = begin(); pPlot != NULL; pPlot = erase(pPlot))
-		{
-			oldPlotGroup.push_back(pPlot);
+		
+		if (DOC_PERFORMANCE_SKIP_updatePlotGroup_IN_CvPlotGroup_recalculatePlots == 0) {
+			for (pPlot = begin(); pPlot != NULL; pPlot = erase(pPlot))
+			{
+				oldPlotGroup.push_back(pPlot);
 
-			pPlot->setPlotGroup(eOwner, NULL);
-		}
+				pPlot->setPlotGroup(eOwner, NULL);
+			}
 
-		for (size_t i = 0; i < oldPlotGroup.size(); i++)
-		{
-			oldPlotGroup[i]->updatePlotGroup(eOwner, true);
+
+			for (size_t i = 0; i < oldPlotGroup.size(); i++)
+			{
+				GC.countFunctionCall("CvPlot::updatePlotGroup(Player) CALL BY CvPlotGroup::recalculatePlots()");
+				oldPlotGroup[i]->updatePlotGroup(eOwner, true);
+			}
 		}
+		
 	}
+	
 }
 
 

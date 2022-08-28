@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_YEMEN_ENGLAND</Tag>
 		<English>Aden Protectorate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>亚丁保护区</Chinese>
+		<Chinese>亚丁保护国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_STATE_PARTY</Tag>
@@ -23,13 +23,13 @@
 		<Tag>TXT_KEY_CIV_YEMEN_PEOPLES</Tag>
 		<English>Arabian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿拉伯人</Chinese>
+		<Chinese>阿拉伯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_THEOCRACY</Tag>
 		<English>Mutawakkilite Kingdom of Yemen</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>也门穆塔瓦基利特王国</Chinese>
+		<Chinese>也门穆塔瓦基利亚王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_COMMUNIST</Tag>
@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_YEMEN_DEFAULT</Tag>
 		<English>Ziyadid Emirate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>齐亚杜德酋长国</Chinese>
+		<Chinese>齐亚德酋长国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_DEAD_ARABIA</Tag>
@@ -53,19 +53,19 @@
 		<Tag>TXT_KEY_CIV_YEMEN_ARABIA</Tag>
 		<English>Tahirid Emirate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>塔希里酋长国</Chinese>
+		<Chinese>塔希尔酋长国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ELECTIVE</Tag>
 		<English>Tahirid Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>塔希里苏丹国</Chinese>
+		<Chinese>塔希尔苏丹国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_MECCA</Tag>
 		<English>Rasulid Sultanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拉苏利德苏丹国</Chinese>
+		<Chinese>拉苏勒苏丹国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_YEMEN_ADJECTIVE</Tag>

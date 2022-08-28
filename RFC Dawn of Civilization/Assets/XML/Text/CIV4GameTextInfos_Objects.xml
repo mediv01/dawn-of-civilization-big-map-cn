@@ -2453,338 +2453,6 @@
 		<Chinese>极大</Chinese>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIV_AMERICA_DESC</Tag>
-		<English>
-			<Text>American Empire</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>
-			<Text>美利坚文明</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_AMERICA_SHORT_DESC</Tag>
-		<English>America</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>美国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_AMERICA_ADJECTIVE</Tag>
-		<English>American</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>美国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ARABIA_DESC</Tag>
-		<English>Arabian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿拉伯文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ARABIA_SHORT_DESC</Tag>
-		<English>Arabia</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿拉伯</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ARABIA_ADJECTIVE</Tag>
-		<English>Arabian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿拉伯</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_AZTEC_DESC</Tag>
-		<English>Aztec Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿兹特克文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_AZTEC_SHORT_DESC</Tag>
-		<English>Aztec</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿兹特克</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_AZTEC_ADJECTIVE</Tag>
-		<English>Aztec</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>阿兹特克</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_CHINA_DESC</Tag>
-		<English>Chinese Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>中华文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_CHINA_SHORT_DESC</Tag>
-		<English>China</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>中国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_CHINA_ADJECTIVE</Tag>
-		<English>Chinese</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>中国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_EGYPT_DESC</Tag>
-		<English>Egyptian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>埃及文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_EGYPT_SHORT_DESC</Tag>
-		<English>Egypt</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>埃及</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_EGYPT_ADJECTIVE</Tag>
-		<English>Egyptian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>埃及</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ENGLAND_DESC</Tag>
-		<English>English Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>英格兰文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ENGLAND_SHORT_DESC</Tag>
-		<English>England</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>英国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ENGLAND_ADJECTIVE</Tag>
-		<English>English</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>英国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_FRANCE_DESC</Tag>
-		<English>French Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>法兰西文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_FRANCE_SHORT_DESC</Tag>
-		<English>France</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>法国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_FRANCE_ADJECTIVE</Tag>
-		<English>French</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>法国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GERMANY_DESC</Tag>
-		<English>German Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>日耳曼文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GERMANY_SHORT_DESC</Tag>
-		<English>Germany</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>德国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GERMANY_ADJECTIVE</Tag>
-		<English>German</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>德国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GREECE_DESC</Tag>
-		<English>Greek Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>希腊文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GREECE_SHORT_DESC</Tag>
-		<English>Greece</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>希腊</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_GREECE_ADJECTIVE</Tag>
-		<English>Greek</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>希腊</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INCA_DESC</Tag>
-		<English>Incan Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印加文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INCA_SHORT_DESC</Tag>
-		<English>Inca</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印加</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INCA_ADJECTIVE</Tag>
-		<English>Incan</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印加</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INDIA_DESC</Tag>
-		<English>Indian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印度文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INDIA_SHORT_DESC</Tag>
-		<English>India</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印度</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_INDIA_ADJECTIVE</Tag>
-		<English>Indian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>印度</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_JAPAN_DESC</Tag>
-		<English>Japanese Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>日本文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_JAPAN_SHORT_DESC</Tag>
-		<English>Japan</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>日本</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_JAPAN_ADJECTIVE</Tag>
-		<English>Japanese</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>日本</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MALI_DESC</Tag>
-		<English>Malinese Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>马里文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MALI_SHORT_DESC</Tag>
-		<English>Mali</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>马里</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MALI_ADJECTIVE</Tag>
-		<English>Malinese</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>马里</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MONGOL_DESC</Tag>
-		<English>Mongolian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>蒙古文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MONGOL_SHORT_DESC</Tag>
-		<English>Mongolia</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>蒙古</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_MONGOL_ADJECTIVE</Tag>
-		<English>Mongolian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>蒙古</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_PERSIA_DESC</Tag>
-		<English>Persian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>波斯文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_PERSIA_SHORT_DESC</Tag>
-		<English>Persia</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>波斯</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_PERSIA_ADJECTIVE</Tag>
-		<English>Persian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>波斯</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ROME_DESC</Tag>
-		<English>Roman Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>罗马文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ROME_SHORT_DESC</Tag>
-		<English>Rome</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>罗马</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_ROME_ADJECTIVE</Tag>
-		<English>Roman</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>罗马</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_RUSSIA_DESC</Tag>
-		<English>Russian Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>俄罗斯文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_RUSSIA_SHORT_DESC</Tag>
-		<English>Russia</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>俄国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_RUSSIA_ADJECTIVE</Tag>
-		<English>Russian</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>俄国</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_SPAIN_DESC</Tag>
-		<English>Spanish Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>西班牙文明</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_SPAIN_SHORT_DESC</Tag>
-		<English>Spain</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>西班牙</Chinese>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_SPAIN_ADJECTIVE</Tag>
-		<English>Spanish</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>西班牙</Chinese>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_CIV_MINOR_DESC</Tag>
 		<English>Minor Nation</English>
 <L1 /><L2 /><L3 /><L4 />
@@ -2864,44 +2532,28 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_HATSHEPSUT</Tag>
-		<English>
-			<Text>Hatshepsut</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</English>
-<L1 /><L2 /><L3 /><L4 />
+		<English>Hatshepsut</English>
+		<L1 /><L2 /><L3 /><L4 />
 		<Chinese>
-			<Text>哈特谢普苏特</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			哈特谢普苏特
 		</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ELIZABETH</Tag>
-		<English>
-			<Text>Elizabeth</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</English>
+		<English>Elizabeth</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>
-			<Text>伊丽莎白</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			伊丽莎白
 		</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_VICTORIA</Tag>
 		<English>
-			<Text>Victoria</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			Victoria
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>
-			<Text>维多利亚</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			维多利亚
 		</Chinese>
 	</TEXT>
 	<TEXT>
@@ -2997,29 +2649,21 @@
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_CATHERINE</Tag>
 		<English>
-			<Text>Catherine</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			Catherine
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>
-			<Text>叶卡捷琳娜</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			叶卡捷琳娜
 		</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ISABELLA</Tag>
 		<English>
-			<Text>Isabella</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			Isabella
 		</English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>
-			<Text>伊莎贝拉</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
+			伊莎贝拉
 		</Chinese>
 	</TEXT>
 	<TEXT>
@@ -4372,12 +4016,7 @@
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>冬季长青</Chinese>
 	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIV_HOLYROMAN_DESC</Tag>
-		<English>Holy Roman Empire</English>
-<L1 /><L2 /><L3 /><L4 />
-		<Chinese>神圣罗马帝国</Chinese>
-	</TEXT>
+
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTINE_DESC</Tag>
 		<English>Byzantine Empire</English>

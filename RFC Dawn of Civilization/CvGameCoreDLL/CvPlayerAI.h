@@ -29,6 +29,15 @@ public:
 #endif
 	DllExport static CvPlayerAI& getPlayerNonInl(PlayerTypes ePlayer);
 
+
+
+	DllExport int getAIdealValuetoMoney(int ePlayerID, int myPlayerID, int tradetypeID, int tradeitemID) const;
+	bool AIcantradeTech(PlayerTypes eWhoTo, TechTypes iTech) const;
+	DllExport int AI_considerOffer_Threshold(int ePlayer, int myPlayer)const;
+	DllExport int AI_considerOffer_Threshold_Map(int ePlayer, int myPlayer)const;
+
+
+
 	static void initStatics();
 	static void freeStatics();
 	DllExport static bool areStaticsInitialized();

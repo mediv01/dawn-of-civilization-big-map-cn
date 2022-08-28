@@ -72,7 +72,7 @@ void CvMap::init(CvMapInitData* pInitInfo/*=NULL*/)
 		GC.getSeaLevelInfo(GC.getInitCore().getSeaLevel()).getDescription(),
 		GC.getInitCore().getNumCustomMapOptions()).c_str() );
 
-	gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "beforeInit");
+	GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "beforeInit");
 
 	//--------------------------------
 	// Init saved data
@@ -144,7 +144,7 @@ void CvMap::reset(CvMapInitData* pInitInfo)
 			std::vector<int> out;
 			CyArgsList argsList;
 			argsList.add(GC.getInitCore().getWorldSize());
-			bool ok = gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getGridSize", argsList.makeFunctionArgs(), &out);
+			bool ok = GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getGridSize", argsList.makeFunctionArgs(), &out);
 
 			if (ok && !gDLL->getPythonIFace()->pythonUsingDefaultImpl() && out.size() == 2)
 			{
@@ -335,10 +335,19 @@ void CvMap::setAllPlotTypes(PlotTypes ePlotType)
 }
 
 
+
+void doTurnMulti1(LPVOID PlotInfo) {
+	CVPLOT_DOTURN_INFO* inputInfo = (CVPLOT_DOTURN_INFO*)PlotInfo;
+	int plotid = inputInfo->plotid;
+	GC.getMapINLINE().plotByIndexINLINE(plotid)->doTurn();
+}
+
+
 // XXX generalize these funcs? (macro?)
 void CvMap::doTurn()
 {
 	PROFILE("CvMap::doTurn()")
+	GC.countFunctionCall("CvMap::doTurn()");
 
 	int iI;
 	CvPlot* pPlot;
@@ -346,19 +355,81 @@ void CvMap::doTurn()
 	int iGameTurn = GC.getGameINLINE().getGameTurn();
 	int iInterval = getTurns(10);
 
-	for (iI = 0; iI < numPlotsINLINE(); iI++)
-	{
-		pPlot = plotByIndexINLINE(iI);
+	// 多线程优化  会闪退 优化失败  而且多线程提高比例不高
+	/*
+	if (DOC_PERFORMANCE_USE_MULTITHREAD_IN_CVPLOT_DOTURN > 0) {
 
-		pPlot->doTurn();
-
-		if (iGameTurn % iInterval == 0)
+		const int multi_core = 2;
+		for (iI = 0; iI < numPlotsINLINE(); iI=iI+ multi_core)
 		{
-			if (pPlot->getCultureConversionPlayer() != NO_PLAYER)
+			
+			HANDLE h[multi_core];
+			DWORD ID[multi_core];
+			for (int i = 0; i < multi_core; i++)
 			{
-				pPlot->changeCultureConversionRate(-5);
+				CVPLOT_DOTURN_INFO* inputInfo = new CVPLOT_DOTURN_INFO();
+				inputInfo->plotid = i + iI;
+				h[i] = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)doTurnMulti1,
+					inputInfo, 0, &(ID[i]));
+
+			}
+			WaitForMultipleObjects(2, h, TRUE, INFINITE);
+			
+		}
+	}
+	*/
+
+
+	// 大于1700场景，海洋各自有一定概率不进行dotrun计算
+	if (DOC_PERFORMANCE_SKIP_SEA_PLOT_IN_CVPLOT_DOTURN > 0) {
+		int iYear = GC.getGameTurnYear();
+		static bool dogameturn = true;
+		for (iI = 0; iI < numPlotsINLINE(); iI++)
+		{
+			pPlot = plotByIndexINLINE(iI);
+			dogameturn = true;
+			if (iYear > 1700 && iGameTurn % 5 !=0) {
+				if (!pPlot->isFlatlands()) {
+					dogameturn = false;
+				}
+			}
+			if (dogameturn) {
+				pPlot->doTurn();
+			}
+
+			if (iGameTurn % iInterval == 0)
+			{
+				if (pPlot->getCultureConversionPlayer() != NO_PLAYER)
+				{
+					pPlot->changeCultureConversionRate(-5);
+				}
 			}
 		}
+
+		return;
+
+	}
+
+
+
+	// 正常情况下的过回合执行情况
+	if (1==1)
+	{
+		for (iI = 0; iI < numPlotsINLINE(); iI++)
+		{
+			pPlot = plotByIndexINLINE(iI);
+
+			pPlot->doTurn();
+
+			if (iGameTurn % iInterval == 0)
+			{
+				if (pPlot->getCultureConversionPlayer() != NO_PLAYER)
+				{
+					pPlot->changeCultureConversionRate(-5);
+				}
+			}
+		}
+
 	}
 }
 

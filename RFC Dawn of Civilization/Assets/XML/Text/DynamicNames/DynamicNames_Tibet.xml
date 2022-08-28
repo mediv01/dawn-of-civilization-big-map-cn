@@ -11,19 +11,19 @@
 		<Tag>TXT_KEY_CIV_TIBET_PEOPLES</Tag>
 		<English>Tibetan Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃人</Chinese>
+		<Chinese>吐蕃诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1帝国</Chinese>
+		<Chinese>吐蕃帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_INDIA</Tag>
 		<English>Gyakar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>印度嘉卡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_ADJECTIVE</Tag>
@@ -35,25 +35,25 @@
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_TURKS</Tag>
 		<English>Liyul</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>李域于阗</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>吐蕃王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_MONGOLIA</Tag>
 		<English>Me Hor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>蒙古霍尔</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBETAN_VASSAL</Tag>
 		<English>Khrom of %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s3附属国</Chinese>
+		<Chinese>%s3噶厦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIBET_DESC</Tag>
@@ -65,6 +65,6 @@
 		<Tag>TXT_KEY_CIV_TIBETAN_NAME_CHINA</Tag>
 		<English>Gyanak</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>吐蕃</Chinese>
+		<Chinese>嘉那</Chinese>
 	</TEXT>
 </Civ4GameText>

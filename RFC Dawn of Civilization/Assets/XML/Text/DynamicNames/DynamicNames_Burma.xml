@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_MYANMAR_FASCIST</Tag>
 		<English>Nationalist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>缅甸国家主义军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_CITY_STATES</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_BURMA_COMMUNIST</Tag>
 		<English>Socialist Republic of the Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1社会主义联邦共和国</Chinese>
+		<Chinese>缅甸社会主义联邦共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_DESC</Tag>
@@ -47,31 +47,31 @@
 		<Tag>TXT_KEY_CIV_MYANMAR_DEFAULT</Tag>
 		<English>Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦</Chinese>
+		<Chinese>缅甸联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_FASCIST</Tag>
 		<English>Nationalist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>缅甸国家主义军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_HANTHAWADDY_SHORT_DESC</Tag>
 		<English>Hanthawaddy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>汉沙瓦底</Chinese>
+		<Chinese>勃固</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_DEFAULT</Tag>
 		<English>%s2 Kingdom</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2王国</Chinese>
+		<Chinese>缅甸王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MYANMAR_REPUBLIC</Tag>
 		<English>Republic of the Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦共和国</Chinese>
+		<Chinese>缅甸联邦共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_MYANMAR_SHORT_DESC</Tag>
@@ -83,7 +83,7 @@
 		<Tag>TXT_KEY_CIV_UNION_OF</Tag>
 		<English>Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦</Chinese>
+		<Chinese>缅甸联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BURMA_TOUNGOO</Tag>
@@ -95,6 +95,6 @@
 		<Tag>TXT_KEY_CIV_BURMA_PEOPLES</Tag>
 		<English>Pyu City States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>骠人</Chinese>
+		<Chinese>骠族诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

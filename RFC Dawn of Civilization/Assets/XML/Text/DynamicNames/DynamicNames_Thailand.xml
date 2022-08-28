@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_THAILAND_PEOPLES</Tag>
 		<English>Thai Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>泰族</Chinese>
+		<Chinese>暹罗诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_THAI_VASSAL</Tag>
 		<English>Mueang of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1孟</Chinese>
+		<Chinese>%s1勐邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_THAILAND_FASCIST</Tag>

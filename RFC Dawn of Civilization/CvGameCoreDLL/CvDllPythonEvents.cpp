@@ -21,7 +21,7 @@ bool CvDllPythonEvents::postEvent(CyArgsList& eventData)
 	eventData.add(gDLL->getChtLvl() > 0);
 
 	long lResult = -1;
-	bool bOK = gDLL->getPythonIFace()->callFunction(PYEventModule, "onEvent", eventData.makeFunctionArgs(), &lResult);
+	bool bOK = GC.callPythoFunction(PYEventModule, "onEvent", eventData.makeFunctionArgs(), &lResult);
 
 	return (bOK && lResult==1);
 }

@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_TURKIC_VASSAL</Tag>
 		<English>Atabeylik of %s3</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s3附属国</Chinese>
+		<Chinese>%s3贝伊国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_TIMURID</Tag>
@@ -17,7 +17,7 @@
 		<Tag>TXT_KEY_CIV_TURKS_KHANATE_OF</Tag>
 		<English>Khanate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1汗国</Chinese>
+		<Chinese>帖木儿汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_RUM</Tag>
@@ -27,9 +27,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_</Tag>
-		<English></English>
+		<English>Turks</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese></Chinese>
+		<Chinese>突厥</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UZBEKS_DESC</Tag>
@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_TURKS_GREAT_EMPIRE</Tag>
 		<English>Great %s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>大%s2帝国</Chinese>
+		<Chinese>帖木儿帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_SHORT_DESC</Tag>
@@ -59,13 +59,13 @@
 		<Tag>TXT_KEY_CIV_TURKS_KURULTAI</Tag>
 		<English>%s2 Kurultai</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2-忽里勒台</Chinese>
+		<Chinese>帖木儿库里尔台</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_PEOPLES</Tag>
-		<English>突厥人</English>
+		<English>Turkic People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>突厥人</Chinese>
+		<Chinese>突厥诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_EASTERN_TURKIC</Tag>
@@ -77,7 +77,7 @@
 		<Tag>TXT_KEY_CIV_TURKESTAN_PEOPLES</Tag>
 		<English>Turkic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>突厥人</Chinese>
+		<Chinese>突厥诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_SELJUK</Tag>
@@ -95,13 +95,13 @@
 		<Tag>TXT_KEY_CIV_UZBEKS_SHORT_DESC</Tag>
 		<English>Uzbekistan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>乌兹别克</Chinese>
+		<Chinese>乌兹别克斯坦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_KHAGANATE</Tag>
 		<English>%s2 Khaganate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2汗国</Chinese>
+		<Chinese>帖木儿汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_UZBEKISTAN</Tag>
@@ -131,8 +131,14 @@
 		<Tag>TXT_KEY_CIV_TURKESTAN_DEFAULT</Tag>
 		<English>%s2 Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2汗国</Chinese>
+		<Chinese>帖木儿汗国</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_TURKS_DEFAULT</Tag>
+		<English>%s2 Khanate</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>帖木儿汗国</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKS_DESC</Tag>
 		<English>The Turks</English>

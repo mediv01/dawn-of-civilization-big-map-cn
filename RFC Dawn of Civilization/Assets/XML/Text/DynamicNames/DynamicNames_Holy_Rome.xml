@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOLY_ROMAN_DESC</Tag>
+		<English>Holy Roman Empire</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>神圣罗马帝国</Chinese>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_AUSTRO_HUNGARIAN</Tag>
 		<English>Austro-Hungarian</English>
@@ -23,19 +28,19 @@
 		<Tag>TXT_KEY_CIV_HOLY_ROME_FASCIST</Tag>
 		<English>Greater %s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2帝国</Chinese>
+		<Chinese>大%s2帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_POLAND</Tag>
 		<English>Duchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1大公国</Chinese>
+		<Chinese>%s1公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_BYZANTIUM</Tag>
 		<English>Latin Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>拉丁王国</Chinese>
+		<Chinese>拉丁帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_HABSBURG</Tag>
@@ -45,7 +50,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_SHORT_DESC</Tag>
-		<English>神圣罗马</English>
+		<English>Holy Roman</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>神圣罗马</Chinese>
 	</TEXT>	
@@ -62,22 +67,37 @@
 		<Chinese>神圣罗马文明</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_HOLY_ROMAN_ADJECTIVE</Tag>
+		<English>Holy Roman</English>
+		<L1/>
+		<L2/>
+		<L3/>
+		<L4/>
+		<Chinese>神圣罗马</Chinese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_FRANCE</Tag>
 		<English>West Francia</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>西法兰克</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_HOLY_ROME_PEOPLES</Tag>
+		<Tag>TXT_KEY_CIV_HOLY_ROMAN_PEOPLES</Tag>
 		<English>Germanic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日耳曼人</Chinese>
+		<Chinese>日耳曼诸部</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HOLYROME_PEOPLES</Tag>
+		<English>Germanic Peoples</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>日耳曼诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_DEFAULT</Tag>
 		<English>Archduchy of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1大公国</Chinese>
+		<Chinese>奥地利大公国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_DESC</Tag>
@@ -101,13 +121,13 @@
 		<Tag>TXT_KEY_CIV_AUSTRIAN_POLAND</Tag>
 		<English>Kingdom of Galicia and Lodomeria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥属加利西亚和洛多梅利亚王国</Chinese>
+		<Chinese>加利西亚及洛多梅里亚王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_FASCIST</Tag>
 		<English>Federal State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦</Chinese>
+		<Chinese>奥地利联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AUSTRIA_ADJECTIVE</Tag>
@@ -119,13 +139,13 @@
 		<Tag>TXT_KEY_CIV_AUSTRIAN_ITALY</Tag>
 		<English>Grand Duchy of Tuscany</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥属托斯卡纳大公国</Chinese>
+		<Chinese>托斯卡纳大公国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_HOLY_ROME_DEFAULT</Tag>
+		<Tag>TXT_KEY_CIV_HOLYROME_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>神圣罗马王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROME_HUNGARY</Tag>

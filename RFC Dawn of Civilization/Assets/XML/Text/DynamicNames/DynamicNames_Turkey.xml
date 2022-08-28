@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_TURKISH_INDONESIA</Tag>
 		<English>Eyalet of Aceh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>亚齐州</Chinese>
+		<Chinese>亚齐行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKEY_OTTOMAN</Tag>
@@ -15,62 +15,62 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_BYZANTIUM</Tag>
-		<English>Eyalet of R&#251;m</English>
+		<English>Eyalet of Rûm</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗姆州</Chinese>
+		<Chinese>罗姆行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_ARABIA</Tag>
 		<English>Sharifate of Mekke</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>麦加州</Chinese>
+		<Chinese>麦加谢里夫领</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_RUSSIA</Tag>
 		<English>Eyalet of Yedisan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>耶迪桑州</Chinese>
+		<Chinese>叶迪山行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_PHOENICIA</Tag>
 		<English>Eyalet of Syria</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>叙利亚州</Chinese>
+		<Chinese>叙利亚行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_PERSIA</Tag>
 		<English>Eyalet of Sharazor</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>沙拉佐州</Chinese>
+		<Chinese>舒赫索行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_ETHIOPIA</Tag>
 		<English>Eyalet of Habes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈贝斯州</Chinese>
+		<Chinese>哈贝斯行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_EGYPT</Tag>
 		<English>Khedivate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1州</Chinese>
+		<Chinese>%s1赫迪夫</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_BABYLONIA</Tag>
 		<English>Eyalet of Mesopotamia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>美索不达米亚州</Chinese>
+		<Chinese>美索不达米亚行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_VASSAL</Tag>
 		<English>Eyalet of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1州</Chinese>
+		<Chinese>%s1行省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TURKISH_GREECE</Tag>
 		<English>Eyalet of Rumelia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>罗马尼亚州</Chinese>
+		<Chinese>鲁米利亚行省</Chinese>
 	</TEXT>
 </Civ4GameText>

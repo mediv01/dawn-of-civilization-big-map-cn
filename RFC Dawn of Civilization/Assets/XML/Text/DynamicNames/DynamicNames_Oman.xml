@@ -5,19 +5,19 @@
 		<Tag>TXT_KEY_CIV_OMAN_FASCIST</Tag>
 		<English>%s2 Empire</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2帝国</Chinese>
+		<Chinese>阿曼帝国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_PEOPLES</Tag>
 		<English>Azd Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿兹(Azd)人</Chinese>
+		<Chinese>艾兹德诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_DEFAULT</Tag>
 		<English>Imamate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1酋长国</Chinese>
+		<Chinese>阿曼伊斯兰教长国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_OMAN_ADJECTIVE</Tag>

@@ -738,7 +738,7 @@ TeamTypes CvPlot::getTeam() const
 void CvPlot::doTurn()
 {
 	PROFILE_FUNC();
-
+	GC.countFunctionCall("CvPlot::doTurn()");
 	if (getForceUnownedTimer() > 0)
 	{
 		changeForceUnownedTimer(-1);
@@ -806,6 +806,7 @@ void CvPlot::doTurn()
 void CvPlot::doImprovement()
 {
 	PROFILE_FUNC();
+	GC.countFunctionCall("CvPlot::doImprovement()");
 
 	CvCity* pCity;
 	CvWString szBuffer;
@@ -921,7 +922,7 @@ void CvPlot::updateFog()
 		}
 		else
 		{
-			int cityScreenFogEnabled = GC.getDefineINT("CITY_SCREEN_FOG_ENABLED");
+			int cityScreenFogEnabled = CITY_SCREEN_FOG_ENABLED;
 			if (cityScreenFogEnabled && gDLL->getInterfaceIFace()->isCityScreenUp() && (gDLL->getInterfaceIFace()->getHeadSelectedCity() != getWorkingCity()))
 			{
 				gDLL->getEngineIFace()->DarkenVisibility(getFOWIndex());
@@ -1092,7 +1093,7 @@ void CvPlot::updateSymbols()
 					}
 					else
 					{
-						gDLL->getSymbolIFace()->setTypeYield(pSymbol, iYieldType, GC.getDefineINT("MAX_YIELD_STACK"));
+						gDLL->getSymbolIFace()->setTypeYield(pSymbol, iYieldType, MAX_YIELD_STACK);
 					}
 				}
 			}
@@ -1107,7 +1108,7 @@ void CvPlot::updateSymbols()
 				int iYield = yieldAmounts[iYieldType] % 5;
 				if (iYield == 0) // set to last in stack for empty symbol
 				{
-					iYield = GC.getDefineINT("MAX_YIELD_STACK");
+					iYield = MAX_YIELD_STACK;
 				}
 				gDLL->getSymbolIFace()->setTypeYield(pSymbol, iYieldType, iYield);
 			}
@@ -2279,12 +2280,15 @@ bool CvPlot::canSeeDisplacementPlot(TeamTypes eTeam, int dx, int dy, int origina
 						if(outerRing) //check strictly higher level
 						{
 							CvPlot *passThroughPlot = plotXY(getX_INLINE(), getY_INLINE(), nextDX, nextDY);
-							int passThroughLevel = passThroughPlot->seeThroughLevel();
-							if (fromLevel >= passThroughLevel)
-							{
-								if((fromLevel > passThroughLevel) || (pPlot->seeFromLevel(eTeam) > fromLevel)) //either we can see through to it or it is high enough to see from far
+							// mediv01 修复空指针错误
+							if (passThroughPlot != NULL) {
+								int passThroughLevel = passThroughPlot->seeThroughLevel();
+								if (fromLevel >= passThroughLevel)
 								{
-									return true;
+									if ((fromLevel > passThroughLevel) || (pPlot->seeFromLevel(eTeam) > fromLevel)) //either we can see through to it or it is high enough to see from far
+									{
+										return true;
+									}
 								}
 							}
 						}
@@ -2385,7 +2389,7 @@ void CvPlot::updateSight(bool bIncrement, bool bUpdatePlotGroups)
 				{
 					if (GET_PLAYER(pHolyCity->getOwnerINLINE()).getStateReligion() == iI)
 					{
-						changeAdjacentSight(pHolyCity->getTeam(), GC.getDefineINT("PLOT_VISIBILITY_RANGE"), bIncrement, NULL, bUpdatePlotGroups);
+						changeAdjacentSight(pHolyCity->getTeam(), PLOT_VISIBILITY_RANGE, bIncrement, NULL, bUpdatePlotGroups);
 					}
 				}
 			}
@@ -2396,7 +2400,7 @@ void CvPlot::updateSight(bool bIncrement, bool bUpdatePlotGroups)
 		{
 			if (GET_TEAM(getTeam()).isVassal((TeamTypes)iI))
 			{
-				changeAdjacentSight((TeamTypes)iI, GC.getDefineINT("PLOT_VISIBILITY_RANGE"), bIncrement, NULL, bUpdatePlotGroups);
+				changeAdjacentSight((TeamTypes)iI, PLOT_VISIBILITY_RANGE, bIncrement, NULL, bUpdatePlotGroups);
 			}
 		}
 
@@ -2406,7 +2410,7 @@ void CvPlot::updateSight(bool bIncrement, bool bUpdatePlotGroups)
 			if (pCity->getEspionageVisibility((TeamTypes)iI))
 			{
 				// Passive Effect: enough EPs gives you visibility into someone's cities
-				changeAdjacentSight((TeamTypes)iI, GC.getDefineINT("PLOT_VISIBILITY_RANGE"), bIncrement, NULL, bUpdatePlotGroups);
+				changeAdjacentSight((TeamTypes)iI, PLOT_VISIBILITY_RANGE, bIncrement, NULL, bUpdatePlotGroups);
 			}
 		}
 	}
@@ -2414,7 +2418,7 @@ void CvPlot::updateSight(bool bIncrement, bool bUpdatePlotGroups)
 	// Owned
 	if (isOwned())
 	{
-		changeAdjacentSight(getTeam(), GC.getDefineINT("PLOT_VISIBILITY_RANGE"), bIncrement, NULL, bUpdatePlotGroups);
+		changeAdjacentSight(getTeam(), PLOT_VISIBILITY_RANGE, bIncrement, NULL, bUpdatePlotGroups);
 	}
 
 	pUnitNode = headUnitNode();
@@ -2431,7 +2435,7 @@ void CvPlot::updateSight(bool bIncrement, bool bUpdatePlotGroups)
 
 	if (getReconCount() > 0)
 	{
-		int iRange = GC.getDefineINT("RECON_VISIBILITY_RANGE");
+		int iRange = RECON_VISIBILITY_RANGE;
 		for (iI = 0; iI < MAX_PLAYERS; ++iI)
 		{
 			for(pLoopUnit = GET_PLAYER((PlayerTypes)iI).firstUnit(&iLoop); pLoopUnit != NULL; pLoopUnit = GET_PLAYER((PlayerTypes)iI).nextUnit(&iLoop))
@@ -2451,13 +2455,13 @@ void CvPlot::updateSeeFromSight(bool bIncrement, bool bUpdatePlotGroups)
 	CvPlot* pLoopPlot;
 	int iDX, iDY;
 
-	int iRange = GC.getDefineINT("UNIT_VISIBILITY_RANGE") + 1;
+	int iRange = UNIT_VISIBILITY_RANGE + 1;
 	for (int iPromotion = 0; iPromotion < GC.getNumPromotionInfos(); ++iPromotion)
 	{
 		iRange += GC.getPromotionInfo((PromotionTypes)iPromotion).getVisibilityChange();
 	}
 
-	iRange = std::max(GC.getDefineINT("RECON_VISIBILITY_RANGE") + 1, iRange);
+	iRange = std::max(RECON_VISIBILITY_RANGE + 1, iRange);
 
 	for (iDX = -iRange; iDX <= iRange; iDX++)
 	{
@@ -2755,7 +2759,7 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible)
 		argsList.add((int)eBuild);
 		argsList.add((int)ePlayer);
 		long lResult=0;
-		gDLL->getPythonIFace()->callFunction(PYGameModule, "canBuild", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYGameModule, "canBuild", argsList.makeFunctionArgs(), &lResult);
 		if (lResult >= 1)
 		{
 			return true;
@@ -2792,18 +2796,21 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible)
 		}
 
 		// Leoreth: no adjacent acts as city improvements
-		CvPlot* pAdjacentPlot;
-		if (GC.getImprovementInfo((ImprovementTypes)GC.getBuildInfo(eBuild).getImprovement()).isActsAsCity())
-		{
-			for (int iI = 0; iI < NUM_DIRECTION_TYPES; ++iI)
+		// mediv01 要塞不能临近城市的代码
+		if (!CVPLOT_BUILD_FORT_NEAR_CITY_OR_FORT == 1) {
+			CvPlot* pAdjacentPlot;
+			if (GC.getImprovementInfo((ImprovementTypes)GC.getBuildInfo(eBuild).getImprovement()).isActsAsCity())
 			{
-				pAdjacentPlot = plotDirection(getX_INLINE(), getY_INLINE(), ((DirectionTypes)iI));
-
-				if (pAdjacentPlot != NULL)
+				for (int iI = 0; iI < NUM_DIRECTION_TYPES; ++iI)
 				{
-					if (pAdjacentPlot->isCity() || (pAdjacentPlot->getImprovementType() != NO_IMPROVEMENT && GC.getImprovementInfo(pAdjacentPlot->getImprovementType()).isActsAsCity()))
+					pAdjacentPlot = plotDirection(getX_INLINE(), getY_INLINE(), ((DirectionTypes)iI));
+
+					if (pAdjacentPlot != NULL)
 					{
-						return false;
+						if (pAdjacentPlot->isCity() || (pAdjacentPlot->getImprovementType() != NO_IMPROVEMENT && GC.getImprovementInfo(pAdjacentPlot->getImprovementType()).isActsAsCity()))
+						{
+							return false;
+						}
 					}
 				}
 			}
@@ -2837,16 +2844,18 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible)
 			if (GET_PLAYER(ePlayer).getTeam() != getTeam())
 			{
 				//outside borders can't be built in other's culture
-				if (GC.getImprovementInfo(eImprovement).isOutsideBorders())
-				{
-					if (getTeam() != NO_TEAM)
+				if (!CVPLOT_BUILD_IMPROVEMENT_OUTSIDE_BORDER == 1) { //mediv01 可以在边境外修建设施
+					if (GC.getImprovementInfo(eImprovement).isOutsideBorders())
+					{
+						if (getTeam() != NO_TEAM)
+						{
+							return false;
+						}
+					}
+					else //only buildable in own culture
 					{
 						return false;
 					}
-				}
-				else //only buildable in own culture
-				{
-					return false;
 				}
 			}
 		}
@@ -3061,7 +3070,7 @@ int CvPlot::getFeatureProduction(BuildTypes eBuild, TeamTypes eTeam, CvCity** pp
 	iProduction *= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getFeatureProductionPercent();
 	iProduction /= 100;
 
-	iProduction *= std::min((GC.getDefineINT("BASE_FEATURE_PRODUCTION_PERCENT") + (GC.getDefineINT("FEATURE_PRODUCTION_PERCENT_MULTIPLIER") * (*ppCity)->getPopulation())), 100);
+	iProduction *= std::min((BASE_FEATURE_PRODUCTION_PERCENT + (FEATURE_PRODUCTION_PERCENT_MULTIPLIER * (*ppCity)->getPopulation())), 100);
 	iProduction /= 100;
 
 	if (getTeam() != eTeam)
@@ -4731,7 +4740,7 @@ int CvPlot::getOwnershipDuration() const
 
 bool CvPlot::isOwnershipScore() const
 {
-	return (getOwnershipDuration() >= GC.getDefineINT("OWNERSHIP_SCORE_DURATION_THRESHOLD"));
+	return (getOwnershipDuration() >= OWNERSHIP_SCORE_DURATION_THRESHOLD);
 }
 
 
@@ -5303,7 +5312,7 @@ bool CvPlot::isPotentialCityWorkForArea(CvArea* pArea) const
 
 		if (pLoopPlot != NULL)
 		{
-			if (!(pLoopPlot->isWater()) || GC.getDefineINT("WATER_POTENTIAL_CITY_WORK_FOR_AREA"))
+			if (!(pLoopPlot->isWater()) || WATER_POTENTIAL_CITY_WORK_FOR_AREA)
 			{
 				if (pLoopPlot->area() == pArea)
 				{
@@ -5417,6 +5426,8 @@ PlayerTypes CvPlot::getOwner() const
 
 void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotGroup)
 {
+	// 性能问题严重，重点优化
+
 	PROFILE_FUNC();
 
 	CLLNode<IDInfo>* pUnitNode;
@@ -5435,7 +5446,7 @@ void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotG
 		pOldCity = getPlotCity();
 
 		// Sanguo Mod Performance, start, added by poyuzhe 08.13.09
-		if (GC.getGameINLINE().isFinalInitialized() && getTeam() != NO_TEAM)
+		if ((DOC_PERFORMANCE_CVPLOT_SETOWNER==0) && GC.getGameINLINE().isFinalInitialized() && getTeam() != NO_TEAM)
 		{
             for (iI = 0; iI < MAX_TEAMS; iI++)
             {
@@ -5528,7 +5539,7 @@ void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotG
 
 			if (isOwned())
 			{
-				changeAdjacentSight(getTeam(), GC.getDefineINT("PLOT_VISIBILITY_RANGE"), false, NULL, bUpdatePlotGroup);
+				changeAdjacentSight(getTeam(), PLOT_VISIBILITY_RANGE, false, NULL, bUpdatePlotGroup);
 
 				if (area())
 				{
@@ -5582,7 +5593,7 @@ void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotG
 
 			if (isOwned())
 			{
-				changeAdjacentSight(getTeam(), GC.getDefineINT("PLOT_VISIBILITY_RANGE"), true, NULL, bUpdatePlotGroup);
+				changeAdjacentSight(getTeam(), PLOT_VISIBILITY_RANGE, true, NULL, bUpdatePlotGroup);
 
 				if (area())
 				{
@@ -5673,7 +5684,7 @@ void CvPlot::setOwner(PlayerTypes eNewValue, bool bCheckUnits, bool bUpdatePlotG
 		}
 
 		// Sanguo Mod Performance, start, added by poyuzhe 08.13.09
-		if (GC.getGameINLINE().isFinalInitialized() && getTeam() != NO_TEAM)
+		if ((DOC_PERFORMANCE_CVPLOT_SETOWNER == 0) && GC.getGameINLINE().isFinalInitialized() && getTeam() != NO_TEAM)
 		{
             for (iI = 0; iI < MAX_TEAMS; iI++)
             {
@@ -5789,7 +5800,7 @@ void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGr
 			}
 			else
 			{
-				setTerrainType(((TerrainTypes)(GC.getDefineINT("LAND_TERRAIN"))), bRecalculate, bRebuildGraphics);
+				setTerrainType(((TerrainTypes)(LAND_TERRAIN)), bRecalculate, bRebuildGraphics);
 			}
 		}
 
@@ -7355,39 +7366,80 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay) const
 	if (bCity)
 	{
 		iYield = std::max(iYield, GC.getYieldInfo(eYield).getMinCity());
-		int iAppliedImprovement = -1;
 
-		// Leoreth (edead): city counts as correct improvement wrt. bonus yields on small islands, except food
-		if (GC.getMap().getArea(getArea())->getNumTiles() <= 5)
-		{
-			if (getBonusType(GET_PLAYER(ePlayer).getTeam()) != NO_BONUS && eYield != (YieldTypes)0)
+
+		if (PLOT_CITY_FULL_YIELD_WHEN_SETTLE == 1) {//mediv01  城市坐在资源上满产出
+			//eImprovement = getImprovementType();
+			//iYield += calculateImprovementYieldChange(eImprovement, eYield, ePlayer);
+			//iYield += calculateImprovementYieldChange((ImprovementTypes)iAppliedImprovement, eYield, ePlayer);
+			int iAppliedImprovement = -1;
+
+			// Leoreth (edead): city counts as correct improvement wrt. bonus yields on small islands, except food
+			if (GC.getMap().getArea(getArea())->getNumTiles() <= 5 || 1 == 1)
 			{
-				for (int iImprovement = 0; iImprovement < GC.getNumImprovementInfos(); iImprovement++)
+				if (getBonusType(GET_PLAYER(ePlayer).getTeam()) != NO_BONUS && eYield != (YieldTypes)0 || 1 == 1)
 				{
-					if (GC.getImprovementInfo((ImprovementTypes)iImprovement).isImprovementBonusMakesValid(getBonusType(GET_PLAYER(ePlayer).getTeam())))
+					for (int iImprovement = 0; iImprovement < GC.getNumImprovementInfos(); iImprovement++)
 					{
-						for (int iBuild = 0; iBuild < GC.getNumBuildInfos(); iBuild++)
+						if (GC.getImprovementInfo((ImprovementTypes)iImprovement).isImprovementBonusMakesValid(getBonusType(GET_PLAYER(ePlayer).getTeam())))
 						{
-							if (GC.getBuildInfo((BuildTypes)iBuild).getImprovement() == iImprovement && GET_TEAM((TeamTypes)ePlayer).isHasTech((TechTypes)GC.getBuildInfo((BuildTypes)iBuild).getTechPrereq()))
+							for (int iBuild = 0; iBuild < GC.getNumBuildInfos(); iBuild++)
 							{
-								if (!GC.getBuildInfo((BuildTypes)iBuild).isKill())
+								if (GC.getBuildInfo((BuildTypes)iBuild).getImprovement() == iImprovement && GET_TEAM((TeamTypes)ePlayer).isHasTech((TechTypes)GC.getBuildInfo((BuildTypes)iBuild).getTechPrereq()))
 								{
-									iAppliedImprovement = iImprovement;
-									break;
-									break;
+									if (!GC.getBuildInfo((BuildTypes)iBuild).isKill())
+									{
+										iAppliedImprovement = iImprovement;
+										break;
+										break;
+									}
 								}
 							}
 						}
 					}
 				}
 			}
-		}
 
-		if (iAppliedImprovement != -1)
-		{
-			iYield += calculateImprovementYieldChange((ImprovementTypes)iAppliedImprovement, eYield, ePlayer);
+			if (iAppliedImprovement != -1)
+			{
+				iYield += calculateImprovementYieldChange((ImprovementTypes)iAppliedImprovement, eYield, ePlayer);
+			}
 		}
-		
+		else {
+			int iAppliedImprovement = -1;
+
+			// Leoreth (edead): city counts as correct improvement wrt. bonus yields on small islands, except food
+			if (GC.getMap().getArea(getArea())->getNumTiles() <= 5)
+			{
+				if (getBonusType(GET_PLAYER(ePlayer).getTeam()) != NO_BONUS && eYield != (YieldTypes)0)
+				{
+					for (int iImprovement = 0; iImprovement < GC.getNumImprovementInfos(); iImprovement++)
+					{
+						if (GC.getImprovementInfo((ImprovementTypes)iImprovement).isImprovementBonusMakesValid(getBonusType(GET_PLAYER(ePlayer).getTeam())))
+						{
+							for (int iBuild = 0; iBuild < GC.getNumBuildInfos(); iBuild++)
+							{
+								if (GC.getBuildInfo((BuildTypes)iBuild).getImprovement() == iImprovement && GET_TEAM((TeamTypes)ePlayer).isHasTech((TechTypes)GC.getBuildInfo((BuildTypes)iBuild).getTechPrereq()))
+								{
+									if (!GC.getBuildInfo((BuildTypes)iBuild).isKill())
+									{
+										iAppliedImprovement = iImprovement;
+										break;
+										break;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			if (iAppliedImprovement != -1)
+			{
+				iYield += calculateImprovementYieldChange((ImprovementTypes)iAppliedImprovement, eYield, ePlayer);
+			}
+
+		}
 		// Merijn: Zimbabwe UP: +2 production and commerce on city tiles
 		if (ePlayer == ZIMBABWE)
 		{
@@ -7853,7 +7905,7 @@ int CvPlot::getFoundValue(PlayerTypes eIndex)
 			argsList.add((int)eIndex);
 			argsList.add(getX());
 			argsList.add(getY());
-			gDLL->getPythonIFace()->callFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
+			GC.callPythoFunction(PYGameModule, "getCityFoundValue", argsList.makeFunctionArgs(), &lResult);
 		}*/
 
 		//if (lResult == -1)
@@ -8065,13 +8117,14 @@ void CvPlot::setPlotGroup(PlayerTypes ePlayer, CvPlotGroup* pNewValue)
 void CvPlot::updatePlotGroup()
 {
 	PROFILE_FUNC();
-
+	
 	int iI;
 
 	for (iI = 0; iI < MAX_PLAYERS; ++iI)
 	{
 		if (GET_PLAYER((PlayerTypes)iI).isAlive())
 		{
+			GC.countFunctionCall("CvPlot::updatePlotGroup(Player) CALL BY CvPlot::updatePlotGroup()");
 			updatePlotGroup((PlayerTypes)iI);
 		}
 	}
@@ -8081,6 +8134,50 @@ void CvPlot::updatePlotGroup()
 void CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate)
 {
 	PROFILE("CvPlot::updatePlotGroup(Player)");
+	GC.countFunctionCall("CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate) Total 1111");
+	// 大于1700年份时，有一定概率不进行计算
+	if (DOC_PERFORMANCE_SKIP_UpdatePlotGroup_IN_CVPLOT_DOTURN > 0) {
+		if (GC.getHumanID() != ePlayer) {
+			int iYear = GC.getGameTurnYear();
+			int prob = 10000;
+			if (iYear > -1000) {
+				prob = 2000;
+				if (iYear > -200) {
+					prob = 1000;
+					if (iYear > 200) {
+						prob = 50;
+						if (iYear > 600) {
+							prob = 30;
+							if (iYear > 800) {
+								prob = 20;
+								if (iYear > 1100) {
+									prob = 15;
+									if (iYear > 1400) {
+										prob = 10;
+										if (iYear > 1700) {
+											prob = 7;
+											if (iYear > 1850) {
+												prob = 5;
+												if (iYear > 1900) {
+													prob = 1;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			if (GC.simpleRand(10000) > prob) {
+				return;
+			}
+		}
+
+
+	}
+	GC.countFunctionCall("CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate) After 9999");
 
 	CvPlotGroup* pPlotGroup;
 	CvPlotGroup* pAdjacentPlotGroup;
@@ -8734,6 +8831,7 @@ void CvPlot::setRevealed(TeamTypes eTeam, bool bNewValue, bool bTerrainOnly, Tea
 				{
 					if (GET_PLAYER((PlayerTypes)iI).getTeam() == eTeam)
 					{
+						GC.countFunctionCall("CvPlot::updatePlotGroup(Player) CALL BY CvPlot::setRevealed(TeamTypes eTeam)");
 						updatePlotGroup((PlayerTypes)iI);
 					}
 				}
@@ -9978,7 +10076,57 @@ void CvPlot::doCulture()
 			}
 		}
 	}
+	// add PLAYEROPTION_FORT_CULTURE
+//mediv01 要塞驻军产生文化
+	if (CVGAME_FORT_CAN_CULTURE == 1) {
+		if (getImprovementType() != NO_IMPROVEMENT)
+		{
+			if (GC.getImprovementInfo(getImprovementType()).isActsAsCity())
+			{
+				if (getNumUnits() > 0)
+				{
+					CLLNode<IDInfo>* pUnitNode;
+					CvUnit* pLoopUnit;
+					PlayerTypes ePlayer = NO_PLAYER;
 
+					pUnitNode = headUnitNode();
+					while (pUnitNode != NULL)
+					{
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = nextUnitNode(pUnitNode);
+
+						if (!pLoopUnit->getUnitInfo().isHiddenNationality() && !pLoopUnit->getUnitInfo().isSpy() && pLoopUnit->getUnitInfo().isMilitaryProduction())
+						{
+							ePlayer = (PlayerTypes)pLoopUnit->getOwnerINLINE();
+							break;
+						}
+					}
+
+					if (ePlayer != NO_PLAYER)
+					{
+						if (getOwnerINLINE() == NO_PLAYER)
+						{
+							setOwner(ePlayer, true, true);
+						}
+
+						CvPlot* pAdjacentPlot;
+						for (int iI = 0; iI < NUM_DIRECTION_TYPES; ++iI)
+						{
+							pAdjacentPlot = plotDirection(getX_INLINE(), getY_INLINE(), ((DirectionTypes)iI));
+							if (pAdjacentPlot != NULL)
+							{
+								if (pAdjacentPlot->getOwnerINLINE() == NO_PLAYER)
+								{
+									pAdjacentPlot->setOwner(ePlayer, true, true);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	// end add
 	updateCulture(true, true);
 }
 
@@ -10784,7 +10932,8 @@ void CvPlot::getVisibleBonusState(BonusTypes& eType, bool& bImproved, bool& bWor
 	eType = NO_BONUS;
 	bImproved = false;
 	bWorked = false;
-	BonusTypes eVarietyType;
+	BonusTypes eVarietyType = getBonusVarietyType();
+	// mediv01 防止未赋值错误
 
 	if (GC.getGameINLINE().getActiveTeam() == NO_TEAM)
 	{
@@ -11510,7 +11659,7 @@ int CvPlot::airUnitSpaceAvailable(TeamTypes eTeam) const
 	}
 	else
 	{
-		iMaxUnits = GC.getDefineINT("CITY_AIR_UNIT_CAPACITY");
+		iMaxUnits = CITY_AIR_UNIT_CAPACITY;
 	}
 
 	return (iMaxUnits - countNumAirUnits(eTeam));
@@ -11860,8 +12009,8 @@ int CvPlot::calculateCultureCost() const
 	iCost += GC.getTerrainInfo(getTerrainType()).getCultureCostModifier();
 	if (getFeatureType() >= 0) iCost += GC.getFeatureInfo(getFeatureType()).getCultureCostModifier();
 
-	if (isHills()) iCost += GC.getDefineINT("CULTURE_COST_HILL");
-	if (isPeak()) iCost += GC.getDefineINT("CULTURE_COST_PEAK");
+	if (isHills()) iCost += CULTURE_COST_HILL;
+	if (isPeak()) iCost += CULTURE_COST_PEAK;
 
 	return getTurns(iCost);
 }

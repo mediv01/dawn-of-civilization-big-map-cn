@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_MEXICO_REPUBLIC</Tag>
 		<English>United %s2 States</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联邦共和国</Chinese>
+		<Chinese>%s2合众国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_FASCIST</Tag>
 		<English>Synarchist Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军事委员会</Chinese>
+		<Chinese>%s1共治联盟军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_DESC</Tag>
@@ -23,13 +23,13 @@
 		<Tag>TXT_KEY_CIV_MEXICO_PEOPLES</Tag>
 		<English>Mexican Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>墨西哥人</Chinese>
+		<Chinese>墨西哥诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_COMMUNIST</Tag>
 		<English>Anti-Reelectionist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>社会主义%s1</Chinese>
+		<Chinese>%s1反连任主义共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MEXICO_DEFAULT</Tag>

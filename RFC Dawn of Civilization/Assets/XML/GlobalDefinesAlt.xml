@@ -1,0 +1,787 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Tim McCracken (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Global Defines -->
+<Civ4Defines xmlns="x-schema:CIV4GlobalDefinesSchema.xml">
+
+    <!-- 汉化修改版小地图新增的DLL功能接口开关 mediv01     GC.getDefineINT("XXX") == 1-->
+
+
+
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ANYFUN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <Define>
+        <DefineName>ANYFUN_ALERT_FOR_WORLD_WONDER</DefineName>        <!-- 1为AI新建奇观时在屏幕显示提示信息，0为默认模式 mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>ANYFUN_ALERT_FOR_ANY_BUILDING</DefineName>        <!-- 1为AI新建任何建筑时在屏幕显示提示信息，0为默认模式 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+ 
+
+	
+	<Define>
+        <DefineName>ANYFUN_CONQUEST_GET_TECH</DefineName>        <!-- 1为征服其他文明获得该文明的科技，0为默认模式 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>ANYFUN_CONQUEST_GET_GOLD</DefineName>        <!-- 1为彻底征服文明可以获得该文明的所有金币 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+		
+
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  GAMETEXT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <Define>
+        <DefineName>GAME_TEXT_SHOW_FOREGIN_CORE</DefineName>        <!-- 1为可以显示外国核心的具体信息  0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_ENERMY_AREA</DefineName>        <!-- 1为显示敌人区域 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>GAME_TEXT_SHOW_CITY_X_AND_Y</DefineName>        <!-- 1为可以显示城市的坐标   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+ 
+     <Define>
+        <DefineName>GAME_TEXT_SHOW_CITY_NAME_IN_ALL_UNIT</DefineName>        <!-- 1为选择非移民单位可以显示城市名称   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>GAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT</DefineName>        <!-- 1为选择非移民单位可以显示区域名称   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_CONNECT_TO_CAPITAL</DefineName>        <!-- 1为显示是否与首都相连 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP</DefineName>        <!-- 地块显示是否是翻转区，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_BIRTH_PLACE_IN_DOCM</DefineName>        <!-- 显示文明的出生点 0为默认模式  mediv01 2021年11月新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP</DefineName>        <!-- 地块显示是否有独立城邦，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>GAME_TEXT_SHOW_RELIGION_MAP</DefineName>        <!-- 1为可以显示地块宗教值的数值  0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_COMPANY_IN_MAP</DefineName>        <!-- 地块显示是否有公司，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_TRADING_COMPANY_IN_MAP</DefineName>        <!-- 地块显示是否有贸易公司刷兵点，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_AIWAR_IN_MAP</DefineName>        <!-- 地块显示是否有AIWAR的内容，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_AIWAR_IN_MAP_SHOW_ANCIENT</DefineName>        <!-- 地块显示古代部分（1750前）的AIWAR，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVGAMETEXT_AIWAR_IN_MAP_SHOW_EARLY_MODERN</DefineName>        <!-- 地块显示近代部分（1800-1910）的AIWAR，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVGAMETEXT_AIWAR_IN_MAP_SHOW_LATE_MODERN</DefineName>        <!-- 地块显示近代部分（1911-2020）的AIWAR，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_TRADE_GOLD_IN_MAP</DefineName>        <!-- 地图上显示大商业家贸易金额，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_MAXTRADE_GOLD_IN_MAP</DefineName>        <!-- 地图上显示前几个最大城市的大商业家贸易金额，0为默认模式  mediv01 -->
+        <iDefineIntVal>5</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PEACE_DEAL_IN_MAP</DefineName>        <!-- 地图上显示和平条约还有几回合到期，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY1</DefineName>        <!-- 1为显示科技树科技是否首发 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2</DefineName>        <!-- 1为显示科技树科技被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD</DefineName>        <!-- 1为显示科技树科技研究列表是否显示已经崩溃的国家 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY2_MAX</DefineName>        <!-- 1为显示科技树科技被哪些国家研究列表的最大数量 999为默认模式 mediv01 -->
+        <iDefineIntVal>5</iDefineIntVal>
+    </Define>
+
+     <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3</DefineName>        <!-- 1为显示科技树科技尚未被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_MAX</DefineName>        <!-- 1为显示科技树科技尚未被哪些国家研究列表的最大数量 999为默认模式 mediv01 -->
+        <iDefineIntVal>999</iDefineIntVal>
+    </Define>
+	
+	    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_MINVALUE</DefineName>        <!-- 大于0的数字为显示可出售的科技的值 999为默认模式 mediv01 -->
+        <iDefineIntVal>200</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY3_HIGHLIGHT_MINVALUE</DefineName>        <!-- 大于0的数字为高亮显示科技交易的价值比例 80代表是80% 0为默认模式 mediv01 -->
+        <iDefineIntVal>80</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_BEING_RESEARCH</DefineName>        <!-- 1为显示科技树科技正在被哪些国家研究 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_DISCOVERY_INFO</DefineName>        <!-- 1为显示伟人点科技的科技值 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>CVTECH_SHOW_TECH_ACCELERATE_INFO</DefineName>        <!-- 1为显示伟人点科技的科技值 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_SETTLER</DefineName>        <!-- 1为显示建筑能否被移民重建 0为默认模式    mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_WONDER</DefineName>        <!-- 1为显示建筑能否被奇观提供 0为默认模式    mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLANTATION_CAN_BE_BUILD_BY_SLAVE</DefineName>        <!-- 地块显示该资源能否被奴隶建造种植园，0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMETEXT_TRADE_SHOW_VALUE</DefineName>        <!-- 1为显示交易价值 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMETEXT_TRADE_SHOW_ASK_VALUE</DefineName>        <!-- 1为显示交勒索价值 感觉没什么用，建议关闭，0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_REAL_COMMERCE_PROMOTE_IN_BUILDING</DefineName>        <!-- 1为在建筑帮助文字显示建筑对城市科研、金币的提升  0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_REAL_YIELD_PROMOTE_IN_BUILDING</DefineName>        <!-- 1为在建筑帮助文字显示建筑对城市产量的提升  0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_CIV_WITH_LEADER_NAME</DefineName>        <!-- 1为在PYTHON界面显示国家名称，而非领袖名称  0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLOT_MOVEMENT_CHANGE</DefineName>        <!-- 1为显示地块移动力的消耗值  0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLAYER_REGION</DefineName>        <!-- 1为积分版显示玩家首都所在的地区 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLAYER_RISE_AND_FALL</DefineName>        <!-- 1为积分版显示玩家出生日期 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLAYER_ASK_VALUE</DefineName>        <!-- 1为积分版显示玩家可勒索价值 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLAYER_MAP_VALUE</DefineName>        <!-- 1为积分版显示玩家地图价值 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_PLAYER_STABILITY</DefineName>        <!-- 1为积分版显示玩家稳定度 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVTECH_SHOW_UHV_TECH</DefineName>        <!-- 1为显示科技树科技是否为UHV目标   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVTECH_SHOW_UHV_WONDER</DefineName>        <!-- 1为显示奇观是否为UHV目标   0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_UHV_AREA</DefineName>        <!-- 1为在地图显示UHV区域 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_INIT_TECH</DefineName>        <!-- 1为在地图显示初始科技 0为默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMETEXT_SHOW_DEFEND_COMBAT</DefineName>        <!-- 1为在地图显示防御时的战斗概率 0默认模式 mediv01 2021年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	  <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL科研 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+	
+
+    <Define>
+        <DefineName>CVCITY_MUTIPLIER_IN_GOLD</DefineName>        <!-- 大于0的数字表面游戏金币相关数值的扩大比例 100为100倍 0为默认模式 mediv01  此选项已失效  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_ASK_FOR_TRADE_TO_HUMAN</DefineName>        <!-- 大于0的数字表明AI不会发起请求帮助的交易  0为默认模式， mediv01  2021年8月版本新增内容 该参数为10.3版本前的参数，10.4版本后被升级替代 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_CANNOT_AUTO_CANCEL_DEAL_TO_HUMAN</DefineName>        <!-- 大于0的数字表明AI不会取消之前的资源交易  0为默认模式， mediv01  2021年8月版本新增内容 该参数为10.3版本前的参数，10.4版本后被升级替代 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_VASSAL_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动请求附庸交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_CANCEL_VASSAL_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动取消附庸交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+		
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_RESOURCE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动赠送资源 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_TECH_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动赠送科技 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_GIVE_CITY_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动赠送城市 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_PERMANENT_ALLIANCE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动签永久联盟协议 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_OPEN_TRADE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行开边交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_DEFENSIVE_PACT_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行防御协定交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_TECH_TRADE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行科技互换交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_SLAVE_TRADE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行奴隶交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_BONUS_TRADE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行资源互换交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_SIGN_MAP_TRADE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动进行地图互换交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_OFFER_VASSAL_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动请求附庸交易  0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_TRIBUTE_DEAL</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家勒索资源 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_RELIGION_PRESSURE</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家要求更改国教 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_CIVIC_PRESSURE</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家要求更改政策 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_JOIN_WAR</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家要求加入战争 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>		
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_STOP_TRADING</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家要求停止交易 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_TECH</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家勒索科技 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_GOLD</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家勒索金币 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>		
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_MAP</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家勒索地图 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+	<Define>
+        <DefineName>CVPLAYERAI_AI_DODIPIO_CANNOT_DO_ASK_RESOURCE</DefineName>        <!-- 大于0的数字表明AI不会主动向人类玩家勒索资源 0为默认模式， mediv01  2022年6月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+
+
+
+
+
+
+
+
+
+ 
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+	
+
+
+	
+    <Define>
+        <DefineName>PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD</DefineName>        <!-- 1为可以提示勒索信息，0为禁用 0为默认模式  mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER</DefineName>        <!-- 解放城市是否一定给独立城邦，1不允许给现有玩家,0则可以   0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>CITY_ALLOW_TO_LIBERATE_ALL_CITY</DefineName>        <!-- 1为可以解放自己的所有城市  0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>MAX_WORLD_WONDERS_PER_CITY_MEDIV01</DefineName>        <!-- 城市的奇观数量限制，-1为无限制，0为DOC默认机制，1-8为固定数量限制 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>MAX_WORLD_NATIONAL_WONDERS_PER_CITY_MEDIV01</DefineName>        <!-- 城市的国家奇观数量限制，-1为无限制，0为DOC默认机制，1-8为固定数量限制 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CAPTURE_CITY_WITH_ALL_DAMAGE</DefineName>        <!-- 1为占领新城市不保留任何建筑，全部建筑摧毁，0为默认模式 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CAPTURE_CITY_WITHOUT_ANY_DAMAGE</DefineName>        <!-- 1为占领新城市不损毁任何建筑，需要CAPTURE_CITY_WITH_ALL_DAMAGE参数为0才行，0为默认模式 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVCITY_NOT_AUTO_RAZE_CITY</DefineName>        <!-- 1为不摧毁新占领的人口为1的城市 0为默认模式， mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNIT_CAN_CAPTURE_ALL_UNIT</DefineName>        <!-- 1为可以俘虏不能生产的单位 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVUNIT_DISBAND_CAN_GIVE_GOLD</DefineName>        <!-- 1为解散单位可以获得金币收入 0为默认模式，  mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVUNIT_DISBAND_GIVE_GOLD</DefineName>        <!-- 大于1的数值为解散单位获得的固定金币收入 0为按照生产费用的比例分成  mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>CVUNIT_DISBAND_GIVE_GOLD_PERCENT</DefineName>        <!-- 1为解散单位可以获得金币收入占生产费用的百分比 0为默认模式，50为推荐值（文明6）  mediv01  -->
+        <iDefineIntVal>50</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAME_HUMAN_CAN_VASSAL_TO_AI</DefineName>        <!-- 为1时人类可以向AI附庸  0为默认模式  mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>CVGAME_CANNOT_VASSAL_TO_INDEPENDENT</DefineName>        <!-- 为1时任何人不能向独立城邦和野蛮人附庸 0为默认模式  mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVUNIT_WORKER_CAN_JOIN_CITY</DefineName>        <!-- 1为工人可以加入城市  0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVCITY_SHOW_DETAILED_HURRY_INFO</DefineName>        <!-- 显示详细的加速信息，选项已失效，建议设置为0  0为默认模式  mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVCITY_HURRY_CALCULATION_WITH_FLOAT</DefineName>        <!-- 大于0的数字为使用浮点数计算加速人口，可以避免加速3人口和4人口红脸数相等的情况  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVCITY_FOUND_CITY_CAN_USE_FOREST</DefineName>        <!-- 大于0的数字为建立城市时移除城市所在地块的树林可以增加锤子数量  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>30</iDefineIntVal>
+    </Define>
+	
+    <Define>
+        <DefineName>CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT</DefineName>        <!-- 大于0的数字表明建造建筑时没有最大溢出锤子数的限制  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+	<Define>
+        <DefineName>CVUNIT_CAN_CAPTURE_GREAT_PEOPLE</DefineName>        <!-- 大于0的数字为可以抓取伟人 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>	
+	
+ 	<Define>
+        <DefineName>CVCITY_RELEASE_PLAYER_NO_LIMIT</DefineName>        <!-- 1为 释放附庸的时候，可以释放不能复活的过期国家，0为默认模式   此选项暂时移植到XML中配置 mediv01  2022年4月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+
+    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL 选项2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+	<Define>
+        <DefineName>CVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY</DefineName>        <!-- 大于0的数字为无需奴隶制也能抓工人 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYER_CAN_CONTACT_BARBARIAN</DefineName>        <!-- 1为可以联系野蛮人和独立城邦  0为默认模式，  mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNIT_BARBARIAN_CANNOT_ENTER</DefineName>        <!-- 1为野蛮人不进入国境 0为默认模式，  mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNITAI_AI_NOT_PILLAGE</DefineName>        <!-- AI不会劫掠设备，0为默认模式  mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNIT_FISHING_BOAT_CAN_BE_REUSED</DefineName>        <!-- 1为渔船可以多次使用  0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+   <Define>
+        <DefineName>CVCITY_MAX_CITY_MAINTENANCE_OF_NUMBER</DefineName>        <!-- 大于0的数字为最大的城市数量维护费（每座城市）  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVCITY_MAX_CITY_MAINTENANCE_OF_DISTANCE</DefineName>        <!-- 大于0的数字为最大的城市距离维护费（每座城市）  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVCITY_MAX_CITY_MAINTENANCE_TOTAL</DefineName>        <!-- 大于0的数字为每座城市最大的总维护费  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVCITY_FIX_GENERATE_GREAT_PEOPLE</DefineName>        <!-- 大于0的数字为产生固定类型的伟人 1为大预言家 2为大艺术家 3为大科学家 4为大商业家  5为大工程师 6为大政治家 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED</DefineName>        <!-- 大于0的数字为大工程师加速建筑的锤子数可以溢出 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER</DefineName>        <!-- 大于0的数字为大工程师加速建筑的锤子和资源等修正系数有关 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_ATTITUDE_BONUS</DefineName>        <!-- AI对人类的态度加成，0为默认模式  mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYERAI_CAN_ALWAYS_TRADE_TECH</DefineName>        <!-- 1为AI愿意交易科技 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+    <Define>
+        <DefineName>PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS</DefineName>        <!-- 开边态度福利，数值越大越容易开边，可正可负，0为默认模式  mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI</DefineName>        <!-- 大于0的数字为AI交易回合金币倍数 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION</DefineName>        <!-- 大于0的数字为根据总人口的几分之一设置回合金加成 推荐设置为3 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYERAI_CAN_ALWAYS_TRADE_CITY</DefineName>        <!-- 1为AI愿意交易城市 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE</DefineName>        <!-- 1为AI愿意交易资源 0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER</DefineName>        <!-- 1为AI不会主动向其他AI交换地图  0为默认模式 mediv01 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+
+    <Define>
+        <DefineName>CVPLAYER_CAN_ALWAYS_TRADE_CITY</DefineName>        <!-- 大于0的数字为总是可以交易城市（包括首都）  0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+	
+	<Define>
+        <DefineName>CVUNIT_HUMAN_SPY_CANNOT_REVEAL</DefineName>        <!-- 大于0的数字为人类的间谍不会被暴露杀害 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	
+    <Define>
+        <DefineName>CVCITY_INCREASE_RELIGION_CHANCE</DefineName>        <!-- 100为城市传播宗教概率为100% 0为默认模式，参数不生效 mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVCITY_INCREASE_RELIGION_CHANCE_ONLY_FOR_STATERELIGION</DefineName>        <!-- 大于0的参数为传播参数仅仅对人类文明的国教有效，对其他宗教无效 需要CVCITY_INCREASE_RELIGION_CHANCE参数为0才起作用  0为默认模式， mediv01  -->
+        <iDefineIntVal>5</iDefineIntVal>
+    </Define>
+	
+
+	<Define>
+        <DefineName>CVCITY_RELIGON_NOT_DISAPPEAR</DefineName>        <!-- 大于0的数字为城市拥有宗教后，宗教不会消失 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+ 
+ 
+  	<Define>
+        <DefineName>CVCITY_RELEASE_PLAYER_WITH_CITY_IN_HISTORY</DefineName>        <!-- 1为 释放附庸的时候，可以释放附庸历史区城市的附庸国，不仅限于附庸核心区的城市  0为默认模式   此选项暂时移植到XML中配置 mediv01  2022年4月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVUNIT_CAN_SPREAD_RELIGON_ANYWHERE</DefineName>        <!-- 大于0的数字为传教士可以无视其他国家的传教政策，进行传教 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+ 
+ 	<Define>
+        <DefineName>CVCITY_CANNOT_TRIGGER_NUCLEAR_LEAK</DefineName>        <!-- 大于0的数字为城市不会触发核电站核泄漏事件 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+ 
+ 
+ 	<Define>
+        <DefineName>CVCITY_CAN_CAPTURE_GREAT_PEOPLE_WHEN_RAZE_CITY</DefineName>        <!-- 大于0的数字为sh烧城的时候可以抓取定居的伟人 0为默认模式， mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <Define>
+        <DefineName>CVGAMECORE_LOG_PATH</DefineName>    <!-- 日志存放的文件夹 mediv01 -->
+        <DefineTextVal>Mods\\RFC Dawn of Civilization\\Logs\\</DefineTextVal>
+    </Define>
+     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL LOG !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->	
+	<Define>
+        <DefineName>CVGAMECORE_LOG_ON_TEST</DefineName>        <!-- 1为记录TEST里的日志，0为默认模式， mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+
+	<Define>
+        <DefineName>CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD</DefineName>        <!-- 1为新增了DLL的LOG函数，记录AI征服获得金币和科技 0为默认模式， mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>	
+	
+	
+	    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  调试相关 请勿更改 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+	
+	<Define>
+        <DefineName>CVGAMECORE_DLL_DEBUG</DefineName>        <!-- 大于0的数字为触发手动DEBUG事件  仅为调试输出使用  mediv01  2021年8月版本新增内容 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMECORE_DLL_AUTO_DEBUGMODE</DefineName>        <!-- 1为自动进入系统调试模式 仅为调试输出使用，设置为1会很卡，请设置为0 0为默认模式， mediv01  -->
+        <iDefineIntVal>0</iDefineIntVal>
+    </Define>
+	
+	<Define>
+        <DefineName>CVGAMECORE_ENABLE_ERROR_LOG</DefineName>        <!-- 1为允许在游戏中提示PYTHON错误，方便定位错误原因，建议设置为1 0为默认模式 mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	
+	
+	
+	
+		    <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  BUGFIX !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <Define>
+        <DefineName>CVGAMECORE_FIX_NULL_POINTER_BUG1</DefineName>        <!-- 1为修正游戏中的PLOT的空指针错误， 0为默认模式 此项目不可XML配置，写死在CvGLOBAL.h里，需要修改的话可以重新生成DLL mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMECORE_FIX_NULL_POINTER_BUG2</DefineName>        <!-- 1为修正游戏中的内存泄露错误， 0为默认模式 此项目不可XML配置，写死在CvGLOBAL.h里，需要修改的话可以重新生成DLL mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+    <Define>
+        <DefineName>CVGAMECORE_FIX_BUG_PERFORMANCE_UP01</DefineName>        <!-- 1为修正游戏中的内存泄露错误， 0为默认模式 此项目不可XML配置，写死在CvGLOBAL.h里，需要修改的话可以重新生成DLL mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+	
+	
+	<Define>
+        <DefineName>CVGAMECORE_NEW_AUTOSAVE_FEATURE</DefineName>        <!-- 在游戏回合结束时保存游戏，而不是游戏回合开始时 0为默认模式 此项目不可XML配置，写死在CvGLOBAL.h里，需要修改的话可以重新生成DLL mediv01 -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
+
+	
+</Civ4Defines>
+<!-- TODO  
+
+工人修河
+工人种树
+工人改造地形
+
+
+
+
+
+if(GC.getDefineINT("XXX") == 1)
+DLL
+
+
+if(gc.getDefineINT("XXX") == 1):
+ PYTHON
+  mediv01  -->
+  
+ 
+ 
+
+
+  
+  
+  
+  

@@ -3482,7 +3482,7 @@ bool CvSelectionGroup::groupAttack(int iX, int iY, int iFlags, bool& bFailedAlre
 						argsList.add(gDLL->getPythonIFace()->makePythonObject(pyGroup));	// pass in Selection Group class
 						argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in Plot class
 						long lResult=0;
-						gDLL->getPythonIFace()->callFunction(PYGameModule, "doCombat", argsList.makeFunctionArgs(), &lResult);
+						GC.callPythoFunction(PYGameModule, "doCombat", argsList.makeFunctionArgs(), &lResult);
 						delete pyGroup;	// python fxn must not hold on to this pointer 
 						delete pyPlot;	// python fxn must not hold on to this pointer 
 						if (lResult == 1)
@@ -3720,7 +3720,7 @@ bool CvSelectionGroup::groupBuild(BuildTypes eBuild)
 		{
 			if (GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION))
 			{
-				if ((pPlot->getImprovementType() != NO_IMPROVEMENT) && (pPlot->getImprovementType() != (ImprovementTypes)(GC.getDefineINT("RUINS_IMPROVEMENT"))))
+				if ((pPlot->getImprovementType() != NO_IMPROVEMENT) && (pPlot->getImprovementType() != (ImprovementTypes)(RUINS_IMPROVEMENT)))
 				{
 				    BonusTypes eBonus = (BonusTypes)pPlot->getNonObsoleteBonusType(GET_PLAYER(getOwnerINLINE()).getTeam());
 				    if ((eBonus == NO_BONUS) || !GC.getImprovementInfo(eImprovement).isImprovementBonusTrade(eBonus))
@@ -3821,7 +3821,12 @@ void CvSelectionGroup::setTransportUnit(CvUnit* pTransportUnit)
 		CvUnit* pHeadUnit = getHeadUnit();
 		FAssertMsg(pHeadUnit != NULL, "non-zero group without head unit");
 		
-		int iCargoSpaceAvailable = pTransportUnit->cargoSpaceAvailable(pHeadUnit->getSpecialUnitType(), pHeadUnit->getDomainType());
+		// mediv01 ÐÞ¸´¿ÕÖ¸Õë´íÎó
+		int iCargoSpaceAvailable = 0;
+		
+		if (pHeadUnit != NULL) {
+			iCargoSpaceAvailable = pTransportUnit->cargoSpaceAvailable(pHeadUnit->getSpecialUnitType(), pHeadUnit->getDomainType());
+		}
 		
 		// if no space at all, give up
 		if (iCargoSpaceAvailable < 1)
@@ -4242,23 +4247,25 @@ CvPlot* CvSelectionGroup::getPathFirstPlot() const
 	FAStarNode* pNode;
 
 	pNode = getPathLastNode();
-
-	if (pNode->m_pParent == NULL)
-	{
-		return GC.getMapINLINE().plotSorenINLINE(pNode->m_iX, pNode->m_iY);
-	}
-
-	while (pNode != NULL)
-	{
-		if (pNode->m_pParent->m_pParent == NULL)
+	// mediv01 ÐÞ¸´¿ÕÖ¸Õë´íÎó
+	if (pNode != NULL) {
+		if (pNode->m_pParent == NULL)
 		{
 			return GC.getMapINLINE().plotSorenINLINE(pNode->m_iX, pNode->m_iY);
 		}
 
-		pNode = pNode->m_pParent;
-	}
+		while (pNode != NULL)
+		{
+			if (pNode->m_pParent->m_pParent == NULL)
+			{
+				return GC.getMapINLINE().plotSorenINLINE(pNode->m_iX, pNode->m_iY);
+			}
 
-	FAssert(false);
+			pNode = pNode->m_pParent;
+		}
+
+		FAssert(false);
+	}
 
 	return NULL;
 }

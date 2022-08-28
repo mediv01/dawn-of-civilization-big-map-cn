@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_UP_ARM</Tag>
 		<English>Double Production Speed of State [ICON_RELIGION] Buildings</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>所有[ICON_RELIGION]建筑建造速度加倍</Chinese>
+		<Chinese>所有官方[ICON_RELIGION]建筑建造速度加倍</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY</Tag>
 		<English>Vishap Infantry</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>“龙”步兵</Chinese>
+		<Chinese>亚美尼亚龙步兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_ARM_TITLE</Tag>
@@ -23,19 +23,19 @@
 		<Tag>TXT_KEY_BUILDING_ARMENIAN_KHACHKAR</Tag>
 		<English>Khachkar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>纹刻石碑</Chinese>
+		<Chinese>神圣十字架</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ASHOT</Tag>
 		<English>Ashot I</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>亚美尼亚-阿修特一世</Chinese>
+		<Chinese>阿硕特一世</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_PEOPLES</Tag>
 		<English>Armenia Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>亚美尼亚人</Chinese>
+		<Chinese>亚美尼亚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_SHORT_DESC</Tag>
@@ -53,7 +53,7 @@
 		<Tag>TXT_KEY_LEADER_ASHOT_PEDIA</Tag>
 		<English>[H1]Ashot I Bagratuni[\H1][NEWLINE][BOLD]King of Armenia[\BOLD][NEWLINE][BOLD]Reigned:[\BOLD] 862 - 890[PARAGRAPH:2][BOLD]Background:[\BOLD][NEWLINE][TAB]Ashot I Bagratuni was an Armenian prince who, with Ashot II, oversaw Armenia's second golden age (862-977). He was born to Smbat the Confessor. His family, the Bagratunis, was one of the most powerful in the kingdom along with the Artsruni. Both families were struggling for power through warfare against Arab invaders. He was recognized by the Abbasid Caliph as Prince of Princes of Armenia in 862. His later crowning as King of Armenia was consented to by Abbasid Caliph al-Mu'tamid in 885, a move to prevent intrusion into the Armenian territory by Basil I Byzantine emperor, an Armenian. [PARAGRAPH:1]Thus, Ashot restored the Armenian monarchy and became Armenia's first king since 428. He secured the favor of both the Byzantines and Arabs but ultimately showed loyalty to Basil and chose to conclude an alliance with the Byzantines in 885. Ashot was not the sole Armenian prince of the region (other principalities existed in Syunik, Vaspurakan, and Taron) yet he commanded the full support of the other princes who recognized his authority in his becoming of king. With his status of king, his authority also carried over to the neighboring states of Georgia, Caucasian Albania and several of the Arab emirates. Ashot's reign was brief and upon his death in 890, he was succeeded by his son Smbat I.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>[H1]阿修特一世[\H1][NEWLINE][BOLD]亚美尼亚国王[\BOLD][NEWLINE][BOLD]统治时间：[\BOLD]862-890[PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]阿修特一世是一位亚美尼亚王子，他和阿修特二世一起开创了亚美尼亚的第二个黄金时代（862-977）。他出生于Smbat the Confessor。他的家族，巴格拉图尼斯，和阿尔茨鲁尼家族一样，是王国中最强大的家族之一。两个家族都在通过与阿拉伯侵略者的战争争夺权力。公元862年，阿巴斯哈里发承认他为亚美尼亚王子。885年，阿巴斯哈里发穆塔米德（al-Mu'tamid）同意加冕为亚美尼亚国王，此举旨在防止亚美尼亚人巴兹尔一世（Basil I Byzantine）皇帝入侵亚美尼亚领土。[PARAGRAPH:1]因此，阿肖特恢复了亚美尼亚的君主制，成为亚美尼亚自428年以来的第一位国王。他获得了拜占庭人和阿拉伯人的青睐，但最终表现出对巴兹尔的忠诚，并选择在885年与拜占庭人结成联盟。阿肖特并不是该地区唯一的亚美尼亚王子（锡尼克、瓦斯帕拉坎和塔隆也有其他君主国），但他得到了其他王子的全力支持，这些王子承认了他成为国王的权威。随着他的国王地位，他的权力也传到了邻国格鲁吉亚、高加索阿尔巴尼亚和几个阿拉伯酋长国。阿修特的统治时间很短，890年去世后，他的儿子斯巴特一世接替了他。</Chinese>
+		<Chinese>[H1]阿硕特一世[\H1][NEWLINE][BOLD]亚美尼亚国王[\BOLD][NEWLINE][BOLD]统治时间：[\BOLD]862-890[PARAGRAPH:2][BOLD]背景：[\BOLD][NEWLINE][TAB]阿修特一世是一位亚美尼亚王子，他和阿修特二世一起开创了亚美尼亚的第二个黄金时代（862-977）。他出生于Smbat the Confessor。他的家族，巴格拉图尼斯，和阿尔茨鲁尼家族一样，是王国中最强大的家族之一。两个家族都在通过与阿拉伯侵略者的战争争夺权力。公元862年，阿巴斯哈里发承认他为亚美尼亚王子。885年，阿巴斯哈里发穆塔米德（al-Mu'tamid）同意加冕为亚美尼亚国王，此举旨在防止亚美尼亚人巴兹尔一世（Basil I Byzantine）皇帝入侵亚美尼亚领土。[PARAGRAPH:1]因此，阿肖特恢复了亚美尼亚的君主制，成为亚美尼亚自428年以来的第一位国王。他获得了拜占庭人和阿拉伯人的青睐，但最终表现出对巴兹尔的忠诚，并选择在885年与拜占庭人结成联盟。阿肖特并不是该地区唯一的亚美尼亚王子（锡尼克、瓦斯帕拉坎和塔隆也有其他君主国），但他得到了其他王子的全力支持，这些王子承认了他成为国王的权威。随着他的国王地位，他的权力也传到了邻国格鲁吉亚、高加索阿尔巴尼亚和几个阿拉伯酋长国。阿修特的统治时间很短，890年去世后，他的儿子斯巴特一世接替了他。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_VISHAP_INFANTRY_PEDIA</Tag>
@@ -65,11 +65,11 @@
 		<Tag>TXT_KEY_CIV_ARMENIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>亚美尼亚王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARMENIA_DESC</Tag>
-		<English>The Arrmenians</English>
+		<English>The Armenians</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>亚美尼亚文明</Chinese>
 	</TEXT>	
@@ -85,4 +85,10 @@
 		<L1/><L2/><L3/><L4/>
 		<Chinese>亚美尼亚</Chinese>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ARMENIA_REPUBLIC</Tag>
+		<English>Republic of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>亚美尼亚共和国</Chinese>
+	</TEXT>	
 </Civ4GameText>

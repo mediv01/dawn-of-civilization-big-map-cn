@@ -24,6 +24,10 @@ public:
 	CvPlayer* getPlayer() { return m_pPlayer;	}	// Call from C++
 	bool isNone() { return (m_pPlayer==NULL); }
 
+	// mediv01
+	void doCollapse(int PlayerID) const;
+	int getFreeTechsOnDiscovery() const;
+
 	int startingPlotRange();
 	bool startingPlotWithinRange(CyPlot *pPlot, int /*PlayerTypes*/ ePlayer, int iRange, int iPass);
 

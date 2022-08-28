@@ -17,13 +17,13 @@
 		<Tag>TXT_KEY_DOM_CHALUKYA</Tag>
 		<English>It's the year 543 AD. With the decline of the Gupta to the north, small fragmented states rule over India, but there is no better time for a large empire to rise! Beginning in the Deccan, all of central India will foster a civilization rivaling those that once existed along the Ganges itself.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元543年。随着笈多王朝在北方的衰落，一些支离破碎的小国家统治着印度，没有比现在更好的时机让一个大帝国崛起！从德干开始，整个印度中部地区都将培育出一种与恒河沿岸曾经存在的文明相媲美的文明。</Chinese>
+	<Chinese>公元543年的第一缕阳光照耀次大陆的西海岸。随着笈多王朝在北方衰落，一些支离破碎的小国家在印度各地割据并存，对于一个大帝国来说，没有比现在更好的崛起时机了！从德干高原开始，印度中部地区都将孕育出一个新的文明，而它将足以与恒河沿岸曾经存在的文明相媲美。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CAL</Tag>
 		<English>+50% Production Efficiency of Wealth and Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>生产财富和文化时+50%效率</Chinese>
+		<Chinese>生产财富和文化时+50% 产能</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KINGDOM_OF_CHALUKYA_DEFAULT</Tag>
@@ -35,7 +35,7 @@
 		<Tag>TXT_KEY_CIV_CHALUKYA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>遮娄其王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_PULAKESI</Tag>
@@ -71,6 +71,6 @@
 		<Tag>TXT_KEY_CIV_CHALUKYA_PEOPLES</Tag>
 		<English>Deccan Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德干人</Chinese>
+		<Chinese>德干诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

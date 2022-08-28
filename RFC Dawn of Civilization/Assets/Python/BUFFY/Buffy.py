@@ -16,7 +16,7 @@ import BugUtil
 import CvUtil
 import GameUtil
 import os.path
-
+from Consts import *
 gc = CyGlobalContext()
 options = BugCore.game.BUFFY
 
@@ -28,129 +28,131 @@ IS_DLL_IN_CORRECT_PATH = False
 ## Checking Status
 
 def isEnabled():
-	return options.isEnabled()
+    return options.isEnabled()
+
 
 def isActive():
-	"""
-	Returns True if BUFFY is active in this session.
-	
-	Must be a BUFFY-enabled build with the DLL present and not running on a Mac.
-	"""
-	return IS_ACTIVE
+    """
+    Returns True if BUFFY is active in this session.
+
+    Must be a BUFFY-enabled build with the DLL present and not running on a Mac.
+    """
+    return IS_ACTIVE
+
 
 def isDllPresent():
-	"""
-	Returns True if this is a BUFFY-enabled build and the BUFFY DLL is present, False otherwise.
-	
-	Note: If this isn't a BUFFY-enabled build, this function returns False even if the BUFFY DLL is present
-	since init() doesn't look for the DLL.
-	"""
-	return IS_DLL_PRESENT
+    """
+    Returns True if this is a BUFFY-enabled build and the BUFFY DLL is present, False otherwise.
+
+    Note: If this isn't a BUFFY-enabled build, this function returns False even if the BUFFY DLL is present
+    since init() doesn't look for the DLL.
+    """
+    return IS_DLL_PRESENT
+
 
 def isDllInCorrectPath():
-	"""
-	Returns True if the BUFFY DLL is present and in the correct location (...\<BTS>\Mods\<BUFFY>\Assets\).
-	"""
-	return IS_DLL_IN_CORRECT_PATH
+    """
+    Returns True if the BUFFY DLL is present and in the correct location (...\<BTS>\Mods\<BUFFY>\Assets\).
+    """
+    return IS_DLL_IN_CORRECT_PATH
 
 
 ## Initialization
 
 def init():
-	"""
-	Checks for the presence of the BUFFY DLL and sets the global flags.
-	"""
-	if isEnabled():
-		if BugPath.isMac():
-			BugUtil.debug("BUFFY is not active on Mac (no DLL)")
-		else:
-			try:
-				if gc.isBuffy():
-					global IS_DLL_PRESENT, IS_DLL_IN_CORRECT_PATH, IS_ACTIVE
-					IS_DLL_PRESENT = True
-					IS_ACTIVE = True
-					BugUtil.info("BUFFY is active (API version %d)", gc.getBuffyApiVersion())
-					try:
-						dllPath = gc.getGame().getDLLPath()
-						exePath = gc.getGame().getExePath()
-						dllPathThenUp3 = os.path.dirname(os.path.dirname(os.path.dirname(dllPath)))
-						if dllPathThenUp3 == exePath:
-							IS_DLL_IN_CORRECT_PATH = True
-					except:
-						pass # DLL path is borked
-			except:
-				BugUtil.info("BUFFY is not active (no DLL)")
+    """
+    Checks for the presence of the BUFFY DLL and sets the global flags.
+    """
+    if isEnabled():
+        if BugPath.isMac():
+            BugUtil.debug("BUFFY is not active on Mac (no DLL)")
+        else:
+            try:
+                if gc.isBuffy():
+                    global IS_DLL_PRESENT, IS_DLL_IN_CORRECT_PATH, IS_ACTIVE
+                    IS_DLL_PRESENT = True
+                    IS_ACTIVE = True
+                    BugUtil.info("BUFFY is active (API version %d)", gc.getBuffyApiVersion())
+                    try:
+                        dllPath = gcgame.getDLLPath()
+                        exePath = gcgame.getExePath()
+                        dllPathThenUp3 = os.path.dirname(os.path.dirname(os.path.dirname(dllPath)))
+                        if dllPathThenUp3 == exePath:
+                            IS_DLL_IN_CORRECT_PATH = True
+                    except:
+                        pass  # DLL path is borked
+            except:
+                BugUtil.info("BUFFY is not active (no DLL)")
 
 
 ## Random Event Changes
 
 def canTriggerTheVedicAryans(argsList):
+    kTriggeredData = argsList[0]
+    player = gcgetPlayer(kTriggeredData.ePlayer)
 
-	kTriggeredData = argsList[0]
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-	
-#   If Barbarians are disabled in this game, this event will not occur.
-	if gc.getGame().isOption(GameOptionTypes.GAMEOPTION_NO_BARBARIANS):
-		return false
-			
-#   At least one civ on the board must know Polytheism.
-	bFoundValid = false
+    #   If Barbarians are disabled in this game, this event will not occur.
+    if gcgame.isOption(GameOptionTypes.GAMEOPTION_NO_BARBARIANS):
+        return False
 
-# BUFFY 3.19.003 - start
-	# changes one of the key techs to Priesthood instead of Polytheism
-	iTech = gc.getInfoTypeForString('TECH_DIVINATION')
-# BUFFY 3.19.003 - end
+    #   At least one civ on the board must know Polytheism.
+    bFoundValid = False
 
-	for iPlayer in range(gc.getMAX_CIV_PLAYERS()):
-		loopPlayer = gc.getPlayer(iPlayer)
-		if loopPlayer.isAlive():
-			if gc.getTeam(loopPlayer.getTeam()).isHasTech(iTech):
-				bFoundValid = true
-				break
-				
-	if not bFoundValid:
-		return false
-					
-#   At least one civ on the board must know Archery.
-	bFoundValid = false
-	iTech = gc.getInfoTypeForString('TECH_TANNING')
-	for iPlayer in range(gc.getMAX_CIV_PLAYERS()):			
-		loopPlayer = gc.getPlayer(iPlayer)
-		if loopPlayer.isAlive():
-			if gc.getTeam(loopPlayer.getTeam()).isHasTech(iTech):
-				bFoundValid = true
-				break
-				
-	if not bFoundValid:
-		return false
+    # BUFFY 3.19.003 - start
+    # changes one of the key techs to Priesthood instead of Polytheism
+    iTech = gc.getInfoTypeForString('TECH_DIVINATION')
+    # BUFFY 3.19.003 - end
 
-# BUG - 3.17 - Start
-	if (GameUtil.isVersion(317)):
-		# rest indented but unchanged
-		# Can we build the counter unit?		
-		iCounterUnitClass = gc.getInfoTypeForString('UNITCLASS_ARCHER')
-		iCounterUnit = gc.getCivilizationInfo(player.getCivilizationType()).getCivilizationUnits(iCounterUnitClass)
-		if iCounterUnit == -1:
-			return false
+    for iPlayer in range(gc.getMAX_CIV_PLAYERS()):
+        loopPlayer = gcgetPlayer(iPlayer)
+        if loopPlayer.isAlive():
+            if gcgetTeam(loopPlayer.getTeam()).isHasTech(iTech):
+                bFoundValid = True
+                break
 
-		(loopCity, iter) = player.firstCity(false)
-		bFound = false
-		while(loopCity):
-			if (loopCity.canTrain(iCounterUnit, false, false)):
-				bFound = true
-				break
+    if not bFoundValid:
+        return False
 
-			(loopCity, iter) = player.nextCity(iter, false)
+    #   At least one civ on the board must know Archery.
+    bFoundValid = False
+    iTech = gc.getInfoTypeForString('TECH_TANNING')
+    for iPlayer in range(gc.getMAX_CIV_PLAYERS()):
+        loopPlayer = gcgetPlayer(iPlayer)
+        if loopPlayer.isAlive():
+            if gcgetTeam(loopPlayer.getTeam()).isHasTech(iTech):
+                bFoundValid = True
+                break
 
-		if not bFound:
-			return false
-# BUG - 3.17 - End
+    if not bFoundValid:
+        return False
 
-#	Find an eligible plot
-	map = gc.getMap()	
-	for i in range(map.numPlots()):
-		plot = map.plotByIndex(i)
-		if (plot.getOwner() == -1 and not plot.isWater() and not plot.isImpassable() and plot.area().getCitiesPerPlayer(kTriggeredData.ePlayer) > 0 and plot.isAdjacentPlayer(kTriggeredData.ePlayer, true)):
-			return true
+    # BUG - 3.17 - Start
+    if (GameUtil.isVersion(317)):
+        # rest indented but unchanged
+        # Can we build the counter unit?
+        iCounterUnitClass = gc.getInfoTypeForString('UNITCLASS_ARCHER')
+        iCounterUnit = gc.getCivilizationInfo(player.getCivilizationType()).getCivilizationUnits(iCounterUnitClass)
+        if iCounterUnit == -1:
+            return False
 
-	return false
+        (loopCity, iter) = player.firstCity(False)
+        bFound = False
+        while (loopCity):
+            if (loopCity.canTrain(iCounterUnit, False, False)):
+                bFound = True
+                break
+
+            (loopCity, iter) = player.nextCity(iter, False)
+
+        if not bFound:
+            return False
+    # BUG - 3.17 - End
+
+    #	Find an eligible plot
+    map = gcmap
+    for i in range(map.numPlots()):
+        plot = map.plotByIndex(i)
+        if (plot.getOwner() == -1 and not plot.isWater() and not plot.isImpassable() and plot.area().getCitiesPerPlayer(kTriggeredData.ePlayer) > 0 and plot.isAdjacentPlayer(kTriggeredData.ePlayer, True)):
+            return True
+
+    return False

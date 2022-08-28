@@ -5,25 +5,25 @@
 		<Tag>TXT_KEY_CIV_GERMAN_POLAND</Tag>
 		<English>South Prussia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属波兰</Chinese>
+		<Chinese>南普鲁士</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_REICHSKOMMISSARIAT</Tag>
 		<English>Reichskommissariat %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属帝国委员会</Chinese>
+		<Chinese>%s1总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_VIKINGS</Tag>
 		<English>Reichskommissariat Nordland</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属斯堪纳维亚</Chinese>
+		<Chinese>诺德兰总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_REICHSPROTEKTORAT</Tag>
 		<English>Reichsprotektorat %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属波希米亚</Chinese>
+		<Chinese>德属%s1保护国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_PRUSSIAN</Tag>
@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_FRANCE</Tag>
 		<English>Vichy %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属维希法国</Chinese>
+		<Chinese>维希法国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_GREATER_EMPIRE</Tag>
@@ -53,7 +53,7 @@
 		<Tag>TXT_KEY_CIV_GERMAN_NAME_MOORS</Tag>
 		<English>Maghreb</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属马格里布</Chinese>
+		<Chinese>马格里布</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_DESC</Tag>
@@ -65,19 +65,19 @@
 		<Tag>TXT_KEY_CIV_GERMANY_PEOPLES</Tag>
 		<English>Prussian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>普鲁士人</Chinese>
+		<Chinese>普鲁士诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_MUGHALS</Tag>
 		<English>%s2 West India</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属西印度</Chinese>
+		<Chinese>西印度总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_CANADA</Tag>
 		<English>Reichskommissariat Kanada</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属加拿大</Chinese>
+		<Chinese>加拿大总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_PRUSSIA</Tag>
@@ -89,13 +89,13 @@
 		<Tag>TXT_KEY_CIV_GERMANY_COMMUNIST</Tag>
 		<English>Free Socialist Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1自由社会主义共和国</Chinese>
+		<Chinese>德意志自由社会主义共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_MALI</Tag>
 		<English>%s2 West Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属西非</Chinese>
+		<Chinese>西非总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_DEFAULT</Tag>
@@ -107,7 +107,7 @@
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_ETHIOPIA</Tag>
 		<English>%s2 East Africa</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属东非</Chinese>
+		<Chinese>东非总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_REPUBLIC</Tag>
@@ -131,19 +131,19 @@
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_RUSSIA</Tag>
 		<English>Reichskommissariat Moskowien</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属俄国</Chinese>
+		<Chinese>莫斯科总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_LITHUANIA</Tag>
 		<English>Reichskommissariat Ostland</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属立陶宛</Chinese>
+		<Chinese>奥斯特兰总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_ITALY</Tag>
 		<English>%s2 Social Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属意大利</Chinese>
+		<Chinese>%s2社会共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_SHORT_DESC</Tag>
@@ -155,7 +155,7 @@
 		<Tag>TXT_KEY_CIV_GERMAN_HOLY_ROME</Tag>
 		<English>State of %s2 %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>神圣罗马帝国</Chinese>
+		<Chinese>德属奥地利国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_ADJECTIVE</Tag>
@@ -167,19 +167,19 @@
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_BYZANTIUM</Tag>
 		<English>Reichskommissariat Bosporus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属巴尔干</Chinese>
+		<Chinese>博斯普鲁斯总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_HOLY_ROME</Tag>
 		<English>Ostmark</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属奥地利</Chinese>
+		<Chinese>东方省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_POLAND</Tag>
 		<English>General Government</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属波兰</Chinese>
+		<Chinese>波兰总督辖区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_EMPIRE</Tag>
@@ -191,7 +191,7 @@
 		<Tag>TXT_KEY_CIV_GERMANY_NAZI_NETHERLANDS</Tag>
 		<English>Reichsgau Holland</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德属荷兰</Chinese>
+		<Chinese>德属荷兰海外大区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GERMANY_FASCIST</Tag>

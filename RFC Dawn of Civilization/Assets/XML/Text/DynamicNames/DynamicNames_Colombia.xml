@@ -41,7 +41,7 @@
 		<Tag>TXT_KEY_CIV_COLOMBIA_FASCIST</Tag>
 		<English>Falangist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>%s1长枪党军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_COLOMBIA_EMPIRE</Tag>
@@ -53,7 +53,7 @@
 		<Tag>TXT_KEY_CIV_COLOMBIA_FEDERATION_ANDES</Tag>
 		<English>Federation of the Andes</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯联盟</Chinese>
+		<Chinese>安第斯联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_COLOMBIA_REPUBLIC</Tag>
@@ -65,6 +65,6 @@
 		<Tag>TXT_KEY_CIV_COLOMBIA_PEOPLES</Tag>
 		<English>Colombian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哥伦比亚人</Chinese>
+		<Chinese>哥伦比亚诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

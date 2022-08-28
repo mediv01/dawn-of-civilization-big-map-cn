@@ -5,19 +5,19 @@
 		<Tag>TXT_KEY_CIV_ETHIOPIA_REPUBLIC</Tag>
 		<English>Federal Democratic Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1联邦民主共和国</Chinese>
+		<Chinese>埃塞俄比亚联邦民主共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_COMMUNIST</Tag>
 		<English>People's Democratic Republic of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1人民民主共和国</Chinese>
+		<Chinese>埃塞俄比亚人民民主共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_PEOPLES</Tag>
 		<English>Abyssinian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿比西尼亚人</Chinese>
+		<Chinese>阿比西尼亚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_DESC</Tag>
@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_CIV_ETHIOPIA_FASCIST</Tag>
 		<English>%s2 Junta</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2军政府</Chinese>
+		<Chinese>埃塞俄比亚军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>阿比西尼亚王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_ADAL</Tag>
@@ -63,7 +63,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_ADJECTIVE</Tag>
-		<English></English>
+		<English>Ethiopian</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>埃塞俄比亚</Chinese>
 	</TEXT>

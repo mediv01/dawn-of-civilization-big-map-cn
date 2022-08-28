@@ -65,7 +65,7 @@
 		<Tag>TXT_KEY_CIV_GREECE_PEOPLES</Tag>
 		<English>Mycenean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>迈锡尼人</Chinese>
+		<Chinese>迈锡尼诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GREECE_LEAGUE</Tag>
@@ -95,6 +95,6 @@
 		<Tag>TXT_KEY_CIV_GREECE_FASCIST</Tag>
 		<English>Patriotic Alliance of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1爱国联盟</Chinese>
+		<Chinese>%s1爱国同盟</Chinese>
 	</TEXT>
 </Civ4GameText>

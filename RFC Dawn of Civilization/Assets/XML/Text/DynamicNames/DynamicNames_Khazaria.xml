@@ -2,10 +2,10 @@
 <Civ4GameText>
 	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_DEFAULT</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_DEFAULT</Tag>
 		<English>%s2 Khaganate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2汗国</Chinese>
+		<Chinese>可萨汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KHANATE</Tag>
@@ -14,28 +14,28 @@
 		<Chinese>%s2汗国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_CUMAN</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_CUMAN</Tag>
 		<English>Cuman-Kipchak</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>库曼-基普切克</Chinese>
+		<Chinese>库曼-钦察</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARS_SHORT_DESC</Tag>
-		<English>Khazaria</English>
+		<English>KHAZARS</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈扎尔</Chinese>
+		<Chinese>可萨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARS_DESC</Tag>
 		<English>The Khazars</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈扎尔文明</Chinese>
+		<Chinese>可萨文明</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_CUMANIA</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_CUMANIA</Tag>
 		<English>Cumania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>库马尼亚</Chinese>
+		<Chinese>库曼</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKH</Tag>
@@ -44,25 +44,25 @@
 		<Chinese>哈萨克</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_CONFEDERATION</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_CONFEDERATION</Tag>
 		<English>%s2 Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联盟</Chinese>
+		<Chinese>可萨部落联盟</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_PEOPLES</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_PEOPLES</Tag>
 		<English>Turkic Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈扎尔人</Chinese>
+		<Chinese>突厥诸部</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_FASCIST</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_FASCIST</Tag>
 		<English>Pan-Turkic Empire</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>泛突厥帝国</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKHSTAN</Tag>
+		<Tag>TXT_KEY_CIV_KHAZARS_KAZAKHSTAN</Tag>
 		<English>Kazakhstan</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>哈萨克斯坦</Chinese>
@@ -71,12 +71,12 @@
 		<Tag>TXT_KEY_CIV_KHAZARS_ADJECTIVE</Tag>
 		<English>Khazar</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈扎尔</Chinese>
+		<Chinese>可萨</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHAZARIA_KAZAKH_DESC</Tag>
 		<English>The Kazakhs</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>哈萨克</Chinese>
+		<Chinese>哈萨克文明</Chinese>
 	</TEXT>
 </Civ4GameText>

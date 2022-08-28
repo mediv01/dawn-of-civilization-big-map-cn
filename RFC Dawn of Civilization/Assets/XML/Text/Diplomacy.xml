@@ -263,7 +263,7 @@
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SANTA_ANNA_1</Tag>
 		<English>Hello, [CT_NAME]. I am General Santa Anna, Savior of Mexico! What have you come to offer me in tribute?</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>你好，[CT_NAME]。我是桑塔&#12539;安纳将军。墨西哥的救世主！你是专程过来赞美我的么？</Chinese>
+		<Chinese>你好，[CT_NAME]。我是桑塔·安纳将军。墨西哥的救世主！你是专程过来赞美我的么？</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SAN_MARTIN</Tag>

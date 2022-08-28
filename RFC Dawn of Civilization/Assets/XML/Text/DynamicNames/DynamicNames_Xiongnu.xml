@@ -9,7 +9,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU1</Tag>
-		<English>Succesfully demand tribute from 5 different civilizations by 210 CE</English>
+		<English>Succesfully demand tribute from 5 different civilizations by 210 AD</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元210年前成功勒索5个不同的文明</Chinese>
 	</TEXT>	
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_DOM_XIONGNU</Tag>
 		<English>It is the year 300 BC. The unification of the dispirate tribes of the Mongolian-Manchurian grasslands under Modu Chanyu affords the Xiongnu Confederation a great enough manpower to extend its influence into the neighboring regions and beyond.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前300年。蒙古-满洲草原上游牧部落在冒顿单于统治下的统一，为匈奴联盟提供了足够的人力，可以将其影响扩大到周边地区和其他地区。</Chinese>
+		<Chinese>公元前300年的第一缕阳光照耀着漠北草原。蒙古-满洲草原上的游牧部落在冒顿单于的统治下完成了统一，并为匈奴联盟提供了足够的人力，他们将把影响力扩大到周边和其他地区。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU1_TITLE</Tag>
@@ -33,13 +33,13 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU2</Tag>
-		<English>Be the largest civilization in the world in 210 CE</English>
+		<English>Be the largest civilization in the world in 210 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元210年前成为领土面积最大的文明</Chinese>
+		<Chinese>公元210年时成为世界领土面积最大的文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CHINA_XIANBEI</Tag>
-		<English>Xianbei  Confederation</English>
+		<English>Xianbei Confederation</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>鲜卑部落联盟</Chinese>
 	</TEXT>	
@@ -95,19 +95,19 @@
 		<Tag>TXT_KEY_CIV_XIONGNU_PEOPLES</Tag>
 		<English>Xiongnu Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>匈奴人</Chinese>
+		<Chinese>匈奴诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_XIONGNU_GULI</Tag>
 		<English>Guli</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Guli</Chinese>
+		<Chinese>谷蠡</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_XIONGNU_GER_TEREG</Tag>
 		<English>Ger-Tereg</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>毡帐(Ger-Tereg)</Chinese>
+		<Chinese>毡帐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_XIONGNU_DESC</Tag>
@@ -141,7 +141,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_XGU3</Tag>
-		<English>Conquer a city in Europe and India by 560 CE</English>
+		<English>Conquer a city in Europe and India by 560 AD</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公元560年前在欧洲和印度各征服一座城市</Chinese>
 	</TEXT>	
@@ -149,6 +149,6 @@
 		<Tag>TXT_KEY_UP_XGU</Tag>
 		<English>Cavalry units starts with the Mobility promotion, + 25% production for Light Cavalry units.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>游牧传统：</Chinese>
+		<Chinese>骑兵单位初始自带移动力晋升（地形消耗移动力-1），组建轻骑兵单位时产能+25%。</Chinese>
 	</TEXT>
 </Civ4GameText>

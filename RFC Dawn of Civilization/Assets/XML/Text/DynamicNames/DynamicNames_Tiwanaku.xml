@@ -29,13 +29,13 @@
 		<Tag>TXT_KEY_UHV_TIW2</Tag>
 		<English>Have two cities with refined culture by 1000 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1000年前拥有2座城市with refined culture</Chinese>
+		<Chinese>公元1000年前拥有2座文化等级精致优雅（refined culture）的城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MALKU_HUYUSTUS</Tag>
 		<English>Malku Huyustus</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>蒂瓦纳库-马库胡尤斯图斯</Chinese>
+		<Chinese>蒂瓦纳库-马尔库·胡尤斯图斯</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_DESC</Tag>
@@ -53,13 +53,13 @@
 		<Tag>TXT_KEY_UHV_TIW3_TITLE</Tag>
 		<English>The Splendor of Tiwanaku</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>提瓦纳库的辉煌</Chinese>
+		<Chinese>蒂瓦纳库的辉煌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TIWANAKU_KALASASAYA</Tag>
 		<English>Kalasasaya</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Kalasasaya</Chinese>
+		<Chinese>卡拉萨萨亚神庙</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW2_TITLE</Tag>
@@ -83,19 +83,19 @@
 		<Tag>TXT_KEY_DOM_TIWANAKU</Tag>
 		<English>It is the year 110 AD. As the invention of ceramics strengthens existing trade routes, the pilgrimige site of Tiwanaku begins growing into a true city and the first great regional power since the fall of the Norte Chican Civilization. With an economy built on the seasonal swelling of visitors from far and wide, the city of Tiwanaku is primed to grow into an empire of great fame and glory.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元110年。随着陶瓷的发明加强了现有的贸易路线，蒂瓦纳库朝圣地开始成长为一个真正的城市和自北契卡文明衰落以来第一个强大的地区力量。随着来自四面八方的游客的季节性增长，蒂瓦纳库市的经济将发展成为一个享有盛名和荣耀的帝国。</Chinese>
+		<Chinese>公元110年的第一缕阳光照耀着安第斯山深处。随着陶瓷的发明，现有的贸易路线得到了巩固，蒂瓦纳库朝圣地开始成长为一个真正的城市，蒂瓦纳库也成为了自小北文明衰落以来第一个强大的地区势力。随着来自四面八方的游客的季节性增长，蒂瓦纳库城的经济不断发展，并将成为一个享有盛名和荣耀的帝国。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2革命政府</Chinese>
+		<Chinese>%s2革命运动政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW1_TITLE</Tag>
 		<English>The Great Andine Theocracy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>The Great Andine Theocracy</Chinese>
+		<Chinese>安第斯神权王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TIW3</Tag>
@@ -113,18 +113,18 @@
 		<Tag>TXT_KEY_DOM_TIWANAKU_600</Tag>
 		<English>It is the year 600 AD. The Tiwanaku Empire is in the middle of a cold war with their northern neighbors...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元600年。提瓦纳库帝国正处于与北方邻国的冷战中。。。</Chinese>
+		<Chinese>公元600年的第一缕阳光照耀着蒂瓦纳库城。蒂瓦纳库帝国正处于与北方邻国的冷战中。。。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_TIW</Tag>
 		<English>Extra Production in the Capital. +1 Priest Slot from Pagan Temples.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>首都提供额外产能；原始神庙+1神学家槽</Chinese>
+		<Chinese>首都提供额外产能；原始宗教神庙可将1单位市民转化为神学家</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TIWANAKU_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯人</Chinese>
+		<Chinese>安第斯诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

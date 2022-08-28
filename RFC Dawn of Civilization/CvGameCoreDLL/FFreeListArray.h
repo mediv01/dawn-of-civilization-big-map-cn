@@ -136,7 +136,8 @@ void FFreeListArray<T>::insert(T data)
 		growArray();
 	}
 
-	if (m_iFreeListCount > 0)
+	// mediv01 ·ÀÖ¹¿ÕÖ¸Õë´íÎó
+	if (m_iFreeListCount > 0 && m_pArray != NULL)
 	{
 		iIndex = m_iFreeListHead;
 		m_iFreeListHead = m_pArray[m_iFreeListHead].iNextFreeIndex;
@@ -165,10 +166,14 @@ void FFreeListArray<T>::insertAt(T data, int iIndex)
 
 	if (iIndex <= m_iLastIndex)
 	{
-		if (m_pArray[iIndex].iNextFreeIndex == FFreeList::INVALID_INDEX)
+		// mediv01 ·ÀÖ¹¿ÕÖ¸Õë
+		if (m_pArray != NULL)
 		{
-			m_pArray[iIndex].data = data;
-			return;
+			if (m_pArray[iIndex].iNextFreeIndex == FFreeList::INVALID_INDEX)
+			{
+				m_pArray[iIndex].data = data;
+				return;
+			}
 		}
 	}
 
@@ -238,10 +243,14 @@ void FFreeListArray<T>::insertFirst(T data)
 
 	for (iI = 0; iI <= m_iLastIndex; iI++)
 	{
-		if (m_pArray[iI].iNextFreeIndex != FFreeList::INVALID_INDEX)
+		// mediv01 ·ÀÖ¹¿ÕÖ¸Õë
+		if (m_pArray != NULL)
 		{
-			insertAt(data, iI);
-			return;
+			if (m_pArray[iI].iNextFreeIndex != FFreeList::INVALID_INDEX)
+			{
+				insertAt(data, iI);
+				return;
+			}
 		}
 	}
 

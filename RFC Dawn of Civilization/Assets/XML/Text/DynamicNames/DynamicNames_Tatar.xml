@@ -41,25 +41,25 @@
 		<Tag>TXT_KEY_CIV_MONGOLIA_TATAR_VASSAL</Tag>
 		<English>Khanate of Borjigin</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>博尔吉金汗国</Chinese>
+		<Chinese>孛儿只斤汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_FASCIST</Tag>
 		<English>Idel-Ural State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>理想国</Chinese>
+		<Chinese>伏尔加乌拉尔国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TATAR_NOYAN</Tag>
 		<English>Noyan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺颜(noyan)</Chinese>
+		<Chinese>那颜</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TATAR_NOYAN_PEDIA</Tag>
 		<English>Noyan, noyonwas a title of authority in the Mongol Empire and later periods. The Golden Horde's elites were descended from four Mongol clans, Qiyat, Manghut, Sicivut and Qonqirat. Initially, it was a term for a military commander in the army of Genghis Khan: the term noyon applied to commanders of tumens and mingghans, military units of 10,000 soldiers and 1000 soldiers respectively. During conquests, noyons used to receive territories for administration and they effectively became Mongolian aristocracy, which existed until the 20th century. Noyans were above the ordinary Mongols in social rank but below the descendants of Genghis and his brothers. They were sometimes called emir or bey in the Ulus of Jochi, the Ilkhanate and the Chagatai Khanate while the Yuan records gave the equivalent as guanren since their main task was waging warfare.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>诺颜(noyan)、诺雍(noyon)是蒙古帝国及以后时期的权威称号。金帐汗国的精英是由四个蒙古族家族的后裔，即齐亚特(Qiyat)、芒胡特(Manghut)、西西里特(Sicivut)和昆其拉(Qonqirat)。最初，它是成吉思汗军队中的军事指挥官的一个术语：noyon一词适用于图们和明干的指挥官，分别是一万人的军队和一千人的军队。在征服的过程中，noyan接受领土进行管理，他们实际上成为蒙古贵族，一直存在到20世纪。noyan的社会地位高于普通蒙古人，但低于成吉思汗及其兄弟的后代。他们有时被称为埃米尔或贝伊在乌鲁木齐，伊尔汗国和察合台汗国，而元朝给予的地位相当于关仁，因为他们的主要任务是进行战争。</Chinese>
+		<Chinese>那颜(noyan)，那颜(noyon)是蒙古帝国及以后时期的权威称号。金帐汗国的精英是由四个蒙古族家族的后裔，即齐亚特(Qiyat)、芒胡特(Manghut)、西西里特(Sicivut)和昆其拉(Qonqirat)。最初，它是成吉思汗军队中的军事指挥官的一个术语：noyon一词适用于图们和明干的指挥官，分别是一万人的军队和一千人的军队。在征服的过程中，noyan接受领土进行管理，他们实际上成为蒙古贵族，一直存在到20世纪。noyan的社会地位高于普通蒙古人，但低于成吉思汗及其兄弟的后代。他们有时被称为埃米尔或贝伊在乌鲁木齐，伊尔汗国和察合台汗国，而元朝给予的地位相当于关仁，因为他们的主要任务是进行战争。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_ADJECTIVE</Tag>
@@ -77,19 +77,19 @@
 		<Tag>TXT_KEY_CIV_TATAR_SOVIET_VASSAL</Tag>
 		<English>Tatar ASSR</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>鞑靼ASSR</Chinese>
+		<Chinese>鞑靼苏维埃社会主义共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_SIBIR</Tag>
 		<English>Khanate of Sibir</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>锡比尔汗国</Chinese>
+		<Chinese>西伯利亚汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT1</Tag>
 		<English>Acquire 15 Tatar cuisine materials in 1455AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1455年时拥有15个鞑靼料理(Tatar cuisine materials)</Chinese>
+		<Chinese>公元1455年时拥有15个鞑靼料理(Tatar cuisine materials)资源</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2</Tag>
@@ -113,7 +113,7 @@
 		<Tag>TXT_KEY_UP_TAT</Tag>
 		<English>Victorious Tatars and Mongols horseman can demand tribute</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>获胜的鞑靼人和蒙古骑兵可以要求贡品</Chinese>
+		<Chinese>鞑靼和蒙古骑兵在战斗中获胜可以获得金币</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_ASTRAKHAN</Tag>
@@ -137,13 +137,13 @@
 		<Tag>TXT_KEY_BUILDING_TATAR_ORDA</Tag>
 		<English>Orda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥达(Orda)</Chinese>
+		<Chinese>白帐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_TATAR</Tag>
 		<English>It is the year 1210AD. Batu, the eldest grandson of Genghis Khan, and his army has just conqued Volga Bulgaria. Moving on to southern steppes of the Ukraine and Crimean Peninsula, the conquered Kipchaks, Cumans, Volga Bulgars, Khwarezmians along with the Mongolian elites will form a new nation. </English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元1210年。成吉思汗长孙巴图和他的军队刚刚征服了保加利亚伏尔加。大军继续向乌克兰南部草原和克里米亚半岛进发。被征服的基普切克人、库曼人、伏尔加保加利亚人、克瓦雷兹米昂人以及蒙古精英将组成一个新的国家。</Chinese>
+		<Chinese>公元1210年的第一缕阳光照耀着乌拉尔山。成吉思汗的长孙拔都和他的军队刚刚征服了保加利亚伏尔加。大军继续向乌克兰南部草原和克里米亚半岛进发。被征服的钦察人、库曼人、伏尔加保加利亚人、花剌子模人以及蒙古精英将组成一个新的国家。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_PEDIA</Tag>
@@ -155,7 +155,7 @@
 		<Tag>TXT_KEY_CIV_TATAR_COMMUNIST</Tag>
 		<English>Tatar Union of the Godless</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>鞑靼无神联盟</Chinese>
+		<Chinese>鞑靼无神者联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_NAZI_VASSAL</Tag>
@@ -179,7 +179,7 @@
 		<Tag>TXT_KEY_BUILDING_TATAR_ORDA_STRATEGY</Tag>
 		<English>Orda</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥达(Orda)</Chinese>
+		<Chinese>白帐</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_KAZAN</Tag>
@@ -191,13 +191,13 @@
 		<Tag>TXT_KEY_TATAR_YOKE_UP</Tag>
 		<English>You have received %d1 [ICON_GOLD] from %s2 yoke.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>您已收到来自%s2奴隶的%d1[ICON_GOLD]</Chinese>
+		<Chinese>您已收到来自%s2贡金%d1[ICON_GOLD]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TATAR_MONGOL_VASSAL</Tag>
 		<English>Kipchak Khanate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>基普恰克汗国</Chinese>
+		<Chinese>钦察汗国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_TAT2_EPIC</Tag>
@@ -218,6 +218,12 @@
 		<Chinese>鞑靼斯坦共和国</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_TATAR_REPUBLIC</Tag>
+		<English>Republic of Tatarstan</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>鞑靼斯坦共和国</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_LEADER_UZBEG_PEDIA</Tag>
 		<English>[H1]Uzbeg Khan[\H1][NEWLINE][BOLD]Sultan of the Golden Horde[\BOLD][NEWLINE][BOLD]Lived: [\BOLD]1282?341[NEWLINE][PARAGRAPH:2]Sultan Mohammed 璎?? Beg, better known as Uzbeg or 璎焍eg was the longest-reigning khan of the Golden Horde, under whose rule the state reached its zenith. He urged the Mongol elite to convert to Islam, but at the same time, he preserved the lives of Christians and pagans such as Russians, Circassians, Alans, Finno-Ugric people, and Crimean Greeks as long as they continued to pay the jizyah in subjection to Islamic rule. From 璎?? Beg onwards, the khans of the Golden Horde were all Muslim.</English>
 		<L1/><L2/><L3/><L4/>
@@ -233,7 +239,7 @@
 		<Tag>TXT_KEY_CIV_TATAR_PEOPLES</Tag>
 		<English>Turco-Mongol People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>鞑靼人</Chinese>
+		<Chinese>突厥-蒙古诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_RUSSIA_TATAR_VASSAL</Tag>

@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_EGYPT_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>埃及王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_OLD_KINGDOM</Tag>
 		<English>Old Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1古王国</Chinese>
+		<Chinese>埃及古王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_ADJECTIVE</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_EGYPTIAN_ETHIOPIA</Tag>
 		<English>Kingdom of Punt</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>朋特王国</Chinese>
+		<Chinese>蓬特王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_FATIMID</Tag>
@@ -35,7 +35,7 @@
 		<Tag>TXT_KEY_CIV_EGYPT_FASCIST</Tag>
 		<English>Officers' %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军国</Chinese>
+		<Chinese>埃及军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_DESC</Tag>
@@ -47,7 +47,7 @@
 		<Tag>TXT_KEY_CIV_EGYPT_PEOPLES</Tag>
 		<English>Peoples of the Nile</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>尼罗河人</Chinese>
+		<Chinese>埃及古王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_MAMLUK</Tag>
@@ -83,24 +83,24 @@
 		<Tag>TXT_KEY_CIV_EGYPT_MIDDLE_KINGDOM</Tag>
 		<English>Middle Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1中王国</Chinese>
+		<Chinese>埃及中王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPTIAN_PHOENICIA</Tag>
 		<English>Province of Retjenu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>雷杰努省</Chinese>
+		<Chinese>雷切努省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_NEW_KINGDOM</Tag>
 		<English>New Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1新王国</Chinese>
+		<Chinese>埃及新王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EGYPT_COMMUNIST</Tag>
 		<English>Liberation Rally of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1自由王国</Chinese>
+		<Chinese>埃及解放大会政府</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -5,22 +5,28 @@
 		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_ITALIA</Tag>
 		<English>Italia: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Italia: %d1 / %d2</Chinese>
+		<Chinese>意大利: %d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SCOTLAND_SHELTRON</Tag>
 		<English>Sheltron</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>sheltron</Chinese>
+		<Chinese>苏格兰盾阵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_GERMANIA</Tag>
 		<English>Germania: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Germania: %d1 / %d2</Chinese>
+		<Chinese>日耳曼: %d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SCOTLAND_ADJECTIVE</Tag>
+		<English>Scottish</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>苏格兰</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_SCOTLAND_SHORT_DESC</Tag>
 		<English>Scottish</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>苏格兰</Chinese>
@@ -33,15 +39,15 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_CEL</Tag>
-		<English>Cities start with extra [ICON_CULTURE]. +2 [ICON_PRODUCTION] on unimproved forests.</English>
+		<English>Cities start with extra [ICON_CULTURE]. +2 [ICON_PRODUCTION] on unimproved forests in particular civic.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>城市开始时提供额外[ICON_CULTURE]，未开发的森林地块+2[ICON_PRODUCTION]</Chinese>
+		<Chinese>新建城市提供额外[ICON_CULTURE]，使用特定政体时未开发的森林地块+2[ICON_PRODUCTION]</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SCOTTISH_SHIELING</Tag>
 		<English>Shieling</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Shieling</Chinese>
+		<Chinese>牧羊场</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_SCOTLAND_ADJECTIVE</Tag>
@@ -77,7 +83,7 @@
 		<Tag>TXT_KEY_CIV_CELTIA_PEOPLES</Tag>
 		<English>Urnfield Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>恩菲尔德人</Chinese>
+		<Chinese>凯尔特诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CEL2_TITLE</Tag>
@@ -89,13 +95,13 @@
 		<Tag>TXT_KEY_CIV_CELTIA_FASCIST</Tag>
 		<English>Resurrectionist %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1复兴党</Chinese>
+		<Chinese>凯尔特复兴党军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_BRITANNIA</Tag>
 		<English>Britannia: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Britannia: %d1 / %d2</Chinese>
+		<Chinese>不列颠: %d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_SCOTLAND_SHORT_DESC</Tag>
@@ -107,7 +113,7 @@
 		<Tag>TXT_KEY_VICTORY_CELTIA_CONTROL_GALLIA</Tag>
 		<English>Gallia: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Gallia: %d1 / %d2</Chinese>
+		<Chinese>高卢: %d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CEL3_TITLE</Tag>
@@ -131,7 +137,7 @@
 		<Tag>TXT_KEY_CIV_CELTIA_SHORT_DESC</Tag>
 		<English>Celtia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>苏格兰</Chinese>
+		<Chinese>凯尔特</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SCOTLAND_DESC</Tag>
@@ -149,13 +155,13 @@
 		<Tag>TXT_KEY_DOM_CELTIA</Tag>
 		<English>It is the year 1200 BC. As the social structure of the Germanic Celtic culture grows in its complexity, an elite class of chieftains and warriors begin taking the first steps towards consolidating power. With an advanced knowledge of Metal Working and abundant fertile land, the Celtic culture is set to spread far and wide.</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元前1200年。随着日耳曼凯尔特文化的社会结构日益复杂，一个精英阶层的酋长和战士开始迈出巩固权力的第一步。凭借先进的金属加工知识和肥沃的土地，凯尔特人的文化将被广泛传播。</Chinese>
+		<Chinese>公元前1200年的第一缕阳光照耀着日耳曼的森林。随着日耳曼凯尔特文化的社会结构日益复杂化，一个由酋长和勇士组成的精英阶层开始迈出巩固权力的第一步。凭借掌握的先进的金属加工知识以及拥有的肥沃的土地，凯尔特文化将被广泛传播。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_ROME_GERMANIA</Tag>
 		<English>Magna Germania</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>日耳曼尼亚</Chinese>
+		<Chinese>大日耳曼尼亚</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_IRELAND_DESC</Tag>
@@ -173,7 +179,7 @@
 		<Tag>TXT_KEY_UHV_CEL3</Tag>
 		<English>Be the most cultured Civilization in the world in 200 BC, 1 BC, and 60 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前200年，公元前1年，公元60年成为世界上文化最高的文明</Chinese>
+		<Chinese>在公元前200年，公元前1年以及公元60年均成为世界上文化最高的文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CAPITALS_RAZED</Tag>
@@ -207,51 +213,51 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_SCO</Tag>
-		<English>Cities start with extra Culture.</English>
+		<English>Cities start with extra [ICON_CULTURE].</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>城市开始时提供额外文化</Chinese>
+		<Chinese>新建城市提供额外[ICON_CULTURE]。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CEL2</Tag>
 		<English>Control 3 cities in Gallia and Germania and 1 in Italia, Iberia, and Britannia in 1 BC</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元前1年时在Gallia和Germania控制各3个城市，在Italia、Iberia和Britannia控制各1个城市</Chinese>
+		<Chinese>公元前1年时在高卢和日耳曼尼亚各控制3个城市，在意大利、伊比利亚和不列颠控制各1个城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CEL1_TITLE</Tag>
 		<English>Brennus' Legacy</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>布伦纳斯的辉煌</Chinese>
+		<Chinese>布雷努斯的辉煌</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_ROME_GALLIA</Tag>
 		<English>Magna Gallia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>加利亚</Chinese>
+		<Chinese>大高卢</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CELTIC_GALLIC_WARRIOR</Tag>
 		<English>Gaesatae</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Gaesatae</Chinese>
+		<Chinese>高卢枪佣兵</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_DOM_SCOTLAND</Tag>
 		<English>It is the year 960 AD. While you are the sole ruler over some loyal subjects, most Scottish men still remember the shadows of the past. Your goal is to unite all the tribes and clans of Scotland and establish the "last free kingdom".[NEWLINE][NEWLINE]You can choose to pass the old walls of Hadrian or stay behind it, but it would be wise to gather some mighty allies on the Continent. Whatever path you choose, it is clear to you: your nation is destined to survive the storms of centuries to come, and be bright forever. Make the Highlanders proud and show the world: Scotland, be foe or ally, solid as a rock!</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元960年，虽然你是一些忠诚臣民的唯一统治者，但大多数苏格兰人仍然记得过去的阴影。你的目标是团结苏格兰所有的部落和部族，建立“最后的自由王国”。[NEWLINE][NEWLINE]你可以选择越过哈德良的旧墙，也可以留在它后面，但是在欧洲大陆上召集一些强大的盟友是明智的。无论你选择什么样的道路，你都很清楚：你的国家注定要在未来几个世纪的风暴中幸存下来，永远光辉灿烂。让高地人骄傲，向全世界展示：苏格兰，是敌人还是盟友，坚如磐石！</Chinese>
+		<Chinese>公元960年的第一缕阳光照耀着苏格兰高地，虽然你是这些忠实的臣民们唯一的统治者，但绝大多数苏格兰人仍然铭记着过去的阴影。你的目标是团结苏格兰所有的部落和氏族，并建立“最后的自由王国”。[NEWLINE][NEWLINE]你可以选择越过古老的哈德良城墙，也可以在墙后驻足，但是在欧洲大陆上寻找一些强大的盟友是明智的选择。无论你选择什么样的道路，你都很清楚：你的国家注定要在未来几个世纪的风暴中幸存下来，永远光辉灿烂。让高地人骄傲，向全世界宣示：苏格兰，无论是敌是友，始终坚如磐石！</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_ROME_BRITANNIA</Tag>
 		<English>Magna Britannia</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>不列颠</Chinese>
+		<Chinese>大不列颠</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_CELTIA_COMMUNIST</Tag>
 		<English>%s1 People's Union</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1人民联邦</Chinese>
+		<Chinese>凯尔特人民联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_MOST_CULTURED_CIVILIZATION</Tag>
@@ -263,6 +269,6 @@
 		<Tag>TXT_KEY_CIV_CELTIA_DEFAULT</Tag>
 		<English>%s2 Culture</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2文化</Chinese>
+		<Chinese>凯尔特文化</Chinese>
 	</TEXT>
 </Civ4GameText>

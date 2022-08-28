@@ -47,13 +47,13 @@
 		<Tag>TXT_KEY_CIV_MUGHALS_PEOPLES</Tag>
 		<English>Ghorid Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>古尔人</Chinese>
+		<Chinese>古尔诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUGHAL_INDIA</Tag>
 		<English>Deccan Sultanates</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>德干</Chinese>
+		<Chinese>德干苏丹国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MUGHALS_DESC</Tag>
@@ -77,6 +77,6 @@
 		<Tag>TXT_KEY_CIV_MUGHAL_VASSAL</Tag>
 		<English>Kewab of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1附属国</Chinese>
+		<Chinese>%s1凯瓦卜</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -5,7 +5,7 @@
 		<Tag>TXT_KEY_CIV_MOROCCO_FASCIST</Tag>
 		<English>%s2 State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2军政府</Chinese>
+		<Chinese>摩洛哥国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_TAIFAS</Tag>
@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_MOORS_ALMOHAD</Tag>
 		<English>Almohad</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿尔蒙哈德</Chinese>
+		<Chinese>阿尔摩哈德</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_MOROCCO</Tag>
@@ -35,13 +35,13 @@
 		<Tag>TXT_KEY_CIV_MOORISH_MALI</Tag>
 		<English>Pashalik of Timbuktu</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>廷巴图克沙巴克</Chinese>
+		<Chinese>廷巴克图帕夏里克</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_FASCIST</Tag>
 		<English>%s2 State</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2军政府</Chinese>
+		<Chinese>摩尔国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORISH_ARABIA</Tag>
@@ -59,25 +59,25 @@
 		<Tag>TXT_KEY_CIV_MOROCCO_DESC</Tag>
 		<English>The Moroccans</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese></Chinese>
+		<Chinese>摩洛哥文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOROCCO_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>摩洛哥王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>摩尔王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_EMIRATE_OF</Tag>
 		<English>Emirate of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1酋长国</Chinese>
+		<Chinese>摩尔酋长国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOORS_SHORT_DESC</Tag>
@@ -93,9 +93,9 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOROCCO_PEOPLES</Tag>
-		<English>摩洛哥人</English>
+		<English>Moroccan People</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>摩洛哥人</Chinese>
+		<Chinese>摩洛哥诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MOROCCO_ADJECTIVE</Tag>
@@ -119,6 +119,6 @@
 		<Tag>TXT_KEY_CIV_MOORS_PEOPLES</Tag>
 		<English>Andalusian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>摩尔人</Chinese>
+		<Chinese>安达卢西亚诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

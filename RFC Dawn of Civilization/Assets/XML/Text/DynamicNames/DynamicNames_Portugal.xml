@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>葡萄牙王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_EXILE</Tag>
@@ -17,17 +16,17 @@
 		<Tag>TXT_KEY_CIV_PORTUGAL_BRAZIL</Tag>
 		<English>United Kingdom of %s1 and Brazil</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1-巴西联合王国</Chinese>
+		<Chinese>葡萄牙-巴西联合王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_COMMUNIST</Tag>
 		<English>%s2 Continuing Revolutionary Process</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2革命政府</Chinese>
+		<Chinese>%s2继续革命政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_ADJECTIVE</Tag>
-		<English></English>
+		<English>Portuguese</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>葡萄牙</Chinese>
 	</TEXT>	
@@ -47,7 +46,7 @@
 		<Tag>TXT_KEY_CIV_PORTUGAL_PEOPLES</Tag>
 		<English>Lusitanian Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>卢西塔尼亚人</Chinese>
+		<Chinese>卢西塔尼亚诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_BRAZIL</Tag>
@@ -77,13 +76,13 @@
 		<Tag>TXT_KEY_CIV_PORTUGAL_FASCIST</Tag>
 		<English>New State of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>新葡萄牙国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGUESE_INDIA</Tag>
 		<English>Viceroyalty of %s2 %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>葡属印度%2总督区</Chinese>
+		<Chinese>葡属印度总督区</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_SHORT_DESC</Tag>

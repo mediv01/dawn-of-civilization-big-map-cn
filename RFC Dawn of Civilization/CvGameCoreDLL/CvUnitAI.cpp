@@ -73,7 +73,7 @@ void CvUnitAI::AI_reset(UnitAITypes eUnitAI)
 bool CvUnitAI::AI_update()
 {
 	PROFILE_FUNC();
-
+	GC.countFunctionCall("CvUnitAI::AI_update()");
 	CvUnit* pTransportUnit;
 
 	FAssertMsg(canMove(), "canMove is expected to be true");
@@ -86,7 +86,7 @@ bool CvUnitAI::AI_update()
 	CyArgsList argsList;
 	argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
 	long lResult=0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
+	GC.callPythoFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
 	delete pyUnit;	// python fxn must not hold on to this pointer
 	if (lResult == 1)
 	{
@@ -827,8 +827,8 @@ int CvUnitAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy) const
 
 	iStrengthFactor = ((iOurFirepower + iTheirFirepower + 1) / 2);
 
-	iDamageToUs = std::max(1,((GC.getDefineINT("COMBAT_DAMAGE") * (iTheirFirepower + iStrengthFactor)) / (iOurFirepower + iStrengthFactor)));
-	iDamageToThem = std::max(1,((GC.getDefineINT("COMBAT_DAMAGE") * (iOurFirepower + iStrengthFactor)) / (iTheirFirepower + iStrengthFactor)));
+	iDamageToUs = std::max(1,((COMBAT_DAMAGE * (iTheirFirepower + iStrengthFactor)) / (iOurFirepower + iStrengthFactor)));
+	iDamageToThem = std::max(1,((COMBAT_DAMAGE * (iOurFirepower + iStrengthFactor)) / (iTheirFirepower + iStrengthFactor)));
 
 	iHitLimitThem = pDefender->maxHitPoints() - combatLimitAgainst(pDefender);
 
@@ -886,7 +886,7 @@ bool CvUnitAI::AI_bestCityBuild(CvCity* pCity, CvPlot** ppBestPlot, BuildTypes* 
 				{
 					if (pLoopPlot != pIgnorePlot)
 					{
-						if ((pLoopPlot->getImprovementType() == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(pLoopPlot->getImprovementType() == (GC.getDefineINT("RUINS_IMPROVEMENT")))))
+						if ((pLoopPlot->getImprovementType() == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(pLoopPlot->getImprovementType() == (RUINS_IMPROVEMENT))))
 						{
 							iValue = pCity->AI_getBestBuildValue(iI);
 
@@ -4177,7 +4177,7 @@ void CvUnitAI::AI_spyMove()
 
 		if (plot()->isCity() && plot()->getTeam() != getTeam())
 		{
-			if (getFortifyTurns() >= GC.getDefineINT("MAX_FORTIFY_TURNS"))
+			if (getFortifyTurns() >= MAX_FORTIFY_TURNS)
 			{
 				if (AI_espionageSpy())
 				{
@@ -9772,6 +9772,8 @@ bool CvUnitAI::AI_discover(bool bThisTurnOnly, bool bFirstResearchOnly)
 		iFirstResearch = 0;
 		iSecondResearch = 0;
 
+		// 防止未赋值错误 mediv01
+		iFirstLeft = 0;
 		if (eFirstDiscoverTech != NO_TECH)
 		{
 			iFirstLeft = GET_TEAM(getTeam()).getResearchLeft(eFirstDiscoverTech);
@@ -11049,6 +11051,11 @@ bool CvUnitAI::AI_goody(int iRange)
 		return false;
 	}
 
+	//mediv01 AI能否自动寻找蘑菇的选项
+	if (CVUNITAI_AI_CAN_NOT_TAKE_GOODY == 1) {
+		return false;
+	}
+
 	iSearchRange = AI_searchRange(iRange);
 
 	iBestValue = 0;
@@ -12286,7 +12293,7 @@ bool CvUnitAI::AI_pirateBlockade()
 						{
 							int iBlockadedCount = 0;
 							int iPopulationValue = 0;
-							int iRange = GC.getDefineINT("SHIP_BLOCKADE_RANGE") - 1;
+							int iRange = SHIP_BLOCKADE_RANGE - 1;
 							for (int iX = -iRange; iX <= iRange; iX++)
 							{
 								for (int iY = -iRange; iY <= iRange; iY++)
@@ -14323,7 +14330,7 @@ bool CvUnitAI::AI_improveLocalPlot(int iRange, CvCity* pIgnoreCity)
 
 										if (GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION))
 										{
-											if (pLoopPlot->getImprovementType() != NO_IMPROVEMENT && pLoopPlot->getImprovementType() != GC.getDefineINT("RUINS_IMPROVEMENT"))
+											if (pLoopPlot->getImprovementType() != NO_IMPROVEMENT && pLoopPlot->getImprovementType() != RUINS_IMPROVEMENT)
 											{
 												bAllowed = false;
 											}
@@ -14614,7 +14621,7 @@ bool CvUnitAI::AI_irrigateTerritory()
 				{
 					eImprovement = pLoopPlot->getImprovementType();
 
-					if ((eImprovement == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(eImprovement == (GC.getDefineINT("RUINS_IMPROVEMENT")))))
+					if ((eImprovement == NO_IMPROVEMENT) || !(GET_PLAYER(getOwnerINLINE()).isOption(PLAYEROPTION_SAFE_AUTOMATION) && !(eImprovement == (RUINS_IMPROVEMENT))))
 					{
 						if ((eImprovement == NO_IMPROVEMENT) || !(GC.getImprovementInfo(eImprovement).isCarriesIrrigation()))
 						{
@@ -14898,7 +14905,7 @@ bool CvUnitAI::AI_improveBonus(int iMinValue, CvPlot** ppBestPlot, BuildTypes* p
                         {
                         	bDoImprove = false;
                         }
-                        else if (eImprovement == (ImprovementTypes)(GC.getDefineINT("RUINS_IMPROVEMENT")))
+                        else if (eImprovement == (ImprovementTypes)(RUINS_IMPROVEMENT))
                         {
                             bDoImprove = true;
                         }
@@ -15590,7 +15597,11 @@ bool CvUnitAI::AI_travelToUpgradeCity()
 
 			int iClosestCityPathTurns;
 			CvPlot* pThisTurnPlotForAirlift = NULL;
-			bool bCanPathToClosestCity = generatePath(pClosestCity->plot(), 0, true, &iClosestCityPathTurns);
+			bool bCanPathToClosestCity = false;
+			// mediv01 修复空指针问题
+			if (pClosestCity != NULL) {
+				bCanPathToClosestCity = generatePath(pClosestCity->plot(), 0, true, &iClosestCityPathTurns);
+			}
 			if (bCanPathToClosestCity)
 			{
 				pThisTurnPlotForAirlift = getPathEndTurnPlot();
@@ -17519,7 +17530,10 @@ int CvUnitAI::AI_pillageValue(CvPlot* pPlot, int iBonusValueThreshold)
 			}
 		}
 	}
-
+	//mediv01   不会自动劫掠
+	if (GC.m_iCVUNITAI_AI_NOT_PILLAGE == 1) {
+		iValue = 0;
+	}
 	return iValue;
 }
 
@@ -17682,7 +17696,7 @@ int CvUnitAI::AI_finalOddsThreshold(CvPlot* pPlot, int iOddsThreshold)
 	{
 		if (pCity->getDefenseDamage() < ((GC.getMAX_CITY_DEFENSE_DAMAGE() * 3) / 4))
 		{
-			iFinalOddsThreshold += std::max(0, (pCity->getDefenseDamage() - pCity->getLastDefenseDamage() - (GC.getDefineINT("CITY_DEFENSE_DAMAGE_HEAL_RATE") * 2)));
+			iFinalOddsThreshold += std::max(0, (pCity->getDefenseDamage() - pCity->getLastDefenseDamage() - (CITY_DEFENSE_DAMAGE_HEAL_RATE * 2)));
 		}
 	}
 

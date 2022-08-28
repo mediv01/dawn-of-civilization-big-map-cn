@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Colors -->
+<Civ4GameText>
+	<TEXT>
+		<Tag>TXT_KEY_DLLTEXT00001</Tag>
+		<English>征服了 </English>
+		<L1/><L2/><L3/><L4/><Chinese>征服了</Chinese><French>征服了</French></TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DLLTEXT00002</Tag>
+		<English>征服文明获得金币:</English>
+		<L1/><L2/><L3/><L4/><Chinese>征服文明获得金币:</Chinese><French>征服文明获得金币:</French></TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DLLTEXT00003</Tag>
+		<English>消灭其他文明获得科技:   </English>
+		<L1/><L2/><L3/><L4/><Chinese>消灭其他文明获得科技: </Chinese><French>消灭其他文明获得科技: </French></TEXT>
+		
+	<TEXT>
+		<Tag>TXT_KEY_REGION_-1</Tag>
+		<English>中立区域 </English>
+		<L1/><L2/><L3/><L4/><Chinese>中立区域</Chinese><French>中立区域</French></TEXT>
+</Civ4GameText>

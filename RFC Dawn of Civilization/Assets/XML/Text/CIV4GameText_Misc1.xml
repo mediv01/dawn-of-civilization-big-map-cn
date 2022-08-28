@@ -4615,9 +4615,9 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_AUTOSAVING</Tag>
-		<English>Autosaving...</English>
+		<English></English>
 <L1 /><L2 /><L3 /><L4 />
-		<Chinese>自动保存...</Chinese>
+		<Chinese></Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MOVE_FOCUS_BACK_TO</Tag>
@@ -5101,9 +5101,9 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_LEGAL_LINE_1</Tag>
-		<English>&#169;2005 Firaxis Games, Inc. All Rights Reserved. Manufactured and marketed by Take Two Interactive, New York, NY.</English>
+		<English>©2005 Firaxis Games, Inc. All Rights Reserved. Manufactured and marketed by Take Two Interactive, New York, NY.</English>
 <L1 /><L2 /><L3 /><L4 />
-		<Chinese>&#169;Firaxis 游戏公司版权所有. Take Two 交互娱乐公司代理发行. 塞爱维·文明联盟俱乐部完全汉化,</Chinese>
+		<Chinese>©Firaxis 游戏公司版权所有. Take Two 交互娱乐公司代理发行. 塞爱维·文明联盟俱乐部完全汉化,</Chinese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_LEGAL_LINE_2</Tag>
@@ -6542,7 +6542,7 @@
 	<!-- freesand - japanese edition -->
 	<TEXT>
 		<Tag>TXT_KEY_LANGUAGE_5</Tag>
-		<English>中文</English>
+		<English>中文 </English>
 <L1 /><L2 /><L3 /><L4 />
 		<Chinese>中文</Chinese>
 	</TEXT>

@@ -18,6 +18,7 @@ void CyPlotPythonInterface1(python::class_<CyPlot>& x)
 	x
 		.def("isNone", &CyPlot::isNone, "bool ()")
 		.def("erase", &CyPlot::erase, "void ()")
+		.def("updateSight", &CyPlot::updateSight, "void (int PlayerID, bool withflog)")
 		.def("eraseAIDevelopment", &CyPlot::eraseAIDevelopment, "void ()") //Rhye
 		.def("getPoint", &CyPlot::getPoint, "NiPoint3 ()")
 		.def("getTeam", &CyPlot::getTeam, "int ()")

@@ -23,7 +23,7 @@
 		<Tag>TXT_KEY_CIV_KOREA_PEOPLES</Tag>
 		<English>Korean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>朝鲜人</Chinese>
+		<Chinese>朝鲜诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KOREA_GOGURYEO</Tag>
@@ -45,7 +45,7 @@
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KOREA_ADJECTIVE</Tag>
-		<English></English>
+		<English>Korean</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>朝鲜</Chinese>
 	</TEXT>	
@@ -53,13 +53,13 @@
 		<Tag>TXT_KEY_CIV_KOREA_SAMHAN</Tag>
 		<English>Samhan Confederacies</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>朝鲜联邦</Chinese>
+		<Chinese>三韩部落联盟</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KOREA_FASCIST</Tag>
 		<English>Supreme Council for National Reconstruction</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>朝鲜最高委员会</Chinese>
+		<Chinese>朝鲜国家重建最高委员会</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KOREA_GORYEO</Tag>

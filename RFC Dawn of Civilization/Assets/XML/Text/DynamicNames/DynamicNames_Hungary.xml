@@ -11,13 +11,13 @@
 		<Tag>TXT_KEY_CIV_HUNGARY_PEOPLES</Tag>
 		<English>Magyar Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>马扎儿人</Chinese>
+		<Chinese>马扎尔诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_FASCIST</Tag>
 		<English>Regency of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1军政府</Chinese>
+		<Chinese>匈牙利摄政军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_SHORT_DESC</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_HUNGARU_AUSTRO_HUNGARIAN</Tag>
 		<English>Austro-Hungarian</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥匈帝国</Chinese>
+		<Chinese>奥匈</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HUNGARY_ADJECTIVE</Tag>
@@ -41,6 +41,6 @@
 		<Tag>TXT_KEY_CIV_HUNGARY_DEFAULT</Tag>
 		<English>Grand Principality of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1大公国</Chinese>
+		<Chinese>匈牙利大公国</Chinese>
 	</TEXT>
 </Civ4GameText>

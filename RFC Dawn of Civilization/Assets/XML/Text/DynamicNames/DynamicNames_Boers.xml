@@ -26,6 +26,12 @@
 		<Chinese>布尔</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_BOERS_PEOPLES</Tag>
+		<English>Boer</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>布尔</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_SOUTH_AFRICA</Tag>
 		<English>South Africa</English>
 		<L1/><L2/><L3/><L4/>
@@ -41,19 +47,19 @@
 		<Tag>TXT_KEY_CIV_BOER_TRANSVAAL</Tag>
 		<English>Republic of Transvaal</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特兰斯瓦共和国</Chinese>
+		<Chinese>德兰士瓦共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_NATALIA</Tag>
 		<English>Natalia Republic</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>娜塔莉亚共和国</Chinese>
+		<Chinese>纳塔利亚共和国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_NETHERLANDS</Tag>
 		<English>Orange states</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>奥兰治州</Chinese>
+		<Chinese>奥兰治邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_EMPIRE</Tag>
@@ -83,18 +89,18 @@
 		<Tag>TXT_KEY_CIV_BOER_ENGLAND</Tag>
 		<English>Kaap de Goede Hoop</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>好望角</Chinese>
+		<Chinese>开普殖民地</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_PEOPLES</Tag>
 		<English>Boer Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>布尔人</Chinese>
+		<Chinese>布尔诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BOER_FASCIST</Tag>
 		<English>Afrikaner Volksstaat</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>非洲人民国</Chinese>
+		<Chinese>布尔人国民阵线</Chinese>
 	</TEXT>
 </Civ4GameText>

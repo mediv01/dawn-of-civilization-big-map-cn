@@ -65,7 +65,7 @@ bool CvMapGenerator::canPlaceBonusAt(BonusTypes eBonus, int iX, int iY, bool bIg
 	CyPlot kPlot = CyPlot(pPlot);
 	CyArgsList argsList;
 	argsList.add(gDLL->getPythonIFace()->makePythonObject(&kPlot));
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "canPlaceBonusAt", argsList.makeFunctionArgs(), &result))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "canPlaceBonusAt", argsList.makeFunctionArgs(), &result))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -189,7 +189,7 @@ bool CvMapGenerator::canPlaceGoodyAt(ImprovementTypes eImprovement, int iX, int 
 	CyPlot kPlot = CyPlot(pPlot);
 	CyArgsList argsList;
 	argsList.add(gDLL->getPythonIFace()->makePythonObject(&kPlot));
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "canPlaceGoodyAt", argsList.makeFunctionArgs(), &result))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "canPlaceGoodyAt", argsList.makeFunctionArgs(), &result))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl()) // Python override
 		{
@@ -262,7 +262,7 @@ void CvMapGenerator::addLakes()
 {
 	PROFILE("CvMapGenerator::addLakes");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addLakes"))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addLakes"))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -300,7 +300,7 @@ void CvMapGenerator::addRivers()
 {
 	PROFILE("CvMapGenerator::addRivers");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addRivers"))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addRivers"))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -465,7 +465,7 @@ void CvMapGenerator::doRiver(CvPlot *pStartPlot, CardinalDirectionTypes eLastCar
 		CyPlot kPlot = CyPlot(pRiverPlot);
 		CyArgsList argsList;
 		argsList.add(gDLL->getPythonIFace()->makePythonObject(&kPlot));
-		if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getRiverStartCardinalDirection", argsList.makeFunctionArgs(), &result))
+		if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getRiverStartCardinalDirection", argsList.makeFunctionArgs(), &result))
 		{
 			if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl()) // Python override
 			{
@@ -644,7 +644,7 @@ void CvMapGenerator::addFeatures()
 {
 	PROFILE("CvMapGenerator::addFeatures");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addFeatures", NULL))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addFeatures", NULL))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -675,7 +675,7 @@ void CvMapGenerator::addBonuses()
 	PROFILE("CvMapGenerator::addBonuses");
 	gDLL->NiTextOut("Adding Bonuses...");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addBonuses", NULL))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addBonuses", NULL))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -692,7 +692,7 @@ void CvMapGenerator::addBonuses()
 			{
 				CyArgsList argsList;
 				argsList.add(iI);
-				if (!gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addBonusType", argsList.makeFunctionArgs()) || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+				if (!GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addBonusType", argsList.makeFunctionArgs()) || gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 				{
 					if (GC.getBonusInfo((BonusTypes)iI).isOneArea())
 					{
@@ -888,7 +888,7 @@ void CvMapGenerator::addGoodies()
 {
 	PROFILE("CvMapGenerator::addGoodies");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addGoodies"))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "addGoodies"))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -999,9 +999,9 @@ void CvMapGenerator::generateRandomMap()
 {
 	PROFILE("generateRandomMap()");
 
-	gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "beforeGeneration");
+	GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "beforeGeneration");
 
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generateRandomMap"))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generateRandomMap"))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 		{
@@ -1025,7 +1025,7 @@ void CvMapGenerator::generatePlotTypes()
 	int iNumPlots = GC.getMapINLINE().numPlotsINLINE();
 
 	std::vector<int> plotTypesOut;
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generatePlotTypes", NULL, &plotTypesOut) && !gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generatePlotTypes", NULL, &plotTypesOut) && !gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		// Python override
 		FAssertMsg((int)plotTypesOut.size() == iNumPlots, "python generatePlotTypes() should return list with length numPlotsINLINE");
@@ -1052,7 +1052,7 @@ void CvMapGenerator::generateTerrain()
 	PROFILE("generateTerrain()");
 
 	std::vector<int> terrainMapOut;
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generateTerrainTypes", NULL, &terrainMapOut) && !gDLL->getPythonIFace()->pythonUsingDefaultImpl())
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "generateTerrainTypes", NULL, &terrainMapOut) && !gDLL->getPythonIFace()->pythonUsingDefaultImpl())
 	{
 		 // Python override
 		int iNumPlots = GC.getMapINLINE().numPlotsINLINE();
@@ -1071,7 +1071,7 @@ void CvMapGenerator::afterGeneration()
 {
 	PROFILE("CvMapGenerator::afterGeneration");
 
-	gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "afterGeneration");
+	GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "afterGeneration");
 }
 
 void CvMapGenerator::setPlotTypes(const int* paiPlotTypes)
@@ -1123,7 +1123,7 @@ int CvMapGenerator::getRiverValueAtPlot(CvPlot* pPlot)
 	CyPlot kPlot = CyPlot(pPlot);
 	CyArgsList argsList;
 	argsList.add(gDLL->getPythonIFace()->makePythonObject(&kPlot));
-	if (gDLL->getPythonIFace()->callFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getRiverAltitude", argsList.makeFunctionArgs(), &result))
+	if (GC.callPythoFunction(gDLL->getPythonIFace()->getMapScriptModule(), "getRiverAltitude", argsList.makeFunctionArgs(), &result))
 	{
 		if (!gDLL->getPythonIFace()->pythonUsingDefaultImpl()) // Python override
 		{

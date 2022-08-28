@@ -675,7 +675,7 @@
 			</UnitAIs>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<TerrainImpassables>
 				<TerrainImpassable>
@@ -723,6 +723,7 @@
 			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_WORKER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bRivalTerritory>1</bRivalTerritory>
 			<bFood>1</bFood>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -841,6 +842,12 @@
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>100</iWorkRate>
 			<iAsset>2</iAsset>
+			<GreatPeoples>
+				<GreatPeople>
+					<GreatPeopleType>SPECIALIST_SLAVE</GreatPeopleType>
+					<bGreatPeople>1</bGreatPeople>
+				</GreatPeople>
+			</GreatPeoples>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -1003,6 +1010,12 @@
 			<Strategy>TXT_KEY_UNIT_INDIAN_PUNJABI_WORKER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bFood>1</bFood>
+			<GreatPeoples>
+				<GreatPeople>
+					<GreatPeopleType>SPECIALIST_SLAVE</GreatPeopleType>
+					<bGreatPeople>1</bGreatPeople>
+				</GreatPeople>
+			</GreatPeoples>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_LABOURER</UnitClassUpgradeType>
@@ -1397,7 +1410,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>100</iWorkRate>
 			<iAsset>2</iAsset>
@@ -1425,6 +1438,12 @@
 			<Strategy>TXT_KEY_UNIT_LABOURER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bFood>1</bFood>
+			<GreatPeoples>
+				<GreatPeople>
+					<GreatPeopleType>SPECIALIST_SLAVE</GreatPeopleType>
+					<bGreatPeople>1</bGreatPeople>
+				</GreatPeople>
+			</GreatPeoples>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_WORKER</UnitAIType>
@@ -4811,12 +4830,6 @@
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HEAVY_SPEARMAN</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -9351,6 +9364,8 @@
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
+			<bHiddenNationality>1</bHiddenNationality>
+			<bAlwaysHostile>1</bAlwaysHostile>
 			<bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
 			<UnitAIs>
 				<UnitAI>
@@ -11415,18 +11430,6 @@
 			<bPillage>1</bPillage>
 			<bFirstStrikeImmune>1</bFirstStrikeImmune>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HORSEMAN</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -11506,18 +11509,6 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HORSEMAN</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -15228,7 +15219,31 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iWithdrawalProb>50</iWithdrawalProb>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<iUnitCombatMod>-25</iUnitCombatMod>
+				</UnitCombatMod>				
+			</UnitCombatMods>					
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+					<iUnitClassMod>25</iUnitClassMod>
+				</UnitClassAttackMod>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_ARQUEBUSIER</UnitClassType>
+					<iUnitClassMod>25</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>													
+			<iWithdrawalProb>30</iWithdrawalProb>
 			<iCityAttack>-25</iCityAttack>
 			<iCityDefense>-25</iCityDefense>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
@@ -20482,11 +20497,13 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
+			<StateReligion>RELIGION_CATHOLICISM</StateReligion>	
+			<StateReligion>RELIGION_PROTESTANTISM</StateReligion>							
 			<PrereqTech>TECH_CARTOGRAPHY</PrereqTech>
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>8</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>6</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20570,7 +20587,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>8</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>6</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20655,7 +20672,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>8</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>9</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20723,7 +20740,7 @@
 			<iCost>80</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>10</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>8</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20795,7 +20812,7 @@
 			<iCost>80</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>10</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>10</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20835,12 +20852,6 @@
 			<bHiddenNationality>1</bHiddenNationality>
 			<bAlwaysHostile>1</bAlwaysHostile>
 			<iWithdrawalProb>50</iWithdrawalProb>
-			<UnitClassUpgrades>
-				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_IRONCLAD</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
@@ -20872,7 +20883,7 @@
 			<iCost>90</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>6</iMoves>
+			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>10</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -20954,7 +20965,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>8</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>8</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21050,7 +21061,7 @@
 			<iCost>100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>6</iMoves>
+			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>12</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21112,7 +21123,7 @@
 			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>6</iMoves>
+			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>15</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21178,7 +21189,7 @@
 			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>7</iMoves>
+			<iMoves>14</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>18</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21243,7 +21254,7 @@
 			<iCost>100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>7</iMoves>
+			<iMoves>14</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>12</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21306,7 +21317,7 @@
 			<iCost>150</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>5</iMoves>
+			<iMoves>8</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>20</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21377,7 +21388,7 @@
 			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>7</iMoves>
+			<iMoves>11</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<TerrainImpassables>
 				<TerrainImpassable>
@@ -21456,7 +21467,7 @@
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>6</iMoves>
+			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>28</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21513,7 +21524,7 @@
 			<iCost>125</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>9</iMoves>
+			<iMoves>18</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>16</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21586,7 +21597,7 @@
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>11</iMoves>
+			<iMoves>22</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>24</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21686,7 +21697,7 @@
 			<iCost>170</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>13</iMoves>
+			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>20</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21782,7 +21793,7 @@
 			<iCost>240</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>9</iMoves>
+			<iMoves>18</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>40</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21845,7 +21856,7 @@
 			<iCost>280</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>10</iMoves>
+			<iMoves>20</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>40</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21915,7 +21926,7 @@
 			<iCost>225</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>11</iMoves>
+			<iMoves>22</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>30</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -21984,7 +21995,7 @@
 			<iCost>150</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>9</iMoves>
+			<iMoves>18</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>24</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -22049,7 +22060,7 @@
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>9</iMoves>
+			<iMoves>20</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>30</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -22119,7 +22130,7 @@
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
-			<iMoves>8</iMoves>
+			<iMoves>16</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>18</iCombat>
 			<iCombatLimit>100</iCombatLimit>
@@ -22181,7 +22192,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>6</iAirRange>
+			<iAirRange>9</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>12</iAirCombat>
@@ -22243,7 +22254,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>6</iAirRange>
+			<iAirRange>9</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>15</iAirCombat>
@@ -22305,7 +22316,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>6</iAirRange>
+			<iAirRange>9</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>15</iAirCombat>
@@ -22371,7 +22382,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>10</iAirRange>
+			<iAirRange>15</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>28</iAirCombat>
@@ -22430,7 +22441,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>12</iAirRange>
+			<iAirRange>18</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>28</iAirCombat>
@@ -22489,7 +22500,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>8</iAirRange>
+			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>18</iAirCombat>
@@ -22550,7 +22561,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>12</iAirRange>
+			<iAirRange>18</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>24</iAirCombat>
@@ -22612,7 +22623,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>4</iAirRange>
+			<iAirRange>6</iAirRange>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>40</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
@@ -22668,7 +22679,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>10</iAirRange>
+			<iAirRange>15</iAirRange>
 			<iNukeRange>-1</iNukeRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iAirCombat>20</iAirCombat>
@@ -22721,7 +22732,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
-			<iAirRange>8</iAirRange>
+			<iAirRange>12</iAirRange>
 			<iNukeRange>1</iNukeRange>
 			<iAirCombat>-1</iAirCombat>
 			<iXPValueDefense>4</iXPValueDefense>

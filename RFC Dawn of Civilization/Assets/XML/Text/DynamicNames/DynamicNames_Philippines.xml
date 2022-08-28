@@ -17,13 +17,13 @@
 		<Tag>TXT_KEY_CIV_PHILIPPINES_TONDO</Tag>
 		<English>Tondo</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>托多(Tondo)</Chinese>
+		<Chinese>汤都</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_DEFAULT</Tag>
 		<English>Kingdom of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1王国</Chinese>
+		<Chinese>汤都王国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_SHORT_DESC</Tag>
@@ -35,7 +35,7 @@
 		<Tag>TXT_KEY_CIV_PHILIPPINES_PEOPLES</Tag>
 		<English>Tondo Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>菲律宾人</Chinese>
+		<Chinese>汤都诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_THE</Tag>
@@ -47,12 +47,12 @@
 		<Tag>TXT_KEY_CIV_PHILIPPINES_BUTUAN</Tag>
 		<English>Butuan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>布屯(Butuan)</Chinese>
+		<Chinese>武端</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PHILIPPINES_RAJAHNATE</Tag>
 		<English>Rajahante of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Rajahante of %s1</Chinese>
+		<Chinese>菲律宾拉贾汗国</Chinese>
 	</TEXT>
 </Civ4GameText>

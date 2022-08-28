@@ -11,37 +11,37 @@
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_PEOPLES</Tag>
 		<English>Mexico Valley Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>墨西哥谷人</Chinese>
+		<Chinese>墨西哥谷地诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DESC</Tag>
 		<English>The Teotihuacanos</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺文明</Chinese>
+		<Chinese>特奥蒂华坎文明</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_ADJECTIVE</Tag>
 		<English>Teotihuacan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺</Chinese>
+		<Chinese>特奥蒂华坎</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_DEFAULT</Tag>
 		<English>Altepetl of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Altepetl of %s1</Chinese>
+		<Chinese>%s1城邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_ALTEPETL</Tag>
 		<English>%s2 Altepemeh</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2 Altepemeh</Chinese>
+		<Chinese>%s2城邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_SHORT_DESC</Tag>
 		<English>Teotihuacan</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>特奥蒂瓦卡诺</Chinese>
+		<Chinese>特奥蒂华坎</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_TEOTIHUACAN_TOLTEC</Tag>

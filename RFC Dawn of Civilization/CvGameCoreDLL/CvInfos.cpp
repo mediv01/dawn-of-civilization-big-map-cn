@@ -3606,6 +3606,13 @@ void CvUnitInfo::setCombat(int iNum)
 
 int CvUnitInfo::getCombatLimit() const
 {
+	// add PLAYEROPTION_DISABLE_COMBAT_LIMIT
+//mediv01 取消单位伤害上限
+	if (ANYFUN_DISABLE_COMBAT_LIMIT == 1)
+	{
+		return 100;
+	}
+	// end add
 	return m_iCombatLimit;
 }
 
@@ -7573,6 +7580,9 @@ int CvBuildingInfo::getMaxStartEra() const
 
 int CvBuildingInfo::getObsoleteTech() const
 {
+	if (CVCITY_BUILDING_NO_OBSOLETE > 0) {
+		return NO_TECH;
+	}
 	return m_iObsoleteTech;
 }
 
@@ -10091,6 +10101,9 @@ CvSpecialBuildingInfo::~CvSpecialBuildingInfo()
 
 int CvSpecialBuildingInfo::getObsoleteTech( void ) const
 {
+	if (CVCITY_BUILDING_NO_OBSOLETE > 0) {
+		return NO_TECH;
+	}
 	return m_iObsoleteTech;
 }
 
@@ -11602,6 +11615,49 @@ int CvHandicapInfo::getResearchPercentByID(PlayerTypes ePlayer) const
 		iResearchPercent *= iHumanSpawnModifier;
 		iResearchPercent /= 100;
 	}
+
+	float modify = 1;
+
+
+
+
+	if (CVINFOS_REAEARCH_COST_MULTIPLIER > 0) { //mediv01 按照难度进行科研惩罚
+		
+		HandicapTypes eHandicap = GC.getGameINLINE().getHandicapType();
+		if (eHandicap == 0) {
+			modify = modify * CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H1 / 100;
+		}
+		else if (eHandicap == 1) {
+			modify = modify * CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H2 / 100;
+		}
+		else if (eHandicap == 2) {
+			modify = modify * CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H3 / 100;
+		}
+		else if (eHandicap == 3) {
+			modify = modify * CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H4 / 100;
+		}
+		else if (eHandicap == 4) {
+			modify = modify * CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_H5 / 100;
+		}
+
+		if (CVINFOS_REAEARCH_COST_MULTIPLIER_DYNAMIC_NOT_INCLUDE_HUMAN == 1) { //mediv01 科研惩罚不包含人类
+			if (bHuman) {
+				modify = 1;
+			}
+		}
+		iResearchPercent = (int)((float)iResearchPercent * modify);
+
+	}
+
+	if (CVINFOS_REAEARCH_COST_MULTIPLIER > 0) { //mediv01 科研惩罚总系数
+
+		modify = (float)(CVINFOS_REAEARCH_COST_MULTIPLIER / 100);
+		iResearchPercent = (int)((float)iResearchPercent * modify);
+
+	}
+
+	// mediv01
+	iResearchPercent = iResearchPercent * GC.getGoldMultiplier();
 
 	return iResearchPercent;
 }
@@ -15015,7 +15071,7 @@ int CvYieldInfo::getColorType() const
 
 const TCHAR* CvYieldInfo::getSymbolPath(int i) const
 {
-	FAssertMsg(i < GC.getDefineINT("MAX_YIELD_STACK"), "Index out of bounds");
+	FAssertMsg(i < MAX_YIELD_STACK, "Index out of bounds");
 	FAssertMsg(i > -1, "Index out of bounds");
 	return m_paszSymbolPath ? m_paszSymbolPath[i] : -1;
 }
@@ -15050,14 +15106,14 @@ bool CvYieldInfo::read(CvXMLLoadUtility* pXML)
 		if (pXML->SkipToNextVal())
 		{
 			iNumSibs = gDLL->getXMLIFace()->GetNumChildren(pXML->GetXML());
-			FAssertMsg((0 < GC.getDefineINT("MAX_YIELD_STACK")) ,"Allocating zero or less memory in SetGlobalYieldInfo");
-			m_paszSymbolPath = new CvString[GC.getDefineINT("MAX_YIELD_STACK")];
+			FAssertMsg((0 < MAX_YIELD_STACK) ,"Allocating zero or less memory in SetGlobalYieldInfo");
+			m_paszSymbolPath = new CvString[MAX_YIELD_STACK];
 
 			if (0 < iNumSibs)
 			{
 				if (pXML->GetChildXmlVal(szTextVal))
 				{
-					FAssertMsg((iNumSibs <= GC.getDefineINT("MAX_YIELD_STACK")) ,"There are more siblings than memory allocated for them in SetGlobalYieldInfo");
+					FAssertMsg((iNumSibs <= MAX_YIELD_STACK) ,"There are more siblings than memory allocated for them in SetGlobalYieldInfo");
 					for (j=0;j<iNumSibs;j++)
 					{
 						m_paszSymbolPath[j] = szTextVal;

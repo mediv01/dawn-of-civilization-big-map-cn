@@ -152,6 +152,7 @@ void CvTeamAI::AI_reset(bool bConstructor)
 
 void CvTeamAI::AI_doTurnPre()
 {
+	GC.countFunctionCall("CvTeamAI::AI_doTurnPre()");
 	AI_doCounter();
 
 	// Sanguo Mod Performance, start, added by poyuzhe 7.31.09
@@ -1308,11 +1309,11 @@ int CvTeamAI::AI_endWarVal(TeamTypes eTeam) const
 		}
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -1361,7 +1362,7 @@ int CvTeamAI::AI_techTradeVal(TechTypes eTech, TeamTypes eTeam) const
 	iValue *= std::max(0, (GC.getTechInfo(eTech).getAITradeModifier() + 100));
 	iValue /= 100;
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	// Leoreth: Hermitage effect
 	if (GET_PLAYER(GET_TEAM(eTeam).getLeaderID()).isHasBuildingEffect((BuildingTypes)HERMITAGE))
@@ -1372,7 +1373,7 @@ int CvTeamAI::AI_techTradeVal(TechTypes eTech, TeamTypes eTeam) const
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -1394,6 +1395,13 @@ DenialTypes CvTeamAI::AI_techTrade(TechTypes eTech, TeamTypes eTeam, bool bIgnor
 	int iI, iJ;
 
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
+
+	if (GET_TEAM(eTeam).isHuman()) {
+		if (GC.getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_TECH") == 1) {
+			return NO_DENIAL;
+		}
+	}
+
 
 	//Rhye
 	//if (GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING))
@@ -1633,11 +1641,11 @@ int CvTeamAI::AI_mapTradeVal(TeamTypes eTeam) const
 		iValue /= 2;
 	}
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -1654,6 +1662,18 @@ DenialTypes CvTeamAI::AI_mapTrade(TeamTypes eTeam) const
 	//int iI;
 
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
+
+	if (GC.m_iCVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER == 1) {
+		if (GET_TEAM(eTeam).isHuman() || isHuman()) {
+
+		}
+		else {
+			return DENIAL_WORST_ENEMY;
+		}
+
+	}
+
+
 
 	if (isHuman())
 	{
@@ -1724,6 +1744,22 @@ DenialTypes CvTeamAI::AI_vassalTrade(TeamTypes eTeam) const
 		return DENIAL_NO_GAIN;
 	}
 
+
+	if (CVTEAMAI_AI_CANNOT_VASSAL_TO_OTHER_WHEN_AT_WAR >= 1) {
+		//mediv01 
+		PlayerTypes human_id = GC.getGame().getActivePlayer();
+		TeamTypes human_team_id = GET_PLAYER((PlayerTypes)human_id).getTeam();
+		bool bAtwarwithHuman = isAtWar(human_team_id);
+		if (bAtwarwithHuman) {
+			if (GET_TEAM((TeamTypes)eTeam).isHuman()) {
+
+			}
+			else {
+				return DENIAL_WAR_NOT_POSSIBLE_YOU;
+			}
+		}
+	}
+
 	for (int iLoopTeam = 0; iLoopTeam < MAX_TEAMS; iLoopTeam++)
 	{
 		CvTeam& kLoopTeam = GET_TEAM((TeamTypes)iLoopTeam);
@@ -1789,6 +1825,23 @@ DenialTypes CvTeamAI::AI_surrenderTrade(TeamTypes eTeam, int iPowerMultiplier) c
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 
 	CvTeam& kMasterTeam = GET_TEAM(eTeam);
+
+
+	if (CVTEAMAI_AI_CANNOT_VASSAL_TO_OTHER_WHEN_AT_WAR >= 1) {
+		//mediv01 
+		PlayerTypes human_id = GC.getGame().getActivePlayer();
+		TeamTypes human_team_id = GET_PLAYER((PlayerTypes)human_id).getTeam();
+		bool bAtwarwithHuman = isAtWar(human_team_id);
+		if (bAtwarwithHuman) {
+			if (GET_TEAM((TeamTypes)eTeam).isHuman()) {
+
+			}
+			else {
+				return DENIAL_WAR_NOT_POSSIBLE_YOU;
+			}
+		}
+	}
+
 
 	//Rhye - start
 	//for (int iLoopTeam = 0; iLoopTeam < MAX_TEAMS; iLoopTeam++)
@@ -2121,7 +2174,7 @@ DenialTypes CvTeamAI::AI_surrenderTrade(TeamTypes eTeam, int iPowerMultiplier) c
 	{
 		int iMinCitiesConquered = std::min(GET_PLAYER(getLeaderID()).getNumCities(), 4);
 
-		if (AI_getWarSuccess(eTeam) + iMinCitiesConquered * GC.getDefineINT("WAR_SUCCESS_CITY_CAPTURING") > GET_TEAM(eTeam).AI_getWarSuccess(getID()))
+		if (AI_getWarSuccess(eTeam) + iMinCitiesConquered * WAR_SUCCESS_CITY_CAPTURING > GET_TEAM(eTeam).AI_getWarSuccess(getID()))
 		{
 			return DENIAL_JOKING;
 		}
@@ -2201,11 +2254,11 @@ int CvTeamAI::AI_makePeaceTradeVal(TeamTypes ePeaceTeam, TeamTypes eTeam) const
 	iValue *= 40;
 	iValue /= (GET_TEAM(eTeam).AI_getAtWarCounter(ePeaceTeam) + 10);
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -2378,11 +2431,11 @@ int CvTeamAI::AI_declareWarTradeVal(TeamTypes eWarTeam, TeamTypes eTeam) const
 	iValue *= 60 + (140 * GC.getGameINLINE().getGameTurn()) / std::max(1, GC.getGameINLINE().getEstimateEndTurn());
 	iValue /= 100;
 
-	iValue -= (iValue % GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+	iValue -= (iValue % DIPLOMACY_VALUE_REMAINDER);
 
 	if (isHuman())
 	{
-		return std::max(iValue, GC.getDefineINT("DIPLOMACY_VALUE_REMAINDER"));
+		return std::max(iValue, DIPLOMACY_VALUE_REMAINDER);
 	}
 	else
 	{
@@ -2546,6 +2599,22 @@ DenialTypes CvTeamAI::AI_openBordersTrade(TeamTypes eTeam) const
 	}
 
 	eAttitude = AI_getAttitude(eTeam);
+	if (GC.m_iPLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS != 0) { //¿ª±ßÌ¬¶È¸£Àû
+		int AttitudeBonus = GC.m_iPLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS;
+		if (GET_TEAM(eTeam).isHuman()) {
+			if (AttitudeBonus >= 5) {
+				AttitudeBonus = 5;
+			}
+			if (AttitudeBonus <= -5) {
+				AttitudeBonus = -5;
+			}
+		}
+		else {
+			AttitudeBonus = 0;
+		}
+
+		eAttitude = (AttitudeTypes)((int)eAttitude + AttitudeBonus);
+	}
 
 	//Leoreth: Indonesian UP: AI more likely to open borders - disabled
 	//if ((int)eTeam == INDONESIA)
@@ -2723,19 +2792,19 @@ DenialTypes CvTeamAI::AI_defensivePactTrade(TeamTypes eTeam) const
 	}
 
 	// Leoreth: never more defensive pact partners than limit
-	if (partners.size() > iDefensivePactLimit)
+	if ((int)partners.size() > iDefensivePactLimit)
 	{
 		return DENIAL_NO_GAIN;
 	}
 
 	// Leoreth: defensive pact partners and member with highest vassal count may not exceed twice the limit
-	if (partners.size() + iMaxVassals > 2 * iDefensivePactLimit)
+	if ((int)partners.size() + iMaxVassals > 2 * iDefensivePactLimit)
 	{
 		return DENIAL_NO_GAIN;
 	}
 
 	// Leoreth: sum of defensive pact partners and half of all their vassals may not exceed twice the limit
-	if (partners.size() + vassals.size() / 2 > 2 * iDefensivePactLimit)
+	if ((int)partners.size() + (int)vassals.size() / 2 > 2 * iDefensivePactLimit)
 	{
 		return DENIAL_NO_GAIN;
 	}
@@ -3824,7 +3893,7 @@ void CvTeamAI::AI_doWar()
 //	CyArgsList argsList;
 //	argsList.add(getID());
 //	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_doWar", argsList.makeFunctionArgs(), &lResult);
+//	GC.callPythoFunction(PYGameModule, "AI_doWar", argsList.makeFunctionArgs(), &lResult);
 //	if (lResult == 1)
 //	{
 //		return;

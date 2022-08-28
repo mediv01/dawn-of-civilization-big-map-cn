@@ -5,13 +5,13 @@
 		<Tag>TXT_KEY_CIV_ARGENTINA_FASCIST</Tag>
 		<English>Tacuara Nationalist Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿根廷塔库拉人主义</Chinese>
+		<Chinese>阿根廷塔库拉民族主义军政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARGENTINA_CONFEDERATION</Tag>
 		<English>%s2 Confederation</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2联盟</Chinese>
+		<Chinese>%s2联盟国</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARGENTINA_ADJECTIVE</Tag>
@@ -29,7 +29,7 @@
 		<Tag>TXT_KEY_CIV_ARGENTINA_DEFAULT</Tag>
 		<English>United Provinces of the River Plate</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>普拉特河联合省</Chinese>
+		<Chinese>拉普拉塔联合省</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARGENTINA_DESC</Tag>
@@ -41,6 +41,6 @@
 		<Tag>TXT_KEY_CIV_ARGENTINA_PEOPLES</Tag>
 		<English>Argentine Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>阿根廷人</Chinese>
+		<Chinese>阿根廷诸部</Chinese>
 	</TEXT>
 </Civ4GameText>

@@ -47,6 +47,17 @@ protected:
 	void uninit();
 
 public:
+	//// add PLAYEROPTION_CONQUESTINCENTIVE  //mediv01
+	void doConquestIncentive(const PlayerTypes& eOldOwner);
+	PlayerTypes m_eCILastKillMe;
+	PlayerTypes getCILastKillMe() const { return m_eCILastKillMe; }
+	void setCILastKillMe(PlayerTypes eWho = NO_PLAYER) { m_eCILastKillMe = eWho; }
+
+	// mediv01
+	void doCollapse(PlayerTypes PlayerID);
+
+
+
 	void initFreeState();
 	void initFreeUnits();
 	void addFreeUnitAI(UnitAITypes eUnitAI, int iCount);
@@ -1732,6 +1743,8 @@ protected:
 	void getResourceLayerColors(GlobeLayerResourceOptionTypes eOption, std::vector<NiColorA>& aColors, std::vector<CvPlotIndicatorData>& aIndicators) const;  // used by Globeview resource layer
 	void getReligionLayerColors(ReligionTypes eSelectedReligion, std::vector<NiColorA>& aColors, std::vector<CvPlotIndicatorData>& aIndicators) const;  // used by Globeview religion layer
 	void getCultureLayerColors(std::vector<NiColorA>& aColors, std::vector<CvPlotIndicatorData>& aIndicators) const;  // used by Globeview culture layer
+
+
 
 };
 

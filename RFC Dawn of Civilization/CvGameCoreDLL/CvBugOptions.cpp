@@ -19,6 +19,18 @@ Created:	2009-01-21
 
 bool g_bIsBug = false;
 
+std::map<std::string, long> bugoption_hashmap;
+// globaldefinealt里参数调用次数
+
+long mapfind(std::map<std::string, long> map, std::string functionname) {
+	std::map<std::string, long >::iterator iter = map.find(functionname);
+	if (iter != map.end())
+	{
+		return iter->second;
+	}
+	return -9998;
+}
+
 
 void logMsg(const char* format, ...)
 {
@@ -71,17 +83,24 @@ bool getBugOptionBOOL(const char* id, bool bDefault, const char* xmlKey)
 {
 	if (isBug())
 	{
-		CyArgsList argsList;
-		long lResult = 0;
+		long mapfind_number = mapfind(bugoption_hashmap, id);
+		if (mapfind_number != -9998) {
+			return mapfind_number != 0;
+		}
+		else {
 
-		argsList.add(id);
-		argsList.add(bDefault);
+			CyArgsList argsList;
+			long lResult = 0;
 
-		//logMsg("debug - getOptionBOOL(%s)", id);
-		gDLL->getPythonIFace()->callFunction(PYBugOptionsModule, "getOptionBOOL", argsList.makeFunctionArgs(), &lResult);
-		//logMsg("debug - got value %ld", lResult);
+			argsList.add(id);
+			argsList.add(bDefault);
 
-		return lResult != 0;
+			//logMsg("debug - getOptionBOOL(%s)", id);
+			GC.callPythoFunction(PYBugOptionsModule, "getOptionBOOL", argsList.makeFunctionArgs(), &lResult);
+			//logMsg("debug - got value %ld", lResult);
+			bugoption_hashmap[id] = lResult;
+			return lResult != 0;
+		}
 	}
 	else
 	{
@@ -108,7 +127,7 @@ int getBugOptionINT(const char* id, int iDefault, const char* xmlKey)
 		argsList.add(iDefault);
 
 		//logMsg("debug - getOptionBOOL(%s)", id);
-		gDLL->getPythonIFace()->callFunction(PYBugOptionsModule, "getOptionINT", argsList.makeFunctionArgs(), &lResult);
+		GC.callPythoFunction(PYBugOptionsModule, "getOptionINT", argsList.makeFunctionArgs(), &lResult);
 		//logMsg("debug - got value %ld", lResult);
 
 		return lResult;

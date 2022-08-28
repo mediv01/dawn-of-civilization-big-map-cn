@@ -11,13 +11,13 @@
 		<Tag>TXT_KEY_UHV_WAR2</Tag>
 		<English>Build 3 barracks and colcas and connect your cities by road by 1000 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1000年前建成3个兵营和colcas，并用道路连接所有的城市</Chinese>
+		<Chinese>公元1000年前建成3个兵营和瓦里祭坛，并用道路连接所有的城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_REFINED_7POP_CITIES</Tag>
 		<English>Cities with Developing Culture and 5 Population: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>不低于5人口with developing culture的城市：%d1 / %d2</Chinese>
+		<Chinese>不低于5人口且文化等级至少为正在发展（developing）的城市：%d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_WAR</Tag>
@@ -35,13 +35,13 @@
 		<Tag>TXT_KEY_DOM_WARI_600AD</Tag>
 		<English>It is the year 600 AD. The Wari Empire is in the middle of a cold war with their southern neighbors...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元600年。瓦里帝国正处于与南方邻国的冷战中。。。</Chinese>
+		<Chinese>公元600年的第一缕阳光照耀着秘鲁的海岸。瓦里帝国正处于与南方邻国的冷战中。。。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_NUM_COLCAS</Tag>
 		<English>Colcas: %d1 / %d2</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Colcas: %d1 / %d2</Chinese>
+		<Chinese>瓦里祭坛: %d1 / %d2</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR2_TITLE</Tag>
@@ -53,19 +53,19 @@
 		<Tag>TXT_KEY_DOM_WARI</Tag>
 		<English>It is the year 400 AD. North of the flourishing Tiwanaku, the rist of the Wari Empire heralds what will soon become the first major Andean power struggle...</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>现在是公元400年。在繁荣的提瓦纳库北部，瓦里帝国的统治预示着不久将成为安第斯第一次主要的权力斗争。。。</Chinese>
+		<Chinese>公元400年的第一缕阳光照耀着秘鲁的海岸。在繁荣的提瓦纳库以北，瓦里帝国的统治，预示着不久之后安第斯地区第一次重大的权力斗争即将到来。。。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_PEOPLES</Tag>
 		<English>Andean Peoples</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>安第斯人</Chinese>
+		<Chinese>安第斯诸部</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_FASCIST</Tag>
 		<English>Revolutionary Union of %s1</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s1 革命联邦</Chinese>
+		<Chinese>瓦里革命联邦</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_CONNECTED</Tag>
@@ -83,7 +83,7 @@
 		<Tag>TXT_KEY_CIV_WARI_COMMUNIST</Tag>
 		<English>%s2 Revolutionary Movement</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>%s2 革命政府</Chinese>
+		<Chinese>瓦里革命运动政府</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UP_WAR_TITLE</Tag>
@@ -119,7 +119,7 @@
 		<Tag>TXT_KEY_UHV_WAR3</Tag>
 		<English>Have four cities with developing culture and 5 population by 1100 AD</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>公元1100年前拥有4座不低于5人口城市with developing culture</Chinese>
+		<Chinese>公元1100年前拥有4座人口不低于5，且文化等级至少为正在发展（developing）的城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_CIV_WARI_SHORT_DESC</Tag>
@@ -131,13 +131,13 @@
 		<Tag>TXT_KEY_LEADER_WARI_CAPAC</Tag>
 		<English>Wari Capac</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>瓦里-瓦里·卡帕克</Chinese>
+		<Chinese>瓦里·卡帕克</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_WARI_PICTA_AUCAC</Tag>
 		<English>Picta Aucac</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Picta Aucac</Chinese>
+		<Chinese>瓦里弓箭手</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_UHV_WAR1_TITLE</Tag>
@@ -149,6 +149,6 @@
 		<Tag>TXT_KEY_BUILDING_WARI_COLCAS</Tag>
 		<English>Colcas</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>Colcas</Chinese>
+		<Chinese>瓦里祭坛</Chinese>
 	</TEXT>
 </Civ4GameText>
