@@ -12,6 +12,7 @@ import BugPath
 import time
 from CityNameData import *
 from RegionMapData import *
+import DOCM_AchievementSystem
 
 gc = CyGlobalContext()
 localText = GlobalCyTranslator
@@ -34,14 +35,29 @@ def main():
     # debug_stability_collapse()
     #debug_stability_collapse_allplayer()
     #debug_output_settlermap()
+    #debug_resetAchievementSystem()
+    #debug_setReveal()
 
     debug_unittest()
 
     pass
 
 
+def debug_setReveal():
+    for x in range(iWorldX):
+        for y in range(iWorldY):
+            tPlot = [x,y]
+            utils.setRevealed(tPlot,utils.getHumanID())
+
+
+def debug_resetAchievementSystem():
+    DOCM_AchievementSystem.resetAchievementSystem()
+
+
+
 def debug_unittest():
-    debug_unittest_building_and_unit_name()
+    if PYTHON_DEBUG_MODE:
+        debug_unittest_building_and_unit_name()
 
 
 
@@ -216,10 +232,10 @@ def debug_tradeval():
     techtypeID = 9
     iTech = iUrbanPlanning
     techmoney = gc.getAIdealValuetoMoney(eplayer, myplayer, techtypeID, iTech)
-    utils.log2(str(techmoney), 'testtradetechval')
+    utils.log2(str(techmoney), 'testtradetechval.log')
 
 def debug_readcityname():
-    cityname = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
+    cityname = utils.csvread(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
     if cityname:
         utils.show(len(cityname))
         utils.show(len(cityname[0]))
@@ -232,13 +248,7 @@ def debug_cityname():
     utils.csvwrite_withrownum(tFoundMap, CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
 
 
-def debug_utf8():
-    x=125
-    y=43
-    # y=44
-    cityname = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
-    sFoundName = cityname[iWorldY - y][x + 1]
-    utils.show(utils.utf8encode2(sFoundName))
+
 
 def debug_regionmap():
     aHelp = []
@@ -292,16 +302,28 @@ def debug_stability_collapse_allplayer():
     import Stability
     for iPlayer in range(iNumPlayers):
         if utils.getHumanID() is not iPlayer:
-            Stability.doCompleteCollapse(iPlayer)
+            Stability.doCompleteCollapse(iPlayer, False)
     pass
 
 def change_cityname_cn():
     # 自动生成中文城市名失败 还是手工做
     return
-    cityname = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
+    cityname = utils.csvread(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
     for i in range(len(cityname)):
         for j in range(len(cityname[0])):
             cityname[i][j] = utils.utf8encode2(cityname[i][j])
             #cityname[i][j] = utils.utf8encode2(u'测试'.encode("gbk"))
 
     utils.csvwrite_norownum(cityname , CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsvCN.csv")
+
+
+'''
+def debug_utf8():
+    x=125
+    y=43
+    # y=44
+    cityname = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsv.csv")
+    sFoundName = cityname[iWorldY - y][x + 1]
+    utils.show(utils.utf8encode2(sFoundName))
+
+'''

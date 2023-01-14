@@ -1,0 +1,7 @@
+DOCM_GameCreatedTotalNum,0
+DOCM_UHVCompleteTotalNum,0
+DOCM_URVCompleteTotalNum,0
+DOCM_GamePlayedTotalTurn,0
+DOCM_CivilizationCreatedTotalNum,0
+DOCM_UHVCompleteCivilizationTotalNum,0
+DOCM_URVCompleteCivilizationTotalNum,0

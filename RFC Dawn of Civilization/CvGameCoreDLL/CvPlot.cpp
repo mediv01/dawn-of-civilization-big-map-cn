@@ -3777,6 +3777,11 @@ bool CvPlot::isOwned() const
 	return (getOwnerINLINE() != NO_PLAYER);
 }
 
+bool CvPlot::isHumanOwned() const
+{
+	return (getOwnerINLINE() == GC.getHumanID());
+}
+
 
 bool CvPlot::isBarbarian() const
 {
@@ -5755,6 +5760,34 @@ bool CvPlot::isPeak() const
 	return (getPlotType() == PLOT_PEAK);
 }
 
+
+bool CvPlot::isPlotWithResouceAndNotImprovement(bool onlySeaPlot) const
+{
+	if (onlySeaPlot) {
+		if (!isWater()) {
+			return false;
+		}
+	}
+
+	if (!isHumanOwned()) {
+		return false;
+	}
+
+	if (isCity()) {
+		return false;
+	}
+
+	const BonusTypes eBonus = getBonusType(GC.getHumanTeam());
+	if (eBonus == NO_BONUS) {
+		return false;
+	}
+
+	if (eBonus != NO_BONUS && getImprovementType() == NO_IMPROVEMENT) {
+		return true;
+	}
+
+	return false;
+}
 
 void CvPlot::setPlotType(PlotTypes eNewValue, bool bRecalculate, bool bRebuildGraphics)
 {
@@ -8137,7 +8170,7 @@ void CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate)
 	GC.countFunctionCall("CvPlot::updatePlotGroup(PlayerTypes ePlayer, bool bRecalculate) Total 1111");
 	// 大于1700年份时，有一定概率不进行计算
 	if (DOC_PERFORMANCE_SKIP_UpdatePlotGroup_IN_CVPLOT_DOTURN > 0) {
-		if (GC.getHumanID() != ePlayer) {
+		if (GC.getHumanID() != ePlayer || 1==1) {
 			int iYear = GC.getGameTurnYear();
 			int prob = 10000;
 			if (iYear > -1000) {

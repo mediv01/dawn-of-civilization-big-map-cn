@@ -331,7 +331,7 @@ class AIWars:
 
         lConquests_Actual = self.getActualAIWar()
 
-        # utils.log2("AI WAR 数量" + str(len(lConquests_Actual)), 'DoC_SmallMap_Log_AIWar')
+        # utils.log2("AI WAR 数量" + str(len(lConquests_Actual)), 'DoCM_Log_AIWar')
 
         for tConquest in lConquests_Actual:
             self.checkConquest(tConquest)
@@ -377,7 +377,7 @@ class AIWars:
         iStartTurn = utils.getTurnForYear(iYear) - 5 + (data.iSeed % 5)
         if (iStartTurn - iGameTurn in range(0, 10)):  # mediv01  alert for AIWAR
             if (iID < 2000):
-                utils.log2("AI WAR [" + str(iID) + "] GAME TURN LEFT: " + str(iStartTurn - iGameTurn), 'DoC_SmallMap_Log_AIWar')
+                utils.log2("AI WAR [" + str(iID) + "] GAME TURN LEFT: " + str(iStartTurn - iGameTurn), 'DoCM_Log_AIWar.log')
                 pass
 
         if iGameTurn <= utils.getTurnForYear(tBirth[iPlayer]) + 3: return
@@ -411,13 +411,13 @@ class AIWars:
             pass
 
         if (iStartTurn - iGameTurn == 2 and AIWAR_PY_HUMAN_AI_WAR_ALERT == 1 and utils.getHumanID() == iPreferredTarget):  # mediv01  alert for AIWAR
-            tem_text = '&#35686;&#25253;&#65306;&#25932;&#22269;&#27491;&#22312;&#25105;&#22269;&#36793;&#22659;&#38598;&#32467;&#22823;&#20891;&#65281;&#25112;&#20105;&#30340;&#38452;&#20113;&#31548;&#32617;&#22312;&#25105;&#22269;&#19978;&#31354;&#65281;'  # 警报：敌国正在我国边境集结大军！战争的阴云笼罩在我国上空！
+            tem_text = '警报：敌国正在我国边境集结大军！战争的阴云笼罩在我国上空！'
             utils.show(tem_text)
             utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
             pass
         if (iStartTurn - iGameTurn == 2 and AIWAR_PY_HUMAN_AI_WAR_ALERT == 1 and utils.getHumanID() == iPlayer):  # mediv01  alert for AIWAR
 
-            tem_text = '&#35686;&#25253;&#65306;&#25932;&#20891;&#27491;&#22312;&#36793;&#22659;&#25361;&#34885;&#25105;&#26041;&#20891;&#38431;&#65292;&#25112;&#20105;&#30340;&#38452;&#20113;&#31548;&#32617;&#22312;&#25105;&#22269;&#19978;&#31354;&#65281;&#10;'  # 警报：敌军正在边境挑衅我方军队，战争的阴云笼罩在我国上空！
+            tem_text = ' 警报：敌军正在边境挑衅我方军队，战争的阴云笼罩在我国上空！'
             utils.show(tem_text)
             utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
             pass
@@ -438,7 +438,9 @@ class AIWars:
                 if city.getOwner() in [iByzantium, iEngland, iGermany, iFrance, iVikings, iHolyRome, iPoland, iSpain]: return
         data.lConquest[iID] = True
         if (PYTHON_LOG_ON_MAIN_AIWAR == 1):
-            utils.logwithid(iPlayer, ' Start AI WAR with ' + str(gcgetPlayer(iPreferredTarget).getCivilizationShortDescription(0)))
+            AIWARText = utils.getCivChineseName(iPlayer) + ' 开始进行AIWAR征服 ' + str(gcgetPlayer(iPreferredTarget).getCivilizationShortDescription(0))
+            utils.logwithid(iPlayer, AIWARText)
+            utils.logwithid_rise_and_fall(iPlayer, AIWARText)
         self.spawnConquerors(iPlayer, iPreferredTarget, tTL, tBR, iNumTargets, iYear, iIntervalTurns, iWarPlan)
 
     def isConquered(self, tConquest):
@@ -586,55 +588,43 @@ class AIWars:
         # 消息传送区
         if (PYTHON_USE_ADVANCE_ALERT == 1):  # 参数控制
             if iPlayer == iGreece:
-                tem_text = '&#19990;&#30028;&#20891;&#20107;&#36895;&#36882;&#65306;&#20122;&#21382;&#23665;&#22823;&#19996;&#24449;&#24320;&#22987;&#20102;&#65281;&#20854;&#40638;&#19979;&#30340;&#20891;&#38431;&#27491;&#22312;&#27178;&#25195;&#27431;&#20122;&#22823;&#38470;&#65281;'
+                tem_text = "世界军事速递：亚历山大东征开始了！其麾下的军队正在横扫欧亚大陆！"
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#20122;&#21382;&#23665;&#22823;&#19996;&#24449;&#24320;&#22987;&#20102;&#65281;')
             if iPlayer == iRome:
-                tem_text = '&#19990;&#30028;&#20891;&#20107;&#36895;&#36882;&#65306;&#32599;&#39532;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;'
+                tem_text = '世界军事速递：罗马帝国正在崛起，其军队所向披靡！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#32599;&#39532;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
             if iPlayer == iMongolia:
-                tem_text = '&#19990;&#30028;&#20891;&#20107;&#36895;&#36882;&#65306;&#33945;&#21476;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#25104;&#21513;&#24605;&#27735;&#30340;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;'
+                tem_text = '世界军事速递：蒙古帝国正在崛起，成吉思汗的军队所向披靡！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#33945;&#21476;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#25104;&#21513;&#24605;&#27735;&#30340;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
             if iPlayer == iTurks:
-                tem_text = '&#19990;&#30028;&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;'
+                tem_text = '世界军事速递：突厥帝国正在崛起，其军队所向披靡！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
-            # 百年战争
+                # 百年战争
             if iPlayer == iEngland and iYear <= 1450 and iYear >= 1250:
-                tem_text = '&#33521;&#27861;&#30334;&#24180;&#25112;&#20105;&#30340;&#33125;&#39118;&#34880;&#38632;&#27491;&#24335;&#25289;&#24320;&#24119;&#24149;&#65281;'
+                tem_text = '英法百年战争的腥风血雨正式拉开帷幕！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
-            # 圣女贞德
+                # 圣女贞德
             if iPlayer == iFrance and iYear <= 1550 and iYear >= 1350:
-                tem_text = '&#22307;&#22899;&#36126;&#24503;&#21796;&#36215;&#20102;&#27861;&#22269;&#20154;&#27665;&#30340;&#27665;&#26063;&#24863;&#65292;&#27861;&#22269;&#20154;&#27665;&#20026;&#20102;&#25421;&#21355;&#23478;&#22253;&#32780;&#25112;&#65281;'
+                tem_text = '圣女贞德唤起了法国人民的民族感，法国人民为了捍卫家园而战！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
-            # 十字军
+                # 十字军
             if iPlayer == iEngland and iYear <= 1200 and iYear >= 1000:
-                tem_text = '&#36720;&#21160;&#20013;&#19996;&#21644;&#27431;&#27954;&#30340;&#21313;&#23383;&#20891;&#19996;&#24449;&#24320;&#22987;&#20102;&#65281;'
+                tem_text = '轰动中东和欧洲的十字军东征开始了！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
-            # 萨拉丁
+                # 萨拉丁
             if iPlayer == iEgypt and iYear <= 1300 and iYear >= 1100:
-                tem_text = '&#24180;&#36731;&#30340;&#39046;&#34966;&#33832;&#25289;&#19969;&#29575;&#39046;&#20891;&#38431;&#21521;&#21313;&#23383;&#20891;&#21457;&#36215;&#29467;&#28872;&#30340;&#36827;&#25915;&#65281;'
+                tem_text = '年轻的领袖萨拉丁率领军队向十字军发起猛烈的进攻！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
-            # 拿破仑战争
+                # 拿破仑战争
             if iPlayer == iFrance and iYear <= 1900 and iYear >= 1700:
-                tem_text = '&#25343;&#30772;&#20177;&#30340;&#20891;&#38431;&#27491;&#22312;&#27431;&#27954;&#25152;&#21521;&#25259;&#38753;&#65281;'
+                tem_text = '拿破仑的军队正在欧洲所向披靡！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
             if iYear <= 1930 and iYear >= 1900:
-                tem_text = '&#31532;&#19968;&#27425;&#19990;&#30028;&#22823;&#25112;&#27491;&#22312;&#36827;&#34892;&#65281;'
+                tem_text = '第一次世界大战正在进行！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-            #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
             if iYear <= 1960 and iYear >= 1930:
-                tem_text = '&#31532;&#20108;&#27425;&#19990;&#30028;&#22823;&#25112;&#27491;&#22312;&#36827;&#34892;&#65281;'
+                tem_text = '第二次世界大战正在进行！'
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
-
-        #			utils.show('&#20891;&#20107;&#36895;&#36882;&#65306;&#31361;&#21413;&#24093;&#22269;&#27491;&#22312;&#23835;&#36215;&#65292;&#20854;&#20891;&#38431;&#25152;&#21521;&#25259;&#38753;&#65281;')
 
         #####修改结束#####
         ####修改开始####
@@ -662,14 +652,14 @@ class AIWars:
                 if iPlayer == iCarthage and iYear <= 150:
                     iExtra = 0
                     iBestInfantry = iWarElephant
-                    tem_text = '&#36838;&#22826;&#22522;&#30340;&#27721;&#23612;&#25300;&#23558;&#20891;&#32763;&#36234;&#20102;&#38463;&#23572;&#21329;&#26031;&#23665;&#65292;&#20986;&#29616;&#22312;&#31859;&#20848;&#38468;&#36817;&#65281;'
+                    tem_text = '迦太基的汉尼拔将军翻越了阿尔卑斯山，出现在米兰附近！'
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
                 if iPlayer == iBarbarian and iYear <= 150:
                     iExtra = -1
                     iBestInfantry = iMilitia
                     utils.makeUnitAI(iBestInfantry, iPlayer, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
                     utils.makeUnitAI(iLightSwordsman, iPlayer, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
-                    tem_text = '&#26031;&#24052;&#36798;&#20811;&#26031;&#21561;&#21709;&#20102;&#21453;&#25239;&#32599;&#39532;&#30340;&#36215;&#20041;&#21495;&#35282;&#65281;'
+                    tem_text = '斯巴达克斯吹响了反抗罗马的起义号角！'
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
                 if iPlayer == iEngland and iYear <= 1500:
                     iExtra -= 0

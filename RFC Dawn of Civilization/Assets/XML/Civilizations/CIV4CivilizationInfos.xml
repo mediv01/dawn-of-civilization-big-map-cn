@@ -4590,10 +4590,10 @@
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_KIEVAN_RUS</Type>
-			<Description>TXT_KEY_CIV_RUS'_DESC</Description>
-			<ShortDescription>TXT_KEY_CIV_RUS'_SHORT_DESC</ShortDescription>
-			<Adjective>TXT_KEY_CIV_RUS'_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_CIV_RUS'_PEDIA</Civilopedia>
+			<Description>TXT_KEY_CIV_RUS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_RUS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_RUS_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_RUS_PEDIA</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_DARK_YELLOW_AND_LIGHT_SKY_BLUE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_KIEVAN_RUS</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_RUSSIA</ArtStyleType>

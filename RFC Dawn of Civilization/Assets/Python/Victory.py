@@ -2289,6 +2289,8 @@ def checkTurn(iGameTurn, iPlayer):
                         data.iVedicHappiness += 1
 
         if checkReligiousGoals(iPlayer):
+            import Mediv01EventManager
+            Mediv01EventManager.onALLURVVictory()
             gcgame.setWinner(iPlayer, 8)
 
 
@@ -2319,6 +2321,8 @@ def checkHistoricalVictory(iPlayer):
 
     if gcgame.getWinner() == -1:
         if countAchievedGoals(iPlayer) == 3:
+            import Mediv01EventManager
+            Mediv01EventManager.onALLUHVVictory()
             gcgame.setWinner(iPlayer, 7)
 
 
@@ -2571,6 +2575,15 @@ def onTechAcquired(iPlayer, iTech):
                             win(iManchuria, 2)
                     else:
                         lose(iManchuria, 2)
+
+        # 记录一些关键科技的发现
+        if PYTHON_USE_LOG:
+            importTechList = [iCompass,iExploration,iEconomics,iScientificMethod,iEngine,iRailroad, iElectricity,iElectronics,iNuclearPower]
+            if iTech in importTechList:
+                firstDiscoverTechLogText = "文明率先发现了科技:" + utils.getTechNameCn(iTech)
+                utils.logwithid(iPlayer,firstDiscoverTechLogText)
+                utils.logwithid_rise_and_fall(iPlayer,firstDiscoverTechLogText)
+
 
     if not isEraCompleted(iEra):
         if checkEraCompleted(iPlayer, iEra):

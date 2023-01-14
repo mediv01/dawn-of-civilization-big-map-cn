@@ -2719,7 +2719,7 @@ int getTechBePunishedByTechCol(TechTypes eTech)
 
 
 		//log_CWstring.Format(L" 科技 %s 科技所在列：%d 当前年份 %d 当前年份所属的列: %d  惩罚阈值年份 %d  列差: %d 惩罚系数: %d", GC.getTechInfo(eTech).getDescription(), iTechCol, iGameTurnYear, iPlayerCol , iTechYearThreshold, iPlayerTechDiff,iModifer);
-		//GC.logswithid(getLeaderID(),log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+		//GC.logswithid(getLeaderID(),log_CWstring, "DoCM_DLL_Log_TEST.log");
 	}
 
 

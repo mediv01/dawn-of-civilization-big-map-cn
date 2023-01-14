@@ -4,7 +4,7 @@ from RFCUtils import utils
 
 
 if PYTHON_READ_REGIONMAP_FROM_CSV:
-    tRegionMapCSV = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "RegionMapDataCsv.csv")
+    tRegionMapCSV = utils.csvread(CVGAMECORE_PYTHON_CSV_PATH_REGIONMAP + "RegionMapDataCsv.csv")
 else:
     tRegionMapCSV = tRegionMap
 

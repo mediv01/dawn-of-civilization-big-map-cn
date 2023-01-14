@@ -107,7 +107,8 @@ int win32_multi()
 }
 
 
-
+std::map<CvString, CvWString> gametext_map;
+// globaldefinealt里参数调用次数
 
 std::map<std::string, int> globaldefinealt_xml1;
 // globaldefinealt里参数调用次数
@@ -137,6 +138,16 @@ DWORD mapfind(std::map<std::string, DWORD> map, CvString functionname) {
 	return -1;
 }
 
+int mapfind(std::map<std::string, int> map, CvString functionname) {
+	std::map<std::string, int >::iterator iter = map.find(functionname);
+	if (iter != map.end())
+	{
+		DWORD SiriScore = iter->second;
+		return iter->second;
+	}
+	return -1;
+}
+
 void reset_function_call_perturn() {
 	if (CVGAME_RECORED_FUNCTION_CALL > 0) {
 		function_call_log_perturn.clear();
@@ -155,6 +166,16 @@ int getMiTime() {
 
 	return (3600 * currentTime.wHour + 60 * currentTime.wMinute + currentTime.wSecond) * 1000 + currentTime.wMilliseconds;
 }
+
+void CvGlobals::setGametextMap(CvString tagname, CvWString gametext) const {
+	if (CVGAME_OUTPUT_ALL_GAMETEXT == 0) {
+		return;
+	}
+	else {
+		gametext_map[tagname] = gametext;
+	}
+}
+
 
 void CvGlobals::countFunctionCall(CvString functionname) const {
 	if (CVGAME_RECORED_FUNCTION_CALL == 0) {
@@ -177,7 +198,7 @@ void CvGlobals::countFunctionStartTime(CvString functionname) const {
 		if (CVGAME_COUNT_ON_TIME_COST_LOG > 0) {
 			if (functionname != NULL) {
 				log_CWstring.Format( L" 开始进行方法: " + functionname);
-				GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_Debug_TimeCost.log");
+				GC.logs(log_CWstring, "DoCM_DLL_Log_Debug_TimeCost.log");
 			}
 		}
 	}
@@ -195,7 +216,7 @@ void CvGlobals::countFunctionEndTime(CvString functionname) const {
 			if (functionname != NULL) {
 				DWORD starttime = mapfind(function_call_start_time, functionname);
 				log_CWstring.Format(functionname + L" 方法结束 ,耗时 %d", (t2-starttime));
-				GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_Debug_TimeCost.log");
+				GC.logs(log_CWstring, "DoCM_DLL_Log_Debug_TimeCost.log");
 			}
 		}
 	}
@@ -213,13 +234,41 @@ void debug_output(CvString buf, CvString filename) {
 	std::wfstream flog;
 	CvString filenamepath;
 	if (filename == "") {
-		filename = "DoC_SmallMap_DLL_Log_Debug_Output_Default.log";
+		filename = "DoCM_DLL_Log_Debug_Output_Default.log";
 	}
 	filenamepath = CVGAMECORE_LOG_PATH + filename;
 	flog.open(filenamepath, std::ios::app | std::ios::out);
 	flog << "" << buf.c_str();
 	flog.close();
 }
+
+
+void debug_output2(CvWString buf, CvString filename) {
+	/*    //日志用法
+	CvString log_CvString;
+	int playerid = (int)GC.getGameINLINE().getActivePlayer();
+	log_CvString = log_CvString.format("当前玩家为 %d ", playerid);
+	GC.logs(log_CvString, (CvString)"DoCGameCoreDLL_String.log");
+	*/
+	std::wfstream flog;
+	CvString filenamepath;
+	if (filename == "") {
+		filename = "DoCM_DLL_Log_Debug_Output_Default.log";
+	}
+	filenamepath = CVGAMECORE_LOG_PATH + filename;
+	flog.open(filenamepath, std::ios::app | std::ios::out);
+
+
+	static const wchar* logtext2;
+	logtext2 = buf.GetCString();
+	static char log_text_tochar2[65536];
+	WideCharToMultiByte(CP_ACP, 0, logtext2, wcslen(logtext2) + 1, log_text_tochar2, 256, NULL, NULL);
+	flog << "" << log_text_tochar2;
+	flog.close();
+}
+
+
+
 
 
 void debug01() {
@@ -230,7 +279,7 @@ void debug01() {
 	int y;
 	int iPlayer;
 	CvString log_CvString = "";
-	CvString log_file = "DoC_SmallMap_DLL_Log_Debug_SettlerMap.csv";
+	CvString log_file = "DoCM_DLL_Log_Debug_SettlerMap.csv";
 
 	for (int iJ = 0; iJ < EARTH_Y; iJ++)  //输出时先循环Y，避免转置
 	{
@@ -263,9 +312,9 @@ void debug02() {
 		it != globaldefinealt_xml1.end();
 		++it)
 	{
-		debug_output(it->first, (CvString)"DoC_SmallMap_DLL_Log_Debug_GlobalDefineAlt_Call.log");
+		debug_output(it->first, (CvString)"DoCM_DLL_Log_Debug_GlobalDefineAlt_Call.log");
 		log_CvString = log_CvString.format(", %d \n", it->second);
-		debug_output(log_CvString, (CvString)"DoC_SmallMap_DLL_Log_Debug_GlobalDefineAlt_Call.log");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_GlobalDefineAlt_Call.log");
 	}
 }
 
@@ -276,9 +325,9 @@ void debug02_2() {
 		it != globaldefinealt_xml2.end();
 		++it)
 	{
-		debug_output(it->first, (CvString)"DoC_SmallMap_DLL_Log_Debug_GlobalDefineAlt.log");
+		debug_output(it->first, (CvString)"DoCM_DLL_Log_Debug_GlobalDefineAlt.log");
 		log_CvString = log_CvString.format(", %d \n", it->second);
-		debug_output(log_CvString, (CvString)"DoC_SmallMap_DLL_Log_Debug_GlobalDefineAlt.log");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_GlobalDefineAlt.log");
 	}
 }
 
@@ -288,9 +337,9 @@ void debug03() {
 		it != function_call_log_all.end();
 		++it)
 	{
-		debug_output(it->first, (CvString)"DoC_SmallMap_DLL_Log_Debug_Function_Call_Log_All.log");
+		debug_output(it->first, (CvString)"DoCM_DLL_Log_Debug_Function_Call_Log_All.log");
 		log_CvString = log_CvString.format(": %d \n", it->second);
-		debug_output(log_CvString, (CvString)"DoC_SmallMap_DLL_Log_Debug_Function_Call_Log_All.log");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_Function_Call_Log_All.log");
 	}
 }
 
@@ -301,11 +350,11 @@ void debug04() {
 		it != function_call_end_time.end();
 		++it)
 	{
-		debug_output(it->first, (CvString)"DoC_SmallMap_DLL_Log_Debug_Function_Time_Log_All.log");
+		debug_output(it->first, (CvString)"DoCM_DLL_Log_Debug_Function_Time_Log_All.log");
 		DWORD endtime = it->second;
 		DWORD starttime = mapfind(function_call_start_time, it->first);
 		log_CvString = log_CvString.format(": start time %d , end time %d, time cost %d \n", starttime, endtime ,(endtime - starttime));
-		debug_output(log_CvString, (CvString)"DoC_SmallMap_DLL_Log_Debug_Function_Time_Log_All.log");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_Function_Time_Log_All.log");
 	}
 }
 
@@ -324,6 +373,130 @@ void debug05() {
 		log_CvString = log_CvString.format("%d,", a[j]);
 		debug_output(log_CvString, "debugtest.log");
 	}
+}
+
+void debug06() {
+	// 输出GAMETEXT的键值对列表
+	for (std::map<CvString, CvWString>::iterator it = gametext_map.begin();
+		it != gametext_map.end();
+		++it)
+	{
+		debug_output(it->first, (CvString)"DoCM_DLL_Log_Debug_GAMETEXT.log");
+		log_CvString = log_CvString.format("***!^^^");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_GAMETEXT.log");
+		debug_output2(gDLL->getText(it->first), (CvString)"DoCM_DLL_Log_Debug_GAMETEXT.log");
+		log_CvString = log_CvString.format(" \n");
+		debug_output(log_CvString, (CvString)"DoCM_DLL_Log_Debug_GAMETEXT.log");
+	}
+}
+
+
+void debug07() {
+
+	return;
+
+	// 测试不同方式globaldefinealt的速度
+	long long testid = 0;
+	long long n = 20000000000L;
+	n = 2L;
+	long time1 = 0;
+	long time2 = 0;
+	std::map<std::string, int> globaldefinealt;
+	globaldefinealt["test"] = 1;
+
+	log_CWstring.Format(L"开始进行globaldeinealt速度测试");
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+
+	
+	log_CWstring.Format(L"方法2开始：使用常量 可以加速");
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+	testid = 0;
+	time1 = GC.getTimeNow();
+	for (long long i = 0; i < n; i++) {
+		if (CVTEAM_TECH_COST_BY_ERA > 0) {
+			testid++;
+		}
+	}
+	time2 = GC.getTimeNow();
+	log_CWstring.Format(L"方法2开始：使用常量 %d 次，耗时%d", testid, (time2 - time1));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+
+	log_CWstring.Format(L"方法3开始：使用类变量 可以加速");
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+	testid = 0;
+	time1 = GC.getTimeNow();
+	for (long long i = 0; i < n; i++) {
+		if (GC.getUSE_CANNOT_CONSTRUCT_CALLBACK() == 0) {
+			testid++;
+		}
+	}
+	time2 = GC.getTimeNow();
+	log_CWstring.Format(L"方法3开始：使用类变量 %d 次，耗时%d", testid, (time2 - time1));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+	log_CWstring.Format(L"方法4开始：使用自己构造的hashmap 很慢 不可以加速");
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+	testid = 0;
+	time1 = GC.getTimeNow();
+	for (long long i = 0; i < n; i++) {
+		if (mapfind(globaldefinealt,"test") == 1) {
+			testid++;
+		}
+	}
+	time2 = GC.getTimeNow();
+	log_CWstring.Format(L"方法4开始：使用自己构造的hashmap %d 次，耗时%d", testid, (time2 - time1));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+	/*
+
+	log_CWstring.Format(L"方法1开始：使用globaldefinealt 慢100倍");
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+
+	testid = 0;
+	time1 = GC.getTimeNow();
+	for (int i = 0; i < n; i++) {
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_TRADING_COMPANY_IN_MAP") > 0) {
+			testid++;
+		}
+	}
+	time2 = GC.getTimeNow();
+	log_CWstring.Format(L"方法1结束：使用globaldefinealt %d 次，耗时%d 秒", testid, (time2 - time1));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_speedtest.log");
+
+	*/
+
+}
+
+
+void debug08() {
+	CvString DeineText;
+
+	/*
+	DeineText = "11";
+	log_CWstring.Format(DeineText + L"参数值为 %d %d", GC.m_iMAX_YIELD_STACK, getDefineINT(DeineText));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_inDLL.log");
+
+	DeineText = "11";
+	log_CWstring.Format(DeineText + L"参数值为 %d %d",  GC.m_iCVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE, getDefineINT(DeineText));
+	GC.logs(log_CWstring, (CvString)"DoCM_DLL_Log_Debug_globaldeinealt_inDLL.log");
+	*/
+
+
+
+
+
+
 }
 
 void unit_test() {
@@ -373,16 +546,30 @@ void debug_main() {
 		if (CVGAME_DO_UNITTEST_ON_DEBUG) {
 			unit_test();
 		}
+
+		if (CVGAME_OUTPUT_ALL_GAMETEXT) {
+			debug06();
+		}
+
+
+		if (CVGAME_OUTPUT_DLL_GLOBAL_DEFINE_ALT) {
+			debug08();
+		}
+
+
+
 	}
 	// win32_multi();
 	// debug05();
+
+	// debug07();   //测试globaldefinealt的速度，已废弃
 	
 }
 
 
 
 
-// 目前大科学家显示文字帮助的时候，会触发DEBUG选项
+// 目前在查看PYTHON SCRRENTIP信息时，会触发DEBUG选项
 void CvGlobals::debug() const
 {
 	debug_main();
@@ -862,46 +1049,7 @@ void CvGlobals::init()
 	memcpy(m_aaiXYCityPlot, aaiXYCityPlot, sizeof(m_aaiXYCityPlot));
 	memcpy(m_aaeXYDirection, aaeXYDirection,sizeof(m_aaeXYDirection));
 
-	m_iMAX_YIELD_STACK = getDefineINT("MAX_YIELD_STACK");
-	m_iCVGAMETEXT_MANUAL_DEBUG_TRIGGER = getDefineINT("CVGAMETEXT_MANUAL_DEBUG_TRIGGER");
-	m_iCVGAMETEXT_SHOW_ENERMY_AREA = getDefineINT("CVGAMETEXT_SHOW_ENERMY_AREA");
-	m_iGAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT = getDefineINT("GAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT");
-	m_iGAME_TEXT_SHOW_CITY_X_AND_Y = getDefineINT("GAME_TEXT_SHOW_CITY_X_AND_Y");
-	m_iCVPLAYER_CAN_CONTACT_BARBARIAN = getDefineINT("CVPLAYER_CAN_CONTACT_BARBARIAN");
-	m_iANYFUN_ALERT_FOR_WORLD_WONDER = getDefineINT("ANYFUN_ALERT_FOR_WORLD_WONDER");
-	m_iCVTECH_SHOW_TECH_DISCOVERY2_MAX = getDefineINT("CVTECH_SHOW_TECH_DISCOVERY2_MAX");
-	m_iCVTECH_SHOW_TECH_DISCOVERY3_MAX = getDefineINT("CVTECH_SHOW_TECH_DISCOVERY3_MAX");
-	m_iCVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD = getDefineINT("CVTECH_SHOW_TECH_DISCOVERY2_SHOW_DEAD");
-	m_iCVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE = getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_RESOURCE");
-	m_iCVCITY_INCREASE_RELIGION_CHANCE_ONLY_FOR_STATERELIGION = getDefineINT("CVCITY_INCREASE_RELIGION_CHANCE_ONLY_FOR_STATERELIGION");
-	m_iCVCITY_CAN_CAPTURE_GREAT_PEOPLE_WHEN_RAZE_CITY = getDefineINT("CVCITY_CAN_CAPTURE_GREAT_PEOPLE_WHEN_RAZE_CITY");
-	m_iANYFUN_ALERT_FOR_ANY_BUILDING = getDefineINT("ANYFUN_ALERT_FOR_ANY_BUILDING");
-	m_iPLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS = getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS");
 
-	m_iCVPLAYERAI_ATTITUDE_BONUS = getDefineINT("CVPLAYERAI_ATTITUDE_BONUS");
-	m_iCVUNIT_CAN_CAPTURE_GREAT_PEOPLE = getDefineINT("CVUNIT_CAN_CAPTURE_GREAT_PEOPLE");
-	m_iCVUNITAI_AI_NOT_PILLAGE = getDefineINT("CVUNITAI_AI_NOT_PILLAGE");
-	m_iCVUNIT_CAN_SPREAD_RELIGON_ANYWHERE = getDefineINT("CVUNIT_CAN_SPREAD_RELIGON_ANYWHERE");
-	m_iCVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT = getDefineINT("CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT");
-	m_iCVCITY_FOUND_CITY_CAN_USE_FOREST = getDefineINT("CVCITY_FOUND_CITY_CAN_USE_FOREST");
-	m_iCVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER = getDefineINT("CVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER");
-
-	m_iCVUNIT_HUMAN_SPY_CANNOT_REVEAL = getDefineINT("CVUNIT_HUMAN_SPY_CANNOT_REVEAL")  ;
-	m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE = getDefineINT("CAPTURE_CITY_WITHOUT_ANY_DAMAGE");
-	m_iCAPTURE_CITY_WITH_ALL_DAMAGE = getDefineINT("CAPTURE_CITY_WITH_ALL_DAMAGE");
-	m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER = getDefineINT("CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER");
-	m_iCVCITY_HURRY_CALCULATION_WITH_FLOAT = getDefineINT("CVCITY_HURRY_CALCULATION_WITH_FLOAT");
-	m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED = getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED");
-	m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER = getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER");
-	m_iCVUNIT_DISBAND_CAN_GIVE_GOLD = getDefineINT("CVUNIT_DISBAND_CAN_GIVE_GOLD");
-	m_iCVUNIT_DISBAND_GIVE_GOLD = getDefineINT("CVUNIT_DISBAND_GIVE_GOLD");
-	m_iCVUNIT_DISBAND_GIVE_GOLD_PERCENT = getDefineINT("CVUNIT_DISBAND_GIVE_GOLD_PERCENT");
-	m_iCVPLAYERAI_CAN_ALWAYS_TRADE_CITY = getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_CITY");
-	m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI = getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI");
-	m_iCVGAME_CANNOT_VASSAL_TO_INDEPENDENT = getDefineINT("CVGAME_CANNOT_VASSAL_TO_INDEPENDENT");
-	m_iCVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY = getDefineINT("CVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY");
-	m_iCVCITY_RELIGON_NO_DISAPPEAR = getDefineINT("CVCITY_RELIGON_NO_DISAPPEAR");
-	m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION = getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION");
 
 	std::srand(time(0));
 
@@ -3231,6 +3379,33 @@ void CvGlobals::cacheGlobals()
 	m_iANYFUN_ALERT_FOR_ANY_BUILDING = getDefineINT("ANYFUN_ALERT_FOR_ANY_BUILDING");
 	m_iPLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS = getDefineINT("PLAYER_TEAMAI_OPEN_BORDER_ATTITUDE_BONUS");
 
+	m_iCVPLAYERAI_ATTITUDE_BONUS = getDefineINT("CVPLAYERAI_ATTITUDE_BONUS");
+	m_iCVUNIT_CAN_CAPTURE_GREAT_PEOPLE = getDefineINT("CVUNIT_CAN_CAPTURE_GREAT_PEOPLE");
+	m_iCVUNITAI_AI_NOT_PILLAGE = getDefineINT("CVUNITAI_AI_NOT_PILLAGE");
+	m_iCVUNIT_CAN_SPREAD_RELIGON_ANYWHERE = getDefineINT("CVUNIT_CAN_SPREAD_RELIGON_ANYWHERE");
+	m_iCVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT = getDefineINT("CVCITY_BUILDING_NO_MAXOVERFLOW_LIMIT");
+	m_iCVCITY_FOUND_CITY_CAN_USE_FOREST = getDefineINT("CVCITY_FOUND_CITY_CAN_USE_FOREST");
+	m_iCVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER = getDefineINT("CVPLAYERAI_AI_DONNOT_TRADE_MAP_EACH_OTHER");
+
+	m_iCVUNIT_HUMAN_SPY_CANNOT_REVEAL = getDefineINT("CVUNIT_HUMAN_SPY_CANNOT_REVEAL");
+	m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE = getDefineINT("CAPTURE_CITY_WITHOUT_ANY_DAMAGE");
+	m_iCAPTURE_CITY_WITH_ALL_DAMAGE = getDefineINT("CAPTURE_CITY_WITH_ALL_DAMAGE");
+	m_iCAPTURE_CITY_LOST_BUILDING_ALERT = getDefineINT("CAPTURE_CITY_LOST_BUILDING_ALERT");
+	m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER = getDefineINT("CITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER");
+	m_iCVCITY_HURRY_CALCULATION_WITH_FLOAT = getDefineINT("CVCITY_HURRY_CALCULATION_WITH_FLOAT");
+	m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED = getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED");
+	m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER = getDefineINT("CVUNIT_GREAT_ENGINEER_ACCELERATE_USE_MODIFIER");
+	m_iCVUNIT_DISBAND_CAN_GIVE_GOLD = getDefineINT("CVUNIT_DISBAND_CAN_GIVE_GOLD");
+	m_iCVUNIT_DISBAND_GIVE_GOLD = getDefineINT("CVUNIT_DISBAND_GIVE_GOLD");
+	m_iCVUNIT_DISBAND_GIVE_GOLD_PERCENT = getDefineINT("CVUNIT_DISBAND_GIVE_GOLD_PERCENT");
+	m_iCVPLAYERAI_CAN_ALWAYS_TRADE_CITY = getDefineINT("CVPLAYERAI_CAN_ALWAYS_TRADE_CITY");
+	m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI = getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_UNLIMITED_MULTI");
+	m_iCVGAME_CANNOT_VASSAL_TO_INDEPENDENT = getDefineINT("CVGAME_CANNOT_VASSAL_TO_INDEPENDENT");
+	m_iCVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY = getDefineINT("CVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY");
+	m_iCVCITY_RELIGON_NO_DISAPPEAR = getDefineINT("CVCITY_RELIGON_NO_DISAPPEAR");
+	m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION = getDefineINT("CVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION");
+	m_iCVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE = getDefineINT("CVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE");
+
 
 
 	// mediv01 cache
@@ -3265,6 +3440,9 @@ int CvGlobals::getDefineINT( const char * szName ) const
 
 	// 代码无效，直接失效
 	/*
+		if (strcmp(szName, "MAX_YIELD_STACK") == 0) {
+		return MAX_YIELD_STACK;
+	}
 	if (szName == "MAX_YIELD_STACK") {
 		return MAX_YIELD_STACK;
 	}
@@ -4508,12 +4686,12 @@ bool CvGlobals::isHuman(PlayerTypes PlayerID) const {
 	bool boolisHuman = ((GC.getGameINLINE().getActivePlayer()) == PlayerID);
 	//if (isHuman) {
 	//	log_CWstring.Format(L" HUMAN!!");
-	//	GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	//	GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 	//}
 
 	//else {
 	//	log_CWstring.Format(L" NOT HUMAN!!  %d %d", GC.getGameINLINE().getActivePlayer(), PlayerID);
-	//	GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	//	GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 	//}
 
 	return boolisHuman;
@@ -4558,26 +4736,7 @@ void Vector_Template() {
 }
 
 
-void log_output1(PlayerTypes PlayerID, std::wfstream& flog, CvString& filenamepath, char  log_text_tochar[65536])
-{
-	if (CVGLOBAL_ENABLE_DLL_LOG == 0) {
-		return;
-	}
-	flog.open(filenamepath, std::ios::app | std::ios::out);
-	flog << logs_gettime();
-	flog << logs_getgameturn().c_str();
-	if (PlayerID != NO_PLAYER) {
-		log_CWstring.Format(L" [ %s ] ", GET_PLAYER(PlayerID).getCivilizationShortDescription());
-		const wchar* logtext;
-		logtext = log_CWstring.GetCString();
-		char log_text_tochar2[65536];
-		WideCharToMultiByte(CP_ACP, 0, logtext, wcslen(logtext) + 1, log_text_tochar2, 256, NULL, NULL);
-		flog << log_text_tochar2;
-	}
-	flog << log_text_tochar;
-	flog << "\n";
-	flog.close();
-}
+
 
 
 
@@ -4764,14 +4923,14 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 	//日志函数用法1
 			CvWString log_CWstring;
 			log_CWstring = gDLL->getText("TXT_KEY_VICTORY_ARABIA_UHV3_JERUSALEM");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_AI_BuildCity.log");
+			GC.logs(log_CWstring, "DoCM_DLL_Log_AI_BuildCity.log");
 	//日志函数用法2
 			CvWString log_CWstring;
 			log_CWstring.Format(L"%s 准备在AI_getCitySite建立城市，坐标( %d , %d) 城市价值： %d", GET_PLAYER(getOwner()).getCivilizationDescription(), plot()->getX(), plot()->getY(), iPlotValue);
 			log_CWstring.Format(L" [ %s ] 的  [%s] 城的建筑 %s 已经失效！", GET_PLAYER(getOwner()).getCivilizationDescription(), getName().GetCString(), GC.getBuildingInfo(eIndex).getText());
 	// 日志函数用法3
 			log_CWstring.Format(L" 勒索WAR!!");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+			GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 	*/
 	int mediv01_log = CVGAMECORE_DLL_LOG;
 	if (mediv01_log == 1) {
@@ -4784,7 +4943,7 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 		static CvString filenamepath;
 
 		if (filename == "") {
-			filename = "DoC_SmallMap_DLL_Log_Default.log";
+			filename = "DoCM_DLL_Log_Default.log";
 		}
 		filenamepath = CVGAMECORE_LOG_PATH + filename;
 		//log_output1(PlayerID,flog, filenamepath, log_text_tochar);
@@ -4803,7 +4962,7 @@ void CvGlobals::logswithid(PlayerTypes PlayerID, CvWString& buf, CvString filena
 		flog << "\n";
 		flog.close();
 
-		filename = "DoC_SmallMap_DLL_Log_ALL.log";
+		filename = "DoCM_DLL_Log_ALL.log";
 		filenamepath = CVGAMECORE_LOG_PATH + filename;
 		//log_output1(PlayerID,flog, filenamepath, log_text_tochar);
 		flog.open(filenamepath, std::ios::app | std::ios::out);
@@ -4832,16 +4991,16 @@ void CvGlobals::logs(CvWString& buf, CvString filename) const {
 	//日志函数用法1
 			CvWString log_CWstring;
 			log_CWstring = gDLL->getText("TXT_KEY_VICTORY_ARABIA_UHV3_JERUSALEM");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_AI_BuildCity.log");
+			GC.logs(log_CWstring, "DoCM_DLL_Log_AI_BuildCity.log");
 	//日志函数用法2
 			CvWString log_CWstring;
 			log_CWstring.Format(L"%s 准备在AI_getCitySite建立城市，坐标( %d , %d) 城市价值： %d", GET_PLAYER(getOwner()).getCivilizationDescription(), plot()->getX(), plot()->getY(), iPlotValue);
 			log_CWstring.Format(L" [ %s ] 的  [%s] 城的建筑 %s 已经失效！", GET_PLAYER(getOwner()).getCivilizationDescription(), getName().GetCString(), GC.getBuildingInfo(eIndex).getText());
 	// 日志函数用法3
 			log_CWstring.Format(L" 勒索WAR!!");
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+			GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 	*/
-	if (filename == "DoC_SmallMap_DLL_Log_TEST.log") {
+	if (filename == "DoCM_DLL_Log_TEST.log") {
 		if (GC.getDefineINT("CVGAMECORE_LOG_ON_TEST") > 0) {
 
 		}
@@ -4865,10 +5024,59 @@ void CvGlobals::show(CvWString text) const
 }
 
 
+// 判断是否进入游戏中，还是在游戏主界面
+bool CvGlobals::isGameStart() const {
+	return (GC.getGame().getMaxTurns() > 0);
+	// 不要使用GC.getGame().isGameStart()，判断数值是错的
+	// 不要使用GC.getGame().getGameTurn()>=0，因为该类变量的初始值为0
+}
 
 
+// 寻找当前科技与未来某个科技的距离
+int CvGlobals::getTechQueuePosition(TechTypes iTech) const {
+	int techPosition = 0;
+
+	if (isGameStart()) {
+		techPosition = GET_PLAYER(GC.getGame().getActivePlayer()).findPathLength(iTech, false);
+	}
+
+	return techPosition;
+}
+
+
+
+
+/*
+废弃函数库
+
+void log_output1(PlayerTypes PlayerID, std::wfstream& flog, CvString& filenamepath, char  log_text_tochar[65536])
+{
+	if (CVGLOBAL_ENABLE_DLL_LOG == 0) {
+		return;
+	}
+	flog.open(filenamepath, std::ios::app | std::ios::out);
+	flog << logs_gettime();
+	flog << logs_getgameturn().c_str();
+	if (PlayerID != NO_PLAYER) {
+		log_CWstring.Format(L" [ %s ] ", GET_PLAYER(PlayerID).getCivilizationShortDescription());
+		const wchar* logtext;
+		logtext = log_CWstring.GetCString();
+		char log_text_tochar2[65536];
+		WideCharToMultiByte(CP_ACP, 0, logtext, wcslen(logtext) + 1, log_text_tochar2, 256, NULL, NULL);
+		flog << log_text_tochar2;
+	}
+	flog << log_text_tochar;
+	flog << "\n";
+	flog.close();
+}
+
+*/
+
+
+
+/*
 int showAIstrategy(int iPlayer) {
-	/*
+
  AI_DEFAULT_STRATEGY             (1 << 0)
  AI_STRATEGY_DAGGER              (1 << 1)
  AI_STRATEGY_SLEDGEHAMMER        (1 << 2)
@@ -4890,7 +5098,7 @@ int showAIstrategy(int iPlayer) {
  AI_STRATEGY_FINAL_WAR			(1 << 18)
  AI_STRATEGY_OWABWNW				(1 << 19)
  AI_STRATEGY_BIG_ESPIONAGE		(1 << 20)
-	*/
+
 	bool DoStrategy;
 	for (int i = 0; i <= 20; i++) {
 		DoStrategy = GET_PLAYER((PlayerTypes)iPlayer).AI_isDoStrategy(1 << i);
@@ -4902,6 +5110,9 @@ int showAIstrategy(int iPlayer) {
 
 
 }
+*/
+
+
 
 
 int CvGlobals::showAIstrategy(int iPlayer) const
@@ -4912,7 +5123,7 @@ int CvGlobals::showAIstrategy(int iPlayer) const
 
 int CvGlobals::getGoldMultiplier() const
 {
-	//  mediv01  已失效选项
+	//  mediv01  默认为1
 	/*
 	if (GC.getDefineINT("CVCITY_MUTIPLIER_IN_GOLD") > 0) {
 		return GC.getDefineINT("CVCITY_MUTIPLIER_IN_GOLD");
@@ -4920,10 +5131,3 @@ int CvGlobals::getGoldMultiplier() const
 	*/
 	return 1;
 }
-
-
-
-
-
-
-

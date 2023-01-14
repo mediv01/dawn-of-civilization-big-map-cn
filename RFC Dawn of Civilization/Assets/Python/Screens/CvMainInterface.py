@@ -2162,6 +2162,10 @@ class CvMainInterface:
             yResolution = screen.getYResolution()
             screen.addFlagWidgetGFC("CivilizationFlag", xResolution - 288, yResolution - 138, 68, 250, gcgame.getActivePlayer(), WidgetTypes.WIDGET_FLAG, gcgame.getActivePlayer(), -1)
 
+            szBuffer = DOCM_VERSION
+            screen.setLabel("DOCMVersion", "Background", szBuffer, CvUtil.FONT_LEFT_JUSTIFY, xResolution - 288 + 8 , yResolution - 138, -0.3, FontTypes.GAME_FONT, WidgetTypes.WIDGET_HELP_HAPPINESS, -1, -1)
+            screen.show("DOCMVersion")
+
     # Will hide and show the selection buttons and their associated buttons
     def updateSelectionButtons(self):
 
@@ -4026,9 +4030,9 @@ class CvMainInterface:
                             if (iTradeProfit != 0):
                                 if (iTradeProfit > 0):
                                     if TradeUtil.isFractionalTrade():
-                                        szTempBuffer = u"%s%d.%02d%c" % ("+", iTradeProfit // 100, iTradeProfit % 100, gc.getYieldInfo(j).getChar())
+                                        szTempBuffer = u"%s%d.%02d%c" % ("", iTradeProfit // 100, iTradeProfit % 100, gc.getYieldInfo(j).getChar())
                                     else:
-                                        szTempBuffer = u"%s%d%c" % ("+", iTradeProfit, gc.getYieldInfo(j).getChar())
+                                        szTempBuffer = u"%s%d%c" % ("", iTradeProfit, gc.getYieldInfo(j).getChar())
                                     szRightBuffer = szRightBuffer + szTempBuffer
                                 else:
                                     if TradeUtil.isFractionalTrade():

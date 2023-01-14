@@ -12039,7 +12039,7 @@
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TRADING_COMPANY</BuildingClass>
 			<Type>BUILDING_IBERIAN_TRADING_COMPANY</Type>
-			<Description>TXT_KEY_BUILDING_TRADING_COMPANY</Description>
+			<Description>TXT_KEY_BUILDING_LBERIAN_TRADING_COMPANY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TRADING_COMPANY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TRADING_COMPANY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>

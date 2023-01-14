@@ -2800,6 +2800,22 @@ bool CvCity::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool b
 /********************************************************************************/
 /* 	Leoreth							END							*/
 /********************************************************************************/
+
+	// 禁止非西欧国家AI在AD1500年前造轻帆船
+	if (PLAYER_AI_NO_ALLOW_ALABIA_TO_BUILD_SHIF_BEFORE_1500) {
+		if (!isHuman() && GC.getGameTurnYear() <= 1500) {
+			if (eUnit == UNIT_CARAVEL) {
+				if (getOwner() != PORTUGAL && getOwner() != SPAIN && getOwner() != FRANCE && getOwner() != ENGLAND) {
+					return false;
+				}
+			}
+		}
+	}
+
+
+
+
+
 	return true;
 }
 

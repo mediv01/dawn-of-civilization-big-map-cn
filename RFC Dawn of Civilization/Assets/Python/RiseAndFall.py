@@ -871,6 +871,10 @@ class RiseAndFall:
             if pIndependent2.isAlive():
                 utils.updateMinorTechs(iIndependent2, iBarbarian)
 
+        if PYTHON_STABILITY_MAX_COUNTRY_ALIVE > 0:
+            if iGameTurn % utils.getTurns(20) == 7:
+                self.checkMaxCountry()
+
         # Leoreth: give Celtia a settler in England in 500BC
         if not pCeltia.isHuman():
             # 1SDAN: give AI Celtia three Settlers in La Tene in 450BC
@@ -894,7 +898,8 @@ class RiseAndFall:
                 utils.makeUnit(iWorker, iCarthage, (67, 48), 2)
                 utils.makeUnit(iWarElephant, iCarthage, (67, 48), 2)
                 if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                    utils.logwithid(iCarthage, ' Start settle in Qart-Hadasht')
+                    utils.logwithid(iCarthage, ' 迦太基开始殖民北非地区！')
+                    utils.logwithid_rise_and_fall(iCarthage, ' 迦太基开始殖民北非地区！')
             # 1SDAN: give Phoenicia a Mine and Road on their Copper
             if gcmap.plot(73, 40).isCity():
                 if gcmap.plot(73, 40).getPlotCity().getOwner() == iCarthage:
@@ -930,29 +935,33 @@ class RiseAndFall:
                     utils.logwithid(iRome, ' Start fall down')
 
         # Colonists
+        EarlyColonists = -1
         if iGameTurn == utils.getTurnForYear(-850):
             self.giveEarlyColonists(iGreece)
-            if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                utils.logwithid(iGreece, 'Start Early Colonists')
+            EarlyColonists = iGreece
+
         elif iGameTurn == utils.getTurnForYear(-700):  # removed their colonists because of the Qart-Hadasht spawn
             self.giveEarlyColonists(iCarthage)
-            if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                utils.logwithid(iGreece, 'Start Early Colonists')
+            EarlyColonists = iCarthage
 
         elif iGameTurn == utils.getTurnForYear(-600):
             self.giveEarlyColonists(iRome)
-            if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                utils.logwithid(iGreece, 'Start Early Colonists')
+            EarlyColonists = iRome
+
         elif iGameTurn == utils.getTurnForYear(-400):
             self.giveEarlyColonists(iRome)
-            if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                utils.logwithid(iGreece, 'Start Early Colonists')
+            EarlyColonists = iRome
+
+        if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1 and EarlyColonists>=0):
+            utils.logwithid(EarlyColonists, '开始古典时期殖民！')
+            utils.logwithid_rise_and_fall(EarlyColonists, '开始古典时期殖民！')
 
         if utils.isYearIn(860, 1250):
             if iGameTurn % utils.getTurns(10) == 9:
                 self.giveRaiders(iVikings, Areas.getBroaderArea(iVikings))
                 if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                    utils.logwithid(iVikings, 'Start give Raiders')
+                    utils.logwithid(iVikings, '维京人开始进行海上劫掠！')
+                    utils.logwithid_rise_and_fall(iVikings, '维京人开始进行海上劫掠！')
 
         if utils.isYearIn(1350, 1918):
             for iPlayer in [iSpain, iEngland, iFrance, iPortugal, iNetherlands, iVikings, iGermany]:
@@ -988,14 +997,16 @@ class RiseAndFall:
                 self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
             if iGameTurn >= utils.getTurnForYear(tBirth[iLoopCiv]) - 2 and iGameTurn <= utils.getTurnForYear(tBirth[iLoopCiv]) - 2:
                 if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                    utils.logwithid(iLoopCiv, 'Start Birth')
+                    civBirthTxt = '文明'+utils.getCivChineseName(iLoopCiv)+"开始出生！"
+                    utils.logwithid(iLoopCiv, civBirthTxt)
+                    utils.logwithid_rise_and_fall(iLoopCiv, civBirthTxt)
                 if (PYTHON_USE_ADVANCE_ALERT == 1):  # 增加提示信息参数控制
                     # civname=gcgetPlayer(iLoopCiv).getCivilizationAdjectiveKey()
                     # newcivname=str(civname[12:civname.rfind('_')])
                     # newcivname=newcivname.capitalize()
                     civname = utils.getCivChineseName(iLoopCiv)
                     newcivname = civname
-                    tem_text = "&#22312;&#20844;&#20803; " + str(tBirth[iLoopCiv]) + " ,&#19968;&#20010;&#26032;&#30340;&#25991;&#26126;" + newcivname + "&#21363;&#23558;&#35806;&#29983;&#65281;"  # iLoopCiv
+                    tem_text = "在公元 " + str(tBirth[iLoopCiv]) + " ,一个新的文明" + newcivname + "即将诞生！"  # iLoopCiv
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
 
         if iGameTurn == utils.getTurnForYear(600):
@@ -1038,7 +1049,7 @@ class RiseAndFall:
         if iGameTurn % utils.getTurns(icheckturn) == 5:  # used to be 10
             if (PYTHON_LOG_ON_STABILITY > 0):
                 logtext = "Resurrection Check Turn Left:" + str(iGameTurn - (iGameTurn - 1) % utils.getTurns(icheckturn))
-                utils.log2(logtext, "DoC_SmallMap_Log_Stability")
+                utils.log2(logtext, "DoCM_Log_Stability.log")
             sta.checkResurrection(iGameTurn)
 
         # Leoreth: check for scripted rebirths
@@ -1068,6 +1079,62 @@ class RiseAndFall:
             self.checkFlipPopup()
 
         data.lTimedConquests = []
+
+    def checkMaxCountry(self):
+        [AlivePlayerNum, lAlivePlayerList] = utils.getAlivePlayerInfo()
+        if (AlivePlayerNum > PYTHON_STABILITY_MAX_COUNTRY_ALIVE):
+            playerImpotanceList = []
+            utils.logwithid_stability(iIndependent,"当前存活玩家数目为%d，超过上限%d，需要对部分AI玩家进行崩溃操作"%(AlivePlayerNum,PYTHON_STABILITY_MAX_COUNTRY_ALIVE))
+
+            for iPlayer in lAlivePlayerList:
+                importance = self.calculateImportanceOfCivAlive(iPlayer)
+                utils.logwithid_stability(iPlayer,"文明%s的重要程度为%d"%(utils.getCivChineseName(iPlayer),importance))
+                playerImpotanceList.append([iPlayer,importance])
+            playerImpotanceList.sort(key = lambda x:x[1])
+
+            iNum = AlivePlayerNum - PYTHON_STABILITY_MAX_COUNTRY_ALIVE
+
+
+            for i in range(iNum):
+                iPlayer = playerImpotanceList[i][0]
+                utils.logwithid_stability(iPlayer, "文明%s 将会崩溃，其重要程度为%d" % (utils.getCivChineseName(iPlayer), playerImpotanceList[i][1]))
+                if iPlayer not in [utils.getHumanID(),iIndependent,iIndependent2,iBarbarian]:
+                    sta.doCompleteCollapse(iPlayer,False)
+
+        pass
+
+    #  当存活玩家数量超过上限的时候，计算每个国家的重要程度，重要程度越高，则越不容易完全崩溃
+    def calculateImportanceOfCivAlive(self, iPlayer):
+        importance = 0
+
+        #  人类玩家、独立城邦返回最大值
+        if iPlayer in [utils.getHumanID(), iIndependent, iIndependent2, iBarbarian]:
+            importance = 99999999
+            return importance
+
+        if iPlayer in [iChina, iSpain, iPortugal, iFrance, iHolyRome, iEngland, iGermany, iAmerica, iManchuria]:
+            importance += 10000
+
+        if iPlayer in [iGreece, iPersia, iRome, iByzantium, iArabia, iItaly, iMongolia, iOttomans, iRussia, iNetherlands, iTurks] and (not sta.isDecline(iPlayer)):
+            importance += 5000
+
+        if (not sta.isDecline(iPlayer)):
+            importance += 2000
+
+        #  刚刚出生或者复活的文明 重要程度高
+        if sta.isImmune_War(iPlayer):
+            importance += 10000
+
+        # 人类玩家的附庸国，价值更高
+        if gcgetTeam(gcgetPlayer(iPlayer).getTeam()).isVassal(utils.getHumanID()):
+            importance += 10000
+
+        iscore = gcgetPlayer(iPlayer).getScoreHistory(utils.getGameTurn() - 2)
+        importance += iscore
+
+        istability = data.players[iPlayer].iLastStability
+        importance += istability * 100
+        return importance
 
     def rebirthFirstTurn(self, iCiv):
         pCiv = gcgetPlayer(iCiv)
@@ -2018,7 +2085,8 @@ class RiseAndFall:
             if teamCiv.isHasTech(iExploration) and data.players[iCiv].iColonistsAlreadyGiven < dMaxColonists[iCiv]:
 
                 if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                    utils.logwithid(iCiv, ' Colonists: ' + str(data.players[iCiv].iColonistsAlreadyGiven + 1) + ' / ' + str(dMaxColonists[iCiv]))
+                    utils.logwithid(iCiv, ' 西欧国家开始进行地理大发现殖民: ' + str(data.players[iCiv].iColonistsAlreadyGiven + 1) + ' / ' + str(dMaxColonists[iCiv]))
+                    utils.logwithid_rise_and_fall(iCiv, ' 西欧国家开始进行地理大发现殖民: ' + str(data.players[iCiv].iColonistsAlreadyGiven + 1) + ' / ' + str(dMaxColonists[iCiv]))
                 lCities = utils.getAreaCitiesCiv(iCiv, Areas.getCoreArea(iCiv))
 
                 # help England with settling Canada and Australia
@@ -2161,7 +2229,10 @@ class RiseAndFall:
 
                         teamOldWorldCiv.declareWar(iNewWorldCiv, True, WarPlanTypes.WARPLAN_TOTAL)
                         if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                            utils.logwithid(iOldWorldCiv, u'Start WAR with new world civ: ' + gcgetPlayer(iNewWorldCiv).getCivilizationShortDescription(0))
+                            newWorldlogtext = "文明" + utils.getCivChineseName(iOldWorldCiv) + "发现了美洲新大陆，并开始征服当地土著:"+utils.getCivChineseName(iNewWorldCiv)
+                            utils.logwithid(iOldWorldCiv, newWorldlogtext)
+                            utils.logwithid_rise_and_fall(iOldWorldCiv, newWorldlogtext)
+
 
                         iInfantry = utils.getBestInfantry(iOldWorldCiv)
                         iCounter = utils.getBestCounter(iOldWorldCiv)

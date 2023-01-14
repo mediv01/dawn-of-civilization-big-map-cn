@@ -1821,128 +1821,48 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	int iTotalBuildingDamage = 0;
 
-	if (GC.m_iCAPTURE_CITY_WITH_ALL_DAMAGE == 1) {//mediv01 占领城市不受损
 
-	}
-	else if (GC.m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE == 1) {
-		for (iI = 0; iI < GC.getNumBuildingInfos(); iI++)//mediv01
+	vector<BuildingTypes> LostBuildingList;
+	for (iI = 0; iI < GC.getNumBuildingInfos(); iI++)
+	{
+		int iNum = 0;
+
+		if (paiNumRealBuilding[iI] > 0)
 		{
-			int iNum = 0;
-
-			if (paiNumRealBuilding[iI] > 0)
+			BuildingClassTypes eBuildingClass = (BuildingClassTypes)GC.getBuildingInfo((BuildingTypes)iI).getBuildingClassType();
+			if (::isWorldWonderClass(eBuildingClass))
 			{
-				BuildingClassTypes eBuildingClass = (BuildingClassTypes)GC.getBuildingInfo((BuildingTypes)iI).getBuildingClassType();
-				if (::isWorldWonderClass(eBuildingClass))
-				{
-					eBuilding = (BuildingTypes)iI;
-				}
-				else
-				{
-					eBuilding = (BuildingTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(eBuildingClass);
-				}
-
-				if (eBuilding != NO_BUILDING)
-				{
-					CvBuildingInfo& kOldBuilding = GC.getBuildingInfo((BuildingTypes)iI);
-					CvBuildingInfo& kNewBuilding = GC.getBuildingInfo(eBuilding);
-
-					if (paiNumRealBuilding[iI] == 0)
-					{
-						//continue;
-					}
-
-					if (iDamage > 0)
-					{
-						if (kOldBuilding.getDefenseModifier() > 0 || kOldBuilding.getBombardDefenseModifier() > 0 || kOldBuilding.getUnignorableBombardDefenseModifier() > 0)
-						{
-							if (!::isWorldWonderClass((BuildingClassTypes)kOldBuilding.getBuildingClassType()))
-							{
-								//continue;
-							}
-						}
-					}
-
-					if (kOldBuilding.getConquestProbability() == 0)
-					{
-						//continue;
-					}
-
-					// cannot capture a unique building that requires different techs unless you can build your own version of it
-					if (eBuilding != iI)
-					{
-						if (kOldBuilding.getPrereqAndTech() != kNewBuilding.getPrereqAndTech())
-						{
-							if (!canConstruct(eBuilding))
-							{
-								//continue;
-							}
-						}
-					}
-
-					if (bTrade || !kOldBuilding.isNeverCapture() || (kOldBuilding.getReligionType() != NO_RELIGION && getSpreadType(pCityPlot, (ReligionTypes)kOldBuilding.getReligionType()) >= RELIGION_SPREAD_NORMAL))
-					{
-						if (!isProductionMaxedBuildingClass(((BuildingClassTypes)kNewBuilding.getBuildingClassType()), true))
-						{
-							if (pNewCity->isValidBuildingLocation(eBuilding))
-							{
-								pNewCity->setNumRealBuildingTimed(eBuilding, std::min(pNewCity->getNumRealBuilding(eBuilding) + paiNumRealBuilding[iI], GC.getCITY_MAX_NUM_BUILDINGS()), false, (PlayerTypes)paiBuildingOriginalOwner[iI], paiBuildingOriginalTime[iI]);
-
-								if (bConquest && !bRecapture)
-								{
-									//iTotalBuildingDamage += kOldBuilding.getProductionCost() * (100 - kOldBuilding.getConquestProbability());
-									iTotalBuildingDamage = 0;//mediv01
-								}
-							}
-						}
-					}
-				}
+				eBuilding = (BuildingTypes)iI;
 			}
-		}
-
-		iTotalBuildingDamage /= 100;
-
-		iTotalBuildingDamage *= std::max(0, 100 - iDefense);
-		iTotalBuildingDamage /= 100;
-
-		if (!isHuman() && !isBarbarian())
-		{
-			iTotalBuildingDamage *= GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getAIConstructPercent();
-			iTotalBuildingDamage /= 100;
-		}
-
-		if (iCaptureMaxTurns > 0 && GC.getGameINLINE().getGameTurn() > getScenarioStartTurn() + getTurns(iCaptureMaxTurns))
-		{
-			iTotalBuildingDamage *= std::max(0, std::min(GC.getGame().getGameTurn() - iGameTurnAcquired, getTurns(iCaptureMaxTurns)));
-			iTotalBuildingDamage /= getTurns(iCaptureMaxTurns);
-		}
-		iTotalBuildingDamage = 0;
-	}
-
-	else {
-
-		for (iI = 0; iI < GC.getNumBuildingInfos(); iI++)
-		{
-			int iNum = 0;
-
-			if (paiNumRealBuilding[iI] > 0)
+			else
 			{
-				BuildingClassTypes eBuildingClass = (BuildingClassTypes)GC.getBuildingInfo((BuildingTypes)iI).getBuildingClassType();
-				if (::isWorldWonderClass(eBuildingClass))
-				{
-					eBuilding = (BuildingTypes)iI;
-				}
-				else
-				{
-					eBuilding = (BuildingTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(eBuildingClass);
+				eBuilding = (BuildingTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(eBuildingClass);
+			}
+
+			if (eBuilding != NO_BUILDING)
+			{
+				bool beRebuilded = false;
+				CvBuildingInfo& kOldBuilding = GC.getBuildingInfo((BuildingTypes)iI);
+				CvBuildingInfo& kNewBuilding = GC.getBuildingInfo(eBuilding);
+
+				// 建筑完全不损失
+				if (GC.m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE>0) {
+					pNewCity->setNumRealBuildingTimed(eBuilding, std::min(pNewCity->getNumRealBuilding(eBuilding) + paiNumRealBuilding[iI], GC.getCITY_MAX_NUM_BUILDINGS()), false, (PlayerTypes)paiBuildingOriginalOwner[iI], paiBuildingOriginalTime[iI]);
+					beRebuilded = true;
+
 				}
 
-				if (eBuilding != NO_BUILDING)
-				{
-					CvBuildingInfo& kOldBuilding = GC.getBuildingInfo((BuildingTypes)iI);
-					CvBuildingInfo& kNewBuilding = GC.getBuildingInfo(eBuilding);
+				// 建筑完全损失
+				else if (GC.m_iCAPTURE_CITY_WITH_ALL_DAMAGE > 0) {
+					LostBuildingList.push_back(eBuilding);
+					continue;
+				}
+
+				else {
 
 					if (paiNumRealBuilding[iI] == 0)
 					{
+						LostBuildingList.push_back(eBuilding);
 						continue;
 					}
 
@@ -1952,6 +1872,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 						{
 							if (!::isWorldWonderClass((BuildingClassTypes)kOldBuilding.getBuildingClassType()))
 							{
+								LostBuildingList.push_back(eBuilding);
 								continue;
 							}
 						}
@@ -1959,6 +1880,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 					if (kOldBuilding.getConquestProbability() == 0)
 					{
+						LostBuildingList.push_back(eBuilding);
 						continue;
 					}
 
@@ -1969,6 +1891,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 						{
 							if (!canConstruct(eBuilding))
 							{
+								LostBuildingList.push_back(eBuilding);
 								continue;
 							}
 						}
@@ -1981,6 +1904,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 							if (pNewCity->isValidBuildingLocation(eBuilding))
 							{
 								pNewCity->setNumRealBuildingTimed(eBuilding, std::min(pNewCity->getNumRealBuilding(eBuilding) + paiNumRealBuilding[iI], GC.getCITY_MAX_NUM_BUILDINGS()), false, (PlayerTypes)paiBuildingOriginalOwner[iI], paiBuildingOriginalTime[iI]);
+								beRebuilded = true;
 
 								if (bConquest && !bRecapture)
 								{
@@ -1989,27 +1913,48 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 							}
 						}
 					}
+
 				}
+
+				if (!beRebuilded) {
+					LostBuildingList.push_back(eBuilding);
+				}
+
+
 			}
 		}
-
-		iTotalBuildingDamage /= 100;
-
-		iTotalBuildingDamage *= std::max(0, 100 - iDefense);
-		iTotalBuildingDamage /= 100;
-
-		if (!isHuman() && !isBarbarian())
-		{
-			iTotalBuildingDamage *= GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getAIConstructPercent();
-			iTotalBuildingDamage /= 100;
-		}
-
-		if (iCaptureMaxTurns > 0 && GC.getGameINLINE().getGameTurn() > getScenarioStartTurn() + getTurns(iCaptureMaxTurns))
-		{
-			iTotalBuildingDamage *= std::max(0, std::min(GC.getGame().getGameTurn() - iGameTurnAcquired, getTurns(iCaptureMaxTurns)));
-			iTotalBuildingDamage /= getTurns(iCaptureMaxTurns);
-		}
 	}
+
+	if ((GC.m_iCAPTURE_CITY_LOST_BUILDING_ALERT>0) && (LostBuildingList.size()>0)) {
+		szBuffer = gDLL->getText("TXT_KEY_ANY_LOST_BUILDING_TEXT");
+		for (int i = 0; i < (int)LostBuildingList.size(); i++)
+		{
+			BuildingTypes eBuilding2 = LostBuildingList[i];
+			log_CWstring.Format(L" %s ", GC.getBuildingInfo(eBuilding2).getDescription());
+			szBuffer.append(log_CWstring);
+		}
+
+
+		gDLL->getInterfaceIFace()->addMessage(pNewCity->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_DESTROY", MESSAGE_TYPE_INFO, ARTFILEMGR.getInterfaceArtInfo("WORLDBUILDER_CITY_EDIT")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_PLAYER_RED_TEXT"), pNewCity->getX_INLINE(), pNewCity->getY_INLINE());
+	}
+
+	iTotalBuildingDamage /= 100;
+
+	iTotalBuildingDamage *= std::max(0, 100 - iDefense);
+	iTotalBuildingDamage /= 100;
+
+	if (!isHuman() && !isBarbarian())
+	{
+		iTotalBuildingDamage *= GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getAIConstructPercent();
+		iTotalBuildingDamage /= 100;
+	}
+
+	if (iCaptureMaxTurns > 0 && GC.getGameINLINE().getGameTurn() > getScenarioStartTurn() + getTurns(iCaptureMaxTurns))
+	{
+		iTotalBuildingDamage *= std::max(0, std::min(GC.getGame().getGameTurn() - iGameTurnAcquired, getTurns(iCaptureMaxTurns)));
+		iTotalBuildingDamage /= getTurns(iCaptureMaxTurns);
+	}
+	
 
 	pNewCity->setBuildingDamage(iTotalBuildingDamage);
 
@@ -3946,6 +3891,15 @@ int CvPlayer::calculateScore(bool bFinal, bool bVictory)
 		argsList.add(bVictory);
 		GC.callPythoFunction(PYGameModule, "calculateScore", argsList.makeFunctionArgs(), &lScore);
 	}
+
+	if (getID() >= NUM_MAJOR_PLAYERS) {
+		int multi = CVGAME_MINOR_CITY_LOW_SCORE_ON_SCREEN;
+		if (multi > 0) {
+			lScore = lScore / multi;
+		}
+	}
+
+
 
 	return ((int)lScore);
 }
@@ -8884,7 +8838,7 @@ void CvPlayer::foundReligion(ReligionTypes eReligion, ReligionTypes eSlotReligio
 	pBestCity = NULL;
 
 	log_CWstring.Format(L" %s 创立宗教 %s", GET_PLAYER(getID()).getCivilizationShortDescription(), GC.getReligionInfo(eReligion).getDescription());
-	GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+	GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 
 	for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
 	{
@@ -8965,7 +8919,7 @@ void CvPlayer::foundReligion(ReligionTypes eReligion, ReligionTypes eSlotReligio
 			iValue = std::max(1, iValue);
 
 			log_CWstring.Format(L" 城市为 %d %d，宗教价值为 %d", pLoopCity->getX_INLINE(), pLoopCity->getY_INLINE(), iValue);
-			GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+			GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 
 			if (iValue > iBestValue)
 			{
@@ -8979,7 +8933,7 @@ void CvPlayer::foundReligion(ReligionTypes eReligion, ReligionTypes eSlotReligio
 	if (pBestCity != NULL)
 	{
 		log_CWstring.Format(L" 圣城为 %d %d", pBestCity->getX_INLINE(), pBestCity->getY_INLINE());
-		GC.logs(log_CWstring, "DoC_SmallMap_DLL_Log_TEST.log");
+		GC.logs(log_CWstring, "DoCM_DLL_Log_TEST.log");
 		GC.getGameINLINE().setHolyCity(eReligion, pBestCity, true);
 		
 		if (bAward)
@@ -12317,12 +12271,12 @@ void CvPlayer::doConquestIncentive(const PlayerTypes& eOldOwner)
 			log_CWstring.Format(L"%s %s %s", GET_PLAYER(PlayerWinner).getCivilizationShortDescription(), gDLL->getText("TXT_KEY_DLLTEXT00001").GetCString(), GET_PLAYER(PlayerKilled).getCivilizationShortDescription());
 			gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), log_CWstring, NULL, MESSAGE_TYPE_MAJOR_EVENT);
 			if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
-				GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+				GC.logswithid(PlayerWinner, log_CWstring, "DoCM_DLL_Log_Conquest.log");
 			}
 			log_CWstring.Format(L"%s %s %d ", GET_PLAYER(PlayerWinner).getCivilizationShortDescription(), gDLL->getText("TXT_KEY_DLLTEXT00002").GetCString(), old_player_gold);
 			gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), log_CWstring, NULL, MESSAGE_TYPE_MAJOR_EVENT);
 			if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
-			GC.logswithid(PlayerWinner, log_CWstring, "DoC_SmallMap_DLL_Log_Conquest.log");
+			GC.logswithid(PlayerWinner, log_CWstring, "DoCM_DLL_Log_Conquest.log");
 			}
 		
 			
@@ -12353,7 +12307,7 @@ void CvPlayer::doConquestIncentive(const PlayerTypes& eOldOwner)
 					gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, NULL, MESSAGE_TYPE_MAJOR_EVENT);
 					if (GC.getDefineINT("CVGAMECORE_LOG_AI_CONQUEST_TECH_AND_GOLD") > 0) {
 						// log_CWstring.Format(L"%s 征服文明获得科技: %s", GET_PLAYER(PlayerWinner).getCivilizationDescription(), GC.getTechInfo((TechTypes)iI).getDescription());
-						GC.logswithid(PlayerWinner, szBuffer, "DoC_SmallMap_DLL_Log_Conquest.log");
+						GC.logswithid(PlayerWinner, szBuffer, "DoCM_DLL_Log_Conquest.log");
 					}
 				}
 			}
@@ -13893,6 +13847,13 @@ int CvPlayer::getUnitClassCount(UnitClassTypes eIndex) const
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < GC.getNumUnitClassInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
 	return m_paiUnitClassCount[eIndex];
+}
+
+
+int CvPlayer::getUnitCount(int eUnitID) const
+{
+	int unitNumber = getUnitClassCount((UnitClassTypes)GC.getUnitInfo((UnitTypes)eUnitID).getUnitClassType());
+	return unitNumber;
 }
 
 

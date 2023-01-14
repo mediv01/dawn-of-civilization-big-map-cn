@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Civ4GameText>
-	
+
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONGO_WENE</Tag>
+		<English>Wene</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>刚果广场</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CONGO_WENE_PEDIA</Tag>
 		<English>[TAB]In Kongo, villages were grouped in wene, small states, led by awene (plural of mwene) or mani to the Portuguese. The vata (village), referred to as libata in Kongo documents and by the Portuguese in the sixteenth century, served as Kongo's basic social unit after the family. Nkuluntu, or mocolunto to the Portuguese, chiefs headed the villages. The one to two hundred citizens per village migrated about every ten years to accommodate soil exhaustion. Communal land-ownership and collective farms produced harvests divided by families according to the number of people per household. The nkuluntu received special premium from the harvest before the division.</English>
@@ -8,17 +14,53 @@
 		<Chinese>[TAB]在Kongo，小州wene的村庄被分组，由awene（mwene的复数形式）或mani（葡萄牙人）领导。瓦塔（村庄）在孔戈文献中被称为libata，在十六世纪被葡萄牙人称为libata，是Kongo继家庭之后的基本社会单位。恩库伦图，即葡萄牙人的莫克伦托，酋长们领导着这些村庄。每个村庄大约每十年迁移一到两百名居民以适应土壤枯竭。集体土地所有权和集体农场产生的收成是按照每户人口的多少按家庭划分的。恩库伦图在分队前从收割中获得了特别的溢价。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CONGO_WENE_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Wene[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Civic Square[COLOR_REVERT], provides a free [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]刚果广场[COLOR_REVERT]，刚果人对[COLOR_BUILDING_TEXT]公民广场的替代品，提供了一个免费的[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]。</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA</Tag>
+		<English>Collegantia</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>意大利海关</Chinese>
+	</TEXT>			
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA_PEDIA</Tag>
 		<English>[TAB]The typical form of company was the so-called Collegantia. Within its frame a silent partner introduced about three quarters of the capital investment, the active partner, who conducted the trade, introduced the rest. Aims, responsibility assignment and shares were fixed before the journey being started, but the active partner could also reinvest his gains during the same journey. In a way silent and active partner were only roles that were fixed before each adventure, in which several silent partners could dare their luck. This way the risks diminished and the opportunities to accumulate capital increased. Close relationships and dependencies were developed and as a consequence family partnerships were largely preferred.[PARAGRAPH:1]Not before the Late Middle Ages - and thus very late in comparison to Tuscany - veritable societates prevailed, companies conceived for longer periods. In addition double-entry bookkeeping enhanced the possibilities to stretch initiatives into rather far away countries by founding outposts or factories, and by enhancing controlling. Directing activities and intensification of local contacts were facilitated this way, too.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>公司的典型形式是所谓的合群。在它的框架内，一个沉默的合伙人引入了大约四分之三的资本投资，而负责交易的积极合伙人则引入了其余的部分。在旅程开始之前，目标、责任分配和份额都是固定的，但积极的合伙人也可以在同一旅程中将其收益进行再投资。在某种程度上，沉默和积极的伙伴是唯一的角色，在每一次冒险之前，几个沉默的伙伴可以敢于碰碰运气。这样一来，风险就降低了，积累资本的机会就增加了。建立了密切的关系和依赖关系，因此，家庭伙伴关系在很大程度上是首选[段落：1]在中世纪晚期之前，也就是说，与托斯卡纳相比，真正意义上的社会已经盛行，公司的构想期更长。此外，复式簿记通过建立前哨站或工厂，并通过加强控制，增强了将倡议扩展到遥远国家的可能性。这种方式也促进了指导活动和加强当地联系。</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT], the Italian replacement for the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT], doesn't require a [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT] or coast.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT]是意大利替代[COLOR_BUILDING_TEXT]海关大楼[COLOR_REVERT]，不需要[COLOR_BUILDING_TEXT]港口[COLOR_REVERT]或海岸。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN</Tag>
 		<English>Kremlin</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>俄罗斯内城</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], the Russian replacement for the [COLOR_BUILDING_TEXT]Star Fort[COLOR_REVERT], increases the espionage outpunt and help thwart rival spies and provides experience to [COLOR_UNIT_TEXT]Spy units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese> [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], 是俄罗斯取代[COLOR_BUILDING_TEXT]星堡[COLOR_REVERT]的，它增加了间谍活动的数量，帮助挫败对手的间谍，并为[COLOR_UNIT_TEXT]间谍单位[COLOR_REVERT]提供经验。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_AGORA</Tag>
+		<English>Agora</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>希腊集市</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREEK_AGORA_PEDIA</Tag>
+		<English>[TAB]In Greek, "agora" means "place of gathering." Agoras appeared in all of the Greek city-states ("polis") of the classical period, serving as marketplaces where merchants and artisans congregated to put their wares on sale. Agoras were much more than mere places of business, however. Everybody came to the agoras, and here much of the business of the city-state was concluded. Here politicians met the citizenry to debate policy. Here teachers congregated with their students. Socrates could often be found in the Athenian agora, teaching his philosophy in the streets to anyone who would listen. In short, agoras were the heart and soul of the city-state.[PARAGRAPH:1]The best surviving example of an agora can be found in Athens. Located near the high ground of the Acropolis, the agora contains the ruins of several great temples, most notably the Temple of Hephestus (Thesion). The original Athenian agora was destroyed during the Persian invasion of 480 BC; it was entirely rebuilt during the Athenian golden age that took place in the decades that followed. Today the agora is one of the most popular destinations for tourists visiting Athens.[PARAGRAPH:1]In this scenario the agoras perform the same function as marketplaces in the main game.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]在希腊语中，“agora”是指“聚集地”。在古典时期，所有希腊城邦（polis）都出现了广场，作为商人和工匠聚集在一起出售商品的市场。然而，广场不仅仅是商业场所。每个人都来到广场，城邦的大部分事务都在这里结束了。在这里，政客们与市民会面，讨论政策。在这里，老师们和学生们聚集在一起。苏格拉底经常出现在雅典的广场上，在街上向任何愿意倾听的人传授他的哲学。简言之，广场是城邦的核心和灵魂[段落：1]雅典是现存最好的广场。广场位于卫城高地附近，有几座大型寺庙的遗迹，最著名的是赫菲斯托斯神庙（Thesion）。最初的雅典广场在公元前480年波斯人入侵期间被摧毁；它在随后几十年里的雅典黄金时代被完全重建。今天，广场是雅典游客最受欢迎的目的地之一[段落：1]在这个场景中，广场与主游戏中的市场具有相同的功能。</Chinese>
+	</TEXT>			
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREEK_AGORA_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Agora[COLOR_REVERT], the Greek replacement for the [COLOR_BUILDING_TEXT]Market[COLOR_REVERT], increases the science output and allows you to hire one [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialist.</English>
@@ -32,11 +74,35 @@
 		<Chinese>蒙古邮驿</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_PEDIA</Tag>
+		<English>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200-300 km per day. It was used to speed up the process of information and intelligence.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[TAB]Yam是成吉思汗使用并广泛使用和扩展的补给点路线信使系统，包括帖木儿王朝。[段落：1]中继站被用来为蒙古军队的信使提供食物、住所和备用马。成吉思汗对山药给予了特别的关注，因为蒙古军队的速度非常快，所以他们的信使必须更快，每天要走200-300公里。它被用来加速信息和情报的进程。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Yam[COLOR_REVERT], the Mongolian replacement for the [COLOR_BUILDING_TEXT]Post Office[COLOR_REVERT], gives the [COLOR_HIGHLIGHT_TEXT]Mobility I[COLOR_REVERT] promotion to [COLOR_UNIT_TEXT]TMounted units[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_HIGHLIGHT_TEXT]Yam[COLOR_REVERT]是蒙古语对[COLOR_BUILDING_TEXT]邮局[COLOR_REVERT]的替代品，它将[COLOR_HIGHLIGHT_TEXT]移动性I[COLOR_REVERT]提升为[COLOR_UNIT_TEXT]t装载单位[COLOR_REVERT]。</Chinese>
+	</TEXT>		
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS</Tag>
 		<English>Mountain Fortress</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>高丽堡垒</Chinese>
 	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_PEDIA</Tag>
+		<English>[TAB]Goguryeo, the largest of the Three Kingdoms of Korea, is renowned for its mountain fortresses built horizontally and vertically along the incline of slopes. One of the well-preserved Goguryeo fortresses is Baekam fortress constructed before 6th century in present-day South-West Manchuria. A Chinese historian noted, "The Koguryo people like to build their palaces well." Patterned tiles and ornate bracket systems were already in use in many palaces in P'yongyang, the capital, and other town-fortresses in what now is Manchuria.</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>高句丽是朝鲜三国中最大的一个，以其沿斜坡水平和垂直方向建造的山寨而闻名。保存完好的高句丽要塞之一是建于6世纪以前的今天的西南满洲的白甘要塞。一位中国历史学家指出：“高句丽人喜欢把他们的宫殿建得很好。”有图案的瓷砖和华丽的支架系统已经在首都永阳的许多宫殿和现在满洲的其他城镇要塞中使用。</Chinese>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Mountain Fortress[COLOR_REVERT], the Korean replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], increases culture output of a city and it allows you to hire one [COLOR_HIGHLIGHT_TEXT]Engineer[COLOR_REVERT].</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>[COLOR_BUILDING_TEXT]高丽堡垒[COLOR_REVERT]是韩国对[COLOR_BUILDING_TEXT]城堡的替代品[COLOR_REVERT]，增加了一个城市的文化输出，并允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]工程师[COLOR_REVERT]。</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ROME_CASTRA</Tag>
 		<English>Castrum</English>
@@ -48,12 +114,6 @@
 		<English>[TAB]In ancient Scandinavia and Germanic Europe a mead hall or feasting hall was initially simply a large building with a single room. From the fifth century to early medieval times such a building was the residence of a lord and his retainers. The mead hall was generally the great hall of the king.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>在古代斯堪的纳维亚半岛和日耳曼的欧洲，米德厅或宴会厅最初只是一个有一个房间的大型建筑。从五世纪到中世纪早期，这样的建筑是一位君主和他的侍从的住所。米德大厅通常是国王的大殿。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_GREEK_AGORA_PEDIA</Tag>
-		<English>[TAB]In Greek, "agora" means "place of gathering." Agoras appeared in all of the Greek city-states ("polis") of the classical period, serving as marketplaces where merchants and artisans congregated to put their wares on sale. Agoras were much more than mere places of business, however. Everybody came to the agoras, and here much of the business of the city-state was concluded. Here politicians met the citizenry to debate policy. Here teachers congregated with their students. Socrates could often be found in the Athenian agora, teaching his philosophy in the streets to anyone who would listen. In short, agoras were the heart and soul of the city-state.[PARAGRAPH:1]The best surviving example of an agora can be found in Athens. Located near the high ground of the Acropolis, the agora contains the ruins of several great temples, most notably the Temple of Hephestus (Thesion). The original Athenian agora was destroyed during the Persian invasion of 480 BC; it was entirely rebuilt during the Athenian golden age that took place in the decades that followed. Today the agora is one of the most popular destinations for tourists visiting Athens.[PARAGRAPH:1]In this scenario the agoras perform the same function as marketplaces in the main game.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]在希腊语中，“agora”是指“聚集地”。在古典时期，所有希腊城邦（polis）都出现了广场，作为商人和工匠聚集在一起出售商品的市场。然而，广场不仅仅是商业场所。每个人都来到广场，城邦的大部分事务都在这里结束了。在这里，政客们与市民会面，讨论政策。在这里，老师们和学生们聚集在一起。苏格拉底经常出现在雅典的广场上，在街上向任何愿意倾听的人传授他的哲学。简言之，广场是城邦的核心和灵魂[段落：1]雅典是现存最好的广场。广场位于卫城高地附近，有几座大型寺庙的遗迹，最著名的是赫菲斯托斯神庙（Thesion）。最初的雅典广场在公元前480年波斯人入侵期间被摧毁；它在随后几十年里的雅典黄金时代被完全重建。今天，广场是雅典游客最受欢迎的目的地之一[段落：1]在这个场景中，广场与主游戏中的市场具有相同的功能。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_OPERA_STRATEGY</Tag>
@@ -108,12 +168,6 @@
 		<English>The [COLOR_BUILDING_TEXT]Castrum[COLOR_REVERT], the Roman replacement for the [COLOR_BUILDING_TEXT]Barracks[COLOR_REVERT] provides experience for [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT] and [COLOR_UNIT_TEXT]Siege Units[COLOR_REVERT].</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>[COLOR_BUILDING_TEXT]Castrum[COLOR_REVERT]是罗马帝国对[COLOR_BUILDING_TEXT]军营[COLOR_REVERT]和[COLOR_UNIT_TEXT]近战部队[COLOR_REVERT]的罗马替代品。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_GREEK_AGORA</Tag>
-		<English>Agora</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>希腊集市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MUGHAL_FORT</Tag>
@@ -248,28 +302,10 @@
 		<Chinese>阿根廷牧场</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_PEDIA</Tag>
-		<English>[TAB]Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by his descendants, including the Timurids. [PARAGRAPH:1]Relay stations were used to give food, shelter and spare horses for Mongol armies messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200-300 km per day. It was used to speed up the process of information and intelligence.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[TAB]Yam是成吉思汗使用并广泛使用和扩展的补给点路线信使系统，包括帖木儿王朝。[段落：1]中继站被用来为蒙古军队的信使提供食物、住所和备用马。成吉思汗对山药给予了特别的关注，因为蒙古军队的速度非常快，所以他们的信使必须更快，每天要走200-300公里。它被用来加速信息和情报的进程。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CONGO_WENE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Wene[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Civic Square[COLOR_REVERT], provides a free [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT].</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]刚果广场[COLOR_REVERT]，刚果人对[COLOR_BUILDING_TEXT]公民广场的替代品，提供了一个免费的[COLOR_HIGHLIGHT_TEXT]政治家[COLOR_REVERT]。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_PEDIA</Tag>
 		<English>[TAB]When the Egyptians pulled out of the lower Nile, they left a legacy that merged with indigenous customs forming the kingdom of Kush. Kush adopted many Egyptian practices such as their religion and the practice of building pyramids. Approximately 220 pyramids were eventually constructed at three sites in Nubia to serve as tombs for the kings and queens of Napata and Mero??. The first of these were built at the site of el-Kurru.[PARAGRAPH:1]The physical proportions of Nubian pyramids differ markedly from the Egyptian edifices that influenced them: they are built of stepped courses of horizontally positioned stone blocks, and range from approximately six to thirty metres in height, but rise from fairly small foundation footprints that rarely exceed eight metres in width, resulting in tall, narrow structures inclined at around seventy degrees. Most also have small Egyptian-inspired offering temple structures abutting their base. The oldest and largest pyramid at Nuri is that of the Napatan king and twenty-fifth dynasty pharaoh Taharqa.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>当埃及人撤出尼罗河下游时，他们留下的遗产与当地的风俗习惯融为一体，形成了库什王国。库什采纳了许多埃及人的做法，比如他们的宗教和建造金字塔的做法。大约220座金字塔最终在努比亚的三个地点建造，作为纳帕塔和梅罗国王和王后的陵墓。其中第一个是在埃尔库鲁遗址建造的[段落：1努比亚金字塔的物理比例与埃及建筑的影响明显不同：它们是由水平排列的石块的阶梯形建造的，高度约为六至三十米，但从相当小的地基上升起。脚印宽度很少超过8米，导致高而窄的结构倾斜约70度。大多数教堂都有小的埃及风格的供奉庙宇结构，与基地相邻。努里最古老、最大的金字塔是纳帕坦国王和第二十五王朝法老塔哈卡的金字塔。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Mountain Fortress[COLOR_REVERT], the Korean replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], increases culture output of a city and it allows you to hire one [COLOR_HIGHLIGHT_TEXT]Engineer[COLOR_REVERT].</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]高丽堡垒[COLOR_REVERT]是韩国对[COLOR_BUILDING_TEXT]城堡的替代品[COLOR_REVERT]，增加了一个城市的文化输出，并允许您雇佣一名[COLOR_HIGHLIGHT_TEXT]工程师[COLOR_REVERT]。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TAMIL_TRADE_GUILD_STRATEGY</Tag>
@@ -302,12 +338,6 @@
 		<Chinese>印加锻造厂</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CONGO_WENE</Tag>
-		<English>Wene</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>刚果广场</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MAYA_KATUN_PEDIA</Tag>
 		<English>[TAB]Maya stelae (singular stela) are monuments that were fashioned by the Maya civilization of ancient Mesoamerica. They consist of tall sculpted stone shafts and are often associated with low circular stones referred to as altars, although their actual function is uncertain. Many stelae were sculpted in low relief, although plain monuments are found throughout the Maya region. The sculpting of these monuments spread throughout the Maya area during the Classic Period (250-900 AD), and these pairings of sculpted stelae and circular altars are considered a hallmark of Classic Maya civilization. The earliest dated stela to have been found in situ in the Maya lowlands was recovered from the great city of Tikal in Guatemala. During the Classic Period almost every Maya kingdom in the southern lowlands raised stelae in its ceremonial centre.[PARAGRAPH:1]Stelae became closely associated with the concept of divine kingship and declined at the same time as this institution. The production of stelae by the Maya had its origin around 400 BC and continued through to the end of the Classic Period, around 900, although some monuments were reused in the Postclassic (c. 900-1521). The major city of Calakmul in Mexico raised the greatest number of stelae known from any Maya city, at least 166, although they are very poorly preserved.[PARAGRAPH:1]Hundreds of stelae have been recorded in the Maya region, displaying a wide stylistic variation. Many are upright slabs of limestone sculpted on one or more faces, with available surfaces sculpted with figures carved in relief and with hieroglyphic text. Stelae in a few sites display a much more three dimensional appearance where locally available stone permits, such as at Cop醤 and Tonin??. Plain stelae do not appear to have been painted nor overlaid with stucco decoration, but most Maya stelae were probably brightly painted in red, yellow, black, blue and other colours.[PARAGRAPH:1]Stelae were essentially stone banners raised to glorify the king and record his deeds, although the earliest examples depict mythological scenes. Imagery developed throughout the Classic Period, with Early Classic stelae (c. 250-600) displaying non-Maya characteristics from the 4th century onwards, with the introduction of imagery linked to the central Mexican metropolis of Teotihuacan. This influence receded in the 5th century although some minor Teotihuacan references continued to be used. In the late 5th century, Maya kings began to use stelae to mark the end of calendrical cycles. In the Late Classic (c. 600-900), imagery linked to the Mesoamerican ballgame was introduced, once again displaying influence from central Mexico. By the Terminal Classic, the institution of divine kingship declined, and Maya kings began to be depicted with their subordinate lords. As the Classic Period came to an end, stelae ceased to be erected, with the last known examples being raised in 909-910.</English>
 		<L1/><L2/><L3/><L4/>
@@ -330,12 +360,6 @@
 		<English>[TAB]The Latin word basilica was originally used to describe a Roman public building (as in Greece, mainly a tribunal), usually located in the forum of a Roman town. In Hellenistic cities, public basilicas appeared in the 2nd century BC.[PARAGRAPH:1]After the Roman Empire became officially Christian, the term came by extension to refer to a large and important church that has been given special ceremonial rites by the Pope. Thus the word retains two senses today, one architectural and the other ecclesiastical.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>[TAB]拉丁词basilica最初用于描述罗马公共建筑（如希腊，主要指法庭），通常位于罗马城镇的广场上。在希腊化的城市，公共大教堂出现在公元前2世纪[段落：1]在罗马帝国正式成为基督徒之后，这个词又被引申到指一个由教皇举行特殊仪式的大而重要的教堂。因此，这个词在今天保留了两种意义，一种是建筑，另一种是教会。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_KOREA_MOUNTAIN_FORTRESS_PEDIA</Tag>
-		<English>[TAB]Goguryeo, the largest of the Three Kingdoms of Korea, is renowned for its mountain fortresses built horizontally and vertically along the incline of slopes. One of the well-preserved Goguryeo fortresses is Baekam fortress constructed before 6th century in present-day South-West Manchuria. A Chinese historian noted, "The Koguryo people like to build their palaces well." Patterned tiles and ornate bracket systems were already in use in many palaces in P'yongyang, the capital, and other town-fortresses in what now is Manchuria.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>高句丽是朝鲜三国中最大的一个，以其沿斜坡水平和垂直方向建造的山寨而闻名。保存完好的高句丽要塞之一是建于6世纪以前的今天的西南满洲的白甘要塞。一位中国历史学家指出：“高句丽人喜欢把他们的宫殿建得很好。”有图案的瓷砖和华丽的支架系统已经在首都永阳的许多宫殿和现在满洲的其他城镇要塞中使用。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_VIKING_MEADHALL</Tag>
@@ -590,12 +614,6 @@
 		<Chinese>[COLOR_BUILDING_TEXT]Meadhall[COLOR_REVERT]是维京人取代[COLOR_BUILDING_TEXT]咖啡屋[COLOR_REVERT]的产品，增加了幸福感。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Yam[COLOR_REVERT], the Mongolian replacement for the [COLOR_BUILDING_TEXT]Post Office[COLOR_REVERT], gives the [COLOR_HIGHLIGHT_TEXT]Mobility I[COLOR_REVERT] promotion to [COLOR_UNIT_TEXT]TMounted units[COLOR_REVERT].</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_HIGHLIGHT_TEXT]Yam[COLOR_REVERT]是蒙古语对[COLOR_BUILDING_TEXT]邮局[COLOR_REVERT]的替代品，它将[COLOR_HIGHLIGHT_TEXT]移动性I[COLOR_REVERT]提升为[COLOR_UNIT_TEXT]t装载单位[COLOR_REVERT]。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Observatory[COLOR_REVERT], is cheaper and doesn't require the [COLOR_TECH_TEXT]Physics[COLOR_REVERT] technology, does require the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] technology and it requires a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT] present.</English>
 		<L1/><L2/><L3/><L4/>
@@ -639,22 +657,10 @@
 		<Chinese>[COLOR_BUILDING_TEXT]加拿大微波站[COLOR_REVERT]是加拿大替代[COLOR_BUILDING_TEXT]广播塔[COLOR_REVERT]的设备，它能更大程度地提高文化输出。</Chinese>
 	</TEXT>	
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT], the Italian replacement for the [COLOR_BUILDING_TEXT]Customs House[COLOR_REVERT], doesn't require a [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT] or coast.</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>[COLOR_BUILDING_TEXT]Collegantia[COLOR_REVERT]是意大利替代[COLOR_BUILDING_TEXT]海关大楼[COLOR_REVERT]，不需要[COLOR_BUILDING_TEXT]港口[COLOR_REVERT]或海岸。</Chinese>
-	</TEXT>	
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CARTHAGE_COTHON_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Cothon[COLOR_REVERT], the Phoenician replacement for the [COLOR_BUILDING_TEXT]Harbor[COLOR_REVERT], provides an extra trade route.</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>[COLOR_BUILDING_TEXT]科顿[COLOR_REVERT]是腓尼基人对[COLOR_BUILDING_TEXT]港口的替代品，提供了一条额外的贸易路线。</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ITALY_COLLEGANTIA</Tag>
-		<English>Collegantia</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese>意大利海关</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PORTUGAL_COLONY_ADMINISTRATION</Tag>
@@ -691,12 +697,6 @@
 		<English>Chinampa</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>阿兹特克引水渠</Chinese>
-	</TEXT>	
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], the Russian replacement for the [COLOR_BUILDING_TEXT]Star Fort[COLOR_REVERT], increases the espionage outpunt and help thwart rival spies and provides experience to [COLOR_UNIT_TEXT]Spy units[COLOR_REVERT].</English>
-		<L1/><L2/><L3/><L4/>
-		<Chinese> [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], 是俄罗斯取代[COLOR_BUILDING_TEXT]星堡[COLOR_REVERT]的，它增加了间谍活动的数量，帮助挫败对手的间谍，并为[COLOR_UNIT_TEXT]间谍单位[COLOR_REVERT]提供经验。</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_OPERA_PEDIA</Tag>

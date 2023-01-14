@@ -3808,7 +3808,7 @@ void CvGame::reviveActivePlayer()
 /* original code
 		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)0), 0, 0);
 */
-		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)GC.getInfoTypeForString("UNIT_MACHINE_GUN")), 0, 0); //Rhye (catapult) //mediv01 改成重机枪
+		GET_PLAYER(getActivePlayer()).initUnit(((UnitTypes)GC.getInfoTypeForString("UNIT_MILITIA")), 0, 0); //Rhye (catapult) //mediv01 改成重机枪 改为民兵
 /********************************************************************************/
 /* 	Rhye							END							*/
 /********************************************************************************/
@@ -5663,15 +5663,7 @@ void CvGame::setPlayerScore(PlayerTypes ePlayer, int iScore)
 
 	if (getPlayerScore(ePlayer) != iScore)
 	{
-		if ((int)ePlayer >= NUM_MAJOR_PLAYERS) {
-			int multi = CVGAME_MINOR_CITY_LOW_SCORE_ON_SCREEN;
-			if (multi > 0) {
-				m_aiPlayerScore[ePlayer] = iScore / multi;
-			}
-		}
-		else {
-			m_aiPlayerScore[ePlayer] = iScore;
-		}
+		m_aiPlayerScore[ePlayer] = iScore;
 		FAssert(getPlayerScore(ePlayer) >= 0);
 
 		gDLL->getInterfaceIFace()->setDirty(Score_DIRTY_BIT, true);

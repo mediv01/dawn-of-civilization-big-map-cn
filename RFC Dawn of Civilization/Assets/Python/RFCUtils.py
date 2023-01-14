@@ -14,7 +14,7 @@ import CvScreenEnums
 import copy
 import TradeUtil
 from wunshare_test import *  # wunshare
-import SettlerMaps
+import csv
 
 # globals
 MainOpt = BugCore.game.MainInterface
@@ -30,7 +30,7 @@ tCol = (
 )
 
 lChineseCities = [(128, 48)]
-
+log_text_list = []
 
 # Beijing, Kaifeng, Luoyang, Shanghai, Hangzhou, Guangzhou, Haojing
 
@@ -2174,6 +2174,8 @@ class RFCUtils:
                 return True
         return False
 
+
+
     def getCivChineseName(self, iPlayer):
         return gcgetPlayer(iPlayer).getCivilizationShortDescription(0)
 
@@ -2202,6 +2204,11 @@ class RFCUtils:
     def getText(self, TextKey):
         return GlobalCyTranslator.getText(TextKey, ())
 
+
+
+
+
+
     def getTurnForYear(self, iYear):
         return getTurnForYear(iYear)
 
@@ -2214,6 +2221,35 @@ class RFCUtils:
 
     def isMinorOrBarbaian(self, iPlayer):
         return iPlayer in [iIndependent, iIndependent2, iBarbarian]
+
+    def show(self, message):
+        popup = Popup.PyPopup()
+        popup.setBodyString(str(message))
+        popup.launch()
+
+    def popup(self, title, message, labels):
+        popup = Popup.PyPopup()
+        popup.setHeaderString(title)
+        popup.setBodyString(message)
+        for i in labels:
+            popup.addButton(i)
+        popup.launch(len(labels) == 0)
+
+    def deepcopy(self, list):
+        return copy.deepcopy(list)
+
+    def info(self, text, color=iWhite):
+        self.addMessage(gcgame.getActivePlayer(), False, iDuration, text, "", 0, "", utils.ColorTypes(color), -1, -1, True, True)
+
+    def addMessage(self, iPlayer, bForce, iLength, szString, pszSound="", eType=0, pszIcon="", eFlashColor="1", iFlashX=-1, iFlashY=-1, bShowOffScreenArrows=False, bShowOnScreenArrows=False):
+        utils.logwithid_info(iPlayer, szString)
+        return GlobalCyInterface.addMessage(iPlayer, bForce, iLength, szString, pszSound, eType, pszIcon, eFlashColor, iFlashX, iFlashY, bShowOffScreenArrows, bShowOnScreenArrows)
+
+    def ColorTypes(self, iColor):
+        return ColorTypes(iColor)
+
+    def canTrade(self, human, iPlayer):
+        return TradeUtil.canTrade(human, iPlayer)
 
     def updateGreatWallPerTurn(self):
 
@@ -2238,13 +2274,6 @@ class RFCUtils:
 
     def isCore(self,tPlot, iPlayer):
         return gcmap.plot(tPlot[0], tPlot[1]).isCore(iPlayer)
-        '''
-        iCoreAreas =  Areas.getCoreArea(iPlayer)
-        if tPlot  in iCoreAreas:
-            return True
-        return False
-        pass
-        '''
 
 
     def canAcceptTrade(self, iPlayer, human, TradeType):
@@ -2278,12 +2307,92 @@ class RFCUtils:
         (x, y) = plot
         gcmap.plot(x, y).updateSight(iPlayer, True)
 
+    # 拥有某个地区的视野，会开边
+    def setRevealed(self, tPlot, iPlayer):
+        x = tPlot[0]
+        y = tPlot[1]
+        gcmap.plot(x, y).setRevealed(iPlayer, True, False, -1)
+
+    def isNormalPlot(self, tPlot):
+        mplot =  gcmap.plot(tPlot[0], tPlot[1])
+        if mplot.isWater() or mplot.isHills():
+            return False
+        return True
+
+    def getAlivePlayerInfo(self):
+        '''
+        获取存活player数量和具体列表
+        '''
+        lAlivePlayer = []
+        for iPlayer in range(iNumPlayers):
+            pPlayer = gcgetPlayer(iPlayer)
+            if pPlayer.isAlive():
+                lAlivePlayer.append(iPlayer)
+        return [len(lAlivePlayer), lAlivePlayer]
+
+    # 城市繁荣度
+    def CalculateCityScore(self, city):
+        iLoopPlayer = city.getOwner()
+        iValue = ((city.getCulture(iLoopPlayer) / 3) + (city.getYieldRate(YieldTypes.YIELD_FOOD) + city.getYieldRate(YieldTypes.YIELD_PRODUCTION) * 2 + city.getYieldRate(YieldTypes.YIELD_COMMERCE) * 5)) * city.getPopulation()
+        return iValue
+
+
+
+
+
     # RiseAndFall
     # 新增输出日志的功能
+
+    def log_reset(self):
+        if (PYTHON_USE_LOG == 1):  # output the debug info
+            PythonLogList = ['DoCM_Log_Main.log',
+                             'DoCM_Log_AI.log',
+                             "DoCM_Log_Stability.log",
+                             "DoCM_Log_Congress.log",
+                             "DoCM_Log_Great_People.log",
+                             "DoCM_Log_Wonder.log",
+                             "DoCM_Log_Building.log",
+                             "DoCM_Log_Unit.log",
+                             "DoCM_Log_Tech.log",
+                             "DoCM_Log_City_Build.log",
+                             "DoCM_Log_City_Conquest.log",
+                             "DoCM_Log_City_Religion.log",
+                             "DoCM_Log_TechScore.log",
+                             "DoCM_Log_PowerScore.log",
+                             "DoCM_Log_RandomEvent.log",
+                             "DoCM_Log_AIWar.log",
+                             "DoCM_Log_Congress_Prob.log",
+                             'DoCM_Log_ModifiersChange.log',
+                             'DoCM_Log_Plague.log',
+                             'DoCM_Log_ObserveMode.log',
+                             'DoCM_Log_CheckTurnTime.log',
+                             'DoCM_Log_CheckTurn_DetailTime.log',
+                             "DoCM_Log_ScreenOutput.log",
+                             "DoCM_Log_Rise_and_Fall.log",
+
+                             ]
+
+            DLLLogList = [
+                "DoCM_DLL_Log_ALL.log",
+                "DoCM_DLL_Log_TEST.log",
+                'DoCM_DLL_Log_Conquest.log',
+                'DoCM_DLL_Log_AI_TradeCityVal.log',
+                'DoCM_DLL_Log_AI_BuildCity.log',
+                'DoCM_DLL_Log_Building_Damage.log',
+                'DoCM_DLL_Log_Debug_TimeCost.log',
+            ]
+
+            for filename in PythonLogList:
+                f = open(self.log_path() + filename, 'w')
+                f.write('')
+
+            for filename in DLLLogList:
+                f = open(self.log_path() + filename, 'w')
+                f.write('')
+
     def log_path(self):
         # filepath='D:\\DoC_Log\\'
         # filepath = BugPath.join(BugPath.getRootDir(), 'Saves', 'logs', '')
-
         # filepath = gc.getDefineSTRING("CVGAMECORE_LOG_PATH")
         filepath = CVGAMECORE_LOG_PATH
         return filepath
@@ -2297,15 +2406,34 @@ class RFCUtils:
         log_gettime = curtime1 + strturn
         return log_gettime
 
+    def fwrite_withid(self, id, strText, Logname):
+        logtxt1 = str(self.log_gettime() + '[' + gcgetPlayer(id).getCivilizationShortDescription(0) + '] ')
+        logtxt = (logtxt1 + str(strText) + u'\n').encode('utf8', 'xmlcharrefreplace')
+        self.fwrite_insert_log(Logname,logtxt)
+
     def fwrite_log(self, LogName, strText):
-        f = open(self.log_path() + LogName + ".log", mode="a", buffering=1024)
-        logtxt = (self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace')
-        f.write(logtxt)
-        f.write('\n')
+        logtxt = (self.log_gettime() + str(strText) + u'\n').encode('utf8', 'xmlcharrefreplace')
+        self.fwrite_insert_log(LogName,logtxt)
+
+    def fwrite_insert_log(self, LogName, strText):
+        log_text_list.append([LogName,strText])
+        pass
+
+    def log_checkturn(self):
+        lognamelist = [elem[0] for elem in log_text_list]
+        lognameset = set(lognamelist)
+        for logname in lognameset:
+            logtextlist = [elem[1] for elem in log_text_list if elem[0] == logname]
+            f = open(self.log_path() + logname, mode="a", buffering=1024)
+            logtextall = ""
+            for logtext in logtextlist:
+                logtextall = logtextall + logtext
+            f.write(logtextall)
+        del log_text_list[:]
 
     def log(self, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_Main"
+            LogName = "DoCM_Log_Main.log"
             self.fwrite_log(LogName, strText)
 
     def log2(self, strText, LogName):
@@ -2318,150 +2446,111 @@ class RFCUtils:
 
     def log_congress(self, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_Congress"
+            LogName = "DoCM_Log_Congress.log"
             self.fwrite_log(LogName, strText)
 
     def log_congress_prob(self, strText):
         # 模拟计算统一不进行日志IO
         if PYTHON_LOG_ON_CONGRESS_PROB > 0:
             if (PYTHON_USE_LOG == 1):  # output the debug info
-                LogName = "DoC_SmallMap_Log_Congress_Prob"
+                LogName = "DoCM_Log_Congress_Prob.log"
                 self.fwrite_log(LogName, strText)
 
     def log_AI_Action(self, strText):  # 可能会报错
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_AI"
+            LogName = "DoCM_Log_AI.log"
             self.fwrite_log(LogName, strText)
 
     def log_plague(self, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_Plague"
+            LogName = "DoCM_Log_Plague.log"
             self.fwrite_log(LogName, strText)
 
     def log_randomevent(self, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_RandomEvent"
+            LogName = "DoCM_Log_RandomEvent.log"
             self.fwrite_log(LogName, strText)
 
     def log_observemode(self, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_ObserveMode"
+            LogName = "DoCM_Log_ObserveMode.log"
             self.fwrite_log(LogName, strText)
 
     def log_checkturn_time(self, strText):
-        if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_CHECKTURN_TIME == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_CheckTurn_Time"
+        if (PYTHON_USE_LOG == 1 and PYTHON_LOG_ON_CHECKTURN_TIME_DETAIL == 1):  # output the debug info
+            LogName = "DoCM_Log_CheckTurn_DetailTime.log"
             self.fwrite_log(LogName, strText)
 
     def log_release_error(self, strText):
         if (PYTHON_LOG_ON_RELEASE_ERROR == 1):  # output the debug info
-            LogName = "DoC_SmallMap_Log_Release_Error"
+            LogName = "DoCM_Log_Release_Error.log"
             self.fwrite_log(LogName, strText)
-
-    def log_reset(self):
-        if (PYTHON_USE_LOG == 1):  # output the debug info
-            PythonLogList = ['DoC_SmallMap_Log_Main.log',
-                             'DoC_SmallMap_Log_AI.log',
-                             "DoC_SmallMap_Log_Stability.log",
-                             "DoC_SmallMap_Log_Congress.log",
-                             "DoC_SmallMap_Log_Great_People.log",
-                             "DoC_SmallMap_Log_Wonder.log",
-                             "DoC_SmallMap_Log_Building.log",
-                             "DoC_SmallMap_Log_Unit.log",
-                             "DoC_SmallMap_Log_Tech.log",
-                             "DoC_SmallMap_Log_City_Build.log",
-                             "DoC_SmallMap_Log_City_Conquest.log",
-                             "DoC_SmallMap_Log_City_Religion.log",
-                             "DoC_SmallMap_Log_TechScore.log",
-                             "DoC_SmallMap_Log_PowerScore.log",
-                             "DoC_SmallMap_Log_RandomEvent.log",
-                             "DoC_SmallMap_Log_AIWar.log",
-                             "DoC_SmallMap_Log_Congress_Prob.log",
-                             'DoC_SmallMap_Log_ModifiersChange.log',
-                             'DoC_SmallMap_Log_Plague.log',
-                             'DoC_SmallMap_Log_ObserveMode.log',
-
-                             ]
-
-            DLLLogList = [
-                "DoC_SmallMap_DLL_Log_ALL.log",
-                "DoC_SmallMap_DLL_Log_TEST.log",
-                'DoC_SmallMap_DLL_Log_Conquest.log',
-                'DoC_SmallMap_DLL_Log_AI_TradeCityVal.log',
-                'DoC_SmallMap_DLL_Log_AI_BuildCity.log',
-                'DoC_SmallMap_DLL_Log_Building_Damage.log',
-                'DoC_SmallMap_DLL_Log_Debug_TimeCost.log',
-            ]
-
-            for filename in PythonLogList:
-                f = open(self.log_path() + filename, 'w')
-                f.write('')
-
-            for filename in DLLLogList:
-                f = open(self.log_path() + filename, 'w')
-                f.write('')
-
-    def fwrite_withid(self, id, strText, logname):
-        f = open(self.log_path() + logname, mode="a", buffering=1024)
-        logtxt1 = str(self.log_gettime() + '[' + gcgetPlayer(id).getCivilizationShortDescription(0) + '] ')
-        f.write(logtxt1)
-        f.write(str(u'' + strText))
-        f.write('\n')
 
     def logwithid(self, id, strText):
         strText = str(strText)
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Main.log"
+            logname = "DoCM_Log_Main.log"
+            self.fwrite_withid(id, strText, logname)
+
+    def logwithid_rise_and_fall(self, id, strText):
+        strText = str(strText)
+        if (PYTHON_USE_LOG == 1):  # output the debug info
+            logname = "DoCM_Log_Rise_and_Fall.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_stability(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Stability.log"
+            logname = "DoCM_Log_Stability.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_great_people(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Great_People.log"
+            logname = "DoCM_Log_Great_People.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_wonder(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Wonder.log"
+            logname = "DoCM_Log_Wonder.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_building(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Building.log"
+            logname = "DoCM_Log_Building.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_unit(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Unit.log"
+            logname = "DoCM_Log_Unit.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_tech(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Tech.log"
+            logname = "DoCM_Log_Tech.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_city_build(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_City_Build.log"
+            logname = "DoCM_Log_City_Build.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_city_conquest(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_City_Conquest.log"
+            logname = "DoCM_Log_City_Conquest.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_religion(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_City_Religion.log"
+            logname = "DoCM_Log_City_Religion.log"
             self.fwrite_withid(id, strText, logname)
 
     def logwithid_plague(self, id, strText):
         if (PYTHON_USE_LOG == 1):  # output the debug info
-            logname = "DoC_SmallMap_Log_Plague.log"
+            logname = "DoCM_Log_Plague.log"
+            self.fwrite_withid(id, strText, logname)
+
+    def logwithid_info(self, id, strText):
+        if (PYTHON_USE_LOG == 1):  # output the debug info
+            logname = "DoCM_Log_ScreenOutput.log"
             self.fwrite_withid(id, strText, logname)
 
     def debugTextPopup(self, strText):
@@ -2479,48 +2568,9 @@ class RFCUtils:
         if (PYTHON_OUTPUT_DEBUG_TEXT_TO_LOG == 1 and PYTHON_LOG_ON_AIACTION == 1):  # output the debug info
             strText_ascii = strText.encode('utf8', 'xmlcharrefreplace')
             self.log_AI_Action(strText_ascii)
-
             pass
 
-    # 日志输出增加结束
-    def show(self, message):
-        popup = Popup.PyPopup()
-        popup.setBodyString(str(message))
-        popup.launch()
-
-    def popup(self, title, message, labels):
-        popup = Popup.PyPopup()
-        popup.setHeaderString(title)
-        popup.setBodyString(message)
-        for i in labels:
-            popup.addButton(i)
-        popup.launch(len(labels) == 0)
-
-    # 城市繁荣度
-    def CalculateCityScore(self, city):
-        iLoopPlayer = city.getOwner()
-        iValue = ((city.getCulture(iLoopPlayer) / 3) + (city.getYieldRate(YieldTypes.YIELD_FOOD) + city.getYieldRate(YieldTypes.YIELD_PRODUCTION) * 2 + city.getYieldRate(YieldTypes.YIELD_COMMERCE) * 5)) * city.getPopulation()
-        return iValue
-
-    def deepcopy(self, list):
-        return copy.deepcopy(list)
-
-    def info(self, text, color=iWhite):
-        self.addMessage(gcgame.getActivePlayer(), False, iDuration, text, "", 0, "", utils.ColorTypes(color), -1, -1, True, True)
-
-    def addMessage(self, iPlayer, bForce,  iLength,  szString,  pszSound = "", eType = 0, pszIcon = "", eFlashColor="1", iFlashX = -1, iFlashY = -1, bShowOffScreenArrows = False, bShowOnScreenArrows = False):
-        return GlobalCyInterface.addMessage(iPlayer, bForce, iLength, szString, pszSound, eType, pszIcon, eFlashColor, iFlashX, iFlashY, bShowOffScreenArrows, bShowOnScreenArrows)
-
-
-    def ColorTypes(self, iColor):
-        return ColorTypes(iColor)
-
-
-    def canTrade(self, human, iPlayer):
-        return TradeUtil.canTrade(human, iPlayer)
-
-
-    def csvwrite_norownum(self, csvmap, filename):
+    def csvwrite_norownum(self, csvmap, filename):  # 地图数据专用
         file = open(filename, 'wb')
         import csv
         writer = csv.writer(file)
@@ -2533,7 +2583,7 @@ class RFCUtils:
         finally:
             file.close()
 
-    def csvwrite_withrownum(self, csvmap, filename):
+    def csvwrite_withrownum(self, csvmap, filename):  # 地图数据专用
         file = open(filename, 'wb')
         import csv
         writer = csv.writer(file)
@@ -2552,9 +2602,8 @@ class RFCUtils:
         finally:
             file.close()
 
-    def csvreader_withrownum(self, filename):
+    def csvread(self, filename):  # 地图数据专用
 
-        import csv
         return_map = []
 
         file = ''
@@ -2571,6 +2620,21 @@ class RFCUtils:
         return return_map
         pass
 
+    def csvwrite(self, lRow, filename, type="append"):  # 通用CSV
+        writetype = 'ab'
+        if type is "append":
+            writetype = 'ab'
+        if type is "write":
+            writetype = 'wb'
+        file = open(filename, writetype)
+        import csv
+        writer = csv.writer(file)
+        try:
+            writer.writerow(lRow)
+        finally:
+            file.close()
+
+    # 日志输出增加结束
 
     def utf8encode(self,s):
         s1 = ''
@@ -2594,11 +2658,21 @@ class RFCUtils:
                 s1 = s1 + s[i]
         return s1
 
-    def isNormalPlot(self, tPlot):
-        mplot =  gcmap.plot(tPlot[0], tPlot[1])
-        if mplot.isWater() or mplot.isHills():
-            return False
-
-        return True
-
 utils = RFCUtils()
+
+
+
+'''
+    def fwrite_log_old(self, LogName, strText):
+        f = open(self.log_path() + LogName + ".log", mode="a", buffering=1024)
+        logtxt = (self.log_gettime() + str(strText) + u'').encode('utf8', 'xmlcharrefreplace')
+        f.write(logtxt)
+        f.write('\n')
+        
+    def fwrite_withid_old(self, id, strText, logname):
+        f = open(self.log_path() + logname, mode="a", buffering=1024)
+        logtxt1 = str(self.log_gettime() + '[' + gcgetPlayer(id).getCivilizationShortDescription(0) + '] ')
+        f.write(logtxt1)
+        f.write(str(u'' + strText))
+        f.write('\n')
+'''

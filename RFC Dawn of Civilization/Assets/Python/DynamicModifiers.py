@@ -19,7 +19,7 @@ def logSetModifiers(iPlayer, iModifier):
     NewModifier = gcgetPlayer(iPlayer).getModifier(iModifier)
     if (PYTHON_LOG_ON_MODIFIER_CHANGE > 0):
         txt = utils.getCivName(iPlayer) + ' Modifier of ' + ModifiersName[iModifier] + ' is ' + str(NewModifier)
-        utils.log2(txt, 'DoC_SmallMap_Log_ModifiersChange')
+        utils.log2(txt, 'DoCM_Log_ModifiersChange.log')
     pass
 
 
@@ -27,7 +27,7 @@ def info(iPlayer, txt):
     txt = txt.decode('utf-8')
     if utils.getHumanID() is iPlayer:
         utils.info(txt)
-    utils.log2(txt, 'DoC_SmallMap_Log_ModifiersChange')
+    utils.log2(txt, 'DoCM_Log_ModifiersChange.log')
 
 
 # 直接设置

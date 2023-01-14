@@ -39,6 +39,12 @@ public:
 	void setupGraphical();
 	void updateGraphicEra();
 
+
+
+	// mediv01
+	bool CvPlot::isPlotWithResouceAndNotImprovement(bool onlySeaPlot) const;
+
+
 	DllExport void erase();																																								// Exposed to Python
 	//Rhye - start
 	DllExport void eraseAIDevelopment();	// Exposed to Python
@@ -150,7 +156,9 @@ public:
 	int plotCount(ConstPlotUnitFunc funcA, int iData1A = -1, int iData2A = -1, PlayerTypes eOwner = NO_PLAYER, TeamTypes eTeam = NO_TEAM, ConstPlotUnitFunc funcB = NULL, int iData1B = -1, int iData2B = -1) const;
 	CvUnit* plotCheck(ConstPlotUnitFunc funcA, int iData1A = -1, int iData2A = -1, PlayerTypes eOwner = NO_PLAYER, TeamTypes eTeam = NO_TEAM, ConstPlotUnitFunc funcB = NULL, int iData1B = -1, int iData2B = -1) const;
 
-	bool isOwned() const;																																							// Exposed to Python
+	bool isOwned() const;		
+	bool CvPlot::isHumanOwned() const;
+	// Exposed to Python
 	bool isBarbarian() const;																																					// Exposed to Python
 	bool isRevealedBarbarian() const;																																	// Exposed to Python
 

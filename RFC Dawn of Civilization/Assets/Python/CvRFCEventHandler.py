@@ -34,7 +34,7 @@ gc = CyGlobalContext()
 PyPlayer = PyHelpers.PyPlayer
 localText = GlobalCyTranslator
 
-
+checkTurnTimeList = []
 class CvRFCEventHandler:
 
     def __init__(self, eventManager):
@@ -968,6 +968,17 @@ class CvRFCEventHandler:
 
     def onBeginGameTurn(self, argsList):
         iGameTurn = argsList[0]
+
+        if PYTHON_LOG_ON_CHECKTURN_TIME:
+            timenow = utils.getTimeNow()
+            yearnow = gcgame.getGameTurnYear()
+            if (len(checkTurnTimeList)>0):
+                timecost = timenow - checkTurnTimeList[len(checkTurnTimeList)-1][3]
+            else:
+                timecost = 0
+            checkTurnTimeList.append([iGameTurn, yearnow ,timecost, timenow])
+            utils.csvwrite([iGameTurn, yearnow , timecost], utils.log_path() +'DoCM_Log_CheckTurnTime.log',"append")
+
         utils.log_checkturn_time("【BeginGameTurn CheckTurn Start】")
         utils.log_checkturn_time(" rnf Start ")
         self.rnf.checkTurn(iGameTurn)

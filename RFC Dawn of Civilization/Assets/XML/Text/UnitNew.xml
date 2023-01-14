@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_PROPHET_FEMALE</Tag>
+		<English>大预言家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大预言家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_ARTIST_FEMALE</Tag>
+		<English>大艺术家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大艺术家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST_FEMALE</Tag>
+		<English>大科学家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大科学家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_ENGINEER_FEMALE</Tag>
+		<English>大工程师</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大工程师</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_STATESMAN_FEMALE</Tag>
+		<English>大政治家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大政治家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_GENERAL_FEMALE</Tag>
+		<English>大军事家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大军事家</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SPY_FEMALE</Tag>
+		<English>大间谍</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>大间谍</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_GENERAL_ARGENTINE</Tag>
+		<English>阿根廷大军事家</English>
+		<L1 /><L2 /><L3 /><L4 />
+		<Chinese>阿根廷大军事家</Chinese>
+	</TEXT>
+</Civ4GameText>

@@ -55,6 +55,8 @@ GAME_SETTINGS_SCREEN = 1
 UN_RESOLUTION_SCREEN = 2
 UN_MEMBERS_SCREEN = 3
 DEBUG_INFO_SCREEN = 4  # wunshare
+SCREENTIPS_INFO_SCREEN = 5  # mediv01
+ACHIEVEMENT_INFO_SCREEN = 6  # mediv01
 
 
 class CvVictoryScreen:
@@ -75,6 +77,8 @@ class CvVictoryScreen:
         self.UN_RESOLUTION_TAB_ID = "VotingTabWidget"
         self.UN_MEMBERS_TAB_ID = "MembersTabWidget"
         self.DEBUG_INFO_TAB_ID = "DebugInfoWidget"  # wunshare
+        self.SCREENTIPS_INFO_TAB_ID = "ScrrenTipsWidget"  # mediv01
+        self.ACHIEVEMENT_INFO_TAB_ID = "AchievementWidget"  # mediv01
         self.SPACESHIP_LAUNCH_BUTTON = 1234
 
         self.Z_BACKGROUND = -6.1
@@ -129,7 +133,7 @@ class CvVictoryScreen:
         # BUG Additions End
 
         self.X_LINK = 100
-        self.DX_LINK = 220
+        self.DX_LINK = 150
         self.Y_LINK = 726
         self.MARGIN = 20
 
@@ -219,6 +223,12 @@ class CvVictoryScreen:
         # wunshare
         elif self.iScreen == DEBUG_INFO_SCREEN:
             self.showDebugInfoScreen()
+        # mediv01
+        elif self.iScreen == SCREENTIPS_INFO_SCREEN:
+            self.showScreenTipsScreen()
+        # mediv01
+        elif self.iScreen == ACHIEVEMENT_INFO_SCREEN:
+            self.showAchievementScreen()
 
     def drawTabs(self):
         screen = self.getScreen()
@@ -259,10 +269,34 @@ class CvVictoryScreen:
 
         # wunshare
         if (self.iScreen != DEBUG_INFO_SCREEN):
-            screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" + localText.getText("TXT_KEY_DEBUG_INFO_TITLE", ()).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL,
+            screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" + "资源管理" + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL,
                            -1, -1)
         else:
-            screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" + localText.getColorText("TXT_KEY_DEBUG_INFO_TITLE", (), gc.getInfoTypeForString("COLOR_YELLOW")).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0,
+            sColor = GlobalCyTranslator.getText("[COLOR_HIGHLIGHT_TEXT]", ())
+            sText = sColor + "资源管理" + "</color>"
+            screen.setText(self.DEBUG_INFO_TAB_ID, "", u"<font=4>" +  sText + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0,
+                           FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+        xLink += self.DX_LINK
+
+        # mediv01
+        if (self.iScreen != SCREENTIPS_INFO_SCREEN):
+            screen.setText(self.SCREENTIPS_INFO_TAB_ID, "", u"<font=4>" + "信息提示" + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL,
+                           -1, -1)
+        else:
+            sColor = GlobalCyTranslator.getText("[COLOR_HIGHLIGHT_TEXT]", ())
+            sText = sColor + "信息提示" + "</color>"
+            screen.setText(self.SCREENTIPS_INFO_TAB_ID, "", u"<font=4>" + sText +  "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0,
+                           FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+        xLink += self.DX_LINK
+
+        # mediv01
+        if (self.iScreen != ACHIEVEMENT_INFO_SCREEN):
+            screen.setText(self.ACHIEVEMENT_INFO_TAB_ID, "", u"<font=4>" + "成就系统" + "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL,
+                           -1, -1)
+        else:
+            sColor = GlobalCyTranslator.getText("[COLOR_HIGHLIGHT_TEXT]", ())
+            sText = sColor + "成就系统" + "</color>"
+            screen.setText(self.ACHIEVEMENT_INFO_TAB_ID, "", u"<font=4>" + sText +  "</font>", CvUtil.FONT_CENTER_JUSTIFY, xLink, self.Y_LINK, 0,
                            FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
         xLink += self.DX_LINK
 
@@ -301,7 +335,6 @@ class CvVictoryScreen:
         lMediaResources = (iSoccer, iMovies, iSongs)
 
         # 7.Salt
-
         # helper function
         def getIcon(bVal):
             if bVal:
@@ -386,6 +419,52 @@ class CvVictoryScreen:
                     getHasTech(iCompanies, 3)
                     # iInfrastructure + 1
                     getHasTech(iInfrastructure, 4)
+        # logics - end
+
+        # frameworks
+        self.drawTabs()
+
+    # mediv01
+    def showScreenTipsScreen(self):
+        self.deleteAllWidgets()
+        screen = self.getScreen()
+
+        # frameworks
+        screen.addPanel(self.getNextWidgetName(), "", "", False, False, self.X_AREA - 10, self.Y_AREA - 15, self.W_AREA + 20, self.H_AREA + 30, PanelStyles.PANEL_STYLE_BLUE50)
+        szTable = self.getNextWidgetName()
+        screen.addTableControlGFC(szTable, 6, self.X_AREA, self.Y_AREA, self.W_AREA, self.H_AREA, False, False, 32, 32, TableStyles.TABLE_STYLE_STANDARD)
+        screen.setTableColumnHeader(szTable, 0, "", 1200)
+        screen.setTableColumnHeader(szTable, 1, "", self.TABLE_WIDTH_1)
+
+
+        screen.appendTableRow(szTable)
+
+        # logics - start
+        if (PYTHON_SCREEN_VICTORY_TIPS == 1):
+            self.ScreenTips_Text(screen, szTable)
+        # logics - end
+
+        # frameworks
+        self.drawTabs()
+
+        # mediv01
+    def showAchievementScreen(self):
+
+        self.deleteAllWidgets()
+        screen = self.getScreen()
+
+        # frameworks
+        screen.addPanel(self.getNextWidgetName(), "", "", False, False, self.X_AREA - 10, self.Y_AREA - 15, self.W_AREA + 20, self.H_AREA + 30, PanelStyles.PANEL_STYLE_BLUE50)
+        szTable = self.getNextWidgetName()
+        screen.addTableControlGFC(szTable, 6, self.X_AREA, self.Y_AREA, self.W_AREA, self.H_AREA, False, False, 32, 32, TableStyles.TABLE_STYLE_STANDARD)
+        screen.setTableColumnHeader(szTable, 0, "", 1500)
+        screen.setTableColumnHeader(szTable, 1, "", self.TABLE_WIDTH_1)
+
+        screen.appendTableRow(szTable)
+
+        # logics - start
+        if (PYTHON_SCREEN_ACHIEVEMENT_INFO_TIPS == 1):
+            self.AchievementInfo_Text(screen, szTable)
         # logics - end
 
         # frameworks
@@ -1816,8 +1895,6 @@ class CvVictoryScreen:
                 if (bEntriesFound):
                     screen.appendTableRow(szTable)
                     screen.appendTableRow(szTable)
-        if (PYTHON_SCREEN_VICTORY_TIPS == 1):
-            self.ScreenTips_Text(screen, szTable)
         # civ picker dropdown
         if (GlobalCyGame.isDebugMode()):
             self.szDropdownName = self.DEBUG_DROPDOWN_ID
@@ -1834,6 +1911,20 @@ class CvVictoryScreen:
         screen.setTableText(szTable, 0, iRow, u"<font=4b>" + localText.getText("TXT_KEY_VICTORY_TIPS_IN_SCREEN", ()) + u"</font>", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
         import ScreenTips
         aHelpStrings = ScreenTips.getScreenHelp()
+        iRow = screen.appendTableRow(szTable)
+        if len(aHelpStrings) > 0:
+            for szHelp in aHelpStrings:
+                iRow = screen.appendTableRow(szTable)
+                szHelp = '    ' + szHelp
+                screen.setTableText(szTable, 0, iRow, szHelp, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+
+    def AchievementInfo_Text(self, screen, szTable):
+        iRow = screen.appendTableRow(szTable)
+        iRow = screen.appendTableRow(szTable)
+        txttitle = "                                                                   DOCM成就系统                                                                   "
+        screen.setTableText(szTable, 0, iRow, u"<font=4b>" + txttitle+ u"</font>", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+        import DOCM_AchievementSystem
+        aHelpStrings = DOCM_AchievementSystem.getScreenHelp()
         iRow = screen.appendTableRow(szTable)
         if len(aHelpStrings) > 0:
             for szHelp in aHelpStrings:
@@ -2080,6 +2171,15 @@ class CvVictoryScreen:
             elif (sWidget == self.DEBUG_INFO_TAB_ID):
                 self.iScreen = DEBUG_INFO_SCREEN
                 self.showDebugInfoScreen()
+            # mediv01
+            elif (sWidget == self.SCREENTIPS_INFO_TAB_ID):
+                self.iScreen = SCREENTIPS_INFO_SCREEN
+                self.showScreenTipsScreen()
+            # mediv01
+            elif (sWidget == self.ACHIEVEMENT_INFO_TAB_ID):
+                self.iScreen = ACHIEVEMENT_INFO_SCREEN
+                self.showAchievementScreen()
+
 
             elif (sWidget == self.Vote_Pope_ID and self.VoteType == 2):
                 self.VoteType = 1

@@ -112,15 +112,12 @@ def endTurn(iPlayer):
     return
 
 
-
 def triggerCollapse(iPlayer):
     # help overexpanding AI: collapse to core, unless fall date
     if getHumanID() != iPlayer:
         if gcgame.getGameTurnYear() < tFall[iPlayer]:
             if len(utils.getOwnedCoreCities(iPlayer)) < len(utils.getCityList(iPlayer)):
                 collapseToCore(iPlayer)
-                if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-                    utils.logwithid(iPlayer, 'is ready to Collapse to Core')
                 return
 
     # Spread Roman pigs on Celtia's complete collapse
@@ -128,8 +125,7 @@ def triggerCollapse(iPlayer):
         data.iRomanPigs = 1
 
     scheduleCollapse(iPlayer)
-    if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
-        utils.logwithid(iPlayer, 'is ready to Complete Collapse')
+
 
 
 def scheduleCollapse(iPlayer):
@@ -141,7 +137,7 @@ def scheduleCollapse(iPlayer):
         tem_civname = utils.getCivChineseName(iPlayer)
         tem_text = " " + tem_civname + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_START_FALL')  # iLoopCiv
         utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "",
-                                 utils.ColorTypes(iWhite), -1, -1, True, True)
+                         utils.ColorTypes(iWhite), -1, -1, True, True)
         utils.log(tem_text)
         import DynamicCivs
         DynamicCivs.checkName(iPlayer)
@@ -479,10 +475,9 @@ def checkStability(iPlayer, bPositive=False, iMaster=-1):
             if (PYTHON_USE_ADVANCE_ALERT == 1):  # 增加提示信息参数控制
                 civname = gcgetPlayer(iPlayer).getCivilizationShortDescription(0)
                 # tem_civname = GlobalCyTranslator.getText(str(civname), ())
-                #			tem_text="&#25991;&#26126;"+str(civname[12:civname.rfind('_')])+"&#36827;&#20837;&#23849;&#28291;&#36793;&#32536;&#65281;"#iLoopCiv
-                tem_text = "&#25991;&#26126;" + civname + "&#36827;&#20837;&#23849;&#28291;&#36793;&#32536;&#65281;"  # iLoopCiv
+                tem_text = "文明" + civname + "进入崩溃边缘！"  # iLoopCiv
                 utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "",
-                                         utils.ColorTypes(iWhite), -1, -1, True, True)
+                                 utils.ColorTypes(iWhite), -1, -1, True, True)
             if iStability <= data.players[iPlayer].iLastStability:
                 triggerCollapse(iPlayer)
 
@@ -519,8 +514,7 @@ def secession(iPlayer, lCities):
     data.setSecedingCities(iPlayer, lCities)
 
 
-
-def secedeCities(iPlayer, lCities, bRazeMinorCities=False, bContinueCollapse=False):
+def secedeCities(iPlayer, lCities, bRazeMinorCities=False, bContinueCollapse=False, bCanResurrection=True):
     lPossibleMinors = getPossibleMinors(iPlayer)
     dPossibleResurrections = {}
 
@@ -559,7 +553,7 @@ def secedeCities(iPlayer, lCities, bRazeMinorCities=False, bContinueCollapse=Fal
                 if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
                     utils.logwithid(iPlayer, 'RazeMinorCities lRemovedCities append: ( ' + str(city.getX()) + ',' + str(city.getY()) + ' )')
                 continue
-        if(len(lCededCities)<12):
+        if (len(lCededCities) < 12):
             lCededCities.append(city)
 
     for city in lRemovedCities:
@@ -686,7 +680,7 @@ def secedeCities(iPlayer, lCities, bRazeMinorCities=False, bContinueCollapse=Fal
     if not bComplete:
         if gcgetPlayer(getHumanID()).canContact(iPlayer):
             utils.addMessage(getHumanID(), False, iDuration, localText.getText("TXT_KEY_STABILITY_CITIES_SECEDED", (gcgetPlayer(iPlayer).getCivilizationDescription(0), len(lCededCities))), "", 0, "", utils.ColorTypes(iWhite), -1, -1,
-                                     True, True)
+                             True, True)
 
     # collect additional cities that can be part of the resurrection
     lCededTiles = [(city.getX(), city.getY()) for city in lCededCities]
@@ -698,13 +692,14 @@ def secedeCities(iPlayer, lCities, bRazeMinorCities=False, bContinueCollapse=Fal
     # execute possible resurrections
     for iResurrectionPlayer in dPossibleResurrections:
         if (iPlayer is not iResurrectionPlayer):
-            utils.debugTextPopup('Resurrection: ' + gcgetPlayer(iResurrectionPlayer).getCivilizationShortDescription(0))
-            resurrectionFromCollapse(iResurrectionPlayer, dPossibleResurrections[iResurrectionPlayer])
+            if bCanResurrection:
+                utils.debugTextPopup('Resurrection: ' + gcgetPlayer(iResurrectionPlayer).getCivilizationShortDescription(0))
+                resurrectionFromCollapse(iResurrectionPlayer, dPossibleResurrections[iResurrectionPlayer])
 
     if len(lCities) > 1 and not bContinueCollapse:
         balanceStability(iPlayer, iStabilityUnstable)
     if bContinueCollapse:
-        data.players[iPlayer].iTurnsToCollapse= 0
+        data.players[iPlayer].iTurnsToCollapse = 0
 
 
 def secedeCity(city, iNewOwner, bRelocate):
@@ -749,22 +744,29 @@ def doCollapse(iPlayer):
                     return
 
     if PYTHON_STABILITY_DISABLE_CONTINOUS_COLLAPSE:
-        if len(lCities)>12 or (iPlayer is iMongolia and len(lCities)>8 ):
-            bContinueCollapse= True
-            collapseToCore(iPlayer,bContinueCollapse)
+        if len(lCities) > 12 or (iPlayer is iMongolia and len(lCities) > 8):
+            bContinueCollapse = True
+            collapseToCore(iPlayer, bContinueCollapse)
             return
 
-    doCompleteCollapse(iPlayer)
+    bCanResurrection = True
+    doCompleteCollapse(iPlayer, bCanResurrection)
+    # 针对普通的国家崩溃，其他国家允许复活
 
 
-def doCompleteCollapse(iPlayer):
+def doCompleteCollapse(iPlayer,bCanResurrection):
+    if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
+        utils.logwithid(iPlayer, utils.getCivChineseName(iPlayer) + '已经完全崩溃了！')
+        utils.logwithid_rise_and_fall(iPlayer, utils.getCivChineseName(iPlayer) + '已经完全崩溃了！')
+
+
     lCities = utils.getCityList(iPlayer)
     vic.onCollapse(iPlayer, False)
     # before cities are seceded, downgrade their cottages
     downgradeCottages(iPlayer)
     # secede all cities, destroy close and less important ones
     bRazeMinorCities = (gcgetPlayer(iPlayer).getCurrentEra() <= iMedieval)
-    secedeCities(iPlayer, lCities, bRazeMinorCities)
+    secedeCities(iPlayer, lCities, bRazeMinorCities, False, bCanResurrection)
     # take care of the remnants of the civ
     gcgetPlayer(iPlayer).killUnits()
     utils.resetUHV(iPlayer)
@@ -780,10 +782,14 @@ def doCompleteCollapse(iPlayer):
     utils.addMessage(getHumanID(), False, iDuration, sText, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
 
 
-def collapseToCore(iPlayer, bContinueCollapse = False):
+def collapseToCore(iPlayer, bContinueCollapse=False):
     lAhistoricalCities = []
     lNonCoreCities = []
     vic.onCollapse(iPlayer, False)
+
+    if (PYTHON_LOG_ON_MAIN_RISE_AND_FALL == 1):
+        utils.logwithid(iPlayer, '已经崩溃至核心！')
+        utils.logwithid_rise_and_fall(iPlayer, utils.getCivChineseName(iPlayer) + '已经崩溃至核心！')
 
     # Spread Roman pigs on Celtia's complete collapse
     if data.iRomanPigs < 0 and iPlayer == iCeltia:
@@ -807,7 +813,9 @@ def collapseToCore(iPlayer, bContinueCollapse = False):
 
         # secede all foreign cities
         # secession(iPlayer, lAhistoricalCities)
-        secedeCities(iPlayer, lAhistoricalCities, bContinueCollapse)
+        bRazeMinorCities = False
+        bCanResurrection = True
+        secedeCities(iPlayer, lAhistoricalCities, bRazeMinorCities, bContinueCollapse, bCanResurrection)
 
     # otherwise, secede all cities outside of core
     elif lNonCoreCities:
@@ -818,8 +826,10 @@ def collapseToCore(iPlayer, bContinueCollapse = False):
             utils.addMessage(iPlayer, False, iDuration, sText, "", 0, "", utils.ColorTypes(iRed), -1, -1, True, True)
 
         # secede all non-core cities
-       # secession(iPlayer, lNonCoreCities)
-        secedeCities(iPlayer, lNonCoreCities , bContinueCollapse)
+        # secession(iPlayer, lNonCoreCities)
+        bRazeMinorCities = False
+        bCanResurrection = True
+        secedeCities(iPlayer, lNonCoreCities, bRazeMinorCities, bContinueCollapse, bCanResurrection)
 
 
 def downgradeCottages(iPlayer):
@@ -854,10 +864,6 @@ def downgradeCottages(iPlayer):
 
 
 def calculateStability(iPlayer):
-    iGameTurn = utils.getGameTurn()
-    pPlayer = gcgetPlayer(iPlayer)
-    tPlayer = gcgetTeam(pPlayer.getTeam())
-
     iExpansionStability = 0
     iEconomyStability = 0
     iDomesticStability = 0
@@ -866,11 +872,100 @@ def calculateStability(iPlayer):
 
     lParameters = [0 for i in range(iNumStabilityParameters)]
 
-    # Collect required data
-    iReborn = utils.getReborn(iPlayer)
+    # 计算扩展稳定度
+    # Expansion
+    iExpansionStability, religionPeopleList = calculateStabilityExpansion(iPlayer, lParameters)
+
+    # ECONOMY
+    iEconomyStability = calculateStabilityEcnomic(iPlayer, lParameters)
+
+    # DOMESTIC
+    iDomesticStability = calculateStabilityDomestic(iPlayer, lParameters, religionPeopleList)
+
+    # FOREIGN
+    iForeignStability = calculateStabilityForeign(iPlayer, lParameters)
+
+    # MILITARY
+    iMilitaryStability = calcStabilityMilitary(iPlayer, lParameters)
+
+    iStability = iExpansionStability + iEconomyStability + iDomesticStability + iForeignStability + iMilitaryStability
+
+    if (STABILITY_PY_NOT_CHECK_STABILITY_FOR_AI == 1):  # 关闭稳定度计算的参数
+        if utils.getHumanID() is not iPlayer:
+            iStability = 0
+
+    if (STABILITY_PY_NOT_CHECK_STABILITY_FOR_HUMAN == 1):  # 关闭稳定度计算的参数
+        if utils.getHumanID() is iPlayer:
+            iStability = 0
+
+    iAIStabilityModifier = max(STABILITY_PY_AI_STABILITY_BONUS, 1)
+    if utils.getHumanID() != iPlayer and iStability < 0: iStability /= iAIStabilityModifier
+
+    return iStability, [iExpansionStability, iEconomyStability, iDomesticStability, iForeignStability, iMilitaryStability], lParameters
+
+
+def calcStabilityMilitary(iPlayer, lParameters):
+
+    iGameTurn = utils.getGameTurn()
+    pPlayer = gcgetPlayer(iPlayer)
+    tPlayer = gcgetTeam(pPlayer.getTeam())
+    iMilitaryStability = 0
+    iWarSuccessStability = 0
+    iMilitaryStrengthStability = 0
+    iBarbarianLossesStability = 0
+    iWarSuccessStability = 0  # war success (conquering cities and defeating units)
+    iWarWearinessStability = 0  # war weariness in comparison to war length
+    iBarbarianLossesStability = 0  # like previously
+    # iterate ongoing wars
+    for iEnemy in range(iNumPlayers):
+        pEnemy = gcgetPlayer(iEnemy)
+        if pEnemy.isAlive() and tPlayer.isAtWar(iEnemy):
+            iTempWarSuccessStability = calculateTrendScore(data.players[iPlayer].lWarTrend[iEnemy])
+
+            iOurSuccess = tPlayer.AI_getWarSuccess(iEnemy)
+            iTheirSuccess = gcgetTeam(iEnemy).AI_getWarSuccess(iPlayer)
+
+            if iTempWarSuccessStability > 0 and iTheirSuccess > iOurSuccess:
+                iTempWarSuccessStability /= 2
+            elif iTempWarSuccessStability < 0 and iOurSuccess > iTheirSuccess:
+                iTempWarSuccessStability /= 2
+
+            if iTempWarSuccessStability > 0: iTempWarSuccessStability /= 2
+
+            iWarSuccessStability += iTempWarSuccessStability
+
+            iOurWarWeariness = tPlayer.getWarWeariness(iEnemy)
+            iTheirWarWeariness = gcgetTeam(iEnemy).getWarWeariness(iPlayer)
+
+            iWarTurns = iGameTurn - data.players[iPlayer].lWarStartTurn[iEnemy]
+            iDurationModifier = 0
+
+            if iWarTurns > utils.getTurns(20):
+                iDurationModifier = min(9, (iWarTurns - utils.getTurns(20)) / utils.getTurns(10))
+
+            iTempWarWearinessStability = (iTheirWarWeariness - iOurWarWeariness) / (4000 * (iDurationModifier + 1))
+            if iTempWarWearinessStability > 0: iTempWarWearinessStability = 0
+
+            iWarWearinessStability += iTempWarWearinessStability
+
+            utils.debugTextPopup(
+                pPlayer.getCivilizationAdjective(0) + ' war against ' + pEnemy.getCivilizationShortDescription(0) + '\nWar Success Stability: ' + str(iTempWarSuccessStability) + '\nWar Weariness: ' + str(iTempWarWearinessStability))
+    lParameters[iParameterWarSuccess] = iWarSuccessStability
+    lParameters[iParameterWarWeariness] = iWarWearinessStability
+    iMilitaryStability += iWarSuccessStability + iWarWearinessStability
+    # apply barbarian losses
+    iBarbarianLossesStability = -data.players[iPlayer].iBarbarianLosses
+    lParameters[iParameterBarbarianLosses] = iBarbarianLossesStability
+    iMilitaryStability += iBarbarianLossesStability
+    return iMilitaryStability
+
+
+def calculateStabilityForeign(iPlayer, lParameters):
+    iGameTurn = utils.getGameTurn()
+    pPlayer = gcgetPlayer(iPlayer)
+    tPlayer = gcgetTeam(pPlayer.getTeam())
+
     iStateReligion = pPlayer.getStateReligion()
-    iCurrentEra = pPlayer.getCurrentEra()
-    iTotalPopulation = pPlayer.getTotalPopulation()
     iPlayerScore = pPlayer.getScoreHistory(iGameTurn)
 
     getCivics = pPlayer.getCivics
@@ -880,80 +975,261 @@ def calculateStability(iPlayer):
     iCivicEconomy = getCivics(3)
     iCivicReligion = getCivics(4)
     iCivicTerritory = getCivics(5)
+    bTheocracy = iCivicReligion == iTheocracy
+    bTributaries = iCivicTerritory == iTributaries
+    bIsolationism = iCivicTerritory == iIsolationism
+    bNationhood = iCivicTerritory == iNationhood
+    bMultilateralism = iCivicTerritory == iMultilateralism
+
+    iForeignStability = 0
+    iVassalStability = 0
+    iDefensivePactStability = 0
+    iRelationStability = 0
+    iNationhoodStability = 0
+    iTheocracyStability = 0
+    iMultilateralismStability = 0
+    iNumContacts = 0
+    iFriendlyRelations = 0
+    iFuriousRelations = 0
+    lContacts = []
+    for iLoopPlayer in range(iNumPlayers):
+        pLoopPlayer = gcgetPlayer(iLoopPlayer)
+        tLoopPlayer = gcgetTeam(pLoopPlayer.getTeam())
+        iLoopScore = pLoopPlayer.getScoreHistory(iGameTurn)
+
+        if iLoopPlayer == iPlayer: continue
+        if not pLoopPlayer.isAlive(): continue
+
+        # master stability
+        if tPlayer.isVassal(iLoopPlayer):
+            if getStabilityLevel(iPlayer) > getStabilityLevel(iLoopPlayer):
+                iVassalStability += 4 * (getStabilityLevel(iPlayer) - getStabilityLevel(iLoopPlayer))
+            if STABILITY_PY_VASSALS_CAN_IMPROVE_STABILITY_FROM_MASTER > 0:
+                iVassalStability += 4 * (getStabilityLevel(iLoopPlayer) - getStabilityLevel(iPlayer))
+
+        # vassal stability
+        if tLoopPlayer.isVassal(iPlayer):
+            if getStabilityLevel(iLoopPlayer) == iStabilityCollapsing:
+                iVassalStability -= 3
+            elif getStabilityLevel(iLoopPlayer) == iStabilityUnstable:
+                iVassalStability -= 1
+            elif getStabilityLevel(iLoopPlayer) == iStabilitySolid:
+                iVassalStability += 2
+
+            if bTributaries: iVassalStability += 2
+
+        # relations
+        if tPlayer.canContact(iLoopPlayer):
+            lContacts.append(iLoopPlayer)
+
+        # defensive pacts
+        if tPlayer.isDefensivePact(iLoopPlayer):
+            if iLoopScore > iPlayerScore: iDefensivePactStability += 3
+            if bMultilateralism: iDefensivePactStability += 3
+
+        # worst enemies
+        if pLoopPlayer.getWorstEnemy() == iPlayer:
+            if iLoopScore > iPlayerScore: iRelationStability -= 3
+
+        # wars
+        if tPlayer.isAtWar(iLoopPlayer):
+            if bMultilateralism: iMultilateralismStability -= 2
+
+            if utils.isNeighbor(iPlayer, iLoopPlayer):
+                if bNationhood: iNationhoodStability += 2
+
+                if bTheocracy:
+                    if pLoopPlayer.getStateReligion() != iStateReligion:
+                        iTheocracyStability += 3
+                    else:
+                        iTheocracyStability -= 2
+    # attitude stability
+    lStrongerAttitudes, lEqualAttitudes, lWeakerAttitudes = calculateRankedAttitudes(iPlayer, lContacts)
+    iAttitudeThresholdModifier = pPlayer.getCurrentEra() / 2
+    iRelationStronger = 0
+    iPositiveStronger = count(lStrongerAttitudes, lambda x: x >= 4 + iAttitudeThresholdModifier * 2)
+    if iPositiveStronger > len(lStrongerAttitudes) / 2:
+        iRelationStronger = 5 * iPositiveStronger / max(1, len(lStrongerAttitudes))
+        iRelationStronger = min(iRelationStronger, len(lStrongerAttitudes))
+    iRelationWeaker = 0
+    iNegativeWeaker = max(0, count(lWeakerAttitudes, lambda x: x < -1) - count(lWeakerAttitudes, lambda x: x >= 3 + iAttitudeThresholdModifier))
+    if iNegativeWeaker > 0:
+        iRelationWeaker = -8 * min(iNegativeWeaker, len(lWeakerAttitudes) / 2) / max(1, len(lWeakerAttitudes) / 2)
+        iRelationWeaker = max(iRelationWeaker, -len(lWeakerAttitudes))
+    iRelationEqual = sum(sign(iAttitude) * min(25, abs(iAttitude) / 5) for iAttitude in lEqualAttitudes if abs(iAttitude) > 2)
+    iRelationStability = iRelationStronger + iRelationEqual + iRelationWeaker
+    if bIsolationism:
+        if iRelationStability < 0: iRelationStability = 0
+        if iRelationStability > 0: iRelationStability /= 2
+    modif_dipo = max(STABILITY_PY_DIPO_STABILITY_MODIFIER, 1)
+    iVassalStability = iVassalStability // modif_dipo
+    iDefensivePactStability = iDefensivePactStability // modif_dipo
+    iRelationStability = iRelationStability // modif_dipo
+    iNationhoodStability = iNationhoodStability // modif_dipo
+    iTheocracyStability = iTheocracyStability // modif_dipo
+    iMultilateralismStability = iMultilateralismStability // modif_dipo
+    lParameters[iParameterVassals] = iVassalStability
+    lParameters[iParameterDefensivePacts] = iDefensivePactStability
+    lParameters[iParameterRelations] = iRelationStability
+    lParameters[iParameterNationhood] = iNationhoodStability
+    lParameters[iParameterTheocracy] = iTheocracyStability
+    lParameters[iParameterMultilateralism] = iMultilateralismStability
+    iForeignStability += iVassalStability + iDefensivePactStability + iRelationStability + iNationhoodStability + iTheocracyStability + iMultilateralismStability
+
+
+    iForeignStability = iForeignStability + calcStabilitySpecial_Mediv01(iPlayer)
+    if iForeignStability>STABILITY_MAX_FOREIGN_STABILITY:
+        iForeignStability = STABILITY_MAX_FOREIGN_STABILITY
+    return iForeignStability
+
+
+def calculateStabilityDomestic(iPlayer, lParameters, religionPeopleList):
+    pPlayer = gcgetPlayer(iPlayer)
+
+    iStateReligion = pPlayer.getStateReligion()
+    iTotalPopulation = pPlayer.getTotalPopulation()
+
+    getCivics = pPlayer.getCivics
+    iCivicGovernment = getCivics(0)
+    iCivicLegitimacy = getCivics(1)
+    iCivicSociety = getCivics(2)
+    iCivicEconomy = getCivics(3)
+    iCivicReligion = getCivics(4)
+    iCivicTerritory = getCivics(5)
+
+    bTheocracy = iCivicReligion == iTheocracy
+    bTolerance = iCivicReligion == iTolerance
+
+    [iDifferentReligionPopulation, iNoReligionPopulation, iOnlyStateReligionPopulation, iStateReligionPopulation] = religionPeopleList
+
+    iDomesticStability = 0
+    # Happiness
+    iHappinessStability = calculateTrendScore(data.players[iPlayer].lHappinessTrend)
+    if iHappinessStability > 5: iHappinessStability = 5
+    if iHappinessStability < -5: iHappinessStability = -5
+    lParameters[iParameterHappiness] = iHappinessStability
+    iDomesticStability += iHappinessStability
+    # Civics (combinations)
+    civics = (iCivicGovernment, iCivicLegitimacy, iCivicSociety, iCivicEconomy, iCivicReligion, iCivicTerritory)
+    iCivicCombinationStability = getCivicStability(iPlayer, civics)
+    if getHumanID() != iPlayer and iCivicCombinationStability < 0: iCivicCombinationStability /= 2
+    lParameters[iParameterCivicCombinations] = iCivicCombinationStability
+    iCivicEraTechStability = getCivicEraStabilty(iPlayer, civics)
+    if getHumanID() != iPlayer and iCivicEraTechStability < 0: iCivicEraTechStability /= 2
+    lParameters[iParameterCivicsEraTech] = iCivicEraTechStability
+    iDomesticStability += iCivicCombinationStability + iCivicEraTechStability
+    # Religion
+    iReligionStability = 0
+    if iTotalPopulation > 0:
+        iHeathenRatio = 100 * iDifferentReligionPopulation / iTotalPopulation
+        iHeathenThreshold = 30
+        iBelieverThreshold = 75
+
+        if iHeathenRatio > iHeathenThreshold:
+            iReligionStability -= (iHeathenRatio - iHeathenThreshold) / 10
+
+        if iStateReligion >= 0:
+            iStateReligionRatio = 100 * iStateReligionPopulation / iTotalPopulation
+            iNoReligionRatio = 100 * iNoReligionPopulation / iTotalPopulation
+
+            iBelieverRatio = iStateReligionRatio - iBelieverThreshold
+            if iBelieverRatio < 0: iBelieverRatio = min(0, iBelieverRatio + iNoReligionRatio)
+            iBelieverStability = iBelieverRatio / 5
+
+            # cap at -10 for threshold = 75
+            iCap = 2 * (iBelieverThreshold - 100) / 5
+            if iBelieverStability < iCap: iBelieverStability = iCap
+
+            if iBelieverStability > 0 and bTolerance: iBelieverStability /= 2
+
+            iReligionStability += iBelieverStability
+
+            if bTheocracy:
+                iOnlyStateReligionRatio = 100 * iOnlyStateReligionPopulation / iTotalPopulation
+                iReligionStability += iOnlyStateReligionRatio / 20
+    if iPlayer == iYuezhi and iReligionStability < 0: iReligionStability /= 2
+    lParameters[iParameterReligion] = iReligionStability
+    iDomesticStability += iReligionStability
+    return iDomesticStability
+
+
+def calculateStabilityEcnomic(iPlayer, lParameters):
+    pPlayer = gcgetPlayer(iPlayer)
+    iCivicEconomy = pPlayer.getCivics(3)
+    bPublicWelfare = iCivicEconomy == iPublicWelfare
+    bFreeEnterprise = iCivicEconomy == iFreeEnterprise
+
+    iEconomyStability = 0
+    # Economic Growth
+    iEconomicGrowthModifier = 3
+    if bFreeEnterprise: iEconomicGrowthModifier = 4
+    iEconomicGrowthStability = iEconomicGrowthModifier * calculateTrendScore(data.players[iPlayer].lEconomyTrend)
+    if iEconomicGrowthStability < 0 and bPublicWelfare: iEconomicGrowthStability /= 2
+    lParameters[iParameterEconomicGrowth] = iEconomicGrowthStability
+    iEconomyStability += iEconomicGrowthStability
+    iTradeStability = 0
+    lParameters[iParameterTrade] = iTradeStability
+    iEconomyStability += iTradeStability
+    iTotalCommerce = pPlayer.calculateTotalCommerce()
+    return iEconomyStability
+
+
+def calculateStabilityExpansion(iPlayer, lParameters):
+    iGameTurn = utils.getGameTurn()
+    pPlayer = gcgetPlayer(iPlayer)
+    iCurrentEra = pPlayer.getCurrentEra()
+    iCivicTerritory = pPlayer.getCivics(5)
+    bConquest = iCivicTerritory == iConquest
+    bIsolationism = iCivicTerritory == iIsolationism
+
+    iStateReligion = pPlayer.getStateReligion()
 
     iCorePopulation = 10
     iPeripheryPopulation = 10
     iTotalCoreCities = 0
     iOccupiedCoreCities = 0
-
     iRecentlyFounded = 0
     iRecentlyConquered = 0
-
     iStateReligionPopulation = 0
     iOnlyStateReligionPopulation = 0
     iDifferentReligionPopulation = 0
     iNoReligionPopulation = 0
-
-    bTotalitarianism = iCivicSociety == iTotalitarianism
-    bFreeEnterprise = iCivicEconomy == iFreeEnterprise
-    bPublicWelfare = iCivicEconomy == iPublicWelfare
-    bTheocracy = iCivicReligion == iTheocracy
-    bTolerance = iCivicReligion == iTolerance
-    bConquest = iCivicTerritory == iConquest
-    bTributaries = iCivicTerritory == iTributaries
-    bIsolationism = iCivicTerritory == iIsolationism
-    bColonialism = iCivicTerritory == iColonialism
-    bNationhood = iCivicTerritory == iNationhood
-    bMultilateralism = iCivicTerritory == iMultilateralism
-
     bUnion = False
-
+    bSingleCoreCity = (len(utils.getOwnedCoreCities(iPlayer)) == 1)
     if iPlayer == iLithuania and pPoland.isAlive() and (teamPoland.isDefensivePact(iLithuania) or teamPoland.isVassal(iLithuania)):
         bSingleCoreCity = False
         bUnion = True
-
     if iPlayer == iPoland and pLithuania.isAlive() and (teamLithuania.isDefensivePact(iPoland) or teamLithuania.isVassal(iPoland)):
         bSingleCoreCity = False
         bUnion = True
-
     if iPlayer == iHolyRome and pHolyRome.isReborn() and pHungary.isAlive() and (teamHungary.isDefensivePact(iHolyRome) or teamHungary.isVassal(iHolyRome)):
         bSingleCoreCity = False
         bUnion = True
-
     if iPlayer == iHungary and pHolyRome.isAlive() and (teamHolyRome.isDefensivePact(iHungary) or teamHolyRome.isVassal(iHungary)):
         bSingleCoreCity = False
         bUnion = True
 
-    bSingleCoreCity = (len(utils.getOwnedCoreCities(iPlayer)) == 1)
-
     iCorePopulationModifier = getCorePopulationModifier(iCurrentEra)
-
     if bUnion:
         if iPlayer == iLithuania: iCorePopulation += getUnionPop(iPoland, iCorePopulationModifier)
         if iPlayer == iPoland: iCorePopulation += getUnionPop(iLithuania, iCorePopulationModifier)
         if iPlayer == iHolyRome: iCorePopulation += getUnionPop(iHungary, iCorePopulationModifier)
         if iPlayer == iHungary: iCorePopulation += getUnionPop(iHolyRome, iCorePopulationModifier)
-
     iMostPopularReligion = -1
     iMostPopularReligionPopulation = 0
     for iReligion in range(iNumReligions):
         if pPlayer.getReligionPopulation(iReligion) > iMostPopularReligionPopulation:
             iMostPopularReligion = iNumReligions
             iMostPopularReligionPopulation = pPlayer.getReligionPopulation(iReligion)
-
     bLithuanianUP = (iPlayer == iLithuania and pLithuania.isStateReligion() and pLithuania.getStateReligion == -1)
-
     for city in utils.getCityList(iPlayer):
         iPopulation = city.getPopulation()
-
-
 
         x = city.getX()
         y = city.getY()
         plot = gcmap.plot(x, y)
-        tPlot = (x,y)
+        tPlot = (x, y)
         bHistorical = (utils.getSettlerValue(tPlot, iPlayer) >= 90)
-
 
         # Expansion
         if plot.isCore(iPlayer):
@@ -1005,7 +1281,6 @@ def calculateStability(iPlayer):
                     iDifferentReligionPopulation += iPopulation / 2
                 else:
                     iDifferentReligionPopulation += iPopulation
-
     iPopulationImprovements = 0
     getPlot = gcmap.plot
     for (x, y) in Areas.getCoreArea(iPlayer):
@@ -1013,34 +1288,26 @@ def calculateStability(iPlayer):
         if plot.getOwner() == iPlayer and plot.getWorkingCity():
             if plot.getImprovementType() in [iVillage, iTown]:
                 iPopulationImprovements += 1
-
     iCorePopulation += iCorePopulationModifier * iPopulationImprovements / 100
     if (STABILITY_CORE_POPULATION_MULTIPLIER > 0 and utils.getHumanID() == iPlayer):
         iCorePopulation *= STABILITY_CORE_POPULATION_MULTIPLIER
-
     # 帮助荷兰，防止崩溃
     if (STABILITY_CORE_POPULATION_HELPER_WITH_NETHERLAND > 0):
         if iPlayer == iNetherlands:
             iCorePopulation += STABILITY_CORE_POPULATION_HELPER_WITH_NETHERLAND
-
     iCurrentPower = pPlayer.getPower()
     iPreviousPower = pPlayer.getPowerHistory(iGameTurn - utils.getTurns(10))
-
     # EXPANSION
     iExpansionStability = 0
-
     iCorePeripheryStability = 0
     iRecentExpansionStability = 0
     iRazeCityStability = 0
-
     # Core vs. Periphery Populations
     if iCorePopulation == 0:
         iPeripheryExcess = 200
     else:
         iPeripheryExcess = 100 * iPeripheryPopulation / iCorePopulation - 100
-
     if iPeripheryExcess > 200: iPeripheryExcess = 200
-
     if iPeripheryExcess > 0:
         iCorePeripheryStability -= int(25 * sigmoid(1.0 * iPeripheryExcess / 100))
 
@@ -1048,314 +1315,31 @@ def calculateStability(iPlayer):
 
         utils.debugTextPopup('Expansion rating: ' + pPlayer.getCivilizationShortDescription(0) + '\nCore population: ' + str(iCorePopulation) + '\nPeriphery population: ' + str(iPeripheryPopulation) + '\nExpansion stability: ' + str(
             iCorePeripheryStability))
-
     lParameters[iParameterCorePeriphery] = iCorePeripheryStability
     lParameters[iParameterCoreScore] = iCorePopulation
     lParameters[iParameterPeripheryScore] = iPeripheryPopulation
-
     iExpansionStability += iCorePeripheryStability
-
     # recent expansion stability
     iConquestModifier = 1
     if bConquest: iConquestModifier += 1
     if iPlayer == iPersia and not pPersia.isReborn(): iConquestModifier += 1  # Persian UP
-
     iRecentExpansionStability += iRecentlyFounded
     iRecentExpansionStability += iConquestModifier * iRecentlyConquered
-
     lParameters[iParameterRecentExpansion] = iRecentExpansionStability
-
     iExpansionStability += iRecentExpansionStability
-
     # apply raze city penalty
     if utils.getHumanID() is iPlayer:
         iRazeCityStability = data.iHumanRazePenalty
-
     lParameters[iParameterRazedCities] = iRazeCityStability
-
     iExpansionStability += iRazeCityStability
-
     # stability if not expanded beyond core with isolationism
     iIsolationismStability = 0
-
     if bIsolationism and iPeripheryPopulation <= 10:
         iIsolationismStability = 10
-
     lParameters[iParameterIsolationism] = iIsolationismStability
-
     iExpansionStability += iIsolationismStability
-
-    # ECONOMY
-    iEconomyStability = 0
-
-    # Economic Growth
-    iEconomicGrowthModifier = 3
-    if bFreeEnterprise: iEconomicGrowthModifier = 4
-
-    iEconomicGrowthStability = iEconomicGrowthModifier * calculateTrendScore(data.players[iPlayer].lEconomyTrend)
-    if iEconomicGrowthStability < 0 and bPublicWelfare: iEconomicGrowthStability /= 2
-
-    lParameters[iParameterEconomicGrowth] = iEconomicGrowthStability
-    iEconomyStability += iEconomicGrowthStability
-
-    iTradeStability = 0
-
-    lParameters[iParameterTrade] = iTradeStability
-    iEconomyStability += iTradeStability
-
-    iTotalCommerce = pPlayer.calculateTotalCommerce()
-
-    # DOMESTIC
-    iDomesticStability = 0
-
-    # Happiness
-    iHappinessStability = calculateTrendScore(data.players[iPlayer].lHappinessTrend)
-
-    if iHappinessStability > 5: iHappinessStability = 5
-    if iHappinessStability < -5: iHappinessStability = -5
-
-    lParameters[iParameterHappiness] = iHappinessStability
-
-    iDomesticStability += iHappinessStability
-
-    # Civics (combinations)
-    civics = (iCivicGovernment, iCivicLegitimacy, iCivicSociety, iCivicEconomy, iCivicReligion, iCivicTerritory)
-    iCivicCombinationStability = getCivicStability(iPlayer, civics)
-
-    if getHumanID() != iPlayer and iCivicCombinationStability < 0: iCivicCombinationStability /= 2
-
-    lParameters[iParameterCivicCombinations] = iCivicCombinationStability
-
-    iCivicEraTechStability = getCivicEraStabilty(iPlayer, civics)
-
-    if getHumanID() != iPlayer and iCivicEraTechStability < 0: iCivicEraTechStability /= 2
-
-    lParameters[iParameterCivicsEraTech] = iCivicEraTechStability
-
-    iDomesticStability += iCivicCombinationStability + iCivicEraTechStability
-
-    # Religion
-    iReligionStability = 0
-
-    if iTotalPopulation > 0:
-        iHeathenRatio = 100 * iDifferentReligionPopulation / iTotalPopulation
-        iHeathenThreshold = 30
-        iBelieverThreshold = 75
-
-        if iHeathenRatio > iHeathenThreshold:
-            iReligionStability -= (iHeathenRatio - iHeathenThreshold) / 10
-
-        if iStateReligion >= 0:
-            iStateReligionRatio = 100 * iStateReligionPopulation / iTotalPopulation
-            iNoReligionRatio = 100 * iNoReligionPopulation / iTotalPopulation
-
-            iBelieverRatio = iStateReligionRatio - iBelieverThreshold
-            if iBelieverRatio < 0: iBelieverRatio = min(0, iBelieverRatio + iNoReligionRatio)
-            iBelieverStability = iBelieverRatio / 5
-
-            # cap at -10 for threshold = 75
-            iCap = 2 * (iBelieverThreshold - 100) / 5
-            if iBelieverStability < iCap: iBelieverStability = iCap
-
-            if iBelieverStability > 0 and bTolerance: iBelieverStability /= 2
-
-            iReligionStability += iBelieverStability
-
-            if bTheocracy:
-                iOnlyStateReligionRatio = 100 * iOnlyStateReligionPopulation / iTotalPopulation
-                iReligionStability += iOnlyStateReligionRatio / 20
-
-    if iPlayer == iYuezhi and iReligionStability < 0: iReligionStability /= 2
-
-    lParameters[iParameterReligion] = iReligionStability
-
-    iDomesticStability += iReligionStability
-
-    # FOREIGN
-    iForeignStability = 0
-    iVassalStability = 0
-    iDefensivePactStability = 0
-    iRelationStability = 0
-    iNationhoodStability = 0
-    iTheocracyStability = 0
-    iMultilateralismStability = 0
-
-    iNumContacts = 0
-    iFriendlyRelations = 0
-    iFuriousRelations = 0
-
-    lContacts = []
-
-    for iLoopPlayer in range(iNumPlayers):
-        pLoopPlayer = gcgetPlayer(iLoopPlayer)
-        tLoopPlayer = gcgetTeam(pLoopPlayer.getTeam())
-        iLoopScore = pLoopPlayer.getScoreHistory(iGameTurn)
-
-        if iLoopPlayer == iPlayer: continue
-        if not pLoopPlayer.isAlive(): continue
-
-        # master stability
-        if tPlayer.isVassal(iLoopPlayer):
-            if getStabilityLevel(iPlayer) > getStabilityLevel(iLoopPlayer):
-                iVassalStability += 4 * (getStabilityLevel(iPlayer) - getStabilityLevel(iLoopPlayer))
-            if STABILITY_PY_VASSALS_CAN_IMPROVE_STABILITY_FROM_MASTER>0:
-                iVassalStability += 4* (getStabilityLevel(iLoopPlayer)-getStabilityLevel(iPlayer) )
-
-        # vassal stability
-        if tLoopPlayer.isVassal(iPlayer):
-            if getStabilityLevel(iLoopPlayer) == iStabilityCollapsing:
-                iVassalStability -= 3
-            elif getStabilityLevel(iLoopPlayer) == iStabilityUnstable:
-                iVassalStability -= 1
-            elif getStabilityLevel(iLoopPlayer) == iStabilitySolid:
-                iVassalStability += 2
-
-            if bTributaries: iVassalStability += 2
-
-        # relations
-        if tPlayer.canContact(iLoopPlayer):
-            lContacts.append(iLoopPlayer)
-
-        # defensive pacts
-        if tPlayer.isDefensivePact(iLoopPlayer):
-            if iLoopScore > iPlayerScore: iDefensivePactStability += 3
-            if bMultilateralism: iDefensivePactStability += 3
-
-        # worst enemies
-        if pLoopPlayer.getWorstEnemy() == iPlayer:
-            if iLoopScore > iPlayerScore: iRelationStability -= 3
-
-        # wars
-        if tPlayer.isAtWar(iLoopPlayer):
-            if bMultilateralism: iMultilateralismStability -= 2
-
-            if utils.isNeighbor(iPlayer, iLoopPlayer):
-                if bNationhood: iNationhoodStability += 2
-
-                if bTheocracy:
-                    if pLoopPlayer.getStateReligion() != iStateReligion:
-                        iTheocracyStability += 3
-                    else:
-                        iTheocracyStability -= 2
-
-    # attitude stability
-    lStrongerAttitudes, lEqualAttitudes, lWeakerAttitudes = calculateRankedAttitudes(iPlayer, lContacts)
-
-    iAttitudeThresholdModifier = pPlayer.getCurrentEra() / 2
-
-    iRelationStronger = 0
-    iPositiveStronger = count(lStrongerAttitudes, lambda x: x >= 4 + iAttitudeThresholdModifier * 2)
-    if iPositiveStronger > len(lStrongerAttitudes) / 2:
-        iRelationStronger = 5 * iPositiveStronger / max(1, len(lStrongerAttitudes))
-        iRelationStronger = min(iRelationStronger, len(lStrongerAttitudes))
-
-    iRelationWeaker = 0
-    iNegativeWeaker = max(0, count(lWeakerAttitudes, lambda x: x < -1) - count(lWeakerAttitudes, lambda x: x >= 3 + iAttitudeThresholdModifier))
-
-    if iNegativeWeaker > 0:
-        iRelationWeaker = -8 * min(iNegativeWeaker, len(lWeakerAttitudes) / 2) / max(1, len(lWeakerAttitudes) / 2)
-        iRelationWeaker = max(iRelationWeaker, -len(lWeakerAttitudes))
-
-    iRelationEqual = sum(sign(iAttitude) * min(25, abs(iAttitude) / 5) for iAttitude in lEqualAttitudes if abs(iAttitude) > 2)
-
-    iRelationStability = iRelationStronger + iRelationEqual + iRelationWeaker
-
-    if bIsolationism:
-        if iRelationStability < 0: iRelationStability = 0
-        if iRelationStability > 0: iRelationStability /= 2
-
-    modif_dipo = max(STABILITY_PY_DIPO_STABILITY_MODIFIER, 1)
-    iVassalStability = iVassalStability // modif_dipo
-    iDefensivePactStability = iDefensivePactStability // modif_dipo
-    iRelationStability = iRelationStability // modif_dipo
-    iNationhoodStability = iNationhoodStability // modif_dipo
-    iTheocracyStability = iTheocracyStability // modif_dipo
-    iMultilateralismStability = iMultilateralismStability // modif_dipo
-
-    lParameters[iParameterVassals] = iVassalStability
-    lParameters[iParameterDefensivePacts] = iDefensivePactStability
-    lParameters[iParameterRelations] = iRelationStability
-    lParameters[iParameterNationhood] = iNationhoodStability
-    lParameters[iParameterTheocracy] = iTheocracyStability
-    lParameters[iParameterMultilateralism] = iMultilateralismStability
-
-    iForeignStability += iVassalStability + iDefensivePactStability + iRelationStability + iNationhoodStability + iTheocracyStability + iMultilateralismStability
-
-    # MILITARY
-
-    iMilitaryStability = 0
-
-    iWarSuccessStability = 0
-    iMilitaryStrengthStability = 0
-    iBarbarianLossesStability = 0
-
-    iWarSuccessStability = 0  # war success (conquering cities and defeating units)
-    iWarWearinessStability = 0  # war weariness in comparison to war length
-    iBarbarianLossesStability = 0  # like previously
-
-    # iterate ongoing wars
-    for iEnemy in range(iNumPlayers):
-        pEnemy = gcgetPlayer(iEnemy)
-        if pEnemy.isAlive() and tPlayer.isAtWar(iEnemy):
-            iTempWarSuccessStability = calculateTrendScore(data.players[iPlayer].lWarTrend[iEnemy])
-
-            iOurSuccess = tPlayer.AI_getWarSuccess(iEnemy)
-            iTheirSuccess = gcgetTeam(iEnemy).AI_getWarSuccess(iPlayer)
-
-            if iTempWarSuccessStability > 0 and iTheirSuccess > iOurSuccess:
-                iTempWarSuccessStability /= 2
-            elif iTempWarSuccessStability < 0 and iOurSuccess > iTheirSuccess:
-                iTempWarSuccessStability /= 2
-
-            if iTempWarSuccessStability > 0: iTempWarSuccessStability /= 2
-
-            iWarSuccessStability += iTempWarSuccessStability
-
-            iOurWarWeariness = tPlayer.getWarWeariness(iEnemy)
-            iTheirWarWeariness = gcgetTeam(iEnemy).getWarWeariness(iPlayer)
-
-            iWarTurns = iGameTurn - data.players[iPlayer].lWarStartTurn[iEnemy]
-            iDurationModifier = 0
-
-            if iWarTurns > utils.getTurns(20):
-                iDurationModifier = min(9, (iWarTurns - utils.getTurns(20)) / utils.getTurns(10))
-
-            iTempWarWearinessStability = (iTheirWarWeariness - iOurWarWeariness) / (4000 * (iDurationModifier + 1))
-            if iTempWarWearinessStability > 0: iTempWarWearinessStability = 0
-
-            iWarWearinessStability += iTempWarWearinessStability
-
-            utils.debugTextPopup(
-                pPlayer.getCivilizationAdjective(0) + ' war against ' + pEnemy.getCivilizationShortDescription(0) + '\nWar Success Stability: ' + str(iTempWarSuccessStability) + '\nWar Weariness: ' + str(iTempWarWearinessStability))
-
-    lParameters[iParameterWarSuccess] = iWarSuccessStability
-    lParameters[iParameterWarWeariness] = iWarWearinessStability
-
-    iMilitaryStability = iWarSuccessStability + iWarWearinessStability
-
-    # apply barbarian losses
-    iBarbarianLossesStability = -data.players[iPlayer].iBarbarianLosses
-
-    lParameters[iParameterBarbarianLosses] = iBarbarianLossesStability
-
-    iMilitaryStability += iBarbarianLossesStability
-
-    iForeignStability = iForeignStability + calcStabilitySpecial_Mediv01(iCivicEconomy, iCivicGovernment, iCivicLegitimacy, iPlayer)
-
-    iStability = iExpansionStability + iEconomyStability + iDomesticStability + iForeignStability + iMilitaryStability
-
-    if (STABILITY_PY_NOT_CHECK_STABILITY_FOR_AI == 1):  # 关闭稳定度计算的参数
-        if utils.getHumanID() is not iPlayer:
-            iStability = 0
-
-    if (STABILITY_PY_NOT_CHECK_STABILITY_FOR_HUMAN == 1):  # 关闭稳定度计算的参数
-        if utils.getHumanID() is iPlayer:
-            iStability = 0
-
-    imodifier_sta = max(STABILITY_PY_AI_STABILITY_BONUS, 1)
-    if utils.getHumanID() != iPlayer and iStability < 0: iStability /= imodifier_sta
-
-    return iStability, [iExpansionStability, iEconomyStability, iDomesticStability, iForeignStability, iMilitaryStability], lParameters
+    religionPeopleList = [iDifferentReligionPopulation, iNoReligionPopulation, iOnlyStateReligionPopulation, iStateReligionPopulation]
+    return iExpansionStability, religionPeopleList
 
 
 def getCivicEraStabilty(iPlayer, iCivics):
@@ -1365,7 +1349,6 @@ def getCivicEraStabilty(iPlayer, iCivics):
     tPlayer = gcgetTeam(pPlayer.getTeam())
     iStateReligion = pPlayer.getStateReligion()
     iCurrentEra = pPlayer.getCurrentEra()
-
 
     # Civics (eras and techs and religions)
     if iCivicLegitimacy == iVassalage:
@@ -1430,7 +1413,7 @@ def getHistoryCityStabilityModifier(city, iPlayer):
     x = city.getX()
     y = city.getY()
     plot = gcmap.plot(x, y)
-    tPlot = (x,y)
+    tPlot = (x, y)
     bHistorical = (utils.getSettlerValue(tPlot, iPlayer) >= 90)
     iModifier = 0
     iTotalCulture = 0
@@ -1515,7 +1498,16 @@ def getHistoryCityStabilityModifier(city, iPlayer):
     return iModifier
 
 
-def calcStabilitySpecial_Mediv01(iCivicEconomy, iCivicGovernment, iCivicLegitimacy, iPlayer):
+def calcStabilitySpecial_Mediv01(iPlayer):
+    pPlayer = gcgetPlayer(iPlayer)
+    getCivics = pPlayer.getCivics
+    iCivicGovernment = getCivics(0)
+    iCivicLegitimacy = getCivics(1)
+    iCivicSociety = getCivics(2)
+    iCivicEconomy = getCivics(3)
+    iCivicReligion = getCivics(4)
+    iCivicTerritory = getCivics(5)
+
     # 修改特定文明特定时期的稳定度
     iCivicEraTechStability = 0
     if (STABILITY_PY_ERA_STABILITY_FOR_BIG_COUNTRY == 1):
@@ -1683,8 +1675,8 @@ def calcStabilitySpecial_Mediv01(iCivicEconomy, iCivicGovernment, iCivicLegitima
         if utils.getHumanID() == iPlayer:
             iCivicEraTechStability += STABILITY_PY_HUMAN_BONUS
 
-    if STABILITY_AUTOPLAY_MAINTANCE_STABILITY>0:
-        if iPlayer is data.iBeforeObserverSlot and data.ObserverTurn>0:
+    if STABILITY_AUTOPLAY_MAINTANCE_STABILITY > 0:
+        if iPlayer is data.iBeforeObserverSlot and data.ObserverTurn > 0:
             iCivicEraTechStability += 60
     return iCivicEraTechStability
 
@@ -2215,7 +2207,9 @@ def resurrectionFromCollapse(iPlayer, lCityList):
         doResurrection(iPlayer, lCityList)
 
 
-def doResurrection(iPlayer, lCityList, bAskFlip=True, bRelease = False):
+def doResurrection(iPlayer, lCityList, bAskFlip=True, bRelease=False):
+    utils.logwithid(iPlayer, "文明" + utils.getCivChineseName(iPlayer) + "已经复活！")
+    utils.logwithid_rise_and_fall(iPlayer, "文明" + utils.getCivChineseName(iPlayer) + "已经复活！")
     pPlayer = gcgetPlayer(iPlayer)
     teamPlayer = gcgetTeam(iPlayer)
 
@@ -2268,7 +2262,7 @@ def doResurrection(iPlayer, lCityList, bAskFlip=True, bRelease = False):
                     x = city.getX()
                     y = city.getY()
                     # if pPlayer.getSettlerValue(x, y) >= 90:
-                    if utils.getSettlerValue((x, y) ,iPlayer)>= 90:
+                    if utils.getSettlerValue((x, y), iPlayer) >= 90:
                         if city not in lCityList:
                             lCityList.append(city)
 
@@ -2336,8 +2330,8 @@ def doResurrection(iPlayer, lCityList, bAskFlip=True, bRelease = False):
                 teamOwner.makePeace(iPlayer)
 
     if (bRelease):
-        if (PYTHON_LIBERATE_PLAYER_VALSSAL_TO_HUMAN>0):
-            gcgetTeam(iPlayer).setVassal(utils.getHumanID(),True,False)
+        if (PYTHON_LIBERATE_PLAYER_VALSSAL_TO_HUMAN > 0):
+            gcgetTeam(iPlayer).setVassal(utils.getHumanID(), True, False)
 
     if len(utils.getCityList(iPlayer)) == 0:
         utils.debugTextPopup('Civ resurrected without any cities')
@@ -2405,9 +2399,6 @@ def doResurrection(iPlayer, lCityList, bAskFlip=True, bRelease = False):
 
     # Leoreth: report to dynamic civs
     dc.onCivRespawn(iPlayer, lOwners)
-
-
-
 
     return
 

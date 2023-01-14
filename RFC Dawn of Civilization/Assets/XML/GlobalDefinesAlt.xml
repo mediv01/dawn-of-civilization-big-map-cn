@@ -284,6 +284,11 @@
         <DefineName>CVGAMETEXT_SHOW_DEFEND_COMBAT</DefineName>        <!-- 1为在地图显示防御时的战斗概率 0默认模式 mediv01 2021年11月新增内容  -->
         <iDefineIntVal>1</iDefineIntVal>
     </Define>
+	
+    <Define>
+        <DefineName>CAPTURE_CITY_LOST_BUILDING_ALERT</DefineName>        <!-- 1为占领新城市损失建筑会发消息提示，0为默认模式 mediv01  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
 
 	  <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  DLL科研 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 	
@@ -463,6 +468,7 @@
         <DefineName>CAPTURE_CITY_WITHOUT_ANY_DAMAGE</DefineName>        <!-- 1为占领新城市不损毁任何建筑，需要CAPTURE_CITY_WITH_ALL_DAMAGE参数为0才行，0为默认模式 mediv01  -->
         <iDefineIntVal>0</iDefineIntVal>
     </Define>
+
 
     <Define>
         <DefineName>CVCITY_NOT_AUTO_RAZE_CITY</DefineName>        <!-- 1为不摧毁新占领的人口为1的城市 0为默认模式， mediv01  -->
@@ -692,7 +698,10 @@
     </Define>	
  
  
- 
+ 	<Define>
+        <DefineName>CVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE</DefineName>        <!-- 1为在地图显示独立城邦刷城位置 0默认模式 mediv01 2022年11月新增内容  -->
+        <iDefineIntVal>1</iDefineIntVal>
+    </Define>
  
  
  

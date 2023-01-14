@@ -52,14 +52,14 @@ def checkturn_main():
 
                 if cantrade and c > 0:
                     # civname1=gcgetPlayer(human).getCivilizationAdjectiveKey()
-                    tem_civname1 = '&#25105;&#20204;'  # 我们
+                    tem_civname1 = '我们'
 
                     # civname2=gcgetPlayer(iPlayer).getCivilizationAdjectiveKey()
                     # tem_civname2=handle_civname(civname2)
                     tem_civname2 = gcgetPlayer(iPlayer).getCivilizationAdjective(0)
 
-                    s1 = str(tem_civname1) + " &#21487;&#20197;&#21202;&#32034;  " + str(
-                        c) + "  &#37329;&#24065;&#26469;&#33258; " + tem_civname2 + "  &#28508;&#22312;&#26368;&#22823;&#21487;&#21202;&#32034;&#37329;&#24065;&#37327;&#20026; " + str(a) + " ;    \r"
+                    s1 = str(tem_civname1) + " 可以勒索 " + str(
+                        c) + "  金币来自 " + tem_civname2 + "  潜在最大可勒索金币量为 " + str(a) + " ;    \r"
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, s1, "", 0, "", utils.ColorTypes(iYellow), -1, -1, True, True)
                 if cantrade == 0 and c > 0:
                     # civname1=gcgetPlayer(human).getCivilizationAdjectiveKey()
@@ -72,8 +72,8 @@ def checkturn_main():
                     # tem_civname2=handle_civname(civname2)
                     tem_civname2 = gcgetPlayer(iPlayer).getCivilizationAdjective(0)
 
-                    s1 = str(tem_civname1) + " &#22914;&#26524;&#25105;&#20204;&#36935;&#35265;&#20182;&#20204;&#65292;&#21487;&#20197;&#21202;&#32034;  " + str(c) + "  &#37329;&#24065;&#26469;&#33258; " + str(
-                        tem_civname2) + "  &#28508;&#22312;&#26368;&#22823;&#21487;&#21202;&#32034;&#37329;&#24065;&#37327;&#20026; " + str(a) + "  ;    \r"
+                    s1 = str(tem_civname1) + " 如果我们遇见他们，可以勒索  " + str(c) + "  金币来自 " + str(
+                        tem_civname2) + "  潜在最大可勒索金币量为 " + str(a) + "  ;    \r"
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, s1, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
                     # s=s+s1
     # utils.show(str(s))
@@ -101,14 +101,14 @@ def checkturn_map_main():
 
                 if cantrade and c > 0:
                     # civname1=gcgetPlayer(human).getCivilizationAdjectiveKey()
-                    tem_civname1 = '&#25105;&#20204;'  # 我们
+                    tem_civname1 = '我们'
 
                     # civname2=gcgetPlayer(iPlayer).getCivilizationAdjectiveKey()
                     # tem_civname2=handle_civname(civname2)
                     tem_civname2 = gcgetPlayer(iPlayer).getCivilizationAdjective(0)
 
-                    s1 = str(tem_civname1) + " &#21487;&#20197;&#20132;&#26131;&#22320;&#22270;  " + str(c) + "  &#37329;&#24065;&#26469;&#33258; " + str(
-                        tem_civname2) + "  &#28508;&#22312;&#26368;&#22823;&#21487;&#20132;&#26131;&#22320;&#22270;&#37329;&#24065;&#37327;&#20026;" + str(a) + " ;    \r"
+                    s1 = str(tem_civname1) + " 可以交易地图  " + str(c) + "  金币来自 " + str(
+                        tem_civname2) + "  潜在最大可交易地图金币量为" + str(a) + " ;    \r"
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, s1, "", 0, "", utils.ColorTypes(iYellow), -1, -1, True, True)
                 if cantrade == 0 and c > 0:
                     # civname1=gcgetPlayer(human).getCivilizationAdjectiveKey()
@@ -121,8 +121,8 @@ def checkturn_map_main():
                     # tem_civname2=handle_civname(civname2)
                     tem_civname2 = gcgetPlayer(iPlayer).getCivilizationAdjective(0)
 
-                    s1 = str(tem_civname1) + " &#22914;&#26524;&#25105;&#20204;&#36935;&#35265;&#20182;&#20204;&#65292;&#21487;&#20197;&#20132;&#26131;&#22320;&#22270;  " + str(c) + "  &#37329;&#24065;&#26469;&#33258; " + str(
-                        tem_civname2) + "  &#28508;&#22312;&#26368;&#22823;&#20132;&#26131;&#22320;&#22270;&#37329;&#24065;&#37327;&#20026; " + str(a) + "  ;    \r"
+                    s1 = str(tem_civname1) + " 如果我们遇见他们，可以交易地图  " + str(c) + "  金币来自 " + str(
+                        tem_civname2) + "  潜在最大交易地图金币量为 " + str(a) + "  ;    \r"
                     utils.addMessage(gcgame.getActivePlayer(), False, iDuration, s1, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
                     # s=s+s1
     # utils.show(str(s))

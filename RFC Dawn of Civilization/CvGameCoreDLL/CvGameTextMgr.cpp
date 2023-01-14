@@ -636,7 +636,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		}
 	}*/
 
-	if (GC.getGameINLINE().isDebugMode() && !bAlt && !bShift)
+	if (GC.getGameINLINE().isDebugMode()  && bShift)
 	{
 		FAssertMsg(pUnit->AI_getUnitAIType() != NO_UNITAI, "pUnit's AI type expected to != NO_UNITAI");
 		szTempBuffer.Format(L" (%s)", GC.getUnitAIInfo(pUnit->AI_getUnitAIType()).getDescription());
@@ -668,7 +668,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		}
 	}
     
-	//if (bAlt && (gDLL->getChtLvl() > 0)) // wunshare
+	if (bAlt && (gDLL->getChtLvl() > 0)) // wunshare  //调试信息正常不显示
     {
 		CvSelectionGroup* eGroup = pUnit->getGroup();
 		if (eGroup != NULL)
@@ -5742,632 +5742,626 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 		}
 	}
 	else {
-		if (GC.getGameTurn() > 0)
+
+	// Leoreth: tile stability info text
+	bool bCore = pPlot->isCore(GC.getGameINLINE().getActivePlayer());
+	bool bForeignCore = false;
+	CvWString sForeignName = L"";
+
+
+	for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
+	{
+		if (iI != GC.getGameINLINE().getActivePlayer())
 		{
-			// Leoreth: tile stability info text
-			bool bCore = pPlot->isCore(GC.getGameINLINE().getActivePlayer());
-			bool bForeignCore = false;
-			CvWString sForeignName = L"";
-
-
-			for (iI = 0; iI < NUM_MAJOR_PLAYERS; iI++)
+			if (pPlot->isCore((PlayerTypes)iI))
 			{
-				if (iI != GC.getGameINLINE().getActivePlayer())
+				if (GET_PLAYER((PlayerTypes)iI).isAlive() || GET_PLAYER((PlayerTypes)iI).canEverRespawn() || GC.getDefineINT("GAME_TEXT_SHOW_FOREGIN_CORE") == 1)
 				{
-					if (pPlot->isCore((PlayerTypes)iI))
-					{
-						if (GET_PLAYER((PlayerTypes)iI).isAlive() || GET_PLAYER((PlayerTypes)iI).canEverRespawn() || GC.getDefineINT("GAME_TEXT_SHOW_FOREGIN_CORE") == 1)
+					if (GC.getDefineINT("GAME_TEXT_SHOW_FOREGIN_CORE") == 1) {
+						if (bForeignCore)
 						{
-							if (GC.getDefineINT("GAME_TEXT_SHOW_FOREGIN_CORE") == 1) {
-								if (bForeignCore)
-								{
-									sForeignName.append(CvWString::format(L"  %s", GET_PLAYER((PlayerTypes)iI).getCivilizationShortDescription()));
-								}
-								else
-								{
-									sForeignName.append(CvWString::format(L":  %s", GET_PLAYER((PlayerTypes)iI).getCivilizationShortDescription()));
-								}
-							}
-
-							bForeignCore = true;
-							//sForeignName.append(CvWString::format(L":  %s", GET_PLAYER((PlayerTypes)iI).getName()));
-
-							//GET_PLAYER((PlayerTypes)iI).getName();
-							//break;
+							sForeignName.append(CvWString::format(L"  %s", GET_PLAYER((PlayerTypes)iI).getCivilizationShortDescription()));
+						}
+						else
+						{
+							sForeignName.append(CvWString::format(L":  %s", GET_PLAYER((PlayerTypes)iI).getCivilizationShortDescription()));
 						}
 					}
+
+					bForeignCore = true;
+					//sForeignName.append(CvWString::format(L":  %s", GET_PLAYER((PlayerTypes)iI).getName()));
+
+					//GET_PLAYER((PlayerTypes)iI).getName();
+					//break;
 				}
 			}
+		}
+	}
 
-			if (GC.m_iCVGAMETEXT_SHOW_ENERMY_AREA == 1) {
-				TeamTypes eTeam = pPlot->getTeam();
-				bool enermy = (atWar(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getTeam(), eTeam));
-				if (enermy) {
-					szTempBuffer.Format(SETCOLR L"【 敌人区域 】" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_RED_TEXT"));
-					szString.append(szTempBuffer);
-					szString.append(NEWLINE);
-				}
-			}
-
-
-
-			if (GC.m_iCVGAMETEXT_MANUAL_DEBUG_TRIGGER == 1) {
-
-				const int debug_plot_x = pPlot->getX();
-				const int debug_plot_y = pPlot->getY();
-				//szString.append(CvWString::format(L" debugtext"));
-				// 触发DEBUG程序的入口1
-				if (debug_plot_x == 36 && debug_plot_y == 1) {
-
-					//cvdebug_debug_main();
-
-				}
-
-			}
-
-			if (GC.m_iGAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT == 1) {
-				//szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));//蓝色
-				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
-				szString.append(pPlot->getRegionName());//mediv01  加入地区名称
-				szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-
-				if (GC.m_iGAME_TEXT_SHOW_CITY_X_AND_Y == 1)
-				{
-					//szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-					szString.append(CvWString::format(L"     X : %d", (pPlot->getX())));
-					szString.append(CvWString::format(L" , Y : %d", (pPlot->getY())));
-					szString.append(CvWString::format(L" , L : %d", (pPlot->getLatitude())));
-
-
-				}
-				szString.append(NEWLINE);
-			}
+	if (GC.m_iCVGAMETEXT_SHOW_ENERMY_AREA == 1) {
+		TeamTypes eTeam = pPlot->getTeam();
+		bool enermy = (atWar(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getTeam(), eTeam));
+		if (enermy) {
+			szTempBuffer.Format(SETCOLR L"【 敌人区域 】" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_RED_TEXT"));
+			szString.append(szTempBuffer);
+			szString.append(NEWLINE);
+		}
+	}
 
 
 
 
 
-			if (pPlot->getPlotType() == PLOT_LAND || pPlot->getPlotType() == PLOT_HILLS)
+	if (GC.m_iGAME_TEXT_SHOW_AREA_NAME_IN_ALL_UNIT == 1) {
+		//szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));//蓝色
+		szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
+		szString.append(pPlot->getRegionName());//mediv01  加入地区名称
+		szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+
+		if (GC.m_iGAME_TEXT_SHOW_CITY_X_AND_Y == 1)
+		{
+			//szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+			szString.append(CvWString::format(L"     X : %d", (pPlot->getX())));
+			szString.append(CvWString::format(L" , Y : %d", (pPlot->getY())));
+			szString.append(CvWString::format(L" , L : %d", (pPlot->getLatitude())));
+
+
+		}
+		szString.append(NEWLINE);
+	}
+
+	if (pPlot->getPlotType() == PLOT_LAND || pPlot->getPlotType() == PLOT_HILLS)
+	{
+
+		if (GC.getDefineINT("GAME_TEXT_SHOW_CITY_NAME_IN_ALL_UNIT") == 1) //mediv01 所有单位都显示城市名称
+		{
+			if (!pPlot->isWater() && !pPlot->isPeak())
 			{
+				CvWString szName;
+				CyArgsList argsList4;
+				argsList4.add(GC.getGameINLINE().getActivePlayer());
+				argsList4.add(pPlot->getX());
+				argsList4.add(pPlot->getY());
+				GC.callPythoFunction(PYScreensModule, "getCityName", argsList4.makeFunctionArgs(), &szName);
 
-				if (GC.getDefineINT("GAME_TEXT_SHOW_CITY_NAME_IN_ALL_UNIT") == 1) //mediv01 所有单位都显示城市名称
-				{
-					if (!pPlot->isWater() && !pPlot->isPeak())
-					{
-						CvWString szName;
-						CyArgsList argsList4;
-						argsList4.add(GC.getGameINLINE().getActivePlayer());
-						argsList4.add(pPlot->getX());
-						argsList4.add(pPlot->getY());
-						GC.callPythoFunction(PYScreensModule, "getCityName", argsList4.makeFunctionArgs(), &szName);
-
-						if (!szName.empty())
-						{
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
-							szString.append(szName);
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-
-							if (GC.getDefineINT("CVGAMETEXT_SHOW_CONNECT_TO_CAPITAL") == 1) {
-
-								//plot()->isConnectedToCapital()
-								//pPlot->isConnectedTo(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCapitalCity())
-								if (pPlot->isConnectedToCapital()) {
-									szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
-									szString.append(CvWString::format(L"     [已连接] "));//mediv01  是否与首都相连
-									szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-								}
-								else {
-									szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_RED")));
-									szString.append(CvWString::format(L"     [未连接] "));//mediv01  是否与首都相连
-									szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-								}
-							}
-							szString.append(NEWLINE);
-
-
-
-
-
-
-						}
-
-					}
-				}
-
-
-				if (bCore)
+				if (!szName.empty())
 				{
 					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
-					szString.append(gDLL->getText("TXT_KEY_STABILITY_CORE_AREA"));
+					szString.append(szName);
+					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+
+					if (GC.getDefineINT("CVGAMETEXT_SHOW_CONNECT_TO_CAPITAL") == 1) {
+
+						//plot()->isConnectedToCapital()
+						//pPlot->isConnectedTo(GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCapitalCity())
+						if (pPlot->isConnectedToCapital()) {
+							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
+							szString.append(CvWString::format(L"     [已连接] "));//mediv01  是否与首都相连
+							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+						}
+						else {
+							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_RED")));
+							szString.append(CvWString::format(L"     [未连接] "));//mediv01  是否与首都相连
+							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+						}
+					}
+					szString.append(NEWLINE);
+
+
+
+
+
+
+				}
+
+			}
+		}
+
+
+		if (bCore)
+		{
+			szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+			szString.append(gDLL->getText("TXT_KEY_STABILITY_CORE_AREA"));
+		}
+		else
+		{
+			int iSettlerValue = GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getSettlerValue(pPlot->getX(), pPlot->getY());
+
+			if (iSettlerValue >= 90)
+			{
+				if (bForeignCore)
+				{
+					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW_TEXT")));
+					szString.append(gDLL->getText("TXT_KEY_STABILITY_CONTESTED_AREA") + sForeignName);
 				}
 				else
 				{
-					int iSettlerValue = GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getSettlerValue(pPlot->getX(), pPlot->getY());
-
-					if (iSettlerValue >= 90)
-					{
-						if (bForeignCore)
-						{
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW_TEXT")));
-							szString.append(gDLL->getText("TXT_KEY_STABILITY_CONTESTED_AREA") + sForeignName);
-						}
-						else
-						{
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN_TEXT")));
-							szString.append(gDLL->getText("TXT_KEY_STABILITY_HISTORICAL_AREA"));
-						}
-					}
-					else
-						if (bForeignCore)
-						{
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_DARK_RED_TEXT")));
-							szString.append(gDLL->getText("TXT_KEY_STABILITY_FOREIGN_CORE_AREA") + sForeignName);
-						}
-						else
-						{
-							szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_ORANGE_TEXT")));
-							szString.append(gDLL->getText("TXT_KEY_STABILITY_FOREIGN_AREA"));
-						}
+					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN_TEXT")));
+					szString.append(gDLL->getText("TXT_KEY_STABILITY_HISTORICAL_AREA"));
 				}
-
-				if (GC.getDefineINT("CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP") == 1) {//mediv01 显示地块是否为翻转区
-	//long lResult = 0;
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "CheckCoreInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if ((int)(pIntList1.size()) > 0) {
-						szString.append(NEWLINE);
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szTempBuffer.Format(SETCOLR L"核心翻转区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
-						szString.append(szTempBuffer);
-						for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-
-
-							std::vector<int> pIntList2;
-							CyArgsList argsList2;
-							argsList2.add(PlayerNum);
-							argsList2.add(PlayerNum);
-							int BirthDate = 500;
-							int FallDate = 1800;
-
-							GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
-							if (pIntList2.size() > 0) {
-
-								BirthDate = pIntList2[0];
-								FallDate = pIntList2[1];
-
-
-							}
-
-
-
-							szTempBuffer.Format(L"%s(%d)  ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription(), BirthDate);
-							szString.append(szTempBuffer);
-						}
-						//szString.append(NEWLINE);
-					}
-
-
-				}
-
-
-
-				if (GC.getDefineINT("CVGAMETEXT_SHOW_BIRTH_PLACE_IN_DOCM") == 1) {//mediv01 显示地块是否为出生区
-	//long lResult = 0;
-
-
-
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "CheckBirthPlaceInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if (pIntList1.size() > 0) {
-						szString.append(NEWLINE);
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szTempBuffer.Format(SETCOLR L"文明出生区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
-						szString.append(szTempBuffer);
-						for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-
-							std::vector<int> pIntList2;
-							CyArgsList argsList2;
-							argsList2.add(PlayerNum);
-							argsList2.add(PlayerNum);
-							int BirthDate = 500;
-							int FallDate = 1800;
-
-							GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
-							if (pIntList2.size() > 0) {
-
-								BirthDate = pIntList2[0];
-								FallDate = pIntList2[1];
-
-
-							}
-
-
-
-							szTempBuffer.Format(L"%s ( %d 至 %d ) ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription(), BirthDate, FallDate);
-							szString.append(szTempBuffer);
-						}
-					}
-
-
-
-				}
-
-				if (GC.getDefineINT("CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP") == 1) {//mediv01 显示地块是否为独立城邦铺城点
-	  //long lResult = 0;
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "CheckMinorInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if ((int)(pIntList1.size()) > 0) {
-						szString.append(NEWLINE);
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szTempBuffer.Format(SETCOLR L"独立城邦诞生年份：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
-						szString.append(szTempBuffer);
-						for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-							szTempBuffer.Format(L"%d   ", PlayerNum);
-							szString.append(szTempBuffer);
-						}
-
-					}
-				}
-
-				if (GC.getDefineINT("GAME_TEXT_SHOW_RELIGION_MAP") == 1) {//mediv01 显示宗教数值
-					for (iI = 0; iI < NUM_RELIGIONS; iI++)
-					{
-						ReligionTypes rel = ((ReligionTypes)iI);
-						int iReligionvalue = pPlot->getReligionInfluence(rel);  //这个数值似乎没有啥作用，还是用跟创立宗教相关的数值吧
-						int ReligionValueDOCM = 1;
-						int iReligionFactor = pPlot->getSpreadFactor(rel);  //这个和创立宗教有关
-						CvWString StringReligionFound;
-						if (iReligionFactor == REGION_SPREAD_NONE) {
-							StringReligionFound.append(CvWString::format(L"  无"));
-							ReligionValueDOCM = 0;
-						}
-						else if (iReligionFactor == REGION_SPREAD_MINORITY) {
-							StringReligionFound.append(CvWString::format(SETCOLR L" 少数区" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-
-						}
-						else if (iReligionFactor == REGION_SPREAD_PERIPHERY) {
-							StringReligionFound.append(CvWString::format(SETCOLR L" 边缘区" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-
-						}
-						else if (iReligionFactor == REGION_SPREAD_HISTORICAL) {
-							StringReligionFound.append(CvWString::format(SETCOLR L" 历史区，" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN")));
-							StringReligionFound.append(CvWString::format(SETCOLR L" 可创教" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
-
-							//StringReligionFound.append(CvWString::format(L"  历史区，可创教"));
-
-						}
-						else if (iReligionFactor == REGION_SPREAD_CORE) {
-							StringReligionFound.append(CvWString::format(SETCOLR L" 核心区，" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
-							StringReligionFound.append(CvWString::format(SETCOLR L" 可创教" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
-							//StringReligionFound.append(CvWString::format(L"  核心区，可创教"));
-
-						}
-						else {
-							StringReligionFound.append(CvWString::format(L"  "));
-							ReligionValueDOCM = 0;
-						}
-
-						/*
-							REGION_SPREAD_NONE,
-							REGION_SPREAD_MINORITY,
-							REGION_SPREAD_PERIPHERY,
-							REGION_SPREAD_HISTORICAL,
-							REGION_SPREAD_CORE,
-							*/
-
-							//if (pCity->plot()->getSpreadFactor(eReligion) >= REGION_SPREAD_HISTORICAL)//mediv01 主动创建宗教的条件
-						if (ReligionValueDOCM > 0) {
-							szString.append(NEWLINE);
-							szString.append(CvWString::format(L" %c", (GC.getReligionInfo((ReligionTypes)iI).getChar())));
-							//GC.getReligionInfo((ReligionTypes)iI).getDescription()
-							szString.append(StringReligionFound);
-							// szString.append(CvWString::format(L"    影响力： %d", (iReligionvalue)));
-
-
-						}
-					}
-					//mediv01
-				}
-
-
-				if (GC.getDefineINT("CVGAMETEXT_SHOW_COMPANY_IN_MAP") == 1) {//mediv01 显示地块是否为公司
-	//long lResult = 0;
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "SearchCompanyInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if ((int)(pIntList1.size()) > 0) {
-
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szString.append(NEWLINE);
-						szTempBuffer.Format(SETCOLR L"公司类型：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
-						szString.append(szTempBuffer);
-						for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-							if (PlayerNum == 0) {
-								szTempBuffer.Format(L"  丝绸之路  ");
-							}
-							else if (PlayerNum == 1) {
-								szTempBuffer.Format(L"  加勒比殖民贸易公司  ");
-							}
-							else if (PlayerNum == 2) {
-								szTempBuffer.Format(L"  泛撒哈拉贸易网络  ");
-							}
-							else if (PlayerNum == 3) {
-								szTempBuffer.Format(L"  东南亚海上丝绸之路  ");
-							}
-							else {
-								szTempBuffer.Format(L"");
-							}
-							szString.append(szTempBuffer);
-						}
-
-					}
-				}
-
-
-				if (GC.getDefineINT("CVGAMETEXT_SHOW_TRADING_COMPANY_IN_MAP") == 1) {//mediv01 显示地块是否为贸易公司刷兵点
-	//long lResult = 0;
-					//lTradingCompanyCiv=(iSpain,iFrance,iEngland,iPortugal,iNetherlands)
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "SearchTradingCompanyInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if ((int)(pIntList1.size()) > 0) {
-
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szString.append(NEWLINE);
-						szTempBuffer.Format(SETCOLR L"贸易公司刷兵点：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
-						szString.append(szTempBuffer);
-						for (int i = 1; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-							if (PlayerNum == 0) {
-								szTempBuffer.Format(L"  西班牙  ");
-							}
-							else if (PlayerNum == 1) {
-								szTempBuffer.Format(L"  法国  ");
-							}
-							else if (PlayerNum == 2) {
-								szTempBuffer.Format(L"  英国  ");
-							}
-							else if (PlayerNum == 3) {
-								szTempBuffer.Format(L"  葡萄牙  ");
-							}
-							else if (PlayerNum == 4) {
-								szTempBuffer.Format(L"  荷兰  ");
-							}
-							else {
-								szTempBuffer.Format(L"");
-							}
-							szString.append(szTempBuffer);
-						}
-
-					}
-				}
-
-				if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP") == 1) {//mediv01 显示AIWAR地块
-	//long lResult = 0;
-					std::vector<int> pIntList1;
-					CyArgsList argsList;
-					argsList.add(pPlot->getX());
-					argsList.add(pPlot->getY());
-					GC.callPythoFunction(PYScreensModule, "SearchAIWARInDll", argsList.makeFunctionArgs(), &pIntList1);
-					if ((int)(pIntList1.size()) > 1) {
-
-						//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
-						szString.append(NEWLINE);
-						szTempBuffer.Format(SETCOLR L"AIWAR刷兵地块：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
-						szString.append(szTempBuffer);
-
-
-						list<int> record_list;
-						int superaiwar_start_id = 0;
-						superaiwar_start_id = pIntList1[0];
-						// superaiwar_start_id = 23;
-						// LIST第一个是SUPERAIWAR的FLAG 从第二个开始是ID
-						for (int i = 2; i <= (int)(pIntList1.size()); i++) {
-							int PlayerNum = pIntList1[i - 1];
-							szTempBuffer.Format(L"");
-							if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_ANCIENT") == 1) {
-								if (PlayerNum == 0) {
-									szTempBuffer.Format(L"  公元前220年罗马征服迦太基的布匿战争  ");
-								}
-								else if (PlayerNum == 1) {
-									szTempBuffer.Format(L"  公元前150年罗马征服希腊  ");
-								}
-								else if (PlayerNum == 2) {
-									szTempBuffer.Format(L"  公元前100年罗马征服小亚细亚  ");
-								}
-								else if (PlayerNum == 3) {
-									szTempBuffer.Format(L"  公元前50年罗马征服高卢  ");
-								}
-								else if (PlayerNum == 4) {
-									szTempBuffer.Format(L"  公元0年罗马征服埃及  ");
-								}
-								else if (PlayerNum == 5) {
-									szTempBuffer.Format(L"  公元前340年亚历山大征服巴比伦  ");
-								}
-								else if (PlayerNum == 6) {
-									szTempBuffer.Format(L"  公元前340年亚历山大征服埃及  ");
-								}
-								else if (PlayerNum == 7) {
-									szTempBuffer.Format(L"  公元前340年亚历山大征服波斯  ");
-								}
-								else if (PlayerNum == 8) {
-									szTempBuffer.Format(L"  公元1030年泰米尔征服印尼  ");
-								}
-								else if (PlayerNum == 9) {
-									szTempBuffer.Format(L"  公元50年中国征服越南  ");
-								}
-								else if (PlayerNum == 10) {
-									szTempBuffer.Format(L"  公元1400年中国征服越南  ");
-								}
-								else if (PlayerNum == 11) {
-									szTempBuffer.Format(L"  公元1180年西班牙征服摩尔  ");
-								}
-								else if (PlayerNum == 12) {
-									szTempBuffer.Format(L"  公元1520年西班牙征服印加  ");
-								}
-								else if (PlayerNum == 13) {
-									szTempBuffer.Format(L"  公元1520年西班牙征服蒂瓦纳科  ");
-								}
-								else if (PlayerNum == 14) {
-									szTempBuffer.Format(L"  公元1520年西班牙征服玛雅  ");
-								}
-								else if (PlayerNum == 15) {
-									szTempBuffer.Format(L"  公元1000年突厥征服波斯  ");
-								}
-								else if (PlayerNum == 16) {
-									szTempBuffer.Format(L"  公元1030年突厥征服小亚细亚  ");
-								}
-								else if (PlayerNum == 17) {
-									szTempBuffer.Format(L"  公元1210年蒙古征服中亚  ");
-								}
-								else if (PlayerNum == 18) {
-									szTempBuffer.Format(L"  公元1220年蒙古征服波斯  ");
-								}
-								else if (PlayerNum == 19) {
-									szTempBuffer.Format(L"  公元1480年俄罗斯征服诺夫哥罗德  ");
-								}
-								else if (PlayerNum == 20) {
-									szTempBuffer.Format(L"  公元1500年俄罗斯征服鞑靼  ");
-								}
-								else if (PlayerNum == 21) {
-									szTempBuffer.Format(L"  公元1220年鞑靼征服基辅罗斯  ");
-								}
-								else if (PlayerNum == 22) {
-									szTempBuffer.Format(L"  公元30年月氏征服波斯  ");
-								}
-								else if (PlayerNum == 23) {
-									szTempBuffer.Format(L"  公元1150年英国征服爱尔兰  ");
-								}
-								else if (PlayerNum == 1001) {
-									szTempBuffer.Format(L"  蒙古征服阿拉伯战争  ");
-								}
-								else if (PlayerNum == 1002) {
-									szTempBuffer.Format(L"  蒙古征服波斯战争  ");
-								}
-								else if (PlayerNum == 1003) {
-									szTempBuffer.Format(L"  蒙古征服拜占庭战争  ");
-								}
-								else if (PlayerNum == 1004) {
-									szTempBuffer.Format(L"  蒙古征服亚美尼亚战争  ");
-								}
-
-								else if (PlayerNum == superaiwar_start_id + 1) {
-									szTempBuffer.Format(L"  公元1340年英法百年战争阶段1  ");
-								}
-								else if (PlayerNum == superaiwar_start_id + 2) {
-									szTempBuffer.Format(L"  公元1445年英法百年战争阶段2  ");
-								}
-								else if (PlayerNum == superaiwar_start_id + 3 || PlayerNum == superaiwar_start_id + 4 || PlayerNum == superaiwar_start_id + 5) {
-									szTempBuffer.Format(L"  公元1095年英、法、神罗十字军东征 ");
-								}
-								else if (PlayerNum == superaiwar_start_id + 6 || PlayerNum == superaiwar_start_id + 7 || PlayerNum == superaiwar_start_id + 8) {
-									szTempBuffer.Format(L"  公元1170年萨拉丁的崛起 ");
-								}
-								else if (PlayerNum == superaiwar_start_id + 39) {
-									szTempBuffer.Format(L"  公元前220年汉尼拔远征罗马  ");
-								}
-								else if (PlayerNum == superaiwar_start_id + 40) {
-									szTempBuffer.Format(L"  公元前78年斯巴达克斯起义  ");
-								}
-
-
-							}
-							if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_EARLY_MODERN") == 1) {
-								if (PlayerNum >= superaiwar_start_id + 9 && PlayerNum <= superaiwar_start_id + 12) {
-									szTempBuffer.Format(L"  公元1800年拿破仑战争  ");
-								}
-								else if (PlayerNum >= superaiwar_start_id + 13 && PlayerNum <= superaiwar_start_id + 16) {
-									szTempBuffer.Format(L"  公元1815年反法同盟  ");
-								}
-							}
-							if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_LATE_MODERN") == 1) {
-
-								if (PlayerNum >= superaiwar_start_id + 17 && PlayerNum <= superaiwar_start_id + 24) {
-									szTempBuffer.Format(L"  第1次世界大战");
-								}
-
-								else if (PlayerNum >= superaiwar_start_id + 25 && PlayerNum <= superaiwar_start_id + 38) {
-									szTempBuffer.Format(L"  第2次世界大战 ");
-								}
-
-
-
-							}
-
-							int PlayerNum_Rec = PlayerNum;
-
-
-							// 世界大战用的
-
-							if (PlayerNum == superaiwar_start_id + 3 || PlayerNum == superaiwar_start_id + 4 || PlayerNum == superaiwar_start_id + 5) {
-								PlayerNum_Rec = superaiwar_start_id + 3;
-							}
-							else if (PlayerNum == superaiwar_start_id + 6 || PlayerNum == superaiwar_start_id + 7 || PlayerNum == superaiwar_start_id + 8) {
-								PlayerNum_Rec = superaiwar_start_id + 6;
-							}
-							else if (PlayerNum >= superaiwar_start_id + 9 && PlayerNum <= superaiwar_start_id + 12) {
-								PlayerNum_Rec = superaiwar_start_id + 9;
-							}
-							else if (PlayerNum >= superaiwar_start_id + 13 && PlayerNum <= superaiwar_start_id + 16) {
-								PlayerNum_Rec = superaiwar_start_id + 13;
-							}
-
-
-							else if (PlayerNum >= superaiwar_start_id + 17 && PlayerNum <= superaiwar_start_id + 24) {
-								PlayerNum_Rec = superaiwar_start_id + 17;
-							}
-							else if (PlayerNum >= superaiwar_start_id + 25 && PlayerNum <= superaiwar_start_id + 38) {
-								PlayerNum_Rec = superaiwar_start_id + 25;
-							}
-
-
-
-
-							else {
-								PlayerNum_Rec = PlayerNum;
-							}
-
-
-
-
-							list<int> List = record_list;
-							list<int>::iterator iter = std::find(List.begin(), List.end(), PlayerNum_Rec);
-							if (iter != List.end()) {
-							}
-							else {
-								record_list.insert(record_list.end(), PlayerNum_Rec);
-								szString.append(szTempBuffer);
-								szTempBuffer.Format(L"");
-							}
-
-
-
-
-						}
-
-					}
-
-				}
-				szString.append(CvWString::format(ENDCOLR));
-				szString.append(NEWLINE);
 			}
+			else
+				if (bForeignCore)
+				{
+					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_DARK_RED_TEXT")));
+					szString.append(gDLL->getText("TXT_KEY_STABILITY_FOREIGN_CORE_AREA") + sForeignName);
+				}
+				else
+				{
+					szString.append(CvWString::format(SETCOLR, TEXT_COLOR("COLOR_PLAYER_ORANGE_TEXT")));
+					szString.append(gDLL->getText("TXT_KEY_STABILITY_FOREIGN_AREA"));
+				}
+		}
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_FLIP_ZONE_IN_MAP") == 1) {//mediv01 显示地块是否为翻转区
+//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "CheckCoreInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if ((int)(pIntList1.size()) > 0) {
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"核心翻转区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+
+
+					std::vector<int> pIntList2;
+					CyArgsList argsList2;
+					argsList2.add(PlayerNum);
+					argsList2.add(PlayerNum);
+					int BirthDate = 500;
+					int FallDate = 1800;
+
+					GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
+					if (pIntList2.size() > 0) {
+
+						BirthDate = pIntList2[0];
+						FallDate = pIntList2[1];
+
+
+					}
+
+
+
+					szTempBuffer.Format(L"%s(%d)  ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription(), BirthDate);
+					szString.append(szTempBuffer);
+				}
+				//szString.append(NEWLINE);
+			}
+
+
+		}
+
+
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_BIRTH_PLACE_IN_DOCM") == 1) {//mediv01 显示地块是否为出生区
+//long lResult = 0;
+
+
+
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "CheckBirthPlaceInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if (pIntList1.size() > 0) {
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"文明出生区：" ENDCOLR, TEXT_COLOR("COLOR_ALT_HIGHLIGHT_TEXT"));//绿色
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+
+					std::vector<int> pIntList2;
+					CyArgsList argsList2;
+					argsList2.add(PlayerNum);
+					argsList2.add(PlayerNum);
+					int BirthDate = 500;
+					int FallDate = 1800;
+
+					GC.callPythoFunction(PYScreensModule, "CheckBirthFallDateInDll", argsList2.makeFunctionArgs(), &pIntList2);
+					if (pIntList2.size() > 0) {
+
+						BirthDate = pIntList2[0];
+						FallDate = pIntList2[1];
+
+
+					}
+
+
+
+					szTempBuffer.Format(L"%s ( %d 至 %d ) ", GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription(), BirthDate, FallDate);
+					szString.append(szTempBuffer);
+				}
+			}
+
+
+
+		}
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_MINOR_BIRTH_IN_MAP") == 1) {//mediv01 显示地块是否为独立城邦铺城点
+//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "CheckMinorInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if ((int)(pIntList1.size()) > 0) {
+				szString.append(NEWLINE);
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szTempBuffer.Format(SETCOLR L"独立城邦诞生年份：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					szTempBuffer.Format(L"%d   ", PlayerNum);
+					szString.append(szTempBuffer);
+				}
+
+			}
+		}
+
+		if (GC.getDefineINT("GAME_TEXT_SHOW_RELIGION_MAP") == 1) {//mediv01 显示宗教数值
+			for (iI = 0; iI < NUM_RELIGIONS; iI++)
+			{
+				ReligionTypes rel = ((ReligionTypes)iI);
+				int iReligionvalue = pPlot->getReligionInfluence(rel);  //这个数值似乎没有啥作用，还是用跟创立宗教相关的数值吧
+				int ReligionValueDOCM = 1;
+				int iReligionFactor = pPlot->getSpreadFactor(rel);  //这个和创立宗教有关
+				CvWString StringReligionFound;
+				if (iReligionFactor == REGION_SPREAD_NONE) {
+					StringReligionFound.append(CvWString::format(L"  无"));
+					ReligionValueDOCM = 0;
+				}
+				else if (iReligionFactor == REGION_SPREAD_MINORITY) {
+					StringReligionFound.append(CvWString::format(SETCOLR L" 少数区" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+
+				}
+				else if (iReligionFactor == REGION_SPREAD_PERIPHERY) {
+					StringReligionFound.append(CvWString::format(SETCOLR L" 边缘区" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+
+				}
+				else if (iReligionFactor == REGION_SPREAD_HISTORICAL) {
+					StringReligionFound.append(CvWString::format(SETCOLR L" 历史区，" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_GREEN")));
+					StringReligionFound.append(CvWString::format(SETCOLR L" 可创教" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
+
+					//StringReligionFound.append(CvWString::format(L"  历史区，可创教"));
+
+				}
+				else if (iReligionFactor == REGION_SPREAD_CORE) {
+					StringReligionFound.append(CvWString::format(SETCOLR L" 核心区，" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_CYAN")));
+					StringReligionFound.append(CvWString::format(SETCOLR L" 可创教" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW")));
+					//StringReligionFound.append(CvWString::format(L"  核心区，可创教"));
+
+				}
+				else {
+					StringReligionFound.append(CvWString::format(L"  "));
+					ReligionValueDOCM = 0;
+				}
+
+				/*
+					REGION_SPREAD_NONE,
+					REGION_SPREAD_MINORITY,
+					REGION_SPREAD_PERIPHERY,
+					REGION_SPREAD_HISTORICAL,
+					REGION_SPREAD_CORE,
+					*/
+
+					//if (pCity->plot()->getSpreadFactor(eReligion) >= REGION_SPREAD_HISTORICAL)//mediv01 主动创建宗教的条件
+				if (ReligionValueDOCM > 0) {
+					szString.append(NEWLINE);
+					szString.append(CvWString::format(L" %c", (GC.getReligionInfo((ReligionTypes)iI).getChar())));
+					//GC.getReligionInfo((ReligionTypes)iI).getDescription()
+					szString.append(StringReligionFound);
+					// szString.append(CvWString::format(L"    影响力： %d", (iReligionvalue)));
+
+
+				}
+			}
+			//mediv01
+		}
+
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_COMPANY_IN_MAP") == 1) {//mediv01 显示地块是否为公司
+//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "SearchCompanyInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if ((int)(pIntList1.size()) > 0) {
+
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szString.append(NEWLINE);
+				szTempBuffer.Format(SETCOLR L"公司类型：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					if (PlayerNum == 0) {
+						szTempBuffer.Format(L"  丝绸之路  ");
+					}
+					else if (PlayerNum == 1) {
+						szTempBuffer.Format(L"  加勒比殖民贸易公司  ");
+					}
+					else if (PlayerNum == 2) {
+						szTempBuffer.Format(L"  泛撒哈拉贸易网络  ");
+					}
+					else if (PlayerNum == 3) {
+						szTempBuffer.Format(L"  东南亚海上丝绸之路  ");
+					}
+					else {
+						szTempBuffer.Format(L"");
+					}
+					szString.append(szTempBuffer);
+				}
+
+			}
+		}
+
+
+		if (GC.getDefineINT("CVGAMETEXT_SHOW_TRADING_COMPANY_IN_MAP") == 1) {//mediv01 显示地块是否为贸易公司刷兵点
+//long lResult = 0;
+				//lTradingCompanyCiv=(iSpain,iFrance,iEngland,iPortugal,iNetherlands)
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "SearchTradingCompanyInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if ((int)(pIntList1.size()) > 0) {
+
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szString.append(NEWLINE);
+				szTempBuffer.Format(SETCOLR L"贸易公司刷兵点：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+				for (int i = 1; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					if (PlayerNum == 0) {
+						szTempBuffer.Format(L"  西班牙  ");
+					}
+					else if (PlayerNum == 1) {
+						szTempBuffer.Format(L"  法国  ");
+					}
+					else if (PlayerNum == 2) {
+						szTempBuffer.Format(L"  英国  ");
+					}
+					else if (PlayerNum == 3) {
+						szTempBuffer.Format(L"  葡萄牙  ");
+					}
+					else if (PlayerNum == 4) {
+						szTempBuffer.Format(L"  荷兰  ");
+					}
+					else {
+						szTempBuffer.Format(L"");
+					}
+					szString.append(szTempBuffer);
+				}
+
+			}
+		}
+
+		if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP") == 1) {//mediv01 显示AIWAR地块
+//long lResult = 0;
+			std::vector<int> pIntList1;
+			CyArgsList argsList;
+			argsList.add(pPlot->getX());
+			argsList.add(pPlot->getY());
+			GC.callPythoFunction(PYScreensModule, "SearchAIWARInDll", argsList.makeFunctionArgs(), &pIntList1);
+			if ((int)(pIntList1.size()) > 1) {
+
+				//szTempBuffer.Format(L", " SETCOLR L"d=%d" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"), iDeadlockCount);
+				szString.append(NEWLINE);
+				szTempBuffer.Format(SETCOLR L"AIWAR刷兵地块：" ENDCOLR, TEXT_COLOR("COLOR_NEGATIVE_TEXT"));
+				szString.append(szTempBuffer);
+
+
+				list<int> record_list;
+				int superaiwar_start_id = 0;
+				superaiwar_start_id = pIntList1[0];
+				// superaiwar_start_id = 23;
+				// LIST第一个是SUPERAIWAR的FLAG 从第二个开始是ID
+				for (int i = 2; i <= (int)(pIntList1.size()); i++) {
+					int PlayerNum = pIntList1[i - 1];
+					szTempBuffer.Format(L"");
+					if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_ANCIENT") == 1) {
+						if (PlayerNum == 0) {
+							szTempBuffer.Format(L"  公元前220年罗马征服迦太基的布匿战争  ");
+						}
+						else if (PlayerNum == 1) {
+							szTempBuffer.Format(L"  公元前150年罗马征服希腊  ");
+						}
+						else if (PlayerNum == 2) {
+							szTempBuffer.Format(L"  公元前100年罗马征服小亚细亚  ");
+						}
+						else if (PlayerNum == 3) {
+							szTempBuffer.Format(L"  公元前50年罗马征服高卢  ");
+						}
+						else if (PlayerNum == 4) {
+							szTempBuffer.Format(L"  公元0年罗马征服埃及  ");
+						}
+						else if (PlayerNum == 5) {
+							szTempBuffer.Format(L"  公元前340年亚历山大征服巴比伦  ");
+						}
+						else if (PlayerNum == 6) {
+							szTempBuffer.Format(L"  公元前340年亚历山大征服埃及  ");
+						}
+						else if (PlayerNum == 7) {
+							szTempBuffer.Format(L"  公元前340年亚历山大征服波斯  ");
+						}
+						else if (PlayerNum == 8) {
+							szTempBuffer.Format(L"  公元1030年泰米尔征服印尼  ");
+						}
+						else if (PlayerNum == 9) {
+							szTempBuffer.Format(L"  公元50年中国征服越南  ");
+						}
+						else if (PlayerNum == 10) {
+							szTempBuffer.Format(L"  公元1400年中国征服越南  ");
+						}
+						else if (PlayerNum == 11) {
+							szTempBuffer.Format(L"  公元1180年西班牙征服摩尔  ");
+						}
+						else if (PlayerNum == 12) {
+							szTempBuffer.Format(L"  公元1520年西班牙征服印加  ");
+						}
+						else if (PlayerNum == 13) {
+							szTempBuffer.Format(L"  公元1520年西班牙征服蒂瓦纳科  ");
+						}
+						else if (PlayerNum == 14) {
+							szTempBuffer.Format(L"  公元1520年西班牙征服玛雅  ");
+						}
+						else if (PlayerNum == 15) {
+							szTempBuffer.Format(L"  公元1000年突厥征服波斯  ");
+						}
+						else if (PlayerNum == 16) {
+							szTempBuffer.Format(L"  公元1030年突厥征服小亚细亚  ");
+						}
+						else if (PlayerNum == 17) {
+							szTempBuffer.Format(L"  公元1210年蒙古征服中亚  ");
+						}
+						else if (PlayerNum == 18) {
+							szTempBuffer.Format(L"  公元1220年蒙古征服波斯  ");
+						}
+						else if (PlayerNum == 19) {
+							szTempBuffer.Format(L"  公元1480年俄罗斯征服诺夫哥罗德  ");
+						}
+						else if (PlayerNum == 20) {
+							szTempBuffer.Format(L"  公元1500年俄罗斯征服鞑靼  ");
+						}
+						else if (PlayerNum == 21) {
+							szTempBuffer.Format(L"  公元1220年鞑靼征服基辅罗斯  ");
+						}
+						else if (PlayerNum == 22) {
+							szTempBuffer.Format(L"  公元30年月氏征服波斯  ");
+						}
+						else if (PlayerNum == 23) {
+							szTempBuffer.Format(L"  公元1150年英国征服爱尔兰  ");
+						}
+						else if (PlayerNum == 1001) {
+							szTempBuffer.Format(L"  蒙古征服阿拉伯战争  ");
+						}
+						else if (PlayerNum == 1002) {
+							szTempBuffer.Format(L"  蒙古征服波斯战争  ");
+						}
+						else if (PlayerNum == 1003) {
+							szTempBuffer.Format(L"  蒙古征服拜占庭战争  ");
+						}
+						else if (PlayerNum == 1004) {
+							szTempBuffer.Format(L"  蒙古征服亚美尼亚战争  ");
+						}
+
+						else if (PlayerNum == superaiwar_start_id + 1) {
+							szTempBuffer.Format(L"  公元1340年英法百年战争阶段1  ");
+						}
+						else if (PlayerNum == superaiwar_start_id + 2) {
+							szTempBuffer.Format(L"  公元1445年英法百年战争阶段2  ");
+						}
+						else if (PlayerNum == superaiwar_start_id + 3 || PlayerNum == superaiwar_start_id + 4 || PlayerNum == superaiwar_start_id + 5) {
+							szTempBuffer.Format(L"  公元1095年英、法、神罗十字军东征 ");
+						}
+						else if (PlayerNum == superaiwar_start_id + 6 || PlayerNum == superaiwar_start_id + 7 || PlayerNum == superaiwar_start_id + 8) {
+							szTempBuffer.Format(L"  公元1170年萨拉丁的崛起 ");
+						}
+						else if (PlayerNum == superaiwar_start_id + 39) {
+							szTempBuffer.Format(L"  公元前220年汉尼拔远征罗马  ");
+						}
+						else if (PlayerNum == superaiwar_start_id + 40) {
+							szTempBuffer.Format(L"  公元前78年斯巴达克斯起义  ");
+						}
+
+
+					}
+					if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_EARLY_MODERN") == 1) {
+						if (PlayerNum >= superaiwar_start_id + 9 && PlayerNum <= superaiwar_start_id + 12) {
+							szTempBuffer.Format(L"  公元1800年拿破仑战争  ");
+						}
+						else if (PlayerNum >= superaiwar_start_id + 13 && PlayerNum <= superaiwar_start_id + 16) {
+							szTempBuffer.Format(L"  公元1815年反法同盟  ");
+						}
+					}
+					if (GC.getDefineINT("CVGAMETEXT_AIWAR_IN_MAP_SHOW_LATE_MODERN") == 1) {
+
+						if (PlayerNum >= superaiwar_start_id + 17 && PlayerNum <= superaiwar_start_id + 24) {
+							szTempBuffer.Format(L"  第1次世界大战");
+						}
+
+						else if (PlayerNum >= superaiwar_start_id + 25 && PlayerNum <= superaiwar_start_id + 38) {
+							szTempBuffer.Format(L"  第2次世界大战 ");
+						}
+
+
+
+					}
+
+					int PlayerNum_Rec = PlayerNum;
+
+
+					// 世界大战用的
+
+					if (PlayerNum == superaiwar_start_id + 3 || PlayerNum == superaiwar_start_id + 4 || PlayerNum == superaiwar_start_id + 5) {
+						PlayerNum_Rec = superaiwar_start_id + 3;
+					}
+					else if (PlayerNum == superaiwar_start_id + 6 || PlayerNum == superaiwar_start_id + 7 || PlayerNum == superaiwar_start_id + 8) {
+						PlayerNum_Rec = superaiwar_start_id + 6;
+					}
+					else if (PlayerNum >= superaiwar_start_id + 9 && PlayerNum <= superaiwar_start_id + 12) {
+						PlayerNum_Rec = superaiwar_start_id + 9;
+					}
+					else if (PlayerNum >= superaiwar_start_id + 13 && PlayerNum <= superaiwar_start_id + 16) {
+						PlayerNum_Rec = superaiwar_start_id + 13;
+					}
+
+
+					else if (PlayerNum >= superaiwar_start_id + 17 && PlayerNum <= superaiwar_start_id + 24) {
+						PlayerNum_Rec = superaiwar_start_id + 17;
+					}
+					else if (PlayerNum >= superaiwar_start_id + 25 && PlayerNum <= superaiwar_start_id + 38) {
+						PlayerNum_Rec = superaiwar_start_id + 25;
+					}
+
+
+
+
+					else {
+						PlayerNum_Rec = PlayerNum;
+					}
+
+
+
+
+					list<int> List = record_list;
+					list<int>::iterator iter = std::find(List.begin(), List.end(), PlayerNum_Rec);
+					if (iter != List.end()) {
+					}
+					else {
+						record_list.insert(record_list.end(), PlayerNum_Rec);
+						szString.append(szTempBuffer);
+						szTempBuffer.Format(L"");
+					}
+
+
+
+
+				}
+
+			}
+
+		}
+		szString.append(CvWString::format(ENDCOLR));
+		szString.append(NEWLINE);
+	}
+
+
+		if (GC.getGameTurn() > 0)
+		{
+
+
+
+
+
+
+
 			// end tile stability info text
 
 			// Leoreth: display UHV requirement info
@@ -10009,8 +10003,11 @@ void CvGameTextMgr::setTechTradeHelp(CvWStringBuffer &szBuffer, TechTypes eTech,
 			buildObsoleteSpecialString(szBuffer, iI, true);
 		}
 	}
+	bool isgameStart = false;
+	// isgameStart = ((GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0);
+	isgameStart = GC.isGameStart();
 
-	if (((GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0)) {
+	if (isgameStart) {
 
 		// mediv01 科技是哪些国家的初始科技
 		if (GC.getDefineINT("CVGAMETEXT_SHOW_INIT_TECH") == 1) {
@@ -12485,81 +12482,86 @@ void CvGameTextMgr::setBuildingHelpActual(CvWStringBuffer &szBuffer, BuildingTyp
 		szTempBuffer.Format( SETCOLR L"<link=literal>%s</link>" ENDCOLR , TEXT_COLOR("COLOR_BUILDING_TEXT"), kBuilding.getDescription());
 		szBuffer.append(szTempBuffer);
 
-		// mediv01 奇观是哪些国家的UHV
-		if (GC.getDefineINT("CVTECH_SHOW_UHV_WONDER") == 1) {
-			int humanNum = (int)GC.getHumanID();
-			std::vector<int> pIntList2;
-			CyArgsList argsList2;
-			argsList2.add((int)eBuilding);
-			argsList2.add(humanNum);
-
-			GC.callPythoFunction(PYScreensModule, "getUHVBuilding", argsList2.makeFunctionArgs(), &pIntList2);
-			if (pIntList2.size() > 0) {
-				szBuffer.append(NEWLINE);
-				szBuffer.append(CvWString::format(SETCOLR L"下列文明的UHV：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
-				for (int i = 1; i <= (int)(pIntList2.size()); i++) {
-					int PlayerNum = pIntList2[i - 1];
-
-					CvString textColor = "COLOR_PLAYER_YELLOW";
-					szBuffer.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription()));
-
-				}
-
-				szBuffer.append(NEWLINE);
-
-			}
-
-		}
 
 
-		if (GC.getDefineINT("CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_SETTLER") >= 1) {
+		// (GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0
+		if (GC.isGameStart()) {
 
-			//设置移民可以建造的提示
-			int free_area = kBuilding.getFreeStartEra();
-			int iEra = 0;
-			if (GC.getGameINLINE().getGameTurn() > 0) {
-				iEra = GET_PLAYER(ePlayer).getCurrentEra();
-			}
-			if (free_area != NO_ERA)
-			{
-				CvWString era_text = L"未知时代";
-				if (free_area == ERA_ANCIENT) {
-					era_text = L"远古时代";
-				}
-				else if (free_area == ERA_CLASSICAL) {
-					era_text = L"古典时代";
-				}
-				else if (free_area == ERA_MEDIEVAL) {
-					era_text = L"中古时代";
-				}
-				else if (free_area == ERA_RENAISSANCE) {
-					era_text = L"启蒙时代";
-				}
-				else if (free_area == ERA_INDUSTRIAL) {
-					era_text = L"工业时代";
-				}
-				else if (free_area == ERA_GLOBAL) {
-					era_text = L"全球化时代";
-				}
-				else if (free_area == ERA_DIGITAL) {
-					era_text = L"数字化时代";
-				}
-				if (iEra >= free_area) {
+			// mediv01 奇观是哪些国家的UHV
+			if (GC.getDefineINT("CVTECH_SHOW_UHV_WONDER") == 1) {
+				int humanNum = (int)GC.getHumanID();
+				std::vector<int> pIntList2;
+				CyArgsList argsList2;
+				argsList2.add((int)eBuilding);
+				argsList2.add(humanNum);
+
+				GC.callPythoFunction(PYScreensModule, "getUHVBuilding", argsList2.makeFunctionArgs(), &pIntList2);
+				if (pIntList2.size() > 0) {
 					szBuffer.append(NEWLINE);
-					szTempBuffer.Format(SETCOLR L"<link=literal>（当前可被移民重建，%s 的免费建筑）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
-					szBuffer.append(szTempBuffer);
-				}
-				else {
+					szBuffer.append(CvWString::format(SETCOLR L"下列文明的UHV：" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_WHITE")));
+					for (int i = 1; i <= (int)(pIntList2.size()); i++) {
+						int PlayerNum = pIntList2[i - 1];
+
+						CvString textColor = "COLOR_PLAYER_YELLOW";
+						szBuffer.append(CvWString::format(SETCOLR L" %s " ENDCOLR, TEXT_COLOR(textColor), GET_PLAYER((PlayerTypes)PlayerNum).getCivilizationShortDescription()));
+
+					}
 
 					szBuffer.append(NEWLINE);
-					szTempBuffer.Format(SETCOLR L"<link=literal>（可在 %s 被移民重建）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
-					szBuffer.append(szTempBuffer);
 
 				}
-			}
-		}
 
-		if ((GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0) {
+			}
+
+
+
+			if (GC.getDefineINT("CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_SETTLER") >= 1) {
+
+				//设置移民可以建造的提示
+				int free_area = kBuilding.getFreeStartEra();
+				int iEra = 0;
+				if (GC.isGameStart()) {
+					iEra = GET_PLAYER(ePlayer).getCurrentEra();
+				}
+				if (free_area != NO_ERA)
+				{
+					CvWString era_text = L"未知时代";
+					if (free_area == ERA_ANCIENT) {
+						era_text = L"远古时代";
+					}
+					else if (free_area == ERA_CLASSICAL) {
+						era_text = L"古典时代";
+					}
+					else if (free_area == ERA_MEDIEVAL) {
+						era_text = L"中古时代";
+					}
+					else if (free_area == ERA_RENAISSANCE) {
+						era_text = L"启蒙时代";
+					}
+					else if (free_area == ERA_INDUSTRIAL) {
+						era_text = L"工业时代";
+					}
+					else if (free_area == ERA_GLOBAL) {
+						era_text = L"全球化时代";
+					}
+					else if (free_area == ERA_DIGITAL) {
+						era_text = L"数字化时代";
+					}
+					if (iEra >= free_area) {
+						szBuffer.append(NEWLINE);
+						szTempBuffer.Format(SETCOLR L"<link=literal>（当前可被移民重建，%s 的免费建筑）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
+						szBuffer.append(szTempBuffer);
+					}
+					else {
+
+						szBuffer.append(NEWLINE);
+						szTempBuffer.Format(SETCOLR L"<link=literal>（可在 %s 被移民重建）</link>" ENDCOLR, TEXT_COLOR("COLOR_PLAYER_YELLOW"), era_text.c_str());
+						szBuffer.append(szTempBuffer);
+
+					}
+				}
+			}
+
 			if (GC.getDefineINT("CVGAMETEXT_SHOW_BUILDING_CAN_BE_BUILD_BY_WONDER") >= 1) {
 				//设置移民可以重建的提示
 
@@ -16393,7 +16395,8 @@ void CvGameTextMgr::setBonusTradeHelp(CvWStringBuffer &szBuffer, BonusTypes eBon
 		szBuffer.append(GC.getBonusInfo(eBonus).getHelp());
 	}
 
-	if (((GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0)) {
+	// ((GC.getGameINLINE().getGameTurn() >= GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getBirthTurn()) && GC.getGameINLINE().getGameTurn() > 0)
+	if (GC.isGameStart()) {
 		// mediv01
 		if (CVGAMETEXT_SHOW_BONUS_TRADE_VALUE > 0) {
 			TradeableItems TradeItem = (TradeableItems)(TRADE_RESOURCES);

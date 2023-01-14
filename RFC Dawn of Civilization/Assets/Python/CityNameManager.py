@@ -28,11 +28,11 @@ iNumLanguages = 54
 
 
 # methods
-citynameCN = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsvCN_Translate.csv")
+citynameCN = utils.csvread(CVGAMECORE_PYTHON_CSV_PATH_CITYNAME + "CityNameDataCsvCN_Translate.csv")
 if PYTHON_USE_CHINESE_CITYNAME>0:
     cityname = citynameCN
 else:
-    cityname = utils.csvreader_withrownum(CVGAMECORE_PYTHON_CSV_PATH + "CityNameDataCsvEN_Translate.csv")
+    cityname = utils.csvread(CVGAMECORE_PYTHON_CSV_PATH_CITYNAME + "CityNameDataCsvEN_Translate.csv")
 
 def isResurrected(iCiv):
     return (data.players[iCiv].iResurrections > 0)

@@ -8,7 +8,7 @@ from GlobalDefineAlt import *
 
 gc = CyGlobalContext()
 
-
+DOCM_VERSION = "V10.5.7"
 
 alliplayer = (iEgypt, iBabylonia, iHarappa, iNorteChico, iNubia, iAssyria, iChina, iHittites, iGreece, iOlmecs, iIndia, iCarthage, iCeltia, iPolynesia, iPersia, iRome,
  iYuezhi, iMaya, iTamils, iXiongnu, iEthiopia, iVietnam, iTeotihuacan, iArmenia, iInuit, iMississippi, iKorea, iTiwanaku, iByzantium, iWari, iJapan, iVikings, iTurks, iArabia, iTibet,
@@ -64,6 +64,8 @@ GlobalCyPopupInfo = CyPopupInfo()  #此项不能做全局变量优化，否则�
 
 CIV4_VERSION = 319
 NUM_CORPORATION_PREREQ_BONUSES = 6   #from XML
+
+
 
 
 # for messages

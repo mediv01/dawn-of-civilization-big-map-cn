@@ -8,6 +8,12 @@
 		<Chinese>罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_RUS'_ADJECTIVE</Tag>
+		<English>Rus'</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗斯</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_DEFAULT</Tag>
 		<English>Ukraine</English>
 		<L1/><L2/><L3/><L4/>
@@ -26,13 +32,31 @@
 		<Chinese>%s1罗斯</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_RUS'_OF</Tag>
+		<English>Rus of %s1</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>%s1罗斯</Chinese>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS_DESC</Tag>
 		<English>The Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯文明</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_RUS'_DESC</Tag>
+		<English>The Rus'</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗斯文明</Chinese>
+	</TEXT>			
+	<TEXT>
 		<Tag>TXT_KEY_CIV_KIEVANRUS_PEOPLES</Tag>
+		<English>The Rus'</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗斯文明</Chinese>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KIEVANRUS'_PEOPLES</Tag>
 		<English>The Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯文明</Chinese>
@@ -68,6 +92,12 @@
 		<Chinese>%s1共和国</Chinese>
 	</TEXT>	
 	<TEXT>
+		<Tag>TXT_KEY_CIV_KIEVANRUS_REPUBLIC</Tag>
+		<English>Kiev Republic</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>基辅罗斯共和国</Chinese>
+	</TEXT>	
+	<TEXT>
 		<Tag>TXT_KEY_CIV_RUS_PEOPLES</Tag>
 		<English>Rus' Peoples</English>
 		<L1/><L2/><L3/><L4/>
@@ -78,7 +108,13 @@
 		<English>Rus'</English>
 		<L1/><L2/><L3/><L4/>
 		<Chinese>罗斯</Chinese>
-	</TEXT>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RUS'_SHORT_DESC</Tag>
+		<English>Rus'</English>
+		<L1/><L2/><L3/><L4/>
+		<Chinese>罗斯</Chinese>
+	</TEXT>		
 	<TEXT>
 		<Tag>TXT_KEY_CIV_UKRAINE_SHORT_DESC</Tag>
 		<English>Ukraine</English>

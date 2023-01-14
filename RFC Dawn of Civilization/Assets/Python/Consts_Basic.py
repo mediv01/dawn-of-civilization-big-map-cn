@@ -1599,7 +1599,7 @@ ShortNameEnMap = {
     iEngland: "ENG",
     iHolyRome: "HRE",
     iNovgorod: "NOV",
-    iKievanRus: "KIE",
+    iKievanRus: "KRS",
     iHungary: "HUN",
     iPhilippines: "PHI",
     iSwahili: "SWA",

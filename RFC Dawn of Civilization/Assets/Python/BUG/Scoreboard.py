@@ -418,7 +418,7 @@ class Scoreboard:
         self.sort()
         interface = GlobalCyInterface
         xResolution = screen.getXResolution()
-        yResolution = screen.getYResolution()
+        yResolution = screen.getYResolution()  + PYTHON_SCOREBOARD_DISPLAY_Y_ADD
 
         x = xResolution - 12  # start here and shift left with each column
         if (interface.getShowInterface() == InterfaceVisibility.INTERFACE_SHOW or interface.isInAdvancedStart()):

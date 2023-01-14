@@ -150,7 +150,8 @@ STABILITY_PY_FOR_CHECK_STABILITY_FOR_AI = 0
 STABILITY_PY_HUMAN_BONUS = 0
 #   <!-- 大于0的数字为人类玩家固定增加的稳定度，如果数字为10，人类玩家的稳定度就是从10开始计算  0为默认模式 mediv01 -->
 
-
+STABILITY_MAX_FOREIGN_STABILITY = 12
+#  最大的外交稳定度加成
 
 
 
@@ -282,6 +283,18 @@ PYTHON_USE_cultureManager_IN_DLL = 0
 PYTHON_USE_flipCity_IN_DLL = 0
 #  1为使用DLL里的flipCity方法，提升效率 似乎会闪退
 
+PYTHON_SCOREBOARD_DISPLAY_Y_ADD = 20
+#  积分版显示位置向下偏移，能显示更多的国家
+
+PYTHON_STABILITY_MAX_COUNTRY_ALIVE = 32
+#    最大可存活的国家数，超过这个数目，就会按照重要性排序，完全崩溃掉稳定度最低的AI国家 小于0时不启用
+
+
+#     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  PYTHON  SCREEN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+PYTHON_SCREEN_ACHIEVEMENT_INFO_TIPS = 1
+# <!-- 1为显示成就提示系统 0为默认模式 mediv01 -->
 
 
 #     <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  PYTHON  SCREENTIS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -441,6 +454,9 @@ PYTHON_LOG_ON_WUNSHARE_DEBUG = 0 and PYTHON_DEBUG_MODE
 PYTHON_LOG_ON_CHECKTURN_TIME = 1 and PYTHON_DEBUG_MODE
 #  <!-- 1为开启过回合耗时的DEBUG日志  0为默认模式 mediv01 -->
 
+PYTHON_LOG_ON_CHECKTURN_TIME_DETAIL = 0 and PYTHON_DEBUG_MODE
+#  <!-- 1为开启过回合耗时的DEBUG详细日志  0为默认模式 mediv01 -->
+
 PYTHON_LOG_ENABLE_DEBUG_CHECKTURN = 1 and PYTHON_DEBUG_MODE
 #    开启定期debug checkturn模式
 
@@ -450,6 +466,12 @@ PYTHON_LOG_ON_RELEASE_ERROR = 1
 CVGAMECORE_LOG_PATH = "Mods\\RFC Dawn of Civilization\\Logs\\"
 
 CVGAMECORE_PYTHON_CSV_PATH = "Mods\\RFC Dawn of Civilization\\Assets\\Python\\CSVData\\"
+
+CVGAMECORE_PYTHON_CSV_PATH_CITYNAME = "Mods\\RFC Dawn of Civilization\\Assets\\Python\\CSVData\\CityNameData\\"
+
+CVGAMECORE_PYTHON_CSV_PATH_REGIONMAP = "Mods\\RFC Dawn of Civilization\\Assets\\Python\\CSVData\\RegionMapData\\"
+
+CVGAMECORE_PYTHON_USERDATA_PATH= "Mods\\RFC Dawn of Civilization\\UserData\\"
 
 PYTHON_FIX_UHV_TEXTBUG_IN_CHINESE = 1
 #  <!--  1为修复在中文模式下UHV文本的BUG，0为默认模式  mediv01 2021年11月版本 -->

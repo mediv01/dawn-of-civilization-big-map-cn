@@ -1,3 +1,4 @@
+from CvPythonExtensions import *
 from Consts import *
 import Areas
 from SettlerMapData import *

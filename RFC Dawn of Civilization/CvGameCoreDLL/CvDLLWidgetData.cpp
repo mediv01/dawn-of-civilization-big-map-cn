@@ -200,6 +200,10 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 
 	case WIDGET_END_TURN:
 		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN"));
+		// mediv01 新增结束回合提示信息
+		if (CVGAMETEXT_SHOW_END_TURN_TEXT_HELP) {
+			parseEndTurnHelp(szBuffer);
+		}
 		break;
 		
 	case WIDGET_LAUNCH_VICTORY:
@@ -5904,4 +5908,73 @@ void CvDLLWidgetData::parseWonderLimitHelp(CvWidgetDataStruct& widgetDataStruct,
 	{
 		GAMETEXT.setWonderLimitHelp(szBuffer, *pHeadSelectedCity, widgetDataStruct.m_iData1);
 	}
+}
+
+
+
+void CvDLLWidgetData::parseEndTurnHelp(CvWStringBuffer& szBuffer)
+{
+	int allBonousSeaUnImprove = 0;
+	int allBonousSea = 0;
+
+	int allBonousLandUnImprove = 0;
+	int allBonousLand = 0;
+	for (int iPlot = 0; iPlot < GC.getMap().numPlots(); iPlot++)
+	{
+		CvPlot* pLoopPlot = GC.getMap().plotByIndex(iPlot);
+		bool isWater = pLoopPlot->isWater();
+
+		if (pLoopPlot->isHumanOwned()) {
+
+			if (isWater) {
+				if (pLoopPlot->isPlotWithResouceAndNotImprovement(true)) {
+					allBonousSeaUnImprove++;
+				}
+
+				if (pLoopPlot->getBonusType(GC.getHumanTeam()) != NO_BONUS) {
+					allBonousSea++;
+				}
+			}
+
+
+			if (!isWater) {
+				if (pLoopPlot->isPlotWithResouceAndNotImprovement(false)) {
+					allBonousLandUnImprove++;
+				}
+
+				if (pLoopPlot->getBonusType(GC.getHumanTeam()) != NO_BONUS) {
+					allBonousLand++;
+				}
+			}
+		}
+	}
+
+
+	szBuffer.append(NEWLINE);
+	szBuffer.append(CvWString::format(SETCOLR L"未改进资源 海洋:%d/%d 陆地:%d/%d" ENDCOLR, TEXT_COLOR("COLOR_WHITE"), allBonousSeaUnImprove, allBonousSea, allBonousLandUnImprove, allBonousLand));
+	szBuffer.append(NEWLINE);
+
+	int workerNum = 0;
+	int workboatNum = 0;
+
+
+	for (int iI = 0; iI < GC.getNumUnitInfos(); iI++)
+	{
+		UnitTypes iUnit = (UnitTypes)iI;
+		if (GC.getUnitInfo(iUnit).getWorkRate() > 0) {
+			int inum = GET_PLAYER(GC.getGame().getActivePlayer()).getUnitCount(iUnit);
+			if (GC.getUnitInfo(iUnit).getDomainType() == DOMAIN_SEA) {
+				workboatNum += inum;
+			}
+			else {
+				if (iUnit == UNIT_WORKER || iUnit == UNIT_LABOURER) {
+					workerNum += inum;
+				}
+			}
+		}
+	}
+
+
+
+	szBuffer.append(CvWString::format(SETCOLR L"工人:%d，渔船:%d" ENDCOLR, TEXT_COLOR("COLOR_UNIT_TEXT"), workerNum, workboatNum));
 }

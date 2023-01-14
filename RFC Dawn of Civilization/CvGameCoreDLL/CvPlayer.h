@@ -54,7 +54,8 @@ public:
 	void setCILastKillMe(PlayerTypes eWho = NO_PLAYER) { m_eCILastKillMe = eWho; }
 
 	// mediv01
-	void doCollapse(PlayerTypes PlayerID);
+	void CvPlayer::doCollapse(PlayerTypes PlayerID);
+	int CvPlayer::getUnitCount(int eUnitID) const;
 
 
 
@@ -906,6 +907,7 @@ public:
 	
 	int getFeatureHappiness(FeatureTypes eIndex) const;																								// Exposed to Python
 	void changeFeatureHappiness(FeatureTypes eIndex, int iChange);
+
 
 	int getUnitClassCount(UnitClassTypes eIndex) const;																								// Exposed to Python
 	bool isUnitClassMaxedOut(UnitClassTypes eIndex, int iExtra = 0) const;														// Exposed to Python

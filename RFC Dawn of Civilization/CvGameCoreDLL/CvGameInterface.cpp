@@ -165,18 +165,53 @@ void CvGame::updateColoredPlots()
 	}
 	else if (pHeadSelectedUnit != NULL)
 	{
-		if (CVGAME_ALWAYS_SHOW_GOODY_IN_MAP) {
+		if (CVGAME_ALWAYS_SHOW_GOODY_IN_MAP || CVGAME_ALWAYS_SHOW_UNIMPROVED_BONUS_IN_MAP) {
 			for (int iPlotLoop = 0; iPlotLoop < GC.getMap().numPlots(); iPlotLoop++)
 			{
 				CvPlot* pLoopPlot = GC.getMap().plotByIndex(iPlotLoop);
 				if (pLoopPlot != NULL)
 				{
-					if (pLoopPlot->isGoody()) {
-						gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+					// 高亮显示部落村镇
+					if (CVGAME_ALWAYS_SHOW_GOODY_IN_MAP) {
+						if (pLoopPlot->isGoody()) {
+							gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_HIGHLIGHT_TEXT")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+						}
+					}
+
+
+					// 所有单位高亮显示没有改进的海洋资源
+					if (CVGAME_ALWAYS_SHOW_UNIMPROVED_BONUS_IN_MAP) {
+						if (pLoopPlot->isPlotWithResouceAndNotImprovement(true)) {
+							gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_PLAYER_GREEN")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+						}
+					}
+
+					// 工人单位高亮显示没有改进的陆地资源
+					if (CVGAME_ALWAYS_SHOW_UNIMPROVED_BONUS_IN_MAP) {
+						if (pHeadSelectedUnit->isWorker()) {
+							if (pLoopPlot->isPlotWithResouceAndNotImprovement(false)) {
+								gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_PLAYER_GREEN")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+							}
+						}
+					}
+
+					// 所有单位高亮显示地图中独立城邦刷城点
+					if (GC.m_iCVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE>0) {
+						std::vector<int> pIntList1;
+						CyArgsList argsList;
+						argsList.add(pLoopPlot->getX());
+						argsList.add(pLoopPlot->getY());
+						GC.callPythoFunction(PYScreensModule, "CheckMinorInDll", argsList.makeFunctionArgs(), &pIntList1);
+						if ((int)(pIntList1.size()) > 0) {
+							gDLL->getEngineIFace()->addColoredPlot(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getColorInfo((ColorTypes)GC.getInfoTypeForString("COLOR_PLAYER_RED_TEXT")).getColor(), PLOT_STYLE_CIRCLE, PLOT_LANDSCAPE_LAYER_RECOMMENDED_PLOTS);
+						}
 					}
 				}
 			}
 		}
+
+
+
 
 		if (gDLL->getGraphicOption(GRAPHICOPTION_CITY_RADIUS))
 		{

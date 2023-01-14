@@ -39,7 +39,7 @@ bool CvXMLLoadUtility::ReadGlobalDefines(const TCHAR* szXMLFileName, CvCacheObje
 		}
 		else {
 			gDLL->ChangeINIKeyValue("CONFIG", "HidePythonExceptions", "1");
-			gDLL->ChangeINIKeyValue("CONFIG", "LoggingEnabled", "1");
+			gDLL->ChangeINIKeyValue("CONFIG", "LoggingEnabled", "0");
 		}
 
 
@@ -601,6 +601,11 @@ bool CvXMLLoadUtility::LoadGlobalText()
 					iIndex++;
 				}
 				gDLL->addText(tag.GetCString(), text.GetCString());
+
+				// mediv01 记录文本量
+				if (CVGAME_OUTPUT_ALL_GAMETEXT) {
+					GC.setGametextMap(tag, text);
+				}
 				//MessageBoxW(NULL, text.GetCString(), tag.GetCString(), MB_OK);
 			}
 		}

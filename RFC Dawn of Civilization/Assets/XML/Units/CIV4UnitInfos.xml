@@ -20496,9 +20496,7 @@
 					<UnitAIType>UNITAI_SPY_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
-			</UnitAIs>
-			<StateReligion>RELIGION_CATHOLICISM</StateReligion>	
-			<StateReligion>RELIGION_PROTESTANTISM</StateReligion>							
+			</UnitAIs>						
 			<PrereqTech>TECH_CARTOGRAPHY</PrereqTech>
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -23317,7 +23315,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_GENERAL</Description>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL_ARGENTINE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -23479,7 +23477,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_PROPHET</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_PROPHET</Description>
+			<Description>TXT_KEY_UNIT_GREAT_PROPHET_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_PROPHET_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
@@ -23574,7 +23572,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ARTIST</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_ARTIST</Description>
+			<Description>TXT_KEY_UNIT_GREAT_ARTIST_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
@@ -23634,7 +23632,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_SCIENTIST</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST</Description>
+			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
@@ -23755,7 +23753,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ENGINEER</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_ENGINEER</Description>
+			<Description>TXT_KEY_UNIT_GREAT_ENGINEER_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -23816,7 +23814,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_STATESMAN</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_STATESMAN</Description>
+			<Description>TXT_KEY_UNIT_GREAT_STATESMAN_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_STATESMAN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -23878,7 +23876,7 @@
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_GREAT_GENERAL</Description>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL_FEMALE</Description>
 			<Civilopedia>TXT_KEY_UNIT_GREAT_PEOPLE</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>

@@ -1,38 +1,57 @@
 # coding=utf-8
 from Consts import *
 from RFCUtils import *
+from RFCUtils import utils
+import AITrade
+import GameScore
+import DynamicModifiers
+import DoResurrectionManual
+import DynamicBuildings
+import DynamicCore
+import DynamicHistory
+import DynamicLand
+import HistoryEvents
+import Debug
+import ObserverMode
+import DocAlert
+import DOCM_AchievementSystem
+
 
 
 def checkturn(iGameTurn):
 
-    import AITrade
+
     AITrade.checkturn(iGameTurn)
 
-    import GameScore
+
     GameScore.checkTurn(iGameTurn)
 
-    import DynamicModifiers
+
     DynamicModifiers.checkturn(iGameTurn)
-    import DoResurrectionManual
+
     DoResurrectionManual.checkTurn(iGameTurn)
 
-    import DynamicBuildings
+
     DynamicBuildings.checkTurn(iGameTurn)
 
-    import DynamicCore
+
     DynamicCore.checkturn(iGameTurn)
 
-    import DynamicHistory
+
     DynamicHistory.checkturn(iGameTurn)
 
-    import DynamicLand
+
     DynamicLand.checkturn(iGameTurn)
 
-    import HistoryEvents
+
     HistoryEvents.checkturn(iGameTurn)
 
-    import Debug
+
     Debug.checkturn(iGameTurn)
+
+
+
+
 
     '''
 
@@ -49,12 +68,18 @@ def checkturn(iGameTurn):
     import EraVictory
     EraVictory.CheckTurn(iGameTurn)
     '''
-    import ObserverMode
+
     ObserverMode.CheckTurn(iGameTurn)
 
-    import DocAlert
+
     DocAlert.checkTurn(iGameTurn)
 
+
+    DOCM_AchievementSystem.checkturn()
+
+
+
+    utils.log_checkturn()
 
 '''
 '''
@@ -67,7 +92,7 @@ def initResourceInAllScenario():
 
 
 def ScenarioLog():
-    from RFCUtils import utils
+
     iHandicap = gcgame.getHandicapType()
     iScenario = utils.getScenario()
     txtScenario = ['BC3000', 'AD600', 'AD1700']
@@ -78,13 +103,21 @@ def ScenarioLog():
     elif iGameSpeed == 1:
         speedtext = "史诗速度"
     humanid = utils.getHumanID()
-    logText = ' 人类玩家: ' + utils.getCivChineseName(humanid) + '     游戏难度(1-5): ' + str(iHandicap + 1)
-    utils.logwithid(humanid, logText)
-    logText = ' 场景 : ' + str(txtScenario[iScenario]) + "     游戏速度: " + str(speedtext)
-    utils.logwithid(humanid, logText)
+    ScenarioStartLogText = ' 人类玩家: ' + utils.getCivChineseName(humanid) + '     游戏难度(1-5): ' + str(iHandicap + 1)
+    utils.logwithid(humanid, ScenarioStartLogText)
+    ScenarioStartLogText = ' 场景 : ' + str(txtScenario[iScenario]) + "     游戏速度: " + str(speedtext)
+    utils.logwithid(humanid, ScenarioStartLogText)
+
 
 
 def onScenarioStart():
     ScenarioLog()
     initResourceInAllScenario()
+    DOCM_AchievementSystem.onScenarioStart()
 
+
+def onALLUHVVictory():
+    DOCM_AchievementSystem.onUHVComplete()
+
+def onALLURVVictory():
+    DOCM_AchievementSystem.onURVComplete()

@@ -255,6 +255,10 @@ public:
 
 	void parseWonderLimitHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 
+
+	// mediv01
+	void CvDLLWidgetData::parseEndTurnHelp(CvWStringBuffer& szBuffer);
+
 protected:
 	
 	static CvDLLWidgetData* m_pInst;

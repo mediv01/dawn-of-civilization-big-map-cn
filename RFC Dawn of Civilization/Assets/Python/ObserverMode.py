@@ -68,7 +68,7 @@ def StartObServerMode(iTurns,iDestinationYear):
     else:
         iObserverSlot = iHarappa
         gcgetTeam(gcgetPlayer(iHarappa).getTeam()).setHasTech(iCalendar, True, iHarappa, False, False)
-    utils.makeUnit(iMachineGun, iObserverSlot, (0, 0), 1)
+    utils.makeUnit(iMilitia, iObserverSlot, (0, 0), 1)
     gcgame.setActivePlayer(iObserverSlot, False)
     gcgame.setAIAutoPlay(iTurns)
 

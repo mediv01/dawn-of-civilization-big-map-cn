@@ -17,13 +17,13 @@ static const int DEBUG_MODE = 0;
 static const int DEBUG_MODE = 0;
 //    参数为0时，关闭游戏运行的一些统计选项，日志输出等内容，减少卡顿
 
-static const int RELEASE_MODE = 0;
+static const int RELEASE_MODE = 1;
 //    参数为1时，关闭Python报错弹窗内容
 
 static const int ANYFUN_MODE = 0;
 //    参数为1时，进入ANYFUN娱乐模式1的参数选择
 
-static const CvWString DOCM_BIGMAP_VERSION = L"游戏版本：V10.5.5 2209 中秋版";
+static const CvWString DOCM_BIGMAP_VERSION = L"游戏版本：V10.5.7 230115 2023春节版";
 
 
 
@@ -46,6 +46,10 @@ static const CvWString DOCM_BIGMAP_VERSION = L"游戏版本：V10.5.5 2209 中秋版";
 
 
 // GlobalDefinesALT里比较耗时的参数，预制到DLL里
+
+
+
+// 全局globaldefinealt
 
 static const int ANYFUN_ENABLES_FREE_OUTSIDE_UNIT = 1 && ANYFUN_MODE;
 //    <!-- 为1时在外单位没有维护费  0为默认模式  mediv01  -->
@@ -248,6 +252,12 @@ static const int CVPLAYER_CAN_ALWAYS_TRADE_TECH = 1 && ANYFUN_MODE;
 static const int CVGAME_ALWAYS_SHOW_GOODY_IN_MAP = 1 ;
 //  <!-- 1为 可以在地图高亮显示部落村庄   mediv01  2021年8月版本新增内容 -->
 
+static const int CVGAME_ALWAYS_SHOW_UNIMPROVED_BONUS_IN_MAP = 1;
+//  <!-- 1为 可以在地图高亮显示没有改进的资源  mediv01 2023年1月版本新增内容 -->
+
+
+
+
 
 static const int CVCITY_PROB_REBELT_MULTIPLIER_WHEN_CULTURE_IN_LOW = -ANYFUN_MODE;
 //   <!-- -1 为取消文化低城市叛乱机制 大于0的数字为城市在低文化时叛乱概率的倍数 0为默认模式 mediv01 -->
@@ -262,6 +272,16 @@ static const int PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD = 1;
 static const int PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD_MAP = 0;
 //     <!-- 1为可以提示交易地图的信息，0为禁用 0为默认模式  mediv01 -->
 
+
+static const int PLAYER_AI_NO_ALLOW_ALABIA_TO_BUILD_SHIF_BEFORE_1500 = 1;
+//     <!-- 1为禁止AI阿拉伯等国家在AD1500年前造轻帆船，0为禁用 0为默认模式  mediv01 -->
+
+
+static const int CVGAMETEXT_SHOW_END_TURN_TEXT_HELP = 1;
+//  <!-- 1为 在结束回合处显示提示信息   mediv01  2023年1月版本新增内容 -->
+
+
+
 /*
 游戏运行日志输出参数相关日志
 */
@@ -269,27 +289,29 @@ static const int PLAYER_AI_ALLOW_TO_USE_CONSIDEROFFER_THRESHOLD_MAP = 0;
 static const int CVGAMECORE_DLL_LOG = 1 && DEBUG_MODE;
 //       <!-- 1为输出DLL日志情况 0为默认模式，  mediv01  -->
 
-static const int CVGAME_RECORED_GLOBAL_DEFINES_ALT_CALL = 1 && DEBUG_MODE;
-//       <!-- 1为计算每回合globaldefinesalt.xml的调用次数 0为默认模式，  mediv01  -->
-
-static const int CVGAME_RECORED_DLL_CALL_PYTHON_FUNCTION_CALL = 1 && DEBUG_MODE;
-//       <!-- 1为计算每回合DLL调用Python函数的调用次数 0为默认模式，  mediv01  -->
-
-static const int CVGAME_RECORED_FUNCTION_CALL = 1 && DEBUG_MODE;
-//       <!-- 1为计算每回合调用函数的次数 0为默认模式，  mediv01  -->
-
-static const int CVGAME_COUNT_ON_TIME_COST = 1 && DEBUG_MODE;
-//       <!-- 1为计算每回合计算的耗时情况 0为默认模式，  mediv01  -->
-
-static const int CVGAME_COUNT_ON_TIME_COST_LOG = 1 && DEBUG_MODE;
-//       <!-- 1为计算每回合计算的耗时情况输出日志 0为默认模式，  mediv01  -->
-
-
 static const int CVGAME_DO_UNITTEST_ON_DEBUG = 1 && DEBUG_MODE;
 //       <!-- 1为当打开提示信息的时候，进行单元测试 0为默认模式，  mediv01  -->
 
+static const int CVGAME_RECORED_GLOBAL_DEFINES_ALT_CALL = 0 && DEBUG_MODE;
+//       <!-- 1为计算每回合globaldefinesalt.xml的调用次数 0为默认模式，  mediv01  -->
 
+static const int CVGAME_RECORED_DLL_CALL_PYTHON_FUNCTION_CALL = 0 && DEBUG_MODE;
+//       <!-- 1为计算每回合DLL调用Python函数的调用次数 0为默认模式，  mediv01  -->
 
+static const int CVGAME_RECORED_FUNCTION_CALL = 0 && DEBUG_MODE;
+//       <!-- 1为计算每回合调用函数的次数 0为默认模式，  mediv01  -->
+
+static const int CVGAME_COUNT_ON_TIME_COST = 0 && DEBUG_MODE;
+//       <!-- 1为计算每回合计算的耗时情况 0为默认模式，  mediv01  -->
+
+static const int CVGAME_COUNT_ON_TIME_COST_LOG = 0 && DEBUG_MODE;
+//       <!-- 1为计算每回合计算的耗时情况输出日志 0为默认模式，  mediv01  -->
+
+static const int CVGAME_OUTPUT_ALL_GAMETEXT = 0 && DEBUG_MODE;
+//       <!-- 1为当打开提示信息的时候，输出所有的GAMETEXT 0为默认模式，  mediv01  -->
+
+static const int CVGAME_OUTPUT_DLL_GLOBAL_DEFINE_ALT = 0 && DEBUG_MODE;
+//       <!-- 1为当打开提示信息的时候，输出内置优化的GLOBALDEFINE_ALT 0为默认模式，  mediv01  -->
 
 
 
@@ -978,6 +1000,7 @@ public:
 	int m_iCVUNIT_HUMAN_SPY_CANNOT_REVEAL;
 	int m_iCAPTURE_CITY_WITHOUT_ANY_DAMAGE;
 	int m_iCAPTURE_CITY_WITH_ALL_DAMAGE;
+	int m_iCAPTURE_CITY_LOST_BUILDING_ALERT;
 	int m_iCITY_NO_ALLOW_TO_LIBERATE_TO_PLAYER;
 	int m_iCVCITY_HURRY_CALCULATION_WITH_FLOAT;
 	int m_iCVUNIT_GREAT_ENGINEER_ACCELERATE_UNLIMITED;
@@ -991,6 +1014,7 @@ public:
 	int m_iCVUNIT_CAN_CAPTURE_WORKER_WITHOUT_SLAVERY;
 	int m_iCVCITY_RELIGON_NO_DISAPPEAR;
 	int m_iCVPLAYERAI_CAN_TRADE_GOLD_TURN_BASE_ON_POPULATION;
+	int m_iCVINTERFACE_SHOW_INDEPENDENT_BIRTH_PLACE;
 
 
 
@@ -1021,6 +1045,8 @@ public:
 	bool AIcantradeTech(PlayerTypes eWhoTo, PlayerTypes eMyPlayer, TechTypes iTech) const;
 
 	void CvGlobals::show(CvWString text) const;
+	bool CvGlobals::isGameStart() const;
+	int CvGlobals::getTechQueuePosition(TechTypes iTech) const;
 
 	void logswithid(PlayerTypes PlayerID, CvWString2& buf, CvString2 filename) const;
 	void logs(CvWString2& buf, CvString2 filename) const;
@@ -1038,6 +1064,7 @@ public:
 	void countFunctionCall(CvString functionname) const;
 	void countFunctionStartTime(CvString functionname) const;
 	void countFunctionEndTime(CvString functionname) const;
+	void setGametextMap(CvString tagname, CvWString gametext) const;
 	void debug() const;
 	void doTurn() const;
 	int getTimeNow() const;

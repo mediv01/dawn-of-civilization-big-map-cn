@@ -18,4 +18,9 @@
 		<Tag>TXT_KEY_REGION_-1</Tag>
 		<English>中立区域 </English>
 		<L1/><L2/><L3/><L4/><Chinese>中立区域</Chinese><French>中立区域</French></TEXT>
+		
+	<TEXT>
+		<Tag>TXT_KEY_ANY_LOST_BUILDING_TEXT</Tag>
+		<English>攻占城市的时候，以下建筑受到损失：</English>
+		<L1/><L2/><L3/><L4/><Chinese>攻占城市的时候，以下建筑受到损失：</Chinese><French>攻占城市的时候，以下建筑受到损失：</French></TEXT>
 </Civ4GameText>

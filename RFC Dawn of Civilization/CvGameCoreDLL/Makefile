@@ -134,7 +134,7 @@ Debug_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /Zi /MDd /Od /RTC1 /D_DEBUG /F
 ## Modified by wunshare /O2 -> /Od  add /Zi ##
 Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DFP_PROFILE_ENABLE /Fp"$(Release_PCH)" /Fd"$(Release_PDB)" $(Release_MOD_CFLAGS)
 ##########################
-Final_Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"$(Final_Release_PDB)" $(Final_Release_MOD_CFLAGS)
+Final_Release_CFLAGS = $(GLOBAL_CFLAGS) $(PROJECT_CFLAGS) /MD /O2 /DNDEBUG /DFINAL_RELEASE /D_MOD_FRACTRADE /Fp"$(Final_Release_PCH)" /Fd"$(Final_Release_PDB)" $(Final_Release_MOD_CFLAGS)
 
 #### LDFLAGS ####
 ## Targets linker flags

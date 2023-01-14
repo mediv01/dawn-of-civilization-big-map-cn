@@ -511,7 +511,7 @@ class Barbs:
                 regionname = utils.getRegionNameCn(regionid)
             else:
                 regionname = ' '
-            # tem_text = "&#29420;&#31435;&#22478;&#37030;" + civname + "&#24050;&#32463;&#24314;&#31435;"
+
             tem_text = utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BEFORE_AD') + str(gcgame.getGameTurnYear()) + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_INDIPENDENT') + civname + utils.getText(
                 'TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_INDIPENDENT_START') + regionname + utils.getText("TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_INDIPENDENT_START_LOCATION") + " (" + str(x) + "," + str(y) + ")"
             utils.addMessage(gcgame.getActivePlayer(), False, iDuration, tem_text, "", 0, "", utils.ColorTypes(iWhite), -1, -1, True, True)
@@ -691,7 +691,6 @@ class Barbs:
                     regionname = utils.getRegionNameCn(regionid)
                 else:
                     regionname = "!"
-                # utils.show("&#34542;&#26063; " + civname_show + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_START_TO_INVADE')+ regionname + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_LOCATION') )
                 # tem_text="蛮族"+civname_show+"即将开始大规模入侵" + regionname+"地区"
                 tem_text = utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BEFORE_AD') + str(gcgame.getGameTurnYear()) + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_AND_YEAR') + civname_show + utils.getText(
                     'TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_START_TO_INVADE') + regionname + utils.getText('TXT_KEY_PYTHON_LOGGER_CHINESE_BARBS_LOCATION') + str(x1) + "," + str(y1) + ") To (" + str(x2) + "," + str(y2) + ")"

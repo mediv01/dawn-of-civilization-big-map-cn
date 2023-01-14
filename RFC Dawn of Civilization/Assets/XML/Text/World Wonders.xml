@@ -605,7 +605,7 @@
 		<Tag>TXT_KEY_BUILDING_SAINT_SOPHIA_HELP</Tag>
 		<English>[ICON_BULLET]Spreads Orthodoxy to all cities you own in Orthodoxy's Core or Historical area upon construction</English>
 		<L1/><L2/><L3/><L4/>
-		<Chinese>42</Chinese>
+		<Chinese>[ICON_BULLET]在建筑后，将东正教传播到你在东正教核心或历史地区拥有的所有城市</Chinese>
 	</TEXT>	
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_IRON_PILLAR_STRATEGY</Tag>
